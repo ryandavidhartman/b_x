@@ -1,0 +1,17 @@
+.codex
+
+# Python cache artifacts
+__pycache__/
+*.pyc
+
+# Editor and OS noise
+*~
+.DS_Store
+
+# One-off local backups and empty scratch artifacts
+publication/monsters/combined-monsters
+publication/monsters/*.bak*
+
+# Generated working/intermediate files
+build/
+publication/monsters/working/

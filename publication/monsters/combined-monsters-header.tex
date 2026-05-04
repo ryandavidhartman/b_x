@@ -1,0 +1,37 @@
+\usepackage{microtype}
+\usepackage{fontspec}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{etoolbox}
+\floatplacement{figure}{H}
+\floatplacement{table}{H}
+\setmainfont[
+  Path=/home/ryandavidhartman/dev/source/b_x/publication/spells/fonts/,
+  UprightFont=URWBookman-Light.otf,
+  BoldFont=URWBookman-Demi.otf,
+  ItalicFont=URWBookman-LightItalic.otf,
+  BoldItalicFont=URWBookman-DemiItalic.otf
+]{URWBookman-Light}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{3em}
+\setlength{\columnsep}{1.2em}
+\raggedcolumns
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\itshape B/X Book of Monsters}
+\fancyhead[R]{\small\itshape \leftmark}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\titleformat{\section}{\Large\bfseries\scshape}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{0.6em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection}{0.6em}{}
+\AtBeginEnvironment{longtable}{\small}
