@@ -77,15 +77,16 @@ Experience Points for Monsters Defeated
 
 `Damage:` Damage gives the matching damage values in the same order as the attacks listed.
 
-`Poison:` A poisoned hit is often fatal if the victim fails a save versus Poison.
+- Acid: Acid may continue to burn after the initial hit and can destroy armor as well as flesh.
 
-`Paralysis:` A failed save versus Paralysis leaves the victim helpless but aware, usually for `2-8` turns unless cured. Attacks against a paralyzed target hit automatically.
+- Charm: A charmed victim cannot act freely, cannot attack the charming monster, and will obey simple commands if they can be understood.
 
-`Energy Drain:` Energy drain removes a level of experience or one hit die with no saving throw. The loss cannot normally be cured.
+- Energy Drain: Energy drain removes a level of experience or one hit die with no saving throw. The loss cannot normally be cured.
 
-`Charm:` A charmed victim cannot act freely, cannot attack the charming monster, and will obey simple commands if they can be understood.
+- Paralysis: A failed save versus Paralysis leaves the victim helpless but aware, usually for `2-8` turns unless cured. Attacks against a paralyzed target hit automatically.
 
-`Acid:` Acid may continue to burn after the initial hit and can destroy armor as well as flesh.
+- Poison: A poisoned hit is often fatal if the victim fails a save versus Poison.
+
 
 `No. Appearing:` This gives the suggested number encountered on the dungeon level that matches the monster's Hit Dice or level. Numbers in parentheses give the usual lair or wilderness total, and a `0` means the monster is not normally found in that setting.
 
