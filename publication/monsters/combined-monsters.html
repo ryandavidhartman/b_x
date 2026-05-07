@@ -191,6 +191,382 @@
 <p><code>Armor Class:</code> Armor Class is given in the same general way as for player characters and is based on both protection and agility.</p>
 <p><code>Hit Dice:</code> Hit Dice show how many <code>d8</code> are rolled for hit points, including any pluses or minuses. Hit Dice also indicate a monster’s rough level, the dungeon level where it is most commonly found, its attack ability, and its experience value. In general, a monster’s level is equal to its Hit Dice, ignoring pluses and minuses, though especially dangerous monsters may be treated as a level higher. As a rule of thumb, monsters fit best within about two dungeon levels of their Hit Dice, with fewer appearing above that range and more below it.</p>
 <p>An asterisk after Hit Dice matters for experience awards. <code>*</code> means the special-abilities bonus is added once, and <code>**</code> means it is added twice.</p>
+<p>A monster’s hit dice also determines its chance to hit in combat and the amount of experience points characters earn for defeating them.</p>
+<p>Monster Melee &amp; Missile Attacks</p>
+<table>
+<thead>
+<tr class="header">
+<th>Hit Dice</th>
+<th>9</th>
+<th>8</th>
+<th>7</th>
+<th>6</th>
+<th>5</th>
+<th>4</th>
+<th>3</th>
+<th>2</th>
+<th>1</th>
+<th>0</th>
+<th>-1</th>
+<th>-2</th>
+<th>-3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Up to 1</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+<td>20</td>
+<td>20</td>
+<td>20</td>
+</tr>
+<tr class="even">
+<td>1+ to 2</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+<td>20</td>
+<td>20</td>
+</tr>
+<tr class="odd">
+<td>2+ to 3</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+<td>20</td>
+</tr>
+<tr class="even">
+<td>3+ to 4</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+</tr>
+<tr class="odd">
+<td>4+ to 5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+</tr>
+<tr class="even">
+<td>5+ to 6</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+</tr>
+<tr class="odd">
+<td>6+ to 7</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+</tr>
+<tr class="even">
+<td>7+ to 9</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>9+ to 12</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+</tr>
+<tr class="even">
+<td>12+ to 13</td>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+</tr>
+<tr class="odd">
+<td>13+ to 15</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+</tr>
+<tr class="even">
+<td>15+ to 17</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+</tr>
+<tr class="odd">
+<td>17+ to 19</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>19+ to 21</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+</tr>
+<tr class="odd">
+<td>21+</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
+<p>Experience Points for Monsters Defeated</p>
+<table>
+<thead>
+<tr class="header">
+<th>Hit Dice</th>
+<th>XP Value</th>
+<th>Special Ability Bonus</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>&gt; 1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>10</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>1+</td>
+<td>15</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>20</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>2+</td>
+<td>25</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>35</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>3+</td>
+<td>50</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>75</td>
+<td>50</td>
+</tr>
+<tr class="odd">
+<td>4+</td>
+<td>125</td>
+<td>75</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>157</td>
+<td>125</td>
+</tr>
+<tr class="odd">
+<td>5+</td>
+<td>225</td>
+<td>175</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>275</td>
+<td>225</td>
+</tr>
+<tr class="odd">
+<td>6+</td>
+<td>350</td>
+<td>300</td>
+</tr>
+<tr class="even">
+<td>7-7+</td>
+<td>450</td>
+<td>400</td>
+</tr>
+<tr class="odd">
+<td>8-8+</td>
+<td>650</td>
+<td>550</td>
+</tr>
+<tr class="even">
+<td>9-10+</td>
+<td>900</td>
+<td>700</td>
+</tr>
+<tr class="odd">
+<td>11-12+</td>
+<td>1,100</td>
+<td>800</td>
+</tr>
+<tr class="even">
+<td>13-16+</td>
+<td>1,350</td>
+<td>950</td>
+</tr>
+<tr class="odd">
+<td>17-20+</td>
+<td>2,000</td>
+<td>1,250</td>
+</tr>
+<tr class="even">
+<td>21 +</td>
+<td>2,500</td>
+<td>2,000</td>
+</tr>
+</tbody>
+</table>
 <p><code>Move:</code> Move gives the number of feet a monster may travel in one turn. The number in parentheses is the number of feet it may move in one combat round. If two movement rates are given, the first is ordinary movement and the second is a special mode such as swimming, flying, or climbing.</p>
 <p><code>Attacks:</code> Attacks gives the number and kind of attacks a monster may make in one round.</p>
 <p><code>Damage:</code> Damage gives the matching damage values in the same order as the attacks listed.</p>

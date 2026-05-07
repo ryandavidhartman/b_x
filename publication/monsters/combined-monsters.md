@@ -22,6 +22,55 @@ All non-human monsters have infravision unless a description says otherwise. The
 
 An asterisk after Hit Dice matters for experience awards. `*` means the special-abilities bonus is added once, and `**` means it is added twice.
 
+A monster's hit dice also determines its chance to hit in combat and the amount of experience points
+characters earn for defeating them.
+
+Monster Melee & Missile Attacks
+
+| Hit Dice  |  9 |  8 |  7 |  6 |  5 |  4 |  3 |  2 |  1 |  0 | -1 | -2 | -3 |
+|-----------|----|----|----|----|----|----|----|----|----|----|----|----|----|
+|  Up to 1  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 20 |
+|  1+ to 2  |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 |
+|  2+ to 3  |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
+|  3+ to 4  |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
+|  4+ to 5  |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 |
+|  5+ to 6  |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 |
+|  6+ to 7  |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
+|  7+ to 9  |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 |
+|  9+ to 12 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 |
+| 12+ to 13 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 |
+| 13+ to 15 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 |
+| 15+ to 17 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 |
+| 17+ to 19 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 |
+| 19+ to 21 |  2 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |
+|     21+   |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |
+
+Experience Points for Monsters Defeated
+
+| Hit Dice | XP Value | Special Ability Bonus |
+|----------|----------|-----------------------|
+| > 1      | 1        | 1                     |
+|   1      | 10       | 2                     |
+|   1+     | 15       | 4                     |
+|   2      | 20       | 5                     |
+|   2+     | 25       | 10                    |
+|   3      | 35       | 15                    |
+|   3+     | 50       | 25                    |
+|   4      | 75       | 50                    |
+|   4+     | 125      | 75                    |
+|   5      | 157      | 125                   |
+|   5+     | 225      | 175                   |
+|   6      | 275      | 225                   |
+|   6+     | 350      | 300                   |
+|   7-7+   | 450      | 400                   |
+|   8-8+   | 650      | 550                   |
+|   9-10+  | 900      | 700                   |
+|  11-12+  | 1,100    | 800                   |
+|  13-16+  | 1,350    | 950                   |
+|  17-20+  | 2,000    | 1,250                 |
+|    21 +  | 2,500    | 2,000                 |
+
+
 `Move:` Move gives the number of feet a monster may travel in one turn. The number in parentheses is the number of feet it may move in one combat round. If two movement rates are given, the first is ordinary movement and the second is a special mode such as swimming, flying, or climbing.
 
 `Attacks:` Attacks gives the number and kind of attacks a monster may make in one round.
