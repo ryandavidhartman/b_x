@@ -4,65 +4,46 @@ Date: `2026-05-07`
 
 ## Latest Session Update
 
-This session focused on expanding the monster book's illustration set with newly generated black-and-white plate art and wiring that art into the Markdown source.
+This session focused on using illustrations as page-by-page layout shims in the monster PDF, rather than trying more global layout logic.
 
 Current uncommitted monster-book changes:
 
-- Modified [publication/monsters/combined-monsters.md](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters.md) to add new illustration links at the ends of selected entries.
-- Added [publication/monsters/illustration-slate.md](/home/ryandavidhartman/dev/source/b_x/publication/monsters/illustration-slate.md) to track the larger planned illustration slate.
-- Added these new asset files under [publication/monsters/assets](/home/ryandavidhartman/dev/source/b_x/publication/monsters/assets):
-  - `bandit-plate.png`
-  - `bear-plate.png`
-  - `chimera-plate.png`
-  - `dragon-plate.png`
-  - `driver-ant-plate.png`
-  - `dwarf-plate.png`
-  - `elf-plate.png`
-  - `gargoyle-plate.png`
-  - `giant-beetle-plate.png`
-  - `griffon-plate.png`
-  - `harpy-plate.png`
-  - `lizard-man-plate.png`
-  - `manticore-plate.png`
-  - `minotaur-plate.png`
-  - `owl-bear-plate.png`
-  - `rust-monster-plate.png`
-  - `shark-plate.png`
-  - `unicorn-plate.png`
-  - `wyvern-plate.png`
+- Modified [publication/monsters/combined-monsters.md](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters.md)
+- Modified [publication/monsters/combined-monsters.pdf](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters.pdf)
+- Modified these existing asset files under [publication/monsters/assets](/home/ryandavidhartman/dev/source/b_x/publication/monsters/assets):
+  - `black-pudding-plate.png`
+  - `blink-dog-plate.png`
+  - `bugbear-plate.png`
+- Added this new untracked asset:
+  - `dryad-plate.png`
 
-Entries currently linked to new generated plates in `combined-monsters.md`:
+What was attempted:
 
-- `Chimera`
-- `Dragon`
-- `Gargoyle*`
-- `Griffon`
-- `Harpy`
-- `Lizard Man`
-- `Manticore`
-- `Minotaur`
-- `Owl Bear`
-- `Rust Monster`
-- `Unicorn`
-- `Wyvern`
-- `Bear`
-- `Shark`
-- `Ant, Driver`
-- `Beetle, Giant`
-- `Bandit`
-- `Dwarf`
-- `Elf`
+- Cropped some existing plates manually and rebuilt the PDF.
+- Reduced `black-pudding-plate.png`, `blink-dog-plate.png`, and `bugbear-plate.png` slightly to try to pull the `Bugbear` image back onto page 7.
+- Generated a new `Dryad` plate in matching black-and-white line-art style and inserted it into the `Dryad` entry as a page-flow shim.
+- Scaled the actual `dryad-plate.png` file down from `1424x1104` to `619x480`.
 
-Important note about style direction:
+Current state of the `Dryad` experiment:
 
-- A rougher `-v2` illustration experiment was generated briefly, but the user preferred the original cleaner `v1` images.
-- The `-v2` files were deleted and should not be looked for.
+- `combined-monsters.md` now includes a `Dryad` illustration before `Basilisk`.
+- The inserted Markdown currently reads:
+  - `![Expert monster illustration: dryad](assets/dryad-plate.png){ width=42% }`
+- The user explicitly rejected changing only the display width as the main control lever and wanted the actual image scaled instead.
+- The goal is very specific:
+  - `Basilisk` should start at the top of the right column on page 6.
 
-Immediate next step after reboot:
+What the latest rebuild achieved:
 
-1. Rebuild the monster book HTML and PDF and inspect layout/fit of the newly inserted illustrations.
-2. Decide which of the newly linked plates should stay, be moved within entries, be resized by layout changes, or be replaced.
-3. Continue generating and linking additional plates from `illustration-slate.md` only after reviewing the rebuilt outputs.
+- `Black Pudding` now starts on page 7.
+- But `Dryad` still occupies the top of the right column on page 6.
+- Therefore the exact target was not reached: `Basilisk` does **not** start at the top of the right column on page 6.
+
+Important note for the next session:
+
+- Do not spend time re-arguing global layout changes.
+- The user wants fast, concrete page-by-page PDF adjustments.
+- The next logical step is to keep working on the `Dryad`/page-6 shim problem by changing the actual image size and/or placement until `Basilisk` lands at the top of the right column on page 6.
 
 ## Current State
 
@@ -166,6 +147,7 @@ Current output behavior:
 - Spell HTML remains straightforward and readable.
 - Spell PDF now uses a two-column layout without requiring per-spell special cases.
 - The repo has a documented build process and is now under Git/GitHub.
+- The page-shim idea can change downstream pagination in useful ways; adding/scaling an illustration is a viable lever.
 
 ## Current Known Risks
 
@@ -175,15 +157,16 @@ Current output behavior:
 - Some monster text likely still contains OCR issues or reconstructed wording that has not been fully source-checked.
 - `publication/monsters/generate_monsters.py` is still in the repo as legacy material, which may confuse a future editor unless they read the README/handoff first.
 - `source/` and the published HTML/PDF outputs are currently committed, so the repo is larger and more artifact-heavy than a source-only repo.
+- The current `Dryad` insertion is only a partial success and may be reverted or adjusted further.
+- `combined-monsters.md` currently contains a temporary `Dryad` width override that may not be the final desired mechanism.
 
 ## Best Next Steps
 
-1. Rebuild monsters and inspect the new inserted illustrations in both HTML and PDF.
-2. Continue visual proofreading of the monster PDF and add more full-width-table exceptions only where needed.
-3. Decide which of the current generated plates should remain and which entries still need art from `illustration-slate.md`.
-4. Continue content proofreading of monster entries against the Basic and Expert page PDFs where exact wording matters.
-5. Decide later whether `source/` and committed output files should remain in the repo long-term.
-6. If the monster PDF stabilizes, do a final consistency pass on TOC behavior, ordering, and cross-references.
+1. Resolve the specific page-6 target: make `Basilisk` start at the top of the right column on page 6.
+2. Re-check page 7 after any `Dryad` adjustment so `Black Pudding` still starts cleanly there.
+3. Continue the same page-by-page image-shim method only where it clearly improves the PDF.
+4. Decide whether the temporary `Dryad` Markdown width override should be kept, changed, or removed.
+5. Continue content proofreading of monster entries against the Basic and Expert page PDFs where exact wording matters.
 
 ## Command Reminder
 

@@ -122,11 +122,13 @@ When a monster entry includes multiple varieties, the original grouped presentat
 | Treasure Type | D |
 | Alignment | Neutral |
 
-A dryad is a beautiful female tree spirit, who lives in a woodland setting or a dense forest. Each individual dryad always lives in a specific tree and will die in one turn if taken more than 240' away from it. A dryad will also die if her tree dies. If a dryad wishes to be unobserved, she will join with her tree, becoming part of it. Dryads are extremely shy and non-violent, but very suspicious of strangers.
+A dryad is a beautiful female tree spirit who lives in a woodland setting or dense forest. Each individual dryad always lives in a specific tree and will die in one turn if taken more than 240’ away from it. A dryad will also die if her tree dies. If a dryad wishes to be unobserved, she will join with her tree, becoming part of it. Dryads are extremely shy and non-violent, but very suspicious of strangers.
 
 Anyone approaching or following a dryad, not merely standing in the area of the tree, may be attacked by the powerful charm person spell these creatures can cast. The victim must make a saving throw vs. Spells with a penalty of -2 on the roll. A charmed character will approach the tree and be drawn into it. Unless rescued immediately, the victim will never be seen again.
 
 Dryads hide their treasure in hollows under the roots of their trees.
+
+![Expert monster illustration: dryad](assets/dryad-plate.png)
 
 ### Basilisk
 *Source:* `Expert`  
@@ -168,7 +170,13 @@ Characters looking away to avoid the gaze of a basilisk must fight it with a pen
 | Treasure Type | Nil |
 | Alignment | Neutral |
 
-A black pudding is a black amorphous blob 5-30 feet in diameter. It is non-intelligent and constantly hungry. It can dissolve wood and corrode metal in one turn, but cannot affect stone. Black puddings can travel on ceilings and walls and can pass through small openings. They can be killed only by fire; other attacks (weapons or spells) only break them up into smaller puddings (a 2 hit dice pudding that does 1-8 points of damage is created per blow). A flaming sword will do normal damage.
+A black pudding is a black amorphous blob 5'–30' in diameter. It is non-intelligent, constantly hungry, and moves silently through dark places in search of prey.
+
+It can dissolve wood and corrode metal in one turn, but cannot affect stone. Ancient dungeons often bear long black scars where a pudding has slowly passed. The air around a black pudding is damp and foul, carrying the stench of rot and corrosion.
+
+Black puddings can travel on ceilings and walls and can pass through small openings. They instinctively avoid bright light and often lurk in forgotten tunnels, wells, and dungeon cisterns.
+
+They can be killed only by fire; other attacks (weapons or spells) merely break them into smaller puddings (a 2 hit dice pudding that does 1–8 points of damage is created per blow). A flaming sword will do normal damage.
 
 ![Expert monster illustration: black pudding](assets/black-pudding-plate.png)
 
