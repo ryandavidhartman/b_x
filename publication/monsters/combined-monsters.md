@@ -79,7 +79,11 @@ Experience Points for Monsters Defeated
 
 - Acid: Acid may continue to burn after the initial hit and can destroy armor as well as flesh.
 
+- Charge: A charge occurs when a monster rushes quickly into melee combat. A monster cannot charge while already engaged in melee combat or while moving through difficult terrain such as mountains, hills, forests, swamps, jungles, or broken ground. To charge, a monster must move at least 10 yards. If the attack hits, it deals double damage. Successful attacks made against a charging monster with a spear or polearm also deal double damage to the charging monster.
+
 - Charm: A charmed victim cannot act freely, cannot attack the charming monster, and will obey simple commands if they can be understood.
+
+- Continuous Damage: Some special forms of damage, such as blood drain, swallowing, constriction, and similar attacks, deal damage automatically each round until the attacker is killed, driven off, or releases its victim.
 
 - Energy Drain: Energy drain removes a level of experience or one hit die with no saving throw. The loss cannot normally be cured.
 
@@ -166,6 +170,8 @@ Characters looking away to avoid the gaze of a basilisk must fight it with a pen
 
 A black pudding is a black amorphous blob 5-30 feet in diameter. It is non-intelligent and constantly hungry. It can dissolve wood and corrode metal in one turn, but cannot affect stone. Black puddings can travel on ceilings and walls and can pass through small openings. They can be killed only by fire; other attacks (weapons or spells) only break them up into smaller puddings (a 2 hit dice pudding that does 1-8 points of damage is created per blow). A flaming sword will do normal damage.
 
+![Expert monster illustration: black pudding](assets/black-pudding-plate.png)
+
 ### Blink Dog
 *Source:* `Expert`  
 
@@ -184,6 +190,8 @@ A black pudding is a black amorphous blob 5-30 feet in diameter. It is non-intel
 
 Blink dogs look like Australian wild dogs. They are highly intelligent, travel in packs, and use a limited teleportation ability: they can "blink out" of one spot and immediately appear ("blink in") at another. When attacking, they "blink" close to an enemy, attack, and then reappear 10 to 40 feet away. On any round in which they have the initiative, they can attack without risking a counterattack by the defender, by "blinking" away. Their instincts prevent blink dogs from "blinking" into solid objects. If seriously threatened, an entire pack will "blink" out and not reappear. Blink dogs always attack displacer beasts, their natural enemies.
 
+![Expert monster illustration: blink dog](assets/blink-dog-plate.png)
+
 ### Bugbear
 *Source:* `Basic`  
 
@@ -201,6 +209,8 @@ Blink dogs look like Australian wild dogs. They are highly intelligent, travel i
 | Alignment | Chaotic |
 
 Bugbears are giant hairy goblins. Despite their size and awkward walk, they move very quietly and attack without warning whenever they can. They surprise on a roll of 1-3 (on 1d6) due to their stealth. When using weapons, they add + 1 to all damage rolls due to their strength.
+
+![Basic monster illustration: bugbear](assets/bugbear-plate.png)
 
 ### Caecilia
 *Source:* `Expert`  
@@ -261,6 +271,8 @@ Without a spell, the paralysis will wear off in 2-8 turns.
 A centaur is a creature with the head, arms, and upper body of a man joined to the body and legs of a horse. Centaurs prefer to live far from humankind in meadows and forests. Since they are somewhat intelligent, they will arm themselves with weapons such as clubs, lances, or bows.
 
 Centaurs will form into small tribes or families. Their homes will be found in dense thickets or woods reached by twisting and guarded pathways. The females and young will usually stay in the lair. If attacked, females and young will attempt to flee unless escape is impossible, in which case they will fight to the death. The young will fight as 2 hit dice monsters, doing 1-2 / 1-2 / 1-4 damage or by weapon type.
+
+![Expert monster illustration: centaur](assets/centaur-plate.png)
 
 ### Chimera
 *Source:* `Expert`  
@@ -370,6 +382,8 @@ Devil swine possess a powerful charm person spell that can be used 3 times each 
 A displacer beast looks like a large black panther with six legs and a pair of tentacles growing from its shoulders. It attacks with these tentacles, which have sharp horn-like edges. A displacer beast always appears to be 3' from its actual position, making the creature hard to hit: any creature attacking it must subtract 2 from the "to hit" rolls. The displacer beast also receives a +2 bonus on all saving throws.
 
 They are semi-intelligent. Displacer beasts hate and fear blink dogs, and will always attack them and anyone traveling with them.
+
+![Expert monster illustration: displacer beast](assets/displacer-beast-plate.png)
 
 ### Djinni, Lesser*
 *Source:* `Expert`  
@@ -504,6 +518,8 @@ Dragon turtles live in great caverns on the bottom of the deepest oceans, where 
 
 Note: Dragon turtles are extremely powerful creatures that should not be used unless the player characters are of very high level.
 
+![Expert monster illustration: dragon turtle](assets/dragon-turtle-plate.png)
+
 ### Efreeti, Lesser*
 *Source:* `Expert`  
 
@@ -526,6 +542,8 @@ Efreet are free-willed fire elementals. They usually appear as clouds of smoke t
 Efreet can create objects, create illusions, and turn invisible like djinn. They may also create a wall of fire up to 3 times per day. An efreeti can transform itself into a pillar of flame for up to 3 rounds, setting flammable items within 5' alight and doing an extra 1-8 points of damage to creatures it strikes while in that form.
 
 Efreet may fly and carry up to 10,000 en weight while flying. They can be summoned by high-level magic-users who know the special spells required, but once summoned they must be carefully controlled.
+
+![Expert monster illustration: efreeti](assets/efreeti-plate.png)
 
 ### Elemental*
 *Source:* `Expert`  
@@ -599,6 +617,8 @@ Gargoyles are magical  and save as Fighter: 8. They can only be hit with magic o
 | Alignment | Neutral |
 
 These  are made of a clear jelly and are shaped like cubes about 10' on a side. Due to their near transparency, they surprise on a roll of 1-4 (1d6). They move through the rooms and corridors of dungeons, sweeping the halls clean of all living and dead material. In the process, they may pick up items they can't dissolve (such as gold pieces and gems). Though they usually eat carrion, they will attack any living creature they encounter, inflicting 2d4 points of damage. Each successful hit will paralyze the victim unless a saving throw versus Paralysis is made. Any attacks on a paralyzed victim will automatically hit (only a damage roll is needed). This paralysis is the normal type (lasting 2-8 turns unless removed by a cure light wounds spell). A gelatinous cube may be harmed by fire and weapons, but not by cold or lightning.
+
+![Basic monster illustration: gelatinous cube](assets/gelatinous-cube-plate.png)
 
 ### Ghoul
 *Source:* `Basic`  
@@ -860,6 +880,8 @@ Hellhounds have a 75% chance per round of detecting an invisible person or objec
 | Alignment | Neutral |
 
 A hippogriff is a fantastic creature with the foreparts and head of a giant eagle and the hindquarters of a horse. Hippogriffs can be ridden if tamed. They usually attack pegasi, their natural enemies, and nest in rocky crags.
+
+![Expert monster illustration: hippogriff](assets/hippogriff-plate.png)
 
 ### Hobgoblin
 *Source:* `Basic`  
@@ -1309,6 +1331,8 @@ Purple worms are huge, slime-covered creatures over 100' long and 8' to 10' in d
 
 Those stung by the tail must save vs. Poison or die. Note that if encountered underground, the size of underground tunnels may prevent a purple worm from using one or both of its attacks.
 
+![Expert monster illustration: purple worm](assets/purple-worm-plate.png)
+
 ### Roc
 *Source:* `Expert`  
 
@@ -1606,6 +1630,8 @@ If it is damaged, a thoul will regenerate 1 hit point per round as long as it is
 Treants are 18' tall tree-men who resemble trees. Treants are only concerned with protecting forests and plant life. They speak a slow and difficult tongue and distrust those who use fire. Because treants are often mistaken for normal trees, all encounters with treants take place at 30 yards or less and they surprise a party on a roll of 1-3.
 
 One treant can animate any two trees within 60' to move at 30', 5', and fight as treants. A treant may change which trees it is animating at will.
+
+![Expert monster illustration: treant](assets/treant-plate.png)
 
 ### Troglodyte
 *Source:* `Basic`  
@@ -2068,6 +2094,8 @@ Crocodiles are commonly found in tropical and semi-tropical swamps or in slow-mo
 
 Large crocodiles are at least 20' long, and can overturn canoes and small rafts. Giant crocodiles are normally found only in "lost worlds" where prehistoric creatures thrive. They are over 50' long and have been known to attack small boats or ships.
 
+![Expert monster illustration: crocodile](assets/crocodile-plate.png)
+
 ### Elephant
 *Source:* `Expert`  
 
@@ -2431,6 +2459,8 @@ Giant Rattlesnake: A giant rattlesnake is a 10' long snake with brown and white 
 
 Rock Python: A rock python is a 20' long giant snake with brown and yellow scales set in a spiral pattern. Its first attack is a bite. If the bite is successful, a rock python will coil around the victim and constrict in the same round. This squeezing does 2d4 points of damage per round, and begins automatically once the bite hits.
 
+![Basic monster illustration: snake](assets/snake-plate.png)
+
 ### Squid, Giant
 *Source:* `Expert`  
 
@@ -2696,6 +2726,8 @@ When frightened or attacked, cave locusts make a loud shrieking noise to warn th
 A giant scorpion is the size of a small horse and will usually attack on sight. It fights by grasping opponents with its claws and stinging the immobilized foe. If a claw hits, the stinger attacks at +2.
 
 Anyone struck by the stinger must save vs. Poison or die. Giant scorpions live in deserts, caves, and ruins.
+
+![Expert monster illustration: giant scorpion](assets/giant-scorpion-plate.png)
 
 ### Spider, Giant
 *Source:* `Basic`  

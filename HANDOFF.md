@@ -1,6 +1,68 @@
 # B/X Handoff
 
-Date: `2026-05-03`
+Date: `2026-05-07`
+
+## Latest Session Update
+
+This session focused on expanding the monster book's illustration set with newly generated black-and-white plate art and wiring that art into the Markdown source.
+
+Current uncommitted monster-book changes:
+
+- Modified [publication/monsters/combined-monsters.md](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters.md) to add new illustration links at the ends of selected entries.
+- Added [publication/monsters/illustration-slate.md](/home/ryandavidhartman/dev/source/b_x/publication/monsters/illustration-slate.md) to track the larger planned illustration slate.
+- Added these new asset files under [publication/monsters/assets](/home/ryandavidhartman/dev/source/b_x/publication/monsters/assets):
+  - `bandit-plate.png`
+  - `bear-plate.png`
+  - `chimera-plate.png`
+  - `dragon-plate.png`
+  - `driver-ant-plate.png`
+  - `dwarf-plate.png`
+  - `elf-plate.png`
+  - `gargoyle-plate.png`
+  - `giant-beetle-plate.png`
+  - `griffon-plate.png`
+  - `harpy-plate.png`
+  - `lizard-man-plate.png`
+  - `manticore-plate.png`
+  - `minotaur-plate.png`
+  - `owl-bear-plate.png`
+  - `rust-monster-plate.png`
+  - `shark-plate.png`
+  - `unicorn-plate.png`
+  - `wyvern-plate.png`
+
+Entries currently linked to new generated plates in `combined-monsters.md`:
+
+- `Chimera`
+- `Dragon`
+- `Gargoyle*`
+- `Griffon`
+- `Harpy`
+- `Lizard Man`
+- `Manticore`
+- `Minotaur`
+- `Owl Bear`
+- `Rust Monster`
+- `Unicorn`
+- `Wyvern`
+- `Bear`
+- `Shark`
+- `Ant, Driver`
+- `Beetle, Giant`
+- `Bandit`
+- `Dwarf`
+- `Elf`
+
+Important note about style direction:
+
+- A rougher `-v2` illustration experiment was generated briefly, but the user preferred the original cleaner `v1` images.
+- The `-v2` files were deleted and should not be looked for.
+
+Immediate next step after reboot:
+
+1. Rebuild the monster book HTML and PDF and inspect layout/fit of the newly inserted illustrations.
+2. Decide which of the newly linked plates should stay, be moved within entries, be resized by layout changes, or be replaced.
+3. Continue generating and linking additional plates from `illustration-slate.md` only after reviewing the rebuilt outputs.
 
 ## Current State
 
@@ -67,6 +129,9 @@ Current output behavior:
 
 ## Completed Today
 
+- Generated and added a first wave of new monster/NPC/animal/insect plate illustrations for the monster book.
+- Linked those new generated plates into selected entries in [publication/monsters/combined-monsters.md](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters.md).
+- Added [publication/monsters/illustration-slate.md](/home/ryandavidhartman/dev/source/b_x/publication/monsters/illustration-slate.md) to track the broader planned art rollout.
 - Renamed the handoff document to `HANDOFF.md` so it is no longer date-stamped in the filename.
 - Confirmed the monster workflow no longer depends on `generate_monsters.py` as the active source path.
 - Tried a mixed monster HTML/PDF column approach, then backed HTML out to a clean single-column layout with the TOC restored.
@@ -95,6 +160,7 @@ Current output behavior:
 
 ## Current Known Good
 
+- The new generated plates are present on disk and linked into the monster Markdown source for 19 entries.
 - Monster HTML is back to a readable single-column layout with the TOC present.
 - Monster PDF is substantially improved with two-column layout and targeted wide-table handling.
 - Spell HTML remains straightforward and readable.
@@ -103,6 +169,8 @@ Current output behavior:
 
 ## Current Known Risks
 
+- The new generated illustration style is only partially validated; the user has not yet rebuilt the monster HTML/PDF to inspect page fit and visual consistency in output.
+- Adding many more plates may require layout adjustments if the current inserts create awkward page breaks or crowding.
 - Monster PDF layout is improved but still not final; more entries may need the same full-width-table treatment if additional awkward tables are spotted.
 - Some monster text likely still contains OCR issues or reconstructed wording that has not been fully source-checked.
 - `publication/monsters/generate_monsters.py` is still in the repo as legacy material, which may confuse a future editor unless they read the README/handoff first.
@@ -110,10 +178,12 @@ Current output behavior:
 
 ## Best Next Steps
 
-1. Continue visual proofreading of the monster PDF and add more full-width-table exceptions only where needed.
-2. Continue content proofreading of monster entries against the Basic and Expert page PDFs where exact wording matters.
-3. Decide later whether `source/` and committed output files should remain in the repo long-term.
-4. If the monster PDF stabilizes, do a final consistency pass on TOC behavior, ordering, and cross-references.
+1. Rebuild monsters and inspect the new inserted illustrations in both HTML and PDF.
+2. Continue visual proofreading of the monster PDF and add more full-width-table exceptions only where needed.
+3. Decide which of the current generated plates should remain and which entries still need art from `illustration-slate.md`.
+4. Continue content proofreading of monster entries against the Basic and Expert page PDFs where exact wording matters.
+5. Decide later whether `source/` and committed output files should remain in the repo long-term.
+6. If the monster PDF stabilizes, do a final consistency pass on TOC behavior, ordering, and cross-references.
 
 ## Command Reminder
 
