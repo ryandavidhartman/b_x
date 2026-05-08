@@ -283,6 +283,8 @@ A chimera is a horrid combination of three different creatures. It has three hea
 
 Like a regular dragon, the dragon head will breathe fire 50% of the time or bite 50% of the time. The dragon's head can only breathe 3 times per day. Chimeras usually live in wild hills, but may occasionally be found in dungeons.
 
+![Expert monster illustration: chimera](assets/chimera-plate.png)
+
 ### Cockatrice
 *Source:* `Expert`  
 
@@ -475,6 +477,8 @@ GOLD DRAGONS: Gold dragons always talk and use spells. They can also change thei
 
 Dragons are extremely powerful and should be used with caution when encountered by low-level player characters. It is recommended that until characters reach the fourth level and higher, only the youngest and smallest dragons be used by the DM.
 
+![Basic monster illustration: dragon](assets/dragon-plate.png)
+
 ### Dragon Turtle
 *Source:* `Expert`  
 
@@ -575,6 +579,8 @@ Water elementals appear as great waves of water 1/2' tall and 2' in diameter for
 | Alignment | Chaotic 1-4 |
 
 Gargoyles are magical  and save as Fighter: 8. They can only be hit with magic or magical weapons. As pictured in medieval architecture, they are horned, clawed, fanged, winged, hideous-looking beasts. Their skin often looks exactly like stone and are often mistaken to be statues. Gargoyles are very cunning and at least semi-intelligent. They will attack nearly anything that approaches them. Gargoyles are not affected by sleep or charm spells. The DM is advised to use gargoyles only if the player characters have at least one magical weapon.
+
+![Basic monster illustration: gargoyle](assets/gargoyle-plate.png)
 
 ### Gelatinous Cube
 *Source:* `Basic`  
@@ -789,6 +795,8 @@ A griffon is a large monster with the head, wings, and front claws of an eagle a
 
 Wild griffons will attack any who approach their nests. If captured young, they can be tamed to become fierce, loyal mounts, with training left to the DM's discretion. Tamed griffons are still likely to attack horses, however, and must check morale as above.
 
+![Expert monster illustration: griffon](assets/griffon-plate.png)
+
 ### Harpy
 *Source:* `Basic`  
 
@@ -809,6 +817,8 @@ Wild griffons will attack any who approach their nests. If captured young, they 
 A harpy has the lower body of a giant eagle and the upper body and head of a hideous-looking woman. By their singing, harpies lure creatures to them, to be killed and devoured. Any creature hearing the harpy's song must save vs. Spells or be charmed (see special attacks at the beginning of the  section).
 
 Charmed individuals will move toward the harpies, resisting any attempt to stop them, but not otherwise attacking. If a character saves against the songs of a group of harpies, the character will not be affected by any of their songs during the encounter. Harpies are resistant to magic and have a + 2 on all their saves.
+
+![Basic monster illustration: harpy](assets/harpy-plate.png)
 
 ### Hellhound
 *Source:* `Expert`  
@@ -977,6 +987,8 @@ A living statue is an enchanted animated creature made by a powerful wizard. It 
 
 These water-dwelling creatures look like men with lizard heads and tails. They live in tribes. They will try to capture humans and demi-humans and take the victims back to the tribal lair as the main course of a feast. Lizard men are semi-intelligent and use weapons such as spears and large clubs (treat the clubs as maces) gaining a bonus of + 1 on damage rolls due to their great strength. Lizard men are often found in swamps, rivers, and along seacoasts as well as in dungeons.
 
+![Basic monster illustration: lizard man](assets/lizard-man-plate.png)
+
 ### Lycanthrope*
 *Source:* `Basic`  
 
@@ -1033,6 +1045,8 @@ Armor Class in parentheses applies when in human form.
 A manticore is a horrid monster having a man's face, the body of a lion, leathery bat wings, and a tail ridged with spikes. The manticore has 24 spikes and can shoot 6 each round even when flying. The tail spikes have a 180' range and each do 1-6 points of damage. The creature will regrow 2 spikes per day.
 
 The manticore's favorite food is man. They usually live in wild mountain ranges. They will frequently track parties with humans, ambushing with spike attacks when the party stops to rest.
+
+![Expert monster illustration: manticore](assets/manticore-plate.png)
 
 ### Medusa
 *Source:* `Basic`  
@@ -1097,6 +1111,8 @@ Mermen often keep trained marine animals and monsters to help guard their homes.
 A minotaur is a large man with the head of a bull. It is larger than human size, and eats humans. A minotaur will always attack anything its size or smaller and will pursue as long as its prey is in sight.
 
 Minotaurs are semi-intelligent and some use weapons, preferring a spear, club, or axe. Minotaurs gain + 2 to damage done with a weapon due to their strength. If a minotaur uses a weapon, it may not gore or bite. Minotaurs usually live in tunnels or mazes.
+
+![Basic monster illustration: minotaur](assets/minotaur-plate.png)
 
 ### Mummy*
 *Source:* `Expert`  
@@ -1224,6 +1240,8 @@ There are many different tribes of orcs. Members of different tribes are not usu
 
 An owl bear is a huge bear-like creature with the head of a giant owl. An owl bear stands 8' tall and weighs 1500 pounds (15,000 coins). Owl bears have nasty tempers and are usually hungry, preferring meat. If both paws of an owl bear hit the same opponent in one round, the owl bear will "hug" for an additional 2d8 points of damage. They are commonly found underground and in dense forests.
 
+![Basic monster illustration: owl bear](assets/owl-bear-plate.png)
+
 ### Pegasus
 *Source:* `Expert`  
 
@@ -1329,6 +1347,8 @@ Roc nests are found in the highest mountains and 50% of the time will contain 1-
 | Alignment | Neutral |
 
 A rust monster has a body like a giant armadillo with a long tail, and 2 long front "feelers" (antennae). If a character hits a rust monster, or if a rust monster hits a character with its antenna, it will cause any metal armor or weapons touching it to immediately rust, so that they are unusable and worthless. Each time magical weapons and armor are struck they will lose one plus. Magical weapons and armor have a chance of not being affected. For each "plus" that a weapon or armor has, there is a 10% chance that it will not rust. EXAMPLE: A shield + 3 has a 30% chance of surviving the attack or else it is reduced to a shield + 2. A rust monster is attracted by the smell of metal. It eats the rust created by its attacks.
+
+![Basic monster illustration: rust monster](assets/rust-monster-plate.png)
 
 ### Salamander*
 *Source:* `Expert`  
@@ -1653,6 +1673,8 @@ Undead are evil creatures created through dark magic. They are unaffected by thi
 
 A unicorn looks like a slender horse with a horn growing from its forehead. A unicorn is a fierce but shy creature. Only a pure maiden can talk to or ride one. It can magically teleport itself with a rider to a distance of 360' once per day.
 
+![Basic monster illustration: unicorn](assets/unicorn-plate.png)
+
 ### Vampire*
 *Source:* `Expert`  
 
@@ -1792,6 +1814,8 @@ When a wraith hits in melee, it will do normal damage and also drain one life en
 
 A wyvern looks like a two-legged, winged dragon with a long tail. In combat, the wyvern will bite and arch its tail over its head to hit opponents in front of it. Those stung by the tail must save vs. Poison or die. These beasts prefer to live on cliffs or in forests, but may be found anywhere.
 
+![Expert monster illustration: wyvern](assets/wyvern-plate.png)
+
 ### Yellow Mold
 *Source:* `Basic`  
 
@@ -1928,6 +1952,8 @@ They are omnivorous (will eat almost anything), but prefer roots and berries. A 
 They live in cold regions. They usually eat fish, but are as likely to attack as grizzly bears. These huge bears are good swimmers, and their wide feet allow them to run across snow without sinking.
 
 - *Cave bear*: A cave bear is a type of giant grizzly bear which lives in caves and "lost world" areas. It stands about 15' tall and is the most ferocious of all the bears. Though omnivorous, a cave bear prefers meat, and enjoys human flesh. Cave bears have bad eyesight but a good sense of smell. If hungry, they will follow a track of blood until they have eaten.
+
+![Basic monster illustration: bear](assets/bear-plate.png)
 
 ### Boar
 *Source:* `Basic`  
@@ -2345,6 +2371,8 @@ Mako sharks are 15' long and blue-gray or tan in color. Mako sharks are extremel
 
 Great white sharks are 30' long or larger and gray with a white underside. They have been known to destroy small boats.
 
+![Expert monster illustration: shark](assets/shark-plate.png)
+
 ### Shrew, Giant
 *Source:* `Basic`  
 
@@ -2511,6 +2539,8 @@ Driver ants are giant black ants about 6' long. They are omnivorous. When hungry
 
 Once engaged in combat, they will fight to the death, even trying to cross flames to reach their opponents. The nest-lair will always be guarded by 4-24 driver ants. There are legends of driver ants mining gold, and there is a 30% chance that a driver ant lair will contain 1-10 thousand gp worth of nuggets.
 
+![Basic monster illustration: driver ant](assets/driver-ant-plate.png)
+
 ### Bee, Killer
 *Source:* `Basic`  
 
@@ -2556,6 +2586,8 @@ A special kind of honey may be found inside the beehive. If eaten, it acts as on
 - *Tiger Beetle*: Tiger beetles are 4' long giant beetles with a striped carapace (a shell-like covering) which looks like a tiger's skin. They are carnivorous (meat-eaters) and usually prey on robber flies.
 
 They have been known to attack and eat humans, crushing them with their powerful mandibles.
+
+![Basic monster illustration: giant beetle](assets/giant-beetle-plate.png)
 
 ### Centipede, Giant
 *Source:* `Basic`  
@@ -2870,6 +2902,8 @@ Bandits are NPC thieves who have joined together for the purpose of robbing othe
 
 Bandits may have an NPC leader of any class, fighter, magic-user, thief, or cleric, who is of an experience level higher than the bandits.
 
+![Basic NPC illustration: bandit](assets/bandit-plate.png)
+
 ### Berserker
 *Source:* `Basic`  
 
@@ -2910,6 +2944,8 @@ The result is the percentage chance for that leader to own a magical item from a
 
 As long as their leader is fighting with them and still alive, dwarven morale is 10 rather than 8. Dwarves hate goblins, and will usually attack them on sight.
 
+![Basic NPC illustration: dwarf](assets/dwarf-plate.png)
+
 ### Elf
 *Source:* `Basic`  
 
@@ -2927,6 +2963,8 @@ As long as their leader is fighting with them and still alive, dwarven morale is
 | Alignment | Neutral |
 
 Elves can also appear as NPCs. Each elf will have one 1st level spell (chosen at random). When a group of 15 or more elves appears, one of them will be a leader of level 2-7 (1d6 + 1). Check for possible magical items that the leader may have. To check for items, multiply the leader's level by 5. The result is the percentage chance for that leader to have a magic item from any one of the magic subtables. Roll separately for each subtable, and check all the magic subtables. As long as their leader is alive, elven morale is 10 rather than 8.
+
+![Basic NPC illustration: elf](assets/elf-plate.png)
 
 ### Gnome
 *Source:* `Basic`  
