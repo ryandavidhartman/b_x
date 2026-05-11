@@ -2,7 +2,7 @@
 title: "B/X Book of Monsters"
 subtitle: "A merged and deduplicated monster chapter from the Basic and Expert rulebooks"
 author: "Compiled from the 1981 Basic and Expert Sets"
-date: "May 2nd 2026"
+date: "May 8^th^ 2026"
 lang: "en-US"
 ---
 
@@ -10,66 +10,35 @@ lang: "en-US"
 
 ## Using This Chapter
 
-The monsters are arranged alphabetically for quick reference.
-
 Some monster names are followed by an asterisk (`*`). This means that special or magical weapons are needed to fight them, and such monsters should be used with caution.
 
 All non-human monsters have infravision unless a description says otherwise. They can detect heat out to `60'` in darkness. Hot objects appear bright, warm things appear in shades of gray, cold things appear dark, and large heat sources can interfere with this sense.
 
 `Armor Class:` Armor Class is given in the same general way as for player characters and is based on both protection and agility.
 
-`Hit Dice:` Hit Dice show how many `d8` are rolled for hit points, including any pluses or minuses. Hit Dice also indicate a monster's rough level, the dungeon level where it is most commonly found, its attack ability, and its experience value. In general, a monster's level is equal to its Hit Dice, ignoring pluses and minuses, though especially dangerous monsters may be treated as a level higher. As a rule of thumb, monsters fit best within about two dungeon levels of their Hit Dice, with fewer appearing above that range and more below it.
+`Hit Dice:` Hit Dice show how many `d8` are rolled for a monster’s hit points, including any pluses or minuses. They also indicate a monster’s approximate level, attack ability, experience value, and the dungeon levels where it is most commonly encountered. In general, a monster’s level equals its Hit Dice, ignoring pluses and minuses, though especially dangerous monsters may count as one level higher. As a rule of thumb, monsters are most common within two dungeon levels of their Hit Dice, appearing less often above that range and more often below it.
 
-An asterisk after Hit Dice matters for experience awards. `*` means the special-abilities bonus is added once, and `**` means it is added twice.
+A monster's hit dice also determines its chance to hit in combat and the amount of experience points characters earn for defeating them.
 
-A monster's hit dice also determines its chance to hit in combat and the amount of experience points
-characters earn for defeating them.
+| Hit Dice  |  9 |  8 |  7 |  6 |  5 |  4 |  3 |  2 |  1 |  0 | -1 | -2 | -3 | XP Value     | Special XP Bonus |
+|-----------|----|----|----|----|----|----|----|----|----|----|----|----|----|--------------|----------------|
+| Up to 1   | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 20 | 10–15        | 2–4            |
+| 1+ to 2   |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 15–25        | 4–10           |
+| 2+ to 3   |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 25–50        | 10–25          |
+| 3+ to 4   |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 50–100       | 25–50          |
+| 4+ to 5   |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 100–200      | 50–125         |
+| 5+ to 6   |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 200–325      | 125–250        |
+| 6+ to 7   |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 325–500      | 250–450        |
+| 7+ to 9   |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 500–1,000    | 450–800        |
+| 9+ to 12  |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 1,000–1,350  | 800–950        |
+| 12+ to 13 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 1,350–1,800  | 950–1,200      |
+| 13+ to 15 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 1,500–1,800  | 1,000–1,200    |
+| 15+ to 17 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 1,800–2,250  | 1,200–1,500    |
+| 17+ to 19 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 2,000–2,250  | 1,250–1,500    |
+| 19+ to 21 |  2 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 2,250–2,500+ | 1,500–2,000+   |
+| 21+       |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 | 2,500+       | 2,000+         |
 
-Monster Melee & Missile Attacks
-
-| Hit Dice  |  9 |  8 |  7 |  6 |  5 |  4 |  3 |  2 |  1 |  0 | -1 | -2 | -3 |
-|-----------|----|----|----|----|----|----|----|----|----|----|----|----|----|
-|  Up to 1  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 20 |
-|  1+ to 2  |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 |
-|  2+ to 3  |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
-|  3+ to 4  |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
-|  4+ to 5  |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 |
-|  5+ to 6  |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 |
-|  6+ to 7  |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
-|  7+ to 9  |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 |
-|  9+ to 12 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 |
-| 12+ to 13 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 |
-| 13+ to 15 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 |
-| 15+ to 17 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 |
-| 17+ to 19 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 |
-| 19+ to 21 |  2 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |
-|     21+   |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |
-
-Experience Points for Monsters Defeated
-
-| Hit Dice | XP Value | Special Ability Bonus |
-|----------|----------|-----------------------|
-| > 1      | 1        | 1                     |
-|   1      | 10       | 2                     |
-|   1+     | 15       | 4                     |
-|   2      | 20       | 5                     |
-|   2+     | 25       | 10                    |
-|   3      | 35       | 15                    |
-|   3+     | 50       | 25                    |
-|   4      | 75       | 50                    |
-|   4+     | 125      | 75                    |
-|   5      | 157      | 125                   |
-|   5+     | 225      | 175                   |
-|   6      | 275      | 225                   |
-|   6+     | 350      | 300                   |
-|   7-7+   | 450      | 400                   |
-|   8-8+   | 650      | 550                   |
-|   9-10+  | 900      | 700                   |
-|  11-12+  | 1,100    | 800                   |
-|  13-16+  | 1,350    | 950                   |
-|  17-20+  | 2,000    | 1,250                 |
-|    21 +  | 2,500    | 2,000                 |
-
+An asterisk after Hit Dice matters for experience awards. `*` means the Special XP Bonus is added once, and `**` means it is added twice.
 
 `Move:` Move gives the number of feet a monster may travel in one turn. The number in parentheses is the number of feet it may move in one combat round. If two movement rates are given, the first is ordinary movement and the second is a special mode such as swimming, flying, or climbing.
 
@@ -79,7 +48,7 @@ Experience Points for Monsters Defeated
 
 - Acid: Acid may continue to burn after the initial hit and can destroy armor as well as flesh.
 
-- Charge: A charge occurs when a monster rushes quickly into melee combat. A monster cannot charge while already engaged in melee combat or while moving through difficult terrain such as mountains, hills, forests, swamps, jungles, or broken ground. To charge, a monster must move at least 10 yards. If the attack hits, it deals double damage. Successful attacks made against a charging monster with a spear or polearm also deal double damage to the charging monster.
+- Charge: A charge occurs when a monster rushes into melee combat. A monster cannot charge while already in melee or while moving through difficult terrain such as mountains, hills, forests, swamps, jungles, or broken ground. To charge, the monster must move at least 10 yards before attacking. A successful charge attack deals double damage. Spears and polearms used against a charging monster also deal double damage on a successful hit.
 
 - Charm: A charmed victim cannot act freely, cannot attack the charming monster, and will obey simple commands if they can be understood.
 
@@ -91,7 +60,6 @@ Experience Points for Monsters Defeated
 
 - Poison: A poisoned hit is often fatal if the victim fails a save versus Poison.
 
-
 `No. Appearing:` This gives the suggested number encountered on the dungeon level that matches the monster's Hit Dice or level. Numbers in parentheses give the usual lair or wilderness total, and a `0` means the monster is not normally found in that setting.
 
 `Save As:` This gives the class and level used for saving throws. Intelligent monsters usually save at full monster level, often as fighters unless the description says otherwise. Unintelligent monsters often save at half level, rounded up.
@@ -102,33 +70,12 @@ Experience Points for Monsters Defeated
 
 `Alignment:` Alignment shows whether a monster is Lawful, Neutral, or Chaotic. Unintelligent animals are usually Neutral.
 
-When a monster entry includes multiple varieties, the original grouped presentation has been kept rather than split into many near-duplicate entries. This is especially true for dragons, lycanthropes, living statues, giant animals, sharks, whales, and similar related families.
+![Welcome Adventures](assets/intro-plate.png)
+
+::: pagebreak-pdf
+:::
 
 ## Monster Descriptions
-
-### Dryad
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 2* |
-| Movement | 120' (40') |
-| Attacks | See below |
-| Damage | 0 |
-| No. Appearing | 0 (1-6) |
-| Save As | Fighter: 4 |
-| Morale | 6 |
-| Treasure Type | D |
-| Alignment | Neutral |
-
-A dryad is a beautiful female tree spirit who lives in a woodland setting or dense forest. Each individual dryad always lives in a specific tree and will die in one turn if taken more than 240’ away from it. A dryad will also die if her tree dies. If a dryad wishes to be unobserved, she will join with her tree, becoming part of it. Dryads are extremely shy and non-violent, but very suspicious of strangers.
-
-Anyone approaching or following a dryad, not merely standing in the area of the tree, may be attacked by the powerful charm person spell these creatures can cast. The victim must make a saving throw vs. Spells with a penalty of -2 on the roll. A charmed character will approach the tree and be drawn into it. Unless rescued immediately, the victim will never be seen again.
-
-Dryads hide their treasure in hollows under the roots of their trees.
-
-![Expert monster illustration: dryad](assets/dryad-plate.png)
 
 ### Basilisk
 *Source:* `Expert`  
@@ -136,7 +83,7 @@ Dryads hide their treasure in hollows under the roots of their trees.
 | Stat | Value |
 | --- | --- |
 | Armor Class | 4 |
-| Hit Dice | 6 + r* |
+| Hit Dice | 6 + 1** |
 | Move | 60' (20') |
 | Attacks | 1 bite + gaze |
 | Damage | 1-10 points + petrification |
@@ -154,7 +101,7 @@ Characters looking away to avoid the gaze of a basilisk must fight it with a pen
 
 ![Expert monster illustration: basilisk](assets/basilisk-plate.png)
 
-### Black Pudding
+### Black Pudding*
 *Source:* `Expert`  
 
 | Stat | Value |
@@ -176,7 +123,7 @@ It can dissolve wood and corrode metal in one turn, but cannot affect stone. Anc
 
 Black puddings can travel on ceilings and walls and can pass through small openings. They instinctively avoid bright light and often lurk in forgotten tunnels, wells, and dungeon cisterns.
 
-They can be killed only by fire; other attacks (weapons or spells) merely break them into smaller puddings (a 2 hit dice pudding that does 1–8 points of damage is created per blow). A flaming sword will do normal damage.
+They can be killed only by fire; other attacks (weapons or spells) merely break them into smaller puddings (a 2 hit dice pudding that does 1–8 points of damage is created per blow). A **flaming sword** will do normal damage.
 
 ![Expert monster illustration: black pudding](assets/black-pudding-plate.png)
 
@@ -196,7 +143,11 @@ They can be killed only by fire; other attacks (weapons or spells) merely break 
 | Treasure Type | C |
 | Alignment | Lawful |
 
-Blink dogs look like Australian wild dogs. They are highly intelligent, travel in packs, and use a limited teleportation ability: they can "blink out" of one spot and immediately appear ("blink in") at another. When attacking, they "blink" close to an enemy, attack, and then reappear 10 to 40 feet away. On any round in which they have the initiative, they can attack without risking a counterattack by the defender, by "blinking" away. Their instincts prevent blink dogs from "blinking" into solid objects. If seriously threatened, an entire pack will "blink" out and not reappear. Blink dogs always attack displacer beasts, their natural enemies.
+Blink dogs resemble lean wild dogs with pale coats and bright, alert eyes. Fiercely social creatures, they travel and hunt in packs. Blink dogs are nearly as clever as humans, possess a complex spoken language of their own, and can understand Elvish. Their unique ability allows them to instantly teleport, or “blink,” from one location to another.
+
+In combat, blink dogs “blink” beside an enemy, strike, and then reappear 10’–40’ away. On any round in which they win initiative, they may attack and vanish again before a defender can retaliate. Their natural instincts prevent them from “blinking” into solid objects or other dangerous spaces.
+
+If badly threatened, an entire pack may “blink” away and not return. Blink dogs are the natural enemies of displacer beasts and will attack them on sight.
 
 ![Expert monster illustration: blink dog](assets/blink-dog-plate.png)
 
@@ -254,9 +205,11 @@ These giant gray wormlike creatures are about 30' long. They attack with their c
 | Treasure Type | B |
 | Alignment | Neutral |
 
-This scavenger is worm-shaped, 9' long and 3' high with many legs. It can move equally well on a floor, wall, or ceiling like a spider. Its mouth is surrounded by 8 tentacles, each 2' long, which can paralyze on a successful hit unless a saving throw vs. Paralysis is made. Once paralyzed, a victim will be eaten (unless the carrion crawler is being attacked). The paralysis can be removed by a cure light wounds spell, but any spell so used will have no other effect.
+This scavenger is a worm-like creature about 9’ long and 3’ high, with dozens of small legs that allow it to move with ease across floors, walls, and ceilings like a giant spider. Its maw is ringed with eight 2’ long tentacles that can paralyze a victim on a successful hit unless a saving throw vs. Paralysis is made.
 
-Without a spell, the paralysis will wear off in 2-8 turns.
+Once a victim is paralyzed, the carrion crawler will begin feeding unless driven off or attacked. A **cure light wounds** spell will remove the paralysis, though the spell has no other effect when used in this way.
+
+Without magical aid, the paralysis wears off naturally in 2–8 turns.
 
 ![Basic monster illustration: carrion crawler](assets/carrion-crawler-plate.png)
 
@@ -276,9 +229,11 @@ Without a spell, the paralysis will wear off in 2-8 turns.
 | Treasure Type | A |
 | Alignment | Neutral |
 
-A centaur is a creature with the head, arms, and upper body of a man joined to the body and legs of a horse. Centaurs prefer to live far from humankind in meadows and forests. Since they are somewhat intelligent, they will arm themselves with weapons such as clubs, lances, or bows.
+A centaur has the head, arms, and upper body of a human joined to the body and legs of a powerful horse. Proud and wary creatures, centaurs prefer the deep forests and open meadows far from the settlements of humankind. They are intelligent enough to craft and use weapons such as clubs, lances, bows, and spears.
 
-Centaurs will form into small tribes or families. Their homes will be found in dense thickets or woods reached by twisting and guarded pathways. The females and young will usually stay in the lair. If attacked, females and young will attempt to flee unless escape is impossible, in which case they will fight to the death. The young will fight as 2 hit dice monsters, doing 1-2 / 1-2 / 1-4 damage or by weapon type.
+Centaurs usually live in small tribes or extended family bands. Their hidden camps are often concealed within dense woods or thorny thickets, reached only by twisting, carefully guarded trails. Females and young generally remain within the lair while the warriors patrol and hunt.
+
+If threatened, the females and young will attempt to flee unless escape is impossible, in which case they will fight fiercely to the death. Young centaurs fight as 2 hit dice monsters, attacking with small weapons or with hooves for 1-2 / 1-2 / 1-4 damage.
 
 ![Expert monster illustration: centaur](assets/centaur-plate.png)
 
@@ -299,9 +254,11 @@ Centaurs will form into small tribes or families. Their homes will be found in d
 | Treasure Type | F |
 | Alignment | Chaotic |
 
-A chimera is a horrid combination of three different creatures. It has three heads, goat, lion, and dragon, the forebody of a lion, the hindquarters of a goat, and the wings of a dragon. The goat's head gores with its horns, the lion's head bites with its fangs, and the dragon's head can bite or breathe fire, a 50' long cone with a 10' wide end, for 3-18 points of damage.
+A chimera is a monstrous fusion of three different creatures. It has the three heads of a goat, lion, and dragon; the forebody of a great lion; the hindquarters of a goat; and the scaled wings of a dragon. Each head attacks independently: the goat gores with its horns, the lion tears with its fangs, and the dragon head can either bite or breathe fire.
 
-Like a regular dragon, the dragon head will breathe fire 50% of the time or bite 50% of the time. The dragon's head can only breathe 3 times per day. Chimeras usually live in wild hills, but may occasionally be found in dungeons.
+The dragon’s fiery breath forms a 50’ long cone, 10’ wide at its furthest point, inflicting 3–18 points of damage on all caught within it. Like a true dragon, the dragon head will breathe fire 50% of the time and bite 50% of the time when attacking. However, its breath weapon can only be used three times per day.
+
+Chimeras are savage, ill-tempered predators most often found in wild hills, rocky badlands, and remote mountain regions, though they sometimes lair in deep dungeons or ruined strongholds.
 
 ![Expert monster illustration: chimera](assets/chimera-plate.png)
 
@@ -346,11 +303,11 @@ Cockatrices may be found anywhere.
 
 A cyclops is a rare type of giant, noted for its great size and the single eye in the center of its forehead. A cyclops is about 20' tall. It has poor depth perception due to its single eye, and strikes with a penalty of -2 on all "to hit" rolls. A cyclops will usually fight with a wooden club. A cyclops can throw rocks up to a distance of 200 feet with a penalty of -2 to hit. These rocks will cause 3-18 points of damage to any creature struck.
 
-Some cyclops, 5%, are able to cast a curse once a week. The DM should decide the exact nature of the curse.
+Some cyclops, 5%, are able to cast a **curse** once a week. The DM should decide the exact nature of the **curse**.
 
 A cyclops usually lives alone, though a small group may sometimes share a large cave. They spend their time raising sheep and grapes. Cyclopes are known for their stupidity, and a clever party can often escape from them by trickery.
 
-### Devil Swine
+### Devil Swine*
 *Source:* `Expert`  
 
 | Stat | Value |
@@ -367,9 +324,11 @@ A cyclops usually lives alone, though a small group may sometimes share a large 
 | Treasure Type | C |
 | Alignment | Chaotic |
 
-Devil swine are lycanthropes, shape-changers. They haunt the fringes of human settlements, especially those near swamps or forests. They are carnivorous and especially fond of human flesh. They can assume the forms of huge hogs or fat human beings, and can change from one form to the other freely at night, but at dawn they must retain their current form until dusk. Devil swine can be harmed only by silver or magical weapons.
+Devil swine are vile lycanthropes and shape-changers that haunt the edges of isolated human settlements, especially those near deep forests, marshes, and swamps. Carnivorous and cruel, they possess an insatiable hunger for human flesh. By night, a devil swine may freely shift between the form of a massive boar and that of a bloated, brutish human. At dawn, however, it becomes trapped in its current shape until dusk returns. Like other lycanthropes, devil swine can only be harmed by silver or magical weapons.
 
-Devil swine possess a powerful charm person spell that can be used 3 times each 24 hours. They can use this spell in either human or swine form. A saving throw vs. Spells is allowed, at -2 on the roll. The charmed victim will be unable to use spells or magical devices, and each devil swine may have 0-3 humans under its control. Devil swine prefer to attack from ambush.
+Devil swine possess a powerful charm person ability that may be used three times every 24 hours, regardless of their current form. Victims may save vs. Spells at a -2 penalty to resist its influence. Charmed victims lose the ability to use spells or magical devices and become obedient servants to the creature. Each devil swine may control up to 0–3 humans at a time.
+
+Cunning and patient hunters, devil swine prefer ambushes, deception, and nighttime attacks over open battle.
 
 ### Displacer Beast
 *Source:* `Expert`  
@@ -387,9 +346,11 @@ Devil swine possess a powerful charm person spell that can be used 3 times each 
 | Treasure Type | D |
 | Alignment | Neutral |
 
-A displacer beast looks like a large black panther with six legs and a pair of tentacles growing from its shoulders. It attacks with these tentacles, which have sharp horn-like edges. A displacer beast always appears to be 3' from its actual position, making the creature hard to hit: any creature attacking it must subtract 2 from the "to hit" rolls. The displacer beast also receives a +2 bonus on all saving throws.
+A displacer beast resembles a great black panther with six powerful legs and a pair of long tentacles sprouting from its shoulders. Each tentacle ends in sharp, horn-like ridges that slash and tear at nearby prey.
 
-They are semi-intelligent. Displacer beasts hate and fear blink dogs, and will always attack them and anyone traveling with them.
+The creature’s most feared ability is its constant distortion of light and space. A displacer beast always appears to be about 3’ from its true position, making it extremely difficult to strike. Any creature attacking a displacer beast suffers a -2 penalty on all “to hit” rolls against it, and the beast gains a +2 bonus on all saving throws.
+
+Displacer beasts possess a cruel, predatory cunning and delight in stalking intelligent prey. They harbor an instinctive hatred and fear of blink dogs, attacking them and any creatures traveling with them on sight.
 
 ![Expert monster illustration: displacer beast](assets/displacer-beast-plate.png)
 
@@ -410,13 +371,30 @@ They are semi-intelligent. Displacer beasts hate and fear blink dogs, and will a
 | Treasure Type | Nil |
 | Alignment | Neutral |
 
-The djinn are intelligent, free-willed air elementals. They appear as tall, human-like beings, surrounded with clouds. Djinn are highly magical in nature and save as 14th level fighters. They can only be harmed by magic or magical weapons.
+The djinn are intelligent, free-willed air elementals. They appear as tall, human-like beings, surrounded with clouds. Djinn are highly magical in nature and save as 14^th^ level fighters. They can only be harmed by magic or magical weapons.
 
-A djinni can perform any of its seven powers three times a day. These powers are: create food and drink, as a 7th level cleric; create metallic objects of temporary duration, varying with hardness, gold for 1 day and iron for one round, to a maximum of 1000 en weight; create soft goods and wooden objects, permanent, to a maximum of 1000 en weight; become invisible; assume gaseous form; or form itself into a whirlwind. In addition, a djinni can create illusions that affect both sight and hearing at will. Such illusions last until touched or magically dispelled; the djinni need not concentrate to maintain them.
+A djinni can perform any of its seven powers three times a day:
 
-Djinn have two forms of attack. A djinni can form itself into a whirlwind, 70' tall, 20' diameter at the top, 10' diameter at base, that moves 120' (40') per turn. The djinni requires 5 rounds to enter or leave whirlwind form. The djinni-whirlwind will do 2-12 points of damage to all in its path and will sweep aside all creatures with fewer than 2 hit dice who do not save vs. Death Ray. When not in whirlwind form, a djinni strikes once per round with its fists for 2-16 points of damage. If a djinni is slain, it returns to its own plane. A djinni can carry 6000 en weight without tiring. Up to 12,000 en weight can be carried for 3 turns walking or 1 turn flying. Afterwards, a djinni must rest for one turn.
+- Create food and drink, as a 7^th^ level cleric
+- Create temporary metallic objects up to 1,000 cn weight. Duration varies by hardness, from 1 day for gold to 1 round for iron
+- Create soft goods and wooden objects, permanent, to a maximum of 1000 cn weight
+- Become invisible
+- Assume gaseous form
+- Form itself into a whirlwind.
 
-### Doppleganger
+In addition, a djinni can create illusions that affect both sight and hearing at will. Such illusions last until touched or magically dispelled; the djinni need not concentrate to maintain them.
+
+Djinn have two forms of attack:
+
+A djinni can form itself into a whirlwind, 70' tall, 20' diameter at the top, 10' diameter at base, that moves 120' (40') per turn. The djinni requires 5 rounds to enter or leave whirlwind form. The djinni-whirlwind will do 2-12 points of damage to all in its path and will sweep aside all creatures with fewer than 2 hit dice who do not save vs. Death Ray.
+
+When not in whirlwind form, a djinni strikes once per round with its fists for 2-16 points of damage.
+
+If a djinni is slain, it returns to its own plane.
+
+A djinni can carry 6000 cn weight without tiring. Up to 12,000 cn weight can be carried for 3 turns walking or 1 turn flying. Afterwards, a djinni must rest for one turn.
+
+### Doppelganger
 *Source:* `Basic`  
 
 | Stat | Value |
@@ -432,11 +410,16 @@ Djinn have two forms of attack. A djinni can form itself into a whirlwind, 70' t
 | Treasure Type | E |
 | Alignment | Chaotic |
 
-These man-sized, shape-changing creatures are intelligent and evil.
+Doppelgangers are evil, shape-changing creatures roughly the size of a human. Cunning and highly intelligent, they delight in deception, betrayal, and murder.
 
-A doppleganger is able to shape itself into the exact form of any human-like creature (up to 7' tall) it sees. Once in the form of the person it is imitating, it will always attack that person. Its favorite trick is to kill the original person in some way without the party knowing. Then, in the role of that individual, it will attack the others by surprise, often when the party is already engaged in combat.
+A doppelganger can assume the exact appearance of any human-like creature up to 7’ tall that it has seen. Once it adopts a victim’s form, it will usually attempt to kill the original secretly and take its place without the victim’s companions realizing the substitution. A doppelganger often waits until the party is distracted, resting, or engaged in battle before striking by surprise from within their ranks.
 
-Sleep and charm spells do not affect dopplegangers and they save as Fighter: 10 due to their highly magical nature. When killed, a doppleganger will turn back into its original form.
+Due to their magical nature, doppelgangers are immune to **sleep** and **charm** spells and save as 10^th^ level Fighter.
+
+When slain, a doppelganger immediately reverts to its true form.
+
+::: pagebreak-pdf
+:::
 
 ### Dragon
 *Source:* `Basic`  
@@ -528,6 +511,30 @@ Note: Dragon turtles are extremely powerful creatures that should not be used un
 
 ![Expert monster illustration: dragon turtle](assets/dragon-turtle-plate.png)
 
+### Dryad
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 2* |
+| Movement | 120' (40') |
+| Attacks | See below |
+| Damage | 0 |
+| No. Appearing | 0 (1-6) |
+| Save As | Fighter: 4 |
+| Morale | 6 |
+| Treasure Type | D |
+| Alignment | Neutral |
+
+A dryad is a beautiful female tree spirit who lives in a woodland setting or dense forest. Each individual dryad always lives in a specific tree and will die in one turn if taken more than 240’ away from it. A dryad will also die if her tree dies. If a dryad wishes to be unobserved, she will join with her tree, becoming part of it. Dryads are extremely shy and non-violent, but very suspicious of strangers.
+
+Anyone approaching or following a dryad, not merely standing in the area of the tree, may be attacked by the powerful charm person spell these creatures can cast. The victim must make a saving throw vs. Spells with a penalty of -2 on the roll. A charmed character will approach the tree and be drawn into it. Unless rescued immediately, the victim will never be seen again.
+
+Dryads hide their treasure in hollows under the roots of their trees.
+
+![Expert monster illustration: dryad](assets/dryad-plate.png)
+
 ### Efreeti, Lesser*
 *Source:* `Expert`  
 
@@ -549,7 +556,7 @@ Efreet are free-willed fire elementals. They usually appear as clouds of smoke t
 
 Efreet can create objects, create illusions, and turn invisible like djinn. They may also create a wall of fire up to 3 times per day. An efreeti can transform itself into a pillar of flame for up to 3 rounds, setting flammable items within 5' alight and doing an extra 1-8 points of damage to creatures it strikes while in that form.
 
-Efreet may fly and carry up to 10,000 en weight while flying. They can be summoned by high-level magic-users who know the special spells required, but once summoned they must be carefully controlled.
+Efreet may fly and carry up to 10,000 cn weight while flying. They can be summoned by high-level magic-users who know the special spells required, but once summoned they must be carefully controlled.
 
 ![Expert monster illustration: efreeti](assets/efreeti-plate.png)
 

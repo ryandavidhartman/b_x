@@ -2,6 +2,38 @@ local function stringify(inlines)
   return pandoc.utils.stringify(inlines)
 end
 
+local function is_pdf_pagebreak_div(block)
+  return block.t == "Div" and block.classes and block.classes:includes("pagebreak-pdf")
+end
+
+local function is_pdf_columnbreak_div(block)
+  return block.t == "Div" and block.classes and block.classes:includes("columnbreak-pdf")
+end
+
+local function pagebreak_blocks(in_columns)
+  local blocks = {}
+
+  if in_columns then
+    table.insert(blocks, pandoc.RawBlock("latex", "\\end{multicols}"))
+  end
+
+  table.insert(blocks, pandoc.RawBlock("latex", "\\newpage"))
+
+  if in_columns then
+    table.insert(blocks, pandoc.RawBlock("latex", "\\begin{multicols}{2}"))
+  end
+
+  return blocks
+end
+
+local function columnbreak_blocks(in_columns)
+  if not in_columns then
+    return {}
+  end
+
+  return { pandoc.RawBlock("latex", "\\columnbreak") }
+end
+
 function Pandoc(doc)
   if FORMAT:match("html") then
     return doc
@@ -28,12 +60,42 @@ function Pandoc(doc)
 
   for index, block in ipairs(doc.blocks) do
     if index <= marker_index then
-      table.insert(rebuilt, block)
+      if is_pdf_pagebreak_div(block) then
+        for _, raw in ipairs(pagebreak_blocks(false)) do
+          table.insert(rebuilt, raw)
+        end
+      elseif is_pdf_columnbreak_div(block) then
+        for _, raw in ipairs(columnbreak_blocks(false)) do
+          table.insert(rebuilt, raw)
+        end
+      else
+        table.insert(rebuilt, block)
+      end
     elseif index == marker_index + 1 then
       table.insert(rebuilt, pandoc.RawBlock("latex", "\\begin{multicols}{2}"))
-      table.insert(rebuilt, block)
+      if is_pdf_pagebreak_div(block) then
+        for _, raw in ipairs(pagebreak_blocks(true)) do
+          table.insert(rebuilt, raw)
+        end
+      elseif is_pdf_columnbreak_div(block) then
+        for _, raw in ipairs(columnbreak_blocks(true)) do
+          table.insert(rebuilt, raw)
+        end
+      else
+        table.insert(rebuilt, block)
+      end
     else
-      table.insert(rebuilt, block)
+      if is_pdf_pagebreak_div(block) then
+        for _, raw in ipairs(pagebreak_blocks(true)) do
+          table.insert(rebuilt, raw)
+        end
+      elseif is_pdf_columnbreak_div(block) then
+        for _, raw in ipairs(columnbreak_blocks(true)) do
+          table.insert(rebuilt, raw)
+        end
+      else
+        table.insert(rebuilt, block)
+      end
     end
   end
 

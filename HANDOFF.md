@@ -6,6 +6,17 @@ Date: `2026-05-07`
 
 This session focused on using illustrations as page-by-page layout shims in the monster PDF, rather than trying more global layout logic.
 
+Follow-up update on `2026-05-08`:
+
+- Added two PDF-only Markdown control markers to both book pipelines:
+  - `::: pagebreak-pdf` forces a new PDF page and is ignored by HTML.
+  - `::: columnbreak-pdf` forces the next PDF column inside the two-column body and is ignored by HTML.
+- Implemented those markers in:
+  - [publication/monsters/monster-layout.lua](/home/ryandavidhartman/dev/source/b_x/publication/monsters/monster-layout.lua)
+  - [publication/spells/spell-layout.lua](/home/ryandavidhartman/dev/source/b_x/publication/spells/spell-layout.lua)
+- Documented marker usage in [README.md](/home/ryandavidhartman/dev/source/b_x/README.md).
+- Verified the marker behavior with scratch Pandoc runs through both filters.
+
 Current uncommitted monster-book changes:
 
 - Modified [publication/monsters/combined-monsters.md](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters.md)
@@ -105,6 +116,9 @@ Current output behavior:
 
 - HTML stays single-column for both books.
 - Monster PDF uses a two-column layout for the book body, with selected wide comparison-table entries breaking out to full page width.
+- Both books now support PDF-only Markdown break markers:
+  - `::: pagebreak-pdf`
+  - `::: columnbreak-pdf`
 - Spell PDF switches to two columns at `Spell Descriptions`.
 - The Markdown sources are kept generic; output-specific layout behavior is handled in the Lua filters and LaTeX/CSS files.
 
@@ -144,6 +158,7 @@ Current output behavior:
 - The new generated plates are present on disk and linked into the monster Markdown source for 19 entries.
 - Monster HTML is back to a readable single-column layout with the TOC present.
 - Monster PDF is substantially improved with two-column layout and targeted wide-table handling.
+- Both books now support Markdown-native PDF-only page and column break markers without requiring raw LaTeX in the source.
 - Spell HTML remains straightforward and readable.
 - Spell PDF now uses a two-column layout without requiring per-spell special cases.
 - The repo has a documented build process and is now under Git/GitHub.

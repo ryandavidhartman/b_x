@@ -27,6 +27,38 @@ local function latex_cell(blocks)
   return escape_latex(trim(rendered))
 end
 
+local function is_pdf_pagebreak_div(block)
+  return block.t == "Div" and block.classes and block.classes:includes("pagebreak-pdf")
+end
+
+local function is_pdf_columnbreak_div(block)
+  return block.t == "Div" and block.classes and block.classes:includes("columnbreak-pdf")
+end
+
+local function pagebreak_blocks(in_columns)
+  local blocks = {}
+
+  if in_columns then
+    table.insert(blocks, pandoc.RawBlock("latex", "\\end{multicols}"))
+  end
+
+  table.insert(blocks, pandoc.RawBlock("latex", "\\newpage"))
+
+  if in_columns then
+    table.insert(blocks, pandoc.RawBlock("latex", "\\begin{multicols}{2}"))
+  end
+
+  return blocks
+end
+
+local function columnbreak_blocks(in_columns)
+  if not in_columns then
+    return {}
+  end
+
+  return { pandoc.RawBlock("latex", "\\columnbreak") }
+end
+
 local full_width_entries = {
   Bear = true,
   ["Cat, Great"] = true,
@@ -126,7 +158,15 @@ local function process_regular_entry_for_latex(blocks)
   local processed = {}
 
   for _, block in ipairs(blocks) do
-    if block.t == "Table" then
+    if is_pdf_pagebreak_div(block) then
+      for _, raw in ipairs(pagebreak_blocks(true)) do
+        table.insert(processed, raw)
+      end
+    elseif is_pdf_columnbreak_div(block) then
+      for _, raw in ipairs(columnbreak_blocks(true)) do
+        table.insert(processed, raw)
+      end
+    elseif block.t == "Table" then
       table.insert(processed, table_to_tabularx(block, "\\columnwidth"))
     else
       table.insert(processed, block)
@@ -168,7 +208,15 @@ local function process_full_width_tables_entry(blocks)
   end
 
   for _, block in ipairs(blocks) do
-    if block.t == "Table" and #block.headers > 2 then
+    if is_pdf_pagebreak_div(block) then
+      for _, raw in ipairs(pagebreak_blocks(in_columns)) do
+        table.insert(processed, raw)
+      end
+    elseif is_pdf_columnbreak_div(block) then
+      for _, raw in ipairs(columnbreak_blocks(in_columns)) do
+        table.insert(processed, raw)
+      end
+    elseif block.t == "Table" and #block.headers > 2 then
       end_columns()
       table.insert(processed, table_to_tabularx(block, "\\textwidth"))
     else
@@ -220,7 +268,17 @@ function Pandoc(doc)
     local rebuilt = {}
 
     for _, block in ipairs(prefix) do
-      table.insert(rebuilt, block)
+      if is_pdf_pagebreak_div(block) then
+        for _, raw in ipairs(pagebreak_blocks(false)) do
+          table.insert(rebuilt, raw)
+        end
+      elseif is_pdf_columnbreak_div(block) then
+        for _, raw in ipairs(columnbreak_blocks(false)) do
+          table.insert(rebuilt, raw)
+        end
+      else
+        table.insert(rebuilt, block)
+      end
     end
 
     table.insert(rebuilt, pandoc.RawBlock("latex", "\\begin{multicols}{2}"))
@@ -235,6 +293,14 @@ function Pandoc(doc)
 
         for _, inner in ipairs(processor(block.content)) do
           table.insert(rebuilt, inner)
+        end
+      elseif is_pdf_pagebreak_div(block) then
+        for _, raw in ipairs(pagebreak_blocks(true)) do
+          table.insert(rebuilt, raw)
+        end
+      elseif is_pdf_columnbreak_div(block) then
+        for _, raw in ipairs(columnbreak_blocks(true)) do
+          table.insert(rebuilt, raw)
         end
       else
         table.insert(rebuilt, block)

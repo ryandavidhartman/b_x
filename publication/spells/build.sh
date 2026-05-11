@@ -3,14 +3,14 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-pandoc combined-spells.md \
+pandoc -f markdown+fenced_divs combined-spells.md \
   --standalone \
   --toc \
   --css combined-spells.css \
   --lua-filter spell-layout.lua \
   -o combined-spells.html
 
-pandoc combined-spells.md \
+pandoc -f markdown+fenced_divs combined-spells.md \
   --toc \
   --pdf-engine=xelatex \
   -H combined-spells-header.tex \

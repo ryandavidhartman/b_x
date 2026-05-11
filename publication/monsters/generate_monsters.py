@@ -39,7 +39,7 @@ BASIC_ORDER = [
     "Cat, Great",
     "Cave Locust",
     "Centipede, Giant",
-    "Doppleganger",
+    "Doppelganger",
     "Dragon",
     "Ant, Driver",
     "Dwarf",
@@ -1811,7 +1811,7 @@ def cleanup_block(name: str, block: str) -> str:
             block,
             flags=re.S,
         )
-    if name == "Doppleganger":
+    if name == "Doppelganger":
         block = block.split("Blue                Red                    Gold", 1)[0].rstrip()
     if name == "Acolyte":
         block = block.replace(

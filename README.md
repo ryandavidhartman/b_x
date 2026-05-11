@@ -38,6 +38,21 @@ Notes:
 - The HTML build stays single-column.
 - The PDF build uses a two-column layout for the monster descriptions.
 - Some wider monster comparison tables are handled by the PDF layout filter in `publication/monsters/monster-layout.lua`.
+- To force a PDF-only page break from Markdown, insert:
+  HTML ignores this marker.
+
+```md
+::: pagebreak-pdf
+:::
+```
+
+- To force the next PDF column in the two-column section, insert:
+  HTML ignores this marker, and it has no effect outside the two-column PDF body.
+
+```md
+::: columnbreak-pdf
+:::
+```
 
 ## Build The Spell Book
 
@@ -58,6 +73,8 @@ Notes:
 - The HTML build stays single-column.
 - The PDF build switches to a two-column layout at `Spell Descriptions`.
 - The PDF layout behavior is controlled by `publication/spells/spell-layout.lua`.
+- The same `::: pagebreak-pdf` marker works here as a PDF-only page break and is ignored by the HTML build.
+- `::: columnbreak-pdf` also works here to jump to the next PDF column inside the two-column section.
 
 ## Source Files
 
