@@ -21,10 +21,45 @@ local function escape_latex(text)
   return (text:gsub("[\\{}$&#%%_]", replacements))
 end
 
+local function sort_key(text)
+  return stringify(text):lower()
+end
+
 local function latex_cell(blocks)
   local rendered = stringify(blocks)
   rendered = rendered:gsub("%s*\n%s*", " ")
   return escape_latex(trim(rendered))
+end
+
+local function header_identifier(header)
+  if header.identifier and header.identifier ~= "" then
+    return header.identifier
+  end
+
+  return stringify(header.content)
+    :lower()
+    :gsub("[^%w]+", "-")
+    :gsub("^-+", "")
+    :gsub("-+$", "")
+end
+ 
+local function entry_label_name(entry_id)
+  return "monster-entry:" .. entry_id
+end
+
+local function add_entry_label(blocks, entry_id)
+  local labeled = {}
+  local inserted = false
+
+  for _, block in ipairs(blocks) do
+    table.insert(labeled, block)
+    if not inserted and block.t == "Header" and block.level == 3 then
+      table.insert(labeled, pandoc.RawBlock("latex", "\\label{" .. entry_label_name(entry_id) .. "}"))
+      inserted = true
+    end
+  end
+
+  return labeled
 end
 
 local function is_pdf_pagebreak_div(block)
@@ -33,6 +68,14 @@ end
 
 local function is_pdf_columnbreak_div(block)
   return block.t == "Div" and block.classes and block.classes:includes("columnbreak-pdf")
+end
+
+local function is_pdf_twocolumn_begin_div(block)
+  return block.t == "Div" and block.classes and block.classes:includes("twocolumn-pdf-begin")
+end
+
+local function is_pdf_twocolumn_end_div(block)
+  return block.t == "Div" and block.classes and block.classes:includes("twocolumn-pdf-end")
 end
 
 local function pagebreak_blocks(in_columns)
@@ -233,42 +276,118 @@ local function process_full_width_tables_entry(blocks)
   return processed
 end
 
-function Pandoc(doc)
-  local marker_index = nil
+local function process_two_column_section(blocks)
+  local grouped = group_monster_entries(blocks)
+  local rebuilt = {}
+  local index_entries = {}
 
-  for index, block in ipairs(doc.blocks) do
-    if block.t == "Header" and block.level == 2 and stringify(block.content) == "Monster Descriptions" then
-      marker_index = index
-      break
-    end
-  end
+  table.insert(rebuilt, pandoc.RawBlock("latex", "\\begin{multicols}{2}"))
 
-  if not marker_index then
-    return doc
-  end
+  for _, block in ipairs(grouped) do
+    if block.t == "Div" and block.classes:includes("monster-entry") then
+      local entry_name = header_text_from_entry(block)
+      local entry_header = block.content[1]
+      local entry_id = header_identifier(entry_header)
+      local processor = process_regular_entry_for_latex
+      if entry_name and full_width_entries[entry_name] then
+        processor = process_full_width_tables_entry
+      end
 
-  local prefix = {}
-  local suffix = {}
+      table.insert(index_entries, { name = entry_name, id = entry_id })
 
-  for index, block in ipairs(doc.blocks) do
-    if index <= marker_index then
-      table.insert(prefix, block)
+      for _, inner in ipairs(processor(add_entry_label(block.content, entry_id))) do
+        table.insert(rebuilt, inner)
+      end
+    elseif is_pdf_pagebreak_div(block) then
+      for _, raw in ipairs(pagebreak_blocks(true)) do
+        table.insert(rebuilt, raw)
+      end
+    elseif is_pdf_columnbreak_div(block) then
+      for _, raw in ipairs(columnbreak_blocks(true)) do
+        table.insert(rebuilt, raw)
+      end
     else
-      table.insert(suffix, block)
+      table.insert(rebuilt, block)
     end
   end
 
-  local grouped = group_monster_entries(suffix)
+  table.insert(rebuilt, pandoc.RawBlock("latex", "\\end{multicols}"))
+  table.sort(index_entries, function(a, b)
+    return sort_key(a.name) < sort_key(b.name)
+  end)
 
+  return rebuilt, index_entries
+end
+
+local function build_index_section(index_entries)
+  if #index_entries == 0 then
+    return {}
+  end
+
+  local lines = {
+    "\\clearpage",
+    "\\section*{Index}",
+    "\\phantomsection",
+    "\\addcontentsline{toc}{section}{Index}",
+    "\\markboth{Index}{Index}",
+    "\\begingroup",
+    "\\small",
+    "\\setlength{\\LTleft}{0pt}",
+    "\\setlength{\\LTright}{0pt}",
+    "\\begin{longtable}{@{}p{0.86\\textwidth}r@{}}",
+  }
+
+  for _, entry in ipairs(index_entries) do
+    table.insert(
+      lines,
+      "\\hyperref[" .. entry_label_name(entry.id) .. "]{" .. escape_latex(entry.name) .. "} & "
+        .. "\\hyperref[" .. entry_label_name(entry.id) .. "]{\\pageref*{" .. entry_label_name(entry.id) .. "}} \\\\"
+    )
+  end
+
+  table.insert(lines, "\\end{longtable}")
+  table.insert(lines, "\\endgroup")
+
+  return { pandoc.RawBlock("latex", table.concat(lines, "\n")) }
+end
+
+function Pandoc(doc)
   if FORMAT:match("html") then
     return doc
   end
 
   if FORMAT:match("latex") then
     local rebuilt = {}
+    local twocolumn_blocks = nil
+    local index_entries = {}
 
-    for _, block in ipairs(prefix) do
-      if is_pdf_pagebreak_div(block) then
+    local function flush_twocolumn()
+      if not twocolumn_blocks then
+        return
+      end
+
+      local section_blocks, section_index_entries = process_two_column_section(twocolumn_blocks)
+
+      for _, inner in ipairs(section_blocks) do
+        table.insert(rebuilt, inner)
+      end
+
+      for _, entry in ipairs(section_index_entries) do
+        table.insert(index_entries, entry)
+      end
+
+      twocolumn_blocks = nil
+    end
+
+    for _, block in ipairs(doc.blocks) do
+      if is_pdf_twocolumn_begin_div(block) then
+        flush_twocolumn()
+        twocolumn_blocks = {}
+      elseif is_pdf_twocolumn_end_div(block) then
+        flush_twocolumn()
+      elseif twocolumn_blocks then
+        table.insert(twocolumn_blocks, block)
+      elseif is_pdf_pagebreak_div(block) then
         for _, raw in ipairs(pagebreak_blocks(false)) do
           table.insert(rebuilt, raw)
         end
@@ -281,33 +400,12 @@ function Pandoc(doc)
       end
     end
 
-    table.insert(rebuilt, pandoc.RawBlock("latex", "\\begin{multicols}{2}"))
+    flush_twocolumn()
 
-    for _, block in ipairs(grouped) do
-      if block.t == "Div" and block.classes:includes("monster-entry") then
-        local entry_name = header_text_from_entry(block)
-        local processor = process_regular_entry_for_latex
-        if entry_name and full_width_entries[entry_name] then
-          processor = process_full_width_tables_entry
-        end
-
-        for _, inner in ipairs(processor(block.content)) do
-          table.insert(rebuilt, inner)
-        end
-      elseif is_pdf_pagebreak_div(block) then
-        for _, raw in ipairs(pagebreak_blocks(true)) do
-          table.insert(rebuilt, raw)
-        end
-      elseif is_pdf_columnbreak_div(block) then
-        for _, raw in ipairs(columnbreak_blocks(true)) do
-          table.insert(rebuilt, raw)
-        end
-      else
-        table.insert(rebuilt, block)
-      end
+    for _, block in ipairs(build_index_section(index_entries)) do
+      table.insert(rebuilt, block)
     end
 
-    table.insert(rebuilt, pandoc.RawBlock("latex", "\\end{multicols}"))
     return pandoc.Pandoc(rebuilt, doc.meta)
   end
 

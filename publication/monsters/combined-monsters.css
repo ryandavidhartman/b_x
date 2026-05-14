@@ -65,8 +65,16 @@ body {
   padding-left: 1.2rem;
 }
 
+#TOC > ul {
+  padding-left: 0;
+}
+
 #TOC li {
   margin: 0.2rem 0;
+}
+
+#TOC > ul > li {
+  list-style: none;
 }
 
 #TOC a {
@@ -76,6 +84,33 @@ body {
 
 #TOC a:hover {
   text-decoration: underline;
+}
+
+#TOC .toc-section > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 700;
+}
+
+#TOC .toc-section > a::before {
+  content: "▸";
+  font-size: 0.9em;
+  color: var(--muted);
+  transition: transform 0.15s ease;
+}
+
+#TOC .toc-section.open > a::before {
+  transform: rotate(90deg);
+}
+
+#TOC .toc-section > ul {
+  display: none;
+  margin-top: 0.35rem;
+}
+
+#TOC .toc-section.open > ul {
+  display: block;
 }
 
 h1, h2, h3, h4 {

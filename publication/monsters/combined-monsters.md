@@ -2,11 +2,14 @@
 title: "B/X Book of Monsters"
 subtitle: "A merged and deduplicated monster chapter from the Basic and Expert rulebooks"
 author: "Compiled from the 1981 Basic and Expert Sets"
-date: "May 8^th^ 2026"
+date: "May 13^th^ 2026"
 lang: "en-US"
 ---
 
 > This document merges the monster material from the B/X Basic and Expert books into one continuous reference chapter. The shared monster-entry rules are stated once, Basic and Expert entries are combined into one alphabetical sequence, and selected illustration plates from the original books are retained where they materially improve the presentation.
+
+::: pagebreak-pdf
+:::
 
 ## Using This Chapter
 
@@ -14,37 +17,37 @@ Some monster names are followed by an asterisk (`*`). This means that special or
 
 All non-human monsters have infravision unless a description says otherwise. They can detect heat out to `60'` in darkness. Hot objects appear bright, warm things appear in shades of gray, cold things appear dark, and large heat sources can interfere with this sense.
 
-`Armor Class:` Armor Class is given in the same general way as for player characters and is based on both protection and agility.
+`Armor Class`: is given in the same general way as for player characters and is based on both protection and agility.
 
-`Hit Dice:` Hit Dice show how many `d8` are rolled for a monster’s hit points, including any pluses or minuses. They also indicate a monster’s approximate level, attack ability, experience value, and the dungeon levels where it is most commonly encountered. In general, a monster’s level equals its Hit Dice, ignoring pluses and minuses, though especially dangerous monsters may count as one level higher. As a rule of thumb, monsters are most common within two dungeon levels of their Hit Dice, appearing less often above that range and more often below it.
+`Hit Dice`: show how many `d8` are rolled for a monster’s hit points, including any pluses or minuses. They also indicate a monster’s approximate level, attack ability, experience value, and the dungeon levels where it is most commonly encountered. In general, a monster’s level equals its Hit Dice, ignoring pluses and minuses, though especially dangerous monsters may count as one level higher. As a rule of thumb, monsters are most common within two dungeon levels of their Hit Dice, appearing less often above that range and more often below it.
 
 A monster's hit dice also determines its chance to hit in combat and the amount of experience points characters earn for defeating them.
 
-| Hit Dice  |  9 |  8 |  7 |  6 |  5 |  4 |  3 |  2 |  1 |  0 | -1 | -2 | -3 | XP Value     | Special XP Bonus |
-|-----------|----|----|----|----|----|----|----|----|----|----|----|----|----|--------------|----------------|
-| Up to 1   | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 20 | 10–15        | 2–4            |
-| 1+ to 2   |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 15–25        | 4–10           |
-| 2+ to 3   |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 25–50        | 10–25          |
-| 3+ to 4   |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 50–100       | 25–50          |
-| 4+ to 5   |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 100–200      | 50–125         |
-| 5+ to 6   |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 200–325      | 125–250        |
-| 6+ to 7   |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 325–500      | 250–450        |
-| 7+ to 9   |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 500–1,000    | 450–800        |
-| 9+ to 12  |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 1,000–1,350  | 800–950        |
-| 12+ to 13 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 1,350–1,800  | 950–1,200      |
-| 13+ to 15 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 1,500–1,800  | 1,000–1,200    |
-| 15+ to 17 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 1,800–2,250  | 1,200–1,500    |
-| 17+ to 19 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 2,000–2,250  | 1,250–1,500    |
-| 19+ to 21 |  2 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 2,250–2,500+ | 1,500–2,000+   |
-| 21+       |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 | 2,500+       | 2,000+         |
+| Hit Dice  |  9 |  8 |  7 |  6 |  5 |  4 |  3 |  2 |  1 |  0 | -1 | -2 | -3 | XP Value     | XP Bonus     |
+|-----------|----|----|----|----|----|----|----|----|----|----|----|----|----|--------------|--------------|
+| Up to 1   | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 20 | 10–15        | 2–4          |
+| 1+ to 2   |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 15–25        | 4–10         |
+| 2+ to 3   |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 25–50        | 10–25        |
+| 3+ to 4   |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 50–100       | 25–50        |
+| 4+ to 5   |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 100–200      | 50–125       |
+| 5+ to 6   |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 200–325      | 125–250      |
+| 6+ to 7   |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 325–500      | 250–450      |
+| 7+ to 9   |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 500–1,000    | 450–800      |
+| 9+ to 12  |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 1,000–1,350  | 800–950      |
+| 12+ to 13 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 1,350–1,800  | 950–1,200    |
+| 13+ to 15 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 1,500–1,800  | 1,000–1,200  |
+| 15+ to 17 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 1,800–2,250  | 1,200–1,500  |
+| 17+ to 19 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 2,000–2,250  | 1,250–1,500  |
+| 19+ to 21 |  2 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 2,250–2,500+ | 1,500–2,000+ |
+| 21+       |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 | 2,500+       | 2,000+       |
 
-An asterisk after Hit Dice matters for experience awards. `*` means the Special XP Bonus is added once, and `**` means it is added twice.
+An asterisk after Hit Dice matters for experience awards. `*` means the XP Bonus is added once, and `**` means it is added twice.
 
-`Move:` Move gives the number of feet a monster may travel in one turn. The number in parentheses is the number of feet it may move in one combat round. If two movement rates are given, the first is ordinary movement and the second is a special mode such as swimming, flying, or climbing.
+`Move`: gives the number of feet a monster may travel in one turn. The number in parentheses is the number of feet it may move in one combat round. If two movement rates are given, the first is ordinary movement and the second is a special mode such as swimming, flying, or climbing.
 
-`Attacks:` Attacks gives the number and kind of attacks a monster may make in one round.
+`Attacks`: gives the number and kind of attacks a monster may make in one round.
 
-`Damage:` Damage gives the matching damage values in the same order as the attacks listed.
+`Damage`: gives the matching damage values in the same order as the attacks listed.
 
 - Acid: Acid may continue to burn after the initial hit and can destroy armor as well as flesh.
 
@@ -60,22 +63,883 @@ An asterisk after Hit Dice matters for experience awards. `*` means the Special 
 
 - Poison: A poisoned hit is often fatal if the victim fails a save versus Poison.
 
-`No. Appearing:` This gives the suggested number encountered on the dungeon level that matches the monster's Hit Dice or level. Numbers in parentheses give the usual lair or wilderness total, and a `0` means the monster is not normally found in that setting.
+`No. Appearing`: gives the suggested number encountered on the dungeon level that matches the monster's Hit Dice or level. Numbers in parentheses give the usual lair or wilderness total, and a `0` means the monster is not normally found in that setting.
 
-`Save As:` This gives the class and level used for saving throws. Intelligent monsters usually save at full monster level, often as fighters unless the description says otherwise. Unintelligent monsters often save at half level, rounded up.
+`Save As`: gives the class and level used for saving throws. Intelligent monsters usually save at full monster level, often as fighters unless the description says otherwise. Unintelligent monsters often save at half level, rounded up.
 
-`Morale:` Morale is the B/X optional morale score. The DM rolls `2d6`; if the roll is higher than the adjusted morale, the monster tries to flee.
+`Morale`: is the B/X optional morale score. The DM rolls `2d6`; if the roll is higher than the adjusted morale, the monster tries to flee.
 
-`Treasure Type:` Treasure Type refers to the standard B/X treasure tables. Lair monsters are more likely to have treasure than wandering monsters, and unintelligent animals often have little or none unless circumstance explains it.
+`Treasure Type`: refers to the standard B/X treasure tables. Lair monsters are more likely to have treasure than wandering monsters, and unintelligent animals often have little or none unless circumstance explains it.
 
-`Alignment:` Alignment shows whether a monster is Lawful, Neutral, or Chaotic. Unintelligent animals are usually Neutral.
+`Alignment`: shows whether a monster is Lawful, Neutral, or Chaotic. Unintelligent animals are usually Neutral.
 
 ![Welcome Adventures](assets/intro-plate.png)
 
 ::: pagebreak-pdf
 :::
 
-## Monster Descriptions
+::: twocolumn-pdf-begin
+:::
+
+## Animals
+
+### Ape, White
+*Source:* `Basic`  
+
+| Stat          | Value      |
+| ------------- | ---------- |
+| Armor Class   | 6          |
+| Hit Dice      | 4          |
+| Move          | 120' (40') |
+| Attacks       | 2 claws    |
+| Damage        | 1-4/1-4    |
+| No. Appearing | 1-6 (2-8)  |
+| Save As       | Fighter: 2 |
+| Morale        | 7          |
+| Treasure Type | Nil        |
+| Alignment     | Neutral    |
+
+White apes have lost their color due to many years of living in caves. They are nocturnal, sleeping in the day and looking for fruits and vegetables at night. If creatures approach their lair, the apes will threaten them. If their threats are ignored, they will attack. They may throw one stone per round for 1d6 points. White apes are not intelligent and sometimes are kept as pets by Neanderthals.
+
+![Basic monster illustration: white ape](assets/white-ape-plate.png)
+
+### Baboon, Rock
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 6 |
+| Hit Dice | 2 |
+| Move | 120'(40') |
+| Attacks | 1 club/1 bite |
+| Damage | 1-6/1-3 |
+| No. Appearing | 2-12(5-30) |
+| Save As | Fighter: 2 |
+| Morale | 8 |
+| Treasure Type | U |
+| Alignment | Neutral |
+
+Rock baboons are larger versions of normal baboons, and are more intelligent. They will eat anything, but prefer meat. They do not make tools or weapons but will pick up bones or branches to use as clubs. Rock baboons form packs, each led by a dominant male. They are ferocious and have vicious tempers. They do not speak a true language, but use simple screams to communicate warnings and needs.
+
+### Bat
+*Source:* `Basic`  
+
+| Stat | Normal | Giant |
+| --- | --- | --- |
+| Armor Class | 6 | 6 |
+| Hit Dice | 1 point (0 level man) | 2 |
+| Move | 9' (3') | 30' (10') |
+| Fly | 120' (40') | 180' (60') |
+| Attacks | Confusion | 1 bite |
+| Damage | Nil | 1-4 |
+| No. Appearing | 1-100 (1-100) | 1-10 (1-10) |
+| Save As | Normal Man | Fighter: 1 |
+| Morale | 6 | 8 |
+| Treasure | Nil | Nil |
+| Alignment | Neutral | Neutral |
+
+Bats are nocturnal (sleeping during the day, moving about at night) flying mammals. They often live in caves or abandoned buildings.
+
+They don't use their eyes to see but find their way about by echolocation (a type of radar using hearing and echoes to locate objects).
+
+Since they don't use their eyes, spells or abilities which depend on sight to affect their victims will not work on bats. A silence 15' radius spell will effectively blind a bat.
+
+- *Normal Bats*: Normal bats will not attack men but may confuse them by flying around their heads. There must be at least ten bats to confuse one character. Characters who are confused will have a penalty of -2 on their "to hit" rolls and saving throws and cannot cast spells. Normal bats must check morale each round unless they are controlled or summoned.
+
+- *Giant Bats*: Giant Bats are carnivorous (meat eaters) and may attack a party if extremely hungry. More dangerous, however, are giant vampire bats. Five percent (5%) of all giant bat encounters will be groups of giant vampire bats. The bite of a giant vampire bat does no extra damage but its victim must save vs. Paralysis or fall unconscious for 1-10 rounds. This will allow the vampire bat to feed without being disturbed, draining 1-4 points of blood per round. Any victim who dies from having his or her blood drained by a giant vampire bat must save vs. Spells or become an undead creature 24 hours after death. (If D&D EXPERT rules are used this may be a vampire.)
+
+### Bear
+*Source:* `Basic`  
+
+| Stat | Black | Grizzly | Polar | Cave |
+| --- | --- | --- | --- | --- |
+| Armor Class | 6 | 6 | 6 | 5 |
+| Hit Dice | 4 | 5 | 6 | 7 |
+| Move | 120' (40') | 120' (40') | 120' (40') | 120' (40') |
+| Attacks | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite |
+| Damage | 1-3 / 1-3 / 1-6 | 1-4 / 1-4 / 1-8 | 1-6 / 1-6 / 1-10 | 1-8 / 1-8 / 2-12 |
+| No. Appearing | 1-4 (1-4) | 1-4 (1-4) | 1 (1-2) | 1-2 (1-2) |
+| Save As | Fighter: 2 | Fighter: 2 | Fighter: 3 | Fighter: 3 |
+| Morale | 7 | 8 | 8 | 9 |
+| Treasure Type | U | U | U | V |
+| Alignment | Neutral | Neutral | Neutral | Neutral |
+
+Bears are well known to all adventurers. If a bear (of any type) hits with both paws on the same victim in one round of combat, the bear has hugged its victim and will cause 2-16 (2d8) additional points of damage in the same round as the attack.
+
+- *Black bear*: Black bears have black fur and stand about 6' tall.  They are omnivorous (will eat almost anything), but prefer roots and berries. A black bear will not usually attack unless it is cornered and cannot escape. Adult black bears will fight to the death to protect their young. They have been known to raid camps, seeking food. They are especially fond of such treats as fresh fish and sweets.
+
+- *Grizzly bear*: Grizzly bears have silver-tipped brown or reddish brown fur, and stand about 9' tall. They are fond of meat and are much more likely to attack than black bears. Grizzlies are found in most climates, but are most common in mountains and forests.
+
+- *Polar bear*: Polar bears have white fur and stand about 11' tall.  They live in cold regions. They usually eat fish, but are as likely to attack as grizzly bears. These huge bears are good swimmers, and their wide feet allow them to run across snow without sinking.
+
+- *Cave bear*: A cave bear is a type of giant grizzly bear which lives in caves and "lost world" areas. It stands about 15' tall and is the most ferocious of all the bears. Though omnivorous, a cave bear prefers meat, and enjoys human flesh. Cave bears have bad eyesight but a good sense of smell. If hungry, they will follow a track of blood until they have eaten.
+
+![Basic monster illustration: bear](assets/bear-plate.png)
+
+### Boar
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 7 |
+| Hit Dice | 3 |
+| Move | 150' (50') |
+| Attacks | ltusk |
+| Damage | 2-8 |
+| No. Appearing | 1-6 (1-6) |
+| Save As | Fighter: 2 |
+| Morale | 9 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+Wild boars generally prefer forested areas, but can be found nearly everywhere. They are omnivorous (eating almost anything), and have extremely nasty tempers when disturbed.
+
+### Camel
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 7 |
+| Hit Dice | 2 |
+| Move | 150' (50') |
+| Attacks | 1 bite / 1 hoof |
+| Damage | 1 / 1-4 |
+| No. Appearing | 0 (2-8) |
+| Save As | Fighter: 1 |
+| Morale | 7 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+Camels are ill-tempered beasts, prone to biting and kicking any creature that gets in their way, including their masters. They often kick with one leg. They are used as pack and riding animals in deserts and barren lands, treating these as clear terrain. A camel may carry up to 3000 coins of weight and still move at normal speed, but the maximum load that can be carried is 6000 coins. A well-watered camel may travel for 2 weeks without drinking.
+
+Charge attacks with a lance from camelback are not possible.
+
+### Cat, Great
+*Source:* `Basic`  
+
+| Stat | Mountain Lion | Panther | Lion | Sabre-tooth Tiger | Tiger |
+| --- | --- | --- | --- | --- | --- |
+| Armor Class | 6 | 4 | 6 | 6 | 6 |
+| Hit Dice | 3 + 2 | 4 | 5 | 6 | 8 |
+| Move | 150' (50') | 210' (70') | 150' (50') | 150' (50') | 150' (50') |
+| Attacks | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite |
+| Damage | 1-3 / 1-3 / 1-6 | 1-4 / 1-4 / 1-8 | 2-5 / 2-5 / 1-10 | 1-6 / 1-6 / 2-12 | 1-8 / 1-8 / 2-16 |
+| No. Appearing | 1-4 (1-4) | 1-2 (1-6) | 1-4 (1-8) | 1 (1-3) | 1-4 (1-4) |
+| Save As | Fighter: 2 | Fighter: 2 | Fighter: 3 | Fighter: 3 | Fighter: 4 |
+| Morale | 8 | 8 | 9 | 9 | 10 |
+| Treasure Type | U | U | U | U | V |
+| Alignment | Neutral | Neutral | Neutral | Neutral | Neutral |
+
+The Great Cats are normally cautious and will avoid fights unless forced by extreme hunger or when trapped with no escape route.
+
+Though they may be found in a relaxed or even playful mood, they are subject to rapid and violent changes of temper. They often develop a fondness for one type of food, and will go out of their way to hunt that type of prey. Sometimes this taste in food runs to humans or human-like creatures. The Great Cats will rarely go too deeply into caves, preferring to remain within fleeing distance of the wilderness outside. Despite their shyness they are very inquisitive, and may follow a party just out of curiosity. They will always chase a fleeing prey.
+
+Mountain Lion: This tawny-furred species lives mostly in mountainous regions but also inhabits forests and deserts. They will wander further into dungeons than any other species of Great Cat.
+
+Panther: Panthers are found on plains, forests, and open shrub lands. They are extremely quick and can outrun most prey over short distances.
+
+Lion: Lions generally live in warm climates, and thrive in savannah and brush lands near deserts. They usually hunt in groups known as prides.
+
+Tiger: Tigers are the largest of the commonly found Great Cats.
+
+They prefer cooler climates and wooded lands where their striped bodies offer some degree of camouflage, useful when hunting.
+
+They will surprise their prey on a roll of 1-4 (on 1d6) when in woods.
+
+Sabre-Tooth Tiger: Sabre-tooth tigers are the largest and most ferocious of the Great Cats. They have oversized fangs, from which they get their name. Fortunately, sabre-tooth tigers are mostly extinct, except in "lost world" areas.
+
+![Basic monster illustration: great cat](assets/cat-great-plate.png)
+
+### Crab, Giant
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 2 |
+| Hit Dice | 3 |
+| Move | 60' (20') |
+| Attacks | 2 pincers |
+| Damage | 2-12 / 2-12 |
+| No. Appearing | 1-2 (1-6) |
+| Save As | Fighter: 2 |
+| Morale | 7 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+Unable to swim, giant crabs are found on the bottom of shallow waters, in coastal rivers and on beaches, and in salt or fresh water. They are always hungry and will attack anything that moves. Giant crabs are not intelligent.
+
+### Crocodile
+*Source:* `Expert`  
+
+| Stat | Crocodile | Large Crocodile | Giant Crocodile |
+| --- | --- | --- | --- |
+| Armor Class | 5 | 3 | 1 |
+| Hit Dice | 2 | 6 | 15 |
+| Move | 90' (30') | 90' (30') | 90' (30') |
+| Swimming | 90' (30') | 90' (30') | 90' (30') |
+| Attacks | 1 | 1 | 1 |
+| Damage | 1-8 | 2-16 | 3-24 |
+| No. Appearing | 0 (1-8) | 0 (1-4) | 0 (1-3) |
+| Save As | Fighter: 1 | Fighter: 3 | Fighter: 8 |
+| Morale | 7 | 7 | 9 |
+| Treasure Type | Nil | Nil | Nil |
+| Alignment | Neutral | Neutral | Neutral |
+
+Crocodiles are commonly found in tropical and semi-tropical swamps or in slow-moving rivers. Awkward on land, they do not stray far from water and will spend hours floating barely under the surface. If hungry, crocodiles will attack creatures in the water. They are particularly attracted to the smell of blood or violent thrashing of the water.
+
+Large crocodiles are at least 20' long, and can overturn canoes and small rafts. Giant crocodiles are normally found only in "lost worlds" where prehistoric creatures thrive. They are over 50' long and have been known to attack small boats or ships.
+
+![Expert monster illustration: crocodile](assets/crocodile-plate.png)
+
+### Elephant
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 9 |
+| Move | 120' (40') |
+| Attacks | 2 tusks or 1 trample |
+| Damage | 2-8 / 2-8 or 4-32 |
+| No. Appearing | 0 (1-20) |
+| Save As | Fighter: 5 |
+| Morale | 8 |
+| Treasure Type | See below |
+| Alignment | Neutral |
+
+Any number of elephants from a lone rogue to an entire herd may be encountered. Both males and females have tusks.
+
+In combat, elephants will first charge, striking with their tusks for double damage. In succeeding combat rounds, they will either strike with their tusks, 25%, or trample, 75%. If the opponent is man-sized or smaller, the elephant receives a bonus of +4 on "to hit" rolls when trampling.
+
+Elephants dwell at the edge of sub-tropical forest areas. Their tusks are valued for the ivory and may be sold for 100-600 gp each.
+
+### Ferret, Giant
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 1+ 1 |
+| Move | 150' (50") |
+| Attacks | 1 bite |
+| Damage | 1-8 |
+| No. Appearing | 1-8(1-12) |
+| Save As | Fighter: 1 |
+| Morale | 8 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+Giant ferrets look like 3' long weasels. They hunt giant rats underground, and are sometimes trained for this purpose. Unfortunately, their tempers are highly unpredictable, and they have been known to attack their trainers and other humans.
+
+### Fish, Giant
+*Source:* `Expert`  
+
+| Stat | Giant Piranha | Giant Rockfish | Giant Catfish | Giant Sturgeon |
+| --- | --- | --- | --- | --- |
+| Armor Class | 6 | 7 | 4 | 0 |
+| Hit Dice | 3 + 3 | 5 + 5 | 8 + 3* | 10 + 2* |
+| Move (swimming) | 150' (50') | 180' (60') | 90' (30') | 180' (60') |
+| Attacks | 1 bite | 4 spines + poison | 1 bite / 4 feelers | 1 bite |
+| Damage | 1-8 | (1-4) x 4 + poison | 2-16 / (1-4) x 4 | 2-20 |
+| No. Appearing | 0 (2-8) | 0 (2-8) | 0 (1-2) | 0 (1) |
+| Save As | Fighter: 2 | Fighter: 3 | Fighter: 4 | Fighter: 5 |
+| Morale | 7 | 8 | 8 | 9 |
+| Treasure Type | Nil | Nil | Nil | Nil |
+| Alignment | Neutral | Neutral | Neutral | Neutral |
+
+Giant piranha are 5' in length with green and black scales. They attack anything that disturbs the water near them. Up to 8 giant piranha can attack the same target. Once blood is drawn they go into a feeding frenzy and will not check morale. Piranha inhabit warm fresh waters and prefer rivers to lakes.
+
+Spiny rockfish are found in shallow salt water and are very difficult to distinguish from normal boulders. There is a 70% chance that one will be mistaken for a boulder or lump of coral. A rockfish is normally harmless, but will viciously attack anyone who disturbs it. Its body is covered with spines, and it may lash 4 of them at any character. These spines do 1-4 points of damage each and are deadly poisonous, save vs. Poison or die. Mistaking a rockfish for a rock or lump of coral and grasping it will result in 4 automatic hits, each requiring a save vs. Poison in addition to the normal damage taken.
+
+Giant catfish are chalky white fish about 15' long. They have two long feelers that sprout from each side of the mouth, and lurk in the cool muck of river and lake bottoms attacking swimmers or things moving on the bottom.
+
+Giant sturgeon are almost 30' long and are covered with thick armorlike scales. Sturgeons are vicious fighters. On a roll of 18 or better they swallow their prey whole.
+
+Any character swallowed takes 2-12 points of damage per round and must make a saving throw vs. Death Ray or be paralyzed. If the character saves, he or she may try to hack a way out at a penalty of -4; the inside of a sturgeon has a base AC of 7.
+
+### Hawk
+*Source:* `Expert`  
+
+| Stat | Normal Hawk | Giant Hawk |
+| --- | --- | --- |
+| Armor Class | 8 | 6 |
+| Hit Dice | 1/2 (1-4 hit points) | 3 + 3 |
+| Move | Fly 480' (160') | Fly 450' (150') |
+| Attacks | 1 | 1 |
+| Damage | 1-2 | 1-6 |
+| No. Appearing | 0 (1-6) | 0 (1-3) |
+| Save As | Normal Man | Fighter: 2 |
+| Morale | 7 | 8 |
+| Treasure Type | Nil | Nil |
+| Alignment | Neutral | Neutral |
+
+Hawks are hunting birds that glide on the updrafts of the wind, watching the ground for prey. If a hawk surprises its victim, it does double damage on its first attack.
+
+Normal hawks do not usually attack human-sized or larger creatures unless the target appears unable to defend itself. Giant hawks are as large as a very big dog or small pony, are much stronger, and will attack human-sized creatures if hungry. Both normal and giant hawks may be trained as pets or guards by an animal trainer.
+
+### Herd Animals
+*Source:* `Expert`  
+
+| Stat          | Value             |
+| ------------- | ----------------- |
+| Armor Class   | 7                 |
+| Hit Dice      | (Variable 1-4)    |
+| Move          | 240' (80')        |
+| Attacks       | 1 butt            |
+| Damage        | 1-4 or 1-6 or 1-8 |
+| No. Appearing | 0 (3-30)          |
+| Save As       | Fighter: 1 or 2   |
+| Morale        | 5                 |
+| Treasure Type | Nil               |
+| Alignment     | Neutral           |
+
+This category includes most wild, grazing creatures such as antelope, deer, wild oxen, moose, elk, goats, and caribou. At least one species will be encountered in any given climate. The number of hit dice the creature has and the amount of damage it does depends on its size. Deer, antelope, and goats typically have 1 or 2 hit dice; caribou and oxen have 3 hit dice, while elk and moose may have up to 4. Only males have a butt attack. If more than 2 creatures are encountered, there will be 1 male per 4 creatures, with the remainder being females and young. The young will have 1/2 the hit points normal, but the males will have 1-4 extra hit points. Females and young will flee from trouble while the male protects them.
+
+### Horse
+*Source:* `Expert`  
+
+| Stat | Riding Horse | War Horse | Draft Horse |
+| --- | --- | --- | --- |
+| Armor Class | 1 | 7 | 7 |
+| Hit Dice | 2 | 3 | 3 |
+| Move | 240' (80') | 120' (40') | 90' (30') |
+| Attacks | 2 hooves | 2 hooves | Nil |
+| Damage | 1-4 / 1-4 | 1-6 / 1-6 | Nil |
+| No. Appearing | 0 (10-100) | 0 (domestic only) | 0 (domestic only) |
+| Save As | Fighter: 1 | Fighter: 2 | Fighter: 2 |
+| Morale | 7 | 9 | 6 |
+| Treasure Type | Nil | Nil | Nil |
+| Alignment | Neutral | Neutral | Neutral |
+
+Riding horses are smaller than draft or war horses but can carry a rider farther. A riding horse is noted for its ability to exist anywhere there is grass to feed on. Any wild horse can become a riding horse if tamed. The amount of weight the horse can carry and still move at normal speed is 3000 cn. The maximum weight that can be carried is 6000 cn at half movement.
+
+War horses are bred for warlike temperament and strength. They cannot be ridden long distances at high speed, but are powerful in a short charge. A war horse can carry 4000 cn at full speed and 8000 cn at half speed. When charging, a rider employing a lance will do double damage if a hit is successful, although the horse may not fight at the same time. After the first charging round, both rider and horse can fight normally.
+
+Draft horses are large horses bred for sturdiness and endurance. They are used primarily for plowing, pulling wagons, and as pack animals. A draft horse can carry a normal load of 4500 cn and a maximum load, movement reduced by 1/2, of 9000 cn. A draft horse will not fight; if attacked, it will attempt to flee.
+
+### Leech, Giant
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 7 |
+| Hit Dice | 6 |
+| Move | 90' (30') |
+| Attacks | Blood suck |
+| Damage | 1-6 |
+| No. Appearing | 0 (1-4) |
+| Save As | Fighter: 3 |
+| Morale | 10 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+Giant leeches are loathsome and slug-like. They live in swamps and are about 3 to 4 feet long. A giant leech has a sucker-like mouth that attaches to the victim if a hit is successful. It then sucks blood, doing 1-6 points of damage per round. A giant leech must be killed to be removed from its victim. When the victim dies, the leech will drop off and hide while it digests its meal.
+
+### Lizards, Giant
+*Source:* `Basic`  
+
+| Stat | Gecko | Draco | Horned Chameleon | Tuatara |
+| --- | --- | --- | --- | --- |
+| Armor Class | 5 | 5 | 2 | 4 |
+| Hit Dice | 3 + 1 | 4 + 2 | 5* | 6 |
+| Move | 120' (40') | 120' (40'); fly 210' (70') | 120' (40') | 90' (30') |
+| Attacks | 1 bite | 1 bite | 1 bite / 1 horn | 2 claws / 1 bite |
+| Damage | 1-8 | 1-10 | 2-8 / 1-6 | 1-4 / 1-4 / 2-12 |
+| No. Appearing | 1-6 (1-10) | 1-4 (1-8) | 1-3 (1-6) | 1-2 (1-4) |
+| Save As | Fighter: 2 | Fighter: 3 | Fighter: 3 | Fighter: 4 |
+| Morale | 7 | 7 | 7 | 6 |
+| Treasure Type | U | U | U | V |
+| Alignment | Neutral | Neutral | Neutral | Neutral |
+
+Gecko: A gecko is a 5' long lizard colored pale blue with orange-brown spots. Geckos are carnivorous and nocturnal, sleeping during the day and active at night or in darkness. Geckos hunt by climbing steep walls or trees with their specially adapted feet, then dropping on their prey to attack.
+
+Draco: A draco is a 6' long lizard with wide flaps of skin between its legs which it can spread to glide through the air like a flying squirrel. Dracos are generally found above ground, though they sometimes creep into caves to escape very cold or very hot weather. Dracos are carnivorous and have been known to attack humans.
+
+Horned Chameleon: A horned chameleon is a 7' long lizard which can change color to blend into its surroundings. It surprises on a roll of 1-5 on 1d6. A horned chameleon can shoot out its sticky tongue up to 5' long. A successful hit means that the victim is pulled to the horned chameleon's mouth and automatically bitten for 2d4 points of damage. The horned chameleon can also attack with its horn for 1d6, and may use its tail to knock other attackers down on a successful hit, doing no damage but preventing the victim from attacking that round.
+
+Tuatara: A tuatara is a 8' long lizard that looks like a cross between an iguana and a toad. It has pebble-colored olive skin with white spikes along its back. It is carnivorous and sometimes attacks humans. A tuatara has a membrane over its eyes which, when lowered, is sensitive to changes in temperature, allowing it to see in darkness with 90' infravision.
+
+![Basic monster illustration: giant lizards](assets/lizards-giant-plate.png)
+
+### Mule
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 7 |
+| Hit Dice | 2 |
+| Move | 120' (40') |
+| Attacks | 1 kick or 1 bite |
+| Damage | 1-4 or 1-3 |
+| No. Appearing | 1-8 (2-12) |
+| Save As | Normal Man |
+| Morale | 8 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+A mule is a crossbreed between a horse and a donkey. Mules are stubborn, and if bothered or excited they may either bite or kick. If the DM permits it, mules can be taken into dungeons. A mule can carry a normal load of 2000 coins (or 4000 coins at most, with its move reduced to 6O'/turn). Mules cannot be trained to attack, but will fight in their own defense.
+
+### Octopus, Giant
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 7 |
+| Hit Dice | 8 |
+| Move | — |
+| Attacks | — |
+| Damage | 90' (30') 8 tentacles/ 1 bite 1-3 (x8)/1-6 |
+| No. Appearing | 0 (1-2) |
+| Save As | Fighter: 4 |
+| Morale | 7 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+Giant octopi lurk in the waters near fishing villages and other coastal areas in tropical or temperate climates.
+
+In combat, a giant octopus will squeeze with its tentacles and stab or bite any creature dragged to its mouth with its fearsome beak.
+
+Once a tentacle hits in combat, it will constrict and automatically do 1-3 points of damage each round. Each tentacle that hits also reduces its victim's chance to hit by 1 (a man with all of an octopus's tentacles wrapped around him would have a penalty of -8 on his "to hit" rolls). A character may try to sever a tentacle and will succeed when any single hit with an edged weapon does 6 or more points of damage.
+
+If a combat is going against it, a giant octopus will flee, jetting away at triple speed and trailing a large, black cloud of ink (40' radius).
+
+![Expert monster plate: octopus](assets/octopus-plate.png)
+
+### Rat
+*Source:* `Basic`  
+
+| Stat | Normal | Giant |
+| --- | --- | --- |
+| Armor Class | 9 | 7 |
+| Hit Dice | 1 hit point | 1-4 hit points |
+| Move | 60' (20') | 120' (40') |
+| Swimming | 30' (10') | 60' (20') |
+| Attacks | 1 bite per pack | 1 bite each |
+| Damage | 1-6 + disease | 1-3 + disease |
+| No. Appearing | 5-50 (2-20) | 3-18 (3-30) |
+| Save As | Normal Man | Fighter: 1 |
+| Morale | 5 | 8 |
+| Treasure Type | L | C |
+| Alignment | Neutral | Neutral |
+
+Rats will eat almost anything and some rats carry diseases. Anyone bitten by a rat has a 1 in 20 chance of being infected, and that chance should be checked each time a rat successfully hits. The victim may still avoid the disease by making a saving throw vs. Poison. If the save is failed, roll 1d4. On a 1 the victim dies in 1-6 days; otherwise the victim is sick in bed and unable to adventure for one month. The disease may be cured magically.
+
+Rats usually avoid humans and will not attack unless summoned, by a wererat for example, or while defending their lair. Rats are good swimmers and may attack without penalty while in water. They are afraid of fire, and will run from it unless forced to fight by their leader, the creature summoning them.
+
+Normal Rats: Normal rats may be from 6 inches to 2 feet long and have gray or brown fur. They attack in packs of 5 to 10. If there are more than 10 rats they will attack several creatures as packs of 10 or less. A pack will only attack one creature at a time, but may bite for 1-6 points of damage, plus the normal chance of disease checked once per pack attack. Rats will climb all over the creature they are attacking and the victim must save vs. Death or be knocked down by them and unable to fight until regaining its feet.
+
+Giant Rats: Giant rats are 3 feet long or more, and have gray or black fur. They are often found in the dark corners of dungeon rooms and in areas where undead monsters lurk.
+
+### Rhinoceros
+*Source:* `Expert`  
+
+| Stat | Normal | Woolly |
+| --- | --- | --- |
+| Armor Class | 5 | 4 |
+| Hit Dice | 6 | 8 |
+| Move | 120' (40') | 120' (40') |
+| Attacks | butt or trample | butt or trample |
+| Damage | 2-8 or 2-16 | 2-12 or 2-24 |
+| No. Appearing | 0 (1-12) | 0 (1-8) |
+| Save As | Fighter: 3 | Fighter: 4 |
+| Morale | 6 | 6 |
+| Treasure Type | Nil | Nil |
+| Alignment | Neutral | Neutral |
+
+Though unintelligent plant eaters, rhinoceri can be very dangerous.
+
+If threatened, surprised, or charged, they will stampede in a random direction, goring all in their path for double damage on the first attack.
+
+Woolly rhinos are covered with long white hair. Woolly rhinos travel in small herds across tundra and plain, usually in "lost world" areas.
+
+### Shark
+*Source:* `Expert`  
+
+| Stat | Bull | Mako | Great White |
+| --- | --- | --- | --- |
+| Armor Class | 4 | 4 | 4 |
+| Hit Dice | 2 | 4 | 8 |
+| Move | 180' (60') | 180' (60') | 180' (60') |
+| Attacks | 1 bite | 1 bite | 1 bite |
+| Damage | 2-8 | 2-12 | 2-20 |
+| No. Appearing | 0 (3-18) | 0 (2-12) | 0 (1-4) |
+| Save As | Fighter: 1 | Fighter: 2 | Fighter: 4 |
+| Morale | 7 | 7 | 7 |
+| Treasure Type | Nil | Nil | Nil |
+| Alignment | Neutral | Neutral | Neutral |
+
+Sharks are vicious predators. They have little intelligence and are unpredictable. They are attracted to the scent of blood within 300', and it will drive them into a feeding frenzy, no morale checks required. They attack by making long, curving passes. Sharks are found in salt water.
+
+Bull sharks are 8' long and brown in color. Bull sharks will ram their prey first to stun it, and then attack the helpless prey the next round.
+
+Mako sharks are 15' long and blue-gray or tan in color. Mako sharks are extremely unpredictable, ignoring swimmers one moment and then, for no apparent reason, attacking.
+
+Great white sharks are 30' long or larger and gray with a white underside. They have been known to destroy small boats.
+
+![Expert monster illustration: shark](assets/shark-plate.png)
+
+### Shrew, Giant
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 4 |
+| Hit Dice | 1 |
+| Move | 180' (60') |
+| Attacks | 2 bites |
+| Damage | 1-6/1-6 |
+| No. Appearing | 1-4 (1-8) |
+| Save As | Fighter: 1 |
+| Morale | 10 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+Giant shrews look like brown-furred rats with long snouts. They can burrow, climb, or jump (up to 5'). They are insectivorous and hunt insects, their main source of food. The eyes of giant shrews are so weak that the creatures are almost blind. They are not affected by light or the lack of it. Like bats, they use very high squeaks to "see" areas and things, and can listen to the echoes so closely that they may "see" things up to 60' away underground as well as a creature with normal sight. A silence 15' radius spell will "blind" a giant shrew. If it cannot hear, it will be confused, and then has an Armor Class of 8 and a penalty of -4 on "to hit" rolls.
+
+Giant shrews do not like large open areas, and remain underground most of the time.
+
+Giant shrews often choose one area to hunt in, and will fight to defend "their" area from other animals (including humans). They are very ferocious and will attack anything. Giant shrews are very quick and will always have initiative on their first attack; in addition they will gain + 1 on their initiative roll for their second attack.
+
+Their attack is so ferocious (attacking the head and shoulders of the defender) that when they attack any creature of 3 hit dice (3rd level) or less, the victim must save vs. Death or run away in fear.
+
+### Snake
+*Source:* `Basic`  
+
+| Stat | Spitting Cobra | Pit Viper | Sea Snake | Giant Rattler | Rock Python |
+| --- | --- | --- | --- | --- | --- |
+| Armor Class | 7 | 6 | 6 | 5 | 6 |
+| Hit Dice | 1* | 2* | 3* | 4* | 5* |
+| Move | 90' (30') | 90' (30') | 90' (30') | 120' (40') | 90' (30') |
+| Attacks | 1 bite or 1 spit | 1 bite | 1 bite | 2 bites | 1 bite / 1 squeeze |
+| Damage | 1-3 + poison | 1-4 + poison | 1 + poison | 1-4 + poison | 1-4 / 2-8 |
+| No. Appearing | 1-6 (1-6) | 1-8 (1-8) | 1-8 (1-8) | 1-4 (1-4) | 1-3 (1-3) |
+| Save As | Fighter: 1 | Fighter: 1 | Fighter: 2 | Fighter: 2 | Fighter: 3 |
+| Morale | 7 | 7 | 7 | 8 | 8 |
+| Treasure Type | Nil | Nil | Nil | U | U |
+| Alignment | Neutral | Neutral | Neutral | Neutral | Neutral |
+
+Snakes are found almost everywhere except for very hot or very cold places. Most snakes do not usually attack unless surprised or threatened. Many (but not all) snakes have poisonous bites.
+
+Spitting Cobra: A spitting cobra is a 3' long grayish-white snake which can squirt a stream of venom up to a distance of 6 feet. It aims for its victim's eyes. If the spit hits, the victim must save vs.
+
+Poison or be blinded. (This blindness can normally only be removed by a cure blindness spell from the D&D EXPERT rules, but the DM may wish to invent other ways — such as eating a shrieker.) As with most small poisonous snakes, a spitting cobra will not attack human-sized or larger opponents unless startled or threatened. It can either spit or bite in one round, but not both. It will usually spit. The damage given (1-3 points) only applies to the bite; in this case, the victim must save vs. Poison or die in 1- 10 (1d10) turns.
+
+Pit Viper: A pit viper is a 5' long greenish-gray poisonous snake with small pits in its head. These pits act as heat sensors, with a range of 60'. The combination of pits and infravision makes it very hard to fight a pit viper; it is so quick that it always gains the initiative (no roll needed). Any victim bitten by a pit viper must save vs.
+
+Poison or die.
+
+Sea Snake: Sea snakes are snakes adapted for living in the sea.
+
+All are poisonous. They average 6' long (for every 3 hit dice) in size, but can be much larger if the DM desires. They must come to the surface of the water to breathe once an hour. Their bite is little more than a pinprick, and will go unnoticed 50% of the time. The victim must save vs. Poison, and the poison is slow-acting; its full effects take 3-6 (ld4 + 2) turns to be felt if the saving throw is failed. (By the time this is felt, there is a 25% chance that not even a neutralize poison spell — see D&D EXPERT rules — can save the victim.) Unlike other snakes, sea snakes will attack humans for food.
+
+Giant Rattlesnake: A giant rattlesnake is a 10' long snake with brown and white scales set in a diamond pattern. On its tail is a dried, scaly rattle, which it often rattles to warn off intruders or attackers who are too large to eat. Giant rattlesnakes are meat-eaters and their bite is poisonous (save vs. Poison or die in 1-6 turns.) They are very fast and may attack a second time at the end of every round.
+
+Rock Python: A rock python is a 20' long giant snake with brown and yellow scales set in a spiral pattern. Its first attack is a bite. If the bite is successful, a rock python will coil around the victim and constrict in the same round. This squeezing does 2d4 points of damage per round, and begins automatically once the bite hits.
+
+![Basic monster illustration: snake](assets/snake-plate.png)
+
+### Squid, Giant
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 7 |
+| Hit Dice | 6 |
+| Move | 120' (40') |
+| Attacks | 8 tentacles / 1 bite |
+| Damage | 1-4 tentacles / 1-10 beak |
+| No. Appearing | 0 (1-4) |
+| Save As | Fighter: 3 |
+| Morale | 7 (9) |
+| Treasure Type | V |
+| Alignment | Neutral |
+
+A giant squid dwells only in the deep sea, rising to the surface only to hunt. A giant squid will sometimes, 25%, wrap its two long tentacles about a boat and squeeze, doing 1-10 points of damage to the boat's hull, while the beak does 2 points per round after the tentacles grapple. Giant squids often, 75%, attempt to snatch seamen from the decks of passing ships and pull them to their lair below to be devoured.
+
+The lesser tentacles do constriction damage after they hit. They can be severed with a single blow that does 6 or more points, while the greater tentacles can be severed with a blow that causes 10 or more points of damage.
+
+If its morale fails, the squid can flee at triple speed and will leave great clouds of ink, 30' radius, twice per day maximum, to confuse pursuers. A large giant squid can even be double or triple normal size.
+
+### Toad, Giant
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 7 |
+| Hit Dice | 2 + 2 |
+| Move | 90' (30') |
+| Attacks | 1 bite |
+| Damage | 2-5 |
+| No. Appearing | 1-4 (1-4) |
+| Save As | Fighter: 1 |
+| Morale | 6 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+A giant toad is about the size of a very large dog and weighs 150-250 pounds. These toads can change their skin color to blend into woods or poorly lit dungeons, thus surprising their prey on a roll of 1-3. They can shoot their tongues out to 15' and drag dwarf-sized or smaller victims to their mouths to be bitten. On a "to hit" roll of 20, small prey will be swallowed whole, taking 1-6 points of damage each round thereafter.
+
+### Whale
+*Source:* `Expert`  
+
+| Stat | Killer Whale | Narwhal | Sperm Whale |
+| --- | --- | --- | --- |
+| Armor Class | 6 | 7 | 6 |
+| Hit Dice | 6 | 12 | 36 |
+| Move | 240' | 180' | 180' |
+| Attacks | 1 bite | 1 horn / 1 bite | 1 bite |
+| Damage | 1-20 | 2-12 / 1-8 | 3-60 |
+| No. Appearing | 0 (1-6) | 0 (1-4) | 0 (1-3) |
+| Save As | Fighter: 3 | Fighter: 12 | Fighter: 15 |
+| Morale | 10 | 8 | 7 |
+| Treasure Type | V | See below | V |
+| Alignment | Neutral | Lawful | Neutral |
+
+Killer whale. These are 25' long and are found mainly in cold waters. They live by hunting other sea creatures (even other whales). Creatures of halfling size or smaller will be swallowed whole if the killer whale scores a 20 on its "to hit" roll. Those swallowed take 1-6 points of damage per round and will drown in 10 rounds unless freed.
+
+Narwhal. The narwhal is 15' long, grey to white in color, and has an 8' long spiral horn on its head (like that of a unicorn). It is an intelligent, magical creature, very independent and secretive. It is rumored that their horns vibrate in the presence of evil. Their horns are worth from 1,000 to 6,000 gold pieces each (1d6 x 1000) for their ivory. Narwhals roam arctic waters.
+
+Sperm whale. This huge whale can grow to be 60' long. It preys on the most feared denizens of the deep (such as the giant squid).
+
+Man-sized or smaller creatures will be swallowed on a die roll that is 4 or more than the score needed to hit, taking 3-18 points of damage per round. Sperm whales will sometimes (10% chance) attack ships, attempting to ram. Should the sperm whale succeed, it will do 6-36 points of damage to the ship.
+
+![Expert monster plate: whale](assets/whale-plate.png)
+
+### Wolf
+*Source:* `Basic`  
+
+| Stat | Normal Wolf | Dire Wolf |
+| --- | --- | --- |
+| Armor Class | 7 | 6 |
+| Hit Dice | 2 + 2 | 4 + 1 |
+| Move | 180' (60') | 150' (50') |
+| Attacks | 1 bite | 1 bite |
+| Damage | 1-6 | 2-8 |
+| No. Appearing | 2-12 (3-18) | 1-4 (2-8) |
+| Save As | Fighter: 1 | Fighter: 2 |
+| Morale | 8 (6) | 8 |
+| Treasure Type | Nil | Nil |
+| Alignment | Neutral | Neutral |
+
+Wolves are meat-eaters and hunt in packs. Though wolves prefer the wilderness, they will occasionally be found in caves. Captured wolf cubs can be trained like dogs, if the DM permits, but it is difficult. If 3 wolves or fewer are encountered, or if a pack is reduced to less than 50% of its original numbers, their morale is 6 rather than 8.
+
+Dire Wolves: Dire wolves may be found in caves, woods, or mountains. They are larger and more ferocious than normal wolves, and are semi-intelligent. They are fierce enemies and usually hunt in packs. They are sometimes trained by goblins to be used as mounts. Captured dire wolf cubs can be trained like dogs, if the DM permits, but they are even more savage than normal wolves.
+
+::: pagebreak-pdf
+:::
+
+## Insects
+
+### Ant, Driver
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 3 |
+| Hit Dice | 4* |
+| Move | 180' (60') |
+| Attacks | 1 |
+| Damage | 2-12 |
+| No. Appearing | 2-8 (4-24) |
+| Save As | Fighter: 2 |
+| Morale | 7 and see below |
+| Treasure Type | U or see below |
+| Alignment | Neutral |
+
+Driver ants are giant black ants about 6' long. They are omnivorous. When hungry, they will devour anything edible in their path.
+
+Once engaged in combat, they will fight to the death, even trying to cross flames to reach their opponents. The nest-lair will always be guarded by 4-24 driver ants. There are legends of driver ants mining gold, and there is a 30% chance that a driver ant lair will contain 1-10 thousand gp worth of nuggets.
+
+![Basic monster illustration: driver ant](assets/driver-ant-plate.png)
+
+### Bee, Killer
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | — |
+| Hit Dice | 1/2* (1-4 hp) |
+| Move | 150' (50') |
+| Attacks | 1 sting |
+| Damage | 1-3 + special |
+| No. Appearing | 1-6 (5-30) |
+| Save As | Fighter: 1 |
+| Morale | 9 |
+| Treasure Type | See below |
+| Alignment | Neutral |
+
+Killer Bees are 1' long giant bees with a very vicious temper. Killer bees almost always attack on sight, and will automatically attack anyone within 30' of their underground hive. When a killer bee successfully stings (attacks), it dies, but the creature stung must save vs. Poison or die. The stinger will continue to work its way into the victim, doing an automatic 1 point of damage per round, unless 1 round is spent pulling it out.
+
+A special kind of honey may be found inside the beehive. If eaten, it acts as one half-strength potion of healing, curing 1-4 (1d4) points of damage (this will require all the honey in the hive — about 2 pints). There will always be at least 10 killer bees with their queen in or near the hive. At least 4 of these bees will have 1 hit die each. The queen bee will have 2 hit dice and can sting repeatedly without dying.
+
+![Basic monster illustration: killer bee](assets/killer-bee-plate.png)
+
+### Beetle, Giant
+*Source:* `Basic`  
+
+| Stat | Fire | Oil | Tiger |
+| --- | --- | --- | --- |
+| Armor Class | 4 | 4 | 3 |
+| Hit Dice | 1 + 2 | 2* | 3 + 1 |
+| Move | 120' (40') | 120' (40') | 150' (50') |
+| Attacks | 1 bite | 1 bite + special | 1 bite |
+| Damage | 2-8 | 1-6 + special | 2-12 |
+| No. Appearing | 1-8 (2-12) | 1-8 (2-12) | 1-6 (2-8) |
+| Save As | Fighter: 1 | Fighter: 1 | Fighter: 1 |
+| Morale | 7 | 8 | 9 |
+| Treasure Type | Nil | Nil | U |
+| Alignment | Neutral | Neutral | Neutral |
+
+- *Fire Beetle*: Fire beetles are 21/2' long creatures often found below ground. They are nocturnal, but may be active underground at any time. A fire beetle has two glowing glands above its eyes and one near the back of its abdomen. These glands give off light in a 10' radius, and will continue to glow for 1-6 days after they are removed.
+
+- *Oil Beetle*: Oil beetles are 3' long giant beetles that sometimes burrow underground. When attacked, they will squirt an oily fluid at one of their attackers (a "to hit" roll is needed; the range is 5'). If the oil hits it will raise painful blisters, causing the victim to fight with a penalty of -2 on his or her "to hit" rolls until a cure light wounds spell is used or until 24 hours have passed. If the spell is used to cure blisters, it will not also cure points of damage. Oil beetles can also attack with their mandibles (horned jaws).
+
+- *Tiger Beetle*: Tiger beetles are 4' long giant beetles with a striped carapace (a shell-like covering) which looks like a tiger's skin. They are carnivorous (meat-eaters) and usually prey on robber flies.
+
+They have been known to attack and eat humans, crushing them with their powerful mandibles.
+
+![Basic monster illustration: giant beetle](assets/giant-beetle-plate.png)
+
+### Centipede, Giant
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 9 |
+| Hit Dice | 1/2(1-4hp) |
+| Move | 60' (20') |
+| Attacks | 1 bite |
+| Damage | Poison |
+| No. Appearing | 2-8(1-8) |
+| Save As | Normal Man |
+| Morale | 7 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+Giant centipedes are insects with 1' long bodies and many legs they like to live in damp, dark places. Their bite does no damage, but the victim must save vs. Poison or become violently ill for 10 days. Characters who do not save move at 1/2 speed and will not e able to perform any other physical action.
+
+### Fly, Robber
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 6 |
+| Hit Dice | 2 |
+| Move | 90' (30') |
+| Flying | 180' (60') |
+| Attacks | 1 bite |
+| Damage | 1-8 |
+| No. Appearing | 1-6 (2-12) |
+| Save As | Fighter: 1 |
+| Morale | 8 |
+| Treasure Type | U |
+| Alignment | Neutral |
+
+Robber flies are 3' long giant flies colored with black and yellow stripes. At a distance they look like killer bees. They are not harmed by the poison of killer bees, which are their main source of food. Robber flies are patient hunters. They often hide in shadows and wait for prey, surprising on a roll of 1-4 (on 1d6). A robber fly can leap up to 30' and attack with its bite. Robber flies are meat eaters and have been known to attack humans.
+
+### Insect Swarms
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 7 |
+| Hit Dice | (2-4) |
+| Move | 30' (10') |
+| Flying | 60' (20') Attack: 1 swarm |
+| Damage | 2 points |
+| No. Appearing | 1 swarm (1-3 swarms) |
+| Save As | Normal Man |
+| Morale | 11 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+Insect swarms are a special type of monster. Swarms are not single creatures, but are whole communities of tiny creatures acting together. A swarm may be attracted to light, or a strange smell, or may be defending their lair. A swarm can be considered to be 10'x30' but may be larger or smaller. Some types of creatures which swarm are: ants, spiders and centipedes (crawlers), bees and wasps (flyers), and beetles and locusts (both crawlers and flyers).
+
+If a character is within a swarm he or she is automatically hit by the.
+
+creatures and will take 2 points of damage each round. If the character has no armor the damage will be doubled. If the character is warding the insects off (explained hereafter) or runs out of the swarm the damage will be halved. It takes 3 rounds for a character who has escaped a swarm to swat all the remaining insects.
+
+Characters may ward off the insects by swinging a weapon or similar object around. If the object is a torch the swarm will take 1-4 points of damage. Weapons will do no damage to an insect swarm.
+
+Swarms are affected by a sleep spell (which will affect the whole swarm), smoke (which will drive them away), and fire or extreme cold (which will damage them). The DM may choose to have other things affect swarms if he or she wishes.
+
+If a swarm is angry (has taken damage) it will pursue characters as best as it can. A swarm may be escaped by running out of its line of sight or diving under water. If a character dives under water he or she will take damage for one more round and then all the insects on him or her will be dead.
+
+### Locust, Cave
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 4 |
+| Hit Dice | 2 |
+| Move | 60' (20') |
+| Fly | 180' (60') |
+| Attacks | 1 bite or 1 bump or 1 spit |
+| Damage | 1-2 or 1-4 or see below |
+| No. Appearing | 2-20 (1-10) |
+| Save As | Fighter: 2 |
+| Morale | 5 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+Cave locusts are 2-3' long, stone-gray giant grasshoppers that live underground. Because of their color they may be mistaken for statues until closely approached. They are herbivorous, eat fungus such as yellow mold and shriekers, and are not harmed by yellow mold or most poisons.
+
+They are very nervous and usually flee rather than fight, often leaping up to 60' away. Unfortunately their sense of direction is poor, and they may accidentally jump into a party; if they jump toward a group, determine a random target and make a normal attack roll, with 1-4 points of battering damage on a hit.
+
+When frightened or attacked, cave locusts make a loud shrieking noise to warn their fellows. This cry has a 20% chance each round of attracting wandering monsters. If cornered, a cave locust may spit a brown gooey substance up to 10'. Treat the spit as an attack against Armor Class 9; a victim hit must save vs. Poison or be unable to act for 1 turn because of the awful smell.
+
+### Scorpion, Giant
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 2 |
+| Hit Dice | 4* |
+| Move | 150' (50') |
+| Attacks | 2 claws / 1 sting |
+| Damage | 1-10 / 1-10 / 1-4 + poison |
+| No. Appearing | 1-6 (1-6) |
+| Save As | Fighter: 2 |
+| Morale | 11 |
+| Treasure Type | V |
+| Alignment | Chaotic |
+
+A giant scorpion is the size of a small horse and will usually attack on sight. It fights by grasping opponents with its claws and stinging the immobilized foe. If a claw hits, the stinger attacks at +2.
+
+Anyone struck by the stinger must save vs. Poison or die. Giant scorpions live in deserts, caves, and ruins.
+
+![Expert monster illustration: giant scorpion](assets/giant-scorpion-plate.png)
+
+### Spider, Giant
+*Source:* `Basic`  
+
+| Stat          | Crab Spider  | Black Widow   | Tarantella   | Rhagodessa   |
+| ------------- | ------------ | ------------- | ------------ | ------------ |
+| Armor Class   | 7            | 6             | 5            | 5            |
+| Hit Dice      | 2*           | 3*            | 4*           | 4+2*         |
+| Move          | 120' (40')   | 60' (20')     | 120' (40')   | 150' (50')   |
+| In Web        | No webs      | 120' (40')    | No webs      | No webs      |
+| Attacks       | 1 bite       | 1 bite        | 1 bite       | 1 leg/1 bite |
+| Damage        | 1-8 + poison | 2-12 + poison | 1-8 + poison | 0/2-16       |
+| No. Appearing | 1-4 (1-4)    | 1-3 (1-3)     | 1-3 (1-3)    | 1-4 (1-6)    |
+| Save As       | Fighter: 1   | Fighter: 2    | Fighter: 2   | Fighter: 2   |
+| Morale        | 7            | 8             | 8            | 9            |
+| Treasure Type | U            | U             | U            | U            |
+| Alignment     | Neutral      | Neutral       | Neutral      | Neutral      |
+
+- *Crab Spider*: Crab spiders are 5' long giant spiders. They are meat-eaters and attack their victims by clinging to walls or ceilings and dropping onto them. They have chameleon-like powers and can change their color to blend into their surroundings, surprising on a roll of 1-4 (on 1d6). After the first attack, a crab spider can be seen and attacked normally. Any victim bitten by a crab spider must save vs. Poison or die in 1d4 turns. However, the poison is weak, and the victim may add + 2 to the saving throw roll.
+
+- *Black Widow Spider*: Black widow spiders are 6' long and colored black with a red "hourglass" mark on their abdomens. They tend to stay close to their webbed lairs. They are carnivorous and have been known to attack humans. Their webs should be treated as the magic-user's spell web, with respect to the chances of breaking free (once entrapped). The webs may also be burned away. Any victim of the bite of a black widow spider must save vs. Poison or die in 1 turn.
+
+- *Tarantella*: A tarantella is a huge hairy magical spider which looks like a 7' long tarantula. Its bite does not kill; instead, it causes the victim (if a saving throw vs. Poison is failed) to have painful spasms which resemble a frantic thance. This thance has a magical effect on onlookers, and they may be affected. Anyone watching must save vs. Spells or start to thance in the same way. Dancing victims have a penalty of -4 on their "to hit" rolls, and attackers gain + 4 "to hit" the victim. The effects of the bite last for 2-12 turns. However, thancers will drop from exhaustion in 5 turns, and they will then be helpless against attacks. Those caught while watching will dance as long as the original victim. (In the D&D EXPERT rules, there are magical means to cure the poison, and a dispel magic spell will stop the thance.)
+
+- *Rhagodessa*: A rhagodessa is a giant arachnid which looks like a huge hairy spider with an oversized head and jaws (mandibles). A rhagodessa is nocturnal (sleeping during the day and active at night or in the dark), and lives in caves. A rhagodessa is about the size of a small horse, colored yellow with a dark brown thorax. It has 5 pairs of legs; the front pair end in suckers which help the creature to grasp its prey. A hit with a sucker-leg does no damage but means that the victim is stuck. In the next round of combat, the victim will be pulled to the rhagodessa's mandibles and will automatically be bitten for 2d8 points of damage. Rhagodessae can climb walls, are meateaters and always hungry.
+
+![Basic monster illustration: giant spider](assets/spider-plate.png)
+
+::: pagebreak-pdf
+:::
+
+## Monsters
 
 ### Basilisk
 *Source:* `Expert`  
@@ -1897,1017 +2761,8 @@ Zombies are undead humans or demi-humans animated by some evil cleric or magic-u
 
 Zombies will always attack on sight, but can be destroyed by normal weapons. They are slow fighters and always strike last (no initiative roll needed).
 
-## Animals
-
-### Ape, White
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 6 |
-| Hit Dice | 4 |
-| Move | 120' (40') |
-| Attacks | 2 claws |
-| Damage | 1-4/1-4 |
-| No. Appearing | 1-6(2-8) |
-| Save As | Fighter: 2 |
-| Morale | 7 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-White apes have lost their color due to many years of living in caves. They are nocturnal, sleeping in the day and looking for fruits and vegetables at night. If creatures approach their lair, the apes will threaten them. If their threats are ignored, they will attack. They may throw one stone per round for 1d6 points. White apes are not intelligent and sometimes are kept as pets by Neanderthals.
-
-![Basic monster illustration: white ape](assets/white-ape-plate.png)
-
-### Baboon, Roc
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 6 |
-| Hit Dice | 2 |
-| Move | 120'(40') |
-| Attacks | 1 club/1 bite |
-| Damage | 1-6/1-3 |
-| No. Appearing | 2-12(5-30) |
-| Save As | Fighter: 2 |
-| Morale | 8 |
-| Treasure Type | U |
-| Alignment | Neutral |
-
-Rock baboons are larger versions of normal baboons, and are more intelligent. They will eat anything, but prefer meat. They do not make tools or weapons but will pick up bones or branches to use as clubs. Rock baboons form packs, each led by a dominant male. They are ferocious and have vicious tempers. They do not speak a true language, but use simple screams to communicate warnings and needs.
-
-### Bat
-*Source:* `Basic`  
-
-| Stat | Normal | Giant |
-| --- | --- | --- |
-| Armor Class | 6 | 6 |
-| Hit Dice | 1 point (0 level man) | 2 |
-| Move | 9' (3') | 30' (10') |
-| Fly | 120' (40') | 180' (60') |
-| Attacks | Confusion | 1 bite |
-| Damage | Nil | 1-4 |
-| No. Appearing | 1-100 (1-100) | 1-10 (1-10) |
-| Save As | Normal Man | Fighter: 1 |
-| Morale | 6 | 8 |
-| Treasure | Nil | Nil |
-| Alignment | Neutral | Neutral |
-
-Bats are nocturnal (sleeping during the day, moving about at night) flying mammals. They often live in caves or abandoned buildings.
-
-They don't use their eyes to see but find their way about by echolocation (a type of radar using hearing and echoes to locate objects).
-
-Since they don't use their eyes, spells or abilities which depend on sight to affect their victims will not work on bats. A silence 15' radius spell will effectively blind a bat.
-
-Normal Bats: Normal bats will not attack men but may confuse them by flying around their heads. There must be at least ten bats to confuse one character. Characters who are confused will have a penalty of -2 on their "to hit" rolls and saving throws and cannot cast spells. Normal bats must check morale each round unless they are controlled or summoned.
-
-Giant Bats: Giant Bats are carnivorous (meat eaters) and may attack a party if extremely hungry. More dangerous, however, are giant vampire bats. Five percent (5%) of all giant bat encounters will be groups of giant vampire bats. The bite of a giant vampire bat does no extra damage but its victim must save vs. Paralysis or fall unconscious for 1-10 rounds. This will allow the vampire bat to feed without being disturbed, draining 1-4 points of blood per round. Any victim who dies from having his or her blood drained by a giant vampire bat must save vs. Spells or become an undead creature 24 hours after death. (If D&D EXPERT rules are used this may be a vampire.)
-
-### Bear
-*Source:* `Basic`  
-
-| Stat | Black | Grizzly | Polar | Cave |
-| --- | --- | --- | --- | --- |
-| Armor Class | 6 | 6 | 6 | 5 |
-| Hit Dice | 4 | 5 | 6 | 7 |
-| Move | 120' (40') | 120' (40') | 120' (40') | 120' (40') |
-| Attacks | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite |
-| Damage | 1-3 / 1-3 / 1-6 | 1-4 / 1-4 / 1-8 | 1-6 / 1-6 / 1-10 | 1-8 / 1-8 / 2-12 |
-| No. Appearing | 1-4 (1-4) | 1-4 (1-4) | 1 (1-2) | 1-2 (1-2) |
-| Save As | Fighter: 2 | Fighter: 2 | Fighter: 3 | Fighter: 3 |
-| Morale | 7 | 8 | 8 | 9 |
-| Treasure Type | U | U | U | V |
-| Alignment | Neutral | Neutral | Neutral | Neutral |
-
-Bears are well known to all adventurers. If a bear (of any type) hits with both paws on the same victim in one round of combat, the bear has hugged its victim and will cause 2-16 (2d8) additional points of damage in the same round as the attack.
-
-- *Black bear*: Black bears have black fur and stand about 6' tall.
-
-They are omnivorous (will eat almost anything), but prefer roots and berries. A black bear will not usually attack unless it is cornered and cannot escape. Adult black bears will fight to the death to protect their young. They have been known to raid camps, seeking food. They are especially fond of such treats as fresh fish and sweets.
-
-- *Grizzly bear*: Grizzly bears have silver-tipped brown or reddish brown fur, and stand about 9' tall. They are fond of meat and are much more likely to attack than black bears. Grizzlies are found in most climates, but are most common in mountains and forests.
-
-- *Polar bear*: Polar bears have white fur and stand about 11' tall.
-
-They live in cold regions. They usually eat fish, but are as likely to attack as grizzly bears. These huge bears are good swimmers, and their wide feet allow them to run across snow without sinking.
-
-- *Cave bear*: A cave bear is a type of giant grizzly bear which lives in caves and "lost world" areas. It stands about 15' tall and is the most ferocious of all the bears. Though omnivorous, a cave bear prefers meat, and enjoys human flesh. Cave bears have bad eyesight but a good sense of smell. If hungry, they will follow a track of blood until they have eaten.
-
-![Basic monster illustration: bear](assets/bear-plate.png)
-
-### Boar
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 7 |
-| Hit Dice | 3 |
-| Move | 150' (50') |
-| Attacks | ltusk |
-| Damage | 2-8 |
-| No. Appearing | 1-6 (1-6) |
-| Save As | Fighter: 2 |
-| Morale | 9 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-Wild boars generally prefer forested areas, but can be found nearly everywhere. They are omnivorous (eating almost anything), and have extremely nasty tempers when disturbed.
-
-### Camel
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 7 |
-| Hit Dice | 2 |
-| Move | 150' (50') |
-| Attacks | 1 bite / 1 hoof |
-| Damage | 1 / 1-4 |
-| No. Appearing | 0 (2-8) |
-| Save As | Fighter: 1 |
-| Morale | 7 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-Camels are ill-tempered beasts, prone to biting and kicking any creature that gets in their way, including their masters. They often kick with one leg. They are used as pack and riding animals in deserts and barren lands, treating these as clear terrain. A camel may carry up to 3000 coins of weight and still move at normal speed, but the maximum load that can be carried is 6000 coins. A well-watered camel may travel for 2 weeks without drinking.
-
-Charge attacks with a lance from camelback are not possible.
-
-### Cat, Great
-*Source:* `Basic`  
-
-| Stat | Mountain Lion | Panther | Lion | Sabre-tooth Tiger | Tiger |
-| --- | --- | --- | --- | --- | --- |
-| Armor Class | 6 | 4 | 6 | 6 | 6 |
-| Hit Dice | 3 + 2 | 4 | 5 | 6 | 8 |
-| Move | 150' (50') | 210' (70') | 150' (50') | 150' (50') | 150' (50') |
-| Attacks | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite |
-| Damage | 1-3 / 1-3 / 1-6 | 1-4 / 1-4 / 1-8 | 2-5 / 2-5 / 1-10 | 1-6 / 1-6 / 2-12 | 1-8 / 1-8 / 2-16 |
-| No. Appearing | 1-4 (1-4) | 1-2 (1-6) | 1-4 (1-8) | 1 (1-3) | 1-4 (1-4) |
-| Save As | Fighter: 2 | Fighter: 2 | Fighter: 3 | Fighter: 3 | Fighter: 4 |
-| Morale | 8 | 8 | 9 | 9 | 10 |
-| Treasure Type | U | U | U | U | V |
-| Alignment | Neutral | Neutral | Neutral | Neutral | Neutral |
-
-The Great Cats are normally cautious and will avoid fights unless forced by extreme hunger or when trapped with no escape route.
-
-Though they may be found in a relaxed or even playful mood, they are subject to rapid and violent changes of temper. They often develop a fondness for one type of food, and will go out of their way to hunt that type of prey. Sometimes this taste in food runs to humans or human-like creatures. The Great Cats will rarely go too deeply into caves, preferring to remain within fleeing distance of the wilderness outside. Despite their shyness they are very inquisitive, and may follow a party just out of curiosity. They will always chase a fleeing prey.
-
-Mountain Lion: This tawny-furred species lives mostly in mountainous regions but also inhabits forests and deserts. They will wander further into dungeons than any other species of Great Cat.
-
-Panther: Panthers are found on plains, forests, and open shrub lands. They are extremely quick and can outrun most prey over short distances.
-
-Lion: Lions generally live in warm climates, and thrive in savannah and brush lands near deserts. They usually hunt in groups known as prides.
-
-Tiger: Tigers are the largest of the commonly found Great Cats.
-
-They prefer cooler climates and wooded lands where their striped bodies offer some degree of camouflage, useful when hunting.
-
-They will surprise their prey on a roll of 1-4 (on 1d6) when in woods.
-
-Sabre-Tooth Tiger: Sabre-tooth tigers are the largest and most ferocious of the Great Cats. They have oversized fangs, from which they get their name. Fortunately, sabre-tooth tigers are mostly extinct, except in "lost world" areas.
-
-![Basic monster illustration: great cat](assets/cat-great-plate.png)
-
-### Crab, Giant
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 2 |
-| Hit Dice | 3 |
-| Move | 60' (20') |
-| Attacks | 2 pincers |
-| Damage | 2-12 / 2-12 |
-| No. Appearing | 1-2 (1-6) |
-| Save As | Fighter: 2 |
-| Morale | 7 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-Unable to swim, giant crabs are found on the bottom of shallow waters, in coastal rivers and on beaches, and in salt or fresh water. They are always hungry and will attack anything that moves. Giant crabs are not intelligent.
-
-### Crocodile
-*Source:* `Expert`  
-
-| Stat | Crocodile | Large Crocodile | Giant Crocodile |
-| --- | --- | --- | --- |
-| Armor Class | 5 | 3 | 1 |
-| Hit Dice | 2 | 6 | 15 |
-| Move | 90' (30') | 90' (30') | 90' (30') |
-| Swimming | 90' (30') | 90' (30') | 90' (30') |
-| Attacks | 1 | 1 | 1 |
-| Damage | 1-8 | 2-16 | 3-24 |
-| No. Appearing | 0 (1-8) | 0 (1-4) | 0 (1-3) |
-| Save As | Fighter: 1 | Fighter: 3 | Fighter: 8 |
-| Morale | 7 | 7 | 9 |
-| Treasure Type | Nil | Nil | Nil |
-| Alignment | Neutral | Neutral | Neutral |
-
-Crocodiles are commonly found in tropical and semi-tropical swamps or in slow-moving rivers. Awkward on land, they do not stray far from water and will spend hours floating barely under the surface. If hungry, crocodiles will attack creatures in the water. They are particularly attracted to the smell of blood or violent thrashing of the water.
-
-Large crocodiles are at least 20' long, and can overturn canoes and small rafts. Giant crocodiles are normally found only in "lost worlds" where prehistoric creatures thrive. They are over 50' long and have been known to attack small boats or ships.
-
-![Expert monster illustration: crocodile](assets/crocodile-plate.png)
-
-### Elephant
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 9 |
-| Move | 120' (40') |
-| Attacks | 2 tusks or 1 trample |
-| Damage | 2-8 / 2-8 or 4-32 |
-| No. Appearing | 0 (1-20) |
-| Save As | Fighter: 5 |
-| Morale | 8 |
-| Treasure Type | See below |
-| Alignment | Neutral |
-
-Any number of elephants from a lone rogue to an entire herd may be encountered. Both males and females have tusks.
-
-In combat, elephants will first charge, striking with their tusks for double damage. In succeeding combat rounds, they will either strike with their tusks, 25%, or trample, 75%. If the opponent is man-sized or smaller, the elephant receives a bonus of +4 on "to hit" rolls when trampling.
-
-Elephants dwell at the edge of sub-tropical forest areas. Their tusks are valued for the ivory and may be sold for 100-600 gp each.
-
-### Ferret, Giant
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 1+ 1 |
-| Move | 150' (50") |
-| Attacks | 1 bite |
-| Damage | 1-8 |
-| No. Appearing | 1-8(1-12) |
-| Save As | Fighter: 1 |
-| Morale | 8 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-Giant ferrets look like 3' long weasels. They hunt giant rats underground, and are sometimes trained for this purpose. Unfortunately, their tempers are highly unpredictable, and they have been known to attack their trainers and other humans.
-
-### Fish, Giant
-*Source:* `Expert`  
-
-| Stat | Giant Piranha | Giant Rockfish | Giant Catfish | Giant Sturgeon |
-| --- | --- | --- | --- | --- |
-| Armor Class | 6 | 7 | 4 | 0 |
-| Hit Dice | 3 + 3 | 5 + 5 | 8 + 3* | 10 + 2* |
-| Move (swimming) | 150' (50') | 180' (60') | 90' (30') | 180' (60') |
-| Attacks | 1 bite | 4 spines + poison | 1 bite / 4 feelers | 1 bite |
-| Damage | 1-8 | (1-4) x 4 + poison | 2-16 / (1-4) x 4 | 2-20 |
-| No. Appearing | 0 (2-8) | 0 (2-8) | 0 (1-2) | 0 (1) |
-| Save As | Fighter: 2 | Fighter: 3 | Fighter: 4 | Fighter: 5 |
-| Morale | 7 | 8 | 8 | 9 |
-| Treasure Type | Nil | Nil | Nil | Nil |
-| Alignment | Neutral | Neutral | Neutral | Neutral |
-
-Giant piranha are 5' in length with green and black scales. They attack anything that disturbs the water near them. Up to 8 giant piranha can attack the same target. Once blood is drawn they go into a feeding frenzy and will not check morale. Piranha inhabit warm fresh waters and prefer rivers to lakes.
-
-Spiny rockfish are found in shallow salt water and are very difficult to distinguish from normal boulders. There is a 70% chance that one will be mistaken for a boulder or lump of coral. A rockfish is normally harmless, but will viciously attack anyone who disturbs it. Its body is covered with spines, and it may lash 4 of them at any character. These spines do 1-4 points of damage each and are deadly poisonous, save vs. Poison or die. Mistaking a rockfish for a rock or lump of coral and grasping it will result in 4 automatic hits, each requiring a save vs. Poison in addition to the normal damage taken.
-
-Giant catfish are chalky white fish about 15' long. They have two long feelers that sprout from each side of the mouth, and lurk in the cool muck of river and lake bottoms attacking swimmers or things moving on the bottom.
-
-Giant sturgeon are almost 30' long and are covered with thick armorlike scales. Sturgeons are vicious fighters. On a roll of 18 or better they swallow their prey whole.
-
-Any character swallowed takes 2-12 points of damage per round and must make a saving throw vs. Death Ray or be paralyzed. If the character saves, he or she may try to hack a way out at a penalty of -4; the inside of a sturgeon has a base AC of 7.
-
-### Hawk
-*Source:* `Expert`  
-
-| Stat | Normal Hawk | Giant Hawk |
-| --- | --- | --- |
-| Armor Class | 8 | 6 |
-| Hit Dice | 1/2 (1-4 hit points) | 3 + 3 |
-| Move | Fly 480' (160') | Fly 450' (150') |
-| Attacks | 1 | 1 |
-| Damage | 1-2 | 1-6 |
-| No. Appearing | 0 (1-6) | 0 (1-3) |
-| Save As | Normal Man | Fighter: 2 |
-| Morale | 7 | 8 |
-| Treasure Type | Nil | Nil |
-| Alignment | Neutral | Neutral |
-
-Hawks are hunting birds that glide on the updrafts of the wind, watching the ground for prey. If a hawk surprises its victim, it does double damage on its first attack.
-
-Normal hawks do not usually attack human-sized or larger creatures unless the target appears unable to defend itself. Giant hawks are as large as a very big dog or small pony, are much stronger, and will attack human-sized creatures if hungry. Both normal and giant hawks may be trained as pets or guards by an animal trainer.
-
-### Herd Animals
-*Source:* `Expert`  
-
-| Stat          | Value             |
-| ------------- | ----------------- |
-| Armor Class   | 7                 |
-| Hit Dice      | (Variable 1-4)    |
-| Move          | 240' (80')        |
-| Attacks       | 1 butt            |
-| Damage        | 1-4 or 1-6 or 1-8 |
-| No. Appearing | 0 (3-30)          |
-| Save As       | Fighter: 1 or 2   |
-| Morale        | 5                 |
-| Treasure Type | Nil               |
-| Alignment     | Neutral           |
-
-This category includes most wild, grazing creatures such as antelope, deer, wild oxen, moose, elk, goats, and caribou. At least one species will be encountered in any given climate. The number of hit dice the creature has and the amount of damage it does depends on its size. Deer, antelope, and goats typically have 1 or 2 hit dice; caribou and oxen have 3 hit dice, while elk and moose may have up to 4. Only males have a butt attack. If more than 2 creatures are encountered, there will be 1 male per 4 creatures, with the remainder being females and young. The young will have 1/2 the hit points normal, but the males will have 1-4 extra hit points. Females and young will flee from trouble while the male protects them.
-
-### Horse
-*Source:* `Expert`  
-
-| Stat | Riding Horse | War Horse | Draft Horse |
-| --- | --- | --- | --- |
-| Armor Class | 1 | 7 | 7 |
-| Hit Dice | 2 | 3 | 3 |
-| Move | 240' (80') | 120' (40') | 90' (30') |
-| Attacks | 2 hooves | 2 hooves | Nil |
-| Damage | 1-4 / 1-4 | 1-6 / 1-6 | Nil |
-| No. Appearing | 0 (10-100) | 0 (domestic only) | 0 (domestic only) |
-| Save As | Fighter: 1 | Fighter: 2 | Fighter: 2 |
-| Morale | 7 | 9 | 6 |
-| Treasure Type | Nil | Nil | Nil |
-| Alignment | Neutral | Neutral | Neutral |
-
-Riding horses are smaller than draft or war horses but can carry a rider farther. A riding horse is noted for its ability to exist anywhere there is grass to feed on. Any wild horse can become a riding horse if tamed. The amount of weight the horse can carry and still move at normal speed is 3000 cn. The maximum weight that can be carried is 6000 cn at half movement.
-
-War horses are bred for warlike temperament and strength. They cannot be ridden long distances at high speed, but are powerful in a short charge. A war horse can carry 4000 cn at full speed and 8000 cn at half speed. When charging, a rider employing a lance will do double damage if a hit is successful, although the horse may not fight at the same time. After the first charging round, both rider and horse can fight normally.
-
-Draft horses are large horses bred for sturdiness and endurance. They are used primarily for plowing, pulling wagons, and as pack animals. A draft horse can carry a normal load of 4500 cn and a maximum load, movement reduced by 1/2, of 9000 cn. A draft horse will not fight; if attacked, it will attempt to flee.
-
-### Leech, Giant
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 7 |
-| Hit Dice | 6 |
-| Move | 90' (30') |
-| Attacks | Blood suck |
-| Damage | 1-6 |
-| No. Appearing | 0 (1-4) |
-| Save As | Fighter: 3 |
-| Morale | 10 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-Giant leeches are loathsome and slug-like. They live in swamps and are about 3 to 4 feet long. A giant leech has a sucker-like mouth that attaches to the victim if a hit is successful. It then sucks blood, doing 1-6 points of damage per round. A giant leech must be killed to be removed from its victim. When the victim dies, the leech will drop off and hide while it digests its meal.
-
-### Lizards, Giant
-*Source:* `Basic`  
-
-| Stat | Gecko | Draco | Horned Chameleon | Tuatara |
-| --- | --- | --- | --- | --- |
-| Armor Class | 5 | 5 | 2 | 4 |
-| Hit Dice | 3 + 1 | 4 + 2 | 5* | 6 |
-| Move | 120' (40') | 120' (40'); fly 210' (70') | 120' (40') | 90' (30') |
-| Attacks | 1 bite | 1 bite | 1 bite / 1 horn | 2 claws / 1 bite |
-| Damage | 1-8 | 1-10 | 2-8 / 1-6 | 1-4 / 1-4 / 2-12 |
-| No. Appearing | 1-6 (1-10) | 1-4 (1-8) | 1-3 (1-6) | 1-2 (1-4) |
-| Save As | Fighter: 2 | Fighter: 3 | Fighter: 3 | Fighter: 4 |
-| Morale | 7 | 7 | 7 | 6 |
-| Treasure Type | U | U | U | V |
-| Alignment | Neutral | Neutral | Neutral | Neutral |
-
-Gecko: A gecko is a 5' long lizard colored pale blue with orange-brown spots. Geckos are carnivorous and nocturnal, sleeping during the day and active at night or in darkness. Geckos hunt by climbing steep walls or trees with their specially adapted feet, then dropping on their prey to attack.
-
-Draco: A draco is a 6' long lizard with wide flaps of skin between its legs which it can spread to glide through the air like a flying squirrel. Dracos are generally found above ground, though they sometimes creep into caves to escape very cold or very hot weather. Dracos are carnivorous and have been known to attack humans.
-
-Horned Chameleon: A horned chameleon is a 7' long lizard which can change color to blend into its surroundings. It surprises on a roll of 1-5 on 1d6. A horned chameleon can shoot out its sticky tongue up to 5' long. A successful hit means that the victim is pulled to the horned chameleon's mouth and automatically bitten for 2d4 points of damage. The horned chameleon can also attack with its horn for 1d6, and may use its tail to knock other attackers down on a successful hit, doing no damage but preventing the victim from attacking that round.
-
-Tuatara: A tuatara is a 8' long lizard that looks like a cross between an iguana and a toad. It has pebble-colored olive skin with white spikes along its back. It is carnivorous and sometimes attacks humans. A tuatara has a membrane over its eyes which, when lowered, is sensitive to changes in temperature, allowing it to see in darkness with 90' infravision.
-
-![Basic monster illustration: giant lizards](assets/lizards-giant-plate.png)
-
-### Mule
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 7 |
-| Hit Dice | 2 |
-| Move | 120' (40') |
-| Attacks | 1 kick or 1 bite |
-| Damage | 1-4 or 1-3 |
-| No. Appearing | 1-8 (2-12) |
-| Save As | Normal Man |
-| Morale | 8 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-A mule is a crossbreed between a horse and a donkey. Mules are stubborn, and if bothered or excited they may either bite or kick. If the DM permits it, mules can be taken into dungeons. A mule can carry a normal load of 2000 coins (or 4000 coins at most, with its move reduced to 6O'/turn). Mules cannot be trained to attack, but will fight in their own defense.
-
-### Octopus, Giant
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 7 |
-| Hit Dice | 8 |
-| Move | — |
-| Attacks | — |
-| Damage | 90' (30') 8 tentacles/ 1 bite 1-3 (x8)/1-6 |
-| No. Appearing | 0 (1-2) |
-| Save As | Fighter: 4 |
-| Morale | 7 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-Giant octopi lurk in the waters near fishing villages and other coastal areas in tropical or temperate climates.
-
-In combat, a giant octopus will squeeze with its tentacles and stab or bite any creature dragged to its mouth with its fearsome beak.
-
-Once a tentacle hits in combat, it will constrict and automatically do 1-3 points of damage each round. Each tentacle that hits also reduces its victim's chance to hit by 1 (a man with all of an octopus's tentacles wrapped around him would have a penalty of -8 on his "to hit" rolls). A character may try to sever a tentacle and will succeed when any single hit with an edged weapon does 6 or more points of damage.
-
-If a combat is going against it, a giant octopus will flee, jetting away at triple speed and trailing a large, black cloud of ink (40' radius).
-
-![Expert monster plate: octopus](assets/octopus-plate.png)
-
-### Rat
-*Source:* `Basic`  
-
-| Stat | Normal | Giant |
-| --- | --- | --- |
-| Armor Class | 9 | 7 |
-| Hit Dice | 1 hit point | 1-4 hit points |
-| Move | 60' (20') | 120' (40') |
-| Swimming | 30' (10') | 60' (20') |
-| Attacks | 1 bite per pack | 1 bite each |
-| Damage | 1-6 + disease | 1-3 + disease |
-| No. Appearing | 5-50 (2-20) | 3-18 (3-30) |
-| Save As | Normal Man | Fighter: 1 |
-| Morale | 5 | 8 |
-| Treasure Type | L | C |
-| Alignment | Neutral | Neutral |
-
-Rats will eat almost anything and some rats carry diseases. Anyone bitten by a rat has a 1 in 20 chance of being infected, and that chance should be checked each time a rat successfully hits. The victim may still avoid the disease by making a saving throw vs. Poison. If the save is failed, roll 1d4. On a 1 the victim dies in 1-6 days; otherwise the victim is sick in bed and unable to adventure for one month. The disease may be cured magically.
-
-Rats usually avoid humans and will not attack unless summoned, by a wererat for example, or while defending their lair. Rats are good swimmers and may attack without penalty while in water. They are afraid of fire, and will run from it unless forced to fight by their leader, the creature summoning them.
-
-Normal Rats: Normal rats may be from 6 inches to 2 feet long and have gray or brown fur. They attack in packs of 5 to 10. If there are more than 10 rats they will attack several creatures as packs of 10 or less. A pack will only attack one creature at a time, but may bite for 1-6 points of damage, plus the normal chance of disease checked once per pack attack. Rats will climb all over the creature they are attacking and the victim must save vs. Death or be knocked down by them and unable to fight until regaining its feet.
-
-Giant Rats: Giant rats are 3 feet long or more, and have gray or black fur. They are often found in the dark corners of dungeon rooms and in areas where undead monsters lurk.
-
-### Rhagodessa
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 4 + 2 |
-| Move | 150' (50') |
-| Attacks | — |
-| Damage | 1 leg/1 bite 0/2-16 |
-| No. Appearing | 1-4 (1-6) |
-| Save As | Fighter: 2 |
-| Morale | 9 |
-| Treasure Type | U |
-| Alignment | Neutral |
-
-A rhagodessa is a giant arachnid which looks like a huge hairy spider with an oversized head and jaws (mandibles). A rhagodessa is nocturnal (sleeping during the day and active at night or in the dark), and lives in caves. A rhagodessa is about the size of a small horse, colored yellow with a dark brown thorax. It has 5 pairs of legs; the front pair end in suckers which help the creature to grasp its prey. A hit with a sucker-leg does no damage but means that the victim is stuck. In the next round of combat, the victim will be pulled to the rhagodessa's mandibles and will automatically be bitten for 2d8 points of damage. Rhagodessae can climb walls, are meateaters and always hungry.
-
-### Rhinoceros
-*Source:* `Expert`  
-
-| Stat | Normal | Woolly |
-| --- | --- | --- |
-| Armor Class | 5 | 4 |
-| Hit Dice | 6 | 8 |
-| Move | 120' (40') | 120' (40') |
-| Attacks | butt or trample | butt or trample |
-| Damage | 2-8 or 2-16 | 2-12 or 2-24 |
-| No. Appearing | 0 (1-12) | 0 (1-8) |
-| Save As | Fighter: 3 | Fighter: 4 |
-| Morale | 6 | 6 |
-| Treasure Type | Nil | Nil |
-| Alignment | Neutral | Neutral |
-
-Though unintelligent plant eaters, rhinoceri can be very dangerous.
-
-If threatened, surprised, or charged, they will stampede in a random direction, goring all in their path for double damage on the first attack.
-
-Woolly rhinos are covered with long white hair. Woolly rhinos travel in small herds across tundra and plain, usually in "lost world" areas.
-
-### Shark
-*Source:* `Expert`  
-
-| Stat | Bull | Mako | Great White |
-| --- | --- | --- | --- |
-| Armor Class | 4 | 4 | 4 |
-| Hit Dice | 2 | 4 | 8 |
-| Move | 180' (60') | 180' (60') | 180' (60') |
-| Attacks | 1 bite | 1 bite | 1 bite |
-| Damage | 2-8 | 2-12 | 2-20 |
-| No. Appearing | 0 (3-18) | 0 (2-12) | 0 (1-4) |
-| Save As | Fighter: 1 | Fighter: 2 | Fighter: 4 |
-| Morale | 7 | 7 | 7 |
-| Treasure Type | Nil | Nil | Nil |
-| Alignment | Neutral | Neutral | Neutral |
-
-Sharks are vicious predators. They have little intelligence and are unpredictable. They are attracted to the scent of blood within 300', and it will drive them into a feeding frenzy, no morale checks required. They attack by making long, curving passes. Sharks are found in salt water.
-
-Bull sharks are 8' long and brown in color. Bull sharks will ram their prey first to stun it, and then attack the helpless prey the next round.
-
-Mako sharks are 15' long and blue-gray or tan in color. Mako sharks are extremely unpredictable, ignoring swimmers one moment and then, for no apparent reason, attacking.
-
-Great white sharks are 30' long or larger and gray with a white underside. They have been known to destroy small boats.
-
-![Expert monster illustration: shark](assets/shark-plate.png)
-
-### Shrew, Giant
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 4 |
-| Hit Dice | 1 |
-| Move | 180' (60') |
-| Attacks | 2 bites |
-| Damage | 1-6/1-6 |
-| No. Appearing | 1-4 (1-8) |
-| Save As | Fighter: 1 |
-| Morale | 10 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-Giant shrews look like brown-furred rats with long snouts. They can burrow, climb, or jump (up to 5'). They are insectivorous and hunt insects, their main source of food. The eyes of giant shrews are so weak that the creatures are almost blind. They are not affected by light or the lack of it. Like bats, they use very high squeaks to "see" areas and things, and can listen to the echoes so closely that they may "see" things up to 60' away underground as well as a creature with normal sight. A silence 15' radius spell will "blind" a giant shrew. If it cannot hear, it will be confused, and then has an Armor Class of 8 and a penalty of -4 on "to hit" rolls.
-
-Giant shrews do not like large open areas, and remain underground most of the time.
-
-Giant shrews often choose one area to hunt in, and will fight to defend "their" area from other animals (including humans). They are very ferocious and will attack anything. Giant shrews are very quick and will always have initiative on their first attack; in addition they will gain + 1 on their initiative roll for their second attack.
-
-Their attack is so ferocious (attacking the head and shoulders of the defender) that when they attack any creature of 3 hit dice (3rd level) or less, the victim must save vs. Death or run away in fear.
-
-### Snake
-*Source:* `Basic`  
-
-| Stat | Spitting Cobra | Pit Viper | Sea Snake | Giant Rattler | Rock Python |
-| --- | --- | --- | --- | --- | --- |
-| Armor Class | 7 | 6 | 6 | 5 | 6 |
-| Hit Dice | 1* | 2* | 3* | 4* | 5* |
-| Move | 90' (30') | 90' (30') | 90' (30') | 120' (40') | 90' (30') |
-| Attacks | 1 bite or 1 spit | 1 bite | 1 bite | 2 bites | 1 bite / 1 squeeze |
-| Damage | 1-3 + poison | 1-4 + poison | 1 + poison | 1-4 + poison | 1-4 / 2-8 |
-| No. Appearing | 1-6 (1-6) | 1-8 (1-8) | 1-8 (1-8) | 1-4 (1-4) | 1-3 (1-3) |
-| Save As | Fighter: 1 | Fighter: 1 | Fighter: 2 | Fighter: 2 | Fighter: 3 |
-| Morale | 7 | 7 | 7 | 8 | 8 |
-| Treasure Type | Nil | Nil | Nil | U | U |
-| Alignment | Neutral | Neutral | Neutral | Neutral | Neutral |
-
-Snakes are found almost everywhere except for very hot or very cold places. Most snakes do not usually attack unless surprised or threatened. Many (but not all) snakes have poisonous bites.
-
-Spitting Cobra: A spitting cobra is a 3' long grayish-white snake which can squirt a stream of venom up to a distance of 6 feet. It aims for its victim's eyes. If the spit hits, the victim must save vs.
-
-Poison or be blinded. (This blindness can normally only be removed by a cure blindness spell from the D&D EXPERT rules, but the DM may wish to invent other ways — such as eating a shrieker.) As with most small poisonous snakes, a spitting cobra will not attack human-sized or larger opponents unless startled or threatened. It can either spit or bite in one round, but not both. It will usually spit. The damage given (1-3 points) only applies to the bite; in this case, the victim must save vs. Poison or die in 1- 10 (1d10) turns.
-
-Pit Viper: A pit viper is a 5' long greenish-gray poisonous snake with small pits in its head. These pits act as heat sensors, with a range of 60'. The combination of pits and infravision makes it very hard to fight a pit viper; it is so quick that it always gains the initiative (no roll needed). Any victim bitten by a pit viper must save vs.
-
-Poison or die.
-
-Sea Snake: Sea snakes are snakes adapted for living in the sea.
-
-All are poisonous. They average 6' long (for every 3 hit dice) in size, but can be much larger if the DM desires. They must come to the surface of the water to breathe once an hour. Their bite is little more than a pinprick, and will go unnoticed 50% of the time. The victim must save vs. Poison, and the poison is slow-acting; its full effects take 3-6 (ld4 + 2) turns to be felt if the saving throw is failed. (By the time this is felt, there is a 25% chance that not even a neutralize poison spell — see D&D EXPERT rules — can save the victim.) Unlike other snakes, sea snakes will attack humans for food.
-
-Giant Rattlesnake: A giant rattlesnake is a 10' long snake with brown and white scales set in a diamond pattern. On its tail is a dried, scaly rattle, which it often rattles to warn off intruders or attackers who are too large to eat. Giant rattlesnakes are meat-eaters and their bite is poisonous (save vs. Poison or die in 1-6 turns.) They are very fast and may attack a second time at the end of every round.
-
-Rock Python: A rock python is a 20' long giant snake with brown and yellow scales set in a spiral pattern. Its first attack is a bite. If the bite is successful, a rock python will coil around the victim and constrict in the same round. This squeezing does 2d4 points of damage per round, and begins automatically once the bite hits.
-
-![Basic monster illustration: snake](assets/snake-plate.png)
-
-### Squid, Giant
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 7 |
-| Hit Dice | 6 |
-| Move | 120' (40') |
-| Attacks | 8 tentacles / 1 bite |
-| Damage | 1-4 tentacles / 1-10 beak |
-| No. Appearing | 0 (1-4) |
-| Save As | Fighter: 3 |
-| Morale | 7 (9) |
-| Treasure Type | V |
-| Alignment | Neutral |
-
-A giant squid dwells only in the deep sea, rising to the surface only to hunt. A giant squid will sometimes, 25%, wrap its two long tentacles about a boat and squeeze, doing 1-10 points of damage to the boat's hull, while the beak does 2 points per round after the tentacles grapple. Giant squids often, 75%, attempt to snatch seamen from the decks of passing ships and pull them to their lair below to be devoured.
-
-The lesser tentacles do constriction damage after they hit. They can be severed with a single blow that does 6 or more points, while the greater tentacles can be severed with a blow that causes 10 or more points of damage.
-
-If its morale fails, the squid can flee at triple speed and will leave great clouds of ink, 30' radius, twice per day maximum, to confuse pursuers. A large giant squid can even be double or triple normal size.
-
-### Toad, Giant
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 7 |
-| Hit Dice | 2 + 2 |
-| Move | 90' (30') |
-| Attacks | 1 bite |
-| Damage | 2-5 |
-| No. Appearing | 1-4 (1-4) |
-| Save As | Fighter: 1 |
-| Morale | 6 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-A giant toad is about the size of a very large dog and weighs 150-250 pounds. These toads can change their skin color to blend into woods or poorly lit dungeons, thus surprising their prey on a roll of 1-3. They can shoot their tongues out to 15' and drag dwarf-sized or smaller victims to their mouths to be bitten. On a "to hit" roll of 20, small prey will be swallowed whole, taking 1-6 points of damage each round thereafter.
-
-### Whale
-*Source:* `Expert`  
-
-| Stat | Killer Whale | Narwhal | Sperm Whale |
-| --- | --- | --- | --- |
-| Armor Class | 6 | 7 | 6 |
-| Hit Dice | 6 | 12 | 36 |
-| Move | 240' | 180' | 180' |
-| Attacks | 1 bite | 1 horn / 1 bite | 1 bite |
-| Damage | 1-20 | 2-12 / 1-8 | 3-60 |
-| No. Appearing | 0 (1-6) | 0 (1-4) | 0 (1-3) |
-| Save As | Fighter: 3 | Fighter: 12 | Fighter: 15 |
-| Morale | 10 | 8 | 7 |
-| Treasure Type | V | See below | V |
-| Alignment | Neutral | Lawful | Neutral |
-
-Killer whale. These are 25' long and are found mainly in cold waters. They live by hunting other sea creatures (even other whales). Creatures of halfling size or smaller will be swallowed whole if the killer whale scores a 20 on its "to hit" roll. Those swallowed take 1-6 points of damage per round and will drown in 10 rounds unless freed.
-
-Narwhal. The narwhal is 15' long, grey to white in color, and has an 8' long spiral horn on its head (like that of a unicorn). It is an intelligent, magical creature, very independent and secretive. It is rumored that their horns vibrate in the presence of evil. Their horns are worth from 1,000 to 6,000 gold pieces each (1d6 x 1000) for their ivory. Narwhals roam arctic waters.
-
-Sperm whale. This huge whale can grow to be 60' long. It preys on the most feared denizens of the deep (such as the giant squid).
-
-Man-sized or smaller creatures will be swallowed on a die roll that is 4 or more than the score needed to hit, taking 3-18 points of damage per round. Sperm whales will sometimes (10% chance) attack ships, attempting to ram. Should the sperm whale succeed, it will do 6-36 points of damage to the ship.
-
-![Expert monster plate: whale](assets/whale-plate.png)
-
-### Wolf
-*Source:* `Basic`  
-
-| Stat | Normal Wolf | Dire Wolf |
-| --- | --- | --- |
-| Armor Class | 7 | 6 |
-| Hit Dice | 2 + 2 | 4 + 1 |
-| Move | 180' (60') | 150' (50') |
-| Attacks | 1 bite | 1 bite |
-| Damage | 1-6 | 2-8 |
-| No. Appearing | 2-12 (3-18) | 1-4 (2-8) |
-| Save As | Fighter: 1 | Fighter: 2 |
-| Morale | 8 (6) | 8 |
-| Treasure Type | Nil | Nil |
-| Alignment | Neutral | Neutral |
-
-Wolves are meat-eaters and hunt in packs. Though wolves prefer the wilderness, they will occasionally be found in caves. Captured wolf cubs can be trained like dogs, if the DM permits, but it is difficult. If 3 wolves or fewer are encountered, or if a pack is reduced to less than 50% of its original numbers, their morale is 6 rather than 8.
-
-Dire Wolves: Dire wolves may be found in caves, woods, or mountains. They are larger and more ferocious than normal wolves, and are semi-intelligent. They are fierce enemies and usually hunt in packs. They are sometimes trained by goblins to be used as mounts. Captured dire wolf cubs can be trained like dogs, if the DM permits, but they are even more savage than normal wolves.
-
-## Insects
-
-### Ant, Driver
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 3 |
-| Hit Dice | 4* |
-| Move | 180' (60') |
-| Attacks | 1 |
-| Damage | 2-12 |
-| No. Appearing | 2-8 (4-24) |
-| Save As | Fighter: 2 |
-| Morale | 7 and see below |
-| Treasure Type | U or see below |
-| Alignment | Neutral |
-
-Driver ants are giant black ants about 6' long. They are omnivorous. When hungry, they will devour anything edible in their path.
-
-Once engaged in combat, they will fight to the death, even trying to cross flames to reach their opponents. The nest-lair will always be guarded by 4-24 driver ants. There are legends of driver ants mining gold, and there is a 30% chance that a driver ant lair will contain 1-10 thousand gp worth of nuggets.
-
-![Basic monster illustration: driver ant](assets/driver-ant-plate.png)
-
-### Bee, Killer
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | — |
-| Hit Dice | 1/2* (1-4 hp) |
-| Move | 150' (50') |
-| Attacks | 1 sting |
-| Damage | 1-3 + special |
-| No. Appearing | 1-6 (5-30) |
-| Save As | Fighter: 1 |
-| Morale | 9 |
-| Treasure Type | See below |
-| Alignment | Neutral |
-
-Killer Bees are 1' long giant bees with a very vicious temper. Killer bees almost always attack on sight, and will automatically attack anyone within 30' of their underground hive. When a killer bee successfully stings (attacks), it dies, but the creature stung must save vs. Poison or die. The stinger will continue to work its way into the victim, doing an automatic 1 point of damage per round, unless 1 round is spent pulling it out.
-
-A special kind of honey may be found inside the beehive. If eaten, it acts as one half-strength potion of healing, curing 1-4 (1d4) points of damage (this will require all the honey in the hive — about 2 pints). There will always be at least 10 killer bees with their queen in or near the hive. At least 4 of these bees will have 1 hit die each. The queen bee will have 2 hit dice and can sting repeatedly without dying.
-
-![Basic monster illustration: killer bee](assets/killer-bee-plate.png)
-
-### Beetle, Giant
-*Source:* `Basic`  
-
-| Stat | Fire | Oil | Tiger |
-| --- | --- | --- | --- |
-| Armor Class | 4 | 4 | 3 |
-| Hit Dice | 1 + 2 | 2* | 3 + 1 |
-| Move | 120' (40') | 120' (40') | 150' (50') |
-| Attacks | 1 bite | 1 bite + special | 1 bite |
-| Damage | 2-8 | 1-6 + special | 2-12 |
-| No. Appearing | 1-8 (2-12) | 1-8 (2-12) | 1-6 (2-8) |
-| Save As | Fighter: 1 | Fighter: 1 | Fighter: 1 |
-| Morale | 7 | 8 | 9 |
-| Treasure Type | Nil | Nil | U |
-| Alignment | Neutral | Neutral | Neutral |
-
-- *Fire Beetle*: Fire beetles are 21/2' long creatures often found below ground. They are nocturnal, but may be active underground at any time. A fire beetle has two glowing glands above its eyes and one near the back of its abdomen. These glands give off light in a 10' radius, and will continue to glow for 1-6 days after they are removed.
-
-- *Oil Beetle*: Oil beetles are 3' long giant beetles that sometimes burrow underground. When attacked, they will squirt an oily fluid at one of their attackers (a "to hit" roll is needed; the range is 5'). If the oil hits it will raise painful blisters, causing the victim to fight with a penalty of -2 on his or her "to hit" rolls until a cure light wounds spell is used or until 24 hours have passed. If the spell is used to cure blisters, it will not also cure points of damage. Oil beetles can also attack with their mandibles (horned jaws).
-
-- *Tiger Beetle*: Tiger beetles are 4' long giant beetles with a striped carapace (a shell-like covering) which looks like a tiger's skin. They are carnivorous (meat-eaters) and usually prey on robber flies.
-
-They have been known to attack and eat humans, crushing them with their powerful mandibles.
-
-![Basic monster illustration: giant beetle](assets/giant-beetle-plate.png)
-
-### Centipede, Giant
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 9 |
-| Hit Dice | 1/2(1-4hp) |
-| Move | 60' (20') |
-| Attacks | 1 bite |
-| Damage | Poison |
-| No. Appearing | 2-8(1-8) |
-| Save As | Normal Man |
-| Morale | 7 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-Giant centipedes are insects with 1' long bodies and many legs they like to live in damp, dark places. Their bite does no damage, but the victim must save vs. Poison or become violently ill for 10 days. Characters who do not save move at 1/2 speed and will not e able to perform any other physical action.
-
-### Fly, Robber
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 6 |
-| Hit Dice | 2 |
-| Move | 90' (30') |
-| Flying | 180' (60') |
-| Attacks | 1 bite |
-| Damage | 1-8 |
-| No. Appearing | 1-6 (2-12) |
-| Save As | Fighter: 1 |
-| Morale | 8 |
-| Treasure Type | U |
-| Alignment | Neutral |
-
-Robber flies are 3' long giant flies colored with black and yellow stripes. At a distance they look like killer bees. They are not harmed by the poison of killer bees, which are their main source of food. Robber flies are patient hunters. They often hide in shadows and wait for prey, surprising on a roll of 1-4 (on 1d6). A robber fly can leap up to 30' and attack with its bite. Robber flies are meat eaters and have been known to attack humans.
-
-### Insect Swarms
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 7 |
-| Hit Dice | (2-4) |
-| Move | 30' (10') |
-| Flying | 60' (20') Attack: 1 swarm |
-| Damage | 2 points |
-| No. Appearing | 1 swarm (1-3 swarms) |
-| Save As | Normal Man |
-| Morale | 11 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-Insect swarms are a special type of monster. Swarms are not single creatures, but are whole communities of tiny creatures acting together. A swarm may be attracted to light, or a strange smell, or may be defending their lair. A swarm can be considered to be 10'x30' but may be larger or smaller. Some types of creatures which swarm are: ants, spiders and centipedes (crawlers), bees and wasps (flyers), and beetles and locusts (both crawlers and flyers).
-
-If a character is within a swarm he or she is automatically hit by the.
-
-creatures and will take 2 points of damage each round. If the character has no armor the damage will be doubled. If the character is warding the insects off (explained hereafter) or runs out of the swarm the damage will be halved. It takes 3 rounds for a character who has escaped a swarm to swat all the remaining insects.
-
-Characters may ward off the insects by swinging a weapon or similar object around. If the object is a torch the swarm will take 1-4 points of damage. Weapons will do no damage to an insect swarm.
-
-Swarms are affected by a sleep spell (which will affect the whole swarm), smoke (which will drive them away), and fire or extreme cold (which will damage them). The DM may choose to have other things affect swarms if he or she wishes.
-
-If a swarm is angry (has taken damage) it will pursue characters as best as it can. A swarm may be escaped by running out of its line of sight or diving under water. If a character dives under water he or she will take damage for one more round and then all the insects on him or her will be dead.
-
-### Locust, Cave
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 4 |
-| Hit Dice | 2 |
-| Move | 60' (20') |
-| Fly | 180' (60') |
-| Attacks | 1 bite or 1 bump or 1 spit |
-| Damage | 1-2 or 1-4 or see below |
-| No. Appearing | 2-20 (1-10) |
-| Save As | Fighter: 2 |
-| Morale | 5 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-Cave locusts are 2-3' long, stone-gray giant grasshoppers that live underground. Because of their color they may be mistaken for statues until closely approached. They are herbivorous, eat fungus such as yellow mold and shriekers, and are not harmed by yellow mold or most poisons.
-
-They are very nervous and usually flee rather than fight, often leaping up to 60' away. Unfortunately their sense of direction is poor, and they may accidentally jump into a party; if they jump toward a group, determine a random target and make a normal attack roll, with 1-4 points of battering damage on a hit.
-
-When frightened or attacked, cave locusts make a loud shrieking noise to warn their fellows. This cry has a 20% chance each round of attracting wandering monsters. If cornered, a cave locust may spit a brown gooey substance up to 10'. Treat the spit as an attack against Armor Class 9; a victim hit must save vs. Poison or be unable to act for 1 turn because of the awful smell.
-
-### Scorpion, Giant
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 2 |
-| Hit Dice | 4* |
-| Move | 150' (50') |
-| Attacks | 2 claws / 1 sting |
-| Damage | 1-10 / 1-10 / 1-4 + poison |
-| No. Appearing | 1-6 (1-6) |
-| Save As | Fighter: 2 |
-| Morale | 11 |
-| Treasure Type | V |
-| Alignment | Chaotic |
-
-A giant scorpion is the size of a small horse and will usually attack on sight. It fights by grasping opponents with its claws and stinging the immobilized foe. If a claw hits, the stinger attacks at +2.
-
-Anyone struck by the stinger must save vs. Poison or die. Giant scorpions live in deserts, caves, and ruins.
-
-![Expert monster illustration: giant scorpion](assets/giant-scorpion-plate.png)
-
-### Spider, Giant
-*Source:* `Basic`  
-
-| Stat | Crab Spider | Black Widow | Tarantella |
-| --- | --- | --- | --- |
-| Armor Class | 7 | 6 | 5 |
-| Hit Dice | 2* | 3* | 4* |
-| Move | 120' (40') | 60' (20') | 120' (40') |
-| In Web | No webs | 120' (40') | No webs |
-| Attacks | 1 bite | 1 bite | 1 bite |
-| Damage | 1-8 + poison | 2-12 + poison | 1-8 + poison |
-| No. Appearing | 1-4 (1-4) | 1-3 (1-3) | 1-3 (1-3) |
-| Save As | Fighter: 1 | Fighter: 2 | Fighter: 2 |
-| Morale | 7 | 8 | 8 |
-| Treasure Type | U | U | U |
-| Alignment | Neutral | Neutral | Neutral |
-
-- *Crab Spider*: Crab spiders are 5' long giant spiders. They are meat-eaters and attack their victims by clinging to walls or ceilings and dropping onto them. They have chameleon-like powers and can change their color to blend into their surroundings, surprising on a roll of 1-4 (on 1d6). After the first attack, a crab spider can be seen and attacked normally. Any victim bitten by a crab spider must save vs. Poison or die in 1d4 turns. However, the poison is weak, and the victim may add + 2 to the saving throw roll.
-
-- *Black Widow Spider*: Black widow spiders are 6' long and colored black with a red "hourglass" mark on their abdomens. They tend to stay close to their webbed lairs. They are carnivorous and have been known to attack humans. Their webs should be treated as the magic-user's spell web, with respect to the chances of breaking free (once entrapped). The webs may also be burned away. Any victim of the bite of a black widow spider must save vs. Poison or die in 1 turn.
-
-- *Tarantella*: A tarantella is a huge hairy magical spider which looks like a 7' long tarantula. Its bite does not kill; instead, it causes the victim (if a saving throw vs. Poison is failed) to have painful spasms which resemble a frantic thance. This thance has a magical effect on onlookers, and they may be affected. Anyone watching must save vs. Spells or start to thance in the same way. Dancing victims have a penalty of -4 on their "to hit" rolls, and attackers gain + 4 "to hit" the victim. The effects of the bite last for 2-12 turns. However, thancers will drop from exhaustion in 5 turns, and they will then be helpless against attacks. Those caught while watching will thance as long as the original victim. (In the D&D EXPERT rules, there are magical means to cure the poison, and a dispel magic spell will stop the thance.)
-
-![Basic monster illustration: giant spider](assets/spider-plate.png)
-
-## Prehistoric
-
-### Mastodon
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 3 |
-| Hit Dice | 15 |
-| Move | 120' (40') |
-| Attacks | 2 tusks or 1 trample |
-| Damage | 2-12 / 2-12 or 4-32 |
-| No. Appearing | 0 (2-16) |
-| Save As | Fighter: 8 |
-| Morale | 8 |
-| Treasure Type | See below |
-| Alignment | Neutral |
-
-Mastodons look like hairy elephants with long tusks. In combat, a mastodon will charge, striking only with its tusks for double damage. In succeeding rounds, it will either strike with its tusks, 25%, or trample, 75%, if the opponent is man-sized or smaller. The mastodon gains a bonus of +4 on "to hit" rolls when trampling any creature man-sized or smaller.
-
-Ivory mastodon tusks are quite valuable, each tusk being worth 200-800 gp. They live in cold, icy tundras or "lost worlds."
-
-### Neanderthal (Caveman)
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 8 |
-| Hit Dice | 2 |
-| Move | 120' (40') |
-| Attacks | 1 weapon |
-| Damage | 2-8 or weapon + 1 |
-| No. Appearing | 1-10 (10-40) |
-| Save As | Fighter: 2 |
-| Morale | 7 |
-| Treasure Type | C |
-| Alignment | Lawful |
-
-Neanderthals, also known as cavemen, are a demi-human species related to humans. They have squat bodies with large bones and powerful muscles. Their faces have apelike features, including large brows above the eyes. Neanderthals live in family groups in caves and caverns.
-
-Neanderthals usually attack with thrown spears and use stone axes, clubs, or stone hammers in hand-to-hand combat. They choose their leaders from a similar race that is much larger than the average Neanderthal. These leaders have 6 hit dice and are 10' tall. There will be 10-40 Neanderthals in the lair with 2 leaders, one male and one female. Neanderthals often hunt cave bears and keep white apes as pets. They are friendly toward dwarves and gnomes, but hate goblins and kobolds. They will attack ogres on sight. They are shy and will avoid humans, but are not usually hostile unless they are attacked.
-
-### Pterodactyl
-*Source:* `Expert`  
-
-| Stat | Pterodactyl | Pteranodon |
-| --- | --- | --- |
-| Armor Class | 7 | 6 |
-| Hit Dice | 1 | 5 |
-| Flying | 180' (60') | 240' (120') |
-| Attacks | 1 | 1 |
-| Damage | 1-3 | 1-12 |
-| No. Appearing | 0 (2-8) | 0 (1-4) |
-| Save As | Fighter: 1 | Fighter: 3 |
-| Morale | 7 | 8 |
-| Treasure Type | Nil | V |
-| Alignment | Neutral | Neutral |
-
-Pterodactyls are bat-like reptiles with wingspans of 8-10 feet. They hunt small and medium-sized animals, gliding slowly along air currents to spot their prey. If driven by great hunger they will attack human-sized creatures.
-
-Pteranodons are giant pterodactyls. They are more aggressive and will often attack humans or humanoids. These monsters can have a wingspan of up to 50 feet.
-
-Pteranodons and pterodactyls are only found in warm climates, usually in "lost world" areas.
-
-### Stegosaurus
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 3 |
-| Hit Dice | 11 |
-| Move | 60' (20') |
-| Attacks | tail or trample |
-| Damage | 2-16 or 2-16 |
-| No. Appearing | 0 (1-4) |
-| Save As | Fighter: 6 |
-| Morale | 7 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-These squat dinosaurs have hard upright plates of bone along their backs and 4 long spikes on the end of their tails. They will swing their tail at anything that menaces them. Stegosaurs are herbivores and prefer sub-tropical conditions. They are usually found only in "lost world" areas.
-
-### Titanothere
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 12 |
-| Move | 120' (40') |
-| Attacks | butt or trample |
-| Damage | 2-12 / 3-24 |
-| No. Appearing | 0 (1-6) |
-| Save As | Fighter: 6 |
-| Morale | 7 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-The prehistoric titanothere resembles a huge blunt-horned rhino, 12' tall at the shoulder. They are generally peaceful if left alone, preferring to graze grass and eat leaves off trees. In combat, titanotheres will butt or trample their opponents. Small herds of these creatures are found in the grasslands of "lost world" areas.
-
-### Triceratops
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 2 |
-| Hit Dice | 11 |
-| Move | 90' (30') |
-| Attacks | gore or trample |
-| Damage | 3-18 each |
-| No. Appearing | 0 (1-4) |
-| Save As | Fighter: 6 |
-| Morale | 8 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-A triceratops is a heavily muscled, four-legged dinosaur that stands about 12' high at the shoulder and is nearly 40' long. It has three horns protruding from the bony protective crest that covers its head. Although these creatures are plant eaters, they are aggressive and dangerous, usually attacking on sight. They charge for double damage on the first attack.
-
-Triceratops are found on the plains of "lost worlds."
-
-### Tyrannosaurus Rex
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 3 |
-| Hit Dice | 20 |
-| Move | 120' (40') |
-| Attacks | 1 bite |
-| Damage | 6-36 |
-| No. Appearing | 0 (1) |
-| Save As | Fighter: 10 |
-| Morale | 11 |
-| Treasure Type | V x 3 |
-| Alignment | Neutral |
-
-The tyrannosaurus rex is one of the largest hunting dinosaurs, standing over 20' tall. Its great jaws are lined with sharp teeth and it moves erect on its hind legs. It will attack anything man-sized or larger, usually attacking the largest creature first.
-
-The tyrannosaurus rex is usually found only in "lost world" areas.
+::: pagebreak-pdf
+:::
 
 ## NPCs
 
@@ -3191,3 +3046,149 @@ A magic-user party is led by a 7th to 10th level magic-user, often with apprenti
 Traders are first level fighters who make their living trading goods. They are similar to merchants, but much braver and much better fighters. They usually carry swords and hand axes. They wear furs, treating them as leather armor, and carry shields.
 
 When encountered in the wilderness, they will be leading 1-4 pack mules carrying trade goods. The choice of exactly which trade goods is left to the DM; typical ones are spices, furs, or carved decorative items.
+
+::: pagebreak-pdf
+:::
+
+## Prehistoric
+
+### Mastodon
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 3 |
+| Hit Dice | 15 |
+| Move | 120' (40') |
+| Attacks | 2 tusks or 1 trample |
+| Damage | 2-12 / 2-12 or 4-32 |
+| No. Appearing | 0 (2-16) |
+| Save As | Fighter: 8 |
+| Morale | 8 |
+| Treasure Type | See below |
+| Alignment | Neutral |
+
+Mastodons look like hairy elephants with long tusks. In combat, a mastodon will charge, striking only with its tusks for double damage. In succeeding rounds, it will either strike with its tusks, 25%, or trample, 75%, if the opponent is man-sized or smaller. The mastodon gains a bonus of +4 on "to hit" rolls when trampling any creature man-sized or smaller.
+
+Ivory mastodon tusks are quite valuable, each tusk being worth 200-800 gp. They live in cold, icy tundras or "lost worlds."
+
+### Neanderthal (Caveman)
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 8 |
+| Hit Dice | 2 |
+| Move | 120' (40') |
+| Attacks | 1 weapon |
+| Damage | 2-8 or weapon + 1 |
+| No. Appearing | 1-10 (10-40) |
+| Save As | Fighter: 2 |
+| Morale | 7 |
+| Treasure Type | C |
+| Alignment | Lawful |
+
+Neanderthals, also known as cavemen, are a demi-human species related to humans. They have squat bodies with large bones and powerful muscles. Their faces have apelike features, including large brows above the eyes. Neanderthals live in family groups in caves and caverns.
+
+Neanderthals usually attack with thrown spears and use stone axes, clubs, or stone hammers in hand-to-hand combat. They choose their leaders from a similar race that is much larger than the average Neanderthal. These leaders have 6 hit dice and are 10' tall. There will be 10-40 Neanderthals in the lair with 2 leaders, one male and one female. Neanderthals often hunt cave bears and keep white apes as pets. They are friendly toward dwarves and gnomes, but hate goblins and kobolds. They will attack ogres on sight. They are shy and will avoid humans, but are not usually hostile unless they are attacked.
+
+### Pterodactyl
+*Source:* `Expert`  
+
+| Stat | Pterodactyl | Pteranodon |
+| --- | --- | --- |
+| Armor Class | 7 | 6 |
+| Hit Dice | 1 | 5 |
+| Flying | 180' (60') | 240' (120') |
+| Attacks | 1 | 1 |
+| Damage | 1-3 | 1-12 |
+| No. Appearing | 0 (2-8) | 0 (1-4) |
+| Save As | Fighter: 1 | Fighter: 3 |
+| Morale | 7 | 8 |
+| Treasure Type | Nil | V |
+| Alignment | Neutral | Neutral |
+
+Pterodactyls are bat-like reptiles with wingspans of 8-10 feet. They hunt small and medium-sized animals, gliding slowly along air currents to spot their prey. If driven by great hunger they will attack human-sized creatures.
+
+Pteranodons are giant pterodactyls. They are more aggressive and will often attack humans or humanoids. These monsters can have a wingspan of up to 50 feet.
+
+Pteranodons and pterodactyls are only found in warm climates, usually in "lost world" areas.
+
+### Stegosaurus
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 3 |
+| Hit Dice | 11 |
+| Move | 60' (20') |
+| Attacks | tail or trample |
+| Damage | 2-16 or 2-16 |
+| No. Appearing | 0 (1-4) |
+| Save As | Fighter: 6 |
+| Morale | 7 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+These squat dinosaurs have hard upright plates of bone along their backs and 4 long spikes on the end of their tails. They will swing their tail at anything that menaces them. Stegosaurs are herbivores and prefer sub-tropical conditions. They are usually found only in "lost world" areas.
+
+### Titanothere
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 12 |
+| Move | 120' (40') |
+| Attacks | butt or trample |
+| Damage | 2-12 / 3-24 |
+| No. Appearing | 0 (1-6) |
+| Save As | Fighter: 6 |
+| Morale | 7 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+The prehistoric titanothere resembles a huge blunt-horned rhino, 12' tall at the shoulder. They are generally peaceful if left alone, preferring to graze grass and eat leaves off trees. In combat, titanotheres will butt or trample their opponents. Small herds of these creatures are found in the grasslands of "lost world" areas.
+
+### Triceratops
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 2 |
+| Hit Dice | 11 |
+| Move | 90' (30') |
+| Attacks | gore or trample |
+| Damage | 3-18 each |
+| No. Appearing | 0 (1-4) |
+| Save As | Fighter: 6 |
+| Morale | 8 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+A triceratops is a heavily muscled, four-legged dinosaur that stands about 12' high at the shoulder and is nearly 40' long. It has three horns protruding from the bony protective crest that covers its head. Although these creatures are plant eaters, they are aggressive and dangerous, usually attacking on sight. They charge for double damage on the first attack.
+
+Triceratops are found on the plains of "lost worlds."
+
+### Tyrannosaurus Rex
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 3 |
+| Hit Dice | 20 |
+| Move | 120' (40') |
+| Attacks | 1 bite |
+| Damage | 6-36 |
+| No. Appearing | 0 (1) |
+| Save As | Fighter: 10 |
+| Morale | 11 |
+| Treasure Type | V x 3 |
+| Alignment | Neutral |
+
+The tyrannosaurus rex is one of the largest hunting dinosaurs, standing over 20' tall. Its great jaws are lined with sharp teeth and it moves erect on its hind legs. It will attack anything man-sized or larger, usually attacking the largest creature first.
+
+The tyrannosaurus rex is usually found only in "lost world" areas.
+
+::: twocolumn-pdf-end
+:::

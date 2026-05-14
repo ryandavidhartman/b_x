@@ -1,8 +1,34 @@
 # B/X Handoff
 
-Date: `2026-05-07`
+Date: `2026-05-13`
 
 ## Latest Session Update
+
+Follow-up update on `2026-05-13`:
+
+- Replaced the old hardcoded monster PDF two-column trigger (`## Monster Descriptions`) with explicit Markdown markers in the monster source:
+  - `::: twocolumn-pdf-begin`
+  - `::: twocolumn-pdf-end`
+- Updated the monster source so `Animals`, `Insects`, `Monsters`, `NPCs`, and `Prehistoric` stay as normal top-level `##` headings in Markdown while still rendering in two columns in the PDF.
+- Fixed the monster HTML TOC so those section headings appear again after the two-column control change.
+- Changed TOC depth behavior:
+  - Monster HTML now builds with `--toc-depth=3` so section headings contain nested monster-entry headings.
+  - Monster PDF still builds with `--toc-depth=2`.
+  - Both spell outputs now build with `--toc-depth=2`.
+- Added a monster-book HTML TOC enhancement:
+  - New files:
+    - [publication/monsters/combined-monsters-head.html](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters-head.html)
+    - [publication/monsters/combined-monsters-toc.js](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters-toc.js)
+  - The monster HTML TOC now shows nested entry lists under `Animals`, `Insects`, `Monsters`, `NPCs`, and `Prehistoric`.
+  - Those nested lists are collapsed by default and expand when the user clicks the section heading.
+  - Section clicks were explicitly changed to expand/collapse only; they no longer jump to the section anchor in HTML.
+- Added a monster PDF end index:
+  - The monster Lua filter now labels each `###` entry, gathers those headings, alphabetizes them, and appends an `Index` section at the end of the PDF with page numbers.
+  - The index entry names and page numbers are emitted with `\hyperref[...]` so they should be clickable in the PDF.
+- Changed the monster PDF build flow in [publication/monsters/build.sh](/home/ryandavidhartman/dev/source/b_x/publication/monsters/build.sh):
+  - It now generates `combined-monsters.tex` first and then runs `xelatex` twice.
+  - This was done to make PDF TOC links and page references resolve correctly, which a single direct Pandoc-to-PDF pass was not reliably doing.
+- Rebuilt both books after these changes.
 
 This session focused on using illustrations as page-by-page layout shims in the monster PDF, rather than trying more global layout logic.
 
@@ -104,6 +130,8 @@ Monster build:
 - [publication/monsters/monster-layout.lua](/home/ryandavidhartman/dev/source/b_x/publication/monsters/monster-layout.lua)
 - [publication/monsters/combined-monsters.css](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters.css)
 - [publication/monsters/combined-monsters-header.tex](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters-header.tex)
+- [publication/monsters/combined-monsters-head.html](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters-head.html)
+- [publication/monsters/combined-monsters-toc.js](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters-toc.js)
 
 Spell build:
 
@@ -115,10 +143,15 @@ Spell build:
 Current output behavior:
 
 - HTML stays single-column for both books.
-- Monster PDF uses a two-column layout for the book body, with selected wide comparison-table entries breaking out to full page width.
+- Monster HTML now uses a 3-level TOC with expandable section groups for the monster book.
+- Monster PDF uses a two-column layout for marked body sections, with selected wide comparison-table entries breaking out to full page width.
 - Both books now support PDF-only Markdown break markers:
   - `::: pagebreak-pdf`
   - `::: columnbreak-pdf`
+- Monster book also supports PDF-only two-column region markers:
+  - `::: twocolumn-pdf-begin`
+  - `::: twocolumn-pdf-end`
+- Monster PDF now appends an alphabetical `Index` section at the end with entry page references.
 - Spell PDF switches to two columns at `Spell Descriptions`.
 - The Markdown sources are kept generic; output-specific layout behavior is handled in the Lua filters and LaTeX/CSS files.
 
@@ -157,8 +190,10 @@ Current output behavior:
 
 - The new generated plates are present on disk and linked into the monster Markdown source for 19 entries.
 - Monster HTML is back to a readable single-column layout with the TOC present.
-- Monster PDF is substantially improved with two-column layout and targeted wide-table handling.
+- Monster HTML now has expandable top-level TOC sections with nested monster entry links.
+- Monster PDF is substantially improved with two-column layout, targeted wide-table handling, and an appended alphabetical end index.
 - Both books now support Markdown-native PDF-only page and column break markers without requiring raw LaTeX in the source.
+- Monster PDF TOC/index references are now built through a two-pass XeLaTeX flow instead of a single direct Pandoc PDF pass.
 - Spell HTML remains straightforward and readable.
 - Spell PDF now uses a two-column layout without requiring per-spell special cases.
 - The repo has a documented build process and is now under Git/GitHub.
@@ -169,6 +204,7 @@ Current output behavior:
 - The new generated illustration style is only partially validated; the user has not yet rebuilt the monster HTML/PDF to inspect page fit and visual consistency in output.
 - Adding many more plates may require layout adjustments if the current inserts create awkward page breaks or crowding.
 - Monster PDF layout is improved but still not final; more entries may need the same full-width-table treatment if additional awkward tables are spotted.
+- The monster PDF TOC and end-index links were fixed at the source level, but they should still be spot-checked manually in a PDF viewer after future layout/filter changes.
 - Some monster text likely still contains OCR issues or reconstructed wording that has not been fully source-checked.
 - `publication/monsters/generate_monsters.py` is still in the repo as legacy material, which may confuse a future editor unless they read the README/handoff first.
 - `source/` and the published HTML/PDF outputs are currently committed, so the repo is larger and more artifact-heavy than a source-only repo.
@@ -179,9 +215,12 @@ Current output behavior:
 
 1. Resolve the specific page-6 target: make `Basilisk` start at the top of the right column on page 6.
 2. Re-check page 7 after any `Dryad` adjustment so `Black Pudding` still starts cleanly there.
-3. Continue the same page-by-page image-shim method only where it clearly improves the PDF.
-4. Decide whether the temporary `Dryad` Markdown width override should be kept, changed, or removed.
-5. Continue content proofreading of monster entries against the Basic and Expert page PDFs where exact wording matters.
+3. Spot-check the monster PDF in an actual PDF viewer:
+   - TOC links should land on the correct pages.
+   - End-index links should be clickable and land on the correct entries.
+4. Continue the same page-by-page image-shim method only where it clearly improves the PDF.
+5. Decide whether the temporary `Dryad` Markdown width override should be kept, changed, or removed.
+6. Continue content proofreading of monster entries against the Basic and Expert page PDFs where exact wording matters.
 
 ## Command Reminder
 

@@ -36,8 +36,29 @@ This produces:
 Notes:
 
 - The HTML build stays single-column.
-- The PDF build uses a two-column layout for the monster descriptions.
+- The monster HTML TOC includes section headings and individual monster entries.
+- In the monster HTML output, the top-level TOC sections (`Animals`, `Insects`, `Monsters`, `NPCs`, `Prehistoric`) collapse their nested entry lists by default and expand when clicked.
+- The PDF build can use a two-column layout for any marked monster-book section.
 - Some wider monster comparison tables are handled by the PDF layout filter in `publication/monsters/monster-layout.lua`.
+- The monster PDF also appends an alphabetical end index of monster entries with page numbers.
+- To mark a PDF-only two-column region in the monster Markdown, place begin/end markers around the section(s) like this:
+  HTML ignores these markers and remains single-column.
+
+```md
+::: twocolumn-pdf-begin
+:::
+
+## Animals
+...
+## Insects
+...
+## Monsters
+...
+
+::: twocolumn-pdf-end
+:::
+```
+
 - To force a PDF-only page break from Markdown, insert:
   HTML ignores this marker.
 
