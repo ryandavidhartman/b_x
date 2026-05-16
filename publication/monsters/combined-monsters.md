@@ -45,35 +45,57 @@ In each monster description, an asterisk (*) after the hit dice means that the s
 
 **Move (Movement Rate)**: gives the number of feet a monster may move in one *turn*. The number in parentheses is the number of feet the monster may move in one *round* of combat.  Some monsters have two movement rates. The first is the monster’s normal movement rate, while the second is a special form of movement such as swimming, flying, or climbing.
 
-**Attacks**: gives the number and type of attacks a monster may make in one combat round. **Damage** gives the range of damage caused by each successful attack.  When a monster can make multiple attacks, the attacks and damage values are listed in the same order. 
+**Attacks**: gives the number and type of attacks a monster may make in one combat round. Humanoid monsters often use weapons, while other creatures attack with claws, bites, horns, pincers, or other natural weapons.
 
-*EXAMPLE*: Attacks: 2 claws/1 bite; Damage: `1-4`/`1-4`/`2-12` means the monster makes two claw attacks that each inflict `1d4` damage and one bite attack that inflicts `2d6` damage.
+**Damage**: gives the amount of damage caused by each successful attack. When a monster has multiple attacks, the damage values are listed in the same order as the attacks. Damage ranges correspond to dice rolls; for example, 3-18 means `3d6` damage.
 
-Some monsters have special attacks, described below:
+*EXAMPLE*: Attacks: 2 claws/1 bite; Damage: 1-4/1-4/2-12 means the monster makes two claw attacks that each inflict `1d4` damage and one bite attack that inflicts `2d6` damage.
 
-- *Acid*: Acid may continue to burn after the initial hit and can destroy armor as well as flesh.
+Some monsters also have special attacks, such as poison, petrification, paralysis, energy drain, or similar abilities, described below.
 
-- *Charge*: A charge occurs when a monster rushes into melee combat. A monster cannot charge while already in melee or while moving through difficult terrain such as mountains, hills, forests, swamps, jungles, or broken ground. To charge, the monster must move at least 10 yards before attacking. A successful charge attack deals double damage. Spears and polearms used against a charging monster also deal double damage on a successful hit.
+- *Acid*: Some monsters, such as gray oozes and ochre jellies, attack with acid. A successful hit means the acid has reached the target’s skin. Acid continues to cause damage each round without further attack rolls until it is washed off with water, wine, or similar liquid.  Acid can also destroy armor after prolonged contact, eventually reducing it to uselessness and leaving the wearer with Armor Class 9.  A black dragon’s acid breath is different. It causes damage for only one round per breath attack and is then neutralized. A successful saving throw reduces the damage by half. Armor is only destroyed if the victim is killed by the attack.
 
-- *Charm*: A charmed victim cannot act freely, cannot attack the charming monster, and will obey simple commands if they can be understood.
+- *Charge*: A charge occurs when a creature rushes into melee combat. A charge cannot be made once opponents are already in melee range, nor can it be used in terrain that prevents running, such as forests, mountains, jungles, swamps, or broken ground.  The charging creature must move at least 20' before attacking. A successful charge attack by a creature using horns, tusks, or similar natural weapons inflicts double damage.  Spears and pole arms braced against a charging creature also inflict double damage on a successful hit.
+
+- *Charm*: A character who fails a saving throw versus Spells against a charm attack becomes unable to act freely. A charmed character cannot attack or deliberately harm the charming creature and will obey simple commands if they can understand them.  If the monster and character do not share a language, the charmed character will still attempt to protect the monster from harm. Charmed characters are too confused to cast spells or use magic items. The death of the charming creature usually ends the effect, though charm may also be removed by **dispel magic** or similar magic.
 
 - *Continuous Damage*: Some special forms of damage, such as blood drain, swallowing, constriction, and similar attacks, deal damage automatically each round until the attacker is killed, driven off, or releases its victim.
 
-- *Energy Drain*: removes a level of experience or one hit die with no saving throw. The loss cannot normally be cured.
+- *Energy Drain*: A successful hit by certain **undead** monsters drains energy from the victim. Unlike most special attacks, there is no saving throw against energy drain. Each successful drain removes one experience level from a character or one Hit Die from a monster. The victim immediately loses all benefits of the lost level, including attack ability, saving throws, spells, and other class abilities.  Energy drain cannot normally be cured, except by certain high level cleric spells.
 
-- *Paralysis*: A failed save versus Paralysis leaves the victim helpless but aware, usually for `2-8` turns unless cured. Attacks against a paralyzed target hit automatically.
+- *Paralysis*: is less deadly than poison, but still very dangerous. A character struck by a paralyzing attack who fails a saving throw versus Paralysis becomes unable to move or act. The character remains fully aware of events around them, but cannot move, speak, cast spells, or perform any other actions until the paralysis ends.  Unless otherwise stated, paralysis lasts for 2–8 (`2d4`) turns. A cleric’s **cure light wounds** spell may remove paralysis, though it causes no healing when used this way.  Attacks against a paralyzed creature automatically hit; only damage must be rolled. Paralysis has no permanent effects once it wears off.
 
 - *Poison*: A poisoned hit is often fatal if the victim fails a save versus Poison.
 
-**No. Appearing**: gives the suggested number encountered on the dungeon level that matches the monster's Hit Dice or level. Numbers in parentheses give the usual lair or wilderness total, and a `0` means the monster is not normally found in that setting.
+- *Swallow*: Some monsters can swallow opponents whole. This attack always succeeds on a natural roll of 20, though larger creatures may require a higher number.  A swallowed victim suffers the listed damage each round until either the monster or the victim dies. A swallowed creature armed with an edged weapon may attack from inside the monster, but suffers a -4 penalty on attack rolls.  Being swallowed may also cause additional effects depending on the monster, such as paralysis or unconsciousness. A victim killed and left inside the creature will be completely digested after 6 turns and cannot be recovered.
 
-**Save As**: gives the class and level used for saving throws. Intelligent monsters usually save at full monster level, often as fighters unless the description says otherwise. Unintelligent monsters often save at half level, rounded up.
+- *Swoop*: Certain flying monsters can make diving attacks from above. If the monster surprises its target, a successful swoop attack inflicts double damage.  Swoop attacks cannot be used against targets protected by dense forest or jungle cover. On a roll of 18+, the monster also grabs the victim and attempts to fly away. If the victim is too heavy to carry, the monster releases them and attacks normally on the following round.
 
-**Morale**: is the B/X optional morale score. The DM rolls `2d6`; if the roll is higher than the adjusted morale, the monster tries to flee.
+- *Trample*: Some large monsters can crush opponents beneath their weight. Creatures with this attack have a 75% chance each round to trample instead of using another attack.  Trample attacks gain a +4 bonus on attack rolls against man-sized or smaller creatures.  The DM may also allow herds of 20 or more normal animals, such as horses, to stampede and trample. A stampeding herd inflicts `1d20` points of damage.
 
-**Treasure Type**: refers to the standard B/X treasure tables. Lair monsters are more likely to have treasure than wandering monsters, and unintelligent animals often have little or none unless circumstance explains it.
+**No. Appearing (Number Appearing)**: gives the suggested number of monsters encountered at one time. The first number is the typical range encountered on a dungeon level equal to the monster’s Hit Dice or level.
 
-**Alignment**: shows whether a monster is Lawful, Neutral, or Chaotic. Unintelligent animals are usually Neutral.
+*EXAMPLE*: A monster with 3+1 Hit Dice and No. Appearing: 1-6 would commonly be encountered in groups of `1d6` on the 3rd dungeon level.
+
+When monsters are encountered on dungeon levels lower than their own level, fewer should usually appear. On deeper levels, larger groups are more common. The exact numbers are left to the DM’s judgment.
+
+The number in parentheses gives the typical number encountered in the monster’s lair or in the wilderness. Wilderness lairs often contain up to five times the number normally encountered in a dungeon.
+
+A `0` means the monster is not normally encountered in that environment unless specially placed by the DM.
+
+**Save As**: gives the character class and level a monster uses for saving throws. Monsters normally save as Fighters.  Unintelligent monsters usually save at half their Hit Dice or monster level, rounding fractions up.
+
+*EXAMPLE*: An unintelligent monster with 3 Hit Dice would save as a 2^nd^ level character. Intelligent monsters usually save at their full monster level.
+
+Some monsters that are magical, enchanted, or possess special abilities may have improved saving throws, as noted in their descriptions.
+
+**Morale**: measures a monster’s willingness to continue fighting. The DM may adjust morale to reflect the situation or circumstances of the encounter.  To check morale, roll `2d6`. If the result is greater than the monster’s morale score, the creature will usually attempt to flee, retreat, or surrender.
+
+**Treasure Type**: gives the letter code used to determine the treasure associated with a monster, as described on the **Treasure Types** table. Treasure is most often found in a monster’s lair rather than carried by wandering monsters, unless an individual treasure type is listed.
+
+Unintelligent creatures rarely possess treasure, though valuables may sometimes be found among the remains of their victims or collected as shiny curiosities.
+
+**Alignment**: shows whether a monster is Lawful, Neutral, or Chaotic. Unintelligent creatures are usually Neutral. The DM should play monsters according to their alignment and behavior. Only intelligent creatures can speak an alignment language.
 
 ::: twocolumn-pdf-end
 :::
