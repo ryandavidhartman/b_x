@@ -97,6 +97,10 @@ p {
   margin: 0.45rem 0 0.7rem;
 }
 
+.center {
+  text-align: center;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;

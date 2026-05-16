@@ -78,6 +78,23 @@ local function is_pdf_twocolumn_end_div(block)
   return block.t == "Div" and block.classes and block.classes:includes("twocolumn-pdf-end")
 end
 
+local function is_center_div(block)
+  return block.t == "Div" and block.classes and block.classes:includes("center")
+end
+
+local function latex_blocks_for_block(block)
+  if is_center_div(block) then
+    local rebuilt = { pandoc.RawBlock("latex", "\\begin{center}") }
+    for _, inner in ipairs(block.content) do
+      table.insert(rebuilt, inner)
+    end
+    table.insert(rebuilt, pandoc.RawBlock("latex", "\\end{center}"))
+    return rebuilt
+  end
+
+  return { block }
+end
+
 local function pagebreak_blocks(in_columns)
   local blocks = {}
 
@@ -212,7 +229,9 @@ local function process_regular_entry_for_latex(blocks)
     elseif block.t == "Table" then
       table.insert(processed, table_to_tabularx(block, "\\columnwidth"))
     else
-      table.insert(processed, block)
+      for _, inner in ipairs(latex_blocks_for_block(block)) do
+        table.insert(processed, inner)
+      end
     end
   end
 
@@ -267,7 +286,9 @@ local function process_full_width_tables_entry(blocks)
       if block.t == "Table" then
         table.insert(processed, table_to_tabularx(block, "\\columnwidth"))
       else
-        table.insert(processed, block)
+        for _, inner in ipairs(latex_blocks_for_block(block)) do
+          table.insert(processed, inner)
+        end
       end
     end
   end
@@ -307,7 +328,9 @@ local function process_two_column_section(blocks)
         table.insert(rebuilt, raw)
       end
     else
-      table.insert(rebuilt, block)
+      for _, inner in ipairs(latex_blocks_for_block(block)) do
+        table.insert(rebuilt, inner)
+      end
     end
   end
 
@@ -396,7 +419,9 @@ function Pandoc(doc)
           table.insert(rebuilt, raw)
         end
       else
-        table.insert(rebuilt, block)
+        for _, inner in ipairs(latex_blocks_for_block(block)) do
+          table.insert(rebuilt, inner)
+        end
       end
     end
 

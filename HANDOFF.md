@@ -4,6 +4,22 @@ Date: `2026-05-13`
 
 ## Latest Session Update
 
+Follow-up update on `2026-05-16`:
+
+- Added a Markdown-native centered block syntax that works in both HTML and PDF builds:
+  - `::: center`
+  - `Centered text`
+  - `:::`
+- Implemented centered-block handling in:
+  - [publication/monsters/monster-layout.lua](/home/ryandavidhartman/dev/source/b_x/publication/monsters/monster-layout.lua)
+  - [publication/spells/spell-layout.lua](/home/ryandavidhartman/dev/source/b_x/publication/spells/spell-layout.lua)
+- Added matching HTML styling in:
+  - [publication/monsters/combined-monsters.css](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters.css)
+  - [publication/spells/combined-spells.css](/home/ryandavidhartman/dev/source/b_x/publication/spells/combined-spells.css)
+- Documented the centered-block syntax in [README.md](/home/ryandavidhartman/dev/source/b_x/README.md).
+- Verified with scratch Pandoc runs that the same Markdown emits centered HTML and centered LaTeX output.
+- While adding this, fixed a spell-filter edge case so the spell Lua filter no longer emits a stray `\end{multicols}` when the input does not contain the `Spell Descriptions` section.
+
 Follow-up update on `2026-05-13`:
 
 - Replaced the old hardcoded monster PDF two-column trigger (`## Monster Descriptions`) with explicit Markdown markers in the monster source:
@@ -148,6 +164,8 @@ Current output behavior:
 - Both books now support PDF-only Markdown break markers:
   - `::: pagebreak-pdf`
   - `::: columnbreak-pdf`
+- Both books now support a cross-output centered block marker:
+  - `::: center`
 - Monster book also supports PDF-only two-column region markers:
   - `::: twocolumn-pdf-begin`
   - `::: twocolumn-pdf-end`
@@ -193,6 +211,7 @@ Current output behavior:
 - Monster HTML now has expandable top-level TOC sections with nested monster entry links.
 - Monster PDF is substantially improved with two-column layout, targeted wide-table handling, and an appended alphabetical end index.
 - Both books now support Markdown-native PDF-only page and column break markers without requiring raw LaTeX in the source.
+- Both books now support a Markdown-native centered block syntax that renders centered text in both HTML and PDF.
 - Monster PDF TOC/index references are now built through a two-pass XeLaTeX flow instead of a single direct Pandoc PDF pass.
 - Spell HTML remains straightforward and readable.
 - Spell PDF now uses a two-column layout without requiring per-spell special cases.

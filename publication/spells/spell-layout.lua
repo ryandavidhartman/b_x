@@ -10,6 +10,23 @@ local function is_pdf_columnbreak_div(block)
   return block.t == "Div" and block.classes and block.classes:includes("columnbreak-pdf")
 end
 
+local function is_center_div(block)
+  return block.t == "Div" and block.classes and block.classes:includes("center")
+end
+
+local function latex_blocks_for_block(block)
+  if is_center_div(block) then
+    local rebuilt = { pandoc.RawBlock("latex", "\\begin{center}") }
+    for _, inner in ipairs(block.content) do
+      table.insert(rebuilt, inner)
+    end
+    table.insert(rebuilt, pandoc.RawBlock("latex", "\\end{center}"))
+    return rebuilt
+  end
+
+  return { block }
+end
+
 local function pagebreak_blocks(in_columns)
   local blocks = {}
 
@@ -52,14 +69,10 @@ function Pandoc(doc)
     end
   end
 
-  if not marker_index then
-    return doc
-  end
-
   local rebuilt = {}
 
   for index, block in ipairs(doc.blocks) do
-    if index <= marker_index then
+    if not marker_index or index <= marker_index then
       if is_pdf_pagebreak_div(block) then
         for _, raw in ipairs(pagebreak_blocks(false)) do
           table.insert(rebuilt, raw)
@@ -69,7 +82,9 @@ function Pandoc(doc)
           table.insert(rebuilt, raw)
         end
       else
-        table.insert(rebuilt, block)
+        for _, inner in ipairs(latex_blocks_for_block(block)) do
+          table.insert(rebuilt, inner)
+        end
       end
     elseif index == marker_index + 1 then
       table.insert(rebuilt, pandoc.RawBlock("latex", "\\begin{multicols}{2}"))
@@ -82,7 +97,9 @@ function Pandoc(doc)
           table.insert(rebuilt, raw)
         end
       else
-        table.insert(rebuilt, block)
+        for _, inner in ipairs(latex_blocks_for_block(block)) do
+          table.insert(rebuilt, inner)
+        end
       end
     else
       if is_pdf_pagebreak_div(block) then
@@ -94,11 +111,16 @@ function Pandoc(doc)
           table.insert(rebuilt, raw)
         end
       else
-        table.insert(rebuilt, block)
+        for _, inner in ipairs(latex_blocks_for_block(block)) do
+          table.insert(rebuilt, inner)
+        end
       end
     end
   end
 
-  table.insert(rebuilt, pandoc.RawBlock("latex", "\\end{multicols}"))
+  if marker_index then
+    table.insert(rebuilt, pandoc.RawBlock("latex", "\\end{multicols}"))
+  end
+
   return pandoc.Pandoc(rebuilt, doc.meta)
 end

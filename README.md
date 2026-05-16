@@ -75,6 +75,14 @@ Notes:
 :::
 ```
 
+- To center a block in both HTML and PDF, use a fenced div with the `center` class:
+
+```md
+::: center
+Centered text
+:::
+```
+
 ## Build The Spell Book
 
 From the repo root:
@@ -96,6 +104,13 @@ Notes:
 - The PDF layout behavior is controlled by `publication/spells/spell-layout.lua`.
 - The same `::: pagebreak-pdf` marker works here as a PDF-only page break and is ignored by the HTML build.
 - `::: columnbreak-pdf` also works here to jump to the next PDF column inside the two-column section.
+- The same centered-block syntax works in both outputs:
+
+```md
+::: center
+Centered text
+:::
+```
 
 ## Source Files
 

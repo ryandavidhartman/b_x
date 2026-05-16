@@ -2,7 +2,7 @@
 title: "B/X Book of Monsters"
 subtitle: "A merged and deduplicated monster chapter from the Basic and Expert rulebooks"
 author: "Compiled from the 1981 Basic and Expert Sets"
-date: "May 13^th^ 2026"
+date: "May 16^th^ 2026"
 lang: "en-US"
 ---
 
@@ -11,67 +11,118 @@ lang: "en-US"
 ::: pagebreak-pdf
 :::
 
-## Using This Chapter
+## Explanations
 
-Some monster names are followed by an asterisk (`*`). This means that special or magical weapons are needed to fight them, and such monsters should be used with caution.
+::: twocolumn-pdf-begin
+:::
 
-All non-human monsters have infravision unless a description says otherwise. They can detect heat out to `60'` in darkness. Hot objects appear bright, warm things appear in shades of gray, cold things appear dark, and large heat sources can interfere with this sense.
+Any creature that is not a player character is called a monster. Monsters may be friendly or hostile, wild or tame, ordinary beasts or fantastic creatures. The DM chooses which monsters become the allies and opponents of the players.
 
-`Armor Class`: is given in the same general way as for player characters and is based on both protection and agility.
+The monsters in this book represent the most commonly encountered examples of their kind. The DM may make monsters stronger or weaker to suit the needs of the campaign. When adjusting a monster’s strength, the DM should also adjust related abilities such as Armor Class, Move, Damage, and Saves so they remain balanced with the monster’s Hit Dice.
 
-`Hit Dice`: show how many `d8` are rolled for a monster’s hit points, including any pluses or minuses. They also indicate a monster’s approximate level, attack ability, experience value, and the dungeon levels where it is most commonly encountered. In general, a monster’s level equals its Hit Dice, ignoring pluses and minuses, though especially dangerous monsters may count as one level higher. As a rule of thumb, monsters are most common within two dungeon levels of their Hit Dice, appearing less often above that range and more often below it.
+Some monster names are followed by an asterisk (*). This indicates that they can only be harmed by magic spells or special or magical weapons, and such monsters should be used with caution.
 
-A monster's hit dice also determines its chance to hit in combat and the amount of experience points characters earn for defeating them.
+Unless otherwise noted, all non-human monsters have infravision, allowing them to detect heat up to 60' away in darkness. Hot objects appear bright, warm things appear in shades of gray, and cold things appear dark. Living creatures are visible by their body heat. Fire or other large heat sources may interfere with this sense.
 
-| Hit Dice  |  9 |  8 |  7 |  6 |  5 |  4 |  3 |  2 |  1 |  0 | -1 | -2 | -3 | XP Value    | XP Bonus    |
-|-----------|----|----|----|----|----|----|----|----|----|----|----|----|----|-------------|-------------|
-| Up to 1   | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 20 | 10–15       | 1–3         |
-| 1+ to 2   |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 15–20       | 4–5         |
-| 2+ to 3   |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 25–35       | 10–15       |
-| 3+ to 4   |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 50–75       | 25–50       |
-| 4+ to 5   |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 125–175     | 75–125      |
-| 5+ to 6   |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 225–275     | 175–225     |
-| 6+ to 7   |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 350–450     | 300–400     |
-| 7+ to 9   |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 500–900     | 450–700     |
-| 9+ to 11  |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 1,000–1,250 | 750–875     |
-| 11+ to 13 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 1,300–1,450 | 950–975     |
-| 13+ to 15 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 1,500–1,650 | 1,000–1,050 |
-| 15+ to 17 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 1,850–2,000 | 1,100–1,150 |
-| 17+ to 19 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 2,125–2,250 | 1,350–1,550 |
-| 19+ to 21 |  2 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 2,375–2,500 | 1,800–2,000 |
-| 21+ to 23 |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 | 2,625-2,750 | 2,125-2,250 |
+**Armor Class (AC)**: is determined in much the same way as for player characters and is based on both the toughness of a monster’s skin or armor and its speed and dexterity.
 
-An asterisk after Hit Dice matters for experience awards. `*` means the XP Bonus is added once, and `**` means it is added twice.
+**Hit Dice**: gives the number of eight-sided dice (`d8`) to be used to determine a monster's hit points, as well as any adjustments to the hit points (+ or -). 
 
-`Move`: gives the number of feet a monster may travel in one turn. The number in parentheses is the number of feet it may move in one combat round. If two movement rates are given, the first is ordinary movement and the second is a special mode such as swimming, flying, or climbing.
+*EXAMPLE*: To determine the hit points of a monster with `3+1` hit dice, roll `3d8` and add `1` to the total. **The DM will always use eight-sided dice to find a monster's hit points**.
 
-`Attacks`: gives the number and kind of attacks a monster may make in one round.
+"Hit dice" also gives the level of the monster and the dungeon level on which it is most commonly found. In general, a monster's level equals its number of hit dice, ignoring any pluses or minuses. 
 
-`Damage`: gives the matching damage values in the same order as the attacks listed.
+*EXAMPLE*: A monster with `3+1` hit dice is a third level monster, and is most commonly found on the 3^rd^ level of any dungeon.
 
-- Acid: Acid may continue to burn after the initial hit and can destroy armor as well as flesh.
+*Note*: if a monster has several special powers, the DM may consider it one level greater than its hit dice.  A monster's level is only a guide, and a monster could be found anywhere in a dungeon, whatever the level. However, as a general rule, it is useful to limit monsters to 2 dungeon levels higher or lower than their hit dice. When monsters are encountered on dungeon levels less than the monsters' level, there should be fewer monsters than normal. And when monsters are met on dungeon
+levels greater than the monsters' level, there should be more monsters than normal.
 
-- Charge: A charge occurs when a monster rushes into melee combat. A monster cannot charge while already in melee or while moving through difficult terrain such as mountains, hills, forests, swamps, jungles, or broken ground. To charge, the monster must move at least 10 yards before attacking. A successful charge attack deals double damage. Spears and polearms used against a charging monster also deal double damage on a successful hit.
+*EXAMPLE*: A 4^th^ level monster might be found anywhere in dungeon levels 2 through 6, but it is not likely to be found on the 1^st^ or 7^th^ levels except one at a time (on the 1^st^ level) or in large numbers (on the 7^th^ level or below).
 
-- Charm: A charmed victim cannot act freely, cannot attack the charming monster, and will obey simple commands if they can be understood.
+"Hit dice" also determine both the chances of a monster's attack being successful and the number of experience points a character will get for defeating it. The **Monster Attacks** table and the **Experience Points for Monsters** table are both arranged by the monster's hit dice.
 
-- Continuous Damage: Some special forms of damage, such as blood drain, swallowing, constriction, and similar attacks, deal damage automatically each round until the attacker is killed, driven off, or releases its victim.
+In each monster description, an asterisk (*) after the hit dice means that the special abilities bonus should be added when the DM gives out experience points. Two asterisks means that the special abilities bonus should be added twice when the DM gives experience points.
 
-- Energy Drain: Energy drain removes a level of experience or one hit die with no saving throw. The loss cannot normally be cured.
+**Move (Movement Rate)**: gives the number of feet a monster may move in one *turn*. The number in parentheses is the number of feet the monster may move in one *round* of combat.  Some monsters have two movement rates. The first is the monster’s normal movement rate, while the second is a special form of movement such as swimming, flying, or climbing.
 
-- Paralysis: A failed save versus Paralysis leaves the victim helpless but aware, usually for `2-8` turns unless cured. Attacks against a paralyzed target hit automatically.
+**Attacks**: gives the number and type of attacks a monster may make in one combat round. **Damage** gives the range of damage caused by each successful attack.  When a monster can make multiple attacks, the attacks and damage values are listed in the same order. 
 
-- Poison: A poisoned hit is often fatal if the victim fails a save versus Poison.
+*EXAMPLE*: Attacks: 2 claws/1 bite; Damage: `1-4`/`1-4`/`2-12` means the monster makes two claw attacks that each inflict `1d4` damage and one bite attack that inflicts `2d6` damage.
 
-`No. Appearing`: gives the suggested number encountered on the dungeon level that matches the monster's Hit Dice or level. Numbers in parentheses give the usual lair or wilderness total, and a `0` means the monster is not normally found in that setting.
+Some monsters have special attacks, described below:
 
-`Save As`: gives the class and level used for saving throws. Intelligent monsters usually save at full monster level, often as fighters unless the description says otherwise. Unintelligent monsters often save at half level, rounded up.
+- *Acid*: Acid may continue to burn after the initial hit and can destroy armor as well as flesh.
 
-`Morale`: is the B/X optional morale score. The DM rolls `2d6`; if the roll is higher than the adjusted morale, the monster tries to flee.
+- *Charge*: A charge occurs when a monster rushes into melee combat. A monster cannot charge while already in melee or while moving through difficult terrain such as mountains, hills, forests, swamps, jungles, or broken ground. To charge, the monster must move at least 10 yards before attacking. A successful charge attack deals double damage. Spears and polearms used against a charging monster also deal double damage on a successful hit.
 
-`Treasure Type`: refers to the standard B/X treasure tables. Lair monsters are more likely to have treasure than wandering monsters, and unintelligent animals often have little or none unless circumstance explains it.
+- *Charm*: A charmed victim cannot act freely, cannot attack the charming monster, and will obey simple commands if they can be understood.
 
-`Alignment`: shows whether a monster is Lawful, Neutral, or Chaotic. Unintelligent animals are usually Neutral.
+- *Continuous Damage*: Some special forms of damage, such as blood drain, swallowing, constriction, and similar attacks, deal damage automatically each round until the attacker is killed, driven off, or releases its victim.
+
+- *Energy Drain*: removes a level of experience or one hit die with no saving throw. The loss cannot normally be cured.
+
+- *Paralysis*: A failed save versus Paralysis leaves the victim helpless but aware, usually for `2-8` turns unless cured. Attacks against a paralyzed target hit automatically.
+
+- *Poison*: A poisoned hit is often fatal if the victim fails a save versus Poison.
+
+**No. Appearing**: gives the suggested number encountered on the dungeon level that matches the monster's Hit Dice or level. Numbers in parentheses give the usual lair or wilderness total, and a `0` means the monster is not normally found in that setting.
+
+**Save As**: gives the class and level used for saving throws. Intelligent monsters usually save at full monster level, often as fighters unless the description says otherwise. Unintelligent monsters often save at half level, rounded up.
+
+**Morale**: is the B/X optional morale score. The DM rolls `2d6`; if the roll is higher than the adjusted morale, the monster tries to flee.
+
+**Treasure Type**: refers to the standard B/X treasure tables. Lair monsters are more likely to have treasure than wandering monsters, and unintelligent animals often have little or none unless circumstance explains it.
+
+**Alignment**: shows whether a monster is Lawful, Neutral, or Chaotic. Unintelligent animals are usually Neutral.
+
+::: twocolumn-pdf-end
+:::
+
+| Hit Dice  |  9 |  8 |  7 |  6 |  5 |  4 |  3 |  2 |  1 |  0 | -1 | -2 | -3 | -4 | -5 | -6 | -7 | -8 |
+|-----------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| Up to 1   | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 20 | 20 | 20 | 20 | 20 | 20 |
+| 1+ to 2   |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 20 | 20 | 20 | 20 | 20 |
+| 2+ to 3   |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 20 | 20 | 20 | 20 |
+| 3+ to 4   |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 20 | 20 | 20 |
+| 4+ to 5   |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 20 | 20 |
+| 5+ to 6   |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 | 20 |
+| 6+ to 7   |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 20 |
+| 7+ to 9   |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
+| 9+ to 11  |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
+| 11+ to 13 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 |
+| 13+ to 15 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 |
+| 15+ to 17 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
+| 17+ to 19 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 |
+| 19+ to 21 |  2 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 |
+| 21+ to 23 |  2 |  2 |  2 |  2 |  2 |  2 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 |
+::: center
+*Monster Attack Matrix*
+:::
+
+An asterisk after Hit Dice matters for experience awards. (*) means the XP Bonus is added once, and (**) means it is added twice.
+
+| Hit Dice  | XP Value    | Bonus       | XP * Value  | XP ** Value |
+|-----------|-------------|-------------|-------------|-------------|
+| Under 1   | 5           | 1           | 6           | 7           |
+| 1 to 1+   | 10–15       | 3-4         | 13–19       | 16–23       |
+| 2 to 2+   | 20–25       | 5-10        | 25–35       | 30–45       |
+| 3 to 3+   | 35–50       | 15-25       | 50–75       | 65–100      |
+| 4 to 4+   | 75–125      | 50-75       | 125–200     | 175–275     |
+| 5 to 5+   | 175–225     | 125-175     | 300–400     | 425–575     |
+| 6 to 6+   | 275–350     | 225-300     | 500–650     | 725–950     |
+| 7 to 7+   | 450–500     | 450-500     | 850–950     | 1,250–1,400 |
+| 8 to 8+   | 650–750     | 550–600     | 1,200–1,350 | 1,750–1,950 |
+| 9 to 9+   | 900–1,000   | 700–750     | 1,600–1,750 | 2,300–2,500 |
+| 10 to 10+ | 1,250–1,300 | 875–950     | 2,125–2,250 | 3,000–3,200 |
+| 11 to 11+ | 1,450–1,500 | 975–1,000   | 2,425–2,500 | 3,400–3,500 |
+| 12 to 12+ | 1,650–1,750 | 1,050–1,075 | 2,700–2,825 | 3,750–3,900 |
+| 13 to 16+ | 1,900–2,050 | 1,150–1,300 | 3,050–3,350 | 4,200–4,650 |
+| 17 to 20+ | 2,200–2,400 | 1,500–1,750 | 3,700–4,150 | 5,200–5,900 |
+| 21 to 21+ | 2,500–2,650 | 2,000–2,150 | 4,500–4,800 | 6,500–6,950 |
+| 22 to 22+ | 2,750–2,900 | 2,250–2,400 | 5,000–5,300 | 7,250–7,700 |
+::: center
+*Experience Points for Monsters*
+:::
 
 ![Welcome Adventures](assets/intro-plate.png)
 
