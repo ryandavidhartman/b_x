@@ -28,20 +28,20 @@ Unless otherwise noted, all non-human monsters have infravision, allowing them t
 
 **Hit Dice**: gives the number of eight-sided dice (`d8`) to be used to determine a monster's hit points, as well as any adjustments to the hit points (+ or -). 
 
-*EXAMPLE*: To determine the hit points of a monster with `3+1` hit dice, roll `3d8` and add `1` to the total. **The DM will always use eight-sided dice to find a monster's hit points**.
+*Example*: To determine the hit points of a monster with `3+1` hit dice, roll `3d8` and add `1` to the total. **The DM will always use eight-sided dice to find a monster's hit points**.
 
 "Hit dice" also gives the level of the monster and the dungeon level on which it is most commonly found. In general, a monster's level equals its number of hit dice, ignoring any pluses or minuses. 
 
-*EXAMPLE*: A monster with `3+1` hit dice is a third level monster, and is most commonly found on the 3^rd^ level of any dungeon.
+*Example*: A monster with `3+1` hit dice is a third level monster, and is most commonly found on the 3^rd^ level of any dungeon.
 
 *Note*: if a monster has several special powers, the DM may consider it one level greater than its hit dice.  A monster's level is only a guide, and a monster could be found anywhere in a dungeon, whatever the level. However, as a general rule, it is useful to limit monsters to 2 dungeon levels higher or lower than their hit dice. When monsters are encountered on dungeon levels less than the monsters' level, there should be fewer monsters than normal. And when monsters are met on dungeon
 levels greater than the monsters' level, there should be more monsters than normal.
 
-*EXAMPLE*: A 4^th^ level monster might be found anywhere in dungeon levels 2 through 6, but it is not likely to be found on the 1^st^ or 7^th^ levels except one at a time (on the 1^st^ level) or in large numbers (on the 7^th^ level or below).
+*Example*: A 4^th^ level monster might be found anywhere in dungeon levels 2 through 6, but it is not likely to be found on the 1^st^ or 7^th^ levels except one at a time (on the 1^st^ level) or in large numbers (on the 7^th^ level or below).
 
 "Hit dice" also determine both the chances of a monster's attack being successful and the number of experience points a character will get for defeating it. The **Monster Attacks** table and the **Experience Points for Monsters** table are both arranged by the monster's hit dice.
 
-In each monster description, an asterisk (*) after the hit dice means that the special abilities bonus should be added when the DM gives out experience points. Two asterisks means that the special abilities bonus should be added twice when the DM gives experience points.
+In each monster description, an asterisk (*) after the hit dice means that the special abilities bonus should be added when the DM gives out experience points. Two asterisks (**) means that the special abilities bonus should be added twice when the DM gives experience points.
 
 **Move (Movement Rate)**: gives the number of feet a monster may move in one *turn*. The number in parentheses is the number of feet the monster may move in one *round* of combat.  Some monsters have two movement rates. The first is the monster’s normal movement rate, while the second is a special form of movement such as swimming, flying, or climbing.
 
@@ -49,7 +49,10 @@ In each monster description, an asterisk (*) after the hit dice means that the s
 
 **Damage**: gives the amount of damage caused by each successful attack. When a monster has multiple attacks, the damage values are listed in the same order as the attacks. Damage ranges correspond to dice rolls; for example, 3-18 means `3d6` damage.
 
-*EXAMPLE*: Attacks: 2 claws/1 bite; Damage: 1-4/1-4/2-12 means the monster makes two claw attacks that each inflict `1d4` damage and one bite attack that inflicts `2d6` damage.
+*Example*: `Attacks: 2 claws/1 bite`; `Damage: 1-4/1-4/2-12` indicates that the monster makes two claw attacks that each inflict `1d4` damage and one bite attack that inflicts `2d6` damage.
+
+::: pagebreak-pdf
+:::
 
 Some monsters also have special attacks, such as poison, petrification, paralysis, energy drain, or similar abilities, described below.
 
@@ -75,7 +78,7 @@ Some monsters also have special attacks, such as poison, petrification, paralysi
 
 **No. Appearing (Number Appearing)**: gives the suggested number of monsters encountered at one time. The first number is the typical range encountered on a dungeon level equal to the monster’s Hit Dice or level.
 
-*EXAMPLE*: A monster with 3+1 Hit Dice and No. Appearing: 1-6 would commonly be encountered in groups of `1d6` on the 3rd dungeon level.
+*Example*: A monster with 3+1 Hit Dice and No. Appearing: 1-6 would commonly be encountered in groups of `1d6` on the 3rd dungeon level.
 
 When monsters are encountered on dungeon levels lower than their own level, fewer should usually appear. On deeper levels, larger groups are more common. The exact numbers are left to the DM’s judgment.
 
@@ -85,7 +88,7 @@ A `0` means the monster is not normally encountered in that environment unless s
 
 **Save As**: gives the character class and level a monster uses for saving throws. Monsters normally save as Fighters.  Unintelligent monsters usually save at half their Hit Dice or monster level, rounding fractions up.
 
-*EXAMPLE*: An unintelligent monster with 3 Hit Dice would save as a 2^nd^ level character. Intelligent monsters usually save at their full monster level.
+*Example*: An unintelligent monster with 3 Hit Dice would save as a 2^nd^ level character. Intelligent monsters usually save at their full monster level.
 
 Some monsters that are magical, enchanted, or possess special abilities may have improved saving throws, as noted in their descriptions.
 
