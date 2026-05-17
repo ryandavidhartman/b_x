@@ -800,6 +800,696 @@ Dire Wolves: Dire wolves may be found in caves, woods, or mountains. They are la
 ::: pagebreak-pdf
 :::
 
+## Constructs
+
+### Gargoyle*
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 4 |
+| Move | 90' (30') |
+| Flying | 150' (50') |
+| Attacks | 2 claws/1 bite/ |
+| Damage | 1-3/1-3/1-6/ |
+| No. Appearing | 1-6(2-8) |
+| Save As | Fighter: 8 |
+| Morale | 11 |
+| Treasure Type | C 1 horn |
+| Alignment | Chaotic 1-4 |
+
+Gargoyles are magical  and save as Fighter: 8. They can only be hit with magic or magical weapons. As pictured in medieval architecture, they are horned, clawed, fanged, winged, hideous-looking beasts. Their skin often looks exactly like stone and are often mistaken to be statues. Gargoyles are very cunning and at least semi-intelligent. They will attack nearly anything that approaches them. Gargoyles are not affected by sleep or charm spells. The DM is advised to use gargoyles only if the player characters have at least one magical weapon.
+
+![Basic monster illustration: gargoyle](assets/gargoyle-plate.png)
+
+### Golem*
+*Source:* `Expert`  
+
+| Stat | Wood | Bone | Amber | Bronze |
+| --- | --- | --- | --- | --- |
+| Armor Class | 7 | 2 | 6 | 0 |
+| Hit Dice | 2 + 2 | 8 | 10** | 20** |
+| Move | 120' (40') | 120' (40') | 180' (60') | 240' (80') |
+| Attacks | 1 fist | 4 weapons | 2 claws / 1 bite | 1 fist + special |
+| Damage | 1-8 | By weapon | 2-12 / 2-12 / 2-20 | 3-30 + special |
+| No. Appearing | 1 (1) | 1 (1) | 1 (1) | 1 (1) |
+| Save As | Fighter: 1 | Fighter: 4 | Fighter: 5 | Fighter: 10 |
+| Morale | 12 | 12 | 12 | 12 |
+| Treasure Type | Nil | Nil | Nil | Nil |
+| Alignment | Neutral | Neutral | Neutral | Neutral |
+
+A golem is a powerful monster, created and animated by a high-level magic-user or cleric. They can be made of almost any material, but the ones listed are typical. The DM should feel free to create other golems with any special powers desired.
+
+Normally golems can only be hit by magic weapons. Golems are also immune to sleep, charm, and hold spells, as well as all forms of gases. Creating a golem is costly, time consuming, and beyond the power of player characters in the D&D Expert rules.
+
+- *Wood golems* are crude manlike figures about 3' tall, hacked from wood. They move stiffly and have a penalty of -1 on initiative rolls. They burn easily, saving at -2 and suffering one extra point of damage per die from fire-based attacks.
+
+- *Bone golems* are 6' tall creatures made from the bones of dead men bound together into a manlike form. They wield weapons from skeletal arms fastened to their bodies at various points. Either four one-handed weapons or two pole arms may be used by a bone golem, and it will attack up to two enemies per round. Bone golems are immune to fire, cold, and electrical attacks.
+
+- *Amber golems* resemble giant lions or tigers. They are faultless trackers and can detect invisible creatures within 60'.
+
+- *Bronze golems* look somewhat like fire giants. Their skin is bronze and their blood is liquid fire. Any creature hit by a bronze golem takes 1-10 more points of damage from the great heat inside it. Anyone scoring damage on a bronze golem with an edged weapon must save vs. Death Ray or take 2-12 points of damage from the fiery blood spurting out of the wound. Bronze golems are not affected by fire-based attacks.
+
+### Living Statue
+*Source:* `Basic`  
+
+| Stat | Crystal | Iron | Rock |
+| --- | --- | --- | --- |
+| Armor Class | 4 | 2 | 4 |
+| Hit Dice | 3 | 4 | 5* |
+| Move | 90' (30') | 30' (10') | 60' (20') |
+| Attacks | 2 blows | 2 blows + special | 2 blows |
+| Damage | 1-6 / 1-6 | 1-8 / 1-8 + special | 2-12 / 2-12 |
+| No. Appearing | 1-6 (1-6) | 1-4 (1-4) | 1-3 (1-3) |
+| Save As | Fighter: 3 | Fighter: 4 | Fighter: 5 |
+| Morale | 11 | 11 | 11 |
+| Treasure Type | Nil | Nil | Nil |
+| Alignment | Lawful | Neutral | Chaotic |
+
+A living statue is an enchanted animated creature made by a powerful wizard. It appears to be a perfectly normal statue until it begins to move. A living statue may be of any size or material. Living crystal, iron, and rock statues are three types of living statues which serve as examples, should a DM wish to make up his or her own types. Living statues are not affected by sleep spells.
+
+- *Crystal*: Living crystal statues are life forms made of crystals instead of flesh. They can look like a statue of anything, but often appear human.
+
+- *Iron*: Living iron statues have bodies which can absorb iron and steel. When hit, they will take normal damage, but if a non-magical meta1 weapon is used, the attacker must save vs. Spells or the weapon will become stuck in the body of the living iron statue, and may only be removed if the statue is killed.
+
+- *Rock*: Living rock statues have an outer crust of stone but are filled with hot magma (fiery lava). When the living rock statue attacks, it will squirt the magma from its finger tips for 2d6 points of damage per hit.
+
+::: pagebreak-pdf
+:::
+
+## Demons
+
+Demonologists classify demons into several broad categories, though most demons do not fit neatly into any single class. All demons are creatures of pure chaos and evil, dwelling in infernal planes beyond the mortal world. Demonic society is brutal and treacherous, where strength alone commands respect and weakness invites destruction.
+
+Many demons possess powerful magical abilities such as infravision, darkness, teleportation without error, and the ability to gate in other demons. Specific powers vary by type and are described in individual entries.
+
+Demons travel freely between their home planes and other lower planes such as Tartarus, Pandemonium, and Hades, and may move through the Astral Plane at will. They cannot normally enter the Prime Material Plane except through magical summoning, gates, wishes, or similar means.
+
+Demons are fearless in combat and never willingly submit to another being. Less intelligent demons attack mindlessly until slain, while more cunning demons constantly seek opportunities to betray, corrupt, enslave, or destroy those who summon them. Even when magically bound, demons twist commands to their advantage whenever possible.
+
+Thaumaturgic circles and other protective wards may hold demons at bay, though more powerful demons require increasingly elaborate preparations. Summoning demons is always dangerous and should involve meaningful risks, bargains, threats, or sacrifices determined by the DM.
+
+Demons are repelled by powerful holy relics and good-aligned artifacts. On the Prime Material Plane, clerics of 8^th^ level or higher and paladins of 11^th^ level or higher may turn demons.
+
+Demons are commonly encountered on the Astral and Æthereal planes, where they are drawn to the presence of wandering souls and travelers. Speaking the true name of a demon carries a 5% chance of attracting its attention, an act considered extremely dangerous among sages and summoners.
+
+All demons can understand any spoken language, and those of average or greater intelligence may speak any language as well.
+
+Demons resist many forms of attack. They take only half damage from cold, electricity, fire, and poisonous gas attacks, but suffer full damage from acid, magic missiles, poison, and iron weapons. Silver weapons inflict no special additional damage beyond their normal effects.
+
+::: pagebreak-pdf
+:::
+
+## Devils
+
+Devils are the primary inhabitants of the planes of Hell and the embodiment of lawful evil. They are the eternal enemies of chaotic demons and all servants of good.
+
+Devil society is governed by an immense and inflexible hierarchy enforced by the archdevils who rule the infernal planes. Though rigidly ordered, Hell is filled with endless rivalries, jealousies, and political intrigues among barons, dukes, marquises, princes, and lesser devils all seeking greater power and favor.
+
+All devils may travel freely between the planes of Hell, though passage often requires the permission of the ruling archdevil. Devils may also move to Gehenna, Hades, and Acheron, and rarely travel the Astral Plane. They cannot enter the Prime Material Plane except through magical summoning, gate spells, or invocation of their secret names.
+
+All devils possess powerful magical abilities that vary by type. Common powers include animate dead, charm person, fear, know alignment, phantasmal force, suggestion, teleportation without error, and the ability to summon other devils. Devils may use these abilities at will, though generally only one at a time.
+
+All devils possess infravision and can understand and speak any language.
+
+Only a devil’s physical form can be destroyed outside Hell. A devil slain beyond the lower planes reforms in Hell as a lowly lemure and must endure 9 decades of infernal servitude before regaining its former rank and status.
+
+Once battle is joined, devils never surrender or submit. Lesser devils fight to the death with fanatical determination, while greater devils and archdevils may negotiate if it serves their interests. Devils may divide their attacks among multiple opponents if advantageous.
+
+Devils are masters of laws, bargains, and contracts. They obey the exact wording of agreements while relentlessly exploiting ambiguities, omissions, and hidden loopholes. Bargaining with devils is notoriously dangerous, as even the smallest oversight may lead to ruin.
+
+As with demons, proper magical circles are essential when summoning devils. More powerful devils require increasingly elaborate and costly protections. Devils are also repelled by powerful holy relics and good-aligned artifacts.
+
+Devils resist many forms of attack. They are completely immune to fire and take only half damage from cold and poisonous gas. They suffer full damage from acid, electricity, magic missiles, poison, and silver weapons. Iron weapons inflict no special additional damage.
+
+::: pagebreak-pdf
+:::
+
+## Dragons
+
+Dragons are the archetypal foes of fantasy adventure games. Some are weak enough that even inexperienced adventurers may dare to face them, while the eldest and greatest dragons are powerful enough to challenge entire companies of heroes. Even high-level parties may struggle against a mated pair or family of ancient dragons.
+
+Dragons are most commonly identified by color. In some campaigns these colors are literal, with red dragons always bearing crimson scales and breathing fire, while in others the colors are symbolic or traditional. Some worlds also feature especially powerful dragons with more than 8 hit points per Hit Die, or even larger Hit Dice such as d10 or d12.
+
+Despite their many kinds, dragons share several common traits. Dragons are intelligent, proud creatures and may sometimes accept a formal challenge rather than fight to the death. Whether a dragon agrees, and under what conditions, depends on its personality, alignment, and the nature of the challenge.
+
+As dragons age, they grow steadily more powerful. Newly hatched dragons typically have only 1 hit point per Hit Die, while extremely ancient dragons over 400 years old may possess the maximum 8 hit points per Hit Die.
+
+All dragons radiate an aura of supernatural fear, similar to a fear spell, affecting creatures below 5^th^ level unless they successfully save versus Spells. Dragons with 5 or more hit points per Hit Die also gain a bonus of +1 on saving throws for each hit point per die above 4. Thus, an ancient dragon with 8 hit points per Hit Die gains a +4 bonus on all saving throws.
+
+### Dragon
+*Source:* `Basic`  
+
+| Stat | White | Black | Green | Blue | Red | Gold |
+| --- | --- | --- | --- | --- | --- | --- |
+| Armor Class | 3 | 2 | 1 | 0 | -1 | -2 |
+| Hit Dice | 6** | 7** | 8** | 9** | 10** | 11** |
+| Move | 90' (30'); fly 240' (80') | 90' (30'); fly 240' (80') | 90' (30'); fly 240' (80') | 90' (30'); fly 240' (80') | 90' (30'); fly 240' (80') | 90' (30'); fly 240' (80') |
+| Attacks | 2 claws / 1 bite + breath | 2 claws / 1 bite + breath | 2 claws / 1 bite + breath | 2 claws / 1 bite + breath | 2 claws / 1 bite + breath | 2 claws / 1 bite + breath |
+| Damage | 1-4 / 1-4 / 2-16 | 2-5 / 2-5 / 2-20 | 1-6 / 1-6 / 3-24 | 2-7 / 2-7 / 3-30 | 1-8 / 1-8 / 4-32 | 2-8 / 2-8 / 6-36 |
+| No. Appearing | 1-4 (1-4) | 1-4 (1-4) | 1-4 (1-4) | 1-4 (1-4) | 1-4 (1-4) | 1-4 (1-4) |
+| Save As | Fighter: 6 | Fighter: 7 | Fighter: 8 | Fighter: 9 | Fighter: 10 | Fighter: 11 |
+| Morale | 8 | 8 | 9 | 9 | 10 | 10 |
+| Treasure Type | H | H | H | H | H | H |
+| Alignment | Neutral | Chaotic | Chaotic | Neutral | Chaotic | Lawful |
+
+| Trait | White | Black | Green | Blue | Red | Gold |
+| --- | --- | --- | --- | --- | --- | --- |
+| Where Found | Cold region | Swamp, marsh | Jungle, forest | Desert, plain | Mountain, hill | Anywhere |
+| Breath Weapon | Cold | Acid | Chlorine gas | Lightning | Fire | Fire / gas |
+| Range and Shape | 80' × 30' cone | 60' × 5' line | 50' × 40' cloud | 100' × 5' line | 90' × 30' cone | 90' × 30' cone / 50' × 40' cloud |
+| Chance of Talking | 10% | 20% | 30% | 40% | 50% | 100% |
+| Chance of Being Asleep | 50% | 40% | 30% | 20% | 10% | 5% |
+| Spells by Level | 3 / - / - | 4 / - / - | 3 / 3 / - | 4 / 4 / - | 3 / 3 / 3 | 4 / 4 / 4 |
+
+Dragons are a very old race of huge winged lizards. They like to live in isolated, out-of-the-way places where few humans are found. Though the color of their scaly hide makes dragons look different, they all have several traits in common: they are hatched from eggs, are meat-eaters, have Breath Weapons, love treasure, and will do everything possible to save their own lives, including surrender.
+
+Dragons are proud of their long history, and because of this they tend to think less of the younger races. Chaotic dragons might capture humans, but will usually kill and eat them immediately. Neutral dragons might either attack or ignore a party completely. Lawful dragons, however, may actually help a party if the characters are truly worthy of the honor. When playing a dragon, the DM should remember that even the hungriest dragon will pause and listen to flattery, provided no one is attacking it and it understands the speaker.
+
+BREATH WEAPONS DAMAGE: All dragons have a special attack with their Breath Weapon in addition to their claw and bite attacks. Any dragon can use its Breath Weapon up to 3 times each day. A dragon's first attack is always with its Breath Weapon. The number of points of damage any Breath Weapon does is equal to the dragon's remaining number of hit points. Any damage done to a dragon will reduce the damage it can do with its Breath Weapon.
+
+After the first Breath attack, a dragon may choose to attack with claws and bite. To determine this randomly, roll 1d6. A result of 1-3 means that the dragon will use its claw and bite attacks; a result of 4-6 means that the dragon will breathe again.
+
+SHAPE OF BREATH: A dragon's Breath Weapon appears as one of three different shapes: cone-shaped, a straight line, or a cloud of gas.
+
+A cone-shaped Breath begins at the dragon's mouth, where it is 2' wide, and spreads out until it is 30' wide at its furthest end. For example, the area of effect of a white dragon's Breath is a cone 80' long and 30' wide at its far end.
+
+A line-shaped Breath starts in the dragon's mouth and stretches out toward its victim in a straight line, even downwards. Even at its source, a line-shaped Breath is 5' wide.
+
+A cloud-shaped Breath billows forth from the dragon's mouth to form a 50'x40'x20' tall cloud around the dragon's targets directly in front of it.
+
+![Basic diagram: dragon breath shapes](assets/dragon-breath-diagram.png)
+
+SAVING THROWS: Anyone caught within the area of effect of a dragon's Breath Weapon may make a saving throw. A successful saving throw means that the victim takes only 1/2 damage from the Breath. Dragons are never affected by the normal or smaller versions of their own Breath Weapons, and automatically make their saving throws against any attack form that is the same as their Breath Weapon. For example, a red dragon will take no damage from burning oil, and will always take only 1/2 damage from a fire-type magic spell such as a fire ball.
+
+TALKING: Dragons are intelligent, and some dragons can speak Dragon and Common. The percentage listed under Chance of Talking is the chance that a dragon will be able to talk. Talking dragons are also able to use Magic-user/Elf spells. The number of spells and their levels are given above under Spells by Level. For example, 3 / 3 / - would mean that the dragon can cast 3 first-level spells and 3 second-level spells, but no third-level spells. Dragon spells are usually selected randomly.
+
+SLEEPING DRAGONS: The percentage chance given under Chance of Being Asleep applies whenever a party encounters a dragon on the ground; flying dragons are never asleep. Any result greater than the percentage means that the dragon is not asleep, though it may be pretending to be. If a dragon is asleep, it may be attacked with a bonus of +2 on attack rolls for one round, during which it will wake. Combat proceeds normally from the second round on.
+
+SUBDUING DRAGONS: Whenever characters encounter a dragon, they may choose to try to subdue it rather than kill it. To subdue a dragon, all the attacks must be with the flat of the sword; missile weapons and spells may not be used. Attacks and damage are determined normally when trying to subdue the dragon. The dragon will fight normally until it reaches 0 or fewer hit points, at which time it will surrender. A dragon may be subdued because it realizes that its attackers could have killed it if they had been striking to kill.
+
+A subdued dragon will attempt to escape or turn on its captor if given a reasonable chance to do so through the party's actions. For example, a dragon left unguarded at night, or ordered to guard a position alone, would consider these reasonable chances. A subdued dragon must be sold. The price is up to the DM, but should never exceed 1,000 gp per hit point. The dragon may be forced to serve the characters who subdued it. If a subdued dragon is ever ordered to perform a task that is apparently suicidal, it will attempt to escape and/or kill its captors.
+
+AGE: The statistics given are for an average-sized dragon of its type. Younger dragons are smaller and have acquired less treasure; older dragons are larger and have acquired more. Dragons generally range in size from 3 hit dice smaller to 3 hit dice larger than average. For example, red dragons could be found having 7 to 13 hit dice, depending on their age.
+
+TREASURE: Younger dragons may have collected as little as 1/2 the normal listed treasure; older dragons may have as much as double the listed amount. Dragon treasure is only found in the dragon's lair. These lairs are rarely left unguarded, and are well-hidden to prevent easy discovery.
+
+GOLD DRAGONS: Gold dragons always talk and use spells. They can also change their shape, and often appear in the form of a human or animal. Gold dragons may breathe either fire, like a red dragon, or chlorine gas, like a green dragon, though they still have a total of 3 Breath Weapon attacks per day, not 6. The type of Breath attack should be chosen by the DM to fit the situation.
+
+Dragons are extremely powerful and should be used with caution when encountered by low-level player characters. It is recommended that until characters reach the fourth level and higher, only the youngest and smallest dragons be used by the DM.
+
+![Basic monster illustration: dragon](assets/dragon-plate.png)
+
+### Dragon Turtle
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | -2 |
+| Hit Dice | 30 |
+| Move | 30' (10') |
+| Swimming | 90' (30') |
+| Attacks | 2 claws / 1 bite |
+| Damage | 1-8 claw / 10-60 bite |
+| No. Appearing | 0 (1) |
+| Save As | Fighter: 15 |
+| Morale | 10 |
+| Treasure Type | H |
+| Alignment | Chaotic |
+
+Dragon turtles appear to be some unusual mixture of a dragon and a gigantic turtle. They have the head, limbs and tail of a great dragon and the hard shell of a turtle. These creatures live in the depths of great oceans and seas, seldom surfacing or approaching land. Dragon turtles are so large that sailors have mistakenly anchored on ones floating on the surface, thinking the hard shell to be a small island.
+
+Besides its powerful claws and bite, the dragon turtle is also able to use a breath weapon. It can breathe a 30' wide cloud of steam to a distance of 90'. This breath weapon will do damage in the same manner as a dragon's, inflicting hit points of damage equal to the current hit points of the dragon turtle.
+
+Dragon turtles live in great caverns on the bottom of the deepest oceans, where they keep the treasures of sunken ships. On occasion they will rise under ships, attempting to overturn them and devour the occupants.
+
+Note: Dragon turtles are extremely powerful creatures that should not be used unless the player characters are of very high level.
+
+![Expert monster illustration: dragon turtle](assets/dragon-turtle-plate.png)
+
+### Sea Dragons
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 1 |
+| Hit Dice | — |
+| Move | 8 180' (60') (Swimming or Flying) |
+| Attacks | — |
+| Damage | 1 bite or 1 spit 3-24 |
+| No. Appearing | 0 (1-4) |
+| Save As | Fighter: 8 (see below) |
+| Morale | 9 |
+| Treasure Type | H |
+| Alignment | Neutral |
+
+Sea dragons are intelligent and usually green in color with a bright yellow-green crest. Sea dragons have a 20% chance of talking and being spell casters, with three 1st level and three 2nd leve1 spells.
+
+Their breath weapon is a 20' diameter glob of poison that they can spit up to 100', three times per day (50% chance to use). Those struck must save vs. Dragon Breath or die. (This poison loses its effectiveness after 1 round). Their bite is not poisonous.
+
+The statistics given are for an average-sized sea dragon. Younger dragons, as with other dragons, are smaller and have acquired less treasure; older sea dragons are larger and have acquired more.
+
+Sea dragons generally range in size from 3 hit dice smaller to 3 hit dice larger than average.
+
+Sea dragons have fin-like wings which enable them to glide above the water for up to 6 rounds (much like "flying fish"). They live in caves or sunken ships at the bottom of the ocean, and may attack passing ships for food and treasure.
+
+### Wyvern
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 3 |
+| Hit Dice | 7* |
+| Move | 90' (30') |
+| Flying | 240' (80') |
+| Attacks | 1 bite / 1 sting |
+| Damage | 2-16 / 1-6 + poison |
+| No. Appearing | 1-2 (1-6) |
+| Save As | Fighter: 4 |
+| Morale | 9 |
+| Treasure Type | E |
+| Alignment | Chaotic |
+
+A wyvern looks like a two-legged, winged dragon with a long tail. In combat, the wyvern will bite and arch its tail over its head to hit opponents in front of it. Those stung by the tail must save vs. Poison or die. These beasts prefer to live on cliffs or in forests, but may be found anywhere.
+
+![Expert monster illustration: wyvern](assets/wyvern-plate.png)
+
+::: pagebreak-pdf
+:::
+
+## Elementals
+
+### Djinni, Lesser*
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 7 + 1 |
+| Move | 90' (30') |
+| Flying | 240' (80') |
+| Attacks | 1 + special |
+| Damage | 2-16 (fists), or 2-12 (whirlwind) |
+| No. Appearing | 1 (0) |
+| Save As | Fighter: 14 |
+| Morale | 12 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+The djinn are intelligent, free-willed air elementals. They appear as tall, human-like beings, surrounded with clouds. Djinn are highly magical in nature and save as 14^th^ level fighters. They can only be harmed by magic or magical weapons.
+
+A djinni can perform any of its seven powers three times a day:
+
+- Create food and drink, as a 7^th^ level cleric
+- Create temporary metallic objects up to 1,000 cn weight. Duration varies by hardness, from 1 day for gold to 1 round for iron
+- Create soft goods and wooden objects, permanent, to a maximum of 1000 cn weight
+- Become invisible
+- Assume gaseous form
+- Form itself into a whirlwind.
+
+In addition, a djinni can create illusions that affect both sight and hearing at will. Such illusions last until touched or magically dispelled; the djinni need not concentrate to maintain them.
+
+Djinn have two forms of attack:
+
+A djinni can form itself into a whirlwind, 70' tall, 20' diameter at the top, 10' diameter at base, that moves 120' (40') per turn. The djinni requires 5 rounds to enter or leave whirlwind form. The djinni-whirlwind will do 2-12 points of damage to all in its path and will sweep aside all creatures with fewer than 2 hit dice who do not save vs. Death Ray.
+
+When not in whirlwind form, a djinni strikes once per round with its fists for 2-16 points of damage.
+
+If a djinni is slain, it returns to its own plane.
+
+A djinni can carry 6000 cn weight without tiring. Up to 12,000 cn weight can be carried for 3 turns walking or 1 turn flying. Afterwards, a djinni must rest for one turn.
+
+### Efreeti, Lesser*
+
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 3 |
+| Hit Dice | 10* |
+| Move | 90' (30') |
+| Flying | 240' (80') |
+| Attacks | 1 |
+| Damage | 2-16 |
+| No. Appearing | 1 (1) |
+| Save As | Fighter: 15 |
+| Morale | 12 |
+| Treasure Type | Nil |
+| Alignment | Chaotic |
+
+Efreet are free-willed fire elementals. They usually appear as clouds of smoke that solidify into giant demonic-faced men surrounded by flame. The air around them is always hot and smoky, they are highly magical in nature, and they can only be hit with magic weapons.
+
+Efreet can create objects, create illusions, and turn invisible like djinn. They may also create a wall of fire up to 3 times per day. An efreeti can transform itself into a pillar of flame for up to 3 rounds, setting flammable items within 5' alight and doing an extra 1-8 points of damage to creatures it strikes while in that form.
+
+Efreet may fly and carry up to 10,000 cn weight while flying. They can be summoned by high-level magic-users who know the special spells required, but once summoned they must be carefully controlled.
+
+![Expert monster illustration: efreeti](assets/efreeti-plate.png)
+
+
+### Elemental*
+*Source:* `Expert`  
+
+| Stat | Air | Earth | Fire | Water |
+| --- | --- | --- | --- | --- |
+| Armor Class | Variable | Variable | Variable | Variable |
+| Hit Dice | Variable | Variable | Variable | Variable |
+| Move | Fly 360' (120') | 60' (20') | 120' (40') | 60' (20'); Swim 180' (60') |
+| Attacks | Special | Special | Special | Special |
+| Damage | Variable | Variable | Variable | Variable |
+| No. Appearing | 1 (1) | 1 (1) | 1 (1) | 1 (1) |
+| Save As | Variable | Variable | Variable | Variable |
+| Morale | 10 | 10 | 10 | 10 |
+| Treasure Type | Nil | Nil | Nil | Nil |
+| Alignment | Neutral | Neutral | Neutral | Neutral |
+
+Elementals can be brought forth only from a large amount of their element, open air, bare earth or rock, large fire, or a large pond. After being summoned they must be totally controlled at all times by the person who summoned them. Control requires complete concentration. If the summoner moves over half speed, takes damage in combat, or does anything besides paying attention to the elemental, the elemental will turn and attempt to attack its summoner. It will also attack any creature in the path between it and the one who summoned it. Once control is lost, it can never be regained. An elemental vanishes when dispelled, when the elemental is slain, or when the summoner orders the elemental to return from whence it came while it is still under control. Elementals can be hit only by magic or magic weapons.
+
+Staff elementals, the weakest, are summoned by a magic-user with a special staff. Device elementals are summoned with the use of a special miscellaneous magic item. Conjured elementals are summoned by the use of the 5th level magic-user or elf spell.
+
+| Kind | Armor Class | Hit Dice | Damage | Save As |
+| --- | --- | --- | --- | --- |
+| Staff | 2 | 8 | 1-8 | Fighter: 8 |
+| Device | 0 | 12 | 2-16 | Fighter: 12 |
+| Conjured | -2 | 16 | 3-24 | Fighter: 16 |
+
+Air elementals appear as great whirlwinds 2' tall and 1/2' in diameter for each hit die they have. The whirlwind will catch and sweep away creatures of less than 2 hit dice unless a saving throw vs. Death Ray is made. Air elementals do an extra 1-8 points of damage against flying opponents.
+
+Earth elementals appear as huge man-like figures 1' tall for each hit die they have. Earth elementals cannot cross a water barrier wider than their height. Earth elementals do an extra 1-8 points of damage against opponents on the ground.
+
+Fire elementals appear as swirling pillars of roaring flame 1' tall and 1' in diameter for each hit die they have. They cannot cross a water barrier wider than their own diameter. They do an additional 1-8 points of damage against all creatures with cold-based attacks.
+
+Water elementals appear as great waves of water 1/2' tall and 2' in diameter for each hit die they have. Water elementals are not able to move more than 60' from water. They do an extra 1-8 points of damage against opponents in water.
+
+### Salamander*
+*Source:* `Expert`  
+
+| Stat | Flame Salamander | Frost Salamander |
+| --- | --- | --- |
+| Armor Class | 2 | 3 |
+| Hit Dice | 8* | 12* |
+| Move | 120' (40') | 120' (40') |
+| Attacks | 2 claws / 1 bite | 4 claws / 1 bite |
+| Damage | 1-4 / 1-4 / 1-8 | 1-6 (x4) / 2-12 |
+| No. Appearing | 2-5 (2-8) | 1-3 (1-3) |
+| Save As | Fighter: 8 | Fighter: 12 |
+| Morale | 8 | 9 |
+| Treasure Type | F | E |
+| Alignment | Neutral | Chaotic |
+
+A flame salamander is a form of free-willed fire elemental that looks like a giant snake, 12' to 16' long, with the head and limbs of a lizard. It has scales of bright orange-yellow and orange-red. All creatures within 20' will take 1-8 points of damage per round from the intense heat the salamander generates. Flame salamanders are immune to all fire-based attacks. These creatures are intelligent and prefer to live near, or in, volcanoes or in very hot, dry lands.
+
+A frost salamander looks like a giant lizard with 6 legs. Its scales are white or blue-white in color. When it fights, it rears up and strikes with the front four legs as well as fangs. All creatures within 20' will take an additional 1-8 points of damage each round from the extreme cold the monster radiates. Frost salamanders are immune to all cold-based attacks. They live in frozen wastelands, glaciers, and icy tundras.
+
+Frost and flame salamanders hate each other, and will attack one another on sight.
+
+![Expert monster plate: salamander](assets/salamander-plate.png)
+
+::: pagebreak-pdf
+:::
+
+## Humanoids
+“Humanoids” are evil-aligned, human-like creatures such as orcs, goblins, and kobolds. Most humanoids live in tribes, clans, or warbands ruled by the strongest or most cunning leaders.
+
+Larger groups often include shamans, witch doctors, or other tribal spellcasters
+
+### Bugbear
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 3+1 |
+| Move | 90' (30') |
+| Attacks | 1 weapon |
+| Damage | 2-8 or by weapon + 1 |
+| No. Appearing | 2-8 (5-20) |
+| Save As | Fighter: 3 |
+| Morale | 9 |
+| Treasure Type | B |
+| Alignment | Chaotic |
+
+Bugbears are giant hairy goblins. Despite their size and awkward walk, they move very quietly and attack without warning whenever they can. They surprise on a roll of 1-3 (on 1d6) due to their stealth. When using weapons, they add + 1 to all damage rolls due to their strength.
+
+![Basic monster illustration: bugbear](assets/bugbear-plate.png)
+
+### Gnoll
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 2 |
+| Move | 90' (30') |
+| Attacks | 1 weapon |
+| Damage | 2-8 or by weapon + 1 |
+| No. Appearing | 1-6 (3-18) |
+| Save As | Fighter: 2 |
+| Morale | 8 |
+| Treasure Type | D |
+| Alignment | Chaotic |
+
+Gnolls are beings of low intelligence that appear to be human-like hyenas. They may use any weapons. They are strong, but dislike work and prefer to bully and steal for a living. For every 20 gnolls encountered, one will be a leader with 16 hit points who attacks as a 3 hit dice monster. Gnolls are rumored to be the result of a magical combination of a gnome and a troll by an evil magic-user.
+
+### Goblin
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 6 |
+| Hit Dice | 1-1 |
+| Move | 60' (20') |
+| Attacks | 1 weapon |
+| Damage | 1-6 or by |
+| No. Appearing | 2-8 (6-60) |
+| Save As | Normal Man |
+| Morale | 7 or see below |
+| Treasure Type | type C is only found in the goblin lair or when encountered in the wilderness. |
+| Treasure Type | R(C) |
+| Alignment | Chaotic weapon |
+
+Goblins are a small incredibly ugly human-like race. Their skin is a pale earthy color, such as chalky tan or livid gray. Their eyes are red, and glow when there is little light, somewhat like rat's eyes.
+
+Goblins live underground and have well-developed infravision (heat-sensing sight) to 90'. In full daylight they fight with a penalty of -1 on their "to hit" rolls. Goblins hate dwarves and will attack them on sight. There is a 20% chance that when goblins are encountered, 1 of every 4 will be riding a dire wolf.
+
+In the goblin lair lives a goblin king with 15 hit points who fights as a 3 hit dice monster and gains + 1 on damage rolls. The goblin king has a bodyguard of 2-12 goblins who fight as 2 hit dice monsters and have 2-12 hit points each. The king and his bodyguard may fight in full daylight without a penalty. The goblin morale will be 9 rather than 7 as long as their king is with them and still alive.
+
+Treasure type C is only found in the goblin lair or when encountered in the wilderness.
+
+### Hobgoblin
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 6 |
+| Hit Dice | 1+1 |
+| Move | 90' (30') |
+| Attacks | 1 weapon |
+| Damage | 1-8 or by |
+| No. Appearing | 1-6 (4-24) |
+| Save As | Fighter: 1 |
+| Morale | 8 or see below |
+| Treasure Type | D |
+| Alignment | Chaotic weapon |
+
+Hobgoblins are bigger and meaner relatives of goblins. They live underground but often hunt above ground and have no penalties for fighting in full daylight. A hobgoblin king and 1-4 (1d4) bodyguards live in the hobgoblin lair. The king has 22 hit points and fights as a 5 hit dice monster, gaining a bonus of + 2 on damage.
+
+The bodyguards all fight as 4 hit dice  and have 3-18 (3d6) hit points each. As long as their king is alive and with them, hobgoblin morale is 10 rather than 8.
+
+### Kobold
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 7 |
+| Hit Dice | V 2 (1-4hp) |
+| Move | 60' (20') |
+| Attacks | 1 weapon |
+| Damage | 1-4 or weapon -1 |
+| No. Appearing | 4-16 (6-60) |
+| Save As | Normal Man |
+| Morale | 6 or see below |
+| Treasure Type | P(J) |
+| Alignment | Chaotic |
+
+These small, evil dog-like men usually live underground. They have scaly rust-brown skin and no hair. They have well developed infravision (heat-sensing sight) to a 90' range. They prefer to attack by ambush. A kobold chieftain and 1-6 bodyguards live in the kobold lair. The chieftain has 9 hit points and fights as a 2 hit dice monster. The bodyguards each have 6 hit points and fight as 1 + 1 hit dice . As long as the chieftain is alive, all kobolds with him have a morale of 8 rather than 6. Kobolds hate gnomes and will attack them on sight. Treasure type J is only found in encounters in the lair or in the wilderness.
+
+![Basic monster illustration: kobold](assets/kobold-plate.png)
+
+### Lizard Man
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 2 + 1 |
+| Move | 60' (20'); in water 120' (40') |
+| Attacks | 1 weapon |
+| Damage | 2-7 or weapon + 1 |
+| No. Appearing | 2-8 (6-36) |
+| Save As | Fighter: 2 |
+| Morale | 12 |
+| Treasure Type | D |
+| Alignment | Neutral |
+
+These water-dwelling creatures look like men with lizard heads and tails. They live in tribes. They will try to capture humans and demi-humans and take the victims back to the tribal lair as the main course of a feast. Lizard men are semi-intelligent and use weapons such as spears and large clubs (treat the clubs as maces) gaining a bonus of + 1 on damage rolls due to their great strength. Lizard men are often found in swamps, rivers, and along seacoasts as well as in dungeons.
+
+![Basic monster illustration: lizard man](assets/lizard-man-plate.png)
+
+### Orc
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 6 |
+| Hit Dice | 1 |
+| Move | 120' (40') |
+| Attacks | 1 weapon |
+| Damage | 1-6 or weapon |
+| No. Appearing | 2-8 (10-60) |
+| Save As | Fighter: 1 |
+| Morale | 8 |
+| Treasure Type | D |
+| Alignment | Chaotic |
+
+Orcs are ugly human-like creatures who look like a combination of animal and man. Orcs are nocturnal (usually sleeping in the day and active at night or in the dark), and prefer to live underground.
+
+When fighting in daylight, they must subtract 1 from their "to hit" rolls. They have bad tempers and do not like other living things; they will often kill something for their own amusement. They are afraid of anything which looks larger and stronger than they are, but may be forced to fight by their leaders.
+
+Orc leaders gain their positions by fighting and defeating (or killing) the others. One member of any group of orcs will be a leader with 8 hit points who gains a bonus of + 1 on damage rolls. If this "leader" is killed, the morale of the group becomes 6 instead of 8.
+
+Orcs may often be hired at low cost as soldiers, and are often used for armies by Chaotic leaders (both humans and monsters). The orcs are satisfied by being allowed to kill and burn as much as they want. Orcs prefer swords, spears, axes, and clubs for weapons.
+
+They will not use mechanical weapons (such as catapults), as only their leaders understand how to operate them.
+
+There are many different tribes of orcs. Members of different tribes are not usually friendly with each other, and may start fighting unless their leaders are present. An orc lair has only one tribe. Each tribe will have as many female orcs as males, and 2 children ("whelps") for each 2 adults. The leader of an orc tribe is a chieftain who has 15 hit points, attacks as a 4 hit dice monster, and gains + 2 on damage rolls. For every 20 orcs in a tribe, there may be an ogre with them (a 1 in 6 chance). (If the D&D EXPERT rules are used, there is a 1 in 10 chance of a troll living in the lair as well.)
+
+### Troglodyte
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 2* |
+| Move | 120' (40') |
+| Attacks | 2 claws / 1 bite |
+| Damage | 1-4 each |
+| No. Appearing | 1-8 (5-40) |
+| Save As | Fighter: 2 |
+| Morale | 9 |
+| Treasure Type | A |
+| Alignment | Chaotic |
+
+A troglodyte is an intelligent human-like reptile with a short tail, long legs, and a spiny comb on its head and arms. Troglodytes walk upright and use their hands as well as humans. They hate most other creatures, and will try to kill anyone they meet.
+
+They have a chameleon-like ability to change colors and use it to hide by rock walls, surprising on a roll of 1-4 on 1d6. They secrete an oil which produces a stench that will nauseate humans and demi-humans unless the victims save vs. Poison. Nauseated characters have a -2 penalty on their attack rolls while in hand-to-hand combat with the troglodytes.
+
+![Basic monster illustration: troglodyte](assets/troglodyte-plate.png)
+
+::: pagebreak-pdf
+:::
+
+## Giants
+
+Far from being mere brutes, giants are often surprisingly cunning, making up for their limited intelligence with patience, strength, and ruthless practicality. Though proud and arrogant, giants may sometimes be bargained with if cooperation serves their interests, especially with creatures of similar alignment.
+
+Despite their many kinds, all giants share certain traits. Their immense strength, usually ranging from 19-25, allows them to hurl great rocks with the force of a catapult, even at close range. Young or immature giants are proportionally weaker than adults.
+
+Giants are also famously greedy, especially for gold. When away from their cave dens or strongholds, they commonly carry 1,000-6,000 coins, usually in gold. They almost always keep one or two large rocks at hand as convenient weapons and as a brutal display of strength.
+
+All giants speak their own racial tongue as well as an alignment language.
+
+### Cyclops
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 13* |
+| Move | 90' (30') |
+| Attacks | 1 |
+| Damage | 3-30 |
+| No. Appearing | 1 (1-4) |
+| Save As | Fighter: 13 |
+| Morale | 9 |
+| Treasure Type | E + 5000 gp |
+| Alignment | Chaotic |
+
+A cyclops is a rare type of giant, noted for its great size and the single eye in the center of its forehead. A cyclops is about 20' tall. It has poor depth perception due to its single eye, and strikes with a penalty of -2 on all "to hit" rolls. A cyclops will usually fight with a wooden club. A cyclops can throw rocks up to a distance of 200 feet with a penalty of -2 to hit. These rocks will cause 3-18 points of damage to any creature struck.
+
+Some cyclops, 5%, are able to cast a **curse** once a week. The DM should decide the exact nature of the **curse**.
+
+A cyclops usually lives alone, though a small group may sometimes share a large cave. They spend their time raising sheep and grapes. Cyclopes are known for their stupidity, and a clever party can often escape from them by trickery.
+
+### Giant
+*Source:* `Expert`  
+
+| Stat | Hill Giant | Stone Giant | Frost Giant | Fire Giant | Cloud Giant | Storm Giant |
+| --- | --- | --- | --- | --- | --- | --- |
+| Armor Class | 4 | 4 | 4 | 4 | 4 | 2 |
+| Hit Dice | 8 | 9 | 10 + 1 | 11 + 2 | 12 + 3 | 15 |
+| Move | 120' (40') | 120' (40') | 120' (40') | 120' (40') | 120' (40') | 150' (50') |
+| Attacks | 1 | 1 | 1 | 1 | 1 | 1 + special |
+| Damage | 2-16 | 3-18 | 4-24 | 5-30 | 6-36 | 8-48 + special |
+| No. Appearing | 1-4 (2-8) | 1-2 (1-6) | 1-2 (1-4) | 1-2 (1-3) | 1-2 (1-3) | 1-2 (1-3) |
+| Save As | Fighter: 8 | Fighter: 9 | Fighter: 10 | Fighter: 11 | Fighter: 12 | Fighter: 15 |
+| Morale | 8 | 9 | 9 | 9 | 10 | 10 |
+| Treasure Type | E + 5000 gp | E + 5000 gp | E + 5000 gp | E + 5000 gp | E + 5000 gp | E + 5000 gp |
+| Alignment | Chaotic | Neutral | Chaotic | Chaotic | Neutral | Lawful |
+
+- *Hill giants* are hairy, stupid brutes about 12' tall who wear skins and raid nearby human settlements for food and plunder.
+- *Stone giants* are 14' tall with gray rock-like skin and hurl boulders up to 300'.
+- *Frost giants* are pale, cold-dwelling raiders with bear or wolf guards and immunity to cold-based attacks.
+- *Fire giants* have red skin, dark hair, and homes near volcanic regions; they are immune to fire-based attacks and often keep hydras or hellhounds as guards.
+- *Cloud giants* are tall, sharp-sensed mountain or cloud dwellers who often keep giant hawks or dire wolves.
+- *Storm giants* are the tallest of all giants, love thunder storms, and in a storm may hurl lightning that does damage equal to their current hit points, with a save vs. Spells for half.
+
+![Expert monster illustration: giants](assets/giant-plate.png)
+
+### Ogre
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 4+1 |
+| Move | 90' (30') |
+| Attacks | lclub |
+| Damage | 1-10 |
+| No. Appearing | 1-6 (2-12) |
+| Save As | Fighter: 4 |
+| Morale | 10 |
+| Treasure Type | C + 1000 gp |
+| Alignment | Chaotic |
+
+Ogres are huge fearsome human-like creatures, usually 8 to 10 feet tall. They wear animal skins for clothes, and often live in caves.
+
+When encountered outside their lair, they will be carrying 100-600 gp (1d6 x 100) in large sacks. Ogres hate Neanderthals and will attack them on sight.
+
+### Troll
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 4 |
+| Hit Dice | 6 + 3* |
+| Move | 120' (40') |
+| Attacks | 2 claws / 1 bite |
+| Damage | 1-6 / 1-6 / 1-10 |
+| No. Appearing | 1-8 (1-8) |
+| Save As | Fighter: 6 |
+| Morale | 10 (8) |
+| Treasure Type | D |
+| Alignment | Chaotic |
+
+Thin, rubbery, and loathsome, trolls stand nearly 8' tall. They are intelligent and prefer humanoid creatures over all other foods. Trolls live in caves, dungeons, wastelands, and in ruined dwellings of the humanoids they have slain and eaten.
+
+Trolls are strong and rend their opponents with talons and sharp teeth. A troll has the power of regeneration, the ability to heal and grow back together. A troll will begin to heal 3 rounds after it has taken damage. A troll's wounds will heal themselves at a rate of 3 hit points per round, and even severed limbs will crawl back to the body and rejoin. The troll cannot regenerate damage from fire or acid. In game turns, this means that unless totally consumed by fire or acid, a troll will eventually regenerate completely. If reduced to 0 hit points by other than fire or acid damage, the troll will heal enough to fight again in 2-12 rounds. The morale in parentheses applies only when the troll is attacked by fire or acid.
+
+::: pagebreak-pdf
+:::
+
+
 ## Insects
 
 ### Ant, Driver
@@ -1009,10 +1699,194 @@ Anyone struck by the stinger must save vs. Poison or die. Giant scorpions live i
 
 ![Basic monster illustration: giant spider](assets/spider-plate.png)
 
+### Weasel, Giant
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 7 |
+| Hit Dice | 4 + 4 |
+| Move | 150' (50') |
+| Attacks | 1 bite + special |
+| Damage | 2-8 |
+| No. Appearing | 1-4 (1-6) |
+| Save As | Fighter: 3 |
+| Morale | 8 |
+| Treasure Type | V |
+| Alignment | Neutral |
+
+A giant weasel is 8'-9' long and covered with richly colored fur of white, gold, or brown. These quick, vicious predators hunt singly or in groups. Once they bite, they hold on and suck blood, doing 2-8 points of damage each round until their prey dies or the weasel is killed.
+
+Giant weasels have infravision to 30' and can track by scent. They prefer wounded prey and lair in underground tunnels, where treasure is often found on the bodies of creatures they have dragged back to eat.
+
 ::: pagebreak-pdf
 :::
 
-## Monsters
+## Lycanthropes
+
+Lycanthropes are humans who can transform into beasts, or in the case of wererats, beasts that can transform into humans. They normally change shape at night, and a full moon has a 90% chance of causing an involuntary transformation. Lycanthropes do not wear armor, as it interferes with their shapechanging abilities. All lycanthropes revert to human form when killed.  Horses and some other animals can smell lycanthropes and often react in fear.
+
+**Human Form**: In human form, a lycanthrope usually shows physical traits reminiscent of its animal form. It may speak normally and use weapons and equipment as any human would. Armor Class values given in parentheses apply in human form.
+
+**Animal Form**: In animal form, a lycanthrope may only be harmed by silver weapons, magic weapons, or magic spells. It cannot speak normal languages, but may communicate with animals of its own kind.
+
+**Languages**: Each type of lycanthrope has its own language and may summon 1-2 normal animals of its associated type from the surrounding area (wererats summon giant rats instead). These creatures arrive in 1d4 rounds. 
+
+**Woflsbane**: If struck by wolfsbane, a lycanthrope must save versus Poison or flee in terror. Wolfsbane must be used as a thrown or melee weapon following normal combat rules.
+
+**Lycanthropy**: Lycanthropy is a magical disease. Any humanoid reduced to half its hit points or fewer by a lycanthrope’s natural attacks (bites or claws) contracts lycanthropy if it survives. Symptoms appear after `1d12` days, and the transformation becomes complete after `2d12` days. Humans become lycanthropes of the same type, usually falling under the DM’s control thereafter. Non-humans usually die from the disease rather than transforming.
+
+A **cure disease** spell cast by a cleric of 11^th^ level or higher can remove lycanthropy if cast within three days of the attack. Drinking belladonna within one hour of the attack gives a 25% chance to cure the disease, but incapacitates the victim for *1d4* days and carries a 1% chance of death.
+
+The six most common types of lycanthropes are described below.
+
+### Devil Swine*
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 3 (9) |
+| Hit Dice | 9* |
+| Move | 180' (60') |
+| Human | 120' (40') |
+| Attacks | 1 gore (or blow) |
+| Damage | 2-12 (or by weapon) |
+| No. Appearing | 1-3 (1-4) |
+| Save As | Fighter: 9 |
+| Morale | 10 |
+| Treasure Type | C |
+| Alignment | Chaotic |
+
+Devil swine are vile lycanthropes and shape-changers that haunt the edges of isolated human settlements, especially those near deep forests, marshes, and swamps. Carnivorous and cruel, they possess an insatiable hunger for human flesh. By night, a devil swine may freely shift between the form of a massive boar and that of a bloated, brutish human. At dawn, however, it becomes trapped in its current shape until dusk returns. Like other lycanthropes, devil swine can only be harmed by silver or magical weapons.
+
+Devil swine possess a powerful **charm person** ability that may be used three times every 24 hours, regardless of their current form. Victims may save vs. Spells at a -2 penalty to resist its influence. Charmed victims lose the ability to use spells or magical devices and become obedient servants to the creature. Each devil swine may control up to 0–3 humans at a time.
+
+Cunning and patient hunters, devil swine prefer ambushes, deception, and nighttime attacks over open battle.
+
+![Expert monster illustration: Devil Swine](assets/devil-swine-plate.png)
+
+### Werebear*
+*Source:* `Basic`  
+
+| Stat          | Werebear         |
+| ------------- | ---------------- |
+| Armor Class   | 2, (8)           |
+| Hit Dice      | 6*               |
+| Move          | 120' (40')       |
+| Attacks       | 2 claws / 1 bite |
+| Damage        | 2-8 / 2-8 / 2-16 |
+| No. Appearing | 1-4 (1-4)        |
+| Save As       | Fighter: 6       |
+| Morale        | 10               |
+| Treasure Type | C                |
+| Alignment     | Neutral          |
+
+In human form, a werebear appears as a large, hairy, solitary human. Werebears are highly intelligent, even in animal form, and are often peaceful if approached without hostility. They usually live alone or among normal bears.
+
+In bear form, a werebear is 50% likely to be accompanied by `1d6` brown bears. It may also summon `1d6` brown bears within one mile, arriving in `2d6` turns.
+
+In combat, if both claw attacks hit the same target in one round, the werebear also hugs for an additional 2-16 points of damage. Werebears are immune to disease, heal three times faster than normal, and may cure disease in another creature within `1d4` weeks.
+
+### Wereboar*
+*Source:* `Basic`  
+
+| Stat          | Wereboar         |
+| ------------- | ---------------- |
+| Armor Class   | 4, (9)           |
+| Hit Dice      | 4+1*             |
+| Move          | 150' (50')       |
+| Attacks       | 1 tusk           |
+| Damage        | 2-12             |
+| No. Appearing | 1-4 (2-8)        |
+| Save As       | Fighter: 4       |
+| Morale        | 9                |
+| Treasure Type | C                |
+| Alignment     | Neutral          |
+
+A wereboar is a foul-tempered, semi-intelligent lycanthrope usually found in heavily wooded areas. In human form, wereboars often resemble savage berserkers and fight with the same reckless fury in battle.  When enraged, a wereboar gains a +2 bonus on attack rolls and fights to the death. There is a 15% chance a wereboar will be accompanied by 1d4 normal boars, which it can direct to attack alongside it.
+
+![Basic monster illustration: Wereboar](assets/wereboar-plate.png)
+
+### Wererat*
+*Source:* `Basic`  
+
+| Stat          | Wererat          |
+| ------------- | ---------------- |
+| Armor Class   | 7, (9)           |
+| Hit Dice      | 5*               |
+| Move          | 120' (40')       |
+| Attacks       | 1 bite or weapon |
+| Damage        | 1-4 or by weapon |
+| No. Appearing | 1-8 (2-16)       |
+| Save As       | Fighter: 3       |
+| Morale        | 8                |
+| Treasure Type | C                |
+| Alignment     | Chaotic          |
+
+Wererats are intelligent, stealthy lycanthropes that infest sewers, catacombs, and other underground places beneath large cities. They can speak Common in any form and may assume three shapes: human, giant rat, or man-rat. Most prefer the man-rat form.
+
+They are cunning ambushers, surprising opponents on a roll of 1-4 on `1d6`. In human or man-rat form they often use swords and other weapons, preferring traps, kidnappings, and ambushes over open battle.
+
+A wererat may summon and control `2d6` giant rats to aid it in combat. Only a wererat’s bite can spread lycanthropy.
+
+Rumors speak of hidden colonies of black wererats ruled by sinister leaders and moon-mad sorcerers. Fearful tales claim entire ratfolk kingdoms lie beneath ancient cities, lit by sickly green fires and ruled by masked wererat kings attended by enormous sacred rats. Some legends say they plot to one day overwhelm the surface world in a tide of fur, fang, and plague.
+
+### Weretiger*
+*Source:* `Basic`  
+
+| Stat          | Weretiger        |
+| ------------- | ---------------- |
+| Armor Class   | 3, (9)           |
+| Hit Dice      | 5*               |
+| Move          | 150' (50')       |
+| Attacks       | 2 claws / 1 bite |
+| Damage        | 1-6 / 1-6 / 2-12 |
+| No. Appearing | 1-4 (1-4)        |
+| Save As       | Fighter: 5       |
+| Morale        | 9                |
+| Treasure Type | C                |
+| Alignment     | Neutral          |
+
+These relatives of the great cats are curious and graceful hunters, but become deadly when threatened. Most weretigers are female and live much like normal tigers, though they rarely associate with ordinary tigers except 5% of the time.
+
+They are excellent swimmers and silent trackers, surprising opponents on a roll of 1-4 on `1d6`. In combat, they can rake with their rear claws like a normal tiger. They may also summon any type of great cat in the area, though they prefer tigers.
+
+Due to their ability to speak with felines, normal cats are 75% likely to react favorably toward a weretiger.
+
+![Basic monster illustration: Weretiger](assets/weretiger-plate.png)
+
+### Werewolf*
+*Source:* `Basic`  
+
+| Stat          | Werewolf         |
+| ------------- | ---------------- |
+| Armor Class   | 5, (9)           |
+| Hit Dice      | 4*               |
+| Move          | 180' (60')       |
+| Attacks       | 1 bite           |
+| Damage        | 2-8              |
+| No. Appearing | 1-6 (2-12)       |
+| Save As       | Fighter: 4       |
+| Morale        | 8                |
+| Treasure Type | C                |
+| Alignment     | Chaotic          |
+
+Werewolves are semi-intelligent lycanthropes that usually hunt in packs. In wolf form they often move upright on their hind legs, giving them a terrifying, unnatural appearance.
+
+A pack of 5-8 werewolves is usually a family group consisting of a male, female, and 3-6 younger werewolves ranging from 60%-90% maturity. The male fights at +2 to attack and deals full damage if the female is threatened. The female attacks at +3 to hit and deals full damage if her cubs are endangered.
+
+Young werewolves attack at penalties ranging from -4 to -1, depending on maturity, and inflict `1d4+1` damage.
+
+Any group of 5 or more adult werewolves will also have a leader with 30 hit points who attacks as a 5 Hit Dice monster and gains +2 on damage rolls.
+
+Werewolves may summon normal wolves to form larger hunting packs.
+
+![Basic monster illustration: Werewolf](assets/werewolf-plate.png)
+
+::: pagebreak-pdf
+:::
+
+## Monsterous
 
 ### Basilisk
 *Source:* `Expert`  
@@ -1088,26 +1962,6 @@ If badly threatened, an entire pack may “blink” away and not return. Blink d
 
 ![Expert monster illustration: blink dog](assets/blink-dog-plate.png)
 
-### Bugbear
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 3+1 |
-| Move | 90' (30') |
-| Attacks | 1 weapon |
-| Damage | 2-8 or by weapon + 1 |
-| No. Appearing | 2-8 (5-20) |
-| Save As | Fighter: 3 |
-| Morale | 9 |
-| Treasure Type | B |
-| Alignment | Chaotic |
-
-Bugbears are giant hairy goblins. Despite their size and awkward walk, they move very quietly and attack without warning whenever they can. They surprise on a roll of 1-3 (on 1d6) due to their stealth. When using weapons, they add + 1 to all damage rolls due to their strength.
-
-![Basic monster illustration: bugbear](assets/bugbear-plate.png)
-
 ### Caecilia
 *Source:* `Expert`  
 
@@ -1149,30 +2003,6 @@ Once a victim is paralyzed, the carrion crawler will begin feeding unless driven
 Without magical aid, the paralysis wears off naturally in 2–8 turns.
 
 ![Basic monster illustration: carrion crawler](assets/carrion-crawler-plate.png)
-
-### Centaur
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 4 |
-| Move | 180' (60') |
-| Attacks | 2 hooves / 1 weapon |
-| Damage | 1-6 / 1-6 / 1-6 or by weapon |
-| No. Appearing | 0 (2-20) |
-| Save As | Fighter: 4 |
-| Morale | 8 |
-| Treasure Type | A |
-| Alignment | Neutral |
-
-A centaur has the head, arms, and upper body of a human joined to the body and legs of a powerful horse. Proud and wary creatures, centaurs prefer the deep forests and open meadows far from the settlements of humankind. They are intelligent enough to craft and use weapons such as clubs, lances, bows, and spears.
-
-Centaurs usually live in small tribes or extended family bands. Their hidden camps are often concealed within dense woods or thorny thickets, reached only by twisting, carefully guarded trails. Females and young generally remain within the lair while the warriors patrol and hunt.
-
-If threatened, the females and young will attempt to flee unless escape is impossible, in which case they will fight fiercely to the death. Young centaurs fight as 2 hit dice monsters, attacking with small weapons or with hooves for 1-2 / 1-2 / 1-4 damage.
-
-![Expert monster illustration: centaur](assets/centaur-plate.png)
 
 ### Chimera
 *Source:* `Expert`  
@@ -1222,51 +2052,6 @@ Cockatrices may be found anywhere.
 
 ![Expert monster illustration: cockatrice](assets/cockatrice-plate.png)
 
-### Cyclops
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 13* |
-| Move | 90' (30') |
-| Attacks | 1 |
-| Damage | 3-30 |
-| No. Appearing | 1 (1-4) |
-| Save As | Fighter: 13 |
-| Morale | 9 |
-| Treasure Type | E + 5000 gp |
-| Alignment | Chaotic |
-
-A cyclops is a rare type of giant, noted for its great size and the single eye in the center of its forehead. A cyclops is about 20' tall. It has poor depth perception due to its single eye, and strikes with a penalty of -2 on all "to hit" rolls. A cyclops will usually fight with a wooden club. A cyclops can throw rocks up to a distance of 200 feet with a penalty of -2 to hit. These rocks will cause 3-18 points of damage to any creature struck.
-
-Some cyclops, 5%, are able to cast a **curse** once a week. The DM should decide the exact nature of the **curse**.
-
-A cyclops usually lives alone, though a small group may sometimes share a large cave. They spend their time raising sheep and grapes. Cyclopes are known for their stupidity, and a clever party can often escape from them by trickery.
-
-### Devil Swine*
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 3 (9) |
-| Hit Dice | 9* |
-| Move | 180' (60') |
-| Human | 120' (40') |
-| Attacks | 1 gore (or blow) |
-| Damage | 2-12 (or by weapon) |
-| No. Appearing | 1-3 (1-4) |
-| Save As | Fighter: 9 |
-| Morale | 10 |
-| Treasure Type | C |
-| Alignment | Chaotic |
-
-Devil swine are vile lycanthropes and shape-changers that haunt the edges of isolated human settlements, especially those near deep forests, marshes, and swamps. Carnivorous and cruel, they possess an insatiable hunger for human flesh. By night, a devil swine may freely shift between the form of a massive boar and that of a bloated, brutish human. At dawn, however, it becomes trapped in its current shape until dusk returns. Like other lycanthropes, devil swine can only be harmed by silver or magical weapons.
-
-Devil swine possess a powerful charm person ability that may be used three times every 24 hours, regardless of their current form. Victims may save vs. Spells at a -2 penalty to resist its influence. Charmed victims lose the ability to use spells or magical devices and become obedient servants to the creature. Each devil swine may control up to 0–3 humans at a time.
-
-Cunning and patient hunters, devil swine prefer ambushes, deception, and nighttime attacks over open battle.
-
 ### Displacer Beast
 *Source:* `Expert`  
 
@@ -1290,46 +2075,6 @@ The creature’s most feared ability is its constant distortion of light and spa
 Displacer beasts possess a cruel, predatory cunning and delight in stalking intelligent prey. They harbor an instinctive hatred and fear of blink dogs, attacking them and any creatures traveling with them on sight.
 
 ![Expert monster illustration: displacer beast](assets/displacer-beast-plate.png)
-
-### Djinni, Lesser*
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 7 + 1 |
-| Move | 90' (30') |
-| Flying | 240' (80') |
-| Attacks | 1 + special |
-| Damage | 2-16 (fists), or 2-12 (whirlwind) |
-| No. Appearing | 1 (0) |
-| Save As | Fighter: 14 |
-| Morale | 12 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-The djinn are intelligent, free-willed air elementals. They appear as tall, human-like beings, surrounded with clouds. Djinn are highly magical in nature and save as 14^th^ level fighters. They can only be harmed by magic or magical weapons.
-
-A djinni can perform any of its seven powers three times a day:
-
-- Create food and drink, as a 7^th^ level cleric
-- Create temporary metallic objects up to 1,000 cn weight. Duration varies by hardness, from 1 day for gold to 1 round for iron
-- Create soft goods and wooden objects, permanent, to a maximum of 1000 cn weight
-- Become invisible
-- Assume gaseous form
-- Form itself into a whirlwind.
-
-In addition, a djinni can create illusions that affect both sight and hearing at will. Such illusions last until touched or magically dispelled; the djinni need not concentrate to maintain them.
-
-Djinn have two forms of attack:
-
-A djinni can form itself into a whirlwind, 70' tall, 20' diameter at the top, 10' diameter at base, that moves 120' (40') per turn. The djinni requires 5 rounds to enter or leave whirlwind form. The djinni-whirlwind will do 2-12 points of damage to all in its path and will sweep aside all creatures with fewer than 2 hit dice who do not save vs. Death Ray.
-
-When not in whirlwind form, a djinni strikes once per round with its fists for 2-16 points of damage.
-
-If a djinni is slain, it returns to its own plane.
-
-A djinni can carry 6000 cn weight without tiring. Up to 12,000 cn weight can be carried for 3 turns walking or 1 turn flying. Afterwards, a djinni must rest for one turn.
 
 ### Doppelganger
 *Source:* `Basic`  
@@ -1355,203 +2100,6 @@ Due to their magical nature, doppelgangers are immune to **sleep** and **charm**
 
 When slain, a doppelganger immediately reverts to its true form.
 
-::: pagebreak-pdf
-:::
-
-### Dragon
-*Source:* `Basic`  
-
-| Stat | White | Black | Green | Blue | Red | Gold |
-| --- | --- | --- | --- | --- | --- | --- |
-| Armor Class | 3 | 2 | 1 | 0 | -1 | -2 |
-| Hit Dice | 6** | 7** | 8** | 9** | 10** | 11** |
-| Move | 90' (30'); fly 240' (80') | 90' (30'); fly 240' (80') | 90' (30'); fly 240' (80') | 90' (30'); fly 240' (80') | 90' (30'); fly 240' (80') | 90' (30'); fly 240' (80') |
-| Attacks | 2 claws / 1 bite + breath | 2 claws / 1 bite + breath | 2 claws / 1 bite + breath | 2 claws / 1 bite + breath | 2 claws / 1 bite + breath | 2 claws / 1 bite + breath |
-| Damage | 1-4 / 1-4 / 2-16 | 2-5 / 2-5 / 2-20 | 1-6 / 1-6 / 3-24 | 2-7 / 2-7 / 3-30 | 1-8 / 1-8 / 4-32 | 2-8 / 2-8 / 6-36 |
-| No. Appearing | 1-4 (1-4) | 1-4 (1-4) | 1-4 (1-4) | 1-4 (1-4) | 1-4 (1-4) | 1-4 (1-4) |
-| Save As | Fighter: 6 | Fighter: 7 | Fighter: 8 | Fighter: 9 | Fighter: 10 | Fighter: 11 |
-| Morale | 8 | 8 | 9 | 9 | 10 | 10 |
-| Treasure Type | H | H | H | H | H | H |
-| Alignment | Neutral | Chaotic | Chaotic | Neutral | Chaotic | Lawful |
-
-| Trait | White | Black | Green | Blue | Red | Gold |
-| --- | --- | --- | --- | --- | --- | --- |
-| Where Found | Cold region | Swamp, marsh | Jungle, forest | Desert, plain | Mountain, hill | Anywhere |
-| Breath Weapon | Cold | Acid | Chlorine gas | Lightning | Fire | Fire / gas |
-| Range and Shape | 80' × 30' cone | 60' × 5' line | 50' × 40' cloud | 100' × 5' line | 90' × 30' cone | 90' × 30' cone / 50' × 40' cloud |
-| Chance of Talking | 10% | 20% | 30% | 40% | 50% | 100% |
-| Chance of Being Asleep | 50% | 40% | 30% | 20% | 10% | 5% |
-| Spells by Level | 3 / - / - | 4 / - / - | 3 / 3 / - | 4 / 4 / - | 3 / 3 / 3 | 4 / 4 / 4 |
-
-Dragons are a very old race of huge winged lizards. They like to live in isolated, out-of-the-way places where few humans are found. Though the color of their scaly hide makes dragons look different, they all have several traits in common: they are hatched from eggs, are meat-eaters, have Breath Weapons, love treasure, and will do everything possible to save their own lives, including surrender.
-
-Dragons are proud of their long history, and because of this they tend to think less of the younger races. Chaotic dragons might capture humans, but will usually kill and eat them immediately. Neutral dragons might either attack or ignore a party completely. Lawful dragons, however, may actually help a party if the characters are truly worthy of the honor. When playing a dragon, the DM should remember that even the hungriest dragon will pause and listen to flattery, provided no one is attacking it and it understands the speaker.
-
-BREATH WEAPONS DAMAGE: All dragons have a special attack with their Breath Weapon in addition to their claw and bite attacks. Any dragon can use its Breath Weapon up to 3 times each day. A dragon's first attack is always with its Breath Weapon. The number of points of damage any Breath Weapon does is equal to the dragon's remaining number of hit points. Any damage done to a dragon will reduce the damage it can do with its Breath Weapon.
-
-After the first Breath attack, a dragon may choose to attack with claws and bite. To determine this randomly, roll 1d6. A result of 1-3 means that the dragon will use its claw and bite attacks; a result of 4-6 means that the dragon will breathe again.
-
-SHAPE OF BREATH: A dragon's Breath Weapon appears as one of three different shapes: cone-shaped, a straight line, or a cloud of gas.
-
-A cone-shaped Breath begins at the dragon's mouth, where it is 2' wide, and spreads out until it is 30' wide at its furthest end. For example, the area of effect of a white dragon's Breath is a cone 80' long and 30' wide at its far end.
-
-A line-shaped Breath starts in the dragon's mouth and stretches out toward its victim in a straight line, even downwards. Even at its source, a line-shaped Breath is 5' wide.
-
-A cloud-shaped Breath billows forth from the dragon's mouth to form a 50'x40'x20' tall cloud around the dragon's targets directly in front of it.
-
-![Basic diagram: dragon breath shapes](assets/dragon-breath-diagram.png)
-
-SAVING THROWS: Anyone caught within the area of effect of a dragon's Breath Weapon may make a saving throw. A successful saving throw means that the victim takes only 1/2 damage from the Breath. Dragons are never affected by the normal or smaller versions of their own Breath Weapons, and automatically make their saving throws against any attack form that is the same as their Breath Weapon. For example, a red dragon will take no damage from burning oil, and will always take only 1/2 damage from a fire-type magic spell such as a fire ball.
-
-TALKING: Dragons are intelligent, and some dragons can speak Dragon and Common. The percentage listed under Chance of Talking is the chance that a dragon will be able to talk. Talking dragons are also able to use Magic-user/Elf spells. The number of spells and their levels are given above under Spells by Level. For example, 3 / 3 / - would mean that the dragon can cast 3 first-level spells and 3 second-level spells, but no third-level spells. Dragon spells are usually selected randomly.
-
-SLEEPING DRAGONS: The percentage chance given under Chance of Being Asleep applies whenever a party encounters a dragon on the ground; flying dragons are never asleep. Any result greater than the percentage means that the dragon is not asleep, though it may be pretending to be. If a dragon is asleep, it may be attacked with a bonus of +2 on attack rolls for one round, during which it will wake. Combat proceeds normally from the second round on.
-
-SUBDUING DRAGONS: Whenever characters encounter a dragon, they may choose to try to subdue it rather than kill it. To subdue a dragon, all the attacks must be with the flat of the sword; missile weapons and spells may not be used. Attacks and damage are determined normally when trying to subdue the dragon. The dragon will fight normally until it reaches 0 or fewer hit points, at which time it will surrender. A dragon may be subdued because it realizes that its attackers could have killed it if they had been striking to kill.
-
-A subdued dragon will attempt to escape or turn on its captor if given a reasonable chance to do so through the party's actions. For example, a dragon left unguarded at night, or ordered to guard a position alone, would consider these reasonable chances. A subdued dragon must be sold. The price is up to the DM, but should never exceed 1,000 gp per hit point. The dragon may be forced to serve the characters who subdued it. If a subdued dragon is ever ordered to perform a task that is apparently suicidal, it will attempt to escape and/or kill its captors.
-
-AGE: The statistics given are for an average-sized dragon of its type. Younger dragons are smaller and have acquired less treasure; older dragons are larger and have acquired more. Dragons generally range in size from 3 hit dice smaller to 3 hit dice larger than average. For example, red dragons could be found having 7 to 13 hit dice, depending on their age.
-
-TREASURE: Younger dragons may have collected as little as 1/2 the normal listed treasure; older dragons may have as much as double the listed amount. Dragon treasure is only found in the dragon's lair. These lairs are rarely left unguarded, and are well-hidden to prevent easy discovery.
-
-GOLD DRAGONS: Gold dragons always talk and use spells. They can also change their shape, and often appear in the form of a human or animal. Gold dragons may breathe either fire, like a red dragon, or chlorine gas, like a green dragon, though they still have a total of 3 Breath Weapon attacks per day, not 6. The type of Breath attack should be chosen by the DM to fit the situation.
-
-Dragons are extremely powerful and should be used with caution when encountered by low-level player characters. It is recommended that until characters reach the fourth level and higher, only the youngest and smallest dragons be used by the DM.
-
-![Basic monster illustration: dragon](assets/dragon-plate.png)
-
-### Dragon Turtle
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | -2 |
-| Hit Dice | 30 |
-| Move | 30' (10') |
-| Swimming | 90' (30') |
-| Attacks | 2 claws / 1 bite |
-| Damage | 1-8 claw / 10-60 bite |
-| No. Appearing | 0 (1) |
-| Save As | Fighter: 15 |
-| Morale | 10 |
-| Treasure Type | H |
-| Alignment | Chaotic |
-
-Dragon turtles appear to be some unusual mixture of a dragon and a gigantic turtle. They have the head, limbs and tail of a great dragon and the hard shell of a turtle. These creatures live in the depths of great oceans and seas, seldom surfacing or approaching land. Dragon turtles are so large that sailors have mistakenly anchored on ones floating on the surface, thinking the hard shell to be a small island.
-
-Besides its powerful claws and bite, the dragon turtle is also able to use a breath weapon. It can breathe a 30' wide cloud of steam to a distance of 90'. This breath weapon will do damage in the same manner as a dragon's, inflicting hit points of damage equal to the current hit points of the dragon turtle.
-
-Dragon turtles live in great caverns on the bottom of the deepest oceans, where they keep the treasures of sunken ships. On occasion they will rise under ships, attempting to overturn them and devour the occupants.
-
-Note: Dragon turtles are extremely powerful creatures that should not be used unless the player characters are of very high level.
-
-![Expert monster illustration: dragon turtle](assets/dragon-turtle-plate.png)
-
-### Dryad
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 2* |
-| Movement | 120' (40') |
-| Attacks | See below |
-| Damage | 0 |
-| No. Appearing | 0 (1-6) |
-| Save As | Fighter: 4 |
-| Morale | 6 |
-| Treasure Type | D |
-| Alignment | Neutral |
-
-A dryad is a beautiful female tree spirit who lives in a woodland setting or dense forest. Each individual dryad always lives in a specific tree and will die in one turn if taken more than 240’ away from it. A dryad will also die if her tree dies. If a dryad wishes to be unobserved, she will join with her tree, becoming part of it. Dryads are extremely shy and non-violent, but very suspicious of strangers.
-
-Anyone approaching or following a dryad, not merely standing in the area of the tree, may be attacked by the powerful charm person spell these creatures can cast. The victim must make a saving throw vs. Spells with a penalty of -2 on the roll. A charmed character will approach the tree and be drawn into it. Unless rescued immediately, the victim will never be seen again.
-
-Dryads hide their treasure in hollows under the roots of their trees.
-
-![Expert monster illustration: dryad](assets/dryad-plate.png)
-
-### Efreeti, Lesser*
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 3 |
-| Hit Dice | 10* |
-| Move | 90' (30') |
-| Flying | 240' (80') |
-| Attacks | 1 |
-| Damage | 2-16 |
-| No. Appearing | 1 (1) |
-| Save As | Fighter: 15 |
-| Morale | 12 |
-| Treasure Type | Nil |
-| Alignment | Chaotic |
-
-Efreet are free-willed fire elementals. They usually appear as clouds of smoke that solidify into giant demonic-faced men surrounded by flame. The air around them is always hot and smoky, they are highly magical in nature, and they can only be hit with magic weapons.
-
-Efreet can create objects, create illusions, and turn invisible like djinn. They may also create a wall of fire up to 3 times per day. An efreeti can transform itself into a pillar of flame for up to 3 rounds, setting flammable items within 5' alight and doing an extra 1-8 points of damage to creatures it strikes while in that form.
-
-Efreet may fly and carry up to 10,000 cn weight while flying. They can be summoned by high-level magic-users who know the special spells required, but once summoned they must be carefully controlled.
-
-![Expert monster illustration: efreeti](assets/efreeti-plate.png)
-
-### Elemental*
-*Source:* `Expert`  
-
-| Stat | Air | Earth | Fire | Water |
-| --- | --- | --- | --- | --- |
-| Armor Class | Variable | Variable | Variable | Variable |
-| Hit Dice | Variable | Variable | Variable | Variable |
-| Move | Fly 360' (120') | 60' (20') | 120' (40') | 60' (20'); Swim 180' (60') |
-| Attacks | Special | Special | Special | Special |
-| Damage | Variable | Variable | Variable | Variable |
-| No. Appearing | 1 (1) | 1 (1) | 1 (1) | 1 (1) |
-| Save As | Variable | Variable | Variable | Variable |
-| Morale | 10 | 10 | 10 | 10 |
-| Treasure Type | Nil | Nil | Nil | Nil |
-| Alignment | Neutral | Neutral | Neutral | Neutral |
-
-Elementals can be brought forth only from a large amount of their element, open air, bare earth or rock, large fire, or a large pond. After being summoned they must be totally controlled at all times by the person who summoned them. Control requires complete concentration. If the summoner moves over half speed, takes damage in combat, or does anything besides paying attention to the elemental, the elemental will turn and attempt to attack its summoner. It will also attack any creature in the path between it and the one who summoned it. Once control is lost, it can never be regained. An elemental vanishes when dispelled, when the elemental is slain, or when the summoner orders the elemental to return from whence it came while it is still under control. Elementals can be hit only by magic or magic weapons.
-
-Staff elementals, the weakest, are summoned by a magic-user with a special staff. Device elementals are summoned with the use of a special miscellaneous magic item. Conjured elementals are summoned by the use of the 5th level magic-user or elf spell.
-
-| Kind | Armor Class | Hit Dice | Damage | Save As |
-| --- | --- | --- | --- | --- |
-| Staff | 2 | 8 | 1-8 | Fighter: 8 |
-| Device | 0 | 12 | 2-16 | Fighter: 12 |
-| Conjured | -2 | 16 | 3-24 | Fighter: 16 |
-
-Air elementals appear as great whirlwinds 2' tall and 1/2' in diameter for each hit die they have. The whirlwind will catch and sweep away creatures of less than 2 hit dice unless a saving throw vs. Death Ray is made. Air elementals do an extra 1-8 points of damage against flying opponents.
-
-Earth elementals appear as huge man-like figures 1' tall for each hit die they have. Earth elementals cannot cross a water barrier wider than their height. Earth elementals do an extra 1-8 points of damage against opponents on the ground.
-
-Fire elementals appear as swirling pillars of roaring flame 1' tall and 1' in diameter for each hit die they have. They cannot cross a water barrier wider than their own diameter. They do an additional 1-8 points of damage against all creatures with cold-based attacks.
-
-Water elementals appear as great waves of water 1/2' tall and 2' in diameter for each hit die they have. Water elementals are not able to move more than 60' from water. They do an extra 1-8 points of damage against opponents in water.
-
-### Gargoyle*
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 4 |
-| Move | 90' (30') |
-| Flying | 150' (50') |
-| Attacks | 2 claws/1 bite/ |
-| Damage | 1-3/1-3/1-6/ |
-| No. Appearing | 1-6(2-8) |
-| Save As | Fighter: 8 |
-| Morale | 11 |
-| Treasure Type | C 1 horn |
-| Alignment | Chaotic 1-4 |
-
-Gargoyles are magical  and save as Fighter: 8. They can only be hit with magic or magical weapons. As pictured in medieval architecture, they are horned, clawed, fanged, winged, hideous-looking beasts. Their skin often looks exactly like stone and are often mistaken to be statues. Gargoyles are very cunning and at least semi-intelligent. They will attack nearly anything that approaches them. Gargoyles are not affected by sleep or charm spells. The DM is advised to use gargoyles only if the player characters have at least one magical weapon.
-
-![Basic monster illustration: gargoyle](assets/gargoyle-plate.png)
-
 ### Gelatinous Cube
 *Source:* `Basic`  
 
@@ -1571,120 +2119,6 @@ Gargoyles are magical  and save as Fighter: 8. They can only be hit with magic o
 These  are made of a clear jelly and are shaped like cubes about 10' on a side. Due to their near transparency, they surprise on a roll of 1-4 (1d6). They move through the rooms and corridors of dungeons, sweeping the halls clean of all living and dead material. In the process, they may pick up items they can't dissolve (such as gold pieces and gems). Though they usually eat carrion, they will attack any living creature they encounter, inflicting 2d4 points of damage. Each successful hit will paralyze the victim unless a saving throw versus Paralysis is made. Any attacks on a paralyzed victim will automatically hit (only a damage roll is needed). This paralysis is the normal type (lasting 2-8 turns unless removed by a cure light wounds spell). A gelatinous cube may be harmed by fire and weapons, but not by cold or lightning.
 
 ![Basic monster illustration: gelatinous cube](assets/gelatinous-cube-plate.png)
-
-### Ghoul
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 6 |
-| Hit Dice | 2* |
-| Move | 90' (30') |
-| Attacks | 2 claws/1 bite |
-| Damage | 1 3, all + |
-| No. Appearing | 1-6(2-16) |
-| Save As | Fighter: 2 |
-| Morale | 9 |
-| Treasure Type | B |
-| Alignment | Chaotic special |
-
-Ghouls are undead creatures. They are hideous, beast-like humans who will attack anything living. Any attack by a ghoul will paralyze any creature of ogre-size or smaller that they hit successfully (except elves) unless the victim saves vs. Paralysis. Once an opponent is paralyzed, the ghoul will turn and attack another opponent, until either the ghoul or all the opponents are paralyzed or dead. This paralysis is the normal type (lasting 2-8 turns unless removed by a cure light wounds spell).
-
-### Giant
-*Source:* `Expert`  
-
-| Stat | Hill Giant | Stone Giant | Frost Giant | Fire Giant | Cloud Giant | Storm Giant |
-| --- | --- | --- | --- | --- | --- | --- |
-| Armor Class | 4 | 4 | 4 | 4 | 4 | 2 |
-| Hit Dice | 8 | 9 | 10 + 1 | 11 + 2 | 12 + 3 | 15 |
-| Move | 120' (40') | 120' (40') | 120' (40') | 120' (40') | 120' (40') | 150' (50') |
-| Attacks | 1 | 1 | 1 | 1 | 1 | 1 + special |
-| Damage | 2-16 | 3-18 | 4-24 | 5-30 | 6-36 | 8-48 + special |
-| No. Appearing | 1-4 (2-8) | 1-2 (1-6) | 1-2 (1-4) | 1-2 (1-3) | 1-2 (1-3) | 1-2 (1-3) |
-| Save As | Fighter: 8 | Fighter: 9 | Fighter: 10 | Fighter: 11 | Fighter: 12 | Fighter: 15 |
-| Morale | 8 | 9 | 9 | 9 | 10 | 10 |
-| Treasure Type | E + 5000 gp | E + 5000 gp | E + 5000 gp | E + 5000 gp | E + 5000 gp | E + 5000 gp |
-| Alignment | Chaotic | Neutral | Chaotic | Chaotic | Neutral | Lawful |
-
-- *Hill giants* are hairy, stupid brutes about 12' tall who wear skins and raid nearby human settlements for food and plunder.
-- *Stone giants* are 14' tall with gray rock-like skin and hurl boulders up to 300'.
-- *Frost giants* are pale, cold-dwelling raiders with bear or wolf guards and immunity to cold-based attacks.
-- *Fire giants* have red skin, dark hair, and homes near volcanic regions; they are immune to fire-based attacks and often keep hydras or hellhounds as guards.
-- *Cloud giants* are tall, sharp-sensed mountain or cloud dwellers who often keep giant hawks or dire wolves.
-- *Storm giants* are the tallest of all giants, love thunder storms, and in a storm may hurl lightning that does damage equal to their current hit points, with a save vs. Spells for half.
-
-![Expert monster illustration: giants](assets/giant-plate.png)
-
-### Gnoll
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 2 |
-| Move | 90' (30') |
-| Attacks | 1 weapon |
-| Damage | 2-8 or by weapon + 1 |
-| No. Appearing | 1-6 (3-18) |
-| Save As | Fighter: 2 |
-| Morale | 8 |
-| Treasure Type | D |
-| Alignment | Chaotic |
-
-Gnolls are beings of low intelligence that appear to be human-like hyenas. They may use any weapons. They are strong, but dislike work and prefer to bully and steal for a living. For every 20 gnolls encountered, one will be a leader with 16 hit points who attacks as a 3 hit dice monster. Gnolls are rumored to be the result of a magical combination of a gnome and a troll by an evil magic-user.
-
-### Goblin
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 6 |
-| Hit Dice | 1-1 |
-| Move | 60' (20') |
-| Attacks | 1 weapon |
-| Damage | 1-6 or by |
-| No. Appearing | 2-8 (6-60) |
-| Save As | Normal Man |
-| Morale | 7 or see below |
-| Treasure Type | type C is only found in the goblin lair or when encountered in the wilderness. |
-| Treasure Type | R(C) |
-| Alignment | Chaotic weapon |
-
-Goblins are a small incredibly ugly human-like race. Their skin is a pale earthy color, such as chalky tan or livid gray. Their eyes are red, and glow when there is little light, somewhat like rat's eyes.
-
-Goblins live underground and have well-developed infravision (heat-sensing sight) to 90'. In full daylight they fight with a penalty of -1 on their "to hit" rolls. Goblins hate dwarves and will attack them on sight. There is a 20% chance that when goblins are encountered, 1 of every 4 will be riding a dire wolf.
-
-In the goblin lair lives a goblin king with 15 hit points who fights as a 3 hit dice monster and gains + 1 on damage rolls. The goblin king has a bodyguard of 2-12 goblins who fight as 2 hit dice monsters and have 2-12 hit points each. The king and his bodyguard may fight in full daylight without a penalty. The goblin morale will be 9 rather than 7 as long as their king is with them and still alive.
-
-Treasure type C is only found in the goblin lair or when encountered in the wilderness.
-
-### Golem*
-*Source:* `Expert`  
-
-| Stat | Wood | Bone | Amber | Bronze |
-| --- | --- | --- | --- | --- |
-| Armor Class | 7 | 2 | 6 | 0 |
-| Hit Dice | 2 + 2 | 8 | 10** | 20** |
-| Move | 120' (40') | 120' (40') | 180' (60') | 240' (80') |
-| Attacks | 1 fist | 4 weapons | 2 claws / 1 bite | 1 fist + special |
-| Damage | 1-8 | By weapon | 2-12 / 2-12 / 2-20 | 3-30 + special |
-| No. Appearing | 1 (1) | 1 (1) | 1 (1) | 1 (1) |
-| Save As | Fighter: 1 | Fighter: 4 | Fighter: 5 | Fighter: 10 |
-| Morale | 12 | 12 | 12 | 12 |
-| Treasure Type | Nil | Nil | Nil | Nil |
-| Alignment | Neutral | Neutral | Neutral | Neutral |
-
-A golem is a powerful monster, created and animated by a high-level magic-user or cleric. They can be made of almost any material, but the ones listed are typical. The DM should feel free to create other golems with any special powers desired.
-
-Normally golems can only be hit by magic weapons. Golems are also immune to sleep, charm, and hold spells, as well as all forms of gases. Creating a golem is costly, time consuming, and beyond the power of player characters in the D&D Expert rules.
-
-- *Wood golems* are crude manlike figures about 3' tall, hacked from wood. They move stiffly and have a penalty of -1 on initiative rolls. They burn easily, saving at -2 and suffering one extra point of damage per die from fire-based attacks.
-
-- *Bone golems* are 6' tall creatures made from the bones of dead men bound together into a manlike form. They wield weapons from skeletal arms fastened to their bodies at various points. Either four one-handed weapons or two pole arms may be used by a bone golem, and it will attack up to two enemies per round. Bone golems are immune to fire, cold, and electrical attacks.
-
-- *Amber golems* resemble giant lions or tigers. They are faultless trackers and can detect invisible creatures within 60'.
-
-- *Bronze golems* look somewhat like fire giants. Their skin is bronze and their blood is liquid fire. Any creature hit by a bronze golem takes 1-10 more points of damage from the great heat inside it. Anyone scoring damage on a bronze golem with an edged weapon must save vs. Death Ray or take 2-12 points of damage from the fiery blood spurting out of the wound. Bronze golems are not affected by fire-based attacks.
 
 ### Gorgon
 *Source:* `Expert`  
@@ -1835,26 +2269,6 @@ A hippogriff is a fantastic creature with the foreparts and head of a giant eagl
 
 ![Expert monster illustration: hippogriff](assets/hippogriff-plate.png)
 
-### Hobgoblin
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 6 |
-| Hit Dice | 1+1 |
-| Move | 90' (30') |
-| Attacks | 1 weapon |
-| Damage | 1-8 or by |
-| No. Appearing | 1-6 (4-24) |
-| Save As | Fighter: 1 |
-| Morale | 8 or see below |
-| Treasure Type | D |
-| Alignment | Chaotic weapon |
-
-Hobgoblins are bigger and meaner relatives of goblins. They live underground but often hunt above ground and have no penalties for fighting in full daylight. A hobgoblin king and 1-4 (1d4) bodyguards live in the hobgoblin lair. The king has 22 hit points and fights as a 5 hit dice monster, gaining a bonus of + 2 on damage.
-
-The bodyguards all fight as 4 hit dice  and have 3-18 (3d6) hit points each. As long as their king is alive and with them, hobgoblin morale is 10 rather than 8.
-
 ### Hydra
 *Source:* `Expert`  
 
@@ -1898,106 +2312,6 @@ The DM may wish to create special versions of hydra. Special hydras could have p
 An invisible stalker is a very intelligent enchanted monster summoned to this world by use of the invisible stalker magic-user's spell. If the stalker is given a simple task that is clear and can be swiftly completed, it will obey promptly. If the task is complex or lengthy, the invisible stalker will try to distort the intent while obeying the literal command. Example: if ordered to guard a treasure for longer than a week, the stalker may take it away to its native plane of existence and guard it there forever.
 
 Invisible stalkers are most often used to track and slay enemies. They are faultless trackers. They surprise any creature that cannot detect invisible creatures on a 1d6 roll of 1-5. They will return to their native plane once they are slain, dispelled, or have completed their task.
-
-### Kobold
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 7 |
-| Hit Dice | V 2 (1-4hp) |
-| Move | 60' (20') |
-| Attacks | 1 weapon |
-| Damage | 1-4 or weapon -1 |
-| No. Appearing | 4-16 (6-60) |
-| Save As | Normal Man |
-| Morale | 6 or see below |
-| Treasure Type | P(J) |
-| Alignment | Chaotic |
-
-These small, evil dog-like men usually live underground. They have scaly rust-brown skin and no hair. They have well developed infravision (heat-sensing sight) to a 90' range. They prefer to attack by ambush. A kobold chieftain and 1-6 bodyguards live in the kobold lair. The chieftain has 9 hit points and fights as a 2 hit dice monster. The bodyguards each have 6 hit points and fight as 1 + 1 hit dice . As long as the chieftain is alive, all kobolds with him have a morale of 8 rather than 6. Kobolds hate gnomes and will attack them on sight. Treasure type J is only found in encounters in the lair or in the wilderness.
-
-![Basic monster illustration: kobold](assets/kobold-plate.png)
-
-### Living Statue
-*Source:* `Basic`  
-
-| Stat | Crystal | Iron | Rock |
-| --- | --- | --- | --- |
-| Armor Class | 4 | 2 | 4 |
-| Hit Dice | 3 | 4 | 5* |
-| Move | 90' (30') | 30' (10') | 60' (20') |
-| Attacks | 2 blows | 2 blows + special | 2 blows |
-| Damage | 1-6 / 1-6 | 1-8 / 1-8 + special | 2-12 / 2-12 |
-| No. Appearing | 1-6 (1-6) | 1-4 (1-4) | 1-3 (1-3) |
-| Save As | Fighter: 3 | Fighter: 4 | Fighter: 5 |
-| Morale | 11 | 11 | 11 |
-| Treasure Type | Nil | Nil | Nil |
-| Alignment | Lawful | Neutral | Chaotic |
-
-A living statue is an enchanted animated creature made by a powerful wizard. It appears to be a perfectly normal statue until it begins to move. A living statue may be of any size or material. Living crystal, iron, and rock statues are three types of living statues which serve as examples, should a DM wish to make up his or her own types. Living statues are not affected by sleep spells.
-
-- *Crystal*: Living crystal statues are life forms made of crystals instead of flesh. They can look like a statue of anything, but often appear human.
-
-- *Iron*: Living iron statues have bodies which can absorb iron and steel. When hit, they will take normal damage, but if a non-magical meta1 weapon is used, the attacker must save vs. Spells or the weapon will become stuck in the body of the living iron statue, and may only be removed if the statue is killed.
-
-- *Rock*: Living rock statues have an outer crust of stone but are filled with hot magma (fiery lava). When the living rock statue attacks, it will squirt the magma from its finger tips for 2d6 points of damage per hit.
-
-### Lizard Man
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 2 + 1 |
-| Move | 60' (20'); in water 120' (40') |
-| Attacks | 1 weapon |
-| Damage | 2-7 or weapon + 1 |
-| No. Appearing | 2-8 (6-36) |
-| Save As | Fighter: 2 |
-| Morale | 12 |
-| Treasure Type | D |
-| Alignment | Neutral |
-
-These water-dwelling creatures look like men with lizard heads and tails. They live in tribes. They will try to capture humans and demi-humans and take the victims back to the tribal lair as the main course of a feast. Lizard men are semi-intelligent and use weapons such as spears and large clubs (treat the clubs as maces) gaining a bonus of + 1 on damage rolls due to their great strength. Lizard men are often found in swamps, rivers, and along seacoasts as well as in dungeons.
-
-![Basic monster illustration: lizard man](assets/lizard-man-plate.png)
-
-### Lycanthrope*
-*Source:* `Basic`  
-
-| Stat | Wererat | Werewolf | Wereboar | Weretiger | Werebear |
-| --- | --- | --- | --- | --- | --- |
-| Armor Class | 7, (9) | 5, (9) | 4, (9) | 3, (9) | 2, (8) |
-| Hit Dice | 3* | 4* | 4 + 1* | 5* | 6* |
-| Move | 120' (40') | 180' (60') | 150' (50') | 150' (50') | 120' (40') |
-| Attacks | 1 bite or weapon | 1 bite | 1 tusk-bite | 2 claws / 1 bite | 2 claws / 1 bite |
-| Damage | 1-4 or by weapon | 2-8 | 2-12 | 1-6 / 1-6 / 2-12 | 2-8 / 2-8 / 2-16 |
-| No. Appearing | 1-8 (2-16) | 1-6 (2-12) | 1-4 (2-8) | 1-4 (1-4) | 1-4 (1-4) |
-| Save As | Fighter: 3 | Fighter: 4 | Fighter: 4 | Fighter: 5 | Fighter: 6 |
-| Morale | 8 | 8 | 9 | 9 | 10 |
-| Treasure Type | C | C | C | C | C |
-| Alignment | Chaotic | Chaotic | Neutral | Neutral | Neutral |
-
-Lycanthropes are humans who can change into beasts, or in the case of wererats, beasts who can change into humans. They do not wear armor, since it would interfere with their shapechanging. Any lycanthrope can summon 1 or 2 of the animals of their were-type, such as giant rats, wolves, boars, great cats, or bears, which will arrive in 1-4 rounds. If a lycanthrope is hit by wolfsbane, it must save vs. Poison or run away in fear. The sprig of wolfsbane must be swung or thrown as a weapon using normal combat procedures. All lycanthropes will turn back into human form when killed. Some animals, such as horses, do not like the smell of lycanthropes and will react with fear.
-
-ANIMAL FORM: In animal form, a lycanthrope may only be harmed by magic weapons, silvered weapons, or magic spells. The lycanthrope cannot speak normal languages, though it can speak with normal animals of its were-type.
-
-HUMAN FORM: In human form, a lycanthrope often looks somewhat like its were-form. In this form, it may be attacked normally, and may speak any known languages.
-
-LYCANTHROPY: Lycanthropy is a disease. Any human character who is severely hurt by were-creatures, losing more than half of his or her hit points in battle with them, will become a lycanthrope of the same type in 2-24 days. The victim will begin to show signs of the disease after only half that time. The disease will kill non-humans instead of turning them into were-creatures. It may only be cured by a high-level cleric of 11th level or greater. Any character who becomes a full were-creature becomes an NPC, to be run by the DM only.
-
-- *Wererats*: Wererats are different from most lycanthropes. They are intelligent, can speak Common in either form, and may use any weapon. A wererat usually prefers to use a man-sized rat form, but may become a full-sized human. Wererats are sneaky and often set ambushes, surprising on a roll of 1-4 on 1d6. They summon giant rats to help them in battle. Only a wererat's bite causes lycanthropy.
-
-- *Werewolves*: These creatures are semi-intelligent and usually hunt in packs. Any group of 5 or more will have a leader with 30 hit points, attacks as a 5 hit dice monster, and gains +2 on damage rolls. Werewolves summon normal wolves to form large packs with them.
-
-- *Wereboars*: Wereboars are semi-intelligent and have bad tempers. In human form they often seem to be berserkers, and may act the same way in battle, gaining +2 on attack rolls and fighting to the death. Wereboars summon normal boars to help them in battle.
-
-- *Weretigers*: These relatives of the Great Cats often act like them, being very curious but becoming dangerous when threatened. They are good swimmers and quiet trackers, surprising on a roll of 1-4 on 1d6. They may summon any type of Great Cat in the area, preferring tigers.
-
-- *Werebears*: Werebears are very intelligent, even in animal form. A werebear usually prefers to live alone or with bears. It might be friendly if peacefully approached. In combat, werebears may hug for 2-16 points of damage, in addition to normal damage, if both paws hit the same target in one combat round. A werebear may summon any type of bear in the area.
-
-Armor Class in parentheses applies when in human form.
 
 ### Manticore
 *Source:* `Expert`  
@@ -2088,47 +2402,7 @@ Minotaurs are semi-intelligent and some use weapons, preferring a spear, club, o
 
 ![Basic monster illustration: minotaur](assets/minotaur-plate.png)
 
-### Mummy*
-*Source:* `Expert`  
 
-| Stat | Value |
-| --- | --- |
-| Armor Class | 3 |
-| Hit Dice | 5 + 1* |
-| Move | 60' (20') |
-| Attacks | 1 touch + disease |
-| Damage | 1-12 + disease |
-| No. Appearing | 1-4 (1-12) |
-| Save As | Fighter: 5 |
-| Morale | 12 |
-| Treasure Type | D |
-| Alignment | Chaotic |
-
-Mummies are undead who lurk near deserted ruins and tombs. On seeing a mummy, each character must save vs. Paralysis or be paralyzed with fear until the mummy attacks someone or goes out of sight.
-
-In melee, a hit by a mummy does 1-12 points of damage and infects the creature hit with a hideous rotting disease. This disease prevents magical healing and makes all wounds take 10 times as long to heal. The disease lasts until it is magically cured.
-
-Mummies can only be damaged by spells, fire, or magic weapons, all of which will only do half damage. They are immune to sleep, charm, and hold spells.
-
-### Nixies
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 7 |
-| Hit Dice | 1 |
-| Move | 120' (40') |
-| Attacks | 1 |
-| Damage | 1-4|
-| No. Appearing | 0 (2-20) |
-| Save As | Elf: 1 |
-| Morale | 6 |
-| Treasure Type | B |
-| Alignment | Neutral |
-
-Nixies are 3' tall water sprites. They look like small beautiful women, and their skin is light blue, green, or gray-green. They avoid combat, but may try to charm an adventurer. Ten nixies can cast one such charm, and if a save vs. Spells is not made, the victim will enter the water and serve the nixies for a year. (Each nixie can cast a water breathing spell on her slave, but this must be renewed every day.) If forced to fight, nixies use small tridents (treat as spears) and daggers, and each will summon a giant bass to aid them (AC 7, HD 2, MV 120' (40'), #AT 1, D 1-6, Save Fl, ML 8, AL N).
-
-Nixies dwell in rivers and lakes, making their lairs in the deepest part of the water.
 
 ### Ochre Jelly
 *Source:* `Basic`  
@@ -2147,54 +2421,6 @@ Nixies dwell in rivers and lakes, making their lairs in the deepest part of the 
 | Alignment | Neutral |
 
 An ochre jelly is an ochre-colored giant amoeba which can only be harmed by fire or cold. Attacks with weapons or lightning merely make several (1d4+ 1) smaller (2 hit dice) ochre jellies. An ochre jelly does 2d6 damage per turn to exposed flesh. The smaller ochre jellies only do half damage. It can seep through small cracks, and destroy wood, leather, and cloth in 1 round, but cannot eat through metal or stone.
-
-### Ogre
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 4+1 |
-| Move | 90' (30') |
-| Attacks | lclub |
-| Damage | 1-10 |
-| No. Appearing | 1-6 (2-12) |
-| Save As | Fighter: 4 |
-| Morale | 10 |
-| Treasure Type | C + 1000 gp |
-| Alignment | Chaotic |
-
-Ogres are huge fearsome human-like creatures, usually 8 to 10 feet tall. They wear animal skins for clothes, and often live in caves.
-
-When encountered outside their lair, they will be carrying 100-600 gp (1d6 x 100) in large sacks. Ogres hate Neanderthals and will attack them on sight.
-
-### Orc
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 6 |
-| Hit Dice | 1 |
-| Move | 120' (40') |
-| Attacks | 1 weapon |
-| Damage | 1-6 or weapon |
-| No. Appearing | 2-8 (10-60) |
-| Save As | Fighter: 1 |
-| Morale | 8 |
-| Treasure Type | D |
-| Alignment | Chaotic |
-
-Orcs are ugly human-like creatures who look like a combination of animal and man. Orcs are nocturnal (usually sleeping in the day and active at night or in the dark), and prefer to live underground.
-
-When fighting in daylight, they must subtract 1 from their "to hit" rolls. They have bad tempers and do not like other living things; they will often kill something for their own amusement. They are afraid of anything which looks larger and stronger than they are, but may be forced to fight by their leaders.
-
-Orc leaders gain their positions by fighting and defeating (or killing) the others. One member of any group of orcs will be a leader with 8 hit points who gains a bonus of + 1 on damage rolls. If this "leader" is killed, the morale of the group becomes 6 instead of 8.
-
-Orcs may often be hired at low cost as soldiers, and are often used for armies by Chaotic leaders (both humans and monsters). The orcs are satisfied by being allowed to kill and burn as much as they want. Orcs prefer swords, spears, axes, and clubs for weapons.
-
-They will not use mechanical weapons (such as catapults), as only their leaders understand how to operate them.
-
-There are many different tribes of orcs. Members of different tribes are not usually friendly with each other, and may start fighting unless their leaders are present. An orc lair has only one tribe. Each tribe will have as many female orcs as males, and 2 children ("whelps") for each 2 adults. The leader of an orc tribe is a chieftain who has 15 hit points, attacks as a 4 hit dice monster, and gains + 2 on damage rolls. For every 20 orcs in a tribe, there may be an ogre with them (a 1 in 6 chance). (If the D&D EXPERT rules are used, there is a 1 in 10 chance of a troll living in the lair as well.)
 
 ### Owl Bear
 *Source:* `Basic`  
@@ -2236,29 +2462,6 @@ An owl bear is a huge bear-like creature with the head of a giant owl. An owl be
 These semi-intelligent flying horses are wild and shy. They cannot be tamed, but will serve Lawful characters only if captured when young and trained. Pegasi are the natural enemies of hippogriffs.
 
 ![Expert monster plate: pegasus](assets/pegasus-plate.png)
-
-### Pixie
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 3 |
-| Hit Dice | 1* |
-| Move | 90' (30') |
-| Flying | 180' (60') |
-| Attacks | 1 dagger |
-| Damage | 1-4 |
-| No. Appearing | 2-8 (10-40) |
-| Save As | Elf: 1 |
-| Morale | 7 |
-| Treasure Type | R + S |
-| Alignment | Neutral |
-
-Pixies are small (1-2' tall) human-like creatures with insect-like wings distantly related to elves. They are invisible unless they want to be seen (or unless a detect invisible spell is used when they are nearby). Unlike the effects of the invisibility spell, pixies can attack and remain invisible, and they always gain surprise when doing so. They may not be attacked in the first round of combat, but after that their attackers will see shadows and movement in the air and may attack the pixies with a -2 penalty on "to hit" rolls.
-
-Their small insect-like wings can only support pixies for 3 turns, and they must rest one full turn after flying.
-
-![Basic monster illustration: pixies](assets/pixie-plate.png)
 
 ### Purple Worm
 *Source:* `Expert`  
@@ -2326,56 +2529,6 @@ A rust monster has a body like a giant armadillo with a long tail, and 2 long fr
 
 ![Basic monster illustration: rust monster](assets/rust-monster-plate.png)
 
-### Salamander*
-*Source:* `Expert`  
-
-| Stat | Flame Salamander | Frost Salamander |
-| --- | --- | --- |
-| Armor Class | 2 | 3 |
-| Hit Dice | 8* | 12* |
-| Move | 120' (40') | 120' (40') |
-| Attacks | 2 claws / 1 bite | 4 claws / 1 bite |
-| Damage | 1-4 / 1-4 / 1-8 | 1-6 (x4) / 2-12 |
-| No. Appearing | 2-5 (2-8) | 1-3 (1-3) |
-| Save As | Fighter: 8 | Fighter: 12 |
-| Morale | 8 | 9 |
-| Treasure Type | F | E |
-| Alignment | Neutral | Chaotic |
-
-A flame salamander is a form of free-willed fire elemental that looks like a giant snake, 12' to 16' long, with the head and limbs of a lizard. It has scales of bright orange-yellow and orange-red. All creatures within 20' will take 1-8 points of damage per round from the intense heat the salamander generates. Flame salamanders are immune to all fire-based attacks. These creatures are intelligent and prefer to live near, or in, volcanoes or in very hot, dry lands.
-
-A frost salamander looks like a giant lizard with 6 legs. Its scales are white or blue-white in color. When it fights, it rears up and strikes with the front four legs as well as fangs. All creatures within 20' will take an additional 1-8 points of damage each round from the extreme cold the monster radiates. Frost salamanders are immune to all cold-based attacks. They live in frozen wastelands, glaciers, and icy tundras.
-
-Frost and flame salamanders hate each other, and will attack one another on sight.
-
-![Expert monster plate: salamander](assets/salamander-plate.png)
-
-### Sea Dragons
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 1 |
-| Hit Dice | — |
-| Move | 8 180' (60') (Swimming or Flying) |
-| Attacks | — |
-| Damage | 1 bite or 1 spit 3-24 |
-| No. Appearing | 0 (1-4) |
-| Save As | Fighter: 8 (see below) |
-| Morale | 9 |
-| Treasure Type | H |
-| Alignment | Neutral |
-
-Sea dragons are intelligent and usually green in color with a bright yellow-green crest. Sea dragons have a 20% chance of talking and being spell casters, with three 1st level and three 2nd leve1 spells.
-
-Their breath weapon is a 20' diameter glob of poison that they can spit up to 100', three times per day (50% chance to use). Those struck must save vs. Dragon Breath or die. (This poison loses its effectiveness after 1 round). Their bite is not poisonous.
-
-The statistics given are for an average-sized sea dragon. Younger dragons, as with other dragons, are smaller and have acquired less treasure; older sea dragons are larger and have acquired more.
-
-Sea dragons generally range in size from 3 hit dice smaller to 3 hit dice larger than average.
-
-Sea dragons have fin-like wings which enable them to glide above the water for up to 6 rounds (much like "flying fish"). They live in caves or sunken ships at the bottom of the ocean, and may attack passing ships for food and treasure.
-
 ### Sea Serpent (Lesser)
 *Source:* `Expert`  
 
@@ -2431,72 +2584,6 @@ Shadows are in-corporeal (ghost-like) intelligent creatures. They can only be ha
 | Alignment | Neutral |
 
 Shriekers look like giant mushrooms. They live in underground caverns and are able to move around slowly. They react to light (within 60') and movement (within 30') by emitting a piercing shriek which lasts for 1-3 rounds. There will be a 50% chance per round of a wandering monster encounter for each round that a shrieker shrieks. The wandering monster will arrive in 2-12 (2d6) rounds.
-
-### Skeleton
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 7 |
-| Hit Dice | 1 |
-| Move | 60' (20') |
-| Attacks | 1 |
-| Damage | 1-6 or weapon |
-| No. Appearing | 3-12 (3-30) |
-| Save As | Fighter: 1 |
-| Morale | 12 |
-| Treasure Type | Nil |
-| Alignment | Chaotic |
-
-Animated skeletons are undead creatures often found near graveyards, dungeons, or other deserted places. They are used as guards by the high level magic-user or cleric who animated them.
-
-Since they are undead, they can be "Turned" by a cleric, and are not affected by sleep or charm spells, nor any form of mind reading. Skeletons will always fight until killed.
-
-![Basic monster illustration: skeleton](assets/skeleton-plate.png)
-
-### Spectre*
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 2 |
-| Hit Dice | 6** |
-| Move | 150' (50') |
-| Flying | 300' (100') |
-| Attacks | 1 touch + special |
-| Damage | 1-8 + 2 level drain |
-| No. Appearing | 1-4 (1-8) |
-| Save As | Fighter: 6 |
-| Morale | 11 |
-| Treasure Type | E |
-| Alignment | Chaotic |
-
-The ghostly spectres are among the mightiest of the undead. They have no solid bodies and can only be hit by magic weapons; silver weapons have no effect. Like all undead, spectres are immune to sleep, charm, and hold spells.
-
-A hit by a spectre does 1-8 points of damage and drains 2 life energy levels. The result of this drain is that the creature touched loses 2 hit dice, levels of experience. Experience points will drop to the lowest amount needed for the new level, and all hit dice and abilities associated with the drained levels are lost.
-
-A character whose level is reduced to 0 is slain. A character slain by a spectre will rise the next night as a spectre under the control of the slayer.
-
-![Expert monster plate: spectre](assets/spectre-plate.png)
-
-### Sprite
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | — |
-| Hit Dice | 1/2* (1-4 hp) |
-| Move | 60' (20') |
-| Flying | 180' (60') |
-| Attacks | 1 spell |
-| Damage | See below |
-| No. Appearing | 3-18 (5-40) |
-| Save As | Elf: 1 |
-| Morale | 7 |
-| Treasure Type | S |
-| Alignment | Neutral |
-
-Sprites are small winged people about 1 foot tall related to pixies and elves. While shy, they are very curious and have a strange sense of humor. Five sprites acting together can cast one curse spell. This will take the form of a magical practical joke, such as tripping or having one's nose grow. The exact effect of the spell is up to the DM's imagination. Sprites will never cause death on purpose even if they are attacked. (In the D&D EXPERT rules, the effects of the sprites' curse can be removed by a remove curse spell.)
 
 ### Stirge
 *Source:* `Basic`  
@@ -2563,237 +2650,6 @@ A thoul is a magical combination of a ghoul, a hobgoblin, and a troll (see D&D E
 
 If it is damaged, a thoul will regenerate 1 hit point per round as long as it is alive. After a thoul is hit, the DM should add 1 hit point to its total at the beginning of each round of combat.
 
-### Treant
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 2 |
-| Hit Dice | 8 |
-| Move | 60' (20') |
-| Attacks | 2 blows |
-| Damage | 2-12 / 2-12 |
-| No. Appearing | 0 (1-8) |
-| Save As | Fighter: 8 |
-| Morale | 9 |
-| Treasure Type | C |
-| Alignment | Lawful |
-
-Treants are 18' tall tree-men who resemble trees. Treants are only concerned with protecting forests and plant life. They speak a slow and difficult tongue and distrust those who use fire. Because treants are often mistaken for normal trees, all encounters with treants take place at 30 yards or less and they surprise a party on a roll of 1-3.
-
-One treant can animate any two trees within 60' to move at 30', 5', and fight as treants. A treant may change which trees it is animating at will.
-
-![Expert monster illustration: treant](assets/treant-plate.png)
-
-### Troglodyte
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 2* |
-| Move | 120' (40') |
-| Attacks | 2 claws / 1 bite |
-| Damage | 1-4 each |
-| No. Appearing | 1-8 (5-40) |
-| Save As | Fighter: 2 |
-| Morale | 9 |
-| Treasure Type | A |
-| Alignment | Chaotic |
-
-A troglodyte is an intelligent human-like reptile with a short tail, long legs, and a spiny comb on its head and arms. Troglodytes walk upright and use their hands as well as humans. They hate most other creatures, and will try to kill anyone they meet.
-
-They have a chameleon-like ability to change colors and use it to hide by rock walls, surprising on a roll of 1-4 on 1d6. They secrete an oil which produces a stench that will nauseate humans and demi-humans unless the victims save vs. Poison. Nauseated characters have a -2 penalty on their attack rolls while in hand-to-hand combat with the troglodytes.
-
-![Basic monster illustration: troglodyte](assets/troglodyte-plate.png)
-
-### Troll
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 4 |
-| Hit Dice | 6 + 3* |
-| Move | 120' (40') |
-| Attacks | 2 claws / 1 bite |
-| Damage | 1-6 / 1-6 / 1-10 |
-| No. Appearing | 1-8 (1-8) |
-| Save As | Fighter: 6 |
-| Morale | 10 (8) |
-| Treasure Type | D |
-| Alignment | Chaotic |
-
-Thin, rubbery, and loathsome, trolls stand nearly 8' tall. They are intelligent and prefer humanoid creatures over all other foods. Trolls live in caves, dungeons, wastelands, and in ruined dwellings of the humanoids they have slain and eaten.
-
-Trolls are strong and rend their opponents with talons and sharp teeth. A troll has the power of regeneration, the ability to heal and grow back together. A troll will begin to heal 3 rounds after it has taken damage. A troll's wounds will heal themselves at a rate of 3 hit points per round, and even severed limbs will crawl back to the body and rejoin. The troll cannot regenerate damage from fire or acid. In game turns, this means that unless totally consumed by fire or acid, a troll will eventually regenerate completely. If reduced to 0 hit points by other than fire or acid damage, the troll will heal enough to fight again in 2-12 rounds. The morale in parentheses applies only when the troll is attacked by fire or acid.
-
-### Undead
-
-See Skeleton, Zombie, Ghoul, Wight, Wraith, Mummy, Spectre, and Vampire.
-
-Undead are evil creatures created through dark magic. They are unaffected by things that affect living creatures, such as poison, and are not affected by spells which influence the mind, such as sleep and charm person. They do not make noise.
-
-### Unicorn
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 2 |
-| Hit Dice | 4* |
-| Move | 240' (80') |
-| Attacks | 2 hooves / 1 horn |
-| Damage | 1-8 each |
-| No. Appearing | 1-6 (1-8) |
-| Save As | Fighter: 8 |
-| Morale | 7 |
-| Treasure Type | Nil |
-| Alignment | Lawful |
-
-A unicorn looks like a slender horse with a horn growing from its forehead. A unicorn is a fierce but shy creature. Only a pure maiden can talk to or ride one. It can magically teleport itself with a rider to a distance of 360' once per day.
-
-![Basic monster illustration: unicorn](assets/unicorn-plate.png)
-
-### Vampire*
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 2 |
-| Hit Dice | 7-9** |
-| Move | 120' (40') |
-| Flying | 180' (60') |
-| Attacks | 1 touch + special |
-| Damage | 1-10 + energy drain |
-| No. Appearing | 1-4 (1-6) |
-| Save As | Fighter: 7-9 |
-| Morale | 11 |
-| Treasure Type | F |
-| Alignment | Chaotic |
-
-Vampires are the most feared of the undead, feeding on the blood of the living in order to survive. Vampires haunt ruins, tombs, crypts, and other places deserted by man. They are unaffected by sleep, charm, and hold spells. Vampires can only be hit with magic weapons.
-
-In human form, a vampire's touch will drain 2 life energy levels from the victim. A character slain by a vampire will return from death as a vampire in 3 days.
-
-A vampire may also attempt to charm any who gaze into its eyes. The victim must save vs. Spells to avoid the charm, with a -2 penalty on the roll. A charmed victim will be totally under the vampire's control, but cannot use spells or magic.
-
-A vampire in any form can regenerate 3 hit points per round, as soon as it is damaged. If a vampire is reduced to 0 hit points, it will not regenerate, but will become gaseous and flee to its coffin.
-
-In human form the vampire can summon 10-100 rats, 5-20 giant rats, 10-100 bats, 3-18 giant bats, or 3-18 wolves, 2-8 dire wolves, if these are in the area.
-
-Weaknesses of vampires: Vampires will not come within 10' of any strongly presented holy symbol, although they may move to attack the person holding the symbol from another direction. A strong odor of garlic repels them, save vs. Poison or cannot attack that round. Vampires cast no reflection and avoid mirrors.
-
-A vampire may take the form of a human, a dire wolf, a giant bat, or a gaseous cloud at will. This transformation requires 1 round. In dire wolf or giant bat form, the vampire will move, attack, and do damage according to the statistics for those creatures. The vampire's armor class, hit dice, morale, and saving throws remain unchanged. In gaseous form, a vampire can fly at the listed speed and has immunity to all weapon attacks. A vampire cannot attack while in gaseous form.
-
-Vampires cannot cross running water, either on foot or flying, except at bridges or while in their coffins. During the day, a vampire usually rests in its coffin, and failure to do so results in the loss of 2-12 hit points per day. These hit points will not be regenerated until the vampire has rested in its coffin for a full day.
-
-Destroying vampires: A vampire can be destroyed by driving a wooden stake through its heart or by immersion in running water for 1 turn. If a vampire is exposed to direct sunlight, the creature must make a saving throw vs. Death Ray each round or disintegrate. A continual light spell will not disintegrate a vampire, but will partially blind it, making its attacks suffer a -4 penalty to hit. If all of the vampire's coffins are blessed or destroyed, the vampire will weaken, taking damage as above, and will die when its hit points are reduced to 0. A vampire will always have several well-hidden coffins available.
-
-![Expert monster plate: vampire](assets/vampire-plate.png)
-
-### Veteran
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 2 |
-| Hit Dice | 1-3 |
-| Move | 60' (20') |
-| Attacks | 1 weapon |
-| Damage | 1-8 or weapon |
-| No. Appearing | 2-8 (2-12) |
-| Save As | Fighter: 1-3 |
-| Morale | 9 (varies) |
-| Treasure Type | V |
-| Alignment | Any |
-
-Veterans are low-level fighters, usually returning from or going to a war. To determine each veteran's level and alignment, use the method outlined under Creating an NPC Party. A party of veterans may be of mixed levels and alignments, or the DM may wish to give all members the same levels.
-
-### Weasel, Giant
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 7 |
-| Hit Dice | 4 + 4 |
-| Move | 150' (50') |
-| Attacks | 1 bite + special |
-| Damage | 2-8 |
-| No. Appearing | 1-4 (1-6) |
-| Save As | Fighter: 3 |
-| Morale | 8 |
-| Treasure Type | V |
-| Alignment | Neutral |
-
-A giant weasel is 8'-9' long and covered with richly colored fur of white, gold, or brown. These quick, vicious predators hunt singly or in groups. Once they bite, they hold on and suck blood, doing 2-8 points of damage each round until their prey dies or the weasel is killed.
-
-Giant weasels have infravision to 30' and can track by scent. They prefer wounded prey and lair in underground tunnels, where treasure is often found on the bodies of creatures they have dragged back to eat.
-
-### Were-creature
-
-See Lycanthropes.
-
-### Wight*
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 3* |
-| Move | 90' (30') |
-| Attacks | 1 |
-| Damage | Energy drain |
-| No. Appearing | 1-6 (1-8) |
-| Save As | Fighter: 3 |
-| Morale | 12 |
-| Treasure Type | B |
-| Alignment | Chaotic |
-
-A wight is an undead spirit living in the body of a dead human or demi-human. It can only be hit by silvered or magical weapons. Wights are greatly feared, as they drain life energy when striking a victim. Each hit drains one level of experience or hit die. Example: a 3rd level fighter struck by a wight becomes a 2nd level fighter, keeping only enough experience points to be at the midpoint of 2nd level, and losing 1 hit die of hit points.
-
-Any person totally drained of life energy by a wight will become a wight in 1-4 days and will be under control of the wight who drained them.
-
-### Wraith*
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 3 |
-| Hit Dice | 4** |
-| Move | 120' (40') |
-| Flying | 240' (80') |
-| Attacks | 1 touch + special |
-| Damage | 1-6 + energy drain |
-| No. Appearing | 1-4 (1-6) |
-| Save As | Fighter: 4 |
-| Morale | 12 |
-| Treasure Type | E |
-| Alignment | Chaotic |
-
-A wraith is an undead monster that drains the life force of its victims. It has no physical body and looks like a pale, manlike, almost transparent figure composed of thick mist. It is immune to sleep, charm, and hold spells. A wraith can only be hit by silver or magical weapons, but silver weapons will only do half damage.
-
-When a wraith hits in melee, it will do normal damage and also drain one life energy level, see spectre. Wraiths dwell in deserted lands or in the dwellings of creatures they have slain or frightened away. Characters slain by a wraith will become wraiths under the control of the one that killed them after one day.
-
-### Wyvern
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 3 |
-| Hit Dice | 7* |
-| Move | 90' (30') |
-| Flying | 240' (80') |
-| Attacks | 1 bite / 1 sting |
-| Damage | 2-16 / 1-6 + poison |
-| No. Appearing | 1-2 (1-6) |
-| Save As | Fighter: 4 |
-| Morale | 9 |
-| Treasure Type | E |
-| Alignment | Chaotic |
-
-A wyvern looks like a two-legged, winged dragon with a long tail. In combat, the wyvern will bite and arch its tail over its head to hit opponents in front of it. Those stung by the tail must save vs. Poison or die. These beasts prefer to live on cliffs or in forests, but may be found anywhere.
-
-![Expert monster illustration: wyvern](assets/wyvern-plate.png)
-
 ### Yellow Mold
 *Source:* `Basic`  
 
@@ -2813,26 +2669,6 @@ A wyvern looks like a two-legged, winged dragon with a long tail. In combat, the
 This deadly fungus covers an area of 10 square feet (2' by 5', for example), though many are sometimes found together. Yellow mold can only be killed by fire; a torch will do 1-4 points of damage to it each round. It will eat through wood and leather but does not harm metal or stone.
 
 It does not actually attack, but if it is touched by a torch, for example, the touch may cause the mold to squirt out a 10'x10'x10' cloud of spores. There is a 50% chance per hit that the mold will squirt out this cloud. Anyone caught within the cloud must save vs. Death Ray or choke to death within 6 rounds.
-
-### Zombie
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 8 |
-| Hit Dice | 2 |
-| Move | 120' (40') |
-| Attacks | 1 weapon |
-| Damage | 1-8 or weapon |
-| No. Appearing | 2-8 (4-24) |
-| Save As | Fighter: 1 |
-| Morale | 12 |
-| Treasure Type | Nil |
-| Alignment | Chaotic |
-
-Zombies are undead humans or demi-humans animated by some evil cleric or magic-user. As all undead, they may be turned by a cleric but are not affected by sleep or charm spells or any form of mind reading. They are often placed to guard treasures, since they make no noise until they attack.
-
-Zombies will always attack on sight, but can be destroyed by normal weapons. They are slow fighters and always strike last (no initiative roll needed).
 
 ::: pagebreak-pdf
 :::
@@ -3120,8 +2956,28 @@ Traders are first level fighters who make their living trading goods. They are s
 
 When encountered in the wilderness, they will be leading 1-4 pack mules carrying trade goods. The choice of exactly which trade goods is left to the DM; typical ones are spices, furs, or carved decorative items.
 
+### Veteran
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 2 |
+| Hit Dice | 1-3 |
+| Move | 60' (20') |
+| Attacks | 1 weapon |
+| Damage | 1-8 or weapon |
+| No. Appearing | 2-8 (2-12) |
+| Save As | Fighter: 1-3 |
+| Morale | 9 (varies) |
+| Treasure Type | V |
+| Alignment | Any |
+
+Veterans are low-level fighters, usually returning from or going to a war. To determine each veteran's level and alignment, use the method outlined under Creating an NPC Party. A party of veterans may be of mixed levels and alignments, or the DM may wish to give all members the same levels.
+
 ::: pagebreak-pdf
 :::
+
+
 
 ## Prehistoric
 
@@ -3262,6 +3118,359 @@ Triceratops are found on the plains of "lost worlds."
 The tyrannosaurus rex is one of the largest hunting dinosaurs, standing over 20' tall. Its great jaws are lined with sharp teeth and it moves erect on its hind legs. It will attack anything man-sized or larger, usually attacking the largest creature first.
 
 The tyrannosaurus rex is usually found only in "lost world" areas.
+
+::: pagebreak-pdf
+:::
+
+## Sylvan or Faerie Creatures
+
+Sylvan or faerie creatures are encountered in magical woodlands, sometimes sharing their territory with elves. As a group they are reclusive and, with some notable exceptions, generally good aligned.
+
+Their homes are places of uncanny beauty filled with lush growth, flowering glades, sparkling waterfalls, and clear woodland pools. These creatures are often highly magical and possess a mischievous sense of humor, making encounters with them unpredictable and dangerous as often as they are wondrous.
+
+### Centaur
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 4 |
+| Move | 180' (60') |
+| Attacks | 2 hooves / 1 weapon |
+| Damage | 1-6 / 1-6 / 1-6 or by weapon |
+| No. Appearing | 0 (2-20) |
+| Save As | Fighter: 4 |
+| Morale | 8 |
+| Treasure Type | A |
+| Alignment | Neutral |
+
+A centaur has the head, arms, and upper body of a human joined to the body and legs of a powerful horse. Proud and wary creatures, centaurs prefer the deep forests and open meadows far from the settlements of humankind. They are intelligent enough to craft and use weapons such as clubs, lances, bows, and spears.
+
+Centaurs usually live in small tribes or extended family bands. Their hidden camps are often concealed within dense woods or thorny thickets, reached only by twisting, carefully guarded trails. Females and young generally remain within the lair while the warriors patrol and hunt.
+
+If threatened, the females and young will attempt to flee unless escape is impossible, in which case they will fight fiercely to the death. Young centaurs fight as 2 hit dice monsters, attacking with small weapons or with hooves for 1-2 / 1-2 / 1-4 damage.
+
+![Expert monster illustration: centaur](assets/centaur-plate.png)
+
+### Dryad
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 2* |
+| Movement | 120' (40') |
+| Attacks | See below |
+| Damage | 0 |
+| No. Appearing | 0 (1-6) |
+| Save As | Fighter: 4 |
+| Morale | 6 |
+| Treasure Type | D |
+| Alignment | Neutral |
+
+A dryad is a beautiful female tree spirit who lives in a woodland setting or dense forest. Each individual dryad always lives in a specific tree and will die in one turn if taken more than 240’ away from it. A dryad will also die if her tree dies. If a dryad wishes to be unobserved, she will join with her tree, becoming part of it. Dryads are extremely shy and non-violent, but very suspicious of strangers.
+
+Anyone approaching or following a dryad, not merely standing in the area of the tree, may be attacked by the powerful charm person spell these creatures can cast. The victim must make a saving throw vs. Spells with a penalty of -2 on the roll. A charmed character will approach the tree and be drawn into it. Unless rescued immediately, the victim will never be seen again.
+
+Dryads hide their treasure in hollows under the roots of their trees.
+
+![Expert monster illustration: dryad](assets/dryad-plate.png)
+
+### Nixies
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 7 |
+| Hit Dice | 1 |
+| Move | 120' (40') |
+| Attacks | 1 |
+| Damage | 1-4|
+| No. Appearing | 0 (2-20) |
+| Save As | Elf: 1 |
+| Morale | 6 |
+| Treasure Type | B |
+| Alignment | Neutral |
+
+Nixies are 3' tall water sprites. They look like small beautiful women, and their skin is light blue, green, or gray-green. They avoid combat, but may try to charm an adventurer. Ten nixies can cast one such charm, and if a save vs. Spells is not made, the victim will enter the water and serve the nixies for a year. (Each nixie can cast a water breathing spell on her slave, but this must be renewed every day.) If forced to fight, nixies use small tridents (treat as spears) and daggers, and each will summon a giant bass to aid them (AC 7, HD 2, MV 120' (40'), #AT 1, D 1-6, Save Fl, ML 8, AL N).
+
+Nixies dwell in rivers and lakes, making their lairs in the deepest part of the water.
+
+### Pixie
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 3 |
+| Hit Dice | 1* |
+| Move | 90' (30') |
+| Flying | 180' (60') |
+| Attacks | 1 dagger |
+| Damage | 1-4 |
+| No. Appearing | 2-8 (10-40) |
+| Save As | Elf: 1 |
+| Morale | 7 |
+| Treasure Type | R + S |
+| Alignment | Neutral |
+
+Pixies are small (1-2' tall) human-like creatures with insect-like wings distantly related to elves. They are invisible unless they want to be seen (or unless a detect invisible spell is used when they are nearby). Unlike the effects of the invisibility spell, pixies can attack and remain invisible, and they always gain surprise when doing so. They may not be attacked in the first round of combat, but after that their attackers will see shadows and movement in the air and may attack the pixies with a -2 penalty on "to hit" rolls.
+
+Their small insect-like wings can only support pixies for 3 turns, and they must rest one full turn after flying.
+
+![Basic monster illustration: pixies](assets/pixie-plate.png)
+
+### Sprite
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | — |
+| Hit Dice | 1/2* (1-4 hp) |
+| Move | 60' (20') |
+| Flying | 180' (60') |
+| Attacks | 1 spell |
+| Damage | See below |
+| No. Appearing | 3-18 (5-40) |
+| Save As | Elf: 1 |
+| Morale | 7 |
+| Treasure Type | S |
+| Alignment | Neutral |
+
+Sprites are small winged people about 1 foot tall related to pixies and elves. While shy, they are very curious and have a strange sense of humor. Five sprites acting together can cast one curse spell. This will take the form of a magical practical joke, such as tripping or having one's nose grow. The exact effect of the spell is up to the DM's imagination. Sprites will never cause death on purpose even if they are attacked. (In the D&D EXPERT rules, the effects of the sprites' curse can be removed by a remove curse spell.)
+
+### Treant
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 2 |
+| Hit Dice | 8 |
+| Move | 60' (20') |
+| Attacks | 2 blows |
+| Damage | 2-12 / 2-12 |
+| No. Appearing | 0 (1-8) |
+| Save As | Fighter: 8 |
+| Morale | 9 |
+| Treasure Type | C |
+| Alignment | Lawful |
+
+Treants are 18' tall tree-men who resemble trees. Treants are only concerned with protecting forests and plant life. They speak a slow and difficult tongue and distrust those who use fire. Because treants are often mistaken for normal trees, all encounters with treants take place at 30 yards or less and they surprise a party on a roll of 1-3.
+
+One treant can animate any two trees within 60' to move at 30', 5', and fight as treants. A treant may change which trees it is animating at will.
+
+![Expert monster illustration: treant](assets/treant-plate.png)
+
+### Unicorn
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 2 |
+| Hit Dice | 4* |
+| Move | 240' (80') |
+| Attacks | 2 hooves / 1 horn |
+| Damage | 1-8 each |
+| No. Appearing | 1-6 (1-8) |
+| Save As | Fighter: 8 |
+| Morale | 7 |
+| Treasure Type | Nil |
+| Alignment | Lawful |
+
+A unicorn looks like a slender horse with a horn growing from its forehead. A unicorn is a fierce but shy creature. Only a pure maiden can talk to or ride one. It can magically teleport itself with a rider to a distance of 360' once per day.
+
+![Basic monster illustration: unicorn](assets/unicorn-plate.png)
+
+::: pagebreak-pdf
+:::
+
+## Undead
+
+Undead are evil creatures created through dark magic. They are unaffected by things that affect living creatures, such as poison, and are not affected by spells which influence the mind, such as sleep and charm person. They do not make noise.
+
+### Ghoul
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 6 |
+| Hit Dice | 2* |
+| Move | 90' (30') |
+| Attacks | 2 claws/1 bite |
+| Damage | 1 3, all + |
+| No. Appearing | 1-6(2-16) |
+| Save As | Fighter: 2 |
+| Morale | 9 |
+| Treasure Type | B |
+| Alignment | Chaotic special |
+
+Ghouls are undead creatures. They are hideous, beast-like humans who will attack anything living. Any attack by a ghoul will paralyze any creature of ogre-size or smaller that they hit successfully (except elves) unless the victim saves vs. Paralysis. Once an opponent is paralyzed, the ghoul will turn and attack another opponent, until either the ghoul or all the opponents are paralyzed or dead. This paralysis is the normal type (lasting 2-8 turns unless removed by a **cure light wounds spell**).
+
+### Mummy*
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 3 |
+| Hit Dice | 5 + 1* |
+| Move | 60' (20') |
+| Attacks | 1 touch + disease |
+| Damage | 1-12 + disease |
+| No. Appearing | 1-4 (1-12) |
+| Save As | Fighter: 5 |
+| Morale | 12 |
+| Treasure Type | D |
+| Alignment | Chaotic |
+
+Mummies are undead who lurk near deserted ruins and tombs. On seeing a mummy, each character must save vs. Paralysis or be paralyzed with fear until the mummy attacks someone or goes out of sight.
+
+In melee, a hit by a mummy does 1-12 points of damage and infects the creature hit with a hideous rotting disease. This disease prevents magical healing and makes all wounds take 10 times as long to heal. The disease lasts until it is magically cured.
+
+Mummies can only be damaged by spells, fire, or magic weapons, all of which will only do half damage. They are immune to sleep, charm, and hold spells.
+
+### Skeleton
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 7 |
+| Hit Dice | 1 |
+| Move | 60' (20') |
+| Attacks | 1 |
+| Damage | 1-6 or weapon |
+| No. Appearing | 3-12 (3-30) |
+| Save As | Fighter: 1 |
+| Morale | 12 |
+| Treasure Type | Nil |
+| Alignment | Chaotic |
+
+Animated skeletons are undead creatures often found near graveyards, dungeons, or other deserted places. They are used as guards by the high level magic-user or cleric who animated them.
+
+Since they are undead, they can be "Turned" by a cleric, and are not affected by sleep or charm spells, nor any form of mind reading. Skeletons will always fight until killed.
+
+![Basic monster illustration: skeleton](assets/skeleton-plate.png)
+
+### Spectre*
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 2 |
+| Hit Dice | 6** |
+| Move | 150' (50') |
+| Flying | 300' (100') |
+| Attacks | 1 touch + special |
+| Damage | 1-8 + 2 level drain |
+| No. Appearing | 1-4 (1-8) |
+| Save As | Fighter: 6 |
+| Morale | 11 |
+| Treasure Type | E |
+| Alignment | Chaotic |
+
+The ghostly spectres are among the mightiest of the undead. They have no solid bodies and can only be hit by magic weapons; silver weapons have no effect. Like all undead, spectres are immune to sleep, charm, and hold spells.
+
+A hit by a spectre does 1-8 points of damage and drains 2 life energy levels. The result of this drain is that the creature touched loses 2 hit dice, levels of experience. Experience points will drop to the lowest amount needed for the new level, and all hit dice and abilities associated with the drained levels are lost.
+
+A character whose level is reduced to 0 is slain. A character slain by a spectre will rise the next night as a spectre under the control of the slayer.
+
+![Expert monster plate: spectre](assets/spectre-plate.png)
+
+### Vampire*
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 2 |
+| Hit Dice | 7-9** |
+| Move | 120' (40') |
+| Flying | 180' (60') |
+| Attacks | 1 touch + special |
+| Damage | 1-10 + energy drain |
+| No. Appearing | 1-4 (1-6) |
+| Save As | Fighter: 7-9 |
+| Morale | 11 |
+| Treasure Type | F |
+| Alignment | Chaotic |
+
+Vampires are the most feared of the undead, feeding on the blood of the living in order to survive. Vampires haunt ruins, tombs, crypts, and other places deserted by man. They are unaffected by sleep, charm, and hold spells. Vampires can only be hit with magic weapons.
+
+In human form, a vampire's touch will drain 2 life energy levels from the victim. A character slain by a vampire will return from death as a vampire in 3 days.
+
+A vampire may also attempt to charm any who gaze into its eyes. The victim must save vs. Spells to avoid the charm, with a -2 penalty on the roll. A charmed victim will be totally under the vampire's control, but cannot use spells or magic.
+
+A vampire in any form can regenerate 3 hit points per round, as soon as it is damaged. If a vampire is reduced to 0 hit points, it will not regenerate, but will become gaseous and flee to its coffin.
+
+In human form the vampire can summon 10-100 rats, 5-20 giant rats, 10-100 bats, 3-18 giant bats, or 3-18 wolves, 2-8 dire wolves, if these are in the area.
+
+Weaknesses of vampires: Vampires will not come within 10' of any strongly presented holy symbol, although they may move to attack the person holding the symbol from another direction. A strong odor of garlic repels them, save vs. Poison or cannot attack that round. Vampires cast no reflection and avoid mirrors.
+
+A vampire may take the form of a human, a dire wolf, a giant bat, or a gaseous cloud at will. This transformation requires 1 round. In dire wolf or giant bat form, the vampire will move, attack, and do damage according to the statistics for those creatures. The vampire's armor class, hit dice, morale, and saving throws remain unchanged. In gaseous form, a vampire can fly at the listed speed and has immunity to all weapon attacks. A vampire cannot attack while in gaseous form.
+
+Vampires cannot cross running water, either on foot or flying, except at bridges or while in their coffins. During the day, a vampire usually rests in its coffin, and failure to do so results in the loss of 2-12 hit points per day. These hit points will not be regenerated until the vampire has rested in its coffin for a full day.
+
+Destroying vampires: A vampire can be destroyed by driving a wooden stake through its heart or by immersion in running water for 1 turn. If a vampire is exposed to direct sunlight, the creature must make a saving throw vs. Death Ray each round or disintegrate. A continual light spell will not disintegrate a vampire, but will partially blind it, making its attacks suffer a -4 penalty to hit. If all of the vampire's coffins are blessed or destroyed, the vampire will weaken, taking damage as above, and will die when its hit points are reduced to 0. A vampire will always have several well-hidden coffins available.
+
+![Expert monster plate: vampire](assets/vampire-plate.png)
+
+### Wight*
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 3* |
+| Move | 90' (30') |
+| Attacks | 1 |
+| Damage | Energy drain |
+| No. Appearing | 1-6 (1-8) |
+| Save As | Fighter: 3 |
+| Morale | 12 |
+| Treasure Type | B |
+| Alignment | Chaotic |
+
+A wight is an undead spirit living in the body of a dead human or demi-human. It can only be hit by silvered or magical weapons. Wights are greatly feared, as they drain life energy when striking a victim. Each hit drains one level of experience or hit die. Example: a 3rd level fighter struck by a wight becomes a 2nd level fighter, keeping only enough experience points to be at the midpoint of 2nd level, and losing 1 hit die of hit points.
+
+Any person totally drained of life energy by a wight will become a wight in 1-4 days and will be under control of the wight who drained them.
+
+### Wraith*
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 3 |
+| Hit Dice | 4** |
+| Move | 120' (40') |
+| Flying | 240' (80') |
+| Attacks | 1 touch + special |
+| Damage | 1-6 + energy drain |
+| No. Appearing | 1-4 (1-6) |
+| Save As | Fighter: 4 |
+| Morale | 12 |
+| Treasure Type | E |
+| Alignment | Chaotic |
+
+A wraith is an undead monster that drains the life force of its victims. It has no physical body and looks like a pale, manlike, almost transparent figure composed of thick mist. It is immune to sleep, charm, and hold spells. A wraith can only be hit by silver or magical weapons, but silver weapons will only do half damage.
+
+When a wraith hits in melee, it will do normal damage and also drain one life energy level, see spectre. Wraiths dwell in deserted lands or in the dwellings of creatures they have slain or frightened away. Characters slain by a wraith will become wraiths under the control of the one that killed them after one day.
+
+### Zombie
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 8 |
+| Hit Dice | 2 |
+| Move | 120' (40') |
+| Attacks | 1 weapon |
+| Damage | 1-8 or weapon |
+| No. Appearing | 2-8 (4-24) |
+| Save As | Fighter: 1 |
+| Morale | 12 |
+| Treasure Type | Nil |
+| Alignment | Chaotic |
+
+Zombies are undead humans or demi-humans animated by some evil cleric or magic-user. As all undead, they may be turned by a cleric but are not affected by **sleep** or **charm spells** or any form of mind reading. They are often placed to guard treasures, since they make no noise until they attack.
+
+Zombies will always attack on sight, but can be destroyed by normal weapons. They are slow fighters and always strike last (no initiative roll needed).
 
 ::: twocolumn-pdf-end
 :::
