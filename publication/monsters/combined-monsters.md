@@ -180,31 +180,39 @@ Rock baboons are larger versions of normal baboons, and are more intelligent. Th
 
 ![Basic monster illustration: white ape](assets/rock-baboon-plate.png)
 
-::: pagebreak-pdf
-:::
-
-::: twocolumn-pdf-end
-:::
 
 ### Bat
 *Source:* `Basic`  
 
-| Stat          | Normal                | Giant       | Vampire         |
-| ------------- | --------------------- | ----------- |---------------- |
-| Armor Class   | 6                     | 6           | 6               |
-| Hit Dice      | 1 point (0 level man) | 2           | 2*              |
-| Move          | 9' (3')               | 30' (10')   | 30' (10')       |
-| Fly           | 120' (40')            | 180' (60')  | 180' (60')      |
-| Attacks       | Confusion             | 1 bite      | 1 bite          |
-| Damage        | Nil                   | 1-4         | 1-4 + Paralysis |
-| No. Appearing | 1-100 (1-100)         | 1-10 (1-10) | See Below       |
-| Save As       | Normal Man            | Fighter: 1  | Fighter 1       |
-| Morale        | 6                     | 8           | 9               |
-| Treasure      | Nil                   | Nil         | Nil             |
-| Alignment     | Neutral               | Neutral     | Neutral         |
+| Stat          | Normal                |
+| ------------- | --------------------- |
+| Armor Class   | 6                     |
+| Hit Dice      | 1 point (0 level man) |
+| Move          | 9' (3')               | 
+| Fly           | 120' (40')            | 
+| Attacks       | Confusion             | 
+| Damage        | Nil                   |
+| No. Appearing | 1-100 (1-100)         |
+| Save As       | Normal Man            |
+| Morale        | 6                     |
+| Treasure      | Nil                   | 
+| Alignment     | Neutral               |
 
-::: twocolumn-pdf-begin
-:::
+| Stat          | Giant       | Vampire         |
+| ------------- | ----------- |---------------- |
+| Armor Class   | 6           | 6               |
+| Hit Dice      | 2           | 2*              |
+| Move          | 30' (10')   | 30' (10')       |
+| Fly           | 180' (60')  | 180' (60')      |
+| Attacks       | 1 bite      | 1 bite          |
+| Damage        | 1-4         | 1-4 + Paralysis |
+| No. Appearing | 1-10 (1-10) | See Below       |
+| Save As       | Fighter: 1  | Fighter 1       |
+| Morale        | 8           | 9               |
+| Treasure      | Nil         | Nil             |
+| Alignment     | Neutral     | Neutral         |
+
+
 
 Bats are nocturnal flying mammals commonly found in caves, ruins, and abandoned buildings. They navigate by echolocation rather than sight, using high-pitched sounds and echoes to locate obstacles and prey.
 
@@ -1723,6 +1731,173 @@ Giant weasels have infravision to 30' and can track by scent. They prefer wounde
 ::: pagebreak-pdf
 :::
 
+## Lost World
+
+### Ape, White
+*Source:* `Basic`  
+
+| Stat          | Value      |
+| ------------- | ---------- |
+| Armor Class   | 6          |
+| Hit Dice      | 4          |
+| Move          | 120' (40') |
+| Attacks       | 2 claws    |
+| Damage        | 1-4/1-4    |
+| No. Appearing | 1-6 (2-8)  |
+| Save As       | Fighter: 2 |
+| Morale        | 7          |
+| Treasure Type | Nil        |
+| Alignment     | Neutral    |
+
+White apes are pale cave-dwelling apes that have lost their color after countless generations spent underground. They are nocturnal creatures, sleeping during the day and emerging at night to search for fruits, roots, fungi, and other edible plants.
+
+White apes are territorial and will usually threaten intruders approaching their lairs with loud shrieks, chest beating, and stone throwing. If ignored, they attack savagely. A white ape may throw one stone per round for `1d6` points of damage.
+
+Though not intelligent, white apes are cunning enough to defend their territory and young. Neanderthals and other primitive peoples sometimes capture and keep them as fierce guard beasts or pets.
+
+![Basic monster illustration: white ape](assets/white-ape-plate.png)
+
+### Mastodon
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 3 |
+| Hit Dice | 15 |
+| Move | 120' (40') |
+| Attacks | 2 tusks or 1 trample |
+| Damage | 2-12 / 2-12 or 4-32 |
+| No. Appearing | 0 (2-16) |
+| Save As | Fighter: 8 |
+| Morale | 8 |
+| Treasure Type | See below |
+| Alignment | Neutral |
+
+Mastodons look like hairy elephants with long tusks. In combat, a mastodon will charge, striking only with its tusks for double damage. In succeeding rounds, it will either strike with its tusks, 25%, or trample, 75%, if the opponent is man-sized or smaller. The mastodon gains a bonus of +4 on "to hit" rolls when trampling any creature man-sized or smaller.
+
+Ivory mastodon tusks are quite valuable, each tusk being worth 200-800 gp. They live in cold, icy tundras or "lost worlds."
+
+### Neanderthal (Caveman)
+*Source:* `Basic`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 8 |
+| Hit Dice | 2 |
+| Move | 120' (40') |
+| Attacks | 1 weapon |
+| Damage | 2-8 or weapon + 1 |
+| No. Appearing | 1-10 (10-40) |
+| Save As | Fighter: 2 |
+| Morale | 7 |
+| Treasure Type | C |
+| Alignment | Lawful |
+
+Neanderthals, also known as cavemen, are a demi-human species related to humans. They have squat bodies with large bones and powerful muscles. Their faces have apelike features, including large brows above the eyes. Neanderthals live in family groups in caves and caverns.
+
+Neanderthals usually attack with thrown spears and use stone axes, clubs, or stone hammers in hand-to-hand combat. They choose their leaders from a similar race that is much larger than the average Neanderthal. These leaders have 6 hit dice and are 10' tall. There will be 10-40 Neanderthals in the lair with 2 leaders, one male and one female. Neanderthals often hunt cave bears and keep white apes as pets. They are friendly toward dwarves and gnomes, but hate goblins and kobolds. They will attack ogres on sight. They are shy and will avoid humans, but are not usually hostile unless they are attacked.
+
+### Pterodactyl
+*Source:* `Expert`  
+
+| Stat | Pterodactyl | Pteranodon |
+| --- | --- | --- |
+| Armor Class | 7 | 6 |
+| Hit Dice | 1 | 5 |
+| Flying | 180' (60') | 240' (120') |
+| Attacks | 1 | 1 |
+| Damage | 1-3 | 1-12 |
+| No. Appearing | 0 (2-8) | 0 (1-4) |
+| Save As | Fighter: 1 | Fighter: 3 |
+| Morale | 7 | 8 |
+| Treasure Type | Nil | V |
+| Alignment | Neutral | Neutral |
+
+Pterodactyls are bat-like reptiles with wingspans of 8-10 feet. They hunt small and medium-sized animals, gliding slowly along air currents to spot their prey. If driven by great hunger they will attack human-sized creatures.
+
+Pteranodons are giant pterodactyls. They are more aggressive and will often attack humans or humanoids. These monsters can have a wingspan of up to 50 feet.
+
+Pteranodons and pterodactyls are only found in warm climates, usually in "lost world" areas.
+
+### Stegosaurus
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 3 |
+| Hit Dice | 11 |
+| Move | 60' (20') |
+| Attacks | tail or trample |
+| Damage | 2-16 or 2-16 |
+| No. Appearing | 0 (1-4) |
+| Save As | Fighter: 6 |
+| Morale | 7 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+These squat dinosaurs have hard upright plates of bone along their backs and 4 long spikes on the end of their tails. They will swing their tail at anything that menaces them. Stegosaurs are herbivores and prefer sub-tropical conditions. They are usually found only in "lost world" areas.
+
+### Titanothere
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 12 |
+| Move | 120' (40') |
+| Attacks | butt or trample |
+| Damage | 2-12 / 3-24 |
+| No. Appearing | 0 (1-6) |
+| Save As | Fighter: 6 |
+| Morale | 7 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+The prehistoric titanothere resembles a huge blunt-horned rhino, 12' tall at the shoulder. They are generally peaceful if left alone, preferring to graze grass and eat leaves off trees. In combat, titanotheres will butt or trample their opponents. Small herds of these creatures are found in the grasslands of "lost world" areas.
+
+### Triceratops
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 2 |
+| Hit Dice | 11 |
+| Move | 90' (30') |
+| Attacks | gore or trample |
+| Damage | 3-18 each |
+| No. Appearing | 0 (1-4) |
+| Save As | Fighter: 6 |
+| Morale | 8 |
+| Treasure Type | Nil |
+| Alignment | Neutral |
+
+A triceratops is a heavily muscled, four-legged dinosaur that stands about 12' high at the shoulder and is nearly 40' long. It has three horns protruding from the bony protective crest that covers its head. Although these creatures are plant eaters, they are aggressive and dangerous, usually attacking on sight. They charge for double damage on the first attack.
+
+Triceratops are found on the plains of "lost worlds."
+
+### Tyrannosaurus Rex
+*Source:* `Expert`  
+
+| Stat | Value |
+| --- | --- |
+| Armor Class | 3 |
+| Hit Dice | 20 |
+| Move | 120' (40') |
+| Attacks | 1 bite |
+| Damage | 6-36 |
+| No. Appearing | 0 (1) |
+| Save As | Fighter: 10 |
+| Morale | 11 |
+| Treasure Type | V x 3 |
+| Alignment | Neutral |
+
+The tyrannosaurus rex is one of the largest hunting dinosaurs, standing over 20' tall. Its great jaws are lined with sharp teeth and it moves erect on its hind legs. It will attack anything man-sized or larger, usually attacking the largest creature first.
+
+The tyrannosaurus rex is usually found only in "lost world" areas.
+
+::: pagebreak-pdf
+:::
+
 ## Lycanthropes
 
 Lycanthropes are humans who can transform into beasts, or in the case of wererats, beasts that can transform into humans. They normally change shape at night, and a full moon has a 90% chance of causing an involuntary transformation. Lycanthropes do not wear armor, as it interferes with their shapechanging abilities. All lycanthropes revert to human form when killed.  Horses and some other animals can smell lycanthropes and often react in fear.
@@ -2984,172 +3159,7 @@ Veterans are low-level fighters, usually returning from or going to a war. To de
 
 
 
-## Prehistoric
 
-### Ape, White
-*Source:* `Basic`  
-
-| Stat          | Value      |
-| ------------- | ---------- |
-| Armor Class   | 6          |
-| Hit Dice      | 4          |
-| Move          | 120' (40') |
-| Attacks       | 2 claws    |
-| Damage        | 1-4/1-4    |
-| No. Appearing | 1-6 (2-8)  |
-| Save As       | Fighter: 2 |
-| Morale        | 7          |
-| Treasure Type | Nil        |
-| Alignment     | Neutral    |
-
-White apes are pale cave-dwelling apes that have lost their color after countless generations spent underground. They are nocturnal creatures, sleeping during the day and emerging at night to search for fruits, roots, fungi, and other edible plants.
-
-White apes are territorial and will usually threaten intruders approaching their lairs with loud shrieks, chest beating, and stone throwing. If ignored, they attack savagely. A white ape may throw one stone per round for `1d6` points of damage.
-
-Though not intelligent, white apes are cunning enough to defend their territory and young. Neanderthals and other primitive peoples sometimes capture and keep them as fierce guard beasts or pets.
-
-![Basic monster illustration: white ape](assets/white-ape-plate.png)
-
-### Mastodon
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 3 |
-| Hit Dice | 15 |
-| Move | 120' (40') |
-| Attacks | 2 tusks or 1 trample |
-| Damage | 2-12 / 2-12 or 4-32 |
-| No. Appearing | 0 (2-16) |
-| Save As | Fighter: 8 |
-| Morale | 8 |
-| Treasure Type | See below |
-| Alignment | Neutral |
-
-Mastodons look like hairy elephants with long tusks. In combat, a mastodon will charge, striking only with its tusks for double damage. In succeeding rounds, it will either strike with its tusks, 25%, or trample, 75%, if the opponent is man-sized or smaller. The mastodon gains a bonus of +4 on "to hit" rolls when trampling any creature man-sized or smaller.
-
-Ivory mastodon tusks are quite valuable, each tusk being worth 200-800 gp. They live in cold, icy tundras or "lost worlds."
-
-### Neanderthal (Caveman)
-*Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 8 |
-| Hit Dice | 2 |
-| Move | 120' (40') |
-| Attacks | 1 weapon |
-| Damage | 2-8 or weapon + 1 |
-| No. Appearing | 1-10 (10-40) |
-| Save As | Fighter: 2 |
-| Morale | 7 |
-| Treasure Type | C |
-| Alignment | Lawful |
-
-Neanderthals, also known as cavemen, are a demi-human species related to humans. They have squat bodies with large bones and powerful muscles. Their faces have apelike features, including large brows above the eyes. Neanderthals live in family groups in caves and caverns.
-
-Neanderthals usually attack with thrown spears and use stone axes, clubs, or stone hammers in hand-to-hand combat. They choose their leaders from a similar race that is much larger than the average Neanderthal. These leaders have 6 hit dice and are 10' tall. There will be 10-40 Neanderthals in the lair with 2 leaders, one male and one female. Neanderthals often hunt cave bears and keep white apes as pets. They are friendly toward dwarves and gnomes, but hate goblins and kobolds. They will attack ogres on sight. They are shy and will avoid humans, but are not usually hostile unless they are attacked.
-
-### Pterodactyl
-*Source:* `Expert`  
-
-| Stat | Pterodactyl | Pteranodon |
-| --- | --- | --- |
-| Armor Class | 7 | 6 |
-| Hit Dice | 1 | 5 |
-| Flying | 180' (60') | 240' (120') |
-| Attacks | 1 | 1 |
-| Damage | 1-3 | 1-12 |
-| No. Appearing | 0 (2-8) | 0 (1-4) |
-| Save As | Fighter: 1 | Fighter: 3 |
-| Morale | 7 | 8 |
-| Treasure Type | Nil | V |
-| Alignment | Neutral | Neutral |
-
-Pterodactyls are bat-like reptiles with wingspans of 8-10 feet. They hunt small and medium-sized animals, gliding slowly along air currents to spot their prey. If driven by great hunger they will attack human-sized creatures.
-
-Pteranodons are giant pterodactyls. They are more aggressive and will often attack humans or humanoids. These monsters can have a wingspan of up to 50 feet.
-
-Pteranodons and pterodactyls are only found in warm climates, usually in "lost world" areas.
-
-### Stegosaurus
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 3 |
-| Hit Dice | 11 |
-| Move | 60' (20') |
-| Attacks | tail or trample |
-| Damage | 2-16 or 2-16 |
-| No. Appearing | 0 (1-4) |
-| Save As | Fighter: 6 |
-| Morale | 7 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-These squat dinosaurs have hard upright plates of bone along their backs and 4 long spikes on the end of their tails. They will swing their tail at anything that menaces them. Stegosaurs are herbivores and prefer sub-tropical conditions. They are usually found only in "lost world" areas.
-
-### Titanothere
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 12 |
-| Move | 120' (40') |
-| Attacks | butt or trample |
-| Damage | 2-12 / 3-24 |
-| No. Appearing | 0 (1-6) |
-| Save As | Fighter: 6 |
-| Morale | 7 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-The prehistoric titanothere resembles a huge blunt-horned rhino, 12' tall at the shoulder. They are generally peaceful if left alone, preferring to graze grass and eat leaves off trees. In combat, titanotheres will butt or trample their opponents. Small herds of these creatures are found in the grasslands of "lost world" areas.
-
-### Triceratops
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 2 |
-| Hit Dice | 11 |
-| Move | 90' (30') |
-| Attacks | gore or trample |
-| Damage | 3-18 each |
-| No. Appearing | 0 (1-4) |
-| Save As | Fighter: 6 |
-| Morale | 8 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
-
-A triceratops is a heavily muscled, four-legged dinosaur that stands about 12' high at the shoulder and is nearly 40' long. It has three horns protruding from the bony protective crest that covers its head. Although these creatures are plant eaters, they are aggressive and dangerous, usually attacking on sight. They charge for double damage on the first attack.
-
-Triceratops are found on the plains of "lost worlds."
-
-### Tyrannosaurus Rex
-*Source:* `Expert`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 3 |
-| Hit Dice | 20 |
-| Move | 120' (40') |
-| Attacks | 1 bite |
-| Damage | 6-36 |
-| No. Appearing | 0 (1) |
-| Save As | Fighter: 10 |
-| Morale | 11 |
-| Treasure Type | V x 3 |
-| Alignment | Neutral |
-
-The tyrannosaurus rex is one of the largest hunting dinosaurs, standing over 20' tall. Its great jaws are lined with sharp teeth and it moves erect on its hind legs. It will attack anything man-sized or larger, usually attacking the largest creature first.
-
-The tyrannosaurus rex is usually found only in "lost world" areas.
-
-::: pagebreak-pdf
-:::
 
 ## Sylvan or Faerie Creatures
 
