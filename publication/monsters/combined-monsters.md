@@ -159,26 +159,6 @@ An asterisk after Hit Dice matters for experience awards. (*) means the XP Bonus
 
 ## Animals
 
-### Ape, White
-*Source:* `Basic`  
-
-| Stat          | Value      |
-| ------------- | ---------- |
-| Armor Class   | 6          |
-| Hit Dice      | 4          |
-| Move          | 120' (40') |
-| Attacks       | 2 claws    |
-| Damage        | 1-4/1-4    |
-| No. Appearing | 1-6 (2-8)  |
-| Save As       | Fighter: 2 |
-| Morale        | 7          |
-| Treasure Type | Nil        |
-| Alignment     | Neutral    |
-
-White apes have lost their color due to many years of living in caves. They are nocturnal, sleeping in the day and looking for fruits and vegetables at night. If creatures approach their lair, the apes will threaten them. If their threats are ignored, they will attack. They may throw one stone per round for 1d6 points. White apes are not intelligent and sometimes are kept as pets by Neanderthals.
-
-![Basic monster illustration: white ape](assets/white-ape-plate.png)
-
 ### Baboon, Rock
 *Source:* `Basic`  
 
@@ -197,32 +177,47 @@ White apes have lost their color due to many years of living in caves. They are 
 
 Rock baboons are larger versions of normal baboons, and are more intelligent. They will eat anything, but prefer meat. They do not make tools or weapons but will pick up bones or branches to use as clubs. Rock baboons form packs, each led by a dominant male. They are ferocious and have vicious tempers. They do not speak a true language, but use simple screams to communicate warnings and needs.
 
+
+![Basic monster illustration: white ape](assets/rock-baboon-plate.png)
+
+::: pagebreak-pdf
+:::
+
+::: twocolumn-pdf-end
+:::
+
 ### Bat
 *Source:* `Basic`  
 
-| Stat | Normal | Giant |
-| --- | --- | --- |
-| Armor Class | 6 | 6 |
-| Hit Dice | 1 point (0 level man) | 2 |
-| Move | 9' (3') | 30' (10') |
-| Fly | 120' (40') | 180' (60') |
-| Attacks | Confusion | 1 bite |
-| Damage | Nil | 1-4 |
-| No. Appearing | 1-100 (1-100) | 1-10 (1-10) |
-| Save As | Normal Man | Fighter: 1 |
-| Morale | 6 | 8 |
-| Treasure | Nil | Nil |
-| Alignment | Neutral | Neutral |
+| Stat          | Normal                | Giant       | Vampire         |
+| ------------- | --------------------- | ----------- |---------------- |
+| Armor Class   | 6                     | 6           | 6               |
+| Hit Dice      | 1 point (0 level man) | 2           | 2*              |
+| Move          | 9' (3')               | 30' (10')   | 30' (10')       |
+| Fly           | 120' (40')            | 180' (60')  | 180' (60')      |
+| Attacks       | Confusion             | 1 bite      | 1 bite          |
+| Damage        | Nil                   | 1-4         | 1-4 + Paralysis |
+| No. Appearing | 1-100 (1-100)         | 1-10 (1-10) | See Below       |
+| Save As       | Normal Man            | Fighter: 1  | Fighter 1       |
+| Morale        | 6                     | 8           | 9               |
+| Treasure      | Nil                   | Nil         | Nil             |
+| Alignment     | Neutral               | Neutral     | Neutral         |
 
-Bats are nocturnal (sleeping during the day, moving about at night) flying mammals. They often live in caves or abandoned buildings.
+::: twocolumn-pdf-begin
+:::
 
-They don't use their eyes to see but find their way about by echolocation (a type of radar using hearing and echoes to locate objects).
+Bats are nocturnal flying mammals commonly found in caves, ruins, and abandoned buildings. They navigate by echolocation rather than sight, using high-pitched sounds and echoes to locate obstacles and prey.
 
-Since they don't use their eyes, spells or abilities which depend on sight to affect their victims will not work on bats. A silence 15' radius spell will effectively blind a bat.
+Because bats do not rely on vision, spells or abilities that affect sight will not work on them. However, a **silence 15' radius** spell effectively blinds a bat by preventing it from using echolocation.
 
-- *Normal Bats*: Normal bats will not attack men but may confuse them by flying around their heads. There must be at least ten bats to confuse one character. Characters who are confused will have a penalty of -2 on their "to hit" rolls and saving throws and cannot cast spells. Normal bats must check morale each round unless they are controlled or summoned.
+- **Normal Bats**: Normal bats do not attack humans, but large groups may confuse and distract their victims by swarming around their heads. At least ten bats are required to affect one character. Confused characters suffer a -2 penalty on attack rolls and saving throws and cannot cast spells. Normal bats must check morale each round unless magically controlled or summoned.
 
-- *Giant Bats*: Giant Bats are carnivorous (meat eaters) and may attack a party if extremely hungry. More dangerous, however, are giant vampire bats. Five percent (5%) of all giant bat encounters will be groups of giant vampire bats. The bite of a giant vampire bat does no extra damage but its victim must save vs. Paralysis or fall unconscious for 1-10 rounds. This will allow the vampire bat to feed without being disturbed, draining 1-4 points of blood per round. Any victim who dies from having his or her blood drained by a giant vampire bat must save vs. Spells or become an undead creature 24 hours after death. (If D&D EXPERT rules are used this may be a vampire.)
+- **Giant Bats**: Giant bats are carnivorous and may attack adventurers if hungry.
+
+- **Vampire Bats**: 5% of giant bat encounters are actually giant vampire bats. Their bite causes no additional damage, but the victim must save versus Paralysis or fall unconscious for `1-10` rounds. A vampire bat then feeds undisturbed, draining `1-4` hit points of blood each round. Any creature slain in this way must save versus Spells or rise as Vampire 24 hours later.
+
+::: twocolumn-pdf-end
+:::
 
 ### Bear
 *Source:* `Basic`  
@@ -240,15 +235,18 @@ Since they don't use their eyes, spells or abilities which depend on sight to af
 | Treasure Type | U | U | U | V |
 | Alignment | Neutral | Neutral | Neutral | Neutral |
 
-Bears are well known to all adventurers. If a bear (of any type) hits with both paws on the same victim in one round of combat, the bear has hugged its victim and will cause 2-16 (2d8) additional points of damage in the same round as the attack.
+::: twocolumn-pdf-begin
+:::
 
-- *Black bear*: Black bears have black fur and stand about 6' tall.  They are omnivorous (will eat almost anything), but prefer roots and berries. A black bear will not usually attack unless it is cornered and cannot escape. Adult black bears will fight to the death to protect their young. They have been known to raid camps, seeking food. They are especially fond of such treats as fresh fish and sweets.
+Bears are well known to all adventurers. If a bear (of any type) hits with both paws on the same victim in one round of combat, the bear has hugged its victim and will cause 2-16 (`2d8`) additional points of damage in the same round as the attack.
 
-- *Grizzly bear*: Grizzly bears have silver-tipped brown or reddish brown fur, and stand about 9' tall. They are fond of meat and are much more likely to attack than black bears. Grizzlies are found in most climates, but are most common in mountains and forests.
+- **Black bear**: Black bears have black fur and stand about 6' tall.  They are omnivorous (will eat almost anything), but prefer roots and berries. A black bear will not usually attack unless it is cornered and cannot escape. Adult black bears will fight to the death to protect their young. They have been known to raid camps, seeking food. They are especially fond of such treats as fresh fish and sweets.
 
-- *Polar bear*: Polar bears have white fur and stand about 11' tall.  They live in cold regions. They usually eat fish, but are as likely to attack as grizzly bears. These huge bears are good swimmers, and their wide feet allow them to run across snow without sinking.
+- **Grizzly bear**: Grizzly bears have silver-tipped brown or reddish brown fur, and stand about 9' tall. They are fond of meat and are much more likely to attack than black bears. Grizzlies are found in most climates, but are most common in mountains and forests.
 
-- *Cave bear*: A cave bear is a type of giant grizzly bear which lives in caves and "lost world" areas. It stands about 15' tall and is the most ferocious of all the bears. Though omnivorous, a cave bear prefers meat, and enjoys human flesh. Cave bears have bad eyesight but a good sense of smell. If hungry, they will follow a track of blood until they have eaten.
+- **Polar bear**: Polar bears have white fur and stand about 11' tall.  They live in cold regions. They usually eat fish, but are as likely to attack as grizzly bears. These huge bears are good swimmers, and their wide feet allow them to run across snow without sinking.
+
+- **Cave bear**: A cave bear is a type of giant grizzly bear which lives in caves and "lost world" areas. It stands about 15' tall and is the most ferocious of all the bears. Though omnivorous, a cave bear prefers meat, and enjoys human flesh. Cave bears have bad eyesight but a good sense of smell. If hungry, they will follow a track of blood until they have eaten.
 
 ![Basic monster illustration: bear](assets/bear-plate.png)
 
@@ -2680,41 +2678,41 @@ It does not actually attack, but if it is touched by a torch, for example, the t
 
 ### Acolyte
 *Source:* `Basic`  
-
-| Stat | Value |
-| --- | --- |
-| Armor Class | 2 |
-| Hit Dice | 1 |
-| Move | 60' (20') |
-| Attacks | 1 mace |
-| Damage | 1-6 |
+ 
+| Stat          | Value      |
+| ------------- | ---------- |
+| Armor Class   | 2          |
+| Hit Dice      | 1          |
+| Move          | 60' (20')  |
+| Attacks       | 1 mace     |
+| Damage        | 1-6        |
 | No. Appearing | 1-8 (1-20) |
-| Save As | Cleric: 1 |
-| Morale | 7 |
-| Treasure Type | U |
-| Alignment | Any |
+| Save As       | Cleric: 1  |
+| Morale        | 8          |
+| Treasure Type | U          |
+| Alignment     | Any        |  
 
-Acolytes are 1st level NPC clerics on a pilgrimage to or from a holy (or unholy) shrine — or perhaps merely seeking adventure. All of the clerics in the party will be of the same alignment, but the entire party has an equal chance to be Lawful, Neutral, or Chaotic. The acolytes do not know any spells. If there are 4 or more encountered they will be led by either a 2nd, 3rd, 4th, or 5th level cleric (roll 1d10: 1-4 = 2nd level leader, 5-7 = 3rd level, 8-9 = 4th level, 10 = 5th level). The DM may choose any clerica1 spells for the leader, or they may be rolled at random.
+Acolytes are 1^st^ level NPC clerics on a pilgrimage to or from a holy (or unholy) shrine — or perhaps merely seeking adventure. All of the clerics in the party will be of the same alignment, but the entire party has an equal chance to be Lawful, Neutral, or Chaotic. The acolytes do not know any spells. If there are 4 or more encountered they will be led by either a 2^nd^, 3^rd^, 4^th^, or 5^th^ level cleric (roll 1d10: 1-4 = 2^nd^ level leader, 5-7 = 3^rd^ level, 8-9 = 4^th^ level, 10 = 5^th^ level). The DM may choose any clerica1 spells for the leader, or they may be rolled at random.
 
 ### Bandit
 *Source:* `Basic`  
 
-| Stat | Value |
-| --- | --- |
-| Armor Class | 6 |
-| Hit Dice | 1 |
-| Move | 120' (40') |
-| Attacks | 1 weapon |
-| Damage | 1-6 or weapon |
-| No. Appearing | 1-8 (3-30) |
-| Save As | Thief: 1 |
-| Morale | 8 |
-| Treasure Type | U (A) |
-| Alignment | Chaotic or Neutral |
+| Stat          | Value              |
+| ------------- | ------------------ |
+| Armor Class   | 6                  |
+| Hit Dice      | 1                  |
+| Move          | 120' (40')         |
+| Attacks       | 1 weapon           |
+| Damage        | 1-6 or weapon      |
+| No. Appearing | 1-8 (3-30)         |
+| Save As       | Thief: 1           |
+| Morale        | 6                  |
+| Treasure Type | U (A)              |
+| Alignment     | Chaotic or Neutral |
 
 Bandits are NPC thieves who have joined together for the purpose of robbing others. Bandits will act as normal humans in order to surprise their intended victims. Treasure Type (A) is only found when bandits are encountered in the wilderness in their lair.
 
-Bandits may have an NPC leader of any class, fighter, magic-user, thief, or cleric, who is of an experience level higher than the bandits.
+Bandits may have an NPC leader of any class, usually a fighter, magic-user, or thief, of a higher level than the bandits.
 
 ![Basic NPC illustration: bandit](assets/bandit-plate.png)
 
@@ -2728,13 +2726,17 @@ Bandits may have an NPC leader of any class, fighter, magic-user, thief, or cler
 | Move | 120' (40') |
 | Attacks | 1 weapon |
 | Damage | 1-8 or weapon |
-| No. Appearing | 1-6(3-30) |
+| No. Appearing | 1-6 (3-30) |
 | Save As | Fighter: 1 |
 | Morale | See below |
 | Treasure Type | P (B) |
 | Alignment | Neutral |
 
-Berserkers are simply fighters who go mad in battle. Their reactions are determined normally, but once a battle starts they will always fight to the death — sometimes attacking their comrades in their blind rage. When fighting humans or human-like creatures, such as kobolds, goblins or orcs, they add + 2 to their "to hit" rolls due to this ferocity. They never retreat, surrender, or take prisoners. Treasure Type (B) is only found in the wilderness.
+Berserkers are fighters driven mad by battle fury. Their reactions are determined normally, but once combat begins they will fight to the death, sometimes even attacking their own comrades in blind rage.
+
+When fighting humans or human-like creatures such as kobolds, goblins, or orcs, berserkers gain a `+2` bonus on attack rolls due to their ferocity. They never retreat, surrender, or take prisoners.
+
+Treasure Type B is only found in the wilderness.
 
 ### Dwarf
 *Source:* `Basic`  
@@ -2983,6 +2985,30 @@ Veterans are low-level fighters, usually returning from or going to a war. To de
 
 
 ## Prehistoric
+
+### Ape, White
+*Source:* `Basic`  
+
+| Stat          | Value      |
+| ------------- | ---------- |
+| Armor Class   | 6          |
+| Hit Dice      | 4          |
+| Move          | 120' (40') |
+| Attacks       | 2 claws    |
+| Damage        | 1-4/1-4    |
+| No. Appearing | 1-6 (2-8)  |
+| Save As       | Fighter: 2 |
+| Morale        | 7          |
+| Treasure Type | Nil        |
+| Alignment     | Neutral    |
+
+White apes are pale cave-dwelling apes that have lost their color after countless generations spent underground. They are nocturnal creatures, sleeping during the day and emerging at night to search for fruits, roots, fungi, and other edible plants.
+
+White apes are territorial and will usually threaten intruders approaching their lairs with loud shrieks, chest beating, and stone throwing. If ignored, they attack savagely. A white ape may throw one stone per round for `1d6` points of damage.
+
+Though not intelligent, white apes are cunning enough to defend their territory and young. Neanderthals and other primitive peoples sometimes capture and keep them as fierce guard beasts or pets.
+
+![Basic monster illustration: white ape](assets/white-ape-plate.png)
 
 ### Mastodon
 *Source:* `Expert`  
