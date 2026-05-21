@@ -159,6 +159,8 @@ An asterisk after Hit Dice matters for experience awards. (*) means the XP Bonus
 
 ## Animals
 
+The creatures in this section are “animals” for the purposes of magic such as animal summoning or invisibility to animals.  Some kindly DMs may permit other creatures, such as dinosaurs or giant invertebrates, to count as “animals” in terms of such magic—but this is strictly at the DM’s option.
+
 ### Baboon, Rock
 *Source:* `Basic`  
 
@@ -175,10 +177,11 @@ An asterisk after Hit Dice matters for experience awards. (*) means the XP Bonus
 | Treasure Type | U |
 | Alignment | Neutral |
 
-Rock baboons are larger versions of normal baboons, and are more intelligent. They will eat anything, but prefer meat. They do not make tools or weapons but will pick up bones or branches to use as clubs. Rock baboons form packs, each led by a dominant male. They are ferocious and have vicious tempers. They do not speak a true language, but use simple screams to communicate warnings and needs.
+Rock baboons are larger versions of normal baboons, and are more intelligent. They will eat anything, but prefer meat. They do not make tools or weapons but will pick up bones or branches to use as clubs. Rock baboons form packs, each led by a dominant male. They are ferocious and have vicious tempers.
 
+They do not speak a true language, but use simple screams to communicate warnings and needs.
 
-![Basic monster illustration: white ape](assets/rock-baboon-plate.png)
+![Basic monster illustration: rock baboon](assets/rock-baboon-plate.png)
 
 
 ### Bat
@@ -212,17 +215,15 @@ Rock baboons are larger versions of normal baboons, and are more intelligent. Th
 | Treasure      | Nil         | Nil             |
 | Alignment     | Neutral     | Neutral         |
 
+Bats are nocturnal flying mammals commonly found in caves, ruins, and abandoned buildings.  They navigate by echolocation rather than sight, using high-pitched sounds and echoes to locate their surroundings.
 
+Because bats do not rely on vision, spells or abilities that affect sight will not work on them. However, a **silence 15’** radius spell effectively blinds a bat by preventing it from using echolocation.
 
-Bats are nocturnal flying mammals commonly found in caves, ruins, and abandoned buildings. They navigate by echolocation rather than sight, using high-pitched sounds and echoes to locate obstacles and prey.
-
-Because bats do not rely on vision, spells or abilities that affect sight will not work on them. However, a **silence 15' radius** spell effectively blinds a bat by preventing it from using echolocation.
-
-- **Normal Bats**: Normal bats do not attack humans, but large groups may confuse and distract their victims by swarming around their heads. At least ten bats are required to affect one character. Confused characters suffer a -2 penalty on attack rolls and saving throws and cannot cast spells. Normal bats must check morale each round unless magically controlled or summoned.
+- **Normal Bats**: Normal bats do not attack humans, but large groups may confuse victims by swarming around their heads. At least ten bats are required to affect one character. Confused characters suffer a -2 penalty on attack rolls and saving throws and cannot cast spells.
 
 - **Giant Bats**: Giant bats are carnivorous and may attack adventurers if hungry.
 
-- **Vampire Bats**: 5% of giant bat encounters are actually giant vampire bats. Their bite causes no additional damage, but the victim must save versus Paralysis or fall unconscious for `1-10` rounds. A vampire bat then feeds undisturbed, draining `1-4` hit points of blood each round. Any creature slain in this way must save versus Spells or rise as Vampire 24 hours later.
+- **Vampire Bats**: 5% of giant bat encounters are actually giant vampire bats. Their bite causes no extra damage, but the victim must save versus Paralysis or fall unconscious for 1-10 rounds. A vampire bat then drains `1-4` hit points of blood each round. Any creature slain in this way must save versus Spells or rise as a vampire 24 hours later.
 
 ::: twocolumn-pdf-end
 :::
@@ -230,17 +231,17 @@ Because bats do not rely on vision, spells or abilities that affect sight will n
 ### Bear
 *Source:* `Basic`  
 
-| Stat | Black | Grizzly | Polar | Cave |
+| Stat | Black | Grizzly | Polar | Dire |
 | --- | --- | --- | --- | --- |
-| Armor Class | 6 | 6 | 6 | 5 |
-| Hit Dice | 4 | 5 | 6 | 7 |
+| Armor Class | 6 | 6 | 6 | 6 |
+| Hit Dice | 4 | 5 | 6 | 6+2 |
 | Move | 120' (40') | 120' (40') | 120' (40') | 120' (40') |
 | Attacks | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite |
-| Damage | 1-3 / 1-3 / 1-6 | 1-4 / 1-4 / 1-8 | 1-6 / 1-6 / 1-10 | 1-8 / 1-8 / 2-12 |
+| Damage | 1-3 / 1-3 / 1-6 | 1-4 / 1-4 / 1-8 | 1-6 / 1-6 / 1-10 | 1-8 / 1-8 / 1-10 |
 | No. Appearing | 1-4 (1-4) | 1-4 (1-4) | 1 (1-2) | 1-2 (1-2) |
 | Save As | Fighter: 2 | Fighter: 2 | Fighter: 3 | Fighter: 3 |
 | Morale | 7 | 8 | 8 | 9 |
-| Treasure Type | U | U | U | V |
+| Treasure Type | U | U | U | U |
 | Alignment | Neutral | Neutral | Neutral | Neutral |
 
 ::: twocolumn-pdf-begin
@@ -248,13 +249,13 @@ Because bats do not rely on vision, spells or abilities that affect sight will n
 
 Bears are well known to all adventurers. If a bear (of any type) hits with both paws on the same victim in one round of combat, the bear has hugged its victim and will cause 2-16 (`2d8`) additional points of damage in the same round as the attack.
 
-- **Black bear**: Black bears have black fur and stand about 6' tall.  They are omnivorous (will eat almost anything), but prefer roots and berries. A black bear will not usually attack unless it is cornered and cannot escape. Adult black bears will fight to the death to protect their young. They have been known to raid camps, seeking food. They are especially fond of such treats as fresh fish and sweets.
+- **Black bear**: have black fur and stand about 6' tall.  They are omnivorous (will eat almost anything), but prefer roots and berries. A black bear will not usually attack unless it is cornered and cannot escape. Adult black bears will fight to the death to protect their young. They have been known to raid camps, seeking food. They are especially fond of such treats as fresh fish and sweets.
 
-- **Grizzly bear**: Grizzly bears have silver-tipped brown or reddish brown fur, and stand about 9' tall. They are fond of meat and are much more likely to attack than black bears. Grizzlies are found in most climates, but are most common in mountains and forests.
+- **Grizzly bear**: have silver-tipped brown or reddish brown fur, and stand about 9' tall. They are fond of meat and are much more likely to attack than black bears. Grizzlies are found in most climates, but are most common in mountains and forests.
 
-- **Polar bear**: Polar bears have white fur and stand about 11' tall.  They live in cold regions. They usually eat fish, but are as likely to attack as grizzly bears. These huge bears are good swimmers, and their wide feet allow them to run across snow without sinking.
+- **Polar bear**: have white fur and stand about 11' tall.  They live in cold regions. They usually eat fish, but are as likely to attack as grizzly bears. These huge bears are good swimmers, and their wide feet allow them to run across snow without sinking.
 
-- **Cave bear**: A cave bear is a type of giant grizzly bear which lives in caves and "lost world" areas. It stands about 15' tall and is the most ferocious of all the bears. Though omnivorous, a cave bear prefers meat, and enjoys human flesh. Cave bears have bad eyesight but a good sense of smell. If hungry, they will follow a track of blood until they have eaten.
+- **Dire bear**: are massive, broad-shouldered predators found in deep forests, remote mountains, and other untamed wilderness. Standing nearly 14' tall when rearing, they are larger and more aggressive than grizzlies, with thick dark fur, huge claws, and a savage temper. Dire bears are relentless hunters and will pursue wounded prey for hours. Unlike most bears, they often attack humans on sight and are feared even by giants and other large predators.
 
 ![Basic monster illustration: bear](assets/bear-plate.png)
 
@@ -1501,73 +1502,83 @@ Trolls are strong and rend their opponents with talons and sharp teeth. A troll 
 
 ## Insects
 
+Insects and similar creeping creatures are common in dungeons, ruins, and wilderness areas. Though many are merely oversized versions of normal vermin, others are strange and deadly monsters driven by hunger, instinct, or hive behavior.
+
 ### Ant, Driver
 *Source:* `Basic`  
 
-| Stat | Value |
-| --- | --- |
-| Armor Class | 3 |
-| Hit Dice | 4* |
-| Move | 180' (60') |
-| Attacks | 1 |
-| Damage | 2-12 |
-| No. Appearing | 2-8 (4-24) |
-| Save As | Fighter: 2 |
-| Morale | 7 and see below |
-| Treasure Type | U or see below |
-| Alignment | Neutral |
+| Stat          | Value           |
+| ------------- | --------------- |
+| Armor Class   | 3               |
+| Hit Dice      | 4*              |
+| Move          | 180' (60')      |
+| Attacks       | 1               |
+| Damage        | 2-12            |
+| No. Appearing | 2-8 (4-24)      |
+| Save As       | Fighter: 2      |
+| Morale        | 7 and see below |
+| Treasure Type | U or see below  |
+| Alignment     | Neutral         |
 
-Driver ants are giant black ants about 6' long. They are omnivorous. When hungry, they will devour anything edible in their path.
+Driver ants are giant black ants about 6' long. They are ravenous omnivores that will devour nearly anything edible in their path.
 
-Once engaged in combat, they will fight to the death, even trying to cross flames to reach their opponents. The nest-lair will always be guarded by 4-24 driver ants. There are legends of driver ants mining gold, and there is a 30% chance that a driver ant lair will contain 1-10 thousand gp worth of nuggets.
+Once engaged in combat, driver ants fight to the death and may even cross flames to reach their prey. Their nest-lairs are always guarded by `4d6` driver ants.
+
+Deep within the nest is a massive egg-laying queen attended by countless workers and larvae. A colony will defend its queen with fanatical fury, and the destruction of the queen usually causes the colony to scatter within a few days.
+
+Legends claim driver ants sometimes mine and collect gold. There is a 30% chance a driver ant lair contains `1d10` thousand gp worth of gold nuggets.
 
 ![Basic monster illustration: driver ant](assets/driver-ant-plate.png)
 
 ### Bee, Killer
 *Source:* `Basic`  
 
-| Stat | Value |
-| --- | --- |
-| Armor Class | — |
-| Hit Dice | 1/2* (1-4 hp) |
-| Move | 150' (50') |
-| Attacks | 1 sting |
-| Damage | 1-3 + special |
-| No. Appearing | 1-6 (5-30) |
-| Save As | Fighter: 1 |
-| Morale | 9 |
-| Treasure Type | See below |
-| Alignment | Neutral |
+| Stat          | Value         |
+| ------------- | ------------- |
+| Armor Class   | 7             |
+| Hit Dice      | 1/2* (1-4 hp) |
+| Move          | 150' (50')    |
+| Attacks       | 1 sting       |
+| Damage        | 1-3 + special |
+| No. Appearing | 1-6 (5-30)    |
+| Save As       | Fighter: 1    |
+| Morale        | 9             |
+| Treasure Type | See below     |
+| Alignment     | Neutral       |
 
-Killer Bees are 1' long giant bees with a very vicious temper. Killer bees almost always attack on sight, and will automatically attack anyone within 30' of their underground hive. When a killer bee successfully stings (attacks), it dies, but the creature stung must save vs. Poison or die. The stinger will continue to work its way into the victim, doing an automatic 1 point of damage per round, unless 1 round is spent pulling it out.
+Killer bees are giant bees about 1' long with an extremely vicious temper. They almost always attack on sight and automatically attack any creature approaching within 30' of their underground hive.
 
-A special kind of honey may be found inside the beehive. If eaten, it acts as one half-strength potion of healing, curing 1-4 (1d4) points of damage (this will require all the honey in the hive — about 2 pints). There will always be at least 10 killer bees with their queen in or near the hive. At least 4 of these bees will have 1 hit die each. The queen bee will have 2 hit dice and can sting repeatedly without dying.
+When a killer bee successfully stings, it dies, but the victim must save versus Poison or die. The stinger continues working deeper into the wound, causing 1 point of automatic damage each round until removed, which requires one full round.
+
+A hive always contains at least 10 killer bees along with their queen. At least 4 of the bees have 1 Hit Die each. The queen has 2 Hit Dice and may sting repeatedly without dying. The hive is fiercely defended, and nearby bees immediately attack any threat to their queen.
+
+Killer bee hives contain a rare golden honey prized by alchemists and healers. Thick, fragrant, and faintly warm to the touch, this potent substance heals `1d4` hit points if all the honey from a hive (about 2 pints) is consumed, functioning as a half-strength **potion of healing**.
+
+Driver ants prize killer bee honey and will attack hives in enormous swarms. Entire forests have been stripped bare during these savage insect wars, leaving behind mounds of dead ants, shattered combs, and rivers of sticky golden honey
 
 ![Basic monster illustration: killer bee](assets/killer-bee-plate.png)
 
 ### Beetle, Giant
 *Source:* `Basic`  
 
-| Stat | Fire | Oil | Tiger |
-| --- | --- | --- | --- |
-| Armor Class | 4 | 4 | 3 |
-| Hit Dice | 1 + 2 | 2* | 3 + 1 |
-| Move | 120' (40') | 120' (40') | 150' (50') |
-| Attacks | 1 bite | 1 bite + special | 1 bite |
-| Damage | 2-8 | 1-6 + special | 2-12 |
-| No. Appearing | 1-8 (2-12) | 1-8 (2-12) | 1-6 (2-8) |
-| Save As | Fighter: 1 | Fighter: 1 | Fighter: 1 |
-| Morale | 7 | 8 | 9 |
-| Treasure Type | Nil | Nil | U |
-| Alignment | Neutral | Neutral | Neutral |
+| Stat          | Fire       | Oil              | Tiger      |
+| ------------- | ---------- | ---------------- | ---------- |
+| Armor Class   | 4          | 4                | 3          |
+| Hit Dice      | 1 + 2      | 2*               | 3 + 1      |
+| Move          | 120' (40') | 120' (40')       | 150' (50') |
+| Attacks       | 1 bite     | 1 bite + special | 1 bite     |
+| Damage        | 2-8        | 1-6 + special    | 2-12       |
+| No. Appearing | 1-8 (2-12) | 1-8 (2-12)       | 1-6 (2-8)  |
+| Save As       | Fighter: 1 | Fighter: 1       | Fighter: 1 |
+| Morale        | 7          | 8                | 9          |
+| Treasure Type | Nil        | Nil              | U          |
+| Alignment     | Neutral    | Neutral          | Neutral    |
 
-- *Fire Beetle*: Fire beetles are 21/2' long creatures often found below ground. They are nocturnal, but may be active underground at any time. A fire beetle has two glowing glands above its eyes and one near the back of its abdomen. These glands give off light in a 10' radius, and will continue to glow for 1-6 days after they are removed.
+- **Fire Beetle**: Fire beetles are 2 1/2' long creatures often found below ground. They are nocturnal, but may be active underground at any time. A fire beetle has two glowing glands above its eyes and one near the back of its abdomen. These glands give off light in a 10' radius, and will continue to glow for 1-6 days after they are removed.
 
-- *Oil Beetle*: Oil beetles are 3' long giant beetles that sometimes burrow underground. When attacked, they will squirt an oily fluid at one of their attackers (a "to hit" roll is needed; the range is 5'). If the oil hits it will raise painful blisters, causing the victim to fight with a penalty of -2 on his or her "to hit" rolls until a cure light wounds spell is used or until 24 hours have passed. If the spell is used to cure blisters, it will not also cure points of damage. Oil beetles can also attack with their mandibles (horned jaws).
+- **Oil Beetle**: Oil beetles are 3' long giant beetles that sometimes burrow underground. When attacked, they will squirt an oily fluid at one of their attackers (a "to hit" roll is needed; the range is 5'). If the oil hits it will raise painful blisters, causing the victim to fight with a penalty of -2 on his or her "to hit" rolls until a **cure light wounds** spell is used or until 24 hours have passed. If the spell is used to cure blisters, it will not also cure points of damage. Oil beetles can also attack with their mandibles (horned jaws).
 
-- *Tiger Beetle*: Tiger beetles are 4' long giant beetles with a striped carapace (a shell-like covering) which looks like a tiger's skin. They are carnivorous (meat-eaters) and usually prey on robber flies.
-
-They have been known to attack and eat humans, crushing them with their powerful mandibles.
+- **Tiger Beetle**: Tiger beetles are 4' long giant beetles with a striped carapace (a shell-like covering) which looks like a tiger's skin. They are carnivorous (meat-eaters) and usually prey on robber flies.  They have been known to attack and eat humans, crushing them with their powerful mandibles.
 
 ![Basic monster illustration: giant beetle](assets/giant-beetle-plate.png)
 
@@ -1587,7 +1598,7 @@ They have been known to attack and eat humans, crushing them with their powerful
 | Treasure Type | Nil |
 | Alignment | Neutral |
 
-Giant centipedes are insects with 1' long bodies and many legs they like to live in damp, dark places. Their bite does no damage, but the victim must save vs. Poison or become violently ill for 10 days. Characters who do not save move at 1/2 speed and will not e able to perform any other physical action.
+Giant centipedes are insects with 1' long bodies and many legs they like to live in damp, dark places. Their bite does no damage, but the victim must save vs. Poison or become violently ill for 10 days. Characters who do not save move at 1/2 speed and will not be able to perform any other physical action.
 
 ### Fly, Robber
 *Source:* `Basic`  
@@ -1756,6 +1767,28 @@ White apes are territorial and will usually threaten intruders approaching their
 Though not intelligent, white apes are cunning enough to defend their territory and young. Neanderthals and other primitive peoples sometimes capture and keep them as fierce guard beasts or pets.
 
 ![Basic monster illustration: white ape](assets/white-ape-plate.png)
+
+### Bear, Cave
+*Source:* `Basic`
+
+| Stat | Cave Bear |
+| --- | --- |
+| Armor Class | 5 |
+| Hit Dice | 7 |
+| Move | 120' (40') |
+| Attacks | 2 claws / 1 bite |
+| Damage | 1-8 / 1-8 / 2-12 |
+| No. Appearing | 1-2 (1-2) |
+| Save As | Fighter: 3 |
+| Morale | 9 |
+| Treasure Type | V |
+| Alignment | Neutral |
+
+Cave bears are gigantic prehistoric bears found in deep caverns, isolated valleys, and lost world regions untouched by civilization. Standing nearly 15' tall when rearing, they are among the largest and most dangerous natural predators known. Their shaggy fur ranges from dark brown to pale gray, and their enormous claws can tear through bone and wood with ease.
+
+Though omnivorous, cave bears strongly prefer meat and are infamous for developing a taste for human flesh. Their eyesight is poor, but their sense of smell is extraordinarily keen, allowing them to follow blood trails for miles through darkness or wilderness. Cave bears are notoriously ill-tempered and will often continue fighting long after suffering terrible wounds.
+
+If a cave bear hits the same target with both claw attacks in one combat round, it also hugs its victim for an additional `2-16` (`2d8`) points of damage.
 
 ### Mastodon
 *Source:* `Expert`  
