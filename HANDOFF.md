@@ -1,8 +1,50 @@
 # B/X Handoff
 
-Date: `2026-05-13`
+Date: `2026-05-22`
 
 ## Latest Session Update
+
+Follow-up update on `2026-05-22`:
+
+- Relaxed the custom compact stat-block shorthand in both book pipelines so rows no longer require trailing `:` on label cells.
+- The shorthand now accepts any pipe-delimited row with exactly four non-empty cells, for example:
+  - `| Armor Class | 2 | No. Appearing | 1d8 (1d20) |`
+  - `| Hit Dice | 1 | Save As | Cleric 1 |`
+- Updated the shorthand handling in:
+  - [publication/monsters/monster-layout.lua](/home/ryandavidhartman/dev/source/b_x/publication/monsters/monster-layout.lua)
+  - [publication/spells/spell-layout.lua](/home/ryandavidhartman/dev/source/b_x/publication/spells/spell-layout.lua)
+- Updated [README.md](/home/ryandavidhartman/dev/source/b_x/README.md) to document that label-cell trailing colons are optional.
+- Verified the relaxed shorthand with scratch Pandoc runs through:
+  - monster HTML
+  - monster LaTeX/PDF path
+  - spell HTML
+- Reduced the monster PDF body font size by one step by adding `-V fontsize=9pt` to the monster build in [publication/monsters/build.sh](/home/ryandavidhartman/dev/source/b_x/publication/monsters/build.sh).
+- Rebuilt the monster book after the parser and font-size changes:
+  - [publication/monsters/combined-monsters.pdf](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters.pdf)
+
+- Earlier on `2026-05-22`:
+- Added support for a custom compact stat-block Markdown shorthand in both book pipelines. Example:
+  - `| Armor Class: | 2 | No. Appearing: | 1-8 (1-20) |`
+  - `| Hit Dice: | 1 | Save As: | Cleric: 1 |`
+- This shorthand is implemented in:
+  - [publication/monsters/monster-layout.lua](/home/ryandavidhartman/dev/source/b_x/publication/monsters/monster-layout.lua)
+  - [publication/spells/spell-layout.lua](/home/ryandavidhartman/dev/source/b_x/publication/spells/spell-layout.lua)
+- It is recognized from pipe-delimited `LineBlock` rows without requiring a normal Markdown table header/separator row.
+- The shorthand renders as a four-column stat table in both HTML and PDF.
+- HTML styling for the custom stat table was added in:
+  - [publication/monsters/combined-monsters.css](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters.css)
+  - [publication/spells/combined-spells.css](/home/ryandavidhartman/dev/source/b_x/publication/spells/combined-spells.css)
+- PDF rendering for the custom stat table now uses `\footnotesize`.
+- The custom stat table no longer draws horizontal separator lines between each row in either HTML or PDF.
+- Added `tabularx` to the spell PDF header so the spell pipeline can render the custom stat table:
+  - [publication/spells/combined-spells-header.tex](/home/ryandavidhartman/dev/source/b_x/publication/spells/combined-spells-header.tex)
+- Documented the shorthand in [README.md](/home/ryandavidhartman/dev/source/b_x/README.md).
+- Verified the shorthand with scratch Pandoc runs in monster/spell HTML and LaTeX/PDF paths.
+- Rebuilt both books after these changes:
+  - [publication/monsters/combined-monsters.html](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters.html)
+  - [publication/monsters/combined-monsters.pdf](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters.pdf)
+  - [publication/spells/combined-spells.html](/home/ryandavidhartman/dev/source/b_x/publication/spells/combined-spells.html)
+  - [publication/spells/combined-spells.pdf](/home/ryandavidhartman/dev/source/b_x/publication/spells/combined-spells.pdf)
 
 Follow-up update on `2026-05-16`:
 
@@ -161,6 +203,10 @@ Current output behavior:
 - HTML stays single-column for both books.
 - Monster HTML now uses a 3-level TOC with expandable section groups for the monster book.
 - Monster PDF uses a two-column layout for marked body sections, with selected wide comparison-table entries breaking out to full page width.
+- Both books now support a custom compact stat-block shorthand made of five-ish pipe-delimited lines with four cells per row.
+- That shorthand now accepts label cells with or without trailing `:`.
+- That custom stat-block shorthand renders as a dedicated four-column stat table in both HTML and PDF.
+- The PDF version of the custom stat block uses a slightly smaller font and has no horizontal row separators.
 - Both books now support PDF-only Markdown break markers:
   - `::: pagebreak-pdf`
   - `::: columnbreak-pdf`
@@ -170,6 +216,7 @@ Current output behavior:
   - `::: twocolumn-pdf-begin`
   - `::: twocolumn-pdf-end`
 - Monster PDF now appends an alphabetical `Index` section at the end with entry page references.
+- Monster PDF now builds at `9pt` body text via `-V fontsize=9pt` in the build script.
 - Spell PDF switches to two columns at `Spell Descriptions`.
 - The Markdown sources are kept generic; output-specific layout behavior is handled in the Lua filters and LaTeX/CSS files.
 
@@ -210,9 +257,13 @@ Current output behavior:
 - Monster HTML is back to a readable single-column layout with the TOC present.
 - Monster HTML now has expandable top-level TOC sections with nested monster entry links.
 - Monster PDF is substantially improved with two-column layout, targeted wide-table handling, and an appended alphabetical end index.
+- Both books now support the compact custom stat-block shorthand without needing a normal Markdown table header row.
+- The custom stat-block shorthand now works with label cells both with and without trailing `:`.
+- The custom stat-block shorthand has been verified in both HTML and PDF builds, and both books were rebuilt after the feature landed.
 - Both books now support Markdown-native PDF-only page and column break markers without requiring raw LaTeX in the source.
 - Both books now support a Markdown-native centered block syntax that renders centered text in both HTML and PDF.
 - Monster PDF TOC/index references are now built through a two-pass XeLaTeX flow instead of a single direct Pandoc PDF pass.
+- Monster PDF currently builds with slightly smaller `9pt` body text.
 - Spell HTML remains straightforward and readable.
 - Spell PDF now uses a two-column layout without requiring per-spell special cases.
 - The repo has a documented build process and is now under Git/GitHub.
@@ -221,6 +272,7 @@ Current output behavior:
 ## Current Known Risks
 
 - The new generated illustration style is only partially validated; the user has not yet rebuilt the monster HTML/PDF to inspect page fit and visual consistency in output.
+- The custom stat-block shorthand is still pattern-based; it expects exactly four non-empty pipe-delimited cells per row.
 - Adding many more plates may require layout adjustments if the current inserts create awkward page breaks or crowding.
 - Monster PDF layout is improved but still not final; more entries may need the same full-width-table treatment if additional awkward tables are spotted.
 - The monster PDF TOC and end-index links were fixed at the source level, but they should still be spot-checked manually in a PDF viewer after future layout/filter changes.

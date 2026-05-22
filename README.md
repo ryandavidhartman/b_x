@@ -83,6 +83,19 @@ Centered text
 :::
 ```
 
+- To enter a compact two-pair stat block without a Markdown header row, you can use any pipe-delimited row with exactly four non-empty cells in this form:
+
+```md
+| Armor Class: | 2         | No. Appearing: | 1-8 (1-20) |
+| Hit Dice:    | 1         | Save As:       | Cleric: 1  |
+| Move:        | 60' (20') | Morale:        | 8          |
+| Attacks:     | 1 mace    | Treasure Type: | U          |
+| Damage:      | 1-6       | Alignment:     | Any        |
+```
+
+- A trailing `:` on the label cells is optional, so `| Armor Class | 2 | No. Appearing | 1-8 (1-20) |` also works.
+- This shorthand is recognized by the Lua filters and rendered as a four-column stat table in both HTML and PDF.
+
 ## Build The Spell Book
 
 From the repo root:
@@ -111,6 +124,18 @@ Notes:
 Centered text
 :::
 ```
+
+- The same compact pipe-delimited stat-block shorthand also works here:
+
+```md
+| Armor Class: | 2         | No. Appearing: | 1-8 (1-20) |
+| Hit Dice:    | 1         | Save As:       | Cleric: 1  |
+| Move:        | 60' (20') | Morale:        | 8          |
+| Attacks:     | 1 mace    | Treasure Type: | U          |
+| Damage:      | 1-6       | Alignment:     | Any        |
+```
+
+- Label-cell trailing colons are optional here as well.
 
 ## Source Files
 

@@ -262,18 +262,18 @@ Bears are well known to all adventurers. If a bear (of any type) hits with both 
 ### Boar
 *Source:* `Basic`  
 
-| Stat | Value |
-| --- | --- |
-| Armor Class | 7 |
-| Hit Dice | 3 |
-| Move | 150' (50') |
-| Attacks | ltusk |
-| Damage | 2-8 |
-| No. Appearing | 1-6 (1-6) |
-| Save As | Fighter: 2 |
-| Morale | 9 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
+| Stat          | Value      |
+| ------------- | ---------- |
+| Armor Class   | 7          |
+| Hit Dice      | 3          |
+| Move          | 150' (50') |
+| Attacks       | l tusk     |
+| Damage        | 2-8        |
+| No. Appearing | 1-6 (1-6)  |
+| Save As       | Fighter: 2 |
+| Morale        | 9          |
+| Treasure Type | Nil        |
+| Alignment     | Neutral    |
 
 Wild boars generally prefer forested areas, but can be found nearly everywhere. They are omnivorous (eating almost anything), and have extremely nasty tempers when disturbed.
 
@@ -298,38 +298,34 @@ Camels are ill-tempered beasts, prone to biting and kicking any creature that ge
 Charge attacks with a lance from camelback are not possible.
 
 ### Cat, Great
-*Source:* `Basic`  
+*Source:* `Basic`
 
-| Stat | Mountain Lion | Panther | Lion | Sabre-tooth Tiger | Tiger |
+| Stat | Mountain Lion | Panther | Lion | Jaguar | Tiger |
 | --- | --- | --- | --- | --- | --- |
-| Armor Class | 6 | 4 | 6 | 6 | 6 |
-| Hit Dice | 3 + 2 | 4 | 5 | 6 | 8 |
+| Armor Class | 6 | 4 | 6 | 5 | 6 |
+| Hit Dice | 3 + 2 | 4 | 5 | 5 | 6 |
 | Move | 150' (50') | 210' (70') | 150' (50') | 150' (50') | 150' (50') |
 | Attacks | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite |
-| Damage | 1-3 / 1-3 / 1-6 | 1-4 / 1-4 / 1-8 | 2-5 / 2-5 / 1-10 | 1-6 / 1-6 / 2-12 | 1-8 / 1-8 / 2-16 |
-| No. Appearing | 1-4 (1-4) | 1-2 (1-6) | 1-4 (1-8) | 1 (1-3) | 1-4 (1-4) |
-| Save As | Fighter: 2 | Fighter: 2 | Fighter: 3 | Fighter: 3 | Fighter: 4 |
-| Morale | 8 | 8 | 9 | 9 | 10 |
-| Treasure Type | U | U | U | U | V |
+| Damage | 1-3 / 1-3 / 1-6 | 1-4 / 1-4 / 1-8 | 2-5 / 2-5 / 1-10 | 1-4 / 1-4 / 1-10 | 1-6 / 1-6 / 2-12 |
+| No. Appearing | 1-4 (1-4) | 1-2 (1-6) | 1-4 (1-8) | 1-2 (1-4) | 1 (1-3) |
+| Save As | Fighter: 2 | Fighter: 2 | Fighter: 3 | Fighter: 3 | Fighter: 3 |
+| Morale | 8 | 8 | 9 | 9 | 9 |
+| Treasure Type | U | U | U | U | U |
 | Alignment | Neutral | Neutral | Neutral | Neutral | Neutral |
 
 The Great Cats are normally cautious and will avoid fights unless forced by extreme hunger or when trapped with no escape route.
 
-Though they may be found in a relaxed or even playful mood, they are subject to rapid and violent changes of temper. They often develop a fondness for one type of food, and will go out of their way to hunt that type of prey. Sometimes this taste in food runs to humans or human-like creatures. The Great Cats will rarely go too deeply into caves, preferring to remain within fleeing distance of the wilderness outside. Despite their shyness they are very inquisitive, and may follow a party just out of curiosity. They will always chase a fleeing prey.
+Though they may be found in a relaxed or even playful mood, they are subject to rapid and violent changes of temper. They often develop a fondness for one type of prey and may go out of their way to hunt it. Sometimes this preference includes humans or human-like creatures. Great Cats rarely venture deep into caves, preferring to remain within fleeing distance of the wilderness outside. Despite their caution, they are intensely curious and may follow adventurers out of interest alone. Great Cats will always pursue fleeing prey.
 
-Mountain Lion: This tawny-furred species lives mostly in mountainous regions but also inhabits forests and deserts. They will wander further into dungeons than any other species of Great Cat.
+- **Mountain Lion**: These tawny-furred cats inhabit mountains, forests, and deserts. They wander farther into caves and ruins than most other Great Cats.
 
-Panther: Panthers are found on plains, forests, and open shrub lands. They are extremely quick and can outrun most prey over short distances.
+- **Panther**: Panthers are found in forests, plains, and shrub lands. They are exceptionally fast and can outrun most prey over short distances.
 
-Lion: Lions generally live in warm climates, and thrive in savannah and brush lands near deserts. They usually hunt in groups known as prides.
+- **Lion**: Lions inhabit warm climates, especially savannahs and brush lands near deserts. They commonly hunt in groups known as prides.
 
-Tiger: Tigers are the largest of the commonly found Great Cats.
+- **Jaguar**: Jaguars inhabit dense jungles, swamps, and overgrown ruins. Powerful swimmers and skilled climbers, they prefer ambush attacks from trees or thick vegetation. Unlike most Great Cats, jaguars readily enter water and sometimes drag prey into rivers or marshes to drown it.
 
-They prefer cooler climates and wooded lands where their striped bodies offer some degree of camouflage, useful when hunting.
-
-They will surprise their prey on a roll of 1-4 (on 1d6) when in woods.
-
-Sabre-Tooth Tiger: Sabre-tooth tigers are the largest and most ferocious of the Great Cats. They have oversized fangs, from which they get their name. Fortunately, sabre-tooth tigers are mostly extinct, except in "lost world" areas.
+- **Tiger**: Tigers are the largest commonly encountered Great Cats. They prefer cool forests and wooded lands where their striped coats provide natural camouflage. Tigers surprise prey on a roll of `1-4` on `1d6` when hunting in wooded terrain.
 
 ![Basic monster illustration: great cat](assets/cat-great-plate.png)
 
@@ -1226,20 +1222,20 @@ Larger groups often include shamans, witch doctors, or other tribal spellcasters
 ### Bugbear
 *Source:* `Basic`  
 
-| Stat | Value |
-| --- | --- |
-| Armor Class | 5 |
-| Hit Dice | 3+1 |
-| Move | 90' (30') |
-| Attacks | 1 weapon |
-| Damage | 2-8 or by weapon + 1 |
-| No. Appearing | 2-8 (5-20) |
-| Save As | Fighter: 3 |
-| Morale | 9 |
-| Treasure Type | B |
-| Alignment | Chaotic |
+| Stat          | Value                |
+| ------------- | -------------------- |
+| Armor Class   | 5                    |
+| Hit Dice      | 3+1                  |
+| Move          | 90' (30')            |
+| Attacks       | 1 weapon             |
+| Damage        | 2-8 or by weapon + 1 |
+| No. Appearing | 2-8 (5-20)           |
+| Save As       | Fighter: 3           |
+| Morale        | 9                    |
+| Treasure Type | B                    |
+| Alignment     | Chaotic              |
 
-Bugbears are giant hairy goblins. Despite their size and awkward walk, they move very quietly and attack without warning whenever they can. They surprise on a roll of 1-3 (on 1d6) due to their stealth. When using weapons, they add + 1 to all damage rolls due to their strength.
+Bugbears are giant hairy goblins. Despite their size and awkward walk, they move very quietly and attack without warning whenever they can. They surprise on a roll of 1-3 (on `1d6`) due to their stealth. When using weapons, they add + 1 to all damage rolls due to their strength.
 
 ![Basic monster illustration: bugbear](assets/bugbear-plate.png)
 
@@ -1650,19 +1646,19 @@ If a swarm is angry (has taken damage) it will pursue characters as best as it c
 ### Locust, Cave
 *Source:* `Basic`  
 
-| Stat | Value |
-| --- | --- |
-| Armor Class | 4 |
-| Hit Dice | 2 |
-| Move | 60' (20') |
-| Fly | 180' (60') |
-| Attacks | 1 bite or 1 bump or 1 spit |
-| Damage | 1-2 or 1-4 or see below |
-| No. Appearing | 2-20 (1-10) |
-| Save As | Fighter: 2 |
-| Morale | 5 |
-| Treasure Type | Nil |
-| Alignment | Neutral |
+| Stat          | Value                      |
+| ------------- | -------------------------- |
+| Armor Class   | 4                          |
+| Hit Dice      | 2                          |
+| Move          | 60' (20')                  |
+| Fly           | 180' (60')                 |
+| Attacks       | 1 bite or 1 bump or 1 spit |
+| Damage        | 1-2 or 1-4 or see below    |
+| No. Appearing | 2-20 (1-10)                |
+| Save As       | Fighter: 2                 |
+| Morale        | 5                          |
+| Treasure Type | Nil                        |
+| Alignment     | Neutral                    |
 
 Cave locusts are 2-3' long, stone-gray giant grasshoppers that live underground. Because of their color they may be mistaken for statues until closely approached. They are herbivorous, eat fungus such as yellow mold and shriekers, and are not harmed by yellow mold or most poisons.
 
@@ -1745,20 +1741,13 @@ Giant weasels have infravision to 30' and can track by scent. They prefer wounde
 ## Lost World
 
 ### Ape, White
-*Source:* `Basic`  
+*Source:* `Basic`
 
-| Stat          | Value      |
-| ------------- | ---------- |
-| Armor Class   | 6          |
-| Hit Dice      | 4          |
-| Move          | 120' (40') |
-| Attacks       | 2 claws    |
-| Damage        | 1-4/1-4    |
-| No. Appearing | 1-6 (2-8)  |
-| Save As       | Fighter: 2 |
-| Morale        | 7          |
-| Treasure Type | Nil        |
-| Alignment     | Neutral    |
+| Armor Class | 6          | No. Appearing | 1d6 (2d4) |
+| Hit Dice    | 4          | Save As       | Fighter 2 |
+| Move        | 120' (40') | Morale        | 7         |
+| Attacks     | 2 claws    | Treasure Type | Nil       |
+| Damage      | 1d4/1d4    | Alignment     | Neutral   |
 
 White apes are pale cave-dwelling apes that have lost their color after countless generations spent underground. They are nocturnal creatures, sleeping during the day and emerging at night to search for fruits, roots, fungi, and other edible plants.
 
@@ -1851,6 +1840,30 @@ Pterodactyls are bat-like reptiles with wingspans of 8-10 feet. They hunt small 
 Pteranodons are giant pterodactyls. They are more aggressive and will often attack humans or humanoids. These monsters can have a wingspan of up to 50 feet.
 
 Pteranodons and pterodactyls are only found in warm climates, usually in "lost world" areas.
+
+### Sabre-Tooth Tiger
+*Source:* `Basic`
+
+| Stat | Sabre-Tooth Tiger |
+| --- | --- |
+| Armor Class | 6 |
+| Hit Dice | 8 |
+| Move | 150' (50') |
+| Attacks | 2 claws / 1 bite |
+| Damage | 1-8 / 1-8 / 2-16 |
+| No. Appearing | 1-4 (1-4) |
+| Save As | Fighter: 4 |
+| Morale | 10 |
+| Treasure Type | V |
+| Alignment | Neutral |
+
+Sabre-tooth tigers are enormous prehistoric predators found in lost world jungles, isolated valleys, and ancient wilderness untouched by civilization. They are heavily built cats with shaggy fur, massive shoulders, and terrifying curved fangs nearly a foot long.
+
+Unlike most Great Cats, sabre-tooth tigers are aggressive and fearless hunters that readily attack large prey, including humans, mammoths, and dinosaurs. They prefer ambushes from tall grass, rocky cover, or dense jungle growth, surprising prey on a roll of `1-4` on `1d6`.
+
+A sabre-tooth tiger that hits the same target with both claw attacks in one combat round also tears with its great fangs for an additional `2-8` points of damage.
+
+![Basic monster illustration: sabre-tooth tiger](assets/sabre-tooth-tiger-plate.png)
 
 ### Stegosaurus
 *Source:* `Expert`  
@@ -2192,18 +2205,18 @@ These giant gray wormlike creatures are about 30' long. They attack with their c
 ### Carrion Crawler
 *Source:* `Basic`  
 
-| Stat | Value |
-| --- | --- |
-| Armor Class | 7 |
-| Hit Dice | 3+1* |
-| Move | 120'(40') |
-| Attacks | 8 tentacles |
-| Damage | Paralysis |
-| No. Appearing | 1-3(1-3) |
-| Save As | Fighter: 2 |
-| Morale | 9 |
-| Treasure Type | B |
-| Alignment | Neutral |
+| Stat          | Value       |
+| ------------- | ----------- |
+| Armor Class   | 7           |
+| Hit Dice      | 3+1*        |
+| Move          | 120'(40')   |
+| Attacks       | 8 tentacles |
+| Damage        | Paralysis   |
+| No. Appearing | 1-3 (1-3)   |
+| Save As       | Fighter: 2  |
+| Morale        | 9           |
+| Treasure Type | B           |
+| Alignment     | Neutral     |
 
 This scavenger is a worm-like creature about 9’ long and 3’ high, with dozens of small legs that allow it to move with ease across floors, walls, and ceilings like a giant spider. Its maw is ringed with eight 2’ long tentacles that can paralyze a victim on a successful hit unless a saving throw vs. Paralysis is made.
 
@@ -2875,7 +2888,7 @@ If it is damaged, a thoul will regenerate 1 hit point per round as long as it is
 | Treasure Type | Nil |
 | Alignment | Neutral |
 
-This deadly fungus covers an area of 10 square feet (2' by 5', for example), though many are sometimes found together. Yellow mold can only be killed by fire; a torch will do 1-4 points of damage to it each round. It will eat through wood and leather but does not harm metal or stone.
+This deadly fungus covers an area of 10 square feet (2' by 5', for example), though many are sometimes found together. Yellow mold can only be killed by fire; a torch will do `1d4` points of damage to it each round. It will eat through wood and leather but does not harm metal or stone.
 
 It does not actually attack, but if it is touched by a torch, for example, the touch may cause the mold to squirt out a 10'x10'x10' cloud of spores. There is a 50% chance per hit that the mold will squirt out this cloud. Anyone caught within the cloud must save vs. Death Ray or choke to death within 6 rounds.
 
@@ -2884,39 +2897,31 @@ It does not actually attack, but if it is touched by a torch, for example, the t
 
 ## NPCs
 
+Non-player characters (NPCs) include adventurers, townsfolk, mercenaries, cultists, bandits, and other intelligent beings encountered during play. Some may become allies, hirelings, rivals, patrons, or enemies depending on the actions of the players.
+
+Most NPCs are ordinary people, but experienced warriors, priests, rogues, and spellcasters may also be encountered. NPCs should be given individual motives, personalities, and loyalties by the DM, as even minor characters can become important parts of a campaign.
+
 ### Acolyte
 *Source:* `Basic`  
- 
-| Stat          | Value      |
-| ------------- | ---------- |
-| Armor Class   | 2          |
-| Hit Dice      | 1          |
-| Move          | 60' (20')  |
-| Attacks       | 1 mace     |
-| Damage        | 1-6        |
-| No. Appearing | 1-8 (1-20) |
-| Save As       | Cleric: 1  |
-| Morale        | 8          |
-| Treasure Type | U          |
-| Alignment     | Any        |  
 
-Acolytes are 1^st^ level NPC clerics on a pilgrimage to or from a holy (or unholy) shrine — or perhaps merely seeking adventure. All of the clerics in the party will be of the same alignment, but the entire party has an equal chance to be Lawful, Neutral, or Chaotic. The acolytes do not know any spells. If there are 4 or more encountered they will be led by either a 2^nd^, 3^rd^, 4^th^, or 5^th^ level cleric (roll 1d10: 1-4 = 2^nd^ level leader, 5-7 = 3^rd^ level, 8-9 = 4^th^ level, 10 = 5^th^ level). The DM may choose any clerica1 spells for the leader, or they may be rolled at random.
+| Armor Class | 2         | No. Appearing | 1d8 (1d20) |
+| Hit Dice    | 1         | Save As       | Cleric 1   |
+| Move        | 60' (20') | Morale        | 8          |
+| Attacks     | 1 mace    | Treasure Type | U          |
+| Damage      | 1d6       | Alignment     | Any        |
+
+Acolytes are 1^st^ level NPC clerics on a pilgrimage to or from a holy (or unholy) shrine — or perhaps merely seeking adventure. All of the clerics in the party will be of the same alignment, but the entire party has an equal chance to be Lawful, Neutral, or Chaotic. The acolytes do not know any spells.
+
+If there are 4 or more encountered they will be led by either a 2^nd^, 3^rd^, 4^th^, or 5^th^ level cleric (roll `1d10`: 1-4 = 2^nd^ level leader, 5-7 = 3^rd^ level, 8-9 = 4^th^ level, 10 = 5^th^ level). The DM may choose any clerica1 spells for the leader, or they may be rolled at random.
 
 ### Bandit
-*Source:* `Basic`  
+*Source:* `Basic`
 
-| Stat          | Value              |
-| ------------- | ------------------ |
-| Armor Class   | 6                  |
-| Hit Dice      | 1                  |
-| Move          | 120' (40')         |
-| Attacks       | 1 weapon           |
-| Damage        | 1-6 or weapon      |
-| No. Appearing | 1-8 (3-30)         |
-| Save As       | Thief: 1           |
-| Morale        | 6                  |
-| Treasure Type | U (A)              |
-| Alignment     | Chaotic or Neutral |
+| Armor Class | 6          | No. Appearing | 1d8 (3d10) |
+| Hit Dice    | 1          | Save As       | Thief 1    |
+| Move        | 120' (40') | Morale        | 6          |
+| Attacks     | 1 weapon   | Treasure Type | U (A)      |
+| Damage      | 1d6        | Alignment     | Non-lawful |
 
 Bandits are NPC thieves who have joined together for the purpose of robbing others. Bandits will act as normal humans in order to surprise their intended victims. Treasure Type (A) is only found when bandits are encountered in the wilderness in their lair.
 
@@ -2927,18 +2932,18 @@ Bandits may have an NPC leader of any class, usually a fighter, magic-user, or t
 ### Berserker
 *Source:* `Basic`  
 
-| Stat | Value |
-| --- | --- |
-| Armor Class | 7 |
-| Hit Dice | 1 + 1* |
-| Move | 120' (40') |
-| Attacks | 1 weapon |
-| Damage | 1-8 or weapon |
-| No. Appearing | 1-6 (3-30) |
-| Save As | Fighter: 1 |
-| Morale | See below |
-| Treasure Type | P (B) |
-| Alignment | Neutral |
+| Stat          | Value         |
+| ------------- | ------------- |
+| Armor Class   | 7             |
+| Hit Dice      | 1 + 1*        |
+| Move          | 120' (40')    |
+| Attacks       | 1 weapon      |
+| Damage        | 1-8 or weapon |
+| No. Appearing | 1-6 (3-30)    |
+| Save As       | Fighter: 1    |
+| Morale        | See below     |
+| Treasure Type | P (B)         |
+| Alignment     | Neutral       |
 
 Berserkers are fighters driven mad by battle fury. Their reactions are determined normally, but once combat begins they will fight to the death, sometimes even attacking their own comrades in blind rage.
 

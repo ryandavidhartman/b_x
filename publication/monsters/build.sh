@@ -26,6 +26,7 @@ pandoc -f markdown+fenced_divs combined-monsters.md \
   --toc-depth=2 \
   -H combined-monsters-header.tex \
   --lua-filter monster-layout.lua \
+  -V fontsize=9pt \
   -V geometry:margin=0.9in \
   -o "$tex_output"
 
