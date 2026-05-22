@@ -2904,15 +2904,23 @@ Most NPCs are ordinary people, but experienced warriors, priests, rogues, and sp
 ### Acolyte
 *Source:* `Basic`  
 
-| Armor Class | 2         | No. Appearing | 1d8 (1d20) |
-| Hit Dice    | 1         | Save As       | Cleric 1   |
-| Move        | 60' (20') | Morale        | 8          |
-| Attacks     | 1 mace    | Treasure Type | U          |
-| Damage      | 1d6       | Alignment     | Any        |
+| Armor Class | 6         | No. Appearing | `1d8` (`1d20`) |
+| Hit Dice    | 1         | Save As       | Cleric 1       |
+| Move        | 60' (20') | Morale        | 8              |
+| Attacks     | 1 mace    | Treasure Type | U              |
+| Damage      | `1d6`     | Alignment     | Any            |
 
 Acolytes are 1^st^ level NPC clerics on a pilgrimage to or from a holy (or unholy) shrine — or perhaps merely seeking adventure. All of the clerics in the party will be of the same alignment, but the entire party has an equal chance to be Lawful, Neutral, or Chaotic. The acolytes do not know any spells.
 
-If there are 4 or more encountered they will be led by either a 2^nd^, 3^rd^, 4^th^, or 5^th^ level cleric (roll `1d10`: 1-4 = 2^nd^ level leader, 5-7 = 3^rd^ level, 8-9 = 4^th^ level, 10 = 5^th^ level). The DM may choose any clerica1 spells for the leader, or they may be rolled at random.
+If `4` or more acolytes are encountered, they are led by a higher-level cleric:
+
+| Roll (`1d10`) | Leader's Level |
+| ----------- | ---------------- |
+| 1-4         | 2^nd^            |
+| 5-7         | 3^rd^            |
+| 8-9         | 4^th^            |
+| 10          | 5^th^            |
+Table: Random Band Leader Level
 
 ### Bandit
 *Source:* `Basic`
@@ -2925,31 +2933,28 @@ If there are 4 or more encountered they will be led by either a 2^nd^, 3^rd^, 4^
 
 Bandits are NPC thieves who have joined together for the purpose of robbing others. Bandits will act as normal humans in order to surprise their intended victims. Treasure Type (A) is only found when bandits are encountered in the wilderness in their lair.
 
-Bandits may have an NPC leader of any class, usually a fighter, magic-user, or thief, of a higher level than the bandits.
+Bandits may have an NPC leader of any class, usually a fighter, magic-user, or thief, of a higher level than the bandits. (Roll as for [Acolyte](#acolyte))
 
 ![Basic NPC illustration: bandit](assets/bandit-plate.png)
 
 ### Berserker
-*Source:* `Basic`  
+*Source:* `Basic`
 
-| Stat          | Value         |
-| ------------- | ------------- |
-| Armor Class   | 7             |
-| Hit Dice      | 1 + 1*        |
-| Move          | 120' (40')    |
-| Attacks       | 1 weapon      |
-| Damage        | 1-8 or weapon |
-| No. Appearing | 1-6 (3-30)    |
-| Save As       | Fighter: 1    |
-| Morale        | See below     |
-| Treasure Type | P (B)         |
-| Alignment     | Neutral       |
+| Armor Class | 7          | No. Appearing | 1d6 (3d10) |
+| Hit Dice    | 1 + 1*     | Save As       | Fighter 1  |
+| Move        | 120' (40') | Morale        | See below  |
+| Attacks     | 1 weapon   | Treasure Type | P (B)      |
+| Damage      | 1d8        | Alignment     | Neutral    |
 
 Berserkers are fighters driven mad by battle fury. Their reactions are determined normally, but once combat begins they will fight to the death, sometimes even attacking their own comrades in blind rage.
 
+Berserkers care little for strategy, discipline, or self-preservation once blood has been spilled. Many are feared raiders, cult warriors, or savage mercenaries who value ferocity above all else.
+
 When fighting humans or human-like creatures such as kobolds, goblins, or orcs, berserkers gain a `+2` bonus on attack rolls due to their ferocity. They never retreat, surrender, or take prisoners.
 
-Treasure Type B is only found in the wilderness.
+Treasure Type (B) is only found in the wilderness.
+
+If `4` or more berserkers are encountered, they are led by a higher-level fighter.  (Roll as for [Acolyte](#acolyte))
 
 ### Dwarf
 *Source:* `Basic`  
