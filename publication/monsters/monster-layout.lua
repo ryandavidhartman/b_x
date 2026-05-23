@@ -54,7 +54,19 @@ local function split_statblock_row(text)
     cells[#cells + 1] = trim(cell)
   end
 
-  if #cells ~= 4 or cells[1] == "" or cells[2] == "" or cells[3] == "" or cells[4] == "" then
+  if #cells == 2 then
+    cells[3] = ""
+    cells[4] = ""
+  end
+
+  if #cells ~= 4 or cells[1] == "" or cells[2] == "" then
+    return nil
+  end
+
+  local trailing_pair_is_blank = cells[3] == "" and cells[4] == ""
+  local trailing_pair_is_complete = cells[3] ~= "" and cells[4] ~= ""
+
+  if not trailing_pair_is_blank and not trailing_pair_is_complete then
     return nil
   end
 

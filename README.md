@@ -95,6 +95,16 @@ Centered text
 
 - A trailing `:` on the label cells is optional, so `| Armor Class | 2 | No. Appearing | 1-8 (1-20) |` also works.
 - This shorthand is recognized by the Lua filters and rendered as a four-column stat table in both HTML and PDF.
+- A row may also omit the right-hand label/value pair if both trailing cells are blank, for example:
+
+```md
+| Armor Class | 5                 | No. Appearing | 1d6 (2d4) |
+| Hit Dice    | 4                 | Save As       | Fighter 8 |
+| Move        | 90' (30')         | Morale        | 11        |
+| Flying      | 150' (50')        | Treasure Type | C         |
+| Attacks     | 2 claws/bite/horn | Alignment     | Chaotic   |
+| Damage      | 1d3x2/1d6/1d4     |               |           |
+```
 
 ## Build The Spell Book
 
@@ -136,6 +146,7 @@ Centered text
 ```
 
 - Label-cell trailing colons are optional here as well.
+- Rows with a blank trailing pair are also supported here in the same way.
 
 ## Source Files
 
