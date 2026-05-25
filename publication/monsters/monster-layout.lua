@@ -257,7 +257,6 @@ local full_width_entries = {
   ["Lizards, Giant"] = true,
   ["Lycanthrope*"] = true,
   Men = true,
-  ["NPC Parties"] = true,
   Snake = true,
   ["Spider, Giant"] = true,
 }
