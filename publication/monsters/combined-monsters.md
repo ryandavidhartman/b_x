@@ -823,23 +823,83 @@ A living statue is an enchanted animated creature made by a powerful wizard. It 
 
 ## Demons
 
-Demonologists classify demons into several broad categories, though most demons do not fit neatly into any single class. All demons are creatures of pure chaos and evil, dwelling in infernal planes beyond the mortal world. Demonic society is brutal and treacherous, where strength alone commands respect and weakness invites destruction.
+Each type of demon, especially the mighty demon lords and princes, possesses unusual characteristics and extraordinary abilities. Traits common to all demons are described here; individual demons have additional powers noted in their own entries.
 
-Many demons possess powerful magical abilities such as infravision, darkness, teleportation without error, and the ability to gate in other demons. Specific powers vary by type and are described in individual entries.
+Demons are able to move from their own plane into those of Tarterus, Hades, or Pandemonium, or roam the astral plane. However, they cannot enter the material plane without aid such as conjuration, gate, or similar magic.
 
-Demons travel freely between their home planes and other lower planes such as Tartarus, Pandemonium, and Hades, and may move through the Astral Plane at will. They cannot normally enter the Prime Material Plane except through magical summoning, gates, wishes, or similar means.
+Demons are chaotic and evil; the smarter and stronger dominate those weaker and less intelligent than themselves. Lesser demons attack without question and fight until slain. 
 
-Demons are fearless in combat and never willingly submit to another being. Less intelligent demons attack mindlessly until slain, while more cunning demons constantly seek opportunities to betray, corrupt, enslave, or destroy those who summon them. Even when magically bound, demons twist commands to their advantage whenever possible.
+Demons of type V and greater are not permanently destroyed when their physical forms are slain outside their home plane. Instead, they are forced back to their native plane for a century and a day unless another demon aids their return. Demons encountered on their own plane may be slain normally.
 
-Thaumaturgic circles and other protective wards may hold demons at bay, though more powerful demons require increasingly elaborate preparations. Summoning demons is always dangerous and should involve meaningful risks, bargains, threats, or sacrifices determined by the DM.
+No demon can ever be subdued. Demons may divide their attacks among multiple opponents if their attacks allow.  Demons never willingly serve anyone or anything. If forced into service through magic or threat, they continually seek a way to slay their master or captor. Those to whom the demons show a liking to are typically carried off to the demons' plane to become a slave (although a favored one).
 
-Demons are repelled by powerful holy relics and good-aligned artifacts. On the Prime Material Plane, clerics of 8^th^ level or higher and paladins of 11^th^ level or higher may turn demons.
+Demons can be summoned by characters of any alignment, but controlling one is another matter entirely. A **thaumaturgic circle** keeps out demons of types I-V, while a special **pentacle** is required against demons of type VI or greater.  The threat or reward which the conjuring party uses to attempt gaining a demon's service must be carfully handled by the DM.  Demons are repelled by holy relics and artifacts.
 
-Demons are commonly encountered on the Astral and Æthereal planes, where they are drawn to the presence of wandering souls and travelers. Speaking the true name of a demon carries a 5% chance of attracting its attention, an act considered extremely dangerous among sages and summoners.
+**Demons' Amulets:** Demon lords and princes maintain their vital essences in small containers - their souls, so to speak - protecting them while also creating a dangerous vulnerability should the amulet be stolen.
 
-All demons can understand any spoken language, and those of average or greater intelligence may speak any language as well.
+Demons with amulets may use **magic jar** once per day. Their amulets cannot be detected by magical means and appear completely ordinary. Lesser demons usually keep their amulets close at hand, though the most powerful demon princes do not have this limitation.
 
-Demons resist many forms of attack. They take only half damage from cold, electricity, fire, and poisonous gas attacks, but suffer full damage from acid, magic missiles, poison, and iron weapons. Silver weapons inflict no special additional damage beyond their normal effects.
+Possession of an amulet grants temporary power over the demon to whom it belongs, usually for no more than one adventure or `24` hours. The amulet must then be returned or destroyed, condemning the demon prince to abyssment for one year.
+
+Use of an amulet is extremely dangerous. Possession of one doubles the chance of attracting another demon’s attention, and any uncontrolled demon immediately attacks the possessor. If the wielder loses possession while commanding the demon, the demon immediately turns on them.
+
+Demons frequently roam the astral and ethereal planes. Their attention is also attracted by persons in an ethereal state.  Speaking the true name of a particularly powerful demon while on the astral or ethereal planes carries a base `5%` chance that the demon hears the speaker and turns its attention toward them.  Unless prepared to avoid such attention - or to control the demon - the demon will thereupon immediately attempt to slay, by whatever means are most expeditious, the one pronouncing his name.
+
+If demon types I through VI are encountered in their lair, there is a `75%` chance of encountering `1d6` demons of the same type and a `25%` chance of encountering `1d6` mixed demons of types I-VI.
+
+All demons share the following traits:
+
+- Types I-III are affected by non-magical weapons
+- Type IV and greater are not affected by non-magical weapons
+- Infravision
+- Teleportation (no error)
+- Darkness (radius varies)
+- Gate (specifics vary)
+
+Demons are affected by attack forms as follows:
+
+- Acid: full damage
+- Cold: half damage
+- Electricity (lightning): half damage
+- Fire (dragon, magical): half damage
+- Gas (poisonous, etc.): half damage
+- Iron weapon: full damage
+- Magic missile: full damage
+- Poison: full damage
+- Silver weapon: treat as non-magical
+
+Because of their strange telepathy, demons understand all intelligent communication. Demons with average or greater intelligence may also converse normally.
+
+### Demogorgon
+*Source:* `AD&D 1E Conversion`
+
+| Armor Class | -8                   | No. Appearing | 1          |
+| Hit Dice    | 20***                | Save As       | Fighter 20 |
+| Move        | 150' (50')           | Morale        | 12         |
+| Attacks     | 2 tentacles / tail   | Treasure Type | R, S, J, V |
+| Damage      | 1d6 / 1d6 / special  | Alignment     | Chaotic    |
+
+
+The rivalry between demon lords is great, but the enmity between Demogorgon and Orcus is immense and unending.  Demogorgon is a terrible opponent.
+
+**First**: He possesses great powers in his two heads. Should he fix the gaze of both upon his enemies he is able to hypnotize them. This hypnosis affects from
+- `10d10` creatures of 1-3 hit dice
+- `5d8` with 4-6 hit dice
+- `3d8` with 7-9 hit dice
+- `2d6` with 10-12 hit dice
+- `1-4` with 13 or more hit dice. 
+
+Those over 15 hit dice save versus magic; all others are automatically hypnotized. Victims remain under the effect for 1 turn, obeying nearly all instructions short of self-destruction. For `1d6` turns afterwards they tend to continue acting upon lingering suggestions. Demogorgon's left head may instead use a gaze with the effect of a **rod of beguiling**, while the gaze of his right head causes insanity for `1d6` turns. Victims save versus magic to avoid either gaze.
+
+**Second**: Demogorgon is able to lash his forked tail, striking with it as a whip-like weapon. Its touch causes energy drain of `1d4` levels, the tail striking as a flail for hit determination.
+
+**Third**: His tentacles are also deadly weapons, each causing `1d6` hit points of damage. Opponents of lesser stature, especially those from the material plane such as humans, dwarves, and elves, are subject to a terrible supernatural rot. A struck limb becomes useless in 6 melee rounds and drops off in another 6 rounds. Body hits permanently remove 25% of the victim’s hit points after 6 melee rounds, cumulative per hit. A **cure disease** cast within the initial 6-round period saves the limb, which heals in `1d4` weeks, and restores body damage completely.
+
+Whenever he desires, Demogorgon may use any one of the following powers: **continual darkness**, **charm person**, **create illusion** (as a wand of illusion), **cause fear** (as a wand of that sort), **levitate** (as a 16^th^ level magic-user), **detect magic**, **read magic**, **read languages**, **detect invisible**, **ESP**, **dispel magic**, **clairvoyance**, **clairaudience**, **suggestion**, **water breathing**, **polymorph self**, **wall of ice**, **charm monster**, or **telekinesis** up to 7,000 cn weight with one or both heads. Once per day he may cast **feeblemind**, **project image**, **power word stun**, any **symbol**, or **sticks to snakes**. He may also **gate** in other demons with an 85% chance of success: 50% chance for type I-IV demons and 50% chance for a type V or VI demon.
+
+**Description**: It is contended by some that this demon prince is supreme, and in any event he is awesome in his power. This gigantic demon is 18' tall and reptilian. Demogorgon has two heads bearing the visages of evil baboons or perhaps mandrills, with the hideous coloration of the latter beasts. His blue-green skin is plated with snake-like scales, his body and legs are those of a giant lizard, his twin necks resemble serpents, and his thick tail is forked. Rather than arms, he possesses great tentacles. His appearance testifies to his command over cold-blooded things such as serpents, reptiles, and octopi. 
+
+
 
 ::: pagebreak-pdf
 :::
