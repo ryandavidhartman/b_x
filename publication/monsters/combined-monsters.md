@@ -165,7 +165,30 @@ Welcome Adventures!
 
 Animals in this section are considered “animals” for the purposes of magic such as **animal summoning** or **invisibility to animals**. These are natural creatures, though some may be unusually large, fierce, or dangerous. Some kindly DMs may permit other creatures, such as dinosaurs or giant invertebrates, to count as “animals” for such magic—but this is strictly at the DM’s option.
 
-![](assets/rock-baboon-plate.png)
+### Ape
+*Source:* `AD&D 1E Conversion`
+
+| Stat          | Gorilla          | Carnivorous Ape  |
+| ------------- | ---------------- | ---------------- |
+| Armor Class   | 6                | 6                |
+| Hit Dice      | 4+1              | 5                |
+| Move          | 120' (40')       | 120' (40')       |
+| Attacks       | 2 claws / 1 bite | 2 claws / 1 bite |
+| Damage        | 1d3 x2 / 1d6     | 1d4 x2 / 1d8     |
+| No. Appearing | 1d4 (3d4)        | 2d4 (4d4)        |
+| Save As       | Fighter 2        | Fighter 3        |
+| Morale        | 8                | 10               |
+| Treasure Type | Nil              | C                |
+| Alignment     | Neutral          | Neutral          |
+
+Apes are large primates found in remote tropical forests. Though immensely strong, they differ greatly in temperament and behavior.
+
+**Gorillas**: Gorillas are normally shy and non-aggressive, preferring to avoid conflict whenever possible. However, if threatened, cornered, or defending their young, they fight with tremendous strength and ferocity. If a gorilla hits with both claws in the same round, it grabs and rends its opponent for an additional `1d6` points of damage.
+
+**Carnivorous Apes**: Carnivorous apes are larger, stronger, and far more aggressive relatives of the gorilla. Highly cunning and unusually intelligent for animals, they have a particular taste for human flesh. Their eyesight, hearing, and sense of smell are exceptionally keen, and they are surprised only on a roll of 1 on `1d6`. If a carnivorous ape hits with both claws in the same round, it grabs and rends its opponent for an additional `1d8` points of damage.
+
+![](assets/ape-plate.png)
+
 
 ### Baboon, Rock
 *Source:* `Basic`
@@ -179,6 +202,8 @@ Animals in this section are considered “animals” for the purposes of magic s
 Rock baboons are larger and more intelligent than normal baboons. Omnivorous and aggressive, they will eat nearly anything but strongly prefer meat. They do not make tools or weapons, though they commonly wield stones, bones, or heavy branches as crude clubs. They favor rocky hills, cliffs, and ruined places, where they hurl stones from above at intruders before closing to attack.
 
 Rock baboons travel in fierce packs led by a dominant male. They are bad-tempered, territorial creatures known for sudden violence and savage infighting. Though incapable of true speech, they communicate through barks, shrieks, and threatening screams that convey simple warnings and commands.
+
+![](assets/rock-baboon-plate.png)
 
 ### Bat
 *Source:* `Basic`  
@@ -1059,10 +1084,28 @@ A wyvern looks like a two-legged, winged dragon with a long tail. In combat, the
 ::: pagebreak-pdf
 :::
 
-::: twocolumn-pdf-end
-:::
-
 ## Elementals
+
+### Aerial Servant
+*Source:* `AD&D 1E Conversion`
+
+| Armor Class | 3          | No. Appearing | 1          |
+| Hit Dice    | 16*        | Save As       | Fighter 16 |
+| Move        | 240' (80') | Morale        | 12         |
+| Attacks     | 1 grapple  | Treasure Type | Nil        |
+| Damage      | Special    | Alignment     | Neutral    |
+
+The aerial servant is a semi-intelligent form of an air elemental. It is typically encountered only due to conjuration by a cleric, although these creatures roam the ethereal and astral planes and, when encountered there, can be dimly seen. An aerial servant is normally invisible. Aerial servants do not fight per se, but they are exceedingly strong and very fast.
+
+They can carry weights in excess of 10,000 cn, and if they grasp a creature, it is very difficult to break free. A grasped creature may save vs. Paralysis each round to escape. Characters may add their Strength modifier to this save.
+
+Aerial servants normally use their great strength to seize victims and carry them away. They may also crush a grasped victim for `2d8` damage each round.
+
+They travel at twice the speed of an invisible stalker, and when on the physical plane they are able to achieve surprise on a die roll of `1-4` (out of 6). They can only be harmed by magical weapons.
+
+If the aerial servant is frustrated in the completion of its assigned mission, it becomes insane, returns to the cleric who sent it forth, and attacks as a double-strength invisible stalker. Likewise, if it is encountered ethereally or astrally, the aerial servant will typically attack in the same fashion.
+
+For further details regarding aerial servants, consult the volume detailing clerical spells.
 
 ### Djinni, Lesser*
 *Source:* `Expert`  
@@ -1116,6 +1159,9 @@ Efreet may fly and carry up to 10,000 cn weight while flying. They can be summon
 
 ![Expert monster illustration: efreeti](assets/efreeti-plate.png)
 
+::: twocolumn-pdf-end
+:::
+
 ### Elemental*
 *Source:* `Expert`  
 
@@ -1166,6 +1212,9 @@ Staff elementals, the weakest, are summoned by a magic-user with a special staff
 | Treasure Type  | F                | E                |
 | Alignment      | Neutral          | Chaotic          |
 
+::: twocolumn-pdf-begin
+:::
+
 - **Flame salamander**: is a form of free-willed fire elemental that looks like a giant snake, 12' to 16' long, with the head and limbs of a lizard. It has scales of bright orange-yellow and orange-red. All creatures within 20' will take `1d8` points of damage per round from the intense heat the salamander generates. Flame salamanders are immune to all fire-based attacks. These creatures are intelligent and prefer to live near, or in, volcanoes or in very hot, dry lands.
 
 - **Frost Salamander**: looks like a giant lizard with 6 legs. Its scales are white or blue-white in color. When it fights, it rears up and strikes with the front four legs as well as fangs. All creatures within 20' will take an additional `1d8` points of damage each round from the extreme cold the monster radiates. Frost salamanders are immune to all cold-based attacks. They live in frozen wastelands, glaciers, and icy tundras.
@@ -1175,9 +1224,6 @@ Frost and flame salamanders hate each other, and will attack one another on sigh
 ![Expert monster plate: salamander](assets/salamander-plate.png)
 
 ::: pagebreak-pdf
-:::
-
-::: twocolumn-pdf-begin
 :::
 
 ## Humanoids
@@ -1407,6 +1453,19 @@ Legends claim driver ants sometimes mine and collect gold. There is a 30% chance
 
 ![Basic monster illustration: driver ant](assets/driver-ant-plate.png)
 
+### Ant, Giant
+*Source:* `AD&D 1E Conversion`
+
+| Armor Class | 3          | No. Appearing | 1d8 (1d100) |
+| Hit Dice    | 2          | Save As       | Fighter 1   |
+| Move        | 180' (60') | Morale        | 8           |
+| Attacks     | 1 bite     | Treasure Type | Q × 3, S    |
+| Damage      | 1d6        | Alignment     | Neutral     |
+
+Giant ants are aggressive social insects that live in vast underground colonies. Most encountered are workers, which tirelessly gather food and defend the nest. Though smaller than the dreaded driver ant, giant ants attack fearlessly when threatened and can overwhelm larger foes through sheer numbers.
+
+When giant ants are encountered outside their lair, there is a 90% chance that they will simply be workers. If found in their lair (nest), there will be the number rolled plus 1 warrior ant for every 5 workers. The warrior ant has 3 hit dice, does `2d4` points of damage with its mandibles, and if it hits with them it will also attempt to sting for `3d4` points of damage. If a sting hits, a saving throw versus poison must be made; if successful, the victim takes only `1d4` points of damage. The queen ant has 10 hit dice, but she neither moves nor attacks. If she is killed, the other ants become confused (as if under the influence of that spell) for six melee rounds and then leave the nest. Treasure held by the ants will be found in the queen's chamber. The egg chamber is guarded by `5d10` workers and 5 warriors. Giant ant eggs have no normal market value.
+
 ### Bee, Killer
 *Source:* `Basic`  
 
@@ -1564,6 +1623,7 @@ Lost World creatures are ancient beasts and monstrous survivors from forgotten a
 
 These creatures are often larger, more savage, and more primitive than their modern descendants. Encounters with Lost World monsters remind adventurers that ancient and terrible things still lurk beyond the edges of the known world.
 
+
 ### Ape, White
 *Source:* `Basic`
 
@@ -1579,7 +1639,22 @@ White apes are territorial and will usually threaten intruders approaching their
 
 Though not intelligent, white apes are cunning enough to defend their territory and young. [Neanderthals](#neanderthal-caveman) and other primitive peoples sometimes capture and keep them as fierce guard beasts or pets.
 
-![Basic monster illustration: white ape](assets/white-ape-plate.png)
+![](assets/white-ape-plate.png)
+
+### Axe Beak
+*Source:* `AD&D 1E Conversion`
+
+| Armor Class | 6                | No. Appearing | 1d6 (1d6) |
+| Hit Dice    | 3                | Save As       | Fighter 2 |
+| Move        | 180' (60')       | Morale        | 8         |
+| Attacks     | 2 claws / 1 bite | Treasure Type | Nil       |
+| Damage      | 1d3 x2 / 2d8     | Alignment     | Neutral   |
+
+Axe beaks are prehistoric carnivorous flightless birds. They are exceptionally fast runners and aggressively hunt during daylight hours.
+
+An axe beak resembles an ostrich in its lower portions, but possesses a powerful neck and a heavy, axe-like beak capable of delivering devastating blows. Though unable to fly, they can outrun most prey and will relentlessly pursue smaller creatures once they begin a hunt.
+
+![](assets/axe-beak-plate.png)
 
 ### Bear, Cave
 *Source:* `Basic`
@@ -1849,7 +1924,28 @@ Werewolves may summon normal wolves to form larger hunting packs.
 ::: pagebreak-pdf
 :::
 
-## Monsterous
+## Monstrous
+
+### Ankheg
+*Source:* `AD&D 1E Conversion`
+
+| Armor Class | Overall 2; Underside 4 | No. Appearing | 0 (1d6)     |
+| Hit Dice    | 3-8                    | Save As       | Fighter 2-4 |
+| Move        | 120' (40')             | Morale        | 9           |
+| Attacks     | 1 bite                 | Treasure Type | C           |
+| Damage      | 3d6                    | Alignment     | Neutral     |
+
+The ankheg burrows through the earth like an enormous worm, preferring soil rich in minerals and organic matter. It is most often found in forests and fertile farmland, where its tunneling causes great damage to crops and fields. Although it feeds primarily on soil, the ankheg supplements its diet with fresh meat whenever possible.
+
+An ankheg's favorite method of attack is to lie buried 5'-10' below the surface until its antennae detect prey passing overhead. It then bursts from the ground beneath its victim and attacks.
+
+Its powerful mandibles crush prey and secrete digestive enzymes. A creature bitten by an ankheg suffers an additional `1d4` points of damage each turn until magical healing is applied.
+
+If hard pressed, an ankheg may squirt digestive acid up to 30' once every six hours. The target suffers `8d4` damage, or half damage with a successful save vs. Breath Weapon. After using this attack, the ankheg cannot use its digestive enzymes for six hours.
+
+An ankheg's chitinous shell is brown, while its softer underside is pink. Its eyes are glistening black.
+
+![Ankheg](assets/ankheg-plate.png)
 
 ### Basilisk
 *Source:* `Expert`  
