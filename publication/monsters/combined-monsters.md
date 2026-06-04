@@ -383,11 +383,13 @@ A charging buffalo must move at least 40' before impact. A charge deals `3d6` da
 | Hit Dice    | 4          | Save As       | Fighter 2  |
 | Move        | 150' (50') | Morale        | 8          |
 | Attacks     | 2 horns    | Treasure Type | Nil        |
-| Damage      | 1d6x2      | Alignment     | Neutral    |
+| Damage      | 1d6 / 1d6  | Alignment     | Neutral    |
 
-Bulls are aggressive herd defenders, easily angered and dangerous when approached. Wild oxen and aurochs may be treated as bulls.
+Bulls are mature male bovines noted for their strength, aggression, and territorial nature. This entry may also be used for wild oxen, aurochs, and similar wild cattle.
 
-There is a 75% chance that a bull attacks if approached within 80'. A charging bull must move at least 30' before impact. A charge deals `3d6` damage, plus `1d4` trampling damage. When a herd is present, several bulls defend the rest.
+There is a 75% chance that a bull attacks if approached within 80'. A charging bull must move at least 30' before impact. A successful charge inflicts `3d6` damage, plus `1d4` trampling damage.
+
+When encountered as part of a herd, bulls typically place themselves between the threat and the remainder of the herd, attacking until the danger is driven off or they are slain.
 
 ### Camel
 *Source:* `Expert`  *Category:* `Animal`
@@ -444,7 +446,7 @@ The Great Cats are normally cautious and avoid fights unless driven by extreme h
 
 ![](assets/cat-great-plate.png)
 
-### Cattle, Wild
+### Cattle
 *Source:* `AD&D 1E Conversion`
 *Category:* `Animal`
 
@@ -454,9 +456,11 @@ The Great Cats are normally cautious and avoid fights unless driven by extreme h
 | Attacks     | 1 gore     | Treasure Type | Nil         |
 | Damage      | 1d4        | Alignment     | Neutral     |
 
-Wild cattle roam many wilderness areas in large herds. They usually flee threats, but herd males may attack if intruders come upon the herd before it can run.
+Cattle are domesticated bovines raised for meat, milk, labor, and hides. They are commonly found in pastures, ranches, and settled lands, where they gather in large herds. Most cattle are placid and accustomed to the presence of humans.
 
-There is a 75% chance that the males attack if the herd is surprised at close range. There is also a 25% chance that the herd stampedes directly through the party. If no cover is available, each creature in the path is trampled by `2d4` cattle, taking `1d4` damage from each.
+When frightened, however, cattle are prone to panic. There is a 25% chance that a startled herd stampedes directly through nearby creatures. If no cover is available, each creature in the path is trampled by `2d4` cattle, taking `1d4` damage from each.
+
+Most herds consist primarily of cows, heifers, steers, and calves, supervised by herdsmen or guarded by one or more bulls.
 
 ### Crab, Giant
 *Source:* `Expert`  *Category:* `Animal`
