@@ -166,7 +166,7 @@ Welcome Adventures!
 Animals in this section are considered “animals” for the purposes of magic such as **animal summoning** or **invisibility to animals**. These are natural creatures, though some may be unusually large, fierce, or dangerous. Some kindly DMs may permit other creatures, such as dinosaurs or giant invertebrates, to count as “animals” for such magic—but this is strictly at the DM’s option.
 
 ### Ape
-*Source:* `AD&D 1E Conversion`
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
 | Stat          | Gorilla          | Carnivorous Ape  |
 | ------------- | ---------------- | ---------------- |
@@ -189,9 +189,23 @@ Apes are large primates found in remote tropical forests. Though immensely stron
 
 ![](assets/ape-plate.png)
 
+### Baboon
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 7          | No. Appearing | 2d6 (4d10) |
+| Hit Dice    | 1+1        | Save As       | Fighter 1  |
+| Move        | 120' (40') | Morale        | 6          |
+| Attacks     | 1 bite     | Treasure Type | Nil        |
+| Damage      | 1d4        | Alignment     | Neutral    |
+
+Baboons are mostly herbivorous troop animals. They are territorial and noisy, relying on numbers, threat displays, and quick climbing to drive off intruders.
+
+A troop is led by 2d4 large males. These males inflict 1d4+1 damage with their attacks. Half of any troop consists of young, which do not normally fight.
+
+If their territory is invaded, baboons attempt to drive intruders away. However, there is a 90% chance that a troop will flee if faced with determined resistance.
 
 ### Baboon, Rock
-*Source:* `Basic`
+*Source:* `Basic`  *Category:* `Animal`
 
 | Armor Class | 6           | No. Appearing | 2d6 (5d6) |
 | Hit Dice    | 2           | Save As       | Fighter 1 |
@@ -205,8 +219,45 @@ Rock baboons travel in fierce packs led by a dominant male. They are bad-tempere
 
 ![](assets/rock-baboon-plate.png)
 
+### Badger
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Stat          | Badger           | Giant Badger     |
+| ------------- | ---------------- | ---------------- |
+| Armor Class   | 4                | 4                |
+| Hit Dice      | 1+2              | 3                |
+| Save As       | Fighter 1        | Fighter 2        |
+| Move          | 60' (20')        | 60' (20')        |
+| Burrow        | 30' (10')        | 30' (10')        |
+| Attacks       | 2 claws / 1 bite | 2 claws / 1 bite |
+| Damage        | 1d2 / 1d2 / 1d3  | 1d3 / 1d3 / 1d6  |
+| No. Appearing | 1d2 (2d4)        | 1d2 (1d4)        |
+| Morale        | 8                | 8                |
+| Treasure Type | Nil              | Nil              |
+| Alignment     | Neutral          | Neutral          |
+
+Badgers are fierce burrowing animals that staunchly defend their territory. Their quickness and low profile account for their unusually good Armor Class.
+
+**Badgers**: are normally solitary. If more than one is encountered, it is usually a mated pair and their young. A badger's pelt may be sold for 10-30 gp.
+
+**Giant badgers**: are a rare variety that grows to nearly twice the size of normal badgers. They share the same habits and temperament, but are considerably stronger and more dangerous.
+
+### Barracuda
+*Source:* `AD&D 1E Conversion`
+*Category:* `Animal`
+
+| Armor Class | 6           | No. Appearing | 2d6 (2d12)  |
+| Hit Dice    | 1-3         | Save As       | Fighter 1-2 |
+| Move (swim) | 300' (100') | Morale        | 8           |
+| Attacks     | 1 bite      | Treasure Type | Nil         |
+| Damage      | 2d4         | Alignment     | Neutral     |
+
+Barracuda are predatory fish that inhabit warm salt waters. They are lightning fast, capable of accelerating from complete stillness to full speed in a single round.
+
+Barracuda attack any prey that is injured, appears helpless, or is significantly smaller than themselves. The scent of blood in the water often attracts multiple barracuda to the same area, making them especially dangerous to wounded swimmers.
+
 ### Bat
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Animal`
 
 | Stat          | Normal        | Giant       |
 | ------------- | ------------- | ----------- |
@@ -238,7 +289,7 @@ Because bats do not rely on vision, spells or abilities that affect sight will n
 :::
 
 ### Bear
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Animal`
 
 | Stat           | Black            | Grizzly          | Polar             | Dire             |
 |----------------|------------------|------------------|-------------------|------------------|
@@ -268,21 +319,78 @@ Bears are well known to all adventurers. If a bear (of any type) hits with both 
 
 **Dire bear**: are massive, broad-shouldered predators found in deep forests, remote mountains, and other untamed wilderness. Standing nearly 14' tall when rearing, they are larger and more aggressive than grizzlies, with thick dark fur, huge claws, and a savage temper. Dire bears are relentless hunters and will pursue wounded prey for hours. Unlike most bears, they often attack humans on sight and are feared even by giants and other large predators.
 
+### Beaver, Giant
+*Source:* `AD&D 1E Conversion`
+*Category:* `Animal`
+
+| Armor Class | 6          | No. Appearing | 0 (3d10)  |
+| Hit Dice    | 4          | Save As       | Fighter 4 |
+| Move        | 60' (20')  | Morale        | 7         |
+| Swim        | 120' (40') | Treasure Type | C         |
+| Attacks     | 1 bite     | Alignment     | Neutral   |
+| Damage      | 4d4        |               |           |
+
+Giant beavers are intelligent but usually docile. They flee danger when possible, but fight fiercely if cornered or if their lodge is threatened.
+
+A giant beaver colony lives in a great lodge of mud and logs, usually in the middle of a lake created by its dam. If an alarm is sounded by tail slap, the whole colony rushes to defend the lodge and its young. For each adult there is usually one young beaver.
+
+Giant beavers sometimes trade. They prize coins, valuables, tender twigs, and bark, especially birch, aspen, and willow. If treated well, they may be persuaded to build dam-like works near water. Their hides are valuable, and kits may be captured and sold, though doing so earns the enmity of the colony.
+
 ### Boar
-*Source:* `Basic`  
+*Source:* `AD&D 1E Conversion`
+*Category:* `Animal`
 
-| Armor Class | 7           | No. Appearing | 1d6 (1d6) |
-| Hit Dice    | 3           | Save As       | Fighter 2 |
-| Move        | 150' (50')  | Morale        | 9         |
-| Attacks     | 1 tusk      | Treasure Type | Nil       |
-| Damage      | 2d4         | Alignment     | Neutral   |
+| Stat          | Wild Boar  | Warthog    |
+| ------------- | ---------- | ---------- |
+| Armor Class   | 7          | 7          |
+| Hit Dice      | 3+3        | 3          |
+| Save As       | Fighter 2  | Fighter 2  |
+| Move          | 150' (50') | 120' (40') |
+| Attacks       | 1 tusk     | 2 tusks    |
+| Damage        | 3d4        | 2d4 / 2d4  |
+| No. Appearing | 1d6 (1d12) | 1d4 (1d6)  |
+| Morale        | 9          | 8          |
+| Treasure Type | Nil        | Nil        |
+| Alignment     | Neutral    | Neutral    |
 
-Wild boars generally prefer forested areas, but can be found nearly everywhere. They are omnivorous, eating roots, carrion, insects, and almost anything else they can find. Though normally shy of humans, boars have extremely nasty tempers when disturbed or cornered and will charge with little warning. Hunters and travelers alike fear their savage tusks and relentless fury once enraged.
+Boars are tough, pig-like omnivores. Wild boars and giant boars are fierce when roused, while warthogs are usually aggressive only when cornered, threatened, or defending territory.
+
+If several wild boars are encountered, the group includes one boar, several sows, and young. A wild boar may fight for `2d4` rounds after reaching 0 hit points unless reduced to -7 or worse.
+
+Warthogs make two slashing tusk attacks. If 3-6 are encountered, the remainder may be young with 1-2 Hit Dice. A warthog may fight for `1d2` rounds after reaching 0 hit points unless reduced to -6 or worse.
 
 ![](assets/boar-plate.png)
 
+### Buffalo
+*Source:* `AD&D 1E Conversion`
+*Category:* `Animal`
+
+| Armor Class | 7          | No. Appearing | 2d6 (4d6) |
+| Hit Dice    | 5          | Save As       | Fighter 3 |
+| Move        | 150' (50') | Morale        | 8         |
+| Attacks     | 2 horns    | Treasure Type | Nil       |
+| Damage      | 1d8x2      | Alignment     | Neutral   |
+
+Buffalo are dangerous herd animals of tropical and subtropical plains. They usually attack if approached within 60', though some herds flee when threatened.
+
+A charging buffalo must move at least 40' before impact. A charge deals `3d6` damage, plus `1d4` trampling damage. The head of a buffalo is AC 3.
+
+### Bull
+*Source:* `AD&D 1E Conversion`
+*Category:* `Animal`
+
+| Armor Class | 7          | No. Appearing | 1d4 (2d10) |
+| Hit Dice    | 4          | Save As       | Fighter 2  |
+| Move        | 150' (50') | Morale        | 8          |
+| Attacks     | 2 horns    | Treasure Type | Nil        |
+| Damage      | 1d6x2      | Alignment     | Neutral    |
+
+Bulls are aggressive herd defenders, easily angered and dangerous when approached. Wild oxen and aurochs may be treated as bulls.
+
+There is a 75% chance that a bull attacks if approached within 80'. A charging bull must move at least 30' before impact. A charge deals `3d6` damage, plus `1d4` trampling damage. When a herd is present, several bulls defend the rest.
+
 ### Camel
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class | 7          | No. Appearing | 0 (2d8)   |
 | Hit Dice    | 2          | Save As       | Fighter 1 |
@@ -290,14 +398,21 @@ Wild boars generally prefer forested areas, but can be found nearly everywhere. 
 | Attacks     | bite/hoof  | Treasure Type | Nil       |
 | Damage      | 1 / 1d4    | Alignment     | Neutral   |
 
-Camels are ill-tempered beasts, prone to biting and kicking any creature that gets in their way, including their masters. They often kick with one leg. They are used as pack and riding animals in deserts and barren lands, treating these as clear terrain. A camel may carry up to 3000 coins of weight and still move at normal speed, but the maximum load that can be carried is 6000 coins. A well-watered camel may travel for 2 weeks without drinking.  Charge attacks with a lance from camelback are **not** possible.
+Wild camels include single-humped dromedaries of hot deserts and double-humped bactrians that can endure colder regions. Camels can go up to two weeks without food or water.
+
+A camel can carry up to 6,000 cn, though this slows it to 50' (15'). A load of 4,000-5,000 cn slows it to 120' (40'). Bactrian camels move 30' (10') slower than dromedaries.
+
+Camels bite when forced to fight. They are ill-tempered and may spit at those who approach to ride or handle them. There is a 50% chance a camel spits; if it does, the target must Save vs. Paralysis or be blinded for 1d3 rounds. Horses dislike the odor of camels.
+
+Charge attacks with a lance from camelback are **not** possible.
+
 ![](assets/camel-plate.png)
 
 ::: twocolumn-pdf-end
 :::
 
 ### Cat, Great
-*Source:* `Basic`
+*Source:* `Basic`  *Category:* `Animal`
 
 | Stat           | Mountain Lion | Panther       | Lion         | Jaguar       | Tiger        |
 |----------------|---------------|---------------|--------------|------------- |--------------|
@@ -329,8 +444,22 @@ The Great Cats are normally cautious and avoid fights unless driven by extreme h
 
 ![](assets/cat-great-plate.png)
 
+### Cattle, Wild
+*Source:* `AD&D 1E Conversion`
+*Category:* `Animal`
+
+| Armor Class | 7          | No. Appearing | 0 (5d20)    |
+| Hit Dice    | 1-4        | Save As       | Fighter 1-2 |
+| Move        | 150' (50') | Morale        | 6           |
+| Attacks     | 1 gore     | Treasure Type | Nil         |
+| Damage      | 1d4        | Alignment     | Neutral     |
+
+Wild cattle roam many wilderness areas in large herds. They usually flee threats, but herd males may attack if intruders come upon the herd before it can run.
+
+There is a 75% chance that the males attack if the herd is surprised at close range. There is also a 25% chance that the herd stampedes directly through the party. If no cover is available, each creature in the path is trampled by `2d4` cattle, taking `1d4` damage from each.
+
 ### Crab, Giant
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Armor Clas | 2         | No. Appearing | 1d2 (1d6) |
 | Hit Dice   | 3         | Save As       | Fighter 2 |
@@ -341,7 +470,7 @@ The Great Cats are normally cautious and avoid fights unless driven by extreme h
 Unable to swim, giant crabs are found on the bottom of shallow waters, in coastal rivers and on beaches, and in salt or fresh water. They are always hungry and will attack anything that moves. Giant crabs are not intelligent.
 
 ### Crocodile
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Stat           | Crocodile       | Large Crocodile | Giant Crocodile |
 |----------------|-----------------|-----------------|-----------------|
@@ -364,7 +493,7 @@ Large crocodiles are at least 20' long, and can overturn canoes and small rafts.
 ![](assets/crocodile-plate.png)
 
 ### Elephant
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class    | 5                  | No. Appearing | 0 (1d20)    |
 | Hit Dice       | 9                  | Save As       | Fighter: 5  |
@@ -379,7 +508,7 @@ In combat, elephants will first charge, striking with their tusks for double dam
 Elephants dwell at the edge of sub-tropical forest areas. Their tusks are valued for the ivory and may be sold for 100-600 gp each.
 
 ### Ferret, Giant
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Animal`
 
 | Armor Class | 5          | No. Appearing | 1d8 (1d12) |
 | Hit Dice    | 1 + 1      | Save As       | Fighter 1  |
@@ -390,7 +519,7 @@ Elephants dwell at the edge of sub-tropical forest areas. Their tusks are valued
 Giant ferrets look like 3' long weasels. They hunt giant rats underground, and are sometimes trained for this purpose. Unfortunately, their tempers are highly unpredictable, and they have been known to attack their trainers and other humans.
 
 ### Fish, Giant
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Stat            | Giant Piranha | Giant Rockfish     | Giant Catfish      | Giant Sturgeon |
 |-----------------|---------------|--------------------|--------------------|----------------|
@@ -416,7 +545,7 @@ Giant sturgeon are almost 30' long and are covered with thick armorlike scales. 
 Any character swallowed takes `2d6` points of damage per round and must make a saving throw vs. Death Ray or be paralyzed. If the character saves, he or she may try to hack a way out at a penalty of -4; the inside of a sturgeon has a base AC of 7.
 
 ### Hawk
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Stat          | Normal Hawk     | Giant Hawk      |
 |---------------|-----------------|-----------------|
@@ -436,7 +565,7 @@ Hawks are hunting birds that glide on the updrafts of the wind, watching the gro
 Normal hawks do not usually attack human-sized or larger creatures unless the target appears unable to defend itself. Giant hawks are as large as a very big dog or small pony, are much stronger, and will attack human-sized creatures if hungry. Both normal and giant hawks may be trained as pets or guards by an animal trainer.
 
 ### Herd Animals
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class | 7          | No. Appearing | 0 (3d10)    |
 | Hit Dice    | 1-4        | Save As       | Fighter 1-2 |
@@ -447,7 +576,7 @@ Normal hawks do not usually attack human-sized or larger creatures unless the ta
 This category includes most wild, grazing creatures such as antelope, deer, wild oxen, moose, elk, goats, and caribou. At least one species will be encountered in any given climate. The number of hit dice the creature has and the amount of damage it does depends on its size. Deer, antelope, and goats typically have 1 or 2 hit dice; caribou and oxen have 3 hit dice, while elk and moose may have up to 4. Only males have a butt attack. If more than 2 creatures are encountered, there will be 1 male per 4 creatures, with the remainder being females and young. The young will have 1/2 the hit points normal, but the males will have 1-4 extra hit points. Females and young will flee from trouble while the male protects them.
 
 ### Horse
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Stat          | Riding Horse | War Horse         | Draft Horse       |
 |---------------|--------------|-------------------|-------------------|
@@ -469,7 +598,7 @@ War horses are bred for warlike temperament and strength. They cannot be ridden 
 Draft horses are large horses bred for sturdiness and endurance. They are used primarily for plowing, pulling wagons, and as pack animals. A draft horse can carry a normal load of 4500 cn and a maximum load, movement reduced by 1/2, of 9000 cn. A draft horse will not fight; if attacked, it will attempt to flee.
 
 ### Leech, Giant
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class | 7          | No. Appearing | 0 (1d4)   |
 | Hit Dice    | 6          | Save As       | Fighter 3 |
@@ -480,7 +609,7 @@ Draft horses are large horses bred for sturdiness and endurance. They are used p
 Giant leeches are loathsome and slug-like. They live in swamps and are about 3 to 4 feet long. A giant leech has a sucker-like mouth that attaches to the victim if a hit is successful. It then sucks blood, doing 1-6 points of damage per round. A giant leech must be killed to be removed from its victim. When the victim dies, the leech will drop off and hide while it digests its meal.
 
 ### Lizards, Giant
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Animal`
 
 | Stat          | Gecko      | Draco                      | Horned Chameleon | Tuatara          |
 |---------------|------------|----------------------------|------------------|------------------|
@@ -507,7 +636,7 @@ Tuatara: A tuatara is a 8' long lizard that looks like a cross between an iguana
 ![Basic monster illustration: giant lizards](assets/lizards-giant-plate.png)
 
 ### Mule
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Animal`
 
 | Armor Class | 7                | No. Appearing | 1d8 (2d6)  |
 | Hit Dice    | 2                | Save As       | Normal Man |
@@ -518,7 +647,7 @@ Tuatara: A tuatara is a 8' long lizard that looks like a cross between an iguana
 A mule is a crossbreed between a horse and a donkey. Mules are stubborn, and if bothered or excited they may either bite or kick. If the DM permits it, mules can be taken into dungeons. A mule can carry a normal load of 2000 coins (or 4000 coins at most, with its move reduced to 6O'/turn). Mules cannot be trained to attack, but will fight in their own defense.
 
 ### Octopus, Giant
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class | 7                  | No. Appearing | 0 (1d2)   |
 | Hit Dice    | 8                  | Save As       | Fighter 4 |
@@ -537,7 +666,7 @@ If a combat is going against it, a giant octopus will flee, jetting away at trip
 ![Expert monster plate: octopus](assets/octopus-plate.png)
 
 ### Rat
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Animal`
 
 | Stat          | Normal          | Giant          |
 |---------------|-----------------|----------------|
@@ -562,7 +691,7 @@ Normal Rats: Normal rats may be from 6 inches to 2 feet long and have gray or br
 Giant Rats: Giant rats are 3 feet long or more, and have gray or black fur. They are often found in the dark corners of dungeon rooms and in areas where undead monsters lurk.
 
 ### Rhinoceros
-*Source:* `Expert`
+*Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class | 5               | No. Appearing | 0 (1d12)  |
 | Hit Dice    | 6               | Save As       | Fighter 3 |
@@ -575,7 +704,7 @@ Though unintelligent plant eaters, rhinoceroses are extremely dangerous animals 
 If threatened, surprised, or charged, a rhinoceros will stampede in a random direction, goring anything in its path and inflicting double damage with its first successful attack.
 
 ### Shark
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Stat          | Bull       | Mako       | Great White |
 |---------------|------------|------------|-------------|
@@ -601,7 +730,7 @@ Great white sharks are 30' long or larger and gray with a white underside. They 
 ![Expert monster illustration: shark](assets/shark-plate.png)
 
 ### Shrew, Giant
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Animal`
 
 | Armor Class | 4          | No. Appearing | 1d4 (1d8) |
 | Hit Dice    | 1          | Save As       | Fighter 1 |
@@ -618,7 +747,7 @@ Giant shrews often choose one area to hunt in, and will fight to defend "their" 
 Their attack is so ferocious (attacking the head and shoulders of the defender) that when they attack any creature of 3 hit dice (3^rd^ level) or less, the victim must save vs. Death or run away in fear.
 
 ### Snake
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Animal`
 
 | Stat          | Spitting Cobra   | Pit Viper    | Sea Snake  | Giant Rattler | Rock Python        |
 |---------------|------------------|--------------|------------|---------------|--------------------|
@@ -654,7 +783,7 @@ Rock Python: A rock python is a 20' long giant snake with brown and yellow scale
 ![Basic monster illustration: snake](assets/snake-plate.png)
 
 ### Squid, Giant
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class | 7                    | No. Appearing | 0 (1d4)   |
 |-------------|----------------------|---------------|-----------|
@@ -670,7 +799,7 @@ The lesser tentacles do constriction damage after they hit. They can be severed 
 If its morale fails, the squid can flee at triple speed and will leave great clouds of ink, 30' radius, twice per day maximum, to confuse pursuers. A large giant squid can even be double or triple normal size.
 
 ### Toad, Giant
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class | 7         | No. Appearing | 1d4 (1d4) |
 | Hit Dice    | 2 + 2     | Save As       | Fighter 1 |
@@ -681,7 +810,7 @@ If its morale fails, the squid can flee at triple speed and will leave great clo
 A giant toad is about the size of a very large dog and weighs 150-250 pounds. These toads can change their skin color to blend into woods or poorly lit dungeons, thus surprising their prey on a roll of 1-3. They can shoot their tongues out to 15' and drag dwarf-sized or smaller victims to their mouths to be bitten. On a "to hit" roll of 20, small prey will be swallowed whole, taking 1-6 points of damage each round thereafter.
 
 ### Weasel, Giant
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class | 7                 | No. Appearing | 1d4 (1d6) |
 | Hit Dice    | 4 + 4             | Save As       | Fighter 3 |
@@ -694,7 +823,7 @@ A giant weasel is 8'-9' long and covered with richly colored fur of white, gold,
 Giant weasels have infravision to 30' and can track by scent. They prefer wounded prey and lair in underground tunnels, where treasure is often found on the bodies of creatures they have dragged back to eat.
 
 ### Whale
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Stat          | Killer Whale    | Narwhal         | Sperm Whale |
 |---------------|-----------------|-----------------|-------------|
@@ -720,7 +849,7 @@ Man-sized or smaller creatures will be swallowed on a die roll that is 4 or more
 ![Expert monster plate: whale](assets/whale-plate.png)
 
 ### Wolf
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Animal`
 
 | Stat          | Normal Wolf | Dire Wolf  |
 |---------------|-------------|------------|
@@ -749,7 +878,7 @@ Most constructs are immune to **sleep**, **charm**, **hold**, and other mind-aff
 Constructs are commonly used as guardians for tombs, temples, treasure vaults, laboratories, and the hidden strongholds of powerful wizards. Some continue carrying out forgotten commands long after their creators have died.
 
 ### Animated Armor
-*Source:* `Homebrew`
+*Source:* `Homebrew`  *Category:* `Construct`
 
 | Armor Class | 2         | No. Appearing | 1d6        |
 | Hit Dice    | 3         | Save As       | Fighter: 2 |
@@ -766,7 +895,7 @@ Most animated armor fights with weapons held in mailed hands, though some punch,
 ![Homebrew Monster illustration: animated armor](assets/animated-armor-plate.png)
 
 ### Gargoyle*
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Construct`
 
 | Armor Class | 5                 | No. Appearing | 1d6 (2d4) |
 | Hit Dice    | 4                 | Save As       | Fighter 8 |
@@ -787,7 +916,7 @@ Gargoyles are immune to **sleep** and **charm** spells. Because ordinary weapons
 :::
 
 ### Golem*
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Construct`
 
 | Stat          | Wood       | Bone       | Amber            | Bronze           |
 |---------------|------------|------------|------------------|------------------|
@@ -817,7 +946,7 @@ Normally golems can only be hit by magic weapons. Golems are also immune to **sl
 ![Expert monster illustration: bone golem](assets/bone-golem-plate.png)
 
 ### Living Statue
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Construct`
 
 | Stat          | Crystal   | Iron                | Rock      |
 |---------------|-----------|---------------------|-----------|
@@ -896,7 +1025,7 @@ Demons are affected by attack forms as follows:
 Because of their strange telepathy, demons understand all intelligent communication. Demons with average or greater intelligence may also converse normally.
 
 ### Demogorgon
-*Source:* `AD&D 1E Conversion`
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
 
 | Armor Class | -8                   | No. Appearing | 1          |
 | Hit Dice    | 20***                | Save As       | Fighter 20 |
@@ -967,7 +1096,7 @@ As dragons age, they grow steadily more powerful. Newly hatched dragons typicall
 All dragons radiate an aura of supernatural fear, similar to a fear spell, affecting creatures below 5^th^ level unless they successfully save versus Spells. Dragons with 5 or more hit points per Hit Die also gain a bonus of +1 on saving throws for each hit point per die above 4. Thus, an ancient dragon with 8 hit points per Hit Die gains a +4 bonus on all saving throws.
 
 ### Dragon
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Dragon`
 
 | Stat           | White                  | Black                   | Green                  | Blue                    | Red                    | Gold                   |
 |----------------|------------------------|-------------------------|------------------------|-------------------------|------------------------|------------------------|
@@ -1029,7 +1158,7 @@ Dragons are extremely powerful and should be used with caution when encountered 
 ![Basic monster illustration: dragon](assets/dragon-plate.png)
 
 ### Dragon Turtle
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Dragon`
 
 | Armor Class | -2               | No. Appearing | 0 (1)      |
 | Hit Dice    | 30               | Save As       | Fighter 15 |
@@ -1049,7 +1178,7 @@ Note: Dragon turtles are extremely powerful creatures that should not be used un
 ![Expert monster illustration: dragon turtle](assets/dragon-turtle-plate.png)
 
 ### Sea Dragons
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Dragon`
 
 | Armor Class | 1                               | No. Appearing | 0 (1d4)                |
 | Hit Dice    | 8                               | Save As       | Fighter: 8 (see below) |
@@ -1068,7 +1197,7 @@ Sea dragons generally range in size from 3 hit dice smaller to 3 hit dice larger
 Sea dragons have fin-like wings which enable them to glide above the water for up to 6 rounds (much like "flying fish"). They live in caves or sunken ships at the bottom of the ocean, and may attack passing ships for food and treasure.
 
 ### Wyvern
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Dragon`
 
 | Armor Class | 3                | No. Appearing | 1-2 (1-6)  |
 | Hit Dice    | 7*               | Save As       | Fighter 4  |
@@ -1087,7 +1216,7 @@ A wyvern looks like a two-legged, winged dragon with a long tail. In combat, the
 ## Elementals
 
 ### Aerial Servant
-*Source:* `AD&D 1E Conversion`
+*Source:* `AD&D 1E Conversion`  *Category:* `Elemental`
 
 | Armor Class | 3          | No. Appearing | 1          |
 | Hit Dice    | 16*        | Save As       | Fighter 16 |
@@ -1108,7 +1237,7 @@ If the aerial servant is frustrated in the completion of its assigned mission, i
 For further details regarding aerial servants, consult the volume detailing clerical spells.
 
 ### Djinni, Lesser*
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Elemental`
 
 | Armor Class | 5                    | No. Appearing | 1 (0)       |
 | Hit Dice    | 7 + 1                | Save As       | Fighter 14  |
@@ -1142,7 +1271,7 @@ A djinni can carry 6000 cn weight without tiring. Up to 12,000 cn weight can be 
 
 ### Efreeti, Lesser*
 
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Elemental`
 
 | Armor Class | 3           | No. Appearing | 1 (1)       |
 | Hit Dice    | 10*         | Save As       | Fighter 15  |
@@ -1163,7 +1292,7 @@ Efreet may fly and carry up to 10,000 cn weight while flying. They can be summon
 :::
 
 ### Elemental*
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Elemental`
 
 | Stat           | Air             | Earth     | Fire       | Water                      |
 |----------------|-----------------|-----------|------------|----------------------------|
@@ -1197,7 +1326,7 @@ Staff elementals, the weakest, are summoned by a magic-user with a special staff
 - **Water elementals**: appear as great waves of water 1/2' tall and 2' in diameter for each hit die they have. Water elementals are not able to move more than 60' from water. They do an extra `1d8` points of damage against opponents in water.
 
 ### Salamander*
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Elemental`
 
 | Stat           | Flame Salamander | Frost Salamander |
 |----------------|------------------|------------------|
@@ -1232,7 +1361,7 @@ Frost and flame salamanders hate each other, and will attack one another on sigh
 Larger groups often include shamans, witch doctors, or other tribal spellcasters
 
 ### Bugbear
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Humanoid`
 
 | Armor Class | 5                    | No. Appearing | 2d4 (5d4) |
 | Hit Dice    | 3+1                  | Save As       | Fighter 3 |
@@ -1242,10 +1371,14 @@ Larger groups often include shamans, witch doctors, or other tribal spellcasters
 
 Bugbears are giant hairy goblins. Despite their size and awkward walk, they move very quietly and attack without warning whenever they can. They surprise on a roll of 1-3 (on `1d6`) due to their stealth. When using weapons, they add + 1 to all damage rolls due to their strength.
 
+If 12 or more bugbears are encountered, one is a leader with AC 4, 22-25 hp, and +1 damage. If 24 or more are encountered, a chief with AC 3, 28-30 hp, and +2 damage is present, along with a sub-chief as a leader. In a lair, a chief and sub-chief are always present, with females and young each equal to 50% of the males. Females fight as hobgoblins and young as kobolds only in desperate defense.
+
+Bugbears speak their own tongue, goblin, hobgoblin, and the chaotic alignment language.
+
 ![Basic monster illustration: bugbear](assets/bugbear-plate.png)
 
 ### Gnoll
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Humanoid`
 
 | Armor Class | 5                    | No. Appearing | 1d6 (3d6) |
 | Hit Dice    | 2                    | Save As       | Fighter 2 |
@@ -1256,7 +1389,7 @@ Bugbears are giant hairy goblins. Despite their size and awkward walk, they move
 Gnolls are beings of low intelligence that appear to be human-like hyenas. They may use any weapons. They are strong, but dislike work and prefer to bully and steal for a living. For every 20 gnolls encountered, one will be a leader with 16 hit points who attacks as a 3 hit dice monster. Gnolls are rumored to be the result of a magical combination of a gnome and a troll by an evil magic-user.
 
 ### Goblin
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Humanoid`
 
 | Armor Class | 6                | No. Appearing | 2d4 (6d10)   |
 | Hit Dice    | 1-1              | Save As       | Normal Man   |
@@ -1273,7 +1406,7 @@ In the goblin lair lives a goblin king with 15 hit points who fights as a 3 hit 
 Treasure type C is only found in the goblin lair or when encountered in the wilderness.
 
 ### Hobgoblin
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Humanoid`
 
 | Armor Class | 6         | No. Appearing | 1d6 (4d6)      |
 | Hit Dice    | 1 + 1     | Save As       | Fighter 1      |
@@ -1286,7 +1419,7 @@ Hobgoblins are bigger and meaner relatives of goblins. They live underground but
 The bodyguards all fight as 4 hit dice  and have 3-18 (3d6) hit points each. As long as their king is alive and with them, hobgoblin morale is 10 rather than 8.
 
 ### Kobold
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Humanoid`
 
 | Armor Class | 7                | No. Appearing | 4d4 (6d10)     |
 | Hit Dice    | 1/2 (1d4 hp)     | Save As       | Normal Man     |
@@ -1299,7 +1432,7 @@ These small, evil dog-like men usually live underground. They have scaly rust-br
 ![Basic monster illustration: kobold](assets/kobold-plate.png)
 
 ### Lizard Man
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Humanoid`
 
 | Armor Class | 5                              | No. Appearing | 2d4 (6d6) |
 | Hit Dice    | 2 + 1                          | Save As       | Fighter 2 |
@@ -1312,7 +1445,7 @@ These water-dwelling creatures look like men with lizard heads and tails. They l
 ![Basic monster illustration: lizard man](assets/lizard-man-plate.png)
 
 ### Orc
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Humanoid`
 
 | Armor Class | 6                 | No. Appearing | 2d4 (10d6) |
 | Hit Dice    | 1                 | Save As       | Fighter  1 |
@@ -1333,7 +1466,7 @@ They will not use mechanical weapons (such as catapults), as only their leaders 
 There are many different tribes of orcs. Members of different tribes are not usually friendly with each other, and may start fighting unless their leaders are present. An orc lair has only one tribe. Each tribe will have as many female orcs as males, and 2 children ("whelps") for each 2 adults. The leader of an orc tribe is a chieftain who has 15 hit points, attacks as a 4 hit dice monster, and gains + 2 on damage rolls. For every 20 orcs in a tribe, there may be an ogre with them (a 1 in 6 chance). (If the D&D EXPERT rules are used, there is a 1 in 10 chance of a troll living in the lair as well.)
 
 ### Troglodyte
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Humanoid`
 
 | Armor Class | 5                 | No. Appearing | 1d8 (5d8) |
 | Hit Dice    | 2*                | Save As       | Fighter 2 |
@@ -1361,7 +1494,7 @@ Giants are also famously greedy, especially for gold. When away from their cave 
 All giants speak their own racial tongue as well as an alignment language.
 
 ### Cyclops
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Giant`
 
 | Armor Class | 5         | No. Appearing | 1 (1d4)     |
 | Hit Dice    | 13*       | Save As       | Fighter 13  |
@@ -1376,7 +1509,7 @@ Some cyclops, 5%, are able to cast a **curse** once a week. The DM should decide
 A cyclops usually lives alone, though a small group may sometimes share a large cave. They spend their time raising sheep and grapes. Cyclopes are known for their stupidity, and a clever party can often escape from them by trickery.
 
 ### Giant
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Giant`
 
 | Stat           | Hill Giant  | Stone Giant | Frost Giant | Fire Giant  | Cloud Giant | Storm Giant   |
 |----------------|-------------|-------------|-------------|-------------|-------------|---------------|
@@ -1401,7 +1534,7 @@ A cyclops usually lives alone, though a small group may sometimes share a large 
 ![Expert monster illustration: giants](assets/giant-plate.png)
 
 ### Ogre
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Giant`
 
 | Armor Class | 5 | No. Appearing | 1-6 (2-12) |
 | Hit Dice | 4+1 | Save As | Fighter: 4 |
@@ -1414,7 +1547,7 @@ Ogres are huge fearsome human-like creatures, usually 8 to 10 feet tall. They we
 When encountered outside their lair, they will be carrying 100-600 gp (1d6 x 100) in large sacks. Ogres hate Neanderthals and will attack them on sight.
 
 ### Troll
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Giant`
 
 | Armor Class | 5         | No. Appearing | 1d6 (2d6)   |
 | Hit Dice    | 4 + 1     | Save As       | Fighter 4   |
@@ -1435,7 +1568,7 @@ Trolls are strong and rend their opponents with talons and sharp teeth. A troll 
 Insects and similar creeping creatures are common in dungeons, ruins, and wilderness areas. Though many are merely oversized versions of normal vermin, others are strange and deadly monsters driven by hunger, instinct, or hive behavior.
 
 ### Ant, Driver
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Insect`
 
 | Armor Class | 3          | No. Appearing | 2d4 (4d6)       |
 | Hit Dice    | 4*         | Save As       | Fighter 2       |
@@ -1454,20 +1587,27 @@ Legends claim driver ants sometimes mine and collect gold. There is a 30% chance
 ![Basic monster illustration: driver ant](assets/driver-ant-plate.png)
 
 ### Ant, Giant
-*Source:* `AD&D 1E Conversion`
+*Source:* `AD&D 1E Conversion`  *Category:* `Insect`
 
-| Armor Class | 3          | No. Appearing | 1d8 (1d100) |
-| Hit Dice    | 2          | Save As       | Fighter 1   |
-| Move        | 180' (60') | Morale        | 8           |
-| Attacks     | 1 bite     | Treasure Type | Q × 3, S    |
-| Damage      | 1d6        | Alignment     | Neutral     |
+| Stat          | Worker       | Warrior          | Queen     |
+| ------------- | ------------ | ---------------- | --------- |
+| Armor Class   | 3            | 3                | 3         |
+| Hit Dice      | 2            | 3                | 10        |
+| Save As       | Fighter 1    | Fighter 2        | Fighter 5 |
+| Move          | 180' (60')   | 180' (60')       | 0         |
+| Attacks       | 1 bite       | 1 bite / 1 sting | Nil       |
+| Damage        | 1d6          | 2d4 / 3d4        | Nil       |
+| No. Appearing | 1d8 (1d100)  | See colony       | 0 (1)     |
+| Morale        | 8            | 9                | 7         |
+| Treasure Type | Q x3, S      | Q x3, S          | Q x3, S   |
+| Alignment     | Neutral      | Neutral          | Neutral   |
 
 Giant ants are aggressive social insects that live in vast underground colonies. Most encountered are workers, which tirelessly gather food and defend the nest. Though smaller than the dreaded driver ant, giant ants attack fearlessly when threatened and can overwhelm larger foes through sheer numbers.
 
 When giant ants are encountered outside their lair, there is a 90% chance that they will simply be workers. If found in their lair (nest), there will be the number rolled plus 1 warrior ant for every 5 workers. The warrior ant has 3 hit dice, does `2d4` points of damage with its mandibles, and if it hits with them it will also attempt to sting for `3d4` points of damage. If a sting hits, a saving throw versus poison must be made; if successful, the victim takes only `1d4` points of damage. The queen ant has 10 hit dice, but she neither moves nor attacks. If she is killed, the other ants become confused (as if under the influence of that spell) for six melee rounds and then leave the nest. Treasure held by the ants will be found in the queen's chamber. The egg chamber is guarded by `5d10` workers and 5 warriors. Giant ant eggs have no normal market value.
 
 ### Bee, Killer
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Insect`
 
 | Armor Class | 7             | No. Appearing | 1d6 (5d6) |
 | Hit Dice    | 1/2* (1d4 hp) | Save As       | Fighter 1 |
@@ -1487,32 +1627,48 @@ Killer bee hives contain a rare golden honey prized by alchemists and healers. T
 
 ![Basic monster illustration: killer bee](assets/killer-bee-plate.png)
 
+::: twocolumn-pdf-end
+:::
+
 ### Beetle, Giant
-*Source:* `Basic`  
+*Source:* `Basic + AD&D 1E Conversion`
+*Category:* `Insect`
 
-| Stat          | Fire          | Oil           | Tiger         |
-| ------------- | ------------- | ------------- | ------------- |
-| Armor Class   | 4             | 4             | 3             |
-| Hit Dice      | 1 + 2         | 2*            | 3 + 1         |
-| Move          | 120' (40')    | 120' (40')    | 150' (50')    |
-| Attacks       | 1 bite        | bite/spray    | 1 bite        |
-| Damage        | `2d4`         | `1d6`/special | `2d6`         |
-| No. Appearing | `1d8` (`2d6`) | `1d8` (`2d6`) | `1d6` (`2d4`) |
-| Save As       | Fighter: 1    | Fighter: 1    | Fighter: 1    |
-| Morale        | 7             | 8             | 9             |
-| Treasure Type | Nil           | Nil           | U             |
-| Alignment     | Neutral       | Neutral       | Neutral       |
+| Stat          | Fire       | Oil         | Bombardier | Water      | Boring     | Stag           | Rhinoceros    |
+| ------------- | ---------- | ----------- | ---------- | ---------- | ---------- | -------------- | ------------- |
+| Armor Class   | 4          | 4           | 4          | 3          | 3          | 3              | 2             |
+| Hit Dice      | 1+2        | 2*          | 2+2*       | 4          | 5          | 7              | 12            |
+| Move          | 120' (40') | 120' (40')  | 90' (30')  | 30' (10')  | 60' (20')  | 60' (20')      | 60' (20')     |
+| Swim          | Nil        | Nil         | Nil        | 120' (40') | Nil        | Nil            | Nil           |
+| Attacks       | 1 bite     | bite/spray  | 1 bite     | 1 bite     | 1 bite     | 1 horn/2 claws | 1 horn/1 bite |
+| Damage        | 2d4        | 1d6/special | 2d6        | 3d6        | 5d4        | 4d4/1d10x2     | 3d6/2d8       |
+| No. Appearing | 1d8 (2d6)  | 1d8 (2d6)   | 2d4 (3d4)  | 1d6 (2d6)  | 1d6 (3d6)  | 1d8 (2d6)      | 1d4 (1d6)     |
+| Save As       | Fighter 1  | Fighter 1   | Fighter 2  | Fighter 2  |  Fighter 3 | Fighter 4      | Fighter 6     |
+| Morale        | 7          | 8           | 8          | 8          | 8          | 8              | 8             |
+| Treasure Type | Nil        | Nil         | Nil        | Nil        | C, R, S, T | Nil            | Nil           |
+| Alignment     | Neutral    | Neutral     | Neutral    | Neutral    | Neutral    | Neutral        | Neutral       |
 
-- **Fire Beetle**: Fire beetles are 2 1/2' long creatures often found below ground. They are nocturnal, but may be active underground at any time. A fire beetle has two glowing glands above its eyes and one near the back of its abdomen. These glands give off light in a 10' radius, and will continue to glow for 1-6 days after they are removed.
+::: twocolumn-pdf-begin
+:::
 
-- **Oil Beetle**: Oil beetles are 3' long giant beetles that sometimes burrow underground. When attacked, they will squirt an oily fluid at one of their attackers (a "to hit" roll is needed; the range is 5'). If the oil hits it will raise painful blisters, causing the victim to fight with a penalty of -2 on his or her "to hit" rolls until a **cure light wounds** spell is used or until 24 hours have passed. If the spell is used to cure blisters, it will not also cure points of damage. Oil beetles can also attack with their mandibles (horned jaws).
+**General**: Giant beetles are unintelligent and perpetually hungry. They feed on nearly any organic material, including other giant beetles. They locate food primarily through their antennae, relying little on sight or hearing. Anything completely consumed by a giant beetle is ground so thoroughly that only a **wish** can restore it to life.
 
-- **Tiger Beetle**: Tiger beetles are 4' long giant beetles with a striped carapace (a shell-like covering) which looks like a tiger's skin. They are carnivorous (meat-eaters) and usually prey on [robber flies](#fly-robber).  They have been known to attack and eat humans, crushing them with their powerful mandibles.
+**Fire Beetle**: Fire beetles are nocturnal creatures found both above and below ground. Two glands above the eyes and one near the abdomen emit a red glow illuminating a 10' radius. The glands continue to glow for `1d6` days after removal.
 
-![Basic monster illustration: giant beetle](assets/giant-beetle-plate.png)
+**Oil Beetle**: When threatened, an oil beetle may spray oily fluid at a target within 5'. A successful hit causes painful blisters, imposing a -2 penalty on attack rolls until a **cure light wounds** spell is applied or 24 hours pass.
+
+**Bombardier Beetle**: If threatened, a bombardier beetle may release an 8' cloud of acidic vapor, causing `3d4` damage to all within it. Creatures within 16' have a 20% chance of being stunned and a separate 20% chance of being deafened. A bombardier may use this attack once every three rounds, but no more than twice per eight hours.
+
+**Water Beetle**: Water beetles inhabit fresh water at least 30' deep. Slow on land but swift swimmers, they hunt by scent and vibration and attack almost any living creature.
+
+**Boring Beetle**: Boring beetles prefer rotting wood, decaying vegetation, fungi, molds, and slimes. They are commonly found within hollow trees or abandoned tunnels. Strange tales claim large groups develop a form of communal intelligence.
+
+**Stag Beetle**: Stag beetles are woodland pests that often raid cultivated fields. Their enormous antler-like horns may exceed 8' in length.
+
+**Rhinoceros Beetle**: Rhinoceros beetles inhabit tropical jungles, feeding on fruits and vegetation. Their massive horn extends roughly 6' and is used to smash obstacles and enemies alike.
 
 ### Centipede, Giant
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Insect`
 
 | Armor Class | 9             | No. Appearing | 2d4 (1d8)  |
 | Hit Dice    | 1/2 (1d4 hp)  | Save As       | Normal Man |
@@ -1523,7 +1679,7 @@ Killer bee hives contain a rare golden honey prized by alchemists and healers. T
 Giant centipedes are insects with 1' long bodies and many legs they like to live in damp, dark places. Their bite does no damage, but the victim must save vs. Poison or become violently ill for 10 days. Characters who do not save move at 1/2 speed and will not be able to perform any other physical action.
 
 ### Fly, Robber
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Insect`
 
 | Armor Class | 6             | No. Appearing | 1d6 (2d6) |
 | Hit Dice    | 2             | Save As       | Fighter 1 |
@@ -1535,7 +1691,7 @@ Giant centipedes are insects with 1' long bodies and many legs they like to live
 Robber flies are 3' long giant flies colored with black and yellow stripes. At a distance they look like killer bees. They are not harmed by the poison of killer bees, which are their main source of food. Robber flies are patient hunters. They often hide in shadows and wait for prey, surprising on a roll of 1-4 (on 1d6). A robber fly can leap up to 30' and attack with its bite. Robber flies are meat eaters and have been known to attack humans.
 
 ### Insect Swarms
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Insect`
 
 | Armor Class | 7                  | No. Appearing | 1 swarm (1d3 swarms) |
 | Hit Dice    | (2d4)              | Save As       | Normal Man           |
@@ -1557,7 +1713,7 @@ Swarms are affected by a sleep spell (which will affect the whole swarm), smoke 
 If a swarm is angry (has taken damage) it will pursue characters as best as it can. A swarm may be escaped by running out of its line of sight or diving under water. If a character dives under water he or she will take damage for one more round and then all the insects on him or her will be dead.
 
 ### Locust, Cave
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Insect`
 
 | Armor Class | 4                          | No. Appearing | 2d10 (1d10) |
 | Hit Dice    | 2                          | Save As       | Fighter 2   |
@@ -1573,7 +1729,7 @@ They are very nervous and usually flee rather than fight, often leaping up to 60
 When frightened or attacked, cave locusts make a loud shrieking noise to warn their fellows. This cry has a 20% chance each round of attracting wandering monsters. If cornered, a cave locust may spit a brown gooey substance up to 10'. Treat the spit as an attack against Armor Class 9; a victim hit must save vs. Poison or be unable to act for 1 turn because of the awful smell.
 
 ### Scorpion, Giant
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Insect`
 
 | Armor Class | 2                          | No. Appearing | 1d6 (1d6) |
 | Hit Dice    | 4*                         | Save As       | Fighter 2 |
@@ -1588,7 +1744,7 @@ Anyone struck by the stinger must save vs. Poison or die. Giant scorpions live i
 ![Expert monster illustration: giant scorpion](assets/giant-scorpion-plate.png)
 
 ### Spider, Giant
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Insect`
 
 | Stat          | Crab Spider  | Black Widow  | Tarantella   | Rhagodessa   |
 | ------------- | ------------ | ------------ | ------------ | ------------ |
@@ -1625,7 +1781,7 @@ These creatures are often larger, more savage, and more primitive than their mod
 
 
 ### Ape, White
-*Source:* `Basic`
+*Source:* `Basic`  *Category:* `Animal`
 
 | Armor Class | 6          | No. Appearing | 1d6 (2d4) |
 | Hit Dice    | 4          | Save As       | Fighter 2 |
@@ -1642,7 +1798,7 @@ Though not intelligent, white apes are cunning enough to defend their territory 
 ![](assets/white-ape-plate.png)
 
 ### Axe Beak
-*Source:* `AD&D 1E Conversion`
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
 | Armor Class | 6                | No. Appearing | 1d6 (1d6) |
 | Hit Dice    | 3                | Save As       | Fighter 2 |
@@ -1656,8 +1812,23 @@ An axe beak resembles an ostrich in its lower portions, but possesses a powerful
 
 ![](assets/axe-beak-plate.png)
 
+### Baluchitherium
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 5          | No. Appearing | 0 (1d3)   |
+| Hit Dice    | 14         | Save As       | Fighter 7 |
+| Move        | 120' (40') | Morale        | 7         |
+| Attacks     | 2 tramples | Treasure Type | Nil       |
+| Damage      | 5d4 / 5d4  | Alignment     | Neutral   |
+
+The baluchitherium is a gigantic prehistoric ancestor of the rhinoceros. Standing nearly 20' tall, it is one of the largest land animals known.
+
+Though herbivorous, a baluchitherium has a tendency to charge and trample anything nearby when startled or threatened. Its immense size and weight make such attacks extremely dangerous.
+
+If two are encountered, they are a mated pair. If three are encountered, the third is a young baluchitherium.
+
 ### Bear, Cave
-*Source:* `Basic`
+*Source:* `Basic`  *Category:* `Animal`
 
 | Armor Class | 5              | No. Appearing | 1d2 (1d2) |
 | Hit Dice    | 7              | Save As       | Fighter 3 |
@@ -1671,8 +1842,20 @@ Though omnivorous, cave bears strongly prefer meat and are infamous for developi
 
 If a cave bear hits the same target with both claw attacks in one combat round, it also hugs its victim for an additional `2d8` points of damage.
 
+### Boar, Giant
+*Source:* `AD&D 1E Conversion`
+*Category:* `Animal`
+
+| Armor Class | 6          | No. Appearing | 1d4 (2d4) |
+| Hit Dice    | 7          | Save As       | Fighter 4 |
+| Move        | 120' (40') | Morale        | 10        |
+| Attacks     | 1 tusk     | Treasure Type | Nil       |
+| Damage      | 3d6        | Alignment     | Neutral   |
+
+Giant boars are prehistoric forerunners of the wild boar and are very aggressive. If 3 or more are encountered, there is a 25% chance that `1d4` of the total are young. Adult giant boars may fight for `1d4` rounds after reaching 0 hit points unless reduced to -11 or worse.
+
 ### Mastodon
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class | 3                    | No. Appearing | 0 (2d8)    |
 | Hit Dice    | 15                   | Save As       | Fighter 8  |
@@ -1685,7 +1868,7 @@ Mastodons look like hairy elephants with long tusks. In combat, a mastodon will 
 Ivory mastodon tusks are quite valuable, each tusk being worth 200-800 gp. They live in cold, icy tundras or "lost worlds."
 
 ### Neanderthal (Caveman)
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Humanoid`
 
 | Armor Class | 8                 | No. Appearing | 1d10 (10d4) |
 | Hit Dice    | 2                 | Save As       | Fighter 2   |
@@ -1698,7 +1881,7 @@ Neanderthals, also known as cavemen, are a demi-human species related to humans.
 Neanderthals usually attack with thrown spears and use stone axes, clubs, or stone hammers in hand-to-hand combat. They choose their leaders from a similar race that is much larger than the average Neanderthal. These leaders have 6 hit dice and are 10' tall. There will be 10-40 Neanderthals in the lair with 2 leaders, one male and one female. Neanderthals often hunt cave bears and keep white apes as pets. They are friendly toward dwarves and gnomes, but hate goblins and kobolds. They will attack ogres on sight. They are shy and will avoid humans, but are not usually hostile unless they are attacked.
 
 ### Pterodactyl
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Stat           | Pterodactyl | Pteranodon  |
 |----------------|-------------|-------------|
@@ -1720,7 +1903,7 @@ Pteranodons are giant pterodactyls. They are more aggressive and will often atta
 Pteranodons and pterodactyls are only found in warm climates, usually in "lost world" areas.
 
 ### Rhinoceros, Wooly
-*Source:* `Expert`
+*Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class | 4               | No. Appearing | 0 (1d8)   |
 | Hit Dice    | 8               | Save As       | Fighter 4 |
@@ -1735,7 +1918,7 @@ If threatened, surprised, or charged, a rhinoceros will stampede in a random dir
 Woolly rhinos are most often encountered in isolated “lost world” regions where ancient creatures still survive from forgotten ages. Primitive tribes sometimes hunt them for meat, horn, hide, and bone, though doing so is extremely dangerous.
 
 ### Sabre-Tooth Tiger
-*Source:* `Basic`
+*Source:* `Basic`  *Category:* `Animal`
 
 | Armor Class | 6                 | No. Appearing | 1d4 (1d4) |
 | Hit Dice    | 8                 | Save As       | Fighter 4 |
@@ -1752,7 +1935,7 @@ A sabre-tooth tiger that hits the same target with both claw attacks in one comb
 ![Basic monster illustration: sabre-tooth tiger](assets/sabre-tooth-tiger-plate.png)
 
 ### Stegosaurus
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class | 3               | No. Appearing | 0 (1d4)   |
 | Hit Dice    | 11              | Save As       | Fighter 6 |
@@ -1763,7 +1946,7 @@ A sabre-tooth tiger that hits the same target with both claw attacks in one comb
 These squat dinosaurs have hard upright plates of bone along their backs and 4 long spikes on the end of their tails. They will swing their tail at anything that menaces them. Stegosaurs are herbivores and prefer sub-tropical conditions. They are usually found only in "lost world" areas.
 
 ### Titanothere
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class | 5               | No. Appearing | 0 (1d6)   |
 | Hit Dice    | 12              | Save As       | Fighter 6 |
@@ -1774,7 +1957,7 @@ These squat dinosaurs have hard upright plates of bone along their backs and 4 l
 The prehistoric titanothere resembles a huge blunt-horned rhino, 12' tall at the shoulder. They are generally peaceful if left alone, preferring to graze grass and eat leaves off trees. In combat, titanotheres will butt or trample their opponents. Small herds of these creatures are found in the grasslands of "lost world" areas.
 
 ### Triceratops
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class | 2               | No. Appearing | 0 (1d4)   |
 | Hit Dice    | 11              | Save As       | Fighter 6 |
@@ -1787,7 +1970,7 @@ A triceratops is a heavily muscled, four-legged dinosaur that stands about 12' h
 Triceratops are found on the plains of "lost worlds."
 
 ### Tyrannosaurus Rex
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class | 3          | No. Appearing | 0 (1)      |
 | Hit Dice    | 20         | Save As       | Fighter 10 |
@@ -1821,7 +2004,7 @@ A **cure disease** spell cast by a cleric of 11^th^ level or higher can remove l
 The six most common types of lycanthropes are described below.
 
 ### Devil Swine*
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Lycanthrope`
 
 | Armor Class | 3 (9)              | No. Appearing | 1d3 (1d4) |
 | Hit Dice    | 9*                 | Save As       | Fighter 9 |
@@ -1839,7 +2022,7 @@ Cunning and patient hunters, devil swine prefer ambushes, deception, and nightti
 ![Devil Swine](assets/devil-swine-plate.png)
 
 ### Werebear*
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Lycanthrope`
 
 | Armor Class | 2 (8)            | No. Appearing | 1d4 (1d4) |
 | Hit Dice    | 6*               | Save As       | Fighter 6 |
@@ -1854,7 +2037,7 @@ In bear form, a werebear is 50% likely to be accompanied by `1d6` brown bears. I
 In combat, if both claw attacks hit the same target in one round, the werebear also hugs for an additional 2-16 points of damage. Werebears are immune to disease, heal three times faster than normal, and may cure disease in another creature within `1d4` weeks.
 
 ### Wereboar*
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Lycanthrope`
 
 | Armor Class | 4 (9)      | No. Appearing | 1d4 (2d4) |
 | Hit Dice    | 4 + 1*     | Save As       | Fighter 4 |
@@ -1867,7 +2050,7 @@ A wereboar is a foul-tempered, semi-intelligent lycanthrope usually found in hea
 ![Wereboar](assets/wereboar-plate.png)
 
 ### Wererat*
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Lycanthrope`
 
 | Armor Class | 7 (9)            | No. Appearing | 1d8 (2d8) |
 | Hit Dice    | 5*               | Save As       | Fighter 3 |
@@ -1884,7 +2067,7 @@ A wererat may summon and control `2d6` giant rats to aid it in combat. Only a we
 Rumors speak of hidden colonies of black wererats ruled by sinister leaders and moon-mad sorcerers. Fearful tales claim entire ratfolk kingdoms lie beneath ancient cities, lit by sickly green fires and ruled by masked wererat kings attended by enormous sacred rats. Some legends say they plot to one day overwhelm the surface world in a tide of fur, fang, and plague.
 
 ### Weretiger*
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Lycanthrope`
 
 | Armor Class | 3 (9)            | No. Appearing | 1d4 (1d4) |
 | Hit Dice    | 5*               | Save As       | Fighter 5 |
@@ -1901,7 +2084,7 @@ Due to their ability to speak with felines, normal cats are 75% likely to react 
 ![Weretiger](assets/weretiger-plate.png)
 
 ### Werewolf*
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Lycanthrope`
 
 | Armor Class | 5 (9)      | No. Appearing | 1d6 (2d6) |
 | Hit Dice    | 4*         | Save As       | Fighter 4 |
@@ -1927,7 +2110,7 @@ Werewolves may summon normal wolves to form larger hunting packs.
 ## Monstrous
 
 ### Ankheg
-*Source:* `AD&D 1E Conversion`
+*Source:* `AD&D 1E Conversion`  *Category:* `Monstrous`
 
 | Armor Class | Overall 2; Underside 4 | No. Appearing | 0 (1d6)     |
 | Hit Dice    | 3-8                    | Save As       | Fighter 2-4 |
@@ -1948,7 +2131,7 @@ An ankheg's chitinous shell is brown, while its softer underside is pink. Its ey
 ![Ankheg](assets/ankheg-plate.png)
 
 ### Basilisk
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 4                    | No. Appearing | 1d6 (1d6) |
 | Hit Dice    | 6 + 1**              | Save As       | Fighter 6 |
@@ -1964,8 +2147,26 @@ Characters looking away to avoid the gaze of a basilisk must fight it with a pen
 
 ![Basilisk](assets/basilisk-plate.png)
 
+### Beholder
+*Source:* `AD&D 1E Conversion`
+*Category:* `Monstrous`
+
+| Armor Class | Body 0/Stalk 2/Eyes 7 | No. Appearing | 1 (1)      |
+| Hit Dice    | 11                    | Save As       | Fighter 11 |
+| Move        | 30' (10')             | Morale        | 10         |
+| Attacks     | 1 bite / eyes         | Treasure Type | I, S, T    |
+| Damage      | 2d4 / special         | Alignment     | Chaotic    |
+
+A beholder, also called an eye tyrant, is a hateful floating sphere with a fanged mouth, a great central eye, and ten smaller eyes on stalks. It is most often found underground, though it may lair in desolate wilderness.
+
+The body can take two-thirds of the beholder's hit points before the creature dies. The central eye can take one-third before it stops functioning. Each eyestalk can take `1d4+8` damage before being severed, and lost stalks regrow in one week each.
+
+The central eye projects an **anti-magic ray** in a 140' cone. Magic does not function in this cone, including the beholder's own eye rays. The ten smaller eyes produce the following effects, each usable once per round if it can bear on a target: **charm person**, **charm monster**, **sleep**, **telekinesis** up to 2,500 cn, **petrification**, **disintegration**, **fear**, **slow**, **cause serious wounds** for 2d6+2 damage, and **death ray**.
+
+Normally the central eye and `1d4` eyestalks can attack targets in front of the beholder. More eyestalks may bear if the creature is surrounded or attacked from above. Beholders are aggressive and greedy, but may bargain with obviously powerful foes if offered tribute.
+
 ### Black Pudding*
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 6         | No. Appearing | 1 (0)      |
 | Hit Dice    | 10*       | Save As       | Fighter 5  |
@@ -1984,7 +2185,7 @@ They can be killed only by fire; other attacks (weapons or spells) merely break 
 ![Black Pudding](assets/black-pudding-plate.png)
 
 ### Blink Dog
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 5          | No. Appearing | 1d6 (1d6) |
 | Hit Dice    | 4*         | Save As       | Fighter 4 |
@@ -2000,8 +2201,25 @@ If badly threatened, an entire pack may “blink” away and not return. Blink d
 
 ![Blink Dog](assets/blink-dog-plate.png)
 
+### Bulette
+*Source:* `AD&D 1E Conversion`
+*Category:* `Monster`
+
+| Armor Class | Body -2; Eyes 4; Crest 6 | No. Appearing | 1 (1d2)   |
+| Hit Dice    | 9                        | Save As       | Fighter 5 |
+| Move        | 140' (40')               | Morale        | 10        |
+| Burrow      | 30' (10')                | Treasure Type | Nil       |
+| Attacks     | 1 bite/2 claws           | Alignment     | Neutral   |
+| Damage      | 4d12/3d6x2               |               |           |
+
+The bulette, or landshark, is a ravenous burrowing monster with a plated body and a terrible appetite. It ranges through temperate lands eating horses, humans, and most other flesh. It dislikes dwarves, avoids elves, and hungers for halflings.
+
+A bulette normally attacks with its front claws and gaping jaws. When cornered or seriously wounded, it may leap up to 8' into the air and strike with all four feet, adding two rear claw attacks for `3d6` damage each.
+
+The shell under the crest is only AC 6 and may be exposed during a fierce fight. Its eyes are AC 4 but very small. Bulettes are usually solitary; only a mated pair shares territory. Plates from behind the head are prized by dwarven armorers and may be worked into a shield of +1 to +3 value.
+
 ### Caecilia
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 6         | No. Appearing | 1d3 (1d3) |
 | Hit Dice    | 6*        | Save As       | Fighter 3 |
@@ -2012,7 +2230,7 @@ If badly threatened, an entire pack may “blink” away and not return. Blink d
 These giant gray wormlike creatures are about 30' long. They attack with their cavernous mouths and sharp teeth. An unadjusted "to hit" roll of 19 or 20 means that they have swallowed their prey whole. The victim will take 1-8 points of damage each round after that until either the victim or the caecilia is dead. Any attack from inside a caecilia may only be made with a dagger, and with a penalty of -4 on "to hit" rolls.
 
 ### Carrion Crawler
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Monstrous`
 
 | Armor Class | 7            | No. Appearing | 1d3 (1d3) |
 | Hit Dice    | 3 + 1*       | Save As       | Fighter 2 |
@@ -2024,12 +2242,28 @@ This scavenger is a worm-like creature about 9’ long and 3’ high, with dozen
 
 Once a victim is paralyzed, the carrion crawler will begin feeding unless driven off or attacked. A **cure light wounds** spell will remove the paralysis, though the spell has no other effect when used in this way.
 
-Without magical aid, the paralysis wears off naturally in 2–8 turns.
+Without magical aid, the paralysis wears off naturally in `2d4` turns.
 
 ![Carrion Crawler](assets/carrion-crawler-plate.png)
 
+### Catoblepas
+*Source:* `AD&D 1E Conversion`
+*Category:* `Monster`
+
+| Armor Class | 7                | No. Appearing | 0 (1d3)    |
+| Hit Dice    | 6+2              | Save As       | Fighter 4  |
+| Move        | 60' (20')        | Morale        | 8          |
+| Attacks     | 1 tail / gaze    | Treasure Type | C          |
+| Damage      | 1d6 stun / death | Alignment     | Neutral    |
+
+The catoblepas is a foul swamp monster with the bloated body of a buffalo, the heavy legs of a hippopotamus, a long weak neck, and a swift serpentine tail. Its stench and hideous form make it unmistakable.
+
+A creature struck by the tail must Save vs. Paralysis or be stunned for `1d10` rounds. Creatures of 5 or more Hit Dice gain a +2 bonus to this save.
+
+The catoblepas has a deathly gaze with a range of 60'. Any creature meeting the gaze dies. Because its neck is weak, the monster can raise its head to use the gaze only on a roll of 1-2 on `1d6` each round. If both sides remain still, the chance increases by 1 each round. If the catoblepas is pursuing moving prey, it can use the gaze only on a roll of 1 on `1d6`. A fleeing creature with eyes averted may Save vs. Death to avoid the gaze.
+
 ### Chimera
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 4          | No. Appearing | 1d2 (1d4) |
 | Hit Dice    | 9**        | Save As       | Fighter 9 |
@@ -2055,7 +2289,7 @@ Chimeras are savage, ill-tempered predators most often found in wild hills, rock
 ![Chimera](assets/chimera-plate.png)
 
 ### Cockatrice
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 6                   | No. Appearing | 1d4 (1d8) |
 | Hit Dice    | 5**                 | Save As       | Fighter 5 |
@@ -2071,7 +2305,7 @@ Cockatrices may be found anywhere.
 ![Cockatrice](assets/cockatrice-plate.png)
 
 ### Displacer Beast
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 4           | No. Appearing | 1d4 (1d4) |
 | Hit Dice    | 6*          | Save As       | Fighter 6 |
@@ -2088,7 +2322,7 @@ Displacer beasts possess a cruel, predatory cunning and delight in stalking inte
 ![Expert monster illustration: displacer beast](assets/displacer-beast-plate.png)
 
 ### Doppelganger
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Monstrous`
 
 | Armor Class | 5         | No. Appearing | 1d6 (1d6)  |
 | Hit Dice    | 4*        | Save As       | Fighter 10 |
@@ -2105,7 +2339,7 @@ Due to their magical nature, doppelgangers are immune to **sleep** and **charm**
 When slain, a doppelganger immediately reverts to its true form.
 
 ### Gelatinous Cube
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Monstrous`
 
 | Armor Class | 8             | No. Appearing | 1 (0)      |
 | Hit Dice    | 4*            | Save As       | Fighter 2  |
@@ -2118,7 +2352,7 @@ These  are made of a clear jelly and are shaped like cubes about 10' on a side. 
 ![Gelatinous Cube](assets/gelatinous-cube-plate.png)
 
 ### Gorgon
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 2                     | No. Appearing | 1d2 (1d4) |
 | Hit Dice    | 8*                    | Save As       | Fighter 8 |
@@ -2131,7 +2365,7 @@ A gorgon is a magical bull-like monster covered with large iron scales. It gores
 A gorgon's vapor cloud is 60' long by 10' wide. They are impervious to their own breath weapon. Gorgons are usually found in foothills or grasslands.
 
 ### Gray Ooze
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Monstrous`
 
 | Armor Class | 8        | No. Appearing | 1 (1)      |
 | Hit Dice    | 3*       | Save As       | Fighter 2  |
@@ -2142,7 +2376,7 @@ A gorgon's vapor cloud is 60' long by 10' wide. They are impervious to their own
 This seeping horror looks like wet stone and is difficult to see. It secretes an acid which does 2d8 points of damage if the gray ooze hits bare skin. This acid will dissolve and destroy magic armor in one turn. After the first hit, the ooze will stick to its victim, automatically destroying any normal armor and doing 2d8 points of damage each round. Gray ooze cannot be harmed by cold or fire, but can be harmed by weapons and lightning.
 
 ### Green Slime*
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Monstrous`
 
 | Armor Class | Can always be hit | No. Appearing | 1 (0)      |
 | Hit Dice    | 2*                | Save As       | Fighter 1  |
@@ -2157,7 +2391,7 @@ Green slime often clings to walls and ceilings and will drop down on surprised c
 When green slime drops on a victim, or is stepped on, the victim can usually burn it while it is dissolving armor and clothing. If it is not burned off, the victim will turn completely into green slime 1-4 rounds after the first 6-round, one-minute period. Burning does 1/2 damage to the green slime and 1/2 damage to the victim.
 
 ### Griffon
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 5                | No. Appearing | 0 (2d8)    |
 | Hit Dice    | 7                | Save As       | Fighter 4  |
@@ -2173,7 +2407,7 @@ Wild griffons will attack any who approach their nests. If captured young, they 
 ![Griffon](assets/griffon-plate.png)
 
 ### Harpy
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Monstrous`
 
 | Armor Class | 7               | No. Appearing | 1d6 (2d4)            |
 | Hit Dice    | 3*              | Save As       | Fighter 3            |
@@ -2189,7 +2423,7 @@ Charmed individuals will move toward the harpies, resisting any attempt to stop 
 ![Harpy](assets/harpy-plate.png)
 
 ### Hellhound
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 4              | No. Appearing | 2d4 (2d4) |
 | Hit Dice    | 3-7*           | Save As       | Variable  |
@@ -2204,7 +2438,7 @@ In melee, a hellhound will attack one person, biting, 3-6 on 1d6, or breathing f
 Hellhounds have a 75% chance per round of detecting an invisible person or object within 60'. They save as a fighter of equal hit dice.
 
 ### Hippogriff
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 5                | No. Appearing | 0 (2d8)   |
 | Hit Dice    | 3 + 1            | Save As       | Fighter 2 |
@@ -2218,7 +2452,7 @@ A hippogriff is a fantastic creature with the foreparts and head of a giant eagl
 ![Hippogriff](assets/hippogriff-plate.png)
 
 ### Hydra
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 5                | No. Appearing | 1 (1)               |
 | Hit Dice    | 5-12             | Save As       | Fighter (see below) |
@@ -2235,7 +2469,7 @@ The DM may wish to create special versions of hydra. Special hydras could have p
 ![Hydra](assets/hydra-plate.png)
 
 ### Invisible Stalker
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 3          | No. Appearing | 1 (1)      |
 | Hit Dice    | 8*         | Save As       | Fighter 8  |
@@ -2248,7 +2482,7 @@ An invisible stalker is a very intelligent enchanted monster summoned to this wo
 Invisible stalkers are most often used to track and slay enemies. They are faultless trackers. They surprise any creature that cannot detect invisible creatures on a 1d6 roll of 1-5. They will return to their native plane once they are slain, dispelled, or have completed their task.
 
 ### Manticore
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 4                           | No. Appearing | 1d2 (1d4) |
 | Hit Dice    | 6 + 1                       | Save As       | Fighter 6 |
@@ -2264,7 +2498,7 @@ The manticore's favorite food is man. They usually live in wild mountain ranges.
 ![Manticore](assets/manticore-plate.png)
 
 ### Medusa
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Monstrous`
 
 | Armor Class | 8             | No. Appearing | 1d3 (1d4) |
 | Hit Dice    | 4*            | Save As       | Fighter 4 |
@@ -2279,7 +2513,7 @@ Anyone who tries to attack a medusa without looking at it must subtract 4 from a
 ![Medusa](assets/medusa-plate.png)
 
 ### Mermen
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 6                | No. Appearing | 0 (1d20)  |
 | Hit Dice    | 1-4              | Save As       | Fighter 1 |
@@ -2294,7 +2528,7 @@ All mermen except leaders have 1 hit die and save as 1^st^ level fighters. The n
 Mermen often keep trained marine animals and monsters to help guard their homes.
 
 ### Minotaur
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Monstrous`
 
 | Armor Class | 6                         | No. Appearing | 1d6 (1d8) |
 | Hit Dice    | 6                         | Save As       | Fighter 6 |
@@ -2311,7 +2545,7 @@ Minotaurs are semi-intelligent and some use weapons, preferring a spear, club, o
 
 
 ### Ochre Jelly
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Monstrous`
 
 | Armor Class | 8         | No. Appearing | 1 (0)      |
 | Hit Dice    | 5*        | Save As       | Fighter 3  |
@@ -2322,7 +2556,7 @@ Minotaurs are semi-intelligent and some use weapons, preferring a spear, club, o
 An ochre jelly is an ochre-colored giant amoeba which can only be harmed by fire or cold. Attacks with weapons or lightning merely make several (1d4+ 1) smaller (2 hit dice) ochre jellies. An ochre jelly does 2d6 damage per turn to exposed flesh. The smaller ochre jellies only do half damage. It can seep through small cracks, and destroy wood, leather, and cloth in 1 round, but cannot eat through metal or stone.
 
 ### Owl Bear
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Monstrous`
 
 | Armor Class | 5                | No. Appearing | 1d4 (1d4) |
 | Hit Dice    | 5                | Save As       | Fighter 3 |
@@ -2335,7 +2569,7 @@ An owl bear is a huge bear-like creature with the head of a giant owl. An owl be
 ![Owl Bear](assets/owl-bear-plate.png)
 
 ### Pegasus
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 6           | No. Appearing | 0 (1d12)  |
 | Hit Dice    | 2 + 2       | Save As       | Fighter 2 |
@@ -2349,7 +2583,7 @@ These semi-intelligent flying horses are wild and shy. They cannot be tamed, but
 ![Pegasus](assets/pegasus-plate.png)
 
 ### Purple Worm
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 6                     | No. Appearing | 1d2 (1d4) |
 | Hit Dice    | 15*                   | Save As       | Fighter 8 |
@@ -2364,7 +2598,7 @@ Those stung by the tail must save vs. Poison or die. Note that if encountered un
 ![Purple Worm](assets/purple-worm-plate.png)
 
 ### Roc
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Stat          | Small Roc        | Large Roc        | Giant Roc        |
 |---------------|------------------|------------------|------------------|
@@ -2385,7 +2619,7 @@ Rocs are huge birds of prey resembling eagles. They are very lawful, and are oft
 Roc nests are found in the highest mountains and 50% of the time will contain 1-6 eggs or young. Rocs never check morale if encountered in their lair. If hatched or captured as chicks, young rocs can be trained.
 
 ### Rust Monster
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Monstrous`
 
 | Armor Class | 2          | No. Appearing | 1d4 (1d4) |
 | Hit Dice    | 5          | Save As       | Fighter 3 |
@@ -2398,7 +2632,7 @@ A rust monster has a body like a giant armadillo with a long tail, and 2 long fr
 ![Rust Monster](assets/rust-monster-plate.png)
 
 ### Sea Serpent (Lesser)
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Armor Class | 5                  | No. Appearing | 0 (2d6)   |
 | Hit Dice    | 6                  | Save As       | Fighter 3 |
@@ -2411,7 +2645,7 @@ A sea serpent resembles a long, 20' to 30', giant snake with many fins. A sea se
 ![Sea Serpents](assets/sea-serpent-plate.png)
 
 ### Shadow
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Monstrous`
 
 | Armor Class | 7             | No. Appearing | 1d8 (1d12) |
 | Hit Dice    | 2 + 2*        | Save As       | Fighter 2  |
@@ -2422,7 +2656,7 @@ A sea serpent resembles a long, 20' to 30', giant snake with many fins. A sea se
 Shadows are in-corporeal (ghost-like) intelligent creatures. They can only be harmed by magical weapons. They look like real shadows and can alter their shape slightly. Shadows are hard to see and surprise on a 1 to 5 on a d6. If a shadow scores a hit, it will drain 1 point of Strength in addition to doing normal damage (1d4 points). This weakness will last for 8 turns. Any creature whose Strength is reduced to 0 or less will become a shadow. Shadows are not undead, and cannot be "Turned" by clerics. They are not affected by sleep and charm spells. The DM is advised not to use shadows unless the party has at least one magical weapon.
 
 ### Shrieker
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Monstrous`
 
 | Armor Class | 7         | No. Appearing | 1d8 (0)   |
 | Hit Dice    | 3         | Save As       | Fighter 1 |
@@ -2433,7 +2667,7 @@ Shadows are in-corporeal (ghost-like) intelligent creatures. They can only be ha
 Shriekers look like giant mushrooms. They live in underground caverns and are able to move around slowly. They react to light (within 60') and movement (within 30') by emitting a piercing shriek which lasts for 1-3 rounds. There will be a 50% chance per round of a wandering monster encounter for each round that a shrieker shrieks. The wandering monster will arrive in `2d6` rounds.
 
 ### Stirge
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Monstrous`
 
 | Armor Class | 7          | No. Appearing | 1d10 (3d12) |
 | Hit Dice    | 1*         | Save As       | Fighter 2   |
@@ -2447,7 +2681,7 @@ A stirge is a birdlike creature with a long beak, rather like a very small feath
 Because of its speed, a flying stirge gains a +2 bonus on its first attack roll against a target. Stirges are hardy and save as Fighter: 2.
 
 ### Termite, Water
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Monstrous`
 
 | Stat           | Swamp Termite | Fresh Water Termite | Salt Water Termite  |
 |----------------|----------------|---------------------|--------------------|
@@ -2471,7 +2705,7 @@ The real terror of these creatures is the possible destruction they can cause to
 ![Termite](assets/termite-plate.png)
 
 ### Thoul
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Monstrous`
 
 | Armor Class | 6                    | No. Appearing | 1d6 (1d10) |
 | Hit Dice    | 3**                  | Save As       | Fighter 3  |
@@ -2484,7 +2718,7 @@ A thoul is a magical combination of a ghoul, a hobgoblin, and a troll (see D&D E
 If it is damaged, a thoul will regenerate 1 hit point per round as long as it is alive. After a thoul is hit, the DM should add 1 hit point to its total at the beginning of each round of combat.
 
 ### Yellow Mold
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Monstrous`
 
 | Armor Class | Can always be hit | No. Appearing | 1d8 (1d4)      |
 | Hit Dice    | 2                 | Save As       | Fighter 2      |
@@ -2506,7 +2740,7 @@ Non-player characters (NPCs) include adventurers, townsfolk, mercenaries, cultis
 Most NPCs are ordinary people, but experienced warriors, priests, rogues, and spellcasters may also be encountered. NPCs should be given individual motives, personalities, and loyalties by the DM, as even minor characters can become important parts of a campaign.
 
 ### Acolyte
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `NPC`
 
 | Armor Class | 6         | No. Appearing | `1d8` (`1d20`) |
 | Hit Dice    | 1         | Save As       | Cleric 1       |
@@ -2527,7 +2761,7 @@ If `4` or more acolytes are encountered, they are led by a higher-level cleric:
 Table: Random Band Leader Level
 
 ### Bandit
-*Source:* `Basic`
+*Source:* `Basic`  *Category:* `NPC`
 
 | Armor Class | 6          | No. Appearing | 1d8 (3d10) |
 | Hit Dice    | 1          | Save As       | Thief 1    |
@@ -2542,7 +2776,7 @@ Bandits may have an NPC leader of any class, usually a fighter, magic-user, or t
 ![Bandit](assets/bandit-plate.png)
 
 ### Berserker
-*Source:* `Basic`
+*Source:* `Basic`  *Category:* `NPC`
 
 | Armor Class | 7          | No. Appearing | 1d6 (3d10) |
 | Hit Dice    | 1 + 1*     | Save As       | Fighter 1  |
@@ -2561,7 +2795,7 @@ Treasure Type (B) is only found in the wilderness.
 If `4` or more berserkers are encountered, they are led by a higher-level fighter.  (Roll as for [Acolyte](#acolyte))
 
 ### Dwarf
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `NPC`
 
 | Armor Class | 4         | No. Appearing | 1d6 (5d8)       |
 | Hit Dice    | 1         | Save As       | Dwarf 1         |
@@ -2578,7 +2812,7 @@ As long as their leader is fighting with them and still alive, dwarven morale is
 ![Dwarf](assets/dwarf-plate.png)
 
 ### Elf
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `NPC`
 
 | Armor Class | 5          | No. Appearing | 1d4 (2d212)    |
 | Hit Dice    | 1 + 1*     | Save As       | Elf 1          |
@@ -2591,7 +2825,7 @@ Elves can also appear as NPCs. Each elf will have one 1^st^ level spell (chosen 
 ![Elf](assets/elf-plate.png)
 
 ### Gnome
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `NPC`
 
 | Armor Class | 5         | No. Appearing | 1d8 (5d8)      |
 | Hit Dice    | 1         | Save As       | Dwarf 1        |
@@ -2606,7 +2840,7 @@ Gnomes have well developed infravision (heat-sensing sight), and can "see" heat 
 For every 20 gnomes, one will be a leader with 11 hit points who fights as a 2 hit dice monster. In the gnome lair lives a clan chieftain and his `1d6` bodyguards. The clan chieftain has 18 hit points, attacks as a 4 hit dice monster, and gains a bonus of + 1 on damage rolls. The bodyguards will have `ld4 + 9` hit points and attack as 3 hit dice . As long as the clan chieftain or leader is alive, all gnomes within sight of him have a morale of 10 rather than 8.
 
 ### Halfling
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `NPC`
 
 | Armor Class | 7         | No. Appearing | 3d6 (5d8)  |
 | Hit Dice    | 1-1       | Save As       | Halfling 1 |
@@ -2617,7 +2851,7 @@ For every 20 gnomes, one will be a leader with 11 hit points who fights as a 2 h
 Halflings can also be NPCs. They live in small villages of 30-300 inhabitants. Each village will have a leader (level 2-7) and a village guard of 5-20 militia (each with 2 hit dice). Treasure type (B) will only be found if encountered in the wilderness.
 
 ### Medium
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `NPC`
 
 | Armor Class | 9                 | No. Appearing | 1d4 (1d12)   |
 | Hit Dice    | 1*                | Save As       | Magic-user 1 |
@@ -2630,7 +2864,7 @@ Mediums are NPC 1^st^ level magic-users. There is a 50% chance that mediums will
 The 3^rd^ level magic-user will have two 1^st^ level spells and one 2^nd^ level spell, chosen in a similar manner.
 
 ### Men
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `NPC`
 
 | Stat           | Brigand    | Buccaneer / Pirate| Dervish     | Merchant  | Nomad      |
 |----------------|------------|-------------------|-------------|-----------|------------|
@@ -2668,7 +2902,7 @@ Typical caravan organization is 5 wagons with 10 merchants, 20 1^st^ level fight
 Nomads are groups of wandering tribesmen who may be peaceful or warlike and may have any alignment. Small bands encountered hunting or foraging in the wilderness will usually be part of a larger tribe. All treasure will be at the main camp.
 
 ### Noble
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `NPC`
 
 | Armor Class | 2             | No. Appearing | 2d6 (2d6) |
 | Hit Dice    | 3             | Save As       | Variable  |
@@ -2681,7 +2915,7 @@ Nomads are groups of wandering tribesmen who may be peaceful or warlike and may 
 A little research will uncover many more traditional titles. A noble will always be accompanied by a squire, a 2^nd^ level fighter. A noble might also be accompanied by as many as 10 retainers or hirelings, usually 1^st^ level fighters. For details on encounters with nobles in their castles, see the D&D EXPERT rules.
 
 ### Normal Human
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `NPC`
 
 | Armor Class | 9              | No. Appearing | 1d4 (1d20)   |
 | Hit Dice    | 1d4 hit points | Save As       | Normal Human |
@@ -2694,7 +2928,7 @@ A normal human is a human who does not seek dangerous adventure. A normal human 
 Most humans are "normal" humans, though people with certain professions (such as merchant, soldier, lord, scout, and so forth) help in some adventures. As soon as a human gets experience points through an adventure, that person must choose a character class. Some type of normal humans are: peasants, children, housewives, workers, artists, villagers, townspeople, slaves, fishermen, and scholars.
 
 ### NPC Parties
-*Source:* `Expert`
+*Source:* `Expert`  *Category:* `NPC`
 
 #### Adventuring Parties
 
@@ -2787,7 +3021,7 @@ A powerful magic-user accompanied by apprentices and hired guards, often seeking
 | 5-6 | Chaotic   |
 
 ### Trader
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `NPC`
 
 | Armor Class | 6          | No. Appearing | 1d8 (3d6) |
 | Hit Dice    | 1          | Save As       | Fighter 1 |
@@ -2800,7 +3034,7 @@ Traders are first level fighters who make their living trading goods. They are s
 When encountered in the wilderness, they will be leading 1-4 pack mules carrying trade goods. The choice of exactly which trade goods is left to the DM; typical ones are spices, furs, or carved decorative items.
 
 ### Veteran
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `NPC`
 
 | Armor Class | 2         | No. Appearing | 2d4 (2d6)   |
 | Hit Dice    | 1d3       | Save As       | Fighter 1-3 |
@@ -2819,8 +3053,26 @@ Sylvan or faerie creatures are encountered in magical woodlands, sometimes shari
 
 Their homes are places of uncanny beauty filled with lush growth, flowering glades, sparkling waterfalls, and clear woodland pools. These creatures are often highly magical and possess a mischievous sense of humor, making encounters with them unpredictable and dangerous as often as they are wondrous.
 
+### Brownie
+*Source:* `AD&D 1E Conversion`
+*Category:* `Sylvan or Faerie`
+
+| Armor Class | 3          | No. Appearing | 2d4 (4d4) |
+| Hit Dice    | 1d4 hp     | Save As       | Cleric 9  |
+| Move        | 120' (40') | Morale        | 7         |
+| Attacks     | 1 sword    | Treasure Type | O, P, Q   |
+| Damage      | 1d3        | Alignment     | Lawful    |
+
+Brownies are small, shy relatives of halflings and pixies. They favor quiet pastoral places and are friendly toward lawful folk, especially humans, dwarves, elves, and halflings.
+
+If met peacefully, brownies have a 50% chance to help lawful characters. They are skilled at making and repairing items of wood, leather, metal, and similar materials, and they make excellent guides.
+
+A brownie may use each of the following once per day: **protection from evil**, **ventriloquism**, **dancing lights**, **continual light**, **mirror image**, **confusion**, and **dimension door**. Brownies are never surprised and can blend into natural surroundings so quickly that they effectively become invisible while escaping.
+
+Brownies speak their own tongue, the lawful alignment language, elvish, pixie, sprite, and halfling.
+
 ### Centaur
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Sylvan or Faerie`
 
 | Armor Class | 5                   | No. Appearing | 0 (2d10)  |
 | Hit Dice    | 4                   | Save As       | Fighter 4 |
@@ -2837,7 +3089,7 @@ If threatened, the females and young will attempt to flee unless escape is impos
 ![Expert monster illustration: centaur](assets/centaur-plate.png)
 
 ### Dryad
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Sylvan or Faerie`
 
 | Armor Class | 5          | No. Appearing | 0 (1d6)   |
 | Hit Dice    | 2*         | Save As       | Fighter 4 |
@@ -2854,7 +3106,7 @@ Dryads hide their treasure in hollows under the roots of their trees.
 ![Dryad](assets/dryad-plate.png)
 
 ### Nixies
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Sylvan or Faerie`
 
 | Armor Class | 7          | No. Appearing | 0 (2d10)  |
 | Hit Dice    | 1          | Save As       | Elf 1     |
@@ -2867,7 +3119,7 @@ Nixies are 3' tall water sprites. They look like small beautiful women, and thei
 Nixies dwell in rivers and lakes, making their lairs in the deepest part of the water.
 
 ### Pixie
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Sylvan or Faerie`
 
 | Armor Class | 3          | No. Appearing | 2d4 (10d4) |
 | Hit Dice    | 1*         | Save As       | Elf 1      |
@@ -2883,7 +3135,7 @@ Their small insect-like wings can only support pixies for 3 turns, and they must
 ![Pixies](assets/pixie-plate.png)
 
 ### Sprite
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Sylvan or Faerie`
 
 | Armor Class | 5             | No. Appearing | 3d6 (5d8) |
 | Hit Dice    | 1/2* (1d4 hp) | Save As       | Elf 1     |
@@ -2895,7 +3147,7 @@ Their small insect-like wings can only support pixies for 3 turns, and they must
 Sprites are small winged people about 1 foot tall related to pixies and elves. While shy, they are very curious and have a strange sense of humor. Five sprites acting together can cast one curse spell. This will take the form of a magical practical joke, such as tripping or having one's nose grow. The exact effect of the spell is up to the DM's imagination. Sprites will never cause death on purpose even if they are attacked. (In the D&D EXPERT rules, the effects of the sprites' curse can be removed by a remove curse spell.)
 
 ### Treant
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Sylvan or Faerie`
 
 | Armor Class | 2          | No. Appearing | 0 (1d8)   |
 | Hit Dice    | 8          | Save As       | Fighter 8 |
@@ -2910,7 +3162,7 @@ One treant can animate any two trees within 60' to move at 30', 5', and fight as
 ![Treant](assets/treant-plate.png)
 
 ### Unicorn
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Sylvan or Faerie`
 
 | Armor Class | 2                 | No. Appearing | 1d6 (1d8) |
 | Hit Dice    | 4*                | Save As       | Fighter 8 |
@@ -2930,7 +3182,7 @@ A unicorn looks like a slender horse with a horn growing from its forehead. A un
 Undead are evil creatures created through dark magic. They are unaffected by things that affect living creatures, such as poison, and are not affected by spells which influence the mind, such as sleep and charm person. They do not make noise.
 
 ### Ghoul
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Undead`
 
 | Armor Class | 6               | No. Appearing | 1d6 (2d8) |
 | Hit Dice    | 2*              | Save As       | Fighter 2 |
@@ -2941,7 +3193,7 @@ Undead are evil creatures created through dark magic. They are unaffected by thi
 Ghouls are undead creatures. They are hideous, beast-like humans who will attack anything living. Any attack by a ghoul will paralyze any creature of ogre-size or smaller that they hit successfully (except elves) unless the victim saves vs. Paralysis. Once an opponent is paralyzed, the ghoul will turn and attack another opponent, until either the ghoul or all the opponents are paralyzed or dead. This paralysis is the normal type (lasting 2-8 turns unless removed by a **cure light wounds spell**).
 
 ### Mummy*
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Undead`
 
 | Armor Class | 3                 | No. Appearing | 1d4 (1d12) |
 | Hit Dice    | 5 + 1*            | Save As       | Fighter 5  |
@@ -2956,7 +3208,7 @@ In melee, a hit by a mummy does `1d12` points of damage and infects the creature
 Mummies can only be damaged by spells, fire, or magic weapons, all of which will only do half damage. They are immune to **sleep**, **charm**, and **hold** spells.
 
 ### Skeleton
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Undead`
 
 | Armor Class | 7         | No. Appearing | 3d4 (3d10) |
 | Hit Dice    | 1         | Save As       | Fighter: 1 |
@@ -2971,7 +3223,7 @@ Since they are undead, they can be "Turned" by a cleric, and are not affected by
 ![Skeleton](assets/skeleton-plate.png)
 
 ### Spectre*
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Undead`
 
 | Armor Class | 2                   | No. Appearing | 1d4 (1d8) |
 | Hit Dice    | 6**                 | Save As       | Fighter 6 |
@@ -2989,7 +3241,7 @@ A character whose level is reduced to 0 is slain. A character slain by a spectre
 ![Expert monster plate: spectre](assets/spectre-plate.png)
 
 ### Vampire*
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Undead`
 
 | Armor Class | 2                   | No. Appearing | 1d4 (1d6)   |
 | Hit Dice    | 7-9**               | Save As       | Fighter 7-9 |
@@ -3019,7 +3271,7 @@ Destroying vampires: A vampire can be destroyed by driving a wooden stake throug
 ![Vampire](assets/vampire-plate.png)
 
 ### Wight*
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Undead`
 
 | Armor Class | 5            | No. Appearing | 1d6 (1d8) |
 | Hit Dice    | 3*           | Save As       | Fighter 3 |
@@ -3032,7 +3284,7 @@ A wight is an undead spirit living in the body of a dead human or demi-human. It
 Any person totally drained of life energy by a wight will become a wight in 1-4 days and will be under control of the wight who drained them.
 
 ### Wraith*
-*Source:* `Expert`  
+*Source:* `Expert`  *Category:* `Undead`
 
 | Armor Class | 3                  | No. Appearing | 1d4 (1d6) |
 | Hit Dice    | 4**                | Save As       | Fighter 4 |
@@ -3046,7 +3298,7 @@ A wraith is an undead monster that drains the life force of its victims. It has 
 When a wraith hits in melee, it will do normal damage and also drain one life energy level, see spectre. Wraiths dwell in deserted lands or in the dwellings of creatures they have slain or frightened away. Characters slain by a wraith will become wraiths under the control of the one that killed them after one day.
 
 ### Zombie
-*Source:* `Basic`  
+*Source:* `Basic`  *Category:* `Undead`
 
 | Armor Class | 8          | No. Appearing | 2d4 (4d6) |
 | Hit Dice    | 2          | Save As       | Fighter 1 |

@@ -4,6 +4,20 @@ Date: `2026-05-22`
 
 ## Latest Session Update
 
+Follow-up update on `2026-06-03`:
+
+- Added `*Category:*` metadata to every monster entry in:
+  - [publication/monsters/combined-monsters.md](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters.md)
+- The category metadata is now kept on the same Markdown line as the source metadata for all monster entries, for example:
+  - ``*Source:* `Basic`  *Category:* `Animal` ``
+- Current category coverage verification:
+  - `source_lines=152`
+  - `all_inline=True`
+  - `standalone_category_lines=0`
+- Rebuilt the monster book after the metadata update:
+  - [publication/monsters/combined-monsters.html](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters.html)
+  - [publication/monsters/combined-monsters.pdf](/home/ryandavidhartman/dev/source/b_x/publication/monsters/combined-monsters.pdf)
+
 Follow-up update on `2026-05-22`:
 
 - Relaxed the custom compact stat-block shorthand in both book pipelines so rows no longer require trailing `:` on label cells.
