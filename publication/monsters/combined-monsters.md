@@ -2631,7 +2631,7 @@ Giant spiders spin webs and ambush prey. Huge spiders are faster hunters. Phase 
 
 Spider bites are poisonous. Victims must Save vs. Poison or die, though the referee may grant bonuses for weaker varieties.
 
-![Spider](assets/spider-plate.png)
+![Spider](assets/spider-generic-plate.png)
 
 ### Spider, Giant
 *Source:* `Basic`  *Category:* `Insect`

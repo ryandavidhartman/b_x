@@ -181,7 +181,7 @@ local function add_entry_label(blocks, entry_id)
   for _, block in ipairs(blocks) do
     table.insert(labeled, block)
     if not inserted and block.t == "Header" and block.level == 3 then
-      table.insert(labeled, pandoc.RawBlock("latex", "\\label{" .. entry_label_name(entry_id) .. "}"))
+      table.insert(labeled, pandoc.RawBlock("latex", "\\phantomsection\\label{" .. entry_label_name(entry_id) .. "}"))
       inserted = true
     end
   end
@@ -461,9 +461,6 @@ local function process_two_column_section(blocks)
   end
 
   table.insert(rebuilt, pandoc.RawBlock("latex", "\\end{multicols}"))
-  table.sort(index_entries, function(a, b)
-    return sort_key(a.name) < sort_key(b.name)
-  end)
 
   return rebuilt, index_entries
 end
@@ -481,20 +478,20 @@ local function build_index_section(index_entries)
     "\\markboth{Index}{Index}",
     "\\begingroup",
     "\\small",
-    "\\setlength{\\LTleft}{0pt}",
-    "\\setlength{\\LTright}{0pt}",
-    "\\begin{longtable}{@{}p{0.86\\textwidth}r@{}}",
+    "\\raggedright",
+    "\\begin{multicols}{2}",
   }
 
   for _, entry in ipairs(index_entries) do
     table.insert(
       lines,
-      "\\hyperref[" .. entry_label_name(entry.id) .. "]{" .. escape_latex(entry.name) .. "} & "
-        .. "\\hyperref[" .. entry_label_name(entry.id) .. "]{\\pageref*{" .. entry_label_name(entry.id) .. "}} \\\\"
+      "\\hyperref[" .. entry_label_name(entry.id) .. "]{" .. escape_latex(entry.name) .. "}"
+        .. "\\dotfill"
+        .. "\\hyperref[" .. entry_label_name(entry.id) .. "]{\\pageref*{" .. entry_label_name(entry.id) .. "}}\\par"
     )
   end
 
-  table.insert(lines, "\\end{longtable}")
+  table.insert(lines, "\\end{multicols}")
   table.insert(lines, "\\endgroup")
 
   return { pandoc.RawBlock("latex", table.concat(lines, "\n")) }
@@ -546,6 +543,13 @@ function Pandoc(doc)
         for _, raw in ipairs(columnbreak_blocks(false)) do
           table.insert(rebuilt, raw)
         end
+      elseif block.t == "Header" and block.level == 3 then
+        local entry_id = header_identifier(block)
+        table.insert(index_entries, { name = stringify(block.content), id = entry_id })
+        for _, inner in ipairs(latex_blocks_for_block(block)) do
+          table.insert(rebuilt, inner)
+        end
+        table.insert(rebuilt, pandoc.RawBlock("latex", "\\phantomsection\\label{" .. entry_label_name(entry_id) .. "}"))
       else
         for _, inner in ipairs(latex_blocks_for_block(block)) do
           table.insert(rebuilt, inner)
@@ -554,6 +558,10 @@ function Pandoc(doc)
     end
 
     flush_twocolumn()
+
+    table.sort(index_entries, function(a, b)
+      return sort_key(a.name) < sort_key(b.name)
+    end)
 
     for _, block in ipairs(build_index_section(index_entries)) do
       table.insert(rebuilt, block)
