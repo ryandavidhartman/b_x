@@ -2,7 +2,7 @@
 title: "B/X Book of Monsters"
 subtitle: "A merged and deduplicated monster chapter from the Basic and Expert rulebooks"
 author: "Compiled from the 1981 Basic and Expert Sets"
-date: "May 24^th^ 2026"
+date: "July 20^th^ 2026"
 lang: "en-US"
 ---
 
@@ -1548,14 +1548,16 @@ Demons are affected by attack forms as follows:
 
 Because of their strange telepathy, demons understand all intelligent communication. Demons with average or greater intelligence may also converse normally.
 
+Named demon lords such as Demogorgon, Juiblex, Orcus, and Yeenoghu are unique beings with powers beyond ordinary monster use. Treat them as campaign-level opponents and review their abilities individually before play.
+
 ### Demogorgon
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
 
-| Armor Class | -8                   | No. Appearing | 1          |
-| Hit Dice    | 20***                | Save As       | Fighter 20 |
-| Move        | 150' (50')           | Morale        | 12         |
-| Attacks     | 2 tentacles / tail   | Treasure Type | R, S, J, V |
-| Damage      | 1d6 / 1d6 / special  | Alignment     | Chaotic    |
+| Armor Class | -8                  | No. Appearing | 1          |
+| Hit Dice    | 20***               | Save As       | Fighter 20 |
+| Move        | 150' (50')          | Morale        | 12         |
+| Attacks     | 2 tentacles / tail  | Treasure Type | R, S, J, V |
+| Damage      | 1d6 / 1d6 / special | Alignment     | Chaotic    |
 
 
 The rivalry between demon lords is great, but the enmity between Demogorgon and Orcus is immense and unending.  Demogorgon is a terrible opponent.
@@ -1577,13 +1579,16 @@ Whenever he desires, Demogorgon may use any one of the following powers: **conti
 
 **Description**: It is contended by some that this demon prince is supreme, and in any event he is awesome in his power. This gigantic demon is 18' tall and reptilian. Demogorgon has two heads bearing the visages of evil baboons or perhaps mandrills, with the hideous coloration of the latter beasts. His blue-green skin is plated with snake-like scales, his body and legs are those of a giant lizard, his twin necks resemble serpents, and his thick tail is forked. Rather than arms, he possesses great tentacles. His appearance testifies to his command over cold-blooded things such as serpents, reptiles, and octopi. 
 
-### Demon
+::: twocolumn-pdf-end
+:::
+
+### Demon*
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
 
 | Stat          | Manes | Succubus | Type I | Type II | Type III | Type IV | Type V | Type VI |
 | ------------- | ----- | -------- | ------ | ------- | -------- | ------- | ------ | ------- |
 | Armor Class   | 7     | 0        | 0      | -2      | -4       | -1      | -7/-5  | -2      |
-| Hit Dice      | 1     | 6        | 8      | 9       | 10       | 11      | 7+7    | 8+8     |
+| Hit Dice      | 1**   | 6**      | 8**    | 9**     | 10**     | 11**    | 7+7**  | 8+8**     |
 | Save As       | Fighter 1 | Fighter 6 | Fighter 8 | Fighter 9 | Fighter 10 | Fighter 11 | Fighter 8 | Fighter 9 |
 | Move          | 30' (10') | 120' (40') | 120' (40') | 60' (20') | 90' (30') | 90' (30') | 120' (40') | 60' (20') |
 | Fly           | Nil   | 180' (60') | 180' (60') | Nil | Nil | 120' (40') | Nil | 150' (50') |
@@ -1595,33 +1600,50 @@ Whenever he desires, Demogorgon may use any one of the following powers: **conti
 | Treasure Type | Nil   | I, Q     | B      | C       | D        | E       | G      | F       |
 | Alignment     | Chaotic | Chaotic | Chaotic | Chaotic | Chaotic | Chaotic | Chaotic | Chaotic |
 
+::: twocolumn-pdf-begin
+:::
+
 Demons are chaotic evil beings from the Abyss. They roam the lower planes and the astral plane, but cannot enter the material world without summoning, gating, or similar magic. They never willingly serve and always seek to destroy or corrupt those who bind them.
 
 All demons have telepathy, infravision, darkness, teleportation without error, and some form of gate power. Demons take full damage from acid, iron weapons, magic missiles, and poison; half damage from cold, lightning, fire, and poison gas; and no damage from silver unless the demon can also be harmed by ordinary weapons. Types I-III can be hit by normal weapons. Type IV and stronger demons require magic weapons.
 
-Manes are the least demons, formed from chaotic evil dead. If slain away from the Abyss, they dissolve into foul vapor and reform in one day unless destroyed by a demon lord or similar power. They are treated as undead against sleep, charm, and similar spells.
+**Manes** are the least demons, formed from chaotic evil dead. If slain away from the Abyss, they dissolve into foul vapor and reform in one day unless destroyed by a demon lord or similar power. They are treated as undead against sleep, charm, and similar spells.
 
-Succubi are solitary tempters that appear as beautiful humanoids with bat-like wings. Their kiss drains one energy level. At will, a succubus may become ethereal, charm person, use ESP, use clairaudience, suggest, assume a humanoid form, or attempt to gate a stronger demon.
+![Manes](assets/manes-plate.png)
 
-Type I demons, or vrocks, resemble a human-vulture hybrid. They love human flesh and treasure. They can detect invisible, use telekinesis up to 2,000 cn, and attempt to gate another Type I demon.
+**Succubi** are solitary tempters that appear as beautiful humanoids with bat-like wings. Their kiss drains one energy level. At will, a succubus may become ethereal, charm person, use ESP, use clairaudience, suggest, assume a humanoid form, or attempt to gate a stronger demon.
 
-Type II demons, or hezrou, are toad-like brutes that can be harmed by normal weapons. They can cause fear, levitate, detect invisible, use telekinesis up to 3,000 cn, and attempt to gate another Type II demon.
+![Succubi](assets/succubus-plate.png)
 
-Type III demons, or glabrezu, are tall, wrinkled horrors with pincers and a small pair of human arms. They can cause fear, levitate, create pyrotechnics, polymorph self, use telekinesis up to 4,000 cn, and attempt to gate Type I-III demons.
+**Type I** demons, or vrocks, resemble a human-vulture hybrid. They love human flesh and treasure. They can detect invisible, use telekinesis up to 2,000 cn, and attempt to gate another Type I demon.
 
-Type IV demons, or nalfeshnee, combine the worst features of ape and boar. They can create illusions, cause fear, levitate, detect magic, read languages, dispel magic, polymorph self, use telekinesis up to 5,000 cn, project an image, use symbols of fear or discord, and attempt to gate Type I-IV demons.
+![Type I / Vrock](assets/type-i-vrock-plate.png)
 
-Type V demons, or mariliths, have a six-armed female torso and the body of a great serpent. They fight with six weapons and constrict with their tails. They can charm person, levitate, read languages, detect invisible, create pyrotechnics, polymorph self, project an image, and attempt to gate nearly any demon.
+**Type II** demons, or hezrou, are toad-like brutes that can be harmed by normal weapons. They can cause fear, levitate, detect invisible, use telekinesis up to 3,000 cn, and attempt to gate another Type II demon.
 
-Type VI demons, or balors, are mighty named demons who favor a sword and a many-tailed whip. In combat there is a 1-4 on 1d6 chance each round that a balor surrounds itself with flame and uses its whip to drag a victim into the fire for 2d6, 3d6, or 4d6 damage depending on the demon's size. Balors can cause fear, detect magic, read magic, read languages, detect invisible, create pyrotechnics, dispel magic, suggest, use telekinesis up to 6,000 cn, employ symbols of fear, discord, sleep, or stunning, and gate Type III or IV demons.
+![Type II / Hezrou](assets/type-ii-hezrou-plate.png)
 
-Named demon lords such as Demogorgon, Juiblex, Orcus, and Yeenoghu are unique beings with powers beyond ordinary monster use. Treat them as campaign-level opponents and review their abilities individually before play.
+**Type III** demons, or glabrezu, are tall, wrinkled horrors with pincers and a small pair of human arms. They can cause fear, levitate, create pyrotechnics, polymorph self, use telekinesis up to 4,000 cn, and attempt to gate Type I-III demons.
 
-### Quasit
+![Type III / Glabrezu](assets/type-iii-glabrezu-plate.png)
+
+**Type IV** demons, or nalfeshnee, combine the worst features of ape and boar. They can create illusions, cause fear, levitate, detect magic, read languages, dispel magic, polymorph self, use telekinesis up to 5,000 cn, project an image, use symbols of fear or discord, and attempt to gate Type I-IV demons.
+
+![Type IV / Nalfeshnee](assets/type-iv-nalfeshnee-plate.png)
+
+**Type V demons**, or mariliths, have a six-armed female torso and the body of a great serpent. They fight with six weapons and constrict with their tails. They can charm person, levitate, read languages, detect invisible, create pyrotechnics, polymorph self, project an image, and attempt to gate nearly any demon.
+
+![Type V / Marilith](assets/type-v-marilith-plate.png)
+
+**Type VI** demons, or balors, are mighty named demons who favor a sword and a many-tailed whip. In combat there is a 1-4 on 1d6 chance each round that a balor surrounds itself with flame and uses its whip to drag a victim into the fire for 2d6, 3d6, or 4d6 damage depending on the demon's size. Balors can cause fear, detect magic, read magic, read languages, detect invisible, create pyrotechnics, dispel magic, suggest, use telekinesis up to 6,000 cn, employ symbols of fear, discord, sleep, or stunning, and gate Type III or IV demons.
+
+![Type VI / Balor](assets/type-vi-balor-plate.png)
+
+### Quasit*
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
 
 | Armor Class | 2          | No. Appearing | 1 (1)      |
-| Hit Dice    | 3          | Save As       | Fighter 3  |
+| Hit Dice    | 3**        | Save As       | Fighter 3  |
 | Move        | 150' (50') | Morale        | 9          |
 | Attacks     | 2 claws / 1 bite | Treasure Type | Nil   |
 | Damage      | 1d2 / 1d2 / 1d4 | Alignment | Chaotic    |
@@ -1657,6 +1679,9 @@ As with demons, proper magical circles are essential when summoning devils. More
 
 Devils resist many forms of attack. They are completely immune to fire and take only half damage from cold and poisonous gas. They suffer full damage from acid, electricity, magic missiles, poison, and silver weapons. Iron weapons inflict no special additional damage.
 
+::: twocolumn-pdf-end
+:::
+
 ### Devil
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
@@ -1673,6 +1698,9 @@ Devils resist many forms of attack. They are completely immune to fire and take 
 | Morale        | 12     | 9       | 10     | 10   | 10     | 10  | 11        |
 | Treasure Type | Nil    | R       | Nil    | Nil  | I      | Q, R | J, R     |
 | Alignment     | Lawful | Lawful | Lawful | Lawful | Lawful | Lawful | Lawful |
+
+::: twocolumn-pdf-begin
+:::
 
 Devils are the lawful evil rulers and servants of Hell. They are hierarchical, cruel, and bound by infernal law, though they constantly scheme against rivals. They cannot enter the material plane without ritual, gate, or the speaking of a proper name.
 
@@ -2094,15 +2122,17 @@ Xorn are strange beings from the elemental plane of earth. They glide through st
 
 Xorn feed on precious metals and gems. They usually bargain for food but attack if refused or threatened. Their alien bodies have three arms, three legs, and a great central mouth.
 
+![Xorn](assets/xorn-plate.png)
+
 ::: pagebreak-pdf
 :::
-
-![Xorn](assets/xorn-plate.png)
 
 ## Humanoids
 “Humanoids” are evil-aligned, human-like creatures such as orcs, goblins, and kobolds. Most humanoids live in tribes, clans, or warbands ruled by the strongest or most cunning leaders.
 
 Larger groups often include shamans, witch doctors, or other tribal spellcasters
+
+![](assets/bugbear-fighting-adventurer.png)
 
 ### Bugbear
 *Source:* `Basic`  *Category:* `Humanoid`
@@ -2119,7 +2149,7 @@ If 12 or more bugbears are encountered, one is a leader with AC 4, 22-25 hp, and
 
 Bugbears speak their own tongue, goblin, hobgoblin, and the chaotic alignment language.
 
-![Basic monster illustration: bugbear](assets/bugbear-plate.png)
+![Bugbear](assets/bugbear-plate.png)
 
 ### Gnoll
 *Source:* `Basic`  *Category:* `Humanoid`
@@ -3243,18 +3273,22 @@ Ending the spell or ceasing use of the item stops the attack. A truly psionic vi
 *Source:* `AD&D 1E Conversion`
 *Category:* `Monster`
 
-| Armor Class | Body -2; Eyes 4; Crest 6 | No. Appearing | 1 (1d2)   |
-| Hit Dice    | 9                        | Save As       | Fighter 5 |
-| Move        | 140' (40')               | Morale        | 10        |
-| Burrow      | 30' (10')                | Treasure Type | Nil       |
-| Attacks     | 1 bite/2 claws           | Alignment     | Neutral   |
-| Damage      | 4d12/3d6x2               |               |           |
+| Armor Class | special     | No. Appearing | 1 (1d2)   |
+| Hit Dice    | 9           | Save As       | Fighter 5 |
+| Move        | 140' (40')  | Morale        | 10        |
+| Burrow      | 30' (10')   | Treasure Type | Nil       |
+| Attacks     | bite/2 claw | Alignment     | Neutral   |
+| Damage      | 4d12/3d6x2  |               |           |
 
 The bulette, or landshark, is a ravenous burrowing monster with a plated body and a terrible appetite. It ranges through temperate lands eating horses, humans, and most other flesh. It dislikes dwarves, avoids elves, and hungers for halflings.
 
 A bulette normally attacks with its front claws and gaping jaws. When cornered or seriously wounded, it may leap up to 8' into the air and strike with all four feet, adding two rear claw attacks for `3d6` damage each.
 
 The shell under the crest is only AC 6 and may be exposed during a fierce fight. Its eyes are AC 4 but very small. Bulettes are usually solitary; only a mated pair shares territory. Plates from behind the head are prized by dwarven armorers and may be worked into a shield of +1 to +3 value.
+
+*AC*: Body -2; Eyes 4; Crest 6
+
+![Bulette](assets/buletteplate.png)
 
 ### Caecilia
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -3288,17 +3322,19 @@ Without magical aid, the paralysis wears off naturally in `2d4` turns.
 *Source:* `AD&D 1E Conversion`
 *Category:* `Monster`
 
-| Armor Class | 7                | No. Appearing | 0 (1d3)    |
-| Hit Dice    | 6+2              | Save As       | Fighter 4  |
-| Move        | 60' (20')        | Morale        | 8          |
-| Attacks     | 1 tail / gaze    | Treasure Type | C          |
-| Damage      | 1d6 stun / death | Alignment     | Neutral    |
+| Armor Class | 7**            | No. Appearing | 0 (1d3)    |
+| Hit Dice    | 6+2            | Save As       | Fighter 4  |
+| Move        | 60' (20')      | Morale        | 8          |
+| Attacks     | 1 tail / gaze  | Treasure Type | C          |
+| Damage      | 1d6 stun/death | Alignment     | Neutral    |
 
 The catoblepas is a foul swamp monster with the bloated body of a buffalo, the heavy legs of a hippopotamus, a long weak neck, and a swift serpentine tail. Its stench and hideous form make it unmistakable.
 
 A creature struck by the tail must Save vs. Paralysis or be stunned for `1d10` rounds. Creatures of 5 or more Hit Dice gain a +2 bonus to this save.
 
 The catoblepas has a deathly gaze with a range of 60'. Any creature meeting the gaze dies. Because its neck is weak, the monster can raise its head to use the gaze only on a roll of 1-2 on `1d6` each round. If both sides remain still, the chance increases by 1 each round. If the catoblepas is pursuing moving prey, it can use the gaze only on a roll of 1 on `1d6`. A fleeing creature with eyes averted may Save vs. Death to avoid the gaze.
+
+![Catoblepas](assets/catoblepas-plate.png)
 
 ### Cerebral Parasite
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
