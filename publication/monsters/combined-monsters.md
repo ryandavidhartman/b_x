@@ -2746,6 +2746,8 @@ Though herbivorous, a baluchitherium has a tendency to charge and trample anythi
 
 If two are encountered, they are a mated pair. If three are encountered, the third is a young baluchitherium.
 
+![](assets/baluchitherium-plate.png)
+
 ### Bear, Cave
 *Source:* `Basic`  *Category:* `Animal`
 
@@ -3156,7 +3158,7 @@ A basilisk is a 10' long, sinuous magical lizard that is non-intelligent. It liv
 
 Creatures touched by a basilisk, or meeting its gaze, must make a saving throw vs. Turn to Stone or be petrified (including all the character wears and holds). Surprised characters automatically meet the gaze of a basilisk. Characters in hand-to-hand combat with a basilisk meet its glance each round unless looking away.
 
-Characters looking away to avoid the gaze of a basilisk must fight it with a penalty of -4 on their "to hit" rolls, while the basilisk attacks at + 2 . The beast can be safely viewed in a mirror, and characters who fight it while looking into a mirror will only have a -1 penalty on their "to hit" rolls. If the basilisk sees itself in a mirror (a 1d6 roll of 1 or 2), if must make a saving throw or be turned to stone! There must be light close by for mirrors to be used, and using a mirror prevents the effective use of a shield.
+Characters looking away to avoid the gaze of a basilisk must fight it with a penalty of -4 on their "to hit" rolls, while the basilisk attacks at + 2 . The beast can be safely viewed in a mirror, and characters who fight it while looking into a mirror will only have a -1 penalty on their "to hit" rolls. If the basilisk sees itself in a mirror (a `1d6` roll of 1 or 2), if must make a saving throw or be turned to stone! There must be light close by for mirrors to be used, and using a mirror prevents the effective use of a shield.
 
 ![Basilisk](assets/basilisk-plate.png)
 
@@ -3164,19 +3166,25 @@ Characters looking away to avoid the gaze of a basilisk must fight it with a pen
 *Source:* `AD&D 1E Conversion`
 *Category:* `Monstrous`
 
-| Armor Class | Body 0/Stalk 2/Eyes 7 | No. Appearing | 1 (1)      |
-| Hit Dice    | 11                    | Save As       | Fighter 11 |
-| Move        | 30' (10')             | Morale        | 10         |
-| Attacks     | 1 bite / eyes         | Treasure Type | I, S, T    |
-| Damage      | 2d4 / special         | Alignment     | Chaotic    |
+| Armor Class | special     | No. Appearing | 1 (1)      |
+| Hit Dice    | 11          | Save As       | Fighter 11 |
+| Move        | 30' (10')   | Morale        | 10         |
+| Attacks     | 1 bite/eyes | Treasure Type | I, S, T    |
+| Damage      | 2d4/special | Alignment     | Chaotic    |
 
-A beholder, also called an eye tyrant, is a hateful floating sphere with a fanged mouth, a great central eye, and ten smaller eyes on stalks. It is most often found underground, though it may lair in desolate wilderness.
+A beholder, also called an eye tyrant or sphere of many eyes, is a hateful floating sphere with a fanged mouth, a great central eye, and ten smaller eyes on stalks. Its globular body is covered in a hard chitinous shell and stays aloft through levitation, drifting slowly wherever it wills. It is most often found underground, though it may lair in desolate wilderness.
 
-The body can take two-thirds of the beholder's hit points before the creature dies. The central eye can take one-third before it stops functioning. Each eyestalk can take `1d4+8` damage before being severed, and lost stalks regrow in one week each.
+The body can take two-thirds of the beholder's hit points before the creature dies. The central eye can take one-third before it stops functioning. Each eyestalk can take `1d4+8` (8–12) damage before being severed; lost eyestalks don't count against the body's hit points and regrow in one week each. By hit area, the body accounts for roughly 75%, the central eye and the eyestalks 10% each, and the ten small eyes 5%.
 
-The central eye projects an **anti-magic ray** in a 140' cone. Magic does not function in this cone, including the beholder's own eye rays. The ten smaller eyes produce the following effects, each usable once per round if it can bear on a target: **charm person**, **charm monster**, **sleep**, **telekinesis** up to 2,500 cn, **petrification**, **disintegration**, **fear**, **slow**, **cause serious wounds** for 2d6+2 damage, and **death ray**.
+The central eye projects an **anti-magic ray** in a 140' cone. Magic does not function in this cone, including the beholder's own eye rays. The ten smaller eyes each produce a different effect, usable once per round if it can bear on a target: **charm person**, **charm monster**, **sleep**, **telekinesis** up to 2,500 cn, **petrification** (flesh-to-stone), **disintegration**, **fear**, **slow**, **cause serious wounds** for `2d6+2` damage, and **death ray**.
 
-Normally the central eye and `1d4` eyestalks can attack targets in front of the beholder. More eyestalks may bear if the creature is surrounded or attacked from above. Beholders are aggressive and greedy, but may bargain with obviously powerful foes if offered tribute.
+Normally the central eye and `1d4` eyestalks can bear on targets within a 90° arc in front of the beholder. This doubles to 2d4 for a 180° arc, and triples or quadruples for 270° or 360° respectively. An attack from above lets all ten eyestalks bear, but the central eye cannot function in that case.
+
+Beholders are hateful, aggressive, and greedy, usually attacking on sight. Against an obviously powerful party, however, there's a decent chance (roughly 50%) they'll pause to negotiate — either bargaining for tribute in exchange for peace, or demanding ransom not to attack. They speak their own language as well as the Chaotic alignment language.
+
+**AC:** Body 0, Eyestalks 2, Eyes 7
+
+![Beholder](assets/beholder-plate.png)
 
 ### Black Pudding*
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -4810,6 +4818,8 @@ A brownie may use each of the following once per day: **protection from evil**, 
 
 Brownies speak their own tongue, the lawful alignment language, elvish, pixie, sprite, and halfling.
 
+![Brownie](assets/brownie-plate.png)
+
 ### Centaur
 *Source:* `Expert`  *Category:* `Sylvan or Faerie`
 
@@ -4825,7 +4835,7 @@ Centaurs usually live in small tribes or extended family bands. Their hidden cam
 
 If threatened, the females and young will attempt to flee unless escape is impossible, in which case they will fight fiercely to the death. Young centaurs fight as 2 hit dice monsters, attacking with small weapons or with hooves for 1-2 / 1-2 / 1-4 damage.
 
-![Expert monster illustration: centaur](assets/centaur-plate.png)
+![Centaur](assets/centaur-plate.png)
 
 ### Dryad
 *Source:* `Expert`  *Category:* `Sylvan or Faerie`
