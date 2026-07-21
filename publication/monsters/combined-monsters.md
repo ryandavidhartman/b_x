@@ -1439,6 +1439,9 @@ Gargoyles are immune to **sleep** and **charm** spells. Because ordinary weapons
 | Treasure Type | Nil        | Nil        | Nil              | Nil              |
 | Alignment     | Neutral    | Neutral    | Neutral          | Neutral          |
 
+::: twocolumn-pdf-begin
+:::
+
 A golem is a powerful monster, created and animated by a high-level magic-user or cleric. They can be made of almost any material, but the ones listed are typical. The DM should feel free to create other golems with any special powers desired.
 
 Normally golems can only be hit by magic weapons. Golems are also immune to **sleep**, **charm**, and **hold** spells, as well as all forms of gases. Creating a golem is costly, time consuming, and beyond the power of player characters in the D&D Expert rules.
@@ -1456,16 +1459,16 @@ Normally golems can only be hit by magic weapons. Golems are also immune to **sl
 ### Homunculus
 *Source:* `AD&D 1E Conversion`  *Category:* `Construct`
 
-| Armor Class | 6          | No. Appearing | 1 (1)      |
-| Hit Dice    | 2          | Save As       | Fighter 2  |
-| Move        | 60' (20')  | Morale        | 11         |
-| Fly         | 180' (60') | Treasure Type | Nil        |
-| Attacks     | 1 bite     | Alignment     | Neutral    |
-| Damage      | 1d3 sleep  |               |            |
+| Armor Class | 6          | No. Appearing | 1 (1)     |
+| Hit Dice    | 2          | Save As       | Fighter 2 |
+| Move        | 60' (20')  | Morale        | 11        |
+| Fly         | 180' (60') | Treasure Type | Nil       |
+| Attacks     | 1 bite     | Alignment     | Neutral   |
+| Damage      | 1d3 sleep  |               |           |
 
 A homunculus is a small magical servant created from its master's blood and arcane materials. It is linked to its creator and obeys silently.
 
-A creature bitten by a homunculus must Save vs. Poison or sleep for 5d6 minutes. If the homunculus is slain, its master suffers 2d10 damage. If the master dies, the homunculus also dies.
+A creature bitten by a homunculus must Save vs. Poison or sleep for `5d6` minutes. If the homunculus is slain, its master suffers `2d10` damage. If the master dies, the homunculus also dies.
 
 ![Homunculus](assets/homunculus-plate.png)
 
@@ -1494,9 +1497,6 @@ A living statue is an enchanted animated creature made by a powerful wizard. It 
 - **Rock**: Living rock statues have an outer crust of stone but are filled with hot magma (fiery lava). When the living rock statue attacks, it will squirt the magma from its finger tips for `2d6` points of damage per hit.
 
 ::: pagebreak-pdf
-:::
-
-::: twocolumn-pdf-begin
 :::
 
 ## Demons
