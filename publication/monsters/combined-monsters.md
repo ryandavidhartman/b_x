@@ -921,7 +921,7 @@ Horned Chameleon: A horned chameleon is a 7' long lizard which can change color 
 
 Tuatara: A tuatara is a 8' long lizard that looks like a cross between an iguana and a toad. It has pebble-colored olive skin with white spikes along its back. It is carnivorous and sometimes attacks humans. A tuatara has a membrane over its eyes which, when lowered, is sensitive to changes in temperature, allowing it to see in darkness with 90' infravision.
 
-![Basic monster illustration: giant lizards](assets/lizards-giant-plate.png)
+![Giant Lizards](assets/lizards-giant-plate.png)
 
 ### Lynx, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -992,7 +992,7 @@ Once a tentacle hits in combat, it will constrict and automatically do 1-3 point
 
 If a combat is going against it, a giant octopus will flee, jetting away at triple speed and trailing a large, black cloud of ink (40' radius).
 
-![Expert monster plate: octopus](assets/octopus-plate.png)
+![Octopus](assets/octopus-plate.png)
 
 ### Otter, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -1162,7 +1162,7 @@ Mako sharks are 15' long and blue-gray or tan in color. Mako sharks are extremel
 
 Great white sharks are 30' long or larger and gray with a white underside. They have been known to destroy small boats.
 
-![Expert monster illustration: shark](assets/shark-plate.png)
+![Shark](assets/shark-plate.png)
 
 ### Shrew, Giant
 *Source:* `Basic`  *Category:* `Animal`
@@ -1228,7 +1228,7 @@ Giant Rattlesnake: A giant rattlesnake is a 10' long snake with brown and white 
 
 Rock Python: A rock python is a 20' long giant snake with brown and yellow scales set in a spiral pattern. Its first attack is a bite. If the bite is successful, a rock python will coil around the victim and constrict in the same round. This squeezing does 2d4 points of damage per round, and begins automatically once the bite hits.
 
-![Basic monster illustration: snake](assets/snake-plate.png)
+![Snake](assets/snake-plate.png)
 
 ### Squid, Giant
 *Source:* `Expert`  *Category:* `Animal`
@@ -1341,7 +1341,7 @@ Sperm whale. This huge whale can grow to be 60' long. It preys on the most feare
 
 Man-sized or smaller creatures will be swallowed on a die roll that is 4 or more than the score needed to hit, taking `3d6` points of damage per round. Sperm whales will sometimes (10% chance) attack ships, attempting to ram. Should the sperm whale succeed, it will do `6d6` points of damage to the ship.
 
-![Expert monster plate: whale](assets/whale-plate.png)
+![Whale](assets/whale-plate.png)
 
 ### Wolf
 *Source:* `Basic`  *Category:* `Animal`
@@ -1400,7 +1400,7 @@ Animated armor usually remains perfectly motionless until intruders approach, ca
 
 Most animated armor fights with weapons held in mailed hands, though some punch, grapple, or batter foes with heavy gauntlets. They are immune to **sleep**, **charm**, and other mind-affecting magic, and never need rest.
 
-![Homebrew Monster illustration: animated armor](assets/animated-armor-plate.png)
+![Animated Armor](assets/animated-armor-plate.png)
 
 ### Gargoyle*
 *Source:* `Basic`  *Category:* `Construct`
@@ -1418,7 +1418,7 @@ Gargoyles are magical creatures and save as 8^th^ level Fighters. They can only 
 
 Gargoyles are immune to **sleep** and **charm** spells. Because ordinary weapons cannot harm them, the DM should use gargoyles with care unless the adventurers possess at least one magical weapon.
 
-![Basic monster illustration: gargoyle](assets/gargoyle-plate.png)
+![Gargoyle](assets/gargoyle-plate.png)
 
 ::: twocolumn-pdf-end
 :::
@@ -1454,7 +1454,7 @@ Normally golems can only be hit by magic weapons. Golems are also immune to **sl
 
 - **Bronze golems** look somewhat like fire giants. Their skin is bronze and their blood is liquid fire. Any creature hit by a bronze golem takes `1d10` more points of damage from the great heat inside it. Anyone scoring damage on a bronze golem with an edged weapon must save vs. Death Ray or take `2d6` points of damage from the fiery blood spurting out of the wound. Bronze golems are not affected by fire-based attacks.
 
-![Expert monster illustration: bone golem](assets/bone-golem-plate.png)
+![Bone Golem](assets/bone-golem-plate.png)
 
 ### Homunculus
 *Source:* `AD&D 1E Conversion`  *Category:* `Construct`
@@ -1652,10 +1652,10 @@ Quasits are minor demonic familiars and tempters. They encourage evil acts while
 
 A quasit can become invisible, cause fear, detect good, and polymorph into small animal forms. Its claws carry irritating venom; a victim must Save vs. Poison or lose 1 point of Dexterity for 2d6 rounds. Quasits regenerate 1 hit point per round and can be harmed only by magic or cold iron weapons.
 
+![Quasit](assets/quasit-plate.png)
+
 ::: pagebreak-pdf
 :::
-
-![Quasit](assets/quasit-plate.png)
 
 ## Devils
 
@@ -1738,10 +1738,10 @@ Imps are minor diabolical familiars and tempters. They serve evil masters while 
 
 An imp's sting is poisonous; the victim must Save vs. Poison or die. Imps can become invisible, polymorph into small animal forms, detect good, and use suggestion. They regenerate 1 hit point per round and can be harmed only by silver or magic weapons.
 
+![Imp](assets/imp-plate.png)
+
 ::: pagebreak-pdf
 :::
-
-![Imp](assets/imp-plate.png)
 
 ## Dragons
 
@@ -1797,7 +1797,7 @@ A line-shaped Breath starts in the dragon's mouth and stretches out toward its v
 
 A cloud-shaped Breath billows forth from the dragon's mouth to form a 50'x40'x20' tall cloud around the dragon's targets directly in front of it.
 
-![Basic diagram: dragon breath shapes](assets/dragon-breath-diagram.png)
+![Dragon breath shapes](assets/dragon-breath-diagram.png)
 
 - **Saving Throws**: Anyone caught within the area of effect of a dragon's Breath Weapon may make a saving throw. A successful saving throw means that the victim takes only 1/2 damage from the Breath. Dragons are never affected by the normal or smaller versions of their own Breath Weapons, and automatically make their saving throws against any attack form that is the same as their Breath Weapon. For example, a red dragon will take no damage from burning oil, and will always take only 1/2 damage from a fire-type magic spell such as a fire ball.
 
@@ -1815,7 +1815,7 @@ A cloud-shaped Breath billows forth from the dragon's mouth to form a 50'x40'x20
 
 Dragons are extremely powerful and should be used with caution when encountered by low-level player characters. It is recommended that until characters reach the fourth level and higher, only the youngest and smallest dragons be used by the DM.
 
-![Basic monster illustration: dragon](assets/dragon-plate.png)
+![Dragon](assets/dragon-plate.png)
 
 ### Dragon Turtle
 *Source:* `Expert`  *Category:* `Dragon`
@@ -1835,7 +1835,7 @@ Dragon turtles live in great caverns on the bottom of the deepest oceans, where 
 
 Note: Dragon turtles are extremely powerful creatures that should not be used unless the player characters are of very high level.
 
-![Expert monster illustration: dragon turtle](assets/dragon-turtle-plate.png)
+![Dragon Turtle](assets/dragon-turtle-plate.png)
 
 ### Pseudo-Dragon
 *Source:* `AD&D 1E Conversion`  *Category:* `Dragon`
@@ -1884,7 +1884,7 @@ Sea dragons have fin-like wings which enable them to glide above the water for u
 
 A wyvern looks like a two-legged, winged dragon with a long tail. In combat, the wyvern will bite and arch its tail over its head to hit opponents in front of it. Those stung by the tail must save vs. Poison or die. These beasts prefer to live on cliffs or in forests, but may be found anywhere.
 
-![Expert monster illustration: wyvern](assets/wyvern-plate.png)
+![Wyvern](assets/wyvern-plate.png)
 
 ::: pagebreak-pdf
 :::
@@ -1998,7 +1998,7 @@ Efreet can create objects, create illusions, and turn invisible like djinn. They
 
 Efreet may fly and carry up to 10,000 cn weight while flying. They can be summoned by high-level magic-users who know the special spells required, but once summoned they must be carefully controlled.
 
-![Expert monster illustration: efreeti](assets/efreeti-plate.png)
+![Efreeti](assets/efreeti-plate.png)
 
 ::: twocolumn-pdf-end
 :::
@@ -2062,7 +2062,7 @@ Staff elementals, the weakest, are summoned by a magic-user with a special staff
 
 Frost and flame salamanders hate each other, and will attack one another on sight.
 
-![Expert monster plate: salamander](assets/salamander-plate.png)
+![Salamander](assets/salamander-plate.png)
 
 ### Sylph
 *Source:* `AD&D 1E Conversion`  *Category:* `Elemental`
@@ -2203,7 +2203,7 @@ The bodyguards all fight as 4 hit dice  and have 3-18 (3d6) hit points each. As 
 
 These small, evil dog-like men usually live underground. They have scaly rust-brown skin and no hair. They have well developed infravision (heat-sensing sight) to a 90' range. They prefer to attack by ambush. A kobold chieftain and 1-6 bodyguards live in the kobold lair. The chieftain has 9 hit points and fights as a 2 hit dice monster. The bodyguards each have 6 hit points and fight as 1 + 1 hit dice . As long as the chieftain is alive, all kobolds with him have a morale of 8 rather than 6. Kobolds hate gnomes and will attack them on sight. Treasure type J is only found in encounters in the lair or in the wilderness.
 
-![Basic monster illustration: kobold](assets/kobold-plate.png)
+![Kobold](assets/kobold-plate.png)
 
 ### Lizard Man
 *Source:* `Basic`  *Category:* `Humanoid`
@@ -2216,7 +2216,7 @@ These small, evil dog-like men usually live underground. They have scaly rust-br
 
 These water-dwelling creatures look like men with lizard heads and tails. They live in tribes. They will try to capture humans and demi-humans and take the victims back to the tribal lair as the main course of a feast. Lizard men are semi-intelligent and use weapons such as spears and large clubs (treat the clubs as maces) gaining a bonus of + 1 on damage rolls due to their great strength. Lizard men are often found in swamps, rivers, and along seacoasts as well as in dungeons.
 
-![Basic monster illustration: lizard man](assets/lizard-man-plate.png)
+![Lizard Man](assets/lizard-man-plate.png)
 
 ### Locathah
 *Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
@@ -2297,7 +2297,7 @@ A troglodyte is an intelligent human-like reptile with a short tail, long legs, 
 
 They have a chameleon-like ability to change colors and use it to hide by rock walls, surprising on a roll of 1-4 on 1d6. They secrete an oil which produces a stench that will nauseate humans and demi-humans unless the victims save vs. Poison. Nauseated characters have a -2 penalty on their attack rolls while in hand-to-hand combat with the troglodytes.
 
-![Basic monster illustration: troglodyte](assets/troglodyte-plate.png)
+![Troglodyte](assets/troglodyte-plate.png)
 
 ::: pagebreak-pdf
 :::
@@ -2367,7 +2367,7 @@ Ettins are closely related to orcs in appearance and habits. They dress in filth
 - **Cloud giants** are tall, sharp-sensed mountain or cloud dwellers who often keep giant hawks or dire wolves.
 - **Storm giants** are the tallest of all giants, love thunder storms, and in a storm may hurl lightning that does damage equal to their current hit points, with a save vs. Spells for half.
 
-![Expert monster illustration: giants](assets/giant-plate.png)
+![Giants](assets/giant-plate.png)
 
 ### Ogre
 *Source:* `Basic`  *Category:* `Giant`
@@ -2451,7 +2451,7 @@ Deep within the nest is a massive egg-laying queen attended by countless workers
 
 Legends claim driver ants sometimes mine and collect gold. There is a 30% chance a driver ant lair contains `1d10` thousand gp worth of gold nuggets.
 
-![Basic monster illustration: driver ant](assets/driver-ant-plate.png)
+![Driver Ant](assets/driver-ant-plate.png)
 
 ### Ant, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Insect`
@@ -2492,7 +2492,7 @@ Killer bee hives contain a rare golden honey prized by alchemists and healers. T
 
 [Driver ants](#ant-driver) prize killer bee honey and will attack hives in enormous swarms. Entire forests have been stripped bare during these savage insect wars, leaving behind mounds of dead ants, shattered combs, and rivers of sticky golden honey.
 
-![Basic monster illustration: killer bee](assets/killer-bee-plate.png)
+![Killer Bee](assets/killer-bee-plate.png)
 
 ::: twocolumn-pdf-end
 :::
@@ -2638,7 +2638,7 @@ A giant scorpion is the size of a small horse and will usually attack on sight. 
 
 Anyone struck by the stinger must save vs. Poison or die. Giant scorpions live in deserts, caves, and ruins.
 
-![Expert monster illustration: giant scorpion](assets/giant-scorpion-plate.png)
+![Giant Scorpion](assets/giant-scorpion-plate.png)
 
 ### Spider
 *Source:* `AD&D 1E Conversion`  *Category:* `Insect`
@@ -2688,7 +2688,7 @@ Spider bites are poisonous. Victims must Save vs. Poison or die, though the refe
 
 - *Rhagodessa*: A rhagodessa is a giant arachnid which looks like a huge hairy spider with an oversized head and jaws (mandibles). A rhagodessa is nocturnal (sleeping during the day and active at night or in the dark), and lives in caves. A rhagodessa is about the size of a small horse, colored yellow with a dark brown thorax. It has 5 pairs of legs; the front pair end in suckers which help the creature to grasp its prey. A hit with a sucker-leg does no damage but means that the victim is stuck. In the next round of combat, the victim will be pulled to the rhagodessa's mandibles and will automatically be bitten for 2d8 points of damage. Rhagodessae can climb walls, are meateaters and always hungry.
 
-![Basic monster illustration: giant spider](assets/spider-plate.png)
+![Giant Spider](assets/spider-plate.png)
 
 ### Tick, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Insect`
@@ -2962,7 +2962,7 @@ Unlike most Great Cats, sabre-tooth tigers are aggressive and fearless hunters t
 
 A sabre-tooth tiger that hits the same target with both claw attacks in one combat round also tears with its great fangs for an additional `2-8` points of damage.
 
-![Basic monster illustration: sabre-tooth tiger](assets/sabre-tooth-tiger-plate.png)
+![Sabre-tooth Tiger](assets/sabre-tooth-tiger-plate.png)
 
 ### Stegosaurus
 *Source:* `Expert`  *Category:* `Animal`
@@ -3428,7 +3428,7 @@ The creature’s most feared ability is its constant distortion of light and spa
 
 Displacer beasts possess a cruel, predatory cunning and delight in stalking intelligent prey. They harbor an instinctive hatred and fear of blink dogs, attacking them and any creatures traveling with them on sight.
 
-![Expert monster illustration: displacer beast](assets/displacer-beast-plate.png)
+![Displacer Beast](assets/displacer-beast-plate.png)
 
 ### Doppelganger
 *Source:* `Basic`  *Category:* `Monstrous`
@@ -5132,7 +5132,7 @@ A hit by a spectre does `1d8` points of damage and drains 2 life energy levels. 
 
 A character whose level is reduced to 0 is slain. A character slain by a spectre will rise the next night as a spectre under the control of the slayer.
 
-![Expert monster plate: spectre](assets/spectre-plate.png)
+![Spectre](assets/spectre-plate.png)
 
 ### Vampire*
 *Source:* `Expert`  *Category:* `Undead`
