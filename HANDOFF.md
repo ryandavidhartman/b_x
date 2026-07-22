@@ -4,6 +4,19 @@ Date: `2026-05-22`
 
 ## Latest Session Update
 
+Follow-up update on `2026-07-21` (first session in Claude Code, not Codex):
+
+- Added `## Appendix A: Legendary Creatures` to the end of the monster book and moved `Demogorgon` into it out of the `Demons` chapter, leaving a cross-reference link in the `Demons` intro. Demogorgon's stat block and description are unchanged, only relocated.
+- Split the combined multi-creature stat tables in `Demons` and `Devils` into individual `###` entries, each with its own compact stat block (the existing pipe-delimited shorthand) and description:
+  - `Demons`: `Manes`, `Succubus`, `Type I Demon (Vrock)`, `Type II Demon (Hezrou)`, `Type III Demon (Glabrezu)`, `Type IV Demon (Nalfeshnee)`, `Type V Demon (Marilith)`, `Type VI Demon (Balor)` — previously bundled under one `### Demon*` heading with a wide 8-column table.
+  - `Devils`: `Lemure`, `Erinyes`, `Barbed Devil`, `Bone Devil`, `Horned Devil (Malebranche)`, `Ice Devil`, `Pit Fiend` — previously bundled under one `### Devil` heading with a wide 7-column table.
+  - Shared/general lore paragraphs that preceded each old combined table were kept as chapter-intro prose rather than duplicated into every new entry.
+  - `::: twocolumn-pdf-begin` / `::: twocolumn-pdf-end` markers were kept in the same position relative to the surrounding prose (they're point toggles, not wrapping containers, and can span a chapter boundary — see how the `Demons`→`Devils` two-column stretch already crossed a `##` heading before this change).
+- Rebuilt and spot-checked `combined-monsters.html`/`.pdf` after each change (grepped for the new header `id`s and their `<table class="statblock">` rows to confirm every stat value landed in the right cell).
+- Did **not** touch legitimate single-creature variant tables (`Bear`, `Dragon`, `Giant`, etc.) — those intentionally stay as real Pandoc tables under one heading, since they represent named sub-variants of one creature rather than distinct creatures.
+- Committed and pushed as two separate commits (Appendix A/Demogorgon move, then Demons split, then Devils split — three commits total across two prior turns).
+- `generate_monsters.py` was re-confirmed as legacy/inactive: `build.sh` reads `combined-monsters.md` directly, and the script's `build_markdown()` only ever emitted an "Animals"-style single-chapter document, not the full book — it has not driven the current file's chapter structure for some time.
+
 Follow-up update on `2026-06-03`:
 
 - Added `*Category:*` metadata to every monster entry in:
