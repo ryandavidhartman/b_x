@@ -1712,23 +1712,6 @@ Devils resist many forms of attack. They are completely immune to fire and take 
 ::: twocolumn-pdf-end
 :::
 
-### Devil
-*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
-
-| Stat          | Lemure | Erinyes | Barbed | Bone | Horned | Ice | Pit Fiend |
-| ------------- | ------ | ------- | ------ | ---- | ------ | --- | --------- |
-| Armor Class   | 7      | 2       | 0      | -1   | -5     | -4  | -3        |
-| Hit Dice      | 3      | 6+6     | 8      | 9    | 5+5    | 11  | 13        |
-| Save As       | Fighter 3 | Fighter 7 | Fighter 8 | Fighter 9 | Fighter 6 | Fighter 11 | Fighter 13 |
-| Move          | 30' (10') | 60' (20') | 120' (40') | 150' (50') | 90' (30') | 60' (20') | 60' (20') |
-| Fly           | Nil    | 210' (70') | Nil | Nil | 180' (60') | Special | 150' (50') |
-| Attacks       | 1 claw | 1 dagger | 2 claws / 1 tail | 1 hook / 1 tail | 2 claws / 1 bite / 1 tail or weapon / tail | 2 claws / 1 bite / 1 tail | 2 weapons / 1 tail |
-| Damage        | 1d3    | 2d4     | 2d4 / 2d4 / 3d4 | 3d4 / 2d4 | 1d4 / 1d4 / 1d4+1 / 1d3 or by weapon / 1d3 | 1d4 / 1d4 / 2d4 / 3d4 | 1d4+4 / 1d6+6 / 2d4 |
-| No. Appearing | 2d6 (5d6) | 1d3 (4d4) | 1d2 (3d4) | 1d2 (2d4) | 1d2 (2d4) | 1 (1d4) | 1 (1d3) |
-| Morale        | 12     | 9       | 10     | 10   | 10     | 10  | 11        |
-| Treasure Type | Nil    | R       | Nil    | Nil  | I      | Q, R | J, R     |
-| Alignment     | Lawful | Lawful | Lawful | Lawful | Lawful | Lawful | Lawful |
-
 ::: twocolumn-pdf-begin
 :::
 
@@ -1738,17 +1721,84 @@ All devils have telepathy, infravision, teleportation without error, know alignm
 
 Only erinyes, barbed devils, and bone devils can be hit by normal weapons. Greater devils require magic or silver weapons. Devils can summon others of their kind, as noted below. Lesser devils fight until destroyed. Greater devils may bargain if seriously threatened.
 
+### Lemure
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | 7          | No. Appearing | 2d6 (5d6) |
+| Hit Dice    | 3          | Save As       | Fighter 3 |
+| Move        | 30' (10')  | Morale        | 12        |
+| Attacks     | 1 claw     | Treasure Type | Nil       |
+| Damage      | 1d3        | Alignment     | Lawful    |
+
 Lemures are mindless damned souls reshaped into vaguely human blobs. They regenerate 1 hit point per round and are permanently destroyed only by holy water, holy weapons, or similar blessed power. They are immune to sleep, charm, and similar spells.
+
+### Erinyes
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | 2          | No. Appearing | 1d3 (4d4) |
+| Hit Dice    | 6+6        | Save As       | Fighter 7 |
+| Move        | 60' (20')  | Morale        | 9         |
+| Fly         | 210' (70') | Treasure Type | R         |
+| Attacks     | 1 dagger   | Alignment     | Lawful    |
+| Damage      | 2d4        |               |           |
 
 Erinyes are soul-hunters, often appearing beautiful and winged. Their venomous daggers cause terrible pain; a creature hit must Save vs. Poison or faint for 1d6 rounds. They carry ropes of entanglement, cause fear by gaze, and may detect invisible, locate object, become invisible, polymorph self, produce flame, or attempt to summon another erinyes.
 
+### Barbed Devil
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | 0                | No. Appearing | 1d2 (3d4) |
+| Hit Dice    | 8                | Save As       | Fighter 8 |
+| Move        | 120' (40')       | Morale        | 10        |
+| Attacks     | 2 claws / 1 tail | Treasure Type | Nil       |
+| Damage      | 2d4 / 2d4 / 3d4  | Alignment     | Lawful    |
+
 Barbed devils are vigilant guards and are never surprised. A creature struck by a barbed devil must Save vs. Spells or be affected by fear. They may use pyrotechnics, produce flame, hold person, or attempt to summon another barbed devil.
+
+### Bone Devil
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -1               | No. Appearing | 1d2 (2d4) |
+| Hit Dice    | 9                | Save As       | Fighter 9 |
+| Move        | 150' (50')       | Morale        | 10        |
+| Attacks     | 1 hook / 1 tail  | Treasure Type | Nil       |
+| Damage      | 3d4 / 2d4        | Alignment     | Lawful    |
 
 Bone devils are malicious torturers armed with great hooks. A creature hit by the hook has a 50% chance to be caught fast, allowing the devil to strike with its tail. A tail hit drains 1d4 Strength for 10 rounds unless the victim Saves vs. Poison. Bone devils may create fear, create illusion, fly, become invisible, detect invisible, or attempt to summon another bone devil. Once per day they may create a wall of ice.
 
+### Horned Devil (Malebranche)
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -5                                          | No. Appearing | 1d2 (2d4) |
+| Hit Dice    | 5+5                                         | Save As       | Fighter 6 |
+| Move        | 90' (30')                                   | Morale        | 10        |
+| Fly         | 180' (60')                                  | Treasure Type | I         |
+| Attacks     | 2 claws / 1 bite / 1 tail or weapon / tail  | Alignment     | Lawful    |
+| Damage      | 1d4 / 1d4 / 1d4+1 / 1d3 or by weapon / 1d3  |               |           |
+
 Horned devils, or malebranche, are the least greater devils. They may carry a two-tined fork for 2d6 damage or a barbed whip for 1d4 damage plus stunning for the same number of rounds unless the victim Saves vs. Spells. Their tail wounds bleed for 1 hit point per turn until bound or magically healed. They radiate fear in a 5' radius and may use pyrotechnics, produce flame, ESP, detect magic, illusion, or attempt to summon another horned devil. Once per day they may create a triple-strength wall of fire.
 
+### Ice Devil
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -4                         | No. Appearing | 1 (1d4)    |
+| Hit Dice    | 11                         | Save As       | Fighter 11 |
+| Move        | 60' (20')                  | Morale        | 10         |
+| Fly         | Special                    | Treasure Type | Q, R       |
+| Attacks     | 2 claws / 1 bite / 1 tail  | Alignment     | Lawful     |
+| Damage      | 1d4 / 1d4 / 2d4 / 3d4      |               |            |
+
 Ice devils are cold, insectile greater devils. A few carry great spears that deal 2d6 damage and numb the victim unless it Saves vs. Paralysis, slowing it by half. Ice devils regenerate 1 hit point per round, radiate fear in a 10' radius, and may fly, wall of ice, detect magic, detect invisible, polymorph self, or summon bone devils or another ice devil. Once per day they may cause an ice storm.
+
+### Pit Fiend
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -3                     | No. Appearing | 1 (1d3)    |
+| Hit Dice    | 13                     | Save As       | Fighter 13 |
+| Move        | 60' (20')              | Morale        | 11         |
+| Fly         | 150' (50')             | Treasure Type | J, R       |
+| Attacks     | 2 weapons / 1 tail     | Alignment     | Lawful     |
+| Damage      | 1d4+4 / 1d6+6 / 2d4    |               |            |
 
 Pit fiends are among the most dreaded greater devils and servants of the ruler of Hell. They fight with a hooked weapon and jagged club, regenerate 2 hit points per round, and radiate fear in a 20' radius. A tail hit constricts for 2d4 damage each round. Pit fiends may use pyrotechnics, produce flame, wall of fire, detect magic, detect invisible, polymorph self, hold person, and summon barbed devils or another pit fiend. Once per day they may use a symbol of pain.
 
