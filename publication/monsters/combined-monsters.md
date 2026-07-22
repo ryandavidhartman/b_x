@@ -1553,24 +1553,6 @@ Named demon lords such as Demogorgon, Juiblex, Orcus, and Yeenoghu are unique be
 ::: twocolumn-pdf-end
 :::
 
-### Demon*
-*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
-
-| Stat          | Manes | Succubus | Type I | Type II | Type III | Type IV | Type V | Type VI |
-| ------------- | ----- | -------- | ------ | ------- | -------- | ------- | ------ | ------- |
-| Armor Class   | 7     | 0        | 0      | -2      | -4       | -1      | -7/-5  | -2      |
-| Hit Dice      | 1**   | 6**      | 8**    | 9**     | 10**     | 11**    | 7+7**  | 8+8**     |
-| Save As       | Fighter 1 | Fighter 6 | Fighter 8 | Fighter 9 | Fighter 10 | Fighter 11 | Fighter 8 | Fighter 9 |
-| Move          | 30' (10') | 120' (40') | 120' (40') | 60' (20') | 90' (30') | 90' (30') | 120' (40') | 60' (20') |
-| Fly           | Nil   | 180' (60') | 180' (60') | Nil | Nil | 120' (40') | Nil | 150' (50') |
-| Swim          | Nil   | Nil      | Nil    | 120' (40') | Nil | Nil | Nil | Nil |
-| Attacks       | 2 claws / 1 bite | 2 claws | 2 claws / 2 talons / 1 bite | 2 claws / 1 bite | 2 pincers / 2 claws / 1 bite | 2 claws / 1 bite | 6 weapons / 1 constrict | 1 sword or whip |
-| Damage        | 1d2 / 1d2 / 1d4 | 1d3 / 1d3 | 1d4 / 1d4 / 1d8 / 1d8 / 1d6 | 1d3 / 1d3 / 4d4 | 2d6 / 2d6 / 1d3 / 1d3 / 1d4+1 | 1d4 / 1d4 / 2d4 | By weapon / 2d8 | 2d6+1 or special |
-| No. Appearing | 2d4 (4d4) | 1 (1) | 1d3 (1d6) | 1d3 (1d6) | 1d3 (1d6) | 1d3 (1d6) | 1d3 (1d6) | 1d3 (1d6) |
-| Morale        | 12    | 9        | 10     | 10      | 10       | 10      | 10     | 11      |
-| Treasure Type | Nil   | I, Q     | B      | C       | D        | E       | G      | F       |
-| Alignment     | Chaotic | Chaotic | Chaotic | Chaotic | Chaotic | Chaotic | Chaotic | Chaotic |
-
 ::: twocolumn-pdf-begin
 :::
 
@@ -1578,35 +1560,112 @@ Demons are chaotic evil beings from the Abyss. They roam the lower planes and th
 
 All demons have telepathy, infravision, darkness, teleportation without error, and some form of gate power. Demons take full damage from acid, iron weapons, magic missiles, and poison; half damage from cold, lightning, fire, and poison gas; and no damage from silver unless the demon can also be harmed by ordinary weapons. Types I-III can be hit by normal weapons. Type IV and stronger demons require magic weapons.
 
-**Manes** are the least demons, formed from chaotic evil dead. If slain away from the Abyss, they dissolve into foul vapor and reform in one day unless destroyed by a demon lord or similar power. They are treated as undead against sleep, charm, and similar spells.
+### Manes
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | 7                | No. Appearing | 2d4 (4d4) |
+| Hit Dice    | 1**              | Save As       | Fighter 1 |
+| Move        | 30' (10')        | Morale        | 12        |
+| Attacks     | 2 claws / 1 bite | Treasure Type | Nil       |
+| Damage      | 1d2 / 1d2 / 1d4  | Alignment     | Chaotic   |
+
+Manes are the least demons, formed from chaotic evil dead. If slain away from the Abyss, they dissolve into foul vapor and reform in one day unless destroyed by a demon lord or similar power. They are treated as undead against sleep, charm, and similar spells.
 
 ![Manes](assets/manes-plate.png)
 
-**Succubi** are solitary tempters that appear as beautiful humanoids with bat-like wings. Their kiss drains one energy level. At will, a succubus may become ethereal, charm person, use ESP, use clairaudience, suggest, assume a humanoid form, or attempt to gate a stronger demon.
+### Succubus
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | 0            | No. Appearing | 1 (1)     |
+| Hit Dice    | 6**          | Save As       | Fighter 6 |
+| Move        | 120' (40')   | Morale        | 9         |
+| Fly         | 180' (60')   | Treasure Type | I, Q      |
+| Attacks     | 2 claws      | Alignment     | Chaotic   |
+| Damage      | 1d3 / 1d3    |               |           |
+
+Succubi are solitary tempters that appear as beautiful humanoids with bat-like wings. Their kiss drains one energy level. At will, a succubus may become ethereal, charm person, use ESP, use clairaudience, suggest, assume a humanoid form, or attempt to gate a stronger demon.
 
 ![Succubi](assets/succubus-plate.png)
 
-**Type I** demons, or vrocks, resemble a human-vulture hybrid. They love human flesh and treasure. They can detect invisible, use telekinesis up to 2,000 cn, and attempt to gate another Type I demon.
+### Type I Demon (Vrock)
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | 0                            | No. Appearing | 1d3 (1d6) |
+| Hit Dice    | 8**                          | Save As       | Fighter 8 |
+| Move        | 120' (40')                   | Morale        | 10        |
+| Fly         | 180' (60')                   | Treasure Type | B         |
+| Attacks     | 2 claws / 2 talons / 1 bite  | Alignment     | Chaotic   |
+| Damage      | 1d4 / 1d4 / 1d8 / 1d8 / 1d6  |               |           |
+
+Type I demons, or vrocks, resemble a human-vulture hybrid. They love human flesh and treasure. They can detect invisible, use telekinesis up to 2,000 cn, and attempt to gate another Type I demon.
 
 ![Type I / Vrock](assets/type-i-vrock-plate.png)
 
-**Type II** demons, or hezrou, are toad-like brutes that can be harmed by normal weapons. They can cause fear, levitate, detect invisible, use telekinesis up to 3,000 cn, and attempt to gate another Type II demon.
+### Type II Demon (Hezrou)
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | -2               | No. Appearing | 1d3 (1d6) |
+| Hit Dice    | 9**              | Save As       | Fighter 9 |
+| Move        | 60' (20')        | Morale        | 10        |
+| Swim        | 120' (40')       | Treasure Type | C         |
+| Attacks     | 2 claws / 1 bite | Alignment     | Chaotic   |
+| Damage      | 1d3 / 1d3 / 4d4  |               |           |
+
+Type II demons, or hezrou, are toad-like brutes that can be harmed by normal weapons. They can cause fear, levitate, detect invisible, use telekinesis up to 3,000 cn, and attempt to gate another Type II demon.
 
 ![Type II / Hezrou](assets/type-ii-hezrou-plate.png)
 
-**Type III** demons, or glabrezu, are tall, wrinkled horrors with pincers and a small pair of human arms. They can cause fear, levitate, create pyrotechnics, polymorph self, use telekinesis up to 4,000 cn, and attempt to gate Type I-III demons.
+### Type III Demon (Glabrezu)
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | -4                            | No. Appearing | 1d3 (1d6) |
+| Hit Dice    | 10**                          | Save As       | Fighter 10 |
+| Move        | 90' (30')                     | Morale        | 10        |
+| Attacks     | 2 pincers / 2 claws / 1 bite  | Treasure Type | D         |
+| Damage      | 2d6 / 2d6 / 1d3 / 1d3 / 1d4+1 | Alignment     | Chaotic   |
+
+Type III demons, or glabrezu, are tall, wrinkled horrors with pincers and a small pair of human arms. They can cause fear, levitate, create pyrotechnics, polymorph self, use telekinesis up to 4,000 cn, and attempt to gate Type I-III demons.
 
 ![Type III / Glabrezu](assets/type-iii-glabrezu-plate.png)
 
-**Type IV** demons, or nalfeshnee, combine the worst features of ape and boar. They can create illusions, cause fear, levitate, detect magic, read languages, dispel magic, polymorph self, use telekinesis up to 5,000 cn, project an image, use symbols of fear or discord, and attempt to gate Type I-IV demons.
+### Type IV Demon (Nalfeshnee)
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | -1               | No. Appearing | 1d3 (1d6)  |
+| Hit Dice    | 11**             | Save As       | Fighter 11 |
+| Move        | 90' (30')        | Morale        | 10         |
+| Fly         | 120' (40')       | Treasure Type | E          |
+| Attacks     | 2 claws / 1 bite | Alignment     | Chaotic    |
+| Damage      | 1d4 / 1d4 / 2d4  |               |            |
+
+Type IV demons, or nalfeshnee, combine the worst features of ape and boar. They can create illusions, cause fear, levitate, detect magic, read languages, dispel magic, polymorph self, use telekinesis up to 5,000 cn, project an image, use symbols of fear or discord, and attempt to gate Type I-IV demons.
 
 ![Type IV / Nalfeshnee](assets/type-iv-nalfeshnee-plate.png)
 
-**Type V demons**, or mariliths, have a six-armed female torso and the body of a great serpent. They fight with six weapons and constrict with their tails. They can charm person, levitate, read languages, detect invisible, create pyrotechnics, polymorph self, project an image, and attempt to gate nearly any demon.
+### Type V Demon (Marilith)
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | -7/-5                    | No. Appearing | 1d3 (1d6) |
+| Hit Dice    | 7+7**                    | Save As       | Fighter 8 |
+| Move        | 120' (40')               | Morale        | 10        |
+| Attacks     | 6 weapons / 1 constrict  | Treasure Type | G         |
+| Damage      | By weapon / 2d8          | Alignment     | Chaotic   |
+
+Type V demons, or mariliths, have a six-armed female torso and the body of a great serpent. They fight with six weapons and constrict with their tails. They can charm person, levitate, read languages, detect invisible, create pyrotechnics, polymorph self, project an image, and attempt to gate nearly any demon.
 
 ![Type V / Marilith](assets/type-v-marilith-plate.png)
 
-**Type VI** demons, or balors, are mighty named demons who favor a sword and a many-tailed whip. In combat there is a 1-4 on 1d6 chance each round that a balor surrounds itself with flame and uses its whip to drag a victim into the fire for 2d6, 3d6, or 4d6 damage depending on the demon's size. Balors can cause fear, detect magic, read magic, read languages, detect invisible, create pyrotechnics, dispel magic, suggest, use telekinesis up to 6,000 cn, employ symbols of fear, discord, sleep, or stunning, and gate Type III or IV demons.
+### Type VI Demon (Balor)
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | -2                     | No. Appearing | 1d3 (1d6) |
+| Hit Dice    | 8+8**                  | Save As       | Fighter 9 |
+| Move        | 60' (20')              | Morale        | 11        |
+| Fly         | 150' (50')             | Treasure Type | F         |
+| Attacks     | 1 sword or whip        | Alignment     | Chaotic   |
+| Damage      | 2d6+1 or special       |               |           |
+
+Type VI demons, or balors, are mighty named demons who favor a sword and a many-tailed whip. In combat there is a 1-4 on 1d6 chance each round that a balor surrounds itself with flame and uses its whip to drag a victim into the fire for 2d6, 3d6, or 4d6 damage depending on the demon's size. Balors can cause fear, detect magic, read magic, read languages, detect invisible, create pyrotechnics, dispel magic, suggest, use telekinesis up to 6,000 cn, employ symbols of fear, discord, sleep, or stunning, and gate Type III or IV demons.
 
 ![Type VI / Balor](assets/type-vi-balor-plate.png)
 
