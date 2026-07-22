@@ -1548,36 +1548,7 @@ Demons are affected by attack forms as follows:
 
 Because of their strange telepathy, demons understand all intelligent communication. Demons with average or greater intelligence may also converse normally.
 
-Named demon lords such as Demogorgon, Juiblex, Orcus, and Yeenoghu are unique beings with powers beyond ordinary monster use. Treat them as campaign-level opponents and review their abilities individually before play.
-
-### Demogorgon
-*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
-
-| Armor Class | -8                  | No. Appearing | 1          |
-| Hit Dice    | 20***               | Save As       | Fighter 20 |
-| Move        | 150' (50')          | Morale        | 12         |
-| Attacks     | 2 tentacles / tail  | Treasure Type | R, S, J, V |
-| Damage      | 1d6 / 1d6 / special | Alignment     | Chaotic    |
-
-
-The rivalry between demon lords is great, but the enmity between Demogorgon and Orcus is immense and unending.  Demogorgon is a terrible opponent.
-
-**First**: He possesses great powers in his two heads. Should he fix the gaze of both upon his enemies he is able to hypnotize them. This hypnosis affects from
-- `10d10` creatures of 1-3 hit dice
-- `5d8` with 4-6 hit dice
-- `3d8` with 7-9 hit dice
-- `2d6` with 10-12 hit dice
-- `1-4` with 13 or more hit dice. 
-
-Those over 15 hit dice save versus magic; all others are automatically hypnotized. Victims remain under the effect for 1 turn, obeying nearly all instructions short of self-destruction. For `1d6` turns afterwards they tend to continue acting upon lingering suggestions. Demogorgon's left head may instead use a gaze with the effect of a **rod of beguiling**, while the gaze of his right head causes insanity for `1d6` turns. Victims save versus magic to avoid either gaze.
-
-**Second**: Demogorgon is able to lash his forked tail, striking with it as a whip-like weapon. Its touch causes energy drain of `1d4` levels, the tail striking as a flail for hit determination.
-
-**Third**: His tentacles are also deadly weapons, each causing `1d6` hit points of damage. Opponents of lesser stature, especially those from the material plane such as humans, dwarves, and elves, are subject to a terrible supernatural rot. A struck limb becomes useless in 6 melee rounds and drops off in another 6 rounds. Body hits permanently remove 25% of the victim’s hit points after 6 melee rounds, cumulative per hit. A **cure disease** cast within the initial 6-round period saves the limb, which heals in `1d4` weeks, and restores body damage completely.
-
-Whenever he desires, Demogorgon may use any one of the following powers: **continual darkness**, **charm person**, **create illusion** (as a wand of illusion), **cause fear** (as a wand of that sort), **levitate** (as a 16^th^ level magic-user), **detect magic**, **read magic**, **read languages**, **detect invisible**, **ESP**, **dispel magic**, **clairvoyance**, **clairaudience**, **suggestion**, **water breathing**, **polymorph self**, **wall of ice**, **charm monster**, or **telekinesis** up to 7,000 cn weight with one or both heads. Once per day he may cast **feeblemind**, **project image**, **power word stun**, any **symbol**, or **sticks to snakes**. He may also **gate** in other demons with an 85% chance of success: 50% chance for type I-IV demons and 50% chance for a type V or VI demon.
-
-**Description**: It is contended by some that this demon prince is supreme, and in any event he is awesome in his power. This gigantic demon is 18' tall and reptilian. Demogorgon has two heads bearing the visages of evil baboons or perhaps mandrills, with the hideous coloration of the latter beasts. His blue-green skin is plated with snake-like scales, his body and legs are those of a giant lizard, his twin necks resemble serpents, and his thick tail is forked. Rather than arms, he possesses great tentacles. His appearance testifies to his command over cold-blooded things such as serpents, reptiles, and octopi. 
+Named demon lords such as Demogorgon, Juiblex, Orcus, and Yeenoghu are unique beings with powers beyond ordinary monster use. Treat them as campaign-level opponents and review their abilities individually before play. Demogorgon is detailed in [Appendix A: Legendary Creatures](#appendix-a-legendary-creatures).
 
 ::: twocolumn-pdf-end
 :::
@@ -5204,5 +5175,38 @@ Zombies are undead humans or demi-humans animated by some evil cleric or magic-u
 
 Zombies will always attack on sight, but can be destroyed by normal weapons. They are slow fighters and always strike last (no initiative roll needed).
 
-::: twocolumn-pdf-end
+::: pagebreak-pdf
 :::
+
+## Appendix A: Legendary Creatures
+
+The creatures in this appendix are unique, campaign-level beings rather than ordinary monster-manual entries. Each is a singular individual with powers well beyond a typical encounter, and should be used sparingly and with care by the DM.
+
+### Demogorgon
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | -8                  | No. Appearing | 1          |
+| Hit Dice    | 20***               | Save As       | Fighter 20 |
+| Move        | 150' (50')          | Morale        | 12         |
+| Attacks     | 2 tentacles / tail  | Treasure Type | R, S, J, V |
+| Damage      | 1d6 / 1d6 / special | Alignment     | Chaotic    |
+
+
+The rivalry between demon lords is great, but the enmity between Demogorgon and Orcus is immense and unending.  Demogorgon is a terrible opponent.
+
+**First**: He possesses great powers in his two heads. Should he fix the gaze of both upon his enemies he is able to hypnotize them. This hypnosis affects from
+- `10d10` creatures of 1-3 hit dice
+- `5d8` with 4-6 hit dice
+- `3d8` with 7-9 hit dice
+- `2d6` with 10-12 hit dice
+- `1-4` with 13 or more hit dice. 
+
+Those over 15 hit dice save versus magic; all others are automatically hypnotized. Victims remain under the effect for 1 turn, obeying nearly all instructions short of self-destruction. For `1d6` turns afterwards they tend to continue acting upon lingering suggestions. Demogorgon's left head may instead use a gaze with the effect of a **rod of beguiling**, while the gaze of his right head causes insanity for `1d6` turns. Victims save versus magic to avoid either gaze.
+
+**Second**: Demogorgon is able to lash his forked tail, striking with it as a whip-like weapon. Its touch causes energy drain of `1d4` levels, the tail striking as a flail for hit determination.
+
+**Third**: His tentacles are also deadly weapons, each causing `1d6` hit points of damage. Opponents of lesser stature, especially those from the material plane such as humans, dwarves, and elves, are subject to a terrible supernatural rot. A struck limb becomes useless in 6 melee rounds and drops off in another 6 rounds. Body hits permanently remove 25% of the victim’s hit points after 6 melee rounds, cumulative per hit. A **cure disease** cast within the initial 6-round period saves the limb, which heals in `1d4` weeks, and restores body damage completely.
+
+Whenever he desires, Demogorgon may use any one of the following powers: **continual darkness**, **charm person**, **create illusion** (as a wand of illusion), **cause fear** (as a wand of that sort), **levitate** (as a 16^th^ level magic-user), **detect magic**, **read magic**, **read languages**, **detect invisible**, **ESP**, **dispel magic**, **clairvoyance**, **clairaudience**, **suggestion**, **water breathing**, **polymorph self**, **wall of ice**, **charm monster**, or **telekinesis** up to 7,000 cn weight with one or both heads. Once per day he may cast **feeblemind**, **project image**, **power word stun**, any **symbol**, or **sticks to snakes**. He may also **gate** in other demons with an 85% chance of success: 50% chance for type I-IV demons and 50% chance for a type V or VI demon.
+
+**Description**: It is contended by some that this demon prince is supreme, and in any event he is awesome in his power. This gigantic demon is 18' tall and reptilian. Demogorgon has two heads bearing the visages of evil baboons or perhaps mandrills, with the hideous coloration of the latter beasts. His blue-green skin is plated with snake-like scales, his body and legs are those of a giant lizard, his twin necks resemble serpents, and his thick tail is forked. Rather than arms, he possesses great tentacles. His appearance testifies to his command over cold-blooded things such as serpents, reptiles, and octopi. 
