@@ -2459,7 +2459,6 @@ Trolls are strong and rend their opponents with talons and sharp teeth. A troll 
 ::: pagebreak-pdf
 :::
 
-
 ## Insects
 
 Insects and similar creeping creatures are common in dungeons, ruins, and wilderness areas. Though many are merely oversized versions of normal vermin, others are strange and deadly monsters driven by hunger, instinct, or hive behavior.
@@ -2747,10 +2746,10 @@ Giant wasps are aggressive flying insects that build paper-like nests in trees, 
 
 A sting forces a Save vs. Poison or death. Giant wasps may paralyze prey to feed their young, at the referee's discretion.
 
+![Wasp, Giant](assets/giant-wasp-plate.png)
+
 ::: pagebreak-pdf
 :::
-
-![Wasp, Giant](assets/giant-wasp-plate.png)
 
 ## Lost World
 
@@ -4541,10 +4540,10 @@ Yetis are shaggy white mountain predators that blend into snow and ice. They amb
 
 If a yeti hits with both claws, it hugs for 2d8 cold damage. A surprised victim meeting a yeti's gaze must Save vs. Paralysis or be frozen with fear for 3 rounds.
 
+![Yeti](assets/yeti-plate.png)
+
 ::: pagebreak-pdf
 :::
-
-![Yeti](assets/yeti-plate.png)
 
 ## NPCs
 
