@@ -5431,3 +5431,39 @@ He fights with a rod bearing the powers of a **rod of rulership** and a doubled 
 **Description**: Dispater is evilly handsome, and only his small horns, tail, and cloven left hoof mark him as anything other than human.
 
 ![Dispater](assets/dispater-plate.png)
+
+### Tiamat (Chromatic Dragon)
+*Source:* `AD&D 1E Conversion`  *Category:* `Dragon`
+
+| Armor Class | 0                              | No. Appearing | 1          |
+| Hit Dice    | 16***                          | Save As       | Fighter 16 |
+| Move        | 60' (20')                      | Morale        | 12         |
+| Fly         | 180' (60')                     | Treasure Type | H, S, T, U |
+| Attacks     | 5 heads / tail                 | Alignment     | Lawful     |
+| Damage      | 2d8/3d6/2d10/3d8/3d10 / 1d6    |               |            |
+
+Tiamat rules the first plane of the Nine Hells, where she spawns all evil dragonkind and hoards treasure with as much passion as she hates the good. She rarely (10%) leaves her lair, venturing out only to place a new dragon in the world or to seek fresh plunder.
+
+Tiamat's five heads — white, black, green, blue, and red — can each bite, and her tail can sting, all in the same round; her sheer bulk keeps her from using claws. Any head may instead loose its matching **breath weapon** once per day (frost, acid, gas, lightning, or fire, each as fearsome as an ancient dragon of that color) or cast **spells** — the white head knows two 1st level spells, black two 2nd level, green two 3rd level, blue two 4th level, and red two 5th level. Each head can absorb 16 hit points of damage before it is disabled until the next day; if her body takes more than 48 points of damage in a single encounter she is banished back to her own plane rather than slain outright. In her lair she is usually attended by five huge adult dragons — one each of the white, black, green, blue, and red kinds — who guard her and can speak and cast spells in her service.
+
+**Description**: Each head's color runs down its neck and into stripes along Tiamat's back and haunches, blending into gray, blue-green, and purple before merging into a muddy dark-brown tail. Her underbelly and legs fade to a greenish white where they meet her upper body's colors.
+
+![Tiamat](assets/tiamat-plate.png)
+
+### Bahamut (Platinum Dragon)
+*Source:* `AD&D 1E Conversion`  *Category:* `Dragon`
+
+| Armor Class | -3               | No. Appearing | 1                     |
+| Hit Dice    | 21***            | Save As       | Fighter 21            |
+| Move        | 90' (30')        | Morale        | 12                    |
+| Fly         | 300' (100')      | Treasure Type | H, I, R, S, T, V      |
+| Attacks     | 2 claws / bite   | Alignment     | Lawful                |
+| Damage      | 2d6 / 2d6 / 6d8  |               |                       |
+
+Bahamut, King of the Good dragons, keeps a fortified palace behind the east wind — no one is certain whether it lies on the elemental plane of air or somewhere between it and the Seven Heavens. He spends roughly a quarter of his time walking the earth in the shape of a human, an animal, or nearly anything else he wishes, for he can **shape change** himself at will and travel astrally or ethereally besides.
+
+In place of his claws and bite, Bahamut may instead loose one of three breath weapons, twice per day each: a cone of **cold**, a cloud of vapor that forces a save or turns its victims gaseous for 12 turns, or a disintegrating sonic vibration that can unmake up to 150 tons of matter — saves against any of these are made at -3 given the power behind them. He can call on any spell of 1st through 7th level, magical or clerical, up to 21 spells a day, and keeps books recording every spell he knows. Seven huge, ancient gold dragons of great loyalty serve as his guards and counselors, and he is seldom (10%) without at least one at his side.
+
+**Description**: Bahamut's scales shine a deep, burnished platinum from nose to tail-tip, and for all his 72' length he carries himself with an unhurried, watchful calm that belies the speed and fury he can bring to bear.
+
+![Bahamut](assets/bahamut-plate.png)

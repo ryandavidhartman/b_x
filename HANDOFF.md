@@ -4,6 +4,22 @@ Date: `2026-05-22`
 
 ## Latest Session Update
 
+Follow-up update on `2026-07-22`:
+
+- Added six AD&D 1E conversions to `## Appendix A: Legendary Creatures` in `combined-monsters.md`: `Juiblex`, `Orcus`, `Yeenoghu` (demon lords), `Asmodeus`, `Baalzebul`, `Dispater` (arch-devils), and `Tiamat`/`Bahamut` (Chromatic/Platinum Dragon).
+- Worked out a repeatable AD&D→B/X stat conversion formula, sourced from `D&D Rules Cyclopedia` Appendix 2 ("AD&D Game Conversions", p. 291–294) plus the already-published `Demogorgon` entry as precedent:
+  - **AC** carries over unchanged (same descending scale in both systems).
+  - **Hit Dice**: use the AD&D HD number directly when one is given (e.g. `Tiamat: 16 (128 hp)` → HD 16, `Bahamut: 21 (168 hp)` → HD 21). When AD&D only lists flat hit points with no dice count (true for named demon lords/arch-devils), divide hp by 4.5 (B/X's d8 average) and round to the nearest whole number.
+  - `Demogorgon`'s previously-published HD was recomputed from 20 → 44 under the hp/4.5 rule for consistency with the newly added demon lords, per explicit user direction.
+  - **Move**: AD&D inches × 10 = B/X feet/turn, parenthetical encounter rate = ÷ 3. Dual ground/fly speed gets its own `Fly` row (precedent: the existing `Homunculus` entry), pushing `Treasure Type` down a row and `Alignment` onto its own row with a blank trailing cell.
+  - **Save As**: `Fighter <HD>`.
+  - **Morale**: 12 (max) for all these unique legendary creatures — none of them have a source AD&D Morale score to convert, so this is a judgment call, not derived from the Cyclopedia table.
+  - **Alignment**: "Evil" drops from the AD&D two-axis alignment. Chaotic evil → `Chaotic` (demons). Lawful evil → `Lawful`, **not** `Chaotic` (devils, Tiamat) — this deliberately diverges from the Cyclopedia's literal "evil monsters become Chaotic" rule, in order to preserve the Law/Chaos distinction between devils and demons. Lawful good (Bahamut) → `Lawful`.
+  - **Asterisks** (`***` on Hit Dice) are a judgment call reflecting how many distinct special abilities/attack forms a creature has, not part of the Cyclopedia table.
+- Added matching plate illustrations for all seven new entries plus the previously-imageless `Demogorgon`, sourced from `~/dev/source/conversion/images/extracted/enhanced/` (pre-extracted, already-cleaned line art from the AD&D Monster Manual scan) into `publication/monsters/assets/` as `<creature>-plate.png`, inserted at the end of each entry's description per the existing plate-placement convention.
+- Rebuilt and spot-checked `combined-monsters.html`/`.pdf` after each addition (grepped new header `id`s, `<table class="statblock">` rows, and `<img src="assets/...">` tags).
+- Committed and pushed as three commits this session (demon lords, then arch-devils, then Tiamat/Bahamut).
+
 Follow-up update on `2026-07-21` (first session in Claude Code, not Codex):
 
 - Added `## Appendix A: Legendary Creatures` to the end of the monster book and moved `Demogorgon` into it out of the `Demons` chapter, leaving a cross-reference link in the `Demons` intro. Demogorgon's stat block and description are unchanged, only relocated.
