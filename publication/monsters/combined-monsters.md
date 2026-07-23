@@ -190,30 +190,24 @@ Apes are large primates found in remote tropical forests. Though immensely stron
 ![](assets/ape-plate.png)
 
 ### Baboon
-*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
-
-| Armor Class | 7          | No. Appearing | 2d6 (4d10) |
-| Hit Dice    | 1+1        | Save As       | Fighter 1  |
-| Move        | 120' (40') | Morale        | 6          |
-| Attacks     | 1 bite     | Treasure Type | Nil        |
-| Damage      | 1d4        | Alignment     | Neutral    |
-
-Baboons are mostly herbivorous troop animals. They are territorial and noisy, relying on numbers, threat displays, and quick climbing to drive off intruders.
-
-A troop is led by 2d4 large males. These males inflict 1d4+1 damage with their attacks. Half of any troop consists of young, which do not normally fight.
-
-If their territory is invaded, baboons attempt to drive intruders away. However, there is a 90% chance that a troop will flee if faced with determined resistance.
-
-### Baboon, Rock
 *Source:* `Basic`  *Category:* `Animal`
 
-| Armor Class | 6           | No. Appearing | 2d6 (5d6) |
-| Hit Dice    | 2           | Save As       | Fighter 1 |
-| Move        | 120' (40')  | Morale        | 8         |
-| Attacks     | club / bite | Treasure Type | U         |
-| Damage      | 1d6/1d3     | Alignment     | Neutral   |
+| Stat          | Baboon     | Rock Baboon |
+| ------------- | ---------- | ----------- |
+| Armor Class   | 7          | 6           |
+| Hit Dice      | 1+1        | 2           |
+| Save As       | Fighter 1  | Fighter 1   |
+| Move          | 120' (40') | 120' (40')  |
+| Attacks       | 1 bite     | club / bite |
+| Damage        | 1d4        | 1d6/1d3     |
+| No. Appearing | 2d6 (4d10) | 2d6 (5d6)   |
+| Morale        | 6          | 8           |
+| Treasure Type | Nil        | U           |
+| Alignment     | Neutral    | Neutral     |
 
-Rock baboons are larger and more intelligent than normal baboons. Omnivorous and aggressive, they will eat nearly anything but strongly prefer meat. They do not make tools or weapons, though they commonly wield stones, bones, or heavy branches as crude clubs. They favor rocky hills, cliffs, and ruined places, where they hurl stones from above at intruders before closing to attack.
+**Baboons** are mostly herbivorous troop animals. They are territorial and noisy, relying on numbers, threat displays, and quick climbing to drive off intruders. A troop is led by 2d4 large males, which inflict 1d4+1 damage with their attacks. Half of any troop consists of young, which do not normally fight. If their territory is invaded, baboons attempt to drive intruders away, though there is a 90% chance that a troop will flee if faced with determined resistance.
+
+**Rock baboons**: are larger and more intelligent than normal baboons. Omnivorous and aggressive, they will eat nearly anything but strongly prefer meat. They do not make tools or weapons, though they commonly wield stones, bones, or heavy branches as crude clubs. They favor rocky hills, cliffs, and ruined places, where they hurl stones from above at intruders before closing to attack.
 
 Rock baboons travel in fierce packs led by a dominant male. They are bad-tempered, territorial creatures known for sudden violence and savage infighting. Though incapable of true speech, they communicate through barks, shrieks, and threatening screams that convey simple warnings and commands.
 
@@ -2809,6 +2803,55 @@ Lost World creatures are ancient beasts and monstrous survivors from forgotten a
 
 These creatures are often larger, more savage, and more primitive than their modern descendants. Encounters with Lost World monsters remind adventurers that ancient and terrible things still lurk beyond the edges of the known world.
 
+Dinosaurs are among the most fearsome Lost World inhabitants: ancient reptiles that are extremely stupid, driven chiefly by hunger, fear, and territorial instinct. Carnivorous species relentlessly pursue anything that looks or smells edible, while armored and horned herbivores, such as ankylosaurs, stegosaurs, and ceratopsians, are more likely to defend themselves aggressively than simply flee.
+
+Huge herbivorous dinosaurs can trample smaller creatures in their path; the trample damage listed in such an entry is used when the creature steps on, charges over, or stampedes through man-sized or smaller targets. Marine reptiles of the Lost World may overturn small vessels or snatch creatures from the deck. Sages do not classify every reptile grouped here as a true dinosaur - dinichthys, archelon, mosasaurus, and the various marine and flying reptiles among them - but all are included together for convenience.
+
+### Allosaurus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 5                | No. Appearing | 1 (1d2)   |
+| Hit Dice    | 15               | Save As       | Fighter 8 |
+| Move        | 150' (50')       | Morale        | 9         |
+| Attacks     | 2 claws / 1 bite | Treasure Type | Nil       |
+| Damage      | 1d4/1d4/6d4      | Alignment     | Neutral   |
+
+The allosaurus is a swift, powerful predator and one of the most feared hunters of the Lost World, rivaled in ferocity only by the tyrannosaurus rex. It stalks herds of plant-eating dinosaurs, using speed and slashing claws to bring down even heavily armored prey. Allosaurs hunt alone or in mated pairs and will not hesitate to attack anything man-sized or larger that crosses their path.
+
+### Anatosaurus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 5          | No. Appearing | 1d6 (2d6) |
+| Hit Dice    | 12         | Save As       | Fighter 6 |
+| Move        | 120' (40') | Morale        | 6         |
+| Attacks     | 1 tail     | Treasure Type | Nil       |
+| Damage      | 1d4        | Alignment     | Neutral   |
+
+Anatosaurus, the "duck-billed" dinosaur, is a large herbivore with a broad, flattened snout suited to stripping leaves and reeds. Though normally placid grazers found in herds near lakes and marshes, they lash out with their heavy tails when cornered. Anatosaurs flee from danger whenever possible, relying on numbers and keen hearing to avoid predators.
+
+### Ankylosaurus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 0          | No. Appearing | 1d3 (2d4) |
+| Hit Dice    | 9          | Save As       | Fighter 5 |
+| Move        | 60' (20')  | Morale        | 8         |
+| Attacks     | 1 tail     | Treasure Type | Nil       |
+| Damage      | 3d6        | Alignment     | Neutral   |
+
+Ankylosaurus is a squat, heavily armored herbivore encased in thick bony plates, making it one of the best-protected creatures of the Lost World. A massive, club-like growth at the end of its tail can shatter bone with a single swing. Slow-moving but supremely confident in its natural armor, an ankylosaurus rarely flees and will stand its ground against even the largest predators.
+
+### Apatosaurus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 5                 | No. Appearing | 0 (1d6)    |
+| Hit Dice    | 30                | Save As       | Fighter 15 |
+| Move        | 60' (20')         | Morale        | 6          |
+| Attacks     | 1 tail or trample | Treasure Type | Nil        |
+| Damage      | 3d6 or 4d10       | Alignment     | Neutral    |
+
+Apatosaurus (also known as brontosaurus) is an enormous, long-necked herbivore that can reach 70 feet or more in length. Despite its size, it is a gentle grazer that prefers to flee from danger, using its whip-like tail to drive off pursuers only when trapped. A stampeding apatosaurus can trample anything smaller in its path without even noticing.
+
+![](assets/apatosaurus-plate.png)
 
 ### Ape, White
 *Source:* `Basic`  *Category:* `Animal`
@@ -2826,6 +2869,18 @@ White apes are territorial and will usually threaten intruders approaching their
 Though not intelligent, white apes are cunning enough to defend their territory and young. [Neanderthals](#neanderthal-caveman) and other primitive peoples sometimes capture and keep them as fierce guard beasts or pets.
 
 ![](assets/white-ape-plate.png)
+
+### Archelon
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 3          | No. Appearing | 0 (1d4)   |
+| Hit Dice    | 7          | Save As       | Fighter 4 |
+| Move        | 30' (10')  | Morale        | 7         |
+| Swim        | 150' (50') | Treasure Type | Nil       |
+| Attacks     | 1 bite     | Alignment     | Neutral   |
+| Damage      | 3d4        |               |           |
+
+Archelon is a gigantic sea turtle, its shell spanning up to 12 feet across, found in the warm coastal waters of Lost World regions. Though it moves with a slow, ungainly gait on land, it is swift and graceful in the water. An archelon's powerful, toothless jaws can deliver a crushing bite to anything that threatens it or its eggs.
 
 ### Axe Beak
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -2886,84 +2941,123 @@ If a cave bear hits the same target with both claw attacks in one combat round, 
 
 Giant boars are prehistoric forerunners of the wild boar and are very aggressive. If 3 or more are encountered, there is a 25% chance that `1d4` of the total are young. Adult giant boars may fight for `1d4` rounds after reaching 0 hit points unless reduced to -11 or worse.
 
-### Dinosaur
+### Brachiosaurus
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
-| Stat | Anatosaurus | Ankylosaurus | Allosaurus | Apatosaurus | Archelon | Brachiosaurus |
-| ---- | ----------- | ------------ | ---------- | ----------- | -------- | ------------- |
-| Armor Class | 5 | 0 | 5 | 5 | 3 | 5 |
-| Hit Dice | 12 | 9 | 15 | 30 | 7 | 36 |
-| Save As | Fighter 6 | Fighter 5 | Fighter 8 | Fighter 15 | Fighter 4 | Fighter 18 |
-| Move | 120' (40') | 60' (20') | 150' (50') | 60' (20') | 30' (10') | 60' (20') |
-| Swim | Nil | Nil | Nil | Nil | 150' (50') | Nil |
-| Attacks | 1 tail | 1 tail | 2 claws / 1 bite | 1 tail or trample | 1 bite | 1 trample |
-| Damage | 1d4 | 3d6 | 1d4 / 1d4 / 6d4 | 3d6 or 4d10 | 3d4 | 5d4 or 8d10 |
-| No. Appearing | 1d6 (2d6) | 1d3 (2d4) | 1 (1d2) | 0 (1d6) | 0 (1d4) | 0 (1d6) |
-| Morale | 6 | 8 | 9 | 6 | 7 | 6 |
-| Treasure Type | Nil | Nil | Nil | Nil | Nil | Nil |
-| Alignment | Neutral | Neutral | Neutral | Neutral | Neutral | Neutral |
+| Armor Class | 5           | No. Appearing | 0 (1d6)    |
+| Hit Dice    | 36          | Save As       | Fighter 18 |
+| Move        | 60' (20')   | Morale        | 6          |
+| Attacks     | 1 trample   | Treasure Type | Nil        |
+| Damage      | 5d4 or 8d10 | Alignment     | Neutral    |
 
-| Stat | Camarasaurus | Ceratosaurus | Cetiosaurus | Dinichthys | Diplodocus | Elasmosaurus |
-| ---- | ------------ | ------------ | ----------- | ---------- | ---------- | ------------ |
-| Armor Class | 6 | 5 | 6 | 7 | 6 | 7 |
-| Hit Dice | 20 | 8 | 24 | 10 | 24 | 15 |
-| Save As | Fighter 10 | Fighter 4 | Fighter 12 | Fighter 5 | Fighter 12 | Fighter 8 |
-| Move | 60' (20') | 150' (50') | 60' (20') | 210' (70') swim | 60' (20') | 150' (50') swim |
-| Attacks | 1 trample | 2 claws / 1 bite | 1 trample | 1 bite | 1 trample | 1 bite |
-| Damage | 3d6 or 3d10 | 1d6 / 1d6 / 4d4 | 3d6 or 4d10 | 5d4 | 3d6 or 3d10 | 4d6 |
-| No. Appearing | 0 (2d4) | 1 (1d4) | 0 (1d4) | 0 (1d4) | 0 (1d6) | 0 (1d2) |
-| Morale | 6 | 8 | 6 | 8 | 6 | 9 |
-| Treasure Type | Nil | Nil | Nil | Nil | Nil | Nil |
-| Alignment | Neutral | Neutral | Neutral | Neutral | Neutral | Neutral |
+Brachiosaurus is among the largest land animals to ever live, standing over 40 feet tall with its long neck raised to browse treetops beyond the reach of any other creature. Placid and slow-moving, it has little reason to fear most predators and simply ignores smaller creatures. If startled or provoked, however, its immense trampling feet can crush anything underfoot.
 
-| Stat | Gorgosaurus | Iguanodon | Lambeosaurus | Megalosaurus | Monoclonius | Mosasaurus |
-| ---- | ----------- | --------- | ------------ | ------------ | ----------- | ---------- |
-| Armor Class | 5 | 4 | 6 | 5 | Head 3; Body 4 | 7 |
-| Hit Dice | 13 | 6 | 12 | 12 | 8 | 12 |
-| Save As | Fighter 7 | Fighter 3 | Fighter 6 | Fighter 6 | Fighter 4 | Fighter 6 |
-| Move | 150' (50') | 150' (50') | 120' (40') | 120' (40') | 60' (20') | 30' (10') |
-| Swim | Nil | Nil | Nil | Nil | Nil | 150' (50') |
-| Attacks | 2 claws / 1 bite | 2 thumb spikes / 1 tail | 1 tail | 1 bite | 1 horn | 1 bite |
-| Damage | 1d3 / 1d3 / 7d4 | 1d3 / 1d3 / 2d4 | 2d6 | 3d6 | 2d8 | 4d8 |
-| No. Appearing | 1 (1d2) | 1d8 (3d6) | 1d8 (2d8) | 1 (1d2) | 1d6 (2d6) | 0 (1d3) |
-| Morale | 9 | 7 | 6 | 8 | 8 | 8 |
-| Treasure Type | Nil | Nil | Nil | Nil | Nil | Nil |
-| Alignment | Neutral | Neutral | Neutral | Neutral | Neutral | Neutral |
+![](assets/brachiosaurus-plate.png)
 
-| Stat | Paleoscincus | Pentaceratops | Plateosaurus | Plesiosaurus | Pteranodon | Stegosaurus |
-| ---- | ------------ | ------------- | ------------ | ------------ | ---------- | ----------- |
-| Armor Class | -3 | Head 2; Body 6 | 5 | 7 | 7 | Plates 2; Body 5 |
-| Hit Dice | 9 | 12 | 8 | 20 | 3+3 | 18 |
-| Save As | Fighter 5 | Fighter 6 | Fighter 4 | Fighter 10 | Fighter 2 | Fighter 9 |
-| Move | 30' (10') | 90' (30') | 120' (40') | 150' (50') swim | 30' (10') | 60' (20') |
-| Fly | Nil | Nil | Nil | Nil | 150' (50') | Nil |
-| Attacks | 1 tail | 1 horn / 2 horns | Nil | 1 bite or 2 flippers | 1 beak | 1 tail |
-| Damage | 2d6 | 1d6 / 1d10 / 1d10 | Nil | 5d4 or 2d6 / 2d6 | 2d4 | 5d4 |
-| No. Appearing | 1d2 (1d4) | 1d6 (2d6) | 1d10 (5d4) | 0 (1d3) | 1d8 (3d6) | 1d4 (2d4) |
-| Morale | 8 | 8 | 6 | 9 | 7 | 8 |
-| Treasure Type | Nil | Nil | Nil | Nil | Nil | Nil |
-| Alignment | Neutral | Neutral | Neutral | Neutral | Neutral | Neutral |
+### Camarasaurus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
-| Stat | Styracosaurus | Teratosaurus | Triceratops | Tyrannosaurus Rex |
-| ---- | ------------- | ------------ | ----------- | ----------------- |
-| Armor Class | Head 2; Body 4 | 5 | Head 2; Body 6 | 5 |
-| Hit Dice | 10 | 10 | 16 | 18 |
-| Save As | Fighter 5 | Fighter 5 | Fighter 8 | Fighter 9 |
-| Move | 60' (20') | 180' (60') | 90' (30') | 130' (40') |
-| Attacks | 1 horn | 2 claws / 1 bite | 1 nose horn / 2 horns | 2 claws / 1 bite |
-| Damage | 2d8 | 1d3 / 1d3 / 3d6 | 1d8 / 1d12 / 1d12 | 1d6 / 1d6 / 5d8 |
-| No. Appearing | 1d4 (2d4) | 1 (1d3) | 1d4 (2d4) | 1 (1d2) |
-| Morale | 8 | 9 | 9 | 10 |
-| Treasure Type | Nil | Nil | Nil | Nil |
-| Alignment | Neutral | Neutral | Neutral | Neutral |
+| Armor Class | 6           | No. Appearing | 0 (2d4)    |
+| Hit Dice    | 20          | Save As       | Fighter 10 |
+| Move        | 60' (20')   | Morale        | 6          |
+| Attacks     | 1 trample   | Treasure Type | Nil        |
+| Damage      | 3d6 or 3d10 | Alignment     | Neutral    |
 
-Dinosaurs are ancient reptiles found in lost worlds, strange planes, and isolated wildernesses where time has taken an unusual course. They are extremely stupid and driven chiefly by hunger, fear, and territorial instinct.
+Camarasaurus is a large, long-necked herbivore that travels in loose herds across Lost World plains and open woodlands, stripping foliage from low and mid-level branches. It is placid by nature and will retreat from danger when possible, but its great bulk makes it a serious hazard if it panics and stampedes.
 
-Carnivorous dinosaurs pursue anything that looks or smells edible and usually stop only when the prey is clearly out of reach. Herbivores usually ignore small creatures, flee from obvious predators, or stampede away from danger. Armored and horned herbivores, such as ankylosaurs, stegosaurs, and ceratopsians, are more likely to defend themselves aggressively.
+### Ceratosaurus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
-Huge herbivores can trample smaller creatures in their path. The listed trample damage is used when the creature steps on, charges over, or stampedes through man-sized or smaller targets. Marine reptiles may overturn small vessels or snatch creatures from decks.
+| Armor Class | 5                | No. Appearing | 1 (1d4)   |
+| Hit Dice    | 8                | Save As       | Fighter 4 |
+| Move        | 150' (50')       | Morale        | 8         |
+| Attacks     | 2 claws / 1 bite | Treasure Type | Nil       |
+| Damage      | 1d6/1d6/4d4      | Alignment     | Neutral   |
 
-Dinichthys, archelon, pteranodon, plesiosaurus, and similar prehistoric reptiles are included here for play convenience, though sages do not classify all of them as true dinosaurs.
+Ceratosaurus is a mid-sized predator distinguished by a short, blade-like horn above its snout and a row of bony ridges down its back. A swift and aggressive hunter, it favors ambush tactics along riverbanks and forest edges, where it preys on smaller herbivores and scavenges from larger kills.
+
+![](assets/ceratosaurus-plate.png)
+
+### Cetiosaurus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 6           | No. Appearing | 0 (1d4)    |
+| Hit Dice    | 24          | Save As       | Fighter 12 |
+| Move        | 60' (20')   | Morale        | 6          |
+| Attacks     | 1 trample   | Treasure Type | Nil        |
+| Damage      | 3d6 or 4d10 | Alignment     | Neutral    |
+
+Cetiosaurus is a massive, whale-sized sauropod that grazes in herds along riverbanks and floodplains. Though entirely herbivorous and unwilling to fight unless cornered, a startled cetiosaurus stampeding through underbrush can level small trees and trample anything too slow to escape.
+
+### Dinichthys
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 7               | No. Appearing | 0 (1d4)   |
+| Hit Dice    | 10              | Save As       | Fighter 5 |
+| Move        | Swim 210' (70') | Morale        | 8         |
+| Attacks     | 1 bite          | Treasure Type | Nil       |
+| Damage      | 5d4             | Alignment     | Neutral   |
+
+Dinichthys is a monstrous armored fish, its head and forequarters encased in bony plates and its jaws formed from sharp, self-sharpening bone blades rather than teeth. It lurks in deep lakes, rivers, and coastal waters of the Lost World, ambushing anything that swims within reach of its crushing bite. Sages debate whether dinichthys should be classed among the true dinosaurs at all, but it is grouped here for convenience.
+
+### Diplodocus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 6           | No. Appearing | 0 (1d6)    |
+| Hit Dice    | 24          | Save As       | Fighter 12 |
+| Move        | 60' (20')   | Morale        | 6          |
+| Attacks     | 1 trample   | Treasure Type | Nil        |
+| Damage      | 3d6 or 3d10 | Alignment     | Neutral    |
+
+Diplodocus is one of the longest dinosaurs known, its whip-like tail and long neck together spanning up to 90 feet. It is an unaggressive grazer that prefers open floodplains, using its great length and keen senses to detect predators long before they draw near. When threatened, a diplodocus can lash out with its tail like a massive whip, though it prefers simply to flee.
+
+### Elasmosaurus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 7               | No. Appearing | 0 (1d2)   |
+| Hit Dice    | 15              | Save As       | Fighter 8 |
+| Move        | Swim 150' (50') | Morale        | 9         |
+| Attacks     | 1 bite          | Treasure Type | Nil       |
+| Damage      | 4d6             | Alignment     | Neutral   |
+
+Elasmosaurus is a colossal marine reptile with an extraordinarily long, serpentine neck and a small head lined with needle-like teeth. It hunts fish and other small prey by sweeping its neck through schools with startling speed, and will readily attack swimmers, small boats, or anything else it perceives as prey in its territory.
+
+### Gorgosaurus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 5                | No. Appearing | 1 (1d2)   |
+| Hit Dice    | 13               | Save As       | Fighter 7 |
+| Move        | 150' (50')       | Morale        | 9         |
+| Attacks     | 2 claws / 1 bite | Treasure Type | Nil       |
+| Damage      | 1d3/1d3/7d4      | Alignment     | Neutral   |
+
+Gorgosaurus is a large, swift predator closely related to the tyrannosaurus rex, though built for speed rather than raw power. It runs down fleeing prey with relentless bursts of speed before finishing the kill with its massive jaws. Gorgosaurs are solitary hunters and viciously territorial toward rivals of their own kind.
+
+![](assets/gorgosaurus-plate.png)
+
+### Iguanodon
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 4                       | No. Appearing | 1d8 (3d6) |
+| Hit Dice    | 6                       | Save As       | Fighter 3 |
+| Move        | 150' (50')              | Morale        | 7         |
+| Attacks     | 2 thumb spikes / 1 tail | Treasure Type | Nil       |
+| Damage      | 1d3/1d3/2d4             | Alignment     | Neutral   |
+
+Iguanodon is a large, herding herbivore notable for the sharp, conical spikes on its thumbs, originally evolved for stripping vegetation but equally effective as weapons. Normally peaceable grazers that flee from danger in tight herds, cornered iguanodons will rear up and jab with their thumb spikes or lash out with a swipe of the tail.
+
+![](assets/iguanodon-plate.png)
+
+### Lambeosaurus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 6          | No. Appearing | 1d8 (2d8) |
+| Hit Dice    | 12         | Save As       | Fighter 6 |
+| Move        | 120' (40') | Morale        | 6         |
+| Attacks     | 1 tail     | Treasure Type | Nil       |
+| Damage      | 2d6        | Alignment     | Neutral   |
+
+Lambeosaurus is a crested, duck-billed dinosaur whose hollow head-crest produces resonant calls audible for miles, used to warn its herd of approaching danger. Herds of lambeosaurus graze together for safety, scattering at the first sign of a predator and relying on their tails only as a last resort against anything that catches them.
 
 ### Mastodon
 *Source:* `Expert`  *Category:* `Animal`
@@ -2978,6 +3072,42 @@ Mastodons look like hairy elephants with long tusks. In combat, a mastodon will 
 
 Ivory mastodon tusks are quite valuable, each tusk being worth 200-800 gp. They live in cold, icy tundras or "lost worlds."
 
+### Megalosaurus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 5          | No. Appearing | 1 (1d2)   |
+| Hit Dice    | 12         | Save As       | Fighter 6 |
+| Move        | 120' (40') | Morale        | 8         |
+| Attacks     | 1 bite     | Treasure Type | Nil       |
+| Damage      | 3d6        | Alignment     | Neutral   |
+
+Megalosaurus is a heavily built predator with a massive head and powerful, bone-crushing jaws. Less swift than many of its relatives, it relies on ambush and brute strength rather than speed, lying in wait near watering holes and trails favored by herbivorous prey.
+
+![](assets/megalosaurus-plate.png)
+
+### Monoclonius
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | Head 3; Body 4 | No. Appearing | 1d6 (2d6) |
+| Hit Dice    | 8              | Save As       | Fighter 4 |
+| Move        | 60' (20')      | Morale        | 8         |
+| Attacks     | 1 horn         | Treasure Type | Nil       |
+| Damage      | 2d8            | Alignment     | Neutral   |
+
+Monoclonius is a stocky, single-horned relative of the triceratops, traveling in small herds across open plains. Its thick bony head-frill turns aside glancing blows, and it will lower its horn and charge without hesitation if its herd is threatened.
+
+### Mosasaurus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 7          | No. Appearing | 0 (1d3)   |
+| Hit Dice    | 12         | Save As       | Fighter 6 |
+| Move        | 30' (10')  | Morale        | 8         |
+| Swim        | 150' (50') | Treasure Type | Nil       |
+| Attacks     | 1 bite     | Alignment     | Neutral   |
+| Damage      | 4d8        |               |           |
+
+Mosasaurus is an enormous marine reptile, more closely akin to monitor lizards than to true dinosaurs, that rules the coastal waters of the Lost World as an apex predator. Powerful paddle-like limbs and a long, muscular tail let it run down prey both above and below the surface, and few creatures in the sea are safe from its jaws.
+
 ### Neanderthal (Caveman)
 *Source:* `Basic`  *Category:* `Humanoid`
 
@@ -2990,6 +3120,52 @@ Ivory mastodon tusks are quite valuable, each tusk being worth 200-800 gp. They 
 Neanderthals, also known as cavemen, are a demi-human species related to humans. They have squat bodies with large bones and powerful muscles. Their faces have apelike features, including large brows above the eyes. Neanderthals live in family groups in caves and caverns.
 
 Neanderthals usually attack with thrown spears and use stone axes, clubs, or stone hammers in hand-to-hand combat. They choose their leaders from a similar race that is much larger than the average Neanderthal. These leaders have 6 hit dice and are 10' tall. There will be 10-40 Neanderthals in the lair with 2 leaders, one male and one female. Neanderthals often hunt cave bears and keep white apes as pets. They are friendly toward dwarves and gnomes, but hate goblins and kobolds. They will attack ogres on sight. They are shy and will avoid humans, but are not usually hostile unless they are attacked.
+
+### Paleoscincus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | -3         | No. Appearing | 1d2 (1d4) |
+| Hit Dice    | 9          | Save As       | Fighter 5 |
+| Move        | 30' (10')  | Morale        | 8         |
+| Attacks     | 1 tail     | Treasure Type | Nil       |
+| Damage      | 2d6        | Alignment     | Neutral   |
+
+Paleoscincus is a broad, low-slung armored dinosaur, its back and flanks studded with bony spikes that make it nearly impervious to attack from above. Sluggish and unaggressive, it prefers to simply crouch low and wait out a threat, lashing its spiked tail only if directly attacked.
+
+![](assets/paleoscincus-plate.png)
+
+### Pentaceratops
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | Head 2; Body 6   | No. Appearing | 1d6 (2d6) |
+| Hit Dice    | 12               | Save As       | Fighter 6 |
+| Move        | 90' (30')        | Morale        | 8         |
+| Attacks     | 1 horn / 2 horns | Treasure Type | Nil       |
+| Damage      | 1d6/1d10/1d10    | Alignment     | Neutral   |
+
+Pentaceratops bears an enormous frilled skull crowned with five horn-like projections, the largest head of any known land animal. Herds graze together on open plains, and a threatened pentaceratops will charge with lowered horns, capable of goring even the largest predators.
+
+### Plateosaurus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 5          | No. Appearing | 1d10 (5d4) |
+| Hit Dice    | 8          | Save As       | Fighter 4  |
+| Move        | 120' (40') | Morale        | 6          |
+| Attacks     | Nil        | Treasure Type | Nil        |
+| Damage      | Nil        | Alignment     | Neutral    |
+
+Plateosaurus is an early, primitive sauropod ancestor, a bipedal herbivore that browses on ferns and low branches in large herds. Entirely without natural weapons, a plateosaurus has no attack of any kind and relies solely on speed and its herd's numbers to escape predators.
+
+### Plesiosaurus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 7                    | No. Appearing | 0 (1d3)    |
+| Hit Dice    | 20                   | Save As       | Fighter 10 |
+| Move        | Swim 150' (50')      | Morale        | 9          |
+| Attacks     | 1 bite or 2 flippers | Treasure Type | Nil        |
+| Damage      | 5d4 or 2d6 / 2d6     | Alignment     | Neutral    |
+
+Plesiosaurus is a long-necked marine reptile that patrols lakes, rivers, and coastal waters in search of fish and other prey. It can strike swiftly with its toothy jaws or, when pressed, batter an opponent with its powerful flippers. Sages dispute whether plesiosaurus belongs among the true dinosaurs, but it is grouped here for convenience.
 
 ### Pterodactyl
 *Source:* `Expert`  *Category:* `Animal`
@@ -3056,6 +3232,28 @@ A sabre-tooth tiger that hits the same target with both claw attacks in one comb
 
 These squat dinosaurs have hard upright plates of bone along their backs and 4 long spikes on the end of their tails. They will swing their tail at anything that menaces them. Stegosaurs are herbivores and prefer sub-tropical conditions. They are usually found only in "lost world" areas.
 
+### Styracosaurus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | Head 2; Body 4 | No. Appearing | 1d4 (2d4) |
+| Hit Dice    | 10             | Save As       | Fighter 5 |
+| Move        | 60' (20')      | Morale        | 8         |
+| Attacks     | 1 horn         | Treasure Type | Nil       |
+| Damage      | 2d8            | Alignment     | Neutral   |
+
+Styracosaurus is a horned herbivore whose bony frill is ringed with long spikes, giving it a fearsome silhouette that discourages most predators before a fight even begins. When a charge does come, styracosaurus lowers its single great nose horn and attacks with tremendous force.
+
+### Teratosaurus
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 5                | No. Appearing | 1 (1d3)   |
+| Hit Dice    | 10               | Save As       | Fighter 5 |
+| Move        | 180' (60')       | Morale        | 9         |
+| Attacks     | 2 claws / 1 bite | Treasure Type | Nil       |
+| Damage      | 1d3/1d3/3d6      | Alignment     | Neutral   |
+
+Teratosaurus is a lean, fast-running predator, among the swiftest hunters of the Lost World. It relies on sheer speed to run down prey too quick for slower carnivores, striking with slashing claws before finishing with a snapping bite.
+
 ### Titanothere
 *Source:* `Expert`  *Category:* `Animal`
 
@@ -3092,6 +3290,8 @@ Triceratops are found on the plains of "lost worlds."
 The tyrannosaurus rex is one of the largest hunting dinosaurs, standing over 20' tall. Its great jaws are lined with sharp teeth and it moves erect on its hind legs. It will attack anything man-sized or larger, usually attacking the largest creature first.
 
 The tyrannosaurus rex is usually found only in "lost world" areas.
+
+![](assets/tyrannosaurus-rex-plate.png)
 
 ::: pagebreak-pdf
 :::
