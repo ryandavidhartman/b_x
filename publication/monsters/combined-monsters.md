@@ -5374,3 +5374,60 @@ Once per round Yeenoghu may call on **darkness** (10' radius), a triple **magic 
 **Description**: Yeenoghu looks human at a glance, but his head is that of a hyena, his hands and feet end in pads and claws, and his frame is gaunt to the point of starvation. A mane of putrid yellow hair runs from his skull to the middle of his back; his smooth skin is a deep, ashen gray, and his large eyes glow amber.
 
 ![Yeenoghu](assets/yeenoghu-plate.png)
+
+### Asmodeus (Arch-devil)
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -7         | No. Appearing | 1          |
+| Hit Dice    | 44***      | Save As       | Fighter 44 |
+| Move        | 120' (40') | Morale        | 12         |
+| Fly         | 240' (80') | Treasure Type | I, R, U, V |
+| Attacks     | 1 rod      | Alignment     | Lawful     |
+| Damage      | 2d6+2      |               |            |
+
+Asmodeus rules Hell from the floor of the lowest rift of its ninth plane, and every devil in creation ultimately answers to him, from the lowliest lemure to his own arch-devil dukes, who must attend his court once a year and pay homage. Physically he is as strong as a storm giant, and his cunning is unmatched among the lawful evil.
+
+At will Asmodeus may call upon **pyrotechnics**, **produce flame**, **wall of fire**, **ice storm**, **wall of ice**, **continual light**, **read languages**, **read magic**, **detect invisible**, **locate object**, **dispel magic**, **hold person**, **hold monster**, **shape change**, **beguile**, **rulership**, **mass charm**, **geas**, **restoration**, **raise dead fully**, or grant a **wish**. Once per day he may lay a **symbol of pain**, **symbol of insanity**, or **symbol of hopelessness**, or speak an **unholy word**. He can always summon two lesser devils or one greater devil to his side, and his gaze alone can strike a victim with **fear**, **weakness**, or a paralyzing **chill** (-50% speed and -5 on all rolls), as he chooses.
+
+Asmodeus carries a glowing rod that functions as a **rod of absorption** and inflicts grievous wounds on any unarmored foe it touches; on command it can instead loose a cone of frost, a jet of acid, or a bolt of lightning as though from a dragon's breath.
+
+**Description**: Asmodeus is accounted the most handsome of all devils, as well as the strongest and most cunning, and the depth of his evil shows in his beauty only when he wills it — or when rage strips the mask away.
+
+![Asmodeus](assets/asmodeus-plate.png)
+
+### Baalzebul (Arch-devil)
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -5           | No. Appearing | 1          |
+| Hit Dice    | 37***        | Save As       | Fighter 37 |
+| Move        | 90' (30')    | Morale        | 12         |
+| Fly         | 240' (80')   | Treasure Type | E, R, V    |
+| Attacks     | 1 bite       | Alignment     | Lawful     |
+| Damage      | 2d6 + poison |               |            |
+
+Second only to Asmodeus, Baalzebul — the "Lord of the Flies" — rules Hell's sixth and seventh planes: Malbolge, a black stone waste of stinking vapors, fire pits, and yawning caverns, and Maladomini, ringed with the moated castles of his malebranche and his own great fortress. Any who meet his gaze directly must save versus magic or collapse into helpless, fear-wracked trembling for `1d4` rounds after he looks away.
+
+At will Baalzebul may call upon **pyrotechnics**, **produce flame**, **wall of fire**, **continual light**, **read languages**, **read magic**, **detect invisible**, **locate object**, **invisibility**, **dispel magic**, **shape change**, **beguile**, **charm monster**, **geas**, **restoration**, **raise dead fully**, or grant a **wish**. Once per day he may lay a **symbol of pain**, **symbol of insanity**, or speak an **unholy word**, and he can always summon `1d4` horned devils to his side.
+
+**Description**: Baalzebul's horned, reptilian face is set in a permanent scowl, his hide dark and scaled, and what might be the ragged remnants of wings hang folded and useless behind his shoulders — a mark, it is said, of a beauty stripped from him for a great transgression against Asmodeus.
+
+![Baalzebul](assets/baalzebul-plate.png)
+
+### Dispater (Arch-devil)
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -2         | No. Appearing | 1          |
+| Hit Dice    | 32***      | Save As       | Fighter 32 |
+| Move        | 150' (50') | Morale        | 12         |
+| Attacks     | 1 staff    | Treasure Type | Q x10, S   |
+| Damage      | 4d6        | Alignment     | Lawful     |
+
+Dispater rules Hell's second plane from Dis, an iron city whose infernally grand palace he calls home, its streets patrolled by zombies, erinyes, and a scattering of barbed devils and malebranche. Any who fail their save versus magic under his stare are struck with fear or a paralyzing chill.
+
+At will Dispater may call upon **pyrotechnics**, **produce flame**, **wall of fire**, **light**, **read magic**, **read languages**, **detect invisible**, **shape change**, **beguile**, **geas**, **restoration**, **raise dead fully**, or grant a **wish**. Once per day he may lay a **symbol of pain** or speak an **unholy word**, and he can summon `1d3` erinyes or, less often, a single pit fiend to his side.
+
+He fights with a rod bearing the powers of a **rod of rulership** and a doubled **staff of striking**.
+
+**Description**: Dispater is evilly handsome, and only his small horns, tail, and cloven left hoof mark him as anything other than human.
+
+![Dispater](assets/dispater-plate.png)
