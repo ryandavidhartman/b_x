@@ -5294,7 +5294,7 @@ The creatures in this appendix are unique, campaign-level beings rather than ord
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
 
 | Armor Class | -8                  | No. Appearing | 1          |
-| Hit Dice    | 20***               | Save As       | Fighter 20 |
+| Hit Dice    | 44***               | Save As       | Fighter 44 |
 | Move        | 150' (50')          | Morale        | 12         |
 | Attacks     | 2 tentacles / tail  | Treasure Type | R, S, J, V |
 | Damage      | 1d6 / 1d6 / special | Alignment     | Chaotic    |
@@ -5317,4 +5317,60 @@ Those over 15 hit dice save versus magic; all others are automatically hypnotize
 
 Whenever he desires, Demogorgon may use any one of the following powers: **continual darkness**, **charm person**, **create illusion** (as a wand of illusion), **cause fear** (as a wand of that sort), **levitate** (as a 16^th^ level magic-user), **detect magic**, **read magic**, **read languages**, **detect invisible**, **ESP**, **dispel magic**, **clairvoyance**, **clairaudience**, **suggestion**, **water breathing**, **polymorph self**, **wall of ice**, **charm monster**, or **telekinesis** up to 7,000 cn weight with one or both heads. Once per day he may cast **feeblemind**, **project image**, **power word stun**, any **symbol**, or **sticks to snakes**. He may also **gate** in other demons with an 85% chance of success: 50% chance for type I-IV demons and 50% chance for a type V or VI demon.
 
-**Description**: It is contended by some that this demon prince is supreme, and in any event he is awesome in his power. This gigantic demon is 18' tall and reptilian. Demogorgon has two heads bearing the visages of evil baboons or perhaps mandrills, with the hideous coloration of the latter beasts. His blue-green skin is plated with snake-like scales, his body and legs are those of a giant lizard, his twin necks resemble serpents, and his thick tail is forked. Rather than arms, he possesses great tentacles. His appearance testifies to his command over cold-blooded things such as serpents, reptiles, and octopi. 
+**Description**: It is contended by some that this demon prince is supreme, and in any event he is awesome in his power. This gigantic demon is 18' tall and reptilian. Demogorgon has two heads bearing the visages of evil baboons or perhaps mandrills, with the hideous coloration of the latter beasts. His blue-green skin is plated with snake-like scales, his body and legs are those of a giant lizard, his twin necks resemble serpents, and his thick tail is forked. Rather than arms, he possesses great tentacles. His appearance testifies to his command over cold-blooded things such as serpents, reptiles, and octopi.
+
+![Demogorgon](assets/demogorgon-plate.png)
+
+### Juiblex (The Faceless Lord)
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | -7        | No. Appearing | 1          |
+| Hit Dice    | 20***     | Save As       | Fighter 20 |
+| Move        | 30' (10') | Morale        | 12         |
+| Attacks     | 1 touch   | Treasure Type | P x2, R x2 |
+| Damage      | 4d10      | Alignment     | Chaotic    |
+
+Juiblex is foul and nauseating even by demonic standards; his dripping, half-liquid form surrounds and dissolves anything it engulfs, combining crushing weight with the caustic burn of his secretions. His lair teems with lesser oozes and jellies who serve and are fed upon in turn: `1d4` green slimes, `2d8` ochre jellies, `1d4` gray oozes, and `1d4` black puddings can typically be found nearby.
+
+Juiblex may shed a **circle of darkness** (15' radius) at will, cause **fear** as a wand, chill the air with **cold** (10' radius), and regenerates 2 hit points every round he is not destroyed outright. Once per melee round he may instead call upon **detect invisible**, **locate object**, **fly**, **dispel magic**, **invisibility** (10' radius), **charm monster**, **hold monster**, **telekinesis** up to 15,000 gold pieces' weight, **phase door**, **purify food & water**, **cause disease**, or **speak with monsters and plants**. Once every ten rounds he can spew a mass of jelly-like slime combining the effects of ochre jelly and green slime out to 15', roughly 3 cubic feet in volume.
+
+**Description**: Juiblex has no fixed shape. He can flatten into a vast pool of slime or tower upward as a column of ordure 18' or more in height, but most often holds a roughly 9'-tall cone-like heap, striated in sickly blacks, greens, browns, and translucent yellows and grays, studded with a scattering of glaring red eyes.
+
+![Juiblex](assets/juiblex-plate.png)
+
+### Orcus (Prince of the Undead)
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | -6          | No. Appearing | 1          |
+| Hit Dice    | 27***       | Save As       | Fighter 27 |
+| Move        | 90' (30')   | Morale        | 12         |
+| Fly         | 180' (60')  | Treasure Type | P, S, T, U |
+| Attacks     | fist / tail | Alignment     | Chaotic    |
+| Damage      | 2d6+1 / 2d4 |               |            |
+
+Orcus fights with a fanged, wand-topped rod and with his own goat-like body. An open-handed slap deals only `1d4` damage, but a full blow from his fist strikes far harder, and he wields weapons with a `+6` bonus to hit and `+8` to damage. His long, snaking tail ends in a venomous head that stings for `2d4` and carries a poison harsh enough to punish a failed save.
+
+At will Orcus may cast **continual darkness**, **charm person**, **create illusion**, **detect magic**, **read magic**, **read languages**, **detect invisible**, **ESP**, **pyrotechnics**, **dispel magic**, **clairaudience**, a **lightning bolt** as though from a 12-die wand, **polymorph self**, **telekinesis** up to 12,000 gold pieces' weight, **shape change**, and once per day **time stop**. He speaks with the dead as would a 20th-level cleric, and can summon `4d12` skeletons, `4d8` zombies, `4d6` shadows, or `2d4` vampires to his side.
+
+Orcus carries the **Wand of Orcus**, a rod of obsidian topped with a skull, which slays outright any creature of lesser status merely by touching them with it.
+
+**Description**: Orcus is a grossly fat demon lord some 15' tall, his huge gray body thick with goatish hair. His head bears ram-like horns, his legs are those of a goat, but his arms are disquietingly human. Vast bat wings sprout from his back, and his long tail ends in a serpentine, poisonous head.
+
+![Orcus](assets/orcus-plate.png)
+
+### Yeenoghu (Demon Lord of Gnolls)
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | -5            | No. Appearing | 1          |
+| Hit Dice    | 22***         | Save As       | Fighter 22 |
+| Move        | 180' (60')    | Morale        | 12         |
+| Attacks     | 1 flail       | Treasure Type | C, G, I    |
+| Damage      | 3d6 + special | Alignment     | Chaotic    |
+
+Yeenoghu is attended by a howling retinue of 66 gnoll warriors of exceptional strength, and if caught alone he can summon `6d10` more within a turn; as the gnolls' patron he can also call `6d10` ghouls to his side. His weapon of choice is a monstrous flail seven feet long, its three adamantine chains each ending in a spiked ball. Each ball that connects does something different: the first deals `3d6` damage, the second forces a saving throw versus wands or paralysis, and the third forces a save versus magic or confusion.
+
+Once per round Yeenoghu may call on **darkness** (10' radius), a triple **magic missile** dealing `2d4` each and striking at `+2` to hit, **detect magic**, **read magic**, **read languages**, **detect invisible**, **invisibility**, **fly**, **hold person**, **dispel magic**, **fear**, **teleport**, **mass charm**, **telekinesis** up to 10,000 gold pieces' weight, or **transmute rock to mud**.
+
+**Description**: Yeenoghu looks human at a glance, but his head is that of a hyena, his hands and feet end in pads and claws, and his frame is gaunt to the point of starvation. A mane of putrid yellow hair runs from his skull to the middle of his back; his smooth skin is a deep, ashen gray, and his large eyes glow amber.
+
+![Yeenoghu](assets/yeenoghu-plate.png)
