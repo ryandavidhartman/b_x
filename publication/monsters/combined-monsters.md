@@ -1971,6 +1971,8 @@ A wyvern looks like a two-legged, winged dragon with a long tail. In combat, the
 
 ## Elementals
 
+Elementals are beings native to the Planes of Air, Earth, Fire, and Water. Most are summoned to the material plane through conjuration, though some, like the djinn and efreet, are free-willed races who dwell among their kind on their home planes and only rarely venture elsewhere. True elementals - formless embodiments of their element - can only be harmed by magic or magical weapons.
+
 ### Aerial Servant
 *Source:* `AD&D 1E Conversion`  *Category:* `Elemental`
 
