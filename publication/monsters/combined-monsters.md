@@ -1726,6 +1726,8 @@ Only erinyes, barbed devils, and bone devils can be hit by normal weapons. Great
 
 Lemures are mindless damned souls reshaped into vaguely human blobs. They regenerate 1 hit point per round and are permanently destroyed only by holy water, holy weapons, or similar blessed power. They are immune to sleep, charm, and similar spells.
 
+![](assets/lemure-plate.png)
+
 ### Erinyes
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
@@ -1738,6 +1740,8 @@ Lemures are mindless damned souls reshaped into vaguely human blobs. They regene
 
 Erinyes are soul-hunters, often appearing beautiful and winged. Their venomous daggers cause terrible pain; a creature hit must Save vs. Poison or faint for 1d6 rounds. They carry ropes of entanglement, cause fear by gaze, and may detect invisible, locate object, become invisible, polymorph self, produce flame, or attempt to summon another erinyes.
 
+![](assets/erinyes-plate.png)
+
 ### Barbed Devil
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
@@ -1749,6 +1753,8 @@ Erinyes are soul-hunters, often appearing beautiful and winged. Their venomous d
 
 Barbed devils are vigilant guards and are never surprised. A creature struck by a barbed devil must Save vs. Spells or be affected by fear. They may use pyrotechnics, produce flame, hold person, or attempt to summon another barbed devil.
 
+![](assets/barbed-devil-plate.png)
+
 ### Bone Devil
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
@@ -1759,6 +1765,8 @@ Barbed devils are vigilant guards and are never surprised. A creature struck by 
 | Damage      | 3d4 / 2d4        | Alignment     | Lawful    |
 
 Bone devils are malicious torturers armed with great hooks. A creature hit by the hook has a 50% chance to be caught fast, allowing the devil to strike with its tail. A tail hit drains 1d4 Strength for 10 rounds unless the victim Saves vs. Poison. Bone devils may create fear, create illusion, fly, become invisible, detect invisible, or attempt to summon another bone devil. Once per day they may create a wall of ice.
+
+![](assets/bone-devil-plate.png)
 
 ### Horned Devil (Malebranche)
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
@@ -1772,6 +1780,8 @@ Bone devils are malicious torturers armed with great hooks. A creature hit by th
 
 Horned devils, or malebranche, are the least greater devils. They may carry a two-tined fork for 2d6 damage or a barbed whip for 1d4 damage plus stunning for the same number of rounds unless the victim Saves vs. Spells. Their tail wounds bleed for 1 hit point per turn until bound or magically healed. They radiate fear in a 5' radius and may use pyrotechnics, produce flame, ESP, detect magic, illusion, or attempt to summon another horned devil. Once per day they may create a triple-strength wall of fire.
 
+![](assets/horned-devil-plate.png)
+
 ### Ice Devil
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
@@ -1783,6 +1793,8 @@ Horned devils, or malebranche, are the least greater devils. They may carry a tw
 | Damage      | 1d4 / 1d4 / 2d4 / 3d4      |               |            |
 
 Ice devils are cold, insectile greater devils. A few carry great spears that deal 2d6 damage and numb the victim unless it Saves vs. Paralysis, slowing it by half. Ice devils regenerate 1 hit point per round, radiate fear in a 10' radius, and may fly, wall of ice, detect magic, detect invisible, polymorph self, or summon bone devils or another ice devil. Once per day they may cause an ice storm.
+
+![](assets/ice-devil-plate.png)
 
 ### Pit Fiend
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
@@ -1797,6 +1809,8 @@ Ice devils are cold, insectile greater devils. A few carry great spears that dea
 Pit fiends are among the most dreaded greater devils and servants of the ruler of Hell. They fight with a hooked weapon and jagged club, regenerate 2 hit points per round, and radiate fear in a 20' radius. A tail hit constricts for 2d4 damage each round. Pit fiends may use pyrotechnics, produce flame, wall of fire, detect magic, detect invisible, polymorph self, hold person, and summon barbed devils or another pit fiend. Once per day they may use a symbol of pain.
 
 Arch-devils such as Asmodeus, Baalzebul, Dispater, and Geryon are unique rulers with campaign-level powers. Review and tailor them individually before play.
+
+![](assets/pit-fiend-plate.png)
 
 ### Imp
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
@@ -2113,6 +2127,8 @@ Staff elementals, the weakest, are summoned by a magic-user with a special staff
 
 - **Water elementals**: appear as great waves of water 1/2' tall and 2' in diameter for each hit die they have. Water elementals are not able to move more than 60' from water. They do an extra `1d8` points of damage against opponents in water.
 
+![](assets/elemental-plate.png)
+
 ### Salamander*
 *Source:* `Expert`  *Category:* `Elemental`
 
@@ -2238,6 +2254,8 @@ Bugbears speak their own tongue, goblin, hobgoblin, and the chaotic alignment la
 
 Gnolls are beings of low intelligence that appear to be human-like hyenas. They may use any weapons. They are strong, but dislike work and prefer to bully and steal for a living. For every 20 gnolls encountered, one will be a leader with 16 hit points who attacks as a 3 hit dice monster. Gnolls are rumored to be the result of a magical combination of a gnome and a troll by an evil magic-user.
 
+![](assets/gnoll-plate.png)
+
 ### Goblin
 *Source:* `Basic`  *Category:* `Humanoid`
 
@@ -2255,6 +2273,8 @@ In the goblin lair lives a goblin king with 15 hit points who fights as a 3 hit 
 
 Treasure type C is only found in the goblin lair or when encountered in the wilderness.
 
+![](assets/goblin-plate.png)
+
 ### Hobgoblin
 *Source:* `Basic`  *Category:* `Humanoid`
 
@@ -2267,6 +2287,8 @@ Treasure type C is only found in the goblin lair or when encountered in the wild
 Hobgoblins are bigger and meaner relatives of goblins. They live underground but often hunt above ground and have no penalties for fighting in full daylight. A hobgoblin king and 1-4 (1d4) bodyguards live in the hobgoblin lair. The king has 22 hit points and fights as a 5 hit dice monster, gaining a bonus of + 2 on damage.
 
 The bodyguards all fight as 4 hit dice  and have 3-18 (3d6) hit points each. As long as their king is alive and with them, hobgoblin morale is 10 rather than 8.
+
+![](assets/hobgoblin-plate.png)
 
 ### Kobold
 *Source:* `Basic`  *Category:* `Humanoid`
@@ -2329,6 +2351,8 @@ Orcs may often be hired at low cost as soldiers, and are often used for armies b
 They will not use mechanical weapons (such as catapults), as only their leaders understand how to operate them.
 
 There are many different tribes of orcs. Members of different tribes are not usually friendly with each other, and may start fighting unless their leaders are present. An orc lair has only one tribe. Each tribe will have as many female orcs as males, and 2 children ("whelps") for each 2 adults. The leader of an orc tribe is a chieftain who has 15 hit points, attacks as a 4 hit dice monster, and gains + 2 on damage rolls. For every 20 orcs in a tribe, there may be an ogre with them (a 1 in 6 chance). (If the D&D EXPERT rules are used, there is a 1 in 10 chance of a troll living in the lair as well.)
+
+![](assets/orc-plate.png)
 
 ### Sahuagin
 *Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
@@ -2458,6 +2482,8 @@ Ogres are huge fearsome human-like creatures, usually 8 to 10 feet tall. They we
 
 When encountered outside their lair, they will be carrying 100-600 gp (1d6 x 100) in large sacks. Ogres hate Neanderthals and will attack them on sight.
 
+![](assets/ogre-plate.png)
+
 ### Ogre Mage
 *Source:* `AD&D 1E Conversion`  *Category:* `Giant`
 
@@ -2501,6 +2527,8 @@ Titans use huge weapons, hurl great missiles, and cast powerful clerical and mag
 Thin, rubbery, and loathsome, trolls stand nearly 8' tall. They are intelligent and prefer humanoid creatures over all other foods. Trolls live in caves, dungeons, wastelands, and in ruined dwellings of the humanoids they have slain and eaten.
 
 Trolls are strong and rend their opponents with talons and sharp teeth. A troll has the power of regeneration, the ability to heal and grow back together. A troll will begin to heal 3 rounds after it has taken damage. A troll's wounds will heal themselves at a rate of 3 hit points per round, and even severed limbs will crawl back to the body and rejoin. The troll cannot regenerate damage from fire or acid. In game turns, this means that unless totally consumed by fire or acid, a troll will eventually regenerate completely. If reduced to 0 hit points by other than fire or acid damage, the troll will heal enough to fight again in 2-12 rounds. The morale in parentheses applies only when the troll is attacked by fire or acid.
+
+![](assets/troll-plate.png)
 
 ::: pagebreak-pdf
 :::
@@ -2621,6 +2649,8 @@ Killer bee hives contain a rare golden honey prized by alchemists and healers. T
 | Damage      | Poison        | Alignment     | Neutral    |
 
 Giant centipedes are insects with 1' long bodies and many legs they like to live in damp, dark places. Their bite does no damage, but the victim must save vs. Poison or become violently ill for 10 days. Characters who do not save move at 1/2 speed and will not be able to perform any other physical action.
+
+![](assets/giant-centipede-plate.png)
 
 ### Ear Seeker
 *Source:* `AD&D 1E Conversion`  *Category:* `Insect`
@@ -3072,6 +3102,8 @@ Mastodons look like hairy elephants with long tusks. In combat, a mastodon will 
 
 Ivory mastodon tusks are quite valuable, each tusk being worth 200-800 gp. They live in cold, icy tundras or "lost worlds."
 
+![](assets/mastodon-plate.png)
+
 ### Megalosaurus
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
@@ -3265,6 +3297,8 @@ Teratosaurus is a lean, fast-running predator, among the swiftest hunters of the
 
 The prehistoric titanothere resembles a huge blunt-horned rhino, 12' tall at the shoulder. They are generally peaceful if left alone, preferring to graze grass and eat leaves off trees. In combat, titanotheres will butt or trample their opponents. Small herds of these creatures are found in the grasslands of "lost world" areas.
 
+![](assets/titanothere-plate.png)
+
 ### Triceratops
 *Source:* `Expert`  *Category:* `Animal`
 
@@ -3362,6 +3396,8 @@ In bear form, a werebear is 50% likely to be accompanied by `1d6` brown bears. I
 
 In combat, if both claw attacks hit the same target in one round, the werebear also hugs for an additional 2-16 points of damage. Werebears are immune to disease, heal three times faster than normal, and may cure disease in another creature within `1d4` weeks.
 
+![](assets/werebear-plate.png)
+
 ### Wereboar*
 *Source:* `Basic`  *Category:* `Lycanthrope`
 
@@ -3391,6 +3427,8 @@ They are cunning ambushers, surprising opponents on a roll of 1-4 on `1d6`. In h
 A wererat may summon and control `2d6` giant rats to aid it in combat. Only a wererat’s bite can spread lycanthropy.
 
 Rumors speak of hidden colonies of black wererats ruled by sinister leaders and moon-mad sorcerers. Fearful tales claim entire ratfolk kingdoms lie beneath ancient cities, lit by sickly green fires and ruled by masked wererat kings attended by enormous sacred rats. Some legends say they plot to one day overwhelm the surface world in a tide of fur, fang, and plague.
+
+![](assets/wererat-plate.png)
 
 ### Weretiger*
 *Source:* `Basic`  *Category:* `Lycanthrope`
@@ -3728,6 +3766,8 @@ Due to their magical nature, doppelgangers are immune to **sleep** and **charm**
 
 When slain, a doppelganger immediately reverts to its true form.
 
+![](assets/doppelganger-plate.png)
+
 ### Dragonne
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
 
@@ -3832,6 +3872,8 @@ A gorgon is a magical bull-like monster covered with large iron scales. It gores
 
 A gorgon's vapor cloud is 60' long by 10' wide. They are impervious to their own breath weapon. Gorgons are usually found in foothills or grasslands.
 
+![](assets/gorgon-plate.png)
+
 ### Gray Ooze
 *Source:* `Basic`  *Category:* `Monstrous`
 
@@ -3842,6 +3884,8 @@ A gorgon's vapor cloud is 60' long by 10' wide. They are impervious to their own
 | Damage      | 2d8      | Alignment     | Neutral    |
 
 This seeping horror looks like wet stone and is difficult to see. It secretes an acid which does 2d8 points of damage if the gray ooze hits bare skin. This acid will dissolve and destroy magic armor in one turn. After the first hit, the ooze will stick to its victim, automatically destroying any normal armor and doing 2d8 points of damage each round. Gray ooze cannot be harmed by cold or fire, but can be harmed by weapons and lightning.
+
+![](assets/gray-ooze-plate.png)
 
 ### Green Slime*
 *Source:* `Basic`  *Category:* `Monstrous`
@@ -3857,6 +3901,8 @@ Green slime looks like green, oozing slime. This creature can be harmed by fire 
 Green slime often clings to walls and ceilings and will drop down on surprised characters. Once in contact with flesh, it will stick and turn the flesh into green slime. It cannot be scraped off, but must be burnt off, or treated with a cure disease spell.
 
 When green slime drops on a victim, or is stepped on, the victim can usually burn it while it is dissolving armor and clothing. If it is not burned off, the victim will turn completely into green slime 1-4 rounds after the first 6-round, one-minute period. Burning does 1/2 damage to the green slime and 1/2 damage to the victim.
+
+![](assets/green-slime-plate.png)
 
 ### Griffon
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -4297,6 +4343,8 @@ They can fly, become ethereal with a rider, and breathe hot smoke that blinds an
 
 An ochre jelly is an ochre-colored giant amoeba which can only be harmed by fire or cold. Attacks with weapons or lightning merely make several (1d4+ 1) smaller (2 hit dice) ochre jellies. An ochre jelly does 2d6 damage per turn to exposed flesh. The smaller ochre jellies only do half damage. It can seep through small cracks, and destroy wood, leather, and cloth in 1 round, but cannot eat through metal or stone.
 
+![](assets/ochre-jelly-plate.png)
+
 ### Otyugh
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
 
@@ -4449,6 +4497,8 @@ Rocs are huge birds of prey resembling eagles. They are very lawful, and are oft
 
 Roc nests are found in the highest mountains and 50% of the time will contain 1-6 eggs or young. Rocs never check morale if encountered in their lair. If hatched or captured as chicks, young rocs can be trained.
 
+![](assets/roc-plate.png)
+
 ### Roper
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
 
@@ -4575,6 +4625,8 @@ Shedu possess strong mental powers, can become ethereal, and may aid lawful crea
 
 Shriekers look like giant mushrooms. They live in underground caverns and are able to move around slowly. They react to light (within 60') and movement (within 30') by emitting a piercing shriek which lasts for 1-3 rounds. There will be a 50% chance per round of a wandering monster encounter for each round that a shrieker shrieks. The wandering monster will arrive in `2d6` rounds.
 
+![](assets/shrieker-plate.png)
+
 ### Slithering Tracker
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
 
@@ -4639,6 +4691,8 @@ Androsphinxes are powerful lawful protectors with a terrible roar. Gynosphinxes 
 A stirge is a birdlike creature with a long beak, rather like a very small feathered anteater. When it attacks, it tries to bury its beak in the victim and suck blood. A successful hit means it has attached itself, after which it automatically drains 1-3 points each round until either it or its victim dies.
 
 Because of its speed, a flying stirge gains a +2 bonus on its first attack roll against a target. Stirges are hardy and save as Fighter: 2.
+
+![](assets/stirge-plate.png)
 
 ### Strangle Weed
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4779,6 +4833,8 @@ This deadly fungus covers an area of 10 square feet (2' by 5', for example), tho
 
 It does not actually attack, but if it is touched by a torch, for example, the touch may cause the mold to squirt out a 10'x10'x10' cloud of spores. There is a 50% chance per hit that the mold will squirt out this cloud. Anyone caught within the cloud must save vs. Death Ray or choke to death within 6 rounds.
 
+![](assets/yellow-mold-plate.png)
+
 ### Yeti
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
 
@@ -4858,6 +4914,8 @@ Treasure Type (B) is only found in the wilderness.
 
 If `4` or more berserkers are encountered, they are led by a higher-level fighter.  (Roll as for [Acolyte](#acolyte))
 
+![](assets/berserker-plate.png)
+
 ### Dwarf
 *Source:* `Basic`  *Category:* `NPC`
 
@@ -4903,6 +4961,8 @@ Gnomes have well developed infravision (heat-sensing sight), and can "see" heat 
 
 For every 20 gnomes, one will be a leader with 11 hit points who fights as a 2 hit dice monster. In the gnome lair lives a clan chieftain and his `1d6` bodyguards. The clan chieftain has 18 hit points, attacks as a 4 hit dice monster, and gains a bonus of + 1 on damage rolls. The bodyguards will have `ld4 + 9` hit points and attack as 3 hit dice . As long as the clan chieftain or leader is alive, all gnomes within sight of him have a morale of 10 rather than 8.
 
+![](assets/gnome-plate.png)
+
 ### Halfling
 *Source:* `Basic`  *Category:* `NPC`
 
@@ -4913,6 +4973,8 @@ For every 20 gnomes, one will be a leader with 11 hit points who fights as a 2 h
 | Damage      | by weapon | Alignment     | Lawful     |
 
 Halflings can also be NPCs. They live in small villages of 30-300 inhabitants. Each village will have a leader (level 2-7) and a village guard of 5-20 militia (each with 2 hit dice). Treasure type (B) will only be found if encountered in the wilderness.
+
+![](assets/halfling-plate.png)
 
 ### Medium
 *Source:* `Basic`  *Category:* `NPC`
@@ -5255,6 +5317,8 @@ A satyr's pipes can charm, sleep, or cause fear unless listeners Save vs. Spells
 
 Sprites are small winged people about 1 foot tall related to pixies and elves. While shy, they are very curious and have a strange sense of humor. Five sprites acting together can cast one curse spell. This will take the form of a magical practical joke, such as tripping or having one's nose grow. The exact effect of the spell is up to the DM's imagination. Sprites will never cause death on purpose even if they are attacked. (In the D&D EXPERT rules, the effects of the sprites' curse can be removed by a remove curse spell.)
 
+![](assets/sprite-plate.png)
+
 ### Treant
 *Source:* `Expert`  *Category:* `Sylvan or Faerie`
 
@@ -5333,6 +5397,8 @@ A ghost normally attacks from the ethereal plane with magic jar against a creatu
 
 Ghouls are undead creatures. They are hideous, beast-like humans who will attack anything living. Any attack by a ghoul will paralyze any creature of ogre-size or smaller that they hit successfully (except elves) unless the victim saves vs. Paralysis. Once an opponent is paralyzed, the ghoul will turn and attack another opponent, until either the ghoul or all the opponents are paralyzed or dead. This paralysis is the normal type (lasting 2-8 turns unless removed by a **cure light wounds spell**).
 
+![](assets/ghoul-plate.png)
+
 ### Groaning Spirit
 *Source:* `AD&D 1E Conversion`  *Category:* `Undead`
 
@@ -5381,6 +5447,8 @@ Mummies are undead who lurk near deserted ruins and tombs. On seeing a mummy, ea
 In melee, a hit by a mummy does `1d12` points of damage and infects the creature hit with a hideous rotting disease. This disease prevents magical healing and makes all wounds take 10 times as long to heal. The disease lasts until it is magically cured.
 
 Mummies can only be damaged by spells, fire, or magic weapons, all of which will only do half damage. They are immune to **sleep**, **charm**, and **hold** spells.
+
+![](assets/mummy-plate.png)
 
 ### Skeleton
 *Source:* `Basic`  *Category:* `Undead`
@@ -5458,6 +5526,8 @@ A wight is an undead spirit living in the body of a dead human or demi-human. It
 
 Any person totally drained of life energy by a wight will become a wight in 1-4 days and will be under control of the wight who drained them.
 
+![](assets/wight-plate.png)
+
 ### Wraith*
 *Source:* `Expert`  *Category:* `Undead`
 
@@ -5472,6 +5542,8 @@ A wraith is an undead monster that drains the life force of its victims. It has 
 
 When a wraith hits in melee, it will do normal damage and also drain one life energy level, see spectre. Wraiths dwell in deserted lands or in the dwellings of creatures they have slain or frightened away. Characters slain by a wraith will become wraiths under the control of the one that killed them after one day.
 
+![](assets/wraith-plate.png)
+
 ### Zombie
 *Source:* `Basic`  *Category:* `Undead`
 
@@ -5484,6 +5556,8 @@ When a wraith hits in melee, it will do normal damage and also drain one life en
 Zombies are undead humans or demi-humans animated by some evil cleric or magic-user. As all undead, they may be turned by a cleric but are not affected by **sleep** or **charm spells** or any form of mind reading. They are often placed to guard treasures, since they make no noise until they attack.
 
 Zombies will always attack on sight, but can be destroyed by normal weapons. They are slow fighters and always strike last (no initiative roll needed).
+
+![](assets/zombie-plate.png)
 
 ::: pagebreak-pdf
 :::
