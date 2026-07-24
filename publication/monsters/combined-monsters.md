@@ -145,6 +145,7 @@ An asterisk after Hit Dice matters for experience awards. (*) means the XP Bonus
 | 17 to 20+ | 2,200–2,400 | 1,500–1,750 | 3,700–4,150 | 5,200–5,900 |
 | 21 to 21+ | 2,500–2,650 | 2,000–2,150 | 4,500–4,800 | 6,500–6,950 |
 | 22 to 22+ | 2,750–2,900 | 2,250–2,400 | 5,000–5,300 | 7,250–7,700 |
+
 ::: center
 *Experience Points for Monsters*
 :::
@@ -155,15 +156,19 @@ An asterisk after Hit Dice matters for experience awards. (*) means the XP Bonus
 Welcome Adventures!
 :::
 
+## Animals
+
+Animals in this section are considered “animals” for the purposes of magic such as **animal summoning** or **invisibility to animals**. These are natural creatures, though some may be unusually large, fierce, or dangerous. Some kindly DMs may permit other creatures, such as dinosaurs or giant invertebrates, to count as “animals” for such magic—but this is strictly at the DM’s option.
+
 ::: pagebreak-pdf
 :::
 
 ::: twocolumn-pdf-begin
 :::
 
-## Animals
-
-Animals in this section are considered “animals” for the purposes of magic such as **animal summoning** or **invisibility to animals**. These are natural creatures, though some may be unusually large, fierce, or dangerous. Some kindly DMs may permit other creatures, such as dinosaurs or giant invertebrates, to count as “animals” for such magic—but this is strictly at the DM’s option.
+::: center
+![](assets/ape-plate.png)
+:::
 
 ### Ape
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -187,8 +192,6 @@ Apes are large primates found in remote tropical forests. Though immensely stron
 
 **Carnivorous Apes**: Carnivorous apes are larger, stronger, and far more aggressive relatives of the gorilla. Highly cunning and unusually intelligent for animals, they have a particular taste for human flesh. Their eyesight, hearing, and sense of smell are exceptionally keen, and they are surprised only on a roll of 1 on `1d6`. If a carnivorous ape hits with both claws in the same round, it grabs and rends its opponent for an additional `1d8` points of damage.
 
-![](assets/ape-plate.png)
-
 ### Baboon
 *Source:* `Basic`  *Category:* `Animal`
 
@@ -205,13 +208,13 @@ Apes are large primates found in remote tropical forests. Though immensely stron
 | Treasure Type | Nil        | U           |
 | Alignment     | Neutral    | Neutral     |
 
-**Baboons** are mostly herbivorous troop animals. They are territorial and noisy, relying on numbers, threat displays, and quick climbing to drive off intruders. A troop is led by 2d4 large males, which inflict 1d4+1 damage with their attacks. Half of any troop consists of young, which do not normally fight. If their territory is invaded, baboons attempt to drive intruders away, though there is a 90% chance that a troop will flee if faced with determined resistance.
+**Baboons** are mostly herbivorous troop animals. They are territorial and noisy, relying on numbers, threat displays, and quick climbing to drive off intruders. A troop is led by `2d4` large males, which inflict `1d4+1` damage with their attacks. Half of any troop consists of young, which do not normally fight. If their territory is invaded, baboons attempt to drive intruders away, though there is a 90% chance that a troop will flee if faced with determined resistance.
 
-**Rock baboons**: are larger and more intelligent than normal baboons. Omnivorous and aggressive, they will eat nearly anything but strongly prefer meat. They do not make tools or weapons, though they commonly wield stones, bones, or heavy branches as crude clubs. They favor rocky hills, cliffs, and ruined places, where they hurl stones from above at intruders before closing to attack.
+**Rock baboons**: are larger and more intelligent than normal baboons. Omnivorous and aggressive, they will eat nearly anything but strongly prefer meat. They do not make tools or weapons, though they commonly wield stones, bones, or heavy branches as crude clubs. They favor rocky hills, cliffs, and ruined places, where they hurl stones from above at intruders before closing to attack.  Though incapable of true speech, they communicate through barks, shrieks, and threatening screams that convey simple warnings and commands.
 
-Rock baboons travel in fierce packs led by a dominant male. They are bad-tempered, territorial creatures known for sudden violence and savage infighting. Though incapable of true speech, they communicate through barks, shrieks, and threatening screams that convey simple warnings and commands.
-
+::: center
 ![](assets/rock-baboon-plate.png)
+:::
 
 ### Badger
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
