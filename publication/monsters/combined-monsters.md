@@ -1715,6 +1715,8 @@ All devils have telepathy, infravision, teleportation without error, know alignm
 
 Only erinyes, barbed devils, and bone devils can be hit by normal weapons. Greater devils require magic or silver weapons. Devils can summon others of their kind, as noted below. Lesser devils fight until destroyed. Greater devils may bargain if seriously threatened.
 
+Arch-devils such as Asmodeus, Baalzebul, Dispater, and Geryon are unique rulers with campaign-level powers. Review and tailor them individually before play.
+
 ### Lemure
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
@@ -1807,8 +1809,6 @@ Ice devils are cold, insectile greater devils. A few carry great spears that dea
 | Damage      | 1d4+4 / 1d6+6 / 2d4    |               |            |
 
 Pit fiends are among the most dreaded greater devils and servants of the ruler of Hell. They fight with a hooked weapon and jagged club, regenerate 2 hit points per round, and radiate fear in a 20' radius. A tail hit constricts for 2d4 damage each round. Pit fiends may use pyrotechnics, produce flame, wall of fire, detect magic, detect invisible, polymorph self, hold person, and summon barbed devils or another pit fiend. Once per day they may use a symbol of pain.
-
-Arch-devils such as Asmodeus, Baalzebul, Dispater, and Geryon are unique rulers with campaign-level powers. Review and tailor them individually before play.
 
 ![](assets/pit-fiend-plate.png)
 
@@ -5707,6 +5707,26 @@ He fights with a rod bearing the powers of a **rod of rulership** and a doubled 
 **Description**: Dispater is evilly handsome, and only his small horns, tail, and cloven left hoof mark him as anything other than human.
 
 ![Dispater](assets/dispater-plate.png)
+
+### Geryon (Arch-devil)
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -3         | No. Appearing | 1          |
+| Hit Dice    | 30***      | Save As       | Fighter 30 |
+| Move        | 30' (10')  | Morale        | 12         |
+| Fly         | 180' (60') | Treasure Type | H, R       |
+| Attacks     | 2 claws / 1 tail | Alignment | Lawful    |
+| Damage      | 3d6/3d6/2d4 |              |            |
+
+Known as the "Wild Beast," Geryon rules Hell's fifth plane from a vast castle at its center, venturing forth only rarely. As strong as a storm giant, he delights in seizing opponents in his claws and stabbing them with his barbed, poisonous tail; a creature struck must save versus Poison at -4 or be overcome.
+
+At will Geryon may call upon **ice storm**, **wall of ice**, **light**, **read languages**, **read magic**, **detect invisible**, **locate object**, **dispel magic**, **invisibility**, **shape change**, **beguile**, **geas**, **raise dead fully**, or grant a **wish**. Once per day he may lay a **symbol of pain** or speak an **unholy word**, and he can summon `1-2` bone devils or, less often, a single ice devil to his side. Geryon's glare causes fear in anyone he directs it upon unless they save versus magic.
+
+Geryon carries a great bull's horn that he may wind but once per week, summoning `5-20` minotaurs who will serve him to the death.
+
+**Description**: A handsome head and torso rise from Geryon's serpentine, legless trunk, which moves in a snakelike glide along the ground. Huge bat wings sprout from his back, his arms are strong and hairy with paw-like hands, and his barbed tail drips venom.
+
+![Geryon](assets/geryon-plate.png)
 
 ### Tiamat (Chromatic Dragon)
 *Source:* `AD&D 1E Conversion`  *Category:* `Dragon`
