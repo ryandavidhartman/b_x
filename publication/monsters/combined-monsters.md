@@ -603,6 +603,9 @@ Elephants dwell at the edge of sub-tropical forest areas. Their tusks are valued
 
 Giant ferrets look like 3' long weasels. They hunt giant rats underground, and are sometimes trained for this purpose. Unfortunately, their tempers are highly unpredictable, and they have been known to attack their trainers and other humans.
 
+::: twocolumn-pdf-end
+:::
+
 ### Fish, Giant
 *Source:* `Expert`  *Category:* `Animal`
 
@@ -618,6 +621,9 @@ Giant ferrets look like 3' long weasels. They hunt giant rats underground, and a
 | Morale          | 7             | 8                  | 8                  | 9              |
 | Treasure Type   | Nil           | Nil                | Nil                | Nil            |
 | Alignment       | Neutral       | Neutral            | Neutral            | Neutral        |
+
+::: twocolumn-pdf-begin
+:::
 
 Giant piranha are 5' in length with green and black scales. They attack anything that disturbs the water near them. Up to 8 giant piranha can attack the same target. Once blood is drawn they go into a feeding frenzy and will not check morale. Piranha inhabit warm fresh waters and prefer rivers to lakes.
 
@@ -742,6 +748,9 @@ Hippopotami are aggressive river and lake animals. They usually attack boats, sw
 
 In water they can capsize small craft or drag prey below. Large bulls deal 3d6 damage with their bite.
 
+::: twocolumn-pdf-end
+:::
+
 ### Horse
 *Source:* `Expert`  *Category:* `Animal`
 
@@ -757,6 +766,9 @@ In water they can capsize small craft or drag prey below. Large bulls deal 3d6 d
 | Morale        | 7            | 9                 | 6                 |
 | Treasure Type | Nil          | Nil               | Nil               |
 | Alignment     | Neutral      | Neutral           | Neutral           |
+
+::: twocolumn-pdf-begin
+:::
 
 Riding horses are smaller than draft or war horses but can carry a rider farther. A riding horse is noted for its ability to exist anywhere there is grass to feed on. Any wild horse can become a riding horse if tamed. The amount of weight the horse can carry and still move at normal speed is 3000 cn. The maximum weight that can be carried is 6000 cn at half movement.
 
@@ -890,6 +902,9 @@ Minotaur lizards are huge, aggressive carnivores of warm lands. They surprise on
 
 Subterranean lizards run on walls and ceilings with suction-cupped toes. They are dreaded underground predators and deal double damage on a natural 20.
 
+::: twocolumn-pdf-end
+:::
+
 ### Lizards, Giant
 *Source:* `Basic`  *Category:* `Animal`
 
@@ -906,6 +921,8 @@ Subterranean lizards run on walls and ceilings with suction-cupped toes. They ar
 | Treasure Type | U          | U                          | U                | V                |
 | Alignment     | Neutral    | Neutral                    | Neutral          | Neutral          |
 
+::: twocolumn-pdf-begin
+:::
 
 Gecko: A gecko is a 5' long lizard colored pale blue with orange-brown spots. Geckos are carnivorous and nocturnal, sleeping during the day and active at night or in darkness. Geckos hunt by climbing steep walls or trees with their specially adapted feet, then dropping on their prey to attack.
 
@@ -1188,6 +1205,9 @@ Giant skunks are shy but dangerous animals. If threatened, they spray a foul mus
 
 Creatures struck by musk must Save vs. Poison or be blinded and nauseated for 1d6 turns. The odor clings for days unless washed with strong substances or removed by magic.
 
+::: twocolumn-pdf-end
+:::
+
 ### Snake
 *Source:* `Basic`  *Category:* `Animal`
 
@@ -1203,6 +1223,9 @@ Creatures struck by musk must Save vs. Poison or be blinded and nauseated for 1d
 | Morale        | 7                | 7            | 7          | 8             | 8                  |
 | Treasure Type | Nil              | Nil          | Nil        | U             | U                  |
 | Alignment     | Neutral          | Neutral      | Neutral    | Neutral       | Neutral            |
+
+::: twocolumn-pdf-begin
+:::
 
 Snakes are found almost everywhere except for very hot or very cold places. Most snakes do not usually attack unless surprised or threatened. Many (but not all) snakes have poisonous bites.
 
@@ -1703,12 +1726,6 @@ As with demons, proper magical circles are essential when summoning devils. More
 
 Devils resist many forms of attack. They are completely immune to fire and take only half damage from cold and poisonous gas. They suffer full damage from acid, electricity, magic missiles, poison, and silver weapons. Iron weapons inflict no special additional damage.
 
-::: twocolumn-pdf-end
-:::
-
-::: twocolumn-pdf-begin
-:::
-
 Devils are the lawful evil rulers and servants of Hell. They are hierarchical, cruel, and bound by infernal law, though they constantly scheme against rivals. They cannot enter the material plane without ritual, gate, or the speaking of a proper name.
 
 All devils have telepathy, infravision, teleportation without error, know alignment, cause fear, animate dead, and the ability to use charm person, suggestion, and illusion. Devils take full damage from acid, lightning, magic missiles, poison, and silver weapons; half damage from cold and poisonous gas; no damage from fire; and no damage from iron unless they can be harmed by ordinary weapons.
@@ -1843,6 +1860,9 @@ As dragons age, they grow steadily more powerful. Newly hatched dragons typicall
 
 All dragons radiate an aura of supernatural fear, similar to a fear spell, affecting creatures below 5^th^ level unless they successfully save versus Spells. Dragons with 5 or more hit points per Hit Die also gain a bonus of +1 on saving throws for each hit point per die above 4. Thus, an ancient dragon with 8 hit points per Hit Die gains a +4 bonus on all saving throws.
 
+::: twocolumn-pdf-end
+:::
+
 ### Dragon
 *Source:* `Basic`  *Category:* `Dragon`
 
@@ -1868,6 +1888,9 @@ All dragons radiate an aura of supernatural fear, similar to a fear spell, affec
 | Chance of Talking      | 10%              | 20%             | 30%              | 40%              | 50%              | 100%                             |
 | Chance of Being Asleep | 50%              | 40%             | 30%              | 20%              | 10%              | 5%                               |
 | Spells by Level        | 3 / - / -        | 4 / - / -       | 3 / 3 / -        | 4 / 4 / -        | 3 / 3 / 3        | 4 / 4 / 4                        |
+
+::: twocolumn-pdf-begin
+:::
 
 Dragons are a very old race of huge winged lizards. They like to live in isolated, out-of-the-way places where few humans are found. Though the color of their scaly hide makes dragons look different, they all have several traits in common: they are hatched from eggs, are meat-eaters, have Breath Weapons, love treasure, and will do everything possible to save their own lives, including surrender.
 
@@ -2444,6 +2467,9 @@ Ettins are closely related to orcs in appearance and habits. They dress in filth
 
 ![Ettin](assets/ettin-plate.png)
 
+::: twocolumn-pdf-end
+:::
+
 ### Giant
 *Source:* `Expert`  *Category:* `Giant`
 
@@ -2459,6 +2485,9 @@ Ettins are closely related to orcs in appearance and habits. They dress in filth
 | Morale         | 8           | 9           | 9           | 9           | 10          | 10            |
 | Treasure Type  | E + 5000 gp | E + 5000 gp | E + 5000 gp | E + 5000 gp | E + 5000 gp | E + 5000 gp   |
 | Alignment      | Chaotic     | Neutral     | Chaotic     | Chaotic     | Neutral     | Lawful        |
+
+::: twocolumn-pdf-begin
+:::
 
 - **Hill giants** are hairy, stupid brutes about 12' tall who wear skins and raid nearby human settlements for food and plunder.
 - **Stone giants** are 14' tall with gray rock-like skin and hurl boulders up to 300'.
@@ -2768,6 +2797,9 @@ Spider bites are poisonous. Victims must Save vs. Poison or die, though the refe
 
 ![Spider](assets/spider-generic-plate.png)
 
+::: twocolumn-pdf-end
+:::
+
 ### Spider, Giant
 *Source:* `Basic`  *Category:* `Insect`
 
@@ -2784,6 +2816,9 @@ Spider bites are poisonous. Victims must Save vs. Poison or die, though the refe
 | Morale        | 7            | 8            | 8            | 9            |
 | Treasure Type | U            | U            | U            | U            |
 | Alignment     | Neutral      | Neutral      | Neutral      | Neutral      |
+
+::: twocolumn-pdf-begin
+:::
 
 - *Crab Spider*: Crab spiders are 5' long giant spiders. They are meat-eaters and attack their victims by clinging to walls or ceilings and dropping onto them. They have chameleon-like powers and can change their color to blend into their surroundings, surprising on a roll of 1-4 (on 1d6). After the first attack, a crab spider can be seen and attacked normally. Any victim bitten by a crab spider must save vs. Poison or die in 1d4 turns. However, the poison is weak, and the victim may add + 2 to the saving throw roll.
 
@@ -4989,6 +5024,9 @@ Mediums are NPC 1^st^ level magic-users. There is a 50% chance that mediums will
 
 The 3^rd^ level magic-user will have two 1^st^ level spells and one 2^nd^ level spell, chosen in a similar manner.
 
+::: twocolumn-pdf-end
+:::
+
 ### Men
 *Source:* `Expert`  *Category:* `NPC`
 
@@ -5004,6 +5042,9 @@ The 3^rd^ level magic-user will have two 1^st^ level spells and one 2^nd^ level 
 | Morale         | 8          | 6 (7)             | 10          | Variable  | 8          |
 | Treasure Type  | A          | A                 | A           | A         | A          |
 | Alignment      | Chaotic    | Neutral / chaotic | Lawful      | Neutral   | Neutral    |
+
+::: twocolumn-pdf-begin
+:::
 
 Most groups of men will be led by additional higher-level leaders with better armor, hit points, saving throws, and possibly magic items. Men also usually have large camps, and the treasure will usually be at the camp.
 

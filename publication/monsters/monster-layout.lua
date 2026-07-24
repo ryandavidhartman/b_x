@@ -246,21 +246,6 @@ local function columnbreak_blocks(in_columns)
   return { pandoc.RawBlock("latex", "\\columnbreak") }
 end
 
-local full_width_entries = {
-  Bear = true,
-  ["Cat, Great"] = true,
-  Dragon = true,
-  ["Fish, Giant"] = true,
-  Giant = true,
-  Hawk = true,
-  Horse = true,
-  ["Lizards, Giant"] = true,
-  ["Lycanthrope*"] = true,
-  Men = true,
-  Snake = true,
-  ["Spider, Giant"] = true,
-}
-
 local function group_monster_entries(blocks)
   local grouped = {}
   local current_blocks = nil
@@ -377,52 +362,6 @@ local function header_text_from_entry(div)
   return stringify(first.content)
 end
 
-local function process_full_width_tables_entry(blocks)
-  local processed = {}
-  local in_columns = true
-
-  local function end_columns()
-    if in_columns then
-      table.insert(processed, pandoc.RawBlock("latex", "\\end{multicols}"))
-      in_columns = false
-    end
-  end
-
-  local function begin_columns()
-    if not in_columns then
-      table.insert(processed, pandoc.RawBlock("latex", "\\begin{multicols}{2}"))
-      in_columns = true
-    end
-  end
-
-  for _, block in ipairs(blocks) do
-    if is_pdf_pagebreak_div(block) then
-      for _, raw in ipairs(pagebreak_blocks(in_columns)) do
-        table.insert(processed, raw)
-      end
-    elseif is_pdf_columnbreak_div(block) then
-      for _, raw in ipairs(columnbreak_blocks(in_columns)) do
-        table.insert(processed, raw)
-      end
-    elseif block.t == "Table" and #block.headers > 2 then
-      end_columns()
-      table.insert(processed, table_to_tabularx(block, "\\textwidth"))
-    else
-      begin_columns()
-      if block.t == "Table" then
-        table.insert(processed, table_to_tabularx(block, "\\columnwidth"))
-      else
-        for _, inner in ipairs(latex_blocks_for_block(block)) do
-          table.insert(processed, inner)
-        end
-      end
-    end
-  end
-
-  begin_columns()
-  return processed
-end
-
 local function process_two_column_section(blocks)
   local grouped = group_monster_entries(blocks)
   local rebuilt = {}
@@ -435,14 +374,10 @@ local function process_two_column_section(blocks)
       local entry_name = header_text_from_entry(block)
       local entry_header = block.content[1]
       local entry_id = header_identifier(entry_header)
-      local processor = process_regular_entry_for_latex
-      if entry_name and full_width_entries[entry_name] then
-        processor = process_full_width_tables_entry
-      end
 
       table.insert(index_entries, { name = entry_name, id = entry_id })
 
-      for _, inner in ipairs(processor(add_entry_label(block.content, entry_id))) do
+      for _, inner in ipairs(process_regular_entry_for_latex(add_entry_label(block.content, entry_id))) do
         table.insert(rebuilt, inner)
       end
     elseif is_pdf_pagebreak_div(block) then
@@ -550,6 +485,8 @@ function Pandoc(doc)
           table.insert(rebuilt, inner)
         end
         table.insert(rebuilt, pandoc.RawBlock("latex", "\\phantomsection\\label{" .. entry_label_name(entry_id) .. "}"))
+      elseif block.t == "Table" then
+        table.insert(rebuilt, table_to_tabularx(block, "\\textwidth"))
       else
         for _, inner in ipairs(latex_blocks_for_block(block)) do
           table.insert(rebuilt, inner)
