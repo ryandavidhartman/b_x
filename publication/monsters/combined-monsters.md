@@ -2112,6 +2112,9 @@ An efreeti can carry up to 7,500 cn without tiring and twice that for a short ti
 
 ![Efreeti](assets/efreeti-full-plate.png)
 
+::: columnbreak-pdf
+:::
+
 ### Efreeti, Lesser*
 
 *Source:* `Expert`  *Category:* `Elemental`
@@ -2160,6 +2163,9 @@ Staff elementals, the weakest, are summoned by a magic-user with a special staff
 | Device   | 0           | 12       | 2d8    | Fighter 12 |
 | Conjured | -2          | 16       | 3d8    | Fighter 16 |
 
+::: twocolumn-pdf-begin
+:::
+
 - **Air elementals**: appear as great whirlwinds 2' tall and 1/2' in diameter for each hit die they have. The whirlwind will catch and sweep away creatures of less than 2 hit dice unless a saving throw vs. Death Ray is made. Air elementals do an extra 1-8 points of damage against flying opponents.
 
 - **Earth elementals**: appear as huge man-like figures 1' tall for each hit die they have. Earth elementals cannot cross a water barrier wider than their height. Earth elementals do an extra 1-8 points of damage against opponents on the ground.
@@ -2186,8 +2192,6 @@ Staff elementals, the weakest, are summoned by a magic-user with a special staff
 | Treasure Type  | F                | E                |
 | Alignment      | Neutral          | Chaotic          |
 
-::: twocolumn-pdf-begin
-:::
 
 - **Flame salamander**: is a form of free-willed fire elemental that looks like a giant snake, 12' to 16' long, with the head and limbs of a lizard. It has scales of bright orange-yellow and orange-red. All creatures within 20' will take `1d8` points of damage per round from the intense heat the salamander generates. Flame salamanders are immune to all fire-based attacks. These creatures are intelligent and prefer to live near, or in, volcanoes or in very hot, dry lands.
 
