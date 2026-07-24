@@ -1281,6 +1281,9 @@ The lesser tentacles do constriction damage after they hit. They can be severed 
 
 If its morale fails, the squid can flee at triple speed and will leave great clouds of ink, 30' radius, twice per day maximum, to confuse pursuers. A large giant squid can even be double or triple normal size.
 
+::: columnbreak-pdf
+:::
+
 ### Stag
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
@@ -1318,6 +1321,9 @@ If a tiger hits with both claws, it may rake with its rear claws for 1d6 / 1d6 d
 
 A giant toad is about the size of a very large dog and weighs 150-250 pounds. These toads can change their skin color to blend into woods or poorly lit dungeons, thus surprising their prey on a roll of 1-3. They can shoot their tongues out to 15' and drag dwarf-sized or smaller victims to their mouths to be bitten. On a "to hit" roll of 20, small prey will be swallowed whole, taking 1-6 points of damage each round thereafter.
 
+::: columnbreak-pdf
+:::
+
 ### Turtle, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
@@ -1352,6 +1358,9 @@ A giant weasel is 8'-9' long and covered with richly colored fur of white, gold,
 
 Giant weasels have infravision to 30' and can track by scent. They prefer wounded prey and lair in underground tunnels, where treasure is often found on the bodies of creatures they have dragged back to eat.
 
+::: columnbreak-pdf
+:::
+
 ### Whale
 *Source:* `Expert`  *Category:* `Animal`
 
@@ -1377,6 +1386,9 @@ Sperm whale. This huge whale can grow to be 60' long. It preys on the most feare
 Man-sized or smaller creatures will be swallowed on a die roll that is 4 or more than the score needed to hit, taking `3d6` points of damage per round. Sperm whales will sometimes (10% chance) attack ships, attempting to ram. Should the sperm whale succeed, it will do `6d6` points of damage to the ship.
 
 ![Whale](assets/whale-plate.png)
+
+::: columnbreak-pdf
+:::
 
 ### Wolf
 *Source:* `Basic`  *Category:* `Animal`
@@ -1506,6 +1518,9 @@ A homunculus is a small magical servant created from its master's blood and arca
 A creature bitten by a homunculus must Save vs. Poison or sleep for `5d6` minutes. If the homunculus is slain, its master suffers `2d10` damage. If the master dies, the homunculus also dies.
 
 ![Homunculus](assets/homunculus-plate.png)
+
+::: columnbreak-pdf
+:::
 
 ### Living Statue
 *Source:* `Basic`  *Category:* `Construct`
@@ -2094,6 +2109,9 @@ If a djinni is slain, it returns to its own plane.
 
 A djinni can carry 6000 cn weight without tiring. Up to 12,000 cn weight can be carried for 3 turns walking or 1 turn flying. Afterwards, a djinni must rest for one turn.
 
+::: columnbreak-pdf
+:::
+
 ### Efreeti
 *Source:* `AD&D 1E Conversion`  *Category:* `Elemental`
 
@@ -2492,6 +2510,9 @@ Ettins are closely related to orcs in appearance and habits. They dress in filth
 ::: twocolumn-pdf-end
 :::
 
+::: pagebreak-pdf
+:::
+
 ### Giant
 *Source:* `Expert`  *Category:* `Giant`
 
@@ -2534,6 +2555,9 @@ Ogres are huge fearsome human-like creatures, usually 8 to 10 feet tall. They we
 When encountered outside their lair, they will be carrying 100-600 gp (1d6 x 100) in large sacks. Ogres hate Neanderthals and will attack them on sight.
 
 ![](assets/ogre-plate.png)
+
+::: columnbreak-pdf
+:::
 
 ### Ogre Mage
 *Source:* `AD&D 1E Conversion`  *Category:* `Giant`
@@ -2606,6 +2630,9 @@ Deep within the nest is a massive egg-laying queen attended by countless workers
 Legends claim driver ants sometimes mine and collect gold. There is a 30% chance a driver ant lair contains `1d10` thousand gp worth of gold nuggets.
 
 ![Driver Ant](assets/driver-ant-plate.png)
+
+::: columnbreak-pdf
+:::
 
 ### Ant, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Insect`
@@ -2702,6 +2729,9 @@ Killer bee hives contain a rare golden honey prized by alchemists and healers. T
 Giant centipedes are insects with 1' long bodies and many legs they like to live in damp, dark places. Their bite does no damage, but the victim must save vs. Poison or become violently ill for 10 days. Characters who do not save move at 1/2 speed and will not be able to perform any other physical action.
 
 ![](assets/giant-centipede-plate.png)
+
+::: columnbreak-pdf
+:::
 
 ### Ear Seeker
 *Source:* `AD&D 1E Conversion`  *Category:* `Insect`
@@ -2820,6 +2850,9 @@ Spider bites are poisonous. Victims must Save vs. Poison or die, though the refe
 ![Spider](assets/spider-generic-plate.png)
 
 ::: twocolumn-pdf-end
+:::
+
+::: pagebreak-pdf
 :::
 
 ### Spider, Giant
@@ -2957,6 +2990,9 @@ Though not intelligent, white apes are cunning enough to defend their territory 
 
 ![](assets/white-ape-plate.png)
 
+::: columnbreak-pdf
+:::
+
 ### Archelon
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
@@ -3087,6 +3123,9 @@ Cetiosaurus is a massive, whale-sized sauropod that grazes in herds along riverb
 
 Dinichthys is a monstrous armored fish, its head and forequarters encased in bony plates and its jaws formed from sharp, self-sharpening bone blades rather than teeth. It lurks in deep lakes, rivers, and coastal waters of the Lost World, ambushing anything that swims within reach of its crushing bite. Sages debate whether dinichthys should be classed among the true dinosaurs at all, but it is grouped here for convenience.
 
+::: columnbreak-pdf
+:::
+
 ### Diplodocus
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
@@ -3197,6 +3236,9 @@ Monoclonius is a stocky, single-horned relative of the triceratops, traveling in
 
 Mosasaurus is an enormous marine reptile, more closely akin to monitor lizards than to true dinosaurs, that rules the coastal waters of the Lost World as an apex predator. Powerful paddle-like limbs and a long, muscular tail let it run down prey both above and below the surface, and few creatures in the sea are safe from its jaws.
 
+::: columnbreak-pdf
+:::
+
 ### Neanderthal (Caveman)
 *Source:* `Basic`  *Category:* `Humanoid`
 
@@ -3244,6 +3286,9 @@ Pentaceratops bears an enormous frilled skull crowned with five horn-like projec
 | Damage      | Nil        | Alignment     | Neutral    |
 
 Plateosaurus is an early, primitive sauropod ancestor, a bipedal herbivore that browses on ferns and low branches in large herds. Entirely without natural weapons, a plateosaurus has no attack of any kind and relies solely on speed and its herd's numbers to escape predators.
+
+::: columnbreak-pdf
+:::
 
 ### Plesiosaurus
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -3332,6 +3377,9 @@ These squat dinosaurs have hard upright plates of bone along their backs and 4 l
 
 Styracosaurus is a horned herbivore whose bony frill is ringed with long spikes, giving it a fearsome silhouette that discourages most predators before a fight even begins. When a charge does come, styracosaurus lowers its single great nose horn and attacks with tremendous force.
 
+::: columnbreak-pdf
+:::
+
 ### Teratosaurus
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
@@ -3355,6 +3403,9 @@ Teratosaurus is a lean, fast-running predator, among the swiftest hunters of the
 The prehistoric titanothere resembles a huge blunt-horned rhino, 12' tall at the shoulder. They are generally peaceful if left alone, preferring to graze grass and eat leaves off trees. In combat, titanotheres will butt or trample their opponents. Small herds of these creatures are found in the grasslands of "lost world" areas.
 
 ![](assets/titanothere-plate.png)
+
+::: columnbreak-pdf
+:::
 
 ### Triceratops
 *Source:* `Expert`  *Category:* `Animal`
@@ -3422,6 +3473,9 @@ Devil swine possess a powerful **charm person** ability that may be used three t
 Cunning and patient hunters, devil swine prefer ambushes, deception, and nighttime attacks over open battle.
 
 ![Devil Swine](assets/devil-swine-plate.png)
+
+::: columnbreak-pdf
+:::
 
 ### Jackalwere
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -3727,6 +3781,9 @@ They are drawn to psionic power and to magic that imitates it. When a creature w
 
 After draining six such points, a parasite reproduces. Cerebral parasites cannot be harmed by weapons or ordinary spells. Cure disease destroys an infestation. This monster requires manual review in campaigns without psionics.
 
+::: columnbreak-pdf
+:::
+
 ### Chimera
 *Source:* `Expert`  *Category:* `Monstrous`
 
@@ -3752,6 +3809,9 @@ In total: 2 × claw (1d3), goat: 1 × gore (2d4), lion: 1 × bite (2d4), dragon:
 Chimeras are savage, ill-tempered predators most often found in wild hills, rocky badlands, and remote mountain regions, though they sometimes lair in deep dungeons or ruined strongholds.
 
 ![Chimera](assets/chimera-plate.png)
+
+::: columnbreak-pdf
+:::
 
 ### Cockatrice
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -4007,6 +4067,9 @@ A hellhound appears as a reddish-brown hound the size of a large wolfhound or sm
 In melee, a hellhound will attack one person, biting, 3-6 on 1d6, or breathing fire, 1 or 2 on 1d6, each round. Its breath does 1d6 points of damage for each hit die the hellhound has, 3d6 to 7d6. A character who makes a saving throw vs. Dragon Breath takes only half damage.
 
 Hellhounds have a 75% chance per round of detecting an invisible person or object within 60'. They save as a fighter of equal hit dice.
+
+::: columnbreak-pdf
+:::
 
 ### Hippocampus
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4877,6 +4940,9 @@ They can brighten, dim, or vanish at will. Most spells do not affect them, thoug
 
 ![Will-O-Wisp](assets/will-o-wisp-plate.png)
 
+::: columnbreak-pdf
+:::
+
 ### Yellow Mold
 *Source:* `Basic`  *Category:* `Monstrous`
 
@@ -5102,6 +5168,9 @@ Nomads are groups of wandering tribesmen who may be peaceful or warlike and may 
 "Noble" is a general term for the lord of a castle and any of his or her relatives. In the D&D BASIC rules, a noble will always be a 3^rd^ level fighter. However, the DM may choose to make a noble any class and level. The DM may make up the noble's title or use traditional ones; a few sample titles are Baron or Baroness, Count or Countess, Duke or Duchess, Emir, Khan, Knight, Margrave, and Sheikh.
 
 A little research will uncover many more traditional titles. A noble will always be accompanied by a squire, a 2^nd^ level fighter. A noble might also be accompanied by as many as 10 retainers or hirelings, usually 1^st^ level fighters. For details on encounters with nobles in their castles, see the D&D EXPERT rules.
+
+::: columnbreak-pdf
+:::
 
 ### Normal Human
 *Source:* `Basic`  *Category:* `NPC`
@@ -5368,6 +5437,9 @@ A satyr's pipes can charm, sleep, or cause fear unless listeners Save vs. Spells
 
 ![Satyr](assets/satyr-plate.png)
 
+::: columnbreak-pdf
+:::
+
 ### Sprite
 *Source:* `Basic`  *Category:* `Sylvan or Faerie`
 
@@ -5396,6 +5468,9 @@ Treants are 18' tall tree-men who resemble trees. Treants are only concerned wit
 One treant can animate any two trees within 60' to move at 30', 5', and fight as treants. A treant may change which trees it is animating at will.
 
 ![Treant](assets/treant-plate.png)
+
+::: columnbreak-pdf
+:::
 
 ### Unicorn
 *Source:* `Expert`  *Category:* `Sylvan or Faerie`
@@ -5752,6 +5827,9 @@ At will Baalzebul may call upon **pyrotechnics**, **produce flame**, **wall of f
 
 ![Baalzebul](assets/baalzebul-plate.png)
 
+::: columnbreak-pdf
+:::
+
 ### Dispater (Arch-devil)
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
@@ -5770,6 +5848,9 @@ He fights with a rod bearing the powers of a **rod of rulership** and a doubled 
 **Description**: Dispater is evilly handsome, and only his small horns, tail, and cloven left hoof mark him as anything other than human.
 
 ![Dispater](assets/dispater-plate.png)
+
+::: columnbreak-pdf
+:::
 
 ### Geryon (Arch-devil)
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
