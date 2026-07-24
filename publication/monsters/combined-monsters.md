@@ -1147,7 +1147,7 @@ Giant sea horses are shy marine mounts often used by mermen, nixies, and other a
 
 If frightened, they flee quickly through weeds and reefs.
 
-![Sea Horse, Giant](assets/giant-sea-horse-plate.png)
+![Sea Lions attacking a Shark](assets/giant-sea-horse-plate.png)
 
 ### Shark
 *Source:* `Expert`  *Category:* `Animal`
