@@ -313,6 +313,9 @@ Bears are well known to all adventurers. If a bear (of any type) hits with both 
 
 **Dire bear**: are massive, broad-shouldered predators found in deep forests, remote mountains, and other untamed wilderness. Standing nearly 14' tall when rearing, they are larger and more aggressive than grizzlies, with thick dark fur, huge claws, and a savage temper. Dire bears are relentless hunters and will pursue wounded prey for hours. Unlike most bears, they often attack humans on sight and are feared even by giants and other large predators.
 
+::: columnbreak-pdf
+:::
+
 ### Beaver, Giant
 *Source:* `AD&D 1E Conversion`
 *Category:* `Animal`
@@ -384,6 +387,9 @@ Bulls are mature male bovines noted for their strength, aggression, and territor
 There is a 75% chance that a bull attacks if approached within 80'. A charging bull must move at least 30' before impact. A successful charge inflicts `3d6` damage, plus `1d4` trampling damage.
 
 When encountered as part of a herd, bulls typically place themselves between the threat and the remainder of the herd, attacking until the danger is driven off or they are slain.
+
+::: columnbreak-pdf
+:::
 
 ### Camel
 *Source:* `Expert`  *Category:* `Animal`
@@ -504,6 +510,9 @@ Large crocodiles are at least 20' long, and can overturn canoes and small rafts.
 
 ![](assets/crocodile-plate.png)
 
+::: columnbreak-pdf
+:::
+
 ### Dog
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
@@ -536,6 +545,9 @@ Wild dogs roam in packs across many regions, sometimes overlapping the range of 
 Dolphins are intelligent sea mammals that usually roam the oceans in nomadic schools. Some form underwater communities; if one is found, nearby communities are likely to exist within a few miles.
 
 Communal dolphins may keep swordfish or narwhals as guards, depending on climate. Dolphins help humans in distress and attack creatures that threaten them. They hate sharks and attack them unless outnumbered at least two to one.
+
+::: columnbreak-pdf
+:::
 
 ### Eagle, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -853,6 +865,9 @@ Once attached, a lamprey drains 1d4 damage each round until killed or removed. R
 | Damage      | 1d6        | Alignment     | Neutral   |
 
 Giant leeches are loathsome and slug-like. They live in swamps and are about 3 to 4 feet long. A giant leech has a sucker-like mouth that attaches to the victim if a hit is successful. It then sucks blood, doing 1-6 points of damage per round. A giant leech must be killed to be removed from its victim. When the victim dies, the leech will drop off and hide while it digests its meal.
+
+::: columnbreak-pdf
+:::
 
 ### Leopard
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -1204,6 +1219,9 @@ Their attack is so ferocious (attacking the head and shoulders of the defender) 
 Giant skunks are shy but dangerous animals. If threatened, they spray a foul musk in a cone behind them.
 
 Creatures struck by musk must Save vs. Poison or be blinded and nauseated for 1d6 turns. The odor clings for days unless washed with strong substances or removed by magic.
+
+::: pagebreak-pdf
+:::
 
 ::: twocolumn-pdf-end
 :::
