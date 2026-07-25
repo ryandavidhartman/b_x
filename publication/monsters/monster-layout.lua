@@ -284,7 +284,7 @@ local function table_column_spec(column_count)
     return "@{}X@{}"
   end
 
-  local spec = { "@{}l" }
+  local spec = { "@{}>{\\bfseries}l" }
   for _ = 2, column_count do
     table.insert(spec, "X")
   end

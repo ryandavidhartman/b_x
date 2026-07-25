@@ -173,7 +173,7 @@ Animals in this section are considered “animals” for the purposes of magic s
 ### Ape
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
-| Stat          | Gorilla          | Carnivorous Ape  |
+|               | Gorilla          | Carnivorous Ape  |
 | ------------- | ---------------- | ---------------- |
 | Armor Class   | 6                | 6                |
 | Hit Dice      | 4+1              | 5                |
@@ -195,7 +195,7 @@ Apes are large primates found in remote tropical forests. Though immensely stron
 ### Baboon
 *Source:* `Basic`  *Category:* `Animal`
 
-| Stat          | Baboon     | Rock Baboon |
+|               | Baboon     | Rock Baboon |
 | ------------- | ---------- | ----------- |
 | Armor Class   | 7          | 6           |
 | Hit Dice      | 1+1        | 2           |
@@ -219,7 +219,7 @@ Apes are large primates found in remote tropical forests. Though immensely stron
 ### Badger
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
-| Stat          | Badger           | Giant Badger     |
+|               | Badger           | Giant Badger     |
 | ------------- | ---------------- | ---------------- |
 | Armor Class   | 4                | 4                |
 | Hit Dice      | 1+2              | 3                |
@@ -260,7 +260,7 @@ Barracuda attack any prey that is injured, appears helpless, or is significantly
 ### Bat
 *Source:* `Basic`  *Category:* `Animal`
 
-| Stat          | Normal        | Giant       |
+|               | Normal        | Giant       |
 | ------------- | ------------- | ----------- |
 | Armor Class   | 6             | 6           |
 | Hit Dice      | 1 HP          | 2           |
@@ -294,7 +294,7 @@ Because bats do not rely on vision, spells or abilities that affect sight will n
 ### Bear
 *Source:* `Basic`  *Category:* `Animal`
 
-| Stat           | Black            | Grizzly          | Polar             | Dire             |
+|                | Black            | Grizzly          | Polar             | Dire             |
 |----------------|------------------|------------------|-------------------|------------------|
 | Armor Class    | 6                | 6                | 6                 | 6                |
 | Hit Dice       | 4                | 5                | 6                 | 6+2              |
@@ -345,7 +345,7 @@ Giant beavers sometimes trade. They prize coins, valuables, tender twigs, and ba
 *Source:* `AD&D 1E Conversion`
 *Category:* `Animal`
 
-| Stat          | Wild Boar  | Warthog    |
+|               | Wild Boar  | Warthog    |
 | ------------- | ---------- | ---------- |
 | Armor Class   | 7          | 7          |
 | Hit Dice      | 3+3        | 3          |
@@ -425,7 +425,7 @@ Charge attacks with a lance from camelback are **not** possible.
 ### Cat, Great
 *Source:* `Basic`  *Category:* `Animal`
 
-| Stat           | Mountain Lion | Panther       | Lion         | Jaguar       | Tiger        |
+|                | Mountain Lion | Panther       | Lion         | Jaguar       | Tiger        |
 |----------------|---------------|---------------|--------------|------------- |--------------|
 | Armor Class    | 6             | 4             | 6            | 5            | 6            |
 | Hit Dice       | 3 + 2         | 4             | 5            | 5            | 6            |
@@ -503,7 +503,7 @@ Like giant crabs, giant crayfish hide and rush out to seize prey. They surprise 
 ### Crocodile
 *Source:* `Expert`  *Category:* `Animal`
 
-| Stat           | Crocodile       | Large Crocodile | Giant Crocodile |
+|                | Crocodile       | Large Crocodile | Giant Crocodile |
 |----------------|-----------------|-----------------|-----------------|
 | Armor Class    | 5               | 3               | 1               |
 | Hit Dice       | 2               | 6               | 15              |
@@ -528,7 +528,7 @@ Large crocodiles are at least 20' long, and can overturn canoes and small rafts.
 ### Dog
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
-| Stat          | War Dog      | Wild Dog     |
+|               | War Dog      | Wild Dog     |
 | ------------- | ------------ | ------------ |
 | Armor Class   | 6            | 7            |
 | Hit Dice      | 2+2          | 1+1          |
@@ -548,11 +548,11 @@ Wild dogs roam in packs across many regions, sometimes overlapping the range of 
 ### Dolphin
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
-| Armor Class | 5          | No. Appearing | 1d10 (2d10) |
-| Hit Dice    | 2+2        | Save As       | Fighter 4  |
-| Move        | 300' (100') swim | Morale | 8          |
-| Attacks     | 1 ram      | Treasure Type | Nil        |
-| Damage      | 2d4        | Alignment     | Lawful     |
+| Armor Class | 5           | No. Appearing | 1d10 (2d10) |
+| Hit Dice    | 2+2         | Save As       | Fighter 4   |
+| Move        | 300' (100') | Morale        | 8           |   
+| Attacks     | 1 ram       | Treasure Type | Nil         |
+| Damage      | 2d4         | Alignment     | Lawful      |
 
 Dolphins are intelligent sea mammals that usually roam the oceans in nomadic schools. Some form underwater communities; if one is found, nearby communities are likely to exist within a few miles.
 
@@ -577,18 +577,18 @@ Away from the nest, giant eagles usually ignore good creatures and attack evil c
 ### Eel
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
-| Stat          | Electric Eel | Giant Eel    | Weed Eel     |
-| ------------- | ------------ | ------------ | ------------ |
-| Armor Class   | 9            | 6            | 8            |
-| Hit Dice      | 2            | 5            | 1-1          |
-| Save As       | Fighter 1    | Fighter 3    | Fighter 1    |
-| Move          | 120' (40') swim | 90' (30') swim | 150' (50') swim |
-| Attacks       | 1 bite       | 1 bite       | 1 bite       |
-| Damage        | 1d3          | 3d6          | 1 poison     |
-| No. Appearing | 1d3 (1d3)    | 1d4 (1d4)    | 2d10 (6d10)  |
-| Morale        | 7            | 8            | 8            |
-| Treasure Type | Nil          | Nil          | O, P, R      |
-| Alignment     | Neutral      | Neutral      | Neutral      |
+|               | Electric Eel | Giant Eel    | Weed Eel    |
+| ------------- | ------------ | ------------ | ----------- |
+| Armor Class   | 9            | 6            | 8           |
+| Hit Dice      | 2            | 5            | 1-1         |
+| Save As       | Fighter 1    | Fighter 3    | Fighter 1   |
+| Move          | 120' (40')   | 90' (30')    | 150' (50')  |
+| Attacks       | 1 bite       | 1 bite       | 1 bite      |
+| Damage        | 1d3          | 3d6          | 1 poison    |
+| No. Appearing | 1d3 (1d3)    | 1d4 (1d4)    | 2d10 (6d10) |
+| Morale        | 7            | 8            | 8           |
+| Treasure Type | Nil          | Nil          | O, P, R     |
+| Alignment     | Neutral      | Neutral      | Neutral     |
 
 Eels are water-dwellers and usually attack only when approached too closely. Giant eels are often morays with vicious teeth and foul tempers.
 
@@ -596,7 +596,9 @@ Electric eels live in warm fresh water. Once per hour, an electric eel may disch
 
 Weed eels resemble seaweed and live in colonies of small tunnels leading to a treasure-floored communal cave. Their bite is poisonous; a bitten creature must Save vs. Poison or die. If intruders enter their tunnels, weed eels rush out to defend the colony.
 
-![Eel](assets/eel-plate.png)
+::: center
+![](assets/eel-plate.png)
+:::
 
 ### Elephant
 *Source:* `Expert`  *Category:* `Animal`
@@ -630,10 +632,10 @@ Giant ferrets look like 3' long weasels. They hunt giant rats underground, and a
 ### Fish, Giant
 *Source:* `Expert`  *Category:* `Animal`
 
-| Stat            | Giant Piranha | Giant Rockfish     | Giant Catfish      | Giant Sturgeon |
+|                 | Giant Piranha | Spiny Rockfish     | Giant Catfish      | Giant Sturgeon |
 |-----------------|---------------|--------------------|--------------------|----------------|
 | Armor Class     | 6             | 7                  | 4                  | 0              |
-| Hit Dice        | 3 + 3         | 5 + 5              | 8 + 3*             | 10 + 2*        |
+| Hit Dice        | 3 + 3         | 5 + 5*             | 8 + 3              | 10 + 2*        |
 | Move (swimming) | 150' (50')    | 180' (60')         | 90' (30')          | 180' (60')     |
 | Attacks         | 1 bite        | 4 spines + poison  | 1 bite / 4 feelers | 1 bite         |
 | Damage          | 1d8           | (1-4) x 4 + poison | 2-16 / (1-4) x 4   | 2-20           |
@@ -646,15 +648,19 @@ Giant ferrets look like 3' long weasels. They hunt giant rats underground, and a
 ::: twocolumn-pdf-begin
 :::
 
-Giant piranha are 5' in length with green and black scales. They attack anything that disturbs the water near them. Up to 8 giant piranha can attack the same target. Once blood is drawn they go into a feeding frenzy and will not check morale. Piranha inhabit warm fresh waters and prefer rivers to lakes.
+**Giant piranha**: are 5' in length with green and black scales. They attack anything that disturbs the water near them. Up to 8 giant piranha can attack the same target. Once blood is drawn they go into a feeding frenzy and will not check morale. Piranha inhabit warm fresh waters and prefer rivers to lakes.
 
-Spiny rockfish are found in shallow salt water and are very difficult to distinguish from normal boulders. There is a 70% chance that one will be mistaken for a boulder or lump of coral. A rockfish is normally harmless, but will viciously attack anyone who disturbs it. Its body is covered with spines, and it may lash 4 of them at any character. These spines do 1-4 points of damage each and are deadly poisonous, save vs. Poison or die. Mistaking a rockfish for a rock or lump of coral and grasping it will result in 4 automatic hits, each requiring a save vs. Poison in addition to the normal damage taken.
+**Spiny rockfish**: are found in shallow salt water and are very difficult to distinguish from normal boulders. There is a 70% chance that one will be mistaken for a boulder or lump of coral. A rockfish is normally harmless, but will viciously attack anyone who disturbs it. Its body is covered with spines, and it may lash 4 of them at any character. These spines do `1d4` points of damage each and are deadly poisonous, save vs. Poison or die. Mistaking a rockfish for a rock or lump of coral and grasping it will result in 4 automatic hits, each requiring a save vs. Poison in addition to the normal damage taken.
 
-Giant catfish are chalky white fish about 15' long. They have two long feelers that sprout from each side of the mouth, and lurk in the cool muck of river and lake bottoms attacking swimmers or things moving on the bottom.
+**Giant catfish**: are chalky white fish about 15' long. They have two long feelers that sprout from each side of the mouth, and lurk in the cool muck of river and lake bottoms attacking swimmers or things moving on the bottom.
 
-Giant sturgeon are almost 30' long and are covered with thick armorlike scales. Sturgeons are vicious fighters. On a roll of 18 or better they swallow their prey whole.
+**Giant sturgeon**: are almost 30' long and are covered with thick armorlike scales. Sturgeons are vicious fighters. On a roll of 18 or better they swallow their prey whole.
 
 Any character swallowed takes `2d6` points of damage per round and must make a saving throw vs. Death Ray or be paralyzed. If the character saves, he or she may try to hack a way out at a penalty of -4; the inside of a sturgeon has a base AC of 7.
+
+::: center
+![](assets/fish-plate.png)
+:::
 
 ### Flightless Bird
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -665,17 +671,21 @@ Any character swallowed takes `2d6` points of damage per round and must make a s
 | Attacks     | 1 peck or 1 kick | Treasure Type | Nil    |
 | Damage      | 1d4 or 2d4 | Alignment     | Neutral    |
 
-Flightless birds include ostriches, emus, rheas, and similar large running birds of warm grasslands. They are non-aggressive and usually flee danger.
+These large avian creatures are typified by the ostrich, emu, and rhea.  They live in warm climates in open grasslands.
 
-If cornered, a flightless bird pecks or kicks. Ostrich-sized birds have 3 Hit Dice, emu-sized birds have 2 Hit Dice, and rhea-sized birds have 1 Hit Die.
+- Ostrich sized have 3 HD
+- Emu-like birds have 2 HD
+- Rhea-sized birds have 1 HD
+
+All fighless birds are non-agressive and run from danger.  If cornered they can peck for `1d4` damage or kick for `2d4` points.  Despite their inability to fly, these birds are remarkably swift, relying on speed and keen eyesight to spot predators across the open plains long before they draw near.  They travel in loose flocks and forage on seeds, roots, and small insects, rarely wandering far from a reliable water source.
 
 ### Frog, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
-| Stat          | Giant Frog   | Killer Frog  | Poisonous Frog |
+|               | Giant Frog   | Killer Frog  | Poisonous Frog |
 | ------------- | ------------ | ------------ | -------------- |
 | Armor Class   | 7            | 8            | 8              |
-| Hit Dice      | 1-3          | 1+4          | 1              |
+| Hit Dice      | 1-3          | 1+4          | 1*             |
 | Save As       | Fighter 1-2  | Fighter 1    | Fighter 1      |
 | Move          | 30' (10')    | 60' (20')    | 30' (10')      |
 | Swim          | 90' (30')    | 120' (40')   | 90' (30')      |
@@ -686,15 +696,23 @@ If cornered, a flightless bird pecks or kicks. Ostrich-sized birds have 3 Hit Di
 | Treasure Type | Nil          | Nil          | Nil            |
 | Alignment     | Neutral      | Neutral      | Neutral        |
 
-Giant frogs live in marshes, swamps, ponds, river banks, and lake shores. Their coloration lets them surprise on 1-4 on 1d6, and they can leap up to 180' to attack.
+**Giant frogs** are found in marshes, swamps, large ponds, river banks, and lake shores. The smallest are only about 2' long (body), medium-sized frogs (2 hit dice) are about 4' long, and the largest are some 6' long. Because of their coloration they surprise on a 1-4. These creatures can leap up to 18' to attack.
 
-A giant frog's sticky tongue reaches three times its body length and attacks at +4. The tongue deals no damage, but pulls prey to the frog's mouth on the following round. A creature hit by the tongue may attack it; if the tongue is hit, the frog withdraws it. If not, the frog bites for maximum damage on the next round.
+A giant frog has a tongue equal to three times its body length. This sticky member strikes at +4 to hit but does no damage. The tongue is used to draw prey to the frog's mouth. Any creature hit by the tongue gets the opportunity to hit it, and if it does, the frog will withdraw it and not use it against that creature again. If the tongue is not struck, the creature contacted by this member is drawn to the frog's mouth on the next turn and automatically takes maximum damage. Exception: creatures weighing more than the frog have a second opportunity to strike the tongue and will not be dragged to the frog's mouth until the third melee round. Furthermore, creatures weighing more than twice the frog's weight will not be dragged at all, and the frog will release its hold on the third melee round.
 
-Giant frogs can swallow small humanoids on a natural attack roll of 20. A swallowed victim with an edged weapon has three chances to cut free by hitting AC 7; success kills the frog. Attacks against a frog with swallowed prey have a 1-in-3 chance to also harm the swallowed victim.
+Frogs weigh from 50 to 250 pounds (figure 50 pounds additional weight for every foot of body length over 2'). For each 50 pounds of weight over 50, subtract 2' from the maximum leaping distance (18'). A giant frog can jump to a maximum height of 30', regardless of weight. The direction of a jump can be up to 45 degrees to either side of the frog's direct facing.
 
-Killer frogs are man-eating mutants with claws and teeth. Poisonous frogs secrete weak venom; creatures touching or bitten by one must Save vs. Poison at +4 or die.
+Giant frogs eat large insects, birds, rats, or just about any other creature small enough to swallow. A giant frog can swallow a small human, elf, halfling, etc.; this is indicated by a score of 20. If a giant frog swallows an opponent whole, the victim has a chance to cut its way out if it has a sharp-edged weapon and can score an 18 or better (this also kills the frog). The victim has three chances to escape. Hits upon a giant frog with prey swallowed whole have a one-third probability of instead hitting the creature inside, inflicting whatever damage was scored on the giant frog on that creature as well.
 
-![Frog, Giant](assets/giant-frog-plate.png)
+Giant frogs hunt aggressively but fear predators such as giant fish, giant turtles, and giant snakes. If severely wounded, they will retreat. They fear fire.
+
+**Killer Frog:** These smallish giant frogs employ talons and teeth in attack. They are man-eating, specifically bred mutants. Only their cannibalistic habits keep them from becoming common, and thus a real threat.
+
+**Poisonous Frog:** This is a rare variety of the normal frog. It secretes a poison from its skin, so that its touch as well as its bite can prove fatal. However, as the poison is weak, all creatures gain a +4 bonus on their saving throws.
+
+::: center
+![](assets/giant-frog-plate.png)
+:::
 
 ### Gar, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -709,7 +727,9 @@ Giant gar are aggressive hunters found only in large, deep lakes and rivers. Unl
 
 A giant gar swallows prey whole on a natural attack roll of 20. A swallowed creature has a 5% chance per round of dying and can escape only by cutting free with a sharp weapon, dealing damage equal to one-quarter of the gar's total hit points. Piercing attacks against the gar have a 20% chance to also injure a swallowed creature.
 
-![Gar, Giant](assets/giant-gar-plate.png)
+::: center
+![](assets/giant-gar-plate.png)
+:::
 
 ### Goat, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -727,7 +747,7 @@ If a giant goat charges, it adds +4 damage on a hit. If more than seven are enco
 ### Hawk
 *Source:* `Expert`  *Category:* `Animal`
 
-| Stat          | Normal Hawk     | Giant Hawk      |
+|               | Normal Hawk     | Giant Hawk      |
 |---------------|-----------------|-----------------|
 | Armor Class   | 8               | 6               |
 | Hit Dice      | 1/2 (1d4 hp)    | 3 + 3           |
@@ -775,7 +795,7 @@ In water they can capsize small craft or drag prey below. Large bulls deal 3d6 d
 ### Horse
 *Source:* `Expert`  *Category:* `Animal`
 
-| Stat          | Riding Horse | War Horse         | Draft Horse       |
+|               | Riding Horse | War Horse         | Draft Horse       |
 |---------------|--------------|-------------------|-------------------|
 | Armor Class   | 1            | 7                 | 7                 |
 | Hit Dice      | 2            | 3                 | 3                 |
@@ -907,7 +927,7 @@ If a lion hits with both claws, it may rake with its rear claws for 1d6 / 1d6 da
 ### Lizard
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
-| Stat          | Giant Lizard | Minotaur Lizard | Subterranean Lizard |
+|               | Giant Lizard | Minotaur Lizard | Subterranean Lizard |
 | ------------- | ------------ | --------------- | ------------------- |
 | Armor Class   | 5            | 5               | 5                   |
 | Hit Dice      | 3+1          | 8               | 6                   |
@@ -932,7 +952,7 @@ Subterranean lizards run on walls and ceilings with suction-cupped toes. They ar
 ### Lizards, Giant
 *Source:* `Basic`  *Category:* `Animal`
 
-| Stat          | Gecko      | Draco                      | Horned Chameleon | Tuatara          |
+|               | Gecko      | Draco                      | Horned Chameleon | Tuatara          |
 |---------------|------------|----------------------------|------------------|------------------|
 | Armor Class   | 5          | 5                          | 2                | 4                |
 | Hit Dice      | 3 + 1      | 4 + 2                      | 5*               | 6                |
@@ -1101,7 +1121,7 @@ A charging ram deals double damage. A flock usually contains one ram, four ewes,
 ### Rat
 *Source:* `Basic`  *Category:* `Animal`
 
-| Stat          | Normal          | Giant          |
+|               | Normal          | Giant          |
 |---------------|-----------------|----------------|
 | Armor Class   | 9               | 7              |
 | Hit Dice      | 1 hit point     | 1d4 hit points |
@@ -1126,7 +1146,7 @@ Giant Rats: Giant rats are 3 feet long or more, and have gray or black fur. They
 ### Ray
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
-| Stat          | Manta Ray    | Pungi Ray    | Sting Ray   |
+|               | Manta Ray    | Pungi Ray    | Sting Ray   |
 | ------------- | ------------ | ------------ | ----------- |
 | Armor Class   | 6            | 7            | 8           |
 | Hit Dice      | 8            | 4            | 1           |
@@ -1176,7 +1196,7 @@ If frightened, they flee quickly through weeds and reefs.
 ### Shark
 *Source:* `Expert`  *Category:* `Animal`
 
-| Stat          | Bull       | Mako       | Great White |
+|               | Bull       | Mako       | Great White |
 |---------------|------------|------------|-------------|
 | Armor Class   | 4          | 4          | 4           |
 | Hit Dice      | 2          | 4          | 8           |
@@ -1238,7 +1258,7 @@ Creatures struck by musk must Save vs. Poison or be blinded and nauseated for 1d
 ### Snake
 *Source:* `Basic`  *Category:* `Animal`
 
-| Stat          | Spitting Cobra   | Pit Viper    | Sea Snake  | Giant Rattler | Rock Python        |
+|               | Spitting Cobra   | Pit Viper    | Sea Snake  | Giant Rattler | Rock Python        |
 |---------------|------------------|--------------|------------|---------------|--------------------|
 | Armor Class   | 7                | 6            | 6          | 5             | 6                  |
 | Hit Dice      | 1*               | 2*           | 3*         | 4*            | 5*                 |
@@ -1336,7 +1356,7 @@ A giant toad is about the size of a very large dog and weighs 150-250 pounds. Th
 ### Turtle, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
-| Stat          | Giant Sea Turtle | Giant Snapping Turtle |
+|               | Giant Sea Turtle | Giant Snapping Turtle |
 | ------------- | ---------------- | --------------------- |
 | Armor Class   | 2                | 0                     |
 | Hit Dice      | 15               | 10                    |
@@ -1373,7 +1393,7 @@ Giant weasels have infravision to 30' and can track by scent. They prefer wounde
 ### Whale
 *Source:* `Expert`  *Category:* `Animal`
 
-| Stat          | Killer Whale    | Narwhal         | Sperm Whale |
+|               | Killer Whale    | Narwhal         | Sperm Whale |
 |---------------|-----------------|-----------------|-------------|
 | Armor Class   | 6               | 7               | 6           |
 | Hit Dice      | 6               | 12              | 36          |
@@ -1402,7 +1422,7 @@ Man-sized or smaller creatures will be swallowed on a die roll that is 4 or more
 ### Wolf
 *Source:* `Basic`  *Category:* `Animal`
 
-| Stat          | Normal Wolf | Dire Wolf  |
+|               | Normal Wolf | Dire Wolf  |
 |---------------|-------------|------------|
 | Armor Class   | 7           | 6          |
 | Hit Dice      | 2 + 2       | 4 + 1      |
@@ -1482,7 +1502,7 @@ Gargoyles are immune to **sleep** and **charm** spells. Because ordinary weapons
 ### Golem*
 *Source:* `Expert`  *Category:* `Construct`
 
-| Stat          | Wood       | Bone       | Amber            | Bronze           |
+|               | Wood       | Bone       | Amber            | Bronze           |
 |---------------|------------|------------|------------------|------------------|
 | Armor Class   | 7          | 2          | 6                | 0                |
 | Hit Dice      | 2 + 2      | 8          | 10**             | 20**             |
@@ -1534,7 +1554,7 @@ A creature bitten by a homunculus must Save vs. Poison or sleep for `5d6` minute
 ### Living Statue
 *Source:* `Basic`  *Category:* `Construct`
 
-| Stat          | Crystal   | Iron                | Rock      |
+|               | Crystal   | Iron                | Rock      |
 |---------------|-----------|---------------------|-----------|
 | Armor Class   | 4         | 2                   | 4         |
 | Hit Dice      | 3         | 4                   | 5*        |
@@ -1908,7 +1928,7 @@ All dragons radiate an aura of supernatural fear, similar to a fear spell, affec
 ### Dragon
 *Source:* `Basic`  *Category:* `Dragon`
 
-| Stat           | White                  | Black                   | Green                  | Blue                    | Red                    | Gold                   |
+|                | White                  | Black                   | Green                  | Blue                    | Red                    | Gold                   |
 |----------------|------------------------|-------------------------|------------------------|-------------------------|------------------------|------------------------|
 | Armor Class    | 3                      | 2                       | 1                      | 0                       | -1                     | -2                     |
 | Hit Dice       | 6**                    | 7**                     | 8**                    | 9**                     | 10**                   | 11**                   |
@@ -2167,7 +2187,7 @@ Efreet may fly and carry up to 10,000 cn weight while flying. They can be summon
 ### Elemental*
 *Source:* `Expert`  *Category:* `Elemental`
 
-| Stat           | Air             | Earth     | Fire       | Water                      |
+|                | Air             | Earth     | Fire       | Water                      |
 |----------------|-----------------|-----------|------------|----------------------------|
 | Armor Class    | Variable        | Variable  | Variable   | Variable                   |
 | Hit Dice       | Variable        | Variable  | Variable   | Variable                   |
@@ -2206,7 +2226,7 @@ Staff elementals, the weakest, are summoned by a magic-user with a special staff
 ### Salamander*
 *Source:* `Expert`  *Category:* `Elemental`
 
-| Stat           | Flame Salamander | Frost Salamander |
+|                | Flame Salamander | Frost Salamander |
 |----------------|------------------|------------------|
 | Armor Class    | 2                | 3                |
 | Hit Dice       | 8*               | 12*              |
@@ -2525,7 +2545,7 @@ Ettins are closely related to orcs in appearance and habits. They dress in filth
 ### Giant
 *Source:* `Expert`  *Category:* `Giant`
 
-| Stat           | Hill Giant  | Stone Giant | Frost Giant | Fire Giant  | Cloud Giant | Storm Giant   |
+|                | Hill Giant  | Stone Giant | Frost Giant | Fire Giant  | Cloud Giant | Storm Giant   |
 |----------------|-------------|-------------|-------------|-------------|-------------|---------------|
 | Armor Class    | 4           | 4           | 4           | 4           | 4           | 2             |
 | Hit Dice       | 8           | 9           | 10 + 1      | 11 + 2      | 12 + 3      | 15            |
@@ -2646,7 +2666,7 @@ Legends claim driver ants sometimes mine and collect gold. There is a 30% chance
 ### Ant, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Insect`
 
-| Stat          | Worker       | Warrior          | Queen     |
+|               | Worker       | Warrior          | Queen     |
 | ------------- | ------------ | ---------------- | --------- |
 | Armor Class   | 3            | 3                | 3         |
 | Hit Dice      | 2            | 3                | 10        |
@@ -2691,7 +2711,7 @@ Killer bee hives contain a rare golden honey prized by alchemists and healers. T
 *Source:* `Basic + AD&D 1E Conversion`
 *Category:* `Insect`
 
-| Stat          | Fire       | Oil         | Bombardier | Water      | Boring     | Stag           | Rhinoceros    |
+|               | Fire       | Oil         | Bombardier | Water      | Boring     | Stag           | Rhinoceros    |
 | ------------- | ---------- | ----------- | ---------- | ---------- | ---------- | -------------- | ------------- |
 | Armor Class   | 4          | 4           | 4          | 3          | 3          | 3              | 2             |
 | Hit Dice      | 1+2        | 2*          | 2+2*       | 4          | 5          | 7              | 12            |
@@ -2838,7 +2858,7 @@ Anyone struck by the stinger must save vs. Poison or die. Giant scorpions live i
 ### Spider
 *Source:* `AD&D 1E Conversion`  *Category:* `Insect`
 
-| Stat          | Giant Spider | Huge Spider | Phase Spider |
+|               | Giant Spider | Huge Spider | Phase Spider |
 | ------------- | ------------ | ----------- | ------------ |
 | Armor Class   | 4            | 6           | 7            |
 | Hit Dice      | 4+4          | 2+2         | 5+5          |
@@ -2867,7 +2887,7 @@ Spider bites are poisonous. Victims must Save vs. Poison or die, though the refe
 ### Spider, Giant
 *Source:* `Basic`  *Category:* `Insect`
 
-| Stat          | Crab Spider  | Black Widow  | Tarantella   | Rhagodessa   |
+|               | Crab Spider  | Black Widow  | Tarantella   | Rhagodessa   |
 | ------------- | ------------ | ------------ | ------------ | ------------ |
 | Armor Class   | 7            | 6            | 5            | 5            |
 | Hit Dice      | 2*           | 3*           | 4*           | 4+2*         |
@@ -3313,7 +3333,7 @@ Plesiosaurus is a long-necked marine reptile that patrols lakes, rivers, and coa
 ### Pterodactyl
 *Source:* `Expert`  *Category:* `Animal`
 
-| Stat           | Pterodactyl | Pteranodon  |
+|                | Pterodactyl | Pteranodon  |
 |----------------|-------------|-------------|
 | Armor Class    | 7           | 6           |
 | Hit Dice       | 1           | 5           |
@@ -4358,7 +4378,7 @@ Minotaurs are semi-intelligent and some use weapons, preferring a spear, club, o
 ### Mold
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
 
-| Stat          | Brown Mold  | Yellow Mold |
+|               | Brown Mold  | Yellow Mold |
 | ------------- | ----------- | ----------- |
 | Armor Class   | 9           | 9           |
 | Hit Dice      | 1           | 2           |
@@ -4395,7 +4415,7 @@ A morkoth can hypnotize victims that meet its gaze. The victim must Save vs. Spe
 ### Naga
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
 
-| Stat          | Guardian Naga | Spirit Naga | Water Naga |
+|               | Guardian Naga | Spirit Naga | Water Naga |
 | ------------- | ------------- | ----------- | ---------- |
 | Armor Class   | 3             | 4           | 5          |
 | Hit Dice      | 11-12         | 9-10        | 7-8        |
@@ -4608,7 +4628,7 @@ A remorhaz swallows prey whole on a natural 20, killing the victim instantly wit
 ### Roc
 *Source:* `Expert`  *Category:* `Monstrous`
 
-| Stat          | Small Roc        | Large Roc        | Giant Roc        |
+|               | Small Roc        | Large Roc        | Giant Roc        |
 |---------------|------------------|------------------|------------------|
 | Armor Class   | 4                | 2                | 0                |
 | Hit Dice      | 6                | 12               | 36               |
@@ -4787,7 +4807,7 @@ Once per turn, a giant slug may spit acid to 60'. The first range band is accura
 ### Sphinx
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
 
-| Stat          | Androsphinx | Criosphinx | Gynosphinx | Hieracosphinx |
+|               | Androsphinx | Criosphinx | Gynosphinx | Hieracosphinx |
 | ------------- | ----------- | ---------- | ---------- | ------------- |
 | Armor Class   | -2          | 0          | 0          | 1             |
 | Hit Dice      | 12          | 10         | 8          | 9             |
@@ -4854,7 +4874,7 @@ They possess dangerous mental powers. Treat their psychic attack as confusion or
 ### Termite, Water
 *Source:* `Expert`  *Category:* `Monstrous`
 
-| Stat           | Swamp Termite | Fresh Water Termite | Salt Water Termite  |
+|                | Swamp Termite | Fresh Water Termite | Salt Water Termite  |
 |----------------|----------------|---------------------|--------------------|
 | Armor Class    | 4              | 6                   | 5                  |
 | Hit Dice       | 1 + 1          | 2 + 1               | 4                  |
@@ -5127,7 +5147,7 @@ The 3^rd^ level magic-user will have two 1^st^ level spells and one 2^nd^ level 
 ### Men
 *Source:* `Expert`  *Category:* `NPC`
 
-| Stat           | Brigand    | Buccaneer / Pirate| Dervish     | Merchant  | Nomad      |
+|                | Brigand    | Buccaneer / Pirate| Dervish     | Merchant  | Nomad      |
 |----------------|------------|-------------------|-------------|-----------|------------|
 | Armor Class    | Variable   | Variable          | Variable    | 5         | Variable   |
 | Hit Dice       | 1          | 1                 | 1           | 1         | 1          |
