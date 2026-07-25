@@ -1,8 +1,8 @@
 ---
 title: "B/X Book of Monsters"
 subtitle: "A merged and deduplicated monster chapter from the Basic and Expert rulebooks"
-author: "Compiled from the 1981 Basic and Expert Sets"
-date: "July 20^th^ 2026"
+author: "Compiled from the 1981 Basic Expert Sets and the 1979 Monster Manual"
+date: "July 24^th^ 2026"
 lang: "en-US"
 ---
 
@@ -364,7 +364,9 @@ If several wild boars are encountered, the group includes one boar, several sows
 
 Warthogs make two slashing tusk attacks. If 3-6 are encountered, the remainder may be young with 1-2 Hit Dice. A warthog may fight for `1d2` rounds after reaching 0 hit points unless reduced to -6 or worse.
 
+::: center
 ![](assets/boar-plate.png)
+:::
 
 ### Buffalo
 *Source:* `AD&D 1E Conversion`
@@ -378,7 +380,7 @@ Warthogs make two slashing tusk attacks. If 3-6 are encountered, the remainder m
 
 Buffalo are dangerous herd animals of tropical and subtropical plains. They usually attack if approached within 60', though some herds flee when threatened.
 
-A charging buffalo must move at least 40' before impact. A charge deals `3d6` damage, plus `1d4` trampling damage. The head of a buffalo is AC 3.
+A charging buffalo must move at least 40' before impact. A charge deals `3d6` damage, plus `1d4` trampling damage.
 
 ### Bull
 *Source:* `AD&D 1E Conversion`
@@ -395,9 +397,6 @@ Bulls are mature male bovines noted for their strength, aggression, and territor
 There is a 75% chance that a bull attacks if approached within 80'. A charging bull must move at least 30' before impact. A successful charge inflicts `3d6` damage, plus `1d4` trampling damage.
 
 When encountered as part of a herd, bulls typically place themselves between the threat and the remainder of the herd, attacking until the danger is driven off or they are slain.
-
-::: columnbreak-pdf
-:::
 
 ### Camel
 *Source:* `Expert`  *Category:* `Animal`
