@@ -5935,4 +5935,705 @@ In place of his claws and bite, Bahamut may instead loose one of three breath we
 
 **Description**: Bahamut's scales shine a deep, burnished platinum from nose to tail-tip, and for all his 72' length he carries himself with an unhurried, watchful calm that belies the speed and fury he can bring to bear.
 
+::: pagebreak-pdf
+:::
+
+::: twocolumn-pdf-end
+:::
+
+## Appendix B: Treasure
+
+*Source:* `D&D Expert Rulebook, Part 7: Treasure`
+
+As in the D&D Basic rules, treasure consists of the coins, gems, jewelry, and magic items the party finds on an adventure. As the party becomes more experienced the treasure will be better guarded, better hidden, and possibly trapped, too! However, there will be more treasure for characters to win, and more things to spend their wealth on.
+
+Often the treasure will be in unusual and possibly hard-to-recognize forms. Valuable silks, wines, rare books, small statues, furs, and tusks are only some of the forms such treasure could take. A party should always look for clues that odd items might be more valuable than they appear.
+
+The random treasure tables are given again here for easy reference. It is recommended that when the players are experienced, very few treasures be left completely unguarded. As the campaign goes on, the DM should be especially careful when placing treasures, as these will become even more important in determining the rate at which the characters gain levels and power. They can be the major tool the DM uses to balance the campaign.
+
+### Treasure Types
+
+| Type | Copper (1000s) | Silver (1000s) | Electrum (1000s) | Gold (1000s) | Platinum (1000s) | Gems and Jewelry\* | Magic Items |
+|------|-----------------|-----------------|--------------------|---------------|--------------------|----------------------|--------------|
+| A | 25% 1-6 | 30% 1-6 | 20% 1-4 | 35% 2-12 | 25% 1-2 | 50% 6-36 | 30% Any 3 |
+| B | 50% 1-8 | 25% 1-6 | 25% 1-4 | 25% 1-3 | Nil | 25% 1-6 | 10% 1 sword, armor, or weapon |
+| C | 20% 1-12 | 30% 1-4 | 10% 1-4 | Nil | Nil | 25% 1-4 | 10% Any 2 |
+| D | 10% 1-8 | 15% 1-12 | Nil | 60% 1-6 | Nil | 30% 1-8 | 15% Any 2 + 1 potion |
+| E | 5% 1-10 | 30% 1-12 | 25% 1-4 | 25% 1-8 | Nil | 10% 1-10 | 25% Any 3 + 1 scroll |
+| F | Nil | 10% 2-20 | 20% 1-8 | 45% 1-12 | 30% 1-3 | 20% 2-24 / 10% 1-12 | 30% Any 3 except weapons, + 1 potion + 1 scroll |
+| G | Nil | Nil | Nil | 50% 10-40 | 50% 1-6 | 25% 3-18 / 25% 1-10 | 35% Any 4 + 1 scroll |
+| H | 25% 3-24 | 50% 1-100 | 50% 10-40 | 50% 10-60 | 25% 5-20 | 50% 1-100 / 50% 10-40 | 15% Any 4 + 1 potion + 1 scroll |
+| I | Nil | Nil | Nil | Nil | 30% 1-8 | 50% 2-12 | 15% Any 1 |
+| J | 25% 1-4 | 10% 1-3 | Nil | Nil | Nil | Nil | Nil |
+| K | Nil | 30% 1-6 | 10% 1-2 | Nil | Nil | Nil | Nil |
+| L | Nil | Nil | Nil | Nil | Nil | 50% 1-4 | Nil |
+| M | Nil | Nil | Nil | 40% 2-8 | 50% 5-30 | 55% 5-20 / 45% 2-12 | Nil |
+| N | Nil | Nil | Nil | Nil | Nil | Nil | 40% 2-8 potions |
+| O | Nil | Nil | Nil | Nil | Nil | Nil | 50% 1-4 scrolls |
+
+::: center
+*Treasure Types*
+:::
+
+\*Roll twice, once for each category (Gems and Jewelry). The chances are the same unless two notations are made, in which case the order given is for "Gems/Jewelry".
+
+### Individuals' Treasure Type
+
+| Type | Copper | Silver | Electrum | Gold | Platinum | Gems and Jewelry | Magic Items |
+|------|--------|--------|----------|------|----------|-------------------|-------------|
+| P | 3-24 per individual | Nil | Nil | Nil | Nil | Nil | Nil |
+| Q | Nil | 3-18 per individual | Nil | Nil | Nil | Nil | Nil |
+| R | Nil | Nil | 2-12 per individual | Nil | Nil | Nil | Nil |
+| S | Nil | Nil | Nil | 2-8 per individual | Nil | Nil | Nil |
+| T | Nil | Nil | Nil | Nil | 1-6 per individual | Nil | Nil |
+| U | 10% 1-100 | 10% 1-100 | Nil | 5% 1-100 | Nil | 5% 1-4 | 2% Any 1 |
+| V | Nil | 10% 1-100 | 5% 1-100 | 10% 1-100 | 5% 1-100 | 10% 1-4 | 5% Any 1 |
+
+::: center
+*Individuals' Treasure Type*
+:::
+
+The average gold piece value of random treasures (not including magic) are given below, for easy reference when a quick estimate is needed.
+
+| Type | Average Value | Type | Average Value | Type | Average Value |
+|------|----------------|------|----------------|------|----------------|
+| A | 17,000 gp | F | 5,000 gp | J | 25 gp |
+| B | 2,000 gp | G | 25,000 gp | K | 125 gp |
+| C | 1,000 gp | H | 50,000 gp | L | 250 gp |
+| D | 4,000 gp | I | 8,000 gp | M | 15,000 gp |
+| E | 2,500 gp | | | | |
+
+::: twocolumn-pdf-begin
+:::
+
+### Magic Items
+
+There are many new magic items presented in this section of the rules. Descriptions of each may be found after the tables listing the items, under the appropriate heading. These tables have combined the magic items from both the D&D Basic and Expert rules and should be used to replace the tables found in the D&D Basic rulebook. However, only new items are described here; the other item descriptions and general guidelines (duration of potions, etc.) may be found in the D&D Basic rulebook.
+
+The magic subtables are similar to those in the D&D Basic rules, except that the exact item is determined by rolling percentage dice (d%). In general, magic items are used in the same way as before, except that many items will be much more powerful. When such items have the effect of spells whose effects change with level, consider the power of the item to be as a 6th level spell caster.
+
+Items shown below in parentheses are described in the D&D Basic rulebook. When stocking an area for 1st-3rd level characters, it is recommended that the DM use the magic tables from the D&D Basic rules.
+
+#### General Magic
+
+| Die Roll | Magic Subtable |
+|----------|-----------------|
+| 01-20 | Sword |
+| 21-30 | Armor |
+| 31-35 | Misc. Weapon |
+| 36-55 | Potion |
+| 56-85 | Scroll |
+| 86-90 | Ring |
+| 91-95 | Wand/Staff/Rod |
+| 96-00 | Misc. Magic |
+
+#### Sword Subtable
+
+| Die Roll | Sword Type |
+|----------|------------|
+| 01-40 | (Sword +1) |
+| 41-46 | (Sword +1, +2 vs. lycanthropes) |
+| 47-52 | (Sword +1, +2 vs. spell users) |
+| 53-57 | (Sword +1, +3 vs. undead) |
+| 58-62 | (Sword +1, +3 vs. dragons) |
+| 63-67 | Sword +1, +3 vs. regenerating creatures |
+| 68-72 | Sword +1, +3 vs. enchanted monsters |
+| 73-80 | (Sword +1, casts light on command (30' radius)) |
+| 81-83 | Sword +1, locate objects |
+| 84-87 | Sword +1, flames on command |
+| 88 | Sword +1, drains life energy, 5-8 levels |
+| 89 | Sword +1, wishes |
+| 90-92 | (Sword +2) |
+| 93-94 | Sword +2, charm person |
+| 95-96 | Sword +3 |
+| 97-98 | (Sword -1, cursed) |
+| 99-00 | Sword -2, cursed |
+
+#### Armor Subtable
+
+| Die Roll | Armor Type |
+|----------|------------|
+| 01-20 | (Shield +1) |
+| 21-35 | (Armor +1) |
+| 36-45 | (Armor +1, Shield +1) |
+| 46-55 | Shield +2 |
+| 56-60 | Armor +2 |
+| 61-65 | Armor +2, Shield +2 |
+| 66-70 | Shield +3 |
+| 71-73 | Armor +3 |
+| 74 | Armor +3, Shield +3 |
+| 75-80 | Cursed Shield -2 |
+| 81-82 | Cursed Armor -2 |
+| 83-85 | Cursed Armor -1 |
+| 86-88 | Cursed Shield, AC 9 |
+| 89-90 | (Cursed Armor, AC 9) |
+| 91-93 | Armor +2, Shield +1 |
+| 94-95 | Armor +1, Shield +2 |
+| 96 | Armor +1, Shield +3 |
+| 97 | Armor +3, Shield +1 |
+| 98 | Armor +3, Shield +2 |
+| 99 | Armor +2, Shield +3 |
+| 00 | Cursed Armor -2, Shield +1 |
+
+#### Potion Subtable
+
+| Die Roll | Potion Type |
+|----------|--------------|
+| 01-03 | Clairaudience |
+| 04-07 | Clairvoyance |
+| 08-10 | Control Animal |
+| 11-13 | Control Dragon |
+| 14-16 | Control Giant |
+| 17-19 | Control Human |
+| 20-22 | Control Plant |
+| 23-25 | Control Undead |
+| 26-28 | (Diminution) |
+| 29-35 | Delusion |
+| 36-39 | (ESP) |
+| 40-43 | Fire Resistance |
+| 44-47 | Flying |
+| 48-51 | (Gaseous Form) |
+| 52-55 | Giant Strength |
+| 56-59 | (Growth) |
+| 60-63 | (Healing) |
+| 64-68 | Heroism |
+| 69-72 | (Invisibility) |
+| 73-76 | Invulnerability |
+| 77-80 | (Levitation) |
+| 81-84 | Longevity |
+| 85-86 | (Poison) |
+| 87-89 | Polymorph Self |
+| 90-97 | Speed |
+| 98-00 | Treasure Finding |
+
+#### Miscellaneous Weapon Subtable
+
+| Die Roll | Weapon Type |
+|----------|-------------|
+| 01-10 | (Arrows +1, 2-12 found) |
+| 11-12 | (Arrows +1, 3-30 found) |
+| 13-18 | Arrows +2, 1-6 found |
+| 19-28 | Crossbow Bolts +1, 2-12 found |
+| 29-30 | Crossbow Bolts +1, 3-30 found |
+| 31-37 | Crossbow Bolts +2, 1-6 found |
+| 38-40 | Magic Bow +1 |
+| 41-49 | (Axe +1) |
+| 50-52 | Axe +2 |
+| 53-60 | (Mace +1) |
+| 61-63 | Mace +2 |
+| 64 | Mace +3 |
+| 65-67 | (Dagger +1) |
+| 68 | Dagger +2, +3 vs. orcs, goblins, and kobolds |
+| 69-75 | War Hammer +1 |
+| 76-80 | War Hammer +2 |
+| 81 | War Hammer +3, returns if thrown by dwarf |
+| 82-87 | Sling +1 |
+| 88-95 | Spear +1 |
+| 96-99 | Spear +2 |
+| 00 | Spear +3 |
+
+#### Ring Subtable
+
+| Die Roll | Ring Type |
+|----------|-----------|
+| 01-05 | (Control Animal) |
+| 06-10 | Control Human |
+| 11-16 | Control Plant |
+| 17-26 | Delusion |
+| 27-29 | Djinni Summoning |
+| 30-39 | (Fire Resistance) |
+| 40-50 | (Invisibility) |
+| 51-65 | (Protection +1) |
+| 66-70 | Protection +1, 5' radius |
+| 71-72 | Regeneration |
+| 73-74 | Spell Storing |
+| 75-80 | Spell Turning |
+| 81-82 | Telekinesis |
+| 83-88 | (Water Walking) |
+| 89-94 | (Weakness) |
+| 95-96 | Wishes, 1-2 |
+| 97 | Wishes, 1-3 |
+| 98 | Wishes, 2-4 |
+| 99-00 | X-Ray Vision |
+
+#### Scroll Subtable
+
+| Die Roll | Type of Scroll |
+|----------|-----------------|
+| 01-15 | (Spell scroll: 1 spell\*) |
+| 16-25 | (Spell scroll: 2 spells\*) |
+| 26-31 | (Spell scroll: 3 spells\*) |
+| 32-34 | Spell scroll: 5 spells\* |
+| 35 | Spell scroll: 7 spells\* |
+| 36-40 | (Cursed scroll (affects reader immediately)) |
+| 41-50 | (Protection from Lycanthropes) |
+| 51-60 | (Protection from Undead) |
+| 61-70 | Protection from Elementals |
+| 71-75 | Protection from Magic |
+| 76-79 | (Treasure Map: location of 1,000 to 4,000 gp value) |
+| 80-84 | Treasure Map: location of 5,000 to 30,000 gp value |
+| 85-86 | Treasure Map: location of 6,000 to 36,000 gp value |
+| 87-88 | Treasure Map: location of 5,000 to 30,000 gp value and 5-30 gems |
+| 89-90 | Treasure Map: location of 1-60 gems and 2-20 pieces of jewelry |
+| 91-93 | (Treasure Map: location of one magic item) |
+| 94-95 | Treasure Map: location of 2 magic items |
+| 96 | Treasure Map: location of 3 magic items — no swords |
+| 97 | Treasure Map: location of 3 magic items and 1 potion |
+| 98 | Treasure Map: location of 3 magic items, 1 scroll, and 1 potion |
+| 99 | Treasure Map: location of 5,000-30,000 gp value and one magic item |
+| 00 | Treasure Map: location of 5-30 gems and 2 magic items |
+
+\*25% of all spell scrolls will be clerical.
+
+#### Wand/Staff/Rod Subtable
+
+| Die Roll | Type of Wand/Staff/Rod |
+|----------|--------------------------|
+| 01-08 | (Rod of Cancellation) |
+| 09-11 | Staff of Commanding \*† |
+| 12-21 | (Staff of Healing †) |
+| 22-23 | Staff of Power \* |
+| 24-28 | (Snake Staff †) |
+| 29-31 | Staff of Striking \*† |
+| 32-34 | Staff of Withering † |
+| 35 | Staff of Wizardry \* |
+| 36-40 | (Wand of Enemy Detection \*) |
+| 41-45 | (Wand of Magic Detection \*) |
+| 46-50 | Wand of Metal Detection \* |
+| 51-55 | Wand of Secret Door Detection \* |
+| 56-60 | Wand of Trap Detection \* |
+| 61-65 | Wand of Fear \* |
+| 66-70 | Wand of Cold \* |
+| 71-75 | Wand of Fire Balls \* |
+| 76-80 | Wand of Illusion \* |
+| 81-85 | Wand of Lightning Bolts \* |
+| 86-90 | Wand of Negation \* |
+| 91-95 | (Wand of Paralyzation \*) |
+| 96-00 | Wand of Polymorph \* |
+
+\*Usable by magic-users and elves only. †Usable by clerics only.
+
+#### Miscellaneous Magic Subtable
+
+| Die Roll | Miscellaneous Magic Type |
+|----------|----------------------------|
+| 01-03 | Amulet vs. Crystal Ball and ESP |
+| 04-05 | (Bag of Devouring) |
+| 06-11 | (Bag of Holding) |
+| 12-16 | Boots of Levitation |
+| 17-21 | Boots of Speed |
+| 22-26 | Boots of Traveling and Leaping |
+| 27-31 | (Broom of Flying) |
+| 32-35 | (Crystal Ball) |
+| 36-37 | Crystal Ball with Clairaudience |
+| 38 | Crystal Ball with ESP |
+| 39 | Drums of Panic |
+| 40 | Efreeti Bottle |
+| 41-42 | Displacer Cloak |
+| 43 | Bowl Commanding Water Elementals |
+| 44 | Brazier Commanding Fire Elementals |
+| 45 | Censer Controlling Air Elementals |
+| 46 | Stone Controlling Earth Elementals |
+| 47-56 | (Elven Cloak and Boots) |
+| 57 | Flying Carpet |
+| 58-64 | (Gauntlets of Ogre Power) |
+| 65-66 | Girdle of Giant Strength |
+| 67-77 | (Helm of Alignment Changing) |
+| 78 | (Helm of Telepathy) |
+| 79-83 | Helm of Reading Languages and Magic |
+| 84 | Helm of Teleportation |
+| 85 | Horn of Blasting |
+| 86-90 | (Medallion of ESP 30') |
+| 91-93 | Medallion of ESP 90' |
+| 94 | Mirror of Life Trapping |
+| 95-97 | (Rope of Climbing) |
+| 98-00 | Scarab of Protection |
+
+### Explanation of Magic Items
+
+#### Swords
+
+All magic swords are listed with a plus or minus (for example, a sword +1 or a cursed sword -1). The number is the amount added to or subtracted from the result of the "to hit" roll and to the damage done. *Example*: A sword +1 would adjust a roll of 17 to 18, and if 5 points of damage were rolled, 6 would actually be inflicted.
+
+Once a cursed weapon is used in battle it may not be gotten rid of except by use of a remove curse or dispel magic spell.
+
+Some magic swords have additional abilities or intelligence. For example, a sword +1, +2 vs. lycanthropes would give a bonus of +2 on the "to hit" and damage rolls (instead of the normal +1) when used against any were-creature. All other abilities are listed either here or in the D&D Basic rulebook. The intelligence of swords is described later.
+
+**Sword +1, locate objects**: Once per day, this sword may be used to locate objects up to 120' away in the same manner as the 2nd level magic-user's spell.
+
+**Sword +1, flames on command**: This sword will blaze with flames when commanded by the user. It will remain flaming until commanded to go out. While flaming, it gives a bonus of +2 on "to hit" rolls against trolls, pegasi, hippogriffs, and rocs; and a +3 bonus against treants and undead monsters. Damage from this sword is treated as fire damage (for example, trolls cannot regenerate damage inflicted by it). It will cast light and burn as if a torch (when used against a web, for example).
+
+**Sword +1, drain life energy**: When this sword hits, it will drain one life level or hit die (like a spectre) on command, in addition to the normal damage done. The sword can only drain 5-8 (1d4+4) levels, after which it becomes a normal magical sword +1.
+
+**Sword +1, wishes**: This sword will grant 1-4 wishes once. A wish can be cast by holding the sword and stating the wish. Once the sword is used in this manner, one of the wishes is gone. Wishes are very powerful magic, and should be used (and handled by the DM) with great care.
+
+**Sword +2, charm person**: This sword can cast a charm person (1st level magic-user's spell) on command, up to 3 times per week. The effects are the same as the spell.
+
+#### Intelligent Swords
+
+Certain magic swords may be intelligent and have other special abilities, as well. The DM can create special intelligent magic swords or roll them randomly, using the following procedure. An intelligent sword should be played by the DM, just like an NPC character.
+
+**Rolling Up a Magic Sword**
+
+1. Find out if the sword has a special purpose (Optional: 1d20).
+2. Determine the sword's Intelligence score (1d20).
+3. Find the languages (if any) known by the sword (d%).
+4. Determine the alignment of the sword (1d20).
+5. Find the Primary powers of the sword (d%).
+6. Roll for an Extraordinary power (if any, d%).
+7. Roll for the sword's Ego score (1d12).
+
+**1. Special Purpose.** A sword will have a special purpose if a roll of 20 on 1d20 is made (the DM may choose to omit this roll, carefully placing all special purpose swords, as they are both very powerful and very rare). Any sword with a special purpose will have Intelligence and Ego scores of 12, as well as one special purpose.
+
+Special purpose is given to some rare swords by their supernatural creator. The following list gives some special purposes which may be used, or the DM may invent others. Only one special purpose may be given to any one magic sword.
+
+1. Slay magic-users (including elves)
+2. Slay clerics
+3. Slay fighters (including dwarves and halflings)
+4. Slay monster (roll for one type randomly)
+5. Defeat Law (if sword is Lawful, Defeat Chaos)
+6. Defeat Chaos (if sword is Chaotic, Defeat Law)
+
+When used for its special purpose, the sword will gain one added ability, according to its alignment.
+
+- Lawful swords will paralyze a Chaotic opponent upon a hit unless the victim saves vs. Spells.
+- Neutral swords will add +1 to all of the user's saving throws.
+- Chaotic swords will turn to stone a Lawful opponent upon a hit unless the victim saves vs. Spells.
+
+*Example*: A Lawful sword with a special purpose to slay magic-users will paralyze only Chaotic magic-users, and only if the saving throw is failed.
+
+**2. Intelligence.** Each intelligent sword has an Intelligence score, one or more Primary powers, possibly an Extraordinary power, and a method of communication. Empathy means that the user of the sword will somehow know what the sword's powers are and how to use them.
+
+| Die Roll | Intelligence Score | Powers | Method of Communication |
+|----------|---------------------|--------|---------------------------|
+| 1-14 | None | None | None |
+| 15 | 7 | 1 Primary | Empathy |
+| 16 | 8 | 2 Primary | Empathy |
+| 17 | 9 | 3 Primary | Empathy |
+| 18 | 10 | 3 Primary | Speech |
+| 19 | 11 | 3 Primary + Reads Magic | Speech |
+| 20 | 12 | 3 Primary + Reads Magic + 1 Extraordinary | Speech |
+
+**3. Languages.** Speaking swords will talk aloud, usually telling the user what is desired. Any sword that can read magic can read written information in any language it can speak. A talking sword will always know its alignment language, in addition to the number of languages rolled. The DM will have to choose which languages are known by a sword.
+
+| Die Roll | Number of Languages |
+|----------|-----------------------|
+| 01-50 | 1 |
+| 51-70 | 2 |
+| 71-85 | 3 |
+| 86-95 | 4 |
+| 96-99 | 5 |
+| 00 | Roll again twice, and add the results |
+
+**4. Alignment.** Determine the alignment of the intelligent sword (roll 1d20):
+
+| Die Roll | Alignment |
+|----------|-----------|
+| 1-13 | Lawful |
+| 14-18 | Neutral |
+| 19-20 | Chaotic |
+
+A sword's alignment cannot be detected until it is handled. If the creature handling the sword is of the same alignment, there will be no adverse effects. However, if the alignment is different, the user will take some damage each round in which the sword is touched or held, according to the following chart:
+
+| User's Alignment | Sword's Alignment | Damage per Round |
+|-------------------|---------------------|--------------------|
+| Lawful | Neutral | 1-6 |
+| Lawful | Chaotic | 2-12 |
+| Neutral | Lawful or Chaotic | 1-6 |
+| Chaotic | Lawful | 2-12 |
+| Chaotic | Neutral | 1-6 |
+
+**5. Primary Powers.** Roll d% to find any Primary powers a sword might have. The number of Primary powers depends on the sword's Intelligence score (see #2 above). Duplicate results should be rolled again.
+
+| Die Roll | Primary Power |
+|----------|-----------------|
+| 01-15 | Detect shifting walls and rooms |
+| 16-30 | Detect sloping passages |
+| 31-40 | Find secret doors |
+| 41-50 | Find traps |
+| 51-60 | See invisible objects |
+| 61-70 | Detect evil (good) |
+| 71-80 | Detect metal |
+| 81-90 | Detect magic |
+| 91-95 | Detect gems |
+| 96-99 | Roll for 1 extraordinary power (6, below) |
+| 00 | Roll twice more on this table |
+
+Unless otherwise noted, one Primary power may be used each round, once per round. The user must have the sword in hand and be concentrating on the power in order to use it. Duplicate results should be rolled again unless noted otherwise.
+
+**Detect shifting walls and rooms.** The sword can find shifting walls and rooms within a range of 10'.
+
+**Detect sloping passages.** The sword can locate sloping passages within a 10' range.
+
+**Find secret doors.** The sword can locate all secret doors within a 10' range. This power can only be used three times per day.
+
+**Detect traps.** The sword can detect traps of any type within 10', but only three times per day.
+
+**See invisible objects.** The sword can see invisible and hidden objects (but not secret doors) within 20'.
+
+**Detect evil (good).** The sword will be able to detect one of these intentions up to a range of 20'. (Animals and traps are neither evil nor good.)
+
+**Detect metal.** The sword can detect metal of any type requested up to a range of 60' (unless blocked by lead). It will point in the direction of the material.
+
+**Detect magic.** The sword can detect any magic spell or item within 20', and will cause the magic item (when commanded) to glow. This power can only be used three times per day.
+
+**Detect gems.** The sword can detect any type of gems (and will tell the number of them) within a range of 60' (unless blocked by lead). The sword will point in the direction of the gems.
+
+**6. Extraordinary Powers.** If the intelligent sword has an extraordinary power, roll d% on the table below. Duplicate results should be rolled again unless noted otherwise.
+
+| Die Roll | Extraordinary Power |
+|----------|-----------------------|
+| 01-10 | Clairaudience |
+| 11-20 | Clairvoyance |
+| 21-30 | ESP |
+| 31-40 | Telepathy |
+| 41-50 | Telekinesis |
+| 51-59 | Teleportation |
+| 60-68 | X-ray vision |
+| 69-77 | Illusion |
+| 78-82 | Levitation |
+| 83-87 | Flying |
+| 88-92 | Healing (duplicate allowed) |
+| 93-97 | Extra damage (duplicate allowed) |
+| 98-99 | Make two more rolls on this table |
+| 00 | Make three more rolls on this table |
+
+As with Primary powers, the user must have the sword in hand and be concentrating on the power. Any Extraordinary power is only usable three times per day unless specially noted otherwise.
+
+**Clairaudience.** This power will allow the user to hear noises (including speech) in an area up to a range of 60' through the ears of a creature in that area (unless blocked by lead). The user must concentrate for one turn in order to hear what the creature hears.
+
+**Clairvoyance.** This power will allow the user to see an area up to 60' away through the eyes of a creature in that area, unless blocked by lead. The user must concentrate for one turn in order to "see".
+
+**ESP.** The user of the sword may listen to any one living creature's thoughts. The user must concentrate in one direction, and can only "hear" thoughts within 60' (unless blocked by lead). The user will understand any thoughts "heard".
+
+**Telepathy.** This power will allow the user to perform the same powers as ESP (above), but also gives the ability to "send" thoughts to the creature contacted (as a helm of telepathy). The creature may refuse to answer.
+
+**Telekinesis.** The user of the sword may move up to 2,000 coins of weight by concentration alone. See the magic-user's spell of the same name for more information.
+
+**Teleportation.** This power allows the user of the sword to teleport (as the magic-user's spell).
+
+**X-ray vision.** This power produces the same effect as a ring of X-ray vision (the ability to see through anything, except gold or lead).
+
+**Illusion.** This power allows the user to create one phantasmal force spell (as the magic-user's spell).
+
+**Levitation.** The user of the sword may levitate as if using the magic-user's spell of the same name, for a maximum of 3 turns.
+
+**Flying.** The user of the sword may fly as if using the magic-user's spell of the same name, for a maximum of 3 turns.
+
+**Healing.** The sword will heal up to 6 points of damage at the rate of 1 hit point per round. This power may only be used once per day. Duplicate ability rolls will increase the amount of healing and the time required by 6.
+
+**Extra damage.** This power will increase the user's strength when striking for 1-10 (1d10) rounds. During this time, the user will inflict 4 times the normal damage on each successful hit (but has no better chances to hit). Each duplicate roll of this power increases the multiplier by 1 (to 5 times, 6 times, etc.).
+
+**7. Ego.** To determine the Ego score of an intelligent (non-special purpose) sword, roll 1d12. The Ego of the sword is a measure of the force of its personality. A sword with high intelligence and ego may try to control its user. The DM should make a control check at certain times.
+
+**Control checks.** An intelligent sword must be checked to see if it controls its user in five different situations:
+
+1. When the character first handles the sword.
+2. When the character is wounded to a point where half of his or her original hit points are gone.
+3. When the character acquires any other magic weapon.
+4. When a character of a different alignment tries to use it.
+5. When a situation arises where the special purpose of the sword (if applicable) can be used.
+
+To make the control check, the DM must find the will score of the user and of the sword. When the will scores are found, the being with the higher total will score, either character or sword, will control the actions of the character.
+
+**Will score.** An intelligent sword's will score is found by adding the sword's Intelligence, Ego, and bonuses. The sword gets a bonus of +1 to the will score for each Extraordinary power it has, plus 1-10 (1d10) points if the sword is of a different alignment than the user. A character's will score is found by adding the character's Strength and Wisdom scores and subtracting any adjustments due to wounds, as follows: if the character is damaged but no more than ½ the original hit points, 1-4 (1d4) points are subtracted. If the character has lost more than ½ the original hit points, 2-8 (2d4) points are subtracted from the Will score.
+
+**Swords in control.** If a sword controls a character, the DM must decide on the actions of the sword in certain situations. These may include:
+
+- Leading the user past other magic weapons found, or discard other weapons.
+- Forcing the user to charge into combat to win glory for itself.
+- Forcing the user to surrender to an opponent — either one more worthy of the sword or one easier to control.
+- Forcing the user to spend most of his or her money on items for the sword (jeweled fittings, fancy scabbards, special magical protection, etc.).
+
+The control will last until the sword is satisfied or until the situation which caused the control check has passed.
+
+#### Weapons and Armor
+
+Most magic weapons and armor work just as in the D&D Basic rules. A cursed shield or cursed armor (-1 or -2) will reduce the character's armor class by that amount. *Example*: a character with cursed plate mail -2 and with a cursed shield -1 has an adjusted armor class of 5. These items will only display their true nature in actual, deadly combat and can only be gotten rid of with the aid of a remove curse or dispel evil spell.
+
+| Die Roll | Type of Armor | Normal AC | Encumbrance of Magic Armor |
+|----------|-----------------|-----------|-------------------------------|
+| 1-2 | Leather | 7 | 100 coins |
+| 3-6 | Chain mail | 5 | 200 coins |
+| 7-8 | Plate mail | 3 | 250 coins |
+
+#### Potions
+
+Unless stated otherwise, a potion will give the creature who drinks it a given magical ability for 7-12 turns (1d6+6). If a character drinks any potion while another potion is still in effect, the character will become sick and will be unable to do anything for 3 turns. No saving throw is allowed. Potions whose effects are permanent (healing, longevity) are exempt from this rule.
+
+**Control Potions.** When using these potions, the caster must see the controlled creatures in order to direct their actions. The controlled creatures cannot be forced to kill themselves. While controlling creatures by using a potion, the user will be too busy to do anything else.
+
+**Clairaudience.** The user may hear noises (including speech) in an area up to a range of 60' through the ears of a creature in that area. The effect will be blocked by lead.
+
+**Clairvoyance.** The user may see an area up to 60' away through the eyes of a creature in that area, unless blocked by lead.
+
+**Control Animal.** The user may control up to 3-18 (3d6) hit dice of animals (normal or giant but not fantastic or magical). When the control ends, the animals will leave the area if they can.
+
+**Control Dragon.** The user may control up to 1-3 dragons of one particular type (chosen or randomly determined by the DM). Note that there are therefore 6 different types of this potion. A dragon thus controlled will do what is commanded of it, excluding spell casting (if it is capable of spells). The dragon will be hostile when the control ends.
+
+**Control Giant.** The user may control 1-4 giants of one type. The DM determines the particular type affected.
+
+**Control Human.** The user may cast a charm person spell at will (to a maximum of once per round) at any human within 60'. This potion allows a maximum of 6 hit dice of humans (normal men count as ½ hit die each) to be charmed. Each victim may save vs. Spells to avoid the charm. The charm lasts only until the potion wears off.
+
+**Control Plant.** The user may control all plants and plant-like creatures (including monsters) in a 30' x 30' area up to 60' from the user. The controlled plants will respond to the user's will, and can twist, writhe, and entangle victims in the area.
+
+**Control Undead.** The user may control 3-18 (3d6) hit dice of undead monsters. The undead will be hostile when the control ends.
+
+**Delusion.** This potion has the same effect as a ring of delusion for 7-12 (1d6+6) turns.
+
+**Fire Resistance.** The user receives immunity to normal fires, a bonus of +2 on saving throws vs. fire attacks, and will take less damage from magical or dragon fire (-1 per die of damage, but with a minimum of 1 point per die).
+
+**Flying.** The user may fly at up to 120' per round without tiring (as the magic-user's spell of the same name).
+
+**Giant Strength.** The user will gain the strength of a frost giant. The effect may not be combined with other strength-adjusting magic items (such as gauntlets of ogre power). The user may throw small boulders up to 200' to strike for 3-18 (3d6) points of damage, and will inflict twice normal damage on a successful hit when using any weapon.
+
+**Heroism.** A fighter, dwarf or halfling will gain the hit dice, hit points, and all abilities of a high level fighter, as follows:
+
+| Character | Effect |
+|-----------|--------|
+| Cleric, magic-user, elf, or thief | No effect |
+| Normal Man | Becomes a 4th level fighter |
+| Character level 1-3 | Gains 3 levels |
+| Character level 4-7 | Gains 2 levels |
+| Character level 8-10 | Gains 1 level |
+| Character level 11+ | No effect |
+
+All wounds incurred during the duration of the potion are subtracted from the magically gained hit points first.
+
+**Invulnerability.** The potion improves the user's Armor Class by 2, and gives a bonus of +2 on all saving throws. However, if used more than once per week, the effect will become a penalty of -2 on Armor Class and saving throws!
+
+**Longevity.** The user will become 10 years younger immediately. The effect is permanent and will not wear off.
+
+**Polymorph Self.** The user may change shape (as the magic-user's spell of the same name).
+
+**Speed.** This potion allows the character who drinks it to move twice as fast, make double the normal number of attacks per round, and perform other actions at twice the normal speed.
+
+**Treasure Finding.** The user may, when concentrating, detect the direction and distance of the largest treasure within 360' (unless blocked by lead).
+
+#### Scrolls
+
+To use a scroll there must be enough light to read by and the scroll must be read aloud. A scroll can only be used once, for the words disappear as they are read aloud. Only magic-users and elves may use magic-user and elf spell scrolls once a read magic spell has been cast to understand each scroll. Only clerics may use clerical spell scrolls. Anyone may use protection scrolls and treasure maps.
+
+**Spells.** A scroll of spells may only be used by the spell-casting character class which matches the spells on the scroll. Roll percentage dice (d%) to find the level of the spell. The type of spells (cleric, magic-user or elf) and the exact spells may be selected by the DM or determined randomly.
+
+| Die Roll | Level of Spell |
+|----------|------------------|
+| 01-25 | 1st |
+| 26-50 | 2nd |
+| 51-70 | 3rd |
+| 71-85 | 4th |
+| 86-95 | 5th |
+| 96-00 | 6th |
+
+**Protection Scrolls.** A protection scroll may be read by any character who can read the Common language. Some protection scrolls are described in the D&D Basic rulebook; additions are given below.
+
+**Protection from Elementals.** This scroll will create a circle of protection (10' radius) around the reader. No elemental can attack those within the protection, unless attacked first in hand-to-hand combat. Once attacked, an elemental creature may attack in return. The effect will last for 2 turns, and will move with the reader.
+
+**Protection from Magic.** This scroll will create a circle of protection (10' radius) around the reader. No spells, or spell effects (from items, for example), may enter or leave the protected area. The effect will last for 1-4 turns, and may not be broken by any means short of a wish. The area will move with the reader.
+
+**Treasure Maps.** The map should show a route to the location of a treasure either in the dungeon or wilderness. The treasure is usually hidden or protected by monsters, traps, or magic. The usual guardian for a treasure of this size is a monster from the Wandering Monster table for levels 5-6 (or greater). The DM may want to prepare several treasure maps.
+
+#### Rings
+
+A ring must be worn on a hand to have the given effects, but may be carried and put on when desired. Some rings are explained in the D&D Basic rulebook; additions are described below. Rings are usable once per round, unless otherwise noted.
+
+**Control Human.** The wearer may cast a powerful charm person spell a range of 60' (as the magic-user's spell of the same name). The victim may save vs. Spells to resist the effect, but with a penalty of -2 on the die roll. The wearer may control up to 6 hit dice of humans at one time (normal humans count as ½ hit die each). Controlled persons may not cast spells. The control will last until dispelled by a magic-user, cancelled by the wearer of the ring, or until the ring is removed.
+
+**Control Plant.** The wearer may animate and control all plants and plant-like creatures (including monsters) within a 10' x 10' area, up to a range of 60'. The controlled plants may be forced to leave the area. The control will last as long as the wearer concentrates on the desired effects.
+
+**Delusion.** The wearer will think that this ring is any one of the other types of rings. The DM should make every effort to fool the wearer, and to keep the discovery of the ring's actual power a secret until some crucial time in the game. Some suggested misleading types include the delusions of a ring of protection or ring of spell turning.
+
+**Djinni Summoning.** The wearer may summon one djinni to serve for up to one day. The djinni will only serve and obey the person wearing the ring when it is summoned, even if the ring is then given to another character. (See Monsters for a description of a djinni.) The ring may only be used once per day.
+
+**Protection +1, 5' radius.** This ring improves the wearer's Armor Class and saving throws by 1 (as a normal ring +1), but also gives the same bonus to all friendly creatures within 5' of the wearer. For example, 3 fighters in one rank would gain this bonus if the middle one were wearing the ring.
+
+**Regeneration.** The wearer will regenerate lost hit points at the rate of 1 per round. It will also replace lost limbs; a finger will regrow in 24 hours and 1 limb can be replaced in one week. The ring will not function if the wearer's hit points drop to 0 or less. Fire and acid damage cannot be cured by this ring.
+
+**Spell Storing.** This ring will have 1-6 (1d6) spells stored in it when found. Once the ring is put on the wearer will know what spells are in the ring and how to cast them from it. The ring will hold only the spells in it when found; the exact spells may never be changed. After a spell is used, the ring may be recharged by a spell caster, who must cast the replacement spell directly at the ring. The ring will not absorb spells thrown at the wearer. The spells in the ring will have the duration, range and effect equal to the lowest level needed to cast them. The DM should select the type of spells in the ring; about 20% of these rings contain only clerical spells.
+
+**Spell Turning.** This ring will prevent 2-12 (2d6) spells from affecting the wearer by reflecting the spell back on the caster.
+
+**Telekinesis.** The wearer may move up to 2,000 coins of weight by concentration alone (as the magic-user's spell).
+
+**Wishes (2, 3, or 4).** A ring of wishes is an extremely powerful magic item. Wishes must be handled very carefully by the DM and the players alike.
+
+**X-ray Vision.** The wearer may see a distance of 30' through a wall and into the space beyond. The effect is blocked by gold or lead. The wearer can inspect one 10' x 10' area per turn, and will be able to see any traps or secret doors in the area examined. Any items less dense than stone (such as cloth, wood, and water) can be seen through easily, to a range of 60'. To use the ring, a character must stand still and concentrate. The ring may be used once per turn.
+
+#### Wands, Staves, and Rods
+
+A rod may be used by any character class, but a staff or wand may only be used by a spell caster. Wands may only be used by magic-users or elves. The users of the staves explained below are noted after the name of the item (and in the previous chart) using the abbreviations "\*" for magic-users and elves and "†" for clerics. Some of these items have been explained in the D&D Basic rulebook; the rest are described below. Unless specified otherwise, a wand has 2-20 (2d10) charges and a staff 3-30 (3d10) charges when found, and each use of a power will use 1 charge. Each item may be used a maximum of once per round until all the charges are exhausted.
+
+**Staff of Commanding \*†.** This item has all the powers of the rings of animal, human, and plant control.
+
+**Staff of Power \*.** This item can be used as a staff of striking, and can also be used to cast any of the following attack spells (each doing 6-48 (8d6) points of damage): fire ball, lightning bolt, and cone of cold. It can also cast a continual light or a telekinesis spell that moves 2400 coins weight.
+
+**Staff of Striking \*†.** This weapon will inflict 2-12 (2d6) points of damage per charge when a hit is successful. Only one charge may be used per strike.
+
+**Staff of Withering †.** A hit from this item will age the victim 10 years. The effect of old age will be fatal to animals and to most character classes, but elves may ignore the effect up to 200 years of aging. Dwarves may also ignore the first 50 years of aging. This item does not affect the undead.
+
+**Staff of Wizardry \*.** This staff +1 has all the powers of a staff of power, plus the following additional powers: the spells of invisibility, passwall, web, and conjure (staff) elementals. It may also be used to create a whirlwind (as if from a djinni) or shoot a cone of paralysis (as if a wand of paralyzation). In addition, the wielder may break the staff, releasing all of its power at once (a final strike). The final strike will create a fire ball effect for 8 points of damage per charge remaining in the staff to all within 20'. All creatures within 30' of the final strike (including the wielder) will take the indicated amount of damage.
+
+**Wand of Metal Detection \*.** This item will point towards any mass of metal weighing 1,000 coins or more if within 20'. The user can detect the type of metal.
+
+**Wand of Secret Door Detection \*.** The user may find any secret door within 20'.
+
+**Wand of Trap Detection \*.** This wand will point out the location of all traps within 20'.
+
+**Wand of Fear \*.** This wand will produce a cone of fear 60' long and 30' wide at the far end. All within the cone must save vs. Wands or run away from the user (at 3 times their movement rate per round) for 30 rounds.
+
+**Wand of Cold \*.** This item will produce a cone of cold 60' long and 30' wide at the far end. All within the cone must save vs. Wands or take 6-36 (6d6) points of cold damage; a successful save will reduce damage to half.
+
+**Wand of Fire Balls \*.** This wand can cast one fire ball per round (as the magic-user's spell) for 6-36 points of damage. The victim may save vs. Wands for half damage.
+
+**Wand of Illusion \*.** This item can cast a phantasmal force spell. The user must concentrate on the illusion to maintain it, but may walk (at ½ normal movement rate) while doing so. The user may not cast spells nor enter melee while concentrating, and any successful attack on the user (for damage, charm, etc.) will break the concentration, causing the illusion to disappear.
+
+**Wand of Lightning Bolts \*.** This wand can cast a lightning bolt (as the magic-user's spell) for 6-36 points of damage. The victims may save vs. Wands to reduce damage to half.
+
+**Wand of Negation \*.** A charge from this wand will cancel the effect of one other wand or staff for one round. The user chooses the wand or staff to be negated and the decision to use it must be announced before rolling for initiative.
+
+**Wand of Polymorphing \*.** This wand can cast either a polymorph self or polymorph others magic-user's spell. The user must state which effect is desired. An unwilling victim may save vs. Wands to avoid the effect.
+
+#### Miscellaneous Magic Items
+
+These items may be used by any character class, and as often as desired, unless stated otherwise. Most of the given effects are activated simply by concentration. Some items are explained in the D&D Basic rulebook; additional items are described below.
+
+**Amulet vs. Crystal Balls & ESP.** The wearer of this item is automatically protected from being spied on by someone using a crystal ball or any type of ESP.
+
+**Boots of Levitation.** The wearer may levitate (as the magic-user's spell). There is no limit to the duration of the effect.
+
+**Boots of Speed.** The wearer may move as fast as a riding horse (240' per turn) for 12 hours, after which the wearer must rest for one full day.
+
+**Boots of Traveling and Leaping.** The wearer needs no rest during normal movement. The wearer may also jump, up to a maximum height of 10' and a maximum length of 30'.
+
+**Crystal Ball with Clairaudience.** This works like a standard crystal ball and may only be used by a magic-user or elf. This item also allows the user to listen to any noise (including speech) at the place viewed.
+
+**Crystal Ball with ESP.** This works like a standard crystal ball, but also allows the user to listen to the thoughts of creatures viewed (as the ESP magic-user's spell). The user may listen to one creature's thoughts.
+
+**Displacer Cloak.** This cloak warps light rays: the wearer will seem to be 5' away from his or her actual location. The cloak gives a bonus of +2 to the wearer's saving throws vs. Spells, Wands/Staff/Rod, and Turn to Stone. Hand-to-hand attacks on the wearer are penalized by -2 on the "to hit" rolls.
+
+**Drums of Panic.** These large kettle drums have no effect on any creatures within 10' of them. When used, all creatures between 10'-240' from the drums must save vs. Spells or run away from the user (at 3 times normal movement rate per round) for 30 rounds. If the optional Morale system is used, the victims need not save vs. Spells but must make a morale check instead, with a penalty of -2 to their morale.
+
+**Efreeti Bottle.** This item is a large, heavy, sealed jug about 3' high. If the seal is broken and the stopper pulled, an efreeti will come forth to serve the opener once per day for 101 days (or until slain). The creature will return to its home (the fabled City of Brass) after its term of service is ended. It will serve no one but the person opening the bottle.
+
+**Elemental Summoning Devices** (Bowl of Commanding Water Elementals, Brazier of Commanding Fire Elementals, Censer of Controlling Air Elementals, Stone of Controlling Earth Elementals). Each of these items for elemental control may be used once per day. They range in size from the largest (the bowl), being 3' in diameter, to the smallest (the stone), a mere 6 inches across. Each item requires 1 full turn of preparation before use. When prepared, each will summon (and allow the user to control) one device elemental of the appropriate type in 1 round. The user must maintain concentration, neither moving nor casting spells, to control the elemental creature summoned (as the magic-user's spell conjure elemental).
+
+**Flying Carpet.** This item can carry one passenger at up to 100' per round (300' per turn), two at 80' per round, or three at 60' per round. It will not carry more than 3 passengers and their equipment.
+
+**Girdle of Giant Strength.** This item will give the wearer the same chances to hit as a hill giant (if better than his or her own). The wearer will inflict 2-16 (2d8) points of damage upon any successful hit. (If the optional Variable Weapon Damage system is used, as explained in the D&D Basic rulebook, damage will be twice normal instead of 2d8.)
+
+**Helm of Reading Languages and Magic.** The wearer is able to read any writing, regardless of the language or magical properties of the script. This does not allow non-spell-casters to use spell scrolls. This helm is fragile, however, and will be destroyed if the wearer is killed, and any hit on the wearer might (a 10% chance) destroy the helm.
+
+**Helm of Teleportation \*.** This item may only be used once by a magic-user or elf. It will have no further effect until a teleport spell is cast on it, after which it may be used to teleport as often as desired (up to a maximum of once per round). The user may try to teleport another creature or item; an unwilling victim may avoid the effect by making a saving throw vs. Spells. If used to teleport an unwilling creature the helmet will only work once, and the helm must thereafter be recharged with another teleport spell before again becoming useful.
+
+**Horn of Blasting.** Blowing this horn creates a cone of sound 100' long and 20' wide at the far end. Victims within this area take 2d6 points of damage and must save vs. Spells or be deafened for one turn. The DM must decide how much damage the horn will do to objects; for example, the horn may have to be blown three times to destroy a 10' section of castle wall, but a wooden cottage may be flattened with a single blast! The horn may be blown once per turn.
+
+**Medallion of ESP (90').** This item will allow the user to cast an ESP spell (as if a magic-user) to a range of 90'.
+
+**Mirror of Life Trapping.** This mirror will store man-size or smaller creatures indefinitely. Any creature of appropriate size who looks into the mirror must save vs. Spells or be sucked into it (with all things carried at the time). A mirror of life trapping can store up to 20 creatures; when full, no more will be trapped. Creatures trapped in the mirror do not age or need food or air, but are completely powerless. Anyone can talk with the creatures trapped in the mirror (if they speak the same language). If the mirror is broken, all the creatures trapped within will be immediately released.
+
+**Scarab of Protection.** This item will automatically absorb any curse (whether by spell, scroll, or other effect). It will also absorb the clerical spell finger of death (the reverse of the raise dead spell). The scarab will work 2-12 (2d6) times before becoming worthless.
+
+::: twocolumn-pdf-end
+:::
+
 ![Bahamut](assets/bahamut-plate.png)
