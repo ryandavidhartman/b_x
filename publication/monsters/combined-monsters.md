@@ -415,7 +415,9 @@ Camels bite when forced to fight. They are ill-tempered and may spit at those wh
 
 Charge attacks with a lance from camelback are **not** possible.
 
+::: center
 ![](assets/camel-plate.png)
+:::
 
 ::: twocolumn-pdf-end
 :::
@@ -469,6 +471,10 @@ When frightened, however, cattle are prone to panic. There is a 25% chance that 
 
 Most herds consist primarily of cows, heifers, steers, and calves, supervised by herdsmen or guarded by one or more bulls.
 
+::: center
+![](assets/cattle-plate.png)
+:::
+
 ### Crab, Giant
 *Source:* `Expert`  *Category:* `Animal`
 
@@ -515,9 +521,8 @@ Crocodiles are commonly found in tropical and semi-tropical swamps or in slow-mo
 
 Large crocodiles are at least 20' long, and can overturn canoes and small rafts. Giant crocodiles are normally found only in "lost worlds" where prehistoric creatures thrive. They are over 50' long and have been known to attack small boats or ships.
 
+::: center
 ![](assets/crocodile-plate.png)
-
-::: columnbreak-pdf
 :::
 
 ### Dog
@@ -552,9 +557,6 @@ Wild dogs roam in packs across many regions, sometimes overlapping the range of 
 Dolphins are intelligent sea mammals that usually roam the oceans in nomadic schools. Some form underwater communities; if one is found, nearby communities are likely to exist within a few miles.
 
 Communal dolphins may keep swordfish or narwhals as guards, depending on climate. Dolphins help humans in distress and attack creatures that threaten them. They hate sharks and attack them unless outnumbered at least two to one.
-
-::: columnbreak-pdf
-:::
 
 ### Eagle, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
