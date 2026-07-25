@@ -239,6 +239,10 @@ Badgers are fierce burrowing animals that staunchly defend their territory. Thei
 
 **Giant badgers**: are a rare variety that grows to nearly twice the size of normal badgers. They share the same habits and temperament, but are considerably stronger and more dangerous.
 
+::: center
+![](assets/badger-plate.png)
+:::
+
 ### Barracuda
 *Source:* `AD&D 1E Conversion`
 *Category:* `Animal`
