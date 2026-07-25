@@ -284,7 +284,9 @@ Because bats do not rely on vision, spells or abilities that affect sight will n
 
 **Vampire Bats**: 5% of giant bat encounters are actually giant vampire bats. Their bite causes no extra damage, but the victim must save versus Paralysis or fall unconscious for `1d10` rounds. A vampire bat then drains `1d4` hit points of blood each round. Any creature slain in this way must save versus Spells or rise as a vampire 24 hours later.
 
+::: center
 ![](assets/bat-plate.png)
+:::
 
 ::: twocolumn-pdf-end
 :::
@@ -308,8 +310,6 @@ Because bats do not rely on vision, spells or abilities that affect sight will n
 ::: twocolumn-pdf-begin
 :::
 
-![](assets/bear-plate.png)
-
 Bears are well known to all adventurers. If a bear (of any type) hits with both paws on the same victim in one round of combat, the bear has hugged its victim and will cause `2d8` additional points of damage in the same round as the attack.
 
 **Black bear**: have black fur and stand about 6' tall.  They are omnivorous (will eat almost anything), but prefer roots and berries. A black bear will not usually attack unless it is cornered and cannot escape. Adult black bears will fight to the death to protect their young. They have been known to raid camps, seeking food. They are especially fond of such treats as fresh fish and sweets.
@@ -320,7 +320,8 @@ Bears are well known to all adventurers. If a bear (of any type) hits with both 
 
 **Dire bear**: are massive, broad-shouldered predators found in deep forests, remote mountains, and other untamed wilderness. Standing nearly 14' tall when rearing, they are larger and more aggressive than grizzlies, with thick dark fur, huge claws, and a savage temper. Dire bears are relentless hunters and will pursue wounded prey for hours. Unlike most bears, they often attack humans on sight and are feared even by giants and other large predators.
 
-::: columnbreak-pdf
+::: center
+![](assets/bear-plate.png)
 :::
 
 ### Beaver, Giant
