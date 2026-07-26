@@ -7643,6 +7643,15 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 - **Survivors**: 1 or 2 demoralized survivors of an otherwise wiped-out adventuring party. They may have limited equipment and be in need of healing.
 - **Wolves in Sheep's Clothing**: An encounter with something that appears human but is not — werecreatures, doppelgangers, polymorphed creatures, and the like. The disguised creature may not necessarily mean the party harm.
 
+```{=latex}
+% The 13 terrain tables below are each split into two 20-row halves; shrink
+% them slightly so both halves have a better chance of sharing one page
+% instead of each wasting half a page. Scoped to this point on (nothing
+% follows Appendix C).
+\let\oldsmall\small
+\renewcommand{\small}{\footnotesize}
+```
+
 #### Aquatic
 
 | 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
@@ -7667,6 +7676,12 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 18 | Stirge | Snake | Dragon, Red | Giant, Storm | Men, Merchant | Troll |
 | 19 | Stirge | Snake | Dragon, Red | Giant, Storm | Men, Buccaneer / Pirate | Troll |
 | 20 | Stirge | Wolf | Dragon, Red | Giant, Storm | Men, Buccaneer / Pirate | Troll |
+
+```{=latex}
+\filbreak
+```
+
+**Aquatic (continued)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -7716,6 +7731,12 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 19 | Stirge | Wolverine | Dragon, White | Giant, Storm | Werewolf | Troll |
 | 20 | Wyvern | Wolverine | Dragon, White | Giant, Storm | Werewolf | Troll |
 
+```{=latex}
+\filbreak
+```
+
+**Arctic (continued)**
+
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
 | 1 | Basilisk | Decoys | Ghost | Ant, Giant | Pike, Giant | Aerial Servant |
@@ -7763,6 +7784,12 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 18 | Sphinx | Snake | Dragon, Red | Ogre Mage | Wereboar | Troll |
 | 19 | Sphinx | Snake | Dragon, Red | Ogre Mage | Wererat | Troll |
 | 20 | Stirge | Snake | Dragon, Silver | Ogre Mage | Werewolf | Troll |
+
+```{=latex}
+\filbreak
+```
+
+**Desert (continued)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -7812,6 +7839,12 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 19 | Stirge | Wolverine | Dragon, Red | Ogre Mage | Wererat | Troll |
 | 20 | Wyvern | Wolverine | Dragon, Red | Ogre Mage | Werewolf | Troll |
 
+```{=latex}
+\filbreak
+```
+
+**Forest (continued)**
+
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
 | 1 | Centaur | Decoys | Groaning Spirit | Ant, Giant | Beetle, Giant | Succubus |
@@ -7859,6 +7892,12 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 18 | Stirge | Snake | Dragon, Red | Ogre Mage | Wererat | Orc |
 | 19 | Wyvern | Wolf | Dragon, Red | Ogre Mage | Wererat | Orc |
 | 20 | Wyvern | Wolf | Dragon, Red | Ogre Mage | Wizard's Tower | Orc |
+
+```{=latex}
+\filbreak
+```
+
+**Graveyard (continued)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -7908,6 +7947,12 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 19 | Stirge | Wolf | Dragon, Red | Titan | Werewolf | Troll |
 | 20 | Wyvern | Wolverine | Dragon, Silver | Titan | Werewolf | Troll |
 
+```{=latex}
+\filbreak
+```
+
+**Hills (continued)**
+
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
 | 1 | Basilisk | Decoys | Groaning Spirit | Ant, Giant | Crayfish, Giant | Hellhound |
@@ -7955,6 +8000,12 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 18 | Stirge | Rat | Dragon, Red | Ogre | Weretiger | Troll |
 | 19 | Wyvern | Cat, Great | Dragon, Red | Ogre Mage | Weretiger | Troll |
 | 20 | Wyvern | Cat, Great | Dragon, Red | Ogre Mage | Werewolf | Troll |
+
+```{=latex}
+\filbreak
+```
+
+**Jungle (continued)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8004,6 +8055,12 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 19 | Pterodactyl | Wolf | Tyrannosaurus Rex | Triceratops | Lizard Man | Troll |
 | 20 | Pterodactyl | Wolverine | Tyrannosaurus Rex | Triceratops | NPC Party (see *NPC Parties*) | Troll |
 
+```{=latex}
+\filbreak
+```
+
+**Lost World (continued)**
+
 | 1d20 | Other Dinosaurs | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
 | 1 | Ankylosaurus | Escapees | Skeleton | Beetle, Giant | Archelon | Peryton |
@@ -8051,6 +8108,12 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 18 | Manticore | Snake | Dragon, Red | Ogre Mage | Wererat | Troll |
 | 19 | Nightmare | Snake | Dragon, Red | Ogre Mage | Weretiger | Troll |
 | 20 | Wyvern | Snake | Dragon, Silver | Ogre Mage | Werewolf | Troll |
+
+```{=latex}
+\filbreak
+```
+
+**Marine (continued)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8100,6 +8163,12 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 19 | Stirge | Snake | Dragon, Silver | Ogre Mage | Werebear | Troll |
 | 20 | Stirge | Snake | Dragon, Silver | Titan | Wereboar | Troll |
 
+```{=latex}
+\filbreak
+```
+
+**Mountains (continued)**
+
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
 | 1 | Cyclops | Decoys | Ghast | Centipede, Giant | Beetle, Giant | Type VI Demon (Balor) |
@@ -8147,6 +8216,12 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 18 | Wyvern | Snake | Dragon, Red | Ogre | Men, Merchant | Troll |
 | 19 | Wyvern | Snake | Dragon, Red | Ogre Mage | Wizard's Tower | Troll |
 | 20 | Wyvern | Cat, Great | Dragon, Silver | Titan | Village, Farming | Troll |
+
+```{=latex}
+\filbreak
+```
+
+**Plains (continued)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8196,6 +8271,12 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 19 | Wyvern | Rat | Dragon, Gold | Ogre Mage | Wererat | Troll |
 | 20 | Wyvern | Wolf | Dragon, Gold | Ogre Mage | Werewolf | Troll |
 
+```{=latex}
+\filbreak
+```
+
+**Rural (continued)**
+
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
 | 1 | Ankheg | Decoys | Ghast | Ant, Giant | Crayfish, Giant | Strangle Weed |
@@ -8243,6 +8324,12 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 18 | Stirge | Wolverine | Dragon, White | Giant, Storm | Port, Smuggler | Troll |
 | 19 | Stirge | Wolverine | Dragon, White | Giant, Storm | Village, Fishing | Troll |
 | 20 | Wyvern | Wolverine | Dragon, White | Giant, Storm | Werewolf | Troll |
+
+```{=latex}
+\filbreak
+```
+
+**Tundra (continued)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
