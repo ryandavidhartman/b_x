@@ -7086,17 +7086,15 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 | 01-02 | NPC Party (see *NPC Parties*) | varies |
 | 03-04 | Ant, Giant | 2d10 |
 | 05-07 | Shadow | 1 |
-| 08-11 | Gnoll | 1d12 |
+| 08-11, 76-80 | Gnoll | 1d12 or 2d10 |
 | 12-15 | Toad, Giant | 1d4 |
-| 16-20 | Troglodyte | 2d10 |
+| 16-20, 41-50 | Troglodyte | 2d10 or 1d10 |
 | 21-25 | Hobgoblin | 2d10 |
 | 26-30 | Lizard Man | 1d10 |
 | 31-40 | Piercer | 3d6 |
-| 41-50 | Troglodyte | 1d10 |
 | 51-60 | Badger | 1d2 |
 | 61-70 | Spider, Giant | 1d8 |
 | 71-75 | Bugbear | 1d6 |
-| 76-80 | Gnoll | 2d10 |
 | 81-85 | Stirge | 1d10+5 |
 | 86-89 | Zombie | 1d8 |
 | 90-93 | Ghoul | 1 |
@@ -7149,13 +7147,12 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 | 12-15 | Zombie | 1d2 |
 | 16-20 | Piercer | 3d6 |
 | 21-25 | Cockatrice | 1d3 |
-| 26-30 | Snake | 1 |
+| 26-30, 71-75 | Snake | 1 |
 | 31-35 | Manes | 2d4 |
 | 36-40 | NPC Party (see *NPC Parties*) | varies |
 | 41-50 | Beetle, Giant | 1d6 |
 | 51-60 | Werewolf | 1d6 |
 | 61-70 | Barbed Devil | 2d4 |
-| 71-75 | Snake | 1 |
 | 76-80 | Gargoyle | 1d8 |
 | 81-85 | Dragon (see sub-table) | 5 |
 | 86-89 | Shadow | 1d8 |
@@ -7190,7 +7187,7 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 | 12-15 | Sabre-Tooth Tiger | 1 |
 | 16-20 | Minotaur | 1d8 |
 | 21-25 | Scorpion, Giant | 1d2 |
-| 26-30 | Snake | 1 |
+| 26-30, 99-00 | Snake | 1 |
 | 31-40 | Type IV Demon (Nalfeshnee) | 1d4 |
 | 41-50 | Bear, Cave | 1d2 |
 | 51-60 | NPC Party (see *NPC Parties*) | varies |
@@ -7202,7 +7199,6 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 | 90-93 | Werebear | 1d4 |
 | 94-96 | Cat, Great | 1 |
 | 97-98 | Hellhound | 2d6 |
-| 99-00 | Snake | 1 |
 
 ##### Monster Level 5 Dragon Sub-table
 
@@ -7229,7 +7225,7 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 | 08-11 | Mummy | 1d4 |
 | 12-15 | Dragon (see sub-table) | 1 |
 | 16-20 | Erinyes | 1d3 |
-| 21-25 | Troll | 1d12 |
+| 21-25, 86-89, 99-00 | Troll | 1d12 or 1d2 |
 | 26-30 | Otyugh | 1d2 |
 | 31-35 | Bone Devil | 1d3 |
 | 36-40 | NPC Party (see *NPC Parties*) | varies |
@@ -7239,11 +7235,9 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 | 71-75 | Wyvern | 1d3 |
 | 76-80 | Hydra (7-8 heads) | 5 |
 | 81-85 | Manticore | 1d2 |
-| 86-89 | Troll | 1d12 |
 | 90-93 | Lizards, Giant | 1d4 |
 | 94-96 | Hellhound | 2d6 |
 | 97-98 | Groaning Spirit | 1 |
-| 99-00 | Troll | 1d2 |
 
 ##### Monster Level 6 Dragon Sub-table
 
@@ -7425,7 +7419,7 @@ Demi-humans and multi-classed NPCs make up roughly 20% of a typical adventuring 
 
 Player characters are also likely to have random encounters when roaming the streets of a town or city. The GM should check for a random encounter every three turns, or as desired. Improbable or inconvenient results can be ignored and treated as if no encounter occurred.
 
-*Editorial note:* this book's class list is limited to Cleric, Fighter, Magic-User, and Thief (plus the demi-human classes). Where the source material calls for an Assassin, substitute a Thief; for a Druid, a Cleric; for an Illusionist, a Magic-User; and for a Paladin or Ranger, a Fighter.
+*Editorial note:* this book's class list is limited to Cleric, Fighter, Magic-User, and Thief (plus the demi-human classes). Where the source material calls for an Assassin, Druid, Illusionist, Paladin, or Ranger, the tables below use the nearest of those four classes instead — labeled, e.g., "Thief (as Assassin)" — so it's clear at a glance how each entry differs from a plain Fighter/Cleric/Magic-User/Thief encounter of the same name.
 
 #### 0-Level NPCs
 
@@ -7496,7 +7490,7 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 
 | d% | Encounter | # Encountered & Notes |
 |---|---|---|
-| 01-03 | Thief | 1d3 (check Race sub-table) |
+| 01-03 | Thief (as Assassin) | 1d3 (check Race sub-table) |
 | 04-05 | Bandit | 3d4 and a leader |
 | 06-08 | Beggar | 1d2 |
 | 09-10 | Brigand | 3d4 and a leader |
@@ -7507,7 +7501,7 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 | 23 | Demon | GM's discretion (any demon in this book). Only 1 encountered |
 | 24 | Devil | GM's discretion (any devil in this book). Only 1 encountered |
 | 25 | Doppelganger | 1d4+2, disguised as a profession from the Urban Professions sub-table |
-| 26 | Cleric | A 1d6+5-level cleric with (1-5) 1d4-1 lesser clerics (level 1d4) or (6-10) 1d4 fighters (level 1d6) |
+| 26 | Cleric (as Druid) | A 1d6+5-level cleric with (1-5) 1d4-1 lesser clerics (level 1d4) or (6-10) 1d4 fighters (level 1d6) |
 | 27-31 | Drunk | See Urban Professions sub-table for exact profession |
 | 32-33 | Fighter | A 2d4+4-level fighter with 1d4-1 henchmen (level 1d4) |
 | 34-35 | Gentleman | (1-4) foppish dandy and 1d4 sycophants; (5-6) gentlewoman; (7-10) 1d4+6-level nobleman fighter and 1d4 similar friends |
@@ -7516,7 +7510,7 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 | 38-42 | Giant Rats | 4d6 |
 | 43 | Townsperson | 0-level Normal Human |
 | 44-50 | Prostitute | See Red-Light Professions sub-table for exact type |
-| 51 | Magic-User | A 1d4+6-level magic-user with (1-5) 1d4-1 apprentice magic-users (level 1d4) or (6-10) 1d3 fighter bodyguards (level 1d6) |
+| 51 | Magic-User (as Illusionist) | A 1d4+6-level magic-user with (1-5) 1d4-1 apprentice magic-users (level 1d4) or (6-10) 1d3 fighter bodyguards (level 1d6) |
 
 ::: pagebreak-pdf
 :::
@@ -7530,12 +7524,12 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 | 61 | Troubadour | 1d4 travelling bards, musicians, or actors |
 | 62 | Night Hag | GM's discretion. Only 1 encountered |
 | 63-64 | Noble | (1-7) nobleman and 1d4 fighter bodyguards (level 1d4); (8-10) noblewoman |
-| 65 | Fighter | A 1d4+5-level fighter (paladin-equivalent) |
+| 65 | Fighter (as Paladin) | A 1d4+5-level fighter |
 | 66 | Pilgrim | 3d4 pilgrims (Normal Humans) |
 | 67 | Press Gang | 2d8 1st-level fighters and a leader (level 1d4+1), all wielding clubs |
 | 68-71 | Thugs | 1d4+1 fighters (level 1d6+4) |
 | 72 | Rakshasa | GM's discretion. 1d3 encountered |
-| 73 | Fighter | A 1d4+6-level fighter (ranger-equivalent) |
+| 73 | Fighter (as Ranger) | A 1d4+6-level fighter |
 | 74-80 | Muggers or Humanoids | (1-8) 1d6+6 2nd-level fighters armed with clubs; (9-10) humanoids (Orcs, Kobolds, Goblins, etc. — GM's discretion) |
 | 81 | Shadow | GM's discretion. 2d4 encountered |
 | 82 | Spectre | GM's discretion. 1d3 encountered |
@@ -7558,7 +7552,7 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 
 | d% | Encounter | # Encountered & Notes |
 |---|---|---|
-| 01 | Thief | 1d3 (check Race sub-table) |
+| 01 | Thief (as Assassin) | 1d3 (check Race sub-table) |
 | 02 | Bandit | 3d4 and a leader |
 | 03-12 | Beggar | 1d2 |
 | 13 | Brigand | 3d4 and a leader |
@@ -7566,14 +7560,14 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 | 19-21 | Official | (1-9) minor official; (10) major official and 2d4 guardsmen |
 | 22-23 | Watchman | 5 men-at-arms (0-level) and a sergeant (level 1d3) and a cleric (level 1d4+1) |
 | 24-25 | Cleric | A 1d6+5-level cleric with 1d6-1 assistant clerics (level 1d4) |
-| 26 | Cleric | A 1d6+5-level cleric with (1-5) 1d4-1 lesser clerics (level 1d4) or (6-10) 1d4 fighters (level 1d6) |
+| 26 | Cleric (as Druid) | A 1d6+5-level cleric with (1-5) 1d4-1 lesser clerics (level 1d4) or (6-10) 1d4 fighters (level 1d6) |
 | 27 | Drunk | See Urban Professions sub-table for exact profession |
 | 28-29 | Fighter | A 2d4+4-level fighter with 1d4-1 henchmen (level 1d4) |
 | 30-33 | Gentleman | (1-4) foppish dandy and 1d4 sycophants; (5-6) gentlewoman; (7-10) 1d4+6-level nobleman fighter and 1d4 similar friends |
 | 34 | Giant Rats | 2d4 |
 | 35-39 | Townsperson | 0-level Normal Human |
 | 40-41 | Harlot | See Red-Light Professions sub-table for exact type |
-| 42 | Magic-User | A 1d4+6-level magic-user with (1-5) 1d4-1 apprentice magic-users (level 1d4) or (6-10) 1d3 fighter bodyguards (level 1d6) |
+| 42 | Magic-User (as Illusionist) | A 1d4+6-level magic-user with (1-5) 1d4-1 apprentice magic-users (level 1d4) or (6-10) 1d3 fighter bodyguards (level 1d6) |
 
 ::: pagebreak-pdf
 :::
@@ -7587,7 +7581,7 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 | 63 | Troubadour | 1d4 travelling bards, musicians, or actors |
 | 64-65 | Night Hag | GM's discretion. Only 1 encountered |
 | 66 | Noble | (1-7) nobleman and 1d4 fighter bodyguards (level 1d4); (8-10) noblewoman |
-| 67-69 | Fighter | A 1d4+5-level fighter (paladin-equivalent) |
+| 67-69 | Fighter (as Paladin) | A 1d4+5-level fighter |
 | 70 | Pilgrim | 3d4 pilgrims (Normal Humans) |
 | 71-72 | Press Gang | 2d8 1st-level fighters and a leader (level 1d4+1), all wielding clubs |
 | 73 | Thugs | 1d4+1 fighters (level 1d6+4) |

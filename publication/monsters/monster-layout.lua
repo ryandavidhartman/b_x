@@ -174,6 +174,10 @@ local function entry_label_name(entry_id)
   return "monster-entry:" .. entry_id
 end
 
+local function chapter_label_name(chapter_id)
+  return "chapter:" .. chapter_id
+end
+
 local function add_entry_label(blocks, entry_id)
   local labeled = {}
   local inserted = false
@@ -362,14 +366,44 @@ local function header_text_from_entry(div)
   return stringify(first.content)
 end
 
+-- Emits a chapter heading (level <=2) between closing and reopening
+-- multicols, in single-column mode, instead of as the first thing inside a
+-- freshly (re)opened multicols environment (multicols' internal
+-- column-balancing pass can otherwise disrupt anchor placement for content
+-- right at its start). Also records a manually-placed \phantomsection\label
+-- *after* the heading text — mirroring the Index section's proven-correct
+-- pattern — for the Contents section (see build_contents_section) to link
+-- to, rather than relying on native \tableofcontents + hyperref's automatic
+-- section-anchor (confirmed unreliable in this document via named-destination
+-- inspection: printed ToC page numbers were correct but link targets were
+-- 1-6+ pages early, even after this multicols fix). Fixed 2026-07-26.
+local function emit_chapter_heading_outside_columns(rebuilt, toc_entries, header_block)
+  table.insert(rebuilt, pandoc.RawBlock("latex", "\\end{multicols}"))
+  table.insert(rebuilt, pandoc.RawBlock("latex", "\\newpage"))
+  for _, inner in ipairs(latex_blocks_for_block(header_block)) do
+    table.insert(rebuilt, inner)
+  end
+  local chapter_id = header_identifier(header_block)
+  table.insert(rebuilt, pandoc.RawBlock("latex", "\\phantomsection\\label{" .. chapter_label_name(chapter_id) .. "}"))
+  table.insert(toc_entries, { name = stringify(header_block.content), id = chapter_id })
+  table.insert(rebuilt, pandoc.RawBlock("latex", "\\begin{multicols}{2}"))
+end
+
 local function process_two_column_section(blocks)
   local grouped = group_monster_entries(blocks)
   local rebuilt = {}
   local index_entries = {}
+  local toc_entries = {}
 
   table.insert(rebuilt, pandoc.RawBlock("latex", "\\begin{multicols}{2}"))
 
-  for _, block in ipairs(grouped) do
+  local i = 1
+  local n = #grouped
+  while i <= n do
+    local block = grouped[i]
+    local next_block = grouped[i + 1]
+    local next_is_chapter_heading = next_block and next_block.t == "Header" and next_block.level <= 2
+
     if block.t == "Div" and block.classes:includes("monster-entry") then
       local entry_name = header_text_from_entry(block)
       local entry_header = block.content[1]
@@ -377,27 +411,69 @@ local function process_two_column_section(blocks)
 
       table.insert(index_entries, { name = entry_name, id = entry_id })
 
-      for _, inner in ipairs(process_regular_entry_for_latex(add_entry_label(block.content, entry_id))) do
+      -- A pagebreak-pdf div directly following a monster's own content (and
+      -- preceding the next top-level Header) gets absorbed as trailing
+      -- content of *this* entry by group_monster_entries, rather than
+      -- appearing as its own top-level block. Strip it here so it can be
+      -- handled below with knowledge of what follows this entry.
+      local content = block.content
+      local trailing_pagebreak = #content > 0 and is_pdf_pagebreak_div(content[#content])
+      if trailing_pagebreak then
+        local trimmed = {}
+        for j = 1, #content - 1 do
+          table.insert(trimmed, content[j])
+        end
+        content = trimmed
+      end
+
+      for _, inner in ipairs(process_regular_entry_for_latex(add_entry_label(content, entry_id))) do
         table.insert(rebuilt, inner)
       end
+
+      if trailing_pagebreak then
+        if next_is_chapter_heading then
+          emit_chapter_heading_outside_columns(rebuilt, toc_entries, next_block)
+          i = i + 1
+        else
+          for _, raw in ipairs(pagebreak_blocks(true)) do
+            table.insert(rebuilt, raw)
+          end
+        end
+      end
     elseif is_pdf_pagebreak_div(block) then
-      for _, raw in ipairs(pagebreak_blocks(true)) do
-        table.insert(rebuilt, raw)
+      if next_is_chapter_heading then
+        emit_chapter_heading_outside_columns(rebuilt, toc_entries, next_block)
+        i = i + 1
+      else
+        for _, raw in ipairs(pagebreak_blocks(true)) do
+          table.insert(rebuilt, raw)
+        end
       end
     elseif is_pdf_columnbreak_div(block) then
       for _, raw in ipairs(columnbreak_blocks(true)) do
         table.insert(rebuilt, raw)
       end
+    elseif block.t == "Header" and block.level <= 2 then
+      -- Defensive fallback: a chapter heading reached here without a
+      -- preceding pagebreak-pdf marker (not expected given this book's
+      -- convention, but handled so it's never silently missing from Contents).
+      for _, inner in ipairs(latex_blocks_for_block(block)) do
+        table.insert(rebuilt, inner)
+      end
+      local chapter_id = header_identifier(block)
+      table.insert(rebuilt, pandoc.RawBlock("latex", "\\phantomsection\\label{" .. chapter_label_name(chapter_id) .. "}"))
+      table.insert(toc_entries, { name = stringify(block.content), id = chapter_id })
     else
       for _, inner in ipairs(latex_blocks_for_block(block)) do
         table.insert(rebuilt, inner)
       end
     end
+    i = i + 1
   end
 
   table.insert(rebuilt, pandoc.RawBlock("latex", "\\end{multicols}"))
 
-  return rebuilt, index_entries
+  return rebuilt, index_entries, toc_entries
 end
 
 local function build_index_section(index_entries)
@@ -409,6 +485,7 @@ local function build_index_section(index_entries)
     "\\clearpage",
     "\\section*{Index}",
     "\\phantomsection",
+    "\\label{" .. chapter_label_name("index") .. "}",
     "\\addcontentsline{toc}{section}{Index}",
     "\\markboth{Index}{Index}",
     "\\begingroup",
@@ -432,6 +509,38 @@ local function build_index_section(index_entries)
   return { pandoc.RawBlock("latex", table.concat(lines, "\n")) }
 end
 
+-- Manually-built Contents page, linking via the \phantomsection\label pairs
+-- placed right after each chapter heading (see emit_chapter_heading_outside_
+-- columns) rather than native \tableofcontents + hyperref's automatic
+-- section-anchor. Kept in document order (unlike the alphabetical Index).
+local function build_contents_section(toc_entries)
+  if #toc_entries == 0 then
+    return {}
+  end
+
+  local lines = {
+    "\\section*{Contents}",
+    "\\phantomsection",
+    "\\addcontentsline{toc}{section}{Contents}",
+    "\\begingroup",
+    "\\raggedright",
+  }
+
+  for _, entry in ipairs(toc_entries) do
+    table.insert(
+      lines,
+      "\\hyperref[" .. chapter_label_name(entry.id) .. "]{" .. escape_latex(entry.name) .. "}"
+        .. "\\dotfill"
+        .. "\\hyperref[" .. chapter_label_name(entry.id) .. "]{\\pageref*{" .. chapter_label_name(entry.id) .. "}}\\par"
+    )
+  end
+
+  table.insert(lines, "\\endgroup")
+  table.insert(lines, "\\clearpage")
+
+  return { pandoc.RawBlock("latex", table.concat(lines, "\n")) }
+end
+
 function Pandoc(doc)
   local blocks = normalize_custom_statblocks(doc.blocks)
 
@@ -443,13 +552,14 @@ function Pandoc(doc)
     local rebuilt = {}
     local twocolumn_blocks = nil
     local index_entries = {}
+    local toc_entries = {}
 
     local function flush_twocolumn()
       if not twocolumn_blocks then
         return
       end
 
-      local section_blocks, section_index_entries = process_two_column_section(twocolumn_blocks)
+      local section_blocks, section_index_entries, section_toc_entries = process_two_column_section(twocolumn_blocks)
 
       for _, inner in ipairs(section_blocks) do
         table.insert(rebuilt, inner)
@@ -457,6 +567,10 @@ function Pandoc(doc)
 
       for _, entry in ipairs(section_index_entries) do
         table.insert(index_entries, entry)
+      end
+
+      for _, entry in ipairs(section_toc_entries) do
+        table.insert(toc_entries, entry)
       end
 
       twocolumn_blocks = nil
@@ -485,6 +599,16 @@ function Pandoc(doc)
           table.insert(rebuilt, inner)
         end
         table.insert(rebuilt, pandoc.RawBlock("latex", "\\phantomsection\\label{" .. entry_label_name(entry_id) .. "}"))
+      elseif block.t == "Header" and block.level <= 2 then
+        -- See emit_chapter_heading_outside_columns for why this uses a
+        -- manually-placed label (for the Contents section) rather than
+        -- relying on native \tableofcontents linking.
+        local chapter_id = header_identifier(block)
+        for _, inner in ipairs(latex_blocks_for_block(block)) do
+          table.insert(rebuilt, inner)
+        end
+        table.insert(rebuilt, pandoc.RawBlock("latex", "\\phantomsection\\label{" .. chapter_label_name(chapter_id) .. "}"))
+        table.insert(toc_entries, { name = stringify(block.content), id = chapter_id })
       elseif block.t == "Table" then
         table.insert(rebuilt, table_to_tabularx(block, "\\textwidth"))
       else
@@ -504,7 +628,19 @@ function Pandoc(doc)
       table.insert(rebuilt, block)
     end
 
-    return pandoc.Pandoc(rebuilt, doc.meta)
+    if #index_entries > 0 then
+      table.insert(toc_entries, { name = "Index", id = "index" })
+    end
+
+    local final = {}
+    for _, block in ipairs(build_contents_section(toc_entries)) do
+      table.insert(final, block)
+    end
+    for _, block in ipairs(rebuilt) do
+      table.insert(final, block)
+    end
+
+    return pandoc.Pandoc(final, doc.meta)
   end
 
   return pandoc.Pandoc(blocks, doc.meta)
