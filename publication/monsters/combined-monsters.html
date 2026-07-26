@@ -8711,22 +8711,29 @@
 <p>This appendix adapts OSRIC’s random encounter system for dungeons, towns, and the wilderness, with monster and class names translated to match this book. Where OSRIC calls for a monster not detailed elsewhere in this book, the nearest equivalent already in these pages has been substituted.</p>
 <h3 id="dungeon-random-encounters">Dungeon Random Encounters</h3>
 <p><em>Source:</em> <code>OSRIC, Dungeons, Towns and Wildernesses: Random Dungeon Encounters</code></p>
-<p>When a random monster encounter is called for, roll 1d12 and cross-reference the result with the dungeon level where the encounter occurs on the Monster Sub-table Matrix below. This gives a monster level from 1 to 10; roll d% on that level’s table to determine the actual monster encountered.</p>
+<p>Monster tables below are organized by <strong>monster level</strong> (1-10), which is not the same thing as dungeon level — deeper dungeon levels draw from higher monster levels on average, but the two numbers don’t run 1-to-1. To find which monster level applies:</p>
+<ol type="1">
+<li>Note the <strong>dungeon level</strong> where the encounter occurs, and find its row in the Monster Sub-table Matrix below.</li>
+<li>Roll 1d12.</li>
+<li>Find which column’s range (in that row) contains your roll. The column header — “Monster Level 1” through “Monster Level 10” — tells you which monster-level table to use.</li>
+<li>Roll d% on that monster level’s table (below the matrix) to determine the actual monster encountered.</li>
+</ol>
+<p><em>Worked example:</em> the party is on dungeon level 5. A 1d12 roll comes up 9. On the “5” row, 9 falls in the “8-9” range under the “Monster Level 4” column — so this encounter is rolled on the Monster Level 4 table.</p>
 <h4 id="monster-sub-table-matrix-d12">Monster Sub-table Matrix (d12)</h4>
 <table>
 <thead>
 <tr class="header">
 <th>Dungeon Level</th>
-<th>1</th>
-<th>2</th>
-<th>3</th>
-<th>4</th>
-<th>5</th>
-<th>6</th>
-<th>7</th>
-<th>8</th>
-<th>9</th>
-<th>10</th>
+<th>ML 1</th>
+<th>ML 2</th>
+<th>ML 3</th>
+<th>ML 4</th>
+<th>ML 5</th>
+<th>ML 6</th>
+<th>ML 7</th>
+<th>ML 8</th>
+<th>ML 9</th>
+<th>ML 10</th>
 </tr>
 </thead>
 <tbody>
@@ -8888,6 +8895,7 @@
 </tr>
 </tbody>
 </table>
+<p><em>(“ML” = Monster Level. Cell values are the 1d12 ranges that select each monster level for that dungeon level.)</em></p>
 <p>Lesser monsters encountered on a lower dungeon level than their monster level should have their numbers increased by the same amount for each dungeon level lower than their monster level. Greater monsters encountered on a higher dungeon level have their numbers decreased by 1 for each dungeon level higher (minimum of 1). NPC parties instead have their class level increased rather than their numbers.</p>
 <h4 id="monster-level-1">Monster Level 1</h4>
 <table>
