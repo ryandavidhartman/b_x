@@ -3080,7 +3080,9 @@
 <th></th>
 <th>Wood</th>
 <th>Bone</th>
+<th>Flesh</th>
 <th>Amber</th>
+<th>Clay</th>
 <th>Bronze</th>
 </tr>
 </thead>
@@ -3089,39 +3091,51 @@
 <td>Armor Class</td>
 <td>7</td>
 <td>2</td>
+<td>9</td>
 <td>6</td>
+<td>7</td>
 <td>0</td>
 </tr>
 <tr class="even">
 <td>Hit Dice</td>
 <td>2 + 2</td>
 <td>8</td>
+<td>8*</td>
 <td>10**</td>
+<td>11*</td>
 <td>20**</td>
 </tr>
 <tr class="odd">
 <td>Move</td>
 <td>120’ (40’)</td>
 <td>120’ (40’)</td>
+<td>90’ (30’)</td>
 <td>180’ (60’)</td>
+<td>60’ (20’)</td>
 <td>240’ (80’)</td>
 </tr>
 <tr class="even">
 <td>Attacks</td>
 <td>1 fist</td>
 <td>4 weapons</td>
+<td>2 fists</td>
 <td>2 claws / 1 bite</td>
+<td>1 fist</td>
 <td>1 fist + special</td>
 </tr>
 <tr class="odd">
 <td>Damage</td>
 <td>1-8</td>
 <td>By weapon</td>
+<td>2d8 / 2d8</td>
 <td>2d6x2/2d10</td>
+<td>3d10</td>
 <td>3d10 + special</td>
 </tr>
 <tr class="even">
 <td>No. Appearing</td>
+<td>1 (1)</td>
+<td>1 (1)</td>
 <td>1 (1)</td>
 <td>1 (1)</td>
 <td>1 (1)</td>
@@ -3131,11 +3145,15 @@
 <td>Save As</td>
 <td>Fighter 1</td>
 <td>Fighter 4</td>
+<td>Fighter 4</td>
 <td>Fighter 5</td>
+<td>Fighter 6</td>
 <td>Fighter 10</td>
 </tr>
 <tr class="even">
 <td>Morale</td>
+<td>12</td>
+<td>12</td>
 <td>12</td>
 <td>12</td>
 <td>12</td>
@@ -3147,9 +3165,13 @@
 <td>Nil</td>
 <td>Nil</td>
 <td>Nil</td>
+<td>Nil</td>
+<td>Nil</td>
 </tr>
 <tr class="even">
 <td>Alignment</td>
+<td>Neutral</td>
+<td>Neutral</td>
 <td>Neutral</td>
 <td>Neutral</td>
 <td>Neutral</td>
@@ -3165,7 +3187,9 @@
 <ul>
 <li><p><strong>Wood golems</strong> are crude manlike figures about 3’ tall, hacked from wood. They move stiffly and have a penalty of -1 on initiative rolls. They burn easily, saving at -2 and suffering one extra point of damage per die from fire-based attacks.</p></li>
 <li><p><strong>Bone golems</strong> are 6’ tall creatures made from the bones of dead men bound together into a manlike form. They wield weapons from skeletal arms fastened to their bodies at various points. Either four one-handed weapons or two pole arms may be used by a bone golem, and it will attack up to two enemies per round. Bone golems are immune to fire, cold, and electrical attacks.</p></li>
+<li><p><strong>Flesh golems</strong> are grim, man-shaped figures nearly 8’ tall, stitched together from the corpses of the dead and animated by lightning. Struck by fire, a flesh golem flies into a berserk rage and attacks the nearest creature, friend or foe, for <code>2d4</code> rounds. Struck by lightning, it is merely stunned for <code>1d4</code> rounds rather than harmed.</p></li>
 <li><p><strong>Amber golems</strong> resemble giant lions or tigers. They are faultless trackers and can detect invisible creatures within 60’.</p></li>
+<li><p><strong>Clay golems</strong> are man-shaped figures of wet clay nearly 8’ tall, animated by a curse-bound spirit sealed within. Their fists leave wounds that fester and resist normal healing, curable only by a <em>cure serious wounds</em> spell or greater. If reduced to half its hit points or fewer, a clay golem goes berserk and attacks the nearest creature, friend or foe, until destroyed.</p></li>
 <li><p><strong>Bronze golems</strong> look somewhat like fire giants. Their skin is bronze and their blood is liquid fire. Any creature hit by a bronze golem takes <code>1d10</code> more points of damage from the great heat inside it. Anyone scoring damage on a bronze golem with an edged weapon must save vs. Death Ray or take <code>2d6</code> points of damage from the fiery blood spurting out of the wound. Bronze golems are not affected by fire-based attacks.</p></li>
 </ul>
 <div class="center">
@@ -8909,7 +8933,7 @@
 <tbody>
 <tr class="odd">
 <td>01-02</td>
-<td>Horned Devil (Malebranche)</td>
+<td>Imp</td>
 <td>1d10</td>
 </tr>
 <tr class="even">
@@ -9026,7 +9050,7 @@
 </tr>
 <tr class="even">
 <td>03-04</td>
-<td>Ant, Giant</td>
+<td>Ant, Giant (Worker)</td>
 <td>2d10</td>
 </tr>
 <tr class="odd">
@@ -9066,12 +9090,12 @@
 </tr>
 <tr class="even">
 <td>51-60</td>
-<td>Badger</td>
+<td>Giant Badger</td>
 <td>1d2</td>
 </tr>
 <tr class="odd">
 <td>61-70</td>
-<td>Spider, Giant</td>
+<td>Spider, Giant (see table)</td>
 <td>1d8</td>
 </tr>
 <tr class="even">
@@ -9305,8 +9329,8 @@
 <td>1d3</td>
 </tr>
 <tr class="even">
-<td>26-30, 71-75</td>
-<td>Snake</td>
+<td>26-30</td>
+<td>Snake, Rock Python</td>
 <td>1</td>
 </tr>
 <tr class="odd">
@@ -9331,40 +9355,45 @@
 </tr>
 <tr class="odd">
 <td>61-70</td>
-<td>Barbed Devil</td>
+<td>Imp</td>
 <td>2d4</td>
 </tr>
 <tr class="even">
+<td>71-75</td>
+<td>Snake, Spitting Cobra</td>
+<td>1</td>
+</tr>
+<tr class="odd">
 <td>76-80</td>
 <td>Gargoyle</td>
 <td>1d8</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>81-85</td>
 <td>Dragon (see sub-table)</td>
 <td>5</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>86-89</td>
 <td>Shadow</td>
 <td>1d8</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>90-93</td>
 <td>Wereboar</td>
 <td>1d4</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>94-96</td>
 <td>Gray Ooze</td>
 <td>1d3</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>97-98</td>
 <td>Hellhound</td>
 <td>2d6</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>99-00</td>
 <td>Wight</td>
 <td>1</td>
@@ -9490,9 +9519,9 @@
 <td>1d2</td>
 </tr>
 <tr class="even">
-<td>26-30, 99-00</td>
-<td>Snake</td>
-<td>1</td>
+<td>26-30</td>
+<td>Snake, Rock Python</td>
+<td>1d4</td>
 </tr>
 <tr class="odd">
 <td>31-40</td>
@@ -9548,6 +9577,11 @@
 <td>97-98</td>
 <td>Hellhound</td>
 <td>2d6</td>
+</tr>
+<tr class="even">
+<td>99-00</td>
+<td>Snake, Giant Rattler</td>
+<td>1</td>
 </tr>
 </tbody>
 </table>
@@ -9816,7 +9850,7 @@
 <tbody>
 <tr class="odd">
 <td>01-02</td>
-<td>Golem</td>
+<td>Clay Golem (1-3) or Flesh Golem (4-6) on 1d6</td>
 <td>1</td>
 </tr>
 <tr class="even">
@@ -10056,7 +10090,7 @@
 </tr>
 <tr class="even">
 <td>51-60</td>
-<td>Type II Demon (Hezrou)</td>
+<td>Manes</td>
 <td>5d4</td>
 </tr>
 <tr class="odd">
@@ -11689,7 +11723,7 @@
 <tr class="even">
 <td>18</td>
 <td>Stirge</td>
-<td>Snake</td>
+<td>Snake, Pit Viper</td>
 <td>Dragon, Red</td>
 <td>Giant, Storm</td>
 <td>Men, Merchant</td>
@@ -11698,7 +11732,7 @@
 <tr class="odd">
 <td>19</td>
 <td>Stirge</td>
-<td>Snake</td>
+<td>Snake, Rock Python</td>
 <td>Dragon, Red</td>
 <td>Giant, Storm</td>
 <td>Men, Buccaneer / Pirate</td>
@@ -12482,7 +12516,7 @@
 <tr class="odd">
 <td>17</td>
 <td>Sphinx</td>
-<td>Snake</td>
+<td>Snake, Pit Viper</td>
 <td>Dragon, Red</td>
 <td>Ogre Mage</td>
 <td>Men, Merchant</td>
@@ -12491,7 +12525,7 @@
 <tr class="even">
 <td>18</td>
 <td>Sphinx</td>
-<td>Snake</td>
+<td>Snake, Rock Python</td>
 <td>Dragon, Red</td>
 <td>Ogre Mage</td>
 <td>Wereboar</td>
@@ -12500,7 +12534,7 @@
 <tr class="odd">
 <td>19</td>
 <td>Sphinx</td>
-<td>Snake</td>
+<td>Snake, Spitting Cobra</td>
 <td>Dragon, Red</td>
 <td>Ogre Mage</td>
 <td>Wererat</td>
@@ -12509,7 +12543,7 @@
 <tr class="even">
 <td>20</td>
 <td>Stirge</td>
-<td>Snake</td>
+<td>Snake, Giant Rattler</td>
 <td>Dragon, Silver</td>
 <td>Ogre Mage</td>
 <td>Werewolf</td>
@@ -12838,7 +12872,7 @@
 <tr class="odd">
 <td>13</td>
 <td>Pixie</td>
-<td>Snake</td>
+<td>Snake, Pit Viper</td>
 <td>Dragon, Green</td>
 <td>Ogre</td>
 <td>Men, Merchant</td>
@@ -12847,7 +12881,7 @@
 <tr class="even">
 <td>14</td>
 <td>Shedu</td>
-<td>Snake</td>
+<td>Snake, Rock Python</td>
 <td>Dragon, Red</td>
 <td>Ogre Mage</td>
 <td>Men, Merchant</td>
@@ -12856,7 +12890,7 @@
 <tr class="odd">
 <td>15</td>
 <td>Sphinx</td>
-<td>Snake</td>
+<td>Snake, Spitting Cobra</td>
 <td>Dragon, Red</td>
 <td>Ogre Mage</td>
 <td>Men, Merchant</td>
@@ -12865,7 +12899,7 @@
 <tr class="even">
 <td>16</td>
 <td>Sphinx</td>
-<td>Snake</td>
+<td>Snake, Giant Rattler</td>
 <td>Dragon, Red</td>
 <td>Ogre Mage</td>
 <td>Men, Merchant</td>
@@ -13239,7 +13273,7 @@
 <tr class="even">
 <td>14</td>
 <td>Gargoyle</td>
-<td>Snake</td>
+<td>Snake, Pit Viper</td>
 <td>Dragon, Green</td>
 <td>Ogre</td>
 <td>Men, Merchant</td>
@@ -13248,7 +13282,7 @@
 <tr class="odd">
 <td>15</td>
 <td>Gargoyle</td>
-<td>Snake</td>
+<td>Snake, Pit Viper</td>
 <td>Dragon, Green</td>
 <td>Ogre</td>
 <td>Men, Merchant</td>
@@ -13257,7 +13291,7 @@
 <tr class="even">
 <td>16</td>
 <td>Stirge</td>
-<td>Snake</td>
+<td>Snake, Rock Python</td>
 <td>Dragon, Red</td>
 <td>Ogre</td>
 <td>Men, Merchant</td>
@@ -13266,7 +13300,7 @@
 <tr class="odd">
 <td>17</td>
 <td>Stirge</td>
-<td>Snake</td>
+<td>Snake, Spitting Cobra</td>
 <td>Dragon, Red</td>
 <td>Ogre Mage</td>
 <td>Men, Merchant</td>
@@ -13275,7 +13309,7 @@
 <tr class="even">
 <td>18</td>
 <td>Stirge</td>
-<td>Snake</td>
+<td>Snake, Giant Rattler</td>
 <td>Dragon, Red</td>
 <td>Ogre Mage</td>
 <td>Wererat</td>
@@ -13604,7 +13638,7 @@
 <tr class="odd">
 <td>11</td>
 <td>Harpy</td>
-<td>Snake</td>
+<td>Snake, Pit Viper</td>
 <td>Dragon, Red</td>
 <td>Giant, Hill</td>
 <td>Men, Brigand</td>
@@ -13613,7 +13647,7 @@
 <tr class="even">
 <td>12</td>
 <td>Harpy</td>
-<td>Snake</td>
+<td>Snake, Pit Viper</td>
 <td>Dragon, Red</td>
 <td>Ogre</td>
 <td>Men, Merchant</td>
@@ -13622,7 +13656,7 @@
 <tr class="odd">
 <td>13</td>
 <td>Nightmare</td>
-<td>Snake</td>
+<td>Snake, Rock Python</td>
 <td>Dragon, Red</td>
 <td>Ogre</td>
 <td>Men, Merchant</td>
@@ -13631,7 +13665,7 @@
 <tr class="even">
 <td>14</td>
 <td>Pegasus</td>
-<td>Snake</td>
+<td>Snake, Spitting Cobra</td>
 <td>Dragon, Red</td>
 <td>Ogre</td>
 <td>Men, Merchant</td>
@@ -13640,7 +13674,7 @@
 <tr class="odd">
 <td>15</td>
 <td>Pixie</td>
-<td>Snake</td>
+<td>Snake, Giant Rattler</td>
 <td>Dragon, Red</td>
 <td>Ogre</td>
 <td>Stronghold</td>
@@ -14424,7 +14458,7 @@
 <tr class="odd">
 <td>13</td>
 <td>Pterodactyl</td>
-<td>Snake</td>
+<td>Snake, Pit Viper</td>
 <td>Tyrannosaurus Rex</td>
 <td>Diplodocus</td>
 <td>Neanderthal (Caveman)</td>
@@ -14433,7 +14467,7 @@
 <tr class="even">
 <td>14</td>
 <td>Pterodactyl</td>
-<td>Snake</td>
+<td>Snake, Rock Python</td>
 <td>Tyrannosaurus Rex</td>
 <td>Monoclonius</td>
 <td>Neanderthal (Caveman)</td>
@@ -14879,7 +14913,7 @@
 <tr class="even">
 <td>18</td>
 <td>Manticore</td>
-<td>Snake</td>
+<td>Snake, Pit Viper</td>
 <td>Dragon, Red</td>
 <td>Ogre Mage</td>
 <td>Wererat</td>
@@ -14888,7 +14922,7 @@
 <tr class="odd">
 <td>19</td>
 <td>Nightmare</td>
-<td>Snake</td>
+<td>Snake, Pit Viper</td>
 <td>Dragon, Red</td>
 <td>Ogre Mage</td>
 <td>Weretiger</td>
@@ -14897,7 +14931,7 @@
 <tr class="even">
 <td>20</td>
 <td>Wyvern</td>
-<td>Snake</td>
+<td>Snake, Pit Viper</td>
 <td>Dragon, Silver</td>
 <td>Ogre Mage</td>
 <td>Werewolf</td>
@@ -15271,7 +15305,7 @@
 <tr class="even">
 <td>18</td>
 <td>Stirge</td>
-<td>Snake</td>
+<td>Snake, Pit Viper</td>
 <td>Dragon, Silver</td>
 <td>Ogre Mage</td>
 <td>Werebear</td>
@@ -15280,7 +15314,7 @@
 <tr class="odd">
 <td>19</td>
 <td>Stirge</td>
-<td>Snake</td>
+<td>Snake, Pit Viper</td>
 <td>Dragon, Silver</td>
 <td>Ogre Mage</td>
 <td>Werebear</td>
@@ -15289,7 +15323,7 @@
 <tr class="even">
 <td>20</td>
 <td>Stirge</td>
-<td>Snake</td>
+<td>Snake, Pit Viper</td>
 <td>Dragon, Silver</td>
 <td>Titan</td>
 <td>Wereboar</td>
@@ -15645,7 +15679,7 @@
 <tr class="even">
 <td>16</td>
 <td>Stirge</td>
-<td>Snake</td>
+<td>Snake, Pit Viper</td>
 <td>Dragon, Red</td>
 <td>Ogre</td>
 <td>Men, Nomad</td>
@@ -15654,7 +15688,7 @@
 <tr class="odd">
 <td>17</td>
 <td>Stirge</td>
-<td>Snake</td>
+<td>Snake, Rock Python</td>
 <td>Dragon, Red</td>
 <td>Ogre</td>
 <td>Men, Nomad</td>
@@ -15663,7 +15697,7 @@
 <tr class="even">
 <td>18</td>
 <td>Wyvern</td>
-<td>Snake</td>
+<td>Snake, Spitting Cobra</td>
 <td>Dragon, Red</td>
 <td>Ogre</td>
 <td>Men, Merchant</td>
@@ -15672,7 +15706,7 @@
 <tr class="odd">
 <td>19</td>
 <td>Wyvern</td>
-<td>Snake</td>
+<td>Snake, Giant Rattler</td>
 <td>Dragon, Red</td>
 <td>Ogre Mage</td>
 <td>Wizard’s Tower</td>

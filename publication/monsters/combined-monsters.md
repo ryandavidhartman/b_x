@@ -1456,18 +1456,18 @@ Gargoyles are immune to **sleep** and **charm** spells. Because ordinary weapons
 ### Golem*
 *Source:* `Expert`  *Category:* `Construct`
 
-|               | Wood       | Bone       | Amber            | Bronze           |
-|---------------|------------|------------|------------------|------------------|
-| Armor Class   | 7          | 2          | 6                | 0                |
-| Hit Dice      | 2 + 2      | 8          | 10**             | 20**             |
-| Move          | 120' (40') | 120' (40') | 180' (60')       | 240' (80')       |
-| Attacks       | 1 fist     | 4 weapons  | 2 claws / 1 bite | 1 fist + special |
-| Damage        | 1-8        | By weapon  | 2d6x2/2d10       | 3d10 + special   |
-| No. Appearing | 1 (1)      | 1 (1)      | 1 (1)            | 1 (1)            |
-| Save As       | Fighter 1  | Fighter 4  | Fighter 5        | Fighter 10       |
-| Morale        | 12         | 12         | 12               | 12               |
-| Treasure Type | Nil        | Nil        | Nil              | Nil              |
-| Alignment     | Neutral    | Neutral    | Neutral          | Neutral          |
+|               | Wood       | Bone       | Flesh      | Amber            | Clay        | Bronze           |
+|---------------|------------|------------|------------|------------------|-------------|------------------|
+| Armor Class   | 7          | 2          | 9          | 6                | 7           | 0                |
+| Hit Dice      | 2 + 2      | 8          | 8*         | 10**             | 11*         | 20**             |
+| Move          | 120' (40') | 120' (40') | 90' (30')  | 180' (60')       | 60' (20')   | 240' (80')       |
+| Attacks       | 1 fist     | 4 weapons  | 2 fists    | 2 claws / 1 bite | 1 fist      | 1 fist + special |
+| Damage        | 1-8        | By weapon  | 2d8 / 2d8  | 2d6x2/2d10       | 3d10        | 3d10 + special   |
+| No. Appearing | 1 (1)      | 1 (1)      | 1 (1)      | 1 (1)            | 1 (1)       | 1 (1)            |
+| Save As       | Fighter 1  | Fighter 4  | Fighter 4  | Fighter 5        | Fighter 6   | Fighter 10       |
+| Morale        | 12         | 12         | 12         | 12               | 12          | 12               |
+| Treasure Type | Nil        | Nil        | Nil        | Nil              | Nil         | Nil              |
+| Alignment     | Neutral    | Neutral    | Neutral    | Neutral          | Neutral     | Neutral          |
 
 ::: twocolumn-pdf-begin
 :::
@@ -1480,7 +1480,11 @@ Normally golems can only be hit by magic weapons. Golems are also immune to **sl
 
 - **Bone golems** are 6' tall creatures made from the bones of dead men bound together into a manlike form. They wield weapons from skeletal arms fastened to their bodies at various points. Either four one-handed weapons or two pole arms may be used by a bone golem, and it will attack up to two enemies per round. Bone golems are immune to fire, cold, and electrical attacks.
 
+- **Flesh golems** are grim, man-shaped figures nearly 8' tall, stitched together from the corpses of the dead and animated by lightning. Struck by fire, a flesh golem flies into a berserk rage and attacks the nearest creature, friend or foe, for `2d4` rounds. Struck by lightning, it is merely stunned for `1d4` rounds rather than harmed.
+
 - **Amber golems** resemble giant lions or tigers. They are faultless trackers and can detect invisible creatures within 60'.
+
+- **Clay golems** are man-shaped figures of wet clay nearly 8' tall, animated by a curse-bound spirit sealed within. Their fists leave wounds that fester and resist normal healing, curable only by a *cure serious wounds* spell or greater. If reduced to half its hit points or fewer, a clay golem goes berserk and attacks the nearest creature, friend or foe, until destroyed.
 
 - **Bronze golems** look somewhat like fire giants. Their skin is bronze and their blood is liquid fire. Any creature hit by a bronze golem takes `1d10` more points of damage from the great heat inside it. Anyone scoring damage on a bronze golem with an edged weapon must save vs. Death Ray or take `2d6` points of damage from the fiery blood spurting out of the wound. Bronze golems are not affected by fire-based attacks.
 
@@ -7058,7 +7062,7 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 
 | d% | Monster Encountered | # |
 |---|---|---|
-| 01-02 | Horned Devil (Malebranche) | 1d10 |
+| 01-02 | Imp | 1d10 |
 | 03-04 | Halfling | 3d6 |
 | 05-07 | NPC Party (see *NPC Parties*) | varies |
 | 08-11 | Manes | 1 |
@@ -7084,7 +7088,7 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 | d% | Monster Encountered | # |
 |---|---|---|
 | 01-02 | NPC Party (see *NPC Parties*) | varies |
-| 03-04 | Ant, Giant | 2d10 |
+| 03-04 | Ant, Giant (Worker) | 2d10 |
 | 05-07 | Shadow | 1 |
 | 08-11, 76-80 | Gnoll | 1d12 or 2d10 |
 | 12-15 | Toad, Giant | 1d4 |
@@ -7092,8 +7096,8 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 | 21-25 | Hobgoblin | 2d10 |
 | 26-30 | Lizard Man | 1d10 |
 | 31-40 | Piercer | 3d6 |
-| 51-60 | Badger | 1d2 |
-| 61-70 | Spider, Giant | 1d8 |
+| 51-60 | Giant Badger | 1d2 |
+| 61-70 | Spider, Giant (see table) | 1d8 |
 | 71-75 | Bugbear | 1d6 |
 | 81-85 | Stirge | 1d10+5 |
 | 86-89 | Zombie | 1d8 |
@@ -7147,12 +7151,13 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 | 12-15 | Zombie | 1d2 |
 | 16-20 | Piercer | 3d6 |
 | 21-25 | Cockatrice | 1d3 |
-| 26-30, 71-75 | Snake | 1 |
+| 26-30 | Snake, Rock Python | 1 |
 | 31-35 | Manes | 2d4 |
 | 36-40 | NPC Party (see *NPC Parties*) | varies |
 | 41-50 | Beetle, Giant | 1d6 |
 | 51-60 | Werewolf | 1d6 |
-| 61-70 | Barbed Devil | 2d4 |
+| 61-70 | Imp | 2d4 |
+| 71-75 | Snake, Spitting Cobra | 1 |
 | 76-80 | Gargoyle | 1d8 |
 | 81-85 | Dragon (see sub-table) | 5 |
 | 86-89 | Shadow | 1d8 |
@@ -7187,7 +7192,7 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 | 12-15 | Sabre-Tooth Tiger | 1 |
 | 16-20 | Minotaur | 1d8 |
 | 21-25 | Scorpion, Giant | 1d2 |
-| 26-30, 99-00 | Snake | 1 |
+| 26-30 | Snake, Rock Python | 1d4 |
 | 31-40 | Type IV Demon (Nalfeshnee) | 1d4 |
 | 41-50 | Bear, Cave | 1d2 |
 | 51-60 | NPC Party (see *NPC Parties*) | varies |
@@ -7199,6 +7204,7 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 | 90-93 | Werebear | 1d4 |
 | 94-96 | Cat, Great | 1 |
 | 97-98 | Hellhound | 2d6 |
+| 99-00 | Snake, Giant Rattler | 1 |
 
 ##### Monster Level 5 Dragon Sub-table
 
@@ -7258,7 +7264,7 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 
 | d% | Monster Encountered | # |
 |---|---|---|
-| 01-02 | Golem | 1 |
+| 01-02 | Clay Golem (1-3) or Flesh Golem (4-6) on 1d6 | 1 |
 | 03-04 | Ettin | 1d2 |
 | 05-07 | Chimera | 1d4 |
 | 08-11 | Spectre | 1d4 |
@@ -7309,7 +7315,7 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 | 26-30 | Otyugh | 1d2 |
 | 31-40 | Type I Demon (Vrock) | 1d3 |
 | 41-50 | NPC Party (see *NPC Parties*) | varies |
-| 51-60 | Type II Demon (Hezrou) | 5d4 |
+| 51-60 | Manes | 5d4 |
 | 61-70 | Hydra (11-12 heads) | 1 |
 | 71-80 | Elemental, Air/Earth/Fire/Water | 1 |
 | 81-89 | Dragon (see sub-table) | 1 |
@@ -7678,8 +7684,8 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 15 | Shedu | Rat | Dragon, Green | Giant, Hill | Men, Merchant | Orc |
 | 16 | Sphinx | Rat | Dragon, Red | Giant, Storm | Men, Merchant | Orc |
 | 17 | Sphinx | Rhinoceros | Dragon, Red | Giant, Storm | Men, Nomad | Troglodyte |
-| 18 | Stirge | Snake | Dragon, Red | Giant, Storm | Men, Merchant | Troll |
-| 19 | Stirge | Snake | Dragon, Red | Giant, Storm | Men, Buccaneer / Pirate | Troll |
+| 18 | Stirge | Snake, Pit Viper | Dragon, Red | Giant, Storm | Men, Merchant | Troll |
+| 19 | Stirge | Snake, Rock Python | Dragon, Red | Giant, Storm | Men, Buccaneer / Pirate | Troll |
 | 20 | Stirge | Wolf | Dragon, Red | Giant, Storm | Men, Buccaneer / Pirate | Troll |
 
 ```{=latex}
@@ -7785,10 +7791,10 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 14 | Roc | Rat | Dragon, Gold | Ogre | Men, Nomad | Troll |
 | 15 | Roc | Rat | Dragon, Green | Ogre Mage | Men, Nomad | Troll |
 | 16 | Sphinx | Rat | Dragon, Red | Ogre Mage | Men, Merchant | Troll |
-| 17 | Sphinx | Snake | Dragon, Red | Ogre Mage | Men, Merchant | Troll |
-| 18 | Sphinx | Snake | Dragon, Red | Ogre Mage | Wereboar | Troll |
-| 19 | Sphinx | Snake | Dragon, Red | Ogre Mage | Wererat | Troll |
-| 20 | Stirge | Snake | Dragon, Silver | Ogre Mage | Werewolf | Troll |
+| 17 | Sphinx | Snake, Pit Viper | Dragon, Red | Ogre Mage | Men, Merchant | Troll |
+| 18 | Sphinx | Snake, Rock Python | Dragon, Red | Ogre Mage | Wereboar | Troll |
+| 19 | Sphinx | Snake, Spitting Cobra | Dragon, Red | Ogre Mage | Wererat | Troll |
+| 20 | Stirge | Snake, Giant Rattler | Dragon, Silver | Ogre Mage | Werewolf | Troll |
 
 ```{=latex}
 \filbreak
@@ -7835,10 +7841,10 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 10 | Cockatrice | Jackal | Dragon, Green | Ogre | Men, Brigand | Kobold |
 | 11 | Nightmare | Rat | Dragon, Green | Ogre | Men, Merchant | Kobold |
 | 12 | Pegasus | Rat | Dragon, Green | Ogre | Men, Merchant | Kobold |
-| 13 | Pixie | Snake | Dragon, Green | Ogre | Men, Merchant | Orc |
-| 14 | Shedu | Snake | Dragon, Red | Ogre Mage | Men, Merchant | Orc |
-| 15 | Sphinx | Snake | Dragon, Red | Ogre Mage | Men, Merchant | Orc |
-| 16 | Sphinx | Snake | Dragon, Red | Ogre Mage | Men, Merchant | Troll |
+| 13 | Pixie | Snake, Pit Viper | Dragon, Green | Ogre | Men, Merchant | Orc |
+| 14 | Shedu | Snake, Rock Python | Dragon, Red | Ogre Mage | Men, Merchant | Orc |
+| 15 | Sphinx | Snake, Spitting Cobra | Dragon, Red | Ogre Mage | Men, Merchant | Orc |
+| 16 | Sphinx | Snake, Giant Rattler | Dragon, Red | Ogre Mage | Men, Merchant | Troll |
 | 17 | Sphinx | Wolf | Dragon, Red | Ogre Mage | Werebear | Troll |
 | 18 | Sphinx | Wolf | Dragon, Red | Ogre Mage | Wereboar | Troll |
 | 19 | Stirge | Wolverine | Dragon, Red | Ogre Mage | Wererat | Troll |
@@ -7890,11 +7896,11 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 11 | Flightless Bird | Rat | Dragon, Green | Ogre | Men, Brigand | Troglodyte |
 | 12 | Eagle, Giant | Rat | Dragon, Green | Ogre | Men, Merchant | Hobgoblin |
 | 13 | Eagle, Giant | Rat | Dragon, Green | Ogre | Men, Merchant | Hobgoblin |
-| 14 | Gargoyle | Snake | Dragon, Green | Ogre | Men, Merchant | Hobgoblin |
-| 15 | Gargoyle | Snake | Dragon, Green | Ogre | Men, Merchant | Orc |
-| 16 | Stirge | Snake | Dragon, Red | Ogre | Men, Merchant | Orc |
-| 17 | Stirge | Snake | Dragon, Red | Ogre Mage | Men, Merchant | Orc |
-| 18 | Stirge | Snake | Dragon, Red | Ogre Mage | Wererat | Orc |
+| 14 | Gargoyle | Snake, Pit Viper | Dragon, Green | Ogre | Men, Merchant | Hobgoblin |
+| 15 | Gargoyle | Snake, Pit Viper | Dragon, Green | Ogre | Men, Merchant | Orc |
+| 16 | Stirge | Snake, Rock Python | Dragon, Red | Ogre | Men, Merchant | Orc |
+| 17 | Stirge | Snake, Spitting Cobra | Dragon, Red | Ogre Mage | Men, Merchant | Orc |
+| 18 | Stirge | Snake, Giant Rattler | Dragon, Red | Ogre Mage | Wererat | Orc |
 | 19 | Wyvern | Wolf | Dragon, Red | Ogre Mage | Wererat | Orc |
 | 20 | Wyvern | Wolf | Dragon, Red | Ogre Mage | Wizard's Tower | Orc |
 
@@ -7941,11 +7947,11 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 8 | Cockatrice | Rat | Dragon, Green | Giant, Hill | Men, Bandit | Hobgoblin |
 | 9 | Griffon | Rat | Dragon, Green | Giant, Hill | Men, Bandit | Hobgoblin |
 | 10 | Harpy | Rat | Dragon, Red | Giant, Hill | Men, Bandit | Kobold |
-| 11 | Harpy | Snake | Dragon, Red | Giant, Hill | Men, Brigand | Kobold |
-| 12 | Harpy | Snake | Dragon, Red | Ogre | Men, Merchant | Orc |
-| 13 | Nightmare | Snake | Dragon, Red | Ogre | Men, Merchant | Orc |
-| 14 | Pegasus | Snake | Dragon, Red | Ogre | Men, Merchant | Troll |
-| 15 | Pixie | Snake | Dragon, Red | Ogre | Stronghold | Troll |
+| 11 | Harpy | Snake, Pit Viper | Dragon, Red | Giant, Hill | Men, Brigand | Kobold |
+| 12 | Harpy | Snake, Pit Viper | Dragon, Red | Ogre | Men, Merchant | Orc |
+| 13 | Nightmare | Snake, Rock Python | Dragon, Red | Ogre | Men, Merchant | Orc |
+| 14 | Pegasus | Snake, Spitting Cobra | Dragon, Red | Ogre | Men, Merchant | Troll |
+| 15 | Pixie | Snake, Giant Rattler | Dragon, Red | Ogre | Stronghold | Troll |
 | 16 | Shedu | Wolf | Dragon, Red | Ogre | Men, Merchant | Troll |
 | 17 | Stirge | Wolf | Dragon, Red | Ogre Mage | Wereboar | Troll |
 | 18 | Stirge | Wolf | Dragon, Red | Ogre Mage | Wererat | Troll |
@@ -8051,8 +8057,8 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 10 | Eagle, Giant | Mastodon | Gorgosaurus | Cetiosaurus | Neanderthal (Caveman) | Troglodyte |
 | 11 | Eagle, Giant | Rat | Tyrannosaurus Rex | Pentaceratops | Neanderthal (Caveman) | Troglodyte |
 | 12 | Pterodactyl | Rhinoceros | Tyrannosaurus Rex | Diplodocus | Neanderthal (Caveman) | Troglodyte |
-| 13 | Pterodactyl | Snake | Tyrannosaurus Rex | Diplodocus | Neanderthal (Caveman) | Troglodyte |
-| 14 | Pterodactyl | Snake | Tyrannosaurus Rex | Monoclonius | Neanderthal (Caveman) | Troglodyte |
+| 13 | Pterodactyl | Snake, Pit Viper | Tyrannosaurus Rex | Diplodocus | Neanderthal (Caveman) | Troglodyte |
+| 14 | Pterodactyl | Snake, Rock Python | Tyrannosaurus Rex | Monoclonius | Neanderthal (Caveman) | Troglodyte |
 | 15 | Pterodactyl | Sabre-Tooth Tiger | Tyrannosaurus Rex | Pentaceratops | Neanderthal (Caveman) | Troglodyte |
 | 16 | Pterodactyl | Sabre-Tooth Tiger | Tyrannosaurus Rex | Pentaceratops | Neanderthal (Caveman) | Troglodyte |
 | 17 | Pterodactyl | Wolf | Tyrannosaurus Rex | Styracosaurus | Lizard Man | Troll |
@@ -8110,9 +8116,9 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 15 | Cockatrice | Rat | Dragon, Red | Ogre | Men, Buccaneer / Pirate | Orc |
 | 16 | Harpy | Rat | Dragon, Red | Ogre | Wereboar | Troll |
 | 17 | Harpy | Rat | Dragon, Red | Ogre | Wererat | Troll |
-| 18 | Manticore | Snake | Dragon, Red | Ogre Mage | Wererat | Troll |
-| 19 | Nightmare | Snake | Dragon, Red | Ogre Mage | Weretiger | Troll |
-| 20 | Wyvern | Snake | Dragon, Silver | Ogre Mage | Werewolf | Troll |
+| 18 | Manticore | Snake, Pit Viper | Dragon, Red | Ogre Mage | Wererat | Troll |
+| 19 | Nightmare | Snake, Pit Viper | Dragon, Red | Ogre Mage | Weretiger | Troll |
+| 20 | Wyvern | Snake, Pit Viper | Dragon, Silver | Ogre Mage | Werewolf | Troll |
 
 ```{=latex}
 \filbreak
@@ -8164,9 +8170,9 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 15 | Nightmare | Rat | Dragon, Red | Ogre | Men, Merchant | Troll |
 | 16 | Pegasus | Rat | Dragon, Red | Ogre | Men, Merchant | Troll |
 | 17 | Roc | Rat | Dragon, Silver | Ogre | Village, Mining | Troll |
-| 18 | Stirge | Snake | Dragon, Silver | Ogre Mage | Werebear | Troll |
-| 19 | Stirge | Snake | Dragon, Silver | Ogre Mage | Werebear | Troll |
-| 20 | Stirge | Snake | Dragon, Silver | Titan | Wereboar | Troll |
+| 18 | Stirge | Snake, Pit Viper | Dragon, Silver | Ogre Mage | Werebear | Troll |
+| 19 | Stirge | Snake, Pit Viper | Dragon, Silver | Ogre Mage | Werebear | Troll |
+| 20 | Stirge | Snake, Pit Viper | Dragon, Silver | Titan | Wereboar | Troll |
 
 ```{=latex}
 \filbreak
@@ -8216,10 +8222,10 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 | 13 | Sphinx | Cat, Great | Dragon, Green | Ogre | Men, Merchant | Kobold |
 | 14 | Sphinx | Rhinoceros | Dragon, Red | Ogre | Men, Nomad | Orc |
 | 15 | Sphinx | Rhinoceros | Dragon, Red | Ogre | Men, Nomad | Orc |
-| 16 | Stirge | Snake | Dragon, Red | Ogre | Men, Nomad | Orc |
-| 17 | Stirge | Snake | Dragon, Red | Ogre | Men, Nomad | Troll |
-| 18 | Wyvern | Snake | Dragon, Red | Ogre | Men, Merchant | Troll |
-| 19 | Wyvern | Snake | Dragon, Red | Ogre Mage | Wizard's Tower | Troll |
+| 16 | Stirge | Snake, Pit Viper | Dragon, Red | Ogre | Men, Nomad | Orc |
+| 17 | Stirge | Snake, Rock Python | Dragon, Red | Ogre | Men, Nomad | Troll |
+| 18 | Wyvern | Snake, Spitting Cobra | Dragon, Red | Ogre | Men, Merchant | Troll |
+| 19 | Wyvern | Snake, Giant Rattler | Dragon, Red | Ogre Mage | Wizard's Tower | Troll |
 | 20 | Wyvern | Cat, Great | Dragon, Silver | Titan | Village, Farming | Troll |
 
 ```{=latex}
