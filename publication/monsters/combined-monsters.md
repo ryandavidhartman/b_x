@@ -447,7 +447,7 @@ The Great Cats are normally cautious and avoid fights unless driven by extreme h
 
 **Mountain Lion**: These tawny-furred cats inhabit mountains, forests, and deserts. They wander farther into caves and ruins than most other Great Cats.
 
-**Panther**: Panthers are found in forests, plains, and shrub lands. They are exceptionally fast and can outrun most prey over short distances.
+**Panther**: Panthers/Leopards are found in forests, plains, and shrub lands. They are exceptionally fast and can outrun most prey over short distances.
 
 **Lion**: Lions inhabit warm climates, especially savannahs and brush lands near deserts. They commonly hunt in groups known as prides.
 
@@ -861,19 +861,6 @@ Jackals are small scavenging canines of warm lands. They avoid strong prey but m
 
 Their howls can reveal the presence of intruders or attract larger predators.
 
-### Jaguar
-*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
-
-| Armor Class | 6          | No. Appearing | 1d2 (1d2)  |
-| Hit Dice    | 4+1        | Save As       | Fighter 3  |
-| Move        | 150' (50') | Morale        | 8          |
-| Attacks     | 2 claws / 1 bite | Treasure Type | Nil    |
-| Damage      | 1d3 / 1d3 / 1d8 | Alignment | Neutral    |
-
-Jaguars are powerful spotted cats of warm forests and jungles. They climb and swim well, and prefer ambush to pursuit.
-
-If a jaguar hits with both claws, it may rake with its rear claws for 1d4 / 1d4 damage.
-
 ### Lamprey
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
@@ -885,7 +872,7 @@ If a jaguar hits with both claws, it may rake with its rear claws for 1d4 / 1d4 
 
 Lampreys are blood-drinking aquatic parasites. They attach with circular mouths and rasping teeth.
 
-Once attached, a lamprey drains 1d4 damage each round until killed or removed. Removing it without killing it causes an additional 1d4 damage.
+Once attached, a lamprey drains `1d4` damage each round until killed or removed. Removing it without killing it causes an additional `1d4` damage.
 
 ::: center
 ![](assets/lamprey-plate.png)
@@ -900,58 +887,11 @@ Once attached, a lamprey drains 1d4 damage each round until killed or removed. R
 | Attacks     | Blood suck | Treasure Type | Nil       |
 | Damage      | 1d6        | Alignment     | Neutral   |
 
-Giant leeches are loathsome and slug-like. They live in swamps and are about 3 to 4 feet long. A giant leech has a sucker-like mouth that attaches to the victim if a hit is successful. It then sucks blood, doing 1-6 points of damage per round. A giant leech must be killed to be removed from its victim. When the victim dies, the leech will drop off and hide while it digests its meal.
+Giant leeches are loathsome and slug-like. They live in swamps and are about 3 to 4 feet long. A giant leech has a sucker-like mouth that attaches to the victim if a hit is successful. It then sucks blood, doing `1d6` points of damage per round. A giant leech must be killed to be removed from its victim. When the victim dies, the leech will drop off and hide while it digests its meal.
 
-::: columnbreak-pdf
+::: center
+![](assets/leech-plate.png)
 :::
-
-### Leopard
-*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
-
-| Armor Class | 6          | No. Appearing | 1d2 (1d2)  |
-| Hit Dice    | 3+2        | Save As       | Fighter 2  |
-| Move        | 150' (50') | Morale        | 8          |
-| Attacks     | 2 claws / 1 bite | Treasure Type | Nil    |
-| Damage      | 1d3 / 1d3 / 1d6 | Alignment | Neutral    |
-
-Leopards are stealthy cats of forests, jungles, and scrublands. They climb well and attack from ambush.
-
-If a leopard hits with both claws, it may rake with its rear claws for 1d4 / 1d4 damage.
-
-### Lion
-*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
-
-| Armor Class | 6          | No. Appearing | 1d4 (2d6)  |
-| Hit Dice    | 5+2        | Save As       | Fighter 3  |
-| Move        | 150' (50') | Morale        | 9          |
-| Attacks     | 2 claws / 1 bite | Treasure Type | Nil    |
-| Damage      | 1d4 / 1d4 / 1d10 | Alignment | Neutral   |
-
-Lions are powerful hunting cats of warm plains. They attack in prides and prefer to bring prey down with a sudden rush.
-
-If a lion hits with both claws, it may rake with its rear claws for 1d6 / 1d6 damage.
-
-### Lizard
-*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
-
-|               | Giant Lizard | Minotaur Lizard | Subterranean Lizard |
-| ------------- | ------------ | --------------- | ------------------- |
-| Armor Class   | 5            | 5               | 5                   |
-| Hit Dice      | 3+1          | 8               | 6                   |
-| Save As       | Fighter 2    | Fighter 4       | Fighter 3           |
-| Move          | 150' (50')   | 60' (20')       | 120' (40')          |
-| Attacks       | 1 bite       | 2 claws / 1 bite | 1 bite             |
-| Damage        | 1d8          | 1d6 / 1d6 / 3d6 | 2d6                 |
-| No. Appearing | 1d6 (2d6)    | 1d4 (1d4)       | 1d3 (1d6)           |
-| Morale        | 7            | 9               | 9                   |
-| Treasure Type | Nil          | Nil             | Nil                 |
-| Alignment     | Neutral      | Neutral         | Neutral             |
-
-Giant lizards dwell in marshes and swamps and can engulf prey on a natural attack roll of 20, dealing double damage.
-
-Minotaur lizards are huge, aggressive carnivores of warm lands. They surprise on 1-4 on 1d6 and can seize man-sized prey on a natural 20, holding the victim helpless for another bite.
-
-Subterranean lizards run on walls and ceilings with suction-cupped toes. They are dreaded underground predators and deal double damage on a natural 20.
 
 ::: twocolumn-pdf-end
 :::
@@ -975,13 +915,13 @@ Subterranean lizards run on walls and ceilings with suction-cupped toes. They ar
 ::: twocolumn-pdf-begin
 :::
 
-Gecko: A gecko is a 5' long lizard colored pale blue with orange-brown spots. Geckos are carnivorous and nocturnal, sleeping during the day and active at night or in darkness. Geckos hunt by climbing steep walls or trees with their specially adapted feet, then dropping on their prey to attack.
+**Gecko**: is a 5' long lizard colored pale blue with orange-brown spots. Geckos are carnivorous and nocturnal, sleeping during the day and active at night or in darkness. Geckos hunt by climbing steep walls or trees with their specially adapted feet, then dropping on their prey to attack.
 
-Draco: A draco is a 6' long lizard with wide flaps of skin between its legs which it can spread to glide through the air like a flying squirrel. Dracos are generally found above ground, though they sometimes creep into caves to escape very cold or very hot weather. Dracos are carnivorous and have been known to attack humans.
+**Draco**: is a 6' long lizard with wide flaps of skin between its legs which it can spread to glide through the air like a flying squirrel. Dracos are generally found above ground, though they sometimes creep into caves to escape very cold or very hot weather. Dracos are carnivorous and have been known to attack humans.
 
-Horned Chameleon: A horned chameleon is a 7' long lizard which can change color to blend into its surroundings. It surprises on a roll of 1-5 on 1d6. A horned chameleon can shoot out its sticky tongue up to 5' long. A successful hit means that the victim is pulled to the horned chameleon's mouth and automatically bitten for 2d4 points of damage. The horned chameleon can also attack with its horn for 1d6, and may use its tail to knock other attackers down on a successful hit, doing no damage but preventing the victim from attacking that round.
+**Horned Chameleon**: is a 7' long lizard which can change color to blend into its surroundings. It surprises on a roll of 1-5 on 1d6. A horned chameleon can shoot out its sticky tongue up to 5' long. A successful hit means that the victim is pulled to the horned chameleon's mouth and automatically bitten for 2d4 points of damage. The horned chameleon can also attack with its horn for 1d6, and may use its tail to knock other attackers down on a successful hit, doing no damage but preventing the victim from attacking that round.
 
-Tuatara: A tuatara is a 8' long lizard that looks like a cross between an iguana and a toad. It has pebble-colored olive skin with white spikes along its back. It is carnivorous and sometimes attacks humans. A tuatara has a membrane over its eyes which, when lowered, is sensitive to changes in temperature, allowing it to see in darkness with 90' infravision.
+**Tuatara**: is a 8' long lizard that looks like a cross between an iguana and a toad. It has pebble-colored olive skin with white spikes along its back. It is carnivorous and sometimes attacks humans. A tuatara has a membrane over its eyes which, when lowered, is sensitive to changes in temperature, allowing it to see in darkness with 90' infravision.
 
 ::: center
 ![](assets/lizards-giant-plate.png)
@@ -1003,19 +943,6 @@ If a giant lynx hits with both forepaws, it rakes with its rear claws for 1d3 / 
 ::: center
 ![](assets/giant-lynx-plate.png)
 :::
-
-### Mammoth
-*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
-
-| Armor Class | 5          | No. Appearing | 1d6 (1d12) |
-| Hit Dice    | 13         | Save As       | Fighter 7  |
-| Move        | 120' (40') | Morale        | 8          |
-| Attacks     | 2 tusks / 1 trunk / 2 tramples | Treasure Type | Nil |
-| Damage      | 3d6 / 3d6 / 2d8 / 2d6 / 2d6 | Alignment | Neutral |
-
-Mammoths are massive prehistoric elephants, including woolly and imperial varieties. They range from subarctic to subtropical lands and are aggressive when threatened.
-
-Like elephants, a mammoth has five attack forms but can use no more than two against a single opponent. Its tusks are heavier and more valuable than elephant ivory.
 
 ### Masher
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -3387,6 +3314,19 @@ Stags fight during mating season or when cornered, using their great antlers to 
 | Damage      | 2d6        | Alignment     | Neutral   |
 
 Lambeosaurus is a crested, duck-billed dinosaur whose hollow head-crest produces resonant calls audible for miles, used to warn its herd of approaching danger. Herds of lambeosaurus graze together for safety, scattering at the first sign of a predator and relying on their tails only as a last resort against anything that catches them.
+
+### Mammoth
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 5          | No. Appearing | 1d6 (1d12) |
+| Hit Dice    | 13         | Save As       | Fighter 7  |
+| Move        | 120' (40') | Morale        | 8          |
+| Attacks     | 2 tusks / 1 trunk / 2 tramples | Treasure Type | Nil |
+| Damage      | 3d6 / 3d6 / 2d8 / 2d6 / 2d6 | Alignment | Neutral |
+
+Mammoths are massive prehistoric elephants, including woolly and imperial varieties. They range from subarctic to subtropical lands and are aggressive when threatened.
+
+Like elephants, a mammoth has five attack forms but can use no more than two against a single opponent. Its tusks are heavier and more valuable than elephant ivory.
 
 ### Mastodon
 *Source:* `Expert`  *Category:* `Animal`
