@@ -7009,6 +7009,17 @@ These items may be used by any character class, and as often as desired, unless 
 
 This appendix adapts OSRIC's random encounter system for dungeons, towns, and the wilderness, with monster and class names translated to match this book. Where OSRIC calls for a monster not detailed elsewhere in this book, the nearest equivalent already in these pages has been substituted.
 
+```{=latex}
+% Keep each of this appendix's sub-headings on the same page as the table
+% that follows it, rather than letting the heading strand alone at the
+% bottom of a page. Scoped to Appendix C only (no restore needed - this is
+% the last section in the book).
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\filbreak\oldparagraph{#1}}
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\filbreak\oldsubparagraph{#1}}
+```
+
 ### Dungeon Random Encounters
 
 *Source:* `OSRIC, Dungeons, Towns and Wildernesses: Random Dungeon Encounters`
@@ -7469,6 +7480,9 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 | 30-38 | Rich pimp | 96-97 | Elegant doxy |
 | 39-45 | Wanton lady-of-the-night | 98-00 | Sleepy-eyed trollop |
 
+::: pagebreak-pdf
+:::
+
 #### Nighttime Encounters
 
 | d% | Encounter | # Encountered & Notes |
@@ -7494,6 +7508,12 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 | 43 | Townsperson | 0-level Normal Human |
 | 44-50 | Prostitute | See Red-Light Professions sub-table for exact type |
 | 51 | Magic-User | A 1d4+6-level magic-user with (1-5) 1d4-1 apprentice magic-users (level 1d4) or (6-10) 1d3 fighter bodyguards (level 1d6) |
+
+::: pagebreak-pdf
+:::
+
+| d% | Encounter | # Encountered & Notes |
+|---|---|---|
 | 52 | Labourer or Peddler | (1-5) 3d4 rough 0-level workmen; (6-10) 1d3 peddlers selling simple goods on the street |
 | 53 | Magic-User | A 1d6+6-level magic-user with (1-4) 1d4 apprentice magic-users (level 1d6) or (5-7) 1d4 fighter bodyguards (level 1d4+3) or (8-10) 1d2 apprentices and 1d2 bodyguards as above |
 | 54-58 | Mercenary | 3d4 fighters (level 1d6-1) |
@@ -7522,6 +7542,9 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 
 *For starred entries, check the Race sub-table first to see if the NPC is human or demi-human.*
 
+::: pagebreak-pdf
+:::
+
 #### Daytime Encounters
 
 | d% | Encounter | # Encountered & Notes |
@@ -7542,6 +7565,12 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 | 35-39 | Townsperson | 0-level Normal Human |
 | 40-41 | Harlot | See Red-Light Professions sub-table for exact type |
 | 42 | Magic-User | A 1d4+6-level magic-user with (1-5) 1d4-1 apprentice magic-users (level 1d4) or (6-10) 1d3 fighter bodyguards (level 1d6) |
+
+::: pagebreak-pdf
+:::
+
+| d% | Encounter | # Encountered & Notes |
+|---|---|---|
 | 43-50 | Labourer or Peddler | (1-5) 3d4 rough 0-level workmen; (6-10) 1d3 peddlers selling simple goods on the street |
 | 51 | Magic-User | A 1d6+6-level magic-user with (1-4) 1d4 apprentice magic-users (level 1d6) or (5-7) 1d4 fighter bodyguards (level 1d4+3) or (8-10) 1d2 apprentices and 1d2 bodyguards as above |
 | 52-55 | Mercenary | 3d4 fighters (level 1d6-1) |
