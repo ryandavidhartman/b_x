@@ -413,7 +413,7 @@ Wild camels include single-humped dromedaries of hot deserts and double-humped b
 
 A camel can carry up to 6,000 cn, though this slows it to 50' (15'). A load of 4,000-5,000 cn slows it to 120' (40'). Bactrian camels move 30' (10') slower than dromedaries.
 
-Camels bite when forced to fight. They are ill-tempered and may spit at those who approach to ride or handle them. There is a 50% chance a camel spits; if it does, the target must Save vs. Paralysis or be blinded for 1d3 rounds. Horses dislike the odor of camels.
+Camels bite when forced to fight. They are ill-tempered and may spit at those who approach to ride or handle them. There is a 50% chance a camel spits; if it does, the target must Save vs. Paralysis or be blinded for `1d3` rounds. Horses dislike the odor of camels.
 
 Charge attacks with a lance from camelback are **not** possible.
 
