@@ -7000,3 +7000,1342 @@ These items may be used by any character class, and as often as desired, unless 
 
 ::: twocolumn-pdf-end
 :::
+::: pagebreak-pdf
+:::
+
+## Appendix C: Random Encounters
+
+*Source:* `OSRIC, Dungeons, Towns and Wildernesses`
+
+This appendix adapts OSRIC's random encounter system for dungeons, towns, and the wilderness, with monster and class names translated to match this book. Where OSRIC calls for a monster not detailed elsewhere in this book, the nearest equivalent already in these pages has been substituted.
+
+### Dungeon Random Encounters
+
+*Source:* `OSRIC, Dungeons, Towns and Wildernesses: Random Dungeon Encounters`
+
+When a random monster encounter is called for, roll 1d12 and cross-reference the result with the dungeon level where the encounter occurs on the Monster Sub-table Matrix below. This gives a monster level from 1 to 10; roll d% on that level's table to determine the actual monster encountered.
+
+#### Monster Sub-table Matrix (d12)
+
+| Dungeon Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1-2 | 1-8 | 9-11 | 12 | - | - | - | - | - | - | - |
+| 3 | 1-5 | 6-8 | 9-10 | 11 | 12 | - | - | - | - | - |
+| 4 | 1-4 | 5-7 | 8-9 | 10 | 11 | 12 | - | - | - | - |
+| 5 | 1-3 | 4-5 | 6-7 | 8-9 | 10 | 11 | 12 | - | - | - |
+| 6 | 1-2 | 3-4 | 5-6 | 7-8 | 9 | 10 | 11 | 12 | - | - |
+| 7 | 1 | 2-3 | 4-5 | 6-7 | 8 | 9 | 10 | 11 | 12 | - |
+| 8 | 1 | 2 | 3-4 | 5-6 | 7 | 8 | 9 | 10 | 11 | 12 |
+| 9 | 1 | 2 | 3 | 4-5 | 6-7 | 8 | 9 | 10 | 11 | 12 |
+| 10-11 | 1 | 2 | 3 | 4 | 5-6 | 7-8 | 9 | 10 | 11 | 12 |
+| 12-13 | 1 | 2 | 3 | 4 | 5 | 6-7 | 8-9 | 10 | 11 | 12 |
+| 14-15 | 1 | 2 | 3 | 4 | 5 | 6 | 7-8 | 9-10 | 11 | 12 |
+| 16+ | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8-9 | 10-11 | 12 |
+
+Lesser monsters encountered on a lower dungeon level than their monster level should have their numbers increased by the same amount for each dungeon level lower than their monster level. Greater monsters encountered on a higher dungeon level have their numbers decreased by 1 for each dungeon level higher (minimum of 1). NPC parties instead have their class level increased rather than their numbers.
+
+#### Monster Level 1
+
+| d% | Monster Encountered | # |
+|---|---|---|
+| 01-02 | Horned Devil (Malebranche) | 1d10 |
+| 03-04 | Halfling | 3d6 |
+| 05-07 | NPC Party (see *NPC Parties*) | varies |
+| 08-11 | Manes | 1 |
+| 12-15 | Rat | 1d10x5 |
+| 16-20 | Stirge | 1d4 |
+| 21-25 | Bat | 5d10 |
+| 26-30 | Goblin | 2d10 |
+| 31-40 | Men, Bandit | 2d4 |
+| 41-50 | Orc | 3d10 |
+| 51-60 | Frog, Giant | 1d8 |
+| 61-70 | Beetle, Giant | 1d4 |
+| 71-75 | Kobold | 4d10 |
+| 76-80 | Dog | 1d4 |
+| 81-85 | Bat, Giant | 1d6 |
+| 86-89 | Skeleton | 1d10 |
+| 90-93 | Rot Grub | 5d4 |
+| 94-96 | Brain Mole | 1d6 |
+| 97-98 | Gnome | 4d6 |
+| 99-00 | Berserker | 1d6 |
+
+#### Monster Level 2
+
+| d% | Monster Encountered | # |
+|---|---|---|
+| 01-02 | NPC Party (see *NPC Parties*) | varies |
+| 03-04 | Ant, Giant | 2d10 |
+| 05-07 | Shadow | 1 |
+| 08-11 | Gnoll | 1d12 |
+| 12-15 | Toad, Giant | 1d4 |
+| 16-20 | Troglodyte | 2d10 |
+| 21-25 | Hobgoblin | 2d10 |
+| 26-30 | Lizard Man | 1d10 |
+| 31-40 | Piercer | 3d6 |
+| 41-50 | Troglodyte | 1d10 |
+| 51-60 | Badger | 1d2 |
+| 61-70 | Spider, Giant | 1d8 |
+| 71-75 | Bugbear | 1d6 |
+| 76-80 | Gnoll | 2d10 |
+| 81-85 | Stirge | 1d10+5 |
+| 86-89 | Zombie | 1d8 |
+| 90-93 | Ghoul | 1 |
+| 94-96 | Troll | 1d6 |
+| 97-98 | Centipede, Giant | 1d12 |
+| 99-00 | Dwarf | 4d4 |
+
+#### Monster Level 3
+
+| d% | Monster Encountered | # |
+|---|---|---|
+| 01-02 | Ape | 1d3 |
+| 03-04 | Centipede, Giant | 1d2 |
+| 05-07 | Rust Monster | 1d2 |
+| 08-11 | Wolf | 1d4 |
+| 12-15 | Harpy | 1d6 |
+| 16-20 | Ghoul | 1d6 |
+| 21-25 | Wererat | 1d8 |
+| 26-30 | Frog, Giant | 1d8 |
+| 31-35 | Lemure | 5d6 |
+| 36-40 | NPC Party (see *NPC Parties*) | varies |
+| 41-50 | Lizards, Giant | 1d6 |
+| 51-60 | Ogre | 1d10 |
+| 61-70 | Carrion Crawler | 1d6 |
+| 71-75 | Beetle, Giant | 1d6 |
+| 76-80 | Bugbear | 2d8 |
+| 81-85 | Wight | 1d4 |
+| 86-89 | Fungi, Violet | 1d4 |
+| 90-93 | Shadow | 1 |
+| 94-96 | Dragon (see sub-table) | 1 |
+| 97-98 | Zombie | 1d3 |
+| 99-00 | Spider, Giant | 1d6 |
+
+##### Monster Level 3 Dragon Sub-table
+
+| d% | Type | Age | Hit Points per HD |
+|---|---|---|---|
+| 01-30 | Dragon, Black | Very Young | 1 |
+| 31-60 | Dragon, Brass | Very Young | 1 |
+| 61-00 | Dragon, White | Very Young | 1 |
+
+#### Monster Level 4
+
+| d% | Monster Encountered | # |
+|---|---|---|
+| 01-02 | Strangle Weed | 1 |
+| 03-04 | Spider, Giant | 1d2 |
+| 05-07 | Blink Dog | 1d4 |
+| 08-11 | Ghast | 1d3 |
+| 12-15 | Zombie | 1d2 |
+| 16-20 | Piercer | 3d6 |
+| 21-25 | Cockatrice | 1d3 |
+| 26-30 | Snake | 1 |
+| 31-35 | Manes | 2d4 |
+| 36-40 | NPC Party (see *NPC Parties*) | varies |
+| 41-50 | Beetle, Giant | 1d6 |
+| 51-60 | Werewolf | 1d6 |
+| 61-70 | Barbed Devil | 2d4 |
+| 71-75 | Snake | 1 |
+| 76-80 | Gargoyle | 1d8 |
+| 81-85 | Dragon (see sub-table) | 5 |
+| 86-89 | Shadow | 1d8 |
+| 90-93 | Wereboar | 1d4 |
+| 94-96 | Gray Ooze | 1d3 |
+| 97-98 | Hellhound | 2d6 |
+| 99-00 | Wight | 1 |
+
+##### Monster Level 4 Dragon Sub-table
+
+| d% | Type | Age | Hit Points per HD |
+|---|---|---|---|
+| 01-10 | Dragon, Black | Young/Sub-adult | 2/3 |
+| 11-20 | Dragon, Blue | Very Young/Young | 1/2 |
+| 21-30 | Dragon, Brass | Young/Sub-adult | 2/3 |
+| 31-35 | Dragon, Bronze | Very Young/Young | 1/2 |
+| 36-50 | Dragon, Copper | Very Young/Young | 1/2 |
+| 51-55 | Dragon, Gold | Very Young/Young | 1/2 |
+| 56-70 | Dragon, Green | Very Young/Young | 1/2 |
+| 71-80 | Dragon, Red | Very Young/Young | 1/2 |
+| 81-85 | Dragon, Silver | Very Young/Young | 1/2 |
+| 86-00 | Dragon, White | Young/Sub-adult | 2/3 |
+
+#### Monster Level 5
+
+| d% | Monster Encountered | # |
+|---|---|---|
+| 01-02 | Djinni | 1 |
+| 03-04 | Animated Armor | 1d4 |
+| 05-07 | Medusa | 1d2 |
+| 08-11 | Bat, Giant | 1d4 |
+| 12-15 | Sabre-Tooth Tiger | 1 |
+| 16-20 | Minotaur | 1d8 |
+| 21-25 | Scorpion, Giant | 1d2 |
+| 26-30 | Snake | 1 |
+| 31-40 | Type IV Demon (Nalfeshnee) | 1d4 |
+| 41-50 | Bear, Cave | 1d2 |
+| 51-60 | NPC Party (see *NPC Parties*) | varies |
+| 61-70 | Bone Devil | 1d4 |
+| 71-75 | Dragon (see sub-table) | 1 |
+| 76-80 | Displacer Beast | 1 |
+| 81-85 | Hydra (5-6 heads) | 1 |
+| 86-89 | Ogre Mage | 1d3 |
+| 90-93 | Werebear | 1d4 |
+| 94-96 | Cat, Great | 1 |
+| 97-98 | Hellhound | 2d6 |
+| 99-00 | Snake | 1 |
+
+##### Monster Level 5 Dragon Sub-table
+
+| d% | Type | Age | Hit Points per HD |
+|---|---|---|---|
+| 01-08 | Dragon, Black | Young Adult/Adult | 4/5 |
+| 09-18 | Dragon, Blue | Sub-Adult/Young Adult | 3/4 |
+| 19-30 | Dragon, Brass | Young Adult/Adult | 4/5 |
+| 31-35 | Dragon, Bronze | Sub-Adult/Young Adult | 3/4 |
+| 36-50 | Dragon, Copper | Sub-Adult/Young Adult | 3/4 |
+| 51-55 | Dragon, Gold | Sub-Adult/Young Adult | 3/4 |
+| 56-70 | Dragon, Green | Sub-Adult/Young Adult | 3/4 |
+| 71-80 | Dragon, Red | Sub-Adult/Young Adult | 3/4 |
+| 81-87 | Dragon, Silver | Sub-Adult/Young Adult | 3/4 |
+| 88-00 | Dragon, White | Young Adult/Adult | 4/5 |
+
+#### Monster Level 6
+
+| d% | Monster Encountered | # |
+|---|---|---|
+| 01-02 | Wraith | 1d6 |
+| 03-04 | Quasit | 1 |
+| 05-07 | Displacer Beast | 1d4 |
+| 08-11 | Mummy | 1d4 |
+| 12-15 | Dragon (see sub-table) | 1 |
+| 16-20 | Erinyes | 1d3 |
+| 21-25 | Troll | 1d12 |
+| 26-30 | Otyugh | 1d2 |
+| 31-35 | Bone Devil | 1d3 |
+| 36-40 | NPC Party (see *NPC Parties*) | varies |
+| 41-50 | Giant, Hill | 1d10 |
+| 51-60 | Wight | 1d8 |
+| 61-70 | Sphinx | 1 |
+| 71-75 | Wyvern | 1d3 |
+| 76-80 | Hydra (7-8 heads) | 5 |
+| 81-85 | Manticore | 1d2 |
+| 86-89 | Troll | 1d12 |
+| 90-93 | Lizards, Giant | 1d4 |
+| 94-96 | Hellhound | 2d6 |
+| 97-98 | Groaning Spirit | 1 |
+| 99-00 | Troll | 1d2 |
+
+##### Monster Level 6 Dragon Sub-table
+
+| d% | Type | Age | Hit Points per HD |
+|---|---|---|---|
+| 01-10 | Dragon, Black | Old | 6 |
+| 11-20 | Dragon, Blue | Adult | 5 |
+| 21-30 | Dragon, Brass | Old | 6 |
+| 31-35 | Dragon, Bronze | Adult | 5 |
+| 36-50 | Dragon, Copper | Adult | 5 |
+| 51-55 | Dragon, Gold | Adult | 5 |
+| 56-70 | Dragon, Green | Adult | 5 |
+| 71-80 | Dragon, Red | Adult | 5 |
+| 81-85 | Dragon, Silver | Adult | 5 |
+| 86-00 | Dragon, White | Old | 6 |
+
+#### Monster Level 7
+
+| d% | Monster Encountered | # |
+|---|---|---|
+| 01-02 | Golem | 1 |
+| 03-04 | Ettin | 1d2 |
+| 05-07 | Chimera | 1d4 |
+| 08-11 | Spectre | 1d4 |
+| 12-15 | Basilisk | 1d2 |
+| 16-20 | Giant, Fire | 1d8 |
+| 21-25 | Type III Demon (Glabrezu) | 1d3 |
+| 26-30 | Sphinx | 1 |
+| 31-35 | Lamia | 1 |
+| 36-40 | NPC Party (see *NPC Parties*) | varies |
+| 41-50 | Lizard Man | 1d2 |
+| 51-55 | Skeleton | 1 |
+| 56-60 | Shedu | 1d2 |
+| 61-70 | Will-O-Wisp | 1 |
+| 71-75 | Naga | 1d3 |
+| 76-80 | Barbed Devil or Bone Devil | 1d2 |
+| 81-85 | Hydra (9-10 heads) | 1 |
+| 86-89 | Dragon (see sub-table) | 1 |
+| 90-93 | Cyclops | 1 |
+| 94-96 | Hellhound | 1 |
+| 97-98 | Troll | 1d3 |
+| 99-00 | Efreeti | 1 |
+
+##### Monster Level 7 Dragon Sub-table
+
+| d% | Type | Age | Hit Points per HD |
+|---|---|---|---|
+| 01-10 | Dragon, Black | Very Old | 7 |
+| 11-20 | Dragon, Blue | Old | 6 |
+| 21-30 | Dragon, Brass | Very Old | 7 |
+| 31-35 | Dragon, Bronze | Old | 6 |
+| 36-50 | Dragon, Copper | Old | 6 |
+| 51-55 | Dragon, Gold | Old | 6 |
+| 56-70 | Dragon, Green | Old | 6 |
+| 71-80 | Dragon, Red | Old | 6 |
+| 81-85 | Dragon, Silver | Old | 6 |
+| 86-00 | Dragon, White | Very Old | 7 |
+
+#### Monster Level 8
+
+| d% | Monster Encountered | # |
+|---|---|---|
+| 01-03 | Naga | 1d2 |
+| 04-07 | Golem | 1 |
+| 08-11 | Giant, Cloud | 1 |
+| 12-15 | Vampire | 1d2 |
+| 16-20 | Ice Devil | 1 |
+| 21-25 | Barbed Devil | 1d2 |
+| 26-30 | Otyugh | 1d2 |
+| 31-40 | Type I Demon (Vrock) | 1d3 |
+| 41-50 | NPC Party (see *NPC Parties*) | varies |
+| 51-60 | Type II Demon (Hezrou) | 5d4 |
+| 61-70 | Hydra (11-12 heads) | 1 |
+| 71-80 | Elemental, Air/Earth/Fire/Water | 1 |
+| 81-89 | Dragon (see sub-table) | 1 |
+| 90-93 | Lammasu | 1d4 |
+| 94-00 | Ghost | 1 |
+
+##### Monster Level 8 Dragon Sub-table
+
+| d% | Type | Age | Hit Points per HD |
+|---|---|---|---|
+| 01-12 | Dragon, Black | Ancient | 8 |
+| 13-25 | Dragon, Blue | Very Old | 7 |
+| 26-30 | Dragon, Brass | Ancient | 8 |
+| 31-35 | Dragon, Bronze | Very Old | 7 |
+| 36-45 | Dragon, Copper | Very Old | 7 |
+| 46-50 | Dragon, Gold | Very Old | 7 |
+| 51-60 | Dragon, Green | Very Old | 7 |
+| 61-80 | Dragon, Red | Very Old | 7 |
+| 81-85 | Dragon, Silver | Very Old | 7 |
+| 86-00 | Dragon, White | Ancient | 8 |
+
+#### Monster Level 9
+
+| d% | Monster Encountered | # |
+|---|---|---|
+| 01-07 | Trapper | 1 |
+| 08-11 | Pit Fiend | 1 |
+| 12-25 | Otyugh | 1 |
+| 26-40 | NPC Party (see *NPC Parties*) | varies |
+| 41-55 | Type II Demon (Hezrou) | 1d3 |
+| 56-70 | Hydra (12 heads) | 1 |
+| 71-80 | Dragon (see sub-table) | 1 or 2 |
+| 81-89 | Purple Worm | 1d2 |
+| 90-93 | Succubus | 1 |
+| 94-96 | Roper | 1d4 |
+| 97-00 | Golem | 1 |
+
+##### Monster Level 9 Dragon Sub-table
+
+| d% | Type | Age | Hit Points per HD |
+|---|---|---|---|
+| 01-12 | 2x Dragon, Black | Ancient + Old | 8+6 |
+| 13-25 | Dragon, Blue | Ancient | 8 |
+| 26-30 | 2x Dragon, Brass | Ancient + Old | 8+6 |
+| 31-35 | Dragon, Bronze | Ancient | 8 |
+| 36-45 | Dragon, Copper | Ancient | 8 |
+| 46-50 | Dragon, Gold | Ancient | 8 |
+| 51-60 | Dragon, Green | Ancient | 8 |
+| 61-80 | Dragon, Red | Ancient | 8 |
+| 81-85 | Dragon, Silver | Ancient | 8 |
+| 86-00 | 2x Dragon, White | Ancient + Very Old | 8+7 |
+
+#### Monster Level 10
+
+| d% | Monster Encountered | # |
+|---|---|---|
+| 01-07 | Type V Demon (Marilith) | 1d3 |
+| 08-11 | Giant, Storm | 1 |
+| 12-15 | Otyugh | 1 |
+| 16-20 | NPC Party (see *NPC Parties*) | varies |
+| 21-30 | Type III Demon (Glabrezu) | 1d3 |
+| 31-40 | Elemental, Earth | 1 |
+| 41-50 | Elemental, Air | 1 |
+| 51-60 | Elemental, Fire | 1 |
+| 61-70 | Elemental, Water | 1 |
+| 71-80 | Type IV Demon (Nalfeshnee) | 1d3 |
+| 81-89 | Dragon (see sub-table) | 2 |
+| 90-95 | Type VI Demon (Balor) | 1d3 |
+| 96-00 | Lich | 1 |
+
+##### Monster Level 10 Dragon Sub-table
+
+| d% | Type | Age | Hit Points per HD |
+|---|---|---|---|
+| 01-20 | Dragon, Blue | Ancient + Very Old | 8+7 |
+| 21-25 | Dragon, Bronze | Ancient + Very Old | 8+7 |
+| 26-35 | Dragon, Copper | Ancient + Very Old | 8+7 |
+| 36-40 | Dragon, Gold | Ancient + Old | 8+6 |
+| 41-60 | Dragon, Green | Ancient + Very Old | 8+7 |
+| 61-95 | Dragon, Red | Ancient + Old | 8+6 |
+| 96-00 | Dragon, Silver | Ancient + Old | 8+6 |
+
+### NPC Parties (All Dungeon Levels)
+
+*Source:* `OSRIC, Dungeons, Towns and Wildernesses: NPC Parties (All Dungeon Levels)`
+
+When a Dungeon Random Encounters table calls for an NPC Party, generate it using the **NPC Parties** entry earlier in this book: pick a party archetype (Basic Adventurers, Expert Adventurers, or one of the High-Level Cleric/Fighter/Magic-User retinues), then roll class and level as described there. As with other dungeon encounters, an NPC party's *class level* increases for each dungeon level deeper than its normal range, rather than its numbers.
+
+If a demi-human or multi-classed NPC turns up in the party, roll on the table below to decide their race and whether they hold a second (or third) class.
+
+#### NPC Race and Multi-Class Chance
+
+| d% | Race | % Multi-Class |
+|---|---|---|
+| 01-25 | Dwarf | 15% |
+| 26-50 | Elf | 80% |
+| 51-65 | Gnome | 25% |
+| 66-75 | Half-Elf | 80% |
+| 76-85 | Halfling | 15% |
+| 86-00 | Half-Orc | 50% |
+
+Demi-humans and multi-classed NPCs make up roughly 20% of a typical adventuring party. About half of all demi-humans who multi-class have two professions, and another quarter have three; assign the additional class(es) from the same NPC Adventurer Class table, ignoring any result that class or race cannot normally take.
+
+### Urban Encounters
+
+*Source:* `OSRIC, Dungeons, Towns and Wildernesses: Random Urban Encounters`
+
+Player characters are also likely to have random encounters when roaming the streets of a town or city. The GM should check for a random encounter every three turns, or as desired. Improbable or inconvenient results can be ignored and treated as if no encounter occurred.
+
+*Editorial note:* this book's class list is limited to Cleric, Fighter, Magic-User, and Thief (plus the demi-human classes). Where the source material calls for an Assassin, substitute a Thief; for a Druid, a Cleric; for an Illusionist, a Magic-User; and for a Paladin or Ranger, a Fighter.
+
+#### 0-Level NPCs
+
+Most NPCs encountered while adventuring in urban or civilised areas are normal folk with no adventuring class. They can be grouped into five types by their level of activity:
+
+| Type | hp | Combat Ability | Examples |
+|---|---|---|---|
+| Infirm | 1d3 | -3 to hit/damage | Elders, children, beggars, plague victims |
+| Sedentary | 1d4 | -2 to hit/damage | Clerks, scribes, shopkeepers, minor officials |
+| Active | 1d4+1 | as 0-level Normal Human | Craftsmen, servants, merchants, boatmen |
+| Fit | 1d4+2 | as 0-level Normal Human | Farmers, miners, labourers, sailors, militiamen |
+| Very Fit | 1d6+1 | as 0-level Normal Human | Soldiers, watchmen, bodyguards, men-at-arms |
+
+#### Urban Encounter Sub-tables
+
+Several entries in the Daytime and Nighttime Encounter tables below refer to one of the following sub-tables.
+
+##### Race
+
+| d% | Race | d% | Race |
+|---|---|---|---|
+| 01-10 | Dwarf | 29-34 | Halfling |
+| 11-15 | Elf | 35-40 | Half-Orc |
+| 16-20 | Gnome | 41-00 | Human |
+| 21-28 | Half-Elf | | |
+
+##### Urban Professions
+
+| d% | Profession | d% | Profession |
+|---|---|---|---|
+| 01-08 | Bandit | 44-58 | Labourer |
+| 09-16 | Brigand | 59-63 | Magic-User |
+| 17-18 | City Guard | 64-71 | Mercenary |
+| 19-20 | City Official | 72-78 | Merchant |
+| 21-23 | City Watchman | 79-80 | Noble |
+| 24-27 | Cleric | 81-88 | Rake |
+| 28-36 | Fighter | 89-93 | Ruffian |
+| 37-43 | Gentleman | 94-97 | Thief |
+| | | 98-00 | Tradesman |
+
+##### Noble Professions
+
+| d% | Class | Level |
+|---|---|---|
+| 01-50 | Normal Human | 0 |
+| 51-85 | Fighter | 1d8+4 |
+| 86-00 | Cleric | 1d8+4 |
+
+##### Red-Light Professions
+
+| d% | Profession | d% | Profession |
+|---|---|---|---|
+| 01-02 | Cheap harlot | 46-48 | Wealthy gigolo |
+| 03-10 | Slovenly whore | 49-63 | Sleazy tout |
+| 11-18 | Brazen streetwalker | 64-65 | Shifty procurer |
+| 19-20 | Typical tart | 66-73 | Seductive dancer |
+| 21-22 | Saucy wench | 74-80 | Finely-attired concubine |
+| 23-25 | Expensive callgirl | 81-82 | Penniless hag |
+| 26-27 | Haughty mistress | 83-90 | Amoral street hustler |
+| 28-29 | Sly panderer | 91-95 | Foppish bawd |
+| 30-38 | Rich pimp | 96-97 | Elegant doxy |
+| 39-45 | Wanton lady-of-the-night | 98-00 | Sleepy-eyed trollop |
+
+#### Nighttime Encounters
+
+| d% | Encounter | # Encountered & Notes |
+|---|---|---|
+| 01-03 | Thief | 1d3 (check Race sub-table) |
+| 04-05 | Bandit | 3d4 and a leader |
+| 06-08 | Beggar | 1d2 |
+| 09-10 | Brigand | 3d4 and a leader |
+| 11 | Guardsman | 2d8 and a leader |
+| 12 | Official | (1-9) minor official; (10) major official and 2d4 guardsmen |
+| 13-21 | Watchman | 5 men-at-arms (0-level) and a sergeant (level 1d3) and a cleric (level 1d4+1) |
+| 22 | Cleric | A 1d6+5-level cleric with 1d6-1 assistant clerics (level 1d4) |
+| 23 | Demon | GM's discretion (any demon in this book). Only 1 encountered |
+| 24 | Devil | GM's discretion (any devil in this book). Only 1 encountered |
+| 25 | Doppelganger | 1d4+2, disguised as a profession from the Urban Professions sub-table |
+| 26 | Cleric | A 1d6+5-level cleric with (1-5) 1d4-1 lesser clerics (level 1d4) or (6-10) 1d4 fighters (level 1d6) |
+| 27-31 | Drunk | See Urban Professions sub-table for exact profession |
+| 32-33 | Fighter | A 2d4+4-level fighter with 1d4-1 henchmen (level 1d4) |
+| 34-35 | Gentleman | (1-4) foppish dandy and 1d4 sycophants; (5-6) gentlewoman; (7-10) 1d4+6-level nobleman fighter and 1d4 similar friends |
+| 36 | Ghast or Ghoul | (1-3) 2d4 ghasts; (4-10) 4d4 ghouls |
+| 37 | Ghost | 1 |
+| 38-42 | Giant Rats | 4d6 |
+| 43 | Townsperson | 0-level Normal Human |
+| 44-50 | Prostitute | See Red-Light Professions sub-table for exact type |
+| 51 | Magic-User | A 1d4+6-level magic-user with (1-5) 1d4-1 apprentice magic-users (level 1d4) or (6-10) 1d3 fighter bodyguards (level 1d6) |
+| 52 | Labourer or Peddler | (1-5) 3d4 rough 0-level workmen; (6-10) 1d3 peddlers selling simple goods on the street |
+| 53 | Magic-User | A 1d6+6-level magic-user with (1-4) 1d4 apprentice magic-users (level 1d6) or (5-7) 1d4 fighter bodyguards (level 1d4+3) or (8-10) 1d2 apprentices and 1d2 bodyguards as above |
+| 54-58 | Mercenary | 3d4 fighters (level 1d6-1) |
+| 59-60 | Merchant | 1d3 merchants, 2d4 0-level mercenary guards, and a mercenary leader (level 1d4) |
+| 61 | Troubadour | 1d4 travelling bards, musicians, or actors |
+| 62 | Night Hag | GM's discretion. Only 1 encountered |
+| 63-64 | Noble | (1-7) nobleman and 1d4 fighter bodyguards (level 1d4); (8-10) noblewoman |
+| 65 | Fighter | A 1d4+5-level fighter (paladin-equivalent) |
+| 66 | Pilgrim | 3d4 pilgrims (Normal Humans) |
+| 67 | Press Gang | 2d8 1st-level fighters and a leader (level 1d4+1), all wielding clubs |
+| 68-71 | Thugs | 1d4+1 fighters (level 1d6+4) |
+| 72 | Rakshasa | GM's discretion. 1d3 encountered |
+| 73 | Fighter | A 1d4+6-level fighter (ranger-equivalent) |
+| 74-80 | Muggers or Humanoids | (1-8) 1d6+6 2nd-level fighters armed with clubs; (9-10) humanoids (Orcs, Kobolds, Goblins, etc. — GM's discretion) |
+| 81 | Shadow | GM's discretion. 2d4 encountered |
+| 82 | Spectre | GM's discretion. 1d3 encountered |
+| 83-88 | Thief | A 1d4+7-level thief and 1d3-1 apprentice thieves (level 1d4) |
+| 89-90 | Tradesman | 2d4 artisans, craftsmen, or skilled workmen (Normal Humans) |
+| 91-93 | Wererat | 2d4 encountered; (1-5) in human form, (6-10) in giant rat form |
+| 94 | Weretiger | 1d2 encountered; (1-9) in human form, (10) in tiger form |
+| 95-96 | Werewolf | 2d4 encountered; (1-5) in human form, (6-10) in wolf form |
+| 97 | Wight | GM's discretion. 1d4+1 encountered |
+| 98 | Will-O-Wisp | GM's discretion. 1d2 encountered |
+| 99 | Wraith | GM's discretion. 1d4 encountered |
+| 00 | Vampire or Lich | (1-8) 1 vampire, encountered in human (1-2), giant bat (3-6), or gaseous (7-10) form; (9-10) 1 lich, GM's discretion |
+
+*For starred entries, check the Race sub-table first to see if the NPC is human or demi-human.*
+
+#### Daytime Encounters
+
+| d% | Encounter | # Encountered & Notes |
+|---|---|---|
+| 01 | Thief | 1d3 (check Race sub-table) |
+| 02 | Bandit | 3d4 and a leader |
+| 03-12 | Beggar | 1d2 |
+| 13 | Brigand | 3d4 and a leader |
+| 14-18 | Guardsmen | 2d8 and a leader |
+| 19-21 | Official | (1-9) minor official; (10) major official and 2d4 guardsmen |
+| 22-23 | Watchman | 5 men-at-arms (0-level) and a sergeant (level 1d3) and a cleric (level 1d4+1) |
+| 24-25 | Cleric | A 1d6+5-level cleric with 1d6-1 assistant clerics (level 1d4) |
+| 26 | Cleric | A 1d6+5-level cleric with (1-5) 1d4-1 lesser clerics (level 1d4) or (6-10) 1d4 fighters (level 1d6) |
+| 27 | Drunk | See Urban Professions sub-table for exact profession |
+| 28-29 | Fighter | A 2d4+4-level fighter with 1d4-1 henchmen (level 1d4) |
+| 30-33 | Gentleman | (1-4) foppish dandy and 1d4 sycophants; (5-6) gentlewoman; (7-10) 1d4+6-level nobleman fighter and 1d4 similar friends |
+| 34 | Giant Rats | 2d4 |
+| 35-39 | Townsperson | 0-level Normal Human |
+| 40-41 | Harlot | See Red-Light Professions sub-table for exact type |
+| 42 | Magic-User | A 1d4+6-level magic-user with (1-5) 1d4-1 apprentice magic-users (level 1d4) or (6-10) 1d3 fighter bodyguards (level 1d6) |
+| 43-50 | Labourer or Peddler | (1-5) 3d4 rough 0-level workmen; (6-10) 1d3 peddlers selling simple goods on the street |
+| 51 | Magic-User | A 1d6+6-level magic-user with (1-4) 1d4 apprentice magic-users (level 1d6) or (5-7) 1d4 fighter bodyguards (level 1d4+3) or (8-10) 1d2 apprentices and 1d2 bodyguards as above |
+| 52-55 | Mercenary | 3d4 fighters (level 1d6-1) |
+| 56-62 | Merchant | 1d3 merchants (0-level Normal Humans) |
+| 63 | Troubadour | 1d4 travelling bards, musicians, or actors |
+| 64-65 | Night Hag | GM's discretion. Only 1 encountered |
+| 66 | Noble | (1-7) nobleman and 1d4 fighter bodyguards (level 1d4); (8-10) noblewoman |
+| 67-69 | Fighter | A 1d4+5-level fighter (paladin-equivalent) |
+| 70 | Pilgrim | 3d4 pilgrims (Normal Humans) |
+| 71-72 | Press Gang | 2d8 1st-level fighters and a leader (level 1d4+1), all wielding clubs |
+| 73 | Thugs | 1d4+1 fighters (level 1d6+4) |
+| 74-78 | Rakshasa | GM's discretion. 1d3 encountered |
+| 79-82 | Thief | A 1d4+7-level thief and 1d3-1 apprentice thieves (level 1d4) |
+| 83-97 | Tradesman | 2d4 artisans, craftsmen, or skilled workmen (Normal Humans) |
+| 98 | Wererat | 2d4 encountered; (1-9) in human form, (10) in giant rat form |
+| 99 | Weretiger | 1d2 encountered, in human form |
+| 00 | Werewolf | 2d4 encountered, in human form |
+
+### Wilderness Encounters
+
+*Source:* `OSRIC, Dungeons, Towns and Wildernesses: Random Wilderness Encounters`
+
+Unlike dungeon encounters, wilderness encounters are not keyed to party level or strength; use the "No. Appearing" entry from the creature's own stat block to generate specific numbers. Use the terrain type most prevalent in the party's current location. When a random wilderness encounter is called for, first roll d% on the Terrain Category Summary below to find the general category, then roll 1d20 on that terrain's own table to find the specific monster.
+
+#### Terrain Category Summary (d%)
+
+| Terrain | Airborne | Animal | Dragon | Giant | Human/Demi-Human | Humanoid |
+|---|---|---|---|---|---|---|
+| Aquatic | 01-10 | 11-15 | 16-17 | 18-21 | 22-31 | 32-46 |
+| Arctic | 01-05 | 06-17 | 18-22 | 23-37 | 38-47 | 48-57 |
+| Desert | 01-04 | 05-19 | 20-24 | 25-29 | 30-49 | 50-61 |
+| Forest | 01-10 | 11-30 | 31-36 | 37-41 | 42-48 | 49-56 |
+| Graveyard | 01-03 | 04-13 | 14-16 | 17 | 18-22 | 23-37 |
+| Hills | 01-15 | 16-25 | 26-30 | 31-40 | 41-60 | 61-75 |
+| Jungle | 01-15 | 16-25 | 26-27 | 28-29 | 30-37 | 38-49 |
+| Lost World | 01-15 | 16-27 | 28 | 29 | 30-35 | 36-50 |
+| Marine | 01-10 | 11-15 | 16 | 17-20 | 21-30 | 31-45 |
+| Mountains | 01-19 | 20-39 | 40-44 | 45-52 | 53-62 | 63-77 |
+| Plains | 01-19 | 20-29 | 30-31 | 32 | 33-52 | 53-60 |
+| Rural | 01-10 | 11-20 | 21 | 22 | 23-58 | 59-66 |
+| Tundra | 01-08 | 09-23 | 24-27 | 28-33 | 34-43 | 44-58 |
+| Wetlands | 01-05 | 06-15 | 16-18 | 19-20 | 21-22 | 23-37 |
+
+| Terrain | Monster | NPC | Undead | Invertebrates | Water | Special |
+|---|---|---|---|---|---|---|
+| Aquatic | 47-56 | 57-58 | 59 | 60-69 | 70-99 | 00 |
+| Arctic | 58-82 | 83 | 84 | 85-89 | 90-99 | 00 |
+| Desert | 62-76 | 77-83 | 84 | 85-96 | 97-98 | 99-00 |
+| Forest | 57-76 | 77-78 | 79 | 80-88 | 89-98 | 99-00 |
+| Graveyard | 38-57 | 58-62 | 63-87 | 88-97 | 98 | 99-00 |
+| Hills | 76-90 | 91-92 | 93 | 94-98 | 99 | 00 |
+| Jungle | 50-67 | 68-69 | 70-74 | 75-89 | 90-99 | 00 |
+| Lost World | 51-70 | 71-73 | 74 | 75-89 | 90-99 | 00 |
+| Marine | 46-60 | 61-65 | 66 | 67-69 | 70-99 | 00 |
+| Mountains | 78-82 | 83-84 | 85 | 86-92 | 93-95 | 96-00 |
+| Plains | 61-75 | 76-78 | 79 | 80-89 | 90-97 | 98-00 |
+| Rural | 67-76 | 77-80 | 81 | 82-91 | 92-99 | 00 |
+| Tundra | 59-78 | 79-80 | 81 | 82-91 | 92-99 | 00 |
+| Wetlands | 38-57 | 58 | 58-60 | 61-80 | 81-95 | 95-00 |
+
+*Wetlands has no further breakdown table in the source material — treat it as a Rural or Marine encounter, GM's choice, or reroll on the Category Summary.*
+
+The **NPC** category above refers to the following types of lone NPCs or small non-adventuring groups (as opposed to full adventuring parties, generated as described under *NPC Parties*):
+
+- **Decoys**: Serve either to distract the party from something else, or put the party at ease and lure them into a dangerous situation — for example, a group of charmed humans who seek to lure the party into a monster's den.
+- **Escapees**: These NPCs have escaped from imprisonment by some nearby entity. They may have little or no equipment or weapons, and are either under pursuit from their captors or will be shortly.
+- **Joiners**: Seek to join the party. The GM is free to manufacture a motivation, either malevolent or benevolent.
+- **Runners**: The NPCs are fleeing or avoiding an encounter. Whatever they are fleeing is probably chasing them; whatever they are avoiding may or may not be aware of their presence. Unlike escapees, these NPCs will be appropriately armed, armoured, and equipped.
+- **Searchers**: Are looking for something, usually an item or person: a powerful artifact, weapon, or stolen item; or a friend, arch-enemy, or kidnapped relative.
+- **Survivors**: 1 or 2 demoralized survivors of an otherwise wiped-out adventuring party. They may have limited equipment and be in need of healing.
+- **Wolves in Sheep's Clothing**: An encounter with something that appears human but is not — werecreatures, doppelgangers, polymorphed creatures, and the like. The disguised creature may not necessarily mean the party harm.
+
+#### Aquatic
+
+| 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
+|---|---|---|---|---|---|---|
+| 1 | Bat | Baboon | Dragon, Black | Giant, Hill | Castle | Bugbear |
+| 2 | Bat | Bear, Black | Dragon, Black | Giant, Hill | Dwarf | Gnoll |
+| 3 | Bat | Boar | Dragon, Black | Giant, Hill | Elf | Gnoll |
+| 4 | Bat | Cat, Great | Dragon, Black | Giant, Hill | Fishing Village | Gnoll |
+| 5 | Bat, Giant | Cattle | Dragon, Black | Giant, Hill | Gnome | Goblin |
+| 6 | Bat, Giant | Cat, Great | Dragon, Black | Giant, Hill | Halfling | Troglodyte |
+| 7 | Flightless Bird | Dog | Dragon, Black | Giant, Hill | Hamlet | Hobgoblin |
+| 8 | Flightless Bird | Elephant | Dragon, Black | Giant, Hill | Men, Bandit | Hobgoblin |
+| 9 | Flightless Bird | Horse | Dragon, Bronze | Giant, Hill | Men, Bandit | Hobgoblin |
+| 10 | Flightless Bird | Horse | Dragon, Bronze | Giant, Hill | Men, Brigand | Kobold |
+| 11 | Flightless Bird | Hyena | Dragon, Gold | Giant, Hill | Men, Brigand | Orc |
+| 12 | Eagle, Giant | Jackal | Dragon, Green | Giant, Hill | Men, Buccaneer / Pirate | Orc |
+| 13 | Chimera | Lizards, Giant | Dragon, Green | Giant, Hill | Men, Buccaneer / Pirate | Orc |
+| 14 | Cockatrice | Lizards, Giant | Dragon, Green | Giant, Hill | Men, Merchant | Orc |
+| 15 | Shedu | Rat | Dragon, Green | Giant, Hill | Men, Merchant | Orc |
+| 16 | Sphinx | Rat | Dragon, Red | Giant, Storm | Men, Merchant | Orc |
+| 17 | Sphinx | Rhinoceros | Dragon, Red | Giant, Storm | Men, Nomad | Troglodyte |
+| 18 | Stirge | Snake | Dragon, Red | Giant, Storm | Men, Merchant | Troll |
+| 19 | Stirge | Snake | Dragon, Red | Giant, Storm | Men, Buccaneer / Pirate | Troll |
+| 20 | Stirge | Wolf | Dragon, Red | Giant, Storm | Men, Buccaneer / Pirate | Troll |
+
+| 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
+|---|---|---|---|---|---|---|
+| 1 | Basilisk | Decoys | Ghast | Ant, Giant | Beetle, Giant | Type I Demon (Vrock) |
+| 2 | Lizards, Giant | Decoys | Ghast | Ant, Giant | Crayfish, Giant | Type II Demon (Hezrou) |
+| 3 | Blink Dog | Escapees | Ghoul | Beetle, Giant | Crocodile | Type II Demon (Hezrou) |
+| 4 | Blink Dog | Escapees | Ghoul | Beetle, Giant | Crocodile | Type IV Demon (Nalfeshnee) |
+| 5 | Bulette | Escapees | Ghoul | Beetle, Giant | Eel | Barbed Devil |
+| 6 | Cat, Great | Joiners | Ghoul | Beetle, Giant | Eel | Bone Devil |
+| 7 | Centaur | Joiners | Ghoul | Beetle, Giant | Fish, Giant | Barbed Devil |
+| 8 | Cyclops | Joiners | Skeleton | Centipede, Giant | Fish, Giant | Barbed Devil |
+| 9 | Basilisk | Joiners | Skeleton | Centipede, Giant | Frog, Giant | Elemental, Air |
+| 10 | Hellhound | Runners | Skeleton | Centipede, Giant | Hippopotamus | Elemental, Air |
+| 11 | Wererat | Runners | Skeleton | Centipede, Giant | Locathah | Elemental, Water |
+| 12 | Naga | Searchers | Skeleton | Fly, Robber | Naga | Elemental, Water |
+| 13 | Lizard Man | Searchers | Will-O-Wisp | Fly, Robber | Sea Serpent (Lesser) | Elemental, Water |
+| 14 | Lizard Man | Searchers | Zombie | Spider, Giant | Toad, Giant | Elemental, Water |
+| 15 | Lizard Man | Searchers | Zombie | Spider, Giant | Toad, Giant | Homunculus |
+| 16 | Lizards, Giant | Searchers | Zombie | Wasp, Giant | Turtle, Giant | Invisible Stalker |
+| 17 | Owl Bear | Survivors | Zombie | Wasp, Giant | Turtle, Giant | Invisible Stalker |
+| 18 | Owl Bear | Wolf | Zombie | Wasp, Giant | Turtle, Giant | Night Hag |
+| 19 | Pseudo-Dragon | Wolf | Zombie | Wasp, Giant | Triton | Pixie |
+| 20 | Wolf | Wolf | Zombie | Wasp, Giant | Turtle, Giant | Rakshasa |
+
+#### Arctic
+
+| 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
+|---|---|---|---|---|---|---|
+| 1 | Flightless Bird | Bear, Cave | Dragon, Black | Giant, Cloud | Dwarf | Bugbear |
+| 2 | Flightless Bird | Bear, Cave | Dragon, Black | Giant, Cloud | Dwarf | Bugbear |
+| 3 | Eagle, Giant | Bear, Cave | Dragon, Black | Giant, Frost | Dwarf | Gnoll |
+| 4 | Chimera | Bear, Cave | Dragon, Black | Giant, Frost | Men, Bandit | Gnoll |
+| 5 | Cockatrice | Dog | Dragon, Black | Giant, Frost | Men, Bandit | Gnoll |
+| 6 | Cockatrice | Dog | Dragon, Black | Giant, Frost | Men, Bandit | Gnoll |
+| 7 | Griffon | Dog | Dragon, Bronze | Giant, Frost | Berserker | Goblin |
+| 8 | Harpy | Dog | Dragon, Bronze | Giant, Frost | Berserker | Goblin |
+| 9 | Hippogriff | Sea Lion | Dragon, Bronze | Giant, Frost | Berserker | Hobgoblin |
+| 10 | Nightmare | Sea Lion | Dragon, Red | Giant, Frost | Berserker | Hobgoblin |
+| 11 | Pegasus | Sea Lion | Dragon, Red | Giant, Frost | Men, Brigand | Hobgoblin |
+| 12 | Roc | Wolf | Dragon, White | Giant, Frost | Men, Brigand | Troll |
+| 13 | Shedu | Wolf | Dragon, White | Giant, Frost | Men, Brigand | Troll |
+| 14 | Sphinx | Wolf | Dragon, White | Giant, Frost | Men, Merchant | Troll |
+| 15 | Sphinx | Wolf | Dragon, White | Giant, Frost | Men, Merchant | Troll |
+| 16 | Sphinx | Wolf | Dragon, White | Giant, Stone | Men, Merchant | Troll |
+| 17 | Sphinx | Wolverine | Dragon, White | Giant, Stone | Men, Merchant | Troll |
+| 18 | Stirge | Wolverine | Dragon, White | Giant, Storm | Men, Merchant | Troll |
+| 19 | Stirge | Wolverine | Dragon, White | Giant, Storm | Werewolf | Troll |
+| 20 | Wyvern | Wolverine | Dragon, White | Giant, Storm | Werewolf | Troll |
+
+| 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
+|---|---|---|---|---|---|---|
+| 1 | Basilisk | Decoys | Ghost | Ant, Giant | Pike, Giant | Aerial Servant |
+| 2 | Blink Dog | Decoys | Ghost | Ant, Giant | Pike, Giant | Hellhound |
+| 3 | Blink Dog | Escapees | Ghost | Ant, Giant | Crab, Giant | Hellhound |
+| 4 | Blink Dog | Escapees | Ghost | Ant, Giant | Eel | Bone Devil |
+| 5 | Displacer Beast | Escapees | Groaning Spirit | Beetle, Giant | Sea Serpent (Lesser) | Type III Demon (Glabrezu) |
+| 6 | Naga | Joiners | Groaning Spirit | Beetle, Giant | Octopus, Giant | Type I Demon (Vrock) |
+| 7 | Owl Bear | Joiners | Groaning Spirit | Beetle, Giant | Nixies | Type IV Demon (Nalfeshnee) |
+| 8 | Remorhaz | Joiners | Shadow | Beetle, Giant | Octopus, Giant | Type IV Demon (Nalfeshnee) |
+| 9 | Remorhaz | Joiners | Shadow | Beetle, Giant | Sea Serpent (Lesser) | Succubus |
+| 10 | Remorhaz | Runners | Vampire | Beetle, Giant | Shark | Night Hag |
+| 11 | Remorhaz | Runners | Vampire | Beetle, Giant | Shark | Ice Devil |
+| 12 | Remorhaz | Searchers | Vampire | Beetle, Giant | Squid, Giant | Cat, Great |
+| 13 | Wolf | Searchers | Vampire | Beetle, Giant | Squid, Giant | Hobgoblin |
+| 14 | Wolf | Searchers | Wight | Beetle, Giant | Sea Lion | Imp |
+| 15 | Wolf | Searchers | Wight | Displacer Beast | Sea Lion | Night Hag |
+| 16 | Wolf | Searchers | Wight | Displacer Beast | Sea Lion | Lemure |
+| 17 | Yeti | Survivors | Will-O-Wisp | Displacer Beast | Sea Lion | Bone Devil |
+| 18 | Yeti | Wolf | Will-O-Wisp | Displacer Beast | Sea Lion | Men, Dervish |
+| 19 | Yeti | Wolf | Will-O-Wisp | Displacer Beast | Sea Lion | Quasit |
+| 20 | Yeti | Wolf | Will-O-Wisp | Displacer Beast | Sea Lion | Quasit |
+
+#### Desert
+
+| 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
+|---|---|---|---|---|---|---|
+| 1 | Flightless Bird | Camel | Dragon, Blue | Giant, Cloud | Men, Bandit | Gnoll |
+| 2 | Flightless Bird | Camel | Dragon, Blue | Giant, Cloud | Men, Bandit | Gnoll |
+| 3 | Flightless Bird | Camel | Dragon, Blue | Giant, Cloud | Men, Bandit | Gnoll |
+| 4 | Flightless Bird | Cat, Great | Dragon, Blue | Ogre | Men, Brigand | Gnoll |
+| 5 | Chimera | Cat, Great | Dragon, Brass | Ogre | Men, Brigand | Gnoll |
+| 6 | Chimera | Dog | Dragon, Brass | Ogre | Men, Brigand | Gnoll |
+| 7 | Cockatrice | Horse | Dragon, Brass | Ogre | Men, Dervish | Goblin |
+| 8 | Cockatrice | Jackal | Dragon, Brass | Ogre | Men, Dervish | Troglodyte |
+| 9 | Cockatrice | Jackal | Dragon, Bronze | Ogre | Men, Dervish | Troglodyte |
+| 10 | Manticore | Jackal | Dragon, Bronze | Ogre | Men, Dervish | Hobgoblin |
+| 11 | Manticore | Jackal | Dragon, Copper | Ogre | Men, Dervish | Orc |
+| 12 | Manticore | Jackal | Dragon, Copper | Ogre | Men, Nomad | Orc |
+| 13 | Nightmare | Rat | Dragon, Gold | Ogre | Men, Nomad | Orc |
+| 14 | Roc | Rat | Dragon, Gold | Ogre | Men, Nomad | Troll |
+| 15 | Roc | Rat | Dragon, Green | Ogre Mage | Men, Nomad | Troll |
+| 16 | Sphinx | Rat | Dragon, Red | Ogre Mage | Men, Merchant | Troll |
+| 17 | Sphinx | Snake | Dragon, Red | Ogre Mage | Men, Merchant | Troll |
+| 18 | Sphinx | Snake | Dragon, Red | Ogre Mage | Wereboar | Troll |
+| 19 | Sphinx | Snake | Dragon, Red | Ogre Mage | Wererat | Troll |
+| 20 | Stirge | Snake | Dragon, Silver | Ogre Mage | Werewolf | Troll |
+
+| 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
+|---|---|---|---|---|---|---|
+| 1 | Ankheg | Decoys | Ghast | Ant, Giant | Beetle, Giant | Bear, Cave |
+| 2 | Basilisk | Decoys | Ghast | Ant, Giant | Beetle, Giant | Elemental, Air |
+| 3 | Lizards, Giant | Decoys | Ghoul | Ant, Giant | Crayfish, Giant | Elemental, Earth |
+| 4 | Blink Dog | Escapees | Ghoul | Ant, Giant | Crocodile | Elemental, Earth |
+| 5 | Bulette | Escapees | Ghoul | Ant, Giant | Crocodile | Elemental, Fire |
+| 6 | Basilisk | Escapees | Ghoul | Centipede, Giant | Crocodile | Elemental, Fire |
+| 7 | Hellhound | Escapees | Ghoul | Centipede, Giant | Crocodile | Elemental, Water |
+| 8 | Wererat | Joiners | Lich | Centipede, Giant | Eel | Djinni |
+| 9 | Wererat | Joiners | Mummy | Centipede, Giant | Fish, Giant | Djinni |
+| 10 | Naga | Runners | Mummy | Centipede, Giant | Fish, Giant | Invisible Stalker |
+| 11 | Naga | Runners | Mummy | Centipede, Giant | Hippopotamus | Salamander |
+| 12 | Lizards, Giant | Searchers | Mummy | Fly, Robber | Hippopotamus | Salamander |
+| 13 | Naga | Searchers | Mummy | Fly, Robber | Hippopotamus | Salamander |
+| 14 | Naga | Searchers | Skeleton | Fly, Robber | Naga | Salamander |
+| 15 | Pseudo-Dragon | Searchers | Vampire | Scorpion, Giant | Spider, Giant | Skeleton |
+| 16 | Pseudo-Dragon | Survivors | Vampire | Spider, Giant | Spider, Giant | Night Hag |
+| 17 | Purple Worm | Wolf | Wight | Spider, Giant | Toad, Giant | Rakshasa |
+| 18 | Purple Worm | Wolf | Zombie | Spider, Giant | Toad, Giant | Troll |
+| 19 | Wolf | Wolf | Zombie | Wasp, Giant | Toad, Giant | Xorn |
+| 20 | Wolf | Wolf | Zombie | Wasp, Giant | Toad, Giant | Xorn |
+
+#### Forest
+
+| 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
+|---|---|---|---|---|---|---|
+| 1 | Bat | Badger | Dragon, Bronze | Giant, Hill | Castle | Bugbear |
+| 2 | Bat | Bear, Black | Dragon, Bronze | Giant, Hill | Elf | Gnoll |
+| 3 | Bat, Giant | Bear, Brown | Dragon, Gold | Giant, Hill | Elf | Gnoll |
+| 4 | Bat, Giant | Boar | Dragon, Gold | Giant, Hill | Elf | Gnoll |
+| 5 | Flightless Bird | Cat, Great | Dragon, Gold | Ogre | Elf | Troglodyte |
+| 6 | Flightless Bird | Dog | Dragon, Green | Ogre | Hamlet | Troglodyte |
+| 7 | Flightless Bird | Horse | Dragon, Green | Ogre | Men, Bandit | Troglodyte |
+| 8 | Flightless Bird | Horse | Dragon, Green | Ogre | Men, Bandit | Hobgoblin |
+| 9 | Chimera | Jackal | Dragon, Green | Ogre | Men, Brigand | Kobold |
+| 10 | Cockatrice | Jackal | Dragon, Green | Ogre | Men, Brigand | Kobold |
+| 11 | Nightmare | Rat | Dragon, Green | Ogre | Men, Merchant | Kobold |
+| 12 | Pegasus | Rat | Dragon, Green | Ogre | Men, Merchant | Kobold |
+| 13 | Pixie | Snake | Dragon, Green | Ogre | Men, Merchant | Orc |
+| 14 | Shedu | Snake | Dragon, Red | Ogre Mage | Men, Merchant | Orc |
+| 15 | Sphinx | Snake | Dragon, Red | Ogre Mage | Men, Merchant | Orc |
+| 16 | Sphinx | Snake | Dragon, Red | Ogre Mage | Men, Merchant | Troll |
+| 17 | Sphinx | Wolf | Dragon, Red | Ogre Mage | Werebear | Troll |
+| 18 | Sphinx | Wolf | Dragon, Red | Ogre Mage | Wereboar | Troll |
+| 19 | Stirge | Wolverine | Dragon, Red | Ogre Mage | Wererat | Troll |
+| 20 | Wyvern | Wolverine | Dragon, Red | Ogre Mage | Werewolf | Troll |
+
+| 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
+|---|---|---|---|---|---|---|
+| 1 | Centaur | Decoys | Groaning Spirit | Ant, Giant | Beetle, Giant | Succubus |
+| 2 | Centaur | Decoys | Groaning Spirit | Ant, Giant | Beetle, Giant | Barbed Devil |
+| 3 | Dryad | Decoys | Groaning Spirit | Ant, Giant | Crayfish, Giant | Bone Devil |
+| 4 | Dryad | Escapees | Ghoul | Ant, Giant | Crayfish, Giant | Pit Fiend |
+| 5 | Satyr | Escapees | Ghoul | Beetle, Giant | Crocodile | Elemental, Air |
+| 6 | Satyr | Escapees | Ghoul | Beetle, Giant | Crocodile | Elemental, Earth |
+| 7 | Leprechaun | Escapees | Shadow | Beetle, Giant | Crocodile | Elemental, Fire |
+| 8 | Leprechaun | Joiners | Shadow | Beetle, Giant | Crocodile | Elemental, Water |
+| 9 | Minotaur | Joiners | Shadow | Beetle, Giant | Eel | Golem |
+| 10 | Nymph | Runners | Shadow | Centipede, Giant | Eel | Invisible Stalker |
+| 11 | Nymph | Runners | Skeleton | Centipede, Giant | Fish, Giant | Salamander |
+| 12 | Owl Bear | Runners | Skeleton | Centipede, Giant | Fish, Giant | Salamander |
+| 13 | Owl Bear | Searchers | Skeleton | Fly, Robber | Fish, Giant | Salamander |
+| 14 | Pseudo-Dragon | Searchers | Skeleton | Fly, Robber | Fish, Giant | Salamander |
+| 15 | Slug, Giant | Searchers | Wraith | Scorpion, Giant | Frog, Giant | Skeleton |
+| 16 | Sylph | Searchers | Wraith | Spider, Giant | Nixies | Night Hag |
+| 17 | Treant | Survivors | Zombie | Spider, Giant | Nixies | Goblin |
+| 18 | Treant | Survivors | Zombie | Spider, Giant | Nixies | Quasit |
+| 19 | Unicorn | Wolf | Zombie | Spider, Giant | Toad, Giant | Sea Serpent (Lesser) |
+| 20 | Wolf | Wolf | Zombie | Wasp, Giant | Toad, Giant | Xorn |
+
+#### Graveyard
+
+| 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
+|---|---|---|---|---|---|---|
+| 1 | Bat | Badger | Dragon, Black | Ettin | Alchemist's Lab | Gnoll |
+| 2 | Bat | Bear, Black | Dragon, Black | Ettin | Hamlet | Gnoll |
+| 3 | Bat | Bear, Brown | Dragon, Black | Ettin | Men, Bandit | Gnoll |
+| 4 | Bat, Giant | Boar | Dragon, Black | Ettin | Men, Bandit | Goblin |
+| 5 | Bat, Giant | Dog | Dragon, Black | Ettin | Men, Bandit | Goblin |
+| 6 | Bat, Giant | Hyena | Dragon, Green | Ettin | Men, Bandit | Goblin |
+| 7 | Bat, Giant | Jackal | Dragon, Green | Ettin | Men, Brigand | Goblin |
+| 8 | Flightless Bird | Rat | Dragon, Green | Ettin | Men, Brigand | Goblin |
+| 9 | Flightless Bird | Rat | Dragon, Green | Giant, Hill | Men, Brigand | Goblin |
+| 10 | Flightless Bird | Rat | Dragon, Green | Giant, Hill | Men, Brigand | Troglodyte |
+| 11 | Flightless Bird | Rat | Dragon, Green | Ogre | Men, Brigand | Troglodyte |
+| 12 | Eagle, Giant | Rat | Dragon, Green | Ogre | Men, Merchant | Hobgoblin |
+| 13 | Eagle, Giant | Rat | Dragon, Green | Ogre | Men, Merchant | Hobgoblin |
+| 14 | Gargoyle | Snake | Dragon, Green | Ogre | Men, Merchant | Hobgoblin |
+| 15 | Gargoyle | Snake | Dragon, Green | Ogre | Men, Merchant | Orc |
+| 16 | Stirge | Snake | Dragon, Red | Ogre | Men, Merchant | Orc |
+| 17 | Stirge | Snake | Dragon, Red | Ogre Mage | Men, Merchant | Orc |
+| 18 | Stirge | Snake | Dragon, Red | Ogre Mage | Wererat | Orc |
+| 19 | Wyvern | Wolf | Dragon, Red | Ogre Mage | Wererat | Orc |
+| 20 | Wyvern | Wolf | Dragon, Red | Ogre Mage | Wizard's Tower | Orc |
+
+| 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
+|---|---|---|---|---|---|---|
+| 1 | Strangle Weed | Decoys | Groaning Spirit | Ant, Giant | Crayfish, Giant | Efreeti |
+| 2 | Strangle Weed | Decoys | Ghast | Ant, Giant | Crayfish, Giant | Hellhound |
+| 3 | Strangle Weed | Decoys | Ghast | Ant, Giant | Crayfish, Giant | Animated Armor |
+| 4 | Basilisk | Decoys | Ghost | Beetle, Giant | Crocodile | Type VI Demon (Balor) |
+| 5 | Basilisk | Decoys | Ghoul | Beetle, Giant | Crocodile | Succubus |
+| 6 | Lizards, Giant | Escapees | Lich | Beetle, Giant | Crocodile | Night Hag |
+| 7 | Bulette | Escapees | Mummy | Centipede, Giant | Crocodile | Horned Devil (Malebranche) |
+| 8 | Carrion Crawler | Escapees | Ghast | Centipede, Giant | Eel | Erinyes |
+| 9 | Carrion Crawler | Joiners | Skeleton | Centipede, Giant | Eel | Ice Devil |
+| 10 | Carrion Crawler | Joiners | Skeleton | Centipede, Giant | Spider, Giant | Bone Devil |
+| 11 | Cat, Great | Runners | Skeleton | Fly, Robber | Spider, Giant | Manticore |
+| 12 | Wight | Runners | Spectre | Fly, Robber | Toad, Giant | Imp |
+| 13 | Wight | Runners | Vampire | Fly, Robber | Toad, Giant | Lemure |
+| 14 | Hellhound | Searchers | Wight | Scorpion, Giant | Toad, Giant | Salamander |
+| 15 | Wererat | Searchers | Will-O-Wisp | Spider, Giant | Toad, Giant | Salamander |
+| 16 | Lamia | Survivors | Wraith | Spider, Giant | Toad, Giant | Salamander |
+| 17 | Medusa | Survivors | Zombie | Spider, Giant | Toad, Giant | Salamander |
+| 18 | Naga | Wolf | Zombie | Spider, Giant | Toad, Giant | Skeleton |
+| 19 | Rot Grub | Wolf | Zombie | Spider, Giant | Toad, Giant | Night Hag |
+| 20 | Wolf | Wolf | Zombie | Wasp, Giant | Turtle, Giant | Night Hag |
+
+#### Hills
+
+| 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
+|---|---|---|---|---|---|---|
+| 1 | Flightless Bird | Cat, Great | Dragon, Black | Ettin | Elf | Bugbear |
+| 2 | Flightless Bird | Cat, Great | Dragon, Bronze | Ettin | Halfling | Bugbear |
+| 3 | Flightless Bird | Dog | Dragon, Bronze | Ettin | Halfling | Bugbear |
+| 4 | Flightless Bird | Dog | Dragon, Bronze | Ettin | Halfling | Bugbear |
+| 5 | Flightless Bird | Horse | Dragon, Bronze | Giant, Hill | Halfling | Troglodyte |
+| 6 | Eagle, Giant | Rat | Dragon, Gold | Giant, Hill | Halfling | Troglodyte |
+| 7 | Chimera | Rat | Dragon, Green | Giant, Hill | Hamlet | Hobgoblin |
+| 8 | Cockatrice | Rat | Dragon, Green | Giant, Hill | Men, Bandit | Hobgoblin |
+| 9 | Griffon | Rat | Dragon, Green | Giant, Hill | Men, Bandit | Hobgoblin |
+| 10 | Harpy | Rat | Dragon, Red | Giant, Hill | Men, Bandit | Kobold |
+| 11 | Harpy | Snake | Dragon, Red | Giant, Hill | Men, Brigand | Kobold |
+| 12 | Harpy | Snake | Dragon, Red | Ogre | Men, Merchant | Orc |
+| 13 | Nightmare | Snake | Dragon, Red | Ogre | Men, Merchant | Orc |
+| 14 | Pegasus | Snake | Dragon, Red | Ogre | Men, Merchant | Troll |
+| 15 | Pixie | Snake | Dragon, Red | Ogre | Stronghold | Troll |
+| 16 | Shedu | Wolf | Dragon, Red | Ogre | Men, Merchant | Troll |
+| 17 | Stirge | Wolf | Dragon, Red | Ogre Mage | Wereboar | Troll |
+| 18 | Stirge | Wolf | Dragon, Red | Ogre Mage | Wererat | Troll |
+| 19 | Stirge | Wolf | Dragon, Red | Titan | Werewolf | Troll |
+| 20 | Wyvern | Wolverine | Dragon, Silver | Titan | Werewolf | Troll |
+
+| 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
+|---|---|---|---|---|---|---|
+| 1 | Basilisk | Decoys | Groaning Spirit | Ant, Giant | Crayfish, Giant | Hellhound |
+| 2 | Lizards, Giant | Decoys | Ghast | Ant, Giant | Crayfish, Giant | Hellhound |
+| 3 | Blink Dog | Decoys | Ghost | Ant, Giant | Crayfish, Giant | Type II Demon (Hezrou) |
+| 4 | Cat, Great | Escapees | Ghoul | Ant, Giant | Crocodile | Succubus |
+| 5 | Displacer Beast | Escapees | Ghoul | Ant, Giant | Crocodile | Bone Devil |
+| 6 | Basilisk | Escapees | Ghoul | Ant, Giant | Crocodile | Barbed Devil |
+| 7 | Leprechaun | Escapees | Lich | Beetle, Giant | Crocodile | Barbed Devil |
+| 8 | Leprechaun | Escapees | Shadow | Beetle, Giant | Eel | Doppelganger |
+| 9 | Lizard Man | Joiners | Shadow | Beetle, Giant | Fish, Giant | Elemental, Air |
+| 10 | Lizard Man | Joiners | Skeleton | Centipede, Giant | Fish, Giant | Elemental, Earth |
+| 11 | Medusa | Joiners | Skeleton | Centipede, Giant | Sea Serpent (Lesser) | Elemental, Fire |
+| 12 | Minotaur | Joiners | Skeleton | Centipede, Giant | Frog, Giant | Elemental, Water |
+| 13 | Naga | Runners | Skeleton | Fly, Robber | Frog, Giant | Djinni |
+| 14 | Owl Bear | Runners | Spectre | Fly, Robber | Nixies | Golem |
+| 15 | Owl Bear | Runners | Vampire | Scorpion, Giant | Nixies | Golem |
+| 16 | Pseudo-Dragon | Searchers | Vampire | Spider, Giant | Spider, Giant | Homunculus |
+| 17 | Rust Monster | Searchers | Wraith | Spider, Giant | Spider, Giant | Berserker |
+| 18 | Treant | Survivors | Zombie | Spider, Giant | Toad, Giant | Goblin |
+| 19 | Unicorn | Wolf | Zombie | Spider, Giant | Toad, Giant | Rakshasa |
+| 20 | Wolf | Wolf | Zombie | Wasp, Giant | Toad, Giant | Xorn |
+
+#### Jungle
+
+| 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
+|---|---|---|---|---|---|---|
+| 1 | Bat | Ape | Dragon, Black | Ettin | Men, Bandit | Gnoll |
+| 2 | Bat | Ape | Dragon, Black | Ettin | Men, Bandit | Gnoll |
+| 3 | Bat | Ape | Dragon, Bronze | Ettin | Men, Brigand | Gnoll |
+| 4 | Bat, Giant | Ape | Dragon, Bronze | Ettin | Men, Brigand | Troglodyte |
+| 5 | Bat, Giant | Ape | Dragon, Green | Ettin | Men, Merchant | Troglodyte |
+| 6 | Bat, Giant | Baboon | Dragon, Green | Ettin | Men, Merchant | Hobgoblin |
+| 7 | Bat, Giant | Baboon | Dragon, Green | Ettin | Men, Merchant | Orc |
+| 8 | Bat, Giant | Elephant | Dragon, Green | Ettin | Men, Merchant | Orc |
+| 9 | Bat, Giant | Elephant | Dragon, Green | Giant, Cloud | Men, Merchant | Orc |
+| 10 | Bat, Giant | Jackal | Dragon, Green | Giant, Cloud | Men, Merchant | Men, Bandit |
+| 11 | Flightless Bird | Jackal | Dragon, Green | Giant, Fire | Men, Merchant | Men, Bandit |
+| 12 | Flightless Bird | Jackal | Dragon, Green | Giant, Fire | Stronghold | Men, Bandit |
+| 13 | Eagle, Giant | Cat, Great | Dragon, Green | Ogre | Village | Men, Bandit |
+| 14 | Chimera | Lizards, Giant | Dragon, Red | Ogre | Village | Men, Bandit |
+| 15 | Cockatrice | Lizards, Giant | Dragon, Red | Ogre | Wereboar | Men, Bandit |
+| 16 | Couatl | Rat | Dragon, Red | Ogre | Wereboar | Troll |
+| 17 | Couatl | Rat | Dragon, Red | Ogre | Weretiger | Troll |
+| 18 | Stirge | Rat | Dragon, Red | Ogre | Weretiger | Troll |
+| 19 | Wyvern | Cat, Great | Dragon, Red | Ogre Mage | Weretiger | Troll |
+| 20 | Wyvern | Cat, Great | Dragon, Red | Ogre Mage | Werewolf | Troll |
+
+| 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
+|---|---|---|---|---|---|---|
+| 1 | Strangle Weed | Decoys | Shadow | Ant, Giant | Crocodile | Efreeti |
+| 2 | Strangle Weed | Decoys | Skeleton | Beetle, Giant | Crocodile | Hellhound |
+| 3 | Strangle Weed | Decoys | Skeleton | Beetle, Giant | Eel | Hellhound |
+| 4 | Strangle Weed | Decoys | Skeleton | Beetle, Giant | Eel | Manes |
+| 5 | Ankheg | Escapees | Skeleton | Beetle, Giant | Crocodile | Type II Demon (Hezrou) |
+| 6 | Basilisk | Escapees | Zombie | Beetle, Giant | Crocodile | Quasit |
+| 7 | Basilisk | Escapees | Zombie | Beetle, Giant | Frog, Giant | Type I Demon (Vrock) |
+| 8 | Blink Dog | Escapees | Zombie | Beetle, Giant | Frog, Giant | Succubus |
+| 9 | Blink Dog | Joiners | Zombie | Centipede, Giant | Frog, Giant | Night Hag |
+| 10 | Displacer Beast | Joiners | Zombie | Centipede, Giant | Hippopotamus | Barbed Devil |
+| 11 | Displacer Beast | Runners | Zombie | Centipede, Giant | Hippopotamus | Bone Devil |
+| 12 | Lizard Man | Runners | Zombie | Fly, Robber | Nixies | Pit Fiend |
+| 13 | Lizard Man | Searchers | Zombie | Fly, Robber | Spider, Giant | Manticore |
+| 14 | Lizard Man | Searchers | Zombie | Fly, Robber | Spider, Giant | Doppelganger |
+| 15 | Basilisk | Searchers | Zombie | Scorpion, Giant | Toad, Giant | Elemental, Air |
+| 16 | Hellhound | Searchers | Zombie | Spider, Giant | Toad, Giant | Elemental, Earth |
+| 17 | Hellhound | Survivors | Zombie | Spider, Giant | Toad, Giant | Elemental, Fire |
+| 18 | Rot Grub | Wolf | Zombie | Spider, Giant | Toad, Giant | Elemental, Water |
+| 19 | Rot Grub | Wolf | Zombie | Spider, Giant | Turtle, Giant | Djinni |
+| 20 | Wolf | Wolf | Zombie | Wasp, Giant | Turtle, Giant | Mammoth |
+
+#### Lost World
+
+| 1d20 | Airborne | Animal | Large Carnivore | Large Herbivore | Human | Humanoid |
+|---|---|---|---|---|---|---|
+| 1 | Flightless Bird | Badger | Tyrannosaurus Rex | Apatosaurus | Neanderthal (Caveman) | Troglodyte |
+| 2 | Flightless Bird | Bear, Cave | Tyrannosaurus Rex | Apatosaurus | Neanderthal (Caveman) | Troglodyte |
+| 3 | Bat, Giant | Bear, Cave | Tyrannosaurus Rex | Apatosaurus | Neanderthal (Caveman) | Troglodyte |
+| 4 | Bat, Giant | Boar, Giant | Tyrannosaurus Rex | Apatosaurus | Neanderthal (Caveman) | Troglodyte |
+| 5 | Bat, Giant | Hyena | Megalosaurus | Brachiosaurus | Neanderthal (Caveman) | Troglodyte |
+| 6 | Bat, Giant | Jackal | Megalosaurus | Camarasaurus | Neanderthal (Caveman) | Troglodyte |
+| 7 | Bat, Giant | Cat, Great | Megalosaurus | Camarasaurus | Neanderthal (Caveman) | Troglodyte |
+| 8 | Flightless Bird | Mammoth | Gorgosaurus | Triceratops | Neanderthal (Caveman) | Troglodyte |
+| 9 | Flightless Bird | Mammoth | Gorgosaurus | Cetiosaurus | Neanderthal (Caveman) | Troglodyte |
+| 10 | Eagle, Giant | Mastodon | Gorgosaurus | Cetiosaurus | Neanderthal (Caveman) | Troglodyte |
+| 11 | Eagle, Giant | Rat | Tyrannosaurus Rex | Pentaceratops | Neanderthal (Caveman) | Troglodyte |
+| 12 | Pterodactyl | Rhinoceros | Tyrannosaurus Rex | Diplodocus | Neanderthal (Caveman) | Troglodyte |
+| 13 | Pterodactyl | Snake | Tyrannosaurus Rex | Diplodocus | Neanderthal (Caveman) | Troglodyte |
+| 14 | Pterodactyl | Snake | Tyrannosaurus Rex | Monoclonius | Neanderthal (Caveman) | Troglodyte |
+| 15 | Pterodactyl | Sabre-Tooth Tiger | Tyrannosaurus Rex | Pentaceratops | Neanderthal (Caveman) | Troglodyte |
+| 16 | Pterodactyl | Sabre-Tooth Tiger | Tyrannosaurus Rex | Pentaceratops | Neanderthal (Caveman) | Troglodyte |
+| 17 | Pterodactyl | Wolf | Tyrannosaurus Rex | Styracosaurus | Lizard Man | Troll |
+| 18 | Pterodactyl | Wolf | Tyrannosaurus Rex | Styracosaurus | Lizard Man | Troll |
+| 19 | Pterodactyl | Wolf | Tyrannosaurus Rex | Triceratops | Lizard Man | Troll |
+| 20 | Pterodactyl | Wolverine | Tyrannosaurus Rex | Triceratops | NPC Party (see *NPC Parties*) | Troll |
+
+| 1d20 | Other Dinosaurs | NPC | Undead | Invertebrates | Water | Special |
+|---|---|---|---|---|---|---|
+| 1 | Ankylosaurus | Escapees | Skeleton | Beetle, Giant | Archelon | Peryton |
+| 2 | Ceratosaurus | Escapees | Skeleton | Beetle, Giant | Crocodile | Peryton |
+| 3 | Ceratosaurus | Escapees | Skeleton | Beetle, Giant | Dinichthys | Hellhound |
+| 4 | Megalosaurus | Escapees | Skeleton | Beetle, Giant | Dinichthys | Type I Demon (Vrock) |
+| 5 | Megalosaurus | Escapees | Skeleton | Beetle, Giant | Elasmosaurus | Type II Demon (Hezrou) |
+| 6 | Megalosaurus | Runners | Skeleton | Centipede, Giant | Octopus, Giant | Type VI Demon (Balor) |
+| 7 | Megalosaurus | Runners | Skeleton | Centipede, Giant | Mosasaurus | Manes |
+| 8 | Megalosaurus | Runners | Skeleton | Centipede, Giant | Plesiosaurus | Type II Demon (Hezrou) |
+| 9 | Iguanodon | Searchers | Wight | Centipede, Giant | Plesiosaurus | Quasit |
+| 10 | Iguanodon | Searchers | Wight | Centipede, Giant | Sea Serpent (Lesser) | Type I Demon (Vrock) |
+| 11 | Iguanodon | Survivors | Wight | Centipede, Giant | Sea Serpent (Lesser) | Horned Devil (Malebranche) |
+| 12 | Megalosaurus | Survivors | Wraith | Fly, Robber | Shark | Horned Devil (Malebranche) |
+| 13 | Megalosaurus | Survivors | Wraith | Fly, Robber | Shark | Horned Devil (Malebranche) |
+| 14 | Peryton | Survivors | Zombie | Fly, Robber | Spider, Giant | Ice Devil |
+| 15 | Peryton | Survivors | Zombie | Scorpion, Giant | Squid, Giant | Ice Devil |
+| 16 | Plateosaurus | Survivors | Zombie | Spider, Giant | Toad, Giant | Imp |
+| 17 | Plateosaurus | Survivors | Zombie | Spider, Giant | Toad, Giant | Pit Fiend |
+| 18 | Stegosaurus | NPC Party (see *NPC Parties*) | Zombie | Spider, Giant | Turtle, Giant | Horned Devil (Malebranche) |
+| 19 | Stegosaurus | NPC Party (see *NPC Parties*) | Zombie | Wasp, Giant | Turtle, Giant | Horned Devil (Malebranche) |
+| 20 | Cockatrice | NPC Party (see *NPC Parties*) | Zombie | Wasp, Giant | Whale | Imp |
+
+#### Marine
+
+| 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
+|---|---|---|---|---|---|---|
+| 1 | Flightless Bird | Ape | Dragon, Black | Giant, Cloud | Fishing Village | Gnoll |
+| 2 | Flightless Bird | Boar, Giant | Dragon, Black | Giant, Cloud | Men, Bandit | Gnoll |
+| 3 | Flightless Bird | Boar | Dragon, Blue | Giant, Storm | Men, Bandit | Gnoll |
+| 4 | Flightless Bird | Dog | Dragon, Brass | Giant, Storm | Men, Brigand | Gnoll |
+| 5 | Flightless Bird | Horse | Dragon, Bronze | Giant, Storm | Men, Buccaneer / Pirate | Goblin |
+| 6 | Flightless Bird | Jackal | Dragon, Bronze | Giant, Storm | Men, Buccaneer / Pirate | Goblin |
+| 7 | Flightless Bird | Jackal | Dragon, Bronze | Giant, Storm | Men, Buccaneer / Pirate | Troglodyte |
+| 8 | Eagle, Giant | Lizards, Giant | Dragon, Copper | Giant, Storm | Men, Merchant | Troglodyte |
+| 9 | Eagle, Giant | Lizards, Giant | Dragon, Gold | Giant, Storm | Men, Merchant | Hobgoblin |
+| 10 | Eagle, Giant | Lizards, Giant | Dragon, Gold | Giant, Storm | Men, Merchant | Hobgoblin |
+| 11 | Chimera | Lizards, Giant | Dragon, Gold | Ogre | Men, Merchant | Hobgoblin |
+| 12 | Chimera | Lizards, Giant | Dragon, Gold | Ogre | Men, Merchant | Kobold |
+| 13 | Chimera | Rat | Dragon, Green | Ogre | Men, Buccaneer / Pirate | Orc |
+| 14 | Cockatrice | Rat | Dragon, Red | Ogre | Men, Buccaneer / Pirate | Orc |
+| 15 | Cockatrice | Rat | Dragon, Red | Ogre | Men, Buccaneer / Pirate | Orc |
+| 16 | Harpy | Rat | Dragon, Red | Ogre | Wereboar | Troll |
+| 17 | Harpy | Rat | Dragon, Red | Ogre | Wererat | Troll |
+| 18 | Manticore | Snake | Dragon, Red | Ogre Mage | Wererat | Troll |
+| 19 | Nightmare | Snake | Dragon, Red | Ogre Mage | Weretiger | Troll |
+| 20 | Wyvern | Snake | Dragon, Silver | Ogre Mage | Werewolf | Troll |
+
+| 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
+|---|---|---|---|---|---|---|
+| 1 | Basilisk | Decoys | Groaning Spirit | Centipede, Giant | Pike, Giant | Shadow |
+| 2 | Lizards, Giant | Decoys | Lich | Centipede, Giant | Crab, Giant | Quasit |
+| 3 | Blink Dog | Escapees | Shadow | Centipede, Giant | Crab, Giant | Quasit |
+| 4 | Cat, Great | Escapees | Shadow | Centipede, Giant | Crab, Giant | Succubus |
+| 5 | Sahuagin | Escapees | Skeleton | Centipede, Giant | Crab, Giant | Succubus |
+| 6 | Sahuagin | Joiners | Skeleton | Fly, Robber | Eel | Imp |
+| 7 | Sahuagin | Joiners | Skeleton | Fly, Robber | Eel | Elemental, Water |
+| 8 | Sahuagin | Joiners | Skeleton | Fly, Robber | Octopus, Giant | Elemental, Water |
+| 9 | Cyclops | Joiners | Skeleton | Fly, Robber | Locathah | Elemental, Water |
+| 10 | Cyclops | Joiners | Spectre | Fly, Robber | Locathah | Homunculus |
+| 11 | Cyclops | Joiners | Wight | Fly, Robber | Mermen | Invisible Stalker |
+| 12 | Hellhound | Joiners | Wight | Scorpion, Giant | Mermen | Salamander |
+| 13 | Wererat | Runners | Wight | Scorpion, Giant | Sea Serpent (Lesser) | Salamander |
+| 14 | Wererat | Runners | Will-O-Wisp | Scorpion, Giant | Sea Serpent (Lesser) | Salamander |
+| 15 | Lizard Man | Runners | Will-O-Wisp | Spider, Giant | Shark | Salamander |
+| 16 | Lizard Man | Searchers | Wraith | Spider, Giant | Shark | Night Hag |
+| 17 | Lizard Man | Searchers | Zombie | Spider, Giant | Shark | Rakshasa |
+| 18 | Pseudo-Dragon | Survivors | Zombie | Spider, Giant | Triton | Troll |
+| 19 | Unicorn | Wolf | Zombie | Spider, Giant | Turtle, Giant | Xorn |
+| 20 | Wolf | Wolf | Zombie | Wasp, Giant | Whale | Xorn |
+
+#### Mountains
+
+| 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
+|---|---|---|---|---|---|---|
+| 1 | Bat | Bear, Black | Dragon, Bronze | Ettin | Dwarf | Bugbear |
+| 2 | Bat | Bear, Brown | Dragon, Bronze | Giant, Cloud | Dwarf | Bugbear |
+| 3 | Flightless Bird | Bear, Brown | Dragon, Bronze | Giant, Cloud | Dwarf | Bugbear |
+| 4 | Flightless Bird | Cat, Great | Dragon, Bronze | Giant, Fire | Dwarf | Bugbear |
+| 5 | Flightless Bird | Cat, Great | Dragon, Gold | Giant, Fire | Dwarf | Goblin |
+| 6 | Flightless Bird | Cat, Great | Dragon, Gold | Giant, Fire | Keep, Small | Goblin |
+| 7 | Eagle, Giant | Dog | Dragon, Gold | Giant, Fire | Men, Bandit | Goblin |
+| 8 | Griffon | Dog | Dragon, Gold | Giant, Hill | Men, Bandit | Goblin |
+| 9 | Griffon | Dog | Dragon, Green | Giant, Stone | Men, Bandit | Goblin |
+| 10 | Griffon | Dog | Dragon, Red | Giant, Stone | Men, Brigand | Goblin |
+| 11 | Harpy | Lizards, Giant | Dragon, Red | Giant, Stone | Men, Brigand | Troglodyte |
+| 12 | Harpy | Lizards, Giant | Dragon, Red | Giant, Stone | Men, Merchant | Troglodyte |
+| 13 | Hippogriff | Rat | Dragon, Red | Giant, Storm | Men, Merchant | Hobgoblin |
+| 14 | Hippogriff | Rat | Dragon, Red | Giant, Storm | Men, Merchant | Hobgoblin |
+| 15 | Nightmare | Rat | Dragon, Red | Ogre | Men, Merchant | Troll |
+| 16 | Pegasus | Rat | Dragon, Red | Ogre | Men, Merchant | Troll |
+| 17 | Roc | Rat | Dragon, Silver | Ogre | Village, Mining | Troll |
+| 18 | Stirge | Snake | Dragon, Silver | Ogre Mage | Werebear | Troll |
+| 19 | Stirge | Snake | Dragon, Silver | Ogre Mage | Werebear | Troll |
+| 20 | Stirge | Snake | Dragon, Silver | Titan | Wereboar | Troll |
+
+| 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
+|---|---|---|---|---|---|---|
+| 1 | Cyclops | Decoys | Ghast | Centipede, Giant | Beetle, Giant | Type VI Demon (Balor) |
+| 2 | Cyclops | Decoys | Ghost | Centipede, Giant | Beetle, Giant | Quasit |
+| 3 | Cyclops | Decoys | Ghost | Centipede, Giant | Beetle, Giant | Quasit |
+| 4 | Cyclops | Escapees | Ghoul | Centipede, Giant | Beetle, Giant | Bone Devil |
+| 5 | Hellhound | Joiners | Ghoul | Centipede, Giant | Frog, Giant | Ice Devil |
+| 6 | Hellhound | Joiners | Ghoul | Centipede, Giant | Frog, Giant | Imp |
+| 7 | Wererat | Joiners | Lich | Fly, Robber | Frog, Giant | Imp |
+| 8 | Wererat | Joiners | Lich | Fly, Robber | Frog, Giant | Doppelganger |
+| 9 | Lizard Man | Runners | Skeleton | Fly, Robber | Naga | Elemental, Air |
+| 10 | Lizard Man | Searchers | Skeleton | Scorpion, Giant | Nixies | Elemental, Earth |
+| 11 | Medusa | Searchers | Skeleton | Scorpion, Giant | Nixies | Elemental, Earth |
+| 12 | Medusa | Searchers | Skeleton | Spider, Giant | Nixies | Elemental, Earth |
+| 13 | Medusa | Searchers | Vampire | Spider, Giant | Nixies | Elemental, Fire |
+| 14 | Medusa | Survivors | Vampire | Spider, Giant | Toad, Giant | Elemental, Water |
+| 15 | Rust Monster | Survivors | Vampire | Spider, Giant | Toad, Giant | Night Hag |
+| 16 | Rust Monster | Survivors | Wraith | Spider, Giant | Toad, Giant | Goblin |
+| 17 | Unicorn | Wolf | Wraith | Spider, Giant | Toad, Giant | Rakshasa |
+| 18 | Unicorn | Wolf | Wraith | Spider, Giant | Toad, Giant | Sabre-Tooth Tiger |
+| 19 | Wolf | Wolf | Zombie | Wasp, Giant | Toad, Giant | Troll |
+| 20 | Wolf | Wolf | Zombie | Wasp, Giant | Turtle, Giant | Xorn |
+
+#### Plains
+
+| 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
+|---|---|---|---|---|---|---|
+| 1 | Bat | Buffalo | Dragon, Black | Ettin | Halfling | Gnoll |
+| 2 | Bat, Giant | Buffalo | Dragon, Blue | Ettin | Halfling | Gnoll |
+| 3 | Flightless Bird | Bull | Dragon, Blue | Ettin | Halfling | Gnoll |
+| 4 | Flightless Bird | Cattle | Dragon, Brass | Ettin | Halfling | Goblin |
+| 5 | Flightless Bird | Horse | Dragon, Bronze | Ettin | Halfling | Goblin |
+| 6 | Flightless Bird | Horse | Dragon, Bronze | Giant, Hill | Men, Bandit | Goblin |
+| 7 | Flightless Bird | Horse | Dragon, Copper | Giant, Hill | Men, Bandit | Goblin |
+| 8 | Flightless Bird | Horse | Dragon, Gold | Giant, Hill | Men, Brigand | Troglodyte |
+| 9 | Eagle, Giant | Horse | Dragon, Gold | Giant, Hill | Men, Brigand | Troglodyte |
+| 10 | Eagle, Giant | Horse | Dragon, Green | Giant, Hill | Men, Merchant | Hobgoblin |
+| 11 | Shedu | Hyena | Dragon, Green | Giant, Hill | Men, Merchant | Kobold |
+| 12 | Sphinx | Hyena | Dragon, Green | Ogre | Men, Merchant | Kobold |
+| 13 | Sphinx | Cat, Great | Dragon, Green | Ogre | Men, Merchant | Kobold |
+| 14 | Sphinx | Rhinoceros | Dragon, Red | Ogre | Men, Nomad | Orc |
+| 15 | Sphinx | Rhinoceros | Dragon, Red | Ogre | Men, Nomad | Orc |
+| 16 | Stirge | Snake | Dragon, Red | Ogre | Men, Nomad | Orc |
+| 17 | Stirge | Snake | Dragon, Red | Ogre | Men, Nomad | Troll |
+| 18 | Wyvern | Snake | Dragon, Red | Ogre | Men, Merchant | Troll |
+| 19 | Wyvern | Snake | Dragon, Red | Ogre Mage | Wizard's Tower | Troll |
+| 20 | Wyvern | Cat, Great | Dragon, Silver | Titan | Village, Farming | Troll |
+
+| 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
+|---|---|---|---|---|---|---|
+| 1 | Ankheg | Decoys | Groaning Spirit | Beetle, Giant | Beetle, Giant | Efreeti |
+| 2 | Ankheg | Decoys | Ghast | Beetle, Giant | Beetle, Giant | Ape |
+| 3 | Ankheg | Escapees | Ghost | Centipede, Giant | Beetle, Giant | Hellhound |
+| 4 | Ankheg | Escapees | Ghost | Centipede, Giant | Crayfish, Giant | Type II Demon (Hezrou) |
+| 5 | Basilisk | Joiners | Ghoul | Centipede, Giant | Crayfish, Giant | Type I Demon (Vrock) |
+| 6 | Blink Dog | Joiners | Ghoul | Centipede, Giant | Crocodile | Succubus |
+| 7 | Blink Dog | Joiners | Lich | Fly, Robber | Crocodile | Erinyes |
+| 8 | Bulette | Joiners | Mummy | Fly, Robber | Eel | Imp |
+| 9 | Bulette | Joiners | Skeleton | Fly, Robber | Eel | Lemure |
+| 10 | Centaur | Runners | Skeleton | Fly, Robber | Fish, Giant | Barbed Devil |
+| 11 | Centaur | Runners | Skeleton | Scorpion, Giant | Fish, Giant | Bone Devil |
+| 12 | Centaur | Searchers | Skeleton | Scorpion, Giant | Frog, Giant | Bone Devil |
+| 13 | Wererat | Searchers | Skeleton | Scorpion, Giant | Frog, Giant | Barbed Devil |
+| 14 | Owl Bear | Searchers | Spectre | Spider, Giant | Nixies | Dragon, White |
+| 15 | Pseudo-Dragon | Survivors | Vampire | Spider, Giant | Nixies | Elemental, Earth |
+| 16 | Purple Worm | Survivors | Wight | Spider, Giant | Spider, Giant | Golem |
+| 17 | Purple Worm | Survivors | Wraith | Spider, Giant | Spider, Giant | Imp |
+| 18 | Purple Worm | Survivors | Zombie | Wasp, Giant | Toad, Giant | Goblin |
+| 19 | Purple Worm | Wolf | Zombie | Wasp, Giant | Toad, Giant | Peryton |
+| 20 | Wolf | Wolf | Zombie | Wasp, Giant | Toad, Giant | Megalosaurus |
+
+#### Rural
+
+| 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
+|---|---|---|---|---|---|---|
+| 1 | Bat | Badger | Dragon, Blue | Ettin | Halfling | Gnoll |
+| 2 | Bat | Bear, Brown | Dragon, Bronze | Ettin | Halfling | Gnoll |
+| 3 | Bat | Bull | Dragon, Bronze | Ettin | Halfling | Gnoll |
+| 4 | Bat | Badger | Dragon, Bronze | Ettin | Men, Bandit | Goblin |
+| 5 | Bat | Badger | Dragon, Bronze | Ettin | Men, Bandit | Goblin |
+| 6 | Bat | Badger | Dragon, Bronze | Ettin | Men, Brigand | Goblin |
+| 7 | Bat, Giant | Cattle | Dragon, Gold | Ettin | Men, Brigand | Hobgoblin |
+| 8 | Bat, Giant | Cattle | Dragon, Gold | Ettin | Men, Merchant | Hobgoblin |
+| 9 | Flightless Bird | Dog | Dragon, Green | Giant, Cloud | Men, Merchant | Hobgoblin |
+| 10 | Flightless Bird | Dog | Dragon, Green | Giant, Fire | Men, Merchant | Kobold |
+| 11 | Flightless Bird | Dog | Dragon, Red | Giant, Hill | Men, Merchant | Kobold |
+| 12 | Flightless Bird | Horse | Dragon, Red | Giant, Storm | Men, Merchant | Kobold |
+| 13 | Flightless Bird | Horse | Dragon, Red | Ogre | Men, Merchant | Kobold |
+| 14 | Flightless Bird | Horse | Dragon, Silver | Ogre | Werebear | Orc |
+| 15 | Flightless Bird | Horse | Dragon, Silver | Ogre | Wereboar | Orc |
+| 16 | Flightless Bird | Horse | Dragon, Silver | Ogre | Wererat | Orc |
+| 17 | Eagle, Giant | Horse | Dragon, Gold | Ogre Mage | Wererat | Orc |
+| 18 | Eagle, Giant | Rat | Dragon, Gold | Ogre Mage | Wererat | Orc |
+| 19 | Wyvern | Rat | Dragon, Gold | Ogre Mage | Wererat | Troll |
+| 20 | Wyvern | Wolf | Dragon, Gold | Ogre Mage | Werewolf | Troll |
+
+| 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
+|---|---|---|---|---|---|---|
+| 1 | Ankheg | Decoys | Ghast | Ant, Giant | Crayfish, Giant | Strangle Weed |
+| 2 | Ankheg | Decoys | Ghost | Beetle, Giant | Crayfish, Giant | Hellhound |
+| 3 | Satyr | Escapees | Ghoul | Centipede, Giant | Crayfish, Giant | Hellhound |
+| 4 | Satyr | Escapees | Ghoul | Centipede, Giant | Crayfish, Giant | Sahuagin |
+| 5 | Hellhound | Joiners | Lich | Centipede, Giant | Crayfish, Giant | Lizard Man |
+| 6 | Hellhound | Joiners | Mummy | Fly, Robber | Crocodile | Type III Demon (Glabrezu) |
+| 7 | Lizard Man | Joiners | Shadow | Fly, Robber | Crocodile | Quasit |
+| 8 | Lizard Man | Joiners | Ghost | Fly, Robber | Crocodile | Succubus |
+| 9 | Naga | Joiners | Shadow | Fly, Robber | Eel | Succubus |
+| 10 | Naga | Joiners | Shadow | Scorpion, Giant | Fish, Giant | Succubus |
+| 11 | Otyugh | Joiners | Shadow | Scorpion, Giant | Fish, Giant | Night Hag |
+| 12 | Otyugh | Runners | Skeleton | Spider, Giant | Frog, Giant | Night Hag |
+| 13 | Otyugh | Runners | Skeleton | Spider, Giant | Frog, Giant | Horned Devil (Malebranche) |
+| 14 | Otyugh | Runners | Spectre | Spider, Giant | Nixies | Imp |
+| 15 | Owl Bear | Searchers | Vampire | Spider, Giant | Sea Serpent (Lesser) | Bone Devil |
+| 16 | Owl Bear | Searchers | Wight | Spider, Giant | Toad, Giant | Golem |
+| 17 | Rot Grub | Survivors | Wraith | Spider, Giant | Toad, Giant | Hydra |
+| 18 | Rot Grub | Survivors | Zombie | Spider, Giant | Toad, Giant | Will-O-Wisp |
+| 19 | Shambling Mound | Wolf | Zombie | Spider, Giant | Toad, Giant | Yeti |
+| 20 | Shambling Mound | Wolf | Zombie | Spider, Giant | Turtle, Giant | Zombie |
+
+#### Tundra
+
+| 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
+|---|---|---|---|---|---|---|
+| 1 | Flightless Bird | Bear, Brown | Dragon, Black | Giant, Cloud | Men, Bandit | Bugbear |
+| 2 | Flightless Bird | Bear, Black | Dragon, Black | Giant, Cloud | Men, Bandit | Bugbear |
+| 3 | Eagle, Giant | Bear, Cave | Dragon, Black | Giant, Cloud | Men, Bandit | Gnoll |
+| 4 | Chimera | Bear, Cave | Dragon, Black | Giant, Frost | Men, Bandit | Gnoll |
+| 5 | Cockatrice | Bear, Cave | Dragon, Bronze | Giant, Frost | Berserker | Gnoll |
+| 6 | Cockatrice | Dog | Dragon, Bronze | Giant, Frost | Berserker | Gnoll |
+| 7 | Griffon | Dog | Dragon, Bronze | Giant, Frost | Berserker | Goblin |
+| 8 | Harpy | Dog | Dragon, Bronze | Giant, Frost | Berserker | Goblin |
+| 9 | Hippogriff | Sea Lion | Dragon, Bronze | Giant, Frost | Berserker | Hobgoblin |
+| 10 | Nightmare | Sea Lion | Dragon, Red | Giant, Frost | Men, Brigand | Hobgoblin |
+| 11 | Pegasus | Sea Lion | Dragon, Red | Giant, Frost | Men, Brigand | Kobold |
+| 12 | Roc | Wolf | Dragon, Red | Giant, Frost | Men, Brigand | Orc |
+| 13 | Shedu | Wolf | Dragon, Red | Giant, Stone | Men, Merchant | Orc |
+| 14 | Sphinx | Wolf | Dragon, Red | Giant, Storm | Men, Merchant | Orc |
+| 15 | Sphinx | Wolf | Dragon, White | Giant, Storm | Men, Merchant | Troll |
+| 16 | Sphinx | Wolf | Dragon, White | Giant, Storm | Men, Merchant | Troll |
+| 17 | Sphinx | Wolf | Dragon, White | Giant, Storm | Men, Merchant | Troll |
+| 18 | Stirge | Wolverine | Dragon, White | Giant, Storm | Port, Smuggler | Troll |
+| 19 | Stirge | Wolverine | Dragon, White | Giant, Storm | Village, Fishing | Troll |
+| 20 | Wyvern | Wolverine | Dragon, White | Giant, Storm | Werewolf | Troll |
+
+| 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
+|---|---|---|---|---|---|---|
+| 1 | Basilisk | Decoys | Ghast | Beetle, Giant | Pike, Giant | Aerial Servant |
+| 2 | Blink Dog | Decoys | Ghoul | Beetle, Giant | Pike, Giant | Ape |
+| 3 | Blink Dog | Decoys | Ghoul | Beetle, Giant | Crab, Giant | Hellhound |
+| 4 | Blink Dog | Decoys | Ghoul | Beetle, Giant | Eel | Hellhound |
+| 5 | Cat, Great | Escapees | Skeleton | Beetle, Giant | Sea Serpent (Lesser) | Succubus |
+| 6 | Remorhaz | Escapees | Skeleton | Beetle, Giant | Octopus, Giant | Night Hag |
+| 7 | Remorhaz | Escapees | Skeleton | Beetle, Giant | Nixies | Ice Devil |
+| 8 | Remorhaz | Joiners | Vampire | Beetle, Giant | Octopus, Giant | Ice Devil |
+| 9 | Remorhaz | Joiners | Wight | Beetle, Giant | Octopus, Giant | Manticore |
+| 10 | Remorhaz | Runners | Wight | Centipede, Giant | Octopus, Giant | Elemental, Fire |
+| 11 | Wolf | Runners | Wight | Centipede, Giant | Sea Serpent (Lesser) | Elemental, Fire |
+| 12 | Wolf | Runners | Will-O-Wisp | Centipede, Giant | Sea Serpent (Lesser) | Elf |
+| 13 | Wolf | Searchers | Will-O-Wisp | Fly, Robber | Shark | Halfling |
+| 14 | Wolf | Searchers | Wraith | Fly, Robber | Shark | Imp |
+| 15 | Yeti | Survivors | Zombie | Spider, Giant | Squid, Giant | Imp |
+| 16 | Yeti | Survivors | Zombie | Spider, Giant | Squid, Giant | Lemure |
+| 17 | Yeti | Wolf | Zombie | Spider, Giant | Turtle, Giant | Bone Devil |
+| 18 | Yeti | Wolf | Zombie | Spider, Giant | Turtle, Giant | Pterodactyl |
+| 19 | Yeti | Wolf | Zombie | Spider, Giant | Sea Lion | Quasit |
+| 20 | Yeti | Wolf | Zombie | Spider, Giant | Sea Lion | Quasit |
+
+#### Dinosaur Sub-table
+
+Used whenever a Lost World encounter calls for "Other Dinosaurs."
+
+| 1d8 | Result |
+|---|---|
+| 1 | Tyrannosaurids & Allosaurids |
+| 2 | Hadrosaurids |
+| 3 | Sauropods |
+| 4 | Ceratopsians |
+| 5 | Other Dinosaurs I |
+| 6 | Other Dinosaurs II |
+| 7 | Marine Dinosaurs |
+| 8 | Flying Dinosaurs |
+
+##### Tyrannosaurids & Allosaurids
+
+| 1d6 | Result | Era |
+|---|---|---|
+| 1 | Megalosaurus | Cretaceous |
+| 2 | Allosaurus | Jurassic |
+| 3 | Gorgosaurus | Cretaceous |
+| 4 | Megalosaurus | Jurassic |
+| 5 | Tyrannosaurus Rex | Cretaceous |
+| 6 | Tyrannosaurus Rex | Cretaceous |
+
+##### Hadrosaurids
+
+| 1d6 | Result | Era |
+|---|---|---|
+| 1 | Anatosaurus | Cretaceous |
+| 2 | Lambeosaurus | Cretaceous |
+| 3 | Anatosaurus | Cretaceous |
+| 4 | Lambeosaurus | Cretaceous |
+| 5 | Anatosaurus | Cretaceous |
+| 6 | Lambeosaurus | Cretaceous |
+
+##### Sauropods
+
+| 1d6 | Result | Era |
+|---|---|---|
+| 1 | Apatosaurus | Jurassic |
+| 2 | Brachiosaurus | Cretaceous |
+| 3 | Brachiosaurus | Jurassic |
+| 4 | Camarasaurus | Jurassic |
+| 5 | Cetiosaurus | Jurassic |
+| 6 | Diplodocus | Jurassic |
+
+##### Ceratopsians
+
+| 1d6 | Result | Era |
+|---|---|---|
+| 1 | Triceratops | Cretaceous |
+| 2 | Pentaceratops | Cretaceous |
+| 3 | Monoclonius | Cretaceous |
+| 4 | Pentaceratops | Cretaceous |
+| 5 | Styracosaurus | Cretaceous |
+| 6 | Triceratops | Cretaceous |
+
+##### Other Dinosaurs I
+
+| 1d6 | Result | Era |
+|---|---|---|
+| 1 | Ankylosaurus | Cretaceous |
+| 2 | Ceratosaurus | Jurassic |
+| 3 | Iguanodon | Cretaceous |
+| 4 | Plateosaurus | Triassic |
+| 5 | Stegosaurus | Jurassic |
+| 6 | Megalosaurus | Cretaceous |
+
+##### Other Dinosaurs II
+
+| 1d6 | Result | Era |
+|---|---|---|
+| 1 | Teratosaurus | Jurassic |
+| 2 | Megalosaurus | Cretaceous |
+| 3 | Teratosaurus | Jurassic |
+| 4 | Paleoscincus | Permian |
+| 5 | Teratosaurus | Triassic |
+| 6 | Megalosaurus | Jurassic |
+
+##### Marine Dinosaurs
+
+| 1d6 | Result | Era |
+|---|---|---|
+| 1 | Archelon | Cretaceous |
+| 2 | Dinichthys | Devonian |
+| 3 | Elasmosaurus | Cretaceous |
+| 4 | Mosasaurus | Cretaceous |
+| 5 | Plesiosaurus | Triassic |
+| 6 | Plesiosaurus | Jurassic |
+
+##### Flying Dinosaurs
+
+| 1d6 | Result | Era |
+|---|---|---|
+| 1 | Pterodactyl | Jurassic |
+| 2 | Pterodactyl | Cretaceous |
+| 3-4 | Pterodactyl | Jurassic |
+| 5 | Pterodactyl | Cretaceous |
+| 6 | Pterodactyl | Jurassic |
