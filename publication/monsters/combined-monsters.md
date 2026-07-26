@@ -150,7 +150,9 @@ An asterisk after Hit Dice matters for experience awards. (*) means the XP Bonus
 *Experience Points for Monsters*
 :::
 
+::: center
 ![](assets/intro-plate.png)
+:::
 
 ::: center
 Welcome Adventures!
@@ -453,7 +455,9 @@ The Great Cats are normally cautious and avoid fights unless driven by extreme h
 
 **Tiger**: Tigers are the largest commonly encountered Great Cats. They prefer cool forests and wooded lands where their striped coats provide natural camouflage. Tigers surprise prey on a roll of `1-4` on `1d6` when hunting in wooded terrain.
 
+::: center
 ![](assets/cat-great-plate.png)
+:::
 
 ### Cattle
 *Source:* `AD&D 1E Conversion`
@@ -744,6 +748,10 @@ Giant goats are reclusive herbivores of hilly country. They aggressively defend 
 
 If a giant goat charges, it adds +4 damage on a hit. If more than seven are encountered, the remainder are young.
 
+::: center
+![](assets/goat-plate.png)
+:::
+
 ### Hawk
 *Source:* `Expert`  *Category:* `Animal`
 
@@ -762,7 +770,9 @@ If a giant goat charges, it adds +4 damage on a hit. If more than seven are enco
 
 Hawks are hunting birds that glide on the updrafts of the wind, watching the ground for prey. If a hawk surprises its victim, it does double damage on its first attack.
 
-Normal hawks do not usually attack human-sized or larger creatures unless the target appears unable to defend itself. Giant hawks are as large as a very big dog or small pony, are much stronger, and will attack human-sized creatures if hungry. Both normal and giant hawks may be trained as pets or guards by an animal trainer.
+Normal hawks do not usually attack human-sized or larger creatures unless the target appears unable to defend itself. Giant hawks are as large as a very big dog or small pony, are much stronger, and will attack human-sized creatures if hungry.
+
+Both normal and giant hawks may be trained as pets or guards by an animal trainer.
 
 ### Herd Animals
 *Source:* `Expert`  *Category:* `Animal`
@@ -773,7 +783,11 @@ Normal hawks do not usually attack human-sized or larger creatures unless the ta
 | Attacks     | 1 butt     | Treasure Type | Nil         |
 | Damage      | 1d4-1d8    | Alignment     | Neutral     |
 
-This category includes most wild, grazing creatures such as antelope, deer, wild oxen, moose, elk, goats, and caribou. At least one species will be encountered in any given climate. The number of hit dice the creature has and the amount of damage it does depends on its size. Deer, antelope, and goats typically have 1 or 2 hit dice; caribou and oxen have 3 hit dice, while elk and moose may have up to 4. Only males have a butt attack. If more than 2 creatures are encountered, there will be 1 male per 4 creatures, with the remainder being females and young. The young will have 1/2 the hit points normal, but the males will have 1-4 extra hit points. Females and young will flee from trouble while the male protects them.
+This category includes most wild, grazing creatures such as antelope, deer, wild oxen, moose, elk, goats, and caribou. At least one species will be encountered in any given climate.
+
+The number of hit dice the creature has and the amount of damage it does depends on its size. Deer, antelope, and goats typically have 1 or 2 hit dice; caribou and oxen have 3 hit dice, while elk and moose may have up to 4.
+
+Only males have a butt attack. If more than 2 creatures are encountered, there will be 1 male per 4 creatures, with the remainder being females and young. The young will have 1/2 the hit points normal, but the males will have 1-4 extra hit points. Females and young will flee from trouble while the male protects them.
 
 ### Hippopotamus
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -787,7 +801,7 @@ This category includes most wild, grazing creatures such as antelope, deer, wild
 
 Hippopotami are aggressive river and lake animals. They usually attack boats, swimmers, or creatures that approach too closely.
 
-In water they can capsize small craft or drag prey below. Large bulls deal 3d6 damage with their bite.
+In water they can capsize small craft or drag prey below. Large bulls deal `3d6` damage with their bite.
 
 ::: twocolumn-pdf-end
 :::
@@ -811,11 +825,15 @@ In water they can capsize small craft or drag prey below. Large bulls deal 3d6 d
 ::: twocolumn-pdf-begin
 :::
 
-Riding horses are smaller than draft or war horses but can carry a rider farther. A riding horse is noted for its ability to exist anywhere there is grass to feed on. Any wild horse can become a riding horse if tamed. The amount of weight the horse can carry and still move at normal speed is 3000 cn. The maximum weight that can be carried is 6000 cn at half movement.
+**Riding horses**: are smaller than draft or war horses but can carry a rider farther. A riding horse is noted for its ability to exist anywhere there is grass to feed on. Any wild horse can become a riding horse if tamed. The amount of weight the horse can carry and still move at normal speed is 3000 cn. The maximum weight that can be carried is 6000 cn at half movement.
 
-War horses are bred for warlike temperament and strength. They cannot be ridden long distances at high speed, but are powerful in a short charge. A war horse can carry 4000 cn at full speed and 8000 cn at half speed. When charging, a rider employing a lance will do double damage if a hit is successful, although the horse may not fight at the same time. After the first charging round, both rider and horse can fight normally.
+**War horses**: are bred for warlike temperament and strength. They cannot be ridden long distances at high speed, but are powerful in a short charge. A war horse can carry 4000 cn at full speed and 8000 cn at half speed. When charging, a rider employing a lance will do double damage if a hit is successful, although the horse may not fight at the same time. After the first charging round, both rider and horse can fight normally.
 
-Draft horses are large horses bred for sturdiness and endurance. They are used primarily for plowing, pulling wagons, and as pack animals. A draft horse can carry a normal load of 4500 cn and a maximum load, movement reduced by 1/2, of 9000 cn. A draft horse will not fight; if attacked, it will attempt to flee.
+**Draft horses**: are large horses bred for sturdiness and endurance. They are used primarily for plowing, pulling wagons, and as pack animals. A draft horse can carry a normal load of 4500 cn and a maximum load, movement reduced by 1/2, of 9000 cn. A draft horse will not fight; if attacked, it will attempt to flee.
+
+::: center
+![](assets/horse-plate.png)
+:::
 
 ### Hyena
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -829,19 +847,6 @@ Draft horses are large horses bred for sturdiness and endurance. They are used p
 Hyenas are cowardly scavengers and pack hunters of warm plains and scrublands. They prefer carrion but attack weak or isolated prey.
 
 When led by gnolls or driven by hunger, hyenas are bolder and may harry a party for hours.
-
-### Irish Deer
-*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
-
-| Armor Class | 7          | No. Appearing | 0 (2d6)    |
-| Hit Dice    | 4          | Save As       | Fighter 2  |
-| Move        | 210' (70') | Morale        | 6          |
-| Attacks     | 1 antlers  | Treasure Type | Nil        |
-| Damage      | 2d6        | Alignment     | Neutral    |
-
-Irish deer are huge prehistoric deer with broad antlers. They are shy herd animals and usually flee danger.
-
-Stags fight during mating season or when cornered, using their great antlers to gore and batter foes.
 
 ### Jackal
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -882,7 +887,9 @@ Lampreys are blood-drinking aquatic parasites. They attach with circular mouths 
 
 Once attached, a lamprey drains 1d4 damage each round until killed or removed. Removing it without killing it causes an additional 1d4 damage.
 
-![Lamprey](assets/lamprey-plate.png)
+::: center
+![](assets/lamprey-plate.png)
+:::
 
 ### Leech, Giant
 *Source:* `Expert`  *Category:* `Animal`
@@ -976,7 +983,9 @@ Horned Chameleon: A horned chameleon is a 7' long lizard which can change color 
 
 Tuatara: A tuatara is a 8' long lizard that looks like a cross between an iguana and a toad. It has pebble-colored olive skin with white spikes along its back. It is carnivorous and sometimes attacks humans. A tuatara has a membrane over its eyes which, when lowered, is sensitive to changes in temperature, allowing it to see in darkness with 90' infravision.
 
-![Giant Lizards](assets/lizards-giant-plate.png)
+::: center
+![](assets/lizards-giant-plate.png)
+:::
 
 ### Lynx, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -991,7 +1000,9 @@ Giant lynx are intelligent forest cats of cold regions. They climb well, swim re
 
 If a giant lynx hits with both forepaws, it rakes with its rear claws for 1d3 / 1d3 damage. Giant lynx hide so well they are 90% unlikely to be detected under normal conditions, surprise on 1-5 on 1d6, and detect traps with 75% accuracy.
 
-![Lynx, Giant](assets/giant-lynx-plate.png)
+::: center
+![](assets/giant-lynx-plate.png)
+:::
 
 ### Mammoth
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -1047,7 +1058,9 @@ Once a tentacle hits in combat, it will constrict and automatically do 1-3 point
 
 If a combat is going against it, a giant octopus will flee, jetting away at triple speed and trailing a large, black cloud of ink (40' radius).
 
-![Octopus](assets/octopus-plate.png)
+::: center
+![](assets/octopus-plate.png)
+:::
 
 ### Otter, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -1090,7 +1103,9 @@ Giant pike are swift freshwater predators. They lurk among weeds and strike sudd
 
 They are attracted by blood and splashing, but avoid obviously stronger aquatic monsters.
 
-![Pike, Giant](assets/giant-pike-plate.png)
+::: center
+![](assets/giant-pike-plate.png)
+:::
 
 ### Porcupine, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -1191,7 +1206,9 @@ Giant sea horses are shy marine mounts often used by mermen, nixies, and other a
 
 If frightened, they flee quickly through weeds and reefs.
 
-![Sea Lions attacking a Shark](assets/giant-sea-horse-plate.png)
+::: center
+![](assets/giant-sea-horse-plate.png)
+:::
 
 ### Shark
 *Source:* `Expert`  *Category:* `Animal`
@@ -1217,7 +1234,9 @@ Mako sharks are 15' long and blue-gray or tan in color. Mako sharks are extremel
 
 Great white sharks are 30' long or larger and gray with a white underside. They have been known to destroy small boats.
 
-![Shark](assets/shark-plate.png)
+::: center
+![](assets/shark-plate.png)
+:::
 
 ### Shrew, Giant
 *Source:* `Basic`  *Category:* `Animal`
@@ -1292,7 +1311,9 @@ Giant Rattlesnake: A giant rattlesnake is a 10' long snake with brown and white 
 
 Rock Python: A rock python is a 20' long giant snake with brown and yellow scales set in a spiral pattern. Its first attack is a bite. If the bite is successful, a rock python will coil around the victim and constrict in the same round. This squeezing does 2d4 points of damage per round, and begins automatically once the bite hits.
 
-![Snake](assets/snake-plate.png)
+::: center
+![](assets/snake-plate.png)
+:::
 
 ### Squid, Giant
 *Source:* `Expert`  *Category:* `Animal`
@@ -1414,7 +1435,9 @@ Sperm whale. This huge whale can grow to be 60' long. It preys on the most feare
 
 Man-sized or smaller creatures will be swallowed on a die roll that is 4 or more than the score needed to hit, taking `3d6` points of damage per round. Sperm whales will sometimes (10% chance) attack ships, attempting to ram. Should the sperm whale succeed, it will do `6d6` points of damage to the ship.
 
-![Whale](assets/whale-plate.png)
+::: center
+![](assets/whale-plate.png)
+:::
 
 ::: columnbreak-pdf
 :::
@@ -1476,7 +1499,9 @@ Animated armor usually remains perfectly motionless until intruders approach, ca
 
 Most animated armor fights with weapons held in mailed hands, though some punch, grapple, or batter foes with heavy gauntlets. They are immune to **sleep**, **charm**, and other mind-affecting magic, and never need rest.
 
-![Animated Armor](assets/animated-armor-plate.png)
+::: center
+![](assets/animated-armor-plate.png)
+:::
 
 ### Gargoyle*
 *Source:* `Basic`  *Category:* `Construct`
@@ -1494,7 +1519,9 @@ Gargoyles are magical creatures and save as 8^th^ level Fighters. They can only 
 
 Gargoyles are immune to **sleep** and **charm** spells. Because ordinary weapons cannot harm them, the DM should use gargoyles with care unless the adventurers possess at least one magical weapon.
 
-![Gargoyle](assets/gargoyle-plate.png)
+::: center
+![](assets/gargoyle-plate.png)
+:::
 
 ::: twocolumn-pdf-end
 :::
@@ -1530,7 +1557,9 @@ Normally golems can only be hit by magic weapons. Golems are also immune to **sl
 
 - **Bronze golems** look somewhat like fire giants. Their skin is bronze and their blood is liquid fire. Any creature hit by a bronze golem takes `1d10` more points of damage from the great heat inside it. Anyone scoring damage on a bronze golem with an edged weapon must save vs. Death Ray or take `2d6` points of damage from the fiery blood spurting out of the wound. Bronze golems are not affected by fire-based attacks.
 
-![Bone Golem](assets/bone-golem-plate.png)
+::: center
+![](assets/bone-golem-plate.png)
+:::
 
 ### Homunculus
 *Source:* `AD&D 1E Conversion`  *Category:* `Construct`
@@ -1546,7 +1575,9 @@ A homunculus is a small magical servant created from its master's blood and arca
 
 A creature bitten by a homunculus must Save vs. Poison or sleep for `5d6` minutes. If the homunculus is slain, its master suffers `2d10` damage. If the master dies, the homunculus also dies.
 
-![Homunculus](assets/homunculus-plate.png)
+::: center
+![](assets/homunculus-plate.png)
+:::
 
 ::: columnbreak-pdf
 :::
@@ -1650,7 +1681,9 @@ All demons have telepathy, infravision, darkness, teleportation without error, a
 
 Manes are the least demons, formed from chaotic evil dead. If slain away from the Abyss, they dissolve into foul vapor and reform in one day unless destroyed by a demon lord or similar power. They are treated as undead against sleep, charm, and similar spells.
 
-![Manes](assets/manes-plate.png)
+::: center
+![](assets/manes-plate.png)
+:::
 
 ### Succubus
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
@@ -1664,7 +1697,9 @@ Manes are the least demons, formed from chaotic evil dead. If slain away from th
 
 Succubi are solitary tempters that appear as beautiful humanoids with bat-like wings. Their kiss drains one energy level. At will, a succubus may become ethereal, charm person, use ESP, use clairaudience, suggest, assume a humanoid form, or attempt to gate a stronger demon.
 
-![Succubi](assets/succubus-plate.png)
+::: center
+![](assets/succubus-plate.png)
+:::
 
 ### Type I Demon (Vrock)
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
@@ -1678,7 +1713,9 @@ Succubi are solitary tempters that appear as beautiful humanoids with bat-like w
 
 Type I demons, or vrocks, resemble a human-vulture hybrid. They love human flesh and treasure. They can detect invisible, use telekinesis up to 2,000 cn, and attempt to gate another Type I demon.
 
-![Type I / Vrock](assets/type-i-vrock-plate.png)
+::: center
+![](assets/type-i-vrock-plate.png)
+:::
 
 ### Type II Demon (Hezrou)
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
@@ -1692,7 +1729,9 @@ Type I demons, or vrocks, resemble a human-vulture hybrid. They love human flesh
 
 Type II demons, or hezrou, are toad-like brutes that can be harmed by normal weapons. They can cause fear, levitate, detect invisible, use telekinesis up to 3,000 cn, and attempt to gate another Type II demon.
 
-![Type II / Hezrou](assets/type-ii-hezrou-plate.png)
+::: center
+![](assets/type-ii-hezrou-plate.png)
+:::
 
 ### Type III Demon (Glabrezu)
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
@@ -1705,7 +1744,9 @@ Type II demons, or hezrou, are toad-like brutes that can be harmed by normal wea
 
 Type III demons, or glabrezu, are tall, wrinkled horrors with pincers and a small pair of human arms. They can cause fear, levitate, create pyrotechnics, polymorph self, use telekinesis up to 4,000 cn, and attempt to gate Type I-III demons.
 
-![Type III / Glabrezu](assets/type-iii-glabrezu-plate.png)
+::: center
+![](assets/type-iii-glabrezu-plate.png)
+:::
 
 ### Type IV Demon (Nalfeshnee)
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
@@ -1719,7 +1760,9 @@ Type III demons, or glabrezu, are tall, wrinkled horrors with pincers and a smal
 
 Type IV demons, or nalfeshnee, combine the worst features of ape and boar. They can create illusions, cause fear, levitate, detect magic, read languages, dispel magic, polymorph self, use telekinesis up to 5,000 cn, project an image, use symbols of fear or discord, and attempt to gate Type I-IV demons.
 
-![Type IV / Nalfeshnee](assets/type-iv-nalfeshnee-plate.png)
+::: center
+![](assets/type-iv-nalfeshnee-plate.png)
+:::
 
 ### Type V Demon (Marilith)
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
@@ -1732,7 +1775,9 @@ Type IV demons, or nalfeshnee, combine the worst features of ape and boar. They 
 
 Type V demons, or mariliths, have a six-armed female torso and the body of a great serpent. They fight with six weapons and constrict with their tails. They can charm person, levitate, read languages, detect invisible, create pyrotechnics, polymorph self, project an image, and attempt to gate nearly any demon.
 
-![Type V / Marilith](assets/type-v-marilith-plate.png)
+::: center
+![](assets/type-v-marilith-plate.png)
+:::
 
 ### Type VI Demon (Balor)
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
@@ -1746,7 +1791,9 @@ Type V demons, or mariliths, have a six-armed female torso and the body of a gre
 
 Type VI demons, or balors, are mighty named demons who favor a sword and a many-tailed whip. In combat there is a 1-4 on 1d6 chance each round that a balor surrounds itself with flame and uses its whip to drag a victim into the fire for 2d6, 3d6, or 4d6 damage depending on the demon's size. Balors can cause fear, detect magic, read magic, read languages, detect invisible, create pyrotechnics, dispel magic, suggest, use telekinesis up to 6,000 cn, employ symbols of fear, discord, sleep, or stunning, and gate Type III or IV demons.
 
-![Type VI / Balor](assets/type-vi-balor-plate.png)
+::: center
+![](assets/type-vi-balor-plate.png)
+:::
 
 ### Quasit*
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
@@ -1761,7 +1808,9 @@ Quasits are minor demonic familiars and tempters. They encourage evil acts while
 
 A quasit can become invisible, cause fear, detect good, and polymorph into small animal forms. Its claws carry irritating venom; a victim must Save vs. Poison or lose 1 point of Dexterity for 2d6 rounds. Quasits regenerate 1 hit point per round and can be harmed only by magic or cold iron weapons.
 
-![Quasit](assets/quasit-plate.png)
+::: center
+![](assets/quasit-plate.png)
+:::
 
 ::: pagebreak-pdf
 :::
@@ -1807,7 +1856,9 @@ Arch-devils such as Asmodeus, Baalzebul, Dispater, and Geryon are unique rulers 
 
 Lemures are mindless damned souls reshaped into vaguely human blobs. They regenerate 1 hit point per round and are permanently destroyed only by holy water, holy weapons, or similar blessed power. They are immune to sleep, charm, and similar spells.
 
+::: center
 ![](assets/lemure-plate.png)
+:::
 
 ### Erinyes
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
@@ -1821,7 +1872,9 @@ Lemures are mindless damned souls reshaped into vaguely human blobs. They regene
 
 Erinyes are soul-hunters, often appearing beautiful and winged. Their venomous daggers cause terrible pain; a creature hit must Save vs. Poison or faint for 1d6 rounds. They carry ropes of entanglement, cause fear by gaze, and may detect invisible, locate object, become invisible, polymorph self, produce flame, or attempt to summon another erinyes.
 
+::: center
 ![](assets/erinyes-plate.png)
+:::
 
 ### Barbed Devil
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
@@ -1834,7 +1887,9 @@ Erinyes are soul-hunters, often appearing beautiful and winged. Their venomous d
 
 Barbed devils are vigilant guards and are never surprised. A creature struck by a barbed devil must Save vs. Spells or be affected by fear. They may use pyrotechnics, produce flame, hold person, or attempt to summon another barbed devil.
 
+::: center
 ![](assets/barbed-devil-plate.png)
+:::
 
 ### Bone Devil
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
@@ -1847,7 +1902,9 @@ Barbed devils are vigilant guards and are never surprised. A creature struck by 
 
 Bone devils are malicious torturers armed with great hooks. A creature hit by the hook has a 50% chance to be caught fast, allowing the devil to strike with its tail. A tail hit drains 1d4 Strength for 10 rounds unless the victim Saves vs. Poison. Bone devils may create fear, create illusion, fly, become invisible, detect invisible, or attempt to summon another bone devil. Once per day they may create a wall of ice.
 
+::: center
 ![](assets/bone-devil-plate.png)
+:::
 
 ### Horned Devil (Malebranche)
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
@@ -1861,7 +1918,9 @@ Bone devils are malicious torturers armed with great hooks. A creature hit by th
 
 Horned devils, or malebranche, are the least greater devils. They may carry a two-tined fork for 2d6 damage or a barbed whip for 1d4 damage plus stunning for the same number of rounds unless the victim Saves vs. Spells. Their tail wounds bleed for 1 hit point per turn until bound or magically healed. They radiate fear in a 5' radius and may use pyrotechnics, produce flame, ESP, detect magic, illusion, or attempt to summon another horned devil. Once per day they may create a triple-strength wall of fire.
 
+::: center
 ![](assets/horned-devil-plate.png)
+:::
 
 ### Ice Devil
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
@@ -1875,7 +1934,9 @@ Horned devils, or malebranche, are the least greater devils. They may carry a tw
 
 Ice devils are cold, insectile greater devils. A few carry great spears that deal 2d6 damage and numb the victim unless it Saves vs. Paralysis, slowing it by half. Ice devils regenerate 1 hit point per round, radiate fear in a 10' radius, and may fly, wall of ice, detect magic, detect invisible, polymorph self, or summon bone devils or another ice devil. Once per day they may cause an ice storm.
 
+::: center
 ![](assets/ice-devil-plate.png)
+:::
 
 ### Pit Fiend
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
@@ -1889,7 +1950,9 @@ Ice devils are cold, insectile greater devils. A few carry great spears that dea
 
 Pit fiends are among the most dreaded greater devils and servants of the ruler of Hell. They fight with a hooked weapon and jagged club, regenerate 2 hit points per round, and radiate fear in a 20' radius. A tail hit constricts for 2d4 damage each round. Pit fiends may use pyrotechnics, produce flame, wall of fire, detect magic, detect invisible, polymorph self, hold person, and summon barbed devils or another pit fiend. Once per day they may use a symbol of pain.
 
+::: center
 ![](assets/pit-fiend-plate.png)
+:::
 
 ### Imp
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
@@ -1905,7 +1968,9 @@ Imps are minor diabolical familiars and tempters. They serve evil masters while 
 
 An imp's sting is poisonous; the victim must Save vs. Poison or die. Imps can become invisible, polymorph into small animal forms, detect good, and use suggestion. They regenerate 1 hit point per round and can be harmed only by silver or magic weapons.
 
-![Imp](assets/imp-plate.png)
+::: center
+![](assets/imp-plate.png)
+:::
 
 ::: pagebreak-pdf
 :::
@@ -1970,7 +2035,9 @@ A line-shaped Breath starts in the dragon's mouth and stretches out toward its v
 
 A cloud-shaped Breath billows forth from the dragon's mouth to form a 50'x40'x20' tall cloud around the dragon's targets directly in front of it.
 
-![Dragon breath shapes](assets/dragon-breath-diagram.png)
+::: center
+![](assets/dragon-breath-diagram.png)
+:::
 
 - **Saving Throws**: Anyone caught within the area of effect of a dragon's Breath Weapon may make a saving throw. A successful saving throw means that the victim takes only 1/2 damage from the Breath. Dragons are never affected by the normal or smaller versions of their own Breath Weapons, and automatically make their saving throws against any attack form that is the same as their Breath Weapon. For example, a red dragon will take no damage from burning oil, and will always take only 1/2 damage from a fire-type magic spell such as a fire ball.
 
@@ -1988,7 +2055,9 @@ A cloud-shaped Breath billows forth from the dragon's mouth to form a 50'x40'x20
 
 Dragons are extremely powerful and should be used with caution when encountered by low-level player characters. It is recommended that until characters reach the fourth level and higher, only the youngest and smallest dragons be used by the DM.
 
-![Dragon](assets/dragon-plate.png)
+::: center
+![](assets/dragon-plate.png)
+:::
 
 ### Dragon Turtle
 *Source:* `Expert`  *Category:* `Dragon`
@@ -2008,7 +2077,9 @@ Dragon turtles live in great caverns on the bottom of the deepest oceans, where 
 
 Note: Dragon turtles are extremely powerful creatures that should not be used unless the player characters are of very high level.
 
-![Dragon Turtle](assets/dragon-turtle-plate.png)
+::: center
+![](assets/dragon-turtle-plate.png)
+:::
 
 ### Pseudo-Dragon
 *Source:* `AD&D 1E Conversion`  *Category:* `Dragon`
@@ -2024,7 +2095,9 @@ Pseudo-dragons are tiny, intelligent dragon-kin that may bond with a trusted com
 
 Their tail sting forces a Save vs. Poison. Failure causes deep sleep; a roll of 1 may cause death at the referee's discretion. Pseudo-dragons can change color like chameleons and often hide near their companions.
 
-![Pseudo-Dragon](assets/pseudo-dragon-plate.png)
+::: center
+![](assets/pseudo-dragon-plate.png)
+:::
 
 ### Sea Dragons
 *Source:* `Expert`  *Category:* `Dragon`
@@ -2057,7 +2130,9 @@ Sea dragons have fin-like wings which enable them to glide above the water for u
 
 A wyvern looks like a two-legged, winged dragon with a long tail. In combat, the wyvern will bite and arch its tail over its head to hit opponents in front of it. Those stung by the tail must save vs. Poison or die. These beasts prefer to live on cliffs or in forests, but may be found anywhere.
 
-![Wyvern](assets/wyvern-plate.png)
+::: center
+![](assets/wyvern-plate.png)
+:::
 
 ::: pagebreak-pdf
 :::
@@ -2103,7 +2178,9 @@ Once per day a djinni may create food and drink for 2d6 persons, create soft goo
 
 A djinni can carry 6,000 cn without tiring. It can carry twice that for a short time, then must rest for 6 turns. A noble djinni is very rare, has 10 Hit Dice, deals 3d8 damage, and may grant three wishes before becoming free.
 
-![Djinni](assets/djinni-plate.png)
+::: center
+![](assets/djinni-plate.png)
+:::
 
 ### Djinni, Lesser*
 *Source:* `Expert`  *Category:* `Elemental`
@@ -2157,7 +2234,9 @@ Once per day an efreeti may grant up to three wishes and go free, become invisib
 
 An efreeti can carry up to 7,500 cn without tiring and twice that for a short time before resting 6 turns. Efreet can travel the material, elemental, and astral planes, and communicate with intelligent creatures by limited telepathy.
 
-![Efreeti](assets/efreeti-full-plate.png)
+::: center
+![](assets/efreeti-full-plate.png)
+:::
 
 ::: columnbreak-pdf
 :::
@@ -2179,7 +2258,9 @@ Efreet can create objects, create illusions, and turn invisible like djinn. They
 
 Efreet may fly and carry up to 10,000 cn weight while flying. They can be summoned by high-level magic-users who know the special spells required, but once summoned they must be carefully controlled.
 
-![Efreeti](assets/efreeti-plate.png)
+::: center
+![](assets/efreeti-plate.png)
+:::
 
 ::: twocolumn-pdf-end
 :::
@@ -2221,7 +2302,9 @@ Staff elementals, the weakest, are summoned by a magic-user with a special staff
 
 - **Water elementals**: appear as great waves of water 1/2' tall and 2' in diameter for each hit die they have. Water elementals are not able to move more than 60' from water. They do an extra `1d8` points of damage against opponents in water.
 
+::: center
 ![](assets/elemental-plate.png)
+:::
 
 ### Salamander*
 *Source:* `Expert`  *Category:* `Elemental`
@@ -2246,7 +2329,9 @@ Staff elementals, the weakest, are summoned by a magic-user with a special staff
 
 Frost and flame salamanders hate each other, and will attack one another on sight.
 
-![Salamander](assets/salamander-plate.png)
+::: center
+![](assets/salamander-plate.png)
+:::
 
 ### Sylph
 *Source:* `AD&D 1E Conversion`  *Category:* `Elemental`
@@ -2262,7 +2347,9 @@ Sylphs are shy air spirits that appear as graceful winged women. They prefer lon
 
 Sylphs can become invisible and cast magic-user spells at the referee's discretion. They may aid gentle or handsome travelers but flee cruelty.
 
-![Sylph](assets/sylph-plate.png)
+::: center
+![](assets/sylph-plate.png)
+:::
 
 ### Water Weird
 *Source:* `AD&D 1E Conversion`  *Category:* `Elemental`
@@ -2277,7 +2364,9 @@ Water weirds are serpentine beings formed from enchanted water. They lurk in poo
 
 A hit pulls the victim into the water. Unless freed, the victim begins drowning. Sharp weapons deal only 1 point of damage to a water weird, but purify food and water destroys it if cast on its pool.
 
-![Water Weird](assets/water-weird-plate.png)
+::: center
+![](assets/water-weird-plate.png)
+:::
 
 ### Wind Walker
 *Source:* `AD&D 1E Conversion`  *Category:* `Elemental`
@@ -2306,7 +2395,9 @@ Xorn are strange beings from the elemental plane of earth. They glide through st
 
 Xorn feed on precious metals and gems. They usually bargain for food but attack if refused or threatened. Their alien bodies have three arms, three legs, and a great central mouth.
 
-![Xorn](assets/xorn-plate.png)
+::: center
+![](assets/xorn-plate.png)
+:::
 
 ::: pagebreak-pdf
 :::
@@ -2316,7 +2407,9 @@ Xorn feed on precious metals and gems. They usually bargain for food but attack 
 
 Larger groups often include shamans, witch doctors, or other tribal spellcasters
 
+::: center
 ![](assets/bugbear-fighting-adventurer.png)
+:::
 
 ### Bugbear
 *Source:* `Basic`  *Category:* `Humanoid`
@@ -2333,7 +2426,9 @@ If 12 or more bugbears are encountered, one is a leader with AC 4, 22-25 hp, and
 
 Bugbears speak their own tongue, goblin, hobgoblin, and the chaotic alignment language.
 
-![Bugbear](assets/bugbear-plate.png)
+::: center
+![](assets/bugbear-plate.png)
+:::
 
 ### Gnoll
 *Source:* `Basic`  *Category:* `Humanoid`
@@ -2346,7 +2441,9 @@ Bugbears speak their own tongue, goblin, hobgoblin, and the chaotic alignment la
 
 Gnolls are beings of low intelligence that appear to be human-like hyenas. They may use any weapons. They are strong, but dislike work and prefer to bully and steal for a living. For every 20 gnolls encountered, one will be a leader with 16 hit points who attacks as a 3 hit dice monster. Gnolls are rumored to be the result of a magical combination of a gnome and a troll by an evil magic-user.
 
+::: center
 ![](assets/gnoll-plate.png)
+:::
 
 ### Goblin
 *Source:* `Basic`  *Category:* `Humanoid`
@@ -2365,7 +2462,9 @@ In the goblin lair lives a goblin king with 15 hit points who fights as a 3 hit 
 
 Treasure type C is only found in the goblin lair or when encountered in the wilderness.
 
+::: center
 ![](assets/goblin-plate.png)
+:::
 
 ### Hobgoblin
 *Source:* `Basic`  *Category:* `Humanoid`
@@ -2380,7 +2479,9 @@ Hobgoblins are bigger and meaner relatives of goblins. They live underground but
 
 The bodyguards all fight as 4 hit dice  and have 3-18 (3d6) hit points each. As long as their king is alive and with them, hobgoblin morale is 10 rather than 8.
 
+::: center
 ![](assets/hobgoblin-plate.png)
+:::
 
 ### Kobold
 *Source:* `Basic`  *Category:* `Humanoid`
@@ -2393,7 +2494,9 @@ The bodyguards all fight as 4 hit dice  and have 3-18 (3d6) hit points each. As 
 
 These small, evil dog-like men usually live underground. They have scaly rust-brown skin and no hair. They have well developed infravision (heat-sensing sight) to a 90' range. They prefer to attack by ambush. A kobold chieftain and 1-6 bodyguards live in the kobold lair. The chieftain has 9 hit points and fights as a 2 hit dice monster. The bodyguards each have 6 hit points and fight as 1 + 1 hit dice . As long as the chieftain is alive, all kobolds with him have a morale of 8 rather than 6. Kobolds hate gnomes and will attack them on sight. Treasure type J is only found in encounters in the lair or in the wilderness.
 
-![Kobold](assets/kobold-plate.png)
+::: center
+![](assets/kobold-plate.png)
+:::
 
 ### Lizard Man
 *Source:* `Basic`  *Category:* `Humanoid`
@@ -2406,7 +2509,9 @@ These small, evil dog-like men usually live underground. They have scaly rust-br
 
 These water-dwelling creatures look like men with lizard heads and tails. They live in tribes. They will try to capture humans and demi-humans and take the victims back to the tribal lair as the main course of a feast. Lizard men are semi-intelligent and use weapons such as spears and large clubs (treat the clubs as maces) gaining a bonus of + 1 on damage rolls due to their great strength. Lizard men are often found in swamps, rivers, and along seacoasts as well as in dungeons.
 
-![Lizard Man](assets/lizard-man-plate.png)
+::: center
+![](assets/lizard-man-plate.png)
+:::
 
 ### Locathah
 *Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
@@ -2421,7 +2526,9 @@ Locathah are aquatic humanoid nomads of warm shallow seas. They hunt, gather, an
 
 Locathah ride giant eels into battle. Their forces use lances, crossbows, tridents, nets, and daggers. Lairs are guarded by moray eels and may include a Portuguese man-of-war trap.
 
-![Locathah](assets/locathah-plate.png)
+::: center
+![](assets/locathah-plate.png)
+:::
 
 ### Orc
 *Source:* `Basic`  *Category:* `Humanoid`
@@ -2444,7 +2551,9 @@ They will not use mechanical weapons (such as catapults), as only their leaders 
 
 There are many different tribes of orcs. Members of different tribes are not usually friendly with each other, and may start fighting unless their leaders are present. An orc lair has only one tribe. Each tribe will have as many female orcs as males, and 2 children ("whelps") for each 2 adults. The leader of an orc tribe is a chieftain who has 15 hit points, attacks as a 4 hit dice monster, and gains + 2 on damage rolls. For every 20 orcs in a tribe, there may be an ogre with them (a 1 in 6 chance). (If the D&D EXPERT rules are used, there is a 1 in 10 chance of a troll living in the lair as well.)
 
+::: center
 ![](assets/orc-plate.png)
+:::
 
 ### Sahuagin
 *Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
@@ -2459,7 +2568,9 @@ Sahuagin are evil sea raiders who hate surface folk and most other aquatic races
 
 Sahuagin lairs are underwater strongholds with leaders, priestesses, guards, and trained sharks. They use spears, tridents, nets, and crossbows designed for underwater use.
 
-![Sahuagin](assets/sahuagin-plate.png)
+::: center
+![](assets/sahuagin-plate.png)
+:::
 
 ### Triton
 *Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
@@ -2474,7 +2585,9 @@ Tritons are noble aquatic humanoids who dwell in deep seas. They are enemies of 
 
 Triton leaders may cast spells or command marine animals. They use spears, tridents, conch horns, and other sea-forged arms.
 
-![Triton](assets/triton-plate.png)
+::: center
+![](assets/triton-plate.png)
+:::
 
 ### Troglodyte
 *Source:* `Basic`  *Category:* `Humanoid`
@@ -2489,7 +2602,9 @@ A troglodyte is an intelligent human-like reptile with a short tail, long legs, 
 
 They have a chameleon-like ability to change colors and use it to hide by rock walls, surprising on a roll of 1-4 on 1d6. They secrete an oil which produces a stench that will nauseate humans and demi-humans unless the victims save vs. Poison. Nauseated characters have a -2 penalty on their attack rolls while in hand-to-hand combat with the troglodytes.
 
-![Troglodyte](assets/troglodyte-plate.png)
+::: center
+![](assets/troglodyte-plate.png)
+:::
 
 ::: pagebreak-pdf
 :::
@@ -2534,7 +2649,9 @@ Each head controls one arm, allowing an ettin to attack with both clubs at once.
 
 Ettins are closely related to orcs in appearance and habits. They dress in filthy animal skins and favor spiked clubs and similar brutal weapons.
 
-![Ettin](assets/ettin-plate.png)
+::: center
+![](assets/ettin-plate.png)
+:::
 
 ::: twocolumn-pdf-end
 :::
@@ -2568,7 +2685,9 @@ Ettins are closely related to orcs in appearance and habits. They dress in filth
 - **Cloud giants** are tall, sharp-sensed mountain or cloud dwellers who often keep giant hawks or dire wolves.
 - **Storm giants** are the tallest of all giants, love thunder storms, and in a storm may hurl lightning that does damage equal to their current hit points, with a save vs. Spells for half.
 
-![Giants](assets/giant-plate.png)
+::: center
+![](assets/giant-plate.png)
+:::
 
 ### Ogre
 *Source:* `Basic`  *Category:* `Giant`
@@ -2583,7 +2702,9 @@ Ogres are huge fearsome human-like creatures, usually 8 to 10 feet tall. They we
 
 When encountered outside their lair, they will be carrying 100-600 gp (1d6 x 100) in large sacks. Ogres hate Neanderthals and will attack them on sight.
 
+::: center
 ![](assets/ogre-plate.png)
+:::
 
 ::: columnbreak-pdf
 :::
@@ -2602,7 +2723,9 @@ Ogre magi are intelligent, magical ogres with cruel appetites and a taste for co
 
 An ogre mage can become invisible, fly, charm person, assume gaseous form, create darkness, and regenerate 1 hit point per round. Once per day it may breathe a cone of cold for 8d8 damage, half with a successful Save vs. Breath Weapon.
 
-![Ogre Mage](assets/ogre-mage-plate.png)
+::: center
+![](assets/ogre-mage-plate.png)
+:::
 
 ### Titan
 *Source:* `AD&D 1E Conversion`  *Category:* `Giant`
@@ -2617,7 +2740,9 @@ Titans are majestic giant beings of great strength, beauty, and magical power. T
 
 Titans use huge weapons, hurl great missiles, and cast powerful clerical and magic-user spells. They are campaign-level beings and require manual review for exact spell lists.
 
-![Titan](assets/titan-plate.png)
+::: center
+![](assets/titan-plate.png)
+:::
 
 ### Troll
 *Source:* `Expert`  *Category:* `Giant`
@@ -2632,7 +2757,9 @@ Thin, rubbery, and loathsome, trolls stand nearly 8' tall. They are intelligent 
 
 Trolls are strong and rend their opponents with talons and sharp teeth. A troll has the power of regeneration, the ability to heal and grow back together. A troll will begin to heal 3 rounds after it has taken damage. A troll's wounds will heal themselves at a rate of 3 hit points per round, and even severed limbs will crawl back to the body and rejoin. The troll cannot regenerate damage from fire or acid. In game turns, this means that unless totally consumed by fire or acid, a troll will eventually regenerate completely. If reduced to 0 hit points by other than fire or acid damage, the troll will heal enough to fight again in 2-12 rounds. The morale in parentheses applies only when the troll is attacked by fire or acid.
 
+::: center
 ![](assets/troll-plate.png)
+:::
 
 ::: pagebreak-pdf
 :::
@@ -2658,7 +2785,9 @@ Deep within the nest is a massive egg-laying queen attended by countless workers
 
 Legends claim driver ants sometimes mine and collect gold. There is a 30% chance a driver ant lair contains `1d10` thousand gp worth of gold nuggets.
 
-![Driver Ant](assets/driver-ant-plate.png)
+::: center
+![](assets/driver-ant-plate.png)
+:::
 
 ::: columnbreak-pdf
 :::
@@ -2702,7 +2831,9 @@ Killer bee hives contain a rare golden honey prized by alchemists and healers. T
 
 [Driver ants](#ant-driver) prize killer bee honey and will attack hives in enormous swarms. Entire forests have been stripped bare during these savage insect wars, leaving behind mounds of dead ants, shattered combs, and rivers of sticky golden honey.
 
-![Killer Bee](assets/killer-bee-plate.png)
+::: center
+![](assets/killer-bee-plate.png)
+:::
 
 ::: twocolumn-pdf-end
 :::
@@ -2744,7 +2875,9 @@ Killer bee hives contain a rare golden honey prized by alchemists and healers. T
 
 **Rhinoceros Beetle**: Rhinoceros beetles inhabit tropical jungles, feeding on fruits and vegetation. Their massive horn extends roughly 6' and is used to smash obstacles and enemies alike.
 
-![Beetle, Giant](assets/giant-beetle-plate.png)
+::: center
+![](assets/giant-beetle-plate.png)
+:::
 
 ### Centipede, Giant
 *Source:* `Basic`  *Category:* `Insect`
@@ -2757,7 +2890,9 @@ Killer bee hives contain a rare golden honey prized by alchemists and healers. T
 
 Giant centipedes are insects with 1' long bodies and many legs they like to live in damp, dark places. Their bite does no damage, but the victim must save vs. Poison or become violently ill for 10 days. Characters who do not save move at 1/2 speed and will not be able to perform any other physical action.
 
+::: center
 ![](assets/giant-centipede-plate.png)
+:::
 
 ::: columnbreak-pdf
 :::
@@ -2838,7 +2973,9 @@ Rot grubs live in offal, dung, and carrion. They burrow into living flesh that t
 
 A victim must immediately apply flame to the wound, taking 1d6 damage, or receive cure disease. Otherwise the grubs reach the heart and kill the victim in 1d3 turns.
 
-![Rot Grub](assets/rot-grub-plate.png)
+::: center
+![](assets/rot-grub-plate.png)
+:::
 
 ### Scorpion, Giant
 *Source:* `Expert`  *Category:* `Insect`
@@ -2853,7 +2990,9 @@ A giant scorpion is the size of a small horse and will usually attack on sight. 
 
 Anyone struck by the stinger must save vs. Poison or die. Giant scorpions live in deserts, caves, and ruins.
 
-![Giant Scorpion](assets/giant-scorpion-plate.png)
+::: center
+![](assets/giant-scorpion-plate.png)
+:::
 
 ### Spider
 *Source:* `AD&D 1E Conversion`  *Category:* `Insect`
@@ -2876,7 +3015,9 @@ Giant spiders spin webs and ambush prey. Huge spiders are faster hunters. Phase 
 
 Spider bites are poisonous. Victims must Save vs. Poison or die, though the referee may grant bonuses for weaker varieties.
 
-![Spider](assets/spider-generic-plate.png)
+::: center
+![](assets/spider-generic-plate.png)
+:::
 
 ::: twocolumn-pdf-end
 :::
@@ -2912,7 +3053,9 @@ Spider bites are poisonous. Victims must Save vs. Poison or die, though the refe
 
 - *Rhagodessa*: A rhagodessa is a giant arachnid which looks like a huge hairy spider with an oversized head and jaws (mandibles). A rhagodessa is nocturnal (sleeping during the day and active at night or in the dark), and lives in caves. A rhagodessa is about the size of a small horse, colored yellow with a dark brown thorax. It has 5 pairs of legs; the front pair end in suckers which help the creature to grasp its prey. A hit with a sucker-leg does no damage but means that the victim is stuck. In the next round of combat, the victim will be pulled to the rhagodessa's mandibles and will automatically be bitten for 2d8 points of damage. Rhagodessae can climb walls, are meateaters and always hungry.
 
-![Giant Spider](assets/spider-plate.png)
+::: center
+![](assets/spider-plate.png)
+:::
 
 ### Tick, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Insect`
@@ -2941,7 +3084,9 @@ Giant wasps are aggressive flying insects that build paper-like nests in trees, 
 
 A sting forces a Save vs. Poison or death. Giant wasps may paralyze prey to feed their young, at the referee's discretion.
 
-![Wasp, Giant](assets/giant-wasp-plate.png)
+::: center
+![](assets/giant-wasp-plate.png)
+:::
 
 ::: pagebreak-pdf
 :::
@@ -3000,7 +3145,9 @@ Ankylosaurus is a squat, heavily armored herbivore encased in thick bony plates,
 
 Apatosaurus (also known as brontosaurus) is an enormous, long-necked herbivore that can reach 70 feet or more in length. Despite its size, it is a gentle grazer that prefers to flee from danger, using its whip-like tail to drive off pursuers only when trapped. A stampeding apatosaurus can trample anything smaller in its path without even noticing.
 
+::: center
 ![](assets/apatosaurus-plate.png)
+:::
 
 ### Ape, White
 *Source:* `Basic`  *Category:* `Animal`
@@ -3017,7 +3164,9 @@ White apes are territorial and will usually threaten intruders approaching their
 
 Though not intelligent, white apes are cunning enough to defend their territory and young. [Neanderthals](#neanderthal-caveman) and other primitive peoples sometimes capture and keep them as fierce guard beasts or pets.
 
+::: center
 ![](assets/white-ape-plate.png)
+:::
 
 ::: columnbreak-pdf
 :::
@@ -3047,7 +3196,9 @@ Axe beaks are prehistoric carnivorous flightless birds. They are exceptionally f
 
 An axe beak resembles an ostrich in its lower portions, but possesses a powerful neck and a heavy, axe-like beak capable of delivering devastating blows. Though unable to fly, they can outrun most prey and will relentlessly pursue smaller creatures once they begin a hunt.
 
+::: center
 ![](assets/axe-beak-plate.png)
+:::
 
 ### Baluchitherium
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -3064,7 +3215,9 @@ Though herbivorous, a baluchitherium has a tendency to charge and trample anythi
 
 If two are encountered, they are a mated pair. If three are encountered, the third is a young baluchitherium.
 
+::: center
 ![](assets/baluchitherium-plate.png)
+:::
 
 ### Bear, Cave
 *Source:* `Basic`  *Category:* `Animal`
@@ -3104,7 +3257,9 @@ Giant boars are prehistoric forerunners of the wild boar and are very aggressive
 
 Brachiosaurus is among the largest land animals to ever live, standing over 40 feet tall with its long neck raised to browse treetops beyond the reach of any other creature. Placid and slow-moving, it has little reason to fear most predators and simply ignores smaller creatures. If startled or provoked, however, its immense trampling feet can crush anything underfoot.
 
+::: center
 ![](assets/brachiosaurus-plate.png)
+:::
 
 ### Camarasaurus
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -3128,7 +3283,9 @@ Camarasaurus is a large, long-necked herbivore that travels in loose herds acros
 
 Ceratosaurus is a mid-sized predator distinguished by a short, blade-like horn above its snout and a row of bony ridges down its back. A swift and aggressive hunter, it favors ambush tactics along riverbanks and forest edges, where it preys on smaller herbivores and scavenges from larger kills.
 
+::: center
 ![](assets/ceratosaurus-plate.png)
+:::
 
 ### Cetiosaurus
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -3188,7 +3345,9 @@ Elasmosaurus is a colossal marine reptile with an extraordinarily long, serpenti
 
 Gorgosaurus is a large, swift predator closely related to the tyrannosaurus rex, though built for speed rather than raw power. It runs down fleeing prey with relentless bursts of speed before finishing the kill with its massive jaws. Gorgosaurs are solitary hunters and viciously territorial toward rivals of their own kind.
 
+::: center
 ![](assets/gorgosaurus-plate.png)
+:::
 
 ### Iguanodon
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -3201,7 +3360,22 @@ Gorgosaurus is a large, swift predator closely related to the tyrannosaurus rex,
 
 Iguanodon is a large, herding herbivore notable for the sharp, conical spikes on its thumbs, originally evolved for stripping vegetation but equally effective as weapons. Normally peaceable grazers that flee from danger in tight herds, cornered iguanodons will rear up and jab with their thumb spikes or lash out with a swipe of the tail.
 
+::: center
 ![](assets/iguanodon-plate.png)
+:::
+
+### Irish Deer
+*Source:* `AD&D 1E Conversion`  *Category:* `Animal`
+
+| Armor Class | 7          | No. Appearing | 0 (2d6)    |
+| Hit Dice    | 4          | Save As       | Fighter 2  |
+| Move        | 210' (70') | Morale        | 6          |
+| Attacks     | 1 antlers  | Treasure Type | Nil        |
+| Damage      | 2d6        | Alignment     | Neutral    |
+
+Irish deer are huge prehistoric deer with broad antlers. They are shy herd animals and usually flee danger.
+
+Stags fight during mating season or when cornered, using their great antlers to gore and batter foes.
 
 ### Lambeosaurus
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -3227,7 +3401,9 @@ Mastodons look like hairy elephants with long tusks. In combat, a mastodon will 
 
 Ivory mastodon tusks are quite valuable, each tusk being worth 200-800 gp. They live in cold, icy tundras or "lost worlds."
 
+::: center
 ![](assets/mastodon-plate.png)
+:::
 
 ### Megalosaurus
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -3240,7 +3416,9 @@ Ivory mastodon tusks are quite valuable, each tusk being worth 200-800 gp. They 
 
 Megalosaurus is a heavily built predator with a massive head and powerful, bone-crushing jaws. Less swift than many of its relatives, it relies on ambush and brute strength rather than speed, lying in wait near watering holes and trails favored by herbivorous prey.
 
+::: center
 ![](assets/megalosaurus-plate.png)
+:::
 
 ### Monoclonius
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -3292,7 +3470,9 @@ Neanderthals usually attack with thrown spears and use stone axes, clubs, or sto
 
 Paleoscincus is a broad, low-slung armored dinosaur, its back and flanks studded with bony spikes that make it nearly impervious to attack from above. Sluggish and unaggressive, it prefers to simply crouch low and wait out a threat, lashing its spiked tail only if directly attacked.
 
+::: center
 ![](assets/paleoscincus-plate.png)
+:::
 
 ### Pentaceratops
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -3382,7 +3562,9 @@ Unlike most Great Cats, sabre-tooth tigers are aggressive and fearless hunters t
 
 A sabre-tooth tiger that hits the same target with both claw attacks in one combat round also tears with its great fangs for an additional `2-8` points of damage.
 
-![Sabre-tooth Tiger](assets/sabre-tooth-tiger-plate.png)
+::: center
+![](assets/sabre-tooth-tiger-plate.png)
+:::
 
 ### Stegosaurus
 *Source:* `Expert`  *Category:* `Animal`
@@ -3431,7 +3613,9 @@ Teratosaurus is a lean, fast-running predator, among the swiftest hunters of the
 
 The prehistoric titanothere resembles a huge blunt-horned rhino, 12' tall at the shoulder. They are generally peaceful if left alone, preferring to graze grass and eat leaves off trees. In combat, titanotheres will butt or trample their opponents. Small herds of these creatures are found in the grasslands of "lost world" areas.
 
+::: center
 ![](assets/titanothere-plate.png)
+:::
 
 ::: columnbreak-pdf
 :::
@@ -3462,7 +3646,9 @@ The tyrannosaurus rex is one of the largest hunting dinosaurs, standing over 20'
 
 The tyrannosaurus rex is usually found only in "lost world" areas.
 
+::: center
 ![](assets/tyrannosaurus-rex-plate.png)
+:::
 
 ::: pagebreak-pdf
 :::
@@ -3501,7 +3687,9 @@ Devil swine possess a powerful **charm person** ability that may be used three t
 
 Cunning and patient hunters, devil swine prefer ambushes, deception, and nighttime attacks over open battle.
 
-![Devil Swine](assets/devil-swine-plate.png)
+::: center
+![](assets/devil-swine-plate.png)
+:::
 
 ::: columnbreak-pdf
 :::
@@ -3519,7 +3707,9 @@ Jackalweres are evil jackals able to assume human form. They use deception to lu
 
 A jackalwere may sing or gaze to lull creatures into sleep. Victims must Save vs. Spells or sleep for 2d4 turns. Jackalweres can be harmed only by iron or magic weapons.
 
-![Jackalwere](assets/jackalwere-plate.png)
+::: center
+![](assets/jackalwere-plate.png)
+:::
 
 ### Werebear*
 *Source:* `Basic`  *Category:* `Lycanthrope`
@@ -3536,7 +3726,9 @@ In bear form, a werebear is 50% likely to be accompanied by `1d6` brown bears. I
 
 In combat, if both claw attacks hit the same target in one round, the werebear also hugs for an additional 2-16 points of damage. Werebears are immune to disease, heal three times faster than normal, and may cure disease in another creature within `1d4` weeks.
 
+::: center
 ![](assets/werebear-plate.png)
+:::
 
 ### Wereboar*
 *Source:* `Basic`  *Category:* `Lycanthrope`
@@ -3549,7 +3741,9 @@ In combat, if both claw attacks hit the same target in one round, the werebear a
 
 A wereboar is a foul-tempered, semi-intelligent lycanthrope usually found in heavily wooded areas. In human form, wereboars often resemble savage berserkers and fight with the same reckless fury in battle.  When enraged, a wereboar gains a +2 bonus on attack rolls and fights to the death. There is a 15% chance a wereboar will be accompanied by 1d4 normal boars, which it can direct to attack alongside it.
 
-![Wereboar](assets/wereboar-plate.png)
+::: center
+![](assets/wereboar-plate.png)
+:::
 
 ### Wererat*
 *Source:* `Basic`  *Category:* `Lycanthrope`
@@ -3568,7 +3762,9 @@ A wererat may summon and control `2d6` giant rats to aid it in combat. Only a we
 
 Rumors speak of hidden colonies of black wererats ruled by sinister leaders and moon-mad sorcerers. Fearful tales claim entire ratfolk kingdoms lie beneath ancient cities, lit by sickly green fires and ruled by masked wererat kings attended by enormous sacred rats. Some legends say they plot to one day overwhelm the surface world in a tide of fur, fang, and plague.
 
+::: center
 ![](assets/wererat-plate.png)
+:::
 
 ### Weretiger*
 *Source:* `Basic`  *Category:* `Lycanthrope`
@@ -3585,7 +3781,9 @@ They are excellent swimmers and silent trackers, surprising opponents on a roll 
 
 Due to their ability to speak with felines, normal cats are 75% likely to react favorably toward a weretiger.
 
-![Weretiger](assets/weretiger-plate.png)
+::: center
+![](assets/weretiger-plate.png)
+:::
 
 ### Werewolf*
 *Source:* `Basic`  *Category:* `Lycanthrope`
@@ -3606,7 +3804,9 @@ Any group of 5 or more adult werewolves will also have a leader with 30 hit poin
 
 Werewolves may summon normal wolves to form larger hunting packs.
 
-![Werewolf](assets/werewolf-plate.png)
+::: center
+![](assets/werewolf-plate.png)
+:::
 
 ::: pagebreak-pdf
 :::
@@ -3632,7 +3832,9 @@ If hard pressed, an ankheg may squirt digestive acid up to 30' once every six ho
 
 An ankheg's chitinous shell is brown, while its softer underside is pink. Its eyes are glistening black.
 
-![Ankheg](assets/ankheg-plate.png)
+::: center
+![](assets/ankheg-plate.png)
+:::
 
 ### Basilisk
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -3649,7 +3851,9 @@ Creatures touched by a basilisk, or meeting its gaze, must make a saving throw v
 
 Characters looking away to avoid the gaze of a basilisk must fight it with a penalty of -4 on their "to hit" rolls, while the basilisk attacks at + 2 . The beast can be safely viewed in a mirror, and characters who fight it while looking into a mirror will only have a -1 penalty on their "to hit" rolls. If the basilisk sees itself in a mirror (a `1d6` roll of 1 or 2), if must make a saving throw or be turned to stone! There must be light close by for mirrors to be used, and using a mirror prevents the effective use of a shield.
 
-![Basilisk](assets/basilisk-plate.png)
+::: center
+![](assets/basilisk-plate.png)
+:::
 
 ### Beholder
 *Source:* `AD&D 1E Conversion`
@@ -3673,7 +3877,9 @@ Beholders are hateful, aggressive, and greedy, usually attacking on sight. Again
 
 **AC:** Body 0, Eyestalks 2, Eyes 7
 
-![Beholder](assets/beholder-plate.png)
+::: center
+![](assets/beholder-plate.png)
+:::
 
 ### Black Pudding*
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -3692,7 +3898,9 @@ Black puddings can travel on ceilings and walls and can pass through small openi
 
 They can be killed only by fire; other attacks (weapons or spells) merely break them into smaller puddings (a 2 hit dice pudding that does 1–8 points of damage is created per blow). A **flaming sword** will do normal damage.
 
-![Black Pudding](assets/black-pudding-plate.png)
+::: center
+![](assets/black-pudding-plate.png)
+:::
 
 ### Blink Dog
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -3709,7 +3917,9 @@ In combat, blink dogs “blink” beside an enemy, strike, and then reappear 10�
 
 If badly threatened, an entire pack may “blink” away and not return. Blink dogs are the natural enemies of displacer beasts and will attack them on sight.
 
-![Blink Dog](assets/blink-dog-plate.png)
+::: center
+![](assets/blink-dog-plate.png)
+:::
 
 ### Brain Mole
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -3726,7 +3936,9 @@ When a brain mole is within 30' of a creature using such power, it burrows into 
 
 Ending the spell or ceasing use of the item stops the attack. A truly psionic victim must leave the 30' range or kill the brain mole to stop the burrowing. This monster requires manual review if the campaign does not use psionics.
 
-![Brain Mole](assets/brain-mole-plate.png)
+::: center
+![](assets/brain-mole-plate.png)
+:::
 
 ### Bulette
 *Source:* `AD&D 1E Conversion`
@@ -3747,7 +3959,9 @@ The shell under the crest is only AC 6 and may be exposed during a fierce fight.
 
 *AC*: Body -2; Eyes 4; Crest 6
 
-![Bulette](assets/buletteplate.png)
+::: center
+![](assets/buletteplate.png)
+:::
 
 ### Caecilia
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -3775,7 +3989,9 @@ Once a victim is paralyzed, the carrion crawler will begin feeding unless driven
 
 Without magical aid, the paralysis wears off naturally in `2d4` turns.
 
-![Carrion Crawler](assets/carrion-crawler-plate.png)
+::: center
+![](assets/carrion-crawler-plate.png)
+:::
 
 ### Catoblepas
 *Source:* `AD&D 1E Conversion`
@@ -3793,7 +4009,9 @@ A creature struck by the tail must Save vs. Paralysis or be stunned for `1d10` r
 
 The catoblepas has a deathly gaze with a range of 60'. Any creature meeting the gaze dies. Because its neck is weak, the monster can raise its head to use the gaze only on a roll of 1-2 on `1d6` each round. If both sides remain still, the chance increases by 1 each round. If the catoblepas is pursuing moving prey, it can use the gaze only on a roll of 1 on `1d6`. A fleeing creature with eyes averted may Save vs. Death to avoid the gaze.
 
-![Catoblepas](assets/catoblepas-plate.png)
+::: center
+![](assets/catoblepas-plate.png)
+:::
 
 ### Cerebral Parasite
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -3837,7 +4055,9 @@ In total: 2 × claw (1d3), goat: 1 × gore (2d4), lion: 1 × bite (2d4), dragon:
 
 Chimeras are savage, ill-tempered predators most often found in wild hills, rocky badlands, and remote mountain regions, though they sometimes lair in deep dungeons or ruined strongholds.
 
-![Chimera](assets/chimera-plate.png)
+::: center
+![](assets/chimera-plate.png)
+:::
 
 ::: columnbreak-pdf
 :::
@@ -3856,7 +4076,9 @@ This is a small, magical monster with the head, wings, and legs of a rooster and
 
 Cockatrices may be found anywhere.
 
-![Cockatrice](assets/cockatrice-plate.png)
+::: center
+![](assets/cockatrice-plate.png)
+:::
 
 ### Couatl
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -3876,7 +4098,9 @@ Couatls can become ethereal at will and can polymorph themselves. Each couatl ca
 
 Couatls speak several human languages, as well as most serpent and avian tongues.
 
-![Couatl](assets/couatl-plate.png)
+::: center
+![](assets/couatl-plate.png)
+:::
 
 ### Displacer Beast
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -3893,7 +4117,9 @@ The creature’s most feared ability is its constant distortion of light and spa
 
 Displacer beasts possess a cruel, predatory cunning and delight in stalking intelligent prey. They harbor an instinctive hatred and fear of blink dogs, attacking them and any creatures traveling with them on sight.
 
-![Displacer Beast](assets/displacer-beast-plate.png)
+::: center
+![](assets/displacer-beast-plate.png)
+:::
 
 ### Doppelganger
 *Source:* `Basic`  *Category:* `Monstrous`
@@ -3912,7 +4138,9 @@ Due to their magical nature, doppelgangers are immune to **sleep** and **charm**
 
 When slain, a doppelganger immediately reverts to its true form.
 
+::: center
 ![](assets/doppelganger-plate.png)
+:::
 
 ### Dragonne
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -3930,7 +4158,9 @@ All creatures within 120' that hear the roar must Save vs. Paralysis or lose hal
 
 Dragonnes can fly only short distances, usually 1d3 turns. They speak the languages of brass dragons and sphinxes.
 
-![Dragonne](assets/dragonne-plate.png)
+::: center
+![](assets/dragonne-plate.png)
+:::
 
 ### Eye of the Deep
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -3947,7 +4177,9 @@ Its great central eye emits a cone of blinding light 30' long. Creatures in the 
 
 If severed, the eyestalks regrow in about one week.
 
-![Eye of the Deep](assets/eye-of-the-deep-plate.png)
+::: center
+![](assets/eye-of-the-deep-plate.png)
+:::
 
 ### Eye, Floating
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -3975,7 +4207,9 @@ Violet fungi resemble shriekers and are usually found growing among them. They t
 
 Each violet fungus has 1d4 branches, each 1'-4' long depending on the fungus's size. If an animal comes within reach, the branches lash out. A creature touched must Save vs. Poison or have its flesh rot away in 1 round. Cure disease stops the rot.
 
-![Fungi, Violet](assets/violet-fungi-plate.png)
+::: center
+![](assets/violet-fungi-plate.png)
+:::
 
 ### Gas Spore
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -3990,7 +4224,9 @@ At a distance, a gas spore looks almost exactly like a beholder, with a false ce
 
 If a gas spore takes even 1 point of damage, it explodes. All creatures within 20' take 6d6 damage, or half damage with a successful Save vs. Wands. If a gas spore touches exposed flesh, it injects rhizomes and dies. Unless cure disease is cast within 24 hours, the victim dies and sprouts 2d4 new gas spores.
 
-![Gas Spore](assets/gas-spore-plate.png)
+::: center
+![](assets/gas-spore-plate.png)
+:::
 
 ### Gelatinous Cube
 *Source:* `Basic`  *Category:* `Monstrous`
@@ -4003,7 +4239,9 @@ If a gas spore takes even 1 point of damage, it explodes. All creatures within 2
 
 These  are made of a clear jelly and are shaped like cubes about 10' on a side. Due to their near transparency, they surprise on a roll of 1-4 (1d6). They move through the rooms and corridors of dungeons, sweeping the halls clean of all living and dead material. In the process, they may pick up items they can't dissolve (such as gold pieces and gems). Though they usually eat carrion, they will attack any living creature they encounter, inflicting 2d4 points of damage. Each successful hit will paralyze the victim unless a saving throw versus Paralysis is made. Any attacks on a paralyzed victim will automatically hit (only a damage roll is needed). This paralysis is the normal type (lasting 2-8 turns unless removed by a cure light wounds spell). A gelatinous cube may be harmed by fire and weapons, but not by cold or lightning.
 
-![Gelatinous Cube](assets/gelatinous-cube-plate.png)
+::: center
+![](assets/gelatinous-cube-plate.png)
+:::
 
 ### Gorgon
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -4018,7 +4256,9 @@ A gorgon is a magical bull-like monster covered with large iron scales. It gores
 
 A gorgon's vapor cloud is 60' long by 10' wide. They are impervious to their own breath weapon. Gorgons are usually found in foothills or grasslands.
 
+::: center
 ![](assets/gorgon-plate.png)
+:::
 
 ### Gray Ooze
 *Source:* `Basic`  *Category:* `Monstrous`
@@ -4031,7 +4271,9 @@ A gorgon's vapor cloud is 60' long by 10' wide. They are impervious to their own
 
 This seeping horror looks like wet stone and is difficult to see. It secretes an acid which does 2d8 points of damage if the gray ooze hits bare skin. This acid will dissolve and destroy magic armor in one turn. After the first hit, the ooze will stick to its victim, automatically destroying any normal armor and doing 2d8 points of damage each round. Gray ooze cannot be harmed by cold or fire, but can be harmed by weapons and lightning.
 
+::: center
 ![](assets/gray-ooze-plate.png)
+:::
 
 ### Green Slime*
 *Source:* `Basic`  *Category:* `Monstrous`
@@ -4048,7 +4290,9 @@ Green slime often clings to walls and ceilings and will drop down on surprised c
 
 When green slime drops on a victim, or is stepped on, the victim can usually burn it while it is dissolving armor and clothing. If it is not burned off, the victim will turn completely into green slime 1-4 rounds after the first 6-round, one-minute period. Burning does 1/2 damage to the green slime and 1/2 damage to the victim.
 
+::: center
 ![](assets/green-slime-plate.png)
+:::
 
 ### Griffon
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -4064,7 +4308,9 @@ A griffon is a large monster with the head, wings, and front claws of an eagle a
 
 Wild griffons will attack any who approach their nests. If captured young, they can be tamed to become fierce, loyal mounts, with training left to the DM's discretion. Tamed griffons are still likely to attack horses, however, and must check morale as above.
 
-![Griffon](assets/griffon-plate.png)
+::: center
+![](assets/griffon-plate.png)
+:::
 
 ### Harpy
 *Source:* `Basic`  *Category:* `Monstrous`
@@ -4080,7 +4326,9 @@ A harpy has the lower body of a giant eagle and the upper body and head of a hid
 
 Charmed individuals will move toward the harpies, resisting any attempt to stop them, but not otherwise attacking. If a character saves against the songs of a group of harpies, the character will not be affected by any of their songs during the encounter. Harpies are resistant to magic and have a + 2 on all their saves.
 
-![Harpy](assets/harpy-plate.png)
+::: center
+![](assets/harpy-plate.png)
+:::
 
 ### Hellhound
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -4113,7 +4361,9 @@ Hippocampi are prized marine steeds, strong, swift, and intelligent. They resemb
 
 Hippocampi speak their own language and can learn another if trained. Tritons often keep and ride them.
 
-![Hippocampus](assets/hippocampus-plate.png)
+::: center
+![](assets/hippocampus-plate.png)
+:::
 
 ### Hippogriff
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -4127,7 +4377,9 @@ Hippocampi speak their own language and can learn another if trained. Tritons of
 
 A hippogriff is a fantastic creature with the foreparts and head of a giant eagle and the hindquarters of a horse. Hippogriffs can be ridden if tamed. They usually attack pegasi, their natural enemies, and nest in rocky crags.
 
-![Hippogriff](assets/hippogriff-plate.png)
+::: center
+![](assets/hippogriff-plate.png)
+:::
 
 ### Hydra
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -4144,7 +4396,9 @@ Sea hydras have adapted to water. They possess fins instead of legs. They are ot
 
 The DM may wish to create special versions of hydra. Special hydras could have poisonous bites or breathe fire, as a dragon, but with a 5' range and only causing 8 points of damage per head. Such creatures should be placed by the DM to guard special treasures.
 
-![Hydra](assets/hydra-plate.png)
+::: center
+![](assets/hydra-plate.png)
+:::
 
 ### Intellect Devourer
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4159,7 +4413,9 @@ Intellect devourers are horrid brain-like predators with clawed legs. They stalk
 
 An intellect devourer can use ESP and confusion, and it may attempt to seize control of a helpless or slain victim's body. Treat its psionic attacks as powerful charm or feeblemind effects requiring Saves vs. Spells. This monster requires manual review if psionics are used.
 
-![Intellect Devourer](assets/intellect-devourer-plate.png)
+::: center
+![](assets/intellect-devourer-plate.png)
+:::
 
 ### Invisible Stalker
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -4187,7 +4443,9 @@ Ixitxachitl are evil, intelligent manta-like beings that build undersea lairs an
 
 Some leaders are vampiric ixitxachitl. Their bite drains life energy and they should be treated as undead for turning and special defenses. This variant requires manual review.
 
-![Ixitxachitl](assets/ixitxachitl-plate.png)
+::: center
+![](assets/ixitxachitl-plate.png)
+:::
 
 ### Ki-rin
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4203,7 +4461,9 @@ Ki-rin are noble, highly magical beings that appear as radiant, scaled, horse-li
 
 Ki-rin can fly, become invisible, create food and water, and use powerful clerical and magical spells at the referee's discretion. They are campaign-level allies or patrons and require manual review before use.
 
-![Ki-rin](assets/ki-rin-plate.png)
+::: center
+![](assets/ki-rin-plate.png)
+:::
 
 ### Lamia
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4218,7 +4478,9 @@ Lamias are cruel, seductive monsters with the upper body of a woman and the lowe
 
 A lamia's touch drains 1 point of Wisdom. A creature reduced to 3 Wisdom or less obeys the lamia's suggestions. Lamias use illusions, charm, and deception to isolate victims before feeding.
 
-![Lamia](assets/lamia-plate.png)
+::: center
+![](assets/lamia-plate.png)
+:::
 
 ### Lammasu
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4234,7 +4496,9 @@ Lammasu are noble winged lions with human-like heads. They protect lawful creatu
 
 Lammasu radiate protection from evil and can cast clerical spells at the referee's discretion. They are intelligent, wise, and may aid worthy parties.
 
-![Lammasu](assets/lammasu-plate.png)
+::: center
+![](assets/lammasu-plate.png)
+:::
 
 ### Larva
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4249,7 +4513,9 @@ Larvae are wretched souls of the lower planes, appearing as worm-like bodies wit
 
 Larvae are often traded or consumed by demons and night hags. They attack living creatures only in desperate hunger or when driven.
 
-![Larva](assets/larva-plate.png)
+::: center
+![](assets/larva-plate.png)
+:::
 
 ### Leucrotta
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4264,7 +4530,9 @@ Leucrottas are cruel, intelligent predators able to mimic voices. They lure vict
 
 Their jaws are powerful enough to bite through armor and bone. They are treacherous and delight in deception, torment, and ambush.
 
-![Leucrotta](assets/leucrotta-plate.png)
+::: center
+![](assets/leucrotta-plate.png)
+:::
 
 ### Lurker Above
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4280,7 +4548,9 @@ Lurkers above are subterranean predators resembling great manta rays. Their gray
 
 A lurker surprises on 1-4 on 1d6. It drops onto prey, wrapping victims in its tough folds. Trapped creatures take 1d6 damage each round and smother in 2d4 rounds unless the lurker is killed. Only short weapons already in hand can be used while trapped.
 
-![Lurker Above](assets/lurker-above-plate.png)
+::: center
+![](assets/lurker-above-plate.png)
+:::
 
 ### Manticore
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -4296,7 +4566,9 @@ A manticore is a horrid monster having a man's face, the body of a lion, leather
 
 The manticore's favorite food is man. They usually live in wild mountain ranges. They will frequently track parties with humans, ambushing with spike attacks when the party stops to rest.
 
-![Manticore](assets/manticore-plate.png)
+::: center
+![](assets/manticore-plate.png)
+:::
 
 ### Medusa
 *Source:* `Basic`  *Category:* `Monstrous`
@@ -4311,7 +4583,9 @@ A medusa looks like a human female with live snakes growing from her head instea
 
 Anyone who tries to attack a medusa without looking at it must subtract 4 from all "to hit" rolls, and the medusa may attack with a bonus of + 2 on its "to hit" rolls. A medusa also gains + 2 on saves vs. Spells due to her magical nature.
 
-![Medusa](assets/medusa-plate.png)
+::: center
+![](assets/medusa-plate.png)
+:::
 
 ### Mermen
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -4341,7 +4615,9 @@ Mimics are shapechanging dungeon predators that imitate chests, doors, stonework
 
 A mimic's surface becomes adhesive at will. A creature touching it is stuck unless it succeeds at an Open Doors roll, and the mimic attacks with a powerful pseudopod. Some larger mimics are intelligent and may bargain for food.
 
-![Mimic](assets/mimic-plate.png)
+::: center
+![](assets/mimic-plate.png)
+:::
 
 ### Mind Flayer
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4356,7 +4632,9 @@ Mind flayers are evil subterranean beings with squid-like heads and terrible men
 
 Their mind blast is a cone of mental force. Creatures caught in it must Save vs. Spells or be stunned for 3d4 rounds. A mind flayer that hits with all four tentacles extracts and devours the victim's brain on the following round unless the victim escapes or the monster is driven off. This monster requires manual review if psionics are used.
 
-![Mind Flayer](assets/mind-flayer-plate.png)
+::: center
+![](assets/mind-flayer-plate.png)
+:::
 
 ### Minotaur
 *Source:* `Basic`  *Category:* `Monstrous`
@@ -4371,7 +4649,9 @@ A minotaur is a large man with the head of a bull. It is larger than human size,
 
 Minotaurs are semi-intelligent and some use weapons, preferring a spear, club, or axe. Minotaurs gain + 2 to damage done with a weapon due to their strength. If a minotaur uses a weapon, it may not gore or bite. Minotaurs usually live in tunnels or mazes.
 
-![Minotaur](assets/minotaur-plate.png)
+::: center
+![](assets/minotaur-plate.png)
+:::
 
 
 
@@ -4395,7 +4675,9 @@ Brown mold feeds on heat. Creatures within 5' take 4d8 cold damage. Fire causes 
 
 Yellow mold releases a cloud of spores if touched or struck. Creatures in the cloud take 1d6 damage and must Save vs. Poison or die. Fire destroys yellow mold.
 
-![Mold](assets/mold-plate.png)
+::: center
+![](assets/mold-plate.png)
+:::
 
 ### Morkoth
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4410,7 +4692,9 @@ Morkoths are evil undersea monsters that dwell in spiraling tunnel lairs. Their 
 
 A morkoth can hypnotize victims that meet its gaze. The victim must Save vs. Spells or swim helplessly toward the monster. Spells cast at a morkoth may be reflected back at the caster at the referee's discretion.
 
-![Morkoth](assets/morkoth-plate.png)
+::: center
+![](assets/morkoth-plate.png)
+:::
 
 ### Naga
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4433,7 +4717,9 @@ Nagas are intelligent serpent beings with human-like heads. They are magical and
 
 All nagas have poisonous bites and spellcasting ability. Guardian nagas are benevolent protectors, spirit nagas are evil and manipulative, and water nagas dwell in lakes, rivers, and flooded ruins. Exact spell lists require manual review.
 
-![Naga](assets/naga-plate.png)
+::: center
+![](assets/naga-plate.png)
+:::
 
 ### Neotyugh
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4448,7 +4734,9 @@ Neotyughs are larger, more dangerous relatives of otyughs. They dwell in refuse 
 
 Their tentacles may grab prey and drag it to the mouth. Their bite carries disease unless the victim Saves vs. Poison.
 
-![Neotyugh](assets/neotyugh-plate.png)
+::: center
+![](assets/neotyugh-plate.png)
+:::
 
 ### Night Hag
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4463,7 +4751,9 @@ Night hags are evil crones of the lower planes who trade in larvae and torment s
 
 A night hag may visit a sleeping victim and drain 1d10 hit points each night. Protection from evil or similar magic wards against this attack. Night hags require manual review for planar and soul-trading details.
 
-![Night Hag](assets/night-hag-plate.png)
+::: center
+![](assets/night-hag-plate.png)
+:::
 
 ### Nightmare
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4479,7 +4769,9 @@ Nightmares are flaming black steeds from evil planes, ridden by powerful fiends 
 
 They can fly, become ethereal with a rider, and breathe hot smoke that blinds and chokes nearby foes unless they Save vs. Breath Weapon.
 
-![Nightmare](assets/nightmare-plate.png)
+::: center
+![](assets/nightmare-plate.png)
+:::
 
 ### Ochre Jelly
 *Source:* `Basic`  *Category:* `Monstrous`
@@ -4492,7 +4784,9 @@ They can fly, become ethereal with a rider, and breathe hot smoke that blinds an
 
 An ochre jelly is an ochre-colored giant amoeba which can only be harmed by fire or cold. Attacks with weapons or lightning merely make several (1d4+ 1) smaller (2 hit dice) ochre jellies. An ochre jelly does 2d6 damage per turn to exposed flesh. The smaller ochre jellies only do half damage. It can seep through small cracks, and destroy wood, leather, and cloth in 1 round, but cannot eat through metal or stone.
 
+::: center
 ![](assets/ochre-jelly-plate.png)
+:::
 
 ### Otyugh
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4507,7 +4801,9 @@ Otyughs live in refuse, offal, and carrion. They are filthy but not always aggre
 
 Their tentacles grab prey and drag it to the mouth. The bite carries disease unless the victim Saves vs. Poison.
 
-![Otyugh](assets/otyugh-plate.png)
+::: center
+![](assets/otyugh-plate.png)
+:::
 
 ### Owl Bear
 *Source:* `Basic`  *Category:* `Monstrous`
@@ -4520,7 +4816,9 @@ Their tentacles grab prey and drag it to the mouth. The bite carries disease unl
 
 An owl bear is a huge bear-like creature with the head of a giant owl. An owl bear stands 8' tall and weighs 1500 pounds (15,000 coins). Owl bears have nasty tempers and are usually hungry, preferring meat. If both paws of an owl bear hit the same opponent in one round, the owl bear will "hug" for an additional 2d8 points of damage. They are commonly found underground and in dense forests.
 
-![Owl Bear](assets/owl-bear-plate.png)
+::: center
+![](assets/owl-bear-plate.png)
+:::
 
 ### Pegasus
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -4534,7 +4832,9 @@ An owl bear is a huge bear-like creature with the head of a giant owl. An owl be
 
 These semi-intelligent flying horses are wild and shy. They cannot be tamed, but will serve Lawful characters only if captured when young and trained. Pegasi are the natural enemies of hippogriffs.
 
-![Pegasus](assets/pegasus-plate.png)
+::: center
+![](assets/pegasus-plate.png)
+:::
 
 ### Peryton
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4550,7 +4850,9 @@ Perytons are stag-like flying predators with bird bodies and a hunger for human 
 
 They dive from the air to impale prey. Until it has consumed a fresh heart, a peryton can be harmed only by magic weapons.
 
-![Peryton](assets/peryton-plate.png)
+::: center
+![](assets/peryton-plate.png)
+:::
 
 ### Piercer
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4565,7 +4867,9 @@ Piercers resemble stalactites and cling to cavern ceilings. They drop onto passi
 
 After dropping, a piercer crawls slowly away to climb again. Careful tapping or inspection may reveal them before they fall.
 
-![Piercer](assets/piercer-plate.png)
+::: center
+![](assets/piercer-plate.png)
+:::
 
 ### Portuguese Man-O-War
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4593,7 +4897,9 @@ Purple worms are huge, slime-covered creatures over 100' long and 8' to 10' in d
 
 Those stung by the tail must save vs. Poison or die. Note that if encountered underground, the size of underground tunnels may prevent a purple worm from using one or both of its attacks.
 
-![Purple Worm](assets/purple-worm-plate.png)
+::: center
+![](assets/purple-worm-plate.png)
+:::
 
 ### Rakshasa
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4608,7 +4914,9 @@ Rakshasas are evil, shapechanging spirits that delight in deception, luxury, and
 
 Rakshasas use illusion and charm freely and cast spells as magic-users and clerics at the referee's discretion. They are immune to normal weapons and most low-level spells. Blessed crossbow bolts or comparable holy weapons are especially deadly to them.
 
-![Rakshasa](assets/rakshasa-plate.png)
+::: center
+![](assets/rakshasa-plate.png)
+:::
 
 ### Remorhaz
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4623,7 +4931,9 @@ Remorhaz, or polar worms, are aggressive predators of frozen wastes. Their size 
 
 A remorhaz swallows prey whole on a natural 20, killing the victim instantly with internal heat. When enraged, its back glows red-hot. Nonmagical weapons striking the back melt, and creatures touching it take 10d10 damage. Remorhaz eggs are extremely valuable.
 
-![Remorhaz](assets/remorhaz-plate.png)
+::: center
+![](assets/remorhaz-plate.png)
+:::
 
 ### Roc
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -4646,7 +4956,9 @@ Rocs are huge birds of prey resembling eagles. They are very lawful, and are oft
 
 Roc nests are found in the highest mountains and 50% of the time will contain 1-6 eggs or young. Rocs never check morale if encountered in their lair. If hatched or captured as chicks, young rocs can be trained.
 
+::: center
 ![](assets/roc-plate.png)
+:::
 
 ### Roper
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4663,7 +4975,9 @@ A roper can shoot six sticky strands to a range of 20'-50'. A hit drains half th
 
 A roper's gizzard may contain 3d6 platinum pieces and, on a 35% chance, 5d4 gems.
 
-![Roper](assets/roper-plate.png)
+::: center
+![](assets/roper-plate.png)
+:::
 
 ### Rust Monster
 *Source:* `Basic`  *Category:* `Monstrous`
@@ -4676,7 +4990,9 @@ A roper's gizzard may contain 3d6 platinum pieces and, on a 35% chance, 5d4 gems
 
 A rust monster has a body like a giant armadillo with a long tail, and 2 long front "feelers" (antennae). If a character hits a rust monster, or if a rust monster hits a character with its antenna, it will cause any metal armor or weapons touching it to immediately rust, so that they are unusable and worthless. Each time magical weapons and armor are struck they will lose one plus. Magical weapons and armor have a chance of not being affected. For each "plus" that a weapon or armor has, there is a 10% chance that it will not rust. EXAMPLE: A shield + 3 has a 30% chance of surviving the attack or else it is reduced to a shield + 2. A rust monster is attracted by the smell of metal. It eats the rust created by its attacks.
 
-![Rust Monster](assets/rust-monster-plate.png)
+::: center
+![](assets/rust-monster-plate.png)
+:::
 
 ### Sea Hag
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4691,7 +5007,9 @@ Sea hags are hideous aquatic crones who haunt coasts, reefs, and wrecks. Their a
 
 A creature seeing a sea hag must Save vs. Spells or be weakened with fear. A sea hag may fix one victim with its deadly gaze; the victim must Save vs. Death or collapse helpless for 3 days.
 
-![Sea Hag](assets/sea-hag-plate.png)
+::: center
+![](assets/sea-hag-plate.png)
+:::
 
 ### Sea Lion
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4706,7 +5024,9 @@ Sea lions combine leonine foreparts with fish-like hindquarters. They defend the
 
 They attack with claws and bite, using speed and strength to drag prey underwater.
 
-![Sea Lion](assets/sea-lion-plate.png)
+::: center
+![](assets/sea-lion-plate.png)
+:::
 
 ### Sea Serpent (Lesser)
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -4719,7 +5039,9 @@ They attack with claws and bite, using speed and strength to drag prey underwate
 
 A sea serpent resembles a long, 20' to 30', giant snake with many fins. A sea serpent may attack a sea craft its own size or smaller by looping around the boat and squeezing for 1-10 points of hull damage per round. Its normal attack is a bite, and it can lunge up to 20' out of the water when biting creatures on the surface.
 
-![Sea Serpents](assets/sea-serpent-plate.png)
+::: center
+![](assets/sea-serpent-plate.png)
+:::
 
 ### Shadow
 *Source:* `Basic`  *Category:* `Monstrous`
@@ -4745,7 +5067,9 @@ Shambling mounds are heaps of rotting vegetation animated by strange life. They 
 
 If both slam attacks hit, the victim is engulfed and begins to suffocate, taking automatic damage each round. Fire deals half damage, cold deals no damage, and lightning heals a shambling mound.
 
-![Shambling Mound](assets/shambling-mound-plate.png)
+::: center
+![](assets/shambling-mound-plate.png)
+:::
 
 ### Shedu
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4761,7 +5085,9 @@ Shedu are benevolent winged beings with human heads and bull-like bodies. They p
 
 Shedu possess strong mental powers, can become ethereal, and may aid lawful creatures with wisdom or transport. This monster requires manual review if psionics are used.
 
-![Shedu](assets/shedu-plate.png)
+::: center
+![](assets/shedu-plate.png)
+:::
 
 ### Shrieker
 *Source:* `Basic`  *Category:* `Monstrous`
@@ -4774,7 +5100,9 @@ Shedu possess strong mental powers, can become ethereal, and may aid lawful crea
 
 Shriekers look like giant mushrooms. They live in underground caverns and are able to move around slowly. They react to light (within 60') and movement (within 30') by emitting a piercing shriek which lasts for 1-3 rounds. There will be a 50% chance per round of a wandering monster encounter for each round that a shrieker shrieks. The wandering monster will arrive in `2d6` rounds.
 
+::: center
 ![](assets/shrieker-plate.png)
+:::
 
 ### Slithering Tracker
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4802,7 +5130,9 @@ Giant slugs are enormous dungeon scavengers that rasp and dissolve anything edib
 
 Once per turn, a giant slug may spit acid to 60'. The first range band is accurate, but beyond that the shot may scatter. A direct hit deals 5d8 damage, half with a successful Save vs. Breath Weapon.
 
-![Slug, Giant](assets/giant-slug-plate.png)
+::: center
+![](assets/giant-slug-plate.png)
+:::
 
 ### Sphinx
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4825,7 +5155,9 @@ Sphinxes are intelligent winged lions with differing heads and temperaments. Som
 
 Androsphinxes are powerful lawful protectors with a terrible roar. Gynosphinxes love riddles, knowledge, and guarded treasures. Criosphinxes are ram-headed and greedy. Hieracosphinxes are hawk-headed, savage, and evil.
 
-![Sphinx](assets/sphinx-plate.png)
+::: center
+![](assets/sphinx-plate.png)
+:::
 
 ### Stirge
 *Source:* `Basic`  *Category:* `Monstrous`
@@ -4841,7 +5173,9 @@ A stirge is a birdlike creature with a long beak, rather like a very small feath
 
 Because of its speed, a flying stirge gains a +2 bonus on its first attack roll against a target. Stirges are hardy and save as Fighter: 2.
 
+::: center
 ![](assets/stirge-plate.png)
+:::
 
 ### Strangle Weed
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4869,7 +5203,9 @@ Su-monsters are wicked tree-dwelling primates with prehensile tails and maliciou
 
 They possess dangerous mental powers. Treat their psychic attack as confusion or feeblemind requiring a Save vs. Spells. This monster requires manual review if psionics are used.
 
-![Su-Monster](assets/su-monster-plate.png)
+::: center
+![](assets/su-monster-plate.png)
+:::
 
 ### Termite, Water
 *Source:* `Expert`  *Category:* `Monstrous`
@@ -4893,7 +5229,9 @@ When the body sack is completely expanded, the water termite looks like a large 
 
 The real terror of these creatures is the possible destruction they can cause to boats and ships. Water termites will cling to passing vessels and move about the bottom to find a good place to begin eating away at the wood. Once attached, each termite will do 1-3 points of hull damage to the ship or boat and then will drop off, having eaten its fill. Check for sinking (see page ) after the water termites have begun to damage the vessel. Once a water termite damages a boat or ship, there is a 50% chance each round that someone will notice water leaking into the vessel.
 
-![Termite](assets/termite-plate.png)
+::: center
+![](assets/termite-plate.png)
+:::
 
 ### Thought Eater
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4908,7 +5246,9 @@ Thought eaters are strange ethereal creatures that feed on mental energy. They a
 
 A thought eater drains memorized spells, charges from mental magic items, or psionic strength. Treat each attack as forcing a Save vs. Spells or losing one prepared spell or similar mental resource. This monster requires manual review if psionics are used.
 
-![Thought Eater](assets/thought-eater-plate.png)
+::: center
+![](assets/thought-eater-plate.png)
+:::
 
 ### Thoul
 *Source:* `Basic`  *Category:* `Monstrous`
@@ -4936,7 +5276,9 @@ Trappers are flat subterranean predators that resemble stone floors. They wait u
 
 Creatures trapped inside take automatic damage and begin suffocating. Only short weapons already in hand can be used inside the folds.
 
-![Trapper](assets/trapper-plate.png)
+::: center
+![](assets/trapper-plate.png)
+:::
 
 ### Umber Hulk
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4952,7 +5294,9 @@ Umber hulks are powerful burrowing monsters with huge claws and confusing eyes. 
 
 Any creature meeting an umber hulk's gaze must Save vs. Spells or be confused for 3d4 rounds. Avoiding the gaze gives -4 to attack rolls against it.
 
-![Umber Hulk](assets/umber-hulk-plate.png)
+::: center
+![](assets/umber-hulk-plate.png)
+:::
 
 ### Will-O-Wisp
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4967,7 +5311,9 @@ Will-o-wisps are floating lights that lure travelers into bogs, pits, and monste
 
 They can brighten, dim, or vanish at will. Most spells do not affect them, though magic missile and a few referee-chosen effects may. They attack with electrical shocks.
 
-![Will-O-Wisp](assets/will-o-wisp-plate.png)
+::: center
+![](assets/will-o-wisp-plate.png)
+:::
 
 ::: columnbreak-pdf
 :::
@@ -4985,7 +5331,9 @@ This deadly fungus covers an area of 10 square feet (2' by 5', for example), tho
 
 It does not actually attack, but if it is touched by a torch, for example, the touch may cause the mold to squirt out a 10'x10'x10' cloud of spores. There is a 50% chance per hit that the mold will squirt out this cloud. Anyone caught within the cloud must save vs. Death Ray or choke to death within 6 rounds.
 
+::: center
 ![](assets/yellow-mold-plate.png)
+:::
 
 ### Yeti
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -5000,7 +5348,9 @@ Yetis are shaggy white mountain predators that blend into snow and ice. They amb
 
 If a yeti hits with both claws, it hugs for 2d8 cold damage. A surprised victim meeting a yeti's gaze must Save vs. Paralysis or be frozen with fear for 3 rounds.
 
-![Yeti](assets/yeti-plate.png)
+::: center
+![](assets/yeti-plate.png)
+:::
 
 ::: pagebreak-pdf
 :::
@@ -5045,7 +5395,9 @@ Bandits are NPC thieves who have joined together for the purpose of robbing othe
 
 Bandits may have an NPC leader of any class, usually a fighter, magic-user, or thief, of a higher level than the bandits. (Roll as for [Acolyte](#acolyte))
 
-![Bandit](assets/bandit-plate.png)
+::: center
+![](assets/bandit-plate.png)
+:::
 
 ### Berserker
 *Source:* `Basic`  *Category:* `NPC`
@@ -5066,7 +5418,9 @@ Treasure Type (B) is only found in the wilderness.
 
 If `4` or more berserkers are encountered, they are led by a higher-level fighter.  (Roll as for [Acolyte](#acolyte))
 
+::: center
 ![](assets/berserker-plate.png)
+:::
 
 ### Dwarf
 *Source:* `Basic`  *Category:* `NPC`
@@ -5083,7 +5437,9 @@ The result is the percentage chance for that leader to own a magical item from a
 
 As long as their leader is fighting with them and still alive, dwarven morale is 10 rather than 8. Dwarves hate goblins, and will usually attack them on sight.
 
-![Dwarf](assets/dwarf-plate.png)
+::: center
+![](assets/dwarf-plate.png)
+:::
 
 ### Elf
 *Source:* `Basic`  *Category:* `NPC`
@@ -5096,7 +5452,9 @@ As long as their leader is fighting with them and still alive, dwarven morale is
 
 Elves can also appear as NPCs. Each elf will have one 1^st^ level spell (chosen at random). When a group of 15 or more elves appears, one of them will be a leader of level `1d6 + 1`. Check for possible magical items that the leader may have. To check for items, multiply the leader's level by 5. The result is the percentage chance for that leader to have a magic item from any one of the magic subtables. Roll separately for each subtable, and check all the magic subtables. As long as their leader is alive, elven morale is 10 rather than 8.
 
-![Elf](assets/elf-plate.png)
+::: center
+![](assets/elf-plate.png)
+:::
 
 ### Gnome
 *Source:* `Basic`  *Category:* `NPC`
@@ -5113,7 +5471,9 @@ Gnomes have well developed infravision (heat-sensing sight), and can "see" heat 
 
 For every 20 gnomes, one will be a leader with 11 hit points who fights as a 2 hit dice monster. In the gnome lair lives a clan chieftain and his `1d6` bodyguards. The clan chieftain has 18 hit points, attacks as a 4 hit dice monster, and gains a bonus of + 1 on damage rolls. The bodyguards will have `ld4 + 9` hit points and attack as 3 hit dice . As long as the clan chieftain or leader is alive, all gnomes within sight of him have a morale of 10 rather than 8.
 
+::: center
 ![](assets/gnome-plate.png)
+:::
 
 ### Halfling
 *Source:* `Basic`  *Category:* `NPC`
@@ -5126,7 +5486,9 @@ For every 20 gnomes, one will be a leader with 11 hit points who fights as a 2 h
 
 Halflings can also be NPCs. They live in small villages of 30-300 inhabitants. Each village will have a leader (level 2-7) and a village guard of 5-20 militia (each with 2 hit dice). Treasure type (B) will only be found if encountered in the wilderness.
 
+::: center
 ![](assets/halfling-plate.png)
+:::
 
 ### Medium
 *Source:* `Basic`  *Category:* `NPC`
@@ -5358,7 +5720,9 @@ A brownie may use each of the following once per day: **protection from evil**, 
 
 Brownies speak their own tongue, the lawful alignment language, elvish, pixie, sprite, and halfling.
 
-![Brownie](assets/brownie-plate.png)
+::: center
+![](assets/brownie-plate.png)
+:::
 
 ### Centaur
 *Source:* `Expert`  *Category:* `Sylvan or Faerie`
@@ -5375,7 +5739,9 @@ Centaurs usually live in small tribes or extended family bands. Their hidden cam
 
 If threatened, the females and young will attempt to flee unless escape is impossible, in which case they will fight fiercely to the death. Young centaurs fight as 2 hit dice monsters, attacking with small weapons or with hooves for 1-2 / 1-2 / 1-4 damage.
 
-![Centaur](assets/centaur-plate.png)
+::: center
+![](assets/centaur-plate.png)
+:::
 
 ### Dryad
 *Source:* `Expert`  *Category:* `Sylvan or Faerie`
@@ -5392,7 +5758,9 @@ Anyone approaching or following a dryad, not merely standing in the area of the 
 
 Dryads hide their treasure in hollows under the roots of their trees.
 
-![Dryad](assets/dryad-plate.png)
+::: center
+![](assets/dryad-plate.png)
+:::
 
 ### Leprechaun
 *Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
@@ -5407,7 +5775,9 @@ Leprechauns are tiny tricksters who live in green countryside. They avoid combat
 
 A leprechaun can become invisible, create illusions, ventriloquize, and use minor magical tricks at will. If captured, it may bargain with treasure, but it always seeks a loophole or distraction.
 
-![Leprechaun](assets/leprechaun-plate.png)
+::: center
+![](assets/leprechaun-plate.png)
+:::
 
 ### Nixies
 *Source:* `Expert`  *Category:* `Sylvan or Faerie`
@@ -5449,7 +5819,9 @@ Pixies are small (1-2' tall) human-like creatures with insect-like wings distant
 
 Their small insect-like wings can only support pixies for 3 turns, and they must rest one full turn after flying.
 
-![Pixies](assets/pixie-plate.png)
+::: center
+![](assets/pixie-plate.png)
+:::
 
 ### Satyr
 *Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
@@ -5464,7 +5836,9 @@ Satyrs are woodland revelers with goat legs and horns. They love wine, music, da
 
 A satyr's pipes can charm, sleep, or cause fear unless listeners Save vs. Spells. Satyrs are stealthy in forests and rarely surprised there.
 
-![Satyr](assets/satyr-plate.png)
+::: center
+![](assets/satyr-plate.png)
+:::
 
 ::: columnbreak-pdf
 :::
@@ -5481,7 +5855,9 @@ A satyr's pipes can charm, sleep, or cause fear unless listeners Save vs. Spells
 
 Sprites are small winged people about 1 foot tall related to pixies and elves. While shy, they are very curious and have a strange sense of humor. Five sprites acting together can cast one curse spell. This will take the form of a magical practical joke, such as tripping or having one's nose grow. The exact effect of the spell is up to the DM's imagination. Sprites will never cause death on purpose even if they are attacked. (In the D&D EXPERT rules, the effects of the sprites' curse can be removed by a remove curse spell.)
 
+::: center
 ![](assets/sprite-plate.png)
+:::
 
 ### Treant
 *Source:* `Expert`  *Category:* `Sylvan or Faerie`
@@ -5496,7 +5872,9 @@ Treants are 18' tall tree-men who resemble trees. Treants are only concerned wit
 
 One treant can animate any two trees within 60' to move at 30', 5', and fight as treants. A treant may change which trees it is animating at will.
 
-![Treant](assets/treant-plate.png)
+::: center
+![](assets/treant-plate.png)
+:::
 
 ::: columnbreak-pdf
 :::
@@ -5512,7 +5890,9 @@ One treant can animate any two trees within 60' to move at 30', 5', and fight as
 
 A unicorn looks like a slender horse with a horn growing from its forehead. A unicorn is a fierce but shy creature. Only a pure maiden can talk to or ride one. It can magically teleport itself with a rider to a distance of 360' once per day.
 
-![Unicorn](assets/unicorn-plate.png)
+::: center
+![](assets/unicorn-plate.png)
+:::
 
 ::: pagebreak-pdf
 :::
@@ -5551,7 +5931,9 @@ The sight of a ghost causes humanoids to age 10 years and flee in panic for 2d6 
 
 A ghost normally attacks from the ethereal plane with magic jar against a creature within 60'. If this fails, it semi-materializes and attacks by touch. In ethereal form it is AC 8 and can be fought only ethereally or by mental means. In semi-material form it is AC 0 and can be struck only by silver weapons for half damage or by magic weapons. A human or demi-human killed by a ghost is forever dead unless the referee allows extraordinary magic.
 
-![Ghost](assets/ghost-plate.png)
+::: center
+![](assets/ghost-plate.png)
+:::
 
 ### Ghoul
 *Source:* `Basic`  *Category:* `Undead`
@@ -5564,7 +5946,9 @@ A ghost normally attacks from the ethereal plane with magic jar against a creatu
 
 Ghouls are undead creatures. They are hideous, beast-like humans who will attack anything living. Any attack by a ghoul will paralyze any creature of ogre-size or smaller that they hit successfully (except elves) unless the victim saves vs. Paralysis. Once an opponent is paralyzed, the ghoul will turn and attack another opponent, until either the ghoul or all the opponents are paralyzed or dead. This paralysis is the normal type (lasting 2-8 turns unless removed by a **cure light wounds spell**).
 
+::: center
 ![](assets/ghoul-plate.png)
+:::
 
 ### Groaning Spirit
 *Source:* `AD&D 1E Conversion`  *Category:* `Undead`
@@ -5581,7 +5965,9 @@ Its chilling touch deals 1d8 damage. Once per day, it may wail; all living creat
 
 Groaning spirits can be harmed only by +1 or better magic weapons and have 50% magic resistance.
 
-![Groaning Spirit](assets/groaning-spirit-plate.png)
+::: center
+![](assets/groaning-spirit-plate.png)
+:::
 
 ### Lich
 *Source:* `AD&D 1E Conversion`  *Category:* `Undead`
@@ -5598,7 +5984,9 @@ A lich's touch deals 1d10 cold damage and paralyzes unless the victim Saves vs. 
 
 Liches can be harmed only by magic weapons or spells, are immune to sleep, charm, cold, lightning, poison, and death magic, and require manual review for exact spell lists and phylactery handling.
 
-![Lich](assets/lich-plate.png)
+::: center
+![](assets/lich-plate.png)
+:::
 
 ### Mummy*
 *Source:* `Expert`  *Category:* `Undead`
@@ -5615,7 +6003,9 @@ In melee, a hit by a mummy does `1d12` points of damage and infects the creature
 
 Mummies can only be damaged by spells, fire, or magic weapons, all of which will only do half damage. They are immune to **sleep**, **charm**, and **hold** spells.
 
+::: center
 ![](assets/mummy-plate.png)
+:::
 
 ### Skeleton
 *Source:* `Basic`  *Category:* `Undead`
@@ -5630,7 +6020,9 @@ Animated skeletons are undead creatures often found near graveyards, dungeons, o
 
 Since they are undead, they can be "Turned" by a cleric, and are not affected by sleep or charm spells, nor any form of mind reading. Skeletons will always fight until killed.
 
-![Skeleton](assets/skeleton-plate.png)
+::: center
+![](assets/skeleton-plate.png)
+:::
 
 ### Spectre*
 *Source:* `Expert`  *Category:* `Undead`
@@ -5648,7 +6040,9 @@ A hit by a spectre does `1d8` points of damage and drains 2 life energy levels. 
 
 A character whose level is reduced to 0 is slain. A character slain by a spectre will rise the next night as a spectre under the control of the slayer.
 
-![Spectre](assets/spectre-plate.png)
+::: center
+![](assets/spectre-plate.png)
+:::
 
 ### Vampire*
 *Source:* `Expert`  *Category:* `Undead`
@@ -5678,7 +6072,9 @@ Vampires cannot cross running water, either on foot or flying, except at bridges
 
 Destroying vampires: A vampire can be destroyed by driving a wooden stake through its heart or by immersion in running water for 1 turn. If a vampire is exposed to direct sunlight, the creature must make a saving throw vs. Death Ray each round or disintegrate. A continual light spell will not disintegrate a vampire, but will partially blind it, making its attacks suffer a -4 penalty to hit. If all of the vampire's coffins are blessed or destroyed, the vampire will weaken, taking damage as above, and will die when its hit points are reduced to 0. A vampire will always have several well-hidden coffins available.
 
-![Vampire](assets/vampire-plate.png)
+::: center
+![](assets/vampire-plate.png)
+:::
 
 ### Wight*
 *Source:* `Basic`  *Category:* `Undead`
@@ -5693,7 +6089,9 @@ A wight is an undead spirit living in the body of a dead human or demi-human. It
 
 Any person totally drained of life energy by a wight will become a wight in 1-4 days and will be under control of the wight who drained them.
 
+::: center
 ![](assets/wight-plate.png)
+:::
 
 ### Wraith*
 *Source:* `Expert`  *Category:* `Undead`
@@ -5709,7 +6107,9 @@ A wraith is an undead monster that drains the life force of its victims. It has 
 
 When a wraith hits in melee, it will do normal damage and also drain one life energy level, see spectre. Wraiths dwell in deserted lands or in the dwellings of creatures they have slain or frightened away. Characters slain by a wraith will become wraiths under the control of the one that killed them after one day.
 
+::: center
 ![](assets/wraith-plate.png)
+:::
 
 ### Zombie
 *Source:* `Basic`  *Category:* `Undead`
@@ -5724,7 +6124,9 @@ Zombies are undead humans or demi-humans animated by some evil cleric or magic-u
 
 Zombies will always attack on sight, but can be destroyed by normal weapons. They are slow fighters and always strike last (no initiative roll needed).
 
+::: center
 ![](assets/zombie-plate.png)
+:::
 
 ::: pagebreak-pdf
 :::
@@ -5762,7 +6164,9 @@ Whenever he desires, Demogorgon may use any one of the following powers: **conti
 
 **Description**: It is contended by some that this demon prince is supreme, and in any event he is awesome in his power. This gigantic demon is 18' tall and reptilian. Demogorgon has two heads bearing the visages of evil baboons or perhaps mandrills, with the hideous coloration of the latter beasts. His blue-green skin is plated with snake-like scales, his body and legs are those of a giant lizard, his twin necks resemble serpents, and his thick tail is forked. Rather than arms, he possesses great tentacles. His appearance testifies to his command over cold-blooded things such as serpents, reptiles, and octopi.
 
-![Demogorgon](assets/demogorgon-plate.png)
+::: center
+![](assets/demogorgon-plate.png)
+:::
 
 ### Juiblex (The Faceless Lord)
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
@@ -5779,7 +6183,9 @@ Juiblex may shed a **circle of darkness** (15' radius) at will, cause **fear** a
 
 **Description**: Juiblex has no fixed shape. He can flatten into a vast pool of slime or tower upward as a column of ordure 18' or more in height, but most often holds a roughly 9'-tall cone-like heap, striated in sickly blacks, greens, browns, and translucent yellows and grays, studded with a scattering of glaring red eyes.
 
-![Juiblex](assets/juiblex-plate.png)
+::: center
+![](assets/juiblex-plate.png)
+:::
 
 ### Orcus (Prince of the Undead)
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
@@ -5799,7 +6205,9 @@ Orcus carries the **Wand of Orcus**, a rod of obsidian topped with a skull, whic
 
 **Description**: Orcus is a grossly fat demon lord some 15' tall, his huge gray body thick with goatish hair. His head bears ram-like horns, his legs are those of a goat, but his arms are disquietingly human. Vast bat wings sprout from his back, and his long tail ends in a serpentine, poisonous head.
 
-![Orcus](assets/orcus-plate.png)
+::: center
+![](assets/orcus-plate.png)
+:::
 
 ### Yeenoghu (Demon Lord of Gnolls)
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
@@ -5816,7 +6224,9 @@ Once per round Yeenoghu may call on **darkness** (10' radius), a triple **magic 
 
 **Description**: Yeenoghu looks human at a glance, but his head is that of a hyena, his hands and feet end in pads and claws, and his frame is gaunt to the point of starvation. A mane of putrid yellow hair runs from his skull to the middle of his back; his smooth skin is a deep, ashen gray, and his large eyes glow amber.
 
-![Yeenoghu](assets/yeenoghu-plate.png)
+::: center
+![](assets/yeenoghu-plate.png)
+:::
 
 ### Asmodeus (Arch-devil)
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
@@ -5836,7 +6246,9 @@ Asmodeus carries a glowing rod that functions as a **rod of absorption** and inf
 
 **Description**: Asmodeus is accounted the most handsome of all devils, as well as the strongest and most cunning, and the depth of his evil shows in his beauty only when he wills it — or when rage strips the mask away.
 
-![Asmodeus](assets/asmodeus-plate.png)
+::: center
+![](assets/asmodeus-plate.png)
+:::
 
 ### Baalzebul (Arch-devil)
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
@@ -5854,7 +6266,9 @@ At will Baalzebul may call upon **pyrotechnics**, **produce flame**, **wall of f
 
 **Description**: Baalzebul's horned, reptilian face is set in a permanent scowl, his hide dark and scaled, and what might be the ragged remnants of wings hang folded and useless behind his shoulders — a mark, it is said, of a beauty stripped from him for a great transgression against Asmodeus.
 
-![Baalzebul](assets/baalzebul-plate.png)
+::: center
+![](assets/baalzebul-plate.png)
+:::
 
 ::: columnbreak-pdf
 :::
@@ -5876,7 +6290,9 @@ He fights with a rod bearing the powers of a **rod of rulership** and a doubled 
 
 **Description**: Dispater is evilly handsome, and only his small horns, tail, and cloven left hoof mark him as anything other than human.
 
-![Dispater](assets/dispater-plate.png)
+::: center
+![](assets/dispater-plate.png)
+:::
 
 ::: columnbreak-pdf
 :::
@@ -5899,7 +6315,9 @@ Geryon carries a great bull's horn that he may wind but once per week, summoning
 
 **Description**: A handsome head and torso rise from Geryon's serpentine, legless trunk, which moves in a snakelike glide along the ground. Huge bat wings sprout from his back, his arms are strong and hairy with paw-like hands, and his barbed tail drips venom.
 
-![Geryon](assets/geryon-plate.png)
+::: center
+![](assets/geryon-plate.png)
+:::
 
 ### Tiamat (Chromatic Dragon)
 *Source:* `AD&D 1E Conversion`  *Category:* `Dragon`
@@ -5917,7 +6335,9 @@ Tiamat's five heads — white, black, green, blue, and red — can each bite, an
 
 **Description**: Each head's color runs down its neck and into stripes along Tiamat's back and haunches, blending into gray, blue-green, and purple before merging into a muddy dark-brown tail. Her underbelly and legs fade to a greenish white where they meet her upper body's colors.
 
-![Tiamat](assets/tiamat-plate.png)
+::: center
+![](assets/tiamat-plate.png)
+:::
 
 ### Bahamut (Platinum Dragon)
 *Source:* `AD&D 1E Conversion`  *Category:* `Dragon`
@@ -5934,6 +6354,11 @@ Bahamut, King of the Good dragons, keeps a fortified palace behind the east wind
 In place of his claws and bite, Bahamut may instead loose one of three breath weapons, twice per day each: a cone of **cold**, a cloud of vapor that forces a save or turns its victims gaseous for 12 turns, or a disintegrating sonic vibration that can unmake up to 150 tons of matter — saves against any of these are made at -3 given the power behind them. He can call on any spell of 1st through 7th level, magical or clerical, up to 21 spells a day, and keeps books recording every spell he knows. Seven huge, ancient gold dragons of great loyalty serve as his guards and counselors, and he is seldom (10%) without at least one at his side.
 
 **Description**: Bahamut's scales shine a deep, burnished platinum from nose to tail-tip, and for all his 72' length he carries himself with an unhurried, watchful calm that belies the speed and fury he can bring to bear.
+
+::: center
+![](assets/bahamut-plate.png)
+:::
+
 
 ::: pagebreak-pdf
 :::
@@ -6635,5 +7060,3 @@ These items may be used by any character class, and as often as desired, unless 
 
 ::: twocolumn-pdf-end
 :::
-
-![Bahamut](assets/bahamut-plate.png)
