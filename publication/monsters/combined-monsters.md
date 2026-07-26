@@ -7593,7 +7593,9 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 
 *Source:* `OSRIC, Dungeons, Towns and Wildernesses: Random Wilderness Encounters`
 
-Unlike dungeon encounters, wilderness encounters are not keyed to party level or strength; use the "No. Appearing" entry from the creature's own stat block to generate specific numbers. Use the terrain type most prevalent in the party's current location. When a random wilderness encounter is called for, first roll d% on the Terrain Category Summary below to find the general category, then roll 1d20 on that terrain's own table to find the specific monster.
+Unlike dungeon encounters, wilderness encounters are not keyed to party level or strength; use the "No. Appearing" entry from the creature's own stat block to generate specific numbers. Use the terrain type most prevalent in the party's current location.
+
+To generate a wilderness encounter: first roll d% on the Terrain Category Summary below to find the general category (Airborne, Animal, Dragon, Giant, Human/Demi-Human, Humanoid, Monster, NPC, Undead, Invertebrates, Water, or Special). Then turn to that terrain's own tables and roll 1d20, reading down the column that matches the category you rolled. Each terrain has twelve category columns split across two tables purely because they're too wide to print together — both tables share the *same* 1d20 roll and column set; the second table is not a continuation of the first table's rows, it simply holds the other six category columns.
 
 #### Terrain Category Summary (d%)
 
@@ -7681,7 +7683,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Aquatic (continued)**
+**Aquatic — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -7735,7 +7737,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Arctic (continued)**
+**Arctic — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -7789,7 +7791,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Desert (continued)**
+**Desert — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -7843,7 +7845,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Forest (continued)**
+**Forest — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -7897,7 +7899,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Graveyard (continued)**
+**Graveyard — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -7951,7 +7953,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Hills (continued)**
+**Hills — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8005,7 +8007,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Jungle (continued)**
+**Jungle — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8059,7 +8061,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Lost World (continued)**
+**Lost World — Other Dinosaurs / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
 
 | 1d20 | Other Dinosaurs | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8113,7 +8115,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Marine (continued)**
+**Marine — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8167,7 +8169,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Mountains (continued)**
+**Mountains — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8221,7 +8223,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Plains (continued)**
+**Plains — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8275,7 +8277,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Rural (continued)**
+**Rural — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8329,7 +8331,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Tundra (continued)**
+**Tundra — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
