@@ -7016,8 +7016,8 @@ This appendix adapts OSRIC's random encounter system for dungeons, towns, and th
 ```{=latex}
 % Keep each of this appendix's sub-headings on the same page as the table
 % that follows it, rather than letting the heading strand alone at the
-% bottom of a page. Scoped to Appendix C only (no restore needed - this is
-% the last section in the book).
+% bottom of a page. Left in effect through Appendix D, which has the same
+% heading/table pattern and restores these at its own end.
 \let\oldparagraph\paragraph
 \renewcommand{\paragraph}[1]{\filbreak\oldparagraph{#1}}
 \let\oldsubparagraph\subparagraph
@@ -8468,3 +8468,978 @@ Used whenever a Lost World encounter calls for "Other Dinosaurs."
 | 3-4 | Pterodactyl | Jurassic |
 | 5 | Pterodactyl | Cretaceous |
 | 6 | Pterodactyl | Jurassic |
+
+```{=latex}
+% Restore \paragraph/\subparagraph to their normal (unwrapped) meaning
+% before Appendix D defines its own \filbreak wrapper. TeX macros aren't
+% hygienic: \let\oldparagraph\paragraph only copies a token list that still
+% says "\oldparagraph" by name, so redefining \paragraph a second time
+% without restoring first makes \oldparagraph reference itself - infinite
+% recursion the instant it's called (confirmed via repeated
+% "TeX capacity exceeded" failures at any memory pool size).
+\let\paragraph\oldparagraph
+\let\subparagraph\oldsubparagraph
+```
+
+## Appendix D: Random Dungeons
+
+*Source:* `OSRIC, Dungeons, Towns and Wildernesses: Dungeon Dressing / Trap Generation and Placement / Random Dungeon Generation`
+
+This appendix adapts OSRIC's dungeon-dressing, trap, and random-dungeon-generation tables. These tools are useful whether stocking a dungeon in advance or generating one on the fly during play; cross-references to monster and treasure selection point to Appendix B: Treasure and Appendix C: Random Encounters, above.
+
+```{=latex}
+% Same heading/table pairing protection used in Appendix C (see the
+% restore block just above, which resets \paragraph/\subparagraph first).
+% Restored to normal at the end of this appendix, which is now the last
+% section in the book.
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\filbreak\oldparagraph{#1}}
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\filbreak\oldsubparagraph{#1}}
+```
+
+### Dungeon Dressing
+
+Dungeon dressing tables provide sensory detail — sights, sounds, and smells — to make a corridor or chamber feel lived-in even when it holds no monster or treasure. Roll on any of the tables below when a room's contents call for detail beyond "empty."
+
+#### Air Currents
+
+| d% | Result | d% | Result |
+|---|---|---|---|
+| 01-05 | slight breeze | 70-75 | still, cold air |
+| 06-10 | damp slight breeze | 76-85 | still, warm air |
+| 11-12 | gusting breeze | 86-87 | slight updraft |
+| 13-18 | cold current of air | 88-89 | strong updraft |
+| 19-20 | slight downdraft | 90-93 | strong wind |
+| 21-22 | strong downdraft | 94-95 | strong gusting wind |
+| 23-69 | still | 96-00 | strong moaning wind |
+
+#### Odours
+
+| d% | Result | d% | Result |
+|---|---|---|---|
+| 01-03 | acrid | 66-70 | putrid |
+| 04-05 | chlorine | 71-75 | rotting vegetation |
+| 06-39 | dank and mouldy | 76-77 | salty wet |
+| 40-49 | earthy | 78-82 | smoky |
+| 50-57 | manure | 83-89 | stale, foetid |
+| 58-61 | metallic | 90-95 | sulphur |
+| 62-65 | ozone | 96-00 | urine |
+
+#### General
+
+| d% | Result | d% | Result |
+|---|---|---|---|
+| 01 | ashes | 61 | leather boot |
+| 02-04 | badly dented helmet | 62-64 | lantern |
+| 05-06 | bent iron bar | 65-68 | mould |
+| 07 | bits of hair or fur | 69 | pick handle |
+| 08 | blunted javelin head | 70 | pole or rope (broken) |
+| 09 | bones | 71 | pottery shards |
+| 10-19 | broken arrow | 72-73 | rags |
+| 20 | broken bottle | 74 | rats |
+| 21-22 | ceiling damp | 75-76 | rubble |
+| 23-24 | corroded chain | 77 | sack |
+| 25-26 | cobwebs | 78 | scattered teeth or fangs |
+| 27 | copper coin, bent | 79 | scratches on wall |
+| 28-29 | cracks in ceiling | 80 | slime on ceiling |
+| 30-33 | cracks in floor | 81 | slime on floor |
+| 34-40 | cracks in wall | 82-83 | slime on wall |
+| 41 | cracked flask | 84 | spike |
+| 42-44 | cracked hammer head | 85 | sticks |
+| 45-49 | dagger hilt | 86 | strap (shield or armour) |
+| 50 | dripping water | 87 | straw |
+| 51 | dried blood | 88 | stones |
+| 52 | dry leaves and twigs | 89 | sword hilt |
+| 53-55 | dung | 90-91 | torch stub |
+| 56 | dust | 92-93 | wall damp |
+| 57 | floor damp | 94-95 | water (puddle or trickle) |
+| 58 | food item | 96 | wax drippings |
+| 59 | fungi | 97 | wax blob or candle stub |
+| 60 | guano | 98-00 | wood |
+
+#### Noises
+
+| d% | Result | d% | Result |
+|---|---|---|---|
+| 01-05 | bang or slam | 50-53 | knocking |
+| 06 | bellow or bellowing | 54-55 | laughter |
+| 07 | bong | 56-57 | moaning |
+| 08 | buzzing | 58-60 | murmuring |
+| 09-10 | chanting | 61 | music |
+| 11 | chiming | 62 | rattling |
+| 12 | chirping | 63 | ringing |
+| 13 | clanking | 64 | roar or roaring |
+| 14 | clashing | 65-68 | rustling |
+| 15 | clicking | 69-72 | scratching or scrabbling |
+| 16 | coughing | 73-74 | scream or screaming |
+| 17-18 | creaking | 75-77 | scuttling |
+| 19 | drumming | 78 | shuffling |
+| 20-23 | footsteps ahead | 79-80 | slithering |
+| 24-26 | footsteps approaching | 81 | snapping |
+| 27-29 | footsteps behind | 82 | sneezing |
+| 30-31 | footsteps receding | 83 | sobbing |
+| 32-33 | footsteps to the side | 84 | splashing |
+| 34-35 | faint giggling | 85 | splintering |
+| 36 | gong | 86-87 | squeaking |
+| 37-39 | grating | 88 | squeal or squealing |
+| 40-41 | groaning | 89-90 | tapping |
+| 42 | grunting | 91-92 | thud |
+| 43-44 | hissing | 93-94 | thumping |
+| 45 | hooting | 95 | tinkling |
+| 46 | trumpet sounding | 96 | twanging |
+| 47 | howling | 97 | whining |
+| 48 | humming | 98 | whispering |
+| 49 | jingling | 99-00 | whistling |
+
+#### Furnishings
+
+| d% | Result | d% | Result |
+|---|---|---|---|
+| 01 | altar | 50 | kettle |
+| 02 | armchair | 51 | loom |
+| 03 | armoire | 52 | mat |
+| 04 | arras | 53 | mattress |
+| 05 | bag | 54 | mural |
+| 06 | barrel | 55 | oven |
+| 07-08 | bed | 56 | pail |
+| 09 | bench | 57 | painting |
+| 10 | blanket | 58-60 | pallet |
+| 11 | box | 61 | pans |
+| 12 | brazier | 62-64 | pedestal |
+| 13 | bucket | 65 | pegs |
+| 14 | buffet | 66 | pillow |
+| 15 | bunks | 67 | pots |
+| 16 | cabinet | 68-70 | quilt |
+| 17 | candelabrum | 71 | rug |
+| 18 | carpet | 72 | rushes |
+| 19 | cask | 73 | sack |
+| 20 | cauldron | 74 | sconce |
+| 21 | chandelier | 75 | screen |
+| 22 | charcoal | 76-77 | sheet |
+| 23 | chair | 78 | shelf |
+| 24-25 | chair with straps | 79 | shrine |
+| 26 | chest | 80 | sideboard |
+| 27 | chest of drawers | 81 | sofa |
+| 28 | coal | 82 | spinning wheel |
+| 29 | couch | 83 | staff |
+| 30 | crate | 84 | stand |
+| 31 | cresset | 85 | statue |
+| 32-33 | cupboard | 86 | stool |
+| 34 | cushion | 87-88 | table |
+| 35 | dais | 89 | tapestry |
+| 36 | desk | 90 | throne |
+| 37 | fireplace with wood | 91 | trestle |
+| 38 | fireplace and mantle | 92 | trunk |
+| 39 | firkin | 93 | tub |
+| 40-42 | fountain | 94 | tun |
+| 43 | fresco | 95 | utensil (cooking etc.) |
+| 44 | grindstone | 96 | urn |
+| 45 | hammock | 97 | wall basin and font |
+| 46 | hamper | 98 | wardrobe |
+| 47 | hogshead | 99 | wood billets |
+| 48-49 | idol | 00 | workbench |
+
+#### Religious
+
+| d% | Result | d% | Result |
+|---|---|---|---|
+| 01-05 | altar | 56-58 | offertory container |
+| 06-08 | bell | 59 | paintings or frescoes |
+| 09-11 | brazier | 60-61 | pews |
+| 12 | candelabrum | 62 | pipes |
+| 13-14 | candles | 63 | prayer rug |
+| 15 | candlesticks | 64 | pulpit |
+| 16 | cassocks | 65 | rail |
+| 17 | chime | 66-67 | robes |
+| 18-19 | altar cloth | 68-69 | sanctuary |
+| 20-23 | columns or pillars | 70-71 | screen |
+| 24 | curtain or tapestry | 72-76 | shrine |
+| 25 | drum | 77 | side chair |
+| 26-27 | font | 78-79 | stand |
+| 28-29 | gong | 80-82 | statue |
+| 30-35 | holy symbol | 83 | throne |
+| 36-37 | holy writings | 84-85 | thurible |
+| 38-43 | idol | 86-88 | tripod |
+| 44-48 | incense burner | 89-90 | vestry |
+| 49 | kneeling bench | 91-97 | vestments |
+| 50-53 | lamp | 98-99 | votive light |
+| 54-55 | lectern | 00 | whistle |
+
+#### Torture Chamber
+
+| d% | Result | d% | Result |
+|---|---|---|---|
+| 01-02 | bastinadoes | 49-50 | pillory |
+| 03 | bell, huge | 51-54 | pincers |
+| 04-06 | bench | 55-56 | pliers |
+| 07-10 | iron boots | 57-58 | huge pot |
+| 11-15 | branding irons | 59-66 | rack |
+| 16-20 | brazier | 67-68 | ropes |
+| 21-22 | cage | 69 | stocks |
+| 23-26 | chains | 70-71 | stool |
+| 27 | chair with straps | 72-75 | strappado |
+| 28 | clamps | 76-78 | straw |
+| 29-31 | cressets | 79-80 | table |
+| 32 | fetters | 81 | thongs |
+| 33-35 | fire pit | 82-85 | thumb screws |
+| 36 | grill | 86-88 | torches |
+| 37-38 | hooks | 89-90 | "U" rack |
+| 39-43 | iron maiden | 91 | vice |
+| 44 | knives | 92-93 | well |
+| 45 | manacles | 94-96 | wheel |
+| 46 | oubliette | 97-99 | whips |
+| 47-48 | oil | 00 | whip, cat-o-nine tails |
+
+#### Alchemy Lab
+
+| d% | Result | d% | Result |
+|---|---|---|---|
+| 01-03 | alembic | 54 | magic circle |
+| 04-05 | balance and weights | 55 | mortar and pestle |
+| 06-09 | beaker | 56 | pan |
+| 10 | bellows | 57-58 | parchment |
+| 11 | bladder | 59 | pentacle |
+| 12-13 | bottle | 60 | pentagram |
+| 14-16 | book | 61 | phial |
+| 17 | bowl | 62 | pipette |
+| 18 | box | 63 | pot |
+| 19-22 | brazier | 64 | prism |
+| 23 | cage | 65 | quill |
+| 24-25 | cauldron | 66-68 | retort |
+| 26 | candle | 69 | stirring/mixing rod |
+| 27 | candlestick | 70-71 | scroll |
+| 28 | carafe | 72 | scroll tube |
+| 29-30 | chalk | 73 | sheet |
+| 31 | crucible | 74 | skin |
+| 32 | cruet | 75 | skull |
+| 33 | crystal ball | 76 | spatula |
+| 34 | decanter | 77 | measuring spoon |
+| 35 | desk | 78 | stand |
+| 36 | dish | 79 | stool |
+| 37-38 | flask | 80 | stuffed animal |
+| 39 | funnel | 81 | tank container |
+| 40 | furnace | 82 | tongs |
+| 41-44 | herbs | 83 | tripod |
+| 45 | horn | 84 | tube, container |
+| 46 | hourglass | 85-86 | tube, piping |
+| 47-48 | jar | 87 | tweezers |
+| 49 | jug | 88-90 | vial |
+| 50 | kettle | 91 | water clock |
+| 51 | ladle | 92 | wire |
+| 52-53 | lamp | 93-00 | workbench |
+
+#### Container Contents
+
+| d% | Result | d% | Result |
+|---|---|---|---|
+| 01-03 | ashes | 49-56 | liquid |
+| 04-06 | bark | 57-58 | lump |
+| 07-09 | bone | 59-61 | oily |
+| 10-14 | chunks | 62-65 | paste |
+| 15-17 | cinders | 66-68 | pellets |
+| 18-22 | crystals | 69-81 | powder |
+| 23-26 | dust | 82-83 | semi-liquid |
+| 27-28 | fibres | 84-85 | skin or hide |
+| 29-31 | gelatin | 86-87 | splinters |
+| 32-33 | globes | 88-89 | stalks |
+| 34-37 | grains | 90-92 | strands |
+| 38-40 | greasy | 93-95 | strips |
+| 41-43 | husks | 96-00 | viscous |
+| 44-48 | leaves | | |
+
+#### Personal and Miscellaneous
+
+| d% | Result | d% | Result |
+|---|---|---|---|
+| 01 | awl | 51 | fuel oil |
+| 02 | bandages | 52 | scented oil |
+| 03 | basin | 53 | pan |
+| 04-05 | basket | 54 | parchment |
+| 06 | beater | 55 | pitcher |
+| 07 | book | 56 | musical pipes |
+| 08-09 | bottle | 57 | smoking pipe |
+| 10 | bowl | 58 | plate |
+| 11 | small box | 59 | platter |
+| 12-13 | brush | 60 | pot |
+| 14 | candle | 61 | pouch |
+| 15 | candle snuffer | 62 | puff |
+| 16 | candlestick | 63 | quill |
+| 17 | walking cane | 64 | razor |
+| 18 | case | 65 | rope |
+| 19 | small casket | 66 | salve |
+| 20 | chopper | 67 | saucer |
+| 21 | coffer | 68 | scraper |
+| 22 | cologne | 69 | scroll |
+| 23 | comb | 70 | shaker |
+| 24 | cup | 71 | sifter |
+| 25 | decanter | 72 | soap |
+| 26 | dipper | 73 | spigot |
+| 27 | dish | 74 | spoon |
+| 28 | earspoon | 75 | stopper |
+| 29 | ewer | 76 | statuette or figurine |
+| 30 | flagon | 77 | strainer |
+| 31 | flask | 78 | tankard |
+| 32 | food | 79 | thongs |
+| 33 | fork | 80 | thread |
+| 34 | grater | 81-84 | tinderbox |
+| 35 | grinder | 85-86 | towel |
+| 36 | hourglass | 87 | tray |
+| 37 | jack (container) | 88 | trivet |
+| 38 | jar | 89 | tureen |
+| 39 | jug | 90-91 | twine |
+| 40 | kettle | 92 | unguent |
+| 41 | knife | 93 | vase |
+| 42 | knucklebones | 94 | vial |
+| 43 | ladle | 95 | wallet |
+| 44-45 | lamp or lantern | 96 | washcloth |
+| 46 | masher | 97 | whetstone |
+| 47 | mirror | 98 | wig |
+| 48 | mug | 99 | wool |
+| 49-50 | needle and thread | 00 | yarn |
+
+#### Clothing and Footwear
+
+| d% | Result | d% | Result |
+|---|---|---|---|
+| 01-02 | apron | 47-48 | kirtle |
+| 03-04 | belt | 49-50 | leggings |
+| 05 | blouse | 51-54 | linen drawers |
+| 06-08 | boots | 55-58 | linen undershirt |
+| 09 | buskins | 59 | mantle |
+| 10-12 | cap | 60 | pantaloons |
+| 13-16 | cloak | 61-63 | petticoat |
+| 17-18 | coat | 64-70 | pouch or purse |
+| 19 | coif | 71-74 | sandals |
+| 20 | doublet | 75-76 | scarf |
+| 21-22 | dress | 77 | shawl |
+| 23-24 | frock or pinafore | 78-79 | shift |
+| 25-26 | gauntlets | 80-83 | slippers |
+| 27-28 | girdle | 84-86 | smock |
+| 29 | gloves | 87-89 | stockings |
+| 30-31 | gown | 90 | surcoat |
+| 32-34 | hat | 91 | toga |
+| 35 | habit | 92-94 | trousers |
+| 36-39 | hood | 95-96 | tunic |
+| 40-41 | hose | 97 | veil |
+| 42-44 | jerkin | 98-99 | vest |
+| 45-46 | kerchief | 00 | wrapper |
+
+#### Food and Drink
+
+| d% | Result | d% | Result |
+|---|---|---|---|
+| 01-02 | ale | 39-42 | mead |
+| 03 | apricots | 43-46 | grain meal |
+| 04-05 | apples | 47-56 | meat |
+| 06 | beans | 57 | milk |
+| 07-10 | beer | 58 | muffins |
+| 11 | berries | 59 | mushrooms |
+| 12 | biscuits | 60-62 | nuts |
+| 13 | brandy | 63-64 | onions |
+| 14-18 | bread | 65 | pastries |
+| 19 | broth | 66 | peaches |
+| 20 | butter | 67 | pears |
+| 21 | cakes | 68 | peas |
+| 22-24 | cheese | 69 | pickles |
+| 25 | cookies | 70 | pie |
+| 26 | eggs | 71 | plums |
+| 27 | fish | 72-74 | porridge |
+| 28 | shellfish | 75 | prunes |
+| 29-30 | fowl | 76 | pudding |
+| 31 | grapes | 77 | raisins |
+| 32 | greens | 78-80 | soup |
+| 33 | gruel | 81-82 | stew |
+| 34 | honey | 83 | sweetmeats |
+| 35 | jam | 84-87 | tea |
+| 36 | jelly | 88-89 | tubers, roots |
+| 37 | leeks | 90-95 | water |
+| 38 | lentils | 96-00 | wine |
+
+#### Seasonings
+
+| d% | Result | d% | Result |
+|---|---|---|---|
+| 01-15 | garlic | 56-58 | pepper |
+| 16-50 | herbs | 59-85 | salt |
+| 51-55 | mustard | 86-00 | vinegar |
+
+#### Room Names
+
+A quick way to name a room without rolling: pick one word from each column below and combine them (e.g. "Entry-Hall," "Divination-Chamber," "Water Closet").
+
+| | | |
+|---|---|---|
+| Antechamber | Entry- | Secret- |
+| Armoury | Gallery | Seraglio |
+| Audience- | Game Room | Shrine |
+| Aviary | Great Hall | Sitting Room |
+| Banquet- | Guardroom | Smithy |
+| Barracks | Hall | Solar |
+| Bath | Hallway | Stable |
+| Bedroom | Harem | Storage |
+| Bestiary | Kennel | Strongroom |
+| Boudoir | Kitchen | Study |
+| Cell | Laboratory | Temple |
+| Chantry | Library | Throne Room |
+| Chapel | Lounge | Toilet |
+| Cistern | Meditation | Torture Chamber |
+| Class- | Observatory | Training |
+| Closet | Office | Trophy Room |
+| Conjuring- | Pantry | Vault |
+| Corridor | Pen | Vestibule |
+| Court | Prison | Waiting Room |
+| Crypt | Privy | Water Closet |
+| Dining- | Reception | Well |
+| Divination- | Refectory | Workroom |
+| Dormitory | Robing- | Workshop |
+| Dressing Room | Salon | |
+
+### Trap Generation and Placement
+
+The table below is not an exhaustive list — a quick look at it should readily suggest variations on the themes presented. Traps can also be combined for greater effect: a spiked pit trap might trigger a swinging log to "help" the party in, for instance.
+
+Traps come in four rough levels of severity:
+
+- **Nuisance:** a hidden trap door with a 10 ft drop.
+- **Hazardous:** a hidden trap door with a 10 ft drop onto spikes.
+- **Dangerous:** a hidden trap door with a 10 ft drop onto poisoned spikes (for extra nastiness, have the pit lock shut after the victim falls in).
+- **Fatal:** all of the above, plus a 10-ton stone block, the exact shape of the pit, that drops from the ceiling into the pit.
+
+#### Trap Placement
+
+A trap's severity should suit the dungeon level it's on and the treasure it guards — a trap on the first dungeon level guarding an area infested with ferocious but poverty-stricken monsters should be a nuisance, while a trap on the sixteenth level protecting a dragon's hoard while the dragon is out hunting should be fatal.
+
+Intelligent creatures that live near a trap will maintain it and know how to avoid or disarm it, and may work to make it effective again if the party learns to bypass it. GMs vary widely in how heavily they lean on traps: some place many, several capable of instant death with no save; others use fewer and always allow one. Players adapt to whichever style prevails — cautious, methodical play against a trap-heavy dungeon, or faster and more heroic play against a lighter touch. Decide which style suits your table and design traps accordingly.
+
+#### Random Trap Generation
+
+| d% | Result | d% | Result |
+|---|---|---|---|
+| 01-02 | acid spray | 51-52 | oil-filled pit with dropping lit torch |
+| 03-04 | bolt, crossbow | 53-54 | pit trap triggered by false door |
+| 05-06 | bridge, collapsing | 55-56 | pit with dropping ceiling block |
+| 07-08 | bridge, illusory | 57-58 | pit with locking trap door |
+| 09-10 | caltrops drop from ceiling | 59-60 | pit, 10 ft |
+| 11-12 | ceiling block drops behind players | 61-62 | poisoned bolt, crossbow |
+| 13-14 | ceiling block drops in front of and behind players | 63-64 | poisoned caltrops |
+| 15-16 | ceiling block drops in front of players | 65-66 | poisoned spear, ballista |
+| 17-18 | ceiling block drops on players | 67-68 | poisoned spike pit |
+| 19-20 | ceiling block seals players in room or area | 69-70 | portcullis drops behind players |
+| 21-22 | elevator room | 71-72 | portcullises drop in front of and behind players |
+| 23-24 | elevator room, deactivates for 24 hours | 73-74 | portcullis drops in front of players |
+| 25-26 | elevator room, one way | 75-76 | rolling stone ball, height and width of corridor |
+| 27-28 | falling door | 77-78 | scything blade, ankle-high |
+| 29-30 | flame jets | 79-80 | scything blade, neck-high |
+| 31-32 | flooding room | 81-82 | sliding room changes facing or location |
+| 33-34 | gas, blinding | 83-84 | spear, ballista |
+| 35-36 | gas, fear | 85-86 | spiked log trap |
+| 37-38 | gas, flammable | 87-88 | spiked pit |
+| 39-40 | gas, sleep | 89-90 | spring-loaded pile-driver disguised as a door |
+| 41-42 | gas, slowing | 91-92 | stairs fold flat into a sliding chute |
+| 43-44 | greased chute | 93-94 | stairs collapse |
+| 45-46 | lightning bolt | 95-96 | teleporter |
+| 47-48 | log trap, swinging | 97-98 | trip wire |
+| 49-50 | obscuring fog | 99-00 | wire, neck high |
+
+#### Tricks
+
+Tricks make something harmless appear dangerous, or make something dangerous appear harmless. Create an expectation, then fulfil it in an entirely extraordinary manner — an expensive diamond ring resting in a sturdy lead coffer, or is it? The ring is a worthless (if well-made) trinket; the box is solid gold, painted to look like lead. That's the essence of a trick. Roll on the two tables below: the first generates a mundane object commonly found in dungeons, the second an unexpected attribute for it.
+
+**Trick Object**
+
+| Die | Feature | Die | Feature |
+|---|---|---|---|
+| 1-3 | altar | 51-53 | monster |
+| 4-6 | arch | 54-56 | mosaic |
+| 7-10 | ceiling | 57-60 | painting |
+| 11-13 | container* | 61-63 | passage |
+| 14-16 | dome | 64-66 | pedestal |
+| 17-20 | door** | 67-70 | pillar/column |
+| 21-23 | fire | 71-73 | pit |
+| 24-26 | fireplace | 74-76 | pool |
+| 27-30 | force field | 77-80 | room |
+| 31-33 | fountain | 81-83 | stairway |
+| 34-36 | furnishing | 84-86 | statue |
+| 37-40 | idol | 87-90 | tapestry |
+| 41-43 | illusion | 91-93 | vegetation |
+| 44-46 | machine | 94-96 | wall |
+| 47-50 | mirror | 97-00 | well |
+
+\*Any: jar, box, coffer, chest, barrel, vase, casket, etc.
+
+\*\*Any door: secret, concealed, valve, arch, etc.
+
+```{=latex}
+% "Trick Attribute" is a short heading immediately followed by a 50-row
+% table - \filbreak alone lets the heading fit alone at the bottom of a
+% page even though the table can't follow, stranding it. Reserve enough
+% space for the heading plus the table's opening rows so the whole block
+% moves to the next page together when it doesn't fit.
+\needspace{10\baselineskip}
+```
+
+**Trick Attribute**
+
+| Die | Feature | Die | Feature |
+|---|---|---|---|
+| 1 | ages | 51 | increases Dexterity |
+| 2 | animated | 52 | increases Intelligence |
+| 3 | anti-Magic | 53 | increases Strength |
+| 4 | appearing | 54 | increases Wisdom |
+| 5 | asks | 55 | intelligent |
+| 6 | attacks | 56 | invisible |
+| 7 | changes class | 57 | laughs |
+| 8 | changes minds from one body to another | 58 | magnetic |
+| 9 | changes sex | 59 | makes younger |
+| 10 | collapsing | 60 | moves |
+| 11 | combination | 61 | null gravity |
+| 12 | dances | 62 | one way |
+| 13 | decreases charisma | 63 | opposite alignment |
+| 14 | decreases constitution | 64 | pivots |
+| 15 | decreases dexterity | 65 | plays games |
+| 16 | decreases intelligence | 66 | points |
+| 17 | decreases strength | 67 | poison |
+| 18 | decreases wisdom | 68 | polymorphing |
+| 19 | directs | 69 | random alignment |
+| 20 | disappearing | 70 | randomly acts |
+| 21 | disintegrates | 71 | reduces |
+| 22 | dispenses coins | 72 | repellent/repulses |
+| 23 | dispenses counterfeit coins | 73 | resists magic |
+| 24 | dispenses counterfeit gems | 74 | reverse gravity |
+| 25 | dispenses counterfeit jewellery | 75 | reverse wish fulfilment |
+| 26 | dispenses counterfeit magic item | 76 | riddles |
+| 27 | dispenses counterfeit map | 77 | rising |
+| 28 | dispenses gems | 78 | rolls |
+| 29 | dispenses jewellery | 79 | shifting |
+| 30 | dispenses magic item | 80 | shoots |
+| 31 | dispenses map | 81 | sings |
+| 32 | distorted depth | 82 | sinking |
+| 33 | distorted height | 83 | sliding |
+| 34 | distorted length | 84 | sloping |
+| 35 | distorted width | 85 | spinning |
+| 36 | electric shock | 86 | steals |
+| 37 | enlarges | 87 | suggests |
+| 38 | enrages | 88 | suspends animation |
+| 39 | false | 89 | symbiotic |
+| 40 | flesh to stone | 90 | takes |
+| 41 | foretells | 91 | talks |
+| 42 | fruit | 92 | talks in poetry and rhymes |
+| 43 | gaseous | 93 | talks nonsense |
+| 44 | geas | 94 | talks very intelligently |
+| 45 | gravity decreased | 95 | talks, spell casting |
+| 46 | gravity increased | 96 | teleports |
+| 47 | greed inducing | 97 | unusual colour/texture/material |
+| 48 | hovers | 98 | variable gravity |
+| 49 | increases charisma | 99 | wish fulfilment |
+| 50 | increases constitution | 00 | yells and screams |
+
+*Example of use:* Gina the GM needs a trick to round out a dungeon map. Taking her trusty d% in hand, she rolls a 37 on the Trick Object table and a 55 on the Trick Attribute table. This yields idol, intelligent. She decides the room contains a carved idol holding the mind and soul of a long-departed adventurer — it knows something of the surrounding dungeon rooms, but not much else, and may share that knowledge depending on how the party treats with it.
+
+Gina rolls a second trick for a different room: 25 then 31, yielding fireplace, dispenses map. She places an unlit fireplace in the room, with a rolled-up map of the next level down hidden among the logs stacked neatly within.
+
+### Random Dungeon Generation
+
+This GM aid is for on-the-fly dungeon generation when a session takes an unexpected turn. It's equally useful to spur ideas when the GM's own artistic ambitions fail, for generating add-on levels to an existing megadungeon, or for solo play. For these tables, a **room** has exits closed by a door or other portal, while a **chamber** has open exits such as archways.
+
+**How to create a random dungeon:**
+
+1. Roll or pick a starting area on Table 1: Starting Area Shape. If using one of the pre-drawn starting areas, skip to step 6. If starting from an empty area instead, skip to step 7.
+2. Roll room shape and size on Table 2(a): Room or Table 2(b): Chambers.
+3. Roll number of exits on Table 5: Number of Exits.
+4. Roll location of room exits on Table 6: Exit Location.
+5. Roll direction for chamber exit passages on Table 7: Exit Direction, Chamber Passage, or roll what lies beyond the door for rooms on Table 20: Behind the Door.
+6. Roll contents for the room on Table 8: Chamber or Room Contents, consulting sub-tables as indicated.
+7. If no particular table is indicated, the corridor continues for 30 ft; then check Table 18: General.
+
+After the room is fully resolved, roll up the corridors and rooms generated in step 4, using the same steps as a guideline.
+
+#### Starting Area
+
+Six pre-drawn starting-area floor plans — small irregular clusters of corridors and chambers with doors already placed — give a GM a ready-made starting point rather than building outward one room at a time.
+
+::: center
+![](assets/dungeon-starting-areas-diagram.png)
+:::
+
+| Die | Starting Area | Die | Starting Area |
+|---|---|---|---|
+| 1 | Use area 1 | 4 | Use area 4 |
+| 2 | Use area 2 | 5 | Use area 5 |
+| 3 | Use area 3 | 6 | Use area 6 |
+
+::: center
+*Table 1: Starting Area Shape (1d6)*
+:::
+
+#### Room and Chamber Size
+
+| Die | Room Size |
+|---|---|
+| 1 | 10 x 10 ft |
+| 2-4 | 20 x 20 ft |
+| 5-7 | 30 x 30 ft |
+| 8-10 | 40 x 40 ft |
+| 11 | 10 x 20 ft |
+| 12-13 | 20 x 30 ft |
+| 14-15 | 20 x 40 ft |
+| 16-18 | 30 x 40 ft |
+| 19-20 | Special* |
+
+::: center
+*Table 2(a): Room (1d20) — proceed to Table 5: Number of Exits*
+:::
+
+\*Refer to Table 3: Special Rooms or Chambers.
+
+| Die | Chamber |
+|---|---|
+| 1 | 10 x 20 ft |
+| 2-4 | 20 x 20 ft |
+| 5-6 | 30 x 30 ft |
+| 7-8 | 40 x 40 ft |
+| 9-10 | 20 x 30 ft |
+| 11-13 | 20 x 40 ft |
+| 14-15 | 40 x 50 ft |
+| 16-17 | 40 x 60 ft |
+| 18-20 | Special* |
+
+::: center
+*Table 2(b): Chambers (1d20) — proceed to Table 5: Number of Exits*
+:::
+
+\*Refer to Table 3: Special Rooms or Chambers.
+
+#### Special Rooms and Chambers
+
+| Die | Shape | Die | Shape |
+|---|---|---|---|
+| 1 | Cave | 11-12 | Oval |
+| 2-6 | Circular* | 13-14 | Special** |
+| 7-8 | Hexagonal | 15-17 | Trapezoidal |
+| 9-10 | Octagonal | 18-20 | Triangular |
+
+::: center
+*Table 3: Special Rooms or Chambers (1d20) — proceed to Table 4: Approximate Size Table for Unusual Rooms*
+:::
+
+\*Roll 1d20: 1-6 room has a pool (see Table 15: Pools), 7 room has a well, 8-11 room has a shaft, 12-20 proceed to Table 4.
+
+\*\*GM's discretion — freehand-draw an unusual shape, pick a standard room as needed for mapping, or reroll.
+
+| Die | Size (sq ft) | Die | Size (sq ft) |
+|---|---|---|---|
+| 1-3 | 500 | 11-12 | 3,250 |
+| 4-6 | 1,000 | 13-15 | 4,000 |
+| 7-8 | 1,500 | 16-20 | Reroll* |
+| 9-10 | 2,500 | | |
+
+::: center
+*Table 4: Approximate Size Table for Unusual Rooms (1d20) — proceed to Table 5: Number of Exits*
+:::
+
+\*Roll again and add the result to 1,000 sq ft. If 16-20 comes up a second time, raise the base to 2,000 sq ft and reroll; each subsequent 16-20 adds another 1,000 sq ft, until a result of 1-15 is finally obtained.
+
+#### Exits
+
+| Die | Room Area (sq ft) | # Exits | Room Area (sq ft) | # Exits |
+|---|---|---|---|---|
+| 1-4 | < 500 | 1 | > 500 | 2 |
+| 5-7 | < 500 | 2 | > 500 | 3 |
+| 8-9 | < 500 | 3 | > 500 | 4 |
+| 10-12 | < 1,000 | 0* | > 1,000 | 1 |
+| 13-15 | < 1,500 | 0* | > 1,500 | 1 |
+| 16-19 | Any | 1d4 | Any | 1d4 |
+| 20 | Any | 1** | Any | 1** |
+
+::: center
+*Table 5: Number of Exits (1d20) — proceed to Table 6: Exit Location*
+:::
+
+\*Check for secret doors: any section of wall close to another mapped room or passage has a 25% chance of a secret door; otherwise this room or chamber is a dead end.
+
+\*\*This result switches things up a bit: for a room, this calls for a passage; for a chamber, it indicates a door.
+
+| Die | Location | Die | Location |
+|---|---|---|---|
+| 1-4 | Left Wall | 13-16 | Right Wall |
+| 5-12 | Opposite Wall | 17-20 | Same Wall |
+
+::: center
+*Table 6: Exit Location (1d20)*
+:::
+
+\*If a passage or door placed per this table would open into a previously mapped space, roll 1d20: on 1-10 the door moves to the opposite wall; on 11-15 the door stays put but becomes a secret door; on 16-20 the door stays put but becomes a one-way door.
+
+If passage, proceed to Table 7: Exit Direction, Chamber Passage. If door, proceed to Table 20: Behind the Door.
+
+| Die | Direction |
+|---|---|
+| 1-16 | Straight |
+| 17-18 | Left 45 degrees* |
+| 19-20 | Right 45 degrees* |
+
+::: center
+*Table 7: Exit Direction, Chamber Passage (1d20) — for doors, consult Table 20: Behind the Door instead. Proceed to Table 22: Passage Width*
+:::
+
+\*If the passage can't bend in the direction indicated, bend it the other way instead — a left 45 degree bend that can't be drawn becomes a right 45 degree bend.
+
+#### Chamber or Room Contents
+
+| Die | Result |
+|---|---|
+| 1-7 | Empty |
+| 8-11 | Monster (determine randomly — see Appendix C: Random Encounters) |
+| 12-17 | Monster and Treasure (as above, plus Table 9: Treasure Container, below) |
+| 18 | Stairs (see Table 13: Stairs) |
+| 19 | Trick or Trap (see *Trap Generation and Placement* and *Tricks*, above) |
+| 20 | Treasure (see Appendix B: Treasure and Table 9: Treasure Container, below) |
+
+::: center
+*Table 8: Chamber or Room Contents (1d20) — proceed to Table 9: Treasure Container if Monster and Treasure or Treasure is indicated*
+:::
+
+#### Treasure Container and Guards
+
+| Die | Container | Die | Container |
+|---|---|---|---|
+| 1-2 | Bags | 11-12 | Pottery Jars |
+| 3-4 | Sacks | 13-14 | Metal Urns |
+| 5-6 | Coffers | 15-16 | Stone Containers |
+| 7-8 | Chests | 17-18 | Iron Trunks |
+| 9-10 | Large Chests | 19-20 | None, loose |
+
+::: center
+*Table 9: Treasure Container (1d20)*
+:::
+
+Optional, or on a 50% chance: consult Tables 10 and 11. Treasure amounts are determined on Table 12.
+
+| Die | Treasure | Die | Treasure |
+|---|---|---|---|
+| 1-2 | Blade scything across inside | 13 | Spears released from walls when container opened |
+| 3-4 | Contact poison on container | 14 | Spring darts firing from front of container |
+| 5-6 | Contact poison on treasure | 15 | Spring darts firing from top of container |
+| 7 | Gas released by opening container | 16 | Spring darts firing up from inside bottom of container |
+| 8 | Explosive runes | 17 | Stone block dropping in front of container |
+| 9-10 | Poisoned needles in lock | 18 | Symbol |
+| 11 | Poisoned needles in handles | 19 | Trapdoor opening in front of container |
+| 12 | Poisonous insect or reptile living inside container | 20 | Trapdoor opening 6 ft in front of container |
+
+::: center
+*Table 10: Treasure Guards & Wards (1d20)*
+:::
+
+| Die | Hidden by or in | Die | Hidden by or in |
+|---|---|---|---|
+| 1-2 | Behind a loose wall stone | 13 | Inside or under trash or dung heap |
+| 3-4 | Illusion to change appearance or hide item | 14 | Non-magically disguised |
+| 5-7 | Invisibility | 15 | Secret space under container |
+| 8-11 | In a nearby secret room | 16-17 | Secret compartment in container |
+| 12 | In an ordinary container in plain view | 18-20 | Under a loose flooring stone |
+
+::: center
+*Table 11: Treasure Hidden By or In (1d20)*
+:::
+
+If the treasure is guarded by a monster, roll twice on the table below and add 1 to each roll; otherwise roll once at no bonus.
+
+| Die | Result | Die | Result |
+|---|---|---|---|
+| 1-5 | 2d10x100 cp | 17-18 | 2d10x100 pp |
+| 6-10 | 2d10x100 sp | 19 | Gems/Jewellery — roll 1d8: 1-5 = 1d3 gems, 6-8 = 1 jewellery |
+| 11-13 | 2d8x100 ep | 20 | Roll 1d8: 1-5 = no treasure, 6-8 = 1 magic item |
+| 14-16 | 1d4x100 gp | 21 | 1 magic item |
+
+::: center
+*Table 12: Treasure Amount (1d20)*
+:::
+
+Results from this table are multiplied by the dungeon level where the treasure is found — a 1d4x100 gp result on the third dungeon level, for instance, yields 3d4x100 gp. If a magic item is rolled, the party receives one item per dungeon level (minimum 1). Adjust extreme results to keep them proportional.
+
+#### Stairs and Caves
+
+| Die | Result | Die | Result |
+|---|---|---|---|
+| 1-5 | Down 1 level | 12 | Chimney up 1 level, passage continues |
+| 6 | Down 2 levels | 13 | Chimney up 2 levels, passage continues |
+| 7 | Down 3 levels | 14 | Chimney down 2 levels, passage continues |
+| 8-9 | Up 1 level | 15-16 | Trap door down 1 level, passage continues |
+| 10 | Up to a dead end | 17 | Trap door down 2 levels, passage continues |
+| 11 | Down to a dead end | 18-20 | Down 1 level into chamber |
+
+::: center
+*Table 13: Stairs (1d20)*
+:::
+
+The lowest levels of a dungeon are often composed of caves and caverns. Use the table below for caves and caverns, and roll for exits on Table 5: Number of Exits.
+
+| Die | Cave | Die | Cave |
+|---|---|---|---|
+| 1-5 | Cave 40 x 60 ft | 12-14 | Cavern 100 x 125 ft* |
+| 6-7 | Cave 50 x 75 ft | 15-16 | Cavern 125 x 150 ft |
+| 8-9 | Double Cave: 30 x 30 ft, 60 x 60 ft | 17-18 | Cavern 150 x 200 ft* |
+| 10-11 | Double Cave: 30 x 50 ft, 80 x 100 ft* | 19-20 | Cavern 300 x 400 ft** |
+
+::: center
+*Table 14: Caves (1d20)*
+:::
+
+\*Roll on Table 15: Pools. \*\*Roll on Table 16: Lakes.
+
+#### Pools and Lakes
+
+| Die | Result | Die | Result |
+|---|---|---|---|
+| 1-12 | No pool | 17-19 | Pool, monster, and treasure |
+| 13-14 | Pool | 20 | Magic pool, go to Table 17: Magic Pools |
+| 15-16 | Pool, monster | | |
+
+::: center
+*Table 15: Pools (1d20)*
+:::
+
+GMs should note the opportunity to use aquatic or amphibious monster encounters.
+
+| Die | Result | Die | Result |
+|---|---|---|---|
+| 1-12 | No lake | 18-19 | Lake, monster and treasure |
+| 13-15 | Lake | 20 | Enchanted Lake* |
+| 16-17 | Lake, monster | | |
+
+::: center
+*Table 16: Lakes (1d20)*
+:::
+
+\*The lake is a portal to a special area such as a temple on the Elemental Plane of Water, or another remote and exotic location. If no such map is prepared, treat this instead as lake, monster, and treasure.
+
+In order to learn the secret of a magic pool, adventurers must actually enter the water.
+
+| Die | Result |
+|---|---|
+| 1-8 | Roll 1d20. Pool turns gold pieces into platinum pieces (1-12) or lead (13-20); after doing this once, the pool is non-magical. |
+| 9-15 | Characters in the pool lose (1-50 on d%) or gain (51-100) 1 point in a randomly-determined attribute. Roll 1d6: 1=Strength, 2=Dexterity, 3=Constitution, 4=Intelligence, 5=Wisdom, 6=Charisma. One-time-only effect; check each character separately for loss or gain and affected characteristic. |
+| 16-17 | Talking pool: grants 1 wish to any characters of like alignment, and damages all others (1d20 points). The wish must be used within 24 hours. Roll 1d20 for the pool's alignment: 1-6 LG, 7-9 LE, 10-12 CG, 13-17 CE, 18-20 TN. |
+| 18-20 | Transporter pool. Roll 1d20: 1-7 back to surface, 8-12 elsewhere on the level, 13-16 one level down, 17-20 many miles away for a wilderness or outdoor adventure. This can be especially fiendish if not every character in the party is standing in the pool. |
+
+::: center
+*Table 17: Magic Pools (1d20)*
+:::
+
+#### General, Doors, and Passages
+
+| Die | Result |
+|---|---|
+| 1-3 | Chamber. Roll on Table 2(b): Chambers. Check this table again 30 ft after leaving the chamber. |
+| 4 | Continue straight; check this table again in 50 ft. |
+| 5 | Dead End; check for secret doors as per Table 6: Exit Location. |
+| 6-10 | Door. Consult Table 19: Door Location — if the result isn't a straight-ahead door, check this table again in 30 ft. |
+| 11-14 | Side passage. See Table 21: Side Passages, then check this table again in 30 ft. |
+| 15 | Stairs. Go to Table 13: Stairs. |
+| 16-19 | Turn. Consult Table 24: Turns, then check this table again in 30 ft. |
+| 20 | Wandering Monster; reroll on this table to determine the monster's location and approach. |
+
+::: center
+*Table 18: General (1d20)*
+:::
+
+If the door indicated is a left or right door, roll 1d20 again — on a result of 1-3, there's also a door on the opposite side.
+
+| Die | Result |
+|---|---|
+| 1-6 | Left |
+| 7-12 | Right |
+| 13-20 | Ahead |
+
+::: center
+*Table 19: Door Location (1d20)*
+:::
+
+This table is for doors that exit a room. For passages, consult Table 7: Exit Direction, Chamber Passage instead. Always check corridor width on Table 22: Passage Width.
+
+| Die | Result |
+|---|---|
+| 1-3 | Side door: parallel passage. Door straight ahead: 10 x 10 ft room. |
+| 4-8 | Straight passage |
+| 9 | Passage 45 degrees left |
+| 10 | Passage 45 degrees right |
+| 11-18 | See Table 2(a): Room |
+| 19-20 | See Table 2(b): Chambers |
+
+::: center
+*Table 20: Behind the Door (1d20)*
+:::
+
+| Die | Result |
+|---|---|
+| 1-4 | Left 90 degrees |
+| 5-8 | Right 90 degrees |
+| 9 | Left 45 degrees (d6: 1-3 ahead, 4-6 behind) |
+| 10 | Right 45 degrees (d6: 1-3 ahead, 4-6 behind) |
+| 11-13 | Passage T's |
+| 14-15 | Passage Y's |
+| 16-19 | Four-way intersection |
+| 20 | Five-way intersection* |
+
+::: center
+*Table 21: Side Passages (1d20)*
+:::
+
+\*Usually two passages along the x-axis, two along the y-axis, and one diagonal.
+
+| Die | Width | Die | Width |
+|---|---|---|---|
+| 1 | 5 ft | 18 | 30 ft |
+| 2-13 | 10 ft | 19-20 | See Table 23: Special Passages |
+| 14-17 | 20 ft | | |
+
+::: center
+*Table 22: Passage Width (1d20)*
+:::
+
+| Die | Result |
+|---|---|
+| 1-7 | 40 ft wide* |
+| 8-12 | 50 ft wide* |
+| 13-15 | Stream** |
+| 16-19 | River*** |
+| 20 | Chasm**** |
+
+::: center
+*Table 23: Special Passages (1d20)*
+:::
+
+\*There's a 50% chance the passage contains a single or double row of columns; if double, there's a 10% chance the columns support a balcony or gallery above.
+
+\*\*Determine passage width via an additional roll. The stream bisects the passage and is bridged 75% of the time.
+
+\*\*\*Determine passage width via an additional roll. The river bisects the passage and is bridged 50% of the time, or has a boat 25% of the time (50% chance the boat is on the party's side).
+
+\*\*\*\*Determine passage width via an additional roll. The chasm bisects the passage and is a long sheer drop (nominally 100 ft). It is bridged 50% of the time, or has a narrower spot suitable for jumping across 25% of the time.
+
+| Die | Result |
+|---|---|
+| 1-9 | Left 90 degrees |
+| 10 | Left 45 degrees (d6: 1-3 ahead, 4-6 behind) |
+| 11-19 | Right 90 degrees |
+| 20 | Right 45 degrees (d6: 1-3 ahead, 4-6 behind) |
+
+::: center
+*Table 24: Turns (1d20)*
+:::
+
+#### Using the Random Dungeon Generator for Solo Play
+
+Start with Table 1: Starting Area Shape in the middle of a sheet of graph paper. Use Appendix C: Random Encounters, above, to resolve monster encounters and generate treasure via the tables above.
+
+To resolve listening at doors, roll 1d12 and treat a result of 1-5 as a monster encounter. Use Table 8: Chamber or Room Contents, but treat any result as including a monster encounter; otherwise, ignore any monster encounters rolled unless the creature would be silent (undead, bugbears, etc.).
+
+*ESP*, scrying, and other means of magical detection can be resolved as follows: a roll of 1 on 1d6 indicates a monster in the area being checked. Roll the encounter using Appendix C, ignoring any monster type not detectable by the method of detection used. If a 6 is rolled, the player should reroll when actually entering the room; if a 6 comes up again, a non-detectable monster is encountered and the player's chance to be surprised increases by +1.
+
+**Stocking the Dungeon:** Appendix C: Random Encounters can stock a dungeon on its own, or a GM may design specific encounter areas without reference to random tables. Many GMs mix both methods, with designed areas surrounded by randomly-generated ones. Dungeons don't have to make sense, but they do need variety — a little thought on the placement of creatures doesn't go amiss, and rewarding player skill is an important part of this system.
+
+```{=latex}
+\let\paragraph\oldparagraph
+\let\subparagraph\oldsubparagraph
+```
