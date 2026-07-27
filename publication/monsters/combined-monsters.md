@@ -1601,6 +1601,23 @@ Demons are chaotic evil beings from the Abyss. They roam the lower planes and th
 
 All demons have telepathy, infravision, darkness, teleportation without error, and some form of gate power. Demons take full damage from acid, iron weapons, magic missiles, and poison; half damage from cold, lightning, fire, and poison gas; and no damage from silver unless the demon can also be harmed by ordinary weapons. Types I-III can be hit by normal weapons. Type IV and stronger demons require magic weapons.
 
+### Larva
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | 7          | No. Appearing | 2d6 (10d10) |
+| Hit Dice    | 1          | Save As       | Fighter 1  |
+| Move        | 60' (20')  | Morale        | 5          |
+| Attacks     | 1 bite     | Treasure Type | Nil        |
+| Damage      | 1d4        | Alignment     | Chaotic    |
+
+Larvae are wretched souls of the lower planes, appearing as worm-like bodies with human heads. They are weak, spiteful, and preyed upon by greater fiends.
+
+Larvae are often traded or consumed by demons and night hags. They attack living creatures only in desperate hunger or when driven.
+
+::: center
+![](assets/larva-plate.png)
+:::
+
 ### Manes
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
 
@@ -4444,23 +4461,6 @@ Lammasu radiate protection from evil and can cast clerical spells at the referee
 ![](assets/lammasu-plate.png)
 :::
 
-### Larva
-*Source:* `AD&D 1E Conversion`  *Category:* `Monster`
-
-| Armor Class | 7          | No. Appearing | 2d6 (10d10) |
-| Hit Dice    | 1          | Save As       | Fighter 1  |
-| Move        | 60' (20')  | Morale        | 5          |
-| Attacks     | 1 bite     | Treasure Type | Nil        |
-| Damage      | 1d4        | Alignment     | Chaotic    |
-
-Larvae are wretched souls of the lower planes, appearing as worm-like bodies with human heads. They are weak, spiteful, and preyed upon by greater fiends.
-
-Larvae are often traded or consumed by demons and night hags. They attack living creatures only in desperate hunger or when driven.
-
-::: center
-![](assets/larva-plate.png)
-:::
-
 ### Leucrotta
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
 
@@ -7062,10 +7062,10 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 
 | d% | Monster Encountered | # |
 |---|---|---|
-| 01-02 | Imp | 1d10 |
+| 01-02 | Lemure | 1d10 |
 | 03-04 | Halfling | 3d6 |
 | 05-07 | NPC Party (see *NPC Parties*) | varies |
-| 08-11 | Manes | 1 |
+| 08-11 | Larva | 1 |
 | 12-15 | Rat | 1d10x5 |
 | 16-20 | Stirge | 1d4 |
 | 21-25 | Bat | 5d10 |
@@ -7080,7 +7080,7 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 | 86-89 | Skeleton | 1d10 |
 | 90-93 | Rot Grub | 5d4 |
 | 94-96 | Brain Mole | 1d6 |
-| 97-98 | Gnome | 4d6 |
+| 97-98 | Hobgoblin | 4d6 |
 | 99-00 | Berserker | 1d6 |
 
 #### Monster Level 2
@@ -7090,18 +7090,20 @@ Lesser monsters encountered on a lower dungeon level than their monster level sh
 | 01-02 | NPC Party (see *NPC Parties*) | varies |
 | 03-04 | Ant, Giant (Worker) | 2d10 |
 | 05-07 | Shadow | 1 |
-| 08-11, 76-80 | Gnoll | 1d12 or 2d10 |
+| 08-11 | Gnoll | 1d12 |
 | 12-15 | Toad, Giant | 1d4 |
-| 16-20, 41-50 | Troglodyte | 2d10 or 1d10 |
+| 16-20 | Neanderthals | 2d10 |
+| 41-50 | Troglodyte | 1d10 |
 | 21-25 | Hobgoblin | 2d10 |
 | 26-30 | Lizard Man | 1d10 |
 | 31-40 | Piercer | 3d6 |
 | 51-60 | Giant Badger | 1d2 |
 | 61-70 | Spider, Giant (see table) | 1d8 |
 | 71-75 | Bugbear | 1d6 |
+| 76-80 | Gnoll | 2d10 |
 | 81-85 | Stirge | 1d10+5 |
 | 86-89 | Zombie | 1d8 |
-| 90-93 | Ghoul | 1 |
+| 90-93 | Ghoul | 1 | 
 | 94-96 | Troll | 1d6 |
 | 97-98 | Centipede, Giant | 1d12 |
 | 99-00 | Dwarf | 4d4 |
