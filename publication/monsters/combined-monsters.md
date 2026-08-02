@@ -6542,17 +6542,9 @@ The Abyss and the Nine Hells are rival seats of evil power, and most of the bein
 
 **The Nine Hells** run on a strict chain of command beneath **Asmodeus** (9^th^ plane), to whom every devil answers — even the arch-devils must attend his court once a year:
 
-| Plane/Ruler       | Notes                                                               |
-|-------------------|---------------------------------------------------------------------|
-| 1. Tiamat         | dragon-goddess, not a true devil                                    |
-| 2. Dispater       | served by Titivilus, his messenger                                  |
-| 3. Mammon         | rides to the hunt with hell hounds; consort is Glasya               |
-| 4. Belial         | at war with Geryon and Moloch                                       |
-| 5. Geryon         | served by Amon, his vassal                                          |
-| 6. Moloch         | viceroy for Baalzebul; enmity with Geryon                           |
-| 7. Baalzebul      | coveted by Mephistopheles                                           |
-| 8. Mephistopheles | served by Hutijin; plots to seize the 7th, then challenge Asmodeus  |
-| 9. Asmodeus       | supreme; father of Glasya                                           |
+::: center
+![](assets/legendary-plate.png)
+:::
 
 ::: twocolumn-pdf-begin
 :::
@@ -6560,17 +6552,6 @@ The Abyss and the Nine Hells are rival seats of evil power, and most of the bein
 Dukes serve their arch-devils directly: **Amon** commands bone devils for **Geryon**; **Bael** commands barbed devils for **Mammon**; **Hutijin** commands pit fiends for **Mephistopheles**; **Titivilus** is **Dispater**'s messenger; **Glasya**, Asmodeus's own daughter, is consort to Mammon, tying the royal line into the 3^rd^ plane's court.
 
 **Tiamat**, ruler of the 1^st^ plane, spawns all evil dragonkind — but she is a dragon-goddess in her own right, not truly bound to Asmodeus's service. **Bahamut**, her eternal opposite, belongs to neither hierarchy at all: the King of Good dragons keeps his own court beyond the elemental plane of air, entirely outside the demon/devil axis.
-
-
-::: twocolumn-pdf-end
-:::
-
-::: center
-![](assets/legendary-plate.png)
-:::
-
-::: twocolumn-pdf-begin
-:::
 
 ::: pagebreak-pdf
 :::
