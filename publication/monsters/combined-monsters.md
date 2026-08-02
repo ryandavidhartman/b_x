@@ -6531,6 +6531,50 @@ It is not true undead: clerics cannot turn it, but like undead it is immune to c
 
 The creatures in this appendix are unique, campaign-level beings rather than ordinary monster-manual entries. Each is a singular individual with powers well beyond a typical encounter, and should be used sparingly and with care by the DM.
 
+### The Political Landscape
+
+The Abyss and the Nine Hells are rival seats of evil power, and most of the beings gathered in this appendix are bound up in one hierarchy or the other. Knowing where a figure sits in that structure hands a DM a ready-made web of allies, enemies, and motives.
+
+**The Abyss** has no single ruler. Each demon lord or prince claims one or more layers as a private domain and answers to nobody; grudges among them run old, personal, and violent. **Demogorgon** and **Orcus** hold an immense, unending enmity for one another, and **Graz'zt** counts both as dedicated foes, warring against the pair from his own layer. **Baphomet**, lord of minotaurs, wages ceaseless war on **Yeenoghu**, lord of gnolls. **Kostchtchie** is so hateful that even most demons avoid him. **Lolth** stands apart as a lesser goddess ruling the drow directly, rather than contesting Abyssal ground. **Pazuzu** answers to no one at all, ranging the Lower Planes on terms of amity with devils and daemons alike. **Fraz-Urb'luu** nurses a private vendetta against humankind rather than his own kind, and **Juiblex** keeps to himself, tending an ecosystem of lesser oozes that serve and are fed upon in turn.
+
+::: twocolumn-pdf-end
+:::
+
+**The Nine Hells** run on a strict chain of command beneath **Asmodeus** (9^th^ plane), to whom every devil answers — even the arch-devils must attend his court once a year:
+
+| Plane/Ruler       | Notes                                                               |
+|-------------------|---------------------------------------------------------------------|
+| 1. Tiamat         | dragon-goddess, not a true devil                                    |
+| 2. Dispater       | served by Titivilus, his messenger                                  |
+| 3. Mammon         | rides to the hunt with hell hounds; consort is Glasya               |
+| 4. Belial         | at war with Geryon and Moloch                                       |
+| 5. Geryon         | served by Amon, his vassal                                          |
+| 6. Moloch         | viceroy for Baalzebul; enmity with Geryon                           |
+| 7. Baalzebul      | coveted by Mephistopheles                                           |
+| 8. Mephistopheles | served by Hutijin; plots to seize the 7th, then challenge Asmodeus  |
+| 9. Asmodeus       | supreme; father of Glasya                                           |
+
+::: twocolumn-pdf-begin
+:::
+
+Dukes serve their arch-devils directly: **Amon** commands bone devils for **Geryon**; **Bael** commands barbed devils for **Mammon**; **Hutijin** commands pit fiends for **Mephistopheles**; **Titivilus** is **Dispater**'s messenger; **Glasya**, Asmodeus's own daughter, is consort to Mammon, tying the royal line into the 3^rd^ plane's court.
+
+**Tiamat**, ruler of the 1^st^ plane, spawns all evil dragonkind — but she is a dragon-goddess in her own right, not truly bound to Asmodeus's service. **Bahamut**, her eternal opposite, belongs to neither hierarchy at all: the King of Good dragons keeps his own court beyond the elemental plane of air, entirely outside the demon/devil axis.
+
+
+::: twocolumn-pdf-end
+:::
+
+::: center
+![](assets/legendary-plate.png)
+:::
+
+::: twocolumn-pdf-begin
+:::
+
+::: pagebreak-pdf
+:::
+
 ### Baphomet (Demon Lord)
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
 
@@ -6928,6 +6972,26 @@ At will Hutijin may call upon **animate dead**, **detect invisible**, **detect m
 
 ::: center
 ![](assets/hutijin-plate.png)
+:::
+
+### Mammon (Arch-devil)
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -3         | No. Appearing | 1          |
+| Hit Dice    | 31***      | Save As       | Fighter 31 |
+| Move        | 60' (20')  | Morale        | 12         |
+| Fly         | 120' (40') | Treasure Type | H, R       |
+| Attacks     | 2 fork     | Alignment     | Lawful     |
+| Damage      | 1d8+7 x2   |               |            |
+
+Mammon rules Hell's Third Plane, a boundless series of ash-choked rifts and slime-streaked badlands. He and Dispater are supposedly allies who jointly back Mephistopheles, though it is doubtful Mammon places real trust in Dispater — neither, in any case, has ever failed to obey Asmodeus. Over his grim domain Mammon rides a nightmare of the largest size with a pack of hell hounds coursing at his heels, ever in search of trophies for the hunt. His weapon is a fauchard-fork that deals normal harm but otherwise strikes as would a **sword of wounding**.
+
+At will Mammon may call upon **animate dead**, **beguile**, **charm person**, **detect invisible**, **detect magic**, **dispel magic**, **fool's gold**, **geas**, **illusion**, **invisibility**, **know alignment**, **produce flame**, **pyrotechnics**, **raise dead fully**, **read languages**, **read magic**, **shape change**, **suggestion**, **teleport**, or **wall of fire**, and once may grant another's **wish**. Once per day he may lay a **symbol of hopelessness** or speak an **unholy word**. His gaze causes fear unless the target saves versus magic. He can summon `1d4` green abishai (50% chance), `1d3` barbed devils (25% chance), or `1d3` bearded devils (25% chance) with an 80% chance of success.
+
+**Description**: Mammon is a red-gold devil with scaled wings that gleam like rubies; his form is bloated and soft-looking, though he is immensely strong, and otherwise typically diabolic in appearance.
+
+::: center
+![](assets/mammon-plate.png)
 :::
 
 ### Mephistopheles (Arch-devil)
