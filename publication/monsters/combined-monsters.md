@@ -1763,6 +1763,23 @@ A quasit can become invisible, cause fear, detect good, and polymorph into small
 ::: pagebreak-pdf
 :::
 
+### Shadow Demon
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | 9 / 5 / 1  | No. Appearing | 0 (1)     |
+| Hit Dice    | 7          | Save As       | Fighter 7 |
+| Move        | 120' (40') | Morale        | 10        |
+| Attacks     | 1 bite / 2 claws | Treasure Type | Nil |
+| Damage      | 1d8 / 1d6 / 1d6 | Alignment | Chaotic   |
+
+A shadow demon is a lesser demon bound into the form of a living shadow, and it is easily mistaken for one at a glance. Its true nature shows in its light-dependent power: in daylight it is armor class 9 and takes double damage, in torchlight it is armor class 5 and fights normally, and in darkness it is armor class 1, strikes with deadly accuracy, and takes only half damage. It is immune to fire, cold, and lightning, but a **light** spell cast upon it burns like a fireball.
+
+The demon can leap up to 30' to open an attack, and once per day it can call up **darkness** and **fear** in a 30' radius. Once per week it may attempt a **magic jar** against a victim; if the victim resists, the demon is stunned for 1d3 rounds.
+
+::: center
+![](assets/shadow-demon-plate.png)
+:::
+
 ## Devils
 
 Devils are the primary inhabitants of the planes of Hell and the embodiment of lawful evil. They are the eternal enemies of chaotic demons and all servants of good.
@@ -2289,6 +2306,35 @@ Staff elementals, the weakest, are summoned by a magic-user with a special staff
 ![](assets/elemental-plate.png)
 :::
 
+### Mephit
+*Source:* `AD&D 1E Conversion`  *Category:* `Elemental`
+
+|                | Fire Mephit | Lava Mephit | Smoke Mephit | Steam Mephit |
+|----------------|-------------|-------------|--------------|--------------|
+| Armor Class    | 5           | 6           | 5            | 5            |
+| Hit Dice       | 3           | 3           | 3            | 3            |
+| Move           | Fly 240' (80') | Fly 240' (80') | Fly 240' (80') | Fly 240' (80') |
+| Attacks        | 2 claws / breath | 2 claws / breath | 2 claws / breath | 2 claws / breath |
+| Damage         | 1d3 / 1d3 / 2d4 | 1d2 / 1d2 / 1d6 | 1d2 / 1d2 / 1d4 | 1d3 / 1d3 / 1d6 |
+| No. Appearing  | 0 (1)       | 0 (1)       | 0 (1)        | 0 (1)        |
+| Save As        | Fighter 3   | Fighter 3   | Fighter 3    | Fighter 3    |
+| Morale         | 8           | 8           | 8            | 8            |
+| Treasure Type  | Special     | Special     | Special      | Special      |
+| Alignment      | Chaotic     | Chaotic     | Chaotic      | Chaotic      |
+
+Mephits are small, garish, foul-tempered fiends used as messengers and errand-runners by more powerful denizens of the Lower Planes. Roughly 5' tall with fangs and small functional wings, they dress in the loudest clothing they can steal and delight in cruelty, mockery, and tasteless jokes. Each carries a handful of coin (2d6 pieces, or platinum in the case of a lava mephit) as personal loot rather than true treasure.
+
+- **Fire mephit**: wreathed in flame, it breathes a jet of fire or a 5' gout that burns everything in front of it.
+- **Lava mephit**: oozes molten rock and can hurl a blob of it, and it regenerates while in contact with lava.
+- **Smoke mephit**: breathes a choking, blinding cloud, and prefers to lurk in dark, smoky places.
+- **Steam mephit**: trails scalding water and breathes a blast of superheated steam.
+
+Once per hour, any mephit may attempt to **gate** in another mephit of random type (25% chance of success). Each type also carries one or two minor spell-like powers of its own, such as **magic missile** or **invisibility**, usable once per day.
+
+::: center
+![](assets/mephit-plate.png)
+:::
+
 ### Salamander*
 *Source:* `Expert`  *Category:* `Elemental`
 
@@ -2430,6 +2476,23 @@ A drider retains its former spellcasting — females as a 6th or 7th level cleri
 ![](assets/drider-plate.png)
 :::
 
+### Drow (Dark Elf)
+*Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
+
+| Armor Class | 4          | No. Appearing | 1d6 (5d10) |
+| Hit Dice    | 2          | Save As       | Fighter 2  |
+| Move        | 120' (40') | Morale        | 9          |
+| Attacks     | 1 weapon   | Treasure Type | N, Q       |
+| Damage      | 1d6        | Alignment     | Chaotic    |
+
+Ages ago the drow were exiled from the surface world by their kin for their cruelty, and they withdrew into the deep places of the earth to rebuild in darkness. There they grew strong in arcane and priestly magic under the rule of **Lolth**, the Demon Queen of Spiders, whom their clerics still worship. They despise sunlight, fighting at -2 to hit and losing 2 Dexterity when caught in it, and will retreat from bright light unless doing so would be more dangerous.
+
+A drow warrior fights with sword or dagger, and many carry hand crossbows loaded with darts coated in a poison that drops the victim unconscious unless they Save vs. Poison at -4. Once per day each drow can cast **dancing lights**, **faerie fire**, and **darkness**; drow clerics, almost always female, know additional spells such as **detect lie** and **suggestion**. Their fine mesh armor and weapons, forged with strange underground alloys, lose their magic and crumble to uselessness within days of exposure to sunlight.
+
+::: center
+![](assets/drow-plate.png)
+:::
+
 ### Duergar
 *Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
 
@@ -2445,6 +2508,40 @@ Duergar can turn invisible at will, and once per day can enlarge themselves to t
 
 ::: center
 ![](assets/duergar-plate.png)
+:::
+
+### Githyanki
+*Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
+
+| Armor Class | 2          | No. Appearing | 1d4 (3d10) |
+| Hit Dice    | 5          | Save As       | Fighter 5  |
+| Move        | 120' (40') | Morale        | 10         |
+| Attacks     | 1 weapon   | Treasure Type | A          |
+| Damage      | 1d8+1      | Alignment     | Chaotic    |
+
+Long ago the mind flayers enslaved a race of humans, feeding upon them for generations, until under the leadership of the hero Gith they rose up and broke free. Their descendants, the githyanki, now dwell in vast castles on the Astral Plane and raid the Material Plane in small bands, striking at humans and mind flayers alike. They worship an undying lich-queen who is said to destroy any githyanki who grows too powerful to threaten her rule.
+
+Githyanki wield ornate two-handed swords, and their finest warriors carry intelligent silver swords capable of severing the silver cord of an astral traveler; a githyanki band will go to great lengths to recover a lost silver sword. Many keep an ancient pact with red dragons, who bear them as steeds when they venture onto the Material Plane. Githyanki despise the githzerai above all other enemies, even mind flayers.
+
+::: center
+![](assets/githyanki-plate.png)
+:::
+
+### Githzerai
+*Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
+
+| Armor Class | 4          | No. Appearing | 1d4 (3d10) |
+| Hit Dice    | 4          | Save As       | Fighter 4  |
+| Move        | 120' (40') | Morale        | 9          |
+| Attacks     | 1 weapon   | Treasure Type | A          |
+| Damage      | 1d6        | Alignment     | Chaotic    |
+
+The githzerai share the same origin as the githyanki, having won their freedom from the mind flayers together under the hero Gith, but the two peoples have been bitter enemies ever since. Where the githyanki are showy and grasping, the githzerai are monastic and disciplined, dwelling in a handful of towering adamantite fortresses in Limbo and on the Material Plane, ruled by an undying wizard-king.
+
+Githzerai fight with plain swords and favor economy of motion over ornament, and some among them train as monks of great skill. They hold an uneasy, oft-broken truce with the mind flayers, but no such peace exists with the githyanki, whom they war against without end.
+
+::: center
+![](assets/githzerai-plate.png)
 :::
 
 ### Gnoll
@@ -2513,6 +2610,24 @@ These small, evil dog-like men usually live underground. They have scaly rust-br
 
 ::: center
 ![](assets/kobold-plate.png)
+:::
+
+### Kuo-Toa
+*Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
+
+| Armor Class | 4                | No. Appearing | 2d12 (8d20) |
+| Hit Dice    | 2                | Save As       | Fighter 2   |
+| Move        | 90' (30')        | Morale        | 8           |
+| Swim        | 180' (60')       | Treasure Type | L, M, N (Z in lair) |
+| Attacks     | 1 weapon or bite | Alignment     | Neutral     |
+| Damage      | 1d6 or 1d4       |               |             |
+
+The kuo-toa are a fish-man race driven from the sunlit world ages ago by the rise of mankind. Those who fled into deep, lightless waters survived and grew strange, and now their descendants dwell in vast subterranean lakes and caverns, worshipping the fish-headed goddess Blibdoolpoolp, the Sea Mother. They hate sunlight and are almost never found above ground.
+
+A kuo-toa's slimy, tough hide grants it a good natural armor class, and that same slime makes it hard to grapple, tie, or web. They fight with spear, net, or barbed harpoon, or bite for 1d4 when unarmed, and their bands are led by higher-level warriors, clerics, and "whips" who keep the fanatical rank and file in line. Kuo-toa keep slaves taken from many races, hate the drow and mind flayers above all else, and regard sahuagin as rivals for the same dark waters.
+
+::: center
+![](assets/kuo-toa-plate.png)
 :::
 
 ### Lizard Man
@@ -2587,6 +2702,23 @@ Sahuagin lairs are underwater strongholds with leaders, priestesses, guards, and
 
 ::: center
 ![](assets/sahuagin-plate.png)
+:::
+
+### Svirfneblin (Deep Gnome)
+*Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
+
+| Armor Class | 2          | No. Appearing | 1d6 (3d10) |
+| Hit Dice    | 3          | Save As       | Fighter 3  |
+| Move        | 90' (30')  | Morale        | 8          |
+| Attacks     | 1 weapon   | Treasure Type | K, Q       |
+| Damage      | 1d6        | Alignment     | Neutral    |
+
+Svirfnebli, or deep gnomes, are a reclusive cousin race to the gnomes of the surface, dwelling in vast connected caverns far beneath the earth where they mine for gems. Only males are ever encountered outside their halls; every small band includes a tougher leader-type, and larger groups may be led by a battle-hardened burrow warden with two trained assistants.
+
+Deep gnomes are doughty fighters and wary of outsiders, though not inherently hostile unless provoked. About one in four of their leaders has some skill as an illusionist, and like their surface kin they have keen infravision and a natural affinity for stone and tunnels.
+
+::: center
+![](assets/svirfneblin-plate.png)
 :::
 
 ### Triton
@@ -4487,6 +4619,23 @@ A hippogriff is a fantastic creature with the foreparts and head of a giant eagl
 ![](assets/hippogriff-plate.png)
 :::
 
+### Hook Horror
+*Source:* `AD&D 1E Conversion`  *Category:* `Monster`
+
+| Armor Class | 3          | No. Appearing | 1d6 (2d6) |
+| Hit Dice    | 5          | Save As       | Fighter 5 |
+| Move        | 90' (30')  | Morale        | 8         |
+| Attacks     | 2 hooks    | Treasure Type | P         |
+| Damage      | 1d8 / 1d8  | Alignment     | Neutral   |
+
+Hook horrors are large bipeds that stalk deep underground passages, with vulture-like heads and a hard, mottled-grey exoskeleton covering a powerful frame. Their eyesight is poor, but their hearing is so acute that they are rarely taken by surprise, and their arms end in sharp hooked talons that rake for savage damage in melee.
+
+A hook horror cannot speak, but communicates with others of its kind by clacking its exoskeleton together, an eerie sound that echoes unnervingly through dungeon corridors.
+
+::: center
+![](assets/hook-horror-plate.png)
+:::
+
 ### Hydra
 *Source:* `Expert`  *Category:* `Monstrous`
 
@@ -5463,6 +5612,23 @@ It does not actually attack, but if it is touched by a torch, for example, the t
 ![](assets/yellow-mold-plate.png)
 :::
 
+### Yellow Musk Creeper
+*Source:* `AD&D 1E Conversion`  *Category:* `Monster`
+
+| Armor Class | 7        | No. Appearing | 0 (1)     |
+| Hit Dice    | 3        | Save As       | Fighter 2 |
+| Move        | 0        | Morale        | 12        |
+| Attacks     | Special  | Treasure Type | Any       |
+| Damage      | Special  | Alignment     | Neutral   |
+
+The yellow musk creeper is a large climbing plant with ivy-like leaves and bright yellow, orchid-like flowers splashed with purple, growing over an area up to 20' square in underground grottoes or deep forest. When approached within 10', its flowers sway hypnotically and puff a musky dust; a victim who fails a Save vs. Spells is entranced and walks into the plant's grasp.
+
+Once entangled, aerial roots attach painlessly to the victim's skull and drain 1d4 points of Intelligence per round. A victim drained to 0 dies and their body sprouts a new bud; one drained to 1 or 2 instead rises as a mindless **Zombie, Yellow Musk** in the creeper's service. The plant can only be killed by destroying its root bulb, buried a foot below the soil at its base; lost Intelligence returns naturally at 1 point per day of rest, or immediately with a **cure** spell.
+
+::: center
+![](assets/yellow-musk-creeper-plate.png)
+:::
+
 ### Yeti
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
 
@@ -6029,6 +6195,25 @@ A unicorn looks like a slender horse with a horn growing from its forehead. A un
 
 Undead are evil creatures created through dark magic. They are unaffected by things that affect living creatures, such as poison, and are not affected by spells which influence the mind, such as sleep and charm person. They do not make noise.
 
+### Death Knight
+*Source:* `AD&D 1E Conversion`  *Category:* `Undead`
+
+| Armor Class | 0          | No. Appearing | 0 (1)      |
+| Hit Dice    | 9          | Save As       | Fighter 9  |
+| Move        | 120' (40') | Morale        | 12         |
+| Attacks     | 1 weapon   | Treasure Type | Nil        |
+| Damage      | 1d8+1      | Alignment     | Chaotic    |
+
+A death knight is a fallen paladin bound into undeath by a demon prince as punishment and reward both. Only a handful are ever thought to exist, each ruling some dark corner of the world through terror and dark magic. Its armor and blade radiate an aura of dread that fills a 5' radius, and it is always treated as armor class 0 regardless of what it wears.
+
+A death knight resists most magic and has a chance to hurl any spell cast against it back at the caster. Twice per day it can cast **dispel magic** and **gate** in a demon to fight at its side; once per day it can call on any **power word** spell and unleash a devastating fireball. It also has innate **detect magic** and **detect invisible**, and can conjure a **wall of ice** at will.
+
+Death knights cannot be turned. Only powerful magic, such as a **holy word**, has any hope of dispelling one.
+
+::: center
+![](assets/death-knight-plate.png)
+:::
+
 ### Demilich
 *Source:* `AD&D 1E Conversion`  *Category:* `Undead`
 
@@ -6154,6 +6339,36 @@ Mummies can only be damaged by spells, fire, or magic weapons, all of which will
 ![](assets/mummy-plate.png)
 :::
 
+### Poltergeist*
+*Source:* `AD&D 1E Conversion`  *Category:* `Undead`
+
+| Armor Class | 10        | No. Appearing | 1d4 (1d8) |
+| Hit Dice    | 1         | Save As       | Fighter 1 |
+| Move        | 60' (20') | Morale        | 10        |
+| Attacks     | 1 object  | Treasure Type | Nil       |
+| Damage      | 1d4       | Alignment     | Chaotic   |
+
+A poltergeist is the invisible, non-corporeal remnant of a person who died violently in a particular room or stretch of corridor, and it rarely strays from that spot. It attacks by hurling nearby loose objects at intruders.
+
+Anyone struck must Save vs. Spells or flee in panic for 2d12 rounds, dropping whatever they carry. A poltergeist can only be harmed by silver or magic weapons. Holy water or a boldly presented holy symbol will drive one back, though it causes no actual harm.
+
+### Revenant
+*Source:* `AD&D 1E Conversion`  *Category:* `Undead`
+
+| Armor Class | 10        | No. Appearing | 0 (1)     |
+| Hit Dice    | 8         | Save As       | Fighter 8 |
+| Move        | 90' (30') | Morale        | 12        |
+| Attacks     | 1 strangle | Treasure Type | Nil      |
+| Damage      | 2d8       | Alignment     | Chaotic   |
+
+A revenant is a person of extraordinary will who has returned from death to destroy their own killer. It cannot be turned, and normal or magic weapons do nothing to stop it; only burning it to ashes will end it for good, and even severed limbs continue to fight until then. It regenerates 3 hit points each round.
+
+The revenant seeks out its killer with unerring certainty no matter where they hide, ignoring all other creatures unless attacked. In melee it locks its hands around a victim's throat, and anyone it stares at must Save vs. Spells or be paralyzed with terror for 2d4 rounds. Once its killer (and any who aided in the killing) are slain, the revenant crumbles to dust and troubles the world no more.
+
+::: center
+![](assets/revenant-plate.png)
+:::
+
 ### Skeleton
 *Source:* `Basic`  *Category:* `Undead`
 
@@ -6169,6 +6384,23 @@ Since they are undead, they can be "Turned" by a cleric, and are not affected by
 
 ::: center
 ![](assets/skeleton-plate.png)
+:::
+
+### Skeleton Warrior*
+*Source:* `AD&D 1E Conversion`  *Category:* `Undead`
+
+| Armor Class | 2         | No. Appearing | 0 (1)     |
+| Hit Dice    | 9         | Save As       | Fighter 9 |
+| Move        | 60' (20') | Morale        | 12        |
+| Attacks     | 1 weapon  | Treasure Type | A         |
+| Damage      | 1d10      | Alignment     | Chaotic   |
+
+Long ago an evil demigod bound the souls of twelve mighty fighters into golden circlets, dooming each to rise as a skeleton warrior clad in the rotting finery of its former glory. A skeleton warrior fights with unnatural skill, striking at +3 to hit no matter what weapon it wields, and only 5+ Hit Dice creatures can stand against the terror of its presence without fleeing.
+
+Whoever wears the circlet that holds a skeleton warrior's soul commands it utterly, whether directing its every move or leaving it to act on its own within 240'. Should the circlet ever leave its wearer's head, the skeleton warrior turns at once on its former master, hunting them relentlessly until the circlet is recovered or the wearer is destroyed. It can be harmed only by magic weapons and resists spells fiercely; clerics cannot turn it.
+
+::: center
+![](assets/skeleton-warrior-plate.png)
 :::
 
 ### Spectre*
@@ -6273,6 +6505,23 @@ Zombies will always attack on sight, but can be destroyed by normal weapons. The
 
 ::: center
 ![](assets/zombie-plate.png)
+:::
+
+### Zombie, Yellow Musk
+*Source:* `AD&D 1E Conversion`  *Category:* `Undead`
+
+| Armor Class | 9          | No. Appearing | 1d2 (1d2) |
+| Hit Dice    | 2          | Save As       | Fighter 1 |
+| Move        | 90' (30')  | Morale        | 12        |
+| Attacks     | 1 weapon   | Treasure Type | Nil       |
+| Damage      | by weapon  | Alignment     | Chaotic   |
+
+A yellow musk zombie is what remains of a victim drained to near-mindlessness by a **Yellow Musk Creeper**. Its skin turns sickly yellow and its eyes glaze over, but it keeps the weapons, armor, and rough combat skill it had in life. It exists only to drag new victims back to the creeper that made it.
+
+It is not true undead: clerics cannot turn it, but like undead it is immune to charm, hold, sleep, and similar mind-affecting magic. It serves for about two months before collapsing, whereupon a seed planted in its skull sprouts into a new creeper. Destroying the parent creeper and then treating the zombie with **neutralize poison** followed by **cure disease** restores the victim, though full recovery takes four weeks of rest.
+
+::: center
+![](assets/zombie-yellow-musk-plate.png)
 :::
 
 ::: pagebreak-pdf
@@ -6411,6 +6660,27 @@ At will Kostchtchie may call upon **command**, **curse**, **darkness** (15' radi
 
 ::: center
 ![](assets/kostchtchie-plate.png)
+:::
+
+### Lolth (Demon Queen of Spiders) (Lesser Goddess)
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | -10 (spider) / -2 (drow) | No. Appearing | 1          |
+| Hit Dice    | 16***                    | Save As       | Fighter 16 |
+| Move        | 90' (30')                | Morale        | 12         |
+| Attacks     | 1 bite (spider) / 1 weapon (drow) | Treasure Type | Q(x5), R, X(x3) |
+| Damage      | 4d4 + poison (spider) / by weapon (drow) | Alignment | Chaotic |
+
+Lolth is the Demon Queen of Spiders, patron and tormentor of the drow, who venerate and fear her in equal measure. She most often walks the Prime Material Plane as a monstrous black widow spider, though she is equally at home appearing as a beautiful and terrible drow woman, and she commands the obedience of spiders of every kind. She heals herself at will, up to three times a day, and is seldom found in her own lair unless summoned to a shrine raised in her honor.
+
+In spider form Lolth spins webs equal to a **web** spell from her spinnerets, poisoning anyone caught in the strands for 1d4 damage per round, and bites for 4d4 plus poison. At will she may call upon **comprehend languages**, **confusion**, **darkness** (10' radius), or **dispel magic**; twice per day **phase door**, **shape change**, or **read magic**; and once per day **gate** in a lesser demon, **summon** a host of giant spiders, or **teleport**. In drow form she fights as a high-level cleric and magic-user, but cannot wear armor and loses her other powers while so shaped.
+
+Lolth can only be harmed by magic weapons, takes only half damage from cold, electricity, and gas, and is especially vulnerable to holy water, which sears her for full damage.
+
+**Description**: As a spider Lolth is monstrous and black, bristling with hooked legs; her drow-woman form is coldly, unnervingly beautiful, marked by pale skin and dark, knowing eyes.
+
+::: center
+![](assets/lolth-plate.png)
 :::
 
 ### Orcus (Prince of the Undead)
