@@ -2029,6 +2029,23 @@ Note: Dragon turtles are extremely powerful creatures that should not be used un
 ![](assets/dragon-turtle-plate.png)
 :::
 
+### Faerie Dragon
+*Source:* `AD&D 1E Conversion`  *Category:* `Dragon`
+
+| Armor Class | 5 (1 invisible) | No. Appearing | 1d6 (1d6)  |
+| Hit Dice    | 1-8*            | Save As       | Fighter (as HD) |
+| Move        | 60' (20')       | Morale        | 7          |
+| Fly         | 240' (80')      | Treasure Type | S, T, U    |
+| Attacks     | 1 bite          | Alignment     | Chaotic    |
+
+A faerie dragon is a tiny, whimsical dragon-kin with a long prehensile tail, butterfly-like wings, and a huge smile, its hide running from red when young to purple in great age. Females shine with a golden tinge in sunlight; males, a silver one. They live in peaceful forests, often alongside sprites or pixies, and can turn invisible at will — even while attacking, breathing, or casting.
+
+Rather than fight, a faerie dragon prefers to breathe a small cloud of euphoria gas; a victim failing a Save vs. Breath Weapon wanders about in blissful confusion for 3d4 rounds, unable to attack or otherwise act. About two-thirds of faerie dragons pick up a handful of minor magic-user spells as they age, the rest a handful of druid spells, and every spell they learn is chosen purely for mischief rather than combat — a faerie dragon will go to great lengths for a fresh apple pie or the perfect prank, and months of planning often go into a single elaborate joke. All faerie dragons can speak telepathically with one another up to two miles apart, and often enlist local forest creatures to help spring their pranks.
+
+::: center
+![](assets/faerie-dragon-plate.png)
+:::
+
 ### Pseudo-Dragon
 *Source:* `AD&D 1E Conversion`  *Category:* `Dragon`
 
@@ -2109,6 +2126,24 @@ They travel at twice the speed of an invisible stalker, and when on the physical
 If the aerial servant is frustrated in the completion of its assigned mission, it becomes insane, returns to the cleric who sent it forth, and attacks as a double-strength invisible stalker. Likewise, if it is encountered ethereally or astrally, the aerial servant will typically attack in the same fashion.
 
 For further details regarding aerial servants, consult the volume detailing clerical spells.
+
+### Dao
+*Source:* `AD&D 1E Conversion`  *Category:* `Elemental`
+
+| Armor Class | 3          | No. Appearing | 1 (1d4)    |
+| Hit Dice    | 8+3        | Save As       | Fighter 8  |
+| Move        | 90' (30')  | Morale        | 10         |
+| Burrow      | 60' (20')  | Treasure Type | Nil        |
+| Attacks     | 1 fist     | Alignment     | Neutral    |
+| Damage      | 3d6        |               |            |
+
+Dao are genies of elemental earth, kin to the djinn, efreet, and jann but far more malicious, coming to the material plane chiefly to work mischief and evil. They dislike servitude even more than efreet do and are quick to nurse a grudge; only efreet count as friends, while djinn, jann, and marids are hated outright.
+
+At will a dao may once each day become invisible, take gaseous form, cause misdirection, or use passwall, and can turn rock to mud three times a day or dig up to six times a day. A dao can burrow through natural earth (though not worked stone) at a steady pace and can carry a companion along with it. They are immune to earth-based magic, though holy water burns them for double damage. Dao dwell in deep caves and cysts, or in their own Great Dismal Delve on the Elemental Plane of Earth.
+
+::: center
+![](assets/dao-plate.png)
+:::
 
 ### Djinni
 *Source:* `AD&D 1E Conversion`  *Category:* `Elemental`
@@ -2376,6 +2411,40 @@ Bugbears speak their own tongue, goblin, hobgoblin, and the chaotic alignment la
 
 ::: center
 ![](assets/bugbear-plate.png)
+:::
+
+### Drider
+*Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
+
+| Armor Class | 3          | No. Appearing | 1d4 (1d4)  |
+| Hit Dice    | 6+6        | Save As       | Fighter 6  |
+| Move        | 120' (40') | Morale        | 8          |
+| Attacks     | 1 weapon or 1 bite | Treasure Type | Q |
+| Damage      | By weapon or 1d4 + poison | Alignment | Chaotic |
+
+A drider is a drow who failed a secret test set by Lolth for those of promising rank, and was transformed rather than rewarded: the torso, arms, and head of a pale, bloated dark elf sprout from the body of a giant spider. About 60% of driders are female.
+
+A drider retains its former spellcasting — females as a 6th or 7th level cleric, males with a handful of minor magic-user spells — and fights capably with sword, axe, or bow, or with a poisonous bite that forces a Save vs. Poison at -2 or paralyzes for 1d2 turns. Cast out from drow society and shown no love in return, driders are usually encountered alone, though 1 in 10 keep company with a pack of huge spiders. They hunt underground, stalking prey patiently before striking, and feed chiefly on the blood of their kills.
+
+::: center
+![](assets/drider-plate.png)
+:::
+
+### Duergar
+*Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
+
+| Armor Class | 4          | No. Appearing | 2d4 (201-300) |
+| Hit Dice    | 1+2        | Save As       | Fighter 1  |
+| Move        | 60' (20')  | Morale        | 8 or see below |
+| Attacks     | 1 weapon   | Treasure Type | M, Q (B, F) |
+| Damage      | By weapon  | Alignment     | Lawful     |
+
+Duergar, or gray dwarves, are a malicious, subterranean offshoot of dwarfkind who shun the light along with every other kindness. As with other humanoids, larger bands are led by tougher individuals of 2 to 9 Hit Dice, and morale rises to 10 whenever such a leader stands with the group. Duergar lairs are large, well-organized, and often (75% chance) hold 10-40 slaves of other races.
+
+Duergar can turn invisible at will, and once per day can enlarge themselves to twice normal size for 1 turn, striking at +2 to hit and damage while so swollen. They save versus magical attacks (including polymorph and paralysis) at +4, are wholly immune to poison and paralysis, and are unaffected by illusions. Like other dwarves they have keen infravision to 90' and speak Dwarvish along with the silent speech shared by evil things underground; some duergar live 500 years or more.
+
+::: center
+![](assets/duergar-plate.png)
 :::
 
 ### Gnoll
@@ -3727,6 +3796,24 @@ Rumors speak of hidden colonies of black wererats ruled by sinister leaders and 
 ![](assets/wererat-plate.png)
 :::
 
+### Wereshark*
+*Source:* `AD&D 1E Conversion`  *Category:* `Lycanthrope`
+
+| Armor Class | 0 (9)      | No. Appearing | 1 (1)      |
+| Hit Dice    | 10+3*      | Save As       | Fighter 10 |
+| Move        | 120' (40') | Morale        | 9          |
+| Swim        | 210' (70') | Treasure Type | F          |
+| Attacks     | 1 bite     | Alignment     | Neutral    |
+| Damage      | 5d4        |               |            |
+
+Weresharks are humans afflicted with a lycanthropy that lets them take shark form at will, so long as it is dark, and are found only in tropical waters. In human form a wereshark is virtually indistinguishable from a normal person, though notably large, muscular, and domineering; in shark form it is a huge, solitary predator resembling a great white, unafraid to attack and devour true sharks that cross its path.
+
+Weresharks are harmed only by silver or magical weapons, and a bite that fails to kill its victim has a chance of passing on the curse within a few days. They favor lairing near sunken treasure, which two to five ordinary sharks guard whether or not the wereshark itself is present.
+
+::: center
+![](assets/wereshark-plate.png)
+:::
+
 ### Weretiger*
 *Source:* `Basic`  *Category:* `Lycanthrope`
 
@@ -3774,6 +3861,26 @@ Werewolves may summon normal wolves to form larger hunting packs.
 
 ## Monstrous
 
+### Aboleth
+*Source:* `AD&D 1E Conversion`  *Category:* `Monster`
+
+| Armor Class | 4          | No. Appearing | 1d2 (1d4)  |
+| Hit Dice    | 8          | Save As       | Fighter 8  |
+| Move        | 30' (10')  | Morale        | 10         |
+| Swim        | 180' (60') | Treasure Type | F          |
+| Attacks     | 4 tentacles | Alignment    | Lawful     |
+| Damage      | 1d6 x4     |               |            |
+
+Aboleths are ancient, malevolent things that dwell in vast underground lakes, hoarding secrets older than mankind. Foul mucus-secreting organs line their slimy, fish-like flanks, and three narrow purple-red eyes stack atop one another beneath ridged brows.
+
+Each of an aboleth's four ten-foot tentacles lashes independently for 1d6 damage. Any creature struck must Save vs. Spells or begin turning to a clear, slimy membrane over the next few rounds; unless a cure disease is cast in time, the change completes, and thereafter the victim takes 1d12 damage each hour it goes without cool water, though a cure serious wounds restores the victim's normal skin.
+
+An aboleth can attempt to enslave a single creature within 30' up to three times a day; the target Saves vs. Spells or is filled with an abiding compulsion to serve, breakable only by remove curse, dispel magic, or the aboleth's own death. In water it wraps itself in a foot-deep cloud of mucus; anyone drawn in must Save vs. Poison or drown attempting to breathe it, though the aboleth's own slaves gain water breathing from the same substance for a few hours at a stretch. Aboleths are believed to have built vast sunken cities with the labor of their enslaved thralls, though none have ever been confirmed.
+
+::: center
+![](assets/aboleth-plate.png)
+:::
+
 ### Ankheg
 *Source:* `AD&D 1E Conversion`  *Category:* `Monstrous`
 
@@ -3814,6 +3921,25 @@ Characters looking away to avoid the gaze of a basilisk must fight it with a pen
 
 ::: center
 ![](assets/basilisk-plate.png)
+:::
+
+### Behir
+*Source:* `AD&D 1E Conversion`  *Category:* `Monster`
+
+| Armor Class | 4          | No. Appearing | 1 (1d2)    |
+| Hit Dice    | 12         | Save As       | Fighter 6  |
+| Move        | 150' (50') | Morale        | 9          |
+| Attacks     | 1 bite / 1 constrict | Treasure Type | Special |
+| Damage      | 2d4 / 1d4+1 | Alignment    | Neutral    |
+
+The behir is a twelve-legged, serpentine reptile some 40 feet long, crocodile-headed and banded in ultramarine and gray-brown scales. Despite its bulk it moves with startling speed and can fold its many legs to slither like a true snake when it chooses.
+
+A behir bites for 2d4 and, if it also coils its body around a victim, constricts for an additional 1d4+1; a fully constricted victim suffers six raking talon attacks (1d6 each) the following round. Once every ten rounds a behir can loose a 20-foot bolt of lightning dealing 24 points of damage (half with a successful Save vs. Breath Weapon), and it is wholly immune to electricity and poison.
+
+Behir occasionally swallow prey whole, and there is a small chance any given behir carries gems, jewelry, or a battered magic item still lodged in its gut from an earlier meal.
+
+::: center
+![](assets/behir-plate.png)
 :::
 
 ### Beholder
@@ -4204,6 +4330,25 @@ These  are made of a clear jelly and are shaped like cubes about 10' on a side. 
 ![](assets/gelatinous-cube-plate.png)
 :::
 
+### Gibbering Mouther
+*Source:* `AD&D 1E Conversion`  *Category:* `Monster`
+
+| Armor Class | 1          | No. Appearing | 1 (1)      |
+| Hit Dice    | 4+3        | Save As       | Fighter 2  |
+| Move        | 60' (20')  | Morale        | 12         |
+| Attacks     | 6 mouths   | Treasure Type | Q          |
+| Damage      | 1 x6       | Alignment     | Neutral    |
+
+A gibbering mouther is a mindless, amoeboid mass of eyes and mouths that lies dormant, resembling a lump of earth, until prey wanders close enough to bite. It devours anything edible without preference for animal, vegetable, or mineral, and strips its lair bare over time.
+
+Its spittle flares into a blinding flash on any hard, cold, or smooth surface; anyone looking at the flash must Save vs. Spells or be blinded for 1 round. Each of its six mouths that hits fastens on and drains 1 additional point of damage every round it remains attached. Once three or more mouths are attached to a single victim, that character must roll 2d6 each round (+1 if Dexterity is 15 or higher); a result of 4 or less means they are pulled down, and the mouther flows over them to bite with all twelve remaining mouths at once.
+
+When it senses food, a mouther gibbers incoherently, causing confusion in all creatures within 60' who fail a Save vs. Spells; the save must be repeated each round the gibbering continues. A mouther can also soften the earth and stone within 5' of itself into clinging quicksand or firm it back into stone, though changing stone takes a full round.
+
+::: center
+![](assets/gibbering-mouther-plate.png)
+:::
+
 ### Gorgon
 *Source:* `Expert`  *Category:* `Monstrous`
 
@@ -4426,6 +4571,26 @@ Ki-rin can fly, become invisible, create food and water, and use powerful cleric
 ![](assets/ki-rin-plate.png)
 :::
 
+### Kraken
+*Source:* `AD&D 1E Conversion`  *Category:* `Monster`
+
+| Armor Class | Tentacles 6; Body 0     | No. Appearing | 1 (1)      |
+| Hit Dice    | 20         | Save As       | Fighter 20 |
+| Move        | 30' (10')  | Morale        | 11         |
+| Swim        | 210' (70') | Treasure Type | G, R, S    |
+| Attacks     | 2 tentacles / 6 tentacles / 1 bite | Alignment | Neutral |
+| Damage      | 2d6 x2 / 2d4 x6 / 5d4 |               |            |
+
+The kraken is a colossal, air- and water-breathing relative of the squid that dwells in the darkest ocean depths, growing huge and powerful on a diet of whales and any smaller life it can catch. Its ten tentacles are armor class 6, as is its exposed head, but its thick shell carries armor class 0.
+
+Two barbed tentacles rake and drag prey toward the kraken's beaked mouth, while the other eight, if they hit, wrap and constrict for 3d4 damage each subsequent round until severed (16 points of damage to a single tentacle) or the kraken chooses to let go. A kraken that has four or more tentacles fastened on prey will often abandon the fight and drag its catch a thousand feet down to its lair instead. Its ink cloud fills a huge volume of water and remains toxic for several rounds, dealing 1d4 damage each round to anything caught within it.
+
+A kraken can call upon **control weather**, **control temperature**, **faerie fire**, or summon fish to the area once per day each, and can render a great sphere of water breathable as air for a full day. Large enough to drag ships under, a kraken that keeps six or more tentacles fastened to a vessel for three rounds running will hole it as surely as a ram. Sailors whisper of undersea kraken lairs where human captives are kept and bred as a standing larder.
+
+::: center
+![](assets/kraken-plate.png)
+:::
+
 ### Lamia
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
 
@@ -4638,6 +4803,25 @@ A morkoth can hypnotize victims that meet its gaze. The victim must Save vs. Spe
 
 ::: center
 ![](assets/morkoth-plate.png)
+:::
+
+### Myconid (Fungus Man)
+*Source:* `AD&D 1E Conversion`  *Category:* `Monster`
+
+| Armor Class | 10               | No. Appearing | 1d12 (20-200) |
+| Hit Dice    | 1-6*             | Save As       | Fighter (as HD) |
+| Move        | 90' (30')        | Morale        | 8          |
+| Attacks     | 1                | Treasure Type | S x2       |
+| Damage      | 1d4 per HD       | Alignment     | Lawful     |
+
+Myconids, or fungus men, are peaceful, fungoid humanoids that resemble bloated, upright toadstools in shades of purple to gray. Their skin oozes a substance poisonous to animal life; anyone touching a myconid barehanded takes 1d4 damage. They live deep underground among conditions suitable to fungus and have a deathly fear of direct sunlight.
+
+Myconid society is organized into tight-knit "circles" of about twenty members, four each of Hit Dice 1 through 5, who farm fungus crops and share a collective telepathic meld each day. A single king — always the strongest 6 Hit Dice myconid, chosen when the old king dies — stands apart from every circle to lead the colony, brewing potions and directing its defense.
+
+Fungus men fight by clubbing with clasped hands for 1d4 damage per Hit Die of size, and each also carries a growing repertoire of spores it can spray a number of times per day equal to its Hit Dice: *distress* (calls other myconids for aid), *reproducer* (grows new myconids), *rapport* (opens telepathic communication with another creature, Save vs. Poison to resist unless willing), *pacifier* (Save vs. Poison or become totally passive for several rounds), *hallucinator* (Save vs. Poison or suffer violent hallucinations for several turns), and, for the king alone, *animator* (raises a slain creature as a zombie-like fungal thrall). Myconids avoid killing when they can, as violence disturbs their meld, but population pressure brings them into conflict with nearby humanoids all the same.
+
+::: center
+![](assets/myconid-plate.png)
 :::
 
 ### Naga
@@ -5845,6 +6029,25 @@ A unicorn looks like a slender horse with a horn growing from its forehead. A un
 
 Undead are evil creatures created through dark magic. They are unaffected by things that affect living creatures, such as poison, and are not affected by spells which influence the mind, such as sleep and charm person. They do not make noise.
 
+### Demilich
+*Source:* `AD&D 1E Conversion`  *Category:* `Undead`
+
+| Armor Class | -6         | No. Appearing | 1 (1)      |
+| Hit Dice    | 50 hp (special) | Save As  | Special    |
+| Move        | Nil        | Morale        | 12         |
+| Attacks     | Special    | Treasure Type | Z          |
+| Damage      | Special    | Alignment     | Neutral    |
+
+A demilich is what remains of a lich (see **Lich**) whose undying life force has finally begun to fail after centuries: only dust, a skull, and a few bones remain, animated by a soul too evil to fully pass on. It cannot move or pursue, but any who disturb its resting place face one of the deadliest traps in the dungeon.
+
+When its lair is entered, the demilich's dust rises into a man-shaped cloud. Left alone it may dissipate harmlessly, but any attack against it — physical or magical — feeds it energy, and once it has absorbed enough it manifests as a wraith or worse, striking at those responsible. Neither the dust nor its manifestation can be turned or meaningfully harmed; only destroying the skull itself ends the threat.
+
+Touching the skull is far worse. It rises into the air and howls, and everyone within 20' must Save vs. Death or be instantly and permanently slain. The following round, the skull drains the very soul from the strongest remaining character with no saving throw possible, leaving only a collapsed, moldering corpse; the soul is trapped in one of the gems set into the skull. If molested again, it repeats the process on the next-strongest character until every gem is filled, after which it can only howl and curse. A trapped soul can be freed by shattering its gem near a body ready to receive it, but a demilich's skull can be damaged only by powerful magic — spells of 6th level or higher, a vorpal weapon, a +4 or better magic weapon, or similar — and any lesser attack does nothing at all. Even reduced to its last hit point the skull will reform within 1d10 days unless doused in holy water.
+
+::: center
+![](assets/demilich-plate.png)
+:::
+
 ### Ghast
 *Source:* `AD&D 1E Conversion`  *Category:* `Undead`
 
@@ -6079,6 +6282,25 @@ Zombies will always attack on sight, but can be destroyed by normal weapons. The
 
 The creatures in this appendix are unique, campaign-level beings rather than ordinary monster-manual entries. Each is a singular individual with powers well beyond a typical encounter, and should be used sparingly and with care by the DM.
 
+### Baphomet (Demon Lord)
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | -4                   | No. Appearing | 1          |
+| Hit Dice    | 24***                | Save As       | Fighter 24 |
+| Move        | 240' (80')           | Morale        | 12         |
+| Attacks     | 1 gore / 1 bardiche  | Treasure Type | S, T, W, Z |
+| Damage      | 2d6 / 3d4+8          | Alignment     | Chaotic    |
+
+Baphomet is lord of minotaurs and the bitter rival of Yeenoghu, with whom he wages ceaseless war. He is usually attended by `2d4` minotaurs and can summon `5d4` more, though only once per day. In melee he first gores with his great bull's horns before laying about with a huge bardiche; any armor, shield, or item struck by the weapon must save versus a crushing blow or be ruined outright.
+
+At will Baphomet may call upon **darkness** (10' radius), **detect invisible**, **detect magic**, **dispel magic**, **levitate**, **maze**, **passwall**, **phantasmal force**, **shape change**, **telekinesis** up to 75,000 gold pieces' weight, **teleport**, or **wall of stone**. Once per day he can bellow a horrible roar that sends all creatures within 30' fleeing in panic for `1d6` turns unless they save versus magic, and he can **gate** in a Type III demon with an 85% chance of success. Several times a day he can spit a gout of unholy water that sears creatures of the Upper Planes for grievous damage. His hearing and infravision both reach twice the normal range, and he can converse telepathically with animals.
+
+**Description**: Baphomet has the hulking, black-haired body of a huge ogre topped with a bull's head, his great horns curving out and forward, his hands and feet broad and thick-fingered, and a short bovine tail lashing behind him.
+
+::: center
+![](assets/baphomet-plate.png)
+:::
+
 ### Demogorgon
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
 
@@ -6112,6 +6334,47 @@ Whenever he desires, Demogorgon may use any one of the following powers: **conti
 ![](assets/demogorgon-plate.png)
 :::
 
+### Fraz-Urb'luu (Prince of Deception)
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | -2                | No. Appearing | 1          |
+| Hit Dice    | 52***             | Save As       | Fighter 52 |
+| Move        | 120' (40')        | Morale        | 12         |
+| Fly         | 180' (60')        | Treasure Type | O, P, U, Z |
+| Attacks     | 2 fists / 1 bite  | Alignment     | Chaotic    |
+| Damage      | 2d6+7 x2 / 3d6    |               |            |
+
+Fraz-Urb'luu is strong as a storm giant, and a barbed tail fifteen feet long lets him entwine a victim to hold it for his fists or bite. He is completely immune to any spell that would detect, charm, command, dominate, hypnotize, or otherwise influence him, and speaks every human tongue as well as telepathically with most other creatures.
+
+At will Fraz-Urb'luu may call upon **darkness** (30' radius), **dispel magic**, **hypnotic pattern**, **misdirection**, **polymorph self or other**, **programmed illusion**, **suggestion**, **telekinesis** up to 10,000 gold pieces' weight, **teleport**, or **veil**. Once per day he may loose a **prismatic spray**, use **plane shift**, or speak a **power word, blind**. He can **gate** in `1d4` Type I demons with a 60% chance of success, or — his signature deception — trick another demon lord or lady into believing itself summoned rather than gated, 75% of the time; the deceived demon invariably arrives in a fury, and Fraz-Urb'luu is rarely still nearby when it does.
+
+For centuries Fraz-Urb'luu was bound in a stone prison beneath Castle Greyhawk until a magic-user and a cleric were tricked into freeing him; both were carried off as slaves to his own bleak plane, where magic items other than artifacts and relics lose their power. He now searches for his stolen staff, an artifact combining the powers of a **staff of command**, a **rod of beguiling**, and a **rod of rulership**, and has sworn vengeance on humankind for his long torment.
+
+**Description**: Fraz-Urb'luu's hulking, coarse-haired body has broad splayed feet and huge stubby hands. His face is beautiful but cruel, framed by ragged ears and a domed, ratlike head, his hair pale blue, his skin gray, and two vast dull-black wings project from his back; his tail runs from gray at the base to pale blue at its tip.
+
+::: center
+![](assets/fraz-urbluu-plate.png)
+:::
+
+### Graz'zt (Demon Prince)
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | -9         | No. Appearing | 1          |
+| Hit Dice    | 41***      | Save As       | Fighter 41 |
+| Move        | 120' (40') | Morale        | 12         |
+| Attacks     | 2 sword    | Treasure Type | U, Z       |
+| Damage      | 2d6+6 x2   | Alignment     | Chaotic    |
+
+Graz'zt is dedicated foe of both Demogorgon and Orcus, and rules his own layer of the Abyss with the aid of lamias (`1d3` always at hand) and succubi. He wields a huge, wavy-bladed sword that drips acid — any nonliving material struck must save versus acid when Graz'zt rolls a natural 20, for the acid deals an extra `1d4+4` points of damage — together with a `+3` shield (AC -9); he may instead fight two-handed with a `+1` guisarme in place of the shield, dropping to AC -6 but striking with both weapons each round.
+
+At will Graz'zt may call upon **chaos**, **continual darkness**, **duo-dimension**, **emotion**, **magic missile** (5 missiles), **mirror image**, **polymorph self**, **read languages**, **read magic**, **telekinesis** up to 15,000 gold pieces' weight, **teleport**, **vanish**, or **water breathing**. Once per day he may **disintegrate**, **polymorph any object**, use **trap the soul**, or **veil**. His mere sneer and word spread fear for 60'. He can **gate** in `1d2` Type VI demons (60% chance) or `2d5` babau demons (40% chance) without fail.
+
+**Description**: By human standards, Graz'zt is the handsomest of the demon lords — a huge, powerfully built man with shining black skin, glowing green eyes, small fangs, pointed ears, and six fingers on each hand and six toes on each foot.
+
+::: center
+![](assets/grazzt-plate.png)
+:::
+
 ### Juiblex (The Faceless Lord)
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
 
@@ -6129,6 +6392,25 @@ Juiblex may shed a **circle of darkness** (15' radius) at will, cause **fear** a
 
 ::: center
 ![](assets/juiblex-plate.png)
+:::
+
+### Kostchtchie (Demon Lord)
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | -3         | No. Appearing | 1          |
+| Hit Dice    | 21***      | Save As       | Fighter 21 |
+| Move        | 60' (20')  | Morale        | 12         |
+| Attacks     | 1 hammer   | Treasure Type | A, I, S, T |
+| Damage      | 2d6+10     | Alignment     | Chaotic    |
+
+Kostchtchie is so hateful that even other demons avoid him, save the weakest and most bullying sorts. Immensely strong, he fights with a huge iron hammer inlaid with nickel and silver; anyone struck must save versus Paralysis or be stunned, unable to act for the rest of that round and all of the next. A pair of huge leucrotta serve as his constant guards, and he is rumored at times to ride an ancient white dragon.
+
+At will Kostchtchie may call upon **command**, **curse**, **darkness** (15' radius), **know alignment**, **protection from good**, **speak with monsters**, **telekinesis** up to 5,000 gold pieces' weight, or **teleport**. Twice per day he may cast **poison** or **wind walk**, and once per day **dispel good**, **harm**, or an **unholy word**. He can always **gate** in `1d4` babau demons (35% chance) or `2d4` bar-lgura (65% chance). He speaks many tongues and can converse telepathically as well.
+
+**Description**: Kostchtchie resembles a giant with short, bandy, malformed legs that slow his gait. His flat, oval head bears slitted eyes and gross features above a muscle-bulging torso and arms; his skin is pale yellow and hairless save for heavy brows.
+
+::: center
+![](assets/kostchtchie-plate.png)
 :::
 
 ### Orcus (Prince of the Undead)
@@ -6153,6 +6435,26 @@ Orcus carries the **Wand of Orcus**, a rod of obsidian topped with a skull, whic
 ![](assets/orcus-plate.png)
 :::
 
+### Pazuzu (Prince of the Lower Aerial Kingdoms)
+*Source:* `AD&D 1E Conversion`  *Category:* `Demon`
+
+| Armor Class | -9              | No. Appearing | 1                   |
+| Hit Dice    | 34***           | Save As       | Fighter 34          |
+| Move        | 120' (40')      | Morale        | 12                  |
+| Fly         | 360' (120')     | Treasure Type | S, T, U, V, W, X, Z |
+| Attacks     | 1 weapon        | Alignment     | Chaotic             |
+| Damage      | 2d6+8           |               |                     |
+
+Pazuzu answers to no one, ranging freely across the Lower Planes on terms of amity with daemons and devils alike; he is lord of all evil flying creatures, and those of fewer than 5 hit dice within his sight obey him without question. He rarely fights directly, preferring to send Type VI demon bodyguards or unleash his spell-like powers, but lashes out capably enough with whatever weapon is at hand if forced to blows. On the material plane he delights in corrupting the righteous: a lawful good cleric or paladin who speaks his name three times summons him, and any who accept his aid owe him a service in return — compliance shifts the servant's alignment a step further toward chaos each time. He bears a great sense of humor and rarely resents a clever defeat.
+
+At will Pazuzu may call upon **astral travel**, **call lightning**, **control weather**, **darkness** (20' radius), **flesh to stone**, **shape change**, **statue**, **tongues**, or **wind walk**. Once per day he may lay a **symbol** of pain, hopelessness, or death, or speak an **unholy word**. Three times per day he can breathe out a cloud of **creeping doom**, **insect plague**, or poison gas as large as a green dragon's breath. He can summon `4d4` harpies (50% chance), `3d4` perytons (25% chance), or `3d4` gargoyles (25% chance), and once per day **gate** in `1d4` succubi with 75% certainty. His infravision and normal sight both reach twice the usual range, and he regenerates 1 hit point every round.
+
+**Description**: Pazuzu appears as a tall, four-winged humanoid, handsome yet betraying his evil in red-glowing eyes, a noble but avian-cast brow, and taloned, bird-like feet.
+
+::: center
+![](assets/pazuzu-plate.png)
+:::
+
 ### Yeenoghu (Demon Lord of Gnolls)
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
 
@@ -6170,6 +6472,25 @@ Once per round Yeenoghu may call on **darkness** (10' radius), a triple **magic 
 
 ::: center
 ![](assets/yeenoghu-plate.png)
+:::
+
+### Amon (Duke of Hell)
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -2              | No. Appearing | 1          |
+| Hit Dice    | 28***           | Save As       | Fighter 28 |
+| Move        | 180' (60')      | Morale        | 12         |
+| Attacks     | 1 mace / 1 bite | Treasure Type | G, P       |
+| Damage      | 1d6+7 / 3d4     | Alignment     | Lawful     |
+
+Amon is vassal to Geryon, mustering and commanding up to 40 companies of bone devils drawn from his fief. He fights with a huge `+3` mace and follows up with a vicious bite, and keeps a winter wolf of the largest size — `+3` to hit and damage, 25% magic resistant — as guardian and companion. On the Prime Material Plane, Amon can summon and command every wolf within a mile of him.
+
+At will Amon may call upon **animate dead**, **charm monster**, **detect magic**, **detect invisible**, **dispel magic**, **fly**, **geas**, **know alignment**, **polymorph self**, **produce flame**, **read languages**, **read magic**, **suggestion**, **teleport**, or **wall of ice**, and once may grant another's **limited wish**. His gaze causes fear unless the target saves versus magic. Once per day he may lay a **symbol of hopelessness**, and he can summon `1d4` bone devils with a 60% chance of success. Amon regenerates 2 hit points every turn.
+
+**Description**: Amon is wolf-headed but otherwise appears as a large, powerfully muscled man, his torso and limbs well-formed beneath a lupine snarl.
+
+::: center
+![](assets/amon-plate.png)
 :::
 
 ### Asmodeus (Arch-devil)
@@ -6214,7 +6535,43 @@ At will Baalzebul may call upon **pyrotechnics**, **produce flame**, **wall of f
 ![](assets/baalzebul-plate.png)
 :::
 
-::: columnbreak-pdf
+### Bael (Duke of Hell)
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -3              | No. Appearing | 1          |
+| Hit Dice    | 24***           | Save As       | Fighter 24 |
+| Move        | 120' (40')      | Morale        | 12         |
+| Attacks     | 2 morning star  | Treasure Type | G, P       |
+| Damage      | 1d6+6 x2        | Alignment     | Lawful     |
+
+Bael is vassal to Mammon, commanding 66 companies of barbed devils. He wears bronze armor in the ancient style and wields a bronze-handled `+2` morning star whose haft telescopes from four to eight feet at his desire. He radiates fear within 20' at will and regenerates 1 hit point every round.
+
+At will Bael may call upon **alter self**, **animate dead**, **cause serious wounds**, **detect invisible**, **detect magic**, **dispel magic**, **invisibility**, **know alignment**, **produce fire**, **pyrotechnics**, **read languages**, **read magic**, **suggestion**, **teleport**, or **wind walk**, and twice per day **shape change**; once he may also grant another's **limited wish**. Once per day he may lay a **symbol of stunning**, and he can summon `1d4` barbed devils with a 65% chance of success.
+
+**Description**: Bael is a well-formed, golden-skinned humanoid with a rather small, long head bearing forward-curling bull's horns, large round eyes, a long broad nose, and protruding ears.
+
+::: center
+![](assets/bael-plate.png)
+:::
+
+### Belial (Arch-devil)
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -4                | No. Appearing | 1          |
+| Hit Dice    | 34***             | Save As       | Fighter 34 |
+| Move        | 90' (30')         | Morale        | 12         |
+| Fly         | 150' (50')        | Treasure Type | A, S, T, Y |
+| Attacks     | 2 military fork   | Alignment     | Lawful     |
+| Damage      | 1d8+7 x2          |               |            |
+
+Belial rules Hell's Fourth Plane, allied with Baalzebul and warring in enmity against Geryon nearly as fiercely as does Moloch; he must also watch constantly for the machinations of Mammon. From his basalt palace he directs the abishai and the barbed, bearded, bone, and spined devils that populate his reeking fens and smoking plains. His huge `+4` military fork forces anyone it strikes to save versus magic or suffer as though struck by a **symbol of pain**.
+
+At will Belial may call upon **animate dead**, **beguile**, **charm person**, **detect magic**, **detect invisible**, **dispel magic**, **geas**, **illusion**, **invisibility**, **know alignment**, **light**, **produce flame**, **pyrotechnics**, **raise dead fully**, **read languages**, **read magic**, **shape change**, **suggestion**, **teleport**, or **wall of fire**, and once may grant another's **wish**. Three times per day he may lay a **symbol of pain**, and once per day speak an **unholy word**. His stare causes fear unless the target saves versus magic. He can summon `1d4` black abishai (25% chance), `1d3` barbed devils (25% chance), or `1d4` bearded devils (50% chance) with an 85% chance of success.
+
+**Description**: Belial is accounted the most handsome and diabolic in appearance of all devils, his eyes large, slanted, and glowing red — fitting for the lord of pain and suffering.
+
+::: center
+![](assets/belial-plate.png)
 :::
 
 ### Dispater (Arch-devil)
@@ -6261,6 +6618,105 @@ Geryon carries a great bull's horn that he may wind but once per week, summoning
 
 ::: center
 ![](assets/geryon-plate.png)
+:::
+
+### Glasya (Princess of Hell)
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -2                | No. Appearing | 1          |
+| Hit Dice    | 15***             | Save As       | Fighter 15 |
+| Move        | 150' (50')        | Morale        | 12         |
+| Fly         | 300' (100')       | Treasure Type | I, Q x5, S |
+| Attacks     | 1 short sword     | Alignment     | Lawful     |
+| Damage      | 1d6+4 + poison    |               |            |
+
+Glasya, daughter of Asmodeus and consort of Mammon, is among the most powerful and influential of female devils, though she rarely engages in combat herself. When she does, her poisoned short sword forces a struck victim to save versus Poison or suffer double damage. She regenerates 2 hit points every turn.
+
+At will Glasya may call upon **animate dead**, **charm monster**, **charm person**, **dispel magic**, **illusion**, **know alignment**, **poison**, **polymorph self**, **produce flame**, **read languages**, **read magic**, **suggestion**, or **teleport**, and once may grant another's **limited wish**. Her voice alone causes fear (save versus magic applies), and she can summon `1d2` malebranche with a 70% chance of success.
+
+**Description**: Glasya is incredibly beautiful, her copper-colored skin, forked tail, curling horns, and folded wings the only betrayal of her infernal blood.
+
+::: center
+![](assets/glasya-plate.png)
+:::
+
+### Hutijin (Duke of Hell)
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -4                | No. Appearing | 1          |
+| Hit Dice    | 25***             | Save As       | Fighter 25 |
+| Move        | 90' (30')         | Morale        | 12         |
+| Fly         | 180' (60')        | Treasure Type | G          |
+| Attacks     | 1 net / 1 trident | Alignment     | Lawful     |
+| Damage      | special / 1d6+8   |               |            |
+
+Hutijin commands two companies of pit fiends — Hell's proudest soldiers — in service to Mephistopheles, and stands among the greatest of Hell's dukes in his own right. He fights with a **net of snaring** in one hand and a `+3` trident in the other; a creature entangled in the net cannot act until it breaks free.
+
+At will Hutijin may call upon **animate dead**, **detect invisible**, **detect magic**, **hold monster**, **invisibility**, **know alignment**, **polymorph self**, **produce flame**, **pyrotechnics**, **read languages**, **read magic**, **teleport**, or **wall of fire**, and twice per day **heal**; once he may also grant another's **limited wish**. His presence spreads fear in a 30' radius (save versus magic applies), and once per day he may lay a **symbol of persuasion**. He can summon a pit fiend with a 75% chance of success.
+
+**Description**: Hutijin resembles a pit fiend, though his wings are smaller in proportion and his head larger, his hide a dark rust-red.
+
+::: center
+![](assets/hutijin-plate.png)
+:::
+
+### Mephistopheles (Arch-devil)
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -6           | No. Appearing | 1          |
+| Hit Dice    | 42***        | Save As       | Fighter 42 |
+| Move        | 150' (50')   | Morale        | 12         |
+| Fly         | 180' (60')   | Treasure Type | R, X, Z    |
+| Attacks     | 2 fork       | Alignment     | Lawful     |
+| Damage      | 1d8+9 x2     |               |            |
+
+Mephistopheles rules the Eighth Hell from a great iron citadel amid ice mountains, plotting to wrest the Seventh Plane from Baalzebul and, so strengthened, challenge Asmodeus himself. He fights with a three-tined `+3` fork that can, three times a day per effect, deal an extra `3d4` points of electrical or fire damage on top of the weapon's own harm, saving throw versus magic for half.
+
+At will Mephistopheles may call upon **animate dead**, **beguile**, **charm person**, **cone of cold**, **detect invisible**, **detect magic**, **dispel illusion**, **dispel magic**, **geas**, **illusion**, **invisibility**, **know alignment**, **polymorph self**, **produce fire**, **produce flame**, **pyrotechnics**, **raise dead fully**, **read languages**, **read magic**, **suggestion**, **teleport**, or **wall of fire**, and once may grant another's **wish**. Once per day he may use **rulership** or speak an **unholy word**. His gaze, or mere presence within 10', spreads fear (save versus magic applies). He can summon `1d3` ice devils with a 90% chance of success.
+
+**Description**: Mephistopheles is a tall, blue-black, powerfully muscled devil with handsome if diabolical features, sooty scales, deep blue wings, horns, and talons, pale blue eyes ringed red, and a voice like a whispering wind.
+
+::: center
+![](assets/mephistopheles-plate.png)
+:::
+
+### Moloch (Arch-devil)
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -3                   | No. Appearing | 1             |
+| Hit Dice    | 28***                | Save As       | Fighter 28    |
+| Move        | 120' (40')           | Morale        | 12            |
+| Attacks     | 2 claws / 1 bite     | Treasure Type | I, R, S, T, X |
+| Damage      | 1d4+7 / 1d4+7 / 4d4  | Alignment     | Lawful        |
+
+Moloch is grand duke and viceroy to Baalzebul, ruling Hell's Sixth Plane and as strong as a hill giant; he grabs and crushes with taloned hands before finishing with a shark-toothed bite. He also carries a six-tailed whip of unknown metal that lashes for `1d4` points of electrical damage per tail struck, up to 20 charges expendable each turn — a weapon greatly feared even by other devils. Once per turn he may instead breathe upon `1d8` persons within 30', who must save versus magic or drop their weapons and flee in fear. Great enmity exists between Moloch and Geryon, kept from open war only by Baalzebul's restraint.
+
+At will Moloch may call upon **affect normal fires**, **beguile**, **burning hands**, **detect invisible**, **detect magic**, **fire charm**, **fly**, **geas**, **illusion**, **know alignment**, **polymorph self**, **produce fire**, **produce flame**, **pyrotechnics**, **raise dead fully**, **read languages**, **read magic**, **suggestion**, or **wall of fire**, and once may grant another's **limited wish**. Once per day he may use **rulership**, cast **flame strike**, lay a **symbol of stunning**, or speak an **unholy word**. He can summon `1d3` horned devils with an 80% chance of success.
+
+**Description**: Moloch is a great square-bodied devil with red-orange skin, short thick limbs, huge square hands and feet, a horned head with slanting eyes and a gaping mouth, and horned feet besides.
+
+::: center
+![](assets/moloch-plate.png)
+:::
+
+### Titivilus (Duke of Hell)
+*Source:* `AD&D 1E Conversion`  *Category:* `Devil`
+
+| Armor Class | -2           | No. Appearing | 1          |
+| Hit Dice    | 19***        | Save As       | Fighter 19 |
+| Move        | 150' (50')   | Morale        | 12         |
+| Fly         | 300' (100')  | Treasure Type | G, S, T    |
+| Attacks     | 2 sword      | Alignment     | Lawful     |
+| Damage      | 1d8+3 x2     |               |            |
+
+Titivilus is Dispater's messenger and notorious for his cleverness with words, twisting speech to confuse and betray. Neither large nor especially strong, he carries a silver **sword of wounding** but relies far more on guile and magic than steel; he causes fear by touch alone and regenerates 1 hit point every round.
+
+At will Titivilus may call upon **animate dead**, **bestow curse**, **charm person or mammal**, **chaos**, **emotion**, **forget**, **fumble**, **hypnotism**, **illusion**, **illusionary script**, **improved invisibility**, **know alignment**, **message**, **misdirection**, **nondetection**, **polymorph self**, **protection from good**, **suggestion**, **teleport**, **tongues**, **ventriloquism**, or **whispering wind**, and once per day **feeblemind**. Once per day he may lay a **symbol of discord** or **sleep** (affecting up to 19 Hit Dice or 99 hit points; those who save merely nod and doze, with a 1-in-20 chance each round of waking). He can summon `1d4` erinyes with a 50% chance of success.
+
+**Description**: Titivilus resembles a satyr more than a true devil, pale-skinned with ruddy cheeks and a human cast to his face, marred only by a pair of bat-like wings.
+
+::: center
+![](assets/titivilus-plate.png)
 :::
 
 ### Tiamat (Chromatic Dragon)
