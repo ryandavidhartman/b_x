@@ -304,7 +304,7 @@ Because bats do not rely on vision, spells or abilities that affect sight will n
 | Attacks        | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite  | 2 claws / 1 bite |
 | Damage         | 1d3x2 / 1d6      | 1d4x2 / 1d8      | 1d6x2 / 1d10      | 1d8x2 / 1d10     |
 | No. Appearing  | 1d4 (1d4)        | 1d4 (1d4)        | 1 (1d2)           | 1d2 (1d2)        |
-| Save As        | Fighter 2        | Fighter 2        | Fighter 3         | Fighters 3       |
+| Save As        | Fighter 2        | Fighter 2        | Fighter 3         | Fighter 3        |
 | Morale         | 7                | 8                | 8                 | 9                |
 | Treasure Type  | U                | U                | U                 | U                |
 | Alignment      | Neutral          | Neutral          | Neutral           | Neutral          |
@@ -403,7 +403,7 @@ When encountered as part of a herd, bulls typically place themselves between the
 ### Camel
 *Source:* `Expert`  *Category:* `Animal`
 
-| Armor Class | 7          | No. Appearing | 0 (2d8)   |
+| Armor Class | 7          | No. Appearing | 0 (2d4)   |
 | Hit Dice    | 2          | Save As       | Fighter 1 |
 | Move        | 150' (50') | Morale        | 7         |
 | Attacks     | bite/hoof  | Treasure Type | Nil       |
@@ -435,7 +435,7 @@ Charge attacks with a lance from camelback are **not** possible.
 | Attacks        | 2 claws/bite  | 2 claws/bite  | 2 claws/bite | 2 claws/bite | 2 claws/bite |
 | Damage         | 1d3/1d3/1d6   | 1d4/1d4/1d8   | 1d4/1d4/1d10 | 1d6/1d6/1d10 | 1d6/1d6/2d6  |
 | No. Appearing  | 1d4 (1d4)     | 1d2 (1d6)     | 1d4 (1d8)    | 1d2 (1d4)    | 1 (1d3)      |
-| Save As        | Fighter: 2    | Fighter: 2    | Fighter: 3   | Fighter: 3   | Fighter: 3   |
+| Save As        | Fighter 2     | Fighter 2     | Fighter 3    | Fighter 3    | Fighter 3    |
 | Morale         | 8             | 8             | 9            | 9            | 9            |
 | Treasure Type  | U             | U             | U            | U            | U            |
 | Alignment      | Neutral       | Neutral       | Neutral      | Neutral      | Neutral      |
@@ -482,7 +482,7 @@ Most herds consist primarily of cows, heifers, steers, and calves, supervised by
 ### Crab, Giant
 *Source:* `Expert`  *Category:* `Animal`
 
-| Armor Clas | 2         | No. Appearing | 1d2 (1d6) |
+| Armor Class | 2         | No. Appearing | 1d2 (1d6) |
 | Hit Dice   | 3         | Save As       | Fighter 2 |
 | Move       | 60' (20') | Morale        | 7         |
 | Attacks    | 2 pincers | Treasure Type | Nil       |
@@ -514,9 +514,9 @@ Like giant crabs, giant crayfish hide and rush out to seize prey. They surprise 
 | Move           | 90' (30')       | 90' (30')       | 90' (30')       |
 | Swimming       | 90' (30')       | 90' (30')       | 90' (30')       |
 | Attacks        | bite            | bite            | bite            |
-| Damage         | 1d8             | 2d8             | 3d6             |
+| Damage         | 1d8             | 2d8             | 3d8             |
 | No. Appearing  | 0 (1d8)         | 0 (1d4)         | 0 (1d3)         |
-| Save As        | Fighter: 1      | Fighter: 3      | Fighter: 8      |
+| Save As        | Fighter 1       | Fighter 3       | Fighter 8       |
 | Morale         | 7               | 7               | 9               |
 | Treasure Type  | Nil             | Nil             | Nil             |
 | Alignment      | Neutral         | Neutral         | Neutral         |
@@ -608,7 +608,7 @@ Weed eels resemble seaweed and live in colonies of small tunnels leading to a tr
 *Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class    | 5                  | No. Appearing | 0 (1d20)    |
-| Hit Dice       | 9                  | Save As       | Fighter: 5  |
+| Hit Dice       | 9                  | Save As       | Fighter 5   |
 | Move           | 120' (40')         | Morale        | 8           |
 | Attacks        | 2 tusks or trample | Treasure Type | See below   |
 | Damage         | 2d4/2d4 or 4d8     | Alignment     | Neutral     |
@@ -625,7 +625,7 @@ Elephants dwell at the edge of sub-tropical forest areas. Their tusks are valued
 | Armor Class | 5          | No. Appearing | 1d8 (1d12) |
 | Hit Dice    | 1 + 1      | Save As       | Fighter 1  |
 | Move        | 150' (50') | Morale        | 8          |
-| Attacks     | 1 bit      | Treasure Type | Nil        |
+| Attacks     | 1 bite     | Treasure Type | Nil        |
 | Damage      | 1d8        | Alignment     | Neutral    |
 
 Giant ferrets look like 3' long weasels. They hunt giant rats underground, and are sometimes trained for this purpose. Unfortunately, their tempers are highly unpredictable, and they have been known to attack their trainers and other humans.
@@ -642,8 +642,8 @@ Giant ferrets look like 3' long weasels. They hunt giant rats underground, and a
 | Hit Dice        | 3 + 3         | 5 + 5*             | 8 + 3              | 10 + 2*        |
 | Move (swimming) | 150' (50')    | 180' (60')         | 90' (30')          | 180' (60')     |
 | Attacks         | 1 bite        | 4 spines + poison  | 1 bite / 4 feelers | 1 bite         |
-| Damage          | 1d8           | (1-4) x 4 + poison | 2-16 / (1-4) x 4   | 2-20           |
-| No. Appearing   | 0 (2d4)       | 0 (2-8)            | 0 (1-2)            | 0 (1)          |
+| Damage          | 1d8           | (1d4) x 4 + poison | 2d8 / (1d4) x 4    | 2d10           |
+| No. Appearing   | 0 (2d4)       | 0 (2d4)            | 0 (1d2)            | 0 (1)          |
 | Save As         | Fighter 2     | Fighter 3          | Fighter 4          | Fighter 5      |
 | Morale          | 7             | 8                  | 8                  | 9              |
 | Treasure Type   | Nil           | Nil                | Nil                | Nil            |
@@ -681,7 +681,7 @@ These large avian creatures are typified by the ostrich, emu, and rhea.  They li
 - Emu-like birds have 2 HD
 - Rhea-sized birds have 1 HD
 
-All fighless birds are non-agressive and run from danger.  If cornered they can peck for `1d4` damage or kick for `2d4` points.  Despite their inability to fly, these birds are remarkably swift, relying on speed and keen eyesight to spot predators across the open plains long before they draw near.  They travel in loose flocks and forage on seeds, roots, and small insects, rarely wandering far from a reliable water source.
+All flightless birds are non-aggressive and run from danger.  If cornered they can peck for `1d4` damage or kick for `2d4` points.  Despite their inability to fly, these birds are remarkably swift, relying on speed and keen eyesight to spot predators across the open plains long before they draw near.  They travel in loose flocks and forage on seeds, roots, and small insects, rarely wandering far from a reliable water source.
 
 ### Frog, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -817,7 +817,7 @@ In water they can capsize small craft or drag prey below. Large bulls deal `3d6`
 | Attacks       | 2 hooves     | 2 hooves          | Nil               |
 | Damage        | 1d4 / 1d4    | 1d6 / 1d6         | Nil               |
 | No. Appearing | 0 (10d10)    | 0 (domestic only) | 0 (domestic only) |
-| Save As       | Fighter 1    | Fighterd 2        | Fighterd 2        |
+| Save As       | Fighter 1    | Fighter 2        | Fighter 2        |
 | Morale        | 7            | 9                 | 6                 |
 | Treasure Type | Nil          | Nil               | Nil               |
 | Alignment     | Neutral      | Neutral           | Neutral           |
@@ -905,9 +905,9 @@ Giant leeches are loathsome and slug-like. They live in swamps and are about 3 t
 | Hit Dice      | 3 + 1      | 4 + 2                      | 5*               | 6                |
 | Move          | 120' (40') | 120' (40'); fly 210' (70') | 120' (40')       | 90' (30')        |
 | Attacks       | 1 bite     | 1 bite                     | 1 bite / 1 horn  | 2 claws / 1 bite |
-| Damage        | 1-8        | 1-10                       | 2d4 / 1d6        | 1d4 / 1d4 / 2d6  |
-| No. Appearing | 1d6 (1d10) | 1-4 (1-8)                  | 1d3 (1d6)        | 1d2 (1d4)        |
-| Save As       | Fighter 2  | Fighter 3                  | Fighter 3        | Fighter4         |
+| Damage        | 1d8        | 1d10                       | 2d4 / 1d6        | 1d4 / 1d4 / 2d6  |
+| No. Appearing | 1d6 (1d10) | 1d4 (1d8)                  | 1d3 (1d6)        | 1d2 (1d4)        |
+| Save As       | Fighter 2  | Fighter 3                  | Fighter 3        | Fighter 4        |
 | Morale        | 7          | 7                          | 7                | 6                |
 | Treasure Type | U          | U                          | U                | V                |
 | Alignment     | Neutral    | Neutral                    | Neutral          | Neutral          |
@@ -921,7 +921,7 @@ Giant leeches are loathsome and slug-like. They live in swamps and are about 3 t
 
 **Horned Chameleon**: is a 7' long lizard which can change color to blend into its surroundings. It surprises on a roll of 1-5 on 1d6. A horned chameleon can shoot out its sticky tongue up to 5' long. A successful hit means that the victim is pulled to the horned chameleon's mouth and automatically bitten for 2d4 points of damage. The horned chameleon can also attack with its horn for 1d6, and may use its tail to knock other attackers down on a successful hit, doing no damage but preventing the victim from attacking that round.
 
-**Tuatara**: is a 8' long lizard that looks like a cross between an iguana and a toad. It has pebble-colored olive skin with white spikes along its back. It is carnivorous and sometimes attacks humans. A tuatara has a membrane over its eyes which, when lowered, is sensitive to changes in temperature, allowing it to see in darkness with 90' infravision.
+**Tuatara**: is an 8' long lizard that looks like a cross between an iguana and a toad. It has pebble-colored olive skin with white spikes along its back. It is carnivorous and sometimes attacks humans. A tuatara has a membrane over its eyes which, when lowered, is sensitive to changes in temperature, allowing it to see in darkness with 90' infravision.
 
 ::: center
 ![](assets/lizards-giant-plate.png)
@@ -966,7 +966,7 @@ A masher has 4, 6, or 8 long poisonous dorsal spines. Unless attacked from direc
 | Attacks     | 1 kick or 1 bite | Treasure Type | Nil        |
 | Damage      | 1d4 or 1d3       | Alignment     | Neutral    |
 
-A mule is a crossbreed between a horse and a donkey. Mules are stubborn, and if bothered or excited they may either bite or kick. If the DM permits it, mules can be taken into dungeons. A mule can carry a normal load of 2000 coins (or 4000 coins at most, with its move reduced to 6O'/turn). Mules cannot be trained to attack, but will fight in their own defense.
+A mule is a crossbreed between a horse and a donkey. Mules are stubborn, and if bothered or excited they may either bite or kick. If the DM permits it, mules can be taken into dungeons. A mule can carry a normal load of 2000 coins (or 4000 coins at most, with its move reduced to 60'/turn). Mules cannot be trained to attack, but will fight in their own defense.
 
 ### Octopus, Giant
 *Source:* `Expert`  *Category:* `Animal`
@@ -1070,7 +1070,7 @@ A charging ram deals double damage. A flock usually contains one ram, four ewes,
 | Move          | 60' (20')       | 120' (40')     |
 | Swimming      | 30' (10')       | 60' (20')      |
 | Attacks       | 1 bite per pack | 1 bite each    |
-| Damage        | 1d6 + disease   | 1-3 + disease  |
+| Damage        | 1d6 + disease   | 1d3 + disease  |
 | No. Appearing | 5d10 (2d10)     | 3d6 (3d10)     |
 | Save As       | Normal Man      | Fighter 1      |
 | Morale        | 5               | 8              |
@@ -1211,7 +1211,7 @@ Creatures struck by musk must Save vs. Poison or be blinded and nauseated for 1d
 | Move          | 90' (30')        | 90' (30')    | 90' (30')  | 120' (40')    | 90' (30')          |
 | Attacks       | 1 bite or 1 spit | 1 bite       | 1 bite     | 2 bites       | 1 bite / 1 squeeze |
 | Damage        | 1d3 + poison     | 1d4 + poison | 1 + poison | 1d4 + poison  | 1d4 / 2d4          |
-| No. Appearing | 1d6 (1d6)        | 1d8 (1d8)    | 1d8 (1d8)  | 1d4 (1d4)     | 1d3 (d-3)          | 
+| No. Appearing | 1d6 (1d6)        | 1d8 (1d8)    | 1d8 (1d8)  | 1d4 (1d4)     | 1d3 (1d3)          | 
 | Save As       | Fighter 1        | Fighter 1    | Fighter 2  | Fighter 2     | Fighter 3          |
 | Morale        | 7                | 7            | 7          | 8             | 8                  |
 | Treasure Type | Nil              | Nil          | Nil        | U             | U                  |
