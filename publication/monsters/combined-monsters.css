@@ -31,14 +31,14 @@
 }
 
 :root {
-  --paper: #f8f3e8;
+  --paper: #ffffff;
   --ink: #1f1c18;
   --muted: #6a604f;
   --rule: #b9aa8a;
 }
 
 html {
-  background: linear-gradient(180deg, #ece1cb 0%, #d7c6a3 100%);
+  background: #ffffff;
 }
 
 body {
@@ -203,6 +203,19 @@ img {
   border: 1px solid #9a8c71;
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
   max-width: 100%;
+  height: auto;
+}
+
+img.img-sm {
+  width: 240px;
+}
+
+img.img-md {
+  width: 380px;
+}
+
+img.img-lg {
+  width: 520px;
 }
 
 figcaption, .caption {
@@ -225,7 +238,7 @@ code {
 pre {
   margin: 0.9rem 0 1.2rem;
   padding: 0.8rem 0.9rem;
-  background: rgba(248, 243, 232, 0.98);
+  background: #ffffff;
   border: 1px solid #d3c3a0;
   overflow-x: auto;
   white-space: pre-wrap;
