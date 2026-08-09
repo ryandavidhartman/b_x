@@ -1494,7 +1494,7 @@ Normally golems can only be hit by magic weapons. Golems are also immune to **sl
 - **Bronze golems** look somewhat like fire giants. Their skin is bronze and their blood is liquid fire. Any creature hit by a bronze golem takes `1d10` more points of damage from the great heat inside it. Anyone scoring damage on a bronze golem with an edged weapon must save vs. Death Ray or take `2d6` points of damage from the fiery blood spurting out of the wound. Bronze golems are not affected by fire-based attacks.
 
 ::: center
-![](assets/bone-golem-plate.png)
+![](assets/flesh-golem-plate.png)
 :::
 
 ### Homunculus
@@ -1596,15 +1596,12 @@ Because of their strange telepathy, demons understand all intelligent communicat
 
 Named demon lords such as Demogorgon, Juiblex, Orcus, and Yeenoghu are unique beings with powers beyond ordinary monster use. Treat them as campaign-level opponents and review their abilities individually before play. Demogorgon is detailed in [Appendix A: Legendary Creatures](#appendix-a-legendary-creatures).
 
-::: twocolumn-pdf-end
-:::
-
-::: twocolumn-pdf-begin
-:::
-
 Demons are chaotic evil beings from the Abyss. They roam the lower planes and the astral plane, but cannot enter the material world without summoning, gating, or similar magic. They never willingly serve and always seek to destroy or corrupt those who bind them.
 
 All demons have telepathy, infravision, darkness, teleportation without error, and some form of gate power. Demons take full damage from acid, iron weapons, magic missiles, and poison; half damage from cold, lightning, fire, and poison gas; and no damage from silver unless the demon can also be harmed by ordinary weapons. Types I-III can be hit by normal weapons. Type IV and stronger demons require magic weapons.
+
+::: pagebreak-pdf
+:::
 
 ### Larva
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
