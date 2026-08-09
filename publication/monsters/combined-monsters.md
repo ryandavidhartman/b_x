@@ -1220,23 +1220,17 @@ Creatures struck by musk must Save vs. Poison or be blinded and nauseated for 1d
 ::: twocolumn-pdf-begin
 :::
 
-Snakes are found almost everywhere except for very hot or very cold places. Most snakes do not usually attack unless surprised or threatened. Many (but not all) snakes have poisonous bites.
+Snakes are found almost everywhere except for very hot or very cold places. Most snakes do not usually attack unless surprised or threatened. Many (but not all) snakes have poisonous bites.  They average 6' long (for every 3 hit dice) in size, but can be much larger if the DM desires. 
 
-Spitting Cobra: A spitting cobra is a 3' long grayish-white snake which can squirt a stream of venom up to a distance of 6 feet. It aims for its victim's eyes. If the spit hits, the victim must save vs.
+**Spitting Cobra**: A spitting cobra is a 3' long grayish-white snake which can squirt a stream of venom up to a distance of 6 feet. It aims for its victim's eyes. If the spit hits, the victim must save vs. Poison or be blinded. (This blindness can normally only be removed by a cure blindness spell from the D&D EXPERT rules, but the DM may wish to invent other ways — such as eating a shrieker.) As with most small poisonous snakes, a spitting cobra will not attack human-sized or larger opponents unless startled or threatened. It can either spit or bite in one round, but not both. It will usually spit. The damage given (1-3 points) only applies to the bite; in this case, the victim must save vs. Poison or die in 1- 10 (1d10) turns.
 
-Poison or be blinded. (This blindness can normally only be removed by a cure blindness spell from the D&D EXPERT rules, but the DM may wish to invent other ways — such as eating a shrieker.) As with most small poisonous snakes, a spitting cobra will not attack human-sized or larger opponents unless startled or threatened. It can either spit or bite in one round, but not both. It will usually spit. The damage given (1-3 points) only applies to the bite; in this case, the victim must save vs. Poison or die in 1- 10 (1d10) turns.
+**Pit Viper**: A pit viper is a 5' long greenish-gray poisonous snake with small pits in its head. These pits act as heat sensors, with a range of 60'. The combination of pits and infravision makes it very hard to fight a pit viper; it is so quick that it always gains the initiative (no roll needed). Any victim bitten by a pit viper must save vs. Poison or die.
 
-Pit Viper: A pit viper is a 5' long greenish-gray poisonous snake with small pits in its head. These pits act as heat sensors, with a range of 60'. The combination of pits and infravision makes it very hard to fight a pit viper; it is so quick that it always gains the initiative (no roll needed). Any victim bitten by a pit viper must save vs.
+**Sea Snake**: Sea snakes are snakes adapted for living in the sea.  They must come to the surface of the water to breathe once an hour. Their bite is little more than a pinprick, and will go unnoticed 50% of the time. The victim must save vs. Poison, and the poison is slow-acting; its full effects take `ld4 + 2` turns to be felt if the saving throw is failed. (By the time this is felt, there is a 25% chance that not even a neutralize poison spell can save the victim.) Unlike other snakes, sea snakes will attack humans for food.
 
-Poison or die.
+**Giant Rattlesnake**: A giant rattlesnake is a 10' long snake with brown and white scales set in a diamond pattern. On its tail is a dried, scaly rattle, which it often rattles to warn off intruders or attackers who are too large to eat. Giant rattlesnakes are meat-eaters and their bite is poisonous (save vs. Poison or die in 1-6 turns.) They are very fast and may attack a second time at the end of every round.
 
-Sea Snake: Sea snakes are snakes adapted for living in the sea.
-
-All are poisonous. They average 6' long (for every 3 hit dice) in size, but can be much larger if the DM desires. They must come to the surface of the water to breathe once an hour. Their bite is little more than a pinprick, and will go unnoticed 50% of the time. The victim must save vs. Poison, and the poison is slow-acting; its full effects take 3-6 (ld4 + 2) turns to be felt if the saving throw is failed. (By the time this is felt, there is a 25% chance that not even a neutralize poison spell — see D&D EXPERT rules — can save the victim.) Unlike other snakes, sea snakes will attack humans for food.
-
-Giant Rattlesnake: A giant rattlesnake is a 10' long snake with brown and white scales set in a diamond pattern. On its tail is a dried, scaly rattle, which it often rattles to warn off intruders or attackers who are too large to eat. Giant rattlesnakes are meat-eaters and their bite is poisonous (save vs. Poison or die in 1-6 turns.) They are very fast and may attack a second time at the end of every round.
-
-Rock Python: A rock python is a 20' long giant snake with brown and yellow scales set in a spiral pattern. Its first attack is a bite. If the bite is successful, a rock python will coil around the victim and constrict in the same round. This squeezing does 2d4 points of damage per round, and begins automatically once the bite hits.
+**Rock Python**: A rock python is a 20' long giant snake with brown and yellow scales set in a spiral pattern. Its first attack is a bite. If the bite is successful, a rock python will coil around the victim and constrict in the same round. This squeezing does 2d4 points of damage per round, and begins automatically once the bite hits.
 
 ::: center
 ![](assets/snake-plate.png)
@@ -1257,6 +1251,10 @@ A giant squid dwells only in the deep sea, rising to the surface only to hunt. A
 The lesser tentacles do constriction damage after they hit. They can be severed with a single blow that does 6 or more points, while the greater tentacles can be severed with a blow that causes 10 or more points of damage.
 
 If its morale fails, the squid can flee at triple speed and will leave great clouds of ink, 30' radius, twice per day maximum, to confuse pursuers. A large giant squid can even be double or triple normal size.
+
+::: center
+![](assets/squid-plate.png)
+:::
 
 ::: columnbreak-pdf
 :::
@@ -1385,9 +1383,16 @@ Man-sized or smaller creatures will be swallowed on a die roll that is 4 or more
 | Treasure Type | Nil         | Nil        |
 | Alignment     | Neutral     | Neutral    |
 
-Wolves are meat-eaters and hunt in packs. Though wolves prefer the wilderness, they will occasionally be found in caves. Captured wolf cubs can be trained like dogs, if the DM permits, but it is difficult. If 3 wolves or fewer are encountered, or if a pack is reduced to less than 50% of its original numbers, their morale is 6 rather than 8.
+**Wolves**: are meat-eaters and hunt in packs. Though wolves prefer the wilderness, they will occasionally be found in caves. Captured wolf cubs can be trained like dogs, if the DM permits, but it is difficult. If 3 wolves or fewer are encountered, or if a pack is reduced to less than 50% of its original numbers, their morale is 6 rather than 8.
 
-Dire Wolves: Dire wolves may be found in caves, woods, or mountains. They are larger and more ferocious than normal wolves, and are semi-intelligent. They are fierce enemies and usually hunt in packs. They are sometimes trained by goblins to be used as mounts. Captured dire wolf cubs can be trained like dogs, if the DM permits, but they are even more savage than normal wolves.
+**Dire wolves**: may be found in caves, woods, or mountains. They are larger and more ferocious than normal wolves, and are semi-intelligent. They are fierce enemies and usually hunt in packs. They are sometimes trained by goblins to be used as mounts. Captured dire wolf cubs can be trained like dogs, if the DM permits, but they are even more savage than normal wolves.
+
+::: center
+![](assets/wolf-plate.png)
+:::
+
+::: columnbreak-pdf
+:::
 
 ### Wolverine
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
