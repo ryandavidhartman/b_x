@@ -1420,7 +1420,7 @@ Constructs are commonly used as guardians for tombs, temples, treasure vaults, l
 *Source:* `Homebrew`  *Category:* `Construct`
 
 | Armor Class | 2         | No. Appearing | 1d6        |
-| Hit Dice    | 3         | Save As       | Fighter: 2 |
+| Hit Dice    | 3         | Save As       | Fighter 2  |
 | Move        | 60' (20') | Morale        | 12         |
 | Attacks     | 1 weapon  | Treasure Type | Nil        |
 | Damage      | By weapon | Alignment     | Neutral    |
@@ -1547,61 +1547,46 @@ A living statue is an enchanted animated creature made by a powerful wizard. It 
 
 ## Demons
 
-Each type of demon, especially the mighty demon lords and princes, possesses unusual characteristics and extraordinary abilities. Traits common to all demons are described here; individual demons have additional powers noted in their own entries.
+Demons are chaotic evil beings from the Abyss who never willingly serve and always seek to destroy or corrupt those who bind them. The smarter and stronger dominate the weak. Lesser demons attack without question and fight to the death. No demon can be subdued, and they never willingly serve. If forced into service, they constantly seek to slay their captor. Demons that take a liking to someone typically carry them off as a (favored) slave. Demons may divide attacks among multiple opponents if their attack forms allow.
 
-Demons are able to move from their own plane into those of Tarterus, Hades, or Pandemonium, or roam the astral plane. However, they cannot enter the material plane without aid such as conjuration, gate, or similar magic.
+Demons move freely between their home plane, Tarterus, Hades, Pandemonium, and the astral plane, but cannot enter the material plane without aid such as conjuration or gate magic.
 
-Demons are chaotic and evil; the smarter and stronger dominate those weaker and less intelligent than themselves. Lesser demons attack without question and fight until slain. 
+Demons can be summoned by any alignment, but control is another matter—a **thaumaturgic circle** holds out types I–V; a **pentacle** is needed for type VI or greater. The DM should carefully weigh whatever threat or reward is used to secure a demon's service. Holy relics and artifacts repel demons.
 
-Demons of type V and greater are not permanently destroyed when their physical forms are slain outside their home plane. Instead, they are forced back to their native plane for a century and a day unless another demon aids their return. Demons encountered on their own plane may be slain normally.
+Demons roam the astral and ethereal planes and are drawn to beings caught in an ethereal state. Speaking a powerful demon's true name there carries a 5% base chance of drawing its attention—and, absent control or preparation, an attempt to kill the speaker.  Types V and greater aren't permanently destroyed when slain outside their home plane—they're banished there for a century and a day unless another demon aids their return. On their home plane, they can be slain normally.
 
-No demon can ever be subdued. Demons may divide their attacks among multiple opponents if their attacks allow.  Demons never willingly serve anyone or anything. If forced into service through magic or threat, they continually seek a way to slay their master or captor. Those to whom the demons show a liking to are typically carried off to the demons' plane to become a slave (although a favored one).
+Demons (types I–VI) encountered in their lair appear in groups: 75% chance of 1d6 of the same type, 25% chance of `1d6` mixed types I–VI.
 
-Demons can be summoned by characters of any alignment, but controlling one is another matter entirely. A **thaumaturgic circle** keeps out demons of types I-V, while a special **pentacle** is required against demons of type VI or greater.  The threat or reward which the conjuring party uses to attempt gaining a demon's service must be carfully handled by the DM.  Demons are repelled by holy relics and artifacts.
+**Demons' Amulets:** Demon lords and princes store their vital essence—their soul—in a small, undetectable amulet that looks ordinary. Amulet-bearers can use **magic jar** once per day. Lesser demons keep their amulet close; the mightiest princes don't bother.  Possessing an amulet grants temporary power over its demon, usually for one adventure or 24 hours, after which the amulet must be returned or destroyed, banishing the demon prince for a year. This is dangerous: holding an amulet doubles the chance of attracting another demon's attention, any uncontrolled demon attacks the holder on sight, and losing the amulet mid-command turns the demon on its former master.
 
-**Demons' Amulets:** Demon lords and princes maintain their vital essences in small containers - their souls, so to speak - protecting them while also creating a dangerous vulnerability should the amulet be stolen.
+**Common traits:** 
 
-Demons with amulets may use **magic jar** once per day. Their amulets cannot be detected by magical means and appear completely ordinary. Lesser demons usually keep their amulets close at hand, though the most powerful demon princes do not have this limitation.
+- all have infravision
+- error-free teleportation
+- darkness (radius varies)
+- gate (specifics vary).
+- understand all intelligent communication telepathically
+- those of average+ intelligence can converse normally
+- types I–III are hurt by non-magical weapons, IV+ are not
+- full damage from acid, iron, magic missile, and poison
+- half damage from cold, electricity, fire, and gas
+- silver weapons count as non-magical.
 
-Possession of an amulet grants temporary power over the demon to whom it belongs, usually for no more than one adventure or `24` hours. The amulet must then be returned or destroyed, condemning the demon prince to abyssment for one year.
+Named demon lords Demogorgon, Juiblex, Orcus, Yeenoghu etc. are unique, campaign-level threats; review their individual entries before play. See [Appendix A: Legendary Creatures](#appendix-a-legendary-creatures).
 
-Use of an amulet is extremely dangerous. Possession of one doubles the chance of attracting another demon’s attention, and any uncontrolled demon immediately attacks the possessor. If the wielder loses possession while commanding the demon, the demon immediately turns on them.
+::: twocolumn-pdf-end
+:::
 
-Demons frequently roam the astral and ethereal planes. Their attention is also attracted by persons in an ethereal state.  Speaking the true name of a particularly powerful demon while on the astral or ethereal planes carries a base `5%` chance that the demon hears the speaker and turns its attention toward them.  Unless prepared to avoid such attention - or to control the demon - the demon will thereupon immediately attempt to slay, by whatever means are most expeditious, the one pronouncing his name.
+::: center
+![](assets/lolth-sacrifice.png)
+:::
 
-If demon types I through VI are encountered in their lair, there is a `75%` chance of encountering `1d6` demons of the same type and a `25%` chance of encountering `1d6` mixed demons of types I-VI.
-
-All demons share the following traits:
-
-- Types I-III are affected by non-magical weapons
-- Type IV and greater are not affected by non-magical weapons
-- Infravision
-- Teleportation (no error)
-- Darkness (radius varies)
-- Gate (specifics vary)
-
-Demons are affected by attack forms as follows:
-
-- Acid: full damage
-- Cold: half damage
-- Electricity (lightning): half damage
-- Fire (dragon, magical): half damage
-- Gas (poisonous, etc.): half damage
-- Iron weapon: full damage
-- Magic missile: full damage
-- Poison: full damage
-- Silver weapon: treat as non-magical
-
-Because of their strange telepathy, demons understand all intelligent communication. Demons with average or greater intelligence may also converse normally.
-
-Named demon lords such as Demogorgon, Juiblex, Orcus, and Yeenoghu are unique beings with powers beyond ordinary monster use. Treat them as campaign-level opponents and review their abilities individually before play. Demogorgon is detailed in [Appendix A: Legendary Creatures](#appendix-a-legendary-creatures).
-
-Demons are chaotic evil beings from the Abyss. They roam the lower planes and the astral plane, but cannot enter the material world without summoning, gating, or similar magic. They never willingly serve and always seek to destroy or corrupt those who bind them.
-
-All demons have telepathy, infravision, darkness, teleportation without error, and some form of gate power. Demons take full damage from acid, iron weapons, magic missiles, and poison; half damage from cold, lightning, fire, and poison gas; and no damage from silver unless the demon can also be harmed by ordinary weapons. Types I-III can be hit by normal weapons. Type IV and stronger demons require magic weapons.
+::: twocolumn-pdf-begin
+:::
 
 ::: pagebreak-pdf
 :::
+
 
 ### Larva
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
@@ -1629,7 +1614,7 @@ Larvae are often traded or consumed by demons and night hags. They attack living
 | Attacks     | 2 claws / 1 bite | Treasure Type | Nil       |
 | Damage      | 1d2 / 1d2 / 1d4  | Alignment     | Chaotic   |
 
-Manes are the least demons, formed from chaotic evil dead. If slain away from the Abyss, they dissolve into foul vapor and reform in one day unless destroyed by a demon lord or similar power. They are treated as undead against sleep, charm, and similar spells.
+Manes are the least demons, formed from chaotic evil dead. If slain away from the Abyss, they dissolve into foul vapor and reform in one day unless destroyed by a demon lord or similar power. They are treated as undead against **sleep**, **charm**, and similar spells.
 
 ::: center
 ![](assets/manes-plate.png)
@@ -1645,10 +1630,10 @@ Manes are the least demons, formed from chaotic evil dead. If slain away from th
 | Attacks     | 2 claws      | Alignment     | Chaotic   |
 | Damage      | 1d3 / 1d3    |               |           |
 
-Succubi are solitary tempters that appear as beautiful humanoids with bat-like wings. Their kiss drains one energy level. At will, a succubus may become ethereal, charm person, use ESP, use clairaudience, suggest, assume a humanoid form, or attempt to gate a stronger demon.
+Succubi are solitary tempters that appear as beautiful humanoids with bat-like wings. Their kiss drains one energy level. At will, a succubus may **become ethereal**, **charm person**, use **ESP**, use **clairaudience**, **suggest**, assume a humanoid form, or attempt to **gate** a stronger demon. Though they can usually overpower a victim through raw seduction alone, a succubus prefers patience and manipulation, savoring the slow unraveling of willpower over a single reckless strike.
 
 ::: center
-![](assets/succubus-plate.png)
+![](assets/succubus-plate-2.png)
 :::
 
 ### Type I Demon (Vrock)
@@ -1661,7 +1646,7 @@ Succubi are solitary tempters that appear as beautiful humanoids with bat-like w
 | Attacks     | 2 claws / 2 talons / 1 bite  | Alignment     | Chaotic   |
 | Damage      | 1d4 / 1d4 / 1d8 / 1d8 / 1d6  |               |           |
 
-Type I demons, or vrocks, resemble a human-vulture hybrid. They love human flesh and treasure. They can detect invisible, use telekinesis up to 2,000 cn, and attempt to gate another Type I demon.
+Type I demons, or vrocks, resemble a human-vulture hybrid. They love human flesh and treasure. They can **detect invisible**, use **telekinesis** up to 2,000 cn, and attempt to **gate** another Type I demon.
 
 ::: center
 ![](assets/type-i-vrock-plate.png)
@@ -1677,13 +1662,13 @@ Type I demons, or vrocks, resemble a human-vulture hybrid. They love human flesh
 | Attacks     | 2 claws / 1 bite | Alignment     | Chaotic   |
 | Damage      | 1d3 / 1d3 / 4d4  |               |           |
 
-Type II demons, or hezrou, are toad-like brutes that can be harmed by normal weapons. They can cause fear, levitate, detect invisible, use telekinesis up to 3,000 cn, and attempt to gate another Type II demon.
+Type II demons, or hezrou, are toad-like brutes that can be harmed by normal weapons. Their bloated, warty hides ooze a rank, sulfurous slime that lingers in the air long after they've moved on. They can **cause fear**, **levitate**, **detect invisible**, use **telekinesis** up to 3,000 cn, and attempt to **gate** another Type II demon.
 
 ::: center
 ![](assets/type-ii-hezrou-plate.png)
 :::
 
-### Type III Demon (Glabrezu)
+### Type III Demon (Glabrezu)*
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
 
 | Armor Class | -4                            | No. Appearing | 1d3 (1d6) |
@@ -1692,13 +1677,13 @@ Type II demons, or hezrou, are toad-like brutes that can be harmed by normal wea
 | Attacks     | 2 pincers / 2 claws / 1 bite  | Treasure Type | D         |
 | Damage      | 2d6 / 2d6 / 1d3 / 1d3 / 1d4+1 | Alignment     | Chaotic   |
 
-Type III demons, or glabrezu, are tall, wrinkled horrors with pincers and a small pair of human arms. They can cause fear, levitate, create pyrotechnics, polymorph self, use telekinesis up to 4,000 cn, and attempt to gate Type I-III demons.
+Type III demons, or glabrezu, are tall, wrinkled horrors with pincers and a small pair of human arms. Beneath their monstrous bulk lurks a cunning deceiver, and a glabrezu will often offer wishes or bargains to mortals, only to revel in the ruin those pacts bring.  They can **cause fear**, **levitate**, **create pyrotechnics**, **polymorph self**, use **telekinesis** up to 4,000 cn, and attempt to **gate** Type I-III demons.
 
 ::: center
 ![](assets/type-iii-glabrezu-plate.png)
 :::
 
-### Type IV Demon (Nalfeshnee)
+### Type IV Demon (Nalfeshnee)*
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
 
 | Armor Class | -1               | No. Appearing | 1d3 (1d6)  |
@@ -1708,13 +1693,13 @@ Type III demons, or glabrezu, are tall, wrinkled horrors with pincers and a smal
 | Attacks     | 2 claws / 1 bite | Alignment     | Chaotic    |
 | Damage      | 1d4 / 1d4 / 2d4  |               |            |
 
-Type IV demons, or nalfeshnee, combine the worst features of ape and boar. They can create illusions, cause fear, levitate, detect magic, read languages, dispel magic, polymorph self, use telekinesis up to 5,000 cn, project an image, use symbols of fear or discord, and attempt to gate Type I-IV demons.
+Type IV demons, or nalfeshnee, combine the worst features of ape and boar. They can **create illusions**, **cause fear**, **levitate**, **detect magic**, **read languages**, **dispel magic**, **polymorph self**, use **telekinesis** up to 5,000 cn, **project an image**, use **symbols of fear or discord**, and attempt to **gate** Type I-IV demons.
 
 ::: center
 ![](assets/type-iv-nalfeshnee-plate.png)
 :::
 
-### Type V Demon (Marilith)
+### Type V Demon (Marilith)*
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
 
 | Armor Class | -7/-5                    | No. Appearing | 1d3 (1d6) |
@@ -1723,13 +1708,13 @@ Type IV demons, or nalfeshnee, combine the worst features of ape and boar. They 
 | Attacks     | 6 weapons / 1 constrict  | Treasure Type | G         |
 | Damage      | By weapon / 2d8          | Alignment     | Chaotic   |
 
-Type V demons, or mariliths, have a six-armed female torso and the body of a great serpent. They fight with six weapons and constrict with their tails. They can charm person, levitate, read languages, detect invisible, create pyrotechnics, polymorph self, project an image, and attempt to gate nearly any demon.
+Type V demons, or mariliths, have a six-armed female torso and the body of a great serpent. They fight with six weapons and constrict with their tails. They can **charm person**, **levitate**, **read languages**, **detect invisible**, **create pyrotechnics**, **polymorph self**, **project an image**, and attempt to **gate** nearly any demon.
 
 ::: center
 ![](assets/type-v-marilith-plate.png)
 :::
 
-### Type VI Demon (Balor)
+### Type VI Demon (Balor)*
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
 
 | Armor Class | -2                     | No. Appearing | 1d3 (1d6) |
@@ -1739,7 +1724,7 @@ Type V demons, or mariliths, have a six-armed female torso and the body of a gre
 | Attacks     | 1 sword or whip        | Alignment     | Chaotic   |
 | Damage      | 2d6+1 or special       |               |           |
 
-Type VI demons, or balors, are mighty named demons who favor a sword and a many-tailed whip. In combat there is a 1-4 on 1d6 chance each round that a balor surrounds itself with flame and uses its whip to drag a victim into the fire for 2d6, 3d6, or 4d6 damage depending on the demon's size. Balors can cause fear, detect magic, read magic, read languages, detect invisible, create pyrotechnics, dispel magic, suggest, use telekinesis up to 6,000 cn, employ symbols of fear, discord, sleep, or stunning, and gate Type III or IV demons.
+Type VI demons, or balors, are mighty named demons who favor a sword and a many-tailed whip. In combat there is a 1-4 on `1d6` chance each round that a balor surrounds itself with flame and uses its whip to drag a victim into the fire for `2d6`, `3d6`, or `4d6` damage depending on the demon's size. Balors can **cause fear**, **detect magic**, **read magic**, **read languages**, **detect invisible**, **create pyrotechnics**, **dispel magic**, **suggest**, use **telekinesis** up to 6,000 cn, employ symbols of **fear**, **discord**, **sleep**, or **stunning**, and **gate** Type III or IV demons.
 
 ::: center
 ![](assets/type-vi-balor-plate.png)
@@ -1756,13 +1741,10 @@ Type VI demons, or balors, are mighty named demons who favor a sword and a many-
 
 Quasits are minor demonic familiars and tempters. They encourage evil acts while serving only as long as it benefits them.
 
-A quasit can become invisible, cause fear, detect good, and polymorph into small animal forms. Its claws carry irritating venom; a victim must Save vs. Poison or lose 1 point of Dexterity for 2d6 rounds. Quasits regenerate 1 hit point per round and can be harmed only by magic or cold iron weapons.
+A quasit can become **invisible**, **cause fear**, **detect good**, and **polymorph** into small animal forms. Its claws carry irritating venom; a victim must Save vs. Poison or lose 1 point of Dexterity for `2d6` rounds. Quasits regenerate 1 hit point per round and can be harmed only by magic or cold iron weapons.
 
 ::: center
 ![](assets/quasit-plate.png)
-:::
-
-::: pagebreak-pdf
 :::
 
 ### Shadow Demon
@@ -1774,12 +1756,15 @@ A quasit can become invisible, cause fear, detect good, and polymorph into small
 | Attacks     | 1 bite / 2 claws | Treasure Type | Nil |
 | Damage      | 1d8 / 1d6 / 1d6 | Alignment | Chaotic   |
 
-A shadow demon is a lesser demon bound into the form of a living shadow, and it is easily mistaken for one at a glance. Its true nature shows in its light-dependent power: in daylight it is armor class 9 and takes double damage, in torchlight it is armor class 5 and fights normally, and in darkness it is armor class 1, strikes with deadly accuracy, and takes only half damage. It is immune to fire, cold, and lightning, but a **light** spell cast upon it burns like a fireball.
+A shadow demon is a lesser demon bound into the form of a living shadow, and it is easily mistaken for one at a glance. Its true nature shows in its light-dependent power: in daylight it is armor class 9 and takes double damage, in torchlight it is armor class 5 and fights normally, and in darkness it is armor class 1, strikes with deadly accuracy, and takes only half damage. It is immune to fire, cold, and lightning, but a **light** spell cast upon it burns like a **fireball**.
 
-The demon can leap up to 30' to open an attack, and once per day it can call up **darkness** and **fear** in a 30' radius. Once per week it may attempt a **magic jar** against a victim; if the victim resists, the demon is stunned for 1d3 rounds.
+The demon can leap up to 30' to open an attack, and once per day it can call up **darkness** and **fear** in a 30' radius. Once per week it may attempt a **magic jar** against a victim; if the victim resists, the demon is stunned for `1d3` rounds.
 
 ::: center
 ![](assets/shadow-demon-plate.png)
+:::
+
+::: pagebreak-pdf
 :::
 
 ## Devils
