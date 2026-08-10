@@ -1,7 +1,7 @@
 ---
 title: "B/X Book of Monsters"
 subtitle: "A merged and deduplicated monster chapter from the Basic and Expert rulebooks"
-author: "Compiled from the 1981 Basic Expert Sets and the 1979 Monster Manual"
+author: "Compiled from the 1981 Basic and Expert Sets and the 1979 Monster Manual"
 date: "July 24^th^ 2026"
 lang: "en-US"
 ---
@@ -155,7 +155,7 @@ An asterisk after Hit Dice matters for experience awards. (*) means the XP Bonus
 :::
 
 ::: center
-Welcome Adventures!
+Welcome, Adventurers!
 :::
 
 ## Animals
@@ -811,7 +811,7 @@ In water they can capsize small craft or drag prey below. Large bulls deal `3d6`
 
 |               | Riding Horse | War Horse         | Draft Horse       |
 |---------------|--------------|-------------------|-------------------|
-| Armor Class   | 1            | 7                 | 7                 |
+| Armor Class   | 7            | 7                 | 7                 |
 | Hit Dice      | 2            | 3                 | 3                 |
 | Move          | 240' (80')   | 120' (40')        | 90' (30')         |
 | Attacks       | 2 hooves     | 2 hooves          | Nil               |
@@ -1226,7 +1226,7 @@ Snakes are found almost everywhere except for very hot or very cold places. Most
 
 **Pit Viper**: A pit viper is a 5' long greenish-gray poisonous snake with small pits in its head. These pits act as heat sensors, with a range of 60'. The combination of pits and infravision makes it very hard to fight a pit viper; it is so quick that it always gains the initiative (no roll needed). Any victim bitten by a pit viper must save vs. Poison or die.
 
-**Sea Snake**: Sea snakes are snakes adapted for living in the sea.  They must come to the surface of the water to breathe once an hour. Their bite is little more than a pinprick, and will go unnoticed 50% of the time. The victim must save vs. Poison, and the poison is slow-acting; its full effects take `ld4 + 2` turns to be felt if the saving throw is failed. (By the time this is felt, there is a 25% chance that not even a neutralize poison spell can save the victim.) Unlike other snakes, sea snakes will attack humans for food.
+**Sea Snake**: Sea snakes are snakes adapted for living in the sea.  They must come to the surface of the water to breathe once an hour. Their bite is little more than a pinprick, and will go unnoticed 50% of the time. The victim must save vs. Poison, and the poison is slow-acting; its full effects take `1d4 + 2` turns to be felt if the saving throw is failed. (By the time this is felt, there is a 25% chance that not even a neutralize poison spell can save the victim.) Unlike other snakes, sea snakes will attack humans for food.
 
 **Giant Rattlesnake**: A giant rattlesnake is a 10' long snake with brown and white scales set in a diamond pattern. On its tail is a dried, scaly rattle, which it often rattles to warn off intruders or attackers who are too large to eat. Giant rattlesnakes are meat-eaters and their bite is poisonous (save vs. Poison or die in 1-6 turns.) They are very fast and may attack a second time at the end of every round.
 
@@ -1240,7 +1240,6 @@ Snakes are found almost everywhere except for very hot or very cold places. Most
 *Source:* `Expert`  *Category:* `Animal`
 
 | Armor Class | 7                    | No. Appearing | 0 (1d4)   |
-|-------------|----------------------|---------------|-----------|
 | Hit Dice    | 6                    | Save As       | Fighter 3 |
 | Move        | 120' (40')           | Morale        | 7 (9)     |
 | Attacks     | 8 tentacles / 1 bite | Treasure Type | V         |
@@ -1538,7 +1537,7 @@ A living statue is an enchanted animated creature made by a powerful wizard. It 
 
 - **Crystal**: Living crystal statues are life forms made of crystals instead of flesh. They can look like a statue of anything, but often appear human.
 
-- **Iron**: Living iron statues have bodies which can absorb iron and steel. When hit, they will take normal damage, but if a non-magical meta1 weapon is used, the attacker must save vs. Spells or the weapon will become stuck in the body of the living iron statue, and may only be removed if the statue is killed.
+- **Iron**: Living iron statues have bodies which can absorb iron and steel. When hit, they will take normal damage, but if a non-magical metal weapon is used, the attacker must save vs. Spells or the weapon will become stuck in the body of the living iron statue, and may only be removed if the statue is killed.
 
 - **Rock**: Living rock statues have an outer crust of stone but are filled with hot magma (fiery lava). When the living rock statue attacks, it will squirt the magma from its finger tips for `2d6` points of damage per hit.
 
@@ -1555,7 +1554,7 @@ Demons can be summoned by any alignment, but control is another matter—a **tha
 
 Demons roam the astral and ethereal planes and are drawn to beings caught in an ethereal state. Speaking a powerful demon's true name there carries a 5% base chance of drawing its attention—and, absent control or preparation, an attempt to kill the speaker.  Types V and greater aren't permanently destroyed when slain outside their home plane—they're banished there for a century and a day unless another demon aids their return. On their home plane, they can be slain normally.
 
-Demons (types I–VI) encountered in their lair appear in groups: 75% chance of 1d6 of the same type, 25% chance of `1d6` mixed types I–VI.
+Demons (types I–VI) encountered in their lair appear in groups: 75% chance of `1d6` of the same type, 25% chance of `1d6` mixed types I–VI.
 
 **Demons' Amulets:** Demon lords and princes store their vital essence—their soul—in a small, undetectable amulet that looks ordinary. Amulet-bearers can use **magic jar** once per day. Lesser demons keep their amulet close; the mightiest princes don't bother.  Possessing an amulet grants temporary power over its demon, usually for one adventure or 24 hours, after which the amulet must be returned or destroyed, banishing the demon prince for a year. This is dangerous: holding an amulet doubles the chance of attracting another demon's attention, any uncontrolled demon attacks the holder on sight, and losing the amulet mid-command turns the demon on its former master.
 
@@ -1564,13 +1563,13 @@ Demons (types I–VI) encountered in their lair appear in groups: 75% chance of 
 - all have infravision
 - error-free teleportation
 - darkness (radius varies)
-- gate (specifics vary).
+- gate (specifics vary)
 - understand all intelligent communication telepathically
 - those of average+ intelligence can converse normally
 - types I–III are hurt by non-magical weapons, IV+ are not
 - full damage from acid, iron, magic missile, and poison
 - half damage from cold, electricity, fire, and gas
-- silver weapons count as non-magical.
+- silver weapons count as non-magical
 
 Named demon lords Demogorgon, Juiblex, Orcus, Yeenoghu etc. are unique, campaign-level threats; review their individual entries before play. See [Appendix A: Legendary Creatures](#appendix-a-legendary-creatures).
 
