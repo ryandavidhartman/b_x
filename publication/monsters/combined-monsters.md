@@ -1566,7 +1566,7 @@ Demons (types I–VI) encountered in their lair appear in groups: 75% chance of 
 - gate (specifics vary)
 - understand all intelligent communication telepathically
 - those of average+ intelligence can converse normally
-- types I–III are hurt by non-magical weapons, IV+ are not
+- types I–II are hurt by non-magical weapons, III+ are not
 - full damage from acid, iron, magic missile, and poison
 - half damage from cold, electricity, fire, and gas
 - silver weapons count as non-magical
@@ -1774,7 +1774,7 @@ Devil society is governed by an immense and inflexible hierarchy enforced by the
 
 All devils may travel freely between the planes of Hell, though passage often requires the permission of the ruling archdevil. Devils may also move to Gehenna, Hades, and Acheron, and rarely travel the Astral Plane. They cannot enter the Prime Material Plane except through magical summoning, gate spells, or invocation of their secret names.
 
-All devils possess powerful magical abilities that vary by type. Common powers include animate dead, charm person, fear, know alignment, phantasmal force, suggestion, teleportation without error, and the ability to summon other devils. Devils may use these abilities at will, though generally only one at a time.
+All devils possess powerful magical abilities that vary by type. Common powers include telepathy, animate dead, charm person, fear, illusion, know alignment, phantasmal force, suggestion, teleportation without error, and the ability to summon other devils. Devils may use these abilities at will, though generally only one at a time.
 
 All devils possess infravision and can understand and speak any language.
 
@@ -1786,13 +1786,7 @@ Devils are masters of laws, bargains, and contracts. They obey the exact wording
 
 As with demons, proper magical circles are essential when summoning devils. More powerful devils require increasingly elaborate and costly protections. Devils are also repelled by powerful holy relics and good-aligned artifacts.
 
-Devils resist many forms of attack. They are completely immune to fire and take only half damage from cold and poisonous gas. They suffer full damage from acid, electricity, magic missiles, poison, and silver weapons. Iron weapons inflict no special additional damage.
-
-Devils are the lawful evil rulers and servants of Hell. They are hierarchical, cruel, and bound by infernal law, though they constantly scheme against rivals. They cannot enter the material plane without ritual, gate, or the speaking of a proper name.
-
-All devils have telepathy, infravision, teleportation without error, know alignment, cause fear, animate dead, and the ability to use charm person, suggestion, and illusion. Devils take full damage from acid, lightning, magic missiles, poison, and silver weapons; half damage from cold and poisonous gas; no damage from fire; and no damage from iron unless they can be harmed by ordinary weapons.
-
-Only erinyes, barbed devils, and bone devils can be hit by normal weapons. Greater devils require magic or silver weapons. Devils can summon others of their kind, as noted below. Lesser devils fight until destroyed. Greater devils may bargain if seriously threatened.
+Devils resist many forms of attack. They are completely immune to fire and take only half damage from cold and poisonous gas. They suffer full damage from acid, electricity, magic missiles, poison, and silver weapons, and take no damage from iron weapons unless they can be harmed by ordinary weapons. Only erinyes, barbed devils, and bone devils can be hit by normal weapons; greater devils require magic or silver weapons.
 
 Arch-devils such as Asmodeus, Baalzebul, Dispater, and Geryon are unique rulers with campaign-level powers. Review and tailor them individually before play.
 
@@ -1857,7 +1851,7 @@ Bone devils are malicious torturers armed with great hooks. A creature hit by th
 ![](assets/bone-devil-plate.png)
 :::
 
-### Horned Devil (Malebranche)
+### Horned Devil (Malebranche)*
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
 | Armor Class | -5                                          | No. Appearing | 1d2 (2d4) |
@@ -1873,7 +1867,7 @@ Horned devils, or malebranche, are the least greater devils. They may carry a tw
 ![](assets/horned-devil-plate.png)
 :::
 
-### Ice Devil
+### Ice Devil*
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
 | Armor Class | -4                         | No. Appearing | 1 (1d4)    |
@@ -1889,7 +1883,7 @@ Ice devils are cold, insectile greater devils. A few carry great spears that dea
 ![](assets/ice-devil-plate.png)
 :::
 
-### Pit Fiend
+### Pit Fiend*
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
 | Armor Class | -3                     | No. Appearing | 1 (1d3)    |
@@ -1905,14 +1899,14 @@ Pit fiends are among the most dreaded greater devils and servants of the ruler o
 ![](assets/pit-fiend-plate.png)
 :::
 
-### Imp
+### Imp*
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
 | Armor Class | 2          | No. Appearing | 1 (1)      |
 | Hit Dice    | 2+2        | Save As       | Fighter 2  |
 | Move        | 60' (20')  | Morale        | 9          |
 | Fly         | 180' (60') | Treasure Type | Nil        |
-| Attacks     | 1 sting    | Alignment     | Chaotic    |
+| Attacks     | 1 sting    | Alignment     | Lawful     |
 | Damage      | 1d4 poison |               |            |
 
 Imps are minor diabolical familiars and tempters. They serve evil masters while urging them toward cruelty and corruption.
