@@ -1994,7 +1994,7 @@ A cloud-shaped Breath billows forth from the dragon's mouth to form a 50'x40'x20
 
 - **Age**: The statistics given are for an average-sized dragon of its type. Younger dragons are smaller and have acquired less treasure; older dragons are larger and have acquired more. Dragons generally range in size from 3 hit dice smaller to 3 hit dice larger than average. For example, red dragons could be found having 7 to 13 hit dice, depending on their age.
 
-- **Tresure**: Younger dragons may have collected as little as 1/2 the normal listed treasure; older dragons may have as much as double the listed amount. Dragon treasure is only found in the dragon's lair. These lairs are rarely left unguarded, and are well-hidden to prevent easy discovery.
+- **Treasure**: Younger dragons may have collected as little as 1/2 the normal listed treasure; older dragons may have as much as double the listed amount. Dragon treasure is only found in the dragon's lair. These lairs are rarely left unguarded, and are well-hidden to prevent easy discovery.
 
 - **Gold dragons**: always talk and use spells. They can also change their shape, and often appear in the form of a human or animal. Gold dragons may breathe either fire, like a red dragon, or chlorine gas, like a green dragon, though they still have a total of 3 Breath Weapon attacks per day, not 6. The type of Breath attack should be chosen by the DM to fit the situation.
 
@@ -2065,7 +2065,7 @@ Their tail sting forces a Save vs. Poison. Failure causes deep sleep; a roll of 
 *Source:* `Expert`  *Category:* `Dragon`
 
 | Armor Class | 1                               | No. Appearing | 0 (1d4)                |
-| Hit Dice    | 8                               | Save As       | Fighter: 8 (see below) |
+| Hit Dice    | 8                               | Save As       | Fighter 8 (see below)  |
 | Move        | 180' (60') (Swimming or Flying) | Morale        | 9                      |
 | Attacks     | 1 bite or 1 spit                | Treasure Type | H                      |
 | Damage      | 3d8 or special                  | Alignment     | Neutral                |
