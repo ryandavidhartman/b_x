@@ -2103,7 +2103,7 @@ A wyvern looks like a two-legged, winged dragon with a long tail. In combat, the
 
 Elementals are beings native to the Planes of Air, Earth, Fire, and Water. Most are summoned to the material plane through conjuration, though some, like the djinn and efreet, are free-willed races who dwell among their kind on their home planes and only rarely venture elsewhere. True elementals - formless embodiments of their element - can only be harmed by magic or magical weapons.
 
-### Aerial Servant
+### Aerial Servant*
 *Source:* `AD&D 1E Conversion`  *Category:* `Elemental`
 
 | Armor Class | 3          | No. Appearing | 1          |
@@ -2229,7 +2229,7 @@ An efreeti can carry up to 7,500 cn without tiring and twice that for a short ti
 | Hit Dice    | 10*         | Save As       | Fighter 15  |
 | Move        | 90' (30')   | Morale        | 12          |
 | Flying      | 240' (80')  | Treasure Type | Nil         |
-| Attacks     | 1           | Alignment     | Chaotic     |
+| Attacks     | 1 fist      | Alignment     | Chaotic     |
 | Damage      | 2d8         |               |             |
 
 Efreet are free-willed fire elementals. They usually appear as clouds of smoke that solidify into giant demonic-faced men surrounded by flame. The air around them is always hot and smoky, they are highly magical in nature, and they can only be hit with magic weapons.
@@ -2286,6 +2286,9 @@ Staff elementals, the weakest, are summoned by a magic-user with a special staff
 ![](assets/elemental-plate.png)
 :::
 
+::: twocolumn-pdf-end
+:::
+
 ### Mephit
 *Source:* `AD&D 1E Conversion`  *Category:* `Elemental`
 
@@ -2301,6 +2304,9 @@ Staff elementals, the weakest, are summoned by a magic-user with a special staff
 | Morale         | 8           | 8           | 8            | 8            |
 | Treasure Type  | Special     | Special     | Special      | Special      |
 | Alignment      | Chaotic     | Chaotic     | Chaotic      | Chaotic      |
+
+::: twocolumn-pdf-begin
+:::
 
 Mephits are small, garish, foul-tempered fiends used as messengers and errand-runners by more powerful denizens of the Lower Planes. Roughly 5' tall with fangs and small functional wings, they dress in the loudest clothing they can steal and delight in cruelty, mockery, and tasteless jokes. Each carries a handful of coin (2d6 pieces, or platinum in the case of a lava mephit) as personal loot rather than true treasure.
 
@@ -2377,7 +2383,7 @@ A hit pulls the victim into the water. Unless freed, the victim begins drowning.
 ![](assets/water-weird-plate.png)
 :::
 
-### Wind Walker
+### Wind Walker*
 *Source:* `AD&D 1E Conversion`  *Category:* `Elemental`
 
 | Armor Class | 7          | No. Appearing | 1d3 (1d3)  |
