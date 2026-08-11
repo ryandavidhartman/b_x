@@ -116,7 +116,7 @@ local function statblock_latex_block(rows)
   local lines = {
     "\\begin{center}",
     "\\footnotesize",
-    "\\begin{tabularx}{\\columnwidth}{@{}>{\\bfseries}lX>{\\bfseries}lX@{}}",
+    "\\begin{tabularx}{\\columnwidth}{@{}>{\\bfseries}l>{\\raggedright\\arraybackslash}X>{\\bfseries}l>{\\raggedright\\arraybackslash}X@{}}",
     "\\toprule",
   }
 

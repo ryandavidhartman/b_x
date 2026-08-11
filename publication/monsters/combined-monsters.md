@@ -686,19 +686,19 @@ All flightless birds are non-aggressive and run from danger.  If cornered they c
 ### Frog, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
-|               | Giant Frog   | Killer Frog  | Poisonous Frog |
-| ------------- | ------------ | ------------ | -------------- |
-| Armor Class   | 7            | 8            | 8              |
-| Hit Dice      | 1-3          | 1+4          | 1*             |
-| Save As       | Fighter 1-2  | Fighter 1    | Fighter 1      |
-| Move          | 30' (10')    | 60' (20')    | 30' (10')      |
-| Swim          | 90' (30')    | 120' (40')   | 90' (30')      |
-| Attacks       | 1 bite       | 2 claws / 1 bite | 1 bite     |
-| Damage        | 1d3, 1d6, or 2d4 | 1d2 / 1d2 / 1d4+1 | 1 poison |
-| No. Appearing | 2d10 (5d8)   | 2d6 (3d6)    | 1d6 (2d6)      |
-| Morale        | 7            | 9            | 7              |
-| Treasure Type | Nil          | Nil          | Nil            |
-| Alignment     | Neutral      | Neutral      | Neutral        |
+|               | Giant Frog         | Killer Frog       | Poisonous Frog |
+| ------------- | ------------------ | ----------------- | -------------- |
+| Armor Class   | 7                  | 8                 | 8              |
+| Hit Dice      | 1-3                | 1+4               | 1*             |
+| Save As       | Fighter 1-2        | Fighter 1         | Fighter 1      |
+| Move          | 30' (10')          | 60' (20')         | 30' (10')      |
+| Swim          | 90' (30')          | 120' (40')        | 90' (30')      |
+| Attacks       | 1 tongue or 1 bite | 2 claws / 1 bite  | 1 bite         |
+| Damage        | grab or 1d4+1      | 1d2 / 1d2 / 1d4+1 | 1 poison       |
+| No. Appearing | 2d10 (5d8)         | 2d6 (3d6)         | 1d6 (2d6)      |
+| Morale        | 7                  | 9                 | 7              |
+| Treasure Type | Nil                | Nil               | Nil            |
+| Alignment     | Neutral            | Neutral           | Neutral        |
 
 **Giant frogs** are found in marshes, swamps, large ponds, river banks, and lake shores. The smallest are only about 2' long (body), medium-sized frogs (2 hit dice) are about 4' long, and the largest are some 6' long. Because of their coloration they surprise on a 1-4. These creatures can leap up to 18' to attack.
 
@@ -1799,7 +1799,7 @@ Arch-devils such as Asmodeus, Baalzebul, Dispater, and Geryon are unique rulers 
 | Attacks     | 1 claw     | Treasure Type | Nil       |
 | Damage      | 1d3        | Alignment     | Lawful    |
 
-Lemures are mindless damned souls reshaped into vaguely human blobs. They regenerate 1 hit point per round and are permanently destroyed only by holy water, holy weapons, or similar blessed power. They are immune to **sleep**, **charm**, and similar spells.
+Lemures are mindless damned souls reshaped into vaguely human blobs. Their doughy, half-formed faces twist in a permanent, wordless wail, as if some faint memory of the life they once had is still trying to claw its way out. They regenerate 1 hit point per round and are permanently destroyed only by holy water, holy weapons, or similar blessed power. They are immune to **sleep**, **charm**, and similar spells.
 
 ::: center
 ![](assets/lemure-plate.png)
@@ -1858,8 +1858,8 @@ Bone devils are malicious torturers armed with great hooks. A creature hit by th
 | Hit Dice    | 5+5                                         | Save As       | Fighter 6 |
 | Move        | 90' (30')                                   | Morale        | 10        |
 | Fly         | 180' (60')                                  | Treasure Type | I         |
-| Attacks     | 2 claws / 1 bite / 1 tail or weapon / tail  | Alignment     | Lawful    |
-| Damage      | 1d4 / 1d4 / 1d4+1 / 1d3 or by weapon / 1d3  |               |           |
+| Attacks     | 2 claws/1 bite, or weapon / 1 tail  | Alignment     | Lawful    |
+| Damage      | 1d4/1d4/1d4+1, or weapon / 1d3      |               |           |
 
 Horned devils, or malebranche, are the least greater devils. They may carry a two-tined fork for `2d6` damage or a barbed whip for `1d4` damage plus stunning for the same number of rounds unless the victim Saves vs. Spells. Their tail wounds bleed for 1 hit point per turn until bound or magically healed. They **radiate fear** in a 5' radius and may use **pyrotechnics**, **produce flame**, **ESP**, **detect magic**, **illusion**, or attempt to **summon** another horned devil. Once per day they may create a triple-strength **wall of fire**.
 
