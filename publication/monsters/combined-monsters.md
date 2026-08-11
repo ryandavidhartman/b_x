@@ -1774,7 +1774,7 @@ Devil society is governed by an immense and inflexible hierarchy enforced by the
 
 All devils may travel freely between the planes of Hell, though passage often requires the permission of the ruling archdevil. Devils may also move to Gehenna, Hades, and Acheron, and rarely travel the Astral Plane. They cannot enter the Prime Material Plane except through magical summoning, gate spells, or invocation of their secret names.
 
-All devils possess powerful magical abilities that vary by type. Common powers include telepathy, animate dead, charm person, fear, illusion, know alignment, phantasmal force, suggestion, teleportation without error, and the ability to summon other devils. Devils may use these abilities at will, though generally only one at a time.
+All devils possess powerful magical abilities that vary by type. Common powers include **telepathy**, **animate dead**, **charm person**, **fear**, **illusion**, **know alignment**, **phantasmal force**, **suggestion**, **teleportation** without error, and the ability to summon other devils. Devils may use these abilities at will, though generally only one at a time.
 
 All devils possess infravision and can understand and speak any language.
 
@@ -1788,18 +1788,18 @@ As with demons, proper magical circles are essential when summoning devils. More
 
 Devils resist many forms of attack. They are completely immune to fire and take only half damage from cold and poisonous gas. They suffer full damage from acid, electricity, magic missiles, poison, and silver weapons, and take no damage from iron weapons unless they can be harmed by ordinary weapons. Only erinyes, barbed devils, and bone devils can be hit by normal weapons; greater devils require magic or silver weapons.
 
-Arch-devils such as Asmodeus, Baalzebul, Dispater, and Geryon are unique rulers with campaign-level powers. Review and tailor them individually before play.
+Arch-devils such as Asmodeus, Baalzebul, Dispater, and Geryon are unique rulers with campaign-level powers. Review and tailor them individually before play.  See [Appendix A: Legendary Creatures](#appendix-a-legendary-creatures).
 
 ### Lemure
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
 | Armor Class | 7          | No. Appearing | 2d6 (5d6) |
-| Hit Dice    | 3          | Save As       | Fighter 3 |
+| Hit Dice    | 3*         | Save As       | Fighter 3 |
 | Move        | 30' (10')  | Morale        | 12        |
 | Attacks     | 1 claw     | Treasure Type | Nil       |
 | Damage      | 1d3        | Alignment     | Lawful    |
 
-Lemures are mindless damned souls reshaped into vaguely human blobs. They regenerate 1 hit point per round and are permanently destroyed only by holy water, holy weapons, or similar blessed power. They are immune to sleep, charm, and similar spells.
+Lemures are mindless damned souls reshaped into vaguely human blobs. They regenerate 1 hit point per round and are permanently destroyed only by holy water, holy weapons, or similar blessed power. They are immune to **sleep**, **charm**, and similar spells.
 
 ::: center
 ![](assets/lemure-plate.png)
@@ -1815,7 +1815,7 @@ Lemures are mindless damned souls reshaped into vaguely human blobs. They regene
 | Attacks     | 1 dagger   | Alignment     | Lawful    |
 | Damage      | 2d4        |               |           |
 
-Erinyes are soul-hunters, often appearing beautiful and winged. Their venomous daggers cause terrible pain; a creature hit must Save vs. Poison or faint for 1d6 rounds. They carry ropes of entanglement, cause fear by gaze, and may detect invisible, locate object, become invisible, polymorph self, produce flame, or attempt to summon another erinyes.
+Erinyes are soul-hunters, often appearing beautiful and winged. Their venomous daggers cause terrible pain; a creature hit must Save vs. Poison or faint for `1d6` rounds. They carry **ropes of entanglement**, **cause fear** by gaze, and may **detect invisible**, **locate object**, become **invisible**, **polymorph self**, **produce flame**, or attempt to **summon* another erinyes.
 
 ::: center
 ![](assets/erinyes-plate.png)
@@ -1830,7 +1830,7 @@ Erinyes are soul-hunters, often appearing beautiful and winged. Their venomous d
 | Attacks     | 2 claws / 1 tail | Treasure Type | Nil       |
 | Damage      | 2d4 / 2d4 / 3d4  | Alignment     | Lawful    |
 
-Barbed devils are vigilant guards and are never surprised. A creature struck by a barbed devil must Save vs. Spells or be affected by fear. They may use pyrotechnics, produce flame, hold person, or attempt to summon another barbed devil.
+Barbed devils are vigilant guards and are never surprised. A creature struck by a barbed devil must Save vs. Spells or be affected by fear. They may use **pyrotechnics**, **produce flame**, **hold person**, or attempt to **summon** another barbed devil.
 
 ::: center
 ![](assets/barbed-devil-plate.png)
@@ -1845,7 +1845,7 @@ Barbed devils are vigilant guards and are never surprised. A creature struck by 
 | Attacks     | 1 hook / 1 tail  | Treasure Type | Nil       |
 | Damage      | 3d4 / 2d4        | Alignment     | Lawful    |
 
-Bone devils are malicious torturers armed with great hooks. A creature hit by the hook has a 50% chance to be caught fast, allowing the devil to strike with its tail. A tail hit drains 1d4 Strength for 10 rounds unless the victim Saves vs. Poison. Bone devils may create fear, create illusion, fly, become invisible, detect invisible, or attempt to summon another bone devil. Once per day they may create a wall of ice.
+Bone devils are malicious torturers armed with great hooks. A creature hit by the hook has a 50% chance to be caught fast, allowing the devil to strike with its tail. A tail hit drains `1d4` Strength for 10 rounds unless the victim Saves vs. Poison. Bone devils may **create fear**, **create illusion**, **fly**, become **invisible**, **detect invisible**, or attempt to **summon** another bone devil. Once per day they may create a **wall of ice**.
 
 ::: center
 ![](assets/bone-devil-plate.png)
@@ -1861,7 +1861,7 @@ Bone devils are malicious torturers armed with great hooks. A creature hit by th
 | Attacks     | 2 claws / 1 bite / 1 tail or weapon / tail  | Alignment     | Lawful    |
 | Damage      | 1d4 / 1d4 / 1d4+1 / 1d3 or by weapon / 1d3  |               |           |
 
-Horned devils, or malebranche, are the least greater devils. They may carry a two-tined fork for 2d6 damage or a barbed whip for 1d4 damage plus stunning for the same number of rounds unless the victim Saves vs. Spells. Their tail wounds bleed for 1 hit point per turn until bound or magically healed. They radiate fear in a 5' radius and may use pyrotechnics, produce flame, ESP, detect magic, illusion, or attempt to summon another horned devil. Once per day they may create a triple-strength wall of fire.
+Horned devils, or malebranche, are the least greater devils. They may carry a two-tined fork for `2d6` damage or a barbed whip for `1d4` damage plus stunning for the same number of rounds unless the victim Saves vs. Spells. Their tail wounds bleed for 1 hit point per turn until bound or magically healed. They **radiate fear** in a 5' radius and may use **pyrotechnics**, **produce flame**, **ESP**, **detect magic**, **illusion**, or attempt to **summon** another horned devil. Once per day they may create a triple-strength **wall of fire**.
 
 ::: center
 ![](assets/horned-devil-plate.png)
@@ -1877,7 +1877,7 @@ Horned devils, or malebranche, are the least greater devils. They may carry a tw
 | Attacks     | 2 claws / 1 bite / 1 tail  | Alignment     | Lawful     |
 | Damage      | 1d4 / 1d4 / 2d4 / 3d4      |               |            |
 
-Ice devils are cold, insectile greater devils. A few carry great spears that deal 2d6 damage and numb the victim unless it Saves vs. Paralysis, slowing it by half. Ice devils regenerate 1 hit point per round, radiate fear in a 10' radius, and may fly, wall of ice, detect magic, detect invisible, polymorph self, or summon bone devils or another ice devil. Once per day they may cause an ice storm.
+Ice devils are cold, insectile greater devils. A few carry great spears that deal `2d6` damage and numb the victim unless it Saves vs. Paralysis, slowing it by half. Ice devils regenerate 1 hit point per round, **radiate fear** in a 10' radius, and may **fly**, **wall of ice**, **detect magic**, **detect invisible**, **polymorph self**, or **summon** bone devils or another ice devil. Once per day they may cause an **ice storm**.
 
 ::: center
 ![](assets/ice-devil-plate.png)
@@ -1893,7 +1893,7 @@ Ice devils are cold, insectile greater devils. A few carry great spears that dea
 | Attacks     | 2 weapons / 1 tail     | Alignment     | Lawful     |
 | Damage      | 1d4+4 / 1d6+6 / 2d4    |               |            |
 
-Pit fiends are among the most dreaded greater devils and servants of the ruler of Hell. They fight with a hooked weapon and jagged club, regenerate 2 hit points per round, and radiate fear in a 20' radius. A tail hit constricts for 2d4 damage each round. Pit fiends may use pyrotechnics, produce flame, wall of fire, detect magic, detect invisible, polymorph self, hold person, and summon barbed devils or another pit fiend. Once per day they may use a symbol of pain.
+Pit fiends are among the most dreaded greater devils and servants of the ruler of Hell. They fight with a hooked weapon and jagged club, regenerate 2 hit points per round, and **radiate fear** in a 20' radius. A tail hit constricts for `2d4` damage each round. Pit fiends may use **pyrotechnics**, **produce flame**, **wall of fire**, **detect magic**, **detect invisible**, **polymorph self**, **hold person**, and **summon** barbed devils or another pit fiend. Once per day they may use a **symbol of pain**.
 
 ::: center
 ![](assets/pit-fiend-plate.png)
