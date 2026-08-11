@@ -3601,7 +3601,7 @@ Mosasaurus is an enormous marine reptile, more closely akin to monitor lizards t
 | Hit Dice    | 2                 | Save As       | Fighter 2   |
 | Move        | 120' (40')        | Morale        | 7           |
 | Attacks     | 1 weapon          | Treasure Type | C           |
-| Damage      | 2d8 or weapon + 1 | Alignment     | Lawful      |
+| Damage      | 2d4 or weapon + 1 | Alignment     | Lawful      |
 
 Neanderthals, also known as cavemen, are a demi-human species related to humans. They have squat bodies with large bones and powerful muscles. Their faces have apelike features, including large brows above the eyes. Neanderthals live in family groups in caves and caverns.
 
@@ -4713,8 +4713,8 @@ Ki-rin can fly, become invisible, create food and water, and use powerful cleric
 | Hit Dice    | 20         | Save As       | Fighter 20 |
 | Move        | 30' (10')  | Morale        | 11         |
 | Swim        | 210' (70') | Treasure Type | G, R, S    |
-| Attacks     | 2 tentacles / 6 tentacles / 1 bite | Alignment | Neutral |
-| Damage      | 2d6 x2 / 2d4 x6 / 5d4 |               |            |
+| Attacks     | 2 tentacles / 8 tentacles / 1 bite | Alignment | Neutral |
+| Damage      | 2d6 x2 / 2d4 x8 / 5d4 |               |            |
 
 The kraken is a colossal, air- and water-breathing relative of the squid that dwells in the darkest ocean depths, growing huge and powerful on a diet of whales and any smaller life it can catch. Its ten tentacles are armor class 13, as is its exposed head, but its thick shell carries armor class 19.
 
@@ -6150,7 +6150,7 @@ Sprites are small winged people about 1 foot tall related to pixies and elves. W
 
 Treants are 18' tall tree-men who resemble trees. Treants are only concerned with protecting forests and plant life. They speak a slow and difficult tongue and distrust those who use fire. Because treants are often mistaken for normal trees, all encounters with treants take place at 30 yards or less and they surprise a party on a roll of 1-3.
 
-One treant can animate any two trees within 60' to move at 30', 5', and fight as treants. A treant may change which trees it is animating at will.
+One treant can animate any two trees within 60' to move at 30' (5') and fight as treants. A treant may change which trees it is animating at will.
 
 ::: center
 ![](assets/treant-plate.png)
