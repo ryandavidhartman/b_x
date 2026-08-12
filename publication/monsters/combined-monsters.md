@@ -2064,9 +2064,9 @@ Rather than fight, a faerie dragon prefers to breathe a small cloud of euphoria 
 | Attacks     | 1 bite / 1 sting | Alignment | Neutral   |
 | Damage      | 1d3 / sleep |             |            |
 
-Pseudo-dragons are tiny, intelligent dragon-kin that may bond with a trusted companion. They are shy, playful, and telepathic in a limited range.
+Pseudo-dragons are tiny, intelligent dragon-kin that may bond with a trusted companion. They are shy, playful, and telepathic in a limited range. Their tail sting forces a Save vs. Poison. Failure causes deep sleep; a roll of 1 may cause death at the referee's discretion.
 
-Their tail sting forces a Save vs. Poison. Failure causes deep sleep; a roll of 1 may cause death at the referee's discretion. Pseudo-dragons can change color like chameleons and often hide near their companions.
+Pseudo-dragons can change color like chameleons and often hide near their companions, watching from rafters or branches long before revealing themselves. Fiercely loyal once trust is earned, they will fight far above their size to defend a bonded companion, using stealth and cunning rather than brute force.
 
 ::: center
 ![](assets/pseudo-dragon-plate.png)
