@@ -919,7 +919,11 @@ Giant leeches are loathsome and slug-like. They live in swamps and are about 3 t
 
 **Draco**: is a 6' long lizard with wide flaps of skin between its legs which it can spread to glide through the air like a flying squirrel. Dracos are generally found above ground, though they sometimes creep into caves to escape very cold or very hot weather. Dracos are carnivorous and have been known to attack humans.
 
-**Horned Chameleon**: is a 7' long lizard which can change color to blend into its surroundings. It surprises on a roll of 1-5 on `1d6`. A horned chameleon can shoot out its sticky tongue up to 5' long. A successful hit means that the victim is pulled to the horned chameleon's mouth and automatically bitten for `2d4` points of damage. The horned chameleon can also attack with its horn for `1d6`, and may use its tail to knock other attackers down on a successful hit, doing no damage but preventing the victim from attacking that round.
+**Horned Chameleon**: is a 7' long lizard which can change color to blend into its surroundings. It surprises on a roll of 1-5 on `1d6`. 
+
+A horned chameleon can shoot out its sticky tongue up to 5' long. A successful hit means that the victim is pulled to the horned chameleon's mouth and automatically bitten for `2d4` points of damage.
+
+The horned chameleon can also attack with its horn for `1d6`, and may use its tail to knock other attackers down on a successful hit, doing no damage but preventing the victim from attacking that round.
 
 **Tuatara**: is an 8' long lizard that looks like a cross between an iguana and a toad. It has pebble-colored olive skin with white spikes along its back. It is carnivorous and sometimes attacks humans. A tuatara has a membrane over its eyes which, when lowered, is sensitive to changes in temperature, allowing it to see in darkness with 90' infravision.
 
@@ -1411,9 +1415,7 @@ If wounded, a wolverine fights with berserk fury and gains +2 to damage.
 
 ## Constructs
 
-Most constructs are immune to **sleep**, **charm**, **hold**, and other mind-affecting magic. They do not eat, sleep, breathe, or feel pain, and often fight until completely destroyed. Depending on the materials and enchantments used in their creation, constructs may possess unusual immunities or weaknesses.
-
-Constructs are commonly used as guardians for tombs, temples, treasure vaults, laboratories, and the hidden strongholds of powerful wizards. Some continue carrying out forgotten commands long after their creators have died.
+Most constructs are immune to **sleep**, **charm**, **hold**, and other mind-affecting magic. They do not eat, sleep, breathe, or feel pain, and often fight until completely destroyed. Depending on the materials and enchantments used in their creation, constructs may possess unusual immunities or weaknesses.  Constructs are commonly used as guardians for tombs, temples, treasure vaults, laboratories, and the hidden strongholds of powerful wizards. Their construction can take months or years, making them a rare and valuable investment for those who commission them.
 
 ### Animated Armor
 *Source:* `Homebrew`  *Category:* `Construct`
@@ -1750,7 +1752,7 @@ A quasit can become **invisible**, **cause fear**, **detect good**, and **polymo
 *Source:* `AD&D 1E Conversion`  *Category:* `Demon`
 
 | Armor Class | 10 / 14 / 18  | No. Appearing | 0 (1)     |
-| Hit Dice    | 7          | Save As       | Fighter 7 |
+| Hit Dice    | 7**        | Save As       | Fighter 7 |
 | Move        | 120' (40') | Morale        | 10        |
 | Attacks     | 1 bite / 2 claws | Treasure Type | Nil |
 | Damage      | 1d8 / 1d6 / 1d6 | Alignment | Chaotic   |
@@ -1793,8 +1795,8 @@ Arch-devils such as Asmodeus, Baalzebul, Dispater, and Geryon are unique rulers 
 ### Lemure
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
-| Armor Class | 12          | No. Appearing | 2d6 (5d6) |
-| Hit Dice    | 3*         | Save As       | Fighter 3 |
+| Armor Class | 12         | No. Appearing | 2d6 (5d6) |
+| Hit Dice    | 3**        | Save As       | Fighter 3 |
 | Move        | 30' (10')  | Morale        | 12        |
 | Attacks     | 1 claw     | Treasure Type | Nil       |
 | Damage      | 1d3        | Alignment     | Lawful    |
@@ -1808,8 +1810,8 @@ Lemures are mindless damned souls reshaped into vaguely human blobs. Their dough
 ### Erinyes
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
-| Armor Class | 17          | No. Appearing | 1d3 (4d4) |
-| Hit Dice    | 6+6        | Save As       | Fighter 7 |
+| Armor Class | 17         | No. Appearing | 1d3 (4d4) |
+| Hit Dice    | 6+6*       | Save As       | Fighter 7 |
 | Move        | 60' (20')  | Morale        | 9         |
 | Fly         | 210' (70') | Treasure Type | R         |
 | Attacks     | 1 dagger   | Alignment     | Lawful    |
@@ -1824,8 +1826,8 @@ Erinyes are soul-hunters, often appearing beautiful and winged. Their venomous d
 ### Barbed Devil
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
-| Armor Class | 19                | No. Appearing | 1d2 (3d4) |
-| Hit Dice    | 8                | Save As       | Fighter 8 |
+| Armor Class | 19               | No. Appearing | 1d2 (3d4) |
+| Hit Dice    | 8**              | Save As       | Fighter 8 |
 | Move        | 120' (40')       | Morale        | 10        |
 | Attacks     | 2 claws / 1 tail | Treasure Type | Nil       |
 | Damage      | 2d4 / 2d4 / 3d4  | Alignment     | Lawful    |
@@ -1855,13 +1857,17 @@ Bone devils are malicious torturers armed with great hooks. A creature hit by th
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
 | Armor Class | 24                                          | No. Appearing | 1d2 (2d4) |
-| Hit Dice    | 5+5                                         | Save As       | Fighter 6 |
+| Hit Dice    | 5+5**                                       | Save As       | Fighter 6 |
 | Move        | 90' (30')                                   | Morale        | 10        |
 | Fly         | 180' (60')                                  | Treasure Type | I         |
 | Attacks     | 2 claws/1 bite, or weapon / 1 tail  | Alignment     | Lawful    |
 | Damage      | 1d4/1d4/1d4+1, or weapon / 1d3      |               |           |
 
-Horned devils, or malebranche, are the least greater devils. They may carry a two-tined fork for `2d6` damage or a barbed whip for `1d4` damage plus stunning for the same number of rounds unless the victim Saves vs. Spells. Their tail wounds bleed for 1 hit point per turn until bound or magically healed. They **radiate fear** in a 5' radius and may use **pyrotechnics**, **produce flame**, **ESP**, **detect magic**, **illusion**, or attempt to **summon** another horned devil. Once per day they may create a triple-strength **wall of fire**.
+Horned devils, or malebranche, are the least greater devils. They may carry a two-tined fork for `2d6` damage or a barbed whip for `1d4` damage plus stunning for the same number of rounds unless the victim Saves vs. Spells.
+
+Their tail wounds bleed for 1 hit point per turn until bound or magically healed. They radiate **fear** in a 5’ radius and may use **pyrotechnics**, **produce flame**, **ESP**, **detect magic**, **illusion**, or attempt to **summon** another horned devil.Once per day they may create a triple-strength **wall of fire**.
+
+Malebranche delight in cruelty for its own sake, savoring a victim's terror as much as the wound itself. They serve as overseers and enforcers within the infernal hierarchy, driving lesser devils and the damned alike through threat of the lash. Vain and quick to anger, a horned devil that suffers public humiliation may abandon its post entirely to hunt down the source of its embarrassment.
 
 ::: center
 ![](assets/horned-devil-plate.png)
@@ -1870,18 +1876,23 @@ Horned devils, or malebranche, are the least greater devils. They may carry a tw
 ### Ice Devil*
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
 
-| Armor Class | 23                         | No. Appearing | 1 (1d4)    |
-| Hit Dice    | 11                         | Save As       | Fighter 11 |
-| Move        | 60' (20')                  | Morale        | 10         |
-| Fly         | Special                    | Treasure Type | Q, R       |
-| Attacks     | 2 claws / 1 bite / 1 tail  | Alignment     | Lawful     |
-| Damage      | 1d4 / 1d4 / 2d4 / 3d4      |               |            |
+| Armor Class | 23                        | No. Appearing | 1 (1d4)    |
+| Hit Dice    | 11**                      | Save As       | Fighter 11 |
+| Move        | 60' (20')                 | Morale        | 10         |
+| Fly         | Special                   | Treasure Type | Q, R       |
+| Attacks     | 2 claws / 1 bite / 1 tail | Alignment     | Lawful     |
+| Damage      | 1d4 / 1d4 / 2d4 / 3d4     |               |            |
 
 Ice devils are cold, insectile greater devils. A few carry great spears that deal `2d6` damage and numb the victim unless it Saves vs. Paralysis, slowing it by half. Ice devils regenerate 1 hit point per round, **radiate fear** in a 10' radius, and may **fly**, **wall of ice**, **detect magic**, **detect invisible**, **polymorph self**, or **summon** bone devils or another ice devil. Once per day they may cause an **ice storm**.
+
+Rigid adherents to law and hierarchy, ice devils prize contracts and precedent above all else, and will pursue a bargain's fine print with the same patience they bring to a siege. Their carapaces glitter with permanent frost, and the air around them grows brittle and silent, as if sound itself has frozen.
+
+Many serve as jurists and record-keepers within Hell's bureaucracy, cataloguing the sins and debts of the damned with meticulous, glacial precision.  Player characters who strike a bargain with such a creature would do well to read the terms twice — ice devils never lie outright, but they are infinitely patient about finding the clause that damns the signer regardless.
 
 ::: center
 ![](assets/ice-devil-plate.png)
 :::
+
 
 ### Pit Fiend*
 *Source:* `AD&D 1E Conversion`  *Category:* `Devil`
