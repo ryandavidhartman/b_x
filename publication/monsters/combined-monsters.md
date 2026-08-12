@@ -177,11 +177,11 @@ Animals in this section are considered “animals” for the purposes of magic s
 
 |               | Gorilla          | Carnivorous Ape  |
 | ------------- | ---------------- | ---------------- |
-| Armor Class   | 13                | 13                |
+| Armor Class   | 13               | 13               |
 | Hit Dice      | 4+1              | 5                |
 | Move          | 120' (40')       | 120' (40')       |
 | Attacks       | 2 claws / 1 bite | 2 claws / 1 bite |
-| Damage        | 1d3 x2 / 1d6     | 1d4 x2 / 1d8     |
+| Damage        | 1d3 / 1d3 / 1d6  | 1d4 / 1d4 / 1d8  |
 | No. Appearing | 1d4 (3d4)        | 2d4 (4d4)        |
 | Save As       | Fighter 2        | Fighter 3        |
 | Morale        | 8                | 10               |
@@ -302,7 +302,7 @@ Because bats do not rely on vision, spells or abilities that affect sight will n
 | Hit Dice       | 4                | 5                | 6                 | 6+2              |
 | Move           | 120' (40')       | 120' (40')       | 120' (40')        | 120' (40')       |
 | Attacks        | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite  | 2 claws / 1 bite |
-| Damage         | 1d3x2 / 1d6      | 1d4x2 / 1d8      | 1d6x2 / 1d10      | 1d8x2 / 1d10     |
+| Damage         | 1d3 / 1d3 / 1d6  | 1d4 / 1d4 / 1d8  | 1d6 / 1d6 / 1d10  | 1d8 / 1d8 / 1d10 |
 | No. Appearing  | 1d4 (1d4)        | 1d4 (1d4)        | 1 (1d2)           | 1d2 (1d2)        |
 | Save As        | Fighter 2        | Fighter 2        | Fighter 3         | Fighter 3        |
 | Morale         | 7                | 8                | 8                 | 9                |
@@ -378,7 +378,7 @@ Warthogs make two slashing tusk attacks. If 3-6 are encountered, the remainder m
 | Hit Dice    | 5          | Save As       | Fighter 3 |
 | Move        | 150' (50') | Morale        | 8         |
 | Attacks     | 2 horns    | Treasure Type | Nil       |
-| Damage      | 1d8x2      | Alignment     | Neutral   |
+| Damage      | 1d8 / 1d8  | Alignment     | Neutral   |
 
 Buffalo are dangerous herd animals of tropical and subtropical plains. They usually attack if approached within 60', though some herds flee when threatened.
 
@@ -502,7 +502,7 @@ Unable to swim, giant crabs are found on the bottom of shallow waters, in coasta
 
 Giant crayfish are strange freshwater monsters. They walk slowly but can swim with sudden speed for short distances.
 
-Like giant crabs, giant crayfish hide and rush out to seize prey. They surprise on 1-3 on 1d6.
+Like giant crabs, giant crayfish hide and rush out to seize prey. They surprise on 1-3 on `1d6`.
 
 ### Crocodile
 *Source:* `Expert`  *Category:* `Animal`
@@ -576,7 +576,7 @@ Giant eagles nest on high cliffs, mesas, and mountain crags. Their eyesight is s
 
 If a giant eagle dives at least 50' before attacking, it gains +4 to hit and deals double claw damage, but cannot bite that round. It can carry up to 2,000 cn at half speed.
 
-Away from the nest, giant eagles usually ignore good creatures and attack evil creatures that seem threatening. In the lair they are hostile, especially if eggs or young are present. Each nest holds 1d4 young, and there is one nest per two adults.
+Away from the nest, giant eagles usually ignore good creatures and attack evil creatures that seem threatening. In the lair they are hostile, especially if eggs or young are present. Each nest holds `1d4` young, and there is one nest per two adults.
 
 ### Eel
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -596,7 +596,7 @@ Away from the nest, giant eagles usually ignore good creatures and attack evil c
 
 Eels are water-dwellers and usually attack only when approached too closely. Giant eels are often morays with vicious teeth and foul tempers.
 
-Electric eels live in warm fresh water. Once per hour, an electric eel may discharge a shock in a 15' radius. Creatures within 5' take 3d8 damage, those 5'-10' away take 2d8, and those 10'-15' away take 1d8. Electric eels are immune to electrical effects.
+Electric eels live in warm fresh water. Once per hour, an electric eel may discharge a shock in a 15' radius. Creatures within 5' take `3d8` damage, those 5'-10' away take `2d8`, and those 10'-15' away take `1d8`. Electric eels are immune to electrical effects.
 
 Weed eels resemble seaweed and live in colonies of small tunnels leading to a treasure-floored communal cave. Their bite is poisonous; a bitten creature must Save vs. Poison or die. If intruders enter their tunnels, weed eels rush out to defend the colony.
 
@@ -919,7 +919,7 @@ Giant leeches are loathsome and slug-like. They live in swamps and are about 3 t
 
 **Draco**: is a 6' long lizard with wide flaps of skin between its legs which it can spread to glide through the air like a flying squirrel. Dracos are generally found above ground, though they sometimes creep into caves to escape very cold or very hot weather. Dracos are carnivorous and have been known to attack humans.
 
-**Horned Chameleon**: is a 7' long lizard which can change color to blend into its surroundings. It surprises on a roll of 1-5 on 1d6. A horned chameleon can shoot out its sticky tongue up to 5' long. A successful hit means that the victim is pulled to the horned chameleon's mouth and automatically bitten for 2d4 points of damage. The horned chameleon can also attack with its horn for 1d6, and may use its tail to knock other attackers down on a successful hit, doing no damage but preventing the victim from attacking that round.
+**Horned Chameleon**: is a 7' long lizard which can change color to blend into its surroundings. It surprises on a roll of 1-5 on `1d6`. A horned chameleon can shoot out its sticky tongue up to 5' long. A successful hit means that the victim is pulled to the horned chameleon's mouth and automatically bitten for `2d4` points of damage. The horned chameleon can also attack with its horn for `1d6`, and may use its tail to knock other attackers down on a successful hit, doing no damage but preventing the victim from attacking that round.
 
 **Tuatara**: is an 8' long lizard that looks like a cross between an iguana and a toad. It has pebble-colored olive skin with white spikes along its back. It is carnivorous and sometimes attacks humans. A tuatara has a membrane over its eyes which, when lowered, is sensitive to changes in temperature, allowing it to see in darkness with 90' infravision.
 
@@ -938,7 +938,7 @@ Giant leeches are loathsome and slug-like. They live in swamps and are about 3 t
 
 Giant lynx are intelligent forest cats of cold regions. They climb well, swim reasonably, and leap up to 15'.
 
-If a giant lynx hits with both forepaws, it rakes with its rear claws for 1d3 / 1d3 damage. Giant lynx hide so well they are 90% unlikely to be detected under normal conditions, surprise on 1-5 on 1d6, and detect traps with 75% accuracy.
+If a giant lynx hits with both forepaws, it rakes with its rear claws for `1d3` / `1d3` damage. Giant lynx hide so well they are 90% unlikely to be detected under normal conditions, surprise on 1-5 on `1d6`, and detect traps with 75% accuracy.
 
 ::: center
 ![](assets/giant-lynx-plate.png)
@@ -1045,7 +1045,7 @@ They are attracted by blood and splashing, but avoid obviously stronger aquatic 
 
 Giant porcupines are shy herbivores that defend themselves with long quills. Predators striking them may be impaled.
 
-When threatened, a giant porcupine lashes or backs into attackers. Creatures hitting it in melee risk 1d4 quill hits for 1d6 damage each.
+When threatened, a giant porcupine lashes or backs into attackers. Creatures hitting it in melee risk `1d4` quill hits for `1d6` damage each.
 
 ### Ram, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -1077,7 +1077,7 @@ A charging ram deals double damage. A flock usually contains one ram, four ewes,
 | Treasure Type | L               | C              |
 | Alignment     | Neutral         | Neutral        |
 
-Rats will eat almost anything and some rats carry diseases. Anyone bitten by a rat has a 1 in 20 chance of being infected, and that chance should be checked each time a rat successfully hits. The victim may still avoid the disease by making a saving throw vs. Poison. If the save is failed, roll 1d4. On a 1 the victim dies in 1-6 days; otherwise the victim is sick in bed and unable to adventure for one month. The disease may be cured magically.
+Rats will eat almost anything and some rats carry diseases. Anyone bitten by a rat has a 1 in 20 chance of being infected, and that chance should be checked each time a rat successfully hits. The victim may still avoid the disease by making a saving throw vs. Poison. If the save is failed, roll `1d4`. On a 1 the victim dies in 1-6 days; otherwise the victim is sick in bed and unable to adventure for one month. The disease may be cured magically.
 
 Rats usually avoid humans and will not attack unless summoned, by a wererat for example, or while defending their lair. Rats are good swimmers and may attack without penalty while in water. They are afraid of fire, and will run from it unless forced to fight by their leader, the creature summoning them.
 
@@ -1101,11 +1101,11 @@ Giant Rats: Giant rats are 3 feet long or more, and have gray or black fur. They
 | Treasure Type | C            | Nil          | Nil         |
 | Alignment     | Neutral      | Neutral      | Neutral     |
 
-Manta rays lie camouflaged on the sea floor and engulf prey in their huge mouths. Swallowed creatures die in 6 rounds unless they cut their way free. A manta's tail spine deals 2d10 damage and may stun unless a Save vs. Paralysis succeeds.
+Manta rays lie camouflaged on the sea floor and engulf prey in their huge mouths. Swallowed creatures die in 6 rounds unless they cut their way free. A manta's tail spine deals `2d10` damage and may stun unless a Save vs. Paralysis succeeds.
 
 Pungi rays hide under sand with poisonous spines protruding like seaweed. A creature stepping or falling onto the spines must Save vs. Poison or die.
 
-Sting rays are shallow-water bottom feeders that lash with poisonous tail spines when stepped on. A victim must Save vs. Poison or be paralyzed for 5d4 turns and take the same amount of additional damage.
+Sting rays are shallow-water bottom feeders that lash with poisonous tail spines when stepped on. A victim must Save vs. Poison or be paralyzed for `5d4` turns and take the same amount of additional damage.
 
 ### Rhinoceros
 *Source:* `Expert`  *Category:* `Animal`
@@ -1193,7 +1193,7 @@ Their attack is so ferocious (attacking the head and shoulders of the defender) 
 
 Giant skunks are shy but dangerous animals. If threatened, they spray a foul musk in a cone behind them.
 
-Creatures struck by musk must Save vs. Poison or be blinded and nauseated for 1d6 turns. The odor clings for days unless washed with strong substances or removed by magic.
+Creatures struck by musk must Save vs. Poison or be blinded and nauseated for `1d6` turns. The odor clings for days unless washed with strong substances or removed by magic.
 
 ::: pagebreak-pdf
 :::
@@ -1222,7 +1222,7 @@ Creatures struck by musk must Save vs. Poison or be blinded and nauseated for 1d
 
 Snakes are found almost everywhere except for very hot or very cold places. Most snakes do not usually attack unless surprised or threatened. Many (but not all) snakes have poisonous bites.  They average 6' long (for every 3 hit dice) in size, but can be much larger if the DM desires. 
 
-**Spitting Cobra**: A spitting cobra is a 3' long grayish-white snake which can squirt a stream of venom up to a distance of 6 feet. It aims for its victim's eyes. If the spit hits, the victim must save vs. Poison or be blinded. (This blindness can normally only be removed by a cure blindness spell from the D&D EXPERT rules, but the DM may wish to invent other ways — such as eating a shrieker.) As with most small poisonous snakes, a spitting cobra will not attack human-sized or larger opponents unless startled or threatened. It can either spit or bite in one round, but not both. It will usually spit. The damage given (1-3 points) only applies to the bite; in this case, the victim must save vs. Poison or die in 1- 10 (1d10) turns.
+**Spitting Cobra**: A spitting cobra is a 3' long grayish-white snake which can squirt a stream of venom up to a distance of 6 feet. It aims for its victim's eyes. If the spit hits, the victim must save vs. Poison or be blinded. (This blindness can normally only be removed by a cure blindness spell from the D&D EXPERT rules, but the DM may wish to invent other ways — such as eating a shrieker.) As with most small poisonous snakes, a spitting cobra will not attack human-sized or larger opponents unless startled or threatened. It can either spit or bite in one round, but not both. It will usually spit. The damage given (1-3 points) only applies to the bite; in this case, the victim must save vs. Poison or die in 1- 10 (`1d10`) turns.
 
 **Pit Viper**: A pit viper is a 5' long greenish-gray poisonous snake with small pits in its head. These pits act as heat sensors, with a range of 60'. The combination of pits and infravision makes it very hard to fight a pit viper; it is so quick that it always gains the initiative (no roll needed). Any victim bitten by a pit viper must save vs. Poison or die.
 
@@ -1230,7 +1230,7 @@ Snakes are found almost everywhere except for very hot or very cold places. Most
 
 **Giant Rattlesnake**: A giant rattlesnake is a 10' long snake with brown and white scales set in a diamond pattern. On its tail is a dried, scaly rattle, which it often rattles to warn off intruders or attackers who are too large to eat. Giant rattlesnakes are meat-eaters and their bite is poisonous (save vs. Poison or die in 1-6 turns.) They are very fast and may attack a second time at the end of every round.
 
-**Rock Python**: A rock python is a 20' long giant snake with brown and yellow scales set in a spiral pattern. Its first attack is a bite. If the bite is successful, a rock python will coil around the victim and constrict in the same round. This squeezing does 2d4 points of damage per round, and begins automatically once the bite hits.
+**Rock Python**: A rock python is a 20' long giant snake with brown and yellow scales set in a spiral pattern. Its first attack is a bite. If the bite is successful, a rock python will coil around the victim and constrict in the same round. This squeezing does `2d4` points of damage per round, and begins automatically once the bite hits.
 
 ::: center
 ![](assets/snake-plate.png)
@@ -1282,7 +1282,7 @@ Their antlers can gore or batter attackers, and a herd may stampede if panicked.
 
 Tigers are powerful solitary cats of jungles and forests. They stalk prey silently and spring from cover.
 
-If a tiger hits with both claws, it may rake with its rear claws for 1d6 / 1d6 damage.
+If a tiger hits with both claws, it may rake with its rear claws for `1d6` / `1d6` damage.
 
 ### Toad, Giant
 *Source:* `Expert`  *Category:* `Animal`
@@ -1353,7 +1353,7 @@ Giant weasels have infravision to 30' and can track by scent. They prefer wounde
 
 Killer whale. These are 25' long and are found mainly in cold waters. They live by hunting other sea creatures (even other whales). Creatures of halfling size or smaller will be swallowed whole if the killer whale scores a 20 on its "to hit" roll. Those swallowed take `1d6` points of damage per round and will drown in 10 rounds unless freed.
 
-Narwhal. The narwhal is 15' long, grey to white in color, and has an 8' long spiral horn on its head (like that of a unicorn). It is an intelligent, magical creature, very independent and secretive. It is rumored that their horns vibrate in the presence of evil. Their horns are worth from 1,000 to 6,000 gold pieces each (1d6 x 1000) for their ivory. Narwhals roam arctic waters.
+Narwhal. The narwhal is 15' long, grey to white in color, and has an 8' long spiral horn on its head (like that of a unicorn). It is an intelligent, magical creature, very independent and secretive. It is rumored that their horns vibrate in the presence of evil. Their horns are worth from 1,000 to 6,000 gold pieces each (`1d6` x 1000) for their ivory. Narwhals roam arctic waters.
 
 Sperm whale. This huge whale can grow to be 60' long. It preys on the most feared denizens of the deep (such as the giant squid).
 
@@ -1442,7 +1442,7 @@ Most animated armor fights with weapons held in mailed hands, though some punch,
 | Move        | 90' (30')         | Morale        | 11        |
 | Flying      | 150' (50')        | Treasure Type | C         |
 | Attacks     | 2 claws/bite/horn | Alignment     | Chaotic   |
-| Damage      | 1d3x2/1d6/1d4     |               |           |
+| Damage      | 1d3 / 1d3 / 1d6 / 1d4 |           |           |
 
 Gargoyles are winged, horned, clawed creatures resembling the grotesque stone figures found on ancient temples, castles, and cathedrals. Their hides often look exactly like weathered stone, allowing them to remain perfectly motionless and be mistaken for ordinary statues until they suddenly spring to life.
 
@@ -1466,7 +1466,7 @@ Gargoyles are immune to **sleep** and **charm** spells. Because ordinary weapons
 | Hit Dice      | 2 + 2      | 8          | 8*         | 10**             | 11*         | 20**             |
 | Move          | 120' (40') | 120' (40') | 90' (30')  | 180' (60')       | 60' (20')   | 240' (80')       |
 | Attacks       | 1 fist     | 4 weapons  | 2 fists    | 2 claws / 1 bite | 1 fist      | 1 fist + special |
-| Damage        | 1-8        | By weapon  | 2d8 / 2d8  | 2d6x2/2d10       | 3d10        | 3d10 + special   |
+| Damage        | 1-8        | By weapon  | 2d8 / 2d8  | 2d6 / 2d6 / 2d10 | 3d10        | 3d10 + special   |
 | No. Appearing | 1 (1)      | 1 (1)      | 1 (1)      | 1 (1)            | 1 (1)       | 1 (1)            |
 | Save As       | Fighter 1  | Fighter 4  | Fighter 4  | Fighter 5        | Fighter 6   | Fighter 10       |
 | Morale        | 12         | 12         | 12         | 12               | 12          | 12               |
@@ -1945,7 +1945,7 @@ All dragons radiate an aura of supernatural fear, similar to a fear spell, affec
 | Move           | 90' (30')              | 90' (30')               | 90' (30')              | 90' (30')               | 90' (30')              | 90' (30')              |
 | Fly            | 240' (80')             | 240' (80')              | 240' (80')             | 240' (80')              | 240' (80')             | 240' (80')             |
 | Attacks        | 2 claws/bite or breath | 2 claws/bite or breath  | 2 claws/bite or breath | 2 claws/bite or breath  | 2 claws/bite or breath | 2 claws/bite or breath |
-| Damage         | 1d4x2/2d8 or special   | 1d4+1x2/2d10 or special | 1d6x2/3d8 or special   | 1d6+1x2/3d10 or special | 1d8x2/4d8 or special   | 2d4x2/6d6 or special   |
+| Damage         | 1d4 / 1d4 / 2d8 or special | 1d4+1 / 1d4+1 / 2d10 or special | 1d6 / 1d6 / 3d8 or special | 1d6+1 / 1d6+1 / 3d10 or special | 1d8 / 1d8 / 4d8 or special | 2d4 / 2d4 / 6d6 or special |
 | No. Appearing  | 1d4 (1d4)              | 1d4 (1d4)               | 1d4 (1d4)              | 1d4 (1d4)               | 1d4 (1d4)              | 1-4 (1-4)              |
 | Save As        | Fighter 6              | Fighter 7               | Fighter 8              | Fighter 9               | Fighter 10             | Fighter 11             |
 | Morale         | 8                      | 8                       | 9                      | 9                       | 10                     | 10                     |
@@ -1970,7 +1970,7 @@ Dragons are proud of their long history, and because of this they tend to think 
 
 BREATH WEAPONS DAMAGE: All dragons have a special attack with their Breath Weapon in addition to their claw and bite attacks. Any dragon can use its Breath Weapon up to 3 times each day. A dragon's first attack is always with its Breath Weapon. The number of points of damage any Breath Weapon does is equal to the dragon's remaining number of hit points. Any damage done to a dragon will reduce the damage it can do with its Breath Weapon.
 
-After the first Breath attack, a dragon may choose to attack with claws and bite. To determine this randomly, roll 1d6. A result of 1-3 means that the dragon will use its claw and bite attacks; a result of 4-6 means that the dragon will breathe again.
+After the first Breath attack, a dragon may choose to attack with claws and bite. To determine this randomly, roll `1d6`. A result of 1-3 means that the dragon will use its claw and bite attacks; a result of 4-6 means that the dragon will breathe again.
 
 SHAPE OF BREATH: A dragon's Breath Weapon appears as one of three different shapes: cone-shaped, a straight line, or a cloud of gas.
 
@@ -2012,7 +2012,7 @@ Dragons are extremely powerful and should be used with caution when encountered 
 | Move        | 30' (10')        | Morale        | 10         |
 | Swimming    | 90' (30')        | Treasure Type | H          |
 | Attacks     | 2 claws / 1 bite | Alignment     | Chaotic    |
-| Damage      | 1d8x2/10d6       |               |            |
+| Damage      | 1d8 / 1d8 / 10d6 |               |            |
 
 Dragon turtles appear to be some unusual mixture of a dragon and a gigantic turtle. They have the head, limbs and tail of a great dragon and the hard shell of a turtle. These creatures live in the depths of great oceans and seas, seldom surfacing or approaching land. Dragon turtles are so large that sailors have mistakenly anchored on ones floating on the surface, thinking the hard shell to be a small island.
 
@@ -2037,7 +2037,7 @@ Note: Dragon turtles are extremely powerful creatures that should not be used un
 
 A faerie dragon is a tiny, whimsical dragon-kin with a long prehensile tail, butterfly-like wings, and a huge smile, its hide running from red when young to purple in great age. Females shine with a golden tinge in sunlight; males, a silver one. They live in peaceful forests, often alongside sprites or pixies, and can turn invisible at will — even while attacking, breathing, or casting.
 
-Rather than fight, a faerie dragon prefers to breathe a small cloud of euphoria gas; a victim failing a Save vs. Breath Weapon wanders about in blissful confusion for 3d4 rounds, unable to attack or otherwise act. About two-thirds of faerie dragons pick up a handful of minor magic-user spells as they age, the rest a handful of druid spells, and every spell they learn is chosen purely for mischief rather than combat — a faerie dragon will go to great lengths for a fresh apple pie or the perfect prank, and months of planning often go into a single elaborate joke. All faerie dragons can speak telepathically with one another up to two miles apart, and often enlist local forest creatures to help spring their pranks.
+Rather than fight, a faerie dragon prefers to breathe a small cloud of euphoria gas; a victim failing a Save vs. Breath Weapon wanders about in blissful confusion for `3d4` rounds, unable to attack or otherwise act. About two-thirds of faerie dragons pick up a handful of minor magic-user spells as they age, the rest a handful of druid spells, and every spell they learn is chosen purely for mischief rather than combat — a faerie dragon will go to great lengths for a fresh apple pie or the perfect prank, and months of planning often go into a single elaborate joke. All faerie dragons can speak telepathically with one another up to two miles apart, and often enlist local forest creatures to help spring their pranks.
 
 ::: center
 ![](assets/faerie-dragon-plate.png)
@@ -2154,9 +2154,9 @@ At will a dao may once each day become invisible, take gaseous form, cause misdi
 
 Djinn are beings of elemental air. They can travel the elemental, astral, and material planes, and speak with intelligent creatures by a limited telepathy.
 
-Once per day a djinni may create food and drink for 2d6 persons, create soft goods or wooden items, create temporary metal items, create an audio-visual illusion, become invisible, assume gaseous form, wind walk, or form a whirlwind. A whirlwind takes 1 turn to form, lasts 1 round, and takes 1 turn to disperse. It deals 2d6 damage to non-aerial creatures and sweeps away creatures of less than 2 Hit Dice.
+Once per day a djinni may create food and drink for `2d6` persons, create soft goods or wooden items, create temporary metal items, create an audio-visual illusion, become invisible, assume gaseous form, wind walk, or form a whirlwind. A whirlwind takes 1 turn to form, lasts 1 round, and takes 1 turn to disperse. It deals `2d6` damage to non-aerial creatures and sweeps away creatures of less than 2 Hit Dice.
 
-A djinni can carry 6,000 cn without tiring. It can carry twice that for a short time, then must rest for 6 turns. A noble djinni is very rare, has 10 Hit Dice, deals 3d8 damage, and may grant three wishes before becoming free.
+A djinni can carry 6,000 cn without tiring. It can carry twice that for a short time, then must rest for 6 turns. A noble djinni is very rare, has 10 Hit Dice, deals `3d8` damage, and may grant three wishes before becoming free.
 
 ::: center
 ![](assets/djinni-plate.png)
@@ -2308,7 +2308,7 @@ Staff elementals, the weakest, are summoned by a magic-user with a special staff
 ::: twocolumn-pdf-begin
 :::
 
-Mephits are small, garish, foul-tempered fiends used as messengers and errand-runners by more powerful denizens of the Lower Planes. Roughly 5' tall with fangs and small functional wings, they dress in the loudest clothing they can steal and delight in cruelty, mockery, and tasteless jokes. Each carries a handful of coin (2d6 pieces, or platinum in the case of a lava mephit) as personal loot rather than true treasure.
+Mephits are small, garish, foul-tempered fiends used as messengers and errand-runners by more powerful denizens of the Lower Planes. Roughly 5' tall with fangs and small functional wings, they dress in the loudest clothing they can steal and delight in cruelty, mockery, and tasteless jokes. Each carries a handful of coin (`2d6` pieces, or platinum in the case of a lava mephit) as personal loot rather than true treasure.
 
 - **Fire mephit**: wreathed in flame, it breathes a jet of fire or a 5' gout that burns everything in front of it.
 - **Lava mephit**: oozes molten rock and can hurl a blob of it, and it regenerates while in contact with lava.
@@ -2330,7 +2330,7 @@ Once per hour, any mephit may attempt to **gate** in another mephit of random ty
 | Hit Dice       | 8*               | 12*              |
 | Move           | 120' (40')       | 120' (40')       |
 | Attacks        | 2 claws / 1 bite | 4 claws / 1 bite |
-| Damage         | 1d4x2/1d8        | 1d6x4 / 2d6      |
+| Damage         | 1d4 / 1d4 / 1d8  | 1d6 / 1d6 / 1d6 / 1d6 / 2d6 |
 | No. Appearing  | 1d4+1 (2d4)      | 1d3 (1d3)        |
 | Save As        | Fighter 8        | Fighter  12      |
 | Morale         | 8                | 9                |
@@ -2456,7 +2456,7 @@ Bugbears speak their own tongue, goblin, hobgoblin, and the chaotic alignment la
 
 A drider is a drow who failed a secret test set by Lolth for those of promising rank, and was transformed rather than rewarded: the torso, arms, and head of a pale, bloated dark elf sprout from the body of a giant spider. About 60% of driders are female.
 
-A drider retains its former spellcasting — females as a 6th or 7th level cleric, males with a handful of minor magic-user spells — and fights capably with sword, axe, or bow, or with a poisonous bite that forces a Save vs. Poison at -2 or paralyzes for 1d2 turns. Cast out from drow society and shown no love in return, driders are usually encountered alone, though 1 in 10 keep company with a pack of huge spiders. They hunt underground, stalking prey patiently before striking, and feed chiefly on the blood of their kills.
+A drider retains its former spellcasting — females as a 6th or 7th level cleric, males with a handful of minor magic-user spells — and fights capably with sword, axe, or bow, or with a poisonous bite that forces a Save vs. Poison at -2 or paralyzes for `1d2` turns. Cast out from drow society and shown no love in return, driders are usually encountered alone, though 1 in 10 keep company with a pack of huge spiders. They hunt underground, stalking prey patiently before striking, and feed chiefly on the blood of their kills.
 
 ::: center
 ![](assets/drider-plate.png)
@@ -2575,9 +2575,9 @@ Treasure type C is only found in the goblin lair or when encountered in the wild
 | Attacks     | 1 weapon  | Treasure Type | D              |
 | Damage      | 1d8       | Alignment     | Chaotic        |
 
-Hobgoblins are bigger and meaner relatives of goblins. They live underground but often hunt above ground and have no penalties for fighting in full daylight. A hobgoblin king and 1-4 (1d4) bodyguards live in the hobgoblin lair. The king has 22 hit points and fights as a 5 hit dice monster, gaining a bonus of + 2 on damage.
+Hobgoblins are bigger and meaner relatives of goblins. They live underground but often hunt above ground and have no penalties for fighting in full daylight. A hobgoblin king and 1-4 (`1d4`) bodyguards live in the hobgoblin lair. The king has 22 hit points and fights as a 5 hit dice monster, gaining a bonus of + 2 on damage.
 
-The bodyguards all fight as 4 hit dice  and have 3-18 (3d6) hit points each. As long as their king is alive and with them, hobgoblin morale is 10 rather than 8.
+The bodyguards all fight as 4 hit dice  and have 3-18 (`3d6`) hit points each. As long as their king is alive and with them, hobgoblin morale is 10 rather than 8.
 
 ::: center
 ![](assets/hobgoblin-plate.png)
@@ -2610,7 +2610,7 @@ These small, evil dog-like men usually live underground. They have scaly rust-br
 
 The kuo-toa are a fish-man race driven from the sunlit world ages ago by the rise of mankind. Those who fled into deep, lightless waters survived and grew strange, and now their descendants dwell in vast subterranean lakes and caverns, worshipping the fish-headed goddess Blibdoolpoolp, the Sea Mother. They hate sunlight and are almost never found above ground.
 
-A kuo-toa's slimy, tough hide grants it a good natural armor class, and that same slime makes it hard to grapple, tie, or web. They fight with spear, net, or barbed harpoon, or bite for 1d4 when unarmed, and their bands are led by higher-level warriors, clerics, and "whips" who keep the fanatical rank and file in line. Kuo-toa keep slaves taken from many races, hate the drow and mind flayers above all else, and regard sahuagin as rivals for the same dark waters.
+A kuo-toa's slimy, tough hide grants it a good natural armor class, and that same slime makes it hard to grapple, tie, or web. They fight with spear, net, or barbed harpoon, or bite for `1d4` when unarmed, and their bands are led by higher-level warriors, clerics, and "whips" who keep the fanatical rank and file in line. Kuo-toa keep slaves taken from many races, hate the drow and mind flayers above all else, and regard sahuagin as rivals for the same dark waters.
 
 ::: center
 ![](assets/kuo-toa-plate.png)
@@ -2735,7 +2735,7 @@ Triton leaders may cast spells or command marine animals. They use spears, tride
 
 A troglodyte is an intelligent human-like reptile with a short tail, long legs, and a spiny comb on its head and arms. Troglodytes walk upright and use their hands as well as humans. They hate most other creatures, and will try to kill anyone they meet.
 
-They have a chameleon-like ability to change colors and use it to hide by rock walls, surprising on a roll of 1-4 on 1d6. They secrete an oil which produces a stench that will nauseate humans and demi-humans unless the victims save vs. Poison. Nauseated characters have a -2 penalty on their attack rolls while in hand-to-hand combat with the troglodytes.
+They have a chameleon-like ability to change colors and use it to hide by rock walls, surprising on a roll of 1-4 on `1d6`. They secrete an oil which produces a stench that will nauseate humans and demi-humans unless the victims save vs. Poison. Nauseated characters have a -2 penalty on their attack rolls while in hand-to-hand combat with the troglodytes.
 
 ::: center
 ![](assets/troglodyte-plate.png)
@@ -2780,7 +2780,7 @@ A cyclops usually lives alone, though a small group may sometimes share a large 
 
 Ettins are two-headed giant-kin that dwell in remote places, usually in underground lairs. They are nocturnal and prefer darkness.
 
-Each head controls one arm, allowing an ettin to attack with both clubs at once. One head is usually alert while the other rests, so ettins are surprised only on a roll of 1 on 1d6.
+Each head controls one arm, allowing an ettin to attack with both clubs at once. One head is usually alert while the other rests, so ettins are surprised only on a roll of 1 on `1d6`.
 
 Ettins are closely related to orcs in appearance and habits. They dress in filthy animal skins and favor spiked clubs and similar brutal weapons.
 
@@ -2835,7 +2835,7 @@ Ettins are closely related to orcs in appearance and habits. They dress in filth
 
 Ogres are huge fearsome human-like creatures, usually 8 to 10 feet tall. They wear animal skins for clothes, and often live in caves.
 
-When encountered outside their lair, they will be carrying 100-600 gp (1d6 x 100) in large sacks. Ogres hate Neanderthals and will attack them on sight.
+When encountered outside their lair, they will be carrying 100-600 gp (`1d6` x 100) in large sacks. Ogres hate Neanderthals and will attack them on sight.
 
 ::: center
 ![](assets/ogre-plate.png)
@@ -2856,7 +2856,7 @@ When encountered outside their lair, they will be carrying 100-600 gp (1d6 x 100
 
 Ogre magi are intelligent, magical ogres with cruel appetites and a taste for command. They use magic and deception before closing to fight.
 
-An ogre mage can become invisible, fly, charm person, assume gaseous form, create darkness, and regenerate 1 hit point per round. Once per day it may breathe a cone of cold for 8d8 damage, half with a successful Save vs. Breath Weapon.
+An ogre mage can become invisible, fly, charm person, assume gaseous form, create darkness, and regenerate 1 hit point per round. Once per day it may breathe a cone of cold for `8d8` damage, half with a successful Save vs. Breath Weapon.
 
 ::: center
 ![](assets/ogre-mage-plate.png)
@@ -2984,7 +2984,7 @@ Killer bee hives contain a rare golden honey prized by alchemists and healers. T
 | Move          | 120' (40') | 120' (40')  | 90' (30')  | 30' (10')  | 60' (20')  | 60' (20')      | 60' (20')     |
 | Swim          | Nil        | Nil         | Nil        | 120' (40') | Nil        | Nil            | Nil           |
 | Attacks       | 1 bite     | bite/spray  | 1 bite     | 1 bite     | 1 bite     | 1 horn/2 claws | 1 horn/1 bite |
-| Damage        | 2d4        | 1d6/special | 2d6        | 3d6        | 5d4        | 4d4/1d10x2     | 3d6/2d8       |
+| Damage        | 2d4        | 1d6/special | 2d6        | 3d6        | 5d4        | 4d4 / 1d10 / 1d10 | 3d6/2d8    |
 | No. Appearing | 1d8 (2d6)  | 1d8 (2d6)   | 2d4 (3d4)  | 1d6 (2d6)  | 1d6 (3d6)  | 1d8 (2d6)      | 1d4 (1d6)     |
 | Save As       | Fighter 1  | Fighter 1   | Fighter 2  | Fighter 2  |  Fighter 3 | Fighter 4      | Fighter 6     |
 | Morale        | 7          | 8           | 8          | 8          | 8          | 8              | 8             |
@@ -3043,7 +3043,7 @@ Giant centipedes are insects with 1' long bodies and many legs they like to live
 
 Ear seekers are tiny insect-like creatures found in old wood. They feed on dead cellulose, but lay their eggs in warm cavities, especially ears.
 
-If an ear seeker enters an ear or similar opening, it lays 1d8+8 eggs and crawls out to die. The eggs hatch in 4d6 hours, and the larvae burrow inward, killing the host 90% of the time. Cure disease destroys the eggs or larvae.
+If an ear seeker enters an ear or similar opening, it lays `1d8+8` eggs and crawls out to die. The eggs hatch in `4d6` hours, and the larvae burrow inward, killing the host 90% of the time. Cure disease destroys the eggs or larvae.
 
 ### Fly, Robber
 *Source:* `Basic`  *Category:* `Insect`
@@ -3055,7 +3055,7 @@ If an ear seeker enters an ear or similar opening, it lays 1d8+8 eggs and crawls
 | Attacks     | 1 bite        | Alignment     | Neutral   |
 | Damage      | 1d8           |               |           |
 
-Robber flies are 3' long giant flies colored with black and yellow stripes. At a distance they look like killer bees. They are not harmed by the poison of killer bees, which are their main source of food. Robber flies are patient hunters. They often hide in shadows and wait for prey, surprising on a roll of 1-4 (on 1d6). A robber fly can leap up to 30' and attack with its bite. Robber flies are meat eaters and have been known to attack humans.
+Robber flies are 3' long giant flies colored with black and yellow stripes. At a distance they look like killer bees. They are not harmed by the poison of killer bees, which are their main source of food. Robber flies are patient hunters. They often hide in shadows and wait for prey, surprising on a roll of 1-4 (on `1d6`). A robber fly can leap up to 30' and attack with its bite. Robber flies are meat eaters and have been known to attack humans.
 
 ### Insect Swarms
 *Source:* `Basic`  *Category:* `Insect`
@@ -3106,7 +3106,7 @@ When frightened or attacked, cave locusts make a loud shrieking noise to warn th
 
 Rot grubs live in offal, dung, and carrion. They burrow into living flesh that touches them.
 
-A victim must immediately apply flame to the wound, taking 1d6 damage, or receive cure disease. Otherwise the grubs reach the heart and kill the victim in 1d3 turns.
+A victim must immediately apply flame to the wound, taking `1d6` damage, or receive cure disease. Otherwise the grubs reach the heart and kill the victim in `1d3` turns.
 
 ::: center
 ![](assets/rot-grub-plate.png)
@@ -3180,13 +3180,13 @@ Spider bites are poisonous. Victims must Save vs. Poison or die, though the refe
 ::: twocolumn-pdf-begin
 :::
 
-- *Crab Spider*: Crab spiders are 5' long giant spiders. They are meat-eaters and attack their victims by clinging to walls or ceilings and dropping onto them. They have chameleon-like powers and can change their color to blend into their surroundings, surprising on a roll of 1-4 (on 1d6). After the first attack, a crab spider can be seen and attacked normally. Any victim bitten by a crab spider must save vs. Poison or die in 1d4 turns. However, the poison is weak, and the victim may add + 2 to the saving throw roll.
+- *Crab Spider*: Crab spiders are 5' long giant spiders. They are meat-eaters and attack their victims by clinging to walls or ceilings and dropping onto them. They have chameleon-like powers and can change their color to blend into their surroundings, surprising on a roll of 1-4 (on `1d6`). After the first attack, a crab spider can be seen and attacked normally. Any victim bitten by a crab spider must save vs. Poison or die in `1d4` turns. However, the poison is weak, and the victim may add + 2 to the saving throw roll.
 
 - *Black Widow Spider*: Black widow spiders are 6' long and colored black with a red "hourglass" mark on their abdomens. They tend to stay close to their webbed lairs. They are carnivorous and have been known to attack humans. Their webs should be treated as the magic-user's spell web, with respect to the chances of breaking free (once entrapped). The webs may also be burned away. Any victim of the bite of a black widow spider must save vs. Poison or die in 1 turn.
 
 - *Tarantella*: A tarantella is a huge hairy magical spider which looks like a 7' long tarantula. Its bite does not kill; instead, it causes the victim (if a saving throw vs. Poison is failed) to have painful spasms which resemble a frantic thance. This thance has a magical effect on onlookers, and they may be affected. Anyone watching must save vs. Spells or start to thance in the same way. Dancing victims have a penalty of -4 on their "to hit" rolls, and attackers gain + 4 "to hit" the victim. The effects of the bite last for 2-12 turns. However, thancers will drop from exhaustion in 5 turns, and they will then be helpless against attacks. Those caught while watching will dance as long as the original victim. (In the D&D EXPERT rules, there are magical means to cure the poison, and a dispel magic spell will stop the thance.)
 
-- *Rhagodessa*: A rhagodessa is a giant arachnid which looks like a huge hairy spider with an oversized head and jaws (mandibles). A rhagodessa is nocturnal (sleeping during the day and active at night or in the dark), and lives in caves. A rhagodessa is about the size of a small horse, colored yellow with a dark brown thorax. It has 5 pairs of legs; the front pair end in suckers which help the creature to grasp its prey. A hit with a sucker-leg does no damage but means that the victim is stuck. In the next round of combat, the victim will be pulled to the rhagodessa's mandibles and will automatically be bitten for 2d8 points of damage. Rhagodessae can climb walls, are meateaters and always hungry.
+- *Rhagodessa*: A rhagodessa is a giant arachnid which looks like a huge hairy spider with an oversized head and jaws (mandibles). A rhagodessa is nocturnal (sleeping during the day and active at night or in the dark), and lives in caves. A rhagodessa is about the size of a small horse, colored yellow with a dark brown thorax. It has 5 pairs of legs; the front pair end in suckers which help the creature to grasp its prey. A hit with a sucker-leg does no damage but means that the victim is stuck. In the next round of combat, the victim will be pulled to the rhagodessa's mandibles and will automatically be bitten for `2d8` points of damage. Rhagodessae can climb walls, are meateaters and always hungry.
 
 ::: center
 ![](assets/spider-plate.png)
@@ -3203,7 +3203,7 @@ Spider bites are poisonous. Victims must Save vs. Poison or die, though the refe
 
 Giant ticks drop from ceilings, trees, or cave walls onto warm-blooded prey. Once attached, they swell with blood.
 
-An attached tick drains 1d6 damage per round. Pulling it free without killing it causes another 1d4 damage.
+An attached tick drains `1d6` damage per round. Pulling it free without killing it causes another `1d4` damage.
 
 ### Wasp, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Insect`
@@ -3291,7 +3291,7 @@ Apatosaurus (also known as brontosaurus) is an enormous, long-necked herbivore t
 | Hit Dice    | 4          | Save As       | Fighter 2 |
 | Move        | 120' (40') | Morale        | 7         |
 | Attacks     | 2 claws    | Treasure Type | Nil       |
-| Damage      | 1d4 x2     | Alignment     | Neutral   |
+| Damage      | 1d4 / 1d4  | Alignment     | Neutral   |
 
 White apes are pale cave-dwelling apes that have lost their color after countless generations spent underground. They are nocturnal creatures, sleeping during the day and emerging at night to search for fruits, roots, fungi, and other edible plants.
 
@@ -3325,7 +3325,7 @@ Archelon is a gigantic sea turtle, its shell spanning up to 12 feet across, foun
 | Hit Dice    | 3                | Save As       | Fighter 2 |
 | Move        | 180' (60')       | Morale        | 8         |
 | Attacks     | 2 claws / 1 bite | Treasure Type | Nil       |
-| Damage      | 1d3 x2 / 2d8     | Alignment     | Neutral   |
+| Damage      | 1d3 / 1d3 / 2d8  | Alignment     | Neutral   |
 
 Axe beaks are prehistoric carnivorous flightless birds. They are exceptionally fast runners and aggressively hunt during daylight hours.
 
@@ -3361,7 +3361,7 @@ If two are encountered, they are a mated pair. If three are encountered, the thi
 | Hit Dice    | 7              | Save As       | Fighter 3 |
 | Move        | 120' (40')     | Morale        | 9         |
 | Attacks     | 2 claws/1 bite | Treasure Type | V         |
-| Damage      | 1d4x2/1d8      | Alignment     | Neutral   |
+| Damage      | 1d4 / 1d4 / 1d8 | Alignment    | Neutral   |
 
 Cave bears are gigantic prehistoric bears found in deep caverns, isolated valleys, and lost world regions untouched by civilization. Standing nearly 15' tall when rearing, they are among the largest and most dangerous natural predators known. Their shaggy fur ranges from dark brown to pale gray, and their enormous claws can tear through bone and wood with ease.
 
@@ -3809,13 +3809,13 @@ Lycanthropes are humans who can transform into beasts, or in the case of wererat
 
 **Animal Form**: In animal form, a lycanthrope may only be harmed by silver weapons, magic weapons, or magic spells. It cannot speak normal languages, but may communicate with animals of its own kind.
 
-**Languages**: Each type of lycanthrope has its own language and may summon 1-2 normal animals of its associated type from the surrounding area (wererats summon giant rats instead). These creatures arrive in 1d4 rounds. 
+**Languages**: Each type of lycanthrope has its own language and may summon 1-2 normal animals of its associated type from the surrounding area (wererats summon giant rats instead). These creatures arrive in `1d4` rounds. 
 
 **Woflsbane**: If struck by wolfsbane, a lycanthrope must save versus Poison or flee in terror. Wolfsbane must be used as a thrown or melee weapon following normal combat rules.
 
 **Lycanthropy**: Lycanthropy is a magical disease. Any humanoid reduced to half its hit points or fewer by a lycanthrope’s natural attacks (bites or claws) contracts lycanthropy if it survives. Symptoms appear after `1d12` days, and the transformation becomes complete after `2d12` days. Humans become lycanthropes of the same type, usually falling under the DM’s control thereafter. Non-humans usually die from the disease rather than transforming.
 
-A **cure disease** spell cast by a cleric of 11^th^ level or higher can remove lycanthropy if cast within three days of the attack. Drinking belladonna within one hour of the attack gives a 25% chance to cure the disease, but incapacitates the victim for *1d4* days and carries a 1% chance of death.
+A **cure disease** spell cast by a cleric of 11^th^ level or higher can remove lycanthropy if cast within three days of the attack. Drinking belladonna within one hour of the attack gives a 25% chance to cure the disease, but incapacitates the victim for *`1d4`* days and carries a 1% chance of death.
 
 The six most common types of lycanthropes are described below.
 
@@ -3853,7 +3853,7 @@ Cunning and patient hunters, devil swine prefer ambushes, deception, and nightti
 
 Jackalweres are evil jackals able to assume human form. They use deception to lure victims into ambush.
 
-A jackalwere may sing or gaze to lull creatures into sleep. Victims must Save vs. Spells or sleep for 2d4 turns. Jackalweres can be harmed only by iron or magic weapons.
+A jackalwere may sing or gaze to lull creatures into sleep. Victims must Save vs. Spells or sleep for `2d4` turns. Jackalweres can be harmed only by iron or magic weapons.
 
 ::: center
 ![](assets/jackalwere-plate.png)
@@ -3866,7 +3866,7 @@ A jackalwere may sing or gaze to lull creatures into sleep. Victims must Save vs
 | Hit Dice    | 6*               | Save As       | Fighter 6 |
 | Move        | 120' (40')       | Morale        | 10        |
 | Attacks     | 2 claws / 1 bite | Treasure Type | C         |
-| Damage      | 2d4x2 / 2d    8  | Alignment     | Neutral   |
+| Damage      | 2d4 / 2d4 / 2d8  | Alignment     | Neutral   |
 
 In human form, a werebear appears as a large, hairy, solitary human. Werebears are highly intelligent, even in animal form, and are often peaceful if approached without hostility. They usually live alone or among normal bears.
 
@@ -3887,7 +3887,7 @@ In combat, if both claw attacks hit the same target in one round, the werebear a
 | Attacks     | 1 tusk     | Treasure Type | C         |
 | Damage      | 2d6        | Alignment     | Neutral   |
 
-A wereboar is a foul-tempered, semi-intelligent lycanthrope usually found in heavily wooded areas. In human form, wereboars often resemble savage berserkers and fight with the same reckless fury in battle.  When enraged, a wereboar gains a +2 bonus on attack rolls and fights to the death. There is a 15% chance a wereboar will be accompanied by 1d4 normal boars, which it can direct to attack alongside it.
+A wereboar is a foul-tempered, semi-intelligent lycanthrope usually found in heavily wooded areas. In human form, wereboars often resemble savage berserkers and fight with the same reckless fury in battle.  When enraged, a wereboar gains a +2 bonus on attack rolls and fights to the death. There is a 15% chance a wereboar will be accompanied by `1d4` normal boars, which it can direct to attack alongside it.
 
 ::: center
 ![](assets/wereboar-plate.png)
@@ -3939,7 +3939,7 @@ Weresharks are harmed only by silver or magical weapons, and a bite that fails t
 | Hit Dice    | 5*               | Save As       | Fighter 5 |
 | Move        | 150' (50')       | Morale        | 9         |
 | Attacks     | 2 claws / 1 bite | Treasure Type | C         |
-| Damage      | 1d6x2 / 2d6      | Alignment     | Neutral   |
+| Damage      | 1d6 / 1d6 / 2d6  | Alignment     | Neutral   |
 
 These relatives of the great cats are curious and graceful hunters, but become deadly when threatened. Most weretigers are female and live much like normal tigers, though they rarely associate with ordinary tigers except 5% of the time.
 
@@ -3987,11 +3987,11 @@ Werewolves may summon normal wolves to form larger hunting packs.
 | Move        | 30' (10')  | Morale        | 10         |
 | Swim        | 180' (60') | Treasure Type | F          |
 | Attacks     | 4 tentacles | Alignment    | Lawful     |
-| Damage      | 1d6 x4     |               |            |
+| Damage      | 1d6 / 1d6 / 1d6 / 1d6 | |            |
 
 Aboleths are ancient, malevolent things that dwell in vast underground lakes, hoarding secrets older than mankind. Foul mucus-secreting organs line their slimy, fish-like flanks, and three narrow purple-red eyes stack atop one another beneath ridged brows.
 
-Each of an aboleth's four ten-foot tentacles lashes independently for 1d6 damage. Any creature struck must Save vs. Spells or begin turning to a clear, slimy membrane over the next few rounds; unless a cure disease is cast in time, the change completes, and thereafter the victim takes 1d12 damage each hour it goes without cool water, though a cure serious wounds restores the victim's normal skin.
+Each of an aboleth's four ten-foot tentacles lashes independently for `1d6` damage. Any creature struck must Save vs. Spells or begin turning to a clear, slimy membrane over the next few rounds; unless a cure disease is cast in time, the change completes, and thereafter the victim takes `1d12` damage each hour it goes without cool water, though a cure serious wounds restores the victim's normal skin.
 
 An aboleth can attempt to enslave a single creature within 30' up to three times a day; the target Saves vs. Spells or is filled with an abiding compulsion to serve, breakable only by remove curse, dispel magic, or the aboleth's own death. In water it wraps itself in a foot-deep cloud of mucus; anyone drawn in must Save vs. Poison or drown attempting to breathe it, though the aboleth's own slaves gain water breathing from the same substance for a few hours at a stretch. Aboleths are believed to have built vast sunken cities with the labor of their enslaved thralls, though none have ever been confirmed.
 
@@ -4052,7 +4052,7 @@ Characters looking away to avoid the gaze of a basilisk must fight it with a pen
 
 The behir is a twelve-legged, serpentine reptile some 40 feet long, crocodile-headed and banded in ultramarine and gray-brown scales. Despite its bulk it moves with startling speed and can fold its many legs to slither like a true snake when it chooses.
 
-A behir bites for 2d4 and, if it also coils its body around a victim, constricts for an additional 1d4+1; a fully constricted victim suffers six raking talon attacks (1d6 each) the following round. Once every ten rounds a behir can loose a 20-foot bolt of lightning dealing 24 points of damage (half with a successful Save vs. Breath Weapon), and it is wholly immune to electricity and poison.
+A behir bites for `2d4` and, if it also coils its body around a victim, constricts for an additional `1d4+1`; a fully constricted victim suffers six raking talon attacks (`1d6` each) the following round. Once every ten rounds a behir can loose a 20-foot bolt of lightning dealing 24 points of damage (half with a successful Save vs. Breath Weapon), and it is wholly immune to electricity and poison.
 
 Behir occasionally swallow prey whole, and there is a small chance any given behir carries gems, jewelry, or a battered magic item still lodged in its gut from an earlier meal.
 
@@ -4076,7 +4076,7 @@ The body can take two-thirds of the beholder's hit points before the creature di
 
 The central eye projects an **anti-magic ray** in a 140' cone. Magic does not function in this cone, including the beholder's own eye rays. The ten smaller eyes each produce a different effect, usable once per round if it can bear on a target: **charm person**, **charm monster**, **sleep**, **telekinesis** up to 2,500 cn, **petrification** (flesh-to-stone), **disintegration**, **fear**, **slow**, **cause serious wounds** for `2d6+2` damage, and **death ray**.
 
-Normally the central eye and `1d4` eyestalks can bear on targets within a 90° arc in front of the beholder. This doubles to 2d4 for a 180° arc, and triples or quadruples for 270° or 360° respectively. An attack from above lets all ten eyestalks bear, but the central eye cannot function in that case.
+Normally the central eye and `1d4` eyestalks can bear on targets within a 90° arc in front of the beholder. This doubles to `2d4` for a 180° arc, and triples or quadruples for 270° or 360° respectively. An attack from above lets all ten eyestalks bear, but the central eye cannot function in that case.
 
 Beholders are hateful, aggressive, and greedy, usually attacking on sight. Against an obviously powerful party, however, there's a decent chance (roughly 50%) they'll pause to negotiate — either bargaining for tribute in exchange for peace, or demanding ransom not to attack. They speak their own language as well as the Chaotic alignment language.
 
@@ -4154,7 +4154,7 @@ Ending the spell or ceasing use of the item stops the attack. A truly psionic vi
 | Move        | 140' (40')  | Morale        | 10        |
 | Burrow      | 30' (10')   | Treasure Type | Nil       |
 | Attacks     | bite/2 claw | Alignment     | Neutral   |
-| Damage      | 4d12/3d6x2  |               |           |
+| Damage      | 4d12 / 3d6 / 3d6 | |           |
 
 The bulette, or landshark, is a ravenous burrowing monster with a plated body and a terrible appetite. It ranges through temperate lands eating horses, humans, and most other flesh. It dislikes dwarves, avoids elves, and hungers for halflings.
 
@@ -4256,7 +4256,7 @@ The dragon’s fiery breath forms a 50’ long cone, 10’ wide at its furthest 
 
 The Chimera also has 2 claw attack for `1d3`
 
-In total: 2 × claw (1d3), goat: 1 × gore (2d4), lion: 1 × bite (2d4), dragon: 1 × bite (3d4) or 1 × breath (3d6)
+In total: 2 × claw (`1d3`), goat: 1 × gore (`2d4`), lion: 1 × bite (`2d4`), dragon: 1 × bite (`3d4`) or 1 × breath (`3d6`)
 
 Chimeras are savage, ill-tempered predators most often found in wild hills, rocky badlands, and remote mountain regions, though they sometimes lair in deep dungeons or ruined strongholds.
 
@@ -4297,7 +4297,7 @@ Cockatrices may be found anywhere.
 
 Couatls are winged, feathered serpents rarely found outside warm jungles or the ether. Their intelligence, magic, and benevolent nature cause many peoples to regard them with awe.
 
-A couatl's bite is venomous. A bitten creature must Save vs. Poison or die. If the couatl constricts, the victim takes 2d4 damage each round until the couatl releases it, the victim escapes, or one of them dies.
+A couatl's bite is venomous. A bitten creature must Save vs. Poison or die. If the couatl constricts, the victim takes `2d4` damage each round until the couatl releases it, the victim escapes, or one of them dies.
 
 Couatls can become ethereal at will and can polymorph themselves. Each couatl casts spells as either a 5th level magic-user, a 7th level cleric, or both, as chosen by the referee. They are aware of psionic activity and should be treated as highly resistant to mental influence.
 
@@ -4359,9 +4359,9 @@ When slain, a doppelganger immediately reverts to its true form.
 
 A dragonne is a solitary creature resembling a cross between a brass dragon and a giant lion. It fights with claws and fangs, but its most feared weapon is its roar.
 
-All creatures within 120' that hear the roar must Save vs. Paralysis or lose half their Strength for 2d6 rounds. Creatures within 30' are also deafened for the same duration. Deafened creatures cannot hear and suffer -1 to attack rolls from disorientation.
+All creatures within 120' that hear the roar must Save vs. Paralysis or lose half their Strength for `2d6` rounds. Creatures within 30' are also deafened for the same duration. Deafened creatures cannot hear and suffer -1 to attack rolls from disorientation.
 
-Dragonnes can fly only short distances, usually 1d3 turns. They speak the languages of brass dragons and sphinxes.
+Dragonnes can fly only short distances, usually `1d3` turns. They speak the languages of brass dragons and sphinxes.
 
 ::: center
 ![](assets/dragonne-plate.png)
@@ -4378,7 +4378,7 @@ Dragonnes can fly only short distances, usually 1d3 turns. They speak the langua
 
 The eye of the deep is a hateful deep-ocean creature related to the beholder. It floats slowly through the dark sea, seizing prey with crab-like pincers and tearing with small sharp teeth.
 
-Its great central eye emits a cone of blinding light 30' long. Creatures in the cone must Save vs. Death or be stunned for 2d4 rounds. Its two smaller eyestalks may work together to create an illusion, or separately to cast hold person and hold monster.
+Its great central eye emits a cone of blinding light 30' long. Creatures in the cone must Save vs. Death or be stunned for `2d4` rounds. Its two smaller eyestalks may work together to create an illusion, or separately to cast hold person and hold monster.
 
 If severed, the eyestalks regrow in about one week.
 
@@ -4410,7 +4410,7 @@ Predatory fish often lurk near floating eyes and eat helpless prey. The floating
 
 Violet fungi resemble shriekers and are usually found growing among them. They thrive on rotted animal matter, while shriekers are immune to their touch.
 
-Each violet fungus has 1d4 branches, each 1'-4' long depending on the fungus's size. If an animal comes within reach, the branches lash out. A creature touched must Save vs. Poison or have its flesh rot away in 1 round. Cure disease stops the rot.
+Each violet fungus has `1d4` branches, each 1'-4' long depending on the fungus's size. If an animal comes within reach, the branches lash out. A creature touched must Save vs. Poison or have its flesh rot away in 1 round. Cure disease stops the rot.
 
 ::: center
 ![](assets/violet-fungi-plate.png)
@@ -4427,7 +4427,7 @@ Each violet fungus has 1d4 branches, each 1'-4' long depending on the fungus's s
 
 At a distance, a gas spore looks almost exactly like a beholder, with a false central eye and stalk-like growths. Even nearby it may be mistaken for an eye tyrant.
 
-If a gas spore takes even 1 point of damage, it explodes. All creatures within 20' take 6d6 damage, or half damage with a successful Save vs. Wands. If a gas spore touches exposed flesh, it injects rhizomes and dies. Unless cure disease is cast within 24 hours, the victim dies and sprouts 2d4 new gas spores.
+If a gas spore takes even 1 point of damage, it explodes. All creatures within 20' take `6d6` damage, or half damage with a successful Save vs. Wands. If a gas spore touches exposed flesh, it injects rhizomes and dies. Unless cure disease is cast within 24 hours, the victim dies and sprouts `2d4` new gas spores.
 
 ::: center
 ![](assets/gas-spore-plate.png)
@@ -4442,7 +4442,7 @@ If a gas spore takes even 1 point of damage, it explodes. All creatures within 2
 | Attacks     | 1             | Treasure Type | V          |
 | Damage      | 2d4 + special | Alignment     | Neutral    |
 
-These  are made of a clear jelly and are shaped like cubes about 10' on a side. Due to their near transparency, they surprise on a roll of 1-4 (1d6). They move through the rooms and corridors of dungeons, sweeping the halls clean of all living and dead material. In the process, they may pick up items they can't dissolve (such as gold pieces and gems). Though they usually eat carrion, they will attack any living creature they encounter, inflicting 2d4 points of damage. Each successful hit will paralyze the victim unless a saving throw versus Paralysis is made. Any attacks on a paralyzed victim will automatically hit (only a damage roll is needed). This paralysis is the normal type (lasting 2-8 turns unless removed by a cure light wounds spell). A gelatinous cube may be harmed by fire and weapons, but not by cold or lightning.
+These  are made of a clear jelly and are shaped like cubes about 10' on a side. Due to their near transparency, they surprise on a roll of 1-4 (`1d6`). They move through the rooms and corridors of dungeons, sweeping the halls clean of all living and dead material. In the process, they may pick up items they can't dissolve (such as gold pieces and gems). Though they usually eat carrion, they will attack any living creature they encounter, inflicting `2d4` points of damage. Each successful hit will paralyze the victim unless a saving throw versus Paralysis is made. Any attacks on a paralyzed victim will automatically hit (only a damage roll is needed). This paralysis is the normal type (lasting 2-8 turns unless removed by a cure light wounds spell). A gelatinous cube may be harmed by fire and weapons, but not by cold or lightning.
 
 ::: center
 ![](assets/gelatinous-cube-plate.png)
@@ -4459,7 +4459,7 @@ These  are made of a clear jelly and are shaped like cubes about 10' on a side. 
 
 A gibbering mouther is a mindless, amoeboid mass of eyes and mouths that lies dormant, resembling a lump of earth, until prey wanders close enough to bite. It devours anything edible without preference for animal, vegetable, or mineral, and strips its lair bare over time.
 
-Its spittle flares into a blinding flash on any hard, cold, or smooth surface; anyone looking at the flash must Save vs. Spells or be blinded for 1 round. Each of its six mouths that hits fastens on and drains 1 additional point of damage every round it remains attached. Once three or more mouths are attached to a single victim, that character must roll 2d6 each round (+1 if Dexterity is 15 or higher); a result of 4 or less means they are pulled down, and the mouther flows over them to bite with all twelve remaining mouths at once.
+Its spittle flares into a blinding flash on any hard, cold, or smooth surface; anyone looking at the flash must Save vs. Spells or be blinded for 1 round. Each of its six mouths that hits fastens on and drains 1 additional point of damage every round it remains attached. Once three or more mouths are attached to a single victim, that character must roll `2d6` each round (+1 if Dexterity is 15 or higher); a result of 4 or less means they are pulled down, and the mouther flows over them to bite with all twelve remaining mouths at once.
 
 When it senses food, a mouther gibbers incoherently, causing confusion in all creatures within 60' who fail a Save vs. Spells; the save must be repeated each round the gibbering continues. A mouther can also soften the earth and stone within 5' of itself into clinging quicksand or firm it back into stone, though changing stone takes a full round.
 
@@ -4493,7 +4493,7 @@ A gorgon's vapor cloud is 60' long by 10' wide. They are impervious to their own
 | Attacks     | 1        | Treasure Type | Nil        |
 | Damage      | 2d8      | Alignment     | Neutral    |
 
-This seeping horror looks like wet stone and is difficult to see. It secretes an acid which does 2d8 points of damage if the gray ooze hits bare skin. This acid will dissolve and destroy magic armor in one turn. After the first hit, the ooze will stick to its victim, automatically destroying any normal armor and doing 2d8 points of damage each round. Gray ooze cannot be harmed by cold or fire, but can be harmed by weapons and lightning.
+This seeping horror looks like wet stone and is difficult to see. It secretes an acid which does `2d8` points of damage if the gray ooze hits bare skin. This acid will dissolve and destroy magic armor in one turn. After the first hit, the ooze will stick to its victim, automatically destroying any normal armor and doing `2d8` points of damage each round. Gray ooze cannot be harmed by cold or fire, but can be harmed by weapons and lightning.
 
 ::: center
 ![](assets/gray-ooze-plate.png)
@@ -4565,7 +4565,7 @@ Charmed individuals will move toward the harpies, resisting any attempt to stop 
 
 A hellhound appears as a reddish-brown hound the size of a large wolfhound or small pony, and is impervious to normal fire. They are often found near volcanos, deep in dungeons, or with another fire-loving creature such as a fire giant. Hellhounds are cunning and highly intelligent. They save as a fighter level equal to their hit dice.
 
-In melee, a hellhound will attack one person, biting, 3-6 on 1d6, or breathing fire, 1 or 2 on 1d6, each round. Its breath does 1d6 points of damage for each hit die the hellhound has, 3d6 to 7d6. A character who makes a saving throw vs. Dragon Breath takes only half damage.
+In melee, a hellhound will attack one person, biting, 3-6 on `1d6`, or breathing fire, 1 or 2 on `1d6`, each round. Its breath does `1d6` points of damage for each hit die the hellhound has, `3d6` to `7d6`. A character who makes a saving throw vs. Dragon Breath takes only half damage.
 
 Hellhounds have a 75% chance per round of detecting an invisible person or object within 60'. They save as a fighter of equal hit dice.
 
@@ -4631,7 +4631,7 @@ A hook horror cannot speak, but communicates with others of its kind by clacking
 | Attacks     | 5-12 (see below) | Treasure Type | B                   |
 | Damage      | 1d10 per head    | Alignment     | Neutral             |
 
-A hydra is a large creature with a dragon-like body and 5 to 12, 1d8 + 4, serpentine heads. It has one hit die for each head, and always has 8 hit points per hit die. A hydra will attack with all of its heads each round. For every 8 points of damage a hydra takes, one head will no longer attack. Example: if a 7-headed hydra took 18 points of damage, it would only attack with 5 heads in the next round. A hydra saves as a fighter of a level equal to its number of heads.
+A hydra is a large creature with a dragon-like body and 5 to 12, `1d8 + 4`, serpentine heads. It has one hit die for each head, and always has 8 hit points per hit die. A hydra will attack with all of its heads each round. For every 8 points of damage a hydra takes, one head will no longer attack. Example: if a 7-headed hydra took 18 points of damage, it would only attack with 5 heads in the next round. A hydra saves as a fighter of a level equal to its number of heads.
 
 Sea hydras have adapted to water. They possess fins instead of legs. They are otherwise the same as their land-dwelling cousins.
 
@@ -4669,7 +4669,7 @@ An intellect devourer can use ESP and confusion, and it may attempt to seize con
 
 An invisible stalker is a very intelligent enchanted monster summoned to this world by use of the invisible stalker magic-user's spell. If the stalker is given a simple task that is clear and can be swiftly completed, it will obey promptly. If the task is complex or lengthy, the invisible stalker will try to distort the intent while obeying the literal command. Example: if ordered to guard a treasure for longer than a week, the stalker may take it away to its native plane of existence and guard it there forever.
 
-Invisible stalkers are most often used to track and slay enemies. They are faultless trackers. They surprise any creature that cannot detect invisible creatures on a 1d6 roll of 1-5. They will return to their native plane once they are slain, dispelled, or have completed their task.
+Invisible stalkers are most often used to track and slay enemies. They are faultless trackers. They surprise any creature that cannot detect invisible creatures on a `1d6` roll of 1-5. They will return to their native plane once they are slain, dispelled, or have completed their task.
 
 ### Ixitxachitl
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -4718,7 +4718,7 @@ Ki-rin can fly, become invisible, create food and water, and use powerful cleric
 
 The kraken is a colossal, air- and water-breathing relative of the squid that dwells in the darkest ocean depths, growing huge and powerful on a diet of whales and any smaller life it can catch. Its ten tentacles are armor class 13, as is its exposed head, but its thick shell carries armor class 19.
 
-Two barbed tentacles rake and drag prey toward the kraken's beaked mouth, while the other eight, if they hit, wrap and constrict for 3d4 damage each subsequent round until severed (16 points of damage to a single tentacle) or the kraken chooses to let go. A kraken that has four or more tentacles fastened on prey will often abandon the fight and drag its catch a thousand feet down to its lair instead. Its ink cloud fills a huge volume of water and remains toxic for several rounds, dealing 1d4 damage each round to anything caught within it.
+Two barbed tentacles rake and drag prey toward the kraken's beaked mouth, while the other eight, if they hit, wrap and constrict for `3d4` damage each subsequent round until severed (16 points of damage to a single tentacle) or the kraken chooses to let go. A kraken that has four or more tentacles fastened on prey will often abandon the fight and drag its catch a thousand feet down to its lair instead. Its ink cloud fills a huge volume of water and remains toxic for several rounds, dealing `1d4` damage each round to anything caught within it.
 
 A kraken can call upon **control weather**, **control temperature**, **faerie fire**, or summon fish to the area once per day each, and can render a great sphere of water breathable as air for a full day. Large enough to drag ships under, a kraken that keeps six or more tentacles fastened to a vessel for three rounds running will hole it as surely as a ram. Sailors whisper of undersea kraken lairs where human captives are kept and bred as a standing larder.
 
@@ -4790,7 +4790,7 @@ Their jaws are powerful enough to bite through armor and bone. They are treacher
 
 Lurkers above are subterranean predators resembling great manta rays. Their gray bellies look like stone, making them nearly impossible to notice on ceilings unless prodded.
 
-A lurker surprises on 1-4 on 1d6. It drops onto prey, wrapping victims in its tough folds. Trapped creatures take 1d6 damage each round and smother in 2d4 rounds unless the lurker is killed. Only short weapons already in hand can be used while trapped.
+A lurker surprises on 1-4 on `1d6`. It drops onto prey, wrapping victims in its tough folds. Trapped creatures take `1d6` damage each round and smother in `2d4` rounds unless the lurker is killed. Only short weapons already in hand can be used while trapped.
 
 ::: center
 ![](assets/lurker-above-plate.png)
@@ -4823,7 +4823,7 @@ The manticore's favorite food is man. They usually live in wild mountain ranges.
 | Attacks     | 1 snakebite + | Treasure Type | F special |
 | Damage      | 1d6 + poison  | Alignment     | Chaotic   |
 
-A medusa looks like a human female with live snakes growing from her head instead of hair. The sight of a medusa will turn a creature to stone unless the victim saves vs. Turn to Stone. The bite of the snakes is poisonous (save vs. Poison or die in one turn) and when they hit they will do a total of 1-6 (1d6) points of damage. The group of snakes may only attack once per round. A medusa will often wear a robe with a hood for disguise in order to trick its victims into looking at it. A medusa can be looked at without harm by looking at its reflection in a mirror. If a medusa sees its own reflection, it must save vs. Turn to Stone or it will petrify itself!
+A medusa looks like a human female with live snakes growing from her head instead of hair. The sight of a medusa will turn a creature to stone unless the victim saves vs. Turn to Stone. The bite of the snakes is poisonous (save vs. Poison or die in one turn) and when they hit they will do a total of 1-6 (`1d6`) points of damage. The group of snakes may only attack once per round. A medusa will often wear a robe with a hood for disguise in order to trick its victims into looking at it. A medusa can be looked at without harm by looking at its reflection in a mirror. If a medusa sees its own reflection, it must save vs. Turn to Stone or it will petrify itself!
 
 Anyone who tries to attack a medusa without looking at it must subtract 4 from all "to hit" rolls, and the medusa may attack with a bonus of + 2 on its "to hit" rolls. A medusa also gains + 2 on saves vs. Spells due to her magical nature.
 
@@ -4874,7 +4874,7 @@ A mimic's surface becomes adhesive at will. A creature touching it is stuck unle
 
 Mind flayers are evil subterranean beings with squid-like heads and terrible mental powers. They feed on the brains of intelligent creatures.
 
-Their mind blast is a cone of mental force. Creatures caught in it must Save vs. Spells or be stunned for 3d4 rounds. A mind flayer that hits with all four tentacles extracts and devours the victim's brain on the following round unless the victim escapes or the monster is driven off. This monster requires manual review if psionics are used.
+Their mind blast is a cone of mental force. Creatures caught in it must Save vs. Spells or be stunned for `3d4` rounds. A mind flayer that hits with all four tentacles extracts and devours the victim's brain on the following round unless the victim escapes or the monster is driven off. This monster requires manual review if psionics are used.
 
 ::: center
 ![](assets/mind-flayer-plate.png)
@@ -4915,9 +4915,9 @@ Minotaurs are semi-intelligent and some use weapons, preferring a spear, club, o
 | Treasure Type | Nil         | Nil         |
 | Alignment     | Neutral     | Neutral     |
 
-Brown mold feeds on heat. Creatures within 5' take 4d8 cold damage. Fire causes it to grow, while cold destroys it.
+Brown mold feeds on heat. Creatures within 5' take `4d8` cold damage. Fire causes it to grow, while cold destroys it.
 
-Yellow mold releases a cloud of spores if touched or struck. Creatures in the cloud take 1d6 damage and must Save vs. Poison or die. Fire destroys yellow mold.
+Yellow mold releases a cloud of spores if touched or struck. Creatures in the cloud take `1d6` damage and must Save vs. Poison or die. Fire destroys yellow mold.
 
 ::: center
 ![](assets/mold-plate.png)
@@ -4949,11 +4949,11 @@ A morkoth can hypnotize victims that meet its gaze. The victim must Save vs. Spe
 | Attacks     | 1                | Treasure Type | S x2       |
 | Damage      | 1d4 per HD       | Alignment     | Lawful     |
 
-Myconids, or fungus men, are peaceful, fungoid humanoids that resemble bloated, upright toadstools in shades of purple to gray. Their skin oozes a substance poisonous to animal life; anyone touching a myconid barehanded takes 1d4 damage. They live deep underground among conditions suitable to fungus and have a deathly fear of direct sunlight.
+Myconids, or fungus men, are peaceful, fungoid humanoids that resemble bloated, upright toadstools in shades of purple to gray. Their skin oozes a substance poisonous to animal life; anyone touching a myconid barehanded takes `1d4` damage. They live deep underground among conditions suitable to fungus and have a deathly fear of direct sunlight.
 
 Myconid society is organized into tight-knit "circles" of about twenty members, four each of Hit Dice 1 through 5, who farm fungus crops and share a collective telepathic meld each day. A single king — always the strongest 6 Hit Dice myconid, chosen when the old king dies — stands apart from every circle to lead the colony, brewing potions and directing its defense.
 
-Fungus men fight by clubbing with clasped hands for 1d4 damage per Hit Die of size, and each also carries a growing repertoire of spores it can spray a number of times per day equal to its Hit Dice: *distress* (calls other myconids for aid), *reproducer* (grows new myconids), *rapport* (opens telepathic communication with another creature, Save vs. Poison to resist unless willing), *pacifier* (Save vs. Poison or become totally passive for several rounds), *hallucinator* (Save vs. Poison or suffer violent hallucinations for several turns), and, for the king alone, *animator* (raises a slain creature as a zombie-like fungal thrall). Myconids avoid killing when they can, as violence disturbs their meld, but population pressure brings them into conflict with nearby humanoids all the same.
+Fungus men fight by clubbing with clasped hands for `1d4` damage per Hit Die of size, and each also carries a growing repertoire of spores it can spray a number of times per day equal to its Hit Dice: *distress* (calls other myconids for aid), *reproducer* (grows new myconids), *rapport* (opens telepathic communication with another creature, Save vs. Poison to resist unless willing), *pacifier* (Save vs. Poison or become totally passive for several rounds), *hallucinator* (Save vs. Poison or suffer violent hallucinations for several turns), and, for the king alone, *animator* (raises a slain creature as a zombie-like fungal thrall). Myconids avoid killing when they can, as violence disturbs their meld, but population pressure brings them into conflict with nearby humanoids all the same.
 
 ::: center
 ![](assets/myconid-plate.png)
@@ -5012,7 +5012,7 @@ Their tentacles may grab prey and drag it to the mouth. Their bite carries disea
 
 Night hags are evil crones of the lower planes who trade in larvae and torment sleeping mortals. They can become ethereal and haunt dreams.
 
-A night hag may visit a sleeping victim and drain 1d10 hit points each night. Protection from evil or similar magic wards against this attack. Night hags require manual review for planar and soul-trading details.
+A night hag may visit a sleeping victim and drain `1d10` hit points each night. Protection from evil or similar magic wards against this attack. Night hags require manual review for planar and soul-trading details.
 
 ::: center
 ![](assets/night-hag-plate.png)
@@ -5045,7 +5045,7 @@ They can fly, become ethereal with a rider, and breathe hot smoke that blinds an
 | Attacks     | 1         | Treasure Type | Nil        |
 | Damage      | 2d6      | Alignment     | Neutral    |
 
-An ochre jelly is an ochre-colored giant amoeba which can only be harmed by fire or cold. Attacks with weapons or lightning merely make several (1d4+ 1) smaller (2 hit dice) ochre jellies. An ochre jelly does 2d6 damage per turn to exposed flesh. The smaller ochre jellies only do half damage. It can seep through small cracks, and destroy wood, leather, and cloth in 1 round, but cannot eat through metal or stone.
+An ochre jelly is an ochre-colored giant amoeba which can only be harmed by fire or cold. Attacks with weapons or lightning merely make several (`1d4+ 1`) smaller (2 hit dice) ochre jellies. An ochre jelly does `2d6` damage per turn to exposed flesh. The smaller ochre jellies only do half damage. It can seep through small cracks, and destroy wood, leather, and cloth in 1 round, but cannot eat through metal or stone.
 
 ::: center
 ![](assets/ochre-jelly-plate.png)
@@ -5077,7 +5077,7 @@ Their tentacles grab prey and drag it to the mouth. The bite carries disease unl
 | Attacks     | 2 claws / 1 bite | Treasure Type | C         |
 | Damage      | 1d8 each         | Alignment     | Neutral   |
 
-An owl bear is a huge bear-like creature with the head of a giant owl. An owl bear stands 8' tall and weighs 1500 pounds (15,000 coins). Owl bears have nasty tempers and are usually hungry, preferring meat. If both paws of an owl bear hit the same opponent in one round, the owl bear will "hug" for an additional 2d8 points of damage. They are commonly found underground and in dense forests.
+An owl bear is a huge bear-like creature with the head of a giant owl. An owl bear stands 8' tall and weighs 1500 pounds (15,000 coins). Owl bears have nasty tempers and are usually hungry, preferring meat. If both paws of an owl bear hit the same opponent in one round, the owl bear will "hug" for an additional `2d8` points of damage. They are commonly found underground and in dense forests.
 
 ::: center
 ![](assets/owl-bear-plate.png)
@@ -5156,7 +5156,7 @@ Creatures touching the tentacles take damage and must Save vs. Poison or be para
 | Attacks     | 1 bite / 1 sting      | Treasure Type | D         |
 | Damage      | 2d8 / 1d8 + poison    | Alignment     | Neutral   |
 
-Purple worms are huge, slime-covered creatures over 100' long and 8' to 10' in diameter. These  tunnel through the earth, burrowing up from the ground to feed on surface-dwelling creatures. They attack by biting and stinging with their tails. If the "to hit" roll for the bite is 4 or more than the number required (or a 20, in any case), creatures of man-size or smaller will be swallowed whole, taking 3-18 (3d6) points of damage each round thereafter.
+Purple worms are huge, slime-covered creatures over 100' long and 8' to 10' in diameter. These  tunnel through the earth, burrowing up from the ground to feed on surface-dwelling creatures. They attack by biting and stinging with their tails. If the "to hit" roll for the bite is 4 or more than the number required (or a 20, in any case), creatures of man-size or smaller will be swallowed whole, taking 3-18 (`3d6`) points of damage each round thereafter.
 
 Those stung by the tail must save vs. Poison or die. Note that if encountered underground, the size of underground tunnels may prevent a purple worm from using one or both of its attacks.
 
@@ -5192,7 +5192,7 @@ Rakshasas use illusion and charm freely and cast spells as magic-users and cleri
 
 Remorhaz, or polar worms, are aggressive predators of frozen wastes. Their size depends on Hit Dice, from 21' to 42' long.
 
-A remorhaz swallows prey whole on a natural 20, killing the victim instantly with internal heat. When enraged, its back glows red-hot. Nonmagical weapons striking the back melt, and creatures touching it take 10d10 damage. Remorhaz eggs are extremely valuable.
+A remorhaz swallows prey whole on a natural 20, killing the victim instantly with internal heat. When enraged, its back glows red-hot. Nonmagical weapons striking the back melt, and creatures touching it take `10d10` damage. Remorhaz eggs are extremely valuable.
 
 ::: center
 ![](assets/remorhaz-plate.png)
@@ -5234,9 +5234,9 @@ Roc nests are found in the highest mountains and 50% of the time will contain 1-
 
 Ropers are intelligent cavern predators that resemble stalagmites or low stone humps. They prefer human prey.
 
-A roper can shoot six sticky strands to a range of 20'-50'. A hit drains half the victim's Strength in 1d3 rounds and pulls the victim 10' closer each round. Breaking a strand uses an Open Doors roll. Ropers are immune to lightning, take half damage from cold, and are vulnerable to fire.
+A roper can shoot six sticky strands to a range of 20'-50'. A hit drains half the victim's Strength in `1d3` rounds and pulls the victim 10' closer each round. Breaking a strand uses an Open Doors roll. Ropers are immune to lightning, take half damage from cold, and are vulnerable to fire.
 
-A roper's gizzard may contain 3d6 platinum pieces and, on a 35% chance, 5d4 gems.
+A roper's gizzard may contain `3d6` platinum pieces and, on a 35% chance, `5d4` gems.
 
 ::: center
 ![](assets/roper-plate.png)
@@ -5315,7 +5315,7 @@ A sea serpent resembles a long, 20' to 30', giant snake with many fins. A sea se
 | Attacks     | 1             | Treasure Type | F          |
 | Damage      | 1d4 + special | Alignment     | Chaotic    |
 
-Shadows are in-corporeal (ghost-like) intelligent creatures. They can only be harmed by magical weapons. They look like real shadows and can alter their shape slightly. Shadows are hard to see and surprise on a 1 to 5 on a d6. If a shadow scores a hit, it will drain 1 point of Strength in addition to doing normal damage (1d4 points). This weakness will last for 8 turns. Any creature whose Strength is reduced to 0 or less will become a shadow. Shadows are not undead, and cannot be "Turned" by clerics. They are not affected by sleep and charm spells. The DM is advised not to use shadows unless the party has at least one magical weapon.
+Shadows are in-corporeal (ghost-like) intelligent creatures. They can only be harmed by magical weapons. They look like real shadows and can alter their shape slightly. Shadows are hard to see and surprise on a 1 to 5 on a d6. If a shadow scores a hit, it will drain 1 point of Strength in addition to doing normal damage (`1d4` points). This weakness will last for 8 turns. Any creature whose Strength is reduced to 0 or less will become a shadow. Shadows are not undead, and cannot be "Turned" by clerics. They are not affected by sleep and charm spells. The DM is advised not to use shadows unless the party has at least one magical weapon.
 
 ### Shambling Mound
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -5378,7 +5378,7 @@ Shriekers look like giant mushrooms. They live in underground caverns and are ab
 
 Slithering trackers are transparent, fluid undead-like hunters that follow prey by scent. They seep through cracks and under doors.
 
-A hit paralyzes unless the victim Saves vs. Paralysis. The tracker then drains blood for 1d6 damage per round. Its transparency makes it difficult to detect until it attacks.
+A hit paralyzes unless the victim Saves vs. Paralysis. The tracker then drains blood for `1d6` damage per round. Its transparency makes it difficult to detect until it attacks.
 
 ### Slug, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -5391,7 +5391,7 @@ A hit paralyzes unless the victim Saves vs. Paralysis. The tracker then drains b
 
 Giant slugs are enormous dungeon scavengers that rasp and dissolve anything edible. Their slime makes footing treacherous.
 
-Once per turn, a giant slug may spit acid to 60'. The first range band is accurate, but beyond that the shot may scatter. A direct hit deals 5d8 damage, half with a successful Save vs. Breath Weapon.
+Once per turn, a giant slug may spit acid to 60'. The first range band is accurate, but beyond that the shot may scatter. A direct hit deals `5d8` damage, half with a successful Save vs. Breath Weapon.
 
 ::: center
 ![](assets/giant-slug-plate.png)
@@ -5451,7 +5451,7 @@ Because of its speed, a flying stirge gains a +2 bonus on its first attack roll 
 
 Strangle weed is a mass of aquatic vegetation that entangles swimmers. It is almost indistinguishable from normal weeds until it attacks.
 
-Entangled creatures take 1d4 damage each round and may drown. Cutting or tearing free requires destroying the grasping tendrils.
+Entangled creatures take `1d4` damage each round and may drown. Cutting or tearing free requires destroying the grasping tendrils.
 
 ### Su-Monster
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
@@ -5555,7 +5555,7 @@ Creatures trapped inside take automatic damage and begin suffocating. Only short
 
 Umber hulks are powerful burrowing monsters with huge claws and confusing eyes. They tunnel through rock and earth in search of prey.
 
-Any creature meeting an umber hulk's gaze must Save vs. Spells or be confused for 3d4 rounds. Avoiding the gaze gives -4 to attack rolls against it.
+Any creature meeting an umber hulk's gaze must Save vs. Spells or be confused for `3d4` rounds. Avoiding the gaze gives -4 to attack rolls against it.
 
 ::: center
 ![](assets/umber-hulk-plate.png)
@@ -5609,7 +5609,7 @@ It does not actually attack, but if it is touched by a torch, for example, the t
 
 The yellow musk creeper is a large climbing plant with ivy-like leaves and bright yellow, orchid-like flowers splashed with purple, growing over an area up to 20' square in underground grottoes or deep forest. When approached within 10', its flowers sway hypnotically and puff a musky dust; a victim who fails a Save vs. Spells is entranced and walks into the plant's grasp.
 
-Once entangled, aerial roots attach painlessly to the victim's skull and drain 1d4 points of Intelligence per round. A victim drained to 0 dies and their body sprouts a new bud; one drained to 1 or 2 instead rises as a mindless **Zombie, Yellow Musk** in the creeper's service. The plant can only be killed by destroying its root bulb, buried a foot below the soil at its base; lost Intelligence returns naturally at 1 point per day of rest, or immediately with a **cure** spell.
+Once entangled, aerial roots attach painlessly to the victim's skull and drain `1d4` points of Intelligence per round. A victim drained to 0 dies and their body sprouts a new bud; one drained to 1 or 2 instead rises as a mindless **Zombie, Yellow Musk** in the creeper's service. The plant can only be killed by destroying its root bulb, buried a foot below the soil at its base; lost Intelligence returns naturally at 1 point per day of rest, or immediately with a **cure** spell.
 
 ::: center
 ![](assets/yellow-musk-creeper-plate.png)
@@ -5626,7 +5626,7 @@ Once entangled, aerial roots attach painlessly to the victim's skull and drain 1
 
 Yetis are shaggy white mountain predators that blend into snow and ice. They ambush travelers in cold highlands.
 
-If a yeti hits with both claws, it hugs for 2d8 cold damage. A surprised victim meeting a yeti's gaze must Save vs. Paralysis or be frozen with fear for 3 rounds.
+If a yeti hits with both claws, it hugs for `2d8` cold damage. A surprised victim meeting a yeti's gaze must Save vs. Paralysis or be frozen with fear for 3 rounds.
 
 ::: center
 ![](assets/yeti-plate.png)
@@ -5711,7 +5711,7 @@ If `4` or more berserkers are encountered, they are led by a higher-level fighte
 | Attacks     | 1 weapon  | Treasure Type | G               |
 | Damage      | by weapon | Alignment     | non-chaotic     |
 
-Dwarves can also appear as NPCs, usually in clan groups or as war or mining expeditions. For every 20 dwarves there will be one leader (level 3-8: 1d6 + 2) and who may have magical items. To check for possible magical items, multiply the leader's level by 5.
+Dwarves can also appear as NPCs, usually in clan groups or as war or mining expeditions. For every 20 dwarves there will be one leader (level 3-8: `1d6 + 2`) and who may have magical items. To check for possible magical items, multiply the leader's level by 5.
 
 The result is the percentage chance for that leader to own a magical item from any one particular subtable. Roll separately for each type (subtable) of magic treasure. Check all the subtables except the Scroll subtable and the Wand/Rod/Staff subtable.
 
@@ -6011,7 +6011,7 @@ Brownies speak their own tongue, the lawful alignment language, elvish, pixie, s
 | Hit Dice    | 4                   | Save As       | Fighter 4 |
 | Move        | 180' (60')          | Morale        | 8         |
 | Attacks     | 2 hooves / 1 weapon | Treasure Type | A         |
-| Damage      | 1d6x2/ by weapon    | Alignment     | Neutral   |
+| Damage      | 1d6 / 1d6 / by weapon | Alignment   | Neutral   |
 
 A centaur has the head, arms, and upper body of a human joined to the body and legs of a powerful horse. Proud and wary creatures, centaurs prefer the deep forests and open meadows far from the settlements of humankind. They are intelligent enough to craft and use weapons such as clubs, lances, bows, and spears.
 
@@ -6213,7 +6213,7 @@ A demilich is what remains of a lich (see **Lich**) whose undying life force has
 
 When its lair is entered, the demilich's dust rises into a man-shaped cloud. Left alone it may dissipate harmlessly, but any attack against it — physical or magical — feeds it energy, and once it has absorbed enough it manifests as a wraith or worse, striking at those responsible. Neither the dust nor its manifestation can be turned or meaningfully harmed; only destroying the skull itself ends the threat.
 
-Touching the skull is far worse. It rises into the air and howls, and everyone within 20' must Save vs. Death or be instantly and permanently slain. The following round, the skull drains the very soul from the strongest remaining character with no saving throw possible, leaving only a collapsed, moldering corpse; the soul is trapped in one of the gems set into the skull. If molested again, it repeats the process on the next-strongest character until every gem is filled, after which it can only howl and curse. A trapped soul can be freed by shattering its gem near a body ready to receive it, but a demilich's skull can be damaged only by powerful magic — spells of 6th level or higher, a vorpal weapon, a +4 or better magic weapon, or similar — and any lesser attack does nothing at all. Even reduced to its last hit point the skull will reform within 1d10 days unless doused in holy water.
+Touching the skull is far worse. It rises into the air and howls, and everyone within 20' must Save vs. Death or be instantly and permanently slain. The following round, the skull drains the very soul from the strongest remaining character with no saving throw possible, leaving only a collapsed, moldering corpse; the soul is trapped in one of the gems set into the skull. If molested again, it repeats the process on the next-strongest character until every gem is filled, after which it can only howl and curse. A trapped soul can be freed by shattering its gem near a body ready to receive it, but a demilich's skull can be damaged only by powerful magic — spells of 6th level or higher, a vorpal weapon, a +4 or better magic weapon, or similar — and any lesser attack does nothing at all. Even reduced to its last hit point the skull will reform within `1d10` days unless doused in holy water.
 
 ::: center
 ![](assets/demilich-plate.png)
@@ -6245,7 +6245,7 @@ Ghasts are undead and are immune to sleep and charm. Cold iron weapons deal doub
 
 Ghosts are the ethereal spirits of evil humans, cursed into undeath and drawn to darkness. They hate life and seek to drain it from the living.
 
-The sight of a ghost causes humanoids to age 10 years and flee in panic for 2d6 turns unless they Save vs. Spells. Clerics above 6th level are immune, and other humanoids above 8th level gain +2 to the save.
+The sight of a ghost causes humanoids to age 10 years and flee in panic for `2d6` turns unless they Save vs. Spells. Clerics above 6th level are immune, and other humanoids above 8th level gain +2 to the save.
 
 A ghost normally attacks from the ethereal plane with magic jar against a creature within 60'. If this fails, it semi-materializes and attacks by touch. In ethereal form it is AC 11 and can be fought only ethereally or by mental means. In semi-material form it is AC 19 and can be struck only by silver weapons for half damage or by magic weapons. A human or demi-human killed by a ghost is forever dead unless the referee allows extraordinary magic.
 
@@ -6260,7 +6260,7 @@ A ghost normally attacks from the ethereal plane with magic jar against a creatu
 | Hit Dice    | 2*              | Save As       | Fighter 2 |
 | Move        | 90' (30')       | Morale        | 9         |
 | Attacks     | 2 claws/1 bite  | Treasure Type | B         |
-| Damage      | 1d3x3 + special | Alignment     | Chaotic   |
+| Damage      | 1d3 / 1d3 / 1d3 + special | Alignment | Chaotic |
 
 Ghouls are undead creatures. They are hideous, beast-like humans who will attack anything living. Any attack by a ghoul will paralyze any creature of ogre-size or smaller that they hit successfully (except elves) unless the victim saves vs. Paralysis. Once an opponent is paralyzed, the ghoul will turn and attack another opponent, until either the ghoul or all the opponents are paralyzed or dead. This paralysis is the normal type (lasting 2-8 turns unless removed by a **cure light wounds spell**).
 
@@ -6279,7 +6279,7 @@ Ghouls are undead creatures. They are hideous, beast-like humans who will attack
 
 A groaning spirit, or banshee, is the undead spirit of an evil female elf. It haunts desolate countryside, moors, and other lonely places.
 
-Its chilling touch deals 1d8 damage. Once per day, it may wail; all living creatures within 30' that hear it must Save vs. Death or die. The sight of a groaning spirit causes fear unless a Save vs. Spells is made.
+Its chilling touch deals `1d8` damage. Once per day, it may wail; all living creatures within 30' that hear it must Save vs. Death or die. The sight of a groaning spirit causes fear unless a Save vs. Spells is made.
 
 Groaning spirits can be harmed only by +1 or better magic weapons and have 50% magic resistance.
 
@@ -6298,7 +6298,7 @@ Groaning spirits can be harmed only by +1 or better magic weapons and have 50% m
 
 A lich is an undead magic-user or cleric of great power, sustained by forbidden magic. It is intelligent, patient, and usually bound to a hidden lair.
 
-A lich's touch deals 1d10 cold damage and paralyzes unless the victim Saves vs. Paralysis. Its presence causes fear in creatures of 5 Hit Dice or fewer unless they Save vs. Spells. A lich casts spells as it did in life, usually at 11th level or higher.
+A lich's touch deals `1d10` cold damage and paralyzes unless the victim Saves vs. Paralysis. Its presence causes fear in creatures of 5 Hit Dice or fewer unless they Save vs. Spells. A lich casts spells as it did in life, usually at 11th level or higher.
 
 Liches can be harmed only by magic weapons or spells, are immune to sleep, charm, cold, lightning, poison, and death magic, and require manual review for exact spell lists and phylactery handling.
 
@@ -6336,7 +6336,7 @@ Mummies can only be damaged by spells, fire, or magic weapons, all of which will
 
 A poltergeist is the invisible, non-corporeal remnant of a person who died violently in a particular room or stretch of corridor, and it rarely strays from that spot. It attacks by hurling nearby loose objects at intruders.
 
-Anyone struck must Save vs. Spells or flee in panic for 2d12 rounds, dropping whatever they carry. A poltergeist can only be harmed by silver or magic weapons. Holy water or a boldly presented holy symbol will drive one back, though it causes no actual harm.
+Anyone struck must Save vs. Spells or flee in panic for `2d12` rounds, dropping whatever they carry. A poltergeist can only be harmed by silver or magic weapons. Holy water or a boldly presented holy symbol will drive one back, though it causes no actual harm.
 
 ### Revenant
 *Source:* `AD&D 1E Conversion`  *Category:* `Undead`
@@ -6349,7 +6349,7 @@ Anyone struck must Save vs. Spells or flee in panic for 2d12 rounds, dropping wh
 
 A revenant is a person of extraordinary will who has returned from death to destroy their own killer. It cannot be turned, and normal or magic weapons do nothing to stop it; only burning it to ashes will end it for good, and even severed limbs continue to fight until then. It regenerates 3 hit points each round.
 
-The revenant seeks out its killer with unerring certainty no matter where they hide, ignoring all other creatures unless attacked. In melee it locks its hands around a victim's throat, and anyone it stares at must Save vs. Spells or be paralyzed with terror for 2d4 rounds. Once its killer (and any who aided in the killing) are slain, the revenant crumbles to dust and troubles the world no more.
+The revenant seeks out its killer with unerring certainty no matter where they hide, ignoring all other creatures unless attacked. In melee it locks its hands around a victim's throat, and anyone it stares at must Save vs. Spells or be paralyzed with terror for `2d4` rounds. Once its killer (and any who aided in the killing) are slain, the revenant crumbles to dust and troubles the world no more.
 
 ::: center
 ![](assets/revenant-plate.png)
@@ -6602,7 +6602,7 @@ Whenever he desires, Demogorgon may use any one of the following powers: **conti
 | Move        | 120' (40')        | Morale        | 12         |
 | Fly         | 180' (60')        | Treasure Type | O, P, U, Z |
 | Attacks     | 2 fists / 1 bite  | Alignment     | Chaotic    |
-| Damage      | 2d6+7 x2 / 3d6    |               |            |
+| Damage      | 2d6+7 / 2d6+7 / 3d6 |             |            |
 
 Fraz-Urb'luu is strong as a storm giant, and a barbed tail fifteen feet long lets him entwine a victim to hold it for his fists or bite. He is completely immune to any spell that would detect, charm, command, dominate, hypnotize, or otherwise influence him, and speaks every human tongue as well as telepathically with most other creatures.
 
@@ -6623,7 +6623,7 @@ For centuries Fraz-Urb'luu was bound in a stone prison beneath Castle Greyhawk u
 | Hit Dice    | 41***      | Save As       | Fighter 41 |
 | Move        | 120' (40') | Morale        | 12         |
 | Attacks     | 2 sword    | Treasure Type | U, Z       |
-| Damage      | 2d6+6 x2   | Alignment     | Chaotic    |
+| Damage      | 2d6+6 / 2d6+6 | Alignment  | Chaotic    |
 
 Graz'zt is dedicated foe of both Demogorgon and Orcus, and rules his own layer of the Abyss with the aid of lamias (`1d3` always at hand) and succubi. He wields a huge, wavy-bladed sword that drips acid — any nonliving material struck must save versus acid when Graz'zt rolls a natural 20, for the acid deals an extra `1d4+4` points of damage — together with a `+3` shield (AC 28); he may instead fight two-handed with a `+1` guisarme in place of the shield, dropping to AC 25 but striking with both weapons each round.
 
@@ -6684,7 +6684,7 @@ At will Kostchtchie may call upon **command**, **curse**, **darkness** (15' radi
 
 Lolth is the Demon Queen of Spiders, patron and tormentor of the drow, who venerate and fear her in equal measure. She most often walks the Prime Material Plane as a monstrous black widow spider, though she is equally at home appearing as a beautiful and terrible drow woman, and she commands the obedience of spiders of every kind. She heals herself at will, up to three times a day, and is seldom found in her own lair unless summoned to a shrine raised in her honor.
 
-In spider form Lolth spins webs equal to a **web** spell from her spinnerets, poisoning anyone caught in the strands for 1d4 damage per round, and bites for 4d4 plus poison. At will she may call upon **comprehend languages**, **confusion**, **darkness** (10' radius), or **dispel magic**; twice per day **phase door**, **shape change**, or **read magic**; and once per day **gate** in a lesser demon, **summon** a host of giant spiders, or **teleport**. In drow form she fights as a high-level cleric and magic-user, but cannot wear armor and loses her other powers while so shaped.
+In spider form Lolth spins webs equal to a **web** spell from her spinnerets, poisoning anyone caught in the strands for `1d4` damage per round, and bites for `4d4` plus poison. At will she may call upon **comprehend languages**, **confusion**, **darkness** (10' radius), or **dispel magic**; twice per day **phase door**, **shape change**, or **read magic**; and once per day **gate** in a lesser demon, **summon** a host of giant spiders, or **teleport**. In drow form she fights as a high-level cleric and magic-user, but cannot wear armor and loses her other powers while so shaped.
 
 Lolth can only be harmed by magic weapons, takes only half damage from cold, electricity, and gas, and is especially vulnerable to holy water, which sears her for full damage.
 
@@ -6823,7 +6823,7 @@ At will Baalzebul may call upon **pyrotechnics**, **produce flame**, **wall of f
 | Hit Dice    | 24***           | Save As       | Fighter 24 |
 | Move        | 120' (40')      | Morale        | 12         |
 | Attacks     | 2 morning star  | Treasure Type | G, P       |
-| Damage      | 1d6+6 x2        | Alignment     | Lawful     |
+| Damage      | 1d6+6 / 1d6+6   | Alignment     | Lawful     |
 
 Bael is vassal to Mammon, commanding 66 companies of barbed devils. He wears bronze armor in the ancient style and wields a bronze-handled `+2` morning star whose haft telescopes from four to eight feet at his desire. He radiates fear within 20' at will and regenerates 1 hit point every round.
 
@@ -6843,7 +6843,7 @@ At will Bael may call upon **alter self**, **animate dead**, **cause serious wou
 | Move        | 90' (30')         | Morale        | 12         |
 | Fly         | 150' (50')        | Treasure Type | A, S, T, Y |
 | Attacks     | 2 military fork   | Alignment     | Lawful     |
-| Damage      | 1d8+7 x2          |               |            |
+| Damage      | 1d8+7 / 1d8+7     |               |            |
 
 Belial rules Hell's Fourth Plane, allied with Baalzebul and warring in enmity against Geryon nearly as fiercely as does Moloch; he must also watch constantly for the machinations of Mammon. From his basalt palace he directs the abishai and the barbed, bearded, bone, and spined devils that populate his reeking fens and smoking plains. His huge `+4` military fork forces anyone it strikes to save versus magic or suffer as though struck by a **symbol of pain**.
 
@@ -6949,7 +6949,7 @@ At will Hutijin may call upon **animate dead**, **detect invisible**, **detect m
 | Move        | 60' (20')  | Morale        | 12         |
 | Fly         | 120' (40') | Treasure Type | H, R       |
 | Attacks     | 2 fork     | Alignment     | Lawful     |
-| Damage      | 1d8+7 x2   |               |            |
+| Damage      | 1d8+7 / 1d8+7 |            |            |
 
 Mammon rules Hell's Third Plane, a boundless series of ash-choked rifts and slime-streaked badlands. He and Dispater are supposedly allies who jointly back Mephistopheles, though it is doubtful Mammon places real trust in Dispater — neither, in any case, has ever failed to obey Asmodeus. Over his grim domain Mammon rides a nightmare of the largest size with a pack of hell hounds coursing at his heels, ever in search of trophies for the hunt. His weapon is a fauchard-fork that deals normal harm but otherwise strikes as would a **sword of wounding**.
 
@@ -6969,7 +6969,7 @@ At will Mammon may call upon **animate dead**, **beguile**, **charm person**, **
 | Move        | 150' (50')   | Morale        | 12         |
 | Fly         | 180' (60')   | Treasure Type | R, X, Z    |
 | Attacks     | 2 fork       | Alignment     | Lawful     |
-| Damage      | 1d8+9 x2     |               |            |
+| Damage      | 1d8+9 / 1d8+9 |            |            |
 
 Mephistopheles rules the Eighth Hell from a great iron citadel amid ice mountains, plotting to wrest the Seventh Plane from Baalzebul and, so strengthened, challenge Asmodeus himself. He fights with a three-tined `+3` fork that can, three times a day per effect, deal an extra `3d4` points of electrical or fire damage on top of the weapon's own harm, saving throw versus magic for half.
 
@@ -7008,7 +7008,7 @@ At will Moloch may call upon **affect normal fires**, **beguile**, **burning han
 | Move        | 150' (50')   | Morale        | 12         |
 | Fly         | 300' (100')  | Treasure Type | G, S, T    |
 | Attacks     | 2 sword      | Alignment     | Lawful     |
-| Damage      | 1d8+3 x2     |               |            |
+| Damage      | 1d8+3 / 1d8+3 |            |            |
 
 Titivilus is Dispater's messenger and notorious for his cleverness with words, twisting speech to confuse and betray. Neither large nor especially strong, he carries a silver **sword of wounding** but relies far more on guile and magic than steel; he causes fear by touch alone and regenerates 1 hit point every round.
 
@@ -7389,7 +7389,7 @@ Some magic swords have additional abilities or intelligence. For example, a swor
 
 **Sword +1, flames on command**: This sword will blaze with flames when commanded by the user. It will remain flaming until commanded to go out. While flaming, it gives a bonus of +2 on "to hit" rolls against trolls, pegasi, hippogriffs, and rocs; and a +3 bonus against treants and undead monsters. Damage from this sword is treated as fire damage (for example, trolls cannot regenerate damage inflicted by it). It will cast light and burn as if a torch (when used against a web, for example).
 
-**Sword +1, drain life energy**: When this sword hits, it will drain one life level or hit die (like a spectre) on command, in addition to the normal damage done. The sword can only drain 5-8 (1d4+4) levels, after which it becomes a normal magical sword +1.
+**Sword +1, drain life energy**: When this sword hits, it will drain one life level or hit die (like a spectre) on command, in addition to the normal damage done. The sword can only drain 5-8 (`1d4+4`) levels, after which it becomes a normal magical sword +1.
 
 **Sword +1, wishes**: This sword will grant 1-4 wishes once. A wish can be cast by holding the sword and stating the wish. Once the sword is used in this manner, one of the wishes is gone. Wishes are very powerful magic, and should be used (and handled by the DM) with great care.
 
@@ -7401,15 +7401,15 @@ Certain magic swords may be intelligent and have other special abilities, as wel
 
 **Rolling Up a Magic Sword**
 
-1. Find out if the sword has a special purpose (Optional: 1d20).
-2. Determine the sword's Intelligence score (1d20).
+1. Find out if the sword has a special purpose (Optional: `1d20`).
+2. Determine the sword's Intelligence score (`1d20`).
 3. Find the languages (if any) known by the sword (d%).
-4. Determine the alignment of the sword (1d20).
+4. Determine the alignment of the sword (`1d20`).
 5. Find the Primary powers of the sword (d%).
 6. Roll for an Extraordinary power (if any, d%).
-7. Roll for the sword's Ego score (1d12).
+7. Roll for the sword's Ego score (`1d12`).
 
-**1. Special Purpose.** A sword will have a special purpose if a roll of 20 on 1d20 is made (the DM may choose to omit this roll, carefully placing all special purpose swords, as they are both very powerful and very rare). Any sword with a special purpose will have Intelligence and Ego scores of 12, as well as one special purpose.
+**1. Special Purpose.** A sword will have a special purpose if a roll of 20 on `1d20` is made (the DM may choose to omit this roll, carefully placing all special purpose swords, as they are both very powerful and very rare). Any sword with a special purpose will have Intelligence and Ego scores of 12, as well as one special purpose.
 
 Special purpose is given to some rare swords by their supernatural creator. The following list gives some special purposes which may be used, or the DM may invent others. Only one special purpose may be given to any one magic sword.
 
@@ -7451,7 +7451,7 @@ When used for its special purpose, the sword will gain one added ability, accord
 | 96-99 | 5 |
 | 00 | Roll again twice, and add the results |
 
-**4. Alignment.** Determine the alignment of the intelligent sword (roll 1d20):
+**4. Alignment.** Determine the alignment of the intelligent sword (roll `1d20`):
 
 | Die Roll | Alignment |
 |----------|-----------|
@@ -7548,9 +7548,9 @@ As with Primary powers, the user must have the sword in hand and be concentratin
 
 **Healing.** The sword will heal up to 6 points of damage at the rate of 1 hit point per round. This power may only be used once per day. Duplicate ability rolls will increase the amount of healing and the time required by 6.
 
-**Extra damage.** This power will increase the user's strength when striking for 1-10 (1d10) rounds. During this time, the user will inflict 4 times the normal damage on each successful hit (but has no better chances to hit). Each duplicate roll of this power increases the multiplier by 1 (to 5 times, 6 times, etc.).
+**Extra damage.** This power will increase the user's strength when striking for 1-10 (`1d10`) rounds. During this time, the user will inflict 4 times the normal damage on each successful hit (but has no better chances to hit). Each duplicate roll of this power increases the multiplier by 1 (to 5 times, 6 times, etc.).
 
-**7. Ego.** To determine the Ego score of an intelligent (non-special purpose) sword, roll 1d12. The Ego of the sword is a measure of the force of its personality. A sword with high intelligence and ego may try to control its user. The DM should make a control check at certain times.
+**7. Ego.** To determine the Ego score of an intelligent (non-special purpose) sword, roll `1d12`. The Ego of the sword is a measure of the force of its personality. A sword with high intelligence and ego may try to control its user. The DM should make a control check at certain times.
 
 **Control checks.** An intelligent sword must be checked to see if it controls its user in five different situations:
 
@@ -7562,7 +7562,7 @@ As with Primary powers, the user must have the sword in hand and be concentratin
 
 To make the control check, the DM must find the will score of the user and of the sword. When the will scores are found, the being with the higher total will score, either character or sword, will control the actions of the character.
 
-**Will score.** An intelligent sword's will score is found by adding the sword's Intelligence, Ego, and bonuses. The sword gets a bonus of +1 to the will score for each Extraordinary power it has, plus 1-10 (1d10) points if the sword is of a different alignment than the user. A character's will score is found by adding the character's Strength and Wisdom scores and subtracting any adjustments due to wounds, as follows: if the character is damaged but no more than ½ the original hit points, 1-4 (1d4) points are subtracted. If the character has lost more than ½ the original hit points, 2-8 (2d4) points are subtracted from the Will score.
+**Will score.** An intelligent sword's will score is found by adding the sword's Intelligence, Ego, and bonuses. The sword gets a bonus of +1 to the will score for each Extraordinary power it has, plus 1-10 (`1d10`) points if the sword is of a different alignment than the user. A character's will score is found by adding the character's Strength and Wisdom scores and subtracting any adjustments due to wounds, as follows: if the character is damaged but no more than ½ the original hit points, 1-4 (`1d4`) points are subtracted. If the character has lost more than ½ the original hit points, 2-8 (`2d4`) points are subtracted from the Will score.
 
 **Swords in control.** If a sword controls a character, the DM must decide on the actions of the sword in certain situations. These may include:
 
@@ -7585,7 +7585,7 @@ Most magic weapons and armor work just as in the D&D Basic rules. A cursed shiel
 
 #### Potions
 
-Unless stated otherwise, a potion will give the creature who drinks it a given magical ability for 7-12 turns (1d6+6). If a character drinks any potion while another potion is still in effect, the character will become sick and will be unable to do anything for 3 turns. No saving throw is allowed. Potions whose effects are permanent (healing, longevity) are exempt from this rule.
+Unless stated otherwise, a potion will give the creature who drinks it a given magical ability for 7-12 turns (`1d6+6`). If a character drinks any potion while another potion is still in effect, the character will become sick and will be unable to do anything for 3 turns. No saving throw is allowed. Potions whose effects are permanent (healing, longevity) are exempt from this rule.
 
 **Control Potions.** When using these potions, the caster must see the controlled creatures in order to direct their actions. The controlled creatures cannot be forced to kill themselves. While controlling creatures by using a potion, the user will be too busy to do anything else.
 
@@ -7593,7 +7593,7 @@ Unless stated otherwise, a potion will give the creature who drinks it a given m
 
 **Clairvoyance.** The user may see an area up to 60' away through the eyes of a creature in that area, unless blocked by lead.
 
-**Control Animal.** The user may control up to 3-18 (3d6) hit dice of animals (normal or giant but not fantastic or magical). When the control ends, the animals will leave the area if they can.
+**Control Animal.** The user may control up to 3-18 (`3d6`) hit dice of animals (normal or giant but not fantastic or magical). When the control ends, the animals will leave the area if they can.
 
 **Control Dragon.** The user may control up to 1-3 dragons of one particular type (chosen or randomly determined by the DM). Note that there are therefore 6 different types of this potion. A dragon thus controlled will do what is commanded of it, excluding spell casting (if it is capable of spells). The dragon will be hostile when the control ends.
 
@@ -7603,15 +7603,15 @@ Unless stated otherwise, a potion will give the creature who drinks it a given m
 
 **Control Plant.** The user may control all plants and plant-like creatures (including monsters) in a 30' x 30' area up to 60' from the user. The controlled plants will respond to the user's will, and can twist, writhe, and entangle victims in the area.
 
-**Control Undead.** The user may control 3-18 (3d6) hit dice of undead monsters. The undead will be hostile when the control ends.
+**Control Undead.** The user may control 3-18 (`3d6`) hit dice of undead monsters. The undead will be hostile when the control ends.
 
-**Delusion.** This potion has the same effect as a ring of delusion for 7-12 (1d6+6) turns.
+**Delusion.** This potion has the same effect as a ring of delusion for 7-12 (`1d6+6`) turns.
 
 **Fire Resistance.** The user receives immunity to normal fires, a bonus of +2 on saving throws vs. fire attacks, and will take less damage from magical or dragon fire (-1 per die of damage, but with a minimum of 1 point per die).
 
 **Flying.** The user may fly at up to 120' per round without tiring (as the magic-user's spell of the same name).
 
-**Giant Strength.** The user will gain the strength of a frost giant. The effect may not be combined with other strength-adjusting magic items (such as gauntlets of ogre power). The user may throw small boulders up to 200' to strike for 3-18 (3d6) points of damage, and will inflict twice normal damage on a successful hit when using any weapon.
+**Giant Strength.** The user will gain the strength of a frost giant. The effect may not be combined with other strength-adjusting magic items (such as gauntlets of ogre power). The user may throw small boulders up to 200' to strike for 3-18 (`3d6`) points of damage, and will inflict twice normal damage on a successful hit when using any weapon.
 
 **Heroism.** A fighter, dwarf or halfling will gain the hit dice, hit points, and all abilities of a high level fighter, as follows:
 
@@ -7675,9 +7675,9 @@ A ring must be worn on a hand to have the given effects, but may be carried and 
 
 **Regeneration.** The wearer will regenerate lost hit points at the rate of 1 per round. It will also replace lost limbs; a finger will regrow in 24 hours and 1 limb can be replaced in one week. The ring will not function if the wearer's hit points drop to 0 or less. Fire and acid damage cannot be cured by this ring.
 
-**Spell Storing.** This ring will have 1-6 (1d6) spells stored in it when found. Once the ring is put on the wearer will know what spells are in the ring and how to cast them from it. The ring will hold only the spells in it when found; the exact spells may never be changed. After a spell is used, the ring may be recharged by a spell caster, who must cast the replacement spell directly at the ring. The ring will not absorb spells thrown at the wearer. The spells in the ring will have the duration, range and effect equal to the lowest level needed to cast them. The DM should select the type of spells in the ring; about 20% of these rings contain only clerical spells.
+**Spell Storing.** This ring will have 1-6 (`1d6`) spells stored in it when found. Once the ring is put on the wearer will know what spells are in the ring and how to cast them from it. The ring will hold only the spells in it when found; the exact spells may never be changed. After a spell is used, the ring may be recharged by a spell caster, who must cast the replacement spell directly at the ring. The ring will not absorb spells thrown at the wearer. The spells in the ring will have the duration, range and effect equal to the lowest level needed to cast them. The DM should select the type of spells in the ring; about 20% of these rings contain only clerical spells.
 
-**Spell Turning.** This ring will prevent 2-12 (2d6) spells from affecting the wearer by reflecting the spell back on the caster.
+**Spell Turning.** This ring will prevent 2-12 (`2d6`) spells from affecting the wearer by reflecting the spell back on the caster.
 
 **Telekinesis.** The wearer may move up to 2,000 coins of weight by concentration alone (as the magic-user's spell).
 
@@ -7687,13 +7687,13 @@ A ring must be worn on a hand to have the given effects, but may be carried and 
 
 #### Wands, Staves, and Rods
 
-A rod may be used by any character class, but a staff or wand may only be used by a spell caster. Wands may only be used by magic-users or elves. The users of the staves explained below are noted after the name of the item (and in the previous chart) using the abbreviations "\*" for magic-users and elves and "†" for clerics. Some of these items have been explained in the D&D Basic rulebook; the rest are described below. Unless specified otherwise, a wand has 2-20 (2d10) charges and a staff 3-30 (3d10) charges when found, and each use of a power will use 1 charge. Each item may be used a maximum of once per round until all the charges are exhausted.
+A rod may be used by any character class, but a staff or wand may only be used by a spell caster. Wands may only be used by magic-users or elves. The users of the staves explained below are noted after the name of the item (and in the previous chart) using the abbreviations "\*" for magic-users and elves and "†" for clerics. Some of these items have been explained in the D&D Basic rulebook; the rest are described below. Unless specified otherwise, a wand has 2-20 (`2d10`) charges and a staff 3-30 (`3d10`) charges when found, and each use of a power will use 1 charge. Each item may be used a maximum of once per round until all the charges are exhausted.
 
 **Staff of Commanding \*†.** This item has all the powers of the rings of animal, human, and plant control.
 
-**Staff of Power \*.** This item can be used as a staff of striking, and can also be used to cast any of the following attack spells (each doing 6-48 (8d6) points of damage): fire ball, lightning bolt, and cone of cold. It can also cast a continual light or a telekinesis spell that moves 2400 coins weight.
+**Staff of Power \*.** This item can be used as a staff of striking, and can also be used to cast any of the following attack spells (each doing 6-48 (`8d6`) points of damage): fire ball, lightning bolt, and cone of cold. It can also cast a continual light or a telekinesis spell that moves 2400 coins weight.
 
-**Staff of Striking \*†.** This weapon will inflict 2-12 (2d6) points of damage per charge when a hit is successful. Only one charge may be used per strike.
+**Staff of Striking \*†.** This weapon will inflict 2-12 (`2d6`) points of damage per charge when a hit is successful. Only one charge may be used per strike.
 
 **Staff of Withering †.** A hit from this item will age the victim 10 years. The effect of old age will be fatal to animals and to most character classes, but elves may ignore the effect up to 200 years of aging. Dwarves may also ignore the first 50 years of aging. This item does not affect the undead.
 
@@ -7707,7 +7707,7 @@ A rod may be used by any character class, but a staff or wand may only be used b
 
 **Wand of Fear \*.** This wand will produce a cone of fear 60' long and 30' wide at the far end. All within the cone must save vs. Wands or run away from the user (at 3 times their movement rate per round) for 30 rounds.
 
-**Wand of Cold \*.** This item will produce a cone of cold 60' long and 30' wide at the far end. All within the cone must save vs. Wands or take 6-36 (6d6) points of cold damage; a successful save will reduce damage to half.
+**Wand of Cold \*.** This item will produce a cone of cold 60' long and 30' wide at the far end. All within the cone must save vs. Wands or take 6-36 (`6d6`) points of cold damage; a successful save will reduce damage to half.
 
 **Wand of Fire Balls \*.** This wand can cast one fire ball per round (as the magic-user's spell) for 6-36 points of damage. The victim may save vs. Wands for half damage.
 
@@ -7745,19 +7745,19 @@ These items may be used by any character class, and as often as desired, unless 
 
 **Flying Carpet.** This item can carry one passenger at up to 100' per round (300' per turn), two at 80' per round, or three at 60' per round. It will not carry more than 3 passengers and their equipment.
 
-**Girdle of Giant Strength.** This item will give the wearer the same chances to hit as a hill giant (if better than his or her own). The wearer will inflict 2-16 (2d8) points of damage upon any successful hit. (If the optional Variable Weapon Damage system is used, as explained in the D&D Basic rulebook, damage will be twice normal instead of 2d8.)
+**Girdle of Giant Strength.** This item will give the wearer the same chances to hit as a hill giant (if better than his or her own). The wearer will inflict 2-16 (`2d8`) points of damage upon any successful hit. (If the optional Variable Weapon Damage system is used, as explained in the D&D Basic rulebook, damage will be twice normal instead of `2d8`.)
 
 **Helm of Reading Languages and Magic.** The wearer is able to read any writing, regardless of the language or magical properties of the script. This does not allow non-spell-casters to use spell scrolls. This helm is fragile, however, and will be destroyed if the wearer is killed, and any hit on the wearer might (a 10% chance) destroy the helm.
 
 **Helm of Teleportation \*.** This item may only be used once by a magic-user or elf. It will have no further effect until a teleport spell is cast on it, after which it may be used to teleport as often as desired (up to a maximum of once per round). The user may try to teleport another creature or item; an unwilling victim may avoid the effect by making a saving throw vs. Spells. If used to teleport an unwilling creature the helmet will only work once, and the helm must thereafter be recharged with another teleport spell before again becoming useful.
 
-**Horn of Blasting.** Blowing this horn creates a cone of sound 100' long and 20' wide at the far end. Victims within this area take 2d6 points of damage and must save vs. Spells or be deafened for one turn. The DM must decide how much damage the horn will do to objects; for example, the horn may have to be blown three times to destroy a 10' section of castle wall, but a wooden cottage may be flattened with a single blast! The horn may be blown once per turn.
+**Horn of Blasting.** Blowing this horn creates a cone of sound 100' long and 20' wide at the far end. Victims within this area take `2d6` points of damage and must save vs. Spells or be deafened for one turn. The DM must decide how much damage the horn will do to objects; for example, the horn may have to be blown three times to destroy a 10' section of castle wall, but a wooden cottage may be flattened with a single blast! The horn may be blown once per turn.
 
 **Medallion of ESP (90').** This item will allow the user to cast an ESP spell (as if a magic-user) to a range of 90'.
 
 **Mirror of Life Trapping.** This mirror will store man-size or smaller creatures indefinitely. Any creature of appropriate size who looks into the mirror must save vs. Spells or be sucked into it (with all things carried at the time). A mirror of life trapping can store up to 20 creatures; when full, no more will be trapped. Creatures trapped in the mirror do not age or need food or air, but are completely powerless. Anyone can talk with the creatures trapped in the mirror (if they speak the same language). If the mirror is broken, all the creatures trapped within will be immediately released.
 
-**Scarab of Protection.** This item will automatically absorb any curse (whether by spell, scroll, or other effect). It will also absorb the clerical spell finger of death (the reverse of the raise dead spell). The scarab will work 2-12 (2d6) times before becoming worthless.
+**Scarab of Protection.** This item will automatically absorb any curse (whether by spell, scroll, or other effect). It will also absorb the clerical spell finger of death (the reverse of the raise dead spell). The scarab will work 2-12 (`2d6`) times before becoming worthless.
 
 ::: twocolumn-pdf-end
 :::
@@ -7788,11 +7788,11 @@ This appendix adapts OSRIC's random encounter system for dungeons, towns, and th
 Monster tables below are organized by **monster level** (1-10), which is not the same thing as dungeon level — deeper dungeon levels draw from higher monster levels on average, but the two numbers don't run 1-to-1. To find which monster level applies:
 
 1. Note the **dungeon level** where the encounter occurs, and find its row in the Monster Sub-table Matrix below.
-2. Roll 1d12.
+2. Roll `1d12`.
 3. Find which column's range (in that row) contains your roll. The column header — "Monster Level 1" through "Monster Level 10" — tells you which monster-level table to use.
 4. Roll d% on that monster level's table (below the matrix) to determine the actual monster encountered.
 
-*Worked example:* the party is on dungeon level 5. A 1d12 roll comes up 9. On the "5" row, 9 falls in the "8-9" range under the "Monster Level 4" column — so this encounter is rolled on the Monster Level 4 table.
+*Worked example:* the party is on dungeon level 5. A `1d12` roll comes up 9. On the "5" row, 9 falls in the "8-9" range under the "Monster Level 4" column — so this encounter is rolled on the Monster Level 4 table.
 
 #### Monster Sub-table Matrix (d12)
 
@@ -7811,7 +7811,7 @@ Monster tables below are organized by **monster level** (1-10), which is not the
 | 14-15 | 1 | 2 | 3 | 4 | 5 | 6 | 7-8 | 9-10 | 11 | 12 |
 | 16+ | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8-9 | 10-11 | 12 |
 
-*("ML" = Monster Level. Cell values are the 1d12 ranges that select each monster level for that dungeon level.)*
+*("ML" = Monster Level. Cell values are the `1d12` ranges that select each monster level for that dungeon level.)*
 
 Lesser monsters encountered on a lower dungeon level than their monster level should have their numbers increased by the same amount for each dungeon level lower than their monster level. Greater monsters encountered on a higher dungeon level have their numbers decreased by 1 for each dungeon level higher (minimum of 1). NPC parties instead have their class level increased rather than their numbers.
 
@@ -8363,7 +8363,7 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 
 Unlike dungeon encounters, wilderness encounters are not keyed to party level or strength; use the "No. Appearing" entry from the creature's own stat block to generate specific numbers. Use the terrain type most prevalent in the party's current location.
 
-To generate a wilderness encounter: first roll d% on the Terrain Category Summary below to find the general category (Airborne, Animal, Dragon, Giant, Human/Demi-Human, Humanoid, Monster, NPC, Undead, Invertebrates, Water, or Special). Then turn to that terrain's own tables and roll 1d20, reading down the column that matches the category you rolled. Each terrain has twelve category columns split across two tables purely because they're too wide to print together — both tables share the *same* 1d20 roll and column set; the second table is not a continuation of the first table's rows, it simply holds the other six category columns.
+To generate a wilderness encounter: first roll d% on the Terrain Category Summary below to find the general category (Airborne, Animal, Dragon, Giant, Human/Demi-Human, Humanoid, Monster, NPC, Undead, Invertebrates, Water, or Special). Then turn to that terrain's own tables and roll `1d20`, reading down the column that matches the category you rolled. Each terrain has twelve category columns split across two tables purely because they're too wide to print together — both tables share the *same* `1d20` roll and column set; the second table is not a continuation of the first table's rows, it simply holds the other six category columns.
 
 #### Terrain Category Summary (d%)
 
@@ -8451,7 +8451,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Aquatic — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
+**Aquatic — Monster / NPC / Undead / Invertebrates / Water / Special columns (same `1d20` roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8505,7 +8505,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Arctic — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
+**Arctic — Monster / NPC / Undead / Invertebrates / Water / Special columns (same `1d20` roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8559,7 +8559,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Desert — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
+**Desert — Monster / NPC / Undead / Invertebrates / Water / Special columns (same `1d20` roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8613,7 +8613,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Forest — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
+**Forest — Monster / NPC / Undead / Invertebrates / Water / Special columns (same `1d20` roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8667,7 +8667,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Graveyard — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
+**Graveyard — Monster / NPC / Undead / Invertebrates / Water / Special columns (same `1d20` roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8721,7 +8721,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Hills — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
+**Hills — Monster / NPC / Undead / Invertebrates / Water / Special columns (same `1d20` roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8775,7 +8775,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Jungle — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
+**Jungle — Monster / NPC / Undead / Invertebrates / Water / Special columns (same `1d20` roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8829,7 +8829,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Lost World — Other Dinosaurs / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
+**Lost World — Other Dinosaurs / NPC / Undead / Invertebrates / Water / Special columns (same `1d20` roll as above)**
 
 | 1d20 | Other Dinosaurs | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8883,7 +8883,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Marine — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
+**Marine — Monster / NPC / Undead / Invertebrates / Water / Special columns (same `1d20` roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8937,7 +8937,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Mountains — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
+**Mountains — Monster / NPC / Undead / Invertebrates / Water / Special columns (same `1d20` roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -8991,7 +8991,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Plains — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
+**Plains — Monster / NPC / Undead / Invertebrates / Water / Special columns (same `1d20` roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -9045,7 +9045,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Rural — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
+**Rural — Monster / NPC / Undead / Invertebrates / Water / Special columns (same `1d20` roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -9099,7 +9099,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 \filbreak
 ```
 
-**Tundra — Monster / NPC / Undead / Invertebrates / Water / Special columns (same 1d20 roll as above)**
+**Tundra — Monster / NPC / Undead / Invertebrates / Water / Special columns (same `1d20` roll as above)**
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
@@ -9826,7 +9826,7 @@ Six pre-drawn starting-area floor plans — small irregular clusters of corridor
 | 3 | Use area 3 | 6 | Use area 6 |
 
 ::: center
-*Table 1: Starting Area Shape (1d6)*
+*Table 1: Starting Area Shape (`1d6`)*
 :::
 
 #### Room and Chamber Size
@@ -9844,7 +9844,7 @@ Six pre-drawn starting-area floor plans — small irregular clusters of corridor
 | 19-20 | Special* |
 
 ::: center
-*Table 2(a): Room (1d20) — proceed to Table 5: Number of Exits*
+*Table 2(a): Room (`1d20`) — proceed to Table 5: Number of Exits*
 :::
 
 \*Refer to Table 3: Special Rooms or Chambers.
@@ -9862,7 +9862,7 @@ Six pre-drawn starting-area floor plans — small irregular clusters of corridor
 | 18-20 | Special* |
 
 ::: center
-*Table 2(b): Chambers (1d20) — proceed to Table 5: Number of Exits*
+*Table 2(b): Chambers (`1d20`) — proceed to Table 5: Number of Exits*
 :::
 
 \*Refer to Table 3: Special Rooms or Chambers.
@@ -9877,10 +9877,10 @@ Six pre-drawn starting-area floor plans — small irregular clusters of corridor
 | 9-10 | Octagonal | 18-20 | Triangular |
 
 ::: center
-*Table 3: Special Rooms or Chambers (1d20) — proceed to Table 4: Approximate Size Table for Unusual Rooms*
+*Table 3: Special Rooms or Chambers (`1d20`) — proceed to Table 4: Approximate Size Table for Unusual Rooms*
 :::
 
-\*Roll 1d20: 1-6 room has a pool (see Table 15: Pools), 7 room has a well, 8-11 room has a shaft, 12-20 proceed to Table 4.
+\*Roll `1d20`: 1-6 room has a pool (see Table 15: Pools), 7 room has a well, 8-11 room has a shaft, 12-20 proceed to Table 4.
 
 \*\*GM's discretion — freehand-draw an unusual shape, pick a standard room as needed for mapping, or reroll.
 
@@ -9892,7 +9892,7 @@ Six pre-drawn starting-area floor plans — small irregular clusters of corridor
 | 9-10 | 2,500 | | |
 
 ::: center
-*Table 4: Approximate Size Table for Unusual Rooms (1d20) — proceed to Table 5: Number of Exits*
+*Table 4: Approximate Size Table for Unusual Rooms (`1d20`) — proceed to Table 5: Number of Exits*
 :::
 
 \*Roll again and add the result to 1,000 sq ft. If 16-20 comes up a second time, raise the base to 2,000 sq ft and reroll; each subsequent 16-20 adds another 1,000 sq ft, until a result of 1-15 is finally obtained.
@@ -9910,7 +9910,7 @@ Six pre-drawn starting-area floor plans — small irregular clusters of corridor
 | 20 | Any | 1** | Any | 1** |
 
 ::: center
-*Table 5: Number of Exits (1d20) — proceed to Table 6: Exit Location*
+*Table 5: Number of Exits (`1d20`) — proceed to Table 6: Exit Location*
 :::
 
 \*Check for secret doors: any section of wall close to another mapped room or passage has a 25% chance of a secret door; otherwise this room or chamber is a dead end.
@@ -9923,10 +9923,10 @@ Six pre-drawn starting-area floor plans — small irregular clusters of corridor
 | 5-12 | Opposite Wall | 17-20 | Same Wall |
 
 ::: center
-*Table 6: Exit Location (1d20)*
+*Table 6: Exit Location (`1d20`)*
 :::
 
-\*If a passage or door placed per this table would open into a previously mapped space, roll 1d20: on 1-10 the door moves to the opposite wall; on 11-15 the door stays put but becomes a secret door; on 16-20 the door stays put but becomes a one-way door.
+\*If a passage or door placed per this table would open into a previously mapped space, roll `1d20`: on 1-10 the door moves to the opposite wall; on 11-15 the door stays put but becomes a secret door; on 16-20 the door stays put but becomes a one-way door.
 
 If passage, proceed to Table 7: Exit Direction, Chamber Passage. If door, proceed to Table 20: Behind the Door.
 
@@ -9937,7 +9937,7 @@ If passage, proceed to Table 7: Exit Direction, Chamber Passage. If door, procee
 | 19-20 | Right 45 degrees* |
 
 ::: center
-*Table 7: Exit Direction, Chamber Passage (1d20) — for doors, consult Table 20: Behind the Door instead. Proceed to Table 22: Passage Width*
+*Table 7: Exit Direction, Chamber Passage (`1d20`) — for doors, consult Table 20: Behind the Door instead. Proceed to Table 22: Passage Width*
 :::
 
 \*If the passage can't bend in the direction indicated, bend it the other way instead — a left 45 degree bend that can't be drawn becomes a right 45 degree bend.
@@ -9954,7 +9954,7 @@ If passage, proceed to Table 7: Exit Direction, Chamber Passage. If door, procee
 | 20 | Treasure (see Appendix B: Treasure and Table 9: Treasure Container, below) |
 
 ::: center
-*Table 8: Chamber or Room Contents (1d20) — proceed to Table 9: Treasure Container if Monster and Treasure or Treasure is indicated*
+*Table 8: Chamber or Room Contents (`1d20`) — proceed to Table 9: Treasure Container if Monster and Treasure or Treasure is indicated*
 :::
 
 #### Treasure Container and Guards
@@ -9968,7 +9968,7 @@ If passage, proceed to Table 7: Exit Direction, Chamber Passage. If door, procee
 | 9-10 | Large Chests | 19-20 | None, loose |
 
 ::: center
-*Table 9: Treasure Container (1d20)*
+*Table 9: Treasure Container (`1d20`)*
 :::
 
 Optional, or on a 50% chance: consult Tables 10 and 11. Treasure amounts are determined on Table 12.
@@ -9985,7 +9985,7 @@ Optional, or on a 50% chance: consult Tables 10 and 11. Treasure amounts are det
 | 12 | Poisonous insect or reptile living inside container | 20 | Trapdoor opening 6 ft in front of container |
 
 ::: center
-*Table 10: Treasure Guards & Wards (1d20)*
+*Table 10: Treasure Guards & Wards (`1d20`)*
 :::
 
 | Die | Hidden by or in | Die | Hidden by or in |
@@ -9997,7 +9997,7 @@ Optional, or on a 50% chance: consult Tables 10 and 11. Treasure amounts are det
 | 12 | In an ordinary container in plain view | 18-20 | Under a loose flooring stone |
 
 ::: center
-*Table 11: Treasure Hidden By or In (1d20)*
+*Table 11: Treasure Hidden By or In (`1d20`)*
 :::
 
 If the treasure is guarded by a monster, roll twice on the table below and add 1 to each roll; otherwise roll once at no bonus.
@@ -10010,7 +10010,7 @@ If the treasure is guarded by a monster, roll twice on the table below and add 1
 | 14-16 | 1d4x100 gp | 21 | 1 magic item |
 
 ::: center
-*Table 12: Treasure Amount (1d20)*
+*Table 12: Treasure Amount (`1d20`)*
 :::
 
 Results from this table are multiplied by the dungeon level where the treasure is found — a 1d4x100 gp result on the third dungeon level, for instance, yields 3d4x100 gp. If a magic item is rolled, the party receives one item per dungeon level (minimum 1). Adjust extreme results to keep them proportional.
@@ -10027,7 +10027,7 @@ Results from this table are multiplied by the dungeon level where the treasure i
 | 11 | Down to a dead end | 18-20 | Down 1 level into chamber |
 
 ::: center
-*Table 13: Stairs (1d20)*
+*Table 13: Stairs (`1d20`)*
 :::
 
 The lowest levels of a dungeon are often composed of caves and caverns. Use the table below for caves and caverns, and roll for exits on Table 5: Number of Exits.
@@ -10040,7 +10040,7 @@ The lowest levels of a dungeon are often composed of caves and caverns. Use the 
 | 10-11 | Double Cave: 30 x 50 ft, 80 x 100 ft* | 19-20 | Cavern 300 x 400 ft** |
 
 ::: center
-*Table 14: Caves (1d20)*
+*Table 14: Caves (`1d20`)*
 :::
 
 \*Roll on Table 15: Pools. \*\*Roll on Table 16: Lakes.
@@ -10054,7 +10054,7 @@ The lowest levels of a dungeon are often composed of caves and caverns. Use the 
 | 15-16 | Pool, monster | | |
 
 ::: center
-*Table 15: Pools (1d20)*
+*Table 15: Pools (`1d20`)*
 :::
 
 GMs should note the opportunity to use aquatic or amphibious monster encounters.
@@ -10066,7 +10066,7 @@ GMs should note the opportunity to use aquatic or amphibious monster encounters.
 | 16-17 | Lake, monster | | |
 
 ::: center
-*Table 16: Lakes (1d20)*
+*Table 16: Lakes (`1d20`)*
 :::
 
 \*The lake is a portal to a special area such as a temple on the Elemental Plane of Water, or another remote and exotic location. If no such map is prepared, treat this instead as lake, monster, and treasure.
@@ -10081,7 +10081,7 @@ In order to learn the secret of a magic pool, adventurers must actually enter th
 | 18-20 | Transporter pool. Roll 1d20: 1-7 back to surface, 8-12 elsewhere on the level, 13-16 one level down, 17-20 many miles away for a wilderness or outdoor adventure. This can be especially fiendish if not every character in the party is standing in the pool. |
 
 ::: center
-*Table 17: Magic Pools (1d20)*
+*Table 17: Magic Pools (`1d20`)*
 :::
 
 #### General, Doors, and Passages
@@ -10098,10 +10098,10 @@ In order to learn the secret of a magic pool, adventurers must actually enter th
 | 20 | Wandering Monster; reroll on this table to determine the monster's location and approach. |
 
 ::: center
-*Table 18: General (1d20)*
+*Table 18: General (`1d20`)*
 :::
 
-If the door indicated is a left or right door, roll 1d20 again — on a result of 1-3, there's also a door on the opposite side.
+If the door indicated is a left or right door, roll `1d20` again — on a result of 1-3, there's also a door on the opposite side.
 
 | Die | Result |
 |---|---|
@@ -10110,7 +10110,7 @@ If the door indicated is a left or right door, roll 1d20 again — on a result o
 | 13-20 | Ahead |
 
 ::: center
-*Table 19: Door Location (1d20)*
+*Table 19: Door Location (`1d20`)*
 :::
 
 This table is for doors that exit a room. For passages, consult Table 7: Exit Direction, Chamber Passage instead. Always check corridor width on Table 22: Passage Width.
@@ -10125,7 +10125,7 @@ This table is for doors that exit a room. For passages, consult Table 7: Exit Di
 | 19-20 | See Table 2(b): Chambers |
 
 ::: center
-*Table 20: Behind the Door (1d20)*
+*Table 20: Behind the Door (`1d20`)*
 :::
 
 | Die | Result |
@@ -10140,7 +10140,7 @@ This table is for doors that exit a room. For passages, consult Table 7: Exit Di
 | 20 | Five-way intersection* |
 
 ::: center
-*Table 21: Side Passages (1d20)*
+*Table 21: Side Passages (`1d20`)*
 :::
 
 \*Usually two passages along the x-axis, two along the y-axis, and one diagonal.
@@ -10152,7 +10152,7 @@ This table is for doors that exit a room. For passages, consult Table 7: Exit Di
 | 14-17 | 20 ft | | |
 
 ::: center
-*Table 22: Passage Width (1d20)*
+*Table 22: Passage Width (`1d20`)*
 :::
 
 | Die | Result |
@@ -10164,7 +10164,7 @@ This table is for doors that exit a room. For passages, consult Table 7: Exit Di
 | 20 | Chasm**** |
 
 ::: center
-*Table 23: Special Passages (1d20)*
+*Table 23: Special Passages (`1d20`)*
 :::
 
 \*There's a 50% chance the passage contains a single or double row of columns; if double, there's a 10% chance the columns support a balcony or gallery above.
@@ -10183,16 +10183,16 @@ This table is for doors that exit a room. For passages, consult Table 7: Exit Di
 | 20 | Right 45 degrees (d6: 1-3 ahead, 4-6 behind) |
 
 ::: center
-*Table 24: Turns (1d20)*
+*Table 24: Turns (`1d20`)*
 :::
 
 #### Using the Random Dungeon Generator for Solo Play
 
 Start with Table 1: Starting Area Shape in the middle of a sheet of graph paper. Use Appendix C: Random Encounters, above, to resolve monster encounters and generate treasure via the tables above.
 
-To resolve listening at doors, roll 1d12 and treat a result of 1-5 as a monster encounter. Use Table 8: Chamber or Room Contents, but treat any result as including a monster encounter; otherwise, ignore any monster encounters rolled unless the creature would be silent (undead, bugbears, etc.).
+To resolve listening at doors, roll `1d12` and treat a result of 1-5 as a monster encounter. Use Table 8: Chamber or Room Contents, but treat any result as including a monster encounter; otherwise, ignore any monster encounters rolled unless the creature would be silent (undead, bugbears, etc.).
 
-*ESP*, scrying, and other means of magical detection can be resolved as follows: a roll of 1 on 1d6 indicates a monster in the area being checked. Roll the encounter using Appendix C, ignoring any monster type not detectable by the method of detection used. If a 6 is rolled, the player should reroll when actually entering the room; if a 6 comes up again, a non-detectable monster is encountered and the player's chance to be surprised increases by +1.
+*ESP*, scrying, and other means of magical detection can be resolved as follows: a roll of 1 on `1d6` indicates a monster in the area being checked. Roll the encounter using Appendix C, ignoring any monster type not detectable by the method of detection used. If a 6 is rolled, the player should reroll when actually entering the room; if a 6 comes up again, a non-detectable monster is encountered and the player's chance to be surprised increases by +1.
 
 **Stocking the Dungeon:** Appendix C: Random Encounters can stock a dungeon on its own, or a GM may design specific encounter areas without reference to random tables. Many GMs mix both methods, with designed areas surrounded by randomly-generated ones. Dungeons don't have to make sense, but they do need variety — a little thought on the placement of creatures doesn't go amiss, and rewarding player skill is an important part of this system.
 
