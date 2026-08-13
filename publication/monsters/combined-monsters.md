@@ -2112,7 +2112,11 @@ A wyvern looks like a two-legged, winged dragon with a long tail. In combat, the
 
 ## Elementals
 
-Elementals are beings native to the Planes of Air, Earth, Fire, and Water. Most are summoned to the material plane through conjuration, though some, like the djinn and efreet, are free-willed races who dwell among their kind on their home planes and only rarely venture elsewhere. True elementals - formless embodiments of their element - can only be harmed by magic or magical weapons.
+Elementals are beings native to the Planes of Air, Earth, Fire, and Water, each embodying the raw essence of their home plane. Most are summoned to the material plane through conjuration, bound temporarily to serve the caster who called them, then returning once their task is done.
+
+Not all share this transience, though. Free-willed races like the djinn and efreet have their own societies and ambitions, dwelling among their kind on their home planes, and only rarely venture elsewhere, usually by choice rather than compulsion.
+
+True elementals are different still: formless embodiments of their element, lacking the individuality of their free-willed cousins. Because their bodies aren't truly physical, they can only be harmed by magic or magical weapons, making them nearly impervious to conventional arms.
 
 ### Aerial Servant*
 *Source:* `AD&D 1E Conversion`  *Category:* `Elemental`
@@ -2153,27 +2157,7 @@ At will a dao may once each day become invisible, take gaseous form, cause misdi
 ![](assets/dao-plate.png)
 :::
 
-### Djinni
-*Source:* `AD&D 1E Conversion`  *Category:* `Elemental`
-
-| Armor Class | 15          | No. Appearing | 1 (1)      |
-| Hit Dice    | 7+3        | Save As       | Fighter 7  |
-| Move        | 90' (30')  | Morale        | 9          |
-| Fly         | 240' (80') | Treasure Type | Nil        |
-| Attacks     | 1 fist     | Alignment     | Lawful     |
-| Damage      | 2d8        |               |            |
-
-Djinn are beings of elemental air. They can travel the elemental, astral, and material planes, and speak with intelligent creatures by a limited telepathy.
-
-Once per day a djinni may create food and drink for `2d6` persons, create soft goods or wooden items, create temporary metal items, create an audio-visual illusion, become invisible, assume gaseous form, wind walk, or form a whirlwind. A whirlwind takes 1 turn to form, lasts 1 round, and takes 1 turn to disperse. It deals `2d6` damage to non-aerial creatures and sweeps away creatures of less than 2 Hit Dice.
-
-A djinni can carry 6,000 cn without tiring. It can carry twice that for a short time, then must rest for 6 turns. A noble djinni is very rare, has 10 Hit Dice, deals `3d8` damage, and may grant three wishes before becoming free.
-
-::: center
-![](assets/djinni-plate.png)
-:::
-
-### Djinni, Lesser*
+### Djinni*
 *Source:* `Expert`  *Category:* `Elemental`
 
 | Armor Class | 14                    | No. Appearing | 1 (0)       |
@@ -2206,33 +2190,11 @@ If a djinni is slain, it returns to its own plane.
 
 A djinni can carry 6000 cn weight without tiring. Up to 12,000 cn weight can be carried for 3 turns walking or 1 turn flying. Afterwards, a djinni must rest for one turn.
 
-::: columnbreak-pdf
-:::
-
-### Efreeti
-*Source:* `AD&D 1E Conversion`  *Category:* `Elemental`
-
-| Armor Class | 17          | No. Appearing | 1 (1)      |
-| Hit Dice    | 10         | Save As       | Fighter 10 |
-| Move        | 90' (30')  | Morale        | 9          |
-| Fly         | 240' (80') | Treasure Type | Nil        |
-| Attacks     | 1 fist     | Alignment     | Chaotic    |
-| Damage      | 3d8        |               |            |
-
-Efreet are beings of elemental fire and enemies of djinn. They hate servitude and twist commands whenever possible.
-
-Once per day an efreeti may grant up to three wishes and go free, become invisible, assume gaseous form, detect magic, enlarge itself, polymorph self, create an audio-visual illusion, or create a wall of fire. It may produce flame or cause pyrotechnics at will. Normal fire does not harm an efreeti, and magical fire attacks suffer -1 to hit and damage.
-
-An efreeti can carry up to 7,500 cn without tiring and twice that for a short time before resting 6 turns. Efreet can travel the material, elemental, and astral planes, and communicate with intelligent creatures by limited telepathy.
-
 ::: center
-![](assets/efreeti-full-plate.png)
+![](assets/djinni-plate.png)
 :::
 
-::: columnbreak-pdf
-:::
-
-### Efreeti, Lesser*
+### Efreeti*
 
 *Source:* `Expert`  *Category:* `Elemental`
 
@@ -2243,14 +2205,14 @@ An efreeti can carry up to 7,500 cn without tiring and twice that for a short ti
 | Attacks     | 1 fist      | Alignment     | Chaotic     |
 | Damage      | 2d8         |               |             |
 
-Efreet are free-willed fire elementals. They usually appear as clouds of smoke that solidify into giant demonic-faced men surrounded by flame. The air around them is always hot and smoky, they are highly magical in nature, and they can only be hit with magic weapons.
+Efreet are free-willed fire elementals, proud and cruel in equal measure, hailing from the smoldering wastes of the Elemental Plane of Fire. They usually appear as clouds of oily black smoke that roil and thicken before solidifying into giant demonic-faced men, their skin a deep burning red and their eyes glowing with an inner light. The air around them is always hot and smoky, thick with the reek of sulfur and ash, and torches, tapers, and tinder have been known to catch merely from proximity. They are highly magical in nature, and like all true elemental-kin, they can only be hit with magic weapons — cold steel alone will not avail a would-be slayer.
 
-Efreet can create objects, create illusions, and turn invisible like djinn. They may also create a wall of fire up to 3 times per day. An efreeti can transform itself into a pillar of flame for up to 3 rounds, setting flammable items within 5' alight and doing an extra 1-8 points of damage to creatures it strikes while in that form.
+Efreet can create objects, create illusions, and turn invisible at will, much as their rival djinn can, though efreeti magic carries always the taint of flame and brimstone. Up to three times per day, an efreeti may call forth a wall of fire, using it to bar a passage, herd enemies, or simply watch them burn. More fearsome still is the efreeti's power to transform itself into a raging pillar of flame for up to three rounds; in this form it sets alight any flammable materials within 5', and any creature struck by the efreeti suffers an extra 1-8 points of damage from the searing heat.
 
-Efreet may fly and carry up to 10,000 cn weight while flying. They can be summoned by high-level magic-users who know the special spells required, but once summoned they must be carefully controlled.
+Efreet are also capable of flight, and while airborne they may bear aloft as much as 10,000 cn in weight, whether treasure, captives, or unfortunate adventurers. High-level magic-users who have learned the secret rites may summon an efreeti to their service, but such conjurations are perilous undertakings — an efreeti is bound only so long as its summoner's will and wards remain strong, and it will seize eagerly upon any lapse in control to wreak vengeance upon its erstwhile master.
 
 ::: center
-![](assets/efreeti-plate.png)
+![](assets/efreeti-full-plate.png)
 :::
 
 ::: twocolumn-pdf-end
