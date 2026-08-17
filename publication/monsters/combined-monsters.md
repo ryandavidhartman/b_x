@@ -10458,6 +10458,12 @@ Villages, towns, and cities need their own procedure — not a dungeon level, no
 
 ### Building a Settlement
 
+At a glance, the whole procedure runs like this:
+
+::: center
+![](assets/appendix-e-flowchart.png){width=85%}
+:::
+
 A. **Determine size.** Roll or pick from *Settlement Size*, below. This sets the settlement's population and how many points of interest it has.
 
 B. **Determine government.** Roll or pick from *Government*, below — who's actually in charge here, and what that means for the party.
@@ -10533,8 +10539,10 @@ Rows are ordered from common (low rolls) to rare (high rolls), the same conventi
 
 Give each notable point of interest an owner or a few notable staff, using the sub-tables already built for Appendix C's *Urban Encounters* rather than rolling anything new:
 
-- **Shops, trades, and services** (General Store, Smithy, Stables, Carpenter, Weaver, Tavern, Inn, Physician): roll on the *Urban Professions* sub-table for the proprietor's trade, and the *Race* sub-table if their race matters. For rank-and-file staff, use the *0-Level NPCs* table.
-- **Temple or Church**: a Cleric, per the Nighttime or Daytime Encounters tables' Cleric entry, adjusted to a level appropriate for what the settlement needs (a Church capable of *raise dead* needs a cleric of the level that spell requires).
+- **Shops, trades, and services** (General Store, Smithy, Stables, Carpenter, Weaver, Tavern, Inn, Physician, Moneylender, Alchemist or Apothecary): roll on the *Urban Professions* sub-table for the proprietor's trade, and the *Race* sub-table if their race matters. For rank-and-file staff, use the *0-Level NPCs* table.
+- **Market Square**: several vendors at once, not one proprietor — roll on *Urban Professions* two to four times (DM's choice), once per stall.
+- **Town Militia or Guard Post**: roll on *Urban Professions* for the officer in charge (a City Guard, City Watchman, or Fighter result fits best; reroll anything that plainly doesn't) and use the *0-Level NPCs* table for the rank and file.
+- **Shrine, Temple, or Church**: a Cleric, per the Nighttime or Daytime Encounters tables' Cleric entry, adjusted to a level appropriate for what the settlement needs (a Church capable of *raise dead* needs a cleric of the level that spell requires).
 - **Thieves' Guild**: a Thief, per the Nighttime or Daytime Encounters tables' Thief entry — this NPC and their apprentices are the guild's local leadership.
 - **Mercenary or Adventurers' Guild Hall**: a Fighter, per the Nighttime or Daytime Encounters tables' Fighter entry, with henchmen as given.
 - **Wizard's Tower**: a Magic-User, per the Nighttime or Daytime Encounters tables' Magic-User entry.
@@ -10552,10 +10560,10 @@ Prices below cover the common case; the DM may vary them by settlement size (a V
 
 | Weapon | Cost | Armor | AC | Cost |
 |---|---|---|---|---|
-| Hand Axe | 4 gp | Leather Armor | 7 | 20 gp |
-| Battle Axe (two-handed) | 7 gp | Chain Mail Armor | 5 | 40 gp |
-| Dagger | 3 gp | Plate Mail Armor | 3 | 60 gp |
-| Silver Dagger | 30 gp | Shield | -1 | 10 gp |
+| Hand Axe | 4 gp | Leather Armor | 12 | 20 gp |
+| Battle Axe (two-handed) | 7 gp | Chain Mail Armor | 14 | 40 gp |
+| Dagger | 3 gp | Plate Mail Armor | 16 | 60 gp |
+| Silver Dagger | 30 gp | Shield | +1 | 10 gp |
 | Short Sword | 7 gp | | | |
 | Sword | 10 gp | | | |
 | Two-Handed Sword | 15 gp | | | |
