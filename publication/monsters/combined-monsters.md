@@ -188,7 +188,7 @@ Animals in this section are considered “animals” for the purposes of magic s
 | Treasure Type | Nil              | C                |
 | Alignment     | Neutral          | Neutral          |
 
-Apes are large primates found in remote tropical forests. Though immensely strong, they differ greatly in temperament and behavior.
+Apes are large primates found in remote tropical forests. Though immensely strong, they differ greatly in temperament and behavior. Both grab and rend on a double-claw hit, but the gorilla is shy and defensive while the carnivorous ape is aggressive and man-eating.
 
 **Gorillas**: Gorillas are normally shy and non-aggressive, preferring to avoid conflict whenever possible. However, if threatened, cornered, or defending their young, they fight with tremendous strength and ferocity. If a gorilla hits with both claws in the same round, it grabs and rends its opponent for an additional `1d6` points of damage.
 
@@ -560,7 +560,7 @@ Wild dogs roam in packs across many regions, sometimes overlapping the range of 
 
 Dolphins are intelligent sea mammals that usually roam the oceans in nomadic schools. Some form underwater communities; if one is found, nearby communities are likely to exist within a few miles.
 
-Communal dolphins may keep swordfish or narwhals as guards, depending on climate. Dolphins help humans in distress and attack creatures that threaten them. They hate sharks and attack them unless outnumbered at least two to one.
+Communal dolphins may keep swordfish or narwhals as guards, depending on climate. Dolphins help humans in distress and attack creatures that threaten them. They hate sharks and attack them unless outnumbered at least two to one.  Their ramming attack can shatter a small boat's hull if the crew provokes them.
 
 ### Eagle, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -628,7 +628,7 @@ Elephants dwell at the edge of sub-tropical forest areas. Their tusks are valued
 | Attacks     | 1 bite     | Treasure Type | Nil        |
 | Damage      | 1d8        | Alignment     | Neutral    |
 
-Giant ferrets look like 3' long weasels. They hunt giant rats underground, and are sometimes trained for this purpose. Unfortunately, their tempers are highly unpredictable, and they have been known to attack their trainers and other humans.
+Giant ferrets look like 3' long weasels, with sleek, sinuous bodies well-suited to slipping through narrow tunnels and burrows. They hunt giant rats underground, and are sometimes trained for this purpose. Skilled trainers value them for their speed and tenacity in confined spaces, but success is far from guaranteed. Unfortunately, their tempers are highly unpredictable, and they have been known to attack their trainers and other humans. Even a ferret raised from a kit may turn on its handler without warning, making them a risky companion at best.
 
 ::: twocolumn-pdf-end
 :::
@@ -901,7 +901,7 @@ Giant leeches are loathsome and slug-like. They live in swamps and are about 3 t
 
 |               | Gecko      | Draco                      | Horned Chameleon | Tuatara          |
 |---------------|------------|----------------------------|------------------|------------------|
-| Armor Class   | 14          | 14                          | 17                | 15                |
+| Armor Class   | 14         | 14                         | 17               | 15               |
 | Hit Dice      | 3 + 1      | 4 + 2                      | 5*               | 6                |
 | Move          | 120' (40') | 120' (40'); fly 210' (70') | 120' (40')       | 90' (30')        |
 | Attacks       | 1 bite     | 1 bite                     | 1 bite / 1 horn  | 2 claws / 1 bite |
@@ -924,6 +924,9 @@ Giant leeches are loathsome and slug-like. They live in swamps and are about 3 t
 A horned chameleon can shoot out its sticky tongue up to 5' long. A successful hit means that the victim is pulled to the horned chameleon's mouth and automatically bitten for `2d4` points of damage.
 
 The horned chameleon can also attack with its horn for `1d6`, and may use its tail to knock other attackers down on a successful hit, doing no damage but preventing the victim from attacking that round.
+
+::: pagebreak-pdf
+:::
 
 **Tuatara**: is an 8' long lizard that looks like a cross between an iguana and a toad. It has pebble-colored olive skin with white spikes along its back. It is carnivorous and sometimes attacks humans. A tuatara has a membrane over its eyes which, when lowered, is sensitive to changes in temperature, allowing it to see in darkness with 90' infravision.
 
@@ -1133,9 +1136,7 @@ If threatened, surprised, or charged, a rhinoceros will stampede in a random dir
 | Attacks     | 1 butt     | Treasure Type | Nil        |
 | Damage      | 1d4        | Alignment     | Neutral    |
 
-Giant sea horses are shy marine mounts often used by mermen, nixies, and other aquatic folk. They avoid combat unless trained.
-
-If frightened, they flee quickly through weeds and reefs.
+Giant sea horses are shy marine mounts often used by mermen, nixies, and other aquatic folk, who prize them for their gentle temperament and graceful bearing. Bonded riders can guide them with light touches and soft signals, making them ideal for underwater messengers and scouts. They avoid combat unless trained, relying instead on speed and stealth to escape danger.
 
 ::: center
 ![](assets/giant-sea-horse-plate.png)
@@ -1199,9 +1200,6 @@ Giant skunks are shy but dangerous animals. If threatened, they spray a foul mus
 
 Creatures struck by musk must Save vs. Poison or be blinded and nauseated for `1d6` turns. The odor clings for days unless washed with strong substances or removed by magic.
 
-::: pagebreak-pdf
-:::
-
 ::: twocolumn-pdf-end
 :::
 
@@ -1232,9 +1230,9 @@ Snakes are found almost everywhere except for very hot or very cold places. Most
 
 **Sea Snake**: Sea snakes are snakes adapted for living in the sea.  They must come to the surface of the water to breathe once an hour. Their bite is little more than a pinprick, and will go unnoticed 50% of the time. The victim must save vs. Poison, and the poison is slow-acting; its full effects take `1d4 + 2` turns to be felt if the saving throw is failed. (By the time this is felt, there is a 25% chance that not even a neutralize poison spell can save the victim.) Unlike other snakes, sea snakes will attack humans for food.
 
-**Giant Rattlesnake**: A giant rattlesnake is a 10' long snake with brown and white scales set in a diamond pattern. On its tail is a dried, scaly rattle, which it often rattles to warn off intruders or attackers who are too large to eat. Giant rattlesnakes are meat-eaters and their bite is poisonous (save vs. Poison or die in 1-6 turns.) They are very fast and may attack a second time at the end of every round.
+**Giant Rattlesnake**: A giant rattlesnake is a 10' long snake with brown and white scales set in a diamond pattern. On its tail is a dried, scaly rattle, which it often rattles to warn off intruders or attackers who are too large to eat. Despite this warning, a rattlesnake that is hungry or feels cornered will strike without hesitation. Giant rattlesnakes are meat-eaters and their bite is poisonous (save vs. Poison or die in `1d6` turns.) They are very fast and may attack a second time at the end of every round.
 
-**Rock Python**: A rock python is a 20' long giant snake with brown and yellow scales set in a spiral pattern. Its first attack is a bite. If the bite is successful, a rock python will coil around the victim and constrict in the same round. This squeezing does `2d4` points of damage per round, and begins automatically once the bite hits.
+**Rock Python**: A rock python is a 20' long giant snake with brown and yellow scales set in a spiral pattern. Its first attack is a bite. If the bite is successful, a rock python will coil around the victim and constrict in the same round. This squeezing does `2d4` points of damage per round, and begins automatically once the bite hits.  A victim cannot break free of the coils without outside help unless they overcome the snake's considerable strength.
 
 ::: center
 ![](assets/snake-plate.png)
