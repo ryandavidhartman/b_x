@@ -454,6 +454,15 @@
 <li><a href="#trap-generation-and-placement">Trap Generation and Placement</a></li>
 <li><a href="#random-dungeon-generation">Random Dungeon Generation</a></li>
 </ul></li>
+<li><a href="#appendix-e-random-settlement-builder">Appendix E: Random Settlement Builder</a>
+<ul>
+<li><a href="#building-a-settlement">Building a Settlement</a></li>
+<li><a href="#settlement-size">Settlement Size</a></li>
+<li><a href="#government">Government</a></li>
+<li><a href="#points-of-interest">Points of Interest</a></li>
+<li><a href="#populating-a-point-of-interest">Populating a Point of Interest</a></li>
+<li><a href="#equipment-and-services">Equipment and Services</a></li>
+</ul></li>
 </ul>
 </nav>
 <blockquote>
@@ -499,8 +508,8 @@
 <li><p><em>Swoop</em>: Certain flying monsters can make diving attacks from above. If the monster surprises its target, a successful swoop attack inflicts double damage. Swoop attacks cannot be used against targets protected by dense forest or jungle cover. On a roll of 18+, the monster also grabs the victim and attempts to fly away. If the victim is too heavy to carry, the monster releases them and attacks normally on the following round.</p></li>
 <li><p><em>Trample</em>: Some large monsters can crush opponents beneath their weight. Creatures with this attack have a 75% chance each round to trample instead of using another attack. Trample attacks gain a +4 bonus on attack rolls against man-sized or smaller creatures. The DM may also allow herds of 20 or more normal animals, such as horses, to stampede and trample. A stampeding herd inflicts <code>1d20</code> points of damage.</p></li>
 </ul>
-<p><strong>No. Appearing (Number Appearing)</strong>: gives the suggested number of monsters encountered at one time. The first number is the typical range encountered on a dungeon level equal to the monster’s Hit Dice or level.</p>
-<p><em>Example</em>: A monster with 3+1 Hit Dice and No. Appearing: 1-6 would commonly be encountered in groups of <code>1d6</code> on the 3<sup>rd</sup> dungeon level.</p>
+<p><strong>No. Appearing (Number Appearing)</strong>: gives the suggested number of monsters encountered at one time. The first number is the typical range encountered on a dungeon level equal to the monster’s Hit Dice or level. A second number in parentheses, where given, is the number encountered in the monster’s own lair or out in the wilderness — usually a larger group than a single wandering encounter would turn up.</p>
+<p><em>Example</em>: A monster with 3+1 Hit Dice and No. Appearing: <code>1-6 (2-12)</code> would commonly be encountered in groups of <code>1d6</code> on the 3<sup>rd</sup> dungeon level, but in a group of <code>2d6</code> if found in its lair or in the wilderness.</p>
 <p>When monsters are encountered on dungeon levels lower than their own level, fewer should usually appear. On deeper levels, larger groups are more common. The exact numbers are left to the DM’s judgment.</p>
 <p>The number in parentheses gives the typical number encountered in the monster’s lair or in the wilderness. Wilderness lairs often contain up to five times the number normally encountered in a dungeon.</p>
 <p>A <code>0</code> means the monster is not normally encountered in that environment unless specially placed by the DM.</p>
@@ -3765,7 +3774,7 @@
 <h3 id="pseudo-dragon">Pseudo-Dragon</h3>
 <p><em>Source:</em> <code>AD&amp;D 1E Conversion</code> <em>Category:</em> <code>Dragon</code></p>
 <table class="statblock"><tbody><tr><td class="stat-label">Armor Class</td><td class="stat-value">17</td><td class="stat-label">No. Appearing</td><td class="stat-value">1 (1)</td></tr><tr><td class="stat-label">Hit Dice</td><td class="stat-value">2</td><td class="stat-label">Save As</td><td class="stat-value">Fighter 2</td></tr><tr><td class="stat-label">Move</td><td class="stat-value">60’ (20’)</td><td class="stat-label">Morale</td><td class="stat-value">7</td></tr><tr><td class="stat-label">Fly</td><td class="stat-value">240’ (80’)</td><td class="stat-label">Treasure Type</td><td class="stat-value">Nil</td></tr><tr><td class="stat-label">Attacks</td><td class="stat-value">1 bite / 1 sting</td><td class="stat-label">Alignment</td><td class="stat-value">Neutral</td></tr><tr><td class="stat-label">Damage</td><td class="stat-value">1d3 / sleep</td><td class="stat-label"></td><td class="stat-value"></td></tr></tbody></table>
-<p>Pseudo-dragons are tiny, intelligent dragon-kin that may bond with a trusted companion. They are shy, playful, and telepathic in a limited range. Their tail sting forces a Save vs. Poison. Failure causes deep sleep; a roll of 1 may cause death at the referee’s discretion.</p>
+<p>Pseudo-dragons are tiny, intelligent dragon-kin that may bond with a trusted companion. They are shy, playful, and telepathic in a limited range. Their tail sting forces a Save vs. Poison. Failure causes deep sleep; a roll of 1 may cause death at the DM’s discretion.</p>
 <p>Pseudo-dragons can change color like chameleons and often hide near their companions, watching from rafters or branches long before revealing themselves. Fiercely loyal once trust is earned, they will fight far above their size to defend a bonded companion, using stealth and cunning rather than brute force.</p>
 <div class="center">
 <p><img src="assets/pseudo-dragon-plate.png" class="img-sm" /></p>
@@ -4153,7 +4162,7 @@
 <p><em>Source:</em> <code>AD&amp;D 1E Conversion</code> <em>Category:</em> <code>Elemental</code></p>
 <table class="statblock"><tbody><tr><td class="stat-label">Armor Class</td><td class="stat-value">10</td><td class="stat-label">No. Appearing</td><td class="stat-value">1 (1d4)</td></tr><tr><td class="stat-label">Hit Dice</td><td class="stat-value">3</td><td class="stat-label">Save As</td><td class="stat-value">Fighter 3</td></tr><tr><td class="stat-label">Move</td><td class="stat-value">120’ (40’)</td><td class="stat-label">Morale</td><td class="stat-value">6</td></tr><tr><td class="stat-label">Fly</td><td class="stat-value">360’ (120’)</td><td class="stat-label">Treasure Type</td><td class="stat-value">Q, X</td></tr><tr><td class="stat-label">Attacks</td><td class="stat-value">1 dagger</td><td class="stat-label">Alignment</td><td class="stat-value">Neutral</td></tr><tr><td class="stat-label">Damage</td><td class="stat-value">1d4</td><td class="stat-label"></td><td class="stat-value"></td></tr></tbody></table>
 <p>Sylphs are shy air spirits that appear as graceful winged women. They prefer lonely high places and avoid violence.</p>
-<p>Sylphs can become invisible and cast magic-user spells at the referee’s discretion. They may aid gentle or handsome travelers but flee cruelty.</p>
+<p>Sylphs can become invisible and cast magic-user spells at the DM’s discretion. They may aid gentle or handsome travelers but flee cruelty.</p>
 <div class="center">
 <p><img src="assets/sylph-plate.png" class="img-sm" /></p>
 </div>
@@ -4920,7 +4929,7 @@
 </tbody>
 </table>
 <p>Giant spiders spin webs and ambush prey. Huge spiders are faster hunters. Phase spiders shift in and out of phase to strike, requiring manual review if exact ethereal handling matters.</p>
-<p>Spider bites are poisonous. Victims must Save vs. Poison or die, though the referee may grant bonuses for weaker varieties.</p>
+<p>Spider bites are poisonous. Victims must Save vs. Poison or die, though the DM may grant bonuses for weaker varieties.</p>
 <div class="center">
 <p><img src="assets/spider-generic-plate.png" class="img-lg" /></p>
 </div>
@@ -5043,7 +5052,7 @@
 <p><em>Source:</em> <code>AD&amp;D 1E Conversion</code> <em>Category:</em> <code>Insect</code></p>
 <table class="statblock"><tbody><tr><td class="stat-label">Armor Class</td><td class="stat-value">15</td><td class="stat-label">No. Appearing</td><td class="stat-value">1d6 (2d6)</td></tr><tr><td class="stat-label">Hit Dice</td><td class="stat-value">4</td><td class="stat-label">Save As</td><td class="stat-value">Fighter 2</td></tr><tr><td class="stat-label">Move</td><td class="stat-value">60’ (20’)</td><td class="stat-label">Morale</td><td class="stat-value">8</td></tr><tr><td class="stat-label">Fly</td><td class="stat-value">210’ (70’)</td><td class="stat-label">Treasure Type</td><td class="stat-value">Nil</td></tr><tr><td class="stat-label">Attacks</td><td class="stat-value">1 sting / 1 bite</td><td class="stat-label">Alignment</td><td class="stat-value">Neutral</td></tr><tr><td class="stat-label">Damage</td><td class="stat-value">1d4 poison / 1d8</td><td class="stat-label"></td><td class="stat-value"></td></tr></tbody></table>
 <p>Giant wasps are aggressive flying insects that build paper-like nests in trees, cliffs, and ruins.</p>
-<p>A sting forces a Save vs. Poison or death. Giant wasps may paralyze prey to feed their young, at the referee’s discretion.</p>
+<p>A sting forces a Save vs. Poison or death. Giant wasps may paralyze prey to feed their young, at the DM’s discretion.</p>
 <div class="center">
 <p><img src="assets/giant-wasp-plate.png" class="img-sm" /></p>
 </div>
@@ -5595,7 +5604,7 @@
 <table class="statblock"><tbody><tr><td class="stat-label">Armor Class</td><td class="stat-value">14</td><td class="stat-label">No. Appearing</td><td class="stat-value">1 (1d4)</td></tr><tr><td class="stat-label">Hit Dice</td><td class="stat-value">9</td><td class="stat-label">Save As</td><td class="stat-value">Fighter 9</td></tr><tr><td class="stat-label">Move</td><td class="stat-value">60’ (20’)</td><td class="stat-label">Morale</td><td class="stat-value">9</td></tr><tr><td class="stat-label">Fly</td><td class="stat-value">180’ (60’)</td><td class="stat-label">Treasure Type</td><td class="stat-value">B, I</td></tr><tr><td class="stat-label">Attacks</td><td class="stat-value">1 bite / 1 constrict</td><td class="stat-label">Alignment</td><td class="stat-value">Lawful</td></tr><tr><td class="stat-label">Damage</td><td class="stat-value">1d3 poison / 2d4</td><td class="stat-label"></td><td class="stat-value"></td></tr></tbody></table>
 <p>Couatls are winged, feathered serpents rarely found outside warm jungles or the ether. Their intelligence, magic, and benevolent nature cause many peoples to regard them with awe.</p>
 <p>A couatl’s bite is venomous. A bitten creature must Save vs. Poison or die. If the couatl constricts, the victim takes <code>2d4</code> damage each round until the couatl releases it, the victim escapes, or one of them dies.</p>
-<p>Couatls can become ethereal at will and can polymorph themselves. Each couatl casts spells as either a 5th level magic-user, a 7th level cleric, or both, as chosen by the referee. They are aware of psionic activity and should be treated as highly resistant to mental influence.</p>
+<p>Couatls can become ethereal at will and can polymorph themselves. Each couatl casts spells as either a 5th level magic-user, a 7th level cleric, or both, as chosen by the DM. They are aware of psionic activity and should be treated as highly resistant to mental influence.</p>
 <p>Couatls speak several human languages, as well as most serpent and avian tongues.</p>
 <div class="center">
 <p><img src="assets/couatl-plate.png" class="img-sm" /></p>
@@ -5780,7 +5789,7 @@
 <p><em>Source:</em> <code>AD&amp;D 1E Conversion</code> <em>Category:</em> <code>Monster</code></p>
 <table class="statblock"><tbody><tr><td class="stat-label">Armor Class</td><td class="stat-value">24</td><td class="stat-label">No. Appearing</td><td class="stat-value">1 (1)</td></tr><tr><td class="stat-label">Hit Dice</td><td class="stat-value">12</td><td class="stat-label">Save As</td><td class="stat-value">Fighter 12</td></tr><tr><td class="stat-label">Move</td><td class="stat-value">240’ (80’)</td><td class="stat-label">Morale</td><td class="stat-value">10</td></tr><tr><td class="stat-label">Fly</td><td class="stat-value">480’ (160’)</td><td class="stat-label">Treasure Type</td><td class="stat-value">Nil</td></tr><tr><td class="stat-label">Attacks</td><td class="stat-value">2 hooves / 1 horn</td><td class="stat-label">Alignment</td><td class="stat-value">Lawful</td></tr><tr><td class="stat-label">Damage</td><td class="stat-value">2d4 / 2d4 / 3d6</td><td class="stat-label"></td><td class="stat-value"></td></tr></tbody></table>
 <p>Ki-rin are noble, highly magical beings that appear as radiant, scaled, horse-like creatures with a single horn. They serve good and oppose great evil.</p>
-<p>Ki-rin can fly, become invisible, create food and water, and use powerful clerical and magical spells at the referee’s discretion. They are campaign-level allies or patrons and require manual review before use.</p>
+<p>Ki-rin can fly, become invisible, create food and water, and use powerful clerical and magical spells at the DM’s discretion. They are campaign-level allies or patrons and require manual review before use.</p>
 <div class="center">
 <p><img src="assets/ki-rin-plate.png" class="img-md" /></p>
 </div>
@@ -5805,7 +5814,7 @@
 <p><em>Source:</em> <code>AD&amp;D 1E Conversion</code> <em>Category:</em> <code>Monster</code></p>
 <table class="statblock"><tbody><tr><td class="stat-label">Armor Class</td><td class="stat-value">13</td><td class="stat-label">No. Appearing</td><td class="stat-value">1d2 (1d4)</td></tr><tr><td class="stat-label">Hit Dice</td><td class="stat-value">7+7</td><td class="stat-label">Save As</td><td class="stat-value">Fighter 8</td></tr><tr><td class="stat-label">Move</td><td class="stat-value">120’ (40’)</td><td class="stat-label">Morale</td><td class="stat-value">9</td></tr><tr><td class="stat-label">Fly</td><td class="stat-value">240’ (80’)</td><td class="stat-label">Treasure Type</td><td class="stat-value">C</td></tr><tr><td class="stat-label">Attacks</td><td class="stat-value">2 claws</td><td class="stat-label">Alignment</td><td class="stat-value">Lawful</td></tr><tr><td class="stat-label">Damage</td><td class="stat-value">1d6 / 1d6</td><td class="stat-label"></td><td class="stat-value"></td></tr></tbody></table>
 <p>Lammasu are noble winged lions with human-like heads. They protect lawful creatures and oppose evil.</p>
-<p>Lammasu radiate protection from evil and can cast clerical spells at the referee’s discretion. They are intelligent, wise, and may aid worthy parties.</p>
+<p>Lammasu radiate protection from evil and can cast clerical spells at the DM’s discretion. They are intelligent, wise, and may aid worthy parties.</p>
 <div class="center">
 <p><img src="assets/lammasu-plate.png" class="img-sm" /></p>
 </div>
@@ -5943,7 +5952,7 @@
 <p><em>Source:</em> <code>AD&amp;D 1E Conversion</code> <em>Category:</em> <code>Monster</code></p>
 <table class="statblock"><tbody><tr><td class="stat-label">Armor Class</td><td class="stat-value">16</td><td class="stat-label">No. Appearing</td><td class="stat-value">1 (1)</td></tr><tr><td class="stat-label">Hit Dice</td><td class="stat-value">7</td><td class="stat-label">Save As</td><td class="stat-value">Fighter 7</td></tr><tr><td class="stat-label">Move</td><td class="stat-value">180’ (60’) swim</td><td class="stat-label">Morale</td><td class="stat-value">9</td></tr><tr><td class="stat-label">Attacks</td><td class="stat-value">1 bite</td><td class="stat-label">Treasure Type</td><td class="stat-value">A</td></tr><tr><td class="stat-label">Damage</td><td class="stat-value">1d10</td><td class="stat-label">Alignment</td><td class="stat-value">Chaotic</td></tr></tbody></table>
 <p>Morkoths are evil undersea monsters that dwell in spiraling tunnel lairs. Their lairs confuse intruders and draw them toward the center.</p>
-<p>A morkoth can hypnotize victims that meet its gaze. The victim must Save vs. Spells or swim helplessly toward the monster. Spells cast at a morkoth may be reflected back at the caster at the referee’s discretion.</p>
+<p>A morkoth can hypnotize victims that meet its gaze. The victim must Save vs. Spells or swim helplessly toward the monster. Spells cast at a morkoth may be reflected back at the caster at the DM’s discretion.</p>
 <div class="center">
 <p><img src="assets/morkoth-plate.png" class="img-sm" /></p>
 </div>
@@ -6127,7 +6136,7 @@
 <p><em>Source:</em> <code>AD&amp;D 1E Conversion</code> <em>Category:</em> <code>Monster</code></p>
 <table class="statblock"><tbody><tr><td class="stat-label">Armor Class</td><td class="stat-value">23</td><td class="stat-label">No. Appearing</td><td class="stat-value">1d4 (1d4)</td></tr><tr><td class="stat-label">Hit Dice</td><td class="stat-value">7</td><td class="stat-label">Save As</td><td class="stat-value">Fighter 7</td></tr><tr><td class="stat-label">Move</td><td class="stat-value">150’ (50’)</td><td class="stat-label">Morale</td><td class="stat-value">9</td></tr><tr><td class="stat-label">Attacks</td><td class="stat-value">2 claws / 1 bite</td><td class="stat-label">Treasure Type</td><td class="stat-value">F</td></tr><tr><td class="stat-label">Damage</td><td class="stat-value">1d3 / 1d3 / 1d4+1</td><td class="stat-label">Alignment</td><td class="stat-value">Chaotic</td></tr></tbody></table>
 <p>Rakshasas are evil, shapechanging spirits that delight in deception, luxury, and human suffering. They often appear as nobles, priests, or merchants.</p>
-<p>Rakshasas use illusion and charm freely and cast spells as magic-users and clerics at the referee’s discretion. They are immune to normal weapons and most low-level spells. Blessed crossbow bolts or comparable holy weapons are especially deadly to them.</p>
+<p>Rakshasas use illusion and charm freely and cast spells as magic-users and clerics at the DM’s discretion. They are immune to normal weapons and most low-level spells. Blessed crossbow bolts or comparable holy weapons are especially deadly to them.</p>
 <div class="center">
 <p><img src="assets/rakshasa-plate.png" class="img-sm" /></p>
 </div>
@@ -6534,7 +6543,7 @@
 <p><em>Source:</em> <code>AD&amp;D 1E Conversion</code> <em>Category:</em> <code>Monster</code></p>
 <table class="statblock"><tbody><tr><td class="stat-label">Armor Class</td><td class="stat-value">27</td><td class="stat-label">No. Appearing</td><td class="stat-value">1 (1d3)</td></tr><tr><td class="stat-label">Hit Dice</td><td class="stat-value">9</td><td class="stat-label">Save As</td><td class="stat-value">Fighter 9</td></tr><tr><td class="stat-label">Move</td><td class="stat-value">180’ (60’) fly</td><td class="stat-label">Morale</td><td class="stat-value">9</td></tr><tr><td class="stat-label">Attacks</td><td class="stat-value">1 shock</td><td class="stat-label">Treasure Type</td><td class="stat-value">Z</td></tr><tr><td class="stat-label">Damage</td><td class="stat-value">2d8</td><td class="stat-label">Alignment</td><td class="stat-value">Chaotic</td></tr></tbody></table>
 <p>Will-o-wisps are floating lights that lure travelers into bogs, pits, and monster lairs. They feed on fear and death.</p>
-<p>They can brighten, dim, or vanish at will. Most spells do not affect them, though magic missile and a few referee-chosen effects may. They attack with electrical shocks.</p>
+<p>They can brighten, dim, or vanish at will. Most spells do not affect them, though magic missile and a few DM-chosen effects may. They attack with electrical shocks.</p>
 <div class="center">
 <p><img src="assets/will-o-wisp-plate.png" class="img-sm" /></p>
 </div>
@@ -6794,7 +6803,7 @@
 <li><em>Spells</em>: Spell casters should have memorized spells selected or rolled in advance.</li>
 <li><em>Equipment</em>: Standard adventuring gear.</li>
 <li><em>Treasure</em>: Treasure types <code>U + V</code>, divided among the party.</li>
-<li><em>Marching Order</em>: Determined by the referee.</li>
+<li><em>Marching Order</em>: Determined by the DM.</li>
 </ul>
 <p>If the character classes presented in this book are not used in the campaign, substitute equivalent classes.</p>
 <hr />
@@ -6985,7 +6994,7 @@
 <p><em>Source:</em> <code>AD&amp;D 1E Conversion</code> <em>Category:</em> <code>Monster</code></p>
 <table class="statblock"><tbody><tr><td class="stat-label">Armor Class</td><td class="stat-value">10</td><td class="stat-label">No. Appearing</td><td class="stat-value">1 (1d4)</td></tr><tr><td class="stat-label">Hit Dice</td><td class="stat-value">3</td><td class="stat-label">Save As</td><td class="stat-value">Fighter 3</td></tr><tr><td class="stat-label">Move</td><td class="stat-value">120’ (40’)</td><td class="stat-label">Morale</td><td class="stat-value">6</td></tr><tr><td class="stat-label">Attacks</td><td class="stat-value">Nil</td><td class="stat-label">Treasure Type</td><td class="stat-value">Q, X</td></tr><tr><td class="stat-label">Damage</td><td class="stat-value">Special</td><td class="stat-label">Alignment</td><td class="stat-value">Neutral</td></tr></tbody></table>
 <p>Nymphs are beautiful spirits of wild places, bound to springs, groves, and secluded natural sites. They avoid violence and flee if threatened.</p>
-<p>Any creature seeing a nymph unveiled must Save vs. Spells or be blinded. A creature that sees her unclothed must save or die. Nymphs can dimension door and may cast druidic or clerical spells at the referee’s discretion.</p>
+<p>Any creature seeing a nymph unveiled must Save vs. Spells or be blinded. A creature that sees her unclothed must save or die. Nymphs can dimension door and may cast druidic or clerical spells at the DM’s discretion.</p>
 <h3 id="pixie">Pixie</h3>
 <p><em>Source:</em> <code>Basic</code> <em>Category:</em> <code>Sylvan or Faerie</code></p>
 <table class="statblock"><tbody><tr><td class="stat-label">Armor Class</td><td class="stat-value">16</td><td class="stat-label">No. Appearing</td><td class="stat-value">2d4 (10d4)</td></tr><tr><td class="stat-label">Hit Dice</td><td class="stat-value">1*</td><td class="stat-label">Save As</td><td class="stat-value">Elf 1</td></tr><tr><td class="stat-label">Move</td><td class="stat-value">90’ (30’)</td><td class="stat-label">Morale</td><td class="stat-value">7</td></tr><tr><td class="stat-label">Flying</td><td class="stat-value">180’ (60’)</td><td class="stat-label">Treasure Type</td><td class="stat-value">R + S</td></tr><tr><td class="stat-label">Attacks</td><td class="stat-value">1 dagger</td><td class="stat-label">Alignment</td><td class="stat-value">Neutral</td></tr><tr><td class="stat-label">Damage</td><td class="stat-value">1d4</td><td class="stat-label"></td><td class="stat-value"></td></tr></tbody></table>
@@ -7064,7 +7073,7 @@
 <table class="statblock"><tbody><tr><td class="stat-label">Armor Class</td><td class="stat-value">19 or 11</td><td class="stat-label">No. Appearing</td><td class="stat-value">1 (1)</td></tr><tr><td class="stat-label">Hit Dice</td><td class="stat-value">10</td><td class="stat-label">Save As</td><td class="stat-value">Fighter 10</td></tr><tr><td class="stat-label">Move</td><td class="stat-value">90’ (30’)</td><td class="stat-label">Morale</td><td class="stat-value">10</td></tr><tr><td class="stat-label">Attacks</td><td class="stat-value">1 touch</td><td class="stat-label">Treasure Type</td><td class="stat-value">E, S</td></tr><tr><td class="stat-label">Damage</td><td class="stat-value">Age 1d4 x 10 years</td><td class="stat-label">Alignment</td><td class="stat-value">Chaotic</td></tr></tbody></table>
 <p>Ghosts are the ethereal spirits of evil humans, cursed into undeath and drawn to darkness. They hate life and seek to drain it from the living.</p>
 <p>The sight of a ghost causes humanoids to age 10 years and flee in panic for <code>2d6</code> turns unless they Save vs. Spells. Clerics above 6th level are immune, and other humanoids above 8th level gain +2 to the save.</p>
-<p>A ghost normally attacks from the ethereal plane with magic jar against a creature within 60’. If this fails, it semi-materializes and attacks by touch. In ethereal form it is AC 11 and can be fought only ethereally or by mental means. In semi-material form it is AC 19 and can be struck only by silver weapons for half damage or by magic weapons. A human or demi-human killed by a ghost is forever dead unless the referee allows extraordinary magic.</p>
+<p>A ghost normally attacks from the ethereal plane with magic jar against a creature within 60’. If this fails, it semi-materializes and attacks by touch. In ethereal form it is AC 11 and can be fought only ethereally or by mental means. In semi-material form it is AC 19 and can be struck only by silver weapons for half damage or by magic weapons. A human or demi-human killed by a ghost is forever dead unless the DM allows extraordinary magic.</p>
 <div class="center">
 <p><img src="assets/ghost-plate.png" class="img-sm" /></p>
 </div>
@@ -9229,18 +9238,19 @@
 </div>
 <h2 id="appendix-c-random-encounters">Appendix C: Random Encounters</h2>
 <p><em>Source:</em> <code>OSRIC, Dungeons, Towns and Wildernesses; D&amp;D Basic Rulebook, Part 8: Dungeon Master Information; D&amp;D Expert Rulebook, Part 8: Dungeon Master Information</code></p>
-<p>This appendix covers wandering monsters — creatures the party meets at random rather than by the referee’s deliberate placement, generated on the fly according to where the party is: a dungeon level, a stretch of wilderness terrain, or the streets of a city. It adapts OSRIC’s random encounter system for dungeons, towns, and the wilderness, with monster and class names translated to match this book. It does not cover the mechanics of running an encounter once it starts (surprise, initiative, combat, and so on) — those belong to the core rulebooks. For building a deliberately-stocked location such as a haunted tomb, see Appendix D: The Encounter Builder.</p>
+<p>This appendix covers wandering monsters — creatures the party meets at random rather than by the DM’s deliberate placement, generated on the fly according to where the party is: a dungeon level, a stretch of wilderness terrain, or the streets of a city. It adapts OSRIC’s random encounter system for dungeons, towns, and the wilderness, with monster and class names translated to match this book. It does not cover the mechanics of running an encounter once it starts (surprise, initiative, combat, and so on) — those belong to the core rulebooks. For building a deliberately-stocked location such as a haunted tomb, see Appendix D: The Encounter Builder.</p>
 <h3 id="building-an-encounter">Building an Encounter</h3>
 <p>A. <strong>Choose the setting.</strong> Is the party in a dungeon, the wilderness, or a settlement? This determines which table set to use for the rest of the procedure — <em>Dungeon Random Encounters</em>, <em>Wilderness Encounters</em>, or <em>Urban Encounters</em>, below.</p>
 <p>B. <strong>Check whether an encounter occurs.</strong> See <em>Encounter Frequency</em>, below, for the chance appropriate to the setting.</p>
-<p>C. <strong>Determine the monster.</strong> Roll on the table matching the setting from step A: - <em>Dungeon:</em> find the dungeon level’s row on the Monster Sub-table Matrix, roll <code>1d12</code> to find the Monster Level, then roll <code>d%</code> on that Monster Level table. - <em>Wilderness:</em> roll <code>d%</code> on the Terrain Category Summary for the party’s terrain, then roll <code>1d20</code> on that terrain’s matching column. - <em>Settlement:</em> roll on the Daytime or Nighttime Encounters table, as appropriate, consulting whichever sub-table it calls for.</p>
+<p>C. <strong>Determine the monster.</strong> Roll on the table matching the setting from step A: - <em>Dungeon:</em> find the dungeon level’s row on the Monster Sub-table Matrix, roll <code>1d12</code> to find the Monster Level, then roll <code>d%</code> on that Monster Level table. - <em>Wilderness:</em> roll <code>d%</code> on the Terrain Category Summary for the party’s terrain, then roll on that terrain’s matching column using the die given by Wilderness Encounter Level for the party’s level. - <em>Settlement:</em> roll on the Daytime or Nighttime Encounters table, as appropriate, consulting whichever sub-table it calls for, and check the result against Urban Encounter Level for the party’s level.</p>
 <p>D. <strong>Determine why it’s here.</strong> See <em>Encounter Purpose</em>, below, for a quick note on what the creature is doing when the party meets it.</p>
-<p>E. <strong>Determine number appearing.</strong> Use the No. Appearing entry from the creature’s own stat block, adjusted as described in <em>Dungeon Random Encounters</em> if the monster’s level doesn’t match the dungeon level it was encountered on.</p>
+<p>E. <strong>Determine number appearing.</strong> - <em>Dungeon:</em> the Monster Level table already gave a number in its <code>#</code> column — use that. - <em>Settlement:</em> the Daytime or Nighttime Encounters table already gave a number (and often a full retinue) in its <code># Encountered &amp; Notes</code> column — use that. - <em>Wilderness:</em> these tables give a monster name only, with no number of its own. Use the creature’s own No. Appearing entry from its stat block — specifically the <em>parenthetical</em> number (the one appearing in the wilderness or a lair), not the first number (which is for a wandering dungeon encounter). See <em>No. Appearing</em> in the glossary at the front of the book.</p>
+<p>For a dungeon encounter whose Monster Level doesn’t match the dungeon level it was rolled on, adjust the number as described in <em>Dungeon Random Encounters</em>, above.</p>
 <p>F. <strong>Award treasure.</strong> If the monster’s description gives a Treasure Type, roll on the Treasure Types table (Appendix B: Treasure). If treasure is present without a guardian, use the Unguarded Treasure table (Appendix B: Treasure) instead.</p>
 <p>To stock a whole dungeon room-by-room instead of generating a single wandering monster, see <em>Stocking a Room</em> in Appendix D: The Encounter Builder.</p>
 <h3 id="encounter-frequency">Encounter Frequency</h3>
 <p><em>Dungeon:</em> At the end of every 2 turns, roll <code>1d6</code>. A result of <code>1</code> means the party will encounter a Wandering Monster in the next turn.</p>
-<p><em>Wilderness:</em> Checked once per day by default, though the referee may make up to 3-4 checks on an eventful day. Roll <code>1d6</code>; the terrain determines which results trigger an encounter.</p>
+<p><em>Wilderness:</em> Checked once per day by default, though the DM may make up to 3-4 checks on an eventful day. Roll <code>1d6</code>; the terrain determines which results trigger an encounter.</p>
 <table>
 <thead>
 <tr class="header">
@@ -11259,7 +11269,7 @@
 <p>Demi-humans and multi-classed NPCs make up roughly 20% of a typical adventuring party. About half of all demi-humans who multi-class have two professions, and another quarter have three; assign the additional class(es) from the same NPC Adventurer Class table, ignoring any result that class or race cannot normally take.</p>
 <h3 id="urban-encounters">Urban Encounters</h3>
 <p><em>Source:</em> <code>OSRIC, Dungeons, Towns and Wildernesses: Random Urban Encounters</code></p>
-<p>Player characters are also likely to have random encounters when roaming the streets of a town or city. The GM should check for a random encounter every three turns, or as desired. Improbable or inconvenient results can be ignored and treated as if no encounter occurred.</p>
+<p>Player characters are also likely to have random encounters when roaming the streets of a town or city. The DM should check for a random encounter every three turns, or as desired. Improbable or inconvenient results can be ignored and treated as if no encounter occurred.</p>
 <p><em>Editorial note:</em> this book’s class list is limited to Cleric, Fighter, Magic-User, and Thief (plus the demi-human classes). Where the source material calls for an Assassin, Druid, Illusionist, Paladin, or Ranger, the tables below use the nearest of those four classes instead — labeled, e.g., “Thief (as Assassin)” — so it’s clear at a glance how each entry differs from a plain Fighter/Cleric/Magic-User/Thief encounter of the same name.</p>
 <h4 id="level-npcs">0-Level NPCs</h4>
 <p>Most NPCs encountered while adventuring in urban or civilised areas are normal folk with no adventuring class. They can be grouped into five types by their level of activity:</p>
@@ -11578,12 +11588,12 @@
 <tr class="odd">
 <td>23</td>
 <td>Demon</td>
-<td>GM’s discretion (any demon in this book). Only 1 encountered</td>
+<td>DM’s discretion (any demon in this book). Only 1 encountered</td>
 </tr>
 <tr class="even">
 <td>24</td>
 <td>Devil</td>
-<td>GM’s discretion (any devil in this book). Only 1 encountered</td>
+<td>DM’s discretion (any devil in this book). Only 1 encountered</td>
 </tr>
 <tr class="odd">
 <td>25</td>
@@ -11687,7 +11697,7 @@
 <tr class="even">
 <td>62</td>
 <td>Night Hag</td>
-<td>GM’s discretion. Only 1 encountered</td>
+<td>DM’s discretion. Only 1 encountered</td>
 </tr>
 <tr class="odd">
 <td>63-64</td>
@@ -11717,7 +11727,7 @@
 <tr class="even">
 <td>72</td>
 <td>Rakshasa</td>
-<td>GM’s discretion. 1d3 encountered</td>
+<td>DM’s discretion. 1d3 encountered</td>
 </tr>
 <tr class="odd">
 <td>73</td>
@@ -11727,17 +11737,17 @@
 <tr class="even">
 <td>74-80</td>
 <td>Muggers or Humanoids</td>
-<td>(1-8) 1d6+6 2nd-level fighters armed with clubs; (9-10) humanoids (Orcs, Kobolds, Goblins, etc. — GM’s discretion)</td>
+<td>(1-8) 1d6+6 2nd-level fighters armed with clubs; (9-10) humanoids (Orcs, Kobolds, Goblins, etc. — DM’s discretion)</td>
 </tr>
 <tr class="odd">
 <td>81</td>
 <td>Shadow</td>
-<td>GM’s discretion. 2d4 encountered</td>
+<td>DM’s discretion. 2d4 encountered</td>
 </tr>
 <tr class="even">
 <td>82</td>
 <td>Spectre</td>
-<td>GM’s discretion. 1d3 encountered</td>
+<td>DM’s discretion. 1d3 encountered</td>
 </tr>
 <tr class="odd">
 <td>83-88</td>
@@ -11767,22 +11777,22 @@
 <tr class="even">
 <td>97</td>
 <td>Wight</td>
-<td>GM’s discretion. 1d4+1 encountered</td>
+<td>DM’s discretion. 1d4+1 encountered</td>
 </tr>
 <tr class="odd">
 <td>98</td>
 <td>Will-O-Wisp</td>
-<td>GM’s discretion. 1d2 encountered</td>
+<td>DM’s discretion. 1d2 encountered</td>
 </tr>
 <tr class="even">
 <td>99</td>
 <td>Wraith</td>
-<td>GM’s discretion. 1d4 encountered</td>
+<td>DM’s discretion. 1d4 encountered</td>
 </tr>
 <tr class="odd">
 <td>00</td>
 <td>Vampire or Lich</td>
-<td>(1-8) 1 vampire, encountered in human (1-2), giant bat (3-6), or gaseous (7-10) form; (9-10) 1 lich, GM’s discretion</td>
+<td>(1-8) 1 vampire, encountered in human (1-2), giant bat (3-6), or gaseous (7-10) form; (9-10) 1 lich, DM’s discretion</td>
 </tr>
 </tbody>
 </table>
@@ -11932,7 +11942,7 @@
 <tr class="even">
 <td>64-65</td>
 <td>Night Hag</td>
-<td>GM’s discretion. Only 1 encountered</td>
+<td>DM’s discretion. Only 1 encountered</td>
 </tr>
 <tr class="odd">
 <td>66</td>
@@ -11962,7 +11972,7 @@
 <tr class="even">
 <td>74-78</td>
 <td>Rakshasa</td>
-<td>GM’s discretion. 1d3 encountered</td>
+<td>DM’s discretion. 1d3 encountered</td>
 </tr>
 <tr class="odd">
 <td>79-82</td>
@@ -11991,10 +12001,63 @@
 </tr>
 </tbody>
 </table>
+<h4 id="urban-encounter-level">Urban Encounter Level</h4>
+<p>Unlike the wilderness terrain tables, the entries above aren’t ordered by threat — a low-level party can roll a Beggar and a Vampire on consecutive nights with equal probability. The entries below are out of place for a party under the listed level; if a lower-level party rolls one, the DM may reroll, present it as a rumor or a sighting from a safe distance rather than a direct encounter, or let it stand as a dangerous surprise — city dangers don’t politely wait for the party to be ready for them.</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Party Level</th>
+<th>Entries out of place below this level</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>3+</td>
+<td>Wererat, Weretiger, Werewolf</td>
+</tr>
+<tr class="even">
+<td>5+</td>
+<td>Demon, Devil, Ghost, Night Hag, Rakshasa, Shadow, Spectre, Wight, Will-O-Wisp, Wraith</td>
+</tr>
+<tr class="odd">
+<td>8+</td>
+<td>Vampire or Lich</td>
+</tr>
+</tbody>
+</table>
+<p>All other entries are appropriate at any level.</p>
 <h3 id="wilderness-encounters">Wilderness Encounters</h3>
 <p><em>Source:</em> <code>OSRIC, Dungeons, Towns and Wildernesses: Random Wilderness Encounters</code></p>
-<p>Unlike dungeon encounters, wilderness encounters are not keyed to party level or strength; use the “No. Appearing” entry from the creature’s own stat block to generate specific numbers. Use the terrain type most prevalent in the party’s current location.</p>
-<p>To generate a wilderness encounter: first roll d% on the Terrain Category Summary below to find the general category (Airborne, Animal, Dragon, Giant, Human/Demi-Human, Humanoid, Monster, NPC, Undead, Invertebrates, Water, or Special). Then turn to that terrain’s own tables and roll <code>1d20</code>, reading down the column that matches the category you rolled. Each terrain has twelve category columns split across two tables purely because they’re too wide to print together — both tables share the <em>same</em> <code>1d20</code> roll and column set; the second table is not a continuation of the first table’s rows, it simply holds the other six category columns.</p>
+<p>Wilderness encounters aren’t leveled through a separate table set the way dungeon encounters are — instead, each terrain table’s rows are already ordered from common, weaker creatures (low rows) up to rare and dangerous ones (high rows). See <em>Wilderness Encounter Level</em>, below, for how to use that ordering to scale danger to the party. Use the “No. Appearing” entry from the creature’s own stat block (the parenthetical lair/wilderness number) to generate specific numbers, and use the terrain type most prevalent in the party’s current location.</p>
+<p>To generate a wilderness encounter: first roll d% on the Terrain Category Summary below to find the general category (Airborne, Animal, Dragon, Giant, Human/Demi-Human, Humanoid, Monster, NPC, Undead, Invertebrates, Water, or Special). Then turn to that terrain’s own tables and roll the die given by <em>Wilderness Encounter Level</em>, below, for the party’s level (<code>1d20</code> at full strength), reading down the column that matches the category you rolled. Each terrain has twelve category columns split across two tables purely because they’re too wide to print together — both tables share the <em>same</em> roll and column set; the second table is not a continuation of the first table’s rows, it simply holds the other six category columns.</p>
+<h4 id="wilderness-encounter-level">Wilderness Encounter Level</h4>
+<table>
+<thead>
+<tr class="header">
+<th>Party Level</th>
+<th>Roll</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1-3</td>
+<td>1d8</td>
+</tr>
+<tr class="even">
+<td>4-6</td>
+<td>1d14</td>
+</tr>
+<tr class="odd">
+<td>7+</td>
+<td>1d20</td>
+</tr>
+</tbody>
+</table>
+<p>A lower-level party only rolls against the earlier, tamer rows of each terrain table; a 7th-level-or-higher party is exposed to the full table, rare and legendary entries included. If the party’s levels vary widely, use the highest level in the group — wilderness travel doesn’t discriminate by who’s weakest.</p>
 <h4 id="becoming-lost">Becoming Lost</h4>
 <p><em>Source:</em> <code>D&amp;D Expert Rulebook, Part 8: Dungeon Master Information</code></p>
 <p>A party following a road, trail, or river, or led by a reliable guide, will never become lost. Otherwise, check once per day: roll <code>1d6</code> before the party’s movement; if the roll matches one of the numbers listed for the terrain below, the party is lost for the day. Treat other terrain types as whichever entry below is the closest match.</p>
@@ -12314,12 +12377,12 @@
 </tr>
 </tbody>
 </table>
-<p><em>Wetlands has no further breakdown table in the source material — treat it as a Rural or Marine encounter, GM’s choice, or reroll on the Category Summary.</em></p>
+<p><em>Wetlands has no further breakdown table in the source material — treat it as a Rural or Marine encounter, DM’s choice, or reroll on the Category Summary.</em></p>
 <p>The <strong>NPC</strong> category above refers to the following types of lone NPCs or small non-adventuring groups (as opposed to full adventuring parties, generated as described under <em>NPC Parties</em>):</p>
 <ul>
 <li><strong>Decoys</strong>: Serve either to distract the party from something else, or put the party at ease and lure them into a dangerous situation — for example, a group of charmed humans who seek to lure the party into a monster’s den.</li>
 <li><strong>Escapees</strong>: These NPCs have escaped from imprisonment by some nearby entity. They may have little or no equipment or weapons, and are either under pursuit from their captors or will be shortly.</li>
-<li><strong>Joiners</strong>: Seek to join the party. The GM is free to manufacture a motivation, either malevolent or benevolent.</li>
+<li><strong>Joiners</strong>: Seek to join the party. The DM is free to manufacture a motivation, either malevolent or benevolent.</li>
 <li><strong>Runners</strong>: The NPCs are fleeing or avoiding an encounter. Whatever they are fleeing is probably chasing them; whatever they are avoiding may or may not be aware of their presence. Unlike escapees, these NPCs will be appropriately armed, armoured, and equipped.</li>
 <li><strong>Searchers</strong>: Are looking for something, usually an item or person: a powerful artifact, weapon, or stolen item; or a friend, arch-enemy, or kidnapped relative.</li>
 <li><strong>Survivors</strong>: 1 or 2 demoralized survivors of an otherwise wiped-out adventuring party. They may have limited equipment and be in need of healing.</li>
@@ -17879,7 +17942,7 @@
 </table>
 <h4 id="castle-encounters">Castle Encounters</h4>
 <p><em>Source:</em> <code>D&amp;D Expert Rulebook, Part 8: Dungeon Master Information</code></p>
-<p>Most castles the party discovers in the wilderness belong to high-level NPCs who have cleared the surrounding land and hired mercenaries. If the referee hasn’t planned the castle’s inhabitants and reaction in advance, find the owner’s class below for a suggested patrol composition, then roll <code>1d6</code> for the lord’s reaction — assuming the party does nothing to arouse suspicion or inspire particular trust. The men listed are only part of the owner’s forces; the rest of the garrison may include other troop types, or even special creatures such as trolls or a charmed monster.</p>
+<p>Most castles the party discovers in the wilderness belong to high-level NPCs who have cleared the surrounding land and hired mercenaries. If the DM hasn’t planned the castle’s inhabitants and reaction in advance, find the owner’s class below for a suggested patrol composition, then roll <code>1d6</code> for the lord’s reaction — assuming the party does nothing to arouse suspicion or inspire particular trust. The men listed are only part of the owner’s forces; the rest of the garrison may include other troop types, or even special creatures such as trolls or a charmed monster.</p>
 <table>
 <thead>
 <tr class="header">
@@ -17918,7 +17981,7 @@
 </tr>
 </tbody>
 </table>
-<p>Elves, dwarves, and halflings are not given on this table, as their strongholds are special cases the referee should detail individually — in almost all cases these demi-humans will seek to avoid contact with strangers altogether.</p>
+<p>Elves, dwarves, and halflings are not given on this table, as their strongholds are special cases the DM should detail individually — in almost all cases these demi-humans will seek to avoid contact with strangers altogether.</p>
 <ul>
 <li><strong>Pursue</strong>: The patrol chases the party off the lord’s land, or charges a toll to pass — the amount depends on the lord’s personality, how wealthy the party looks, and similar factors. Refusing to pay may mean arrest, being run off, or attack.</li>
 <li><strong>Ignore</strong>: No attempt is made to aid or hinder the party.</li>
@@ -17928,15 +17991,14 @@
 <p><em>Source:</em> <code>D&amp;D Basic Rulebook, Part 8: Dungeon Master Information; D&amp;D Expert Rulebook, Part 8: Dungeon Master Information; OSRIC, Dungeons, Towns and Wildernesses</code></p>
 <p>Where Appendix C generates a wandering monster on the fly, this appendix is a procedure for building a deliberately-stocked location in advance — a haunted tomb, a bandit hideout, a wizard’s tower — complete with monsters placed on purpose, treasure, traps, and sensory detail.</p>
 <h3 id="building-a-stocked-location">Building a Stocked Location</h3>
-<p>A. <strong>Choose a scenario.</strong> See <em>Scenarios</em>, below, for a background theme that gives the location a reason to exist and the referee a reason for choosing specific monsters and treasure.</p>
+<p>A. <strong>Choose a scenario.</strong> See <em>Scenarios</em>, below, for a background theme that gives the location a reason to exist and the DM a reason for choosing specific monsters and treasure.</p>
 <p>B. <strong>Place special monsters and treasure.</strong> Decide which creatures belong in the location on purpose — guardians the scenario calls for, a boss encounter, a captive to rescue — rather than leaving them to chance. Place their treasure to match.</p>
-<p>C. <strong>Stock the remaining areas.</strong> For rooms or areas without a deliberate placement, see <em>Stocking a Room</em>, below. It calls on Appendix C: Random Encounters for the monster (if any) and Appendix B: Treasure for the treasure.</p>
+<p>C. <strong>Get a floor plan and stock it.</strong> This is one step with two methods, not two — pick whichever fits how you’re building this location: - <em>You already have a map</em> (hand-drawn, from a module, or already decided on): stock each remaining room using <em>Stocking a Room</em>, below. It calls on Appendix C: Random Encounters for the monster (if any) and Appendix B: Treasure for the treasure. - <em>You’re building the layout from scratch</em>: use <em>Random Dungeon Generation</em>, below, to generate the floor plan room by room. Its own Table 8: Chamber or Room Contents stocks each room as the layout is built, so you do <em>not</em> also use Stocking a Room — that would mean stocking every room twice, by two different methods.</p>
 <p>D. <strong>Add dressing.</strong> See <em>Dungeon Dressing</em>, below, for the sensory detail — sights, sounds, smells — that makes a room feel real even when it holds nothing of mechanical importance.</p>
 <p>E. <strong>Place traps.</strong> See <em>Trap Generation and Placement</em>, below.</p>
-<p>F. <strong>Generate the physical layout, if needed.</strong> If the location doesn’t already have a hand-drawn map, see <em>Random Dungeon Generation</em>, below, to build one on the fly.</p>
 <h3 id="scenarios">Scenarios</h3>
 <p><em>Source:</em> <code>D&amp;D Basic Rulebook, Part 8: Dungeon Master Information</code></p>
-<p>A scenario is a background theme that ties a dungeon together, giving the players a reason for adventuring and the referee a reason for choosing specific monsters and treasures. Without one, a dungeon risks becoming a boring repetition of “open the door, kill the monster, take the treasure.” A scenario may be anything the referee can imagine; the ten common ones below, adapted from the D&amp;D Basic Rulebook, are offered as a starting menu — roll <code>1d10</code> or simply pick whichever fits the campaign.</p>
+<p>A scenario is a background theme that ties a dungeon together, giving the players a reason for adventuring and the DM a reason for choosing specific monsters and treasures. Without one, a dungeon risks becoming a boring repetition of “open the door, kill the monster, take the treasure.” A scenario may be anything the DM can imagine; the ten common ones below, adapted from the D&amp;D Basic Rulebook, are offered as a starting menu — roll <code>1d10</code> or simply pick whichever fits the campaign.</p>
 <table>
 <thead>
 <tr class="header">
@@ -17994,14 +18056,14 @@
 <li><strong>Destroying an Ancient Evil</strong>: The evil is usually a monster or NPC whose exact type the players don’t know. Sometimes it has been deeply buried and re-awakened by recent digging. This theme combines well with others — an ancient evil may need destroying before some ruins can be resettled.</li>
 <li><strong>Visiting a Lost Shrine</strong>: To remove a curse or recover a sacred item, the players must travel to a shrine that has been lost for ages. The characters usually have only a rough idea of its location, and may have to consult an oracle or seer during their visit.</li>
 <li><strong>Fulfilling a Quest</strong>: A king, other NPC, or “the gods” provide a reason for adventuring. Quite often this scenario also involves recovering a sacred object or powerful magic item.</li>
-<li><strong>Escaping from Enemies</strong>: The player characters begin this adventure as prisoners and must escape. The reason is clear and simple, especially if imprisonment is to be followed by the characters’ deaths — the referee must be careful to make escape possible, though not necessarily easy.</li>
+<li><strong>Escaping from Enemies</strong>: The player characters begin this adventure as prisoners and must escape. The reason is clear and simple, especially if imprisonment is to be followed by the characters’ deaths — the DM must be careful to make escape possible, though not necessarily easy.</li>
 <li><strong>Rescuing Prisoners</strong>: Valuable and important persons are held prisoner by bandits, a tribe of orcs, or an evil magic-user. The party sets out to rescue them because they’ve been hired to (for an expected reward), for a debt of honor, or for some other reason. Sometimes the player characters are only hired to guard an individual negotiating the ransom.</li>
 <li><strong>Using a Magic Portal</strong>: A magic portal is a device that magically sends creatures from one place to another — usually a door into another dimension or world, and thus easily the point of an invasion from one of these worlds. Portals may be known or secret, and may operate both ways or one way only (teleporting into but not out of an area).</li>
-<li><strong>Finding a Lost Race</strong>: The players find a once-human race that has lived underground for so long it has begun to change — its members might have developed infravision, changed color, or begun to fall back into animal ways. This scenario works well combined with Destroying an Ancient Evil, since lost races are often servants of the ancient powers, and requires extra invention by the referee since details for the lost race must be created from scratch.</li>
+<li><strong>Finding a Lost Race</strong>: The players find a once-human race that has lived underground for so long it has begun to change — its members might have developed infravision, changed color, or begun to fall back into animal ways. This scenario works well combined with Destroying an Ancient Evil, since lost races are often servants of the ancient powers, and requires extra invention by the DM since details for the lost race must be created from scratch.</li>
 </ol>
 <h3 id="stocking-a-room">Stocking a Room</h3>
 <p><em>Source:</em> <code>D&amp;D Basic Rulebook, Part 8: Dungeon Master Information; D&amp;D Expert Rulebook, Part 8: Dungeon Master Information</code></p>
-<p>To stock a room with no predetermined contents, roll <code>1d6</code> on the Contents table below, then roll <code>1d6</code> on the Treasure table using the column matching the Contents result.</p>
+<p>Use this when the location already has a floor plan — hand-drawn, from a module, or already decided — and just needs its rooms or areas filled in. Works for any location type: a dungeon room, a chamber in a wilderness lair, or an office in an urban hideout. (If you’re generating the floor plan itself from nothing, use <em>Random Dungeon Generation</em>, below, instead — its own Table 8: Chamber or Room Contents does this job as part of building the layout.) To stock a room or area with no predetermined contents, roll <code>1d6</code> on the Contents table below, then roll <code>1d6</code> on the Treasure table using the column matching the Contents result.</p>
 <table>
 <thead>
 <tr class="header">
@@ -18064,7 +18126,7 @@
 </tr>
 </tbody>
 </table>
-<p>A <strong>Monster</strong> result is rolled on the Dungeon Random Encounters tables in Appendix C, cross-referenced against the dungeon level being stocked. A <strong>Trap</strong> may be placed in an otherwise empty room or on top of the room’s treasure; roll on the Random Trap Generation table below. A <strong>Special</strong> is anything not exactly a trap but placed for its own reasons — a moaning corridor, a sliding room, a trick (see below) — left to the referee’s invention. When treasure is indicated, use the monster’s own Treasure Type if a monster is present, or the Unguarded Treasure table (Appendix B: Treasure) if the room is empty or holds only a trap.</p>
+<p>A <strong>Monster</strong> result is rolled on whichever Appendix C table matches this location’s type — Dungeon Random Encounters for a dungeon (cross-referenced against the dungeon level being stocked), Wilderness Encounters for a wilderness lair, or Urban Encounters for an urban hideout. A <strong>Trap</strong> may be placed in an otherwise empty room or on top of the room’s treasure; roll on the Random Trap Generation table below. A <strong>Special</strong> is anything not exactly a trap but placed for its own reasons — a moaning corridor, a sliding room, a trick (see below) — left to the DM’s invention. When treasure is indicated, use the monster’s own Treasure Type if a monster is present, or the Unguarded Treasure table (Appendix B: Treasure) if the room is empty or holds only a trap.</p>
 <h3 id="dungeon-dressing">Dungeon Dressing</h3>
 <p>Dungeon dressing tables provide sensory detail — sights, sounds, and smells — to make a corridor or chamber feel lived-in even when it holds no monster or treasure. Roll on any of the tables below when a room’s contents call for detail beyond “empty.”</p>
 <h4 id="air-currents">Air Currents</h4>
@@ -20155,7 +20217,7 @@
 </ul>
 <h4 id="trap-placement">Trap Placement</h4>
 <p>A trap’s severity should suit the dungeon level it’s on and the treasure it guards — a trap on the first dungeon level guarding an area infested with ferocious but poverty-stricken monsters should be a nuisance, while a trap on the sixteenth level protecting a dragon’s hoard while the dragon is out hunting should be fatal.</p>
-<p>Intelligent creatures that live near a trap will maintain it and know how to avoid or disarm it, and may work to make it effective again if the party learns to bypass it. GMs vary widely in how heavily they lean on traps: some place many, several capable of instant death with no save; others use fewer and always allow one. Players adapt to whichever style prevails — cautious, methodical play against a trap-heavy dungeon, or faster and more heroic play against a lighter touch. Decide which style suits your table and design traps accordingly.</p>
+<p>Intelligent creatures that live near a trap will maintain it and know how to avoid or disarm it, and may work to make it effective again if the party learns to bypass it. DMs vary widely in how heavily they lean on traps: some place many, several capable of instant death with no save; others use fewer and always allow one. Players adapt to whichever style prevails — cautious, methodical play against a trap-heavy dungeon, or faster and more heroic play against a lighter touch. Decide which style suits your table and design traps accordingly.</p>
 <h4 id="random-trap-generation">Random Trap Generation</h4>
 <table>
 <colgroup>
@@ -20745,10 +20807,10 @@
 </tr>
 </tbody>
 </table>
-<p><em>Example of use:</em> Gina the GM needs a trick to round out a dungeon map. Taking her trusty d% in hand, she rolls a 37 on the Trick Object table and a 55 on the Trick Attribute table. This yields idol, intelligent. She decides the room contains a carved idol holding the mind and soul of a long-departed adventurer — it knows something of the surrounding dungeon rooms, but not much else, and may share that knowledge depending on how the party treats with it.</p>
+<p><em>Example of use:</em> Gina the DM needs a trick to round out a dungeon map. Taking her trusty d% in hand, she rolls a 37 on the Trick Object table and a 55 on the Trick Attribute table. This yields idol, intelligent. She decides the room contains a carved idol holding the mind and soul of a long-departed adventurer — it knows something of the surrounding dungeon rooms, but not much else, and may share that knowledge depending on how the party treats with it.</p>
 <p>Gina rolls a second trick for a different room: 25 then 31, yielding fireplace, dispenses map. She places an unlit fireplace in the room, with a rolled-up map of the next level down hidden among the logs stacked neatly within.</p>
 <h3 id="random-dungeon-generation">Random Dungeon Generation</h3>
-<p>This GM aid is for on-the-fly dungeon generation when a session takes an unexpected turn. It’s equally useful to spur ideas when the GM’s own artistic ambitions fail, for generating add-on levels to an existing megadungeon, or for solo play. For these tables, a <strong>room</strong> has exits closed by a door or other portal, while a <strong>chamber</strong> has open exits such as archways.</p>
+<p>This is the primary method for building a stocked location’s floor plan from scratch (step C of <em>Building a Stocked Location</em>, above) — roll the whole thing before a session, or improvise it live when a session takes an unexpected turn. It’s equally useful to spur ideas when the DM’s own artistic ambitions fail, for generating add-on levels to an existing megadungeon, or for solo play. For these tables, a <strong>room</strong> has exits closed by a door or other portal, while a <strong>chamber</strong> has open exits such as archways.</p>
 <p><strong>How to create a random dungeon:</strong></p>
 <ol type="1">
 <li>Roll or pick a starting area on Table 1: Starting Area Shape. If using one of the pre-drawn starting areas, skip to step 6. If starting from an empty area instead, skip to step 7.</li>
@@ -20760,8 +20822,14 @@
 <li>If no particular table is indicated, the corridor continues for 30 ft; then check Table 18: General.</li>
 </ol>
 <p>After the room is fully resolved, roll up the corridors and rooms generated in step 4, using the same steps as a guideline.</p>
+<h4 id="map-symbols">Map Symbols</h4>
+<p><em>Source:</em> <code>D&amp;D Basic Rulebook, p.B58</code></p>
+<p>A standard set of symbols for hand-drawing a dungeon map, so any DM’s map reads the same way at the table.</p>
+<div class="center">
+<p><img src="assets/dungeon-map-symbols-legend.png" /></p>
+</div>
 <h4 id="starting-area">Starting Area</h4>
-<p>Six pre-drawn starting-area floor plans — small irregular clusters of corridors and chambers with doors already placed — give a GM a ready-made starting point rather than building outward one room at a time.</p>
+<p>Six pre-drawn starting-area floor plans — small irregular clusters of corridors and chambers with doors already placed — give a DM a ready-made starting point rather than building outward one room at a time.</p>
 <div class="center">
 <p><img src="assets/dungeon-starting-areas-diagram.png" class="img-lg" /></p>
 </div>
@@ -20940,7 +21008,7 @@
 <p><em>Table 3: Special Rooms or Chambers (<code>1d20</code>) — proceed to Table 4: Approximate Size Table for Unusual Rooms</em></p>
 </div>
 <p>*Roll <code>1d20</code>: 1-6 room has a pool (see Table 15: Pools), 7 room has a well, 8-11 room has a shaft, 12-20 proceed to Table 4.</p>
-<p>**GM’s discretion — freehand-draw an unusual shape, pick a standard room as needed for mapping, or reroll.</p>
+<p>**DM’s discretion — freehand-draw an unusual shape, pick a standard room as needed for mapping, or reroll.</p>
 <table>
 <thead>
 <tr class="header">
@@ -21487,7 +21555,7 @@
 <div class="center">
 <p><em>Table 15: Pools (<code>1d20</code>)</em></p>
 </div>
-<p>GMs should note the opportunity to use aquatic or amphibious monster encounters.</p>
+<p>DMs should note the opportunity to use aquatic or amphibious monster encounters.</p>
 <table>
 <thead>
 <tr class="header">
@@ -21819,6 +21887,671 @@
 <p>Start with Table 1: Starting Area Shape in the middle of a sheet of graph paper. Use Appendix C: Random Encounters to resolve monster encounters, and Appendix B: Treasure (or the tables above) to generate treasure.</p>
 <p>To resolve listening at doors, roll <code>1d12</code> and treat a result of 1-5 as a monster encounter. Use Table 8: Chamber or Room Contents, but treat any result as including a monster encounter; otherwise, ignore any monster encounters rolled unless the creature would be silent (undead, bugbears, etc.).</p>
 <p><em>ESP</em>, scrying, and other means of magical detection can be resolved as follows: a roll of 1 on <code>1d6</code> indicates a monster in the area being checked. Roll the encounter using Appendix C, ignoring any monster type not detectable by the method of detection used. If a 6 is rolled, the player should reroll when actually entering the room; if a 6 comes up again, a non-detectable monster is encountered and the player’s chance to be surprised increases by +1.</p>
-<p><strong>Stocking the Dungeon:</strong> This appendix can stock a dungeon on its own, or a GM may design specific encounter areas without reference to random tables. Many GMs mix both methods, with designed areas surrounded by randomly-generated ones. Dungeons don’t have to make sense, but they do need variety — a little thought on the placement of creatures doesn’t go amiss, and rewarding player skill is an important part of this system.</p>
+<p><strong>Stocking the Dungeon:</strong> This appendix can stock a dungeon on its own, or a DM may design specific encounter areas without reference to random tables. Many DMs mix both methods, with designed areas surrounded by randomly-generated ones. Dungeons don’t have to make sense, but they do need variety — a little thought on the placement of creatures doesn’t go amiss, and rewarding player skill is an important part of this system.</p>
+<h2 id="appendix-e-random-settlement-builder">Appendix E: Random Settlement Builder</h2>
+<p><em>Source:</em> <code>D&amp;D Expert Rulebook, Part 8: Dungeon Master Information; Basic Fantasy RPG Equipment Emporium</code></p>
+<p>Villages, towns, and cities need their own procedure — not a dungeon level, not a wilderness terrain, but a place the party returns to between adventures to resupply, sell treasure, hire help, and pick up rumors. This appendix builds one from nothing: how big it is, who runs it, what’s in it, who’s behind the counter, and what they’ll sell. It is not level-scaled — a settlement’s size and government don’t care what level the party is.</p>
+<h3 id="building-a-settlement">Building a Settlement</h3>
+<p>A. <strong>Determine size.</strong> Roll or pick from <em>Settlement Size</em>, below. This sets the settlement’s population and how many points of interest it has.</p>
+<p>B. <strong>Determine government.</strong> Roll or pick from <em>Government</em>, below — who’s actually in charge here, and what that means for the party.</p>
+<p>C. <strong>Roll points of interest.</strong> Use <em>Points of Interest</em>, below, rolling the number of times given for the settlement’s size. Duplicate results are fine — a town can have two smithies — but a DM who wants a cleaner list may reroll duplicates instead.</p>
+<p>D. <strong>Populate each point of interest.</strong> See <em>Populating a Point of Interest</em>, below, to give each notable location an owner or proprietor, using the NPC sub-tables already built for Appendix C: Random Encounters rather than rolling new ones.</p>
+<p>E. <strong>Stock shops and services.</strong> For any point of interest that sells goods, see <em>Equipment and Services</em>, below, for prices.</p>
+<p>F. <strong>Fill in final details.</strong> Rumors, local tensions, a notable NPC’s grudge against the party — left to the DM’s invention, the same way Appendix D’s <em>Scenarios</em> gives a dungeon its reason to exist.</p>
+<h3 id="settlement-size">Settlement Size</h3>
+<p><em>Source:</em> <code>D&amp;D Expert Rulebook, Part 8: Dungeon Master Information</code></p>
+<table>
+<thead>
+<tr class="header">
+<th>Size</th>
+<th>Population</th>
+<th>Points of Interest</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Village</td>
+<td>50-999</td>
+<td>1d4</td>
+</tr>
+<tr class="even">
+<td>Small Town</td>
+<td>1,000-4,999</td>
+<td>1d6+2</td>
+</tr>
+<tr class="odd">
+<td>Large Town</td>
+<td>5,000-14,999</td>
+<td>2d6+4</td>
+</tr>
+<tr class="even">
+<td>Major City</td>
+<td>15,000+</td>
+<td>3d6+8</td>
+</tr>
+</tbody>
+</table>
+<p>A settlement should be large enough to support the services the party will need — somewhere to stay, a church with at least one NPC cleric capable of casting <em>raise dead</em>, and someone to buy and sell with. A Village-sized settlement won’t have all of these; a Major City will have several of each.</p>
+<h3 id="government">Government</h3>
+<p><em>Source:</em> <code>D&amp;D Expert Rulebook, Part 8: Dungeon Master Information</code></p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Authority</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1-2</td>
+<td>Sheriff appointed by a noble or baron</td>
+<td>Law is enforced on the noble’s behalf; taxes and tolls fund the noble’s own ends.</td>
+</tr>
+<tr class="even">
+<td>3-4</td>
+<td>Town council with a charter</td>
+<td>Decisions and disputes move slowly, through debate; bribery of individual council members is a live option.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>A powerful merchant prince</td>
+<td>The settlement is run like a business; trade is easy, but everything has a price, including favors.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>A high-level NPC adventurer</td>
+<td>Rules personally, backed by loyal retainers and whatever magic they returned from adventuring with.</td>
+</tr>
+</tbody>
+</table>
+<p>Whoever holds authority here should be at least name level, with bodyguards and resources appropriate to holding onto the position.</p>
+<h3 id="points-of-interest">Points of Interest</h3>
+<p>Rows are ordered from common (low rolls) to rare (high rolls), the same convention used by <em>Wilderness Encounters</em> in Appendix C. Roll the number of times given by the settlement’s size (above); for Village and Small Town, restrict the roll to the range shown so rare entries stay rare.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Roll Range</th>
+<th>Settlement Size</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1d8</td>
+<td>Village</td>
+</tr>
+<tr class="even">
+<td>1d14</td>
+<td>Small Town</td>
+</tr>
+<tr class="odd">
+<td>1d20</td>
+<td>Large Town or Major City</td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Point of Interest</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>General Store</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Tavern</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Inn or Rooming House</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Smithy or Farrier</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Shrine or Small Temple</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Stables</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Physician or Healer</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Town Militia or Guard Post</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Moneylender</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Carpenter or Mason</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Weaver or Tailor</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Market Square (several vendors)</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Sage or Scholar</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Church (an NPC cleric here can cast <em>raise dead</em>)</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Thieves’ Guild (hidden, not openly advertised)</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Mercenary or Adventurers’ Guild Hall</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Alchemist or Apothecary</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Wizard’s Tower or Arcane Academy</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Noble’s Manor or Keep</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>Something Unusual — the DM’s invention (a foreign embassy, a haunted house, a monster running a legitimate business under an assumed name)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="populating-a-point-of-interest">Populating a Point of Interest</h3>
+<p>Give each notable point of interest an owner or a few notable staff, using the sub-tables already built for Appendix C’s <em>Urban Encounters</em> rather than rolling anything new:</p>
+<ul>
+<li><strong>Shops, trades, and services</strong> (General Store, Smithy, Stables, Carpenter, Weaver, Tavern, Inn, Physician): roll on the <em>Urban Professions</em> sub-table for the proprietor’s trade, and the <em>Race</em> sub-table if their race matters. For rank-and-file staff, use the <em>0-Level NPCs</em> table.</li>
+<li><strong>Temple or Church</strong>: a Cleric, per the Nighttime or Daytime Encounters tables’ Cleric entry, adjusted to a level appropriate for what the settlement needs (a Church capable of <em>raise dead</em> needs a cleric of the level that spell requires).</li>
+<li><strong>Thieves’ Guild</strong>: a Thief, per the Nighttime or Daytime Encounters tables’ Thief entry — this NPC and their apprentices are the guild’s local leadership.</li>
+<li><strong>Mercenary or Adventurers’ Guild Hall</strong>: a Fighter, per the Nighttime or Daytime Encounters tables’ Fighter entry, with henchmen as given.</li>
+<li><strong>Wizard’s Tower</strong>: a Magic-User, per the Nighttime or Daytime Encounters tables’ Magic-User entry.</li>
+<li><strong>Noble’s Manor</strong>: roll on the <em>Noble Professions</em> sub-table.</li>
+<li><strong>Sage or Scholar</strong>: a 0-level Normal Human of unusually high Intelligence (DM’s choice), or a low-level Magic-User with a research specialty.</li>
+<li><strong>Red-Light establishments</strong>, if the settlement’s tone calls for them: roll on the <em>Red-Light Professions</em> sub-table.</li>
+</ul>
+<h3 id="equipment-and-services">Equipment and Services</h3>
+<p>Prices below cover the common case; the DM may vary them by settlement size (a Village smithy may not stock plate mail at any price) or by haggling.</p>
+<h4 id="weapons-and-armor-1">Weapons and Armor</h4>
+<p><em>Source:</em> <code>D&amp;D Basic Rulebook, p.B12</code></p>
+<table>
+<thead>
+<tr class="header">
+<th>Weapon</th>
+<th>Cost</th>
+<th>Armor</th>
+<th>AC</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Hand Axe</td>
+<td>4 gp</td>
+<td>Leather Armor</td>
+<td>7</td>
+<td>20 gp</td>
+</tr>
+<tr class="even">
+<td>Battle Axe (two-handed)</td>
+<td>7 gp</td>
+<td>Chain Mail Armor</td>
+<td>5</td>
+<td>40 gp</td>
+</tr>
+<tr class="odd">
+<td>Dagger</td>
+<td>3 gp</td>
+<td>Plate Mail Armor</td>
+<td>3</td>
+<td>60 gp</td>
+</tr>
+<tr class="even">
+<td>Silver Dagger</td>
+<td>30 gp</td>
+<td>Shield</td>
+<td>-1</td>
+<td>10 gp</td>
+</tr>
+<tr class="odd">
+<td>Short Sword</td>
+<td>7 gp</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Sword</td>
+<td>10 gp</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Two-Handed Sword</td>
+<td>15 gp</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Mace*</td>
+<td>5 gp</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Club*</td>
+<td>3 gp</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Pole Arm (two-handed)</td>
+<td>7 gp</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Spear</td>
+<td>3 gp</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>War Hammer*</td>
+<td>5 gp</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Short Bow</td>
+<td>25 gp</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Long Bow</td>
+<td>40 gp</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Crossbow</td>
+<td>30 gp</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Sling with 30 Stones*</td>
+<td>2 gp</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>*May be used by a cleric.</p>
+<h4 id="general-equipment">General Equipment</h4>
+<p><em>Source:</em> <code>Basic Fantasy RPG Equipment Emporium</code> (a fuller catalog than shown here is available in that source, for a DM who wants more granularity)</p>
+<table>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Price</th>
+<th>Item</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Backpack</td>
+<td>5 gp</td>
+<td>Rope, Hemp (50 ft)</td>
+<td>1 gp</td>
+</tr>
+<tr class="even">
+<td>Bedroll</td>
+<td>6 gp</td>
+<td>Sack, Small</td>
+<td>1 gp</td>
+</tr>
+<tr class="odd">
+<td>Candles (12)</td>
+<td>1 gp</td>
+<td>Sack, Large</td>
+<td>2 gp</td>
+</tr>
+<tr class="even">
+<td>Chalk, small bag</td>
+<td>2 gp</td>
+<td>Signal Whistle</td>
+<td>1 gp</td>
+</tr>
+<tr class="odd">
+<td>Crowbar (3 ft)</td>
+<td>2 gp</td>
+<td>Soap (per lb)</td>
+<td>5 sp</td>
+</tr>
+<tr class="even">
+<td>Flask of Oil</td>
+<td>1 gp</td>
+<td>Tent, Small (one man)</td>
+<td>5 gp</td>
+</tr>
+<tr class="odd">
+<td>Grappling Hook</td>
+<td>2 gp</td>
+<td>Tent, Large (ten men)</td>
+<td>25 gp</td>
+</tr>
+<tr class="even">
+<td>Hammer (small)</td>
+<td>2 gp</td>
+<td>Thieves’ Tools</td>
+<td>25 gp</td>
+</tr>
+<tr class="odd">
+<td>Holy Symbol</td>
+<td>25 gp</td>
+<td>Tinder Box</td>
+<td>3 gp</td>
+</tr>
+<tr class="even">
+<td>Holy Water (per vial)</td>
+<td>10 gp</td>
+<td>Torches (6)</td>
+<td>1 gp</td>
+</tr>
+<tr class="odd">
+<td>Iron Spikes (12)</td>
+<td>1 gp</td>
+<td>Vial, glass</td>
+<td>1 gp</td>
+</tr>
+<tr class="even">
+<td>Ladder, 10 ft</td>
+<td>1 gp</td>
+<td>Waterskin/Wineskin</td>
+<td>1 gp</td>
+</tr>
+<tr class="odd">
+<td>Lantern</td>
+<td>10 gp</td>
+<td>Whetstone</td>
+<td>1 gp</td>
+</tr>
+<tr class="even">
+<td>Lock, Poor</td>
+<td>20 gp</td>
+<td>Winter Blanket</td>
+<td>1 gp</td>
+</tr>
+<tr class="odd">
+<td>Lock, Good</td>
+<td>100 gp</td>
+<td>Writing Ink (per vial)</td>
+<td>8 gp</td>
+</tr>
+<tr class="even">
+<td>Mirror, small steel</td>
+<td>7 gp</td>
+<td>Journal (blank)</td>
+<td>20 gp</td>
+</tr>
+<tr class="odd">
+<td>Paper or Parchment (sheet)</td>
+<td>1 gp</td>
+<td>Map or Scroll Case</td>
+<td>1 gp</td>
+</tr>
+</tbody>
+</table>
+<h4 id="services">Services</h4>
+<p><em>Source:</em> <code>Basic Fantasy RPG Equipment Emporium</code></p>
+<table>
+<thead>
+<tr class="header">
+<th>Food and Lodging</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>City room (per month), Common</td>
+<td>20 gp</td>
+</tr>
+<tr class="even">
+<td>City room (per month), Poor</td>
+<td>6 sp</td>
+</tr>
+<tr class="odd">
+<td>Grain and stabling for horse (daily)</td>
+<td>5 sp</td>
+</tr>
+<tr class="even">
+<td>Inn lodging (per day/week), Private Room</td>
+<td>2 gp / 8 gp</td>
+</tr>
+<tr class="odd">
+<td>Inn lodging (per day/week), Common</td>
+<td>5 sp / 3 gp</td>
+</tr>
+<tr class="even">
+<td>Inn lodging (per day/week), Poor</td>
+<td>5 cp / 2 sp</td>
+</tr>
+<tr class="odd">
+<td>Meals (per day), Poor</td>
+<td>1 sp</td>
+</tr>
+<tr class="even">
+<td>Meals (per day), Common</td>
+<td>3 sp</td>
+</tr>
+<tr class="odd">
+<td>Meals (per day), Good</td>
+<td>5 sp</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Price</th>
+<th>Service</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bath</td>
+<td>3 cp</td>
+<td>Messenger, in city (per message)</td>
+<td>1 sp</td>
+</tr>
+<tr class="even">
+<td>Clerk (per letter)</td>
+<td>2 sp</td>
+<td>Messenger, overland (per mile)</td>
+<td>2 cp</td>
+</tr>
+<tr class="odd">
+<td>Guide, in city (per day)</td>
+<td>2 sp</td>
+<td>Minstrel (per performance)</td>
+<td>3 gp</td>
+</tr>
+<tr class="even">
+<td>Lantern or torchbearer (per night)</td>
+<td>1 sp</td>
+<td>Mourner (per funeral)</td>
+<td>2 sp</td>
+</tr>
+<tr class="odd">
+<td>Hireling, trained (per day)</td>
+<td>3 sp</td>
+<td>Road or gate toll</td>
+<td>1 cp</td>
+</tr>
+<tr class="even">
+<td>Hireling, untrained (per day)</td>
+<td>1 sp</td>
+<td>Ship’s passage (per mile)</td>
+<td>1 sp</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>Teamster with wagon (per mile)</td>
+<td>1 sp</td>
+</tr>
+</tbody>
+</table>
+<h4 id="at-the-tavern">At the Tavern</h4>
+<p><em>Source:</em> <code>Basic Fantasy RPG Equipment Emporium</code></p>
+<table>
+<thead>
+<tr class="header">
+<th>Meal</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Poor (dark bread, hard cheese, broth or simple stew)</td>
+<td>5 cp</td>
+</tr>
+<tr class="even">
+<td>Common (good bread and cheese, hearty stew, roast fowl)</td>
+<td>1 sp</td>
+</tr>
+<tr class="odd">
+<td>Merchant’s (roast meats, cheeses, light breads, fruit)</td>
+<td>2 sp</td>
+</tr>
+<tr class="even">
+<td>Rich (several courses, exceptional quality)</td>
+<td>1 gp</td>
+</tr>
+<tr class="odd">
+<td>Banquet (per person, multiple courses, service included)</td>
+<td>10 gp</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>Drink</th>
+<th>By the Drink</th>
+<th>By the Pitcher/Gallon</th>
+<th>By the Bottle</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Small Beer</td>
+<td>5 cp</td>
+<td>4 sp</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>Beer, common</td>
+<td>5 cp</td>
+<td>4 sp</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>Beer, quality</td>
+<td>2 sp</td>
+<td>16 sp</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>Ale/Cider, common</td>
+<td>1 sp</td>
+<td>8 sp</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>Ale/Cider, quality</td>
+<td>4 sp</td>
+<td>3 gp</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>Wine, common</td>
+<td>2 sp</td>
+<td>16 sp</td>
+<td>1 gp</td>
+</tr>
+<tr class="odd">
+<td>Wine, quality</td>
+<td>1 gp</td>
+<td>10 gp</td>
+<td>5 gp</td>
+</tr>
+<tr class="even">
+<td>Mead, common</td>
+<td>1 sp</td>
+<td>—</td>
+<td>5 sp</td>
+</tr>
+<tr class="odd">
+<td>Spirits, common</td>
+<td>1 sp</td>
+<td>—</td>
+<td>2 gp</td>
+</tr>
+<tr class="even">
+<td>Spirits, quality</td>
+<td>1 gp</td>
+<td>—</td>
+<td>20 gp</td>
+</tr>
+</tbody>
+</table>
 </body>
 </html>
