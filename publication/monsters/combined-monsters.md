@@ -9399,6 +9399,9 @@ Elves, dwarves, and halflings are not given on this table, as their strongholds 
 - **Ignore**: No attempt is made to aid or hinder the party.
 - **Friendly**: The lord has invited the party to stay — this doesn't necessarily mean the lord *likes* them; some NPCs offer hospitality for their own, less benevolent purposes.
 
+::: pagebreak-pdf
+:::
+
 ## Appendix D: The Encounter Builder
 
 *Source:* `D&D Basic Rulebook, Part 8: Dungeon Master Information; D&D Expert Rulebook, Part 8: Dungeon Master Information; OSRIC, Dungeons, Towns and Wildernesses`
@@ -10440,6 +10443,9 @@ To resolve listening at doors, roll `1d12` and treat a result of 1-5 as a monste
 \let\paragraph\oldparagraph
 \let\subparagraph\oldsubparagraph
 ```
+
+::: pagebreak-pdf
+:::
 
 ## Appendix E: Random Settlement Builder
 
