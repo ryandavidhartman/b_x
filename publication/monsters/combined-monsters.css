@@ -3,29 +3,29 @@
 }
 
 @font-face {
-  font-family: "BXBookman";
-  src: url("fonts/URWBookman-Light.otf") format("opentype");
+  font-family: "BXFraunces";
+  src: url("fonts/Fraunces-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "BXBookman";
-  src: url("fonts/URWBookman-Demi.otf") format("opentype");
+  font-family: "BXFraunces";
+  src: url("fonts/Fraunces-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "BXBookman";
-  src: url("fonts/URWBookman-LightItalic.otf") format("opentype");
+  font-family: "BXFraunces";
+  src: url("fonts/Fraunces-Italic.ttf") format("truetype");
   font-style: italic;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "BXBookman";
-  src: url("fonts/URWBookman-DemiItalic.otf") format("opentype");
+  font-family: "BXFraunces";
+  src: url("fonts/Fraunces-BoldItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: 700;
 }
@@ -47,7 +47,7 @@ body {
   padding: 0.8in;
   background: var(--paper);
   color: var(--ink);
-  font-family: "BXBookman", "Bookman Old Style", "Century Schoolbook", serif;
+  font-family: "BXFraunces", "Bookman Old Style", "Century Schoolbook", serif;
   font-size: 1.02rem;
   line-height: 1.46;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
@@ -114,7 +114,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: "BXBookman", "Bookman Old Style", "Century Schoolbook", serif;
+  font-family: "BXFraunces", "Bookman Old Style", "Century Schoolbook", serif;
   color: #17130f;
 }
 
@@ -242,7 +242,7 @@ pre {
   border: 1px solid #d3c3a0;
   overflow-x: auto;
   white-space: pre-wrap;
-  font-family: "BXBookman", "Bookman Old Style", "Century Schoolbook", serif;
+  font-family: "BXFraunces", "Bookman Old Style", "Century Schoolbook", serif;
   font-size: 0.96rem;
   line-height: 1.35;
 }
