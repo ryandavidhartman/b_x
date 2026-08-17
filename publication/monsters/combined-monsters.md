@@ -7763,31 +7763,9 @@ This appendix covers wandering monsters — creatures the party meets at random 
 
 At a glance, the whole procedure runs like this:
 
-```
- A. CHOOSE THE SETTING  —  Dungeon · Wilderness · Settlement
-            |
-            v
- B. CHECK ENCOUNTER FREQUENCY  —  roll the die for the setting/terrain
-            |
-            |-- no encounter --> nothing happens; check again next interval
-            |
-            v  encounter occurs
- C. DETERMINE THE MONSTER
-      Dungeon:     Sub-table Matrix (1d12) -> roll d% on that Monster Level
-      Wilderness:  Terrain Category (d%) -> roll on that terrain's column
-      Settlement:  Day/Night table -> roll on the sub-table it calls for
-            |
-            v
- D. DETERMINE PURPOSE  —  roll d8 on the Encounter Purpose table
-            |
-            v
- E. NUMBER APPEARING
-      Dungeon/Settlement: read the table's own # column
-      Wilderness: the monster's own No. Appearing (parenthetical entry)
-            |
-            v
- F. AWARD TREASURE  —  roll Treasure Type, if any given (Appendix B: Treasure)
-```
+::: center
+![](assets/appendix-c-flowchart.png){width=85%}
+:::
 
 Each step is detailed below.
 
