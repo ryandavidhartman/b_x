@@ -7761,6 +7761,36 @@ This appendix covers wandering monsters — creatures the party meets at random 
 
 ### Building an Encounter
 
+At a glance, the whole procedure runs like this:
+
+```
+ A. CHOOSE THE SETTING  —  Dungeon · Wilderness · Settlement
+            |
+            v
+ B. CHECK ENCOUNTER FREQUENCY  —  roll the die for the setting/terrain
+            |
+            |-- no encounter --> nothing happens; check again next interval
+            |
+            v  encounter occurs
+ C. DETERMINE THE MONSTER
+      Dungeon:     Sub-table Matrix (1d12) -> roll d% on that Monster Level
+      Wilderness:  Terrain Category (d%) -> roll on that terrain's column
+      Settlement:  Day/Night table -> roll on the sub-table it calls for
+            |
+            v
+ D. DETERMINE PURPOSE  —  roll d8 on the Encounter Purpose table
+            |
+            v
+ E. NUMBER APPEARING
+      Dungeon/Settlement: read the table's own # column
+      Wilderness: the monster's own No. Appearing (parenthetical entry)
+            |
+            v
+ F. AWARD TREASURE  —  roll Treasure Type, if any given (Appendix B: Treasure)
+```
+
+Each step is detailed below.
+
 A. **Choose the setting.** Is the party in a dungeon, the wilderness, or a settlement? This determines which table set to use for the rest of the procedure — *Dungeon Random Encounters*, *Wilderness Encounters*, or *Urban Encounters*, below.
 
 B. **Check whether an encounter occurs.** See *Encounter Frequency*, below, for the chance appropriate to the setting.
@@ -7791,7 +7821,7 @@ To stock a whole dungeon room-by-room instead of generating a single wandering m
 
 | Terrain | Chance of Encounter (1d6) |
 |---|---|
-| Clear, Grasslands | 6 |
+| Clear, Grasslands\*\*\* | 6 |
 | Woods | 5-6 |
 | River | 5-6 |
 | Mountains | 4-6 |
@@ -7805,7 +7835,9 @@ To stock a whole dungeon room-by-room instead of generating a single wandering m
 
 \*A roll of 5 indicates a normal ocean encounter; a 6 results in an encounter at the end of the day in whatever terrain the ship has beached in, or no encounter if the ship spent the entire day at sea.
 
-\*\*Aerial encounters always use the Flyer category.
+\*\*Aerial encounters always use the Airborne category.
+
+\*\*\*Called "Plains" in the Terrain Category Summary and wilderness terrain tables, below — see *Terrain Name Cross-Reference* under *Wilderness Encounters* for how every entry in this table maps onto that more granular terrain list.
 
 Treat other terrain types as whichever entry above is the closest match.
 
@@ -8487,6 +8519,28 @@ A party following a road, trail, or river, or led by a reliable guide, will neve
 *Source:* `D&D Expert Rulebook, Part 8: Dungeon Master Information`
 
 Characters travelling in the wilderness may search for food to extend their supplies or stave off starvation. Searching while travelling costs nothing extra: roll `1d6` for the day, and a result of `1` means the party has found enough nuts, berries, and small game to feed `1d6` people for one day. Hunting is more deliberate — the party must spend the entire day without travelling — and carries a 1-in-6 chance of an encounter from that terrain's Animal category, in addition to any normal encounter checks for the day. Days spent resting cannot be used for hunting.
+
+#### Terrain Name Cross-Reference
+
+*Encounter Frequency* and *Becoming Lost*, above, describe a hex by broad, familiar terms — the kind of thing you'd say out loud at the table ("we're crossing grasslands," "it's all barren rock up here"). The *Terrain Category Summary* and the terrain tables that follow it use a more granular set of names, because they need to distinguish things those familiar terms blur together (a mountain lake plays differently than a mountain peak). The two vocabularies don't line up one-to-one. This table gives the closest match for each term used above, so a DM doesn't have to guess it fresh every session.
+
+| Encounter Frequency / Becoming Lost term | Terrain Category Summary / terrain table |
+|---|---|
+| Clear, Grasslands | Plains |
+| Woods | Forest |
+| River | Aquatic |
+| Mountains | Mountains |
+| Desert | Desert |
+| Inhabited | Rural |
+| Ocean | Marine |
+| Jungle | Jungle |
+| Hills | Hills |
+| Barren | Tundra (or Desert, if the barrens in question are sandy rather than rocky/frozen) |
+| Aerial | *Not a hex terrain — see note below.* |
+
+*Aerial* isn't a terrain a hex can have; it means the party itself is traveling by air. Roll the encounter as normal for whatever terrain lies beneath the party, but force the category roll straight to Airborne rather than rolling d% on the Terrain Category Summary.
+
+Four terrain tables below — **Arctic**, **Graveyard**, **Lost World**, and **Wetlands** — have no dedicated row in *Encounter Frequency* or *Becoming Lost* at all, because those source tables predate them. Use whichever frequency-table entry the hex most resembles (Arctic ≈ Barren/Mountains; Graveyard ≈ Inhabited, since it's typically at the edge of a settlement; Lost World ≈ Jungle; Wetlands ≈ River or Ocean, DM's choice).
 
 #### Terrain Category Summary (d%)
 

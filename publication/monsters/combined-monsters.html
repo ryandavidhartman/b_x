@@ -9240,6 +9240,31 @@
 <p><em>Source:</em> <code>OSRIC, Dungeons, Towns and Wildernesses; D&amp;D Basic Rulebook, Part 8: Dungeon Master Information; D&amp;D Expert Rulebook, Part 8: Dungeon Master Information</code></p>
 <p>This appendix covers wandering monsters — creatures the party meets at random rather than by the DM’s deliberate placement, generated on the fly according to where the party is: a dungeon level, a stretch of wilderness terrain, or the streets of a city. It adapts OSRIC’s random encounter system for dungeons, towns, and the wilderness, with monster and class names translated to match this book. It does not cover the mechanics of running an encounter once it starts (surprise, initiative, combat, and so on) — those belong to the core rulebooks. For building a deliberately-stocked location such as a haunted tomb, see Appendix D: The Encounter Builder.</p>
 <h3 id="building-an-encounter">Building an Encounter</h3>
+<p>At a glance, the whole procedure runs like this:</p>
+<pre><code> A. CHOOSE THE SETTING  —  Dungeon · Wilderness · Settlement
+            |
+            v
+ B. CHECK ENCOUNTER FREQUENCY  —  roll the die for the setting/terrain
+            |
+            |-- no encounter --&gt; nothing happens; check again next interval
+            |
+            v  encounter occurs
+ C. DETERMINE THE MONSTER
+      Dungeon:     Sub-table Matrix (1d12) -&gt; roll d% on that Monster Level
+      Wilderness:  Terrain Category (d%) -&gt; roll on that terrain&#39;s column
+      Settlement:  Day/Night table -&gt; roll on the sub-table it calls for
+            |
+            v
+ D. DETERMINE PURPOSE  —  roll d8 on the Encounter Purpose table
+            |
+            v
+ E. NUMBER APPEARING
+      Dungeon/Settlement: read the table&#39;s own # column
+      Wilderness: the monster&#39;s own No. Appearing (parenthetical entry)
+            |
+            v
+ F. AWARD TREASURE  —  roll Treasure Type, if any given (Appendix B: Treasure)</code></pre>
+<p>Each step is detailed below.</p>
 <p>A. <strong>Choose the setting.</strong> Is the party in a dungeon, the wilderness, or a settlement? This determines which table set to use for the rest of the procedure — <em>Dungeon Random Encounters</em>, <em>Wilderness Encounters</em>, or <em>Urban Encounters</em>, below.</p>
 <p>B. <strong>Check whether an encounter occurs.</strong> See <em>Encounter Frequency</em>, below, for the chance appropriate to the setting.</p>
 <p>C. <strong>Determine the monster.</strong> Roll on the table matching the setting from step A: - <em>Dungeon:</em> find the dungeon level’s row on the Monster Sub-table Matrix, roll <code>1d12</code> to find the Monster Level, then roll <code>d%</code> on that Monster Level table. - <em>Wilderness:</em> roll <code>d%</code> on the Terrain Category Summary for the party’s terrain, then roll on that terrain’s matching column using the die given by Wilderness Encounter Level for the party’s level. - <em>Settlement:</em> roll on the Daytime or Nighttime Encounters table, as appropriate, consulting whichever sub-table it calls for, and check the result against Urban Encounter Level for the party’s level.</p>
@@ -9260,7 +9285,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td>Clear, Grasslands</td>
+<td>Clear, Grasslands***</td>
 <td>6</td>
 </tr>
 <tr class="even">
@@ -9306,7 +9331,8 @@
 </tbody>
 </table>
 <p>*A roll of 5 indicates a normal ocean encounter; a 6 results in an encounter at the end of the day in whatever terrain the ship has beached in, or no encounter if the ship spent the entire day at sea.</p>
-<p>**Aerial encounters always use the Flyer category.</p>
+<p>**Aerial encounters always use the Airborne category.</p>
+<p>***Called “Plains” in the Terrain Category Summary and wilderness terrain tables, below — see <em>Terrain Name Cross-Reference</em> under <em>Wilderness Encounters</em> for how every entry in this table maps onto that more granular terrain list.</p>
 <p>Treat other terrain types as whichever entry above is the closest match.</p>
 <p><em>Settlement:</em> Checked every 3 turns, per <em>Urban Encounters</em>, below.</p>
 <h3 id="encounter-purpose">Encounter Purpose</h3>
@@ -12094,6 +12120,68 @@
 <h4 id="foraging">Foraging</h4>
 <p><em>Source:</em> <code>D&amp;D Expert Rulebook, Part 8: Dungeon Master Information</code></p>
 <p>Characters travelling in the wilderness may search for food to extend their supplies or stave off starvation. Searching while travelling costs nothing extra: roll <code>1d6</code> for the day, and a result of <code>1</code> means the party has found enough nuts, berries, and small game to feed <code>1d6</code> people for one day. Hunting is more deliberate — the party must spend the entire day without travelling — and carries a 1-in-6 chance of an encounter from that terrain’s Animal category, in addition to any normal encounter checks for the day. Days spent resting cannot be used for hunting.</p>
+<h4 id="terrain-name-cross-reference">Terrain Name Cross-Reference</h4>
+<p><em>Encounter Frequency</em> and <em>Becoming Lost</em>, above, describe a hex by broad, familiar terms — the kind of thing you’d say out loud at the table (“we’re crossing grasslands,” “it’s all barren rock up here”). The <em>Terrain Category Summary</em> and the terrain tables that follow it use a more granular set of names, because they need to distinguish things those familiar terms blur together (a mountain lake plays differently than a mountain peak). The two vocabularies don’t line up one-to-one. This table gives the closest match for each term used above, so a DM doesn’t have to guess it fresh every session.</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Encounter Frequency / Becoming Lost term</th>
+<th>Terrain Category Summary / terrain table</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Clear, Grasslands</td>
+<td>Plains</td>
+</tr>
+<tr class="even">
+<td>Woods</td>
+<td>Forest</td>
+</tr>
+<tr class="odd">
+<td>River</td>
+<td>Aquatic</td>
+</tr>
+<tr class="even">
+<td>Mountains</td>
+<td>Mountains</td>
+</tr>
+<tr class="odd">
+<td>Desert</td>
+<td>Desert</td>
+</tr>
+<tr class="even">
+<td>Inhabited</td>
+<td>Rural</td>
+</tr>
+<tr class="odd">
+<td>Ocean</td>
+<td>Marine</td>
+</tr>
+<tr class="even">
+<td>Jungle</td>
+<td>Jungle</td>
+</tr>
+<tr class="odd">
+<td>Hills</td>
+<td>Hills</td>
+</tr>
+<tr class="even">
+<td>Barren</td>
+<td>Tundra (or Desert, if the barrens in question are sandy rather than rocky/frozen)</td>
+</tr>
+<tr class="odd">
+<td>Aerial</td>
+<td><em>Not a hex terrain — see note below.</em></td>
+</tr>
+</tbody>
+</table>
+<p><em>Aerial</em> isn’t a terrain a hex can have; it means the party itself is traveling by air. Roll the encounter as normal for whatever terrain lies beneath the party, but force the category roll straight to Airborne rather than rolling d% on the Terrain Category Summary.</p>
+<p>Four terrain tables below — <strong>Arctic</strong>, <strong>Graveyard</strong>, <strong>Lost World</strong>, and <strong>Wetlands</strong> — have no dedicated row in <em>Encounter Frequency</em> or <em>Becoming Lost</em> at all, because those source tables predate them. Use whichever frequency-table entry the hex most resembles (Arctic ≈ Barren/Mountains; Graveyard ≈ Inhabited, since it’s typically at the edge of a settlement; Lost World ≈ Jungle; Wetlands ≈ River or Ocean, DM’s choice).</p>
 <h4 id="terrain-category-summary-d">Terrain Category Summary (d%)</h4>
 <table>
 <thead>
