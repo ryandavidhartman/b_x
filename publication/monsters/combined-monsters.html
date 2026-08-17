@@ -437,13 +437,18 @@
 </ul></li>
 <li><a href="#appendix-c-random-encounters">Appendix C: Random Encounters</a>
 <ul>
+<li><a href="#building-an-encounter">Building an Encounter</a></li>
+<li><a href="#encounter-frequency">Encounter Frequency</a></li>
+<li><a href="#encounter-purpose">Encounter Purpose</a></li>
 <li><a href="#dungeon-random-encounters">Dungeon Random Encounters</a></li>
 <li><a href="#npc-parties-all-dungeon-levels">NPC Parties (All Dungeon Levels)</a></li>
 <li><a href="#urban-encounters">Urban Encounters</a></li>
 <li><a href="#wilderness-encounters">Wilderness Encounters</a></li>
 </ul></li>
-<li><a href="#appendix-d-random-dungeons">Appendix D: Random Dungeons</a>
+<li><a href="#appendix-d-the-encounter-builder">Appendix D: The Encounter Builder</a>
 <ul>
+<li><a href="#building-a-stocked-location">Building a Stocked Location</a></li>
+<li><a href="#scenarios">Scenarios</a></li>
 <li><a href="#stocking-a-room">Stocking a Room</a></li>
 <li><a href="#dungeon-dressing">Dungeon Dressing</a></li>
 <li><a href="#trap-generation-and-placement">Trap Generation and Placement</a></li>
@@ -9223,8 +9228,121 @@
 
 </div>
 <h2 id="appendix-c-random-encounters">Appendix C: Random Encounters</h2>
-<p><em>Source:</em> <code>OSRIC, Dungeons, Towns and Wildernesses</code></p>
-<p>This appendix adapts OSRIC’s random encounter system for dungeons, towns, and the wilderness, with monster and class names translated to match this book. Where OSRIC calls for a monster not detailed elsewhere in this book, the nearest equivalent already in these pages has been substituted.</p>
+<p><em>Source:</em> <code>OSRIC, Dungeons, Towns and Wildernesses; D&amp;D Basic Rulebook, Part 8: Dungeon Master Information; D&amp;D Expert Rulebook, Part 8: Dungeon Master Information</code></p>
+<p>This appendix covers wandering monsters — creatures the party meets at random rather than by the referee’s deliberate placement, generated on the fly according to where the party is: a dungeon level, a stretch of wilderness terrain, or the streets of a city. It adapts OSRIC’s random encounter system for dungeons, towns, and the wilderness, with monster and class names translated to match this book. It does not cover the mechanics of running an encounter once it starts (surprise, initiative, combat, and so on) — those belong to the core rulebooks. For building a deliberately-stocked location such as a haunted tomb, see Appendix D: The Encounter Builder.</p>
+<h3 id="building-an-encounter">Building an Encounter</h3>
+<p>A. <strong>Choose the setting.</strong> Is the party in a dungeon, the wilderness, or a settlement? This determines which table set to use for the rest of the procedure — <em>Dungeon Random Encounters</em>, <em>Wilderness Encounters</em>, or <em>Urban Encounters</em>, below.</p>
+<p>B. <strong>Check whether an encounter occurs.</strong> See <em>Encounter Frequency</em>, below, for the chance appropriate to the setting.</p>
+<p>C. <strong>Determine the monster.</strong> Roll on the table matching the setting from step A: - <em>Dungeon:</em> find the dungeon level’s row on the Monster Sub-table Matrix, roll <code>1d12</code> to find the Monster Level, then roll <code>d%</code> on that Monster Level table. - <em>Wilderness:</em> roll <code>d%</code> on the Terrain Category Summary for the party’s terrain, then roll <code>1d20</code> on that terrain’s matching column. - <em>Settlement:</em> roll on the Daytime or Nighttime Encounters table, as appropriate, consulting whichever sub-table it calls for.</p>
+<p>D. <strong>Determine why it’s here.</strong> See <em>Encounter Purpose</em>, below, for a quick note on what the creature is doing when the party meets it.</p>
+<p>E. <strong>Determine number appearing.</strong> Use the No. Appearing entry from the creature’s own stat block, adjusted as described in <em>Dungeon Random Encounters</em> if the monster’s level doesn’t match the dungeon level it was encountered on.</p>
+<p>F. <strong>Award treasure.</strong> If the monster’s description gives a Treasure Type, roll on the Treasure Types table (Appendix B: Treasure). If treasure is present without a guardian, use the Unguarded Treasure table (Appendix B: Treasure) instead.</p>
+<p>To stock a whole dungeon room-by-room instead of generating a single wandering monster, see <em>Stocking a Room</em> in Appendix D: The Encounter Builder.</p>
+<h3 id="encounter-frequency">Encounter Frequency</h3>
+<p><em>Dungeon:</em> At the end of every 2 turns, roll <code>1d6</code>. A result of <code>1</code> means the party will encounter a Wandering Monster in the next turn.</p>
+<p><em>Wilderness:</em> Checked once per day by default, though the referee may make up to 3-4 checks on an eventful day. Roll <code>1d6</code>; the terrain determines which results trigger an encounter.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Terrain</th>
+<th>Chance of Encounter (1d6)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Clear, Grasslands</td>
+<td>6</td>
+</tr>
+<tr class="even">
+<td>Woods</td>
+<td>5-6</td>
+</tr>
+<tr class="odd">
+<td>River</td>
+<td>5-6</td>
+</tr>
+<tr class="even">
+<td>Mountains</td>
+<td>4-6</td>
+</tr>
+<tr class="odd">
+<td>Desert</td>
+<td>5-6</td>
+</tr>
+<tr class="even">
+<td>Inhabited</td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td>Ocean*</td>
+<td>5-6</td>
+</tr>
+<tr class="even">
+<td>Jungle</td>
+<td>4-6</td>
+</tr>
+<tr class="odd">
+<td>Aerial**</td>
+<td>5-6</td>
+</tr>
+<tr class="even">
+<td>Hills</td>
+<td>5-6</td>
+</tr>
+<tr class="odd">
+<td>Barren</td>
+<td>5-6</td>
+</tr>
+</tbody>
+</table>
+<p>*A roll of 5 indicates a normal ocean encounter; a 6 results in an encounter at the end of the day in whatever terrain the ship has beached in, or no encounter if the ship spent the entire day at sea.</p>
+<p>**Aerial encounters always use the Flyer category.</p>
+<p>Treat other terrain types as whichever entry above is the closest match.</p>
+<p><em>Settlement:</em> Checked every 3 turns, per <em>Urban Encounters</em>, below.</p>
+<h3 id="encounter-purpose">Encounter Purpose</h3>
+<p>A quick note on what a creature is doing when the party meets it — useful for describing the scene and for deciding how it behaves before combat, negotiation, or flight begins.</p>
+<table>
+<thead>
+<tr class="header">
+<th>d8</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Guarding a lair, nest, or treasure</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Hunting or foraging for food</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Patrolling a territory or route</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Fleeing something more dangerous</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Lost, wandering, or migrating</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Investigating a noise, light, or scent</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Resting, sleeping, or otherwise off guard</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Escorting or accompanying another creature or NPC</td>
+</tr>
+</tbody>
+</table>
 <h3 id="dungeon-random-encounters">Dungeon Random Encounters</h3>
 <p><em>Source:</em> <code>OSRIC, Dungeons, Towns and Wildernesses: Random Dungeon Encounters</code></p>
 <p>Monster tables below are organized by <strong>monster level</strong> (1-10), which is not the same thing as dungeon level — deeper dungeon levels draw from higher monster levels on average, but the two numbers don’t run 1-to-1. To find which monster level applies:</p>
@@ -17806,9 +17924,81 @@
 <li><strong>Ignore</strong>: No attempt is made to aid or hinder the party.</li>
 <li><strong>Friendly</strong>: The lord has invited the party to stay — this doesn’t necessarily mean the lord <em>likes</em> them; some NPCs offer hospitality for their own, less benevolent purposes.</li>
 </ul>
-<h2 id="appendix-d-random-dungeons">Appendix D: Random Dungeons</h2>
-<p><em>Source:</em> <code>OSRIC, Dungeons, Towns and Wildernesses: Dungeon Dressing / Trap Generation and Placement / Random Dungeon Generation</code></p>
-<p>This appendix adapts OSRIC’s dungeon-dressing, trap, and random-dungeon-generation tables. These tools are useful whether stocking a dungeon in advance or generating one on the fly during play; cross-references to monster and treasure selection point to Appendix B: Treasure and Appendix C: Random Encounters, above.</p>
+<h2 id="appendix-d-the-encounter-builder">Appendix D: The Encounter Builder</h2>
+<p><em>Source:</em> <code>D&amp;D Basic Rulebook, Part 8: Dungeon Master Information; D&amp;D Expert Rulebook, Part 8: Dungeon Master Information; OSRIC, Dungeons, Towns and Wildernesses</code></p>
+<p>Where Appendix C generates a wandering monster on the fly, this appendix is a procedure for building a deliberately-stocked location in advance — a haunted tomb, a bandit hideout, a wizard’s tower — complete with monsters placed on purpose, treasure, traps, and sensory detail.</p>
+<h3 id="building-a-stocked-location">Building a Stocked Location</h3>
+<p>A. <strong>Choose a scenario.</strong> See <em>Scenarios</em>, below, for a background theme that gives the location a reason to exist and the referee a reason for choosing specific monsters and treasure.</p>
+<p>B. <strong>Place special monsters and treasure.</strong> Decide which creatures belong in the location on purpose — guardians the scenario calls for, a boss encounter, a captive to rescue — rather than leaving them to chance. Place their treasure to match.</p>
+<p>C. <strong>Stock the remaining areas.</strong> For rooms or areas without a deliberate placement, see <em>Stocking a Room</em>, below. It calls on Appendix C: Random Encounters for the monster (if any) and Appendix B: Treasure for the treasure.</p>
+<p>D. <strong>Add dressing.</strong> See <em>Dungeon Dressing</em>, below, for the sensory detail — sights, sounds, smells — that makes a room feel real even when it holds nothing of mechanical importance.</p>
+<p>E. <strong>Place traps.</strong> See <em>Trap Generation and Placement</em>, below.</p>
+<p>F. <strong>Generate the physical layout, if needed.</strong> If the location doesn’t already have a hand-drawn map, see <em>Random Dungeon Generation</em>, below, to build one on the fly.</p>
+<h3 id="scenarios">Scenarios</h3>
+<p><em>Source:</em> <code>D&amp;D Basic Rulebook, Part 8: Dungeon Master Information</code></p>
+<p>A scenario is a background theme that ties a dungeon together, giving the players a reason for adventuring and the referee a reason for choosing specific monsters and treasures. Without one, a dungeon risks becoming a boring repetition of “open the door, kill the monster, take the treasure.” A scenario may be anything the referee can imagine; the ten common ones below, adapted from the D&amp;D Basic Rulebook, are offered as a starting menu — roll <code>1d10</code> or simply pick whichever fits the campaign.</p>
+<table>
+<thead>
+<tr class="header">
+<th>d10</th>
+<th>Scenario</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Exploring the Unknown</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Investigating a Chaotic Outpost</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Recovering Ruins</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Destroying an Ancient Evil</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Visiting a Lost Shrine</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Fulfilling a Quest</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Escaping from Enemies</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Rescuing Prisoners</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Using a Magic Portal</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Finding a Lost Race</td>
+</tr>
+</tbody>
+</table>
+<ol type="1">
+<li><strong>Exploring the Unknown</strong>: The party is hired to map unknown territory. The area might once have been familiar but is now overrun or destroyed; a strange tower might mysteriously appear overnight in a familiar area.</li>
+<li><strong>Investigating a Chaotic Outpost</strong>: A Chaotic invasion is in progress or about to begin. The characters must enter the enemy outpost, find out the strength and plans of the invaders, and destroy the outpost if possible.</li>
+<li><strong>Recovering Ruins</strong>: The party is usually scouting an old village before permanent settlers move in. The ruins have often been overrun by a specific kind of monster which must be killed or driven away — the ruins could be part of (or underneath) a thriving town.</li>
+<li><strong>Destroying an Ancient Evil</strong>: The evil is usually a monster or NPC whose exact type the players don’t know. Sometimes it has been deeply buried and re-awakened by recent digging. This theme combines well with others — an ancient evil may need destroying before some ruins can be resettled.</li>
+<li><strong>Visiting a Lost Shrine</strong>: To remove a curse or recover a sacred item, the players must travel to a shrine that has been lost for ages. The characters usually have only a rough idea of its location, and may have to consult an oracle or seer during their visit.</li>
+<li><strong>Fulfilling a Quest</strong>: A king, other NPC, or “the gods” provide a reason for adventuring. Quite often this scenario also involves recovering a sacred object or powerful magic item.</li>
+<li><strong>Escaping from Enemies</strong>: The player characters begin this adventure as prisoners and must escape. The reason is clear and simple, especially if imprisonment is to be followed by the characters’ deaths — the referee must be careful to make escape possible, though not necessarily easy.</li>
+<li><strong>Rescuing Prisoners</strong>: Valuable and important persons are held prisoner by bandits, a tribe of orcs, or an evil magic-user. The party sets out to rescue them because they’ve been hired to (for an expected reward), for a debt of honor, or for some other reason. Sometimes the player characters are only hired to guard an individual negotiating the ransom.</li>
+<li><strong>Using a Magic Portal</strong>: A magic portal is a device that magically sends creatures from one place to another — usually a door into another dimension or world, and thus easily the point of an invasion from one of these worlds. Portals may be known or secret, and may operate both ways or one way only (teleporting into but not out of an area).</li>
+<li><strong>Finding a Lost Race</strong>: The players find a once-human race that has lived underground for so long it has begun to change — its members might have developed infravision, changed color, or begun to fall back into animal ways. This scenario works well combined with Destroying an Ancient Evil, since lost races are often servants of the ancient powers, and requires extra invention by the referee since details for the lost race must be created from scratch.</li>
+</ol>
 <h3 id="stocking-a-room">Stocking a Room</h3>
 <p><em>Source:</em> <code>D&amp;D Basic Rulebook, Part 8: Dungeon Master Information; D&amp;D Expert Rulebook, Part 8: Dungeon Master Information</code></p>
 <p>To stock a room with no predetermined contents, roll <code>1d6</code> on the Contents table below, then roll <code>1d6</code> on the Treasure table using the column matching the Contents result.</p>
@@ -21626,9 +21816,9 @@
 <p><em>Table 24: Turns (<code>1d20</code>)</em></p>
 </div>
 <h4 id="using-the-random-dungeon-generator-for-solo-play">Using the Random Dungeon Generator for Solo Play</h4>
-<p>Start with Table 1: Starting Area Shape in the middle of a sheet of graph paper. Use Appendix C: Random Encounters, above, to resolve monster encounters and generate treasure via the tables above.</p>
+<p>Start with Table 1: Starting Area Shape in the middle of a sheet of graph paper. Use Appendix C: Random Encounters to resolve monster encounters, and Appendix B: Treasure (or the tables above) to generate treasure.</p>
 <p>To resolve listening at doors, roll <code>1d12</code> and treat a result of 1-5 as a monster encounter. Use Table 8: Chamber or Room Contents, but treat any result as including a monster encounter; otherwise, ignore any monster encounters rolled unless the creature would be silent (undead, bugbears, etc.).</p>
 <p><em>ESP</em>, scrying, and other means of magical detection can be resolved as follows: a roll of 1 on <code>1d6</code> indicates a monster in the area being checked. Roll the encounter using Appendix C, ignoring any monster type not detectable by the method of detection used. If a 6 is rolled, the player should reroll when actually entering the room; if a 6 comes up again, a non-detectable monster is encountered and the player’s chance to be surprised increases by +1.</p>
-<p><strong>Stocking the Dungeon:</strong> Appendix C: Random Encounters can stock a dungeon on its own, or a GM may design specific encounter areas without reference to random tables. Many GMs mix both methods, with designed areas surrounded by randomly-generated ones. Dungeons don’t have to make sense, but they do need variety — a little thought on the placement of creatures doesn’t go amiss, and rewarding player skill is an important part of this system.</p>
+<p><strong>Stocking the Dungeon:</strong> This appendix can stock a dungeon on its own, or a GM may design specific encounter areas without reference to random tables. Many GMs mix both methods, with designed areas surrounded by randomly-generated ones. Dungeons don’t have to make sense, but they do need variety — a little thought on the placement of creatures doesn’t go amiss, and rewarding player skill is an important part of this system.</p>
 </body>
 </html>
