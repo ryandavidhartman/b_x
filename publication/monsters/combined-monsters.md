@@ -9407,6 +9407,14 @@ Where Appendix C generates a wandering monster on the fly, this appendix is a pr
 
 ### Building a Stocked Location
 
+At a glance, the whole procedure runs like this:
+
+::: center
+![](assets/appendix-d-flowchart.png){width=80%}
+:::
+
+Each step is detailed below.
+
 A. **Choose a scenario.** See *Scenarios*, below, for a background theme that gives the location a reason to exist and the DM a reason for choosing specific monsters and treasure.
 
 B. **Place special monsters and treasure.** Decide which creatures belong in the location on purpose — guardians the scenario calls for, a boss encounter, a captive to rescue — rather than leaving them to chance. Place their treasure to match.
@@ -9469,7 +9477,7 @@ Use this when the location already has a floor plan — hand-drawn, from a modul
 | 3 | Yes | No | No |
 | 4-6 | No | No | No |
 
-A **Monster** result is rolled on whichever Appendix C table matches this location's type — Dungeon Random Encounters for a dungeon (cross-referenced against the dungeon level being stocked), Wilderness Encounters for a wilderness lair, or Urban Encounters for an urban hideout. A **Trap** may be placed in an otherwise empty room or on top of the room's treasure; roll on the Random Trap Generation table below. A **Special** is anything not exactly a trap but placed for its own reasons — a moaning corridor, a sliding room, a trick (see below) — left to the DM's invention. When treasure is indicated, use the monster's own Treasure Type if a monster is present, or the Unguarded Treasure table (Appendix B: Treasure) if the room is empty or holds only a trap.
+A **Monster** result is rolled on whichever Appendix C table matches this location's type — Dungeon Random Encounters for a dungeon (cross-referenced against the dungeon level being stocked), Wilderness Encounters for a wilderness lair, or Urban Encounters for an urban hideout. A **Trap** may be placed in an otherwise empty room or on top of the room's treasure; roll on the Random Trap Generation table below. A **Special** is anything not exactly a trap but placed for its own reasons — a moaning corridor, a sliding room, a trick (see below) — left to the DM's invention; the Treasure table above has no Special column of its own for the same reason — roll on its Empty column if you'd rather roll than decide. When treasure is indicated, use the monster's own Treasure Type if a monster is present, or the Unguarded Treasure table (Appendix B: Treasure) if the room is empty, holds only a trap, or holds a Special.
 
 ### Dungeon Dressing
 
@@ -10027,6 +10035,12 @@ This is the primary method for building a stocked location's floor plan from scr
 
 After the room is fully resolved, roll up the corridors and rooms generated in step 4, using the same steps as a guideline.
 
+At a glance, the loop this procedure settles into looks like this:
+
+::: center
+![](assets/appendix-d-dungeon-gen-flowchart.png){width=75%}
+:::
+
 #### Map Symbols
 
 *Source:* `D&D Basic Rulebook, p.B58`
@@ -10317,7 +10331,7 @@ In order to learn the secret of a magic pool, adventurers must actually enter th
 | 1-3 | Chamber. Roll on Table 2(b): Chambers. Check this table again 30 ft after leaving the chamber. |
 | 4 | Continue straight; check this table again in 50 ft. |
 | 5 | Dead End; check for secret doors as per Table 6: Exit Location. |
-| 6-10 | Door. Consult Table 19: Door Location — if the result isn't a straight-ahead door, check this table again in 30 ft. |
+| 6-10 | Door. Consult Table 19: Door Location, then Table 20: Behind the Door to see what lies beyond it — if the door found isn't straight-ahead, check this table again in 30 ft. |
 | 11-14 | Side passage. See Table 21: Side Passages, then check this table again in 30 ft. |
 | 15 | Stairs. Go to Table 13: Stairs. |
 | 16-19 | Turn. Consult Table 24: Turns, then check this table again in 30 ft. |

@@ -18059,6 +18059,11 @@
 <p><em>Source:</em> <code>D&amp;D Basic Rulebook, Part 8: Dungeon Master Information; D&amp;D Expert Rulebook, Part 8: Dungeon Master Information; OSRIC, Dungeons, Towns and Wildernesses</code></p>
 <p>Where Appendix C generates a wandering monster on the fly, this appendix is a procedure for building a deliberately-stocked location in advance — a haunted tomb, a bandit hideout, a wizard’s tower — complete with monsters placed on purpose, treasure, traps, and sensory detail.</p>
 <h3 id="building-a-stocked-location">Building a Stocked Location</h3>
+<p>At a glance, the whole procedure runs like this:</p>
+<div class="center">
+<p><img src="assets/appendix-d-flowchart.png" style="width:80.0%" /></p>
+</div>
+<p>Each step is detailed below.</p>
 <p>A. <strong>Choose a scenario.</strong> See <em>Scenarios</em>, below, for a background theme that gives the location a reason to exist and the DM a reason for choosing specific monsters and treasure.</p>
 <p>B. <strong>Place special monsters and treasure.</strong> Decide which creatures belong in the location on purpose — guardians the scenario calls for, a boss encounter, a captive to rescue — rather than leaving them to chance. Place their treasure to match.</p>
 <p>C. <strong>Get a floor plan and stock it.</strong> This is one step with two methods, not two — pick whichever fits how you’re building this location: - <em>You already have a map</em> (hand-drawn, from a module, or already decided on): stock each remaining room using <em>Stocking a Room</em>, below. It calls on Appendix C: Random Encounters for the monster (if any) and Appendix B: Treasure for the treasure. - <em>You’re building the layout from scratch</em>: use <em>Random Dungeon Generation</em>, below, to generate the floor plan room by room. Its own Table 8: Chamber or Room Contents stocks each room as the layout is built, so you do <em>not</em> also use Stocking a Room — that would mean stocking every room twice, by two different methods.</p>
@@ -18194,7 +18199,7 @@
 </tr>
 </tbody>
 </table>
-<p>A <strong>Monster</strong> result is rolled on whichever Appendix C table matches this location’s type — Dungeon Random Encounters for a dungeon (cross-referenced against the dungeon level being stocked), Wilderness Encounters for a wilderness lair, or Urban Encounters for an urban hideout. A <strong>Trap</strong> may be placed in an otherwise empty room or on top of the room’s treasure; roll on the Random Trap Generation table below. A <strong>Special</strong> is anything not exactly a trap but placed for its own reasons — a moaning corridor, a sliding room, a trick (see below) — left to the DM’s invention. When treasure is indicated, use the monster’s own Treasure Type if a monster is present, or the Unguarded Treasure table (Appendix B: Treasure) if the room is empty or holds only a trap.</p>
+<p>A <strong>Monster</strong> result is rolled on whichever Appendix C table matches this location’s type — Dungeon Random Encounters for a dungeon (cross-referenced against the dungeon level being stocked), Wilderness Encounters for a wilderness lair, or Urban Encounters for an urban hideout. A <strong>Trap</strong> may be placed in an otherwise empty room or on top of the room’s treasure; roll on the Random Trap Generation table below. A <strong>Special</strong> is anything not exactly a trap but placed for its own reasons — a moaning corridor, a sliding room, a trick (see below) — left to the DM’s invention; the Treasure table above has no Special column of its own for the same reason — roll on its Empty column if you’d rather roll than decide. When treasure is indicated, use the monster’s own Treasure Type if a monster is present, or the Unguarded Treasure table (Appendix B: Treasure) if the room is empty, holds only a trap, or holds a Special.</p>
 <h3 id="dungeon-dressing">Dungeon Dressing</h3>
 <p>Dungeon dressing tables provide sensory detail — sights, sounds, and smells — to make a corridor or chamber feel lived-in even when it holds no monster or treasure. Roll on any of the tables below when a room’s contents call for detail beyond “empty.”</p>
 <h4 id="air-currents">Air Currents</h4>
@@ -20890,6 +20895,10 @@
 <li>If no particular table is indicated, the corridor continues for 30 ft; then check Table 18: General.</li>
 </ol>
 <p>After the room is fully resolved, roll up the corridors and rooms generated in step 4, using the same steps as a guideline.</p>
+<p>At a glance, the loop this procedure settles into looks like this:</p>
+<div class="center">
+<p><img src="assets/appendix-d-dungeon-gen-flowchart.png" style="width:75.0%" /></p>
+</div>
 <h4 id="map-symbols">Map Symbols</h4>
 <p><em>Source:</em> <code>D&amp;D Basic Rulebook, p.B58</code></p>
 <p>A standard set of symbols for hand-drawing a dungeon map, so any DM’s map reads the same way at the table.</p>
@@ -21719,7 +21728,7 @@
 </tr>
 <tr class="even">
 <td>6-10</td>
-<td>Door. Consult Table 19: Door Location — if the result isn’t a straight-ahead door, check this table again in 30 ft.</td>
+<td>Door. Consult Table 19: Door Location, then Table 20: Behind the Door to see what lies beyond it — if the door found isn’t straight-ahead, check this table again in 30 ft.</td>
 </tr>
 <tr class="odd">
 <td>11-14</td>
