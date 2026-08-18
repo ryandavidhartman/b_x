@@ -1799,7 +1799,7 @@ Arch-devils such as Asmodeus, Baalzebul, Dispater, and Geryon are unique rulers 
 | Attacks     | 1 claw     | Treasure Type | Nil       |
 | Damage      | 1d3        | Alignment     | Lawful    |
 
-Lemures are mindless damned souls reshaped into vaguely human blobs. Their doughy, half-formed faces twist in a permanent, wordless wail, as if some faint memory of the life they once had is still trying to claw its way out. They regenerate 1 hit point per round and are permanently destroyed only by holy water, holy weapons, or similar blessed power. They are immune to **sleep**, **charm**, and similar spells.
+Lemures are mindless damned souls reshaped into vaguely human blobs, endlessly reformed by the will of the Hells to serve as the lowest fodder of Hell's legions. Their doughy, half-formed faces twist in a permanent, wordless wail, as if some faint memory of the life they once had is still trying to claw its way out. They shamble forward heedless of danger, feeling neither pain nor fear, driven only by a dim hunger to rend whatever living thing crosses their path. They regenerate 1 hit point per round and are permanently destroyed only by holy water, holy weapons, or similar blessed power. They are immune to **sleep**, **charm**, and similar spells.
 
 ::: center
 ![](assets/lemure-plate.png)
@@ -1858,14 +1858,14 @@ Bone devils are malicious torturers armed with great hooks. A creature hit by th
 | Hit Dice    | 5+5**                                       | Save As       | Fighter 6 |
 | Move        | 90' (30')                                   | Morale        | 10        |
 | Fly         | 180' (60')                                  | Treasure Type | I         |
-| Attacks     | 2 claws/1 bite, or weapon / 1 tail  | Alignment     | Lawful    |
-| Damage      | 1d4/1d4/1d4+1, or weapon / 1d3      |               |           |
+| Attacks     | 2 claws/1 bite, or weapon / 1 tail          | Alignment     | Lawful    |
+| Damage      | 1d4/1d4/1d4+1, or weapon / 1d3              |               |           |
 
-Horned devils, or malebranche, are the least greater devils. They may carry a two-tined fork for `2d6` damage or a barbed whip for `1d4` damage plus stunning for the same number of rounds unless the victim Saves vs. Spells.
+Horned devils, or malebranche, are the least greater devils, standing as brutish enforcers a full head above the lemures and imps they command with casual contempt. They may carry a two-tined fork for `2d6` damage or a barbed whip for 1d4 damage plus stunning for the same number of rounds unless the victim Saves vs. Spells.
 
-Their tail wounds bleed for 1 hit point per turn until bound or magically healed. They radiate **fear** in a 5’ radius and may use **pyrotechnics**, **produce flame**, **ESP**, **detect magic**, **illusion**, or attempt to **summon** another horned devil.Once per day they may create a triple-strength **wall of fire**.
+Their tail wounds bleed for 1 hit point per turn until bound or magically healed. They radiate fear in a 5' radius and may use **pyrotechnics**, **produce flame**, **ESP**, **detect magic**, **illusion**, or attempt to summon another horned devil. Once per day they may create a triple-strength **wall of fire**.
 
-Malebranche delight in cruelty for its own sake, savoring a victim's terror as much as the wound itself. They serve as overseers and enforcers within the infernal hierarchy, driving lesser devils and the damned alike through threat of the lash. Vain and quick to anger, a horned devil that suffers public humiliation may abandon its post entirely to hunt down the source of its embarrassment.
+Malebranche delight in cruelty for its own sake, savoring a victim's terror as much as the wound itself. They serve as overseers and enforcers within the infernal hierarchy, driving lesser devils and the damned alike through threat of the lash. Vain and quick to anger, a horned devil that suffers public humiliation may abandon its post entirely to hunt down the source of its embarrassment, its wrath outweighing any concern for the duties it leaves unfinished.
 
 ::: center
 ![](assets/horned-devil-plate.png)
