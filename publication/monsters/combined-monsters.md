@@ -2149,7 +2149,9 @@ For further details regarding aerial servants, consult the volume detailing cler
 
 Dao are genies of elemental earth, kin to the djinn, efreet, and jann but far more malicious, coming to the material plane chiefly to work mischief and evil. They dislike servitude even more than efreet do and are quick to nurse a grudge; only efreet count as friends, while djinn, jann, and marids are hated outright.
 
-At will a dao may once each day become invisible, take gaseous form, cause misdirection, or use passwall, and can turn rock to mud three times a day or dig up to six times a day. A dao can burrow through natural earth (though not worked stone) at a steady pace and can carry a companion along with it. They are immune to earth-based magic, though holy water burns them for double damage. Dao dwell in deep caves and cysts, or in their own Great Dismal Delve on the Elemental Plane of Earth.
+At will a dao may once each day become **invisible**, take **gaseous form**, cause **misdirection**, or use **passwall**, and can turn **rock to mud** three times a day or dig up to six times a day. A dao can burrow through natural earth (though not worked stone) at a steady pace and can carry a companion along with it. They are immune to earth-based magic, though holy water burns them for double damage. Dao dwell in deep caves and cysts, or in their own Great Dismal Delve on the Elemental Plane of Earth.
+
+ When forced to bargain, a dao's word is technically binding but never generous, and it will search out every loophole a wish or pact allows.
 
 ::: center
 ![](assets/dao-plate.png)
@@ -2393,10 +2395,6 @@ Xorn feed on precious metals and gems. They usually bargain for food but attack 
 
 Larger groups often include shamans, witch doctors, or other tribal spellcasters
 
-::: center
-![](assets/bugbear-fighting-adventurer.png)
-:::
-
 ### Bugbear
 *Source:* `Basic`  *Category:* `Humanoid`
 
@@ -2412,8 +2410,12 @@ If 12 or more bugbears are encountered, one is a leader with AC 15, 22-25 hp, an
 
 Bugbears speak their own tongue, goblin, hobgoblin, and the chaotic alignment language.
 
-::: center
+::: center  
 ![](assets/bugbear-plate.png)
+:::
+
+::: center  
+![](assets/bugbear-fighting-adventurer.png)
 :::
 
 ### Drider
@@ -2427,7 +2429,7 @@ Bugbears speak their own tongue, goblin, hobgoblin, and the chaotic alignment la
 
 A drider is a drow who failed a secret test set by Lolth for those of promising rank, and was transformed rather than rewarded: the torso, arms, and head of a pale, bloated dark elf sprout from the body of a giant spider. About 60% of driders are female.
 
-A drider retains its former spellcasting — females as a 6th or 7th level cleric, males with a handful of minor magic-user spells — and fights capably with sword, axe, or bow, or with a poisonous bite that forces a Save vs. Poison at -2 or paralyzes for `1d2` turns. Cast out from drow society and shown no love in return, driders are usually encountered alone, though 1 in 10 keep company with a pack of huge spiders. They hunt underground, stalking prey patiently before striking, and feed chiefly on the blood of their kills.
+A drider retains its former spellcasting — females as a 6^th^ or 7^th^ level cleric, males with a handful of minor magic-user spells — and fights capably with sword, axe, or bow, or with a poisonous bite that forces a Save vs. Poison at -2 or paralyzes for `1d2` turns. Cast out from drow society and shown no love in return, driders are usually encountered alone, though 1 in 10 keep company with a pack of huge spiders. They hunt underground, stalking prey patiently before striking, and feed chiefly on the blood of their kills.
 
 ::: center
 ![](assets/drider-plate.png)
