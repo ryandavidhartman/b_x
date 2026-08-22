@@ -2438,8 +2438,8 @@ A drider retains its former spellcasting — females as a 6^th^ or 7^th^ level c
 ### Drow (Dark Elf)
 *Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
 
-| Armor Class | 15          | No. Appearing | 1d6 (5d10) |
-| Hit Dice    | 2          | Save As       | Fighter 2  |
+| Armor Class | 15         | No. Appearing | 1d6 (5d10) |
+| Hit Dice    | 2*         | Save As       | Fighter 2  |
 | Move        | 120' (40') | Morale        | 9          |
 | Attacks     | 1 weapon   | Treasure Type | N, Q       |
 | Damage      | 1d6        | Alignment     | Chaotic    |
@@ -2455,15 +2455,17 @@ A drow warrior fights with sword or dagger, and many carry hand crossbows loaded
 ### Duergar
 *Source:* `AD&D 1E Conversion`  *Category:* `Humanoid`
 
-| Armor Class | 15          | No. Appearing | 2d4 (201-300) |
-| Hit Dice    | 1+2        | Save As       | Fighter 1  |
+| Armor Class | 15         | No. Appearing | 2d4 (201-300) |
+| Hit Dice    | 1+2**      | Save As       | Fighter 1  |
 | Move        | 60' (20')  | Morale        | 8 or see below |
 | Attacks     | 1 weapon   | Treasure Type | M, Q (B, F) |
 | Damage      | By weapon  | Alignment     | Lawful     |
 
 Duergar, or gray dwarves, are a malicious, subterranean offshoot of dwarfkind who shun the light along with every other kindness. As with other humanoids, larger bands are led by tougher individuals of 2 to 9 Hit Dice, and morale rises to 10 whenever such a leader stands with the group. Duergar lairs are large, well-organized, and often (75% chance) hold 10-40 slaves of other races.
 
-Duergar can turn invisible at will, and once per day can enlarge themselves to twice normal size for 1 turn, striking at +2 to hit and damage while so swollen. They save versus magical attacks (including polymorph and paralysis) at +4, are wholly immune to poison and paralysis, and are unaffected by illusions. Like other dwarves they have keen infravision to 90' and speak Dwarvish along with the silent speech shared by evil things underground; some duergar live 500 years or more.
+Duergar can turn **invisible** at will, and once per day can enlarge themselves to twice normal size for 1 turn, striking at +2 to hit and damage while so swollen. They save versus magical attacks (including polymorph and paralysis) at +4, are wholly immune to **poison** and **paralysis**, and are unaffected by **illusions**. Like other dwarves they have keen infravision to 90' and speak Dwarvish along with the silent speech shared by evil things underground; some duergar live 500 years or more.
+
+The drow are old rivals of the gray dwarves, and the two races clash bitterly wherever their tunnels and territories meet, neither trusting the other's schemes for long-term truce.  When the two do cooperate, it is only through cold, transactional bargains—slaves and mineral wealth traded for arcane secrets—arrangements that dissolve into betrayal the moment either side sees advantage in breaking them.
 
 ::: center
 ![](assets/duergar-plate.png)
@@ -2497,7 +2499,7 @@ Githyanki wield ornate two-handed swords, and their finest warriors carry intell
 
 The githzerai share the same origin as the githyanki, having won their freedom from the mind flayers together under the hero Gith, but the two peoples have been bitter enemies ever since. Where the githyanki are showy and grasping, the githzerai are monastic and disciplined, dwelling in a handful of towering adamantite fortresses in Limbo and on the Material Plane, ruled by an undying wizard-king.
 
-Githzerai fight with plain swords and favor economy of motion over ornament, and some among them train as monks of great skill. They hold an uneasy, oft-broken truce with the mind flayers, but no such peace exists with the githyanki, whom they war against without end.
+Githzerai fight with plain swords and favor economy of motion over ornament, and some among them train as monks of great skill. Many possess minor psionic talent, and the strongest among them can wield powers of the mind alongside blade and fist. Life in a githzerai fortress is austere and demanding; children are tested young, and those who show discipline and strength of will are drawn into rigorous training under the monastic orders, while the weak-willed are given little standing among their kin. They hold an uneasy, oft-broken truce with the mind flayers, but no such peace exists with the githyanki, whom they war against without end.
 
 ::: center
 ![](assets/githzerai-plate.png)
