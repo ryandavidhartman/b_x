@@ -9650,7 +9650,7 @@ Use this when the location already has a floor plan — hand-drawn, from a modul
 | 3 | Yes | No | No |
 | 4-6 | No | No | No |
 
-A **Monster** result is rolled on whichever Appendix C table matches this location's type — Dungeon Random Encounters for a dungeon (cross-referenced against the dungeon level being stocked), Wilderness Encounters for a wilderness lair, or Urban Encounters for an urban hideout. A **Trap** may be placed in an otherwise empty room or on top of the room's treasure; roll on the Random Trap Generation table below. A **Special** is anything not exactly a trap but placed for its own reasons — a moaning corridor, a sliding room, a trick (see below) — left to the DM's invention; the Treasure table above has no Special column of its own for the same reason — roll on its Empty column if you'd rather roll than decide. When treasure is indicated, use the monster's own Treasure Type if a monster is present, or the Unguarded Treasure table (Appendix B: Treasure) if the room is empty, holds only a trap, or holds a Special.
+A **Monster** result is rolled on whichever Appendix C table matches this location's type — Dungeon Random Encounters for a dungeon (cross-referenced against the dungeon level being stocked), Wilderness Encounters for a wilderness lair, or Urban Encounters for an urban hideout. A **Trap** may be placed in an otherwise empty room or on top of the room's treasure; roll on the Random Trap Generation table below. For a natural or ruined location — a cave, a swamp, a wilderness lair — a Trap result may fit better as an *Environmental Hazard* instead, below; both draw treasure from the same Trap column. A **Special** is anything not exactly a trap but placed for its own reasons — a moaning corridor, a sliding room, a trick (see below) — left to the DM's invention; the Treasure table above has no Special column of its own for the same reason — roll on its Empty column if you'd rather roll than decide. When treasure is indicated, use the monster's own Treasure Type if a monster is present, or the Unguarded Treasure table (Appendix B: Treasure) if the room is empty, holds only a trap, or holds a Special.
 
 ### Dungeon Dressing
 
@@ -10095,6 +10095,36 @@ Intelligent creatures that live near a trap will maintain it and know how to avo
 | 45-46 | lightning bolt | 95-96 | teleporter |
 | 47-48 | log trap, swinging | 97-98 | trip wire |
 | 49-50 | obscuring fog | 99-00 | wire, neck high |
+
+#### Environmental Hazards
+
+*Source:* `Shadowdark RPG (adapted)`
+
+A Hazard differs from a Trap in three ways: it's usually obvious on sight rather than
+hidden, it doesn't require the party to do anything in particular to be endangered by it,
+and it typically can't be disarmed — only avoided, endured, or worked around. Hazards suit
+natural or ruined locations especially well: a collapsing dungeon corridor is a trap someone
+built, but a quicksand pool in a swamp cave is simply the swamp.
+
+Roll `d12` once, on whichever column fits the scene, for a single-effect hazard — or roll on
+two or three columns and combine the results for something worse, the same way Traps above
+can be combined: a quicksand pool that's also acidic, or a chasm ledge inside an antimagic
+zone.
+
+| d12 | Movement | Damage | Weaken |
+|---|---|---|---|
+| 1 | Quicksand | Acidic pool or mist | Antimagic zone |
+| 2 | Sucking mud | Extreme cold | Light-swallowing darkness |
+| 3 | Loose scree or rockslide | Extreme heat | Deafening echo |
+| 4 | Slick ice | Poisonous spores | Choking dust |
+| 5 | Tangling roots or vines | Caustic gas seep | Disorienting fumes |
+| 6 | Rubble-choked passage | Biting insect swarm | Strength-draining cold |
+| 7 | Rushing floodwater | Falling icicles or rock shards | Hallucinogenic spores |
+| 8 | Sheer drop, no footing | Lava flow or vents | Magical silence |
+| 9 | Sticky webbing | Corrosive fungus | Vertigo-inducing slope |
+| 10 | Drifting sand | Electrified water | Exhausting stagnant air |
+| 11 | Collapsed ceiling debris | Searing steam vents | Numbing chill |
+| 12 | Narrow ledge over a chasm | Razor-edged crystal growth | Memory-fogging miasma |
 
 #### Tricks
 
