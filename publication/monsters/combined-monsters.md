@@ -5924,6 +5924,58 @@ A powerful magic-user accompanied by apprentices and hired guards, often seeking
 | 3-4 | Neutral   |
 | 5-6 | Chaotic   |
 
+#### Rival Adventuring Parties
+*Source:* `Shadowdark RPG (adapted)`
+
+Any NPC Party generated above — whether it turned up in a Dungeon Random Encounter, an Urban
+Encounter, or on the wilderness Overland Hex Crawl Generation's Points of Interest table (see
+Appendix C) — can optionally be given this flavor layer to turn it from a one-off encounter
+into a recurring rival: a competing group of adventurers after the same treasure, the same
+dungeon, or the same reputation as the party.
+
+| d6  | Renown             |
+|-----|--------------------|
+| 1   | Unknown            |
+| 2-3 | Locally known      |
+| 4-5 | Widely recognized  |
+| 6   | Extremely famous   |
+
+| d10 | Secret or Goal |
+|---|---|
+| 1 | Betrayed an oath to a former patron |
+| 2 | Carries a forged or stolen identity |
+| 3 | Deep in debt to a moneylender or guild |
+| 4 | Holds a map or lead to treasure the party might also be after |
+| 5 | Suffers a curse they're hiding from outsiders |
+| 6 | Serves a powerful, unnamed patron |
+| 7 | Seeks to recover a fallen comrade's body or gear |
+| 8 | Was hired to sabotage a rival — possibly the party |
+| 9 | Secretly scouting for a hostile power |
+| 10 | Wants glory above all else, and takes foolish risks for it |
+
+How a rival party behaves on a second meeting follows its alignment, rolled above:
+
+- **Lawful** parties negotiate openly and honor deals, even with rivals.
+- **Neutral** parties avoid unnecessary conflict and deal fairly, but coldly.
+- **Chaotic** parties ambush rivals when it's convenient and take what they want.
+
+To name a rival party, roll `d12` twice below and combine the results:
+
+| d12 | Epithet | Name |
+|---|---|---|
+| 1 | The Iron | Vanguard |
+| 2 | The Grey | Wolves |
+| 3 | The Silver | Blades |
+| 4 | The Broken | Oath |
+| 5 | The Last | Watch |
+| 6 | The Crimson | Company |
+| 7 | The Wandering | Shields |
+| 8 | The Forsaken | Few |
+| 9 | The Black | Banner |
+| 10 | The Restless | Dead |
+| 11 | The Golden | Hand |
+| 12 | The Hollow | Crown |
+
 ### Trader
 *Source:* `Basic`  *Category:* `NPC`
 
@@ -5936,6 +5988,30 @@ A powerful magic-user accompanied by apprentices and hired guards, often seeking
 Traders are first level fighters who make their living trading goods. They are similar to merchants, but much braver and much better fighters. They usually carry swords and hand axes. They wear furs, treating them as leather armor, and carry shields.
 
 When encountered in the wilderness, they will be leading 1-4 pack mules carrying trade goods. The choice of exactly which trade goods is left to the DM; typical ones are spices, furs, or carved decorative items.
+
+#### Trader's Wares
+
+*Source:* `Shadowdark RPG (adapted)`
+
+For a Trader worth remembering — one the party might deal with more than once, at a
+crossroads, a trading post (see Appendix C's Overland Hex Crawl Generation), or a
+settlement's Market Square or General Store (Appendix E) — roll `d12` below for something
+unusual among their ordinary goods, priced at the DM's discretion.
+
+| d12 | Unusual Wares |
+|---|---|
+| 1 | A locked box, key long since lost |
+| 2 | A chipped idol from a forgotten cult |
+| 3 | A dozen vials of a merchant's own "cure-all" tonic, of uncertain effect |
+| 4 | A folded map, partly illegible, showing an unfamiliar ruin |
+| 5 | A caged songbird that only sings in a dead language |
+| 6 | A set of dice that never roll the same result twice in a row |
+| 7 | A cracked mirror, said to show the viewer as they'll look in ten years |
+| 8 | A bundle of letters, undelivered, addressed to someone long dead |
+| 9 | A single boot, finely made, with no match in the pack |
+| 10 | A jar of preserved eyes, of no creature the Trader will name |
+| 11 | A coin from a kingdom nobody at the table has heard of |
+| 12 | A weapon, well-made but clearly not built for a human hand |
 
 ### Veteran
 *Source:* `Basic`  *Category:* `NPC`
@@ -8519,7 +8595,7 @@ below to find out what.
 | 1 | Ruined watchtower | Guarded by a monster rolled on this terrain's Wilderness Encounters table |
 | 2 | Standing stones | Marks the site of a Cataclysm — roll below |
 | 3 | Overgrown barrow mound | A sealed tomb; stock it as a Tomb-type location with Appendix D: The Encounter Builder |
-| 4 | Abandoned farmstead | Looted long ago; a Rival Adventuring Party (see *NPC Parties*, above) has made camp here |
+| 4 | Abandoned farmstead | Looted long ago; a Rival Adventuring Party has made camp here — see *Rival Adventuring Parties*, above |
 | 5 | Hermit's hut | Home to a reclusive NPC with local knowledge; roll their former trade on the *Urban Professions* sub-table |
 | 6 | Cave mouth | Leads to a dungeon; roll `1d10` on Appendix D's *Scenarios* table for why it's here |
 | 7 | Crumbling shrine | Sacred to a forgotten power — a blessing or a curse awaits inside, DM's choice |
@@ -8527,12 +8603,12 @@ below to find out what.
 | 9 | Small or Large Town | Roll *Settlement Size*, Appendix E |
 | 10 | Bridge or ford | Tolled by whoever controls it; roll the toll-keeper's trade on *Urban Professions* |
 | 11 | Burnt-out battlefield | Scavenged bones and broken weapons; `1`-in-`6` chance the dead haven't stayed down |
-| 12 | Hunting lodge | Base of operations for a Rival Adventuring Party between expeditions |
+| 12 | Hunting lodge | Base of operations for a Rival Adventuring Party (see above) between expeditions |
 | 13 | Quarry or mine | Worked by `2d6` laborers; a recent cave-in or monster incursion has halted work |
 | 14 | Old road marker | Points toward the nearest undiscovered Point of Interest |
 | 15 | Sunken ruin | Half-swamped; roll its treasure on the Unguarded Treasure table, Appendix B |
 | 16 | Wizard's folly | An abandoned tower whose wards are still partly active |
-| 17 | Trading post | A Trader (see above) has set up shop here semi-permanently |
+| 17 | Trading post | A Trader has set up shop here semi-permanently — see *Trader's Wares*, above |
 | 18 | Sacred grove or spring | Restores `1` hp per hour of rest to anyone who stays the night, DM's discretion |
 | 19 | Fresh disaster site | Roll on the Cataclysm table, below |
 | 20 | DM's invention | Something unique — a portal, a crashed vessel, a sleeping giant — left to the table's imagination |
