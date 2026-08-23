@@ -10674,13 +10674,13 @@ A. **Determine size.** Roll or pick from *Settlement Size*, below. This sets the
 
 B. **Determine government.** Roll or pick from *Government*, below — who's actually in charge here, and what that means for the party.
 
-C. **Roll points of interest.** Use *Points of Interest*, below, rolling the number of times given for the settlement's size. Duplicate results are fine — a town can have two smithies — but a DM who wants a cleaner list may reroll duplicates instead.
+C. **Roll points of interest.** Use *Points of Interest*, below, rolling the number of times given for the settlement's size. Duplicate results are fine — a town can have two smithies — but a DM who wants a cleaner list may reroll duplicates instead. A DM sketching a map can use each result's District (see below) to cluster related points of interest together, rather than scattering them at random.
 
 D. **Populate each point of interest.** See *Populating a Point of Interest*, below, to give each notable location an owner or proprietor, using the NPC sub-tables already built for Appendix C: Random Encounters rather than rolling new ones.
 
 E. **Stock shops and services.** For any point of interest that sells goods, see *Equipment and Services*, below, for prices.
 
-F. **Fill in final details.** Rumors, local tensions, a notable NPC's grudge against the party — left to the DM's invention, the same way Appendix D's *Scenarios* gives a dungeon its reason to exist.
+F. **Fill in final details.** Roll on *Rumors*, below, for something the party might overhear — local tensions, a hook into a nearby dungeon or wilderness feature, or a notable NPC's grudge against the party, left to the DM's invention from there.
 
 ### Settlement Size
 
@@ -10718,43 +10718,69 @@ Rows are ordered from common (low rolls) to rare (high rolls), the same conventi
 | 1d14 | Small Town |
 | 1d20 | Large Town or Major City |
 
-| d20 | Point of Interest |
-|---|---|
-| 1 | General Store |
-| 2 | Tavern |
-| 3 | Inn or Rooming House |
-| 4 | Smithy or Farrier |
-| 5 | Shrine or Small Temple |
-| 6 | Stables |
-| 7 | Physician or Healer |
-| 8 | Town Militia or Guard Post |
-| 9 | Moneylender |
-| 10 | Carpenter or Mason |
-| 11 | Weaver or Tailor |
-| 12 | Market Square (several vendors) |
-| 13 | Sage or Scholar |
-| 14 | Church (an NPC cleric here can cast *raise dead*) |
-| 15 | Thieves' Guild (hidden, not openly advertised) |
-| 16 | Mercenary or Adventurers' Guild Hall |
-| 17 | Alchemist or Apothecary |
-| 18 | Wizard's Tower or Arcane Academy |
-| 19 | Noble's Manor or Keep |
-| 20 | Something Unusual — the DM's invention (a foreign embassy, a haunted house, a monster running a legitimate business under an assumed name) |
+| d20 | Point of Interest | District |
+|---|---|---|
+| 1 | General Store | Market |
+| 2 | Tavern | Low District |
+| 3 | Inn or Rooming House | Low District |
+| 4 | Smithy or Farrier | Artisan Quarter |
+| 5 | Shrine or Small Temple | Temple District |
+| 6 | Stables | Low District |
+| 7 | Physician or Healer | Artisan Quarter |
+| 8 | Town Militia or Guard Post | Castle District |
+| 9 | Moneylender | Market |
+| 10 | Carpenter or Mason | Artisan Quarter |
+| 11 | Weaver or Tailor | Artisan Quarter |
+| 12 | Market Square (several vendors) | Market |
+| 13 | Sage or Scholar | University District |
+| 14 | Church (an NPC cleric here can cast *raise dead*) | Temple District |
+| 15 | Thieves' Guild (hidden, not openly advertised) | Slums |
+| 16 | Mercenary or Adventurers' Guild Hall | Low District |
+| 17 | Alchemist or Apothecary | Market |
+| 18 | Wizard's Tower or Arcane Academy | University District |
+| 19 | Noble's Manor or Keep | High District |
+| 20 | Something Unusual — the DM's invention (a foreign embassy, a haunted house, a monster running a legitimate business under an assumed name) | DM's choice |
+
+A Village or Small Town is too small to bother zoning — treat District as flavor text only.
+For a Large Town or Major City, a DM sketching a map can gather same-District results into
+neighborhoods: **Slums** (the poorest and most lawless quarter), **Low District** (workaday
+commerce and lodging), **Market** (trade and money), **Artisan Quarter** (craftsmen and
+trades), **Temple District** (shrines and churches), **University District** (scholarship
+and magic), **High District** (nobility and authority), and **Castle District** (military
+and defense).
 
 ### Populating a Point of Interest
 
 Give each notable point of interest an owner or a few notable staff, using the sub-tables already built for Appendix C's *Urban Encounters* rather than rolling anything new:
 
-- **Shops, trades, and services** (General Store, Smithy, Stables, Carpenter, Weaver, Tavern, Inn, Physician, Moneylender, Alchemist or Apothecary): roll on the *Urban Professions* sub-table for the proprietor's trade, and the *Race* sub-table if their race matters. For rank-and-file staff, use the *0-Level NPCs* table.
+- **Shops, trades, and services** (General Store, Smithy, Stables, Carpenter, Weaver, Tavern, Inn, Physician, Moneylender, Alchemist or Apothecary): roll on the *Urban Professions* sub-table for the proprietor's trade, and the *Race* sub-table if their race matters. For rank-and-file staff, use the *0-Level NPCs* table. A General Store or Market Square stall may stock an item from *Trader's Wares* (in the core NPCs chapter's *Trader* entry) alongside the standard price lists below.
 - **Market Square**: several vendors at once, not one proprietor — roll on *Urban Professions* two to four times (DM's choice), once per stall.
 - **Town Militia or Guard Post**: roll on *Urban Professions* for the officer in charge (a City Guard, City Watchman, or Fighter result fits best; reroll anything that plainly doesn't) and use the *0-Level NPCs* table for the rank and file.
 - **Shrine, Temple, or Church**: a Cleric, per the Nighttime or Daytime Encounters tables' Cleric entry, adjusted to a level appropriate for what the settlement needs (a Church capable of *raise dead* needs a cleric of the level that spell requires).
 - **Thieves' Guild**: a Thief, per the Nighttime or Daytime Encounters tables' Thief entry — this NPC and their apprentices are the guild's local leadership.
-- **Mercenary or Adventurers' Guild Hall**: a Fighter, per the Nighttime or Daytime Encounters tables' Fighter entry, with henchmen as given.
+- **Mercenary or Adventurers' Guild Hall**: a Fighter, per the Nighttime or Daytime Encounters tables' Fighter entry, with henchmen as given — or, for a livelier guild hall, a whole *Rival Adventuring Party* (in the core NPCs chapter's *NPC Parties* entry) in residence between jobs.
 - **Wizard's Tower**: a Magic-User, per the Nighttime or Daytime Encounters tables' Magic-User entry.
 - **Noble's Manor**: roll on the *Noble Professions* sub-table.
 - **Sage or Scholar**: a 0-level Normal Human of unusually high Intelligence (DM's choice), or a low-level Magic-User with a research specialty.
 - **Red-Light establishments**, if the settlement's tone calls for them: roll on the *Red-Light Professions* sub-table.
+
+However a point of interest is populated, roll `d12` on *Proprietor Quirk*, below, if the DM
+wants its owner to be memorable rather than purely functional.
+
+| d12 | Proprietor Quirk |
+|---|---|
+| 1 | Never breaks eye contact while haggling |
+| 2 | Keeps a loaded crossbow within reach, and never explains why |
+| 3 | Speaks of a former partner who "isn't around anymore" |
+| 4 | Refuses payment in silver — gold or trade only |
+| 5 | Has a memory for names, and never forgets a debt either |
+| 6 | Talks to a pet that isn't there anymore |
+| 7 | Wears gloves at all times, even indoors |
+| 8 | Owes money to someone nobody here will name |
+| 9 | Was somebody else, once, under a different name |
+| 10 | Collects one small trinket from every customer who overpays |
+| 11 | Closes early on a particular date every year, no explanation given |
+| 12 | Knows more about the party than they should |
 
 ### Equipment and Services
 
@@ -10837,7 +10863,25 @@ Prices below cover the common case; the DM may vary them by settlement size (a V
 
 #### At the Tavern
 
-*Source:* `Basic Fantasy RPG Equipment Emporium`
+*Source:* `Basic Fantasy RPG Equipment Emporium; Shadowdark RPG (adapted)`
+
+A settlement's Tavern point of interest gets its trade — and often its reputation — from a
+name as much as a price list. Roll `d12` twice below and combine the results.
+
+| d12 | First | Second |
+|---|---|---|
+| 1 | The Wandering | Boar |
+| 2 | The Broken | Wheel |
+| 3 | The Silver | Stag |
+| 4 | The Drunken | Griffin |
+| 5 | The Rusty | Anchor |
+| 6 | The Weary | Traveler |
+| 7 | The Gilded | Goose |
+| 8 | The Crooked | Candle |
+| 9 | The Laughing | Toad |
+| 10 | The Copper | Kettle |
+| 11 | The Ashen | Oak |
+| 12 | The Salty | Merchant |
 
 | Meal | Price |
 |---|---|
@@ -10859,6 +10903,39 @@ Prices below cover the common case; the DM may vary them by settlement size (a V
 | Mead, common | 1 sp | — | 5 sp |
 | Spirits, common | 1 sp | — | 2 gp |
 | Spirits, quality | 1 gp | — | 20 gp |
+
+### Rumors
+
+*Source:* `Shadowdark RPG (adapted)`
+
+What the party overhears at the Tavern (or the Market, or the Temple) can be a hook into
+somewhere else in the campaign as easily as it can be local color. Roll `d20` below, or pick
+whichever fits — several entries point toward one of Appendix D's ten *Scenarios*, so a rumor
+heard in a settlement can seed the next dungeon, and a few point toward the kind of feature
+generated by Appendix C's Overland Hex Crawl Generation.
+
+| d20 | Rumor |
+|---|---|
+| 1 | A dying sage several days' ride from here is calling for a group of heroes — *Fulfilling a Quest* |
+| 2 | Lizardfolk have been raiding caravans near the old river crossing — *Investigating a Chaotic Outpost* |
+| 3 | An earthquake cracked open a sealed vault beneath the old keep — *Recovering Ruins* |
+| 4 | Something long buried woke up when a nearby mine collapsed last month — *Destroying an Ancient Evil* |
+| 5 | A shrine thought lost for a generation was glimpsed by a shepherd, high in the hills — *Visiting a Lost Shrine* |
+| 6 | Three adventurers who set out a season ago were dragged back through a stone arch, gibbering about "the other side" — *Using a Magic Portal* |
+| 7 | A prominent local family is quietly paying to have a relative's disappearance investigated — *Rescuing Prisoners* |
+| 8 | A prisoner escaped the gaol last night, and the guards are being unusually quiet about how — *Escaping from Enemies* |
+| 9 | Miners broke into a chamber full of bones that aren't quite human — *Finding a Lost Race* |
+| 10 | A merchant swears their caravan's guide led them somewhere that wasn't on any map — *Exploring the Unknown* |
+| 11 | A trading post two days out has stopped sending word — worth checking |
+| 12 | Something has been quietly buying up every rat trap and length of chain in town |
+| 13 | The moneylender's books don't add up, and everyone pretends not to notice |
+| 14 | A Rival Adventuring Party just came back flush with coin and won't say from where |
+| 15 | A local guildmaster and a noble haven't spoken since a deal went sour last winter |
+| 16 | The town militia has doubled its patrols near the old road, but won't say why |
+| 17 | An old road marker outside town was defaced overnight — someone doesn't want travelers finding whatever it points to |
+| 18 | A farmer plowed up a standing stone that wasn't there last season |
+| 19 | Every well within a mile of the crossroads has tasted faintly of copper since the storm |
+| 20 | A hermit living outside town has started refusing all visitors — and all deliveries |
 
 ```{=latex}
 \let\paragraph\oldparagraph
