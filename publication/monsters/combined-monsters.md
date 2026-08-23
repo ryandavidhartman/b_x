@@ -7771,7 +7771,7 @@ At a glance, the whole procedure runs like this:
 
 Each step is detailed below.
 
-A. **Choose the setting.** Is the party in a dungeon, the wilderness, or a settlement? This determines which table set to use for the rest of the procedure — *Dungeon Random Encounters*, *Wilderness Encounters*, or *Urban Encounters*, below.
+A. **Choose the setting.** Is the party in a dungeon, the wilderness, or a settlement? This determines which table set to use for the rest of the procedure — *Dungeon Random Encounters*, *Wilderness Encounters*, or *Urban Encounters*, below. If the party is crossing unmapped wilderness, see *Overland Hex Crawl Generation*, below, first, to determine each hex's terrain and whether it holds a point of interest.
 
 B. **Check whether an encounter occurs.** See *Encounter Frequency*, below, for the chance appropriate to the setting.
 
@@ -8461,6 +8461,98 @@ Unlike the wilderness terrain tables, the entries above aren't ordered by threat
 | 8+ | Vampire or Lich |
 
 All other entries are appropriate at any level.
+
+### Overland Hex Crawl Generation
+
+*Source:* `Shadowdark RPG (adapted); OSRIC, Dungeons, Towns and Wildernesses`
+
+Before *Wilderness Encounters*, below, can tell you *what* the party meets, something has to
+decide *where* the party is — this section generates the hex-by-hex terrain of an unmapped
+wilderness, and what's worth finding in it, one hex at a time as the party travels. It reuses
+the same fourteen-terrain vocabulary as the Terrain Category Summary rather than inventing a
+separate one, so a hex's result tells you immediately which terrain table to roll wandering
+encounters on.
+
+#### Terrain Stepping
+
+Pick or roll a starting terrain from the Terrain Loop below. Each time the party moves into a
+hex they haven't visited before, roll `2d6` on the New Hex table to find that hex's terrain,
+then treat that result as the "current terrain" for the next roll.
+
+| Position | Terrain |
+|---|---|
+| 1 | Marine |
+| 2 | Wetlands |
+| 3 | Aquatic |
+| 4 | Rural |
+| 5 | Plains |
+| 6 | Forest |
+| 7 | Hills |
+| 8 | Mountains |
+| 9 | Tundra |
+| 10 | Arctic |
+| 11 | Desert |
+| 12 | Jungle |
+Table: Terrain Loop (wraps from 12 back to 1)
+
+| 2d6 | New Hex |
+|---|---|
+| 2-3 | Current terrain, +1 position on the Terrain Loop |
+| 4-8 | Same as current terrain |
+| 9-11 | Current terrain, +2 positions on the Terrain Loop |
+| 12 | Unfamiliar territory: reroll `1d12` on the Terrain Loop's Position column, ignoring the current position |
+Table: New Hex
+
+Graveyard and Lost World aren't Terrain Loop members — they're rare, and reached only through
+a Point of Interest or DM's placement, never through ordinary travel. Treat a hex that would
+otherwise be Wetlands or Arctic (neither has its own *Encounter Frequency* or *Becoming Lost*
+row, per the *Terrain Name Cross-Reference* above) using the frequency of its nearer Terrain
+Loop neighbor.
+
+#### Points of Interest
+
+Check each hex for a point of interest: roll `1d6`, and on a `1` the hex has one. Roll `d20`
+below to find out what.
+
+| d20 | Location | Development |
+|---|---|---|
+| 1 | Ruined watchtower | Guarded by a monster rolled on this terrain's Wilderness Encounters table |
+| 2 | Standing stones | Marks the site of a Cataclysm — roll below |
+| 3 | Overgrown barrow mound | A sealed tomb; stock it as a Tomb-type location with Appendix D: The Encounter Builder |
+| 4 | Abandoned farmstead | Looted long ago; a Rival Adventuring Party (see *NPC Parties*, above) has made camp here |
+| 5 | Hermit's hut | Home to a reclusive NPC with local knowledge; roll their former trade on the *Urban Professions* sub-table |
+| 6 | Cave mouth | Leads to a dungeon; roll `1d10` on Appendix D's *Scenarios* table for why it's here |
+| 7 | Crumbling shrine | Sacred to a forgotten power — a blessing or a curse awaits inside, DM's choice |
+| 8 | Village | Roll *Settlement Size*, Appendix E |
+| 9 | Small or Large Town | Roll *Settlement Size*, Appendix E |
+| 10 | Bridge or ford | Tolled by whoever controls it; roll the toll-keeper's trade on *Urban Professions* |
+| 11 | Burnt-out battlefield | Scavenged bones and broken weapons; `1`-in-`6` chance the dead haven't stayed down |
+| 12 | Hunting lodge | Base of operations for a Rival Adventuring Party between expeditions |
+| 13 | Quarry or mine | Worked by `2d6` laborers; a recent cave-in or monster incursion has halted work |
+| 14 | Old road marker | Points toward the nearest undiscovered Point of Interest |
+| 15 | Sunken ruin | Half-swamped; roll its treasure on the Unguarded Treasure table, Appendix B |
+| 16 | Wizard's folly | An abandoned tower whose wards are still partly active |
+| 17 | Trading post | A Trader (see above) has set up shop here semi-permanently |
+| 18 | Sacred grove or spring | Restores `1` hp per hour of rest to anyone who stays the night, DM's discretion |
+| 19 | Fresh disaster site | Roll on the Cataclysm table, below |
+| 20 | DM's invention | Something unique — a portal, a crashed vessel, a sleeping giant — left to the table's imagination |
+
+#### Cataclysm
+
+A hex marked by a Cataclysm carries visible scars appropriate to the event — this pairs
+naturally with Appendix D's *Destroying an Ancient Evil* scenario, since a cataclysm is a
+plausible reason a buried evil has reawakened.
+
+| d8 | Cataclysm |
+|---|---|
+| 1 | Volcanic eruption |
+| 2 | Wildfire |
+| 3 | Earthquake |
+| 4 | Flood |
+| 5 | War — a battle was fought here recently |
+| 6 | Plague |
+| 7 | Magical catastrophe — a wild-magic zone or planar rift |
+| 8 | Roll twice more and combine the results |
 
 ### Wilderness Encounters
 

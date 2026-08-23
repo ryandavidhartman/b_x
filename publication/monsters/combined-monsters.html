@@ -443,6 +443,7 @@
 <li><a href="#dungeon-random-encounters">Dungeon Random Encounters</a></li>
 <li><a href="#npc-parties-all-dungeon-levels">NPC Parties (All Dungeon Levels)</a></li>
 <li><a href="#urban-encounters">Urban Encounters</a></li>
+<li><a href="#overland-hex-crawl-generation">Overland Hex Crawl Generation</a></li>
 <li><a href="#wilderness-encounters">Wilderness Encounters</a></li>
 </ul></li>
 <li><a href="#appendix-d-the-encounter-builder">Appendix D: The Encounter Builder</a>
@@ -459,7 +460,7 @@
 <li><a href="#building-a-settlement">Building a Settlement</a></li>
 <li><a href="#settlement-size">Settlement Size</a></li>
 <li><a href="#government">Government</a></li>
-<li><a href="#points-of-interest">Points of Interest</a></li>
+<li><a href="#points-of-interest-1">Points of Interest</a></li>
 <li><a href="#populating-a-point-of-interest">Populating a Point of Interest</a></li>
 <li><a href="#equipment-and-services">Equipment and Services</a></li>
 </ul></li>
@@ -9246,7 +9247,7 @@
 <p><img src="assets/appendix-c-flowchart.png" style="width:85.0%" /></p>
 </div>
 <p>Each step is detailed below.</p>
-<p>A. <strong>Choose the setting.</strong> Is the party in a dungeon, the wilderness, or a settlement? This determines which table set to use for the rest of the procedure — <em>Dungeon Random Encounters</em>, <em>Wilderness Encounters</em>, or <em>Urban Encounters</em>, below.</p>
+<p>A. <strong>Choose the setting.</strong> Is the party in a dungeon, the wilderness, or a settlement? This determines which table set to use for the rest of the procedure — <em>Dungeon Random Encounters</em>, <em>Wilderness Encounters</em>, or <em>Urban Encounters</em>, below. If the party is crossing unmapped wilderness, see <em>Overland Hex Crawl Generation</em>, below, first, to determine each hex’s terrain and whether it holds a point of interest.</p>
 <p>B. <strong>Check whether an encounter occurs.</strong> See <em>Encounter Frequency</em>, below, for the chance appropriate to the setting.</p>
 <p>C. <strong>Determine the monster.</strong> Roll on the table matching the setting from step A: - <em>Dungeon:</em> find the dungeon level’s row on the Monster Sub-table Matrix, roll <code>1d12</code> to find the Monster Level, then roll <code>d%</code> on that Monster Level table. - <em>Wilderness:</em> roll <code>d%</code> on the Terrain Category Summary for the party’s terrain, then roll on that terrain’s matching column using the die given by Wilderness Encounter Level for the party’s level. - <em>Settlement:</em> roll on the Daytime or Nighttime Encounters table, as appropriate, consulting whichever sub-table it calls for, and check the result against Urban Encounter Level for the party’s level.</p>
 <p>D. <strong>Determine why it’s here.</strong> See <em>Encounter Purpose</em>, below, for a quick note on what the creature is doing when the party meets it.</p>
@@ -12037,6 +12038,264 @@
 </tbody>
 </table>
 <p>All other entries are appropriate at any level.</p>
+<h3 id="overland-hex-crawl-generation">Overland Hex Crawl Generation</h3>
+<p><em>Source:</em> <code>Shadowdark RPG (adapted); OSRIC, Dungeons, Towns and Wildernesses</code></p>
+<p>Before <em>Wilderness Encounters</em>, below, can tell you <em>what</em> the party meets, something has to decide <em>where</em> the party is — this section generates the hex-by-hex terrain of an unmapped wilderness, and what’s worth finding in it, one hex at a time as the party travels. It reuses the same fourteen-terrain vocabulary as the Terrain Category Summary rather than inventing a separate one, so a hex’s result tells you immediately which terrain table to roll wandering encounters on.</p>
+<h4 id="terrain-stepping">Terrain Stepping</h4>
+<p>Pick or roll a starting terrain from the Terrain Loop below. Each time the party moves into a hex they haven’t visited before, roll <code>2d6</code> on the New Hex table to find that hex’s terrain, then treat that result as the “current terrain” for the next roll.</p>
+<table>
+<caption>Terrain Loop (wraps from 12 back to 1)</caption>
+<thead>
+<tr class="header">
+<th>Position</th>
+<th>Terrain</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Marine</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Wetlands</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Aquatic</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Rural</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Plains</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Forest</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Hills</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Mountains</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Tundra</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Arctic</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Desert</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Jungle</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>New Hex</caption>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>2d6</th>
+<th>New Hex</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2-3</td>
+<td>Current terrain, +1 position on the Terrain Loop</td>
+</tr>
+<tr class="even">
+<td>4-8</td>
+<td>Same as current terrain</td>
+</tr>
+<tr class="odd">
+<td>9-11</td>
+<td>Current terrain, +2 positions on the Terrain Loop</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Unfamiliar territory: reroll <code>1d12</code> on the Terrain Loop’s Position column, ignoring the current position</td>
+</tr>
+</tbody>
+</table>
+<p>Graveyard and Lost World aren’t Terrain Loop members — they’re rare, and reached only through a Point of Interest or DM’s placement, never through ordinary travel. Treat a hex that would otherwise be Wetlands or Arctic (neither has its own <em>Encounter Frequency</em> or <em>Becoming Lost</em> row, per the <em>Terrain Name Cross-Reference</em> above) using the frequency of its nearer Terrain Loop neighbor.</p>
+<h4 id="points-of-interest">Points of Interest</h4>
+<p>Check each hex for a point of interest: roll <code>1d6</code>, and on a <code>1</code> the hex has one. Roll <code>d20</code> below to find out what.</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Location</th>
+<th>Development</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Ruined watchtower</td>
+<td>Guarded by a monster rolled on this terrain’s Wilderness Encounters table</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Standing stones</td>
+<td>Marks the site of a Cataclysm — roll below</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Overgrown barrow mound</td>
+<td>A sealed tomb; stock it as a Tomb-type location with Appendix D: The Encounter Builder</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Abandoned farmstead</td>
+<td>Looted long ago; a Rival Adventuring Party (see <em>NPC Parties</em>, above) has made camp here</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Hermit’s hut</td>
+<td>Home to a reclusive NPC with local knowledge; roll their former trade on the <em>Urban Professions</em> sub-table</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Cave mouth</td>
+<td>Leads to a dungeon; roll <code>1d10</code> on Appendix D’s <em>Scenarios</em> table for why it’s here</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Crumbling shrine</td>
+<td>Sacred to a forgotten power — a blessing or a curse awaits inside, DM’s choice</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Village</td>
+<td>Roll <em>Settlement Size</em>, Appendix E</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Small or Large Town</td>
+<td>Roll <em>Settlement Size</em>, Appendix E</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Bridge or ford</td>
+<td>Tolled by whoever controls it; roll the toll-keeper’s trade on <em>Urban Professions</em></td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Burnt-out battlefield</td>
+<td>Scavenged bones and broken weapons; <code>1</code>-in-<code>6</code> chance the dead haven’t stayed down</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Hunting lodge</td>
+<td>Base of operations for a Rival Adventuring Party between expeditions</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Quarry or mine</td>
+<td>Worked by <code>2d6</code> laborers; a recent cave-in or monster incursion has halted work</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Old road marker</td>
+<td>Points toward the nearest undiscovered Point of Interest</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Sunken ruin</td>
+<td>Half-swamped; roll its treasure on the Unguarded Treasure table, Appendix B</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Wizard’s folly</td>
+<td>An abandoned tower whose wards are still partly active</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Trading post</td>
+<td>A Trader (see above) has set up shop here semi-permanently</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Sacred grove or spring</td>
+<td>Restores <code>1</code> hp per hour of rest to anyone who stays the night, DM’s discretion</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Fresh disaster site</td>
+<td>Roll on the Cataclysm table, below</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>DM’s invention</td>
+<td>Something unique — a portal, a crashed vessel, a sleeping giant — left to the table’s imagination</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cataclysm">Cataclysm</h4>
+<p>A hex marked by a Cataclysm carries visible scars appropriate to the event — this pairs naturally with Appendix D’s <em>Destroying an Ancient Evil</em> scenario, since a cataclysm is a plausible reason a buried evil has reawakened.</p>
+<table>
+<thead>
+<tr class="header">
+<th>d8</th>
+<th>Cataclysm</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Volcanic eruption</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Wildfire</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Earthquake</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Flood</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>War — a battle was fought here recently</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Plague</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Magical catastrophe — a wild-magic zone or planar rift</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Roll twice more and combine the results</td>
+</tr>
+</tbody>
+</table>
 <h3 id="wilderness-encounters">Wilderness Encounters</h3>
 <p><em>Source:</em> <code>OSRIC, Dungeons, Towns and Wildernesses: Random Wilderness Encounters</code></p>
 <p>Wilderness encounters aren’t leveled through a separate table set the way dungeon encounters are — instead, each terrain table’s rows are already ordered from common, weaker creatures (low rows) up to rare and dangerous ones (high rows). See <em>Wilderness Encounter Level</em>, below, for how to use that ordering to scale danger to the party. Use the “No. Appearing” entry from the creature’s own stat block (the parenthetical lair/wilderness number) to generate specific numbers, and use the terrain type most prevalent in the party’s current location.</p>
@@ -22059,7 +22318,7 @@
 </tbody>
 </table>
 <p>Whoever holds authority here should be at least name level, with bodyguards and resources appropriate to holding onto the position.</p>
-<h3 id="points-of-interest">Points of Interest</h3>
+<h3 id="points-of-interest-1">Points of Interest</h3>
 <p>Rows are ordered from common (low rolls) to rare (high rolls), the same convention used by <em>Wilderness Encounters</em> in Appendix C. Roll the number of times given by the settlement’s size (above); for Village and Small Town, restrict the roll to the range shown so rare entries stay rare.</p>
 <table>
 <thead>
