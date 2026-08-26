@@ -9158,26 +9158,26 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Other Dinosaurs | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
-| 1 | [Ankylosaurus](#ankylosaurus) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Archelon](#archelon) | [Peryton](#peryton) |
-| 2 | [Ceratosaurus](#ceratosaurus) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Peryton](#peryton) |
-| 3 | [Ceratosaurus](#ceratosaurus) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Dinichthys](#dinichthys) | [Hellhound](#hellhound) |
-| 4 | [Megalosaurus](#megalosaurus) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Dinichthys](#dinichthys) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
-| 5 | [Megalosaurus](#megalosaurus) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Elasmosaurus](#elasmosaurus) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
-| 6 | [Megalosaurus](#megalosaurus) | Runners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Octopus, Giant](#octopus-giant) | [Type VI Demon (Balor)](#type-vi-demon-balor) |
-| 7 | [Megalosaurus](#megalosaurus) | Runners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Mosasaurus](#mosasaurus) | [Manes](#manes) |
-| 8 | [Megalosaurus](#megalosaurus) | Runners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Plesiosaurus](#plesiosaurus) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
-| 9 | [Iguanodon](#iguanodon) | Searchers | [Wight](#wight) | [Centipede, Giant](#centipede-giant) | [Plesiosaurus](#plesiosaurus) | [Quasit](#quasit) |
-| 10 | [Iguanodon](#iguanodon) | Searchers | [Wight](#wight) | [Centipede, Giant](#centipede-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
-| 11 | [Iguanodon](#iguanodon) | Survivors | [Wight](#wight) | [Centipede, Giant](#centipede-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
-| 12 | [Megalosaurus](#megalosaurus) | Survivors | [Wraith](#wraith) | [Fly, Robber](#fly-robber) | [Shark](#shark) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
-| 13 | [Megalosaurus](#megalosaurus) | Survivors | [Wraith](#wraith) | [Fly, Robber](#fly-robber) | [Shark](#shark) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
-| 14 | [Peryton](#peryton) | Survivors | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Spider, Giant](#spider-giant) | [Ice Devil](#ice-devil) |
-| 15 | [Peryton](#peryton) | Survivors | [Zombie](#zombie) | [Scorpion, Giant](#scorpion-giant) | [Squid, Giant](#squid-giant) | [Ice Devil](#ice-devil) |
-| 16 | [Plateosaurus](#plateosaurus) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Imp](#imp) |
-| 17 | [Plateosaurus](#plateosaurus) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Pit Fiend](#pit-fiend) |
-| 18 | [Stegosaurus](#stegosaurus) | NPC Party (see *NPC Parties*) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Turtle, Giant](#turtle-giant) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
-| 19 | [Stegosaurus](#stegosaurus) | NPC Party (see *NPC Parties*) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Turtle, Giant](#turtle-giant) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
-| 20 | [Cockatrice](#cockatrice) | NPC Party (see *NPC Parties*) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Whale](#whale) | [Imp](#imp) |
+| 1 | Dinosaur (see sub-table) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Archelon](#archelon) | [Peryton](#peryton) |
+| 2 | Dinosaur (see sub-table) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Peryton](#peryton) |
+| 3 | Dinosaur (see sub-table) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Dinichthys](#dinichthys) | [Hellhound](#hellhound) |
+| 4 | Dinosaur (see sub-table) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Dinichthys](#dinichthys) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
+| 5 | Dinosaur (see sub-table) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Elasmosaurus](#elasmosaurus) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
+| 6 | Dinosaur (see sub-table) | Runners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Octopus, Giant](#octopus-giant) | [Type VI Demon (Balor)](#type-vi-demon-balor) |
+| 7 | Dinosaur (see sub-table) | Runners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Mosasaurus](#mosasaurus) | [Manes](#manes) |
+| 8 | Dinosaur (see sub-table) | Runners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Plesiosaurus](#plesiosaurus) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
+| 9 | Dinosaur (see sub-table) | Searchers | [Wight](#wight) | [Centipede, Giant](#centipede-giant) | [Plesiosaurus](#plesiosaurus) | [Quasit](#quasit) |
+| 10 | Dinosaur (see sub-table) | Searchers | [Wight](#wight) | [Centipede, Giant](#centipede-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
+| 11 | Dinosaur (see sub-table) | Survivors | [Wight](#wight) | [Centipede, Giant](#centipede-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
+| 12 | Dinosaur (see sub-table) | Survivors | [Wraith](#wraith) | [Fly, Robber](#fly-robber) | [Shark](#shark) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
+| 13 | Dinosaur (see sub-table) | Survivors | [Wraith](#wraith) | [Fly, Robber](#fly-robber) | [Shark](#shark) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
+| 14 | Dinosaur (see sub-table) | Survivors | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Spider, Giant](#spider-giant) | [Ice Devil](#ice-devil) |
+| 15 | Dinosaur (see sub-table) | Survivors | [Zombie](#zombie) | [Scorpion, Giant](#scorpion-giant) | [Squid, Giant](#squid-giant) | [Ice Devil](#ice-devil) |
+| 16 | Dinosaur (see sub-table) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Imp](#imp) |
+| 17 | Dinosaur (see sub-table) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Pit Fiend](#pit-fiend) |
+| 18 | Dinosaur (see sub-table) | NPC Party (see *NPC Parties*) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Turtle, Giant](#turtle-giant) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
+| 19 | Dinosaur (see sub-table) | NPC Party (see *NPC Parties*) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Turtle, Giant](#turtle-giant) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
+| 20 | Dinosaur (see sub-table) | NPC Party (see *NPC Parties*) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Whale](#whale) | [Imp](#imp) |
 
 #### Marine
 
