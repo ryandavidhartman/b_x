@@ -7124,10 +7124,9 @@ In place of his claws and bite, Bahamut may instead loose one of three breath we
 
 Treasure consists of the coins, gems, jewelry, and magic items the party finds on an adventure. As the party becomes more experienced the treasure will be better guarded, better hidden, and possibly trapped, too! However, there will be more treasure for characters to win, and more things to spend their wealth on.
 
-Often the treasure will be in unusual and possibly hard-to-recognize forms. Valuable silks, wines, rare books, small statues, furs, and tusks are only some of the forms such treasure could take. A party should always look for clues that odd items might be more valuable than they appear.
+Often the treasure will be in unusual and possibly hard-to-recognize forms. Valuable silks, wines, rare books, small statues, furs, and tusks are only some of the forms such treasure could take. A party should always look for clues that odd items might be more valuable than they appear.  The random treasure tables are given again here for easy reference.
 
-The random treasure tables are given again here for easy reference. It is recommended that when the players are experienced, very few treasures be left completely unguarded. As the campaign goes on, the DM should be especially careful when placing treasures, as these will become even more important in determining the rate at which the characters gain levels and power. They can be the major tool the DM uses to balance the campaign.
-
+It is recommended that when the players are experienced, very few treasures be left completely unguarded.
 
 ### Treasure Types
 
