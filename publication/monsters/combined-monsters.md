@@ -7159,6 +7159,7 @@ Where a Gems and Jewelry cell lists two entries, the first is for gems and the s
 
 #### Individual Treasures
 
+::: individual-treasure-table-pdf
 | Type | Pieces of Copper | Pieces of Silver | Pieces of Electrum | Pieces of Gold | Pieces of Platinum | Gems and Jewelry | Magic Items |
 |------|--------------------|--------------------|-----------------------|-------------------|-----------------------|--------------------|--------------|
 | P | 3d8 | None | None | None | None | None | None |
@@ -7168,6 +7169,7 @@ Where a Gems and Jewelry cell lists two entries, the first is for gems and the s
 | T | None | None | None | None | 1d6 | None | None |
 | U | 50% 1d20 | 50% 1d20 | None | 25% 1d20 | None | 5% 1d4 / 5% 1d4 | 2% Any 1 |
 | V | None | 25% 1d20 | 25% 1d20 | 50% 1d20 | 25% 1d20 | 10% 1d4 / 10% 1d4 | 5% Any 1 |
+:::
 
 #### Average Treasure Value
 
@@ -7187,6 +7189,7 @@ The table below gives the average gold-piece value of each Lair Treasure Type â€
 
 If a room holds treasure but no monster to guard it, roll on this table by dungeon level instead of using a monster's Treasure Type.
 
+::: unguarded-treasure-table-pdf
 | Level | 100's of Copper | 100's of Silver | 100's of Electrum | 100's of Gold | 100's of Platinum | Gems and Jewelry | Magic Items |
 |-------|-------------------|-------------------|-----------------------|------------------|----------------------|--------------------|--------------|
 | 1 | 75% 1d8 | 50% 1d6 | 25% 1d4 | 7% 1d4 | 1% 1d4 | 7% 1d4 / 3% 1d4 | 2% Any 1 |
@@ -7195,6 +7198,7 @@ If a room holds treasure but no monster to guard it, roll on this table by dunge
 | 4-5 | 20% 3d6 | 50% 2d6 | 25% 1d10 | 50% 2d6 | 8% 1d4 | 20% 1d8 / 10% 1d6 | 12% Any 1 |
 | 6-7 | 15% 4d6 | 50% 3d6 | 25% 1d12 | 70% 2d8 | 15% 1d4 | 30% 1d8 / 15% 1d6 | 16% Any 1 |
 | 8+ | 10% 5d6 | 50% 5d6 | 25% 2d8 | 75% 4d6 | 30% 1d4 | 40% 1d8 / 30% 1d8 | 20% Any 1 |
+:::
 
 Note: unguarded treasures should be rare â€” use them sparingly, to reward exploration rather than as a primary source of wealth.
 

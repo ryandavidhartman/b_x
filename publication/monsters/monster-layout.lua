@@ -201,6 +201,14 @@ local function is_lair_treasure_table_div(block)
   return block.t == "Div" and block.classes and block.classes:includes("lair-treasure-table-pdf")
 end
 
+local function is_individual_treasure_table_div(block)
+  return block.t == "Div" and block.classes and block.classes:includes("individual-treasure-table-pdf")
+end
+
+local function is_unguarded_treasure_table_div(block)
+  return block.t == "Div" and block.classes and block.classes:includes("unguarded-treasure-table-pdf")
+end
+
 local function is_pdf_columnbreak_div(block)
   return block.t == "Div" and block.classes and block.classes:includes("columnbreak-pdf")
 end
@@ -333,11 +341,12 @@ local function table_to_tabularx(tbl, width_macro)
   return pandoc.RawBlock("latex", table.concat(lines, "\n"))
 end
 
--- Bespoke renderer for the Appendix B "Lair Treasures" table, matching the
--- classic two-line header / two-line Gems-and-Jewelry-cell layout of the
--- original AD&D DMG treasure table rather than the generic evenly-spaced
--- tabularx used for every other table in this book.
-local LAIR_TREASURE_COLUMN_WIDTHS = {
+-- Bespoke renderer shared by the Appendix B treasure tables (Lair Treasures,
+-- Individual Treasures), matching the classic two-line header / two-line
+-- Gems-and-Jewelry-cell layout of the original AD&D DMG treasure tables
+-- rather than the generic evenly-spaced tabularx used for every other table
+-- in this book.
+local TREASURE_TABLE_COLUMN_WIDTHS = {
   "0.045\\textwidth",
   "0.105\\textwidth",
   "0.105\\textwidth",
@@ -357,9 +366,29 @@ local LAIR_TREASURE_HEADERS = {
   { "Gems and", "Jewelry" },
   { "Magic Items" },
 }
-local LAIR_TREASURE_GEMS_COLUMN = 7
+local INDIVIDUAL_TREASURE_HEADERS = {
+  { "Type" },
+  { "Pieces of", "Copper" },
+  { "Pieces of", "Silver" },
+  { "Pieces of", "Electrum" },
+  { "Pieces of", "Gold" },
+  { "Pieces of", "Platinum" },
+  { "Gems and", "Jewelry" },
+  { "Magic Items" },
+}
+local UNGUARDED_TREASURE_HEADERS = {
+  { "Level" },
+  { "100's of", "Copper" },
+  { "100's of", "Silver" },
+  { "100's of", "Electrum" },
+  { "100's of", "Gold" },
+  { "100's of", "Platinum" },
+  { "Gems and", "Jewelry" },
+  { "Magic Items" },
+}
+local TREASURE_TABLE_GEMS_COLUMN = 7
 
-local function lair_treasure_gems_cell(escaped_text)
+local function treasure_table_gems_cell(escaped_text)
   local first, second = escaped_text:match("^(.-)%s*/%s*(.-)$")
   if not first and escaped_text == "None" then
     first, second = "None", "None"
@@ -372,18 +401,18 @@ local function lair_treasure_gems_cell(escaped_text)
   return escaped_text
 end
 
-local function lair_treasure_table_to_tabularx(tbl)
-  if #tbl.headers ~= #LAIR_TREASURE_COLUMN_WIDTHS then
+local function treasure_table_to_tabularx(tbl, headers)
+  if #tbl.headers ~= #TREASURE_TABLE_COLUMN_WIDTHS then
     return table_to_tabularx(tbl, "\\textwidth")
   end
 
   local lines = { "\\begin{center}", "\\small", "\\renewcommand{\\arraystretch}{1.15}" }
 
   local colspec = { "@{}" }
-  for i, width in ipairs(LAIR_TREASURE_COLUMN_WIDTHS) do
+  for i, width in ipairs(TREASURE_TABLE_COLUMN_WIDTHS) do
     local prefix = (i == 1) and "\\bfseries\\raggedright\\arraybackslash" or "\\raggedright\\arraybackslash"
     table.insert(colspec, ">{" .. prefix .. "}p{" .. width .. "}")
-    if i < #LAIR_TREASURE_COLUMN_WIDTHS then
+    if i < #TREASURE_TABLE_COLUMN_WIDTHS then
       table.insert(colspec, "@{\\hspace{4pt}}")
     end
   end
@@ -393,7 +422,7 @@ local function lair_treasure_table_to_tabularx(tbl)
   table.insert(lines, "\\toprule")
 
   local header_row1, header_row2, has_second_line = {}, {}, false
-  for _, h in ipairs(LAIR_TREASURE_HEADERS) do
+  for _, h in ipairs(headers) do
     table.insert(header_row1, "\\bfseries " .. h[1])
     table.insert(header_row2, h[2] and ("\\bfseries " .. h[2]) or "")
     has_second_line = has_second_line or h[2] ~= nil
@@ -410,8 +439,8 @@ local function lair_treasure_table_to_tabularx(tbl)
     local cells = {}
     for i, cell in ipairs(row) do
       local text = latex_cell(cell)
-      if i == LAIR_TREASURE_GEMS_COLUMN then
-        text = lair_treasure_gems_cell(text)
+      if i == TREASURE_TABLE_GEMS_COLUMN then
+        text = treasure_table_gems_cell(text)
       end
       table.insert(cells, text)
     end
@@ -995,7 +1024,11 @@ function Pandoc(doc)
       elseif block.t == "Table" then
         table.insert(rebuilt, table_to_tabularx(block, "\\textwidth"))
       elseif is_lair_treasure_table_div(block) and block.content[1] and block.content[1].t == "Table" then
-        table.insert(rebuilt, lair_treasure_table_to_tabularx(block.content[1]))
+        table.insert(rebuilt, treasure_table_to_tabularx(block.content[1], LAIR_TREASURE_HEADERS))
+      elseif is_individual_treasure_table_div(block) and block.content[1] and block.content[1].t == "Table" then
+        table.insert(rebuilt, treasure_table_to_tabularx(block.content[1], INDIVIDUAL_TREASURE_HEADERS))
+      elseif is_unguarded_treasure_table_div(block) and block.content[1] and block.content[1].t == "Table" then
+        table.insert(rebuilt, treasure_table_to_tabularx(block.content[1], UNGUARDED_TREASURE_HEADERS))
       else
         for _, inner in ipairs(latex_blocks_for_block(block)) do
           table.insert(rebuilt, inner)
