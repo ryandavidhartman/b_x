@@ -7133,6 +7133,7 @@ The random treasure tables are given again here for easy reference. It is recomm
 
 #### Lair Treasures
 
+::: lair-treasure-table-pdf
 | Type | 100's of Copper | 100's of Silver | 100's of Electrum | 100's of Gold | 100's of Platinum | Gems and Jewelry | Magic Items |
 |------|------------------|------------------|---------------------|-----------------|---------------------|--------------------|--------------|
 | A | 50% 5d6 | 60% 5d6 | 40% 5d4 | 70% 10d6 | 50% 1d10 | 50% 6d6 / 50% 6d6 | 30% any 3 |
@@ -7150,6 +7151,7 @@ The random treasure tables are given again here for easy reference. It is recomm
 | M | None | None | None | 90% 4d10 | 90% 2d8x10 | 55% 5d4 / 45% 2d6 | None |
 | N | None | None | None | None | None | None | 40% 2d4 potions |
 | O | None | None | None | None | None | None | 50% 1d4 scrolls |
+:::
 
 
 \* Type H treasures are specifically dragon treasure; the chance of each type of monetary treasure ranges from 35% at the second age category to 85% at the seventh, while the odds of gems, jewelry, and magic items are 5% per hit die of the monster. Hatchlings do not usually have any treasure.
