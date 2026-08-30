@@ -295,14 +295,15 @@ local function group_monster_entries(blocks)
   return grouped
 end
 
-local function table_column_spec(column_count)
+local function table_column_spec(column_count, header_cells)
   if column_count == 1 then
     return "@{}X@{}"
   end
 
-  local spec = { "@{}>{\\bfseries}l" }
-  for _ = 2, column_count do
-    table.insert(spec, "X")
+  local spec = {}
+  for i = 1, column_count do
+    local bold = (i == 1) or (header_cells and header_cells[i] == "Type")
+    table.insert(spec, (i == 1 and "@{}" or "") .. (bold and ">{\\bfseries}l" or "X"))
   end
   table.insert(spec, "@{}")
   return table.concat(spec, "")
@@ -312,12 +313,13 @@ local function table_to_tabularx(tbl, width_macro)
   local lines = {}
   local header_cells = {}
   local column_count = #tbl.headers
-  local column_spec = table_column_spec(column_count)
   local table_width = width_macro or "\\columnwidth"
 
   for _, cell in ipairs(tbl.headers) do
     table.insert(header_cells, latex_cell(cell))
   end
+
+  local column_spec = table_column_spec(column_count, header_cells)
 
   table.insert(lines, "\\begin{center}")
   table.insert(lines, "\\small")
