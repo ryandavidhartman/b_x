@@ -295,6 +295,15 @@ local function group_monster_entries(blocks)
   return grouped
 end
 
+-- Headers like "d%", "1d6", "2d6", "1d20" name a short die-roll code column;
+-- they should stay natural-width (like the label column) instead of sharing
+-- flexible X width with prose columns, which otherwise starves columns such
+-- as "Potion" and forces ugly mid-word wraps. Checked against the raw
+-- (pre-escape_latex) header text, since escaping turns "d%" into "d\%".
+local function is_code_header(text)
+  return text ~= nil and (text == "Type" or text:match("^%d*d%%$") or text:match("^%d*d%d+$") ~= nil)
+end
+
 local function table_column_spec(column_count, header_cells)
   if column_count == 1 then
     return "@{}X@{}"
@@ -302,7 +311,7 @@ local function table_column_spec(column_count, header_cells)
 
   local spec = {}
   for i = 1, column_count do
-    local bold = (i == 1) or (header_cells and header_cells[i] == "Type")
+    local bold = (i == 1) or (header_cells and is_code_header(header_cells[i]))
     table.insert(spec, (i == 1 and "@{}" or "") .. (bold and ">{\\bfseries}l" or "X"))
   end
   table.insert(spec, "@{}")
@@ -312,14 +321,16 @@ end
 local function table_to_tabularx(tbl, width_macro)
   local lines = {}
   local header_cells = {}
+  local header_raw = {}
   local column_count = #tbl.headers
   local table_width = width_macro or "\\columnwidth"
 
   for _, cell in ipairs(tbl.headers) do
     table.insert(header_cells, latex_cell(cell))
+    table.insert(header_raw, (trim(stringify(cell))))
   end
 
-  local column_spec = table_column_spec(column_count, header_cells)
+  local column_spec = table_column_spec(column_count, header_raw)
 
   table.insert(lines, "\\begin{center}")
   table.insert(lines, "\\small")

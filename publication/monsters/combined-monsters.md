@@ -7190,73 +7190,83 @@ The table below gives the average gold-piece value of each Lair Treasure Type �
 If a room holds treasure but no monster to guard it, roll on this table by dungeon level instead of using a monster's Treasure Type.
 
 ::: unguarded-treasure-table-pdf
-| Level | 100's of Copper | 100's of Silver | 100's of Electrum | 100's of Gold | 100's of Platinum | Gems and Jewelry | Magic Items |
-|-------|-------------------|-------------------|-----------------------|------------------|----------------------|--------------------|--------------|
-| 1 | 75% 1d8 | 50% 1d6 | 25% 1d4 | 7% 1d4 | 1% 1d4 | 7% 1d4 / 3% 1d4 | 2% Any 1 |
-| 2 | 50% 1d10 | 50% 1d8 | 25% 1d6 | 20% 1d6 | 2% 1d4 | 10% 1d6 / 7% 1d4 | 5% Any 1 |
-| 3 | 30% 2d6 | 50% 1d10 | 25% 1d8 | 50% 1d6 | 4% 1d4 | 15% 1d6 / 7% 1d6 | 8% Any 1 |
-| 4-5 | 20% 3d6 | 50% 2d6 | 25% 1d10 | 50% 2d6 | 8% 1d4 | 20% 1d8 / 10% 1d6 | 12% Any 1 |
-| 6-7 | 15% 4d6 | 50% 3d6 | 25% 1d12 | 70% 2d8 | 15% 1d4 | 30% 1d8 / 15% 1d6 | 16% Any 1 |
-| 8+ | 10% 5d6 | 50% 5d6 | 25% 2d8 | 75% 4d6 | 30% 1d4 | 40% 1d8 / 30% 1d8 | 20% Any 1 |
+| Level | 100's of Copper | 100's of Silver | 100's of Electrum  | 100's of Gold | 100's of Platinum | Gems and Jewelry  | Magic Items  |
+|-------|-----------------|-----------------|--------------------|---------------|-------------------|-------------------|--------------|
+| 1     | 75% 1d8         | 50% 1d6         | 25% 1d4            | 7% 1d4        | 1% 1d4            | 7% 1d4 / 3% 1d4   | 2% Any 1     |
+| 2     | 50% 1d10        | 50% 1d8         | 25% 1d6            | 20% 1d6       | 2% 1d4            | 10% 1d6 / 7% 1d4  | 5% Any 1     |
+| 3     | 30% 2d6         | 50% 1d10        | 25% 1d8            | 50% 1d6       | 4% 1d4            | 15% 1d6 / 7% 1d6  | 8% Any 1     |
+| 4-5   | 20% 3d6         | 50% 2d6         | 25% 1d10           | 50% 2d6       | 8% 1d4            | 20% 1d8 / 10% 1d6 | 12% Any 1    |
+| 6-7   | 15% 4d6         | 50% 3d6         | 25% 1d12           | 70% 2d8       | 15% 1d4           | 30% 1d8 / 15% 1d6 | 16% Any 1    |
+| 8+    | 10% 5d6         | 50% 5d6         | 25% 2d8            | 75% 4d6       | 30% 1d4           | 40% 1d8 / 30% 1d8 | 20% Any 1    |
 :::
 
 Note: unguarded treasures should be rare — use them sparingly, to reward exploration rather than as a primary source of wealth.
+
+::: pagebreak-pdf
+:::
 
 #### Gems and Jewelry
 
 Use the tables below to determine the base value and number found when gems are indicated in a treasure hoard. If the number generated on the main table above is small, roll for each gem individually; but if the number is large (10 or more, at the DM's option), roll once for Type and Base Value, then roll the indicated die to see how many such gems are in the hoard.
 
-| d% | Type | Base Value in Gold Pieces | Number Found |
-|----|------|-----------------------------|-----------------|
-| 01-20 | Ornamental | 10 | 1d10 |
-| 21-45 | Semiprecious | 50 | 1d8 |
-| 46-75 | Fancy | 100 | 1d6 |
-| 76-95 | Precious | 500 | 1d4 |
-| 96-00 | Gem | 1,000 | 1d2 |
-| — | Jewel | 5,000 | 1 |
+##### Gem Catagory
 
+| d%    | Catagory     | Base Value in Gold Pieces | Number Found |
+|-------|--------------|---------------------------|--------------|
+| 01-20 | Ornamental   | 10                        | 1d10         |
+| 21-45 | Semiprecious | 50                        | 1d8          |
+| 46-75 | Fancy        | 100                       | 1d6          |
+| 76-95 | Precious     | 500                       | 1d4          |
+| 96-00 | Gem          | 1,000                     | 1d2          |
+| —     | Jewel        | 5,000                     | 1            |
+
+##### Gem Value Adjustment
 
 The value of a gem can vary from the table above due to quality, size, and so on. The DM may use the table below to adjust the value of a gem in the hoard, at their option. This is why no die result is given above for Jewel — on a roll of 12 below, a Gem becomes a Jewel instead.
 
-| 2d6 | Value Adjustment |
-|-----|---------------------|
-| 2 | Next lower value row |
-| 3 | 1/2 |
-| 4 | 3/4 |
-| 5-9 | Normal value |
-| 10 | 1.5 times |
-| 11 | 2 times |
-| 12 | Next higher value row |
+| 2d6 | Value Adjustment      | 2d6 | Value Adjustment      |
+|-----|-----------------------|-----|-----------------------|
+| 2   | Next lower value row  | 10  | 1.5 times             |
+| 3   | 1/2                   | 11  | 2 times               |
+| 4   | 3/4                   | 12  | Next higher value row |
+| 5-9 | Normal value          |     |                       |
 
 
-| d% | Gem Type | d% | Gem Type |
-|----|-----------|----|-----------|
-| 01-05 | Alexandrite | 58-63 | Garnet |
-| 06-12 | Amethyst | 64-68 | Heliotrope |
-| 13-20 | Aventurine | 69-78 | Malachite |
-| 21-30 | Chlorastrolite | 79-88 | Rhodonite |
-| 31-40 | Diamond | 89-91 | Ruby |
-| 41-43 | Emerald | 92-95 | Sapphire |
-| 44-48 | Fire Opal | 96-00 | Topaz |
-| 49-57 | Fluorospar | | |
+##### Gem Type
 
-Standard items of jewelry are valued at 2d8x100 gp. The table below can be used to generate a description of the piece itself.
+| d%    | Gem Type          | d%    | Gem Type   |
+|-------|-------------------|-------|------------|
+| 01-05 | Alexandrite       | 58-63 | Garnet     |
+| 06-12 | Amethyst          | 64-68 | Heliotrope |
+| 13-20 | Aventurine        | 69-78 | Malachite  |
+| 21-30 | Chlorastrolite    | 79-88 | Rhodonite  |
+| 31-40 | Diamond           | 89-91 | Ruby       |
+| 41-43 | Emerald           | 92-95 | Sapphire   |
+| 44-48 | Fire Opal         | 96-00 | Topaz      |
+| 49-57 | Fluorospar        |       |            |
 
-| d%    | Type     | d%    | Type          |
-|-------|----------|-------|---------------|
-| 01-06 | Anklet   | 56-62 | Earring       |
-| 07-12 | Belt     | 63-65 | Flagon        |
-| 13-14 | Bowl     | 66-68 | Goblet        |
-| 15-21 | Bracelet | 69-73 | Knife         |
-| 22-27 | Brooch   | 74-77 | Letter Opener |
-| 28-32 | Buckle   | 78-80 | Locket        |
-| 33-37 | Chain    | 81-82 | Medal         |
-| 38-40 | Choker   | 83-89 | Necklace      |
-| 41-42 | Circlet  | 90    | Plate         |
-| 43-47 | Clasp    | 91-95 | Pin           |
-| 48-51 | Comb     | 96    | Scepter       |
-| 52    | Crown    | 97-99 | Statuette     |
-| 53-55 | Cup      | 00    | Tiara         |
+##### Jewelry Type
+
+Standard items of jewelry are valued at `2d8x100` gp. The table below can be used to generate a description of the piece itself.
+
+| d%    | Jewelry Type | d%    | Jewelry Type  |
+|-------|--------------|-------|---------------|
+| 01-06 | Anklet       | 56-62 | Earring       |
+| 07-12 | Belt         | 63-65 | Flagon        |
+| 13-14 | Bowl         | 66-68 | Goblet        |
+| 15-21 | Bracelet     | 69-73 | Knife         |
+| 22-27 | Brooch       | 74-77 | Letter Opener |
+| 28-32 | Buckle       | 78-80 | Locket        |
+| 33-37 | Chain        | 81-82 | Medal         |
+| 38-40 | Choker       | 83-89 | Necklace      |
+| 41-42 | Circlet      | 90    | Plate         |
+| 43-47 | Clasp        | 91-95 | Pin           |
+| 48-51 | Comb         | 96    | Scepter       |
+| 52    | Crown        | 97-99 | Statuette     |
+| 53-55 | Cup          | 00    | Tiara         |
+
+::: pagebreak-pdf
+:::
 
 ::: twocolumn-pdf-begin
 :::
@@ -7265,100 +7275,85 @@ Standard items of jewelry are valued at 2d8x100 gp. The table below can be used 
 
 Determine the sort of item found by rolling on the following table. Use the "Any" column normally; use "Weapon or Armor" if the item is already known to be one of those two; use "Any Exc. Weapons" if weapons are to be excluded (as for some Lair Treasure entries, above).
 
-| Any | Weapon or Armor | Any Exc. Weapons | Type of Item |
-|-----|--------------------|----------------------|----------------|
-| 01-25 | 01-70 | | Weapon |
-| 26-35 | 71-00 | 01-12 | Armor |
-| 36-55 | | 13-40 | Potion |
-| 56-85 | | 41-79 | Scroll |
-| 86-90 | | 80-86 | Wand, Staff, or Rod |
-| 91-97 | | 87-96 | Miscellaneous Item |
-| 98-00 | | 97-00 | Rare Item |
-
-
+| Any   | Weapon or Armor | Any Exc. Weapons | Type of Item        |
+|-------|-----------------|------------------|---------------------|
+| 01-25 | 01-70           |                  | Weapon              |
+| 26-35 | 71-00           | 01-12            | Armor               |
+| 36-55 |                 | 13-40            | Potion              |
+| 56-85 |                 | 41-79            | Scroll              |
+| 86-90 |                 | 80-86            | Wand, Staff, or Rod |
+| 91-97 |                 | 87-96            | Miscellaneous Item  |
+| 98-00 |                 | 97-00            | Rare Item           |
 
 #### Magic Weapons
 
 First, roll d% on the following table to determine the weapon type:
 
-| d% | Weapon Type | d% | Weapon Type |
-|----|--------------|----|--------------|
-| 01-02 | Great Axe | 60-65 | Shortsword |
-| 03-09 | Battle Axe | 66-79 | Longsword |
-| 10-11 | Hand Axe | 80-81 | Scimitar |
-| 12-19 | Shortbow | 82-83 | Two-Handed Sword |
-| 20-27 | Shortbow Arrow | 84-86 | Warhammer |
-| 28-31 | Longbow | 87-94 | Mace |
-| 32-35 | Longbow Arrow | 95 | Maul |
-| 36-43 | Light Quarrel | 96 | Pole Arm |
-| 44-47 | Heavy Quarrel | 97 | Sling Bullet |
-| 48-59 | Dagger | 98-00 | Spear |
+| d%     | Weapon Type    | d%    | Weapon Type      |
+|-------|-----------------|-------|------------------|
+| 01-02 | Great Axe       | 60-65 | Shortsword       |
+| 03-09 | Battle Axe      | 66-79 | Longsword        |
+| 10-11 | Hand Axe        | 80-81 | Scimitar         |
+| 12-19 | Shortbow        | 82-83 | Two-Handed Sword |
+| 20-27 | Shortbow Arrow  | 84-86 | Warhammer        |
+| 28-31 | Longbow         | 87-94 | Mace             |
+| 32-35 | Longbow Arrow   | 95    | Maul             |
+| 36-43 | Light Quarrel   | 96    | Pole Arm         |
+| 44-47 | Heavy Quarrel   | 97    | Sling Bullet     |
+| 48-59 | Dagger          | 98-00 | Spear            |
 
-::: center
-*Magic Weapon Type*
-:::
+
+#### Weapon Bonuses
 
 Next, roll on the Weapon Bonus table. Follow the directions given if a roll on the Special Enemy or Special Ability tables is indicated; ignore a second roll on the Special Ability table if it comes up more than once.
 
-| Melee | Missile | Weapon Bonus |
-|-------|---------|-----------------|
-| 01-40 | 01-46 | +1 |
-| 41-50 | 47-58 | +2 |
-| 51-55 | 59-64 | +3 |
-| 56-57 | | +4 |
-| 58 | | +5 |
-| 59-75 | 65-82 | +1, +2 vs. Special Enemy |
-| 76-85 | 83-94 | +1, +3 vs. Special Enemy |
-| 86-95 | | Roll Again + Special Ability |
-| 96-98 | 95-98 | Cursed, -1\* |
-| 99-00 | 99-00 | Cursed, -2\* |
-
-::: center
-*Weapon Bonus*
-:::
+| Melee | Missile | Weapon Bonus                 |
+|-------|---------|------------------------------|
+| 01-40 | 01-46   | +1                           |
+| 41-50 | 47-58   | +2                           |
+| 51-55 | 59-64   | +3                           |
+| 56-57 |         | +4                           |
+| 58    |         | +5                           |
+| 59-75 | 65-82   | +1, +2 vs. Special Enemy     |
+| 76-85 | 83-94   | +1, +3 vs. Special Enemy     |
+| 86-95 |         | Roll Again + Special Ability |
+| 96-98 | 95-98   | Cursed, -1\*                 |
+| 99-00 | 99-00   | Cursed, -2\*                 |
 
 \* If a cursed weapon is rolled along with a special ability, ignore the special ability roll.
 
-| 1d6 | Special Enemy | 1d6 | Special Enemy |
-|-----|------------------|-----|------------------|
-| 1 | Dragons | 4 | Regenerators |
-| 2 | Enchanted | 5 | Spell Users |
-| 3 | Lycanthropes | 6 | Undead |
+##### Special Enemies
 
-::: center
-*Special Enemy*
-:::
+| 1d6 | Enemy         | 1d6 | Enemy |
+|-----|---------------|-----| -------------|
+| 1   | Dragons       | 4   | Regenerators |
+| 2   | Enchanted     | 5   | Spell Users  |
+| 3   | Lycanthropes  | 6   | Undead       |
 
-| 1d20 | Special Ability |
-|------|--------------------|
+##### Special Abilities
+
+| 1d20  | Special Ability        |
+|-------|------------------------|
 | 01-09 | Casts Light on Command |
-| 10-11 | Charm Person |
-| 12 | Drains Energy |
-| 13-16 | Flames on Command |
-| 17-19 | Locate Objects |
-| 20 | Wishes |
+| 10-11 | Charm Person           |
+| 12    | Drains Energy          |
+| 13-16 | Flames on Command      |
+| 17-19 | Locate Objects         |
+| 20    | Wishes                 |
 
-::: center
-*Special Ability*
-:::
-
-If the weapon rolled is a **sword** — Shortsword, Longsword, Scimitar, or Two-Handed Sword — the DM may additionally check whether the weapon is intelligent, using the Intelligent Swords rules under Magic Weapons in the Explanation of Magic Items section, below.
+If the weapon rolled is a **sword** the DM may additionally check whether the weapon is intelligent, using the Intelligent Swords rules under Magic Weapons in the Explanation of Magic Items section, below.
 
 #### Magic Armor
 
 Generate the type and bonus of a piece of magic armor on the tables below.
 
-| d% | Armor Type | d% | Armor Bonus |
-|----|--------------|----|----------------|
-| 01-09 | Leather Armor | 01-50 | +1 |
-| 10-28 | Chain Mail | 51-80 | +2 |
-| 29-43 | Plate Mail | 81-90 | +3 |
-| 44-00 | Shield | 91-95 | Cursed\* |
-| | | 96-00 | Cursed, AC 11\*\* |
-
-::: center
-*Magic Armor*
-:::
+| d%    | Armor Type    | d%    | Armor Bonus       |
+|-------|---------------|-------|-------------------|
+| 01-09 | Leather Armor | 01-50 | +1                |
+| 10-28 | Chain Mail    | 51-80 | +2                |
+| 29-43 | Plate Mail    | 81-90 | +3                |
+| 44-00 | Shield        | 91-95 | Cursed\*          |
+|       |               | 96-00 | Cursed, AC 11\*\* |
 
 \* If Cursed armor is rolled, roll again and reverse the bonus (e.g., -1 instead of +1).
 
@@ -7366,39 +7361,22 @@ Generate the type and bonus of a piece of magic armor on the tables below.
 
 #### Potions
 
-| d% | Type |
-|----|------|
-| 01-03 | Clairaudience |
-| 04-06 | Clairvoyance |
-| 07-08 | Cold Resistance |
-| 09-11 | Control Animal |
-| 12-13 | Control Dragon |
-| 14-16 | Control Giant |
-| 17-19 | Control Human |
-| 20-22 | Control Plant |
-| 23-25 | Control Undead |
-| 26-32 | Delusion |
-| 33-35 | Diminution |
-| 36-39 | Fire Resistance |
-| 40-43 | Flying |
-| 44-47 | Gaseous Form |
-| 48-51 | Giant Strength |
-| 52-55 | Growth |
-| 56-59 | Healing |
-| 60-63 | Heroism |
-| 64-68 | Invisibility |
-| 69-72 | Invulnerability |
-| 73-76 | Levitation |
-| 77-80 | Longevity |
-| 81-84 | Mind Reading |
-| 85-86 | Poison |
-| 87-89 | Polymorph Self |
-| 90-97 | Speed |
-| 98-00 | Treasure Finding |
-
-::: center
-*Potions*
-:::
+| d%    | Potion           | d%    | Potion           |
+|-------|------------------|-------|------------------|
+| 01-03 | Clairaudience    | 48-51 | Giant Strength   |
+| 04-06 | Clairvoyance     | 52-55 | Growth           |
+| 07-08 | Cold Resistance  | 56-59 | Healing          |
+| 09-11 | Control Animal   | 60-63 | Heroism          |
+| 12-13 | Control Dragon   | 64-68 | Invisibility     |
+| 14-16 | Control Giant    | 69-72 | Invulnerability  |
+| 17-19 | Control Human    | 73-76 | Levitation       |
+| 20-22 | Control Plant    | 77-80 | Longevity        |
+| 23-25 | Control Undead   | 81-84 | Mind Reading     |
+| 26-32 | Delusion         | 85-86 | Poison           |
+| 33-35 | Diminution       | 87-89 | Polymorph Self   |
+| 36-39 | Fire Resistance  | 90-97 | Speed            |
+| 40-43 | Flying           | 98-00 | Treasure Finding |
+| 44-47 | Gaseous Form     |       |                  |
 
 #### Scrolls
 

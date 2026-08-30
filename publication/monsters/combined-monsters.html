@@ -8030,14 +8030,14 @@
 <div class="unguarded-treasure-table-pdf">
 <table>
 <colgroup>
-<col style="width: 4%" />
+<col style="width: 5%" />
 <col style="width: 13%" />
 <col style="width: 13%" />
-<col style="width: 16%" />
-<col style="width: 12%" />
 <col style="width: 15%" />
+<col style="width: 11%" />
 <col style="width: 14%" />
-<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 10%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -8116,13 +8116,17 @@
 </table>
 </div>
 <p>Note: unguarded treasures should be rare — use them sparingly, to reward exploration rather than as a primary source of wealth.</p>
+<div class="pagebreak-pdf">
+
+</div>
 <h4 id="gems-and-jewelry">Gems and Jewelry</h4>
 <p>Use the tables below to determine the base value and number found when gems are indicated in a treasure hoard. If the number generated on the main table above is small, roll for each gem individually; but if the number is large (10 or more, at the DM’s option), roll once for Type and Base Value, then roll the indicated die to see how many such gems are in the hoard.</p>
+<h5 id="gem-catagory">Gem Catagory</h5>
 <table>
 <thead>
 <tr class="header">
 <th>d%</th>
-<th>Type</th>
+<th>Catagory</th>
 <th>Base Value in Gold Pieces</th>
 <th>Number Found</th>
 </tr>
@@ -8166,10 +8170,13 @@
 </tr>
 </tbody>
 </table>
+<h5 id="gem-value-adjustment">Gem Value Adjustment</h5>
 <p>The value of a gem can vary from the table above due to quality, size, and so on. The DM may use the table below to adjust the value of a gem in the hoard, at their option. This is why no die result is given above for Jewel — on a roll of 12 below, a Gem becomes a Jewel instead.</p>
 <table>
 <thead>
 <tr class="header">
+<th>2d6</th>
+<th>Value Adjustment</th>
 <th>2d6</th>
 <th>Value Adjustment</th>
 </tr>
@@ -8178,33 +8185,30 @@
 <tr class="odd">
 <td>2</td>
 <td>Next lower value row</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>1/2</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>3/4</td>
-</tr>
-<tr class="even">
-<td>5-9</td>
-<td>Normal value</td>
-</tr>
-<tr class="odd">
 <td>10</td>
 <td>1.5 times</td>
 </tr>
 <tr class="even">
+<td>3</td>
+<td>1/2</td>
 <td>11</td>
 <td>2 times</td>
 </tr>
 <tr class="odd">
+<td>4</td>
+<td>3/4</td>
 <td>12</td>
 <td>Next higher value row</td>
 </tr>
+<tr class="even">
+<td>5-9</td>
+<td>Normal value</td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
+<h5 id="gem-type">Gem Type</h5>
 <table>
 <thead>
 <tr class="header">
@@ -8265,14 +8269,15 @@
 </tr>
 </tbody>
 </table>
-<p>Standard items of jewelry are valued at 2d8x100 gp. The table below can be used to generate a description of the piece itself.</p>
+<h5 id="jewelry-type">Jewelry Type</h5>
+<p>Standard items of jewelry are valued at <code>2d8x100</code> gp. The table below can be used to generate a description of the piece itself.</p>
 <table>
 <thead>
 <tr class="header">
 <th>d%</th>
-<th>Type</th>
+<th>Jewelry Type</th>
 <th>d%</th>
-<th>Type</th>
+<th>Jewelry Type</th>
 </tr>
 </thead>
 <tbody>
@@ -8356,6 +8361,9 @@
 </tr>
 </tbody>
 </table>
+<div class="pagebreak-pdf">
+
+</div>
 <div class="twocolumn-pdf-begin">
 
 </div>
@@ -8489,9 +8497,7 @@
 </tr>
 </tbody>
 </table>
-<div class="center">
-<p><em>Magic Weapon Type</em></p>
-</div>
+<h4 id="weapon-bonuses">Weapon Bonuses</h4>
 <p>Next, roll on the Weapon Bonus table. Follow the directions given if a roll on the Special Enemy or Special Ability tables is indicated; ignore a second roll on the Special Ability table if it comes up more than once.</p>
 <table>
 <thead>
@@ -8554,17 +8560,15 @@
 </tr>
 </tbody>
 </table>
-<div class="center">
-<p><em>Weapon Bonus</em></p>
-</div>
 <p>* If a cursed weapon is rolled along with a special ability, ignore the special ability roll.</p>
+<h5 id="special-enemies">Special Enemies</h5>
 <table>
 <thead>
 <tr class="header">
 <th>1d6</th>
-<th>Special Enemy</th>
+<th>Enemy</th>
 <th>1d6</th>
-<th>Special Enemy</th>
+<th>Enemy</th>
 </tr>
 </thead>
 <tbody>
@@ -8588,9 +8592,7 @@
 </tr>
 </tbody>
 </table>
-<div class="center">
-<p><em>Special Enemy</em></p>
-</div>
+<h5 id="special-abilities">Special Abilities</h5>
 <table>
 <thead>
 <tr class="header">
@@ -8625,10 +8627,7 @@
 </tr>
 </tbody>
 </table>
-<div class="center">
-<p><em>Special Ability</em></p>
-</div>
-<p>If the weapon rolled is a <strong>sword</strong> — Shortsword, Longsword, Scimitar, or Two-Handed Sword — the DM may additionally check whether the weapon is intelligent, using the Intelligent Swords rules under Magic Weapons in the Explanation of Magic Items section, below.</p>
+<p>If the weapon rolled is a <strong>sword</strong> the DM may additionally check whether the weapon is intelligent, using the Intelligent Swords rules under Magic Weapons in the Explanation of Magic Items section, below.</p>
 <h4 id="magic-armor">Magic Armor</h4>
 <p>Generate the type and bonus of a piece of magic armor on the tables below.</p>
 <table>
@@ -8673,9 +8672,6 @@
 </tr>
 </tbody>
 </table>
-<div class="center">
-<p><em>Magic Armor</em></p>
-</div>
 <p>* If Cursed armor is rolled, roll again and reverse the bonus (e.g., -1 instead of +1).</p>
 <p>** This armor has AC 11 but appears to be +1 when tested.</p>
 <h4 id="potions">Potions</h4>
@@ -8683,123 +8679,98 @@
 <thead>
 <tr class="header">
 <th>d%</th>
-<th>Type</th>
+<th>Potion</th>
+<th>d%</th>
+<th>Potion</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>01-03</td>
 <td>Clairaudience</td>
-</tr>
-<tr class="even">
-<td>04-06</td>
-<td>Clairvoyance</td>
-</tr>
-<tr class="odd">
-<td>07-08</td>
-<td>Cold Resistance</td>
-</tr>
-<tr class="even">
-<td>09-11</td>
-<td>Control Animal</td>
-</tr>
-<tr class="odd">
-<td>12-13</td>
-<td>Control Dragon</td>
-</tr>
-<tr class="even">
-<td>14-16</td>
-<td>Control Giant</td>
-</tr>
-<tr class="odd">
-<td>17-19</td>
-<td>Control Human</td>
-</tr>
-<tr class="even">
-<td>20-22</td>
-<td>Control Plant</td>
-</tr>
-<tr class="odd">
-<td>23-25</td>
-<td>Control Undead</td>
-</tr>
-<tr class="even">
-<td>26-32</td>
-<td>Delusion</td>
-</tr>
-<tr class="odd">
-<td>33-35</td>
-<td>Diminution</td>
-</tr>
-<tr class="even">
-<td>36-39</td>
-<td>Fire Resistance</td>
-</tr>
-<tr class="odd">
-<td>40-43</td>
-<td>Flying</td>
-</tr>
-<tr class="even">
-<td>44-47</td>
-<td>Gaseous Form</td>
-</tr>
-<tr class="odd">
 <td>48-51</td>
 <td>Giant Strength</td>
 </tr>
 <tr class="even">
+<td>04-06</td>
+<td>Clairvoyance</td>
 <td>52-55</td>
 <td>Growth</td>
 </tr>
 <tr class="odd">
+<td>07-08</td>
+<td>Cold Resistance</td>
 <td>56-59</td>
 <td>Healing</td>
 </tr>
 <tr class="even">
+<td>09-11</td>
+<td>Control Animal</td>
 <td>60-63</td>
 <td>Heroism</td>
 </tr>
 <tr class="odd">
+<td>12-13</td>
+<td>Control Dragon</td>
 <td>64-68</td>
 <td>Invisibility</td>
 </tr>
 <tr class="even">
+<td>14-16</td>
+<td>Control Giant</td>
 <td>69-72</td>
 <td>Invulnerability</td>
 </tr>
 <tr class="odd">
+<td>17-19</td>
+<td>Control Human</td>
 <td>73-76</td>
 <td>Levitation</td>
 </tr>
 <tr class="even">
+<td>20-22</td>
+<td>Control Plant</td>
 <td>77-80</td>
 <td>Longevity</td>
 </tr>
 <tr class="odd">
+<td>23-25</td>
+<td>Control Undead</td>
 <td>81-84</td>
 <td>Mind Reading</td>
 </tr>
 <tr class="even">
+<td>26-32</td>
+<td>Delusion</td>
 <td>85-86</td>
 <td>Poison</td>
 </tr>
 <tr class="odd">
+<td>33-35</td>
+<td>Diminution</td>
 <td>87-89</td>
 <td>Polymorph Self</td>
 </tr>
 <tr class="even">
+<td>36-39</td>
+<td>Fire Resistance</td>
 <td>90-97</td>
 <td>Speed</td>
 </tr>
 <tr class="odd">
+<td>40-43</td>
+<td>Flying</td>
 <td>98-00</td>
 <td>Treasure Finding</td>
 </tr>
+<tr class="even">
+<td>44-47</td>
+<td>Gaseous Form</td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
-<div class="center">
-<p><em>Potions</em></p>
-</div>
 <h4 id="scrolls">Scrolls</h4>
 <table>
 <thead>
