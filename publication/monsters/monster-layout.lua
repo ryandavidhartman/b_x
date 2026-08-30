@@ -300,8 +300,10 @@ end
 -- flexible X width with prose columns, which otherwise starves columns such
 -- as "Potion" and forces ugly mid-word wraps. Checked against the raw
 -- (pre-escape_latex) header text, since escaping turns "d%" into "d\%".
+local CODE_HEADERS = { Type = true, Melee = true, Missile = true }
+
 local function is_code_header(text)
-  return text ~= nil and (text == "Type" or text:match("^%d*d%%$") or text:match("^%d*d%d+$") ~= nil)
+  return text ~= nil and (CODE_HEADERS[text] or text:match("^%d*d%%$") or text:match("^%d*d%d+$") ~= nil)
 end
 
 local function table_column_spec(column_count, header_cells)

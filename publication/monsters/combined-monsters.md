@@ -7361,63 +7361,60 @@ Generate the type and bonus of a piece of magic armor on the tables below.
 
 #### Potions
 
-| d%    | Potion           | d%    | Potion           |
-|-------|------------------|-------|------------------|
-| 01-03 | Clairaudience    | 48-51 | Giant Strength   |
-| 04-06 | Clairvoyance     | 52-55 | Growth           |
-| 07-08 | Cold Resistance  | 56-59 | Healing          |
-| 09-11 | Control Animal   | 60-63 | Heroism          |
-| 12-13 | Control Dragon   | 64-68 | Invisibility     |
-| 14-16 | Control Giant    | 69-72 | Invulnerability  |
-| 17-19 | Control Human    | 73-76 | Levitation       |
-| 20-22 | Control Plant    | 77-80 | Longevity        |
-| 23-25 | Control Undead   | 81-84 | Mind Reading     |
-| 26-32 | Delusion         | 85-86 | Poison           |
-| 33-35 | Diminution       | 87-89 | Polymorph Self   |
-| 36-39 | Fire Resistance  | 90-97 | Speed            |
-| 40-43 | Flying           | 98-00 | Treasure Finding |
-| 44-47 | Gaseous Form     |       |                  |
+| d%    | Potion          | d%    | Potion          |
+|-------|-----------------|-------|-----------------|
+| 01-03 | Clairaudience   | 48-51 | Giant Strength  |
+| 04-06 | Clairvoyance    | 52-55 | Growth          |
+| 07-08 | Cold Resistance | 56-59 | Healing         |
+| 09-11 | Control Animal  | 60-63 | Heroism         |
+| 12-13 | Control Dragon  | 64-68 | Invisibility    |
+| 14-16 | Control Giant   | 69-72 | Invulnerability |
+| 17-19 | Control Human   | 73-76 | Levitation      |
+| 20-22 | Control Plant   | 77-80 | Longevity       |
+| 23-25 | Control Undead  | 81-84 | Mind Reading    |
+| 26-32 | Delusion        | 85-86 | Poison          |
+| 33-35 | Diminution      | 87-89 | Polymorph Self  |
+| 36-39 | Fire Resistance | 90-97 | Speed           |
+| 40-43 | Flying          | 98-00 | Treasure (Find) |
+| 44-47 | Gaseous Form    |       |                 |
+
+::: pagebreak-pdf
+:::
 
 #### Scrolls
 
-| d% | General Type |
-|----|-----------------|
-| 01-03 | Cleric Spell Scroll (1 Spell) |
-| 04-06 | Cleric Spell Scroll (2 Spells) |
-| 07-08 | Cleric Spell Scroll (3 Spells) |
-| 09 | Cleric Spell Scroll (4 Spells) |
-| 10-15 | Magic-User Spell Scroll (1 Spell) |
+| d%    | General Type                       |
+|-------|------------------------------------|
+| 01-03 | Cleric Spell Scroll (1 Spell)      |
+| 04-06 | Cleric Spell Scroll (2 Spells)     |
+| 07-08 | Cleric Spell Scroll (3 Spells)     |
+| 09    | Cleric Spell Scroll (4 Spells)     |
+| 10-15 | Magic-User Spell Scroll (1 Spell)  |
 | 16-20 | Magic-User Spell Scroll (2 Spells) |
 | 21-25 | Magic-User Spell Scroll (3 Spells) |
 | 26-29 | Magic-User Spell Scroll (4 Spells) |
 | 30-32 | Magic-User Spell Scroll (5 Spells) |
 | 33-34 | Magic-User Spell Scroll (6 Spells) |
-| 35 | Magic-User Spell Scroll (7 Spells) |
-| 36-40 | Cursed Scroll |
-| 41-46 | Protection from Elementals |
-| 47-56 | Protection from Lycanthropes |
-| 57-61 | Protection from Magic |
-| 62-75 | Protection from Undead |
+| 35    | Magic-User Spell Scroll (7 Spells) |
+| 36-40 | Cursed Scroll                      |
+| 41-46 | Protection from Elementals         |
+| 47-56 | Protection from Lycanthropes       |
+| 57-61 | Protection from Magic              |
+| 62-75 | Protection from Undead             |
 | 76-00 | Treasure Map (roll on the Treasure Map table, below) |
-
-::: center
-*Scrolls*
-:::
 
 Roll on the table below to determine the level of each spell on a Spell Scroll; the type of spell (Cleric or Magic-User, matching the scroll) may be selected by the DM or determined randomly.
 
-| d% | Level of Spell |
-|----|-------------------|
-| 01-30 | 1st |
-| 31-55 | 2nd |
-| 56-75 | 3rd |
-| 76-88 | 4th |
-| 89-97 | 5th |
-| 98-00 | 6th |
+##### Scrol Level
 
-::: center
-*Spell Scroll Level*
-:::
+| d%    | Level of Spell |
+|-------|----------------|
+| 01-30 | 1st            |
+| 31-55 | 2nd            |
+| 56-75 | 3rd            |
+| 76-88 | 4th            |
+| 89-97 | 5th            |
+| 98-00 | 6th            |
 
 **Treasure Maps.** A treasure map shows a route to a treasure hidden either in the dungeon or the wilderness. The treasure is usually guarded by monsters, traps, or magic; the DM should prepare (or improvise) the guardian and the site when the map is actually put to use. Roll d% on the table below to determine what the map leads to.
 
@@ -7436,13 +7433,9 @@ Roll on the table below to determine the level of each spell on a Spell Scroll; 
 | 93-96 | 5,000 to 30,000 gp value and one magic item |
 | 97-00 | 5-30 gems and two magic items |
 
-::: center
-*Treasure Maps*
-:::
-
 #### Wands, Staves and Rods
 
-| d% | Type |
+| d% | Item Type |
 |----|------|
 | 01-08 | Rod of Cancellation |
 | 09-13 | Snake Staff |
@@ -7463,22 +7456,19 @@ Roll on the table below to determine the level of each spell on a Spell Scroll; 
 | 85-92 | Wand of Secret Door Detection |
 | 93-00 | Wand of Trap Detection |
 
-::: center
-*Wands, Staves and Rods*
-:::
 
 #### Miscellaneous Items
 
 Roll on the table below to select an Effect subtable, then roll again on the selected subtable to determine the exact effect. Finally, roll on the appropriate column of the Form table to determine the item's physical form.
+
+##### Miscellaneous Item Subtable
 
 | d% | Subtable |
 |----|-----------|
 | 01-57 | Effect Subtable 1 |
 | 58-00 | Effect Subtable 2 |
 
-::: center
-*Miscellaneous Item Subtable*
-:::
+##### Effect Subtable 1
 
 | d% | Effect | Form |
 |----|--------|------|
@@ -7501,9 +7491,10 @@ Roll on the table below to select an Effect subtable, then roll again on the sel
 | 96-97 | Panic | G |
 | 98-00 | Penetrating Vision | D |
 
-::: center
-*Effect Subtable 1*
+::: pagebreak-pdf
 :::
+
+##### Effect Subtable 2
 
 | d% | Effect | Form |
 |----|--------|------|
@@ -7527,9 +7518,7 @@ Roll on the table below to select an Effect subtable, then roll again on the sel
 | 89-99 | Weakness | C |
 | 00 | Wishes | C |
 
-::: center
-*Effect Subtable 2*
-:::
+##### Form of Item
 
 | Form of Item | A | B | C | D | E | F | G | H |
 |-----------------------|--------|--------|--------|--------|--------|--------|--------|--------|
@@ -7547,9 +7536,6 @@ Roll on the table below to select an Effect subtable, then roll again on the sel
 | Pendant | 50-67 | 26-50 | 01-40 | 22-50 | 41-80 | 39-50 | | |
 | Ring | 68-00 | 51-00 | 41-00 | 51-00 | 81-00 | 51-00 | | |
 
-::: center
-*Form of Item*
-:::
 
 Items with forms meant to be worn are limited to a normal number at one time: at most two rings (one per hand), one cloak, one pair of boots, one helm, and one pendant. If a character wears two items that grant the same continuous effect (such as Cold Resistance or Protection), only one functions; if the effects differ in strength (a Cloak of Protection +1 and a Ring of Protection +3), only the stronger operates.
 
@@ -7569,9 +7555,6 @@ Items with forms meant to be worn are limited to a normal number at one time: at
 | 87-88 | Mirror of Imprisonment |
 | 89-00 | Rope of Climbing |
 
-::: center
-*Rare Items*
-:::
 
 ##### Devices of Summoning Elementals
 
@@ -7584,9 +7567,6 @@ See the Elemental entry in the Monsters chapter for elemental statistics before 
 | 3 | Censer of Summoning Air Elementals |
 | 4 | Stone of Summoning Earth Elementals |
 
-::: center
-*Devices of Summoning Elementals*
-:::
 
 ### Explanation of Magic Items
 
