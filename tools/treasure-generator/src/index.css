@@ -1,0 +1,52 @@
+:root {
+  --ink: #2b1d12;
+  --parchment: #f4ead9;
+  --parchment-dark: #e9dcc3;
+  --accent: #7a2e1d;
+  --accent-dark: #5a2115;
+  --border: #c9b28d;
+  --muted: #6b5a44;
+  color-scheme: light;
+  font-family: "Iowan Old Style", "Palatino Linotype", Georgia, "Times New Roman", serif;
+  color: var(--ink);
+  background: var(--parchment);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--parchment);
+}
+
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 4rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Iowan Old Style", Georgia, serif;
+  color: var(--accent-dark);
+  margin: 0 0 0.4rem;
+}
+
+a {
+  color: var(--accent);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+select,
+input,
+button {
+  font-size: 1rem;
+}
