@@ -7606,6 +7606,9 @@ Magic weapons are created with a variety of powers and generally aid the wielder
 
 Some swords are intelligent, with their own personality and special abilities, on top of any other magical properties they may have. The DM can design a specific intelligent sword deliberately, or roll one up using the procedure below. An intelligent sword should be played by the DM, much like an NPC. This treatment applies only to swords — the Shortsword, Longsword, Scimitar, and Two-Handed Sword weapon types — never to axes, bows, maces, or other magic weapons.
 
+::: pagebreak-pdf
+:::
+
 **Rolling Up an Intelligent Sword**
 
 1. Find out if the sword has a special purpose (optional: 1d20).
@@ -7629,80 +7632,60 @@ When used for its special purpose, the sword gains one added ability, according 
 
 **2. Intelligence.** Each intelligent sword has an Intelligence score, one or more Primary powers, possibly an Extraordinary power, and a method of communication. A sword that communicates by empathy makes its powers and how to use them somehow known to its wielder.
 
-| Die Roll | Intelligence Score | Powers | Method of Communication |
-|----------|-----------------------|--------|-----------------------------|
-| 1-14 | None | None | None |
-| 15 | 7 | 1 Primary | Empathy |
-| 16 | 8 | 2 Primary | Empathy |
-| 17 | 9 | 3 Primary | Empathy |
-| 18 | 10 | 3 Primary | Speech |
-| 19 | 11 | 3 Primary + Reads Magic | Speech |
-| 20 | 12 | 3 Primary + Reads Magic + 1 Extraordinary | Speech |
-
-::: center
-*Sword Intelligence*
-:::
+| Die Roll | Intelligence Score | Powers                                    | Method of Communication |
+|----------|--------------------|-------------------------------------------|-------------------------|
+| 1-14     | None               | None                                      | None                    |
+| 15       | 7                  | 1 Primary                                 | Empathy                 |
+| 16       | 8                  | 2 Primary                                 | Empathy                 |
+| 17       | 9                  | 3 Primary                                 | Empathy                 |
+| 18       | 10                 | 3 Primary                                 | Speech                  |
+| 19       | 11                 | 3 Primary + Reads Magic                   | Speech                  |
+| 20       | 12                 | 3 Primary + Reads Magic + 1 Extraordinary | Speech                  |
 
 **3. Languages.** A speaking sword talks aloud, usually telling the wielder what it wants. Any sword that can read magic can also read written text in any language it speaks. A talking sword always knows its alignment language in addition to any rolled below; the DM chooses which specific languages a sword knows.
 
-| Die Roll | Number of Languages |
-|----------|-------------------------|
-| 01-50 | 1 |
-| 51-70 | 2 |
-| 71-85 | 3 |
-| 86-95 | 4 |
-| 96-99 | 5 |
-| 00 | Roll twice more and add the results |
-
-::: center
-*Sword Languages*
-:::
+| Die Roll | Number of Languages                 |
+|----------|-------------------------------------|
+| 01-50    | 1                                   |
+| 51-70    | 2                                   |
+| 71-85    | 3                                   |
+| 86-95    | 4                                   |
+| 96-99    | 5                                   |
+| 00       | Roll twice more and add the results |
 
 **4. Alignment.**
 
 | Die Roll | Alignment |
 |----------|-----------|
-| 1-13 | Lawful |
-| 14-18 | Neutral |
-| 19-20 | Chaotic |
-
-::: center
-*Sword Alignment*
-:::
+| 1-13     | Lawful    |
+| 14-18    | Neutral   |
+| 19-20    | Chaotic   |
 
 A sword's alignment cannot be detected until it is handled. If the wielder shares the sword's alignment, there is no adverse effect; otherwise the wielder takes damage each round the sword is touched or held, per the table below.
 
 | Wielder's Alignment | Sword's Alignment | Damage per Round |
-|------------------------|-----------------------|----------------------|
-| Lawful | Neutral | 1d6 |
-| Lawful | Chaotic | 2d6 |
-| Neutral | Lawful or Chaotic | 1d6 |
-| Chaotic | Lawful | 2d6 |
-| Chaotic | Neutral | 1d6 |
-
-::: center
-*Alignment Conflict Damage*
-:::
+|---------------------|-------------------|------------------|
+| Lawful              | Neutral           | 1d6              |
+| Lawful              | Chaotic           | 2d6              |
+| Neutral             | Lawful or Chaotic | 1d6              |
+| Chaotic             | Lawful            | 2d6              |
+| Chaotic             | Neutral           | 1d6              |
 
 **5. Primary Powers.** Roll d% for each Primary power the sword's Intelligence score grants (see #2, above); reroll any duplicate result.
 
-| Die Roll | Primary Power |
-|----------|-------------------|
-| 01-15 | Detect shifting walls and rooms |
-| 16-30 | Detect sloping passages |
-| 31-40 | Find secret doors |
-| 41-50 | Find traps |
-| 51-60 | See invisible objects |
-| 61-70 | Detect evil (or good) |
-| 71-80 | Detect metal |
-| 81-90 | Detect magic |
-| 91-95 | Detect gems |
-| 96-99 | Roll for 1 Extraordinary power instead (see #6, below) |
-| 00 | Roll twice more on this table |
-
-::: center
-*Primary Powers*
-:::
+| Die Roll | Primary Power                                          |
+|----------|--------------------------------------------------------|
+| 01-15    | Detect shifting walls and rooms                        |
+| 16-30    | Detect sloping passages                                |
+| 31-40    | Find secret doors                                      |
+| 41-50    | Find traps                                             |
+| 51-60    | See invisible objects                                  |
+| 61-70    | Detect evil (or good)                                  |
+| 71-80    | Detect metal                                           |
+| 81-90    | Detect magic                                           |
+| 91-95    | Detect gems                                            |
+| 96-99    | Roll for 1 Extraordinary power instead (see #6, below) |
+| 00       | Roll twice more on this table                          |
 
 Unless otherwise noted, one Primary power may be used per round, and the wielder must have the sword in hand and be concentrating on the power to use it.
 
@@ -7710,34 +7693,30 @@ Unless otherwise noted, one Primary power may be used per round, and the wielder
 
 **6. Extraordinary Powers.** If the sword has an Extraordinary power, roll d% below; reroll duplicates unless noted otherwise.
 
-| Die Roll | Extraordinary Power |
-|----------|---------------------------|
-| 01-10 | Clairaudience |
-| 11-20 | Clairvoyance |
-| 21-30 | ESP |
-| 31-40 | Telepathy |
-| 41-50 | Telekinesis |
-| 51-59 | Teleportation |
-| 60-68 | X-ray vision |
-| 69-77 | Illusion |
-| 78-82 | Levitation |
-| 83-87 | Flying |
-| 88-92 | Healing (duplicates allowed) |
-| 93-97 | Extra damage (duplicates allowed) |
-| 98-99 | Roll twice more on this table |
-| 00 | Roll three times more on this table |
-
-::: center
-*Extraordinary Powers*
-:::
+| Die Roll | Extraordinary Power              |
+|----------|----------------------------------|
+| 01-10 | Clairaudience                       |
+| 11-20 | Clairvoyance                        |
+| 21-30 | ESP                                 |
+| 31-40 | Telepathy                           |
+| 41-50 | Telekinesis                         |
+| 51-59 | Teleportation                       |
+| 60-68 | X-ray vision                        |
+| 69-77 | Illusion                            |
+| 78-82 | Levitation                          |
+| 83-87 | Flying                              |
+| 88-92 | Healing (duplicates allowed)        |
+| 93-97 | Extra damage (duplicates allowed)   |
+| 98-99 | Roll twice more on this table       |
+| 00    | Roll three times more on this table |
 
 As with Primary powers, the wielder must have the sword in hand and be concentrating to use an Extraordinary power; each is usable three times per day unless noted otherwise.
 
 **Clairaudience.** Hear sounds, including speech, within 60' through the ears of a creature there (blocked by lead), after concentrating for one turn. **Clairvoyance.** As above, but sight rather than sound. **ESP.** Listen to one living creature's thoughts within 60' (blocked by lead) while concentrating. **Telepathy.** As ESP, but the wielder may also send thoughts to the contacted creature; it may refuse to answer. **Telekinesis.** Move up to 2,000 coins of weight by concentration alone, as the spell. **Teleportation.** As the Magic-User spell. **X-ray vision.** See through anything except gold or lead. **Illusion.** Create one *phantasmal force*, as the spell. **Levitation.** As the spell, for up to 3 turns. **Flying.** As the spell, for up to 3 turns. **Healing.** Heals up to 6 points of damage at 1 hit point per round, once per day; duplicate rolls increase both the amount and the time required by 6. **Extra damage.** For 1d10 rounds, the wielder inflicts 4 times normal damage on a successful hit (no better chance to hit); each duplicate roll increases the multiplier by 1.
 
-**7. Ego.** Roll 1d12 for a non-special-purpose sword's Ego score, a measure of the force of its personality. A sword with high Intelligence and Ego may try to control its wielder; the DM checks for control in five situations: when a character first handles the sword; when the character drops to half or fewer of their original hit points; when the character acquires another magic weapon; when a character of a different alignment tries to use it; and when a situation arises where the sword's special purpose, if any, could be brought to bear.
+**7. Ego.** Roll `1d12` for a non-special-purpose sword's Ego score, a measure of the force of its personality. A sword with high Intelligence and Ego may try to control its wielder; the DM checks for control in five situations: when a character first handles the sword; when the character drops to half or fewer of their original hit points; when the character acquires another magic weapon; when a character of a different alignment tries to use it; and when a situation arises where the sword's special purpose, if any, could be brought to bear.
 
-To make a control check, compare the will score of the wielder and of the sword; whichever is higher controls the character's actions that round. A sword's will score is its Intelligence plus its Ego, plus 1 for each Extraordinary power it has, plus 1d10 if its alignment differs from the wielder's. A character's will score is Strength plus Wisdom, minus 1d4 if damaged to half or fewer hit points, or minus 2d4 if damaged beyond that.
+To make a control check, compare the will score of the wielder and of the sword; whichever is higher controls the character's actions that round. A sword's will score is its Intelligence plus its Ego, plus 1 for each Extraordinary power it has, plus `1d10` if its alignment differs from the wielder's. A character's will score is Strength plus Wisdom, minus `1d4` if damaged to half or fewer hit points, or minus `2d4` if damaged beyond that.
 
 A sword in control might lead its wielder past other magic weapons or force them to discard other weapons, force a reckless charge to win glory for itself, force a surrender to a more worthy (or more easily controlled) opponent, or force the wielder to spend money on the sword's upkeep — jeweled fittings, fine scabbards, and the like. Control lasts until the sword is satisfied or the triggering situation has passed.
 
@@ -7751,7 +7730,33 @@ There are two varieties of cursed armor: Cursed Armor -1 and Cursed Armor AC 11.
 
 A potion is an elixir with a spell-like effect that affects only the drinker. Unless otherwise noted, a potion's benefit lasts 1d6+6 turns (regardless of the duration of any associated spell), and potions generally affect only living creatures.
 
-**Clairaudience.** Hear sounds, including speech, up to 60' away through the ears of a living creature there — otherwise as *clairvoyance*. **Clairvoyance.** Grants the effect of the spell. **Cold Resistance.** Grants the effect of *resist cold*. **Control Animal.** As Control Human, below, but affects only normal, non-magical animals. **Control Dragon.** As Control Human, but affects only dragons. **Control Giant.** As Control Human, but affects only giants. **Control Human.** The drinker may charm any humanoid by gazing at it, as *charm person*; if resisted, up to two more targets may be attempted before the potion is exhausted. **Control Plant.** Controls one or more plants or plant creatures in a 10' area within 50'; normal plants animate (move 10') and obey the drinker, with the largest able to attack at +0 for 1d4 damage. Affected plant creatures that fail a save vs. Spells behave as if under *charm monster*. **Control Undead.** Commands 3d6 Hit Dice of undead (save vs. Spells resists); mindless undead obey exactly, free-willed undead as if *charmed*. **Delusion.** A cursed potion that appears, if tested, to be some other potion (not poison); the drinker briefly believes they've gained the "other" potion's benefit before the illusion is exposed. **Diminution.** Reduces the drinker and gear to 1/12th height and 1/1,728th weight; the drinker cannot effectively attack anything larger than a housecat but gains a 90% chance to move undetected. **Fire Resistance.** Grants *resist fire*. **Flying.** Grants *fly*. **Gaseous Form.** The drinker and gear become immune to non-magical weapons (AC 22 vs. magical ones), cannot attack, cast spells, or use supernatural abilities, and fly at 10'; the form cannot be ended early, though the potion may be drunk in thirds for 1d4+1 turns per dose. **Giant Strength.** +5 to melee and thrown attack and damage rolls, and the drinker can throw stones as a stone giant. **Growth.** Doubles height and increases weight eightfold, granting Stone Giant Strength (+5 to attack and damage, no rock-throwing). **Healing.** Restores 1d6+1 hit points, as *cure light wounds*. **Heroism.** Improves a Fighter's combat ability by level (3rd or below: +3 attack and 3 Hit Dice; 4th-5th: +2 and 2 Hit Dice; 6th-7th: +1 and 1 Hit Die; 8th+ or non-Fighters: +1 attack only); gained Hit Dice are temporary and absorb damage first. **Invisibility.** As the spell; may be drunk in thirds for 1d4+1 turns per dose. **Invulnerability.** +2 Armor Class. **Levitation.** Grants *levitate*. **Longevity.** The drinker becomes 1d10 years younger, permanently. **Mind Reading.** Grants the spell of the same name. **Poison.** Not a potion at all — the drinker must save vs. Poison or die, even from a sip. **Polymorph Self.** Grants the spell of the same name. **Speed.** Grants *haste*. **Treasure Finding.** The drinker senses the direction and rough distance to the largest treasure hoard of coin within a 300' radius; gems and magic items are not detected this way.
+* **Clairaudience.** Hear sounds, including speech, up to 60' away through the ears of a living creature there — otherwise as *clairvoyance*.
+* **Clairvoyance.** Grants the effect of the spell.
+* **Cold Resistance.** Grants the effect of *resist cold*.
+* **Control Animal.** As Control Human, below, but affects only normal, non-magical animals.
+* **Control Dragon.** As Control Human, but affects only dragons.-
+* **Control Giant.** As Control Human, but affects only giants.
+* **Control Human.** The drinker may charm any humanoid by gazing at it, as *charm person*; if resisted, up to two more targets may be attempted before the potion is exhausted.
+* **Control Plant.** Controls one or more plants or plant creatures in a 10' area within 50'; normal plants animate (move 10') and obey the drinker, with the largest able to attack at +0 for 1d4 damage. Affected plant creatures that fail a save vs. Spells behave as if under *charm monster*. 
+* **Control Undead.** Commands 3d6 Hit Dice of undead (save vs. Spells resists); mindless undead obey exactly, free-willed undead as if *charmed*.
+* **Delusion.** A cursed potion that appears, if tested, to be some other potion (not poison); the drinker briefly believes they've gained the "other" potion's benefit before the illusion is exposed.
+* **Diminution.** Reduces the drinker and gear to 1/12^th^ height and 1/1,728^th^ weight; the drinker cannot attack anything larger than a housecat but gains a 90% chance to move undetected.
+* **Fire Resistance.** Grants *resist fire*.
+* **Flying.** Grants *fly*.
+* **Gaseous Form.** The drinker and gear become immune to non-magical weapons (AC 22 vs. magical ones), cannot attack, cast spells, or use supernatural abilities, and fly at 10'; the form cannot be ended early, though the potion may be drunk in thirds for `1d4+1` turns per dose.
+* **Giant Strength.** +5 to melee and thrown attack and damage rolls, and the drinker can throw stones as a stone giant.
+* **Growth.** Doubles height and increases weight eightfold, granting Stone Giant Strength (+5 to attack and damage, no rock-throwing).
+* **Healing.** Restores 1d6+1 hit points, as *cure light wounds*.
+* **Heroism.** Improves a Fighter's combat ability by level (3^rd^ or below: +3 attack and 3 Hit Dice; 4^th^-5^th^: +2 and 2 Hit Dice; 6^th^-7^th^: +1 and 1 Hit Die; 8^th^+ or non-Fighters: +1 attack only); gained Hit Dice are temporary and absorb damage first.
+* **Invisibility.** As the spell; may be drunk in thirds for `1d4+1` turns per dose. 
+* **Invulnerability.** +2 Armor Class.
+* **Levitation.** Grants *levitate*.
+* **Longevity.** The drinker becomes `1d10` years younger, permanently.
+* **Mind Reading.** Grants the spell of the same name. 
+* **Poison.** Not a potion at all — the drinker must save vs. Poison or die, even from a sip.
+* **Polymorph Self.** Grants the spell of the same name.
+* **Speed.** Grants *haste*.
+* **Treasure Finding.** The drinker senses the direction and rough distance to the largest treasure hoard of coin within a 300' radius; gems and magic items are not detected this way.
 
 #### Scrolls
 
@@ -7761,54 +7766,109 @@ A **Cursed Scroll** inflicts a curse on whoever reads it, even a glance — read
 
 **Treasure Maps** are generally non-magical. The DM creates the map — and may delay doing so until the party can actually put it to use — and decides on the guardian for the treasure it leads to. Roll on the table below to see what a Treasure Map leads to.
 
-| d% | Treasure Map Leads To |
-|----|----------------------------|
-| 01-16 | 1,000 to 4,000 gp value |
-| 17-36 | 5,000 to 30,000 gp value |
-| 37-44 | 6,000 to 36,000 gp value |
-| 45-52 | 5,000 to 30,000 gp value and 5-30 gems |
-| 53-60 | 1-60 gems and 2-20 pieces of jewelry |
-| 61-72 | One magic item |
-| 73-80 | Two magic items |
-| 81-84 | Three magic items — no weapons |
-| 85-88 | Three magic items and 1 potion |
-| 89-92 | Three magic items, 1 scroll, and 1 potion |
+| d%    | Treasure Map Leads To                       |
+|-------|---------------------------------------------|
+| 01-16 | 1,000 to 4,000 gp value                     |
+| 17-36 | 5,000 to 30,000 gp value                    |
+| 37-44 | 6,000 to 36,000 gp value                    |
+| 45-52 | 5,000 to 30,000 gp value and 5-30 gems      |
+| 53-60 | 1-60 gems and 2-20 pieces of jewelry        |
+| 61-72 | One magic item                              | 
+| 73-80 | Two magic items                             |
+| 81-84 | Three magic items — no weapons              |
+| 85-88 | Three magic items and 1 potion              |
+| 89-92 | Three magic items, 1 scroll, and 1 potion   |
 | 93-96 | 5,000 to 30,000 gp value and one magic item |
-| 97-00 | 5-30 gems and two magic items |
-
-::: center
-*Treasure Maps*
-:::
+| 97-00 | 5-30 gems and two magic items               |
 
 #### Wands, Staves and Rods
 
-A **wand** is a short stick, generally 12"-18" long, imbued with the power to cast a specific spell or spell-like effect. A newly created wand has 20 charges; each use spends one, and a wand found in a hoard has 2d10 charges remaining. Where a wand's effect matches a spell, it functions as if cast by a 6th level caster (or the lowest level able to cast that spell, whichever is higher) unless noted otherwise. Wands are usable only by Magic-Users; saving throws against a wand's magic are rolled on the Magic Wands column rather than Spells.
+A **wand** is a short stick, generally 12"-18" long, imbued with the power to cast a specific spell or spell-like effect. A newly created wand has 20 charges; each use spends one, and a wand found in a hoard has `2d10` charges remaining. Where a wand's effect matches a spell, it functions as if cast by a 6^th^ level caster (or the lowest level able to cast that spell, whichever is higher) unless noted otherwise. Wands are usable only by Magic-Users; saving throws against a wand's magic are rolled on the Magic Wands column rather than Spells.
 
-A **staff** offers a number of related effects. A newly created staff has 30 charges, each use spending one or more; a staff found in a hoard has 3d10 charges remaining. Staff effects operate at 8th caster level (or the lowest level able to cast the spell, whichever is higher) unless noted otherwise. Staves are usable only by Magic-Users except where noted; saves against staff magic use the Spells column.
+A **staff** offers a number of related effects. A newly created staff has 30 charges, each use spending one or more; a staff found in a hoard has `3d10` charges remaining. Staff effects operate at 8^th^ caster level (or the lowest level able to cast the spell, whichever is higher) unless noted otherwise. Staves are usable only by Magic-Users except where noted; saves against staff magic use the Spells column.
 
 A **rod** is a scepter-like item with a power unlike any known spell, and is normally usable by any class.
 
-**Rod of Cancellation.** Usable once: struck against another magic item (a to-hit roll is needed if the item is held), it destroys all enchantment in that item, expending the rod. **Snake Staff.** A walking staff +1; a Cleric may command it to become a constrictor snake instead of striking normally on a hit, holding a man-sized or smaller target for 1d4 turns unless it saves vs. Spells. The snake (AC 15, Move 20', 20 hp) causes no other damage, may be recalled to staff form at any time, and if killed in snake form the staff is destroyed. Usable any number of times per day; it has and uses no charges. **Staff of Commanding.** Casts *charm person* and *charm monster*, and grants the effect of a Potion of Control Plant; each use costs one charge. **Staff of Healing.** Heals 1d6+1 hit points per charge, as *cure light wounds*; two charges cast *cure disease* instead. Usable only by a Cleric. **Staff of Power.** One charge per use for *lightning bolt* (6d6), *fireball* (6d6), a cone of cold as the wand (6d6), *continual light*, or *telekinesis* (as the ring, up to 1d6 turns); also a Walking Staff +2 and usable as a Staff of Striking. Its wielder may break it for a retributive strike, instantly releasing all remaining charges in a 30' radius for 1d6 damage per charge (save vs. Spells for half), affecting the wielder as well; the walking staff +2 property remains even once all charges are spent. **Staff of Striking.** Not attack-bonused, but treated as a +1 weapon for what it can hit, usable by any class in that mode; a Cleric wielding it may speak a command word to add 1d6/2d6/3d6 damage to its next strike for 1/2/3 charges, the effect lasting one turn if unused. **Staff of Wizardry.** As Staff of Power, plus *invisibility*, *passwall*, *web*, and *conjure elementals* (summoning staff elementals as described under Elemental), each costing one charge.
-
-**Wand of Cold.** A 30'-wide cone of cold to 40' range, 6d8 damage (save vs. Magic Wands for half). **Wand of Enemy Detection.** All enemies within 60' — including hidden, invisible, or unaware ones, and all undead and constructs regardless of intent — glow greenish-white for one round; anything out of sight is unaffected. **Wand of Fear.** As *cause fear*. **Wand of Fireballs.** As the spell, 6d6 damage. **Wand of Illusion.** Creates illusions as *phantasmal force*. **Wand of Lightning Bolts.** As the spell, 6d6 damage. **Wand of Magic Detection.** As *detect magic*. **Wand of Paralysis.** As *hold person*. **Wand of Polymorph.** Casts either *polymorph self* or *polymorph other*. **Wand of Secret Door Detection.** As *find traps*, but reveals secret doors instead of traps, within 20'. **Wand of Trap Detection.** As *find traps*, within 20'.
+* **Rod of Cancellation.** Usable once: struck against another magic item (a to-hit roll is needed if the item is held), it destroys all enchantment in that item, expending the rod.
+* **Snake Staff.** A walking staff +1; a Cleric may command it to become a constrictor snake instead of striking normally on a hit, holding a man-sized or smaller target for 1d4 turns unless it saves vs. Spells. The snake (AC 15, Move 20', 20 hp) causes no other damage, may be recalled to staff form at any time, and if killed in snake form the staff is destroyed. Usable any number of times per day; it has and uses no charges.
+* **Staff of Commanding.** Casts *charm person* and *charm monster*, and grants the effect of a Potion of Control Plant; each use costs one charge.
+* **Staff of Healing.** Heals `1d6+1` hit points per charge, as *cure light wounds*; two charges cast *cure disease* instead. Usable only by a Cleric.
+* **Staff of Power.** One charge per use for *lightning bolt* (`6d6`), *fireball* (`6d6`), a cone of cold as the wand (`6d6`), *continual light*, or *telekinesis* (as the ring, up to 1d6 turns); also a Walking Staff +2 and usable as a Staff of Striking. Its wielder may break it for a retributive strike, instantly releasing all remaining charges in a 30' radius for `1d6` damage per charge (save vs. Spells for half), affecting the wielder as well; the walking staff +2 property remains even once all charges are spent.
+* **Staff of Striking.** Not attack-bonused, but treated as a +1 weapon for what it can hit, usable by any class in that mode; a Cleric wielding it may speak a command word to add `1d6/2d6/3d6` damage to its next strike for 1/2/3 charges, the effect lasting one turn if unused.
+* **Staff of Wizardry.** As Staff of Power, plus *invisibility*, *passwall*, *web*, and *conjure elementals* (summoning staff elementals as described under Elemental), each costing one charge.
+* **Wand of Cold.** A 30'-wide cone of cold to 40' range, `6d8` damage (save vs. Magic Wands for half).
+* **Wand of Enemy Detection.** All enemies within 60' — including hidden, invisible, or unaware ones, and all undead and constructs regardless of intent — glow greenish-white for one round; anything out of sight is unaffected.
+* **Wand of Fear.** As *cause fear*.
+* **Wand of Fireballs.** As the spell, `6d6` damage.
+* **Wand of Illusion.** Creates illusions as *phantasmal force*.
+* **Wand of Lightning Bolts.** As the spell, `6d6` damage.
+* **Wand of Magic Detection.** As *detect magic*.
+* **Wand of Paralysis.** As *hold person*.
+* **Wand of Polymorph.** Casts either *polymorph self* or *polymorph other*.
+* **Wand of Secret Door Detection.** As *find traps*, but reveals secret doors instead of traps, within 20'.
+* **Wand of Trap Detection.** As *find traps*, within 20'.
 
 #### Miscellaneous Items
 
 These items may take any of several forms and produce a variety of effects; a randomly generated item is an [Effect] of [Form], for example a Cloak of Fire Resistance. See the tables above for form-and-effect generation; the DM is not limited to the forms listed there, and may invent others freely.
 
-**Blasting.** Creates a cone of sound 10' long, 2' wide at the base; those within take 2d6 damage and are deafened for 1 full turn (save vs. Death Ray halves damage and reduces deafness to one round). Doubled damage against structures. **Blending.** Grants an 80% chance to move unnoticed; if detected, the wearer can be attacked without penalty. **Cold Resistance.** Continual *resist cold*. **Comprehension.** Reads any language, including magical script, continually (granting the effect of *read magic* if worn by a Magic-User), subject to the normal limits on reading non-magical texts. **Control Animal.** Charms up to 6 Hit Dice of animals (excluding fantastic creatures and anything smarter than a dog or cat) at will, targeting any animal seen within 60'; the wearer may release controlled creatures early to free Hit Dice for a new target. **Control Human.** Casts *charm person* at will on any target seen within 60', up to 6 Hit Dice or levels of humanoids controlled at once (with the same early-release option). **Control Plant.** As a Potion of Control Plant, at will, against plants or plant creatures within 60' the wearer can see; the effect lasts as long as the target remains in range, subject to the same save. **Courage.** All friendly creatures within 60' gain the effect of *remove fear* when the device is activated. **Deception.** Any attacker believes the wearer is 3' from their true location: the attacker's first strike automatically misses, and every strike after suffers a -2 penalty. Mindless creatures, constructs, and undead are unaffected; other living creatures are affected even without relying on sight. **Delusion.** A cursed item — the wearer believes it is some other, useful item, and behaves accordingly; unlike the potion, taking damage does not break the illusion, and only *remove curse* can. **Djinni Summoning.** Rubbing the device summons its bound djinni, who appears the next round to protect, serve, and obey the wearer for up to 1 hour per day, usable once per day; if the bound djinni is ever slain, the item loses all magic. **Doom.** Animates up to 3d6 Hit Dice of skeletons or zombies (preferring skeletons where both are available) from remains within 60', as *animate dead*, once per day, capped at 18 Hit Dice of undead active at once; a Magic-User or Cleric activator retains control so long as they hold the item, otherwise the undead attack any living creature nearby. **Fire Resistance.** Continual *resist fire*. **Invisibility.** As the spell, on command; once dispelled, it cannot be reactivated for one full turn, though the base 24-hour duration is otherwise unaffected. **Levitation.** As the spell, at will by concentration, with no duration limit. **Mind Reading.** A permanent, on-demand form of *mind reading* that activates after one round of concentration and persists as long as the wearer continues; usable as often as desired. **Panic.** All creatures beyond 20' but within 120' of the device when activated must save vs. Spells or flee as if by *cause fear*. **Penetrating Vision.** On command, and for as long as the wearer concentrates (up to one turn, three times per day), see through up to 3' of wood or soil, 1' of stone, or 1" of most metal as if it were glass, in normal light regardless of actual darkness; gold or lead of any thickness blocks the effect entirely.
-
-**Protection +1/+2/+3.** Grants the listed bonus to Armor Class and to saving throws while worn. **Protection from Energy Drain.** Absorbs energy drain, death effects (such as *slay living*), and curses, with 2d6 charges when found; the item disintegrates once exhausted. **Protection from Scrying.** The wearer, and any ally within 30', is immune to all forms of scrying (crystal balls, clairvoyance, clairaudience, and similar) though not to mind reading. **Regeneration.** Heals like a Troll — 1 hit point per round — but only damage taken while worn, and not damage from fire or acid. **Scrying.** Usable only by a Magic-User, three times per day for up to a turn each; success chance depends on how well the target or place is known (Secondhand Knowledge 25%, Firsthand Knowledge 55%, Familiar 95%, +25% for a possession or garment, +50% for a body part or similar), with totals of 100% or more needing no roll. Only the user sees the image; no sound is heard, though *detect magic*, *detect evil*, and *mind reading* have a 3% chance per caster level of working through the connection. **Scrying, Superior.** As Scrying, but sound is also heard. **Speed.** Grants *haste* on command (or by clicking heels together, for boots), for up to 10 rounds per day total. **Spell Storing.** Holds a fixed set of spells (usually Magic-User, 1 in 10 Clerical, never mixed) cast as if by the lowest-level character able to cast them, minimum 6th; any class may wear and use it, though a non-caster may struggle to use it wisely without advice. Recharging requires casting the exact spells originally stored back into the item. **Spell Turning.** Reflects up to 2d6 spells cast directly at the wearer (not area effects) back at their caster. **Stealth.** Grants a 90% chance to move silently, as the Thief ability. **Telekinesis.** As the spell, cast as if by a 12th level Magic-User, usable as often as desired but lasting only as long as the wearer concentrates. **Telepathy.** Three times per day, grants a 90' *mind reading* lasting 1 turn, during which the wearer may also send thoughts back to any creature whose mind they're reading. **Teleportation.** Casts *teleport*, as if by a 12th level Magic-User, up to 3 times per day. **True Seeing.** Three times per day, grants *true seeing* for up to one turn. **Water Walking.** Lets the wearer walk on any liquid surface — mud, oil, snow, quicksand, running water, ice, even lava (though the heat of lava still causes damage) — as if it were solid ground. **Weakness.** A curse: the wearer's Strength immediately drops to 3; only *remove curse* lifts it. **Wishes.** Holds 1d4 wishes when found; the DM must adjudicate all wishes, per the guidance in the DM chapter.
+* **Blasting.** Creates a cone of sound 10' long, 2' wide at the base; those within take 2d6 damage and are deafened for 1 full turn (save vs. Death Ray halves damage and reduces deafness to one round). Doubled damage against structures.
+* **Blending.** Grants an 80% chance to move unnoticed; if detected, the wearer can be attacked without penalty.
+* **Cold Resistance.** Continual *resist cold*.
+* **Comprehension.** Reads any language, including magical script, continually (granting the effect of *read magic* if worn by a Magic-User), subject to the normal limits on reading non-magical texts.
+* **Control Animal.** Charms up to 6 Hit Dice of animals (excluding fantastic creatures and anything smarter than a dog or cat) at will, targeting any animal seen within 60'; the wearer may release controlled creatures early to free Hit Dice for a new target.
+* **Control Human.** Casts *charm person* at will on any target seen within 60', up to 6 Hit Dice or levels of humanoids controlled at once (with the same early-release option).
+* **Control Plant.** As a Potion of Control Plant, at will, against plants or plant creatures within 60' the wearer can see; the effect lasts as long as the target remains in range, subject to the same save.
+* **Courage.** All friendly creatures within 60' gain the effect of *remove fear* when the device is activated.
+* **Deception.** Any attacker believes the wearer is 3' from their true location: the attacker's first strike automatically misses, and every strike after suffers a -2 penalty. Mindless creatures, constructs, and undead are unaffected; other living creatures are affected even without relying on sight.
+* **Delusion.** A cursed item — the wearer believes it is some other, useful item, and behaves accordingly; unlike the potion, taking damage does not break the illusion, and only *remove curse* can.
+* **Djinni Summoning.** Rubbing the device summons its bound djinni, who appears the next round to protect, serve, and obey the wearer for up to 1 hour per day, usable once per day; if the bound djinni is ever slain, the item loses all magic.
+* **Doom.** Animates up to 3d6 Hit Dice of skeletons or zombies (preferring skeletons where both are available) from remains within 60', as *animate dead*, once per day, capped at 18 Hit Dice of undead active at once; a Magic-User or Cleric activator retains control so long as they hold the item, otherwise the undead attack any living creature nearby.
+* **Fire Resistance.** Continual *resist fire*.
+* **Invisibility.** As the spell, on command; once dispelled, it cannot be reactivated for one full turn, though the base 24-hour duration is otherwise unaffected. 
+* **Levitation.** As the spell, at will by concentration, with no duration limit.
+* **Mind Reading.** A permanent, on-demand form of *mind reading* that activates after one round of concentration and persists as long as the wearer continues; usable as often as desired.
+* **Panic.** All creatures beyond 20' but within 120' of the device when activated must save vs. Spells or flee as if by *cause fear*.
+* **Penetrating Vision.** On command, and for as long as the wearer concentrates (up to one turn, three times per day), see through up to 3' of wood or soil, 1' of stone, or 1" of most metal as if it were glass, in normal light regardless of actual darkness; gold or lead of any thickness blocks the effect entirely.
+* **Protection +1/+2/+3.** Grants the listed bonus to Armor Class and to saving throws while worn.
+* **Protection from Energy Drain.** Absorbs energy drain, death effects (such as *slay living*), and curses, with 2d6 charges when found; the item disintegrates once exhausted.
+* **Protection from Scrying.** The wearer, and any ally within 30', is immune to all forms of scrying (crystal balls, clairvoyance, clairaudience, and similar) though not to mind reading.
+* **Regeneration.** Heals like a Troll — 1 hit point per round — but only damage taken while worn, and not damage from fire or acid.
+* **Scrying.** Usable only by a Magic-User, three times per day for up to a turn each; success chance depends on how well the target or place is known (Secondhand Knowledge 25%, Firsthand Knowledge 55%, Familiar 95%, +25% for a possession or garment, +50% for a body part or similar), with totals of 100% or more needing no roll. Only the user sees the image; no sound is heard, though *detect magic*, *detect evil*, and *mind reading* have a 3% chance per caster level of working through the connection
+* **Scrying, Superior.** As Scrying, but sound is also heard.
+* **Speed.** Grants *haste* on command (or by clicking heels together, for boots), for up to 10 rounds per day total.
+* **Spell Storing.** Holds a fixed set of spells (usually Magic-User, 1 in 10 Clerical, never mixed) cast as if by the lowest-level character able to cast them, minimum 6^th^; any class may wear and use it, though a non-caster may struggle to use it wisely without advice. Recharging requires casting the exact spells originally stored back into the item.
+* **Spell Turning.** Reflects up to 2d6 spells cast directly at the wearer (not area effects) back at their caster.
+* **Stealth.** Grants a 90% chance to move silently, as the Thief ability.
+* **Telekinesis.** As the spell, cast as if by a 12th level Magic-User, usable as often as desired but lasting only as long as the wearer concentrates.
+* **Telepathy.** Three times per day, grants a 90' *mind reading* lasting 1 turn, during which the wearer may also send thoughts back to any creature whose mind they're reading.
+* **Teleportation.** Casts *teleport*, as if by a 12th level Magic-User, up to 3 times per day.
+* **True Seeing.** Three times per day, grants *true seeing* for up to one turn.
+* **Water Walking.** Lets the wearer walk on any liquid surface — mud, oil, snow, quicksand, running water, ice, even lava (though the heat of lava still causes damage) — as if it were solid ground.
+* **Weakness.** A curse: the wearer's Strength immediately drops to 3; only *remove curse* lifts it.
+* **Wishes.** Holds 1d4 wishes when found; the DM must adjudicate all wishes, per the guidance in the DM chapter.
 
 #### Rare Items
 
-**Bag of Devouring.** Indistinguishable from a Bag of Holding, and functions identically at first, but anything placed inside vanishes forever 1d6+6 turns later; the bag continues to weigh as if still full until opened and found empty. **Bag of Holding.** A roughly 2' wide, 4' deep bag opening into an extradimensional space holding up to 500 pounds and 70 cubic feet, weighing one-tenth the total weight of its contents; anything stored must fit through the 4'-circumference opening. Puncturing or tearing the bag destroys its magic and loses the contents forever; turning it inside out dumps everything (the bag survives but stops working until turned right-side out again). A living creature placed inside suffocates within a turn. The bag cannot be overfilled by volume, but tears if lifted while overloaded by weight. Retrieving a specific item requires a full round of searching. **Boots of Traveling and Leaping.** Let the wearer jump up to 10' high and 30' across, and add 10' to land movement rate. **Broom of Flying.** Flies up to 9 hours per day (split as desired), carrying 200 pounds at 40' or up to 400 pounds at 30'; it can also travel alone to a named destination the owner knows well, and returns from up to 300 yards on a spoken command word. **Efreeti Bottle.** An ornate bottle or lamp; activating it (opening or rubbing, once per day) releases smoke that forms into an efreeti. Roll 1d10 on first activation: on a 1 the efreeti has gone mad and attacks until it or the activator is dead; on a 0 it can grant three wishes instead of service, ending its obligation after the final wish is granted; otherwise it serves up to one hour per day for 101 days (counted from first activation regardless of use) before departing for good. **Flying Carpet.** A roughly 5'x8' rug that flies as if a solid surface, carrying up to 500 pounds at 100' per round or up to 1,000 pounds (its maximum) at 50' per round, and can hover on command. **Gauntlets of Ogre Power.** Grant a Strength bonus of +4 (replacing the wearer's own); both gauntlets must be worn. **Girdle of Giant Strength.** Grants a Strength bonus of +5 (replacing the wearer's own) and the ability to throw large stones as a stone giant, for as long as it's worn. **Mirror of Imprisonment.** A full-length mirror set or unset by a spoken command word plus "activate" or "deactivate." While active, anyone within 30' who sees their reflection must save vs. Spells or be drawn bodily inside, along with everything carried, into one of 20 cells; trapped victims are powerless reflections who can be summoned to the mirror's surface to move, speak, and be interrogated (though not compelled to answer truthfully) before being returned or released by command word. The most recent activator, undead, constructs, and anything without eyes are immune. If all cells are full when a new victim is drawn in, a random cell empties to make room, and its former occupant is safe from the mirror for one turn. Breaking the mirror frees everyone trapped inside. **Rope of Climbing.** A 50' rope, about ½" thick, supporting up to 3,000 pounds when tied to a secure anchor. On a spoken command word it animates and moves like a snake at 10' per round in any direction commanded, including straight up, and can tie itself to any anchor point within its 50' reach; it has no strength of its own and cannot lift anything unless anchored.
+* **Bag of Devouring.** Indistinguishable from a Bag of Holding, and functions identically at first, but anything placed inside vanishes forever 1d6+6 turns later; the bag continues to weigh as if still full until opened and found empty.
+* **Bag of Holding.** A roughly 2' wide, 4' deep bag opening into an extradimensional space holding up to 500 pounds and 70 cubic feet, weighing one-tenth the total weight of its contents; anything stored must fit through the 4'-circumference opening. Puncturing or tearing the bag destroys its magic and loses the contents forever; turning it inside out dumps everything (the bag survives but stops working until turned right-side out again). A living creature placed inside suffocates within a turn. The bag cannot be overfilled by volume, but tears if lifted while overloaded by weight. Retrieving a specific item requires a full round of searching.
+* **Boots of Traveling and Leaping.** Let the wearer jump up to 10' high and 30' across, and add 10' to land movement rate
+* **Broom of Flying.** Flies up to 9 hours per day (split as desired), carrying 200 pounds at 40' or up to 400 pounds at 30'; it can also travel alone to a named destination the owner knows well, and returns from up to 300 yards on a spoken command word
+* **Efreeti Bottle.** An ornate bottle or lamp; activating it (opening or rubbing, once per day) releases smoke that forms into an efreeti. Roll 1d10 on first activation: on a 1 the efreeti has gone mad and attacks until it or the activator is dead; on a 0 it can grant three wishes instead of service, ending its obligation after the final wish is granted; otherwise it serves up to one hour per day for 101 days (counted from first activation regardless of use) before departing for good.
+* **Flying Carpet.** A roughly 5'x8' rug that flies as if a solid surface, carrying up to 500 pounds at 100' per round or up to 1,000 pounds (its maximum) at 50' per round, and can hover on command.
+* **Gauntlets of Ogre Power.** Grant a Strength bonus of +4 (replacing the wearer's own); both gauntlets must be worn.
+* **Girdle of Giant Strength.** Grants a Strength bonus of +5 (replacing the wearer's own) and the ability to throw large stones as a stone giant, for as long as it's worn.
+* **Mirror of Imprisonment.** A full-length mirror set or unset by a spoken command word plus "activate" or "deactivate." While active, anyone within 30' who sees their reflection must save vs. Spells or be drawn bodily inside, along with everything carried, into one of 20 cells; trapped victims are powerless reflections who can be summoned to the mirror's surface to move, speak, and be interrogated (though not compelled to answer truthfully) before being returned or released by command word. The most recent activator, undead, constructs, and anything without eyes are immune. If all cells are full when a new victim is drawn in, a random cell empties to make room, and its former occupant is safe from the mirror for one turn. Breaking the mirror frees everyone trapped inside.
+* **Rope of Climbing.** A 50' rope, about ½" thick, supporting up to 3,000 pounds when tied to a secure anchor. On a spoken command word it animates and moves like a snake at 10' per round in any direction commanded, including straight up, and can tie itself to any anchor point within its 50' reach; it has no strength of its own and cannot lift anything unless anchored.
 
 ##### Devices of Summoning Elementals
 
 Each of these devices summons and allows the user to control one elemental of the matching type, following the summoning rules described under the Elemental entry in the Monsters chapter.
 
-**Bowl of Summoning Water Elementals.** A punch-bowl-sized vessel of precious metal set with jewels; fill it with at least a quart of fresh water and speak the command words inscribed around its rim, taking a full round. **Brazier of Summoning Fire Elementals.** A metal, cage-sided brazier about 1½' tall; build a fire in it and speak the command words inscribed around the rim, taking a full round. **Censer of Summoning Air Elementals.** An ornate censer with a perforated lid; place incense inside, light and cover it, and speak the command words inscribed around the lid's edge, taking a full round. **Stone of Summoning Earth Elementals.** A roughly-cut, highly-polished stone showing a vein or cluster of precious or semi-precious material; hold it and speak the command words inscribed on its smoothest face, taking a full round.
+* **Bowl of Summoning Water Elementals.** A punch-bowl-sized vessel of precious metal set with jewels; fill it with at least a quart of fresh water and speak the command words inscribed around its rim, taking a full round.
+* **Brazier of Summoning Fire Elementals.** A metal, cage-sided brazier about 1½' tall; build a fire in it and speak the command words inscribed around the rim, taking a full round.
+* **Censer of Summoning Air Elementals.** An ornate censer with a perforated lid; place incense inside, light and cover it, and speak the command words inscribed around the lid's edge, taking a full round.
+* **Stone of Summoning Earth Elementals.** A roughly-cut, highly-polished stone showing a vein or cluster of precious or semi-precious material; hold it and speak the command words inscribed on its smoothest face, taking a full round.
 
 ::: twocolumn-pdf-end
 :::
