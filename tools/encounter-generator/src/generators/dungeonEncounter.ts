@@ -7,6 +7,7 @@ import { findRowByRoll, cellText } from "../lib/rangeTable";
 import { resolveMonsterLink, type ResolvedMonster } from "../lib/resolveMonster";
 import { parseCountSpec, rollAppearing, type AppearingSpec } from "../lib/numberAppearing";
 import { pickLinkFromCell } from "../lib/cellChoice";
+import { checkPowerMismatch, levelBandForDungeonLevel, type PartyLevelBand } from "../lib/powerLevel";
 
 const DATA = dungeonData as unknown as {
   matrix: Table;
@@ -40,6 +41,10 @@ export interface DungeonEncounterResult {
   adjustedCount: number;
   npcLevelBoost: number;
   choiceNote?: string;
+  /** The party-level band this result is actually appropriate for, when it exceeds the band the
+   * dungeon level itself implies (see src/lib/powerLevel.ts) — defense-in-depth on top of the
+   * Monster Sub-table Matrix's own scaling. */
+  outOfPlace: PartyLevelBand | null;
 }
 
 /** The book's "lesser monsters scale up / greater monsters scale down (min 1) / NPC parties
@@ -104,9 +109,13 @@ export function rollDungeonEncounter(dungeonLevel: string): DungeonEncounterResu
     ? { count: 0, npcLevelBoost: Math.max(0, monsterLevel - dungeonLevelNumber(dungeonLevel)) }
     : adjustCount(rolledCount, dungeonLevel, monsterLevel);
 
+  const primaryMonster = dragon?.monster ?? monster;
+  const outOfPlace = primaryMonster ? checkPowerMismatch(primaryMonster.stats["Hit Dice"], levelBandForDungeonLevel(dungeonLevel)) : null;
+
   return {
     dungeonLevel, matrixRoll, monsterLevel, tableRoll,
     monsterLabel, monster, isNpcParty, dragon,
     countSpec, rolledCount, adjustedCount, npcLevelBoost, choiceNote,
+    outOfPlace,
   };
 }

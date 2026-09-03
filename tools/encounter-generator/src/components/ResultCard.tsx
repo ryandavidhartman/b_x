@@ -113,6 +113,14 @@ function DragonTreasureControls({ onReroll }: { onReroll: (ageCategory: number, 
   );
 }
 
+function OutOfPlaceBanner({ band }: { band: string }) {
+  return (
+    <div className="fallback-note">
+      This is more appropriate for a level {band} party — consider rerolling, treating it as a rumor/sighting, or letting it stand as a dangerous surprise.
+    </div>
+  );
+}
+
 function DungeonCard({
   result,
   treasure,
@@ -145,6 +153,7 @@ function DungeonCard({
       {result.adjustedCount !== result.rolledCount && !result.isNpcParty && (
         <p className="hint">Base roll {result.rolledCount}, adjusted to {result.adjustedCount} for the dungeon-level mismatch.</p>
       )}
+      {result.outOfPlace && <OutOfPlaceBanner band={result.outOfPlace} />}
       {treasure && <TreasureBlock hoard={treasure} />}
       {result.dragon && <DragonTreasureControls onReroll={onRerollDragonTreasure} />}
     </>
@@ -177,6 +186,7 @@ function WildernessCard({
         <div className="fallback-note">NPC Party rolled ({result.npcParty.archetype}) — see the NPC Party mode for full details.</div>
       )}
       {!result.monster && !result.npcParty && <p className="hint"><RollableText text={result.resultRaw} /></p>}
+      {result.outOfPlace && <OutOfPlaceBanner band={result.outOfPlace} />}
       {treasure && <TreasureBlock hoard={treasure} />}
       {isDragon && <DragonTreasureControls onReroll={onRerollDragonTreasure} />}
     </>

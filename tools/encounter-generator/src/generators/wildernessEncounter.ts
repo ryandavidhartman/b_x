@@ -11,7 +11,10 @@ import { findRowByRoll, cellText } from "../lib/rangeTable";
 import { resolveMonsterLink, type ResolvedMonster } from "../lib/resolveMonster";
 import { parseNumberAppearing, rollAppearing } from "../lib/numberAppearing";
 import { pickLinkFromCell } from "../lib/cellChoice";
+import { checkPowerMismatch, type PartyLevelBand } from "../lib/powerLevel";
 import { rollNpcParty, type Archetype } from "./npcParty";
+
+export type { PartyLevelBand };
 
 const WILD = wildernessData as unknown as {
   categorySummary: Table;
@@ -38,8 +41,6 @@ const CATEGORY_ORDER = [
   "Monster", "NPC", "Undead", "Invertebrates", "Water", "Special",
 ];
 
-export type PartyLevelBand = "1-3" | "4-6" | "7+";
-
 function levelDie(band: PartyLevelBand): number {
   if (band === "1-3") return 8;
   if (band === "4-6") return 14;
@@ -56,6 +57,10 @@ export interface WildernessEncounterResult {
   npcParty: ReturnType<typeof rollNpcParty> | null;
   dinosaur: { subCategory: string; era: string } | null;
   choiceNote?: string;
+  /** The party-level band this result is actually appropriate for, when it exceeds the party's
+   * current band (see src/lib/powerLevel.ts) — e.g. Dragon/Giant categories are gated by how
+   * rarely they're rolled at all, not by row, so this can still fire even on a "clean" roll. */
+  outOfPlace: PartyLevelBand | null;
 }
 
 export function rollWildernessEncounter(terrain: string, partyLevel: PartyLevelBand, airborne = false): WildernessEncounterResult {
@@ -104,7 +109,9 @@ export function rollWildernessEncounter(terrain: string, partyLevel: PartyLevelB
     count = rollAppearing(appearing.wilderness);
   }
 
-  return { terrain, category, levelRoll, resultRaw, monster, count, npcParty, dinosaur, choiceNote };
+  const outOfPlace = monster ? checkPowerMismatch(monster.stats["Hit Dice"], partyLevel) : null;
+
+  return { terrain, category, levelRoll, resultRaw, monster, count, npcParty, dinosaur, choiceNote, outOfPlace };
 }
 
 function resolveCategory(terrain: string): string {

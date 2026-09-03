@@ -8795,26 +8795,26 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
 |---|---|---|---|---|---|---|
-| 1 | [Bat](#bat) | [Baboon](#baboon) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | Castle | [Bugbear](#bugbear) |
-| 2 | [Bat](#bat) | [Bear, Black](#bear) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Dwarf](#dwarf) | [Gnoll](#gnoll) |
-| 3 | [Bat](#bat) | [Boar](#boar) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Elf](#elf) | [Gnoll](#gnoll) |
-| 4 | [Bat](#bat) | [Cat, Great](#cat-great) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | Fishing Village | [Gnoll](#gnoll) |
-| 5 | [Bat, Giant](#bat) | [Cattle](#cattle) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Gnome](#gnome) | [Goblin](#goblin) |
-| 6 | [Bat, Giant](#bat) | [Cat, Great](#cat-great) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Halfling](#halfling) | [Troglodyte](#troglodyte) |
-| 7 | [Flightless Bird](#flightless-bird) | [Dog](#dog) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | Hamlet | [Hobgoblin](#hobgoblin) |
-| 8 | [Flightless Bird](#flightless-bird) | [Elephant](#elephant) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
-| 9 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Bronze](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
-| 10 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Bronze](#dragon) | [Giant, Hill](#giant) | [Men, Brigand](#men) | [Kobold](#kobold) |
-| 11 | [Flightless Bird](#flightless-bird) | [Hyena](#hyena) | [Dragon, Gold](#dragon) | [Giant, Hill](#giant) | [Men, Brigand](#men) | [Orc](#orc) |
-| 12 | [Eagle, Giant](#eagle-giant) | [Jackal](#jackal) | [Dragon, Green](#dragon) | [Giant, Hill](#giant) | [Men, Buccaneer / Pirate](#men) | [Orc](#orc) |
-| 13 | [Chimera](#chimera) | [Lizards, Giant](#lizards-giant) | [Dragon, Green](#dragon) | [Giant, Hill](#giant) | [Men, Buccaneer / Pirate](#men) | [Orc](#orc) |
-| 14 | [Cockatrice](#cockatrice) | [Lizards, Giant](#lizards-giant) | [Dragon, Green](#dragon) | [Giant, Hill](#giant) | [Men, Merchant](#men) | [Orc](#orc) |
-| 15 | [Shedu](#shedu) | [Rat](#rat) | [Dragon, Green](#dragon) | [Giant, Hill](#giant) | [Men, Merchant](#men) | [Orc](#orc) |
-| 16 | [Sphinx](#sphinx) | [Rat](#rat) | [Dragon, Red](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Orc](#orc) |
-| 17 | [Sphinx](#sphinx) | [Rhinoceros](#rhinoceros) | [Dragon, Red](#dragon) | [Giant, Storm](#giant) | [Men, Nomad](#men) | [Troglodyte](#troglodyte) |
-| 18 | [Stirge](#stirge) | [Snake, Pit Viper](#snake) | [Dragon, Red](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
-| 19 | [Stirge](#stirge) | [Snake, Rock Python](#snake) | [Dragon, Red](#dragon) | [Giant, Storm](#giant) | [Men, Buccaneer / Pirate](#men) | [Troll](#troll) |
-| 20 | [Stirge](#stirge) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Giant, Storm](#giant) | [Men, Buccaneer / Pirate](#men) | [Troll](#troll) |
+| 1 | [Bat](#bat) | [Hyena](#hyena) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | Castle | [Bugbear](#bugbear) |
+| 2 | [Bat](#bat) | [Jackal](#jackal) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Dwarf](#dwarf) | [Gnoll](#gnoll) |
+| 3 | [Bat](#bat) | [Rat](#rat) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Elf](#elf) | [Gnoll](#gnoll) |
+| 4 | [Bat](#bat) | [Rat](#rat) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | Fishing Village | [Gnoll](#gnoll) |
+| 5 | [Stirge](#stirge) | [Baboon](#baboon) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Gnome](#gnome) | [Goblin](#goblin) |
+| 6 | [Stirge](#stirge) | [Dog](#dog) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Halfling](#halfling) | [Troglodyte](#troglodyte) |
+| 7 | [Stirge](#stirge) | [Snake, Pit Viper](#snake) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | Hamlet | [Hobgoblin](#hobgoblin) |
+| 8 | [Bat, Giant](#bat) | [Boar](#boar) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
+| 9 | [Bat, Giant](#bat) | [Horse](#horse) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
+| 10 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Men, Brigand](#men) | [Kobold](#kobold) |
+| 11 | [Flightless Bird](#flightless-bird) | [Bear, Black](#bear) | [Dragon, Bronze](#dragon) | [Giant, Hill](#giant) | [Men, Brigand](#men) | [Orc](#orc) |
+| 12 | [Flightless Bird](#flightless-bird) | [Cattle](#cattle) | [Dragon, Bronze](#dragon) | [Giant, Hill](#giant) | [Men, Buccaneer / Pirate](#men) | [Orc](#orc) |
+| 13 | [Flightless Bird](#flightless-bird) | [Wolf](#wolf) | [Dragon, Bronze](#dragon) | [Giant, Hill](#giant) | [Men, Buccaneer / Pirate](#men) | [Orc](#orc) |
+| 14 | [Flightless Bird](#flightless-bird) | [Snake, Rock Python](#snake) | [Dragon, Bronze](#dragon) | [Giant, Hill](#giant) | [Men, Merchant](#men) | [Orc](#orc) |
+| 15 | [Eagle, Giant](#eagle-giant) | [Cat, Great](#cat-great) | [Dragon, Gold](#dragon) | [Giant, Hill](#giant) | [Men, Merchant](#men) | [Orc](#orc) |
+| 16 | [Cockatrice](#cockatrice) | [Cat, Great](#cat-great) | [Dragon, Green](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Orc](#orc) |
+| 17 | [Shedu](#shedu) | [Lizards, Giant](#lizards-giant) | [Dragon, Green](#dragon) | [Giant, Storm](#giant) | [Men, Nomad](#men) | [Troglodyte](#troglodyte) |
+| 18 | [Chimera](#chimera) | [Lizards, Giant](#lizards-giant) | [Dragon, Green](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
+| 19 | [Sphinx](#sphinx) | [Rhinoceros](#rhinoceros) | [Dragon, Green](#dragon) | [Giant, Storm](#giant) | [Men, Buccaneer / Pirate](#men) | [Troll](#troll) |
+| 20 | [Sphinx](#sphinx) | [Elephant](#elephant) | [Dragon, Green](#dragon) | [Giant, Storm](#giant) | [Men, Buccaneer / Pirate](#men) | [Troll](#troll) |
 
 ```{=latex}
 \filbreak
@@ -8824,51 +8824,51 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
-| 1 | [Basilisk](#basilisk) | Decoys | [Ghast](#ghast) | [Ant, Giant](#ant-giant) | [Beetle, Giant](#beetle-giant) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
-| 2 | [Lizards, Giant](#lizards-giant) | Decoys | [Ghast](#ghast) | [Ant, Giant](#ant-giant) | [Crayfish, Giant](#crayfish-giant) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
-| 3 | [Blink Dog](#blink-dog) | Escapees | [Ghoul](#ghoul) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
-| 4 | [Blink Dog](#blink-dog) | Escapees | [Ghoul](#ghoul) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee) |
-| 5 | [Bulette](#bulette) | Escapees | [Ghoul](#ghoul) | [Beetle, Giant](#beetle-giant) | [Eel](#eel) | [Barbed Devil](#barbed-devil) |
-| 6 | [Cat, Great](#cat-great) | Joiners | [Ghoul](#ghoul) | [Beetle, Giant](#beetle-giant) | [Eel](#eel) | [Bone Devil](#bone-devil) |
-| 7 | [Centaur](#centaur) | Joiners | [Ghoul](#ghoul) | [Beetle, Giant](#beetle-giant) | [Fish, Giant](#fish-giant) | [Barbed Devil](#barbed-devil) |
-| 8 | [Cyclops](#cyclops) | Joiners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Fish, Giant](#fish-giant) | [Barbed Devil](#barbed-devil) |
-| 9 | [Basilisk](#basilisk) | Joiners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Frog, Giant](#frog-giant) | [Elemental, Air](#elemental) |
-| 10 | [Hellhound](#hellhound) | Runners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Hippopotamus](#hippopotamus) | [Elemental, Air](#elemental) |
-| 11 | [Wererat](#wererat) | Runners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Locathah](#locathah) | [Elemental, Water](#elemental) |
-| 12 | [Naga](#naga) | Searchers | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Naga](#naga) | [Elemental, Water](#elemental) |
-| 13 | [Lizard Man](#lizard-man) | Searchers | [Will-O-Wisp](#will-o-wisp) | [Fly, Robber](#fly-robber) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Elemental, Water](#elemental) |
-| 14 | [Lizard Man](#lizard-man) | Searchers | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Elemental, Water](#elemental) |
-| 15 | [Lizard Man](#lizard-man) | Searchers | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Homunculus](#homunculus) |
-| 16 | [Lizards, Giant](#lizards-giant) | Searchers | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Turtle, Giant](#turtle-giant) | [Invisible Stalker](#invisible-stalker) |
-| 17 | [Owl Bear](#owl-bear) | Survivors | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Turtle, Giant](#turtle-giant) | [Invisible Stalker](#invisible-stalker) |
-| 18 | [Owl Bear](#owl-bear) | [Wolf](#wolf) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Termite, Water](#termite-water) | [Night Hag](#night-hag) |
-| 19 | [Pseudo-Dragon](#pseudo-dragon) | [Wolf](#wolf) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Triton](#triton) | [Pixie](#pixie) |
-| 20 | [Wolf](#wolf) | [Wolf](#wolf) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Dragon Turtle](#dragon-turtle) | [Rakshasa](#rakshasa) |
+| 1 | [Pseudo-Dragon](#pseudo-dragon) | Decoys | [Ghast](#ghast) | [Centipede, Giant](#centipede-giant) | [Frog, Giant](#frog-giant) | [Pixie](#pixie) |
+| 2 | [Lizard Man](#lizard-man) | Decoys | [Ghast](#ghast) | [Centipede, Giant](#centipede-giant) | [Locathah](#locathah) | [Pixie](#pixie) |
+| 3 | [Lizard Man](#lizard-man) | Escapees | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Nixies](#nixies) |
+| 4 | [Lizard Man](#lizard-man) | Escapees | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Nixies](#nixies) |
+| 5 | [Centaur](#centaur) | Escapees | [Ghoul](#ghoul) | [Fly, Robber](#fly-robber) | [Triton](#triton) | [Sprite](#sprite) |
+| 6 | [Blink Dog](#blink-dog) | Joiners | [Ghoul](#ghoul) | [Fly, Robber](#fly-robber) | [Crayfish, Giant](#crayfish-giant) | [Sprite](#sprite) |
+| 7 | [Blink Dog](#blink-dog) | Joiners | [Ghoul](#ghoul) | [Spider, Giant](#spider-giant) | [Termite, Water](#termite-water) | [Homunculus](#homunculus) |
+| 8 | [Wolf](#wolf) | Joiners | [Skeleton](#skeleton) | [Spider, Giant](#spider-giant) | [Eel](#eel) | [Pseudo-Dragon](#pseudo-dragon) |
+| 9 | [Owl Bear](#owl-bear) | Joiners | [Skeleton](#skeleton) | [Wasp, Giant](#wasp-giant) | [Eel](#eel) | [Rakshasa](#rakshasa) |
+| 10 | [Owl Bear](#owl-bear) | Runners | [Skeleton](#skeleton) | [Wasp, Giant](#wasp-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
+| 11 | [Wererat](#wererat) | Runners | [Skeleton](#skeleton) | [Wasp, Giant](#wasp-giant) | [Hippopotamus](#hippopotamus) | [Barbed Devil](#barbed-devil) |
+| 12 | [Cat, Great](#cat-great) | Searchers | [Skeleton](#skeleton) | [Wasp, Giant](#wasp-giant) | [Fish, Giant](#fish-giant) | [Barbed Devil](#barbed-devil) |
+| 13 | [Basilisk](#basilisk) | Searchers | [Will-O-Wisp](#will-o-wisp) | [Wasp, Giant](#wasp-giant) | [Fish, Giant](#fish-giant) | [Invisible Stalker](#invisible-stalker) |
+| 14 | [Basilisk](#basilisk) | Searchers | [Zombie](#zombie) | [Ant, Giant](#ant-giant) | [Naga](#naga) | [Night Hag](#night-hag) |
+| 15 | [Lizards, Giant](#lizards-giant) | Searchers | [Zombie](#zombie) | [Ant, Giant](#ant-giant) | [Beetle, Giant](#beetle-giant) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
+| 16 | [Lizards, Giant](#lizards-giant) | Searchers | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
+| 17 | [Hellhound](#hellhound) | Survivors | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Bone Devil](#bone-devil) |
+| 18 | [Bulette](#bulette) | [Wolf](#wolf) | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Turtle, Giant](#turtle-giant) | [Elemental, Water](#elemental) |
+| 19 | [Naga](#naga) | [Wolf](#wolf) | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Turtle, Giant](#turtle-giant) | [Elemental, Water](#elemental) |
+| 20 | [Cyclops](#cyclops) | [Wolf](#wolf) | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Dragon Turtle](#dragon-turtle) | [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee) |
 
 #### Arctic
 
 | 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
 |---|---|---|---|---|---|---|
-| 1 | [Flightless Bird](#flightless-bird) | [Bear, Cave](#bear-cave) | [Dragon, Black](#dragon) | [Giant, Cloud](#giant) | [Dwarf](#dwarf) | [Bugbear](#bugbear) |
-| 2 | [Flightless Bird](#flightless-bird) | [Bear, Cave](#bear-cave) | [Dragon, Black](#dragon) | [Giant, Cloud](#giant) | [Dwarf](#dwarf) | [Bugbear](#bugbear) |
-| 3 | [Eagle, Giant](#eagle-giant) | [Bear, Cave](#bear-cave) | [Dragon, Black](#dragon) | [Giant, Frost](#giant) | [Dwarf](#dwarf) | [Gnoll](#gnoll) |
-| 4 | [Chimera](#chimera) | [Bear, Cave](#bear-cave) | [Dragon, Black](#dragon) | [Giant, Frost](#giant) | [Men, Bandit](#men) | [Gnoll](#gnoll) |
-| 5 | [Cockatrice](#cockatrice) | [Dog](#dog) | [Dragon, Black](#dragon) | [Giant, Frost](#giant) | [Men, Bandit](#men) | [Gnoll](#gnoll) |
-| 6 | [Cockatrice](#cockatrice) | [Dog](#dog) | [Dragon, Black](#dragon) | [Giant, Frost](#giant) | [Men, Bandit](#men) | [Gnoll](#gnoll) |
-| 7 | [Griffon](#griffon) | [Dog](#dog) | [Dragon, Bronze](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Goblin](#goblin) |
-| 8 | [Harpy](#harpy) | [Dog](#dog) | [Dragon, Bronze](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Goblin](#goblin) |
-| 9 | [Hippogriff](#hippogriff) | [Sea Lion](#sea-lion) | [Dragon, Bronze](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Hobgoblin](#hobgoblin) |
-| 10 | [Nightmare](#nightmare) | [Sea Lion](#sea-lion) | [Dragon, Red](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Hobgoblin](#hobgoblin) |
-| 11 | [Pegasus](#pegasus) | [Sea Lion](#sea-lion) | [Dragon, Red](#dragon) | [Giant, Frost](#giant) | [Men, Brigand](#men) | [Hobgoblin](#hobgoblin) |
-| 12 | [Roc](#roc) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Men, Brigand](#men) | [Troll](#troll) |
-| 13 | [Shedu](#shedu) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Men, Brigand](#men) | [Troll](#troll) |
-| 14 | [Sphinx](#sphinx) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
-| 15 | [Sphinx](#sphinx) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
-| 16 | [Sphinx](#sphinx) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Stone](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
-| 17 | [Sphinx](#sphinx) | [Wolverine](#wolverine) | [Dragon, White](#dragon) | [Giant, Stone](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
-| 18 | [Stirge](#stirge) | [Wolverine](#wolverine) | [Dragon, White](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
-| 19 | [Stirge](#stirge) | [Wolverine](#wolverine) | [Dragon, White](#dragon) | [Giant, Storm](#giant) | [Werewolf](#werewolf) | [Troll](#troll) |
-| 20 | [Wyvern](#wyvern) | [Wolverine](#wolverine) | [Dragon, White](#dragon) | [Giant, Storm](#giant) | [Werewolf](#werewolf) | [Troll](#troll) |
+| 1 | [Stirge](#stirge) | [Dog](#dog) | [Dragon, White](#dragon) | [Giant, Cloud](#giant) | [Dwarf](#dwarf) | [Bugbear](#bugbear) |
+| 2 | [Stirge](#stirge) | [Dog](#dog) | [Dragon, White](#dragon) | [Giant, Cloud](#giant) | [Dwarf](#dwarf) | [Bugbear](#bugbear) |
+| 3 | [Pegasus](#pegasus) | [Dog](#dog) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Dwarf](#dwarf) | [Gnoll](#gnoll) |
+| 4 | [Flightless Bird](#flightless-bird) | [Dog](#dog) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Men, Bandit](#men) | [Gnoll](#gnoll) |
+| 5 | [Flightless Bird](#flightless-bird) | [Wolverine](#wolverine) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Men, Bandit](#men) | [Gnoll](#gnoll) |
+| 6 | [Harpy](#harpy) | [Wolverine](#wolverine) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Men, Bandit](#men) | [Gnoll](#gnoll) |
+| 7 | [Hippogriff](#hippogriff) | [Wolverine](#wolverine) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Goblin](#goblin) |
+| 8 | [Eagle, Giant](#eagle-giant) | [Wolverine](#wolverine) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Goblin](#goblin) |
+| 9 | [Cockatrice](#cockatrice) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Hobgoblin](#hobgoblin) |
+| 10 | [Cockatrice](#cockatrice) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Hobgoblin](#hobgoblin) |
+| 11 | [Nightmare](#nightmare) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Men, Brigand](#men) | [Hobgoblin](#hobgoblin) |
+| 12 | [Griffon](#griffon) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Men, Brigand](#men) | [Troll](#troll) |
+| 13 | [Wyvern](#wyvern) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Giant, Frost](#giant) | [Men, Brigand](#men) | [Troll](#troll) |
+| 14 | [Chimera](#chimera) | [Sea Lion](#sea-lion) | [Dragon, Red](#dragon) | [Giant, Frost](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
+| 15 | [Shedu](#shedu) | [Sea Lion](#sea-lion) | [Dragon, Red](#dragon) | [Giant, Frost](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
+| 16 | [Sphinx](#sphinx) | [Sea Lion](#sea-lion) | [Dragon, Red](#dragon) | [Giant, Stone](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
+| 17 | [Sphinx](#sphinx) | [Bear, Cave](#bear-cave) | [Dragon, Bronze](#dragon) | [Giant, Stone](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
+| 18 | [Sphinx](#sphinx) | [Bear, Cave](#bear-cave) | [Dragon, Bronze](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
+| 19 | [Sphinx](#sphinx) | [Bear, Cave](#bear-cave) | [Dragon, Gold](#dragon) | [Giant, Storm](#giant) | [Werewolf](#werewolf) | [Troll](#troll) |
+| 20 | [Roc](#roc) | [Bear, Cave](#bear-cave) | [Dragon, Gold](#dragon) | [Giant, Storm](#giant) | [Werewolf](#werewolf) | [Troll](#troll) |
 
 ```{=latex}
 \filbreak
@@ -8878,51 +8878,51 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
-| 1 | [Basilisk](#basilisk) | Decoys | [Ghost](#ghost) | [Ant, Giant](#ant-giant) | [Pike, Giant](#pike-giant) | [Aerial Servant](#aerial-servant) |
-| 2 | [Blink Dog](#blink-dog) | Decoys | [Ghost](#ghost) | [Ant, Giant](#ant-giant) | [Pike, Giant](#pike-giant) | [Hellhound](#hellhound) |
-| 3 | [Blink Dog](#blink-dog) | Escapees | [Ghost](#ghost) | [Ant, Giant](#ant-giant) | [Crab, Giant](#crab-giant) | [Hellhound](#hellhound) |
-| 4 | [Blink Dog](#blink-dog) | Escapees | [Ghost](#ghost) | [Ant, Giant](#ant-giant) | [Eel](#eel) | [Bone Devil](#bone-devil) |
-| 5 | [Displacer Beast](#displacer-beast) | Escapees | [Groaning Spirit](#groaning-spirit) | [Beetle, Giant](#beetle-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu) |
-| 6 | [Naga](#naga) | Joiners | [Groaning Spirit](#groaning-spirit) | [Beetle, Giant](#beetle-giant) | [Octopus, Giant](#octopus-giant) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
-| 7 | [Owl Bear](#owl-bear) | Joiners | [Groaning Spirit](#groaning-spirit) | [Beetle, Giant](#beetle-giant) | [Nixies](#nixies) | [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee) |
-| 8 | [Remorhaz](#remorhaz) | Joiners | [Shadow](#shadow) | [Beetle, Giant](#beetle-giant) | [Octopus, Giant](#octopus-giant) | [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee) |
-| 9 | [Remorhaz](#remorhaz) | Joiners | [Shadow](#shadow) | [Beetle, Giant](#beetle-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Succubus](#succubus) |
-| 10 | [Remorhaz](#remorhaz) | Runners | [Vampire](#vampire) | [Beetle, Giant](#beetle-giant) | [Shark](#shark) | [Night Hag](#night-hag) |
-| 11 | [Remorhaz](#remorhaz) | Runners | [Vampire](#vampire) | [Beetle, Giant](#beetle-giant) | [Shark](#shark) | [Ice Devil](#ice-devil) |
-| 12 | [Remorhaz](#remorhaz) | Searchers | [Vampire](#vampire) | [Beetle, Giant](#beetle-giant) | [Squid, Giant](#squid-giant) | [Cat, Great](#cat-great) |
-| 13 | [Wolf](#wolf) | Searchers | [Vampire](#vampire) | [Beetle, Giant](#beetle-giant) | [Squid, Giant](#squid-giant) | [Hobgoblin](#hobgoblin) |
-| 14 | [Wolf](#wolf) | Searchers | [Wight](#wight) | [Beetle, Giant](#beetle-giant) | [Sea Lion](#sea-lion) | [Imp](#imp) |
-| 15 | [Wolf](#wolf) | Searchers | [Wight](#wight) | [Displacer Beast](#displacer-beast) | [Sea Lion](#sea-lion) | [Night Hag](#night-hag) |
-| 16 | [Wolf](#wolf) | Searchers | [Wight](#wight) | [Displacer Beast](#displacer-beast) | [Sea Lion](#sea-lion) | [Lemure](#lemure) |
-| 17 | [Yeti](#yeti) | Survivors | [Will-O-Wisp](#will-o-wisp) | [Displacer Beast](#displacer-beast) | [Sea Lion](#sea-lion) | [Bone Devil](#bone-devil) |
-| 18 | [Yeti](#yeti) | [Wolf](#wolf) | [Will-O-Wisp](#will-o-wisp) | [Displacer Beast](#displacer-beast) | [Sea Lion](#sea-lion) | [Men, Dervish](#men) |
-| 19 | [Yeti](#yeti) | [Wolf](#wolf) | [Will-O-Wisp](#will-o-wisp) | [Displacer Beast](#displacer-beast) | [Sea Lion](#sea-lion) | [Quasit](#quasit) |
-| 20 | [Yeti](#yeti) | [Wolf](#wolf) | [Will-O-Wisp](#will-o-wisp) | [Displacer Beast](#displacer-beast) | [Sea Lion](#sea-lion) | [Quasit](#quasit) |
+| 1 | [Blink Dog](#blink-dog) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Nixies](#nixies) | [Sprite](#sprite) |
+| 2 | [Blink Dog](#blink-dog) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Crab, Giant](#crab-giant) | [Sprite](#sprite) |
+| 3 | [Blink Dog](#blink-dog) | Escapees | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Pike, Giant](#pike-giant) | [Pixie](#pixie) |
+| 4 | [Wolf](#wolf) | Escapees | [Zombie](#zombie) | [Centipede, Giant](#centipede-giant) | [Pike, Giant](#pike-giant) | [Pixie](#pixie) |
+| 5 | [Wolf](#wolf) | Escapees | [Zombie](#zombie) | [Centipede, Giant](#centipede-giant) | [Eel](#eel) | [Hobgoblin](#hobgoblin) |
+| 6 | [Wolf](#wolf) | Joiners | [Zombie](#zombie) | [Centipede, Giant](#centipede-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Men, Dervish](#men) |
+| 7 | [Wolf](#wolf) | Joiners | [Shadow](#shadow) | [Spider, Giant](#spider-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Imp](#imp) |
+| 8 | [Yeti](#yeti) | Joiners | [Shadow](#shadow) | [Spider, Giant](#spider-giant) | [Squid, Giant](#squid-giant) | [Lemure](#lemure) |
+| 9 | [Yeti](#yeti) | Joiners | [Wight](#wight) | [Spider, Giant](#spider-giant) | [Squid, Giant](#squid-giant) | [Quasit](#quasit) |
+| 10 | [Yeti](#yeti) | Runners | [Wight](#wight) | [Spider, Giant](#spider-giant) | [Sea Lion](#sea-lion) | [Succubus](#succubus) |
+| 11 | [Yeti](#yeti) | Runners | [Wight](#wight) | [Wasp, Giant](#wasp-giant) | [Sea Lion](#sea-lion) | [Hellhound](#hellhound) |
+| 12 | [Owl Bear](#owl-bear) | Searchers | [Groaning Spirit](#groaning-spirit) | [Wasp, Giant](#wasp-giant) | [Sea Lion](#sea-lion) | [Hellhound](#hellhound) |
+| 13 | [Basilisk](#basilisk) | Searchers | [Groaning Spirit](#groaning-spirit) | [Wasp, Giant](#wasp-giant) | [Sea Lion](#sea-lion) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
+| 14 | [Displacer Beast](#displacer-beast) | Searchers | [Groaning Spirit](#groaning-spirit) | [Wasp, Giant](#wasp-giant) | [Sea Lion](#sea-lion) | [Night Hag](#night-hag) |
+| 15 | [Naga](#naga) | Searchers | [Vampire](#vampire) | [Ant, Giant](#ant-giant) | [Sea Lion](#sea-lion) | [Night Hag](#night-hag) |
+| 16 | [Remorhaz](#remorhaz) | Searchers | [Vampire](#vampire) | [Ant, Giant](#ant-giant) | [Sea Lion](#sea-lion) | [Bone Devil](#bone-devil) |
+| 17 | [Remorhaz](#remorhaz) | Survivors | [Will-O-Wisp](#will-o-wisp) | [Ant, Giant](#ant-giant) | [Octopus, Giant](#octopus-giant) | [Bone Devil](#bone-devil) |
+| 18 | [Remorhaz](#remorhaz) | [Wolf](#wolf) | [Will-O-Wisp](#will-o-wisp) | [Beetle, Giant](#beetle-giant) | [Octopus, Giant](#octopus-giant) | [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu) |
+| 19 | [Remorhaz](#remorhaz) | [Wolf](#wolf) | [Ghost](#ghost) | [Beetle, Giant](#beetle-giant) | [Shark](#shark) | [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee) |
+| 20 | [Remorhaz](#remorhaz) | [Wolf](#wolf) | [Ghost](#ghost) | [Beetle, Giant](#beetle-giant) | [Shark](#shark) | [Ice Devil](#ice-devil) |
 
 #### Desert
 
 | 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
 |---|---|---|---|---|---|---|
-| 1 | [Flightless Bird](#flightless-bird) | [Camel](#camel) | [Dragon, Blue](#dragon) | [Giant, Cloud](#giant) | [Men, Bandit](#men) | [Gnoll](#gnoll) |
-| 2 | [Flightless Bird](#flightless-bird) | [Camel](#camel) | [Dragon, Blue](#dragon) | [Giant, Cloud](#giant) | [Men, Bandit](#men) | [Gnoll](#gnoll) |
-| 3 | [Flightless Bird](#flightless-bird) | [Camel](#camel) | [Dragon, Blue](#dragon) | [Giant, Cloud](#giant) | [Men, Bandit](#men) | [Gnoll](#gnoll) |
-| 4 | [Flightless Bird](#flightless-bird) | [Cat, Great](#cat-great) | [Dragon, Blue](#dragon) | [Ogre](#ogre) | [Men, Brigand](#men) | [Gnoll](#gnoll) |
-| 5 | [Chimera](#chimera) | [Cat, Great](#cat-great) | [Dragon, Brass](#dragon) | [Ogre](#ogre) | [Men, Brigand](#men) | [Gnoll](#gnoll) |
-| 6 | [Chimera](#chimera) | [Dog](#dog) | [Dragon, Brass](#dragon) | [Ogre](#ogre) | [Men, Brigand](#men) | [Gnoll](#gnoll) |
-| 7 | [Cockatrice](#cockatrice) | [Horse](#horse) | [Dragon, Brass](#dragon) | [Ogre](#ogre) | [Men, Dervish](#men) | [Goblin](#goblin) |
-| 8 | [Cockatrice](#cockatrice) | [Jackal](#jackal) | [Dragon, Brass](#dragon) | [Ogre](#ogre) | [Men, Dervish](#men) | [Troglodyte](#troglodyte) |
-| 9 | [Cockatrice](#cockatrice) | [Jackal](#jackal) | [Dragon, Bronze](#dragon) | [Ogre](#ogre) | [Men, Dervish](#men) | [Troglodyte](#troglodyte) |
-| 10 | [Manticore](#manticore) | [Jackal](#jackal) | [Dragon, Bronze](#dragon) | [Ogre](#ogre) | [Men, Dervish](#men) | [Hobgoblin](#hobgoblin) |
-| 11 | [Manticore](#manticore) | [Jackal](#jackal) | [Dragon, Copper](#dragon) | [Ogre](#ogre) | [Men, Dervish](#men) | [Orc](#orc) |
-| 12 | [Manticore](#manticore) | [Jackal](#jackal) | [Dragon, Copper](#dragon) | [Ogre](#ogre) | [Men, Nomad](#men) | [Orc](#orc) |
-| 13 | [Nightmare](#nightmare) | [Rat](#rat) | [Dragon, Gold](#dragon) | [Ogre](#ogre) | [Men, Nomad](#men) | [Orc](#orc) |
-| 14 | [Roc](#roc) | [Rat](#rat) | [Dragon, Gold](#dragon) | [Ogre](#ogre) | [Men, Nomad](#men) | [Troll](#troll) |
-| 15 | [Roc](#roc) | [Rat](#rat) | [Dragon, Green](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Nomad](#men) | [Troll](#troll) |
-| 16 | [Sphinx](#sphinx) | [Rat](#rat) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Troll](#troll) |
-| 17 | [Sphinx](#sphinx) | [Snake, Pit Viper](#snake) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Troll](#troll) |
-| 18 | [Sphinx](#sphinx) | [Snake, Rock Python](#snake) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Wereboar](#wereboar) | [Troll](#troll) |
-| 19 | [Sphinx](#sphinx) | [Snake, Spitting Cobra](#snake) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Wererat](#wererat) | [Troll](#troll) |
-| 20 | [Stirge](#stirge) | [Snake, Giant Rattler](#snake) | [Dragon, Silver](#dragon) | [Ogre Mage](#ogre-mage) | [Werewolf](#werewolf) | [Troll](#troll) |
+| 1 | [Stirge](#stirge) | [Jackal](#jackal) | [Dragon, Blue](#dragon) | [Ogre](#ogre) | [Men, Bandit](#men) | [Goblin](#goblin) |
+| 2 | [Flightless Bird](#flightless-bird) | [Jackal](#jackal) | [Dragon, Blue](#dragon) | [Ogre](#ogre) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
+| 3 | [Flightless Bird](#flightless-bird) | [Jackal](#jackal) | [Dragon, Blue](#dragon) | [Ogre](#ogre) | [Men, Bandit](#men) | [Orc](#orc) |
+| 4 | [Flightless Bird](#flightless-bird) | [Jackal](#jackal) | [Dragon, Blue](#dragon) | [Ogre](#ogre) | [Men, Brigand](#men) | [Orc](#orc) |
+| 5 | [Flightless Bird](#flightless-bird) | [Jackal](#jackal) | [Dragon, Blue](#dragon) | [Ogre](#ogre) | [Men, Brigand](#men) | [Orc](#orc) |
+| 6 | [Cockatrice](#cockatrice) | [Rat](#rat) | [Dragon, Blue](#dragon) | [Ogre](#ogre) | [Men, Brigand](#men) | [Gnoll](#gnoll) |
+| 7 | [Cockatrice](#cockatrice) | [Rat](#rat) | [Dragon, Blue](#dragon) | [Ogre](#ogre) | [Men, Dervish](#men) | [Gnoll](#gnoll) |
+| 8 | [Cockatrice](#cockatrice) | [Rat](#rat) | [Dragon, Blue](#dragon) | [Ogre](#ogre) | [Men, Dervish](#men) | [Gnoll](#gnoll) |
+| 9 | [Manticore](#manticore) | [Rat](#rat) | [Dragon, Brass](#dragon) | [Ogre](#ogre) | [Men, Dervish](#men) | [Gnoll](#gnoll) |
+| 10 | [Manticore](#manticore) | [Snake, Spitting Cobra](#snake) | [Dragon, Brass](#dragon) | [Ogre](#ogre) | [Men, Dervish](#men) | [Gnoll](#gnoll) |
+| 11 | [Manticore](#manticore) | [Camel](#camel) | [Dragon, Brass](#dragon) | [Ogre](#ogre) | [Men, Dervish](#men) | [Gnoll](#gnoll) |
+| 12 | [Nightmare](#nightmare) | [Camel](#camel) | [Dragon, Brass](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Nomad](#men) | [Troglodyte](#troglodyte) |
+| 13 | [Chimera](#chimera) | [Camel](#camel) | [Dragon, Brass](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Nomad](#men) | [Troglodyte](#troglodyte) |
+| 14 | [Chimera](#chimera) | [Dog](#dog) | [Dragon, Brass](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Nomad](#men) | [Troll](#troll) |
+| 15 | [Sphinx](#sphinx) | [Snake, Pit Viper](#snake) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Nomad](#men) | [Troll](#troll) |
+| 16 | [Sphinx](#sphinx) | [Horse](#horse) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Troll](#troll) |
+| 17 | [Sphinx](#sphinx) | [Snake, Giant Rattler](#snake) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Troll](#troll) |
+| 18 | [Sphinx](#sphinx) | [Snake, Rock Python](#snake) | [Dragon, Copper](#dragon) | [Giant, Cloud](#giant) | [Wereboar](#wereboar) | [Troll](#troll) |
+| 19 | [Roc](#roc) | [Cat, Great](#cat-great) | [Dragon, Gold](#dragon) | [Giant, Cloud](#giant) | [Wererat](#wererat) | [Troll](#troll) |
+| 20 | [Roc](#roc) | [Cat, Great](#cat-great) | [Dragon, Gold](#dragon) | [Giant, Cloud](#giant) | [Werewolf](#werewolf) | [Troll](#troll) |
 
 ```{=latex}
 \filbreak
@@ -8932,51 +8932,51 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
-| 1 | [Ankheg](#ankheg) | Decoys | [Ghast](#ghast) | [Ant, Giant](#ant-giant) | [Beetle, Giant](#beetle-giant) | [Bear, Cave](#bear-cave) |
-| 2 | [Basilisk](#basilisk) | Decoys | [Ghast](#ghast) | [Ant, Giant](#ant-giant) | [Beetle, Giant](#beetle-giant) | [Elemental, Air](#elemental) |
-| 3 | [Lizards, Giant](#lizards-giant) | Decoys | [Ghoul](#ghoul) | [Ant, Giant](#ant-giant) | [Crayfish, Giant](#crayfish-giant) | [Elemental, Earth](#elemental) |
-| 4 | [Blink Dog](#blink-dog) | Escapees | [Ghoul](#ghoul) | [Ant, Giant](#ant-giant) | [Crocodile](#crocodile) | [Elemental, Earth](#elemental) |
-| 5 | [Bulette](#bulette) | Escapees | [Ghoul](#ghoul) | [Ant, Giant](#ant-giant) | [Crocodile](#crocodile) | [Elemental, Fire](#elemental) |
-| 6 | [Basilisk](#basilisk) | Escapees | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Crocodile](#crocodile) | [Elemental, Fire](#elemental) |
-| 7 | [Hellhound](#hellhound) | Escapees | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Crocodile](#crocodile) | [Elemental, Water](#elemental) |
-| 8 | [Wererat](#wererat) | Joiners | [Lich](#lich) | [Centipede, Giant](#centipede-giant) | [Eel](#eel) | [Djinni](#djinni) |
-| 9 | [Wererat](#wererat) | Joiners | [Mummy](#mummy) | [Centipede, Giant](#centipede-giant) | [Fish, Giant](#fish-giant) | [Djinni](#djinni) |
-| 10 | [Naga](#naga) | Runners | [Mummy](#mummy) | [Centipede, Giant](#centipede-giant) | [Fish, Giant](#fish-giant) | [Invisible Stalker](#invisible-stalker) |
-| 11 | [Naga](#naga) | Runners | [Mummy](#mummy) | [Centipede, Giant](#centipede-giant) | [Hippopotamus](#hippopotamus) | [Salamander](#salamander) |
-| 12 | [Lizards, Giant](#lizards-giant) | Searchers | [Mummy](#mummy) | [Fly, Robber](#fly-robber) | [Hippopotamus](#hippopotamus) | [Salamander](#salamander) |
-| 13 | [Naga](#naga) | Searchers | [Mummy](#mummy) | [Fly, Robber](#fly-robber) | [Hippopotamus](#hippopotamus) | [Salamander](#salamander) |
-| 14 | [Naga](#naga) | Searchers | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Naga](#naga) | [Salamander](#salamander) |
-| 15 | [Pseudo-Dragon](#pseudo-dragon) | Searchers | [Vampire](#vampire) | [Scorpion, Giant](#scorpion-giant) | [Spider, Giant](#spider-giant) | [Skeleton](#skeleton) |
-| 16 | [Pseudo-Dragon](#pseudo-dragon) | Survivors | [Vampire](#vampire) | [Spider, Giant](#spider-giant) | [Spider, Giant](#spider-giant) | [Night Hag](#night-hag) |
-| 17 | [Purple Worm](#purple-worm) | [Wolf](#wolf) | [Wight](#wight) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Rakshasa](#rakshasa) |
-| 18 | [Purple Worm](#purple-worm) | [Wolf](#wolf) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Troll](#troll) |
-| 19 | [Wolf](#wolf) | [Wolf](#wolf) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Toad, Giant](#toad-giant) | [Xorn](#xorn) |
-| 20 | [Wolf](#wolf) | [Wolf](#wolf) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Toad, Giant](#toad-giant) | [Xorn](#xorn) |
+| 1 | [Pseudo-Dragon](#pseudo-dragon) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Sprite](#sprite) |
+| 2 | [Pseudo-Dragon](#pseudo-dragon) | Decoys | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Sprite](#sprite) |
+| 3 | [Blink Dog](#blink-dog) | Decoys | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Pixie](#pixie) |
+| 4 | [Wolf](#wolf) | Escapees | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Pixie](#pixie) |
+| 5 | [Wolf](#wolf) | Escapees | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Crayfish, Giant](#crayfish-giant) | [Skeleton](#skeleton) |
+| 6 | [Wererat](#wererat) | Escapees | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Spider, Giant](#spider-giant) | [Homunculus](#homunculus) |
+| 7 | [Wererat](#wererat) | Escapees | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Spider, Giant](#spider-giant) | [Troll](#troll) |
+| 8 | [Basilisk](#basilisk) | Joiners | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Eel](#eel) | [Bear, Cave](#bear-cave) |
+| 9 | [Lizards, Giant](#lizards-giant) | Joiners | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Hippopotamus](#hippopotamus) | [Djinni](#djinni) |
+| 10 | [Basilisk](#basilisk) | Runners | [Wight](#wight) | [Scorpion, Giant](#scorpion-giant) | [Hippopotamus](#hippopotamus) | [Rakshasa](#rakshasa) |
+| 11 | [Lizards, Giant](#lizards-giant) | Runners | [Ghast](#ghast) | [Spider, Giant](#spider-giant) | [Hippopotamus](#hippopotamus) | [Xorn](#xorn) |
+| 12 | [Hellhound](#hellhound) | Searchers | [Ghast](#ghast) | [Spider, Giant](#spider-giant) | [Fish, Giant](#fish-giant) | [Elemental, Air](#elemental) |
+| 13 | [Ankheg](#ankheg) | Searchers | [Mummy](#mummy) | [Spider, Giant](#spider-giant) | [Fish, Giant](#fish-giant) | [Elemental, Earth](#elemental) |
+| 14 | [Bulette](#bulette) | Searchers | [Mummy](#mummy) | [Wasp, Giant](#wasp-giant) | [Beetle, Giant](#beetle-giant) | [Elemental, Fire](#elemental) |
+| 15 | [Naga](#naga) | Searchers | [Mummy](#mummy) | [Wasp, Giant](#wasp-giant) | [Beetle, Giant](#beetle-giant) | [Elemental, Water](#elemental) |
+| 16 | [Naga](#naga) | Survivors | [Mummy](#mummy) | [Ant, Giant](#ant-giant) | [Naga](#naga) | [Invisible Stalker](#invisible-stalker) |
+| 17 | [Naga](#naga) | [Wolf](#wolf) | [Mummy](#mummy) | [Ant, Giant](#ant-giant) | [Crocodile](#crocodile) | [Night Hag](#night-hag) |
+| 18 | [Naga](#naga) | [Wolf](#wolf) | [Vampire](#vampire) | [Ant, Giant](#ant-giant) | [Crocodile](#crocodile) | [Salamander](#salamander) |
+| 19 | [Purple Worm](#purple-worm) | [Wolf](#wolf) | [Vampire](#vampire) | [Ant, Giant](#ant-giant) | [Crocodile](#crocodile) | [Salamander](#salamander) |
+| 20 | [Purple Worm](#purple-worm) | [Wolf](#wolf) | [Lich](#lich) | [Ant, Giant](#ant-giant) | [Crocodile](#crocodile) | [Salamander](#salamander) |
 
 #### Forest
 
 | 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
 |---|---|---|---|---|---|---|
-| 1 | [Bat](#bat) | [Badger](#badger) | [Dragon, Bronze](#dragon) | [Giant, Hill](#giant) | Castle | [Bugbear](#bugbear) |
-| 2 | [Bat](#bat) | [Bear, Black](#bear) | [Dragon, Bronze](#dragon) | [Giant, Hill](#giant) | [Elf](#elf) | [Gnoll](#gnoll) |
-| 3 | [Bat, Giant](#bat) | [Bear, Brown](#bear) | [Dragon, Gold](#dragon) | [Giant, Hill](#giant) | [Elf](#elf) | [Gnoll](#gnoll) |
-| 4 | [Bat, Giant](#bat) | [Boar](#boar) | [Dragon, Gold](#dragon) | [Giant, Hill](#giant) | [Elf](#elf) | [Gnoll](#gnoll) |
-| 5 | [Flightless Bird](#flightless-bird) | [Cat, Great](#cat-great) | [Dragon, Gold](#dragon) | [Ogre](#ogre) | [Elf](#elf) | [Troglodyte](#troglodyte) |
-| 6 | [Flightless Bird](#flightless-bird) | [Dog](#dog) | [Dragon, Green](#dragon) | [Ogre](#ogre) | Hamlet | [Troglodyte](#troglodyte) |
-| 7 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Bandit](#men) | [Troglodyte](#troglodyte) |
-| 8 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
-| 9 | [Chimera](#chimera) | [Jackal](#jackal) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Brigand](#men) | [Kobold](#kobold) |
-| 10 | [Cockatrice](#cockatrice) | [Jackal](#jackal) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Brigand](#men) | [Kobold](#kobold) |
-| 11 | [Nightmare](#nightmare) | [Rat](#rat) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Kobold](#kobold) |
-| 12 | [Pegasus](#pegasus) | [Rat](#rat) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Kobold](#kobold) |
-| 13 | [Pixie](#pixie) | [Snake, Pit Viper](#snake) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Orc](#orc) |
-| 14 | [Shedu](#shedu) | [Snake, Rock Python](#snake) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Orc](#orc) |
-| 15 | [Sphinx](#sphinx) | [Snake, Spitting Cobra](#snake) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Orc](#orc) |
-| 16 | [Sphinx](#sphinx) | [Snake, Giant Rattler](#snake) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Troll](#troll) |
-| 17 | [Sphinx](#sphinx) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Werebear](#werebear) | [Troll](#troll) |
-| 18 | [Sphinx](#sphinx) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Wereboar](#wereboar) | [Troll](#troll) |
-| 19 | [Stirge](#stirge) | [Wolverine](#wolverine) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Wererat](#wererat) | [Troll](#troll) |
-| 20 | [Wyvern](#wyvern) | [Wolverine](#wolverine) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Werewolf](#werewolf) | [Troll](#troll) |
+| 1 | [Pixie](#pixie) | [Jackal](#jackal) | [Dragon, Green](#dragon) | [Ogre](#ogre) | Castle | [Hobgoblin](#hobgoblin) |
+| 2 | [Stirge](#stirge) | [Jackal](#jackal) | [Dragon, Green](#dragon) | [Ogre](#ogre) | Hamlet | [Kobold](#kobold) |
+| 3 | [Bat](#bat) | [Rat](#rat) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Elf](#elf) | [Kobold](#kobold) |
+| 4 | [Bat](#bat) | [Rat](#rat) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Elf](#elf) | [Kobold](#kobold) |
+| 5 | [Bat, Giant](#bat) | [Snake, Spitting Cobra](#snake) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Elf](#elf) | [Kobold](#kobold) |
+| 6 | [Bat, Giant](#bat) | [Dog](#dog) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Elf](#elf) | [Orc](#orc) |
+| 7 | [Pegasus](#pegasus) | [Snake, Pit Viper](#snake) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Bandit](#men) | [Orc](#orc) |
+| 8 | [Flightless Bird](#flightless-bird) | [Badger](#badger) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Bandit](#men) | [Orc](#orc) |
+| 9 | [Flightless Bird](#flightless-bird) | [Boar](#boar) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Brigand](#men) | [Gnoll](#gnoll) |
+| 10 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Green](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Brigand](#men) | [Gnoll](#gnoll) |
+| 11 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Black](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Gnoll](#gnoll) |
+| 12 | [Cockatrice](#cockatrice) | [Wolverine](#wolverine) | [Dragon, Black](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Troglodyte](#troglodyte) |
+| 13 | [Nightmare](#nightmare) | [Wolverine](#wolverine) | [Dragon, Black](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Troglodyte](#troglodyte) |
+| 14 | [Wyvern](#wyvern) | [Bear, Black](#bear) | [Dragon, Black](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Troglodyte](#troglodyte) |
+| 15 | [Chimera](#chimera) | [Snake, Giant Rattler](#snake) | [Dragon, Black](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Bugbear](#bugbear) |
+| 16 | [Shedu](#shedu) | [Wolf](#wolf) | [Dragon, Bronze](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Troll](#troll) |
+| 17 | [Sphinx](#sphinx) | [Wolf](#wolf) | [Dragon, Bronze](#dragon) | [Giant, Hill](#giant) | [Wereboar](#wereboar) | [Troll](#troll) |
+| 18 | [Sphinx](#sphinx) | [Snake, Rock Python](#snake) | [Dragon, Gold](#dragon) | [Giant, Hill](#giant) | [Werewolf](#werewolf) | [Troll](#troll) |
+| 19 | [Sphinx](#sphinx) | [Bear, Brown](#bear) | [Dragon, Gold](#dragon) | [Giant, Hill](#giant) | [Wererat](#wererat) | [Troll](#troll) |
+| 20 | [Sphinx](#sphinx) | [Cat, Great](#cat-great) | [Dragon, Gold](#dragon) | [Giant, Hill](#giant) | [Werebear](#werebear) | [Troll](#troll) |
 
 ```{=latex}
 \filbreak
@@ -8986,51 +8986,51 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
-| 1 | [Centaur](#centaur) | Decoys | [Groaning Spirit](#groaning-spirit) | [Ant, Giant](#ant-giant) | [Beetle, Giant](#beetle-giant) | [Succubus](#succubus) |
-| 2 | [Centaur](#centaur) | Decoys | [Groaning Spirit](#groaning-spirit) | [Ant, Giant](#ant-giant) | [Beetle, Giant](#beetle-giant) | [Barbed Devil](#barbed-devil) |
-| 3 | [Dryad](#dryad) | Decoys | [Groaning Spirit](#groaning-spirit) | [Ant, Giant](#ant-giant) | [Crayfish, Giant](#crayfish-giant) | [Bone Devil](#bone-devil) |
-| 4 | [Dryad](#dryad) | Escapees | [Ghoul](#ghoul) | [Ant, Giant](#ant-giant) | [Crayfish, Giant](#crayfish-giant) | [Pit Fiend](#pit-fiend) |
-| 5 | [Satyr](#satyr) | Escapees | [Ghoul](#ghoul) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Elemental, Air](#elemental) |
-| 6 | [Satyr](#satyr) | Escapees | [Ghoul](#ghoul) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Elemental, Earth](#elemental) |
-| 7 | [Leprechaun](#leprechaun) | Escapees | [Shadow](#shadow) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Elemental, Fire](#elemental) |
-| 8 | [Leprechaun](#leprechaun) | Joiners | [Shadow](#shadow) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Elemental, Water](#elemental) |
-| 9 | [Minotaur](#minotaur) | Joiners | [Shadow](#shadow) | [Beetle, Giant](#beetle-giant) | [Eel](#eel) | [Golem](#golem) |
-| 10 | [Nymph](#nymph) | Runners | [Shadow](#shadow) | [Centipede, Giant](#centipede-giant) | [Eel](#eel) | [Invisible Stalker](#invisible-stalker) |
-| 11 | [Nymph](#nymph) | Runners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Fish, Giant](#fish-giant) | [Salamander](#salamander) |
-| 12 | [Owl Bear](#owl-bear) | Runners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Fish, Giant](#fish-giant) | [Salamander](#salamander) |
-| 13 | [Owl Bear](#owl-bear) | Searchers | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Fish, Giant](#fish-giant) | [Salamander](#salamander) |
-| 14 | [Pseudo-Dragon](#pseudo-dragon) | Searchers | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Fish, Giant](#fish-giant) | [Salamander](#salamander) |
-| 15 | [Slug, Giant](#slug-giant) | Searchers | [Wraith](#wraith) | [Scorpion, Giant](#scorpion-giant) | [Frog, Giant](#frog-giant) | [Skeleton](#skeleton) |
-| 16 | [Sylph](#sylph) | Searchers | [Wraith](#wraith) | [Spider, Giant](#spider-giant) | [Nixies](#nixies) | [Night Hag](#night-hag) |
-| 17 | [Treant](#treant) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Nixies](#nixies) | [Goblin](#goblin) |
-| 18 | [Treant](#treant) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Nixies](#nixies) | [Quasit](#quasit) |
-| 19 | [Unicorn](#unicorn) | [Wolf](#wolf) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) |
-| 20 | [Wolf](#wolf) | [Wolf](#wolf) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Toad, Giant](#toad-giant) | [Xorn](#xorn) |
+| 1 | [Leprechaun](#leprechaun) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Nixies](#nixies) | [Sprite](#sprite) |
+| 2 | [Leprechaun](#leprechaun) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Nixies](#nixies) | [Sprite](#sprite) |
+| 3 | [Dryad](#dryad) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Nixies](#nixies) | [Brownie](#brownie) |
+| 4 | [Dryad](#dryad) | Escapees | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Brownie](#brownie) |
+| 5 | [Pseudo-Dragon](#pseudo-dragon) | Escapees | [Ghoul](#ghoul) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Pixie](#pixie) |
+| 6 | [Nymph](#nymph) | Escapees | [Ghoul](#ghoul) | [Scorpion, Giant](#scorpion-giant) | [Frog, Giant](#frog-giant) | [Pixie](#pixie) |
+| 7 | [Nymph](#nymph) | Escapees | [Ghoul](#ghoul) | [Spider, Giant](#spider-giant) | [Crayfish, Giant](#crayfish-giant) | [Skeleton](#skeleton) |
+| 8 | [Sylph](#sylph) | Joiners | [Shadow](#shadow) | [Spider, Giant](#spider-giant) | [Crayfish, Giant](#crayfish-giant) | [Quasit](#quasit) |
+| 9 | [Centaur](#centaur) | Joiners | [Shadow](#shadow) | [Spider, Giant](#spider-giant) | [Eel](#eel) | [Succubus](#succubus) |
+| 10 | [Centaur](#centaur) | Runners | [Shadow](#shadow) | [Spider, Giant](#spider-giant) | [Eel](#eel) | [Xorn](#xorn) |
+| 11 | [Unicorn](#unicorn) | Runners | [Shadow](#shadow) | [Wasp, Giant](#wasp-giant) | [Fish, Giant](#fish-giant) | [Barbed Devil](#barbed-devil) |
+| 12 | [Wolf](#wolf) | Runners | [Zombie](#zombie) | [Ant, Giant](#ant-giant) | [Fish, Giant](#fish-giant) | [Elemental, Air](#elemental) |
+| 13 | [Satyr](#satyr) | Searchers | [Zombie](#zombie) | [Ant, Giant](#ant-giant) | [Fish, Giant](#fish-giant) | [Elemental, Earth](#elemental) |
+| 14 | [Satyr](#satyr) | Searchers | [Zombie](#zombie) | [Ant, Giant](#ant-giant) | [Fish, Giant](#fish-giant) | [Elemental, Fire](#elemental) |
+| 15 | [Owl Bear](#owl-bear) | Searchers | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Beetle, Giant](#beetle-giant) | [Elemental, Water](#elemental) |
+| 16 | [Owl Bear](#owl-bear) | Searchers | [Wraith](#wraith) | [Beetle, Giant](#beetle-giant) | [Beetle, Giant](#beetle-giant) | [Invisible Stalker](#invisible-stalker) |
+| 17 | [Minotaur](#minotaur) | Survivors | [Wraith](#wraith) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Night Hag](#night-hag) |
+| 18 | [Treant](#treant) | Survivors | [Groaning Spirit](#groaning-spirit) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Bone Devil](#bone-devil) |
+| 19 | [Treant](#treant) | [Wolf](#wolf) | [Groaning Spirit](#groaning-spirit) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Pit Fiend](#pit-fiend) |
+| 20 | [Slug, Giant](#slug-giant) | [Wolf](#wolf) | [Groaning Spirit](#groaning-spirit) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Golem](#golem) |
 
 #### Graveyard
 
 | 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
 |---|---|---|---|---|---|---|
-| 1 | [Bat](#bat) | [Badger](#badger) | [Dragon, Black](#dragon) | [Ettin](#ettin) | Alchemist's Lab | [Gnoll](#gnoll) |
-| 2 | [Bat](#bat) | [Bear, Black](#bear) | [Dragon, Black](#dragon) | [Ettin](#ettin) | Hamlet | [Gnoll](#gnoll) |
-| 3 | [Bat](#bat) | [Bear, Brown](#bear) | [Dragon, Black](#dragon) | [Ettin](#ettin) | [Men, Bandit](#men) | [Gnoll](#gnoll) |
-| 4 | [Bat, Giant](#bat) | [Boar](#boar) | [Dragon, Black](#dragon) | [Ettin](#ettin) | [Men, Bandit](#men) | [Goblin](#goblin) |
-| 5 | [Bat, Giant](#bat) | [Dog](#dog) | [Dragon, Black](#dragon) | [Ettin](#ettin) | [Men, Bandit](#men) | [Goblin](#goblin) |
-| 6 | [Bat, Giant](#bat) | [Hyena](#hyena) | [Dragon, Green](#dragon) | [Ettin](#ettin) | [Men, Bandit](#men) | [Goblin](#goblin) |
-| 7 | [Bat, Giant](#bat) | [Jackal](#jackal) | [Dragon, Green](#dragon) | [Ettin](#ettin) | [Men, Brigand](#men) | [Goblin](#goblin) |
-| 8 | [Flightless Bird](#flightless-bird) | [Rat](#rat) | [Dragon, Green](#dragon) | [Ettin](#ettin) | [Men, Brigand](#men) | [Goblin](#goblin) |
-| 9 | [Flightless Bird](#flightless-bird) | [Rat](#rat) | [Dragon, Green](#dragon) | [Giant, Hill](#giant) | [Men, Brigand](#men) | [Goblin](#goblin) |
-| 10 | [Flightless Bird](#flightless-bird) | [Rat](#rat) | [Dragon, Green](#dragon) | [Giant, Hill](#giant) | [Men, Brigand](#men) | [Troglodyte](#troglodyte) |
-| 11 | [Flightless Bird](#flightless-bird) | [Rat](#rat) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Brigand](#men) | [Troglodyte](#troglodyte) |
-| 12 | [Eagle, Giant](#eagle-giant) | [Rat](#rat) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Hobgoblin](#hobgoblin) |
-| 13 | [Eagle, Giant](#eagle-giant) | [Rat](#rat) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Hobgoblin](#hobgoblin) |
-| 14 | [Gargoyle](#gargoyle) | [Snake, Pit Viper](#snake) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Hobgoblin](#hobgoblin) |
-| 15 | [Gargoyle](#gargoyle) | [Snake, Pit Viper](#snake) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Orc](#orc) |
-| 16 | [Stirge](#stirge) | [Snake, Rock Python](#snake) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Orc](#orc) |
-| 17 | [Stirge](#stirge) | [Snake, Spitting Cobra](#snake) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Orc](#orc) |
-| 18 | [Stirge](#stirge) | [Snake, Giant Rattler](#snake) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Wererat](#wererat) | [Orc](#orc) |
-| 19 | [Wyvern](#wyvern) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Wererat](#wererat) | [Orc](#orc) |
-| 20 | [Wyvern](#wyvern) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | Wizard's Tower | [Orc](#orc) |
+| 1 | [Stirge](#stirge) | [Hyena](#hyena) | [Dragon, Black](#dragon) | [Ogre](#ogre) | Alchemist's Lab | [Goblin](#goblin) |
+| 2 | [Stirge](#stirge) | [Jackal](#jackal) | [Dragon, Black](#dragon) | [Ogre](#ogre) | Hamlet | [Goblin](#goblin) |
+| 3 | [Stirge](#stirge) | [Rat](#rat) | [Dragon, Black](#dragon) | [Ogre](#ogre) | Wizard's Tower | [Goblin](#goblin) |
+| 4 | [Bat](#bat) | [Rat](#rat) | [Dragon, Black](#dragon) | [Ogre](#ogre) | [Men, Bandit](#men) | [Goblin](#goblin) |
+| 5 | [Bat](#bat) | [Rat](#rat) | [Dragon, Black](#dragon) | [Ogre](#ogre) | [Men, Bandit](#men) | [Goblin](#goblin) |
+| 6 | [Bat](#bat) | [Rat](#rat) | [Dragon, Black](#dragon) | [Ogre](#ogre) | [Men, Bandit](#men) | [Goblin](#goblin) |
+| 7 | [Bat, Giant](#bat) | [Rat](#rat) | [Dragon, Black](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
+| 8 | [Bat, Giant](#bat) | [Rat](#rat) | [Dragon, Black](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Brigand](#men) | [Hobgoblin](#hobgoblin) |
+| 9 | [Bat, Giant](#bat) | [Snake, Spitting Cobra](#snake) | [Dragon, Black](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Brigand](#men) | [Hobgoblin](#hobgoblin) |
+| 10 | [Bat, Giant](#bat) | [Dog](#dog) | [Dragon, Black](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Brigand](#men) | [Orc](#orc) |
+| 11 | [Flightless Bird](#flightless-bird) | [Snake, Pit Viper](#snake) | [Dragon, Gold](#dragon) | [Giant, Hill](#giant) | [Men, Brigand](#men) | [Orc](#orc) |
+| 12 | [Flightless Bird](#flightless-bird) | [Snake, Pit Viper](#snake) | [Dragon, Gold](#dragon) | [Giant, Hill](#giant) | [Men, Brigand](#men) | [Orc](#orc) |
+| 13 | [Flightless Bird](#flightless-bird) | [Badger](#badger) | [Dragon, Gold](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Orc](#orc) |
+| 14 | [Flightless Bird](#flightless-bird) | [Boar](#boar) | [Dragon, Gold](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Orc](#orc) |
+| 15 | [Eagle, Giant](#eagle-giant) | [Bear, Black](#bear) | [Dragon, Gold](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Orc](#orc) |
+| 16 | [Eagle, Giant](#eagle-giant) | [Snake, Giant Rattler](#snake) | [Dragon, Gold](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Gnoll](#gnoll) |
+| 17 | [Gargoyle](#gargoyle) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Gnoll](#gnoll) |
+| 18 | [Gargoyle](#gargoyle) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Gnoll](#gnoll) |
+| 19 | [Wyvern](#wyvern) | [Snake, Rock Python](#snake) | [Dragon, Red](#dragon) | [Ettin](#ettin) | [Wererat](#wererat) | [Troglodyte](#troglodyte) |
+| 20 | [Wyvern](#wyvern) | [Bear, Brown](#bear) | [Dragon, Red](#dragon) | [Ettin](#ettin) | [Wererat](#wererat) | [Troglodyte](#troglodyte) |
 
 ```{=latex}
 \filbreak
@@ -9040,51 +9040,51 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
-| 1 | [Strangle Weed](#strangle-weed) | Decoys | [Groaning Spirit](#groaning-spirit) | [Ant, Giant](#ant-giant) | [Crayfish, Giant](#crayfish-giant) | [Efreeti](#efreeti) |
-| 2 | [Strangle Weed](#strangle-weed) | Decoys | [Ghast](#ghast) | [Ant, Giant](#ant-giant) | [Crayfish, Giant](#crayfish-giant) | [Hellhound](#hellhound) |
-| 3 | [Strangle Weed](#strangle-weed) | Decoys | [Ghast](#ghast) | [Ant, Giant](#ant-giant) | [Crayfish, Giant](#crayfish-giant) | [Animated Armor](#animated-armor) |
-| 4 | [Basilisk](#basilisk) | Decoys | [Ghost](#ghost) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Type VI Demon (Balor)](#type-vi-demon-balor) |
-| 5 | [Basilisk](#basilisk) | Decoys | [Ghoul](#ghoul) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Succubus](#succubus) |
-| 6 | [Lizards, Giant](#lizards-giant) | Escapees | [Lich](#lich) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Night Hag](#night-hag) |
-| 7 | [Bulette](#bulette) | Escapees | [Mummy](#mummy) | [Centipede, Giant](#centipede-giant) | [Crocodile](#crocodile) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
-| 8 | [Carrion Crawler](#carrion-crawler) | Escapees | [Ghast](#ghast) | [Centipede, Giant](#centipede-giant) | [Eel](#eel) | [Erinyes](#erinyes) |
-| 9 | [Carrion Crawler](#carrion-crawler) | Joiners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Eel](#eel) | [Ice Devil](#ice-devil) |
-| 10 | [Carrion Crawler](#carrion-crawler) | Joiners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Spider, Giant](#spider-giant) | [Bone Devil](#bone-devil) |
-| 11 | [Cat, Great](#cat-great) | Runners | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Spider, Giant](#spider-giant) | [Manticore](#manticore) |
-| 12 | [Wight](#wight) | Runners | [Spectre](#spectre) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Imp](#imp) |
-| 13 | [Wight](#wight) | Runners | [Vampire](#vampire) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Lemure](#lemure) |
-| 14 | [Hellhound](#hellhound) | Searchers | [Wight](#wight) | [Scorpion, Giant](#scorpion-giant) | [Toad, Giant](#toad-giant) | [Salamander](#salamander) |
-| 15 | [Wererat](#wererat) | Searchers | [Will-O-Wisp](#will-o-wisp) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Salamander](#salamander) |
-| 16 | [Lamia](#lamia) | Survivors | [Wraith](#wraith) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Salamander](#salamander) |
-| 17 | [Medusa](#medusa) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Salamander](#salamander) |
-| 18 | [Naga](#naga) | [Wolf](#wolf) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Skeleton](#skeleton) |
-| 19 | [Rot Grub](#rot-grub) | [Wolf](#wolf) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Night Hag](#night-hag) |
-| 20 | [Wolf](#wolf) | [Wolf](#wolf) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Turtle, Giant](#turtle-giant) | [Night Hag](#night-hag) |
+| 1 | [Rot Grub](#rot-grub) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Sprite](#sprite) |
+| 2 | [Carrion Crawler](#carrion-crawler) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Sprite](#sprite) |
+| 3 | [Carrion Crawler](#carrion-crawler) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Pixie](#pixie) |
+| 4 | [Carrion Crawler](#carrion-crawler) | Decoys | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Pixie](#pixie) |
+| 5 | [Wight](#wight) | Decoys | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Skeleton](#skeleton) |
+| 6 | [Wight](#wight) | Escapees | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Homunculus](#homunculus) |
+| 7 | [Strangle Weed](#strangle-weed) | Escapees | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Homunculus](#homunculus) |
+| 8 | [Strangle Weed](#strangle-weed) | Escapees | [Zombie](#zombie) | [Scorpion, Giant](#scorpion-giant) | [Toad, Giant](#toad-giant) | [Imp](#imp) |
+| 9 | [Strangle Weed](#strangle-weed) | Joiners | [Wight](#wight) | [Spider, Giant](#spider-giant) | [Crayfish, Giant](#crayfish-giant) | [Animated Armor](#animated-armor) |
+| 10 | [Medusa](#medusa) | Joiners | [Ghast](#ghast) | [Spider, Giant](#spider-giant) | [Crayfish, Giant](#crayfish-giant) | [Lemure](#lemure) |
+| 11 | [Wolf](#wolf) | Runners | [Ghast](#ghast) | [Spider, Giant](#spider-giant) | [Crayfish, Giant](#crayfish-giant) | [Succubus](#succubus) |
+| 12 | [Wererat](#wererat) | Runners | [Ghast](#ghast) | [Spider, Giant](#spider-giant) | [Spider, Giant](#spider-giant) | [Manticore](#manticore) |
+| 13 | [Basilisk](#basilisk) | Runners | [Wraith](#wraith) | [Spider, Giant](#spider-giant) | [Spider, Giant](#spider-giant) | [Hellhound](#hellhound) |
+| 14 | [Basilisk](#basilisk) | Searchers | [Mummy](#mummy) | [Wasp, Giant](#wasp-giant) | [Eel](#eel) | [Night Hag](#night-hag) |
+| 15 | [Lizards, Giant](#lizards-giant) | Searchers | [Spectre](#spectre) | [Ant, Giant](#ant-giant) | [Eel](#eel) | [Night Hag](#night-hag) |
+| 16 | [Cat, Great](#cat-great) | Survivors | [Groaning Spirit](#groaning-spirit) | [Ant, Giant](#ant-giant) | [Crocodile](#crocodile) | [Bone Devil](#bone-devil) |
+| 17 | [Hellhound](#hellhound) | Survivors | [Vampire](#vampire) | [Ant, Giant](#ant-giant) | [Crocodile](#crocodile) | [Efreeti](#efreeti) |
+| 18 | [Bulette](#bulette) | [Wolf](#wolf) | [Will-O-Wisp](#will-o-wisp) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Salamander](#salamander) |
+| 19 | [Lamia](#lamia) | [Wolf](#wolf) | [Ghost](#ghost) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Salamander](#salamander) |
+| 20 | [Naga](#naga) | [Wolf](#wolf) | [Lich](#lich) | [Beetle, Giant](#beetle-giant) | [Turtle, Giant](#turtle-giant) | [Ice Devil](#ice-devil) |
 
 #### Hills
 
 | 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
 |---|---|---|---|---|---|---|
-| 1 | [Flightless Bird](#flightless-bird) | [Cat, Great](#cat-great) | [Dragon, Black](#dragon) | [Ettin](#ettin) | [Elf](#elf) | [Bugbear](#bugbear) |
-| 2 | [Flightless Bird](#flightless-bird) | [Cat, Great](#cat-great) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Halfling](#halfling) | [Bugbear](#bugbear) |
-| 3 | [Flightless Bird](#flightless-bird) | [Dog](#dog) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Halfling](#halfling) | [Bugbear](#bugbear) |
-| 4 | [Flightless Bird](#flightless-bird) | [Dog](#dog) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Halfling](#halfling) | [Bugbear](#bugbear) |
-| 5 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Bronze](#dragon) | [Giant, Hill](#giant) | [Halfling](#halfling) | [Troglodyte](#troglodyte) |
-| 6 | [Eagle, Giant](#eagle-giant) | [Rat](#rat) | [Dragon, Gold](#dragon) | [Giant, Hill](#giant) | [Halfling](#halfling) | [Troglodyte](#troglodyte) |
-| 7 | [Chimera](#chimera) | [Rat](#rat) | [Dragon, Green](#dragon) | [Giant, Hill](#giant) | Hamlet | [Hobgoblin](#hobgoblin) |
-| 8 | [Cockatrice](#cockatrice) | [Rat](#rat) | [Dragon, Green](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
-| 9 | [Griffon](#griffon) | [Rat](#rat) | [Dragon, Green](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
-| 10 | [Harpy](#harpy) | [Rat](#rat) | [Dragon, Red](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Kobold](#kobold) |
-| 11 | [Harpy](#harpy) | [Snake, Pit Viper](#snake) | [Dragon, Red](#dragon) | [Giant, Hill](#giant) | [Men, Brigand](#men) | [Kobold](#kobold) |
-| 12 | [Harpy](#harpy) | [Snake, Pit Viper](#snake) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Orc](#orc) |
-| 13 | [Nightmare](#nightmare) | [Snake, Rock Python](#snake) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Orc](#orc) |
-| 14 | [Pegasus](#pegasus) | [Snake, Spitting Cobra](#snake) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Troll](#troll) |
-| 15 | [Pixie](#pixie) | [Snake, Giant Rattler](#snake) | [Dragon, Red](#dragon) | [Ogre](#ogre) | Stronghold | [Troll](#troll) |
-| 16 | [Shedu](#shedu) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Troll](#troll) |
-| 17 | [Stirge](#stirge) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Wereboar](#wereboar) | [Troll](#troll) |
-| 18 | [Stirge](#stirge) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Wererat](#wererat) | [Troll](#troll) |
-| 19 | [Stirge](#stirge) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Titan](#titan) | [Werewolf](#werewolf) | [Troll](#troll) |
-| 20 | [Wyvern](#wyvern) | [Wolverine](#wolverine) | [Dragon, Silver](#dragon) | [Titan](#titan) | [Werewolf](#werewolf) | [Troll](#troll) |
+| 1 | [Pixie](#pixie) | [Rat](#rat) | [Dragon, Black](#dragon) | [Ogre](#ogre) | Hamlet | [Hobgoblin](#hobgoblin) |
+| 2 | [Stirge](#stirge) | [Rat](#rat) | [Dragon, Bronze](#dragon) | [Ogre](#ogre) | Stronghold | [Hobgoblin](#hobgoblin) |
+| 3 | [Stirge](#stirge) | [Rat](#rat) | [Dragon, Bronze](#dragon) | [Ogre](#ogre) | [Elf](#elf) | [Hobgoblin](#hobgoblin) |
+| 4 | [Stirge](#stirge) | [Rat](#rat) | [Dragon, Bronze](#dragon) | [Ogre](#ogre) | [Halfling](#halfling) | [Kobold](#kobold) |
+| 5 | [Pegasus](#pegasus) | [Rat](#rat) | [Dragon, Bronze](#dragon) | [Ogre](#ogre) | [Halfling](#halfling) | [Kobold](#kobold) |
+| 6 | [Flightless Bird](#flightless-bird) | [Snake, Spitting Cobra](#snake) | [Dragon, Gold](#dragon) | [Ogre Mage](#ogre-mage) | [Halfling](#halfling) | [Orc](#orc) |
+| 7 | [Flightless Bird](#flightless-bird) | [Dog](#dog) | [Dragon, Green](#dragon) | [Ogre Mage](#ogre-mage) | [Halfling](#halfling) | [Orc](#orc) |
+| 8 | [Flightless Bird](#flightless-bird) | [Dog](#dog) | [Dragon, Green](#dragon) | [Giant, Hill](#giant) | [Halfling](#halfling) | [Troglodyte](#troglodyte) |
+| 9 | [Flightless Bird](#flightless-bird) | [Snake, Pit Viper](#snake) | [Dragon, Green](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Troglodyte](#troglodyte) |
+| 10 | [Flightless Bird](#flightless-bird) | [Snake, Pit Viper](#snake) | [Dragon, Red](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Bugbear](#bugbear) |
+| 11 | [Harpy](#harpy) | [Horse](#horse) | [Dragon, Red](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Bugbear](#bugbear) |
+| 12 | [Harpy](#harpy) | [Wolverine](#wolverine) | [Dragon, Red](#dragon) | [Giant, Hill](#giant) | [Men, Brigand](#men) | [Bugbear](#bugbear) |
+| 13 | [Harpy](#harpy) | [Snake, Giant Rattler](#snake) | [Dragon, Red](#dragon) | [Giant, Hill](#giant) | [Men, Merchant](#men) | [Bugbear](#bugbear) |
+| 14 | [Eagle, Giant](#eagle-giant) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Giant, Hill](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
+| 15 | [Cockatrice](#cockatrice) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Troll](#troll) |
+| 16 | [Nightmare](#nightmare) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Troll](#troll) |
+| 17 | [Griffon](#griffon) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Ettin](#ettin) | [Wereboar](#wereboar) | [Troll](#troll) |
+| 18 | [Wyvern](#wyvern) | [Snake, Rock Python](#snake) | [Dragon, Red](#dragon) | [Ettin](#ettin) | [Werewolf](#werewolf) | [Troll](#troll) |
+| 19 | [Chimera](#chimera) | [Cat, Great](#cat-great) | [Dragon, Red](#dragon) | [Titan](#titan) | [Werewolf](#werewolf) | [Troll](#troll) |
+| 20 | [Shedu](#shedu) | [Cat, Great](#cat-great) | [Dragon, Silver](#dragon) | [Titan](#titan) | [Wererat](#wererat) | [Troll](#troll) |
 
 ```{=latex}
 \filbreak
@@ -9094,51 +9094,51 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
-| 1 | [Basilisk](#basilisk) | Decoys | [Groaning Spirit](#groaning-spirit) | [Ant, Giant](#ant-giant) | [Crayfish, Giant](#crayfish-giant) | [Hellhound](#hellhound) |
-| 2 | [Lizards, Giant](#lizards-giant) | Decoys | [Ghast](#ghast) | [Ant, Giant](#ant-giant) | [Crayfish, Giant](#crayfish-giant) | [Hellhound](#hellhound) |
-| 3 | [Blink Dog](#blink-dog) | Decoys | [Ghost](#ghost) | [Ant, Giant](#ant-giant) | [Crayfish, Giant](#crayfish-giant) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
-| 4 | [Cat, Great](#cat-great) | Escapees | [Ghoul](#ghoul) | [Ant, Giant](#ant-giant) | [Crocodile](#crocodile) | [Succubus](#succubus) |
-| 5 | [Displacer Beast](#displacer-beast) | Escapees | [Ghoul](#ghoul) | [Ant, Giant](#ant-giant) | [Crocodile](#crocodile) | [Bone Devil](#bone-devil) |
-| 6 | [Basilisk](#basilisk) | Escapees | [Ghoul](#ghoul) | [Ant, Giant](#ant-giant) | [Crocodile](#crocodile) | [Barbed Devil](#barbed-devil) |
-| 7 | [Leprechaun](#leprechaun) | Escapees | [Lich](#lich) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Barbed Devil](#barbed-devil) |
-| 8 | [Leprechaun](#leprechaun) | Escapees | [Shadow](#shadow) | [Beetle, Giant](#beetle-giant) | [Eel](#eel) | [Doppelganger](#doppelganger) |
-| 9 | [Lizard Man](#lizard-man) | Joiners | [Shadow](#shadow) | [Beetle, Giant](#beetle-giant) | [Fish, Giant](#fish-giant) | [Elemental, Air](#elemental) |
-| 10 | [Lizard Man](#lizard-man) | Joiners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Fish, Giant](#fish-giant) | [Elemental, Earth](#elemental) |
-| 11 | [Medusa](#medusa) | Joiners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Elemental, Fire](#elemental) |
-| 12 | [Minotaur](#minotaur) | Joiners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Frog, Giant](#frog-giant) | [Elemental, Water](#elemental) |
-| 13 | [Naga](#naga) | Runners | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Frog, Giant](#frog-giant) | [Djinni](#djinni) |
-| 14 | [Owl Bear](#owl-bear) | Runners | [Spectre](#spectre) | [Fly, Robber](#fly-robber) | [Nixies](#nixies) | [Golem](#golem) |
-| 15 | [Owl Bear](#owl-bear) | Runners | [Vampire](#vampire) | [Scorpion, Giant](#scorpion-giant) | [Nixies](#nixies) | [Golem](#golem) |
-| 16 | [Pseudo-Dragon](#pseudo-dragon) | Searchers | [Vampire](#vampire) | [Spider, Giant](#spider-giant) | [Spider, Giant](#spider-giant) | [Homunculus](#homunculus) |
-| 17 | [Rust Monster](#rust-monster) | Searchers | [Wraith](#wraith) | [Spider, Giant](#spider-giant) | [Spider, Giant](#spider-giant) | [Berserker](#berserker) |
-| 18 | [Treant](#treant) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Goblin](#goblin) |
-| 19 | [Unicorn](#unicorn) | [Wolf](#wolf) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Rakshasa](#rakshasa) |
-| 20 | [Wolf](#wolf) | [Wolf](#wolf) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Toad, Giant](#toad-giant) | [Xorn](#xorn) |
+| 1 | [Leprechaun](#leprechaun) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Nixies](#nixies) | [Berserker](#berserker) |
+| 2 | [Leprechaun](#leprechaun) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Nixies](#nixies) | [Goblin](#goblin) |
+| 3 | [Lizard Man](#lizard-man) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Homunculus](#homunculus) |
+| 4 | [Lizard Man](#lizard-man) | Escapees | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Doppelganger](#doppelganger) |
+| 5 | [Pseudo-Dragon](#pseudo-dragon) | Escapees | [Ghoul](#ghoul) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Succubus](#succubus) |
+| 6 | [Blink Dog](#blink-dog) | Escapees | [Ghoul](#ghoul) | [Scorpion, Giant](#scorpion-giant) | [Frog, Giant](#frog-giant) | [Hellhound](#hellhound) |
+| 7 | [Medusa](#medusa) | Escapees | [Ghoul](#ghoul) | [Spider, Giant](#spider-giant) | [Frog, Giant](#frog-giant) | [Hellhound](#hellhound) |
+| 8 | [Unicorn](#unicorn) | Escapees | [Shadow](#shadow) | [Spider, Giant](#spider-giant) | [Crayfish, Giant](#crayfish-giant) | [Djinni](#djinni) |
+| 9 | [Wolf](#wolf) | Joiners | [Shadow](#shadow) | [Spider, Giant](#spider-giant) | [Crayfish, Giant](#crayfish-giant) | [Rakshasa](#rakshasa) |
+| 10 | [Owl Bear](#owl-bear) | Joiners | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Crayfish, Giant](#crayfish-giant) | [Xorn](#xorn) |
+| 11 | [Owl Bear](#owl-bear) | Joiners | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Spider, Giant](#spider-giant) | [Barbed Devil](#barbed-devil) |
+| 12 | [Rust Monster](#rust-monster) | Joiners | [Zombie](#zombie) | [Ant, Giant](#ant-giant) | [Spider, Giant](#spider-giant) | [Barbed Devil](#barbed-devil) |
+| 13 | [Basilisk](#basilisk) | Runners | [Ghast](#ghast) | [Ant, Giant](#ant-giant) | [Eel](#eel) | [Elemental, Air](#elemental) |
+| 14 | [Lizards, Giant](#lizards-giant) | Runners | [Wraith](#wraith) | [Ant, Giant](#ant-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Elemental, Earth](#elemental) |
+| 15 | [Cat, Great](#cat-great) | Runners | [Spectre](#spectre) | [Ant, Giant](#ant-giant) | [Fish, Giant](#fish-giant) | [Elemental, Fire](#elemental) |
+| 16 | [Displacer Beast](#displacer-beast) | Searchers | [Groaning Spirit](#groaning-spirit) | [Ant, Giant](#ant-giant) | [Fish, Giant](#fish-giant) | [Elemental, Water](#elemental) |
+| 17 | [Basilisk](#basilisk) | Searchers | [Vampire](#vampire) | [Ant, Giant](#ant-giant) | [Crocodile](#crocodile) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
+| 18 | [Minotaur](#minotaur) | Survivors | [Vampire](#vampire) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Bone Devil](#bone-devil) |
+| 19 | [Treant](#treant) | [Wolf](#wolf) | [Ghost](#ghost) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Golem](#golem) |
+| 20 | [Naga](#naga) | [Wolf](#wolf) | [Lich](#lich) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Golem](#golem) |
 
 #### Jungle
 
 | 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
 |---|---|---|---|---|---|---|
-| 1 | [Bat](#bat) | [Ape](#ape) | [Dragon, Black](#dragon) | [Ettin](#ettin) | [Men, Bandit](#men) | [Gnoll](#gnoll) |
-| 2 | [Bat](#bat) | [Ape](#ape) | [Dragon, Black](#dragon) | [Ettin](#ettin) | [Men, Bandit](#men) | [Gnoll](#gnoll) |
-| 3 | [Bat](#bat) | [Ape](#ape) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Men, Brigand](#men) | [Gnoll](#gnoll) |
-| 4 | [Bat, Giant](#bat) | [Ape](#ape) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Men, Brigand](#men) | [Troglodyte](#troglodyte) |
-| 5 | [Bat, Giant](#bat) | [Ape](#ape) | [Dragon, Green](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Troglodyte](#troglodyte) |
-| 6 | [Bat, Giant](#bat) | [Baboon](#baboon) | [Dragon, Green](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Hobgoblin](#hobgoblin) |
-| 7 | [Bat, Giant](#bat) | [Baboon](#baboon) | [Dragon, Green](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Orc](#orc) |
-| 8 | [Bat, Giant](#bat) | [Elephant](#elephant) | [Dragon, Green](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Orc](#orc) |
-| 9 | [Bat, Giant](#bat) | [Elephant](#elephant) | [Dragon, Green](#dragon) | [Giant, Cloud](#giant) | [Men, Merchant](#men) | [Orc](#orc) |
-| 10 | [Bat, Giant](#bat) | [Jackal](#jackal) | [Dragon, Green](#dragon) | [Giant, Cloud](#giant) | [Men, Merchant](#men) | [Men, Bandit](#men) |
-| 11 | [Flightless Bird](#flightless-bird) | [Jackal](#jackal) | [Dragon, Green](#dragon) | [Giant, Fire](#giant) | [Men, Merchant](#men) | [Men, Bandit](#men) |
-| 12 | [Flightless Bird](#flightless-bird) | [Jackal](#jackal) | [Dragon, Green](#dragon) | [Giant, Fire](#giant) | Stronghold | [Men, Bandit](#men) |
-| 13 | [Eagle, Giant](#eagle-giant) | [Cat, Great](#cat-great) | [Dragon, Green](#dragon) | [Ogre](#ogre) | Village | [Men, Bandit](#men) |
-| 14 | [Chimera](#chimera) | [Lizards, Giant](#lizards-giant) | [Dragon, Red](#dragon) | [Ogre](#ogre) | Village | [Men, Bandit](#men) |
-| 15 | [Cockatrice](#cockatrice) | [Lizards, Giant](#lizards-giant) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Wereboar](#wereboar) | [Men, Bandit](#men) |
-| 16 | [Couatl](#couatl) | [Rat](#rat) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Wereboar](#wereboar) | [Troll](#troll) |
-| 17 | [Couatl](#couatl) | [Rat](#rat) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Weretiger](#weretiger) | [Troll](#troll) |
-| 18 | [Stirge](#stirge) | [Rat](#rat) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Weretiger](#weretiger) | [Troll](#troll) |
-| 19 | [Wyvern](#wyvern) | [Cat, Great](#cat-great) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Weretiger](#weretiger) | [Troll](#troll) |
-| 20 | [Wyvern](#wyvern) | [Cat, Great](#cat-great) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Werewolf](#werewolf) | [Troll](#troll) |
+| 1 | [Stirge](#stirge) | [Jackal](#jackal) | [Dragon, Green](#dragon) | [Ogre](#ogre) | Stronghold | [Hobgoblin](#hobgoblin) |
+| 2 | [Bat](#bat) | [Jackal](#jackal) | [Dragon, Green](#dragon) | [Ogre](#ogre) | Village | [Orc](#orc) |
+| 3 | [Bat](#bat) | [Jackal](#jackal) | [Dragon, Green](#dragon) | [Ogre](#ogre) | Village | [Orc](#orc) |
+| 4 | [Bat](#bat) | [Rat](#rat) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Bandit](#men) | [Orc](#orc) |
+| 5 | [Bat, Giant](#bat) | [Rat](#rat) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Bandit](#men) | [Men, Bandit](#men) |
+| 6 | [Bat, Giant](#bat) | [Rat](#rat) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Brigand](#men) | [Men, Bandit](#men) |
+| 7 | [Bat, Giant](#bat) | [Baboon](#baboon) | [Dragon, Green](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Brigand](#men) | [Men, Bandit](#men) |
+| 8 | [Bat, Giant](#bat) | [Baboon](#baboon) | [Dragon, Green](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Men, Bandit](#men) |
+| 9 | [Bat, Giant](#bat) | [Ape](#ape) | [Dragon, Green](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Men, Bandit](#men) |
+| 10 | [Bat, Giant](#bat) | [Ape](#ape) | [Dragon, Green](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Men, Bandit](#men) |
+| 11 | [Bat, Giant](#bat) | [Ape](#ape) | [Dragon, Green](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Gnoll](#gnoll) |
+| 12 | [Flightless Bird](#flightless-bird) | [Ape](#ape) | [Dragon, Green](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Gnoll](#gnoll) |
+| 13 | [Flightless Bird](#flightless-bird) | [Ape](#ape) | [Dragon, Black](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Gnoll](#gnoll) |
+| 14 | [Eagle, Giant](#eagle-giant) | [Cat, Great](#cat-great) | [Dragon, Black](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Troglodyte](#troglodyte) |
+| 15 | [Cockatrice](#cockatrice) | [Lizards, Giant](#lizards-giant) | [Dragon, Black](#dragon) | [Ettin](#ettin) | [Wereboar](#wereboar) | [Troglodyte](#troglodyte) |
+| 16 | [Wyvern](#wyvern) | [Lizards, Giant](#lizards-giant) | [Dragon, Black](#dragon) | [Ettin](#ettin) | [Wereboar](#wereboar) | [Troll](#troll) |
+| 17 | [Wyvern](#wyvern) | [Cat, Great](#cat-great) | [Dragon, Bronze](#dragon) | [Giant, Fire](#giant) | [Werewolf](#werewolf) | [Troll](#troll) |
+| 18 | [Chimera](#chimera) | [Cat, Great](#cat-great) | [Dragon, Bronze](#dragon) | [Giant, Fire](#giant) | [Weretiger](#weretiger) | [Troll](#troll) |
+| 19 | [Couatl](#couatl) | [Elephant](#elephant) | [Dragon, Gold](#dragon) | [Giant, Cloud](#giant) | [Weretiger](#weretiger) | [Troll](#troll) |
+| 20 | [Couatl](#couatl) | [Elephant](#elephant) | [Dragon, Gold](#dragon) | [Giant, Cloud](#giant) | [Weretiger](#weretiger) | [Troll](#troll) |
 
 ```{=latex}
 \filbreak
@@ -9148,51 +9148,51 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
-| 1 | [Strangle Weed](#strangle-weed) | Decoys | [Shadow](#shadow) | [Ant, Giant](#ant-giant) | [Crocodile](#crocodile) | [Efreeti](#efreeti) |
-| 2 | [Strangle Weed](#strangle-weed) | Decoys | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Hellhound](#hellhound) |
-| 3 | [Strangle Weed](#strangle-weed) | Decoys | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Eel](#eel) | [Hellhound](#hellhound) |
-| 4 | [Strangle Weed](#strangle-weed) | Decoys | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Eel](#eel) | [Manes](#manes) |
-| 5 | [Ankheg](#ankheg) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
-| 6 | [Basilisk](#basilisk) | Escapees | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Quasit](#quasit) |
-| 7 | [Basilisk](#basilisk) | Escapees | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Frog, Giant](#frog-giant) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
-| 8 | [Blink Dog](#blink-dog) | Escapees | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Frog, Giant](#frog-giant) | [Succubus](#succubus) |
-| 9 | [Blink Dog](#blink-dog) | Joiners | [Zombie](#zombie) | [Centipede, Giant](#centipede-giant) | [Frog, Giant](#frog-giant) | [Night Hag](#night-hag) |
-| 10 | [Displacer Beast](#displacer-beast) | Joiners | [Zombie](#zombie) | [Centipede, Giant](#centipede-giant) | [Hippopotamus](#hippopotamus) | [Barbed Devil](#barbed-devil) |
-| 11 | [Displacer Beast](#displacer-beast) | Runners | [Zombie](#zombie) | [Centipede, Giant](#centipede-giant) | [Hippopotamus](#hippopotamus) | [Bone Devil](#bone-devil) |
-| 12 | [Lizard Man](#lizard-man) | Runners | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Nixies](#nixies) | [Pit Fiend](#pit-fiend) |
-| 13 | [Lizard Man](#lizard-man) | Searchers | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Spider, Giant](#spider-giant) | [Manticore](#manticore) |
-| 14 | [Lizard Man](#lizard-man) | Searchers | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Spider, Giant](#spider-giant) | [Doppelganger](#doppelganger) |
-| 15 | [Basilisk](#basilisk) | Searchers | [Zombie](#zombie) | [Scorpion, Giant](#scorpion-giant) | [Toad, Giant](#toad-giant) | [Elemental, Air](#elemental) |
-| 16 | [Hellhound](#hellhound) | Searchers | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Elemental, Earth](#elemental) |
-| 17 | [Hellhound](#hellhound) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Elemental, Fire](#elemental) |
-| 18 | [Rot Grub](#rot-grub) | [Wolf](#wolf) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Elemental, Water](#elemental) |
-| 19 | [Rot Grub](#rot-grub) | [Wolf](#wolf) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Turtle, Giant](#turtle-giant) | [Djinni](#djinni) |
-| 20 | [Wolf](#wolf) | [Wolf](#wolf) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Turtle, Giant](#turtle-giant) | [Mammoth](#mammoth) |
+| 1 | [Rot Grub](#rot-grub) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Nixies](#nixies) | [Sprite](#sprite) |
+| 2 | [Rot Grub](#rot-grub) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Sprite](#sprite) |
+| 3 | [Lizard Man](#lizard-man) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Pixie](#pixie) |
+| 4 | [Lizard Man](#lizard-man) | Decoys | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Pixie](#pixie) |
+| 5 | [Lizard Man](#lizard-man) | Escapees | [Shadow](#shadow) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Manes](#manes) |
+| 6 | [Strangle Weed](#strangle-weed) | Escapees | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Frog, Giant](#frog-giant) | [Quasit](#quasit) |
+| 7 | [Strangle Weed](#strangle-weed) | Escapees | [Zombie](#zombie) | [Scorpion, Giant](#scorpion-giant) | [Frog, Giant](#frog-giant) | [Doppelganger](#doppelganger) |
+| 8 | [Strangle Weed](#strangle-weed) | Escapees | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Frog, Giant](#frog-giant) | [Succubus](#succubus) |
+| 9 | [Strangle Weed](#strangle-weed) | Joiners | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Spider, Giant](#spider-giant) | [Manticore](#manticore) |
+| 10 | [Blink Dog](#blink-dog) | Joiners | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Spider, Giant](#spider-giant) | [Hellhound](#hellhound) |
+| 11 | [Blink Dog](#blink-dog) | Runners | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Eel](#eel) | [Djinni](#djinni) |
+| 12 | [Wolf](#wolf) | Runners | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Eel](#eel) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
+| 13 | [Basilisk](#basilisk) | Searchers | [Zombie](#zombie) | [Ant, Giant](#ant-giant) | [Hippopotamus](#hippopotamus) | [Night Hag](#night-hag) |
+| 14 | [Basilisk](#basilisk) | Searchers | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Hippopotamus](#hippopotamus) | [Barbed Devil](#barbed-devil) |
+| 15 | [Displacer Beast](#displacer-beast) | Searchers | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Elemental, Fire](#elemental) |
+| 16 | [Displacer Beast](#displacer-beast) | Searchers | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
+| 17 | [Basilisk](#basilisk) | Survivors | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Bone Devil](#bone-devil) |
+| 18 | [Hellhound](#hellhound) | [Wolf](#wolf) | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Efreeti](#efreeti) |
+| 19 | [Hellhound](#hellhound) | [Wolf](#wolf) | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Turtle, Giant](#turtle-giant) | [Pit Fiend](#pit-fiend) |
+| 20 | [Ankheg](#ankheg) | [Wolf](#wolf) | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Turtle, Giant](#turtle-giant) | [Mammoth](#mammoth) |
 
 #### Lost World
 
 | 1d20 | Airborne | Animal | Large Carnivore | Large Herbivore | Human | Humanoid |
 |---|---|---|---|---|---|---|
-| 1 | [Flightless Bird](#flightless-bird) | [Badger](#badger) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Apatosaurus](#apatosaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
-| 2 | [Flightless Bird](#flightless-bird) | [Bear, Cave](#bear-cave) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Apatosaurus](#apatosaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
-| 3 | [Bat, Giant](#bat) | [Bear, Cave](#bear-cave) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Apatosaurus](#apatosaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
-| 4 | [Bat, Giant](#bat) | [Boar, Giant](#boar-giant) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Apatosaurus](#apatosaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
-| 5 | [Bat, Giant](#bat) | [Hyena](#hyena) | [Megalosaurus](#megalosaurus) | [Brachiosaurus](#brachiosaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
-| 6 | [Bat, Giant](#bat) | [Jackal](#jackal) | [Megalosaurus](#megalosaurus) | [Camarasaurus](#camarasaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
-| 7 | [Bat, Giant](#bat) | [Cat, Great](#cat-great) | [Megalosaurus](#megalosaurus) | [Camarasaurus](#camarasaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
-| 8 | [Flightless Bird](#flightless-bird) | [Mammoth](#mammoth) | [Gorgosaurus](#gorgosaurus) | [Triceratops](#triceratops) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
-| 9 | [Flightless Bird](#flightless-bird) | [Mammoth](#mammoth) | [Gorgosaurus](#gorgosaurus) | [Cetiosaurus](#cetiosaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
-| 10 | [Eagle, Giant](#eagle-giant) | [Mastodon](#mastodon) | [Gorgosaurus](#gorgosaurus) | [Cetiosaurus](#cetiosaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
-| 11 | [Eagle, Giant](#eagle-giant) | [Rat](#rat) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Pentaceratops](#pentaceratops) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
-| 12 | [Pterodactyl](#pterodactyl) | [Rhinoceros](#rhinoceros) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Diplodocus](#diplodocus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
-| 13 | [Pterodactyl](#pterodactyl) | [Snake, Pit Viper](#snake) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Diplodocus](#diplodocus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
-| 14 | [Pterodactyl](#pterodactyl) | [Snake, Rock Python](#snake) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Monoclonius](#monoclonius) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
-| 15 | [Pterodactyl](#pterodactyl) | [Sabre-Tooth Tiger](#sabre-tooth-tiger) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Pentaceratops](#pentaceratops) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
-| 16 | [Pterodactyl](#pterodactyl) | [Sabre-Tooth Tiger](#sabre-tooth-tiger) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Pentaceratops](#pentaceratops) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
-| 17 | [Pterodactyl](#pterodactyl) | [Wolf](#wolf) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Styracosaurus](#styracosaurus) | [Lizard Man](#lizard-man) | [Troll](#troll) |
-| 18 | [Pterodactyl](#pterodactyl) | [Wolf](#wolf) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Styracosaurus](#styracosaurus) | [Lizard Man](#lizard-man) | [Troll](#troll) |
-| 19 | [Pterodactyl](#pterodactyl) | [Wolf](#wolf) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Triceratops](#triceratops) | [Lizard Man](#lizard-man) | [Troll](#troll) |
-| 20 | [Pterodactyl](#pterodactyl) | [Wolverine](#wolverine) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Triceratops](#triceratops) | NPC Party (see *NPC Parties*) | [Troll](#troll) |
+| 1 | [Bat, Giant](#bat) | [Hyena](#hyena) | [Megalosaurus](#megalosaurus) | [Monoclonius](#monoclonius) | NPC Party (see *NPC Parties*) | [Troglodyte](#troglodyte) |
+| 2 | [Bat, Giant](#bat) | [Jackal](#jackal) | [Megalosaurus](#megalosaurus) | [Styracosaurus](#styracosaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
+| 3 | [Bat, Giant](#bat) | [Rat](#rat) | [Megalosaurus](#megalosaurus) | [Styracosaurus](#styracosaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
+| 4 | [Bat, Giant](#bat) | [Snake, Pit Viper](#snake) | [Gorgosaurus](#gorgosaurus) | [Triceratops](#triceratops) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
+| 5 | [Bat, Giant](#bat) | [Badger](#badger) | [Gorgosaurus](#gorgosaurus) | [Triceratops](#triceratops) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
+| 6 | [Flightless Bird](#flightless-bird) | [Wolverine](#wolverine) | [Gorgosaurus](#gorgosaurus) | [Triceratops](#triceratops) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
+| 7 | [Flightless Bird](#flightless-bird) | [Wolf](#wolf) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Pentaceratops](#pentaceratops) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
+| 8 | [Flightless Bird](#flightless-bird) | [Wolf](#wolf) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Pentaceratops](#pentaceratops) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
+| 9 | [Flightless Bird](#flightless-bird) | [Wolf](#wolf) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Pentaceratops](#pentaceratops) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
+| 10 | [Eagle, Giant](#eagle-giant) | [Snake, Rock Python](#snake) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Camarasaurus](#camarasaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
+| 11 | [Eagle, Giant](#eagle-giant) | [Cat, Great](#cat-great) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Camarasaurus](#camarasaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
+| 12 | [Pterodactyl](#pterodactyl) | [Rhinoceros](#rhinoceros) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Cetiosaurus](#cetiosaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
+| 13 | [Pterodactyl](#pterodactyl) | [Bear, Cave](#bear-cave) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Cetiosaurus](#cetiosaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
+| 14 | [Pterodactyl](#pterodactyl) | [Bear, Cave](#bear-cave) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Diplodocus](#diplodocus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
+| 15 | [Pterodactyl](#pterodactyl) | [Boar, Giant](#boar-giant) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Diplodocus](#diplodocus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
+| 16 | [Pterodactyl](#pterodactyl) | [Sabre-Tooth Tiger](#sabre-tooth-tiger) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Apatosaurus](#apatosaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troglodyte](#troglodyte) |
+| 17 | [Pterodactyl](#pterodactyl) | [Sabre-Tooth Tiger](#sabre-tooth-tiger) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Apatosaurus](#apatosaurus) | [Neanderthal (Caveman)](#neanderthal-caveman) | [Troll](#troll) |
+| 18 | [Pterodactyl](#pterodactyl) | [Mammoth](#mammoth) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Apatosaurus](#apatosaurus) | [Lizard Man](#lizard-man) | [Troll](#troll) |
+| 19 | [Pterodactyl](#pterodactyl) | [Mammoth](#mammoth) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Apatosaurus](#apatosaurus) | [Lizard Man](#lizard-man) | [Troll](#troll) |
+| 20 | [Pterodactyl](#pterodactyl) | [Mastodon](#mastodon) | [Tyrannosaurus Rex](#tyrannosaurus-rex) | [Brachiosaurus](#brachiosaurus) | [Lizard Man](#lizard-man) | [Troll](#troll) |
 
 ```{=latex}
 \filbreak
@@ -9202,51 +9202,51 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Other Dinosaurs | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
-| 1 | Dinosaur (see sub-table) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Archelon](#archelon) | [Peryton](#peryton) |
-| 2 | Dinosaur (see sub-table) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Peryton](#peryton) |
-| 3 | Dinosaur (see sub-table) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Dinichthys](#dinichthys) | [Hellhound](#hellhound) |
-| 4 | Dinosaur (see sub-table) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Dinichthys](#dinichthys) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
-| 5 | Dinosaur (see sub-table) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Elasmosaurus](#elasmosaurus) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
-| 6 | Dinosaur (see sub-table) | Runners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Octopus, Giant](#octopus-giant) | [Type VI Demon (Balor)](#type-vi-demon-balor) |
-| 7 | Dinosaur (see sub-table) | Runners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Mosasaurus](#mosasaurus) | [Manes](#manes) |
-| 8 | Dinosaur (see sub-table) | Runners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Plesiosaurus](#plesiosaurus) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
-| 9 | Dinosaur (see sub-table) | Searchers | [Wight](#wight) | [Centipede, Giant](#centipede-giant) | [Plesiosaurus](#plesiosaurus) | [Quasit](#quasit) |
-| 10 | Dinosaur (see sub-table) | Searchers | [Wight](#wight) | [Centipede, Giant](#centipede-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
-| 11 | Dinosaur (see sub-table) | Survivors | [Wight](#wight) | [Centipede, Giant](#centipede-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
-| 12 | Dinosaur (see sub-table) | Survivors | [Wraith](#wraith) | [Fly, Robber](#fly-robber) | [Shark](#shark) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
-| 13 | Dinosaur (see sub-table) | Survivors | [Wraith](#wraith) | [Fly, Robber](#fly-robber) | [Shark](#shark) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
-| 14 | Dinosaur (see sub-table) | Survivors | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Spider, Giant](#spider-giant) | [Ice Devil](#ice-devil) |
-| 15 | Dinosaur (see sub-table) | Survivors | [Zombie](#zombie) | [Scorpion, Giant](#scorpion-giant) | [Squid, Giant](#squid-giant) | [Ice Devil](#ice-devil) |
-| 16 | Dinosaur (see sub-table) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Imp](#imp) |
-| 17 | Dinosaur (see sub-table) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Pit Fiend](#pit-fiend) |
-| 18 | Dinosaur (see sub-table) | NPC Party (see *NPC Parties*) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Turtle, Giant](#turtle-giant) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
-| 19 | Dinosaur (see sub-table) | NPC Party (see *NPC Parties*) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Turtle, Giant](#turtle-giant) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
-| 20 | Dinosaur (see sub-table) | NPC Party (see *NPC Parties*) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Whale](#whale) | [Imp](#imp) |
+| 1 | Dinosaur (see sub-table) | Escapees | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Manes](#manes) |
+| 2 | Dinosaur (see sub-table) | Escapees | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Imp](#imp) |
+| 3 | Dinosaur (see sub-table) | Escapees | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Spider, Giant](#spider-giant) | [Imp](#imp) |
+| 4 | Dinosaur (see sub-table) | Escapees | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Quasit](#quasit) |
+| 5 | Dinosaur (see sub-table) | Escapees | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Peryton](#peryton) |
+| 6 | Dinosaur (see sub-table) | Runners | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Squid, Giant](#squid-giant) | [Peryton](#peryton) |
+| 7 | Dinosaur (see sub-table) | Runners | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Archelon](#archelon) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
+| 8 | Dinosaur (see sub-table) | Runners | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Octopus, Giant](#octopus-giant) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
+| 9 | Dinosaur (see sub-table) | Searchers | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Shark](#shark) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
+| 10 | Dinosaur (see sub-table) | Searchers | [Zombie](#zombie) | [Scorpion, Giant](#scorpion-giant) | [Shark](#shark) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
+| 11 | Dinosaur (see sub-table) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Dinichthys](#dinichthys) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
+| 12 | Dinosaur (see sub-table) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Dinichthys](#dinichthys) | [Hellhound](#hellhound) |
+| 13 | Dinosaur (see sub-table) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Mosasaurus](#mosasaurus) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
+| 14 | Dinosaur (see sub-table) | Survivors | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Crocodile](#crocodile) | [Type VI Demon (Balor)](#type-vi-demon-balor) |
+| 15 | Dinosaur (see sub-table) | Survivors | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Elasmosaurus](#elasmosaurus) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
+| 16 | Dinosaur (see sub-table) | Survivors | [Wight](#wight) | [Beetle, Giant](#beetle-giant) | [Turtle, Giant](#turtle-giant) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
+| 17 | Dinosaur (see sub-table) | Survivors | [Wight](#wight) | [Beetle, Giant](#beetle-giant) | [Turtle, Giant](#turtle-giant) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
+| 18 | Dinosaur (see sub-table) | NPC Party (see *NPC Parties*) | [Wight](#wight) | [Beetle, Giant](#beetle-giant) | [Plesiosaurus](#plesiosaurus) | [Ice Devil](#ice-devil) |
+| 19 | Dinosaur (see sub-table) | NPC Party (see *NPC Parties*) | [Wraith](#wraith) | [Beetle, Giant](#beetle-giant) | [Plesiosaurus](#plesiosaurus) | [Ice Devil](#ice-devil) |
+| 20 | Dinosaur (see sub-table) | NPC Party (see *NPC Parties*) | [Wraith](#wraith) | [Beetle, Giant](#beetle-giant) | [Whale](#whale) | [Pit Fiend](#pit-fiend) |
 
 #### Marine
 
 | 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
 |---|---|---|---|---|---|---|
-| 1 | [Flightless Bird](#flightless-bird) | [Ape](#ape) | [Dragon, Black](#dragon) | [Giant, Cloud](#giant) | Fishing Village | [Gnoll](#gnoll) |
-| 2 | [Flightless Bird](#flightless-bird) | [Boar, Giant](#boar-giant) | [Dragon, Black](#dragon) | [Giant, Cloud](#giant) | [Men, Bandit](#men) | [Gnoll](#gnoll) |
-| 3 | [Flightless Bird](#flightless-bird) | [Boar](#boar) | [Dragon, Blue](#dragon) | [Giant, Storm](#giant) | [Men, Bandit](#men) | [Gnoll](#gnoll) |
-| 4 | [Flightless Bird](#flightless-bird) | [Dog](#dog) | [Dragon, Brass](#dragon) | [Giant, Storm](#giant) | [Men, Brigand](#men) | [Gnoll](#gnoll) |
-| 5 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Bronze](#dragon) | [Giant, Storm](#giant) | [Men, Buccaneer / Pirate](#men) | [Goblin](#goblin) |
-| 6 | [Flightless Bird](#flightless-bird) | [Jackal](#jackal) | [Dragon, Bronze](#dragon) | [Giant, Storm](#giant) | [Men, Buccaneer / Pirate](#men) | [Goblin](#goblin) |
-| 7 | [Flightless Bird](#flightless-bird) | [Jackal](#jackal) | [Dragon, Bronze](#dragon) | [Giant, Storm](#giant) | [Men, Buccaneer / Pirate](#men) | [Troglodyte](#troglodyte) |
-| 8 | [Eagle, Giant](#eagle-giant) | [Lizards, Giant](#lizards-giant) | [Dragon, Copper](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Troglodyte](#troglodyte) |
-| 9 | [Eagle, Giant](#eagle-giant) | [Lizards, Giant](#lizards-giant) | [Dragon, Gold](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Hobgoblin](#hobgoblin) |
-| 10 | [Eagle, Giant](#eagle-giant) | [Lizards, Giant](#lizards-giant) | [Dragon, Gold](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Hobgoblin](#hobgoblin) |
-| 11 | [Chimera](#chimera) | [Lizards, Giant](#lizards-giant) | [Dragon, Gold](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Hobgoblin](#hobgoblin) |
-| 12 | [Chimera](#chimera) | [Lizards, Giant](#lizards-giant) | [Dragon, Gold](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Kobold](#kobold) |
-| 13 | [Chimera](#chimera) | [Rat](#rat) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Buccaneer / Pirate](#men) | [Orc](#orc) |
-| 14 | [Cockatrice](#cockatrice) | [Rat](#rat) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Men, Buccaneer / Pirate](#men) | [Orc](#orc) |
-| 15 | [Cockatrice](#cockatrice) | [Rat](#rat) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Men, Buccaneer / Pirate](#men) | [Orc](#orc) |
-| 16 | [Harpy](#harpy) | [Rat](#rat) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Wereboar](#wereboar) | [Troll](#troll) |
-| 17 | [Harpy](#harpy) | [Rat](#rat) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Wererat](#wererat) | [Troll](#troll) |
-| 18 | [Manticore](#manticore) | [Snake, Pit Viper](#snake) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Wererat](#wererat) | [Troll](#troll) |
-| 19 | [Nightmare](#nightmare) | [Snake, Pit Viper](#snake) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Weretiger](#weretiger) | [Troll](#troll) |
-| 20 | [Wyvern](#wyvern) | [Snake, Pit Viper](#snake) | [Dragon, Silver](#dragon) | [Ogre Mage](#ogre-mage) | [Werewolf](#werewolf) | [Troll](#troll) |
+| 1 | [Flightless Bird](#flightless-bird) | [Jackal](#jackal) | [Dragon, Bronze](#dragon) | [Ogre](#ogre) | Fishing Village | [Goblin](#goblin) |
+| 2 | [Flightless Bird](#flightless-bird) | [Jackal](#jackal) | [Dragon, Bronze](#dragon) | [Ogre](#ogre) | [Men, Bandit](#men) | [Goblin](#goblin) |
+| 3 | [Flightless Bird](#flightless-bird) | [Rat](#rat) | [Dragon, Bronze](#dragon) | [Ogre](#ogre) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
+| 4 | [Flightless Bird](#flightless-bird) | [Rat](#rat) | [Dragon, Bronze](#dragon) | [Ogre](#ogre) | [Men, Brigand](#men) | [Hobgoblin](#hobgoblin) |
+| 5 | [Flightless Bird](#flightless-bird) | [Rat](#rat) | [Dragon, Bronze](#dragon) | [Ogre](#ogre) | [Men, Buccaneer / Pirate](#men) | [Hobgoblin](#hobgoblin) |
+| 6 | [Flightless Bird](#flightless-bird) | [Rat](#rat) | [Dragon, Bronze](#dragon) | [Ogre](#ogre) | [Men, Buccaneer / Pirate](#men) | [Kobold](#kobold) |
+| 7 | [Flightless Bird](#flightless-bird) | [Rat](#rat) | [Dragon, Bronze](#dragon) | [Ogre](#ogre) | [Men, Buccaneer / Pirate](#men) | [Orc](#orc) |
+| 8 | [Harpy](#harpy) | [Dog](#dog) | [Dragon, Bronze](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Orc](#orc) |
+| 9 | [Harpy](#harpy) | [Snake, Pit Viper](#snake) | [Dragon, Bronze](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Orc](#orc) |
+| 10 | [Eagle, Giant](#eagle-giant) | [Snake, Pit Viper](#snake) | [Dragon, Bronze](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Gnoll](#gnoll) |
+| 11 | [Eagle, Giant](#eagle-giant) | [Snake, Pit Viper](#snake) | [Dragon, Black](#dragon) | [Giant, Cloud](#giant) | [Men, Merchant](#men) | [Gnoll](#gnoll) |
+| 12 | [Eagle, Giant](#eagle-giant) | [Boar](#boar) | [Dragon, Black](#dragon) | [Giant, Cloud](#giant) | [Men, Merchant](#men) | [Gnoll](#gnoll) |
+| 13 | [Cockatrice](#cockatrice) | [Horse](#horse) | [Dragon, Black](#dragon) | [Giant, Storm](#giant) | [Men, Buccaneer / Pirate](#men) | [Gnoll](#gnoll) |
+| 14 | [Cockatrice](#cockatrice) | [Ape](#ape) | [Dragon, Black](#dragon) | [Giant, Storm](#giant) | [Men, Buccaneer / Pirate](#men) | [Troglodyte](#troglodyte) |
+| 15 | [Manticore](#manticore) | [Lizards, Giant](#lizards-giant) | [Dragon, Black](#dragon) | [Giant, Storm](#giant) | [Men, Buccaneer / Pirate](#men) | [Troglodyte](#troglodyte) |
+| 16 | [Nightmare](#nightmare) | [Lizards, Giant](#lizards-giant) | [Dragon, Gold](#dragon) | [Giant, Storm](#giant) | [Wereboar](#wereboar) | [Troll](#troll) |
+| 17 | [Wyvern](#wyvern) | [Lizards, Giant](#lizards-giant) | [Dragon, Gold](#dragon) | [Giant, Storm](#giant) | [Werewolf](#werewolf) | [Troll](#troll) |
+| 18 | [Chimera](#chimera) | [Lizards, Giant](#lizards-giant) | [Dragon, Gold](#dragon) | [Giant, Storm](#giant) | [Wererat](#wererat) | [Troll](#troll) |
+| 19 | [Chimera](#chimera) | [Lizards, Giant](#lizards-giant) | [Dragon, Gold](#dragon) | [Giant, Storm](#giant) | [Wererat](#wererat) | [Troll](#troll) |
+| 20 | [Chimera](#chimera) | [Boar, Giant](#boar-giant) | [Dragon, Gold](#dragon) | [Giant, Storm](#giant) | [Weretiger](#weretiger) | [Troll](#troll) |
 
 ```{=latex}
 \filbreak
@@ -9256,51 +9256,51 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
-| 1 | [Basilisk](#basilisk) | Decoys | [Groaning Spirit](#groaning-spirit) | [Centipede, Giant](#centipede-giant) | [Pike, Giant](#pike-giant) | [Shadow](#shadow) |
-| 2 | [Lizards, Giant](#lizards-giant) | Decoys | [Lich](#lich) | [Centipede, Giant](#centipede-giant) | [Crab, Giant](#crab-giant) | [Quasit](#quasit) |
-| 3 | [Blink Dog](#blink-dog) | Escapees | [Shadow](#shadow) | [Centipede, Giant](#centipede-giant) | [Crab, Giant](#crab-giant) | [Quasit](#quasit) |
-| 4 | [Cat, Great](#cat-great) | Escapees | [Shadow](#shadow) | [Centipede, Giant](#centipede-giant) | [Crab, Giant](#crab-giant) | [Succubus](#succubus) |
-| 5 | [Sahuagin](#sahuagin) | Escapees | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Crab, Giant](#crab-giant) | [Succubus](#succubus) |
-| 6 | [Sahuagin](#sahuagin) | Joiners | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Eel](#eel) | [Imp](#imp) |
-| 7 | [Sahuagin](#sahuagin) | Joiners | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Eel](#eel) | [Elemental, Water](#elemental) |
-| 8 | [Sahuagin](#sahuagin) | Joiners | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Octopus, Giant](#octopus-giant) | [Elemental, Water](#elemental) |
-| 9 | [Cyclops](#cyclops) | Joiners | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Locathah](#locathah) | [Elemental, Water](#elemental) |
-| 10 | [Cyclops](#cyclops) | Joiners | [Spectre](#spectre) | [Fly, Robber](#fly-robber) | [Locathah](#locathah) | [Homunculus](#homunculus) |
-| 11 | [Cyclops](#cyclops) | Joiners | [Wight](#wight) | [Fly, Robber](#fly-robber) | [Mermen](#mermen) | [Invisible Stalker](#invisible-stalker) |
-| 12 | [Hellhound](#hellhound) | Joiners | [Wight](#wight) | [Scorpion, Giant](#scorpion-giant) | [Mermen](#mermen) | [Salamander](#salamander) |
-| 13 | [Wererat](#wererat) | Runners | [Wight](#wight) | [Scorpion, Giant](#scorpion-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Salamander](#salamander) |
-| 14 | [Wererat](#wererat) | Runners | [Will-O-Wisp](#will-o-wisp) | [Scorpion, Giant](#scorpion-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Salamander](#salamander) |
-| 15 | [Lizard Man](#lizard-man) | Runners | [Will-O-Wisp](#will-o-wisp) | [Spider, Giant](#spider-giant) | [Shark](#shark) | [Salamander](#salamander) |
-| 16 | [Lizard Man](#lizard-man) | Searchers | [Wraith](#wraith) | [Spider, Giant](#spider-giant) | [Shark](#shark) | [Night Hag](#night-hag) |
-| 17 | [Lizard Man](#lizard-man) | Searchers | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Shark](#shark) | [Rakshasa](#rakshasa) |
-| 18 | [Pseudo-Dragon](#pseudo-dragon) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Triton](#triton) | [Troll](#troll) |
-| 19 | [Unicorn](#unicorn) | [Wolf](#wolf) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Turtle, Giant](#turtle-giant) | [Xorn](#xorn) |
-| 20 | [Wolf](#wolf) | [Wolf](#wolf) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Whale](#whale) | [Xorn](#xorn) |
+| 1 | [Sahuagin](#sahuagin) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Locathah](#locathah) | [Shadow](#shadow) |
+| 2 | [Sahuagin](#sahuagin) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Locathah](#locathah) | [Imp](#imp) |
+| 3 | [Sahuagin](#sahuagin) | Escapees | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Crab, Giant](#crab-giant) | [Homunculus](#homunculus) |
+| 4 | [Sahuagin](#sahuagin) | Escapees | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Crab, Giant](#crab-giant) | [Quasit](#quasit) |
+| 5 | [Lizard Man](#lizard-man) | Escapees | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Crab, Giant](#crab-giant) | [Quasit](#quasit) |
+| 6 | [Lizard Man](#lizard-man) | Joiners | [Shadow](#shadow) | [Fly, Robber](#fly-robber) | [Crab, Giant](#crab-giant) | [Troll](#troll) |
+| 7 | [Lizard Man](#lizard-man) | Joiners | [Shadow](#shadow) | [Fly, Robber](#fly-robber) | [Triton](#triton) | [Succubus](#succubus) |
+| 8 | [Pseudo-Dragon](#pseudo-dragon) | Joiners | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Pike, Giant](#pike-giant) | [Succubus](#succubus) |
+| 9 | [Blink Dog](#blink-dog) | Joiners | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Mermen](#mermen) | [Rakshasa](#rakshasa) |
+| 10 | [Unicorn](#unicorn) | Joiners | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Mermen](#mermen) | [Xorn](#xorn) |
+| 11 | [Wolf](#wolf) | Joiners | [Zombie](#zombie) | [Scorpion, Giant](#scorpion-giant) | [Eel](#eel) | [Xorn](#xorn) |
+| 12 | [Wererat](#wererat) | Joiners | [Wight](#wight) | [Scorpion, Giant](#scorpion-giant) | [Eel](#eel) | [Elemental, Water](#elemental) |
+| 13 | [Wererat](#wererat) | Runners | [Wight](#wight) | [Scorpion, Giant](#scorpion-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Elemental, Water](#elemental) |
+| 14 | [Basilisk](#basilisk) | Runners | [Wight](#wight) | [Spider, Giant](#spider-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Elemental, Water](#elemental) |
+| 15 | [Lizards, Giant](#lizards-giant) | Runners | [Wraith](#wraith) | [Spider, Giant](#spider-giant) | [Octopus, Giant](#octopus-giant) | [Invisible Stalker](#invisible-stalker) |
+| 16 | [Cat, Great](#cat-great) | Searchers | [Spectre](#spectre) | [Spider, Giant](#spider-giant) | [Shark](#shark) | [Night Hag](#night-hag) |
+| 17 | [Hellhound](#hellhound) | Searchers | [Groaning Spirit](#groaning-spirit) | [Spider, Giant](#spider-giant) | [Shark](#shark) | [Salamander](#salamander) |
+| 18 | [Cyclops](#cyclops) | Survivors | [Will-O-Wisp](#will-o-wisp) | [Spider, Giant](#spider-giant) | [Shark](#shark) | [Salamander](#salamander) |
+| 19 | [Cyclops](#cyclops) | [Wolf](#wolf) | [Will-O-Wisp](#will-o-wisp) | [Wasp, Giant](#wasp-giant) | [Turtle, Giant](#turtle-giant) | [Salamander](#salamander) |
+| 20 | [Cyclops](#cyclops) | [Wolf](#wolf) | [Lich](#lich) | [Wasp, Giant](#wasp-giant) | [Whale](#whale) | [Salamander](#salamander) |
 
 #### Mountains
 
 | 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
 |---|---|---|---|---|---|---|
-| 1 | [Bat](#bat) | [Bear, Black](#bear) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Dwarf](#dwarf) | [Bugbear](#bugbear) |
-| 2 | [Bat](#bat) | [Bear, Brown](#bear) | [Dragon, Bronze](#dragon) | [Giant, Cloud](#giant) | [Dwarf](#dwarf) | [Bugbear](#bugbear) |
-| 3 | [Flightless Bird](#flightless-bird) | [Bear, Brown](#bear) | [Dragon, Bronze](#dragon) | [Giant, Cloud](#giant) | [Dwarf](#dwarf) | [Bugbear](#bugbear) |
-| 4 | [Flightless Bird](#flightless-bird) | [Cat, Great](#cat-great) | [Dragon, Bronze](#dragon) | [Giant, Fire](#giant) | [Dwarf](#dwarf) | [Bugbear](#bugbear) |
-| 5 | [Flightless Bird](#flightless-bird) | [Cat, Great](#cat-great) | [Dragon, Gold](#dragon) | [Giant, Fire](#giant) | [Dwarf](#dwarf) | [Goblin](#goblin) |
-| 6 | [Flightless Bird](#flightless-bird) | [Cat, Great](#cat-great) | [Dragon, Gold](#dragon) | [Giant, Fire](#giant) | Keep, Small | [Goblin](#goblin) |
-| 7 | [Eagle, Giant](#eagle-giant) | [Dog](#dog) | [Dragon, Gold](#dragon) | [Giant, Fire](#giant) | [Men, Bandit](#men) | [Goblin](#goblin) |
-| 8 | [Griffon](#griffon) | [Dog](#dog) | [Dragon, Gold](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Goblin](#goblin) |
-| 9 | [Griffon](#griffon) | [Dog](#dog) | [Dragon, Green](#dragon) | [Giant, Stone](#giant) | [Men, Bandit](#men) | [Goblin](#goblin) |
-| 10 | [Griffon](#griffon) | [Dog](#dog) | [Dragon, Red](#dragon) | [Giant, Stone](#giant) | [Men, Brigand](#men) | [Goblin](#goblin) |
-| 11 | [Harpy](#harpy) | [Lizards, Giant](#lizards-giant) | [Dragon, Red](#dragon) | [Giant, Stone](#giant) | [Men, Brigand](#men) | [Troglodyte](#troglodyte) |
-| 12 | [Harpy](#harpy) | [Lizards, Giant](#lizards-giant) | [Dragon, Red](#dragon) | [Giant, Stone](#giant) | [Men, Merchant](#men) | [Troglodyte](#troglodyte) |
-| 13 | [Hippogriff](#hippogriff) | [Rat](#rat) | [Dragon, Red](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Hobgoblin](#hobgoblin) |
-| 14 | [Hippogriff](#hippogriff) | [Rat](#rat) | [Dragon, Red](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Hobgoblin](#hobgoblin) |
-| 15 | [Nightmare](#nightmare) | [Rat](#rat) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Troll](#troll) |
-| 16 | [Pegasus](#pegasus) | [Rat](#rat) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Troll](#troll) |
-| 17 | [Roc](#roc) | [Rat](#rat) | [Dragon, Silver](#dragon) | [Ogre](#ogre) | Village, Mining | [Troll](#troll) |
-| 18 | [Stirge](#stirge) | [Snake, Pit Viper](#snake) | [Dragon, Silver](#dragon) | [Ogre Mage](#ogre-mage) | [Werebear](#werebear) | [Troll](#troll) |
-| 19 | [Stirge](#stirge) | [Snake, Pit Viper](#snake) | [Dragon, Silver](#dragon) | [Ogre Mage](#ogre-mage) | [Werebear](#werebear) | [Troll](#troll) |
-| 20 | [Stirge](#stirge) | [Snake, Pit Viper](#snake) | [Dragon, Silver](#dragon) | [Titan](#titan) | [Wereboar](#wereboar) | [Troll](#troll) |
+| 1 | [Stirge](#stirge) | [Rat](#rat) | [Dragon, Red](#dragon) | [Ogre](#ogre) | Keep, Small | [Goblin](#goblin) |
+| 2 | [Stirge](#stirge) | [Rat](#rat) | [Dragon, Red](#dragon) | [Ogre](#ogre) | Village, Mining | [Goblin](#goblin) |
+| 3 | [Stirge](#stirge) | [Rat](#rat) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Dwarf](#dwarf) | [Goblin](#goblin) |
+| 4 | [Bat](#bat) | [Rat](#rat) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Dwarf](#dwarf) | [Goblin](#goblin) |
+| 5 | [Bat](#bat) | [Rat](#rat) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | [Dwarf](#dwarf) | [Goblin](#goblin) |
+| 6 | [Pegasus](#pegasus) | [Dog](#dog) | [Dragon, Red](#dragon) | [Giant, Hill](#giant) | [Dwarf](#dwarf) | [Goblin](#goblin) |
+| 7 | [Flightless Bird](#flightless-bird) | [Dog](#dog) | [Dragon, Red](#dragon) | [Giant, Stone](#giant) | [Dwarf](#dwarf) | [Hobgoblin](#hobgoblin) |
+| 8 | [Flightless Bird](#flightless-bird) | [Dog](#dog) | [Dragon, Red](#dragon) | [Giant, Stone](#giant) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
+| 9 | [Flightless Bird](#flightless-bird) | [Dog](#dog) | [Dragon, Red](#dragon) | [Giant, Stone](#giant) | [Men, Bandit](#men) | [Troglodyte](#troglodyte) |
+| 10 | [Flightless Bird](#flightless-bird) | [Snake, Pit Viper](#snake) | [Dragon, Red](#dragon) | [Giant, Stone](#giant) | [Men, Bandit](#men) | [Troglodyte](#troglodyte) |
+| 11 | [Harpy](#harpy) | [Snake, Pit Viper](#snake) | [Dragon, Silver](#dragon) | [Ettin](#ettin) | [Men, Brigand](#men) | [Bugbear](#bugbear) |
+| 12 | [Harpy](#harpy) | [Snake, Pit Viper](#snake) | [Dragon, Silver](#dragon) | [Giant, Fire](#giant) | [Men, Brigand](#men) | [Bugbear](#bugbear) |
+| 13 | [Hippogriff](#hippogriff) | [Bear, Black](#bear) | [Dragon, Silver](#dragon) | [Giant, Fire](#giant) | [Men, Merchant](#men) | [Bugbear](#bugbear) |
+| 14 | [Hippogriff](#hippogriff) | [Bear, Brown](#bear) | [Dragon, Silver](#dragon) | [Giant, Fire](#giant) | [Men, Merchant](#men) | [Bugbear](#bugbear) |
+| 15 | [Eagle, Giant](#eagle-giant) | [Bear, Brown](#bear) | [Dragon, Silver](#dragon) | [Giant, Fire](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
+| 16 | [Nightmare](#nightmare) | [Cat, Great](#cat-great) | [Dragon, Bronze](#dragon) | [Giant, Cloud](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
+| 17 | [Griffon](#griffon) | [Cat, Great](#cat-great) | [Dragon, Bronze](#dragon) | [Giant, Cloud](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
+| 18 | [Griffon](#griffon) | [Cat, Great](#cat-great) | [Dragon, Bronze](#dragon) | [Giant, Storm](#giant) | [Wereboar](#wereboar) | [Troll](#troll) |
+| 19 | [Griffon](#griffon) | [Lizards, Giant](#lizards-giant) | [Dragon, Gold](#dragon) | [Giant, Storm](#giant) | [Werebear](#werebear) | [Troll](#troll) |
+| 20 | [Roc](#roc) | [Lizards, Giant](#lizards-giant) | [Dragon, Gold](#dragon) | [Titan](#titan) | [Werebear](#werebear) | [Troll](#troll) |
 
 ```{=latex}
 \filbreak
@@ -9310,51 +9310,51 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
-| 1 | [Cyclops](#cyclops) | Decoys | [Ghast](#ghast) | [Centipede, Giant](#centipede-giant) | [Beetle, Giant](#beetle-giant) | [Type VI Demon (Balor)](#type-vi-demon-balor) |
-| 2 | [Cyclops](#cyclops) | Decoys | [Ghost](#ghost) | [Centipede, Giant](#centipede-giant) | [Beetle, Giant](#beetle-giant) | [Quasit](#quasit) |
-| 3 | [Cyclops](#cyclops) | Decoys | [Ghost](#ghost) | [Centipede, Giant](#centipede-giant) | [Beetle, Giant](#beetle-giant) | [Quasit](#quasit) |
-| 4 | [Cyclops](#cyclops) | Escapees | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Beetle, Giant](#beetle-giant) | [Bone Devil](#bone-devil) |
-| 5 | [Hellhound](#hellhound) | Joiners | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Frog, Giant](#frog-giant) | [Ice Devil](#ice-devil) |
-| 6 | [Hellhound](#hellhound) | Joiners | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Frog, Giant](#frog-giant) | [Imp](#imp) |
-| 7 | [Wererat](#wererat) | Joiners | [Lich](#lich) | [Fly, Robber](#fly-robber) | [Frog, Giant](#frog-giant) | [Imp](#imp) |
-| 8 | [Wererat](#wererat) | Joiners | [Lich](#lich) | [Fly, Robber](#fly-robber) | [Frog, Giant](#frog-giant) | [Doppelganger](#doppelganger) |
-| 9 | [Lizard Man](#lizard-man) | Runners | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Naga](#naga) | [Elemental, Air](#elemental) |
-| 10 | [Lizard Man](#lizard-man) | Searchers | [Skeleton](#skeleton) | [Scorpion, Giant](#scorpion-giant) | [Nixies](#nixies) | [Elemental, Earth](#elemental) |
-| 11 | [Medusa](#medusa) | Searchers | [Skeleton](#skeleton) | [Scorpion, Giant](#scorpion-giant) | [Nixies](#nixies) | [Elemental, Earth](#elemental) |
-| 12 | [Medusa](#medusa) | Searchers | [Skeleton](#skeleton) | [Spider, Giant](#spider-giant) | [Nixies](#nixies) | [Elemental, Earth](#elemental) |
-| 13 | [Medusa](#medusa) | Searchers | [Vampire](#vampire) | [Spider, Giant](#spider-giant) | [Nixies](#nixies) | [Elemental, Fire](#elemental) |
-| 14 | [Medusa](#medusa) | Survivors | [Vampire](#vampire) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Elemental, Water](#elemental) |
-| 15 | [Rust Monster](#rust-monster) | Survivors | [Vampire](#vampire) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Night Hag](#night-hag) |
-| 16 | [Rust Monster](#rust-monster) | Survivors | [Wraith](#wraith) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Goblin](#goblin) |
-| 17 | [Unicorn](#unicorn) | [Wolf](#wolf) | [Wraith](#wraith) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Rakshasa](#rakshasa) |
-| 18 | [Unicorn](#unicorn) | [Wolf](#wolf) | [Wraith](#wraith) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Sabre-Tooth Tiger](#sabre-tooth-tiger) |
-| 19 | [Wolf](#wolf) | [Wolf](#wolf) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Toad, Giant](#toad-giant) | [Troll](#troll) |
-| 20 | [Wolf](#wolf) | [Wolf](#wolf) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Turtle, Giant](#turtle-giant) | [Xorn](#xorn) |
+| 1 | [Lizard Man](#lizard-man) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Nixies](#nixies) | [Goblin](#goblin) |
+| 2 | [Lizard Man](#lizard-man) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Nixies](#nixies) | [Imp](#imp) |
+| 3 | [Medusa](#medusa) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Nixies](#nixies) | [Imp](#imp) |
+| 4 | [Medusa](#medusa) | Escapees | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Nixies](#nixies) | [Quasit](#quasit) |
+| 5 | [Medusa](#medusa) | Joiners | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Quasit](#quasit) |
+| 6 | [Medusa](#medusa) | Joiners | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Doppelganger](#doppelganger) |
+| 7 | [Unicorn](#unicorn) | Joiners | [Ghoul](#ghoul) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Troll](#troll) |
+| 8 | [Unicorn](#unicorn) | Joiners | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Rakshasa](#rakshasa) |
+| 9 | [Wolf](#wolf) | Runners | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Xorn](#xorn) |
+| 10 | [Wolf](#wolf) | Searchers | [Ghast](#ghast) | [Scorpion, Giant](#scorpion-giant) | [Toad, Giant](#toad-giant) | [Type VI Demon (Balor)](#type-vi-demon-balor) |
+| 11 | [Wererat](#wererat) | Searchers | [Wraith](#wraith) | [Scorpion, Giant](#scorpion-giant) | [Frog, Giant](#frog-giant) | [Elemental, Air](#elemental) |
+| 12 | [Wererat](#wererat) | Searchers | [Wraith](#wraith) | [Spider, Giant](#spider-giant) | [Frog, Giant](#frog-giant) | [Elemental, Earth](#elemental) |
+| 13 | [Rust Monster](#rust-monster) | Searchers | [Wraith](#wraith) | [Spider, Giant](#spider-giant) | [Frog, Giant](#frog-giant) | [Elemental, Earth](#elemental) |
+| 14 | [Rust Monster](#rust-monster) | Survivors | [Vampire](#vampire) | [Spider, Giant](#spider-giant) | [Frog, Giant](#frog-giant) | [Elemental, Earth](#elemental) |
+| 15 | [Hellhound](#hellhound) | Survivors | [Vampire](#vampire) | [Spider, Giant](#spider-giant) | [Beetle, Giant](#beetle-giant) | [Elemental, Fire](#elemental) |
+| 16 | [Hellhound](#hellhound) | Survivors | [Vampire](#vampire) | [Spider, Giant](#spider-giant) | [Beetle, Giant](#beetle-giant) | [Elemental, Water](#elemental) |
+| 17 | [Cyclops](#cyclops) | [Wolf](#wolf) | [Ghost](#ghost) | [Spider, Giant](#spider-giant) | [Beetle, Giant](#beetle-giant) | [Night Hag](#night-hag) |
+| 18 | [Cyclops](#cyclops) | [Wolf](#wolf) | [Ghost](#ghost) | [Wasp, Giant](#wasp-giant) | [Beetle, Giant](#beetle-giant) | [Sabre-Tooth Tiger](#sabre-tooth-tiger) |
+| 19 | [Cyclops](#cyclops) | [Wolf](#wolf) | [Lich](#lich) | [Wasp, Giant](#wasp-giant) | [Naga](#naga) | [Bone Devil](#bone-devil) |
+| 20 | [Cyclops](#cyclops) | [Wolf](#wolf) | [Lich](#lich) | [Wasp, Giant](#wasp-giant) | [Turtle, Giant](#turtle-giant) | [Ice Devil](#ice-devil) |
 
 #### Plains
 
 | 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
 |---|---|---|---|---|---|---|
-| 1 | [Bat](#bat) | [Buffalo](#buffalo) | [Dragon, Black](#dragon) | [Ettin](#ettin) | [Halfling](#halfling) | [Gnoll](#gnoll) |
-| 2 | [Bat, Giant](#bat) | [Buffalo](#buffalo) | [Dragon, Blue](#dragon) | [Ettin](#ettin) | [Halfling](#halfling) | [Gnoll](#gnoll) |
-| 3 | [Flightless Bird](#flightless-bird) | [Bull](#bull) | [Dragon, Blue](#dragon) | [Ettin](#ettin) | [Halfling](#halfling) | [Gnoll](#gnoll) |
-| 4 | [Flightless Bird](#flightless-bird) | [Cattle](#cattle) | [Dragon, Brass](#dragon) | [Ettin](#ettin) | [Halfling](#halfling) | [Goblin](#goblin) |
-| 5 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Halfling](#halfling) | [Goblin](#goblin) |
-| 6 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Bronze](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Goblin](#goblin) |
-| 7 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Copper](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Goblin](#goblin) |
-| 8 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Gold](#dragon) | [Giant, Hill](#giant) | [Men, Brigand](#men) | [Troglodyte](#troglodyte) |
-| 9 | [Eagle, Giant](#eagle-giant) | [Horse](#horse) | [Dragon, Gold](#dragon) | [Giant, Hill](#giant) | [Men, Brigand](#men) | [Troglodyte](#troglodyte) |
-| 10 | [Eagle, Giant](#eagle-giant) | [Horse](#horse) | [Dragon, Green](#dragon) | [Giant, Hill](#giant) | [Men, Merchant](#men) | [Hobgoblin](#hobgoblin) |
-| 11 | [Shedu](#shedu) | [Hyena](#hyena) | [Dragon, Green](#dragon) | [Giant, Hill](#giant) | [Men, Merchant](#men) | [Kobold](#kobold) |
-| 12 | [Sphinx](#sphinx) | [Hyena](#hyena) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Kobold](#kobold) |
-| 13 | [Sphinx](#sphinx) | [Cat, Great](#cat-great) | [Dragon, Green](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Kobold](#kobold) |
-| 14 | [Sphinx](#sphinx) | [Rhinoceros](#rhinoceros) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Men, Nomad](#men) | [Orc](#orc) |
-| 15 | [Sphinx](#sphinx) | [Rhinoceros](#rhinoceros) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Men, Nomad](#men) | [Orc](#orc) |
-| 16 | [Stirge](#stirge) | [Snake, Pit Viper](#snake) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Men, Nomad](#men) | [Orc](#orc) |
-| 17 | [Stirge](#stirge) | [Snake, Rock Python](#snake) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Men, Nomad](#men) | [Troll](#troll) |
-| 18 | [Wyvern](#wyvern) | [Snake, Spitting Cobra](#snake) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Troll](#troll) |
-| 19 | [Wyvern](#wyvern) | [Snake, Giant Rattler](#snake) | [Dragon, Red](#dragon) | [Ogre Mage](#ogre-mage) | Wizard's Tower | [Troll](#troll) |
-| 20 | [Wyvern](#wyvern) | [Cat, Great](#cat-great) | [Dragon, Silver](#dragon) | [Titan](#titan) | Village, Farming | [Troll](#troll) |
+| 1 | [Stirge](#stirge) | [Hyena](#hyena) | [Dragon, Blue](#dragon) | [Ettin](#ettin) | Wizard's Tower | [Goblin](#goblin) |
+| 2 | [Stirge](#stirge) | [Hyena](#hyena) | [Dragon, Blue](#dragon) | [Ettin](#ettin) | Village, Farming | [Goblin](#goblin) |
+| 3 | [Bat](#bat) | [Snake, Spitting Cobra](#snake) | [Dragon, Blue](#dragon) | [Ettin](#ettin) | [Halfling](#halfling) | [Goblin](#goblin) |
+| 4 | [Bat, Giant](#bat) | [Snake, Pit Viper](#snake) | [Dragon, Blue](#dragon) | [Ettin](#ettin) | [Halfling](#halfling) | [Goblin](#goblin) |
+| 5 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Blue](#dragon) | [Ettin](#ettin) | [Halfling](#halfling) | [Hobgoblin](#hobgoblin) |
+| 6 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Blue](#dragon) | [Giant, Hill](#giant) | [Halfling](#halfling) | [Kobold](#kobold) |
+| 7 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Blue](#dragon) | [Giant, Hill](#giant) | [Halfling](#halfling) | [Kobold](#kobold) |
+| 8 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Blue](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Kobold](#kobold) |
+| 9 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Blue](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Orc](#orc) |
+| 10 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Blue](#dragon) | [Giant, Hill](#giant) | [Men, Brigand](#men) | [Orc](#orc) |
+| 11 | [Eagle, Giant](#eagle-giant) | [Bull](#bull) | [Dragon, Gold](#dragon) | [Giant, Hill](#giant) | [Men, Brigand](#men) | [Orc](#orc) |
+| 12 | [Eagle, Giant](#eagle-giant) | [Cattle](#cattle) | [Dragon, Gold](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Gnoll](#gnoll) |
+| 13 | [Wyvern](#wyvern) | [Snake, Giant Rattler](#snake) | [Dragon, Gold](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Gnoll](#gnoll) |
+| 14 | [Wyvern](#wyvern) | [Buffalo](#buffalo) | [Dragon, Gold](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Gnoll](#gnoll) |
+| 15 | [Wyvern](#wyvern) | [Buffalo](#buffalo) | [Dragon, Gold](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Troglodyte](#troglodyte) |
+| 16 | [Shedu](#shedu) | [Snake, Rock Python](#snake) | [Dragon, Gold](#dragon) | [Ogre](#ogre) | [Men, Nomad](#men) | [Troglodyte](#troglodyte) |
+| 17 | [Sphinx](#sphinx) | [Cat, Great](#cat-great) | [Dragon, Bronze](#dragon) | [Ogre](#ogre) | [Men, Nomad](#men) | [Troll](#troll) |
+| 18 | [Sphinx](#sphinx) | [Rhinoceros](#rhinoceros) | [Dragon, Bronze](#dragon) | [Ogre](#ogre) | [Men, Nomad](#men) | [Troll](#troll) |
+| 19 | [Sphinx](#sphinx) | [Rhinoceros](#rhinoceros) | [Dragon, Black](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Nomad](#men) | [Troll](#troll) |
+| 20 | [Sphinx](#sphinx) | [Cat, Great](#cat-great) | [Dragon, Black](#dragon) | [Titan](#titan) | [Men, Merchant](#men) | [Troll](#troll) |
 
 ```{=latex}
 \filbreak
@@ -9364,51 +9364,51 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
-| 1 | [Ankheg](#ankheg) | Decoys | [Groaning Spirit](#groaning-spirit) | [Beetle, Giant](#beetle-giant) | [Beetle, Giant](#beetle-giant) | [Efreeti](#efreeti) |
-| 2 | [Ankheg](#ankheg) | Decoys | [Ghast](#ghast) | [Beetle, Giant](#beetle-giant) | [Beetle, Giant](#beetle-giant) | [Ape](#ape) |
-| 3 | [Ankheg](#ankheg) | Escapees | [Ghost](#ghost) | [Centipede, Giant](#centipede-giant) | [Beetle, Giant](#beetle-giant) | [Hellhound](#hellhound) |
-| 4 | [Ankheg](#ankheg) | Escapees | [Ghost](#ghost) | [Centipede, Giant](#centipede-giant) | [Crayfish, Giant](#crayfish-giant) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
-| 5 | [Basilisk](#basilisk) | Joiners | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Crayfish, Giant](#crayfish-giant) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
-| 6 | [Blink Dog](#blink-dog) | Joiners | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Crocodile](#crocodile) | [Succubus](#succubus) |
-| 7 | [Blink Dog](#blink-dog) | Joiners | [Lich](#lich) | [Fly, Robber](#fly-robber) | [Crocodile](#crocodile) | [Erinyes](#erinyes) |
-| 8 | [Bulette](#bulette) | Joiners | [Mummy](#mummy) | [Fly, Robber](#fly-robber) | [Eel](#eel) | [Imp](#imp) |
-| 9 | [Bulette](#bulette) | Joiners | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Eel](#eel) | [Lemure](#lemure) |
-| 10 | [Centaur](#centaur) | Runners | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Fish, Giant](#fish-giant) | [Barbed Devil](#barbed-devil) |
-| 11 | [Centaur](#centaur) | Runners | [Skeleton](#skeleton) | [Scorpion, Giant](#scorpion-giant) | [Fish, Giant](#fish-giant) | [Bone Devil](#bone-devil) |
-| 12 | [Centaur](#centaur) | Searchers | [Skeleton](#skeleton) | [Scorpion, Giant](#scorpion-giant) | [Frog, Giant](#frog-giant) | [Bone Devil](#bone-devil) |
-| 13 | [Wererat](#wererat) | Searchers | [Skeleton](#skeleton) | [Scorpion, Giant](#scorpion-giant) | [Frog, Giant](#frog-giant) | [Barbed Devil](#barbed-devil) |
-| 14 | [Owl Bear](#owl-bear) | Searchers | [Spectre](#spectre) | [Spider, Giant](#spider-giant) | [Nixies](#nixies) | [Dragon, White](#dragon) |
-| 15 | [Pseudo-Dragon](#pseudo-dragon) | Survivors | [Vampire](#vampire) | [Spider, Giant](#spider-giant) | [Nixies](#nixies) | [Elemental, Earth](#elemental) |
-| 16 | [Purple Worm](#purple-worm) | Survivors | [Wight](#wight) | [Spider, Giant](#spider-giant) | [Spider, Giant](#spider-giant) | [Golem](#golem) |
-| 17 | [Purple Worm](#purple-worm) | Survivors | [Wraith](#wraith) | [Spider, Giant](#spider-giant) | [Spider, Giant](#spider-giant) | [Imp](#imp) |
-| 18 | [Purple Worm](#purple-worm) | Survivors | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Toad, Giant](#toad-giant) | [Goblin](#goblin) |
-| 19 | [Purple Worm](#purple-worm) | [Wolf](#wolf) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Toad, Giant](#toad-giant) | [Peryton](#peryton) |
-| 20 | [Wolf](#wolf) | [Wolf](#wolf) | [Zombie](#zombie) | [Wasp, Giant](#wasp-giant) | [Toad, Giant](#toad-giant) | [Megalosaurus](#megalosaurus) |
+| 1 | [Pseudo-Dragon](#pseudo-dragon) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Nixies](#nixies) | [Goblin](#goblin) |
+| 2 | [Blink Dog](#blink-dog) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Nixies](#nixies) | [Imp](#imp) |
+| 3 | [Blink Dog](#blink-dog) | Escapees | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Imp](#imp) |
+| 4 | [Centaur](#centaur) | Escapees | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Lemure](#lemure) |
+| 5 | [Centaur](#centaur) | Joiners | [Skeleton](#skeleton) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Peryton](#peryton) |
+| 6 | [Centaur](#centaur) | Joiners | [Ghoul](#ghoul) | [Fly, Robber](#fly-robber) | [Frog, Giant](#frog-giant) | [Ape](#ape) |
+| 7 | [Wolf](#wolf) | Joiners | [Ghoul](#ghoul) | [Fly, Robber](#fly-robber) | [Frog, Giant](#frog-giant) | [Succubus](#succubus) |
+| 8 | [Wererat](#wererat) | Joiners | [Zombie](#zombie) | [Fly, Robber](#fly-robber) | [Crayfish, Giant](#crayfish-giant) | [Erinyes](#erinyes) |
+| 9 | [Owl Bear](#owl-bear) | Joiners | [Zombie](#zombie) | [Scorpion, Giant](#scorpion-giant) | [Crayfish, Giant](#crayfish-giant) | [Dragon, White](#dragon) |
+| 10 | [Basilisk](#basilisk) | Runners | [Zombie](#zombie) | [Scorpion, Giant](#scorpion-giant) | [Spider, Giant](#spider-giant) | [Hellhound](#hellhound) |
+| 11 | [Ankheg](#ankheg) | Runners | [Wight](#wight) | [Scorpion, Giant](#scorpion-giant) | [Spider, Giant](#spider-giant) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
+| 12 | [Ankheg](#ankheg) | Searchers | [Ghast](#ghast) | [Spider, Giant](#spider-giant) | [Eel](#eel) | [Barbed Devil](#barbed-devil) |
+| 13 | [Ankheg](#ankheg) | Searchers | [Wraith](#wraith) | [Spider, Giant](#spider-giant) | [Eel](#eel) | [Barbed Devil](#barbed-devil) |
+| 14 | [Ankheg](#ankheg) | Searchers | [Mummy](#mummy) | [Spider, Giant](#spider-giant) | [Fish, Giant](#fish-giant) | [Elemental, Earth](#elemental) |
+| 15 | [Bulette](#bulette) | Survivors | [Spectre](#spectre) | [Wasp, Giant](#wasp-giant) | [Fish, Giant](#fish-giant) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
+| 16 | [Bulette](#bulette) | Survivors | [Groaning Spirit](#groaning-spirit) | [Wasp, Giant](#wasp-giant) | [Beetle, Giant](#beetle-giant) | [Bone Devil](#bone-devil) |
+| 17 | [Purple Worm](#purple-worm) | Survivors | [Vampire](#vampire) | [Wasp, Giant](#wasp-giant) | [Beetle, Giant](#beetle-giant) | [Bone Devil](#bone-devil) |
+| 18 | [Purple Worm](#purple-worm) | Survivors | [Ghost](#ghost) | [Beetle, Giant](#beetle-giant) | [Beetle, Giant](#beetle-giant) | [Efreeti](#efreeti) |
+| 19 | [Purple Worm](#purple-worm) | [Wolf](#wolf) | [Ghost](#ghost) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Megalosaurus](#megalosaurus) |
+| 20 | [Purple Worm](#purple-worm) | [Wolf](#wolf) | [Lich](#lich) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Golem](#golem) |
 
 #### Rural
 
 | 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
 |---|---|---|---|---|---|---|
-| 1 | [Bat](#bat) | [Badger](#badger) | [Dragon, Blue](#dragon) | [Ettin](#ettin) | [Halfling](#halfling) | [Gnoll](#gnoll) |
-| 2 | [Bat](#bat) | [Bear, Brown](#bear) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Halfling](#halfling) | [Gnoll](#gnoll) |
-| 3 | [Bat](#bat) | [Bull](#bull) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Halfling](#halfling) | [Gnoll](#gnoll) |
-| 4 | [Bat](#bat) | [Badger](#badger) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Men, Bandit](#men) | [Goblin](#goblin) |
-| 5 | [Bat](#bat) | [Badger](#badger) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Men, Bandit](#men) | [Goblin](#goblin) |
-| 6 | [Bat](#bat) | [Badger](#badger) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Men, Brigand](#men) | [Goblin](#goblin) |
-| 7 | [Bat, Giant](#bat) | [Cattle](#cattle) | [Dragon, Gold](#dragon) | [Ettin](#ettin) | [Men, Brigand](#men) | [Hobgoblin](#hobgoblin) |
-| 8 | [Bat, Giant](#bat) | [Cattle](#cattle) | [Dragon, Gold](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Hobgoblin](#hobgoblin) |
-| 9 | [Flightless Bird](#flightless-bird) | [Dog](#dog) | [Dragon, Green](#dragon) | [Giant, Cloud](#giant) | [Men, Merchant](#men) | [Hobgoblin](#hobgoblin) |
-| 10 | [Flightless Bird](#flightless-bird) | [Dog](#dog) | [Dragon, Green](#dragon) | [Giant, Fire](#giant) | [Men, Merchant](#men) | [Kobold](#kobold) |
-| 11 | [Flightless Bird](#flightless-bird) | [Dog](#dog) | [Dragon, Red](#dragon) | [Giant, Hill](#giant) | [Men, Merchant](#men) | [Kobold](#kobold) |
-| 12 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Red](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Kobold](#kobold) |
-| 13 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Red](#dragon) | [Ogre](#ogre) | [Men, Merchant](#men) | [Kobold](#kobold) |
-| 14 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Silver](#dragon) | [Ogre](#ogre) | [Werebear](#werebear) | [Orc](#orc) |
-| 15 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Silver](#dragon) | [Ogre](#ogre) | [Wereboar](#wereboar) | [Orc](#orc) |
-| 16 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Silver](#dragon) | [Ogre](#ogre) | [Wererat](#wererat) | [Orc](#orc) |
-| 17 | [Eagle, Giant](#eagle-giant) | [Horse](#horse) | [Dragon, Gold](#dragon) | [Ogre Mage](#ogre-mage) | [Wererat](#wererat) | [Orc](#orc) |
-| 18 | [Eagle, Giant](#eagle-giant) | [Rat](#rat) | [Dragon, Gold](#dragon) | [Ogre Mage](#ogre-mage) | [Wererat](#wererat) | [Orc](#orc) |
-| 19 | [Wyvern](#wyvern) | [Rat](#rat) | [Dragon, Gold](#dragon) | [Ogre Mage](#ogre-mage) | [Wererat](#wererat) | [Troll](#troll) |
-| 20 | [Wyvern](#wyvern) | [Wolf](#wolf) | [Dragon, Gold](#dragon) | [Ogre Mage](#ogre-mage) | [Werewolf](#werewolf) | [Troll](#troll) |
+| 1 | [Bat](#bat) | [Rat](#rat) | [Dragon, Gold](#dragon) | [Ogre](#ogre) | [Halfling](#halfling) | [Goblin](#goblin) |
+| 2 | [Bat](#bat) | [Rat](#rat) | [Dragon, Gold](#dragon) | [Ogre](#ogre) | [Halfling](#halfling) | [Goblin](#goblin) |
+| 3 | [Bat](#bat) | [Dog](#dog) | [Dragon, Gold](#dragon) | [Ogre](#ogre) | [Halfling](#halfling) | [Goblin](#goblin) |
+| 4 | [Bat](#bat) | [Dog](#dog) | [Dragon, Gold](#dragon) | [Ogre](#ogre) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
+| 5 | [Bat](#bat) | [Dog](#dog) | [Dragon, Gold](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
+| 6 | [Bat](#bat) | [Badger](#badger) | [Dragon, Gold](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Brigand](#men) | [Hobgoblin](#hobgoblin) |
+| 7 | [Bat, Giant](#bat) | [Badger](#badger) | [Dragon, Gold](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Brigand](#men) | [Kobold](#kobold) |
+| 8 | [Bat, Giant](#bat) | [Badger](#badger) | [Dragon, Gold](#dragon) | [Ogre Mage](#ogre-mage) | [Men, Merchant](#men) | [Kobold](#kobold) |
+| 9 | [Flightless Bird](#flightless-bird) | [Badger](#badger) | [Dragon, Bronze](#dragon) | [Giant, Hill](#giant) | [Men, Merchant](#men) | [Kobold](#kobold) |
+| 10 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Kobold](#kobold) |
+| 11 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Orc](#orc) |
+| 12 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Orc](#orc) |
+| 13 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Men, Merchant](#men) | [Orc](#orc) |
+| 14 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Bronze](#dragon) | [Ettin](#ettin) | [Wereboar](#wereboar) | [Orc](#orc) |
+| 15 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Silver](#dragon) | [Ettin](#ettin) | [Werewolf](#werewolf) | [Orc](#orc) |
+| 16 | [Flightless Bird](#flightless-bird) | [Bull](#bull) | [Dragon, Silver](#dragon) | [Ettin](#ettin) | [Wererat](#wererat) | [Gnoll](#gnoll) |
+| 17 | [Eagle, Giant](#eagle-giant) | [Cattle](#cattle) | [Dragon, Silver](#dragon) | [Ettin](#ettin) | [Wererat](#wererat) | [Gnoll](#gnoll) |
+| 18 | [Eagle, Giant](#eagle-giant) | [Cattle](#cattle) | [Dragon, Silver](#dragon) | [Giant, Fire](#giant) | [Wererat](#wererat) | [Gnoll](#gnoll) |
+| 19 | [Wyvern](#wyvern) | [Wolf](#wolf) | [Dragon, Blue](#dragon) | [Giant, Cloud](#giant) | [Wererat](#wererat) | [Troll](#troll) |
+| 20 | [Wyvern](#wyvern) | [Bear, Brown](#bear) | [Dragon, Blue](#dragon) | [Giant, Storm](#giant) | [Werebear](#werebear) | [Troll](#troll) |
 
 ```{=latex}
 \filbreak
@@ -9418,51 +9418,51 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
-| 1 | [Ankheg](#ankheg) | Decoys | [Ghast](#ghast) | [Ant, Giant](#ant-giant) | [Crayfish, Giant](#crayfish-giant) | [Strangle Weed](#strangle-weed) |
-| 2 | [Ankheg](#ankheg) | Decoys | [Ghost](#ghost) | [Beetle, Giant](#beetle-giant) | [Crayfish, Giant](#crayfish-giant) | [Hellhound](#hellhound) |
-| 3 | [Satyr](#satyr) | Escapees | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Crayfish, Giant](#crayfish-giant) | [Hellhound](#hellhound) |
-| 4 | [Satyr](#satyr) | Escapees | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Crayfish, Giant](#crayfish-giant) | [Sahuagin](#sahuagin) |
-| 5 | [Hellhound](#hellhound) | Joiners | [Lich](#lich) | [Centipede, Giant](#centipede-giant) | [Crayfish, Giant](#crayfish-giant) | [Lizard Man](#lizard-man) |
-| 6 | [Hellhound](#hellhound) | Joiners | [Mummy](#mummy) | [Fly, Robber](#fly-robber) | [Crocodile](#crocodile) | [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu) |
-| 7 | [Lizard Man](#lizard-man) | Joiners | [Shadow](#shadow) | [Fly, Robber](#fly-robber) | [Crocodile](#crocodile) | [Quasit](#quasit) |
-| 8 | [Lizard Man](#lizard-man) | Joiners | [Ghost](#ghost) | [Fly, Robber](#fly-robber) | [Crocodile](#crocodile) | [Succubus](#succubus) |
-| 9 | [Naga](#naga) | Joiners | [Shadow](#shadow) | [Fly, Robber](#fly-robber) | [Eel](#eel) | [Succubus](#succubus) |
-| 10 | [Naga](#naga) | Joiners | [Shadow](#shadow) | [Scorpion, Giant](#scorpion-giant) | [Fish, Giant](#fish-giant) | [Succubus](#succubus) |
-| 11 | [Otyugh](#otyugh) | Joiners | [Shadow](#shadow) | [Scorpion, Giant](#scorpion-giant) | [Fish, Giant](#fish-giant) | [Night Hag](#night-hag) |
-| 12 | [Otyugh](#otyugh) | Runners | [Skeleton](#skeleton) | [Spider, Giant](#spider-giant) | [Frog, Giant](#frog-giant) | [Night Hag](#night-hag) |
-| 13 | [Otyugh](#otyugh) | Runners | [Skeleton](#skeleton) | [Spider, Giant](#spider-giant) | [Frog, Giant](#frog-giant) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
-| 14 | [Otyugh](#otyugh) | Runners | [Spectre](#spectre) | [Spider, Giant](#spider-giant) | [Nixies](#nixies) | [Imp](#imp) |
-| 15 | [Owl Bear](#owl-bear) | Searchers | [Vampire](#vampire) | [Spider, Giant](#spider-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Bone Devil](#bone-devil) |
-| 16 | [Owl Bear](#owl-bear) | Searchers | [Wight](#wight) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Golem](#golem) |
-| 17 | [Rot Grub](#rot-grub) | Survivors | [Wraith](#wraith) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Hydra](#hydra) |
-| 18 | [Rot Grub](#rot-grub) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Will-O-Wisp](#will-o-wisp) |
-| 19 | [Shambling Mound](#shambling-mound) | [Wolf](#wolf) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Toad, Giant](#toad-giant) | [Yeti](#yeti) |
-| 20 | [Shambling Mound](#shambling-mound) | [Wolf](#wolf) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Turtle, Giant](#turtle-giant) | [Zombie](#zombie) |
+| 1 | [Rot Grub](#rot-grub) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Nixies](#nixies) | [Sahuagin](#sahuagin) |
+| 2 | [Rot Grub](#rot-grub) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Lizard Man](#lizard-man) |
+| 3 | [Lizard Man](#lizard-man) | Escapees | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Imp](#imp) |
+| 4 | [Lizard Man](#lizard-man) | Escapees | [Ghoul](#ghoul) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Zombie](#zombie) |
+| 5 | [Satyr](#satyr) | Joiners | [Shadow](#shadow) | [Fly, Robber](#fly-robber) | [Toad, Giant](#toad-giant) | [Quasit](#quasit) |
+| 6 | [Satyr](#satyr) | Joiners | [Shadow](#shadow) | [Fly, Robber](#fly-robber) | [Frog, Giant](#frog-giant) | [Strangle Weed](#strangle-weed) |
+| 7 | [Owl Bear](#owl-bear) | Joiners | [Shadow](#shadow) | [Fly, Robber](#fly-robber) | [Frog, Giant](#frog-giant) | [Yeti](#yeti) |
+| 8 | [Owl Bear](#owl-bear) | Joiners | [Shadow](#shadow) | [Scorpion, Giant](#scorpion-giant) | [Crayfish, Giant](#crayfish-giant) | [Horned Devil (Malebranche)](#horned-devil-malebranche) |
+| 9 | [Hellhound](#hellhound) | Joiners | [Zombie](#zombie) | [Scorpion, Giant](#scorpion-giant) | [Crayfish, Giant](#crayfish-giant) | [Succubus](#succubus) |
+| 10 | [Hellhound](#hellhound) | Joiners | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Crayfish, Giant](#crayfish-giant) | [Succubus](#succubus) |
+| 11 | [Ankheg](#ankheg) | Joiners | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Crayfish, Giant](#crayfish-giant) | [Succubus](#succubus) |
+| 12 | [Ankheg](#ankheg) | Runners | [Wight](#wight) | [Spider, Giant](#spider-giant) | [Crayfish, Giant](#crayfish-giant) | [Hellhound](#hellhound) |
+| 13 | [Otyugh](#otyugh) | Runners | [Ghast](#ghast) | [Spider, Giant](#spider-giant) | [Eel](#eel) | [Hellhound](#hellhound) |
+| 14 | [Otyugh](#otyugh) | Runners | [Wraith](#wraith) | [Spider, Giant](#spider-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Night Hag](#night-hag) |
+| 15 | [Otyugh](#otyugh) | Searchers | [Mummy](#mummy) | [Spider, Giant](#spider-giant) | [Fish, Giant](#fish-giant) | [Night Hag](#night-hag) |
+| 16 | [Otyugh](#otyugh) | Searchers | [Spectre](#spectre) | [Spider, Giant](#spider-giant) | [Fish, Giant](#fish-giant) | [Bone Devil](#bone-devil) |
+| 17 | [Shambling Mound](#shambling-mound) | Survivors | [Vampire](#vampire) | [Spider, Giant](#spider-giant) | [Crocodile](#crocodile) | [Will-O-Wisp](#will-o-wisp) |
+| 18 | [Shambling Mound](#shambling-mound) | Survivors | [Ghost](#ghost) | [Spider, Giant](#spider-giant) | [Crocodile](#crocodile) | [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu) |
+| 19 | [Naga](#naga) | [Wolf](#wolf) | [Ghost](#ghost) | [Ant, Giant](#ant-giant) | [Crocodile](#crocodile) | [Hydra](#hydra) |
+| 20 | [Naga](#naga) | [Wolf](#wolf) | [Lich](#lich) | [Beetle, Giant](#beetle-giant) | [Turtle, Giant](#turtle-giant) | [Golem](#golem) |
 
 #### Tundra
 
 | 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
 |---|---|---|---|---|---|---|
-| 1 | [Flightless Bird](#flightless-bird) | [Bear, Brown](#bear) | [Dragon, Black](#dragon) | [Giant, Cloud](#giant) | [Men, Bandit](#men) | [Bugbear](#bugbear) |
-| 2 | [Flightless Bird](#flightless-bird) | [Bear, Black](#bear) | [Dragon, Black](#dragon) | [Giant, Cloud](#giant) | [Men, Bandit](#men) | [Bugbear](#bugbear) |
-| 3 | [Eagle, Giant](#eagle-giant) | [Bear, Cave](#bear-cave) | [Dragon, Black](#dragon) | [Giant, Cloud](#giant) | [Men, Bandit](#men) | [Gnoll](#gnoll) |
-| 4 | [Chimera](#chimera) | [Bear, Cave](#bear-cave) | [Dragon, Black](#dragon) | [Giant, Frost](#giant) | [Men, Bandit](#men) | [Gnoll](#gnoll) |
-| 5 | [Cockatrice](#cockatrice) | [Bear, Cave](#bear-cave) | [Dragon, Bronze](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Gnoll](#gnoll) |
-| 6 | [Cockatrice](#cockatrice) | [Dog](#dog) | [Dragon, Bronze](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Gnoll](#gnoll) |
-| 7 | [Griffon](#griffon) | [Dog](#dog) | [Dragon, Bronze](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Goblin](#goblin) |
-| 8 | [Harpy](#harpy) | [Dog](#dog) | [Dragon, Bronze](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Goblin](#goblin) |
-| 9 | [Hippogriff](#hippogriff) | [Sea Lion](#sea-lion) | [Dragon, Bronze](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Hobgoblin](#hobgoblin) |
-| 10 | [Nightmare](#nightmare) | [Sea Lion](#sea-lion) | [Dragon, Red](#dragon) | [Giant, Frost](#giant) | [Men, Brigand](#men) | [Hobgoblin](#hobgoblin) |
-| 11 | [Pegasus](#pegasus) | [Sea Lion](#sea-lion) | [Dragon, Red](#dragon) | [Giant, Frost](#giant) | [Men, Brigand](#men) | [Kobold](#kobold) |
-| 12 | [Roc](#roc) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Giant, Frost](#giant) | [Men, Brigand](#men) | [Orc](#orc) |
-| 13 | [Shedu](#shedu) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Giant, Stone](#giant) | [Men, Merchant](#men) | [Orc](#orc) |
-| 14 | [Sphinx](#sphinx) | [Wolf](#wolf) | [Dragon, Red](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Orc](#orc) |
-| 15 | [Sphinx](#sphinx) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
-| 16 | [Sphinx](#sphinx) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
-| 17 | [Sphinx](#sphinx) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
-| 18 | [Stirge](#stirge) | [Wolverine](#wolverine) | [Dragon, White](#dragon) | [Giant, Storm](#giant) | Port, Smuggler | [Troll](#troll) |
-| 19 | [Stirge](#stirge) | [Wolverine](#wolverine) | [Dragon, White](#dragon) | [Giant, Storm](#giant) | Village, Fishing | [Troll](#troll) |
-| 20 | [Wyvern](#wyvern) | [Wolverine](#wolverine) | [Dragon, White](#dragon) | [Giant, Storm](#giant) | [Werewolf](#werewolf) | [Troll](#troll) |
+| 1 | [Stirge](#stirge) | [Dog](#dog) | [Dragon, White](#dragon) | [Giant, Cloud](#giant) | Port, Smuggler | [Goblin](#goblin) |
+| 2 | [Stirge](#stirge) | [Dog](#dog) | [Dragon, White](#dragon) | [Giant, Cloud](#giant) | Village, Fishing | [Goblin](#goblin) |
+| 3 | [Pegasus](#pegasus) | [Dog](#dog) | [Dragon, White](#dragon) | [Giant, Cloud](#giant) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
+| 4 | [Flightless Bird](#flightless-bird) | [Wolverine](#wolverine) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
+| 5 | [Flightless Bird](#flightless-bird) | [Wolverine](#wolverine) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Men, Bandit](#men) | [Kobold](#kobold) |
+| 6 | [Harpy](#harpy) | [Wolverine](#wolverine) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Men, Bandit](#men) | [Orc](#orc) |
+| 7 | [Hippogriff](#hippogriff) | [Bear, Black](#bear) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Orc](#orc) |
+| 8 | [Eagle, Giant](#eagle-giant) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Orc](#orc) |
+| 9 | [Cockatrice](#cockatrice) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Gnoll](#gnoll) |
+| 10 | [Cockatrice](#cockatrice) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Gnoll](#gnoll) |
+| 11 | [Nightmare](#nightmare) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Berserker](#berserker) | [Gnoll](#gnoll) |
+| 12 | [Griffon](#griffon) | [Wolf](#wolf) | [Dragon, White](#dragon) | [Giant, Frost](#giant) | [Men, Brigand](#men) | [Gnoll](#gnoll) |
+| 13 | [Wyvern](#wyvern) | [Wolf](#wolf) | [Dragon, Bronze](#dragon) | [Giant, Stone](#giant) | [Men, Brigand](#men) | [Bugbear](#bugbear) |
+| 14 | [Chimera](#chimera) | [Bear, Brown](#bear) | [Dragon, Bronze](#dragon) | [Giant, Storm](#giant) | [Men, Brigand](#men) | [Bugbear](#bugbear) |
+| 15 | [Shedu](#shedu) | [Sea Lion](#sea-lion) | [Dragon, Bronze](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
+| 16 | [Sphinx](#sphinx) | [Sea Lion](#sea-lion) | [Dragon, Bronze](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
+| 17 | [Sphinx](#sphinx) | [Sea Lion](#sea-lion) | [Dragon, Gold](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
+| 18 | [Sphinx](#sphinx) | [Bear, Cave](#bear-cave) | [Dragon, Gold](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
+| 19 | [Sphinx](#sphinx) | [Bear, Cave](#bear-cave) | [Dragon, Black](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
+| 20 | [Roc](#roc) | [Bear, Cave](#bear-cave) | [Dragon, Black](#dragon) | [Giant, Storm](#giant) | [Werewolf](#werewolf) | [Troll](#troll) |
 
 ```{=latex}
 \filbreak
@@ -9472,26 +9472,26 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
-| 1 | [Basilisk](#basilisk) | Decoys | [Ghast](#ghast) | [Beetle, Giant](#beetle-giant) | [Pike, Giant](#pike-giant) | [Aerial Servant](#aerial-servant) |
-| 2 | [Blink Dog](#blink-dog) | Decoys | [Ghoul](#ghoul) | [Beetle, Giant](#beetle-giant) | [Pike, Giant](#pike-giant) | [Ape](#ape) |
-| 3 | [Blink Dog](#blink-dog) | Decoys | [Ghoul](#ghoul) | [Beetle, Giant](#beetle-giant) | [Crab, Giant](#crab-giant) | [Hellhound](#hellhound) |
-| 4 | [Blink Dog](#blink-dog) | Decoys | [Ghoul](#ghoul) | [Beetle, Giant](#beetle-giant) | [Eel](#eel) | [Hellhound](#hellhound) |
-| 5 | [Cat, Great](#cat-great) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Succubus](#succubus) |
-| 6 | [Remorhaz](#remorhaz) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Octopus, Giant](#octopus-giant) | [Night Hag](#night-hag) |
-| 7 | [Remorhaz](#remorhaz) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant](#beetle-giant) | [Nixies](#nixies) | [Ice Devil](#ice-devil) |
-| 8 | [Remorhaz](#remorhaz) | Joiners | [Vampire](#vampire) | [Beetle, Giant](#beetle-giant) | [Octopus, Giant](#octopus-giant) | [Ice Devil](#ice-devil) |
-| 9 | [Remorhaz](#remorhaz) | Joiners | [Wight](#wight) | [Beetle, Giant](#beetle-giant) | [Octopus, Giant](#octopus-giant) | [Manticore](#manticore) |
-| 10 | [Remorhaz](#remorhaz) | Runners | [Wight](#wight) | [Centipede, Giant](#centipede-giant) | [Octopus, Giant](#octopus-giant) | [Elemental, Fire](#elemental) |
-| 11 | [Wolf](#wolf) | Runners | [Wight](#wight) | [Centipede, Giant](#centipede-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Elemental, Fire](#elemental) |
-| 12 | [Wolf](#wolf) | Runners | [Will-O-Wisp](#will-o-wisp) | [Centipede, Giant](#centipede-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Elf](#elf) |
-| 13 | [Wolf](#wolf) | Searchers | [Will-O-Wisp](#will-o-wisp) | [Fly, Robber](#fly-robber) | [Shark](#shark) | [Halfling](#halfling) |
-| 14 | [Wolf](#wolf) | Searchers | [Wraith](#wraith) | [Fly, Robber](#fly-robber) | [Shark](#shark) | [Imp](#imp) |
-| 15 | [Yeti](#yeti) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Squid, Giant](#squid-giant) | [Imp](#imp) |
-| 16 | [Yeti](#yeti) | Survivors | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Squid, Giant](#squid-giant) | [Lemure](#lemure) |
-| 17 | [Yeti](#yeti) | [Wolf](#wolf) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Turtle, Giant](#turtle-giant) | [Bone Devil](#bone-devil) |
-| 18 | [Yeti](#yeti) | [Wolf](#wolf) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Turtle, Giant](#turtle-giant) | [Pterodactyl](#pterodactyl) |
-| 19 | [Yeti](#yeti) | [Wolf](#wolf) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Sea Lion](#sea-lion) | [Quasit](#quasit) |
-| 20 | [Yeti](#yeti) | [Wolf](#wolf) | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Sea Lion](#sea-lion) | [Quasit](#quasit) |
+| 1 | [Blink Dog](#blink-dog) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Nixies](#nixies) | [Elf](#elf) |
+| 2 | [Blink Dog](#blink-dog) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Crab, Giant](#crab-giant) | [Halfling](#halfling) |
+| 3 | [Blink Dog](#blink-dog) | Decoys | [Skeleton](#skeleton) | [Centipede, Giant](#centipede-giant) | [Pike, Giant](#pike-giant) | [Imp](#imp) |
+| 4 | [Wolf](#wolf) | Decoys | [Ghoul](#ghoul) | [Fly, Robber](#fly-robber) | [Pike, Giant](#pike-giant) | [Imp](#imp) |
+| 5 | [Wolf](#wolf) | Escapees | [Ghoul](#ghoul) | [Fly, Robber](#fly-robber) | [Eel](#eel) | [Lemure](#lemure) |
+| 6 | [Wolf](#wolf) | Escapees | [Ghoul](#ghoul) | [Spider, Giant](#spider-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Quasit](#quasit) |
+| 7 | [Wolf](#wolf) | Escapees | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Quasit](#quasit) |
+| 8 | [Yeti](#yeti) | Joiners | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Ape](#ape) |
+| 9 | [Yeti](#yeti) | Joiners | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Squid, Giant](#squid-giant) | [Pterodactyl](#pterodactyl) |
+| 10 | [Yeti](#yeti) | Runners | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Squid, Giant](#squid-giant) | [Succubus](#succubus) |
+| 11 | [Yeti](#yeti) | Runners | [Zombie](#zombie) | [Spider, Giant](#spider-giant) | [Sea Lion](#sea-lion) | [Manticore](#manticore) |
+| 12 | [Yeti](#yeti) | Runners | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Sea Lion](#sea-lion) | [Hellhound](#hellhound) |
+| 13 | [Yeti](#yeti) | Searchers | [Wight](#wight) | [Beetle, Giant](#beetle-giant) | [Octopus, Giant](#octopus-giant) | [Hellhound](#hellhound) |
+| 14 | [Basilisk](#basilisk) | Searchers | [Wight](#wight) | [Beetle, Giant](#beetle-giant) | [Octopus, Giant](#octopus-giant) | [Night Hag](#night-hag) |
+| 15 | [Cat, Great](#cat-great) | Survivors | [Wight](#wight) | [Beetle, Giant](#beetle-giant) | [Octopus, Giant](#octopus-giant) | [Elemental, Fire](#elemental) |
+| 16 | [Remorhaz](#remorhaz) | Survivors | [Ghast](#ghast) | [Beetle, Giant](#beetle-giant) | [Octopus, Giant](#octopus-giant) | [Elemental, Fire](#elemental) |
+| 17 | [Remorhaz](#remorhaz) | [Wolf](#wolf) | [Wraith](#wraith) | [Beetle, Giant](#beetle-giant) | [Shark](#shark) | [Bone Devil](#bone-devil) |
+| 18 | [Remorhaz](#remorhaz) | [Wolf](#wolf) | [Vampire](#vampire) | [Beetle, Giant](#beetle-giant) | [Shark](#shark) | [Ice Devil](#ice-devil) |
+| 19 | [Remorhaz](#remorhaz) | [Wolf](#wolf) | [Will-O-Wisp](#will-o-wisp) | [Beetle, Giant](#beetle-giant) | [Turtle, Giant](#turtle-giant) | [Ice Devil](#ice-devil) |
+| 20 | [Remorhaz](#remorhaz) | [Wolf](#wolf) | [Will-O-Wisp](#will-o-wisp) | [Beetle, Giant](#beetle-giant) | [Turtle, Giant](#turtle-giant) | [Aerial Servant](#aerial-servant) |
 
 #### Dinosaur Sub-table
 
