@@ -1,0 +1,622 @@
+{
+  "raceMulticlass": {
+    "headers": [
+      "d%",
+      "Race",
+      "% Multi-Class"
+    ],
+    "rows": [
+      {
+        "d%": {
+          "raw": "01-25",
+          "links": []
+        },
+        "Race": {
+          "raw": "Dwarf",
+          "links": []
+        },
+        "% Multi-Class": {
+          "raw": "15%",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "26-50",
+          "links": []
+        },
+        "Race": {
+          "raw": "Elf",
+          "links": []
+        },
+        "% Multi-Class": {
+          "raw": "80%",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "51-65",
+          "links": []
+        },
+        "Race": {
+          "raw": "Gnome",
+          "links": []
+        },
+        "% Multi-Class": {
+          "raw": "25%",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "66-75",
+          "links": []
+        },
+        "Race": {
+          "raw": "Half-Elf",
+          "links": []
+        },
+        "% Multi-Class": {
+          "raw": "80%",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "76-85",
+          "links": []
+        },
+        "Race": {
+          "raw": "Halfling",
+          "links": []
+        },
+        "% Multi-Class": {
+          "raw": "15%",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "86-00",
+          "links": []
+        },
+        "Race": {
+          "raw": "Half-Orc",
+          "links": []
+        },
+        "% Multi-Class": {
+          "raw": "50%",
+          "links": []
+        }
+      }
+    ]
+  },
+  "classAndLevel": {
+    "headers": [
+      "d8",
+      "Class",
+      "Basic",
+      "Expert"
+    ],
+    "rows": [
+      {
+        "d8": {
+          "raw": "1",
+          "links": []
+        },
+        "Class": {
+          "raw": "Cleric",
+          "links": []
+        },
+        "Basic": {
+          "raw": "1d3",
+          "links": []
+        },
+        "Expert": {
+          "raw": "1d6+3",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "2",
+          "links": []
+        },
+        "Class": {
+          "raw": "Dwarf",
+          "links": []
+        },
+        "Basic": {
+          "raw": "1d3",
+          "links": []
+        },
+        "Expert": {
+          "raw": "1d6+6",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "3",
+          "links": []
+        },
+        "Class": {
+          "raw": "Elf",
+          "links": []
+        },
+        "Basic": {
+          "raw": "1d3",
+          "links": []
+        },
+        "Expert": {
+          "raw": "1d6+2",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "4",
+          "links": []
+        },
+        "Class": {
+          "raw": "Fighter",
+          "links": []
+        },
+        "Basic": {
+          "raw": "1d3",
+          "links": []
+        },
+        "Expert": {
+          "raw": "1d6+3",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "5",
+          "links": []
+        },
+        "Class": {
+          "raw": "Fighter",
+          "links": []
+        },
+        "Basic": {
+          "raw": "1d3",
+          "links": []
+        },
+        "Expert": {
+          "raw": "1d6+5",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "6",
+          "links": []
+        },
+        "Class": {
+          "raw": "Halfling",
+          "links": []
+        },
+        "Basic": {
+          "raw": "1d3",
+          "links": []
+        },
+        "Expert": {
+          "raw": "1d6+2",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "7",
+          "links": []
+        },
+        "Class": {
+          "raw": "Magic-User",
+          "links": []
+        },
+        "Basic": {
+          "raw": "1d3",
+          "links": []
+        },
+        "Expert": {
+          "raw": "1d6+3",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "8",
+          "links": []
+        },
+        "Class": {
+          "raw": "Thief",
+          "links": []
+        },
+        "Basic": {
+          "raw": "1d3",
+          "links": []
+        },
+        "Expert": {
+          "raw": "1d6+4",
+          "links": []
+        }
+      }
+    ]
+  },
+  "alignment": {
+    "headers": [
+      "d6",
+      "Alignment"
+    ],
+    "rows": [
+      {
+        "d6": {
+          "raw": "1-2",
+          "links": []
+        },
+        "Alignment": {
+          "raw": "Lawful",
+          "links": []
+        }
+      },
+      {
+        "d6": {
+          "raw": "3-4",
+          "links": []
+        },
+        "Alignment": {
+          "raw": "Neutral",
+          "links": []
+        }
+      },
+      {
+        "d6": {
+          "raw": "5-6",
+          "links": []
+        },
+        "Alignment": {
+          "raw": "Chaotic",
+          "links": []
+        }
+      }
+    ]
+  },
+  "rival": {
+    "renown": {
+      "headers": [
+        "d6",
+        "Renown"
+      ],
+      "rows": [
+        {
+          "d6": {
+            "raw": "1",
+            "links": []
+          },
+          "Renown": {
+            "raw": "Unknown",
+            "links": []
+          }
+        },
+        {
+          "d6": {
+            "raw": "2-3",
+            "links": []
+          },
+          "Renown": {
+            "raw": "Locally known",
+            "links": []
+          }
+        },
+        {
+          "d6": {
+            "raw": "4-5",
+            "links": []
+          },
+          "Renown": {
+            "raw": "Widely recognized",
+            "links": []
+          }
+        },
+        {
+          "d6": {
+            "raw": "6",
+            "links": []
+          },
+          "Renown": {
+            "raw": "Extremely famous",
+            "links": []
+          }
+        }
+      ]
+    },
+    "secretOrGoal": {
+      "headers": [
+        "d10",
+        "Secret or Goal"
+      ],
+      "rows": [
+        {
+          "d10": {
+            "raw": "1",
+            "links": []
+          },
+          "Secret or Goal": {
+            "raw": "Betrayed an oath to a former patron",
+            "links": []
+          }
+        },
+        {
+          "d10": {
+            "raw": "2",
+            "links": []
+          },
+          "Secret or Goal": {
+            "raw": "Carries a forged or stolen identity",
+            "links": []
+          }
+        },
+        {
+          "d10": {
+            "raw": "3",
+            "links": []
+          },
+          "Secret or Goal": {
+            "raw": "Deep in debt to a moneylender or guild",
+            "links": []
+          }
+        },
+        {
+          "d10": {
+            "raw": "4",
+            "links": []
+          },
+          "Secret or Goal": {
+            "raw": "Holds a map or lead to treasure the party might also be after",
+            "links": []
+          }
+        },
+        {
+          "d10": {
+            "raw": "5",
+            "links": []
+          },
+          "Secret or Goal": {
+            "raw": "Suffers a curse they're hiding from outsiders",
+            "links": []
+          }
+        },
+        {
+          "d10": {
+            "raw": "6",
+            "links": []
+          },
+          "Secret or Goal": {
+            "raw": "Serves a powerful, unnamed patron",
+            "links": []
+          }
+        },
+        {
+          "d10": {
+            "raw": "7",
+            "links": []
+          },
+          "Secret or Goal": {
+            "raw": "Seeks to recover a fallen comrade's body or gear",
+            "links": []
+          }
+        },
+        {
+          "d10": {
+            "raw": "8",
+            "links": []
+          },
+          "Secret or Goal": {
+            "raw": "Was hired to sabotage a rival — possibly the party",
+            "links": []
+          }
+        },
+        {
+          "d10": {
+            "raw": "9",
+            "links": []
+          },
+          "Secret or Goal": {
+            "raw": "Secretly scouting for a hostile power",
+            "links": []
+          }
+        },
+        {
+          "d10": {
+            "raw": "10",
+            "links": []
+          },
+          "Secret or Goal": {
+            "raw": "Wants glory above all else, and takes foolish risks for it",
+            "links": []
+          }
+        }
+      ]
+    },
+    "epithetAndName": {
+      "headers": [
+        "d12",
+        "Epithet",
+        "Name"
+      ],
+      "rows": [
+        {
+          "d12": {
+            "raw": "1",
+            "links": []
+          },
+          "Epithet": {
+            "raw": "The Iron",
+            "links": []
+          },
+          "Name": {
+            "raw": "Vanguard",
+            "links": []
+          }
+        },
+        {
+          "d12": {
+            "raw": "2",
+            "links": []
+          },
+          "Epithet": {
+            "raw": "The Grey",
+            "links": []
+          },
+          "Name": {
+            "raw": "Wolves",
+            "links": []
+          }
+        },
+        {
+          "d12": {
+            "raw": "3",
+            "links": []
+          },
+          "Epithet": {
+            "raw": "The Silver",
+            "links": []
+          },
+          "Name": {
+            "raw": "Blades",
+            "links": []
+          }
+        },
+        {
+          "d12": {
+            "raw": "4",
+            "links": []
+          },
+          "Epithet": {
+            "raw": "The Broken",
+            "links": []
+          },
+          "Name": {
+            "raw": "Oath",
+            "links": []
+          }
+        },
+        {
+          "d12": {
+            "raw": "5",
+            "links": []
+          },
+          "Epithet": {
+            "raw": "The Last",
+            "links": []
+          },
+          "Name": {
+            "raw": "Watch",
+            "links": []
+          }
+        },
+        {
+          "d12": {
+            "raw": "6",
+            "links": []
+          },
+          "Epithet": {
+            "raw": "The Crimson",
+            "links": []
+          },
+          "Name": {
+            "raw": "Company",
+            "links": []
+          }
+        },
+        {
+          "d12": {
+            "raw": "7",
+            "links": []
+          },
+          "Epithet": {
+            "raw": "The Wandering",
+            "links": []
+          },
+          "Name": {
+            "raw": "Shields",
+            "links": []
+          }
+        },
+        {
+          "d12": {
+            "raw": "8",
+            "links": []
+          },
+          "Epithet": {
+            "raw": "The Forsaken",
+            "links": []
+          },
+          "Name": {
+            "raw": "Few",
+            "links": []
+          }
+        },
+        {
+          "d12": {
+            "raw": "9",
+            "links": []
+          },
+          "Epithet": {
+            "raw": "The Black",
+            "links": []
+          },
+          "Name": {
+            "raw": "Banner",
+            "links": []
+          }
+        },
+        {
+          "d12": {
+            "raw": "10",
+            "links": []
+          },
+          "Epithet": {
+            "raw": "The Restless",
+            "links": []
+          },
+          "Name": {
+            "raw": "Dead",
+            "links": []
+          }
+        },
+        {
+          "d12": {
+            "raw": "11",
+            "links": []
+          },
+          "Epithet": {
+            "raw": "The Golden",
+            "links": []
+          },
+          "Name": {
+            "raw": "Hand",
+            "links": []
+          }
+        },
+        {
+          "d12": {
+            "raw": "12",
+            "links": []
+          },
+          "Epithet": {
+            "raw": "The Hollow",
+            "links": []
+          },
+          "Name": {
+            "raw": "Crown",
+            "links": []
+          }
+        }
+      ]
+    }
+  }
+}

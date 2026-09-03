@@ -1,0 +1,555 @@
+{
+  "terrainLoop": {
+    "headers": [
+      "Position",
+      "Terrain"
+    ],
+    "rows": [
+      {
+        "Position": {
+          "raw": "1",
+          "links": []
+        },
+        "Terrain": {
+          "raw": "Marine",
+          "links": []
+        }
+      },
+      {
+        "Position": {
+          "raw": "2",
+          "links": []
+        },
+        "Terrain": {
+          "raw": "Wetlands",
+          "links": []
+        }
+      },
+      {
+        "Position": {
+          "raw": "3",
+          "links": []
+        },
+        "Terrain": {
+          "raw": "Aquatic",
+          "links": []
+        }
+      },
+      {
+        "Position": {
+          "raw": "4",
+          "links": []
+        },
+        "Terrain": {
+          "raw": "Rural",
+          "links": []
+        }
+      },
+      {
+        "Position": {
+          "raw": "5",
+          "links": []
+        },
+        "Terrain": {
+          "raw": "Plains",
+          "links": []
+        }
+      },
+      {
+        "Position": {
+          "raw": "6",
+          "links": []
+        },
+        "Terrain": {
+          "raw": "Forest",
+          "links": []
+        }
+      },
+      {
+        "Position": {
+          "raw": "7",
+          "links": []
+        },
+        "Terrain": {
+          "raw": "Hills",
+          "links": []
+        }
+      },
+      {
+        "Position": {
+          "raw": "8",
+          "links": []
+        },
+        "Terrain": {
+          "raw": "Mountains",
+          "links": []
+        }
+      },
+      {
+        "Position": {
+          "raw": "9",
+          "links": []
+        },
+        "Terrain": {
+          "raw": "Tundra",
+          "links": []
+        }
+      },
+      {
+        "Position": {
+          "raw": "10",
+          "links": []
+        },
+        "Terrain": {
+          "raw": "Arctic",
+          "links": []
+        }
+      },
+      {
+        "Position": {
+          "raw": "11",
+          "links": []
+        },
+        "Terrain": {
+          "raw": "Desert",
+          "links": []
+        }
+      },
+      {
+        "Position": {
+          "raw": "12",
+          "links": []
+        },
+        "Terrain": {
+          "raw": "Jungle",
+          "links": []
+        }
+      }
+    ]
+  },
+  "newHex": {
+    "headers": [
+      "2d6",
+      "New Hex"
+    ],
+    "rows": [
+      {
+        "2d6": {
+          "raw": "2-3",
+          "links": []
+        },
+        "New Hex": {
+          "raw": "Current terrain, +1 position on the Terrain Loop",
+          "links": []
+        }
+      },
+      {
+        "2d6": {
+          "raw": "4-8",
+          "links": []
+        },
+        "New Hex": {
+          "raw": "Same as current terrain",
+          "links": []
+        }
+      },
+      {
+        "2d6": {
+          "raw": "9-11",
+          "links": []
+        },
+        "New Hex": {
+          "raw": "Current terrain, +2 positions on the Terrain Loop",
+          "links": []
+        }
+      },
+      {
+        "2d6": {
+          "raw": "12",
+          "links": []
+        },
+        "New Hex": {
+          "raw": "Unfamiliar territory: reroll `1d12` on the Terrain Loop's Position column, ignoring the current position",
+          "links": []
+        }
+      }
+    ]
+  },
+  "pointsOfInterest": {
+    "headers": [
+      "d20",
+      "Location",
+      "Development"
+    ],
+    "rows": [
+      {
+        "d20": {
+          "raw": "1",
+          "links": []
+        },
+        "Location": {
+          "raw": "Ruined watchtower",
+          "links": []
+        },
+        "Development": {
+          "raw": "Guarded by a monster rolled on this terrain's Wilderness Encounters table",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "2",
+          "links": []
+        },
+        "Location": {
+          "raw": "Standing stones",
+          "links": []
+        },
+        "Development": {
+          "raw": "Marks the site of a Cataclysm — roll below",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "3",
+          "links": []
+        },
+        "Location": {
+          "raw": "Overgrown barrow mound",
+          "links": []
+        },
+        "Development": {
+          "raw": "A sealed tomb; stock it as a Tomb-type location with Appendix D: The Encounter Builder",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "4",
+          "links": []
+        },
+        "Location": {
+          "raw": "Abandoned farmstead",
+          "links": []
+        },
+        "Development": {
+          "raw": "Looted long ago; a Rival Adventuring Party has made camp here — see *Rival Adventuring Parties*, above",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "5",
+          "links": []
+        },
+        "Location": {
+          "raw": "Hermit's hut",
+          "links": []
+        },
+        "Development": {
+          "raw": "Home to a reclusive NPC with local knowledge; roll their former trade on the *Urban Professions* sub-table",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "6",
+          "links": []
+        },
+        "Location": {
+          "raw": "Cave mouth",
+          "links": []
+        },
+        "Development": {
+          "raw": "Leads to a dungeon; roll `1d10` on Appendix D's *Scenarios* table for why it's here",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "7",
+          "links": []
+        },
+        "Location": {
+          "raw": "Crumbling shrine",
+          "links": []
+        },
+        "Development": {
+          "raw": "Sacred to a forgotten power — a blessing or a curse awaits inside, DM's choice",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "8",
+          "links": []
+        },
+        "Location": {
+          "raw": "Village",
+          "links": []
+        },
+        "Development": {
+          "raw": "Roll *Settlement Size*, Appendix E",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "9",
+          "links": []
+        },
+        "Location": {
+          "raw": "Small or Large Town",
+          "links": []
+        },
+        "Development": {
+          "raw": "Roll *Settlement Size*, Appendix E",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "10",
+          "links": []
+        },
+        "Location": {
+          "raw": "Bridge or ford",
+          "links": []
+        },
+        "Development": {
+          "raw": "Tolled by whoever controls it; roll the toll-keeper's trade on *Urban Professions*",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "11",
+          "links": []
+        },
+        "Location": {
+          "raw": "Burnt-out battlefield",
+          "links": []
+        },
+        "Development": {
+          "raw": "Scavenged bones and broken weapons; `1`-in-`6` chance the dead haven't stayed down",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "12",
+          "links": []
+        },
+        "Location": {
+          "raw": "Hunting lodge",
+          "links": []
+        },
+        "Development": {
+          "raw": "Base of operations for a Rival Adventuring Party (see above) between expeditions",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "13",
+          "links": []
+        },
+        "Location": {
+          "raw": "Quarry or mine",
+          "links": []
+        },
+        "Development": {
+          "raw": "Worked by `2d6` laborers; a recent cave-in or monster incursion has halted work",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "14",
+          "links": []
+        },
+        "Location": {
+          "raw": "Old road marker",
+          "links": []
+        },
+        "Development": {
+          "raw": "Points toward the nearest undiscovered Point of Interest",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "15",
+          "links": []
+        },
+        "Location": {
+          "raw": "Sunken ruin",
+          "links": []
+        },
+        "Development": {
+          "raw": "Half-swamped; roll its treasure on the Unguarded Treasures table, Appendix B",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "16",
+          "links": []
+        },
+        "Location": {
+          "raw": "Wizard's folly",
+          "links": []
+        },
+        "Development": {
+          "raw": "An abandoned tower whose wards are still partly active",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "17",
+          "links": []
+        },
+        "Location": {
+          "raw": "Trading post",
+          "links": []
+        },
+        "Development": {
+          "raw": "A Trader has set up shop here semi-permanently — see *Trader's Wares*, above",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "18",
+          "links": []
+        },
+        "Location": {
+          "raw": "Sacred grove or spring",
+          "links": []
+        },
+        "Development": {
+          "raw": "Restores `1` hp per hour of rest to anyone who stays the night, DM's discretion",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "19",
+          "links": []
+        },
+        "Location": {
+          "raw": "Fresh disaster site",
+          "links": []
+        },
+        "Development": {
+          "raw": "Roll on the Cataclysm table, below",
+          "links": []
+        }
+      },
+      {
+        "d20": {
+          "raw": "20",
+          "links": []
+        },
+        "Location": {
+          "raw": "DM's invention",
+          "links": []
+        },
+        "Development": {
+          "raw": "Something unique — a portal, a crashed vessel, a sleeping giant — left to the table's imagination",
+          "links": []
+        }
+      }
+    ]
+  },
+  "cataclysm": {
+    "headers": [
+      "d8",
+      "Cataclysm"
+    ],
+    "rows": [
+      {
+        "d8": {
+          "raw": "1",
+          "links": []
+        },
+        "Cataclysm": {
+          "raw": "Volcanic eruption",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "2",
+          "links": []
+        },
+        "Cataclysm": {
+          "raw": "Wildfire",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "3",
+          "links": []
+        },
+        "Cataclysm": {
+          "raw": "Earthquake",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "4",
+          "links": []
+        },
+        "Cataclysm": {
+          "raw": "Flood",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "5",
+          "links": []
+        },
+        "Cataclysm": {
+          "raw": "War — a battle was fought here recently",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "6",
+          "links": []
+        },
+        "Cataclysm": {
+          "raw": "Plague",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "7",
+          "links": []
+        },
+        "Cataclysm": {
+          "raw": "Magical catastrophe — a wild-magic zone or planar rift",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "8",
+          "links": []
+        },
+        "Cataclysm": {
+          "raw": "Roll twice more and combine the results",
+          "links": []
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,6226 @@
+{
+  "matrix": {
+    "headers": [
+      "Dungeon Level",
+      "ML 1",
+      "ML 2",
+      "ML 3",
+      "ML 4",
+      "ML 5",
+      "ML 6",
+      "ML 7",
+      "ML 8",
+      "ML 9",
+      "ML 10"
+    ],
+    "rows": [
+      {
+        "Dungeon Level": {
+          "raw": "1-2",
+          "links": []
+        },
+        "ML 1": {
+          "raw": "1-8",
+          "links": []
+        },
+        "ML 2": {
+          "raw": "9-11",
+          "links": []
+        },
+        "ML 3": {
+          "raw": "12",
+          "links": []
+        },
+        "ML 4": {
+          "raw": "-",
+          "links": []
+        },
+        "ML 5": {
+          "raw": "-",
+          "links": []
+        },
+        "ML 6": {
+          "raw": "-",
+          "links": []
+        },
+        "ML 7": {
+          "raw": "-",
+          "links": []
+        },
+        "ML 8": {
+          "raw": "-",
+          "links": []
+        },
+        "ML 9": {
+          "raw": "-",
+          "links": []
+        },
+        "ML 10": {
+          "raw": "-",
+          "links": []
+        }
+      },
+      {
+        "Dungeon Level": {
+          "raw": "3",
+          "links": []
+        },
+        "ML 1": {
+          "raw": "1-5",
+          "links": []
+        },
+        "ML 2": {
+          "raw": "6-8",
+          "links": []
+        },
+        "ML 3": {
+          "raw": "9-10",
+          "links": []
+        },
+        "ML 4": {
+          "raw": "11",
+          "links": []
+        },
+        "ML 5": {
+          "raw": "12",
+          "links": []
+        },
+        "ML 6": {
+          "raw": "-",
+          "links": []
+        },
+        "ML 7": {
+          "raw": "-",
+          "links": []
+        },
+        "ML 8": {
+          "raw": "-",
+          "links": []
+        },
+        "ML 9": {
+          "raw": "-",
+          "links": []
+        },
+        "ML 10": {
+          "raw": "-",
+          "links": []
+        }
+      },
+      {
+        "Dungeon Level": {
+          "raw": "4",
+          "links": []
+        },
+        "ML 1": {
+          "raw": "1-4",
+          "links": []
+        },
+        "ML 2": {
+          "raw": "5-7",
+          "links": []
+        },
+        "ML 3": {
+          "raw": "8-9",
+          "links": []
+        },
+        "ML 4": {
+          "raw": "10",
+          "links": []
+        },
+        "ML 5": {
+          "raw": "11",
+          "links": []
+        },
+        "ML 6": {
+          "raw": "12",
+          "links": []
+        },
+        "ML 7": {
+          "raw": "-",
+          "links": []
+        },
+        "ML 8": {
+          "raw": "-",
+          "links": []
+        },
+        "ML 9": {
+          "raw": "-",
+          "links": []
+        },
+        "ML 10": {
+          "raw": "-",
+          "links": []
+        }
+      },
+      {
+        "Dungeon Level": {
+          "raw": "5",
+          "links": []
+        },
+        "ML 1": {
+          "raw": "1-3",
+          "links": []
+        },
+        "ML 2": {
+          "raw": "4-5",
+          "links": []
+        },
+        "ML 3": {
+          "raw": "6-7",
+          "links": []
+        },
+        "ML 4": {
+          "raw": "8-9",
+          "links": []
+        },
+        "ML 5": {
+          "raw": "10",
+          "links": []
+        },
+        "ML 6": {
+          "raw": "11",
+          "links": []
+        },
+        "ML 7": {
+          "raw": "12",
+          "links": []
+        },
+        "ML 8": {
+          "raw": "-",
+          "links": []
+        },
+        "ML 9": {
+          "raw": "-",
+          "links": []
+        },
+        "ML 10": {
+          "raw": "-",
+          "links": []
+        }
+      },
+      {
+        "Dungeon Level": {
+          "raw": "6",
+          "links": []
+        },
+        "ML 1": {
+          "raw": "1-2",
+          "links": []
+        },
+        "ML 2": {
+          "raw": "3-4",
+          "links": []
+        },
+        "ML 3": {
+          "raw": "5-6",
+          "links": []
+        },
+        "ML 4": {
+          "raw": "7-8",
+          "links": []
+        },
+        "ML 5": {
+          "raw": "9",
+          "links": []
+        },
+        "ML 6": {
+          "raw": "10",
+          "links": []
+        },
+        "ML 7": {
+          "raw": "11",
+          "links": []
+        },
+        "ML 8": {
+          "raw": "12",
+          "links": []
+        },
+        "ML 9": {
+          "raw": "-",
+          "links": []
+        },
+        "ML 10": {
+          "raw": "-",
+          "links": []
+        }
+      },
+      {
+        "Dungeon Level": {
+          "raw": "7",
+          "links": []
+        },
+        "ML 1": {
+          "raw": "1",
+          "links": []
+        },
+        "ML 2": {
+          "raw": "2-3",
+          "links": []
+        },
+        "ML 3": {
+          "raw": "4-5",
+          "links": []
+        },
+        "ML 4": {
+          "raw": "6-7",
+          "links": []
+        },
+        "ML 5": {
+          "raw": "8",
+          "links": []
+        },
+        "ML 6": {
+          "raw": "9",
+          "links": []
+        },
+        "ML 7": {
+          "raw": "10",
+          "links": []
+        },
+        "ML 8": {
+          "raw": "11",
+          "links": []
+        },
+        "ML 9": {
+          "raw": "12",
+          "links": []
+        },
+        "ML 10": {
+          "raw": "-",
+          "links": []
+        }
+      },
+      {
+        "Dungeon Level": {
+          "raw": "8",
+          "links": []
+        },
+        "ML 1": {
+          "raw": "1",
+          "links": []
+        },
+        "ML 2": {
+          "raw": "2",
+          "links": []
+        },
+        "ML 3": {
+          "raw": "3-4",
+          "links": []
+        },
+        "ML 4": {
+          "raw": "5-6",
+          "links": []
+        },
+        "ML 5": {
+          "raw": "7",
+          "links": []
+        },
+        "ML 6": {
+          "raw": "8",
+          "links": []
+        },
+        "ML 7": {
+          "raw": "9",
+          "links": []
+        },
+        "ML 8": {
+          "raw": "10",
+          "links": []
+        },
+        "ML 9": {
+          "raw": "11",
+          "links": []
+        },
+        "ML 10": {
+          "raw": "12",
+          "links": []
+        }
+      },
+      {
+        "Dungeon Level": {
+          "raw": "9",
+          "links": []
+        },
+        "ML 1": {
+          "raw": "1",
+          "links": []
+        },
+        "ML 2": {
+          "raw": "2",
+          "links": []
+        },
+        "ML 3": {
+          "raw": "3",
+          "links": []
+        },
+        "ML 4": {
+          "raw": "4-5",
+          "links": []
+        },
+        "ML 5": {
+          "raw": "6-7",
+          "links": []
+        },
+        "ML 6": {
+          "raw": "8",
+          "links": []
+        },
+        "ML 7": {
+          "raw": "9",
+          "links": []
+        },
+        "ML 8": {
+          "raw": "10",
+          "links": []
+        },
+        "ML 9": {
+          "raw": "11",
+          "links": []
+        },
+        "ML 10": {
+          "raw": "12",
+          "links": []
+        }
+      },
+      {
+        "Dungeon Level": {
+          "raw": "10-11",
+          "links": []
+        },
+        "ML 1": {
+          "raw": "1",
+          "links": []
+        },
+        "ML 2": {
+          "raw": "2",
+          "links": []
+        },
+        "ML 3": {
+          "raw": "3",
+          "links": []
+        },
+        "ML 4": {
+          "raw": "4",
+          "links": []
+        },
+        "ML 5": {
+          "raw": "5-6",
+          "links": []
+        },
+        "ML 6": {
+          "raw": "7-8",
+          "links": []
+        },
+        "ML 7": {
+          "raw": "9",
+          "links": []
+        },
+        "ML 8": {
+          "raw": "10",
+          "links": []
+        },
+        "ML 9": {
+          "raw": "11",
+          "links": []
+        },
+        "ML 10": {
+          "raw": "12",
+          "links": []
+        }
+      },
+      {
+        "Dungeon Level": {
+          "raw": "12-13",
+          "links": []
+        },
+        "ML 1": {
+          "raw": "1",
+          "links": []
+        },
+        "ML 2": {
+          "raw": "2",
+          "links": []
+        },
+        "ML 3": {
+          "raw": "3",
+          "links": []
+        },
+        "ML 4": {
+          "raw": "4",
+          "links": []
+        },
+        "ML 5": {
+          "raw": "5",
+          "links": []
+        },
+        "ML 6": {
+          "raw": "6-7",
+          "links": []
+        },
+        "ML 7": {
+          "raw": "8-9",
+          "links": []
+        },
+        "ML 8": {
+          "raw": "10",
+          "links": []
+        },
+        "ML 9": {
+          "raw": "11",
+          "links": []
+        },
+        "ML 10": {
+          "raw": "12",
+          "links": []
+        }
+      },
+      {
+        "Dungeon Level": {
+          "raw": "14-15",
+          "links": []
+        },
+        "ML 1": {
+          "raw": "1",
+          "links": []
+        },
+        "ML 2": {
+          "raw": "2",
+          "links": []
+        },
+        "ML 3": {
+          "raw": "3",
+          "links": []
+        },
+        "ML 4": {
+          "raw": "4",
+          "links": []
+        },
+        "ML 5": {
+          "raw": "5",
+          "links": []
+        },
+        "ML 6": {
+          "raw": "6",
+          "links": []
+        },
+        "ML 7": {
+          "raw": "7-8",
+          "links": []
+        },
+        "ML 8": {
+          "raw": "9-10",
+          "links": []
+        },
+        "ML 9": {
+          "raw": "11",
+          "links": []
+        },
+        "ML 10": {
+          "raw": "12",
+          "links": []
+        }
+      },
+      {
+        "Dungeon Level": {
+          "raw": "16+",
+          "links": []
+        },
+        "ML 1": {
+          "raw": "1",
+          "links": []
+        },
+        "ML 2": {
+          "raw": "2",
+          "links": []
+        },
+        "ML 3": {
+          "raw": "3",
+          "links": []
+        },
+        "ML 4": {
+          "raw": "4",
+          "links": []
+        },
+        "ML 5": {
+          "raw": "5",
+          "links": []
+        },
+        "ML 6": {
+          "raw": "6",
+          "links": []
+        },
+        "ML 7": {
+          "raw": "7",
+          "links": []
+        },
+        "ML 8": {
+          "raw": "8-9",
+          "links": []
+        },
+        "ML 9": {
+          "raw": "10-11",
+          "links": []
+        },
+        "ML 10": {
+          "raw": "12",
+          "links": []
+        }
+      }
+    ]
+  },
+  "levels": {
+    "1": {
+      "table": {
+        "headers": [
+          "d%",
+          "Monster Encountered",
+          "#"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-02",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Lemure](#lemure)",
+              "links": [
+                {
+                  "label": "Lemure",
+                  "anchor": "lemure"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d10",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "03-04",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Halfling](#halfling)",
+              "links": [
+                {
+                  "label": "Halfling",
+                  "anchor": "halfling"
+                }
+              ]
+            },
+            "#": {
+              "raw": "3d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "05-06",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Acolyte](#acolyte)",
+              "links": [
+                {
+                  "label": "Acolyte",
+                  "anchor": "acolyte"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "07-09",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "NPC Party (see *NPC Parties*)",
+              "links": []
+            },
+            "#": {
+              "raw": "varies",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "10-13",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Larva](#larva)",
+              "links": [
+                {
+                  "label": "Larva",
+                  "anchor": "larva"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "14-17",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Rat](#rat)",
+              "links": [
+                {
+                  "label": "Rat",
+                  "anchor": "rat"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d10x5",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "18-19",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Shrew, Giant](#shrew-giant)",
+              "links": [
+                {
+                  "label": "Shrew, Giant",
+                  "anchor": "shrew-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d10",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "20-21",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Sprite](#sprite)",
+              "links": [
+                {
+                  "label": "Sprite",
+                  "anchor": "sprite"
+                }
+              ]
+            },
+            "#": {
+              "raw": "3d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "22-25",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Stirge](#stirge)",
+              "links": [
+                {
+                  "label": "Stirge",
+                  "anchor": "stirge"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "26-29",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Bat](#bat)",
+              "links": [
+                {
+                  "label": "Bat",
+                  "anchor": "bat"
+                }
+              ]
+            },
+            "#": {
+              "raw": "5d10",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "30-31",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Bee, Killer](#bee-killer)",
+              "links": [
+                {
+                  "label": "Bee, Killer",
+                  "anchor": "bee-killer"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d10",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "32-36",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Goblin](#goblin)",
+              "links": [
+                {
+                  "label": "Goblin",
+                  "anchor": "goblin"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d10",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "37-43",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Men, Bandit](#bandit)",
+              "links": [
+                {
+                  "label": "Men, Bandit",
+                  "anchor": "bandit"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "44-45",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Trader](#trader)",
+              "links": [
+                {
+                  "label": "Trader",
+                  "anchor": "trader"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "46-52",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Orc](#orc)",
+              "links": [
+                {
+                  "label": "Orc",
+                  "anchor": "orc"
+                }
+              ]
+            },
+            "#": {
+              "raw": "3d10",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "53-54",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Gnome](#gnome)",
+              "links": [
+                {
+                  "label": "Gnome",
+                  "anchor": "gnome"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "55-61",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Frog, Giant](#frog-giant)",
+              "links": [
+                {
+                  "label": "Frog, Giant",
+                  "anchor": "frog-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "62-68",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Beetle, Giant](#beetle-giant)",
+              "links": [
+                {
+                  "label": "Beetle, Giant",
+                  "anchor": "beetle-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "69-73",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Kobold](#kobold)",
+              "links": [
+                {
+                  "label": "Kobold",
+                  "anchor": "kobold"
+                }
+              ]
+            },
+            "#": {
+              "raw": "4d10",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "74-78",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Dog](#dog)",
+              "links": [
+                {
+                  "label": "Dog",
+                  "anchor": "dog"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "79-83",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Bat, Giant](#bat)",
+              "links": [
+                {
+                  "label": "Bat, Giant",
+                  "anchor": "bat"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "84-85",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Green Slime](#green-slime)",
+              "links": [
+                {
+                  "label": "Green Slime",
+                  "anchor": "green-slime"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "86-89",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Skeleton](#skeleton)",
+              "links": [
+                {
+                  "label": "Skeleton",
+                  "anchor": "skeleton"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d10",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "90-93",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Rot Grub](#rot-grub)",
+              "links": [
+                {
+                  "label": "Rot Grub",
+                  "anchor": "rot-grub"
+                }
+              ]
+            },
+            "#": {
+              "raw": "5d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "94-96",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Brain Mole](#brain-mole)",
+              "links": [
+                {
+                  "label": "Brain Mole",
+                  "anchor": "brain-mole"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "97-98",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Hobgoblin](#hobgoblin)",
+              "links": [
+                {
+                  "label": "Hobgoblin",
+                  "anchor": "hobgoblin"
+                }
+              ]
+            },
+            "#": {
+              "raw": "4d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "99-00",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Berserker](#berserker)",
+              "links": [
+                {
+                  "label": "Berserker",
+                  "anchor": "berserker"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          }
+        ]
+      },
+      "dragonSubtable": null
+    },
+    "2": {
+      "table": {
+        "headers": [
+          "d%",
+          "Monster Encountered",
+          "#"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-02",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "NPC Party (see *NPC Parties*)",
+              "links": []
+            },
+            "#": {
+              "raw": "varies",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "03-04",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Ant, Giant (Worker)](#ant-giant)",
+              "links": [
+                {
+                  "label": "Ant, Giant (Worker)",
+                  "anchor": "ant-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d10",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "05-07",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Shadow](#shadow)",
+              "links": [
+                {
+                  "label": "Shadow",
+                  "anchor": "shadow"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "08-09",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Elf](#elf)",
+              "links": [
+                {
+                  "label": "Elf",
+                  "anchor": "elf"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "10-13",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Gnoll](#gnoll)",
+              "links": [
+                {
+                  "label": "Gnoll",
+                  "anchor": "gnoll"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d12",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "14-17",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Toad, Giant](#toad-giant)",
+              "links": [
+                {
+                  "label": "Toad, Giant",
+                  "anchor": "toad-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "18-22",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Neanderthals](#neanderthal-caveman)",
+              "links": [
+                {
+                  "label": "Neanderthals",
+                  "anchor": "neanderthal-caveman"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d10",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "23-29",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Troglodyte](#troglodyte)",
+              "links": [
+                {
+                  "label": "Troglodyte",
+                  "anchor": "troglodyte"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d10",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "30-31",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Pixie](#pixie)",
+              "links": [
+                {
+                  "label": "Pixie",
+                  "anchor": "pixie"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "32-36",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Hobgoblin](#hobgoblin)",
+              "links": [
+                {
+                  "label": "Hobgoblin",
+                  "anchor": "hobgoblin"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d10",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "37-41",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Lizard Man](#lizard-man)",
+              "links": [
+                {
+                  "label": "Lizard Man",
+                  "anchor": "lizard-man"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d10",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "42-48",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Piercer](#piercer)",
+              "links": [
+                {
+                  "label": "Piercer",
+                  "anchor": "piercer"
+                }
+              ]
+            },
+            "#": {
+              "raw": "3d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "49-50",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Noble](#noble)",
+              "links": [
+                {
+                  "label": "Noble",
+                  "anchor": "noble"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "51-57",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Giant Badger](#badger)",
+              "links": [
+                {
+                  "label": "Giant Badger",
+                  "anchor": "badger"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "58-64",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Spider, Giant](#spider-giant) (see table)",
+              "links": [
+                {
+                  "label": "Spider, Giant",
+                  "anchor": "spider-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "65-66",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Fly, Robber](#fly-robber)",
+              "links": [
+                {
+                  "label": "Fly, Robber",
+                  "anchor": "fly-robber"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "67-71",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Bugbear](#bugbear)",
+              "links": [
+                {
+                  "label": "Bugbear",
+                  "anchor": "bugbear"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "72-76",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Gnoll](#gnoll)",
+              "links": [
+                {
+                  "label": "Gnoll",
+                  "anchor": "gnoll"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d10",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "77-78",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Baboon](#baboon)",
+              "links": [
+                {
+                  "label": "Baboon",
+                  "anchor": "baboon"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "79-83",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Stirge](#stirge)",
+              "links": [
+                {
+                  "label": "Stirge",
+                  "anchor": "stirge"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d10+5",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "84-87",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Zombie](#zombie)",
+              "links": [
+                {
+                  "label": "Zombie",
+                  "anchor": "zombie"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "88-89",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Veteran](#veteran)",
+              "links": [
+                {
+                  "label": "Veteran",
+                  "anchor": "veteran"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "90-93",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Ghoul](#ghoul)",
+              "links": [
+                {
+                  "label": "Ghoul",
+                  "anchor": "ghoul"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "94-96",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Troll](#troll)",
+              "links": [
+                {
+                  "label": "Troll",
+                  "anchor": "troll"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "97-98",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Centipede, Giant](#centipede-giant)",
+              "links": [
+                {
+                  "label": "Centipede, Giant",
+                  "anchor": "centipede-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d12",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "99-00",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Dwarf](#dwarf)",
+              "links": [
+                {
+                  "label": "Dwarf",
+                  "anchor": "dwarf"
+                }
+              ]
+            },
+            "#": {
+              "raw": "4d4",
+              "links": []
+            }
+          }
+        ]
+      },
+      "dragonSubtable": null
+    },
+    "3": {
+      "table": {
+        "headers": [
+          "d%",
+          "Monster Encountered",
+          "#"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-02",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Ape](#ape)",
+              "links": [
+                {
+                  "label": "Ape",
+                  "anchor": "ape"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "03-04",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Centipede, Giant](#centipede-giant)",
+              "links": [
+                {
+                  "label": "Centipede, Giant",
+                  "anchor": "centipede-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "05-07",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Rust Monster](#rust-monster)",
+              "links": [
+                {
+                  "label": "Rust Monster",
+                  "anchor": "rust-monster"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "08-11",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Wolf](#wolf)",
+              "links": [
+                {
+                  "label": "Wolf",
+                  "anchor": "wolf"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "12-13",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Doppelganger](#doppelganger)",
+              "links": [
+                {
+                  "label": "Doppelganger",
+                  "anchor": "doppelganger"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "14-17",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Harpy](#harpy)",
+              "links": [
+                {
+                  "label": "Harpy",
+                  "anchor": "harpy"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "18-22",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Ghoul](#ghoul)",
+              "links": [
+                {
+                  "label": "Ghoul",
+                  "anchor": "ghoul"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "23-27",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Wererat](#wererat)",
+              "links": [
+                {
+                  "label": "Wererat",
+                  "anchor": "wererat"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "28-32",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Frog, Giant](#frog-giant)",
+              "links": [
+                {
+                  "label": "Frog, Giant",
+                  "anchor": "frog-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "33-37",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Lemure](#lemure)",
+              "links": [
+                {
+                  "label": "Lemure",
+                  "anchor": "lemure"
+                }
+              ]
+            },
+            "#": {
+              "raw": "5d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "38-42",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "NPC Party (see *NPC Parties*)",
+              "links": []
+            },
+            "#": {
+              "raw": "varies",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "43-44",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Ant, Driver](#ant-driver)",
+              "links": [
+                {
+                  "label": "Ant, Driver",
+                  "anchor": "ant-driver"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "45-52",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Lizards, Giant](#lizards-giant)",
+              "links": [
+                {
+                  "label": "Lizards, Giant",
+                  "anchor": "lizards-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "53-60",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Ogre](#ogre)",
+              "links": [
+                {
+                  "label": "Ogre",
+                  "anchor": "ogre"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d10",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "61-62",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Gelatinous Cube](#gelatinous-cube)",
+              "links": [
+                {
+                  "label": "Gelatinous Cube",
+                  "anchor": "gelatinous-cube"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "63-70",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Carrion Crawler](#carrion-crawler)",
+              "links": [
+                {
+                  "label": "Carrion Crawler",
+                  "anchor": "carrion-crawler"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "71-75",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Beetle, Giant](#beetle-giant)",
+              "links": [
+                {
+                  "label": "Beetle, Giant",
+                  "anchor": "beetle-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "76-80",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Bugbear](#bugbear)",
+              "links": [
+                {
+                  "label": "Bugbear",
+                  "anchor": "bugbear"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "81-85",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Wight](#wight)",
+              "links": [
+                {
+                  "label": "Wight",
+                  "anchor": "wight"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "86-89",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Fungi, Violet](#fungi-violet)",
+              "links": [
+                {
+                  "label": "Fungi, Violet",
+                  "anchor": "fungi-violet"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "90-93",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Shadow](#shadow)",
+              "links": [
+                {
+                  "label": "Shadow",
+                  "anchor": "shadow"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "94-96",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "Dragon (see sub-table)",
+              "links": []
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "97-98",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Zombie](#zombie)",
+              "links": [
+                {
+                  "label": "Zombie",
+                  "anchor": "zombie"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "99-00",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Spider, Giant](#spider-giant)",
+              "links": [
+                {
+                  "label": "Spider, Giant",
+                  "anchor": "spider-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          }
+        ]
+      },
+      "dragonSubtable": {
+        "headers": [
+          "d%",
+          "Type",
+          "Age",
+          "Hit Points per HD"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-30",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Black](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Black",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Young",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "31-60",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Brass](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Brass",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Young",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "61-00",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, White](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, White",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Young",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "1",
+              "links": []
+            }
+          }
+        ]
+      }
+    },
+    "4": {
+      "table": {
+        "headers": [
+          "d%",
+          "Monster Encountered",
+          "#"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-02",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Strangle Weed](#strangle-weed)",
+              "links": [
+                {
+                  "label": "Strangle Weed",
+                  "anchor": "strangle-weed"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "03-04",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Spider, Giant](#spider-giant)",
+              "links": [
+                {
+                  "label": "Spider, Giant",
+                  "anchor": "spider-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "05-07",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Blink Dog](#blink-dog)",
+              "links": [
+                {
+                  "label": "Blink Dog",
+                  "anchor": "blink-dog"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "08-11",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Ghast](#ghast)",
+              "links": [
+                {
+                  "label": "Ghast",
+                  "anchor": "ghast"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "12-15",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Zombie](#zombie)",
+              "links": [
+                {
+                  "label": "Zombie",
+                  "anchor": "zombie"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "16-20",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Piercer](#piercer)",
+              "links": [
+                {
+                  "label": "Piercer",
+                  "anchor": "piercer"
+                }
+              ]
+            },
+            "#": {
+              "raw": "3d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "21-25",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Cockatrice](#cockatrice)",
+              "links": [
+                {
+                  "label": "Cockatrice",
+                  "anchor": "cockatrice"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "26-30",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Snake, Rock Python](#snake)",
+              "links": [
+                {
+                  "label": "Snake, Rock Python",
+                  "anchor": "snake"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "31-35",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Manes](#manes)",
+              "links": [
+                {
+                  "label": "Manes",
+                  "anchor": "manes"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "36-40",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "NPC Party (see *NPC Parties*)",
+              "links": []
+            },
+            "#": {
+              "raw": "varies",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "41-42",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Ochre Jelly](#ochre-jelly)",
+              "links": [
+                {
+                  "label": "Ochre Jelly",
+                  "anchor": "ochre-jelly"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "43-50",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Beetle, Giant](#beetle-giant)",
+              "links": [
+                {
+                  "label": "Beetle, Giant",
+                  "anchor": "beetle-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "51-58",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Werewolf](#werewolf)",
+              "links": [
+                {
+                  "label": "Werewolf",
+                  "anchor": "werewolf"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "59-60",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Caecilia](#caecilia)",
+              "links": [
+                {
+                  "label": "Caecilia",
+                  "anchor": "caecilia"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "61-68",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Imp](#imp)",
+              "links": [
+                {
+                  "label": "Imp",
+                  "anchor": "imp"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "69-73",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Snake, Spitting Cobra](#snake)",
+              "links": [
+                {
+                  "label": "Snake, Spitting Cobra",
+                  "anchor": "snake"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "74-78",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Gargoyle](#gargoyle)",
+              "links": [
+                {
+                  "label": "Gargoyle",
+                  "anchor": "gargoyle"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "79-80",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Owl Bear](#owl-bear)",
+              "links": [
+                {
+                  "label": "Owl Bear",
+                  "anchor": "owl-bear"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "81-85",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "Dragon (see sub-table)",
+              "links": []
+            },
+            "#": {
+              "raw": "5",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "86-89",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Shadow](#shadow)",
+              "links": [
+                {
+                  "label": "Shadow",
+                  "anchor": "shadow"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "90-93",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Wereboar](#wereboar)",
+              "links": [
+                {
+                  "label": "Wereboar",
+                  "anchor": "wereboar"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "94-96",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Gray Ooze](#gray-ooze)",
+              "links": [
+                {
+                  "label": "Gray Ooze",
+                  "anchor": "gray-ooze"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "97-98",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Hellhound](#hellhound)",
+              "links": [
+                {
+                  "label": "Hellhound",
+                  "anchor": "hellhound"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "99-00",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Wight](#wight)",
+              "links": [
+                {
+                  "label": "Wight",
+                  "anchor": "wight"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          }
+        ]
+      },
+      "dragonSubtable": {
+        "headers": [
+          "d%",
+          "Type",
+          "Age",
+          "Hit Points per HD"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-10",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Black](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Black",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Young/Sub-adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "2/3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "11-20",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Blue](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Blue",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Young/Young",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "1/2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "21-30",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Brass](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Brass",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Young/Sub-adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "2/3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "31-35",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Bronze](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Bronze",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Young/Young",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "1/2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "36-50",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Copper](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Copper",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Young/Young",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "1/2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "51-55",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Gold](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Gold",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Young/Young",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "1/2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "56-70",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Green](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Green",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Young/Young",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "1/2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "71-80",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Red](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Red",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Young/Young",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "1/2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "81-85",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Silver](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Silver",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Young/Young",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "1/2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "86-00",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, White](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, White",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Young/Sub-adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "2/3",
+              "links": []
+            }
+          }
+        ]
+      }
+    },
+    "5": {
+      "table": {
+        "headers": [
+          "d%",
+          "Monster Encountered",
+          "#"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-02",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Djinni](#djinni)",
+              "links": [
+                {
+                  "label": "Djinni",
+                  "anchor": "djinni"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "03-04",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Animated Armor](#animated-armor)",
+              "links": [
+                {
+                  "label": "Animated Armor",
+                  "anchor": "animated-armor"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "05-07",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Medusa](#medusa)",
+              "links": [
+                {
+                  "label": "Medusa",
+                  "anchor": "medusa"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "08-11",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Bat, Giant](#bat)",
+              "links": [
+                {
+                  "label": "Bat, Giant",
+                  "anchor": "bat"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "12-15",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Sabre-Tooth Tiger](#sabre-tooth-tiger)",
+              "links": [
+                {
+                  "label": "Sabre-Tooth Tiger",
+                  "anchor": "sabre-tooth-tiger"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "16-20",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Minotaur](#minotaur)",
+              "links": [
+                {
+                  "label": "Minotaur",
+                  "anchor": "minotaur"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "21-25",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Scorpion, Giant](#scorpion-giant)",
+              "links": [
+                {
+                  "label": "Scorpion, Giant",
+                  "anchor": "scorpion-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "26-30",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Snake, Rock Python](#snake)",
+              "links": [
+                {
+                  "label": "Snake, Rock Python",
+                  "anchor": "snake"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "31-40",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee)",
+              "links": [
+                {
+                  "label": "Type IV Demon (Nalfeshnee)",
+                  "anchor": "type-iv-demon-nalfeshnee"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "41-48",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Bear, Cave](#bear-cave)",
+              "links": [
+                {
+                  "label": "Bear, Cave",
+                  "anchor": "bear-cave"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "49-50",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Weasel, Giant](#weasel-giant)",
+              "links": [
+                {
+                  "label": "Weasel, Giant",
+                  "anchor": "weasel-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "51-60",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "NPC Party (see *NPC Parties*)",
+              "links": []
+            },
+            "#": {
+              "raw": "varies",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "61-70",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Bone Devil](#bone-devil)",
+              "links": [
+                {
+                  "label": "Bone Devil",
+                  "anchor": "bone-devil"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "71-75",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "Dragon (see sub-table)",
+              "links": []
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "76-80",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Displacer Beast](#displacer-beast)",
+              "links": [
+                {
+                  "label": "Displacer Beast",
+                  "anchor": "displacer-beast"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "81-85",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Hydra](#hydra) (5-6 heads)",
+              "links": [
+                {
+                  "label": "Hydra",
+                  "anchor": "hydra"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "86-89",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Ogre Mage](#ogre-mage)",
+              "links": [
+                {
+                  "label": "Ogre Mage",
+                  "anchor": "ogre-mage"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "90-93",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Werebear](#werebear)",
+              "links": [
+                {
+                  "label": "Werebear",
+                  "anchor": "werebear"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "94-96",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Cat, Great](#cat-great)",
+              "links": [
+                {
+                  "label": "Cat, Great",
+                  "anchor": "cat-great"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "97-98",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Hellhound](#hellhound)",
+              "links": [
+                {
+                  "label": "Hellhound",
+                  "anchor": "hellhound"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "99-00",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Snake, Giant Rattler](#snake)",
+              "links": [
+                {
+                  "label": "Snake, Giant Rattler",
+                  "anchor": "snake"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          }
+        ]
+      },
+      "dragonSubtable": {
+        "headers": [
+          "d%",
+          "Type",
+          "Age",
+          "Hit Points per HD"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-08",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Black](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Black",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Young Adult/Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "4/5",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "09-18",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Blue](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Blue",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Sub-Adult/Young Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "3/4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "19-30",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Brass](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Brass",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Young Adult/Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "4/5",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "31-35",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Bronze](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Bronze",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Sub-Adult/Young Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "3/4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "36-50",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Copper](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Copper",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Sub-Adult/Young Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "3/4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "51-55",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Gold](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Gold",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Sub-Adult/Young Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "3/4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "56-70",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Green](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Green",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Sub-Adult/Young Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "3/4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "71-80",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Red](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Red",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Sub-Adult/Young Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "3/4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "81-87",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Silver](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Silver",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Sub-Adult/Young Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "3/4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "88-00",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, White](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, White",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Young Adult/Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "4/5",
+              "links": []
+            }
+          }
+        ]
+      }
+    },
+    "6": {
+      "table": {
+        "headers": [
+          "d%",
+          "Monster Encountered",
+          "#"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-02",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Wraith](#wraith)",
+              "links": [
+                {
+                  "label": "Wraith",
+                  "anchor": "wraith"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "03-04",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Quasit](#quasit)",
+              "links": [
+                {
+                  "label": "Quasit",
+                  "anchor": "quasit"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "05-07",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Displacer Beast](#displacer-beast)",
+              "links": [
+                {
+                  "label": "Displacer Beast",
+                  "anchor": "displacer-beast"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "08-11",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Mummy](#mummy)",
+              "links": [
+                {
+                  "label": "Mummy",
+                  "anchor": "mummy"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "12-15",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "Dragon (see sub-table)",
+              "links": []
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "16-20",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Erinyes](#erinyes)",
+              "links": [
+                {
+                  "label": "Erinyes",
+                  "anchor": "erinyes"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "21-31",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Troll](#troll)",
+              "links": [
+                {
+                  "label": "Troll",
+                  "anchor": "troll"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d12",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "32-36",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Otyugh](#otyugh)",
+              "links": [
+                {
+                  "label": "Otyugh",
+                  "anchor": "otyugh"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "37-41",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Bone Devil](#bone-devil)",
+              "links": [
+                {
+                  "label": "Bone Devil",
+                  "anchor": "bone-devil"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "42-46",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "NPC Party (see *NPC Parties*)",
+              "links": []
+            },
+            "#": {
+              "raw": "varies",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "47-48",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Black Pudding](#black-pudding)",
+              "links": [
+                {
+                  "label": "Black Pudding",
+                  "anchor": "black-pudding"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "49-56",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Giant, Hill](#giant)",
+              "links": [
+                {
+                  "label": "Giant, Hill",
+                  "anchor": "giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d10",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "57-64",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Wight](#wight)",
+              "links": [
+                {
+                  "label": "Wight",
+                  "anchor": "wight"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "65-66",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Weretiger](#weretiger)",
+              "links": [
+                {
+                  "label": "Weretiger",
+                  "anchor": "weretiger"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "67-74",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Sphinx](#sphinx)",
+              "links": [
+                {
+                  "label": "Sphinx",
+                  "anchor": "sphinx"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "75-79",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Wyvern](#wyvern)",
+              "links": [
+                {
+                  "label": "Wyvern",
+                  "anchor": "wyvern"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "80-84",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Hydra](#hydra) (7-8 heads)",
+              "links": [
+                {
+                  "label": "Hydra",
+                  "anchor": "hydra"
+                }
+              ]
+            },
+            "#": {
+              "raw": "5",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "85-89",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Manticore](#manticore)",
+              "links": [
+                {
+                  "label": "Manticore",
+                  "anchor": "manticore"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "90-91",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Salamander](#salamander)",
+              "links": [
+                {
+                  "label": "Salamander",
+                  "anchor": "salamander"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "92-95",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Lizards, Giant](#lizards-giant)",
+              "links": [
+                {
+                  "label": "Lizards, Giant",
+                  "anchor": "lizards-giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "96-98",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Hellhound](#hellhound)",
+              "links": [
+                {
+                  "label": "Hellhound",
+                  "anchor": "hellhound"
+                }
+              ]
+            },
+            "#": {
+              "raw": "2d6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "99-00",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Groaning Spirit](#groaning-spirit)",
+              "links": [
+                {
+                  "label": "Groaning Spirit",
+                  "anchor": "groaning-spirit"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          }
+        ]
+      },
+      "dragonSubtable": {
+        "headers": [
+          "d%",
+          "Type",
+          "Age",
+          "Hit Points per HD"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-10",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Black](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Black",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "11-20",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Blue](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Blue",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "5",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "21-30",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Brass](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Brass",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "31-35",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Bronze](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Bronze",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "5",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "36-50",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Copper](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Copper",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "5",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "51-55",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Gold](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Gold",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "5",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "56-70",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Green](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Green",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "5",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "71-80",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Red](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Red",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "5",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "81-85",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Silver](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Silver",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Adult",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "5",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "86-00",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, White](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, White",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "6",
+              "links": []
+            }
+          }
+        ]
+      }
+    },
+    "7": {
+      "table": {
+        "headers": [
+          "d%",
+          "Monster Encountered",
+          "#"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-02",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Clay Golem](#golem) (1-3) or [Flesh Golem](#golem) (4-6) on 1d6",
+              "links": [
+                {
+                  "label": "Clay Golem",
+                  "anchor": "golem"
+                },
+                {
+                  "label": "Flesh Golem",
+                  "anchor": "golem"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "03-04",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Ettin](#ettin)",
+              "links": [
+                {
+                  "label": "Ettin",
+                  "anchor": "ettin"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "05-07",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Chimera](#chimera)",
+              "links": [
+                {
+                  "label": "Chimera",
+                  "anchor": "chimera"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "08-11",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Spectre](#spectre)",
+              "links": [
+                {
+                  "label": "Spectre",
+                  "anchor": "spectre"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "12-15",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Basilisk](#basilisk)",
+              "links": [
+                {
+                  "label": "Basilisk",
+                  "anchor": "basilisk"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "16-20",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Giant, Fire](#giant)",
+              "links": [
+                {
+                  "label": "Giant, Fire",
+                  "anchor": "giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "21-25",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Type III Demon (Glabrezu)](#type-iii-demon-glabrezu)",
+              "links": [
+                {
+                  "label": "Type III Demon (Glabrezu)",
+                  "anchor": "type-iii-demon-glabrezu"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "26-30",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Sphinx](#sphinx)",
+              "links": [
+                {
+                  "label": "Sphinx",
+                  "anchor": "sphinx"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "31-35",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Lamia](#lamia)",
+              "links": [
+                {
+                  "label": "Lamia",
+                  "anchor": "lamia"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "36-40",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "NPC Party (see *NPC Parties*)",
+              "links": []
+            },
+            "#": {
+              "raw": "varies",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "41-50",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Lizard Man](#lizard-man)",
+              "links": [
+                {
+                  "label": "Lizard Man",
+                  "anchor": "lizard-man"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "51-55",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Skeleton](#skeleton)",
+              "links": [
+                {
+                  "label": "Skeleton",
+                  "anchor": "skeleton"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "56-60",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Shedu](#shedu)",
+              "links": [
+                {
+                  "label": "Shedu",
+                  "anchor": "shedu"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "61-68",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Will-O-Wisp](#will-o-wisp)",
+              "links": [
+                {
+                  "label": "Will-O-Wisp",
+                  "anchor": "will-o-wisp"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "69-70",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Gorgon](#gorgon)",
+              "links": [
+                {
+                  "label": "Gorgon",
+                  "anchor": "gorgon"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "71-75",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Naga](#naga)",
+              "links": [
+                {
+                  "label": "Naga",
+                  "anchor": "naga"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "76-80",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Barbed Devil](#barbed-devil) or [Bone Devil](#bone-devil)",
+              "links": [
+                {
+                  "label": "Barbed Devil",
+                  "anchor": "barbed-devil"
+                },
+                {
+                  "label": "Bone Devil",
+                  "anchor": "bone-devil"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "81-85",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Hydra](#hydra) (9-10 heads)",
+              "links": [
+                {
+                  "label": "Hydra",
+                  "anchor": "hydra"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "86-89",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "Dragon (see sub-table)",
+              "links": []
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "90-93",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Cyclops](#cyclops)",
+              "links": [
+                {
+                  "label": "Cyclops",
+                  "anchor": "cyclops"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "94-96",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Hellhound](#hellhound)",
+              "links": [
+                {
+                  "label": "Hellhound",
+                  "anchor": "hellhound"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "97-98",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Troll](#troll)",
+              "links": [
+                {
+                  "label": "Troll",
+                  "anchor": "troll"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "99-00",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Efreeti](#efreeti)",
+              "links": [
+                {
+                  "label": "Efreeti",
+                  "anchor": "efreeti"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          }
+        ]
+      },
+      "dragonSubtable": {
+        "headers": [
+          "d%",
+          "Type",
+          "Age",
+          "Hit Points per HD"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-10",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Black](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Black",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "7",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "11-20",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Blue](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Blue",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "21-30",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Brass](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Brass",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "7",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "31-35",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Bronze](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Bronze",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "36-50",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Copper](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Copper",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "51-55",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Gold](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Gold",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "56-70",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Green](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Green",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "71-80",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Red](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Red",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "81-85",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Silver](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Silver",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "86-00",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, White](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, White",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "7",
+              "links": []
+            }
+          }
+        ]
+      }
+    },
+    "8": {
+      "table": {
+        "headers": [
+          "d%",
+          "Monster Encountered",
+          "#"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-03",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Naga](#naga)",
+              "links": [
+                {
+                  "label": "Naga",
+                  "anchor": "naga"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "04-07",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Golem](#golem)",
+              "links": [
+                {
+                  "label": "Golem",
+                  "anchor": "golem"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "08-11",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Giant, Cloud](#giant)",
+              "links": [
+                {
+                  "label": "Giant, Cloud",
+                  "anchor": "giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "12-15",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Vampire](#vampire)",
+              "links": [
+                {
+                  "label": "Vampire",
+                  "anchor": "vampire"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "16-20",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Ice Devil](#ice-devil)",
+              "links": [
+                {
+                  "label": "Ice Devil",
+                  "anchor": "ice-devil"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "21-25",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Barbed Devil](#barbed-devil)",
+              "links": [
+                {
+                  "label": "Barbed Devil",
+                  "anchor": "barbed-devil"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "26-30",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Otyugh](#otyugh)",
+              "links": [
+                {
+                  "label": "Otyugh",
+                  "anchor": "otyugh"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "31-40",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Type I Demon (Vrock)](#type-i-demon-vrock)",
+              "links": [
+                {
+                  "label": "Type I Demon (Vrock)",
+                  "anchor": "type-i-demon-vrock"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "41-42",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Devil Swine](#devil-swine)",
+              "links": [
+                {
+                  "label": "Devil Swine",
+                  "anchor": "devil-swine"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "43-52",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "NPC Party (see *NPC Parties*)",
+              "links": []
+            },
+            "#": {
+              "raw": "varies",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "53-62",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Manes](#manes)",
+              "links": [
+                {
+                  "label": "Manes",
+                  "anchor": "manes"
+                }
+              ]
+            },
+            "#": {
+              "raw": "5d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "63-72",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Hydra](#hydra) (11-12 heads)",
+              "links": [
+                {
+                  "label": "Hydra",
+                  "anchor": "hydra"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "73-80",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Elemental](#elemental), Air/Earth/Fire/Water",
+              "links": [
+                {
+                  "label": "Elemental",
+                  "anchor": "elemental"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "81-89",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "Dragon (see sub-table)",
+              "links": []
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "90-93",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Lammasu](#lammasu)",
+              "links": [
+                {
+                  "label": "Lammasu",
+                  "anchor": "lammasu"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "94-00",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Ghost](#ghost)",
+              "links": [
+                {
+                  "label": "Ghost",
+                  "anchor": "ghost"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          }
+        ]
+      },
+      "dragonSubtable": {
+        "headers": [
+          "d%",
+          "Type",
+          "Age",
+          "Hit Points per HD"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-12",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Black](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Black",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "13-25",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Blue](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Blue",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "7",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "26-30",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Brass](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Brass",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "31-35",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Bronze](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Bronze",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "7",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "36-45",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Copper](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Copper",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "7",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "46-50",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Gold](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Gold",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "7",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "51-60",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Green](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Green",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "7",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "61-80",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Red](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Red",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "7",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "81-85",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Silver](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Silver",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Very Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "7",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "86-00",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, White](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, White",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8",
+              "links": []
+            }
+          }
+        ]
+      }
+    },
+    "9": {
+      "table": {
+        "headers": [
+          "d%",
+          "Monster Encountered",
+          "#"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-07",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Trapper](#trapper)",
+              "links": [
+                {
+                  "label": "Trapper",
+                  "anchor": "trapper"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "08-11",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Pit Fiend](#pit-fiend)",
+              "links": [
+                {
+                  "label": "Pit Fiend",
+                  "anchor": "pit-fiend"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "12-25",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Otyugh](#otyugh)",
+              "links": [
+                {
+                  "label": "Otyugh",
+                  "anchor": "otyugh"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "26-40",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "NPC Party (see *NPC Parties*)",
+              "links": []
+            },
+            "#": {
+              "raw": "varies",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "41-55",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Type II Demon (Hezrou)](#type-ii-demon-hezrou)",
+              "links": [
+                {
+                  "label": "Type II Demon (Hezrou)",
+                  "anchor": "type-ii-demon-hezrou"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "56-70",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Hydra](#hydra) (12 heads)",
+              "links": [
+                {
+                  "label": "Hydra",
+                  "anchor": "hydra"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "71-80",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "Dragon (see sub-table)",
+              "links": []
+            },
+            "#": {
+              "raw": "1 or 2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "81-89",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Purple Worm](#purple-worm)",
+              "links": [
+                {
+                  "label": "Purple Worm",
+                  "anchor": "purple-worm"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "90-93",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Succubus](#succubus)",
+              "links": [
+                {
+                  "label": "Succubus",
+                  "anchor": "succubus"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "94-96",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Roper](#roper)",
+              "links": [
+                {
+                  "label": "Roper",
+                  "anchor": "roper"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d4",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "97-00",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Golem](#golem)",
+              "links": [
+                {
+                  "label": "Golem",
+                  "anchor": "golem"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          }
+        ]
+      },
+      "dragonSubtable": {
+        "headers": [
+          "d%",
+          "Type",
+          "Age",
+          "Hit Points per HD"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-12",
+              "links": []
+            },
+            "Type": {
+              "raw": "2x [Dragon, Black](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Black",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient + Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8+6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "13-25",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Blue](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Blue",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "26-30",
+              "links": []
+            },
+            "Type": {
+              "raw": "2x [Dragon, Brass](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Brass",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient + Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8+6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "31-35",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Bronze](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Bronze",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "36-45",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Copper](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Copper",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "46-50",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Gold](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Gold",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "51-60",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Green](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Green",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "61-80",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Red](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Red",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "81-85",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Silver](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Silver",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "86-00",
+              "links": []
+            },
+            "Type": {
+              "raw": "2x [Dragon, White](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, White",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient + Very Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8+7",
+              "links": []
+            }
+          }
+        ]
+      }
+    },
+    "10": {
+      "table": {
+        "headers": [
+          "d%",
+          "Monster Encountered",
+          "#"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-07",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Type V Demon (Marilith)](#type-v-demon-marilith)",
+              "links": [
+                {
+                  "label": "Type V Demon (Marilith)",
+                  "anchor": "type-v-demon-marilith"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "08-11",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Giant, Storm](#giant)",
+              "links": [
+                {
+                  "label": "Giant, Storm",
+                  "anchor": "giant"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "12-15",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Otyugh](#otyugh)",
+              "links": [
+                {
+                  "label": "Otyugh",
+                  "anchor": "otyugh"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "16-20",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "NPC Party (see *NPC Parties*)",
+              "links": []
+            },
+            "#": {
+              "raw": "varies",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "21-30",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Type III Demon (Glabrezu)](#type-iii-demon-glabrezu)",
+              "links": [
+                {
+                  "label": "Type III Demon (Glabrezu)",
+                  "anchor": "type-iii-demon-glabrezu"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "31-40",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Elemental](#elemental), Earth",
+              "links": [
+                {
+                  "label": "Elemental",
+                  "anchor": "elemental"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "41-50",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Elemental](#elemental), Air",
+              "links": [
+                {
+                  "label": "Elemental",
+                  "anchor": "elemental"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "51-60",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Elemental](#elemental), Fire",
+              "links": [
+                {
+                  "label": "Elemental",
+                  "anchor": "elemental"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "61-70",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Elemental](#elemental), Water",
+              "links": [
+                {
+                  "label": "Elemental",
+                  "anchor": "elemental"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "71-80",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee)",
+              "links": [
+                {
+                  "label": "Type IV Demon (Nalfeshnee)",
+                  "anchor": "type-iv-demon-nalfeshnee"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "81-89",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "Dragon (see sub-table)",
+              "links": []
+            },
+            "#": {
+              "raw": "2",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "90-95",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Type VI Demon (Balor)](#type-vi-demon-balor)",
+              "links": [
+                {
+                  "label": "Type VI Demon (Balor)",
+                  "anchor": "type-vi-demon-balor"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1d3",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "96-00",
+              "links": []
+            },
+            "Monster Encountered": {
+              "raw": "[Lich](#lich)",
+              "links": [
+                {
+                  "label": "Lich",
+                  "anchor": "lich"
+                }
+              ]
+            },
+            "#": {
+              "raw": "1",
+              "links": []
+            }
+          }
+        ]
+      },
+      "dragonSubtable": {
+        "headers": [
+          "d%",
+          "Type",
+          "Age",
+          "Hit Points per HD"
+        ],
+        "rows": [
+          {
+            "d%": {
+              "raw": "01-20",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Blue](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Blue",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient + Very Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8+7",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "21-25",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Bronze](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Bronze",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient + Very Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8+7",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "26-35",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Copper](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Copper",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient + Very Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8+7",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "36-40",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Gold](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Gold",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient + Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8+6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "41-60",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Green](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Green",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient + Very Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8+7",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "61-95",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Red](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Red",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient + Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8+6",
+              "links": []
+            }
+          },
+          {
+            "d%": {
+              "raw": "96-00",
+              "links": []
+            },
+            "Type": {
+              "raw": "[Dragon, Silver](#dragon)",
+              "links": [
+                {
+                  "label": "Dragon, Silver",
+                  "anchor": "dragon"
+                }
+              ]
+            },
+            "Age": {
+              "raw": "Ancient + Old",
+              "links": []
+            },
+            "Hit Points per HD": {
+              "raw": "8+6",
+              "links": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1759 @@
+{
+  "zeroLevelNpcs": {
+    "headers": [
+      "Type",
+      "hp",
+      "Combat Ability",
+      "Examples"
+    ],
+    "rows": [
+      {
+        "Type": {
+          "raw": "Infirm",
+          "links": []
+        },
+        "hp": {
+          "raw": "1d3",
+          "links": []
+        },
+        "Combat Ability": {
+          "raw": "-3 to hit/damage",
+          "links": []
+        },
+        "Examples": {
+          "raw": "Elders, children, beggars, plague victims",
+          "links": []
+        }
+      },
+      {
+        "Type": {
+          "raw": "Sedentary",
+          "links": []
+        },
+        "hp": {
+          "raw": "1d4",
+          "links": []
+        },
+        "Combat Ability": {
+          "raw": "-2 to hit/damage",
+          "links": []
+        },
+        "Examples": {
+          "raw": "Clerks, scribes, shopkeepers, minor officials",
+          "links": []
+        }
+      },
+      {
+        "Type": {
+          "raw": "Active",
+          "links": []
+        },
+        "hp": {
+          "raw": "1d4+1",
+          "links": []
+        },
+        "Combat Ability": {
+          "raw": "as 0-level Normal Human",
+          "links": []
+        },
+        "Examples": {
+          "raw": "Craftsmen, servants, merchants, boatmen",
+          "links": []
+        }
+      },
+      {
+        "Type": {
+          "raw": "Fit",
+          "links": []
+        },
+        "hp": {
+          "raw": "1d4+2",
+          "links": []
+        },
+        "Combat Ability": {
+          "raw": "as 0-level Normal Human",
+          "links": []
+        },
+        "Examples": {
+          "raw": "Farmers, miners, labourers, sailors, militiamen",
+          "links": []
+        }
+      },
+      {
+        "Type": {
+          "raw": "Very Fit",
+          "links": []
+        },
+        "hp": {
+          "raw": "1d6+1",
+          "links": []
+        },
+        "Combat Ability": {
+          "raw": "as 0-level Normal Human",
+          "links": []
+        },
+        "Examples": {
+          "raw": "Soldiers, watchmen, bodyguards, men-at-arms",
+          "links": []
+        }
+      }
+    ]
+  },
+  "race": {
+    "headers": [
+      "d%",
+      "Race",
+      "d%__2",
+      "Race__2"
+    ],
+    "rows": [
+      {
+        "d%": {
+          "raw": "01-10",
+          "links": []
+        },
+        "Race": {
+          "raw": "Dwarf",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "29-34",
+          "links": []
+        },
+        "Race__2": {
+          "raw": "Halfling",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "11-15",
+          "links": []
+        },
+        "Race": {
+          "raw": "Elf",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "35-40",
+          "links": []
+        },
+        "Race__2": {
+          "raw": "Half-Orc",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "16-20",
+          "links": []
+        },
+        "Race": {
+          "raw": "Gnome",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "41-00",
+          "links": []
+        },
+        "Race__2": {
+          "raw": "Human",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "21-28",
+          "links": []
+        },
+        "Race": {
+          "raw": "Half-Elf",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "",
+          "links": []
+        },
+        "Race__2": {
+          "raw": "",
+          "links": []
+        }
+      }
+    ]
+  },
+  "urbanProfessions": {
+    "headers": [
+      "d%",
+      "Profession",
+      "d%__2",
+      "Profession__2"
+    ],
+    "rows": [
+      {
+        "d%": {
+          "raw": "01-08",
+          "links": []
+        },
+        "Profession": {
+          "raw": "Bandit",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "44-58",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Labourer",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "09-16",
+          "links": []
+        },
+        "Profession": {
+          "raw": "Brigand",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "59-63",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Magic-User",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "17-18",
+          "links": []
+        },
+        "Profession": {
+          "raw": "City Guard",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "64-71",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Mercenary",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "19-20",
+          "links": []
+        },
+        "Profession": {
+          "raw": "City Official",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "72-78",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Merchant",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "21-23",
+          "links": []
+        },
+        "Profession": {
+          "raw": "City Watchman",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "79-80",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Noble",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "24-27",
+          "links": []
+        },
+        "Profession": {
+          "raw": "Cleric",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "81-88",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Rake",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "28-36",
+          "links": []
+        },
+        "Profession": {
+          "raw": "Fighter",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "89-93",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Ruffian",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "37-43",
+          "links": []
+        },
+        "Profession": {
+          "raw": "Gentleman",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "94-97",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Thief",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "",
+          "links": []
+        },
+        "Profession": {
+          "raw": "",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "98-00",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Tradesman",
+          "links": []
+        }
+      }
+    ]
+  },
+  "nobleProfessions": {
+    "headers": [
+      "d%",
+      "Class",
+      "Level"
+    ],
+    "rows": [
+      {
+        "d%": {
+          "raw": "01-50",
+          "links": []
+        },
+        "Class": {
+          "raw": "Normal Human",
+          "links": []
+        },
+        "Level": {
+          "raw": "0",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "51-85",
+          "links": []
+        },
+        "Class": {
+          "raw": "Fighter",
+          "links": []
+        },
+        "Level": {
+          "raw": "1d8+4",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "86-00",
+          "links": []
+        },
+        "Class": {
+          "raw": "Cleric",
+          "links": []
+        },
+        "Level": {
+          "raw": "1d8+4",
+          "links": []
+        }
+      }
+    ]
+  },
+  "redLightProfessions": {
+    "headers": [
+      "d%",
+      "Profession",
+      "d%__2",
+      "Profession__2"
+    ],
+    "rows": [
+      {
+        "d%": {
+          "raw": "01-02",
+          "links": []
+        },
+        "Profession": {
+          "raw": "Cheap harlot",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "46-48",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Wealthy gigolo",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "03-10",
+          "links": []
+        },
+        "Profession": {
+          "raw": "Slovenly whore",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "49-63",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Sleazy tout",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "11-18",
+          "links": []
+        },
+        "Profession": {
+          "raw": "Brazen streetwalker",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "64-65",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Shifty procurer",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "19-20",
+          "links": []
+        },
+        "Profession": {
+          "raw": "Typical tart",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "66-73",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Seductive dancer",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "21-22",
+          "links": []
+        },
+        "Profession": {
+          "raw": "Saucy wench",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "74-80",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Finely-attired concubine",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "23-25",
+          "links": []
+        },
+        "Profession": {
+          "raw": "Expensive callgirl",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "81-82",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Penniless hag",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "26-27",
+          "links": []
+        },
+        "Profession": {
+          "raw": "Haughty mistress",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "83-90",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Amoral street hustler",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "28-29",
+          "links": []
+        },
+        "Profession": {
+          "raw": "Sly panderer",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "91-95",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Foppish bawd",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "30-38",
+          "links": []
+        },
+        "Profession": {
+          "raw": "Rich pimp",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "96-97",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Elegant doxy",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "39-45",
+          "links": []
+        },
+        "Profession": {
+          "raw": "Wanton lady-of-the-night",
+          "links": []
+        },
+        "d%__2": {
+          "raw": "98-00",
+          "links": []
+        },
+        "Profession__2": {
+          "raw": "Sleepy-eyed trollop",
+          "links": []
+        }
+      }
+    ]
+  },
+  "nighttimeEncounters": {
+    "headers": [
+      "d%",
+      "Encounter",
+      "# Encountered & Notes"
+    ],
+    "rows": [
+      {
+        "d%": {
+          "raw": "01-03",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Thief (as Assassin)",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "1d3 (check Race sub-table)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "04-05",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Bandit",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "3d4 and a leader",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "06-08",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Beggar",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "1d2",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "09-10",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Brigand",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "3d4 and a leader",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "11",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Guardsman",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "2d8 and a leader",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "12",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Official",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "(1-9) minor official; (10) major official and 2d4 guardsmen",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "13-21",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Watchman",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "5 men-at-arms (0-level) and a sergeant (level 1d3) and a cleric (level 1d4+1)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "22",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Cleric",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "A 1d6+5-level cleric with 1d6-1 assistant clerics (level 1d4)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "23",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Demon",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "DM's discretion (any demon in this book). Only 1 encountered",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "24",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Devil",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "DM's discretion (any devil in this book). Only 1 encountered",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "25",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Doppelganger",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "1d4+2, disguised as a profession from the Urban Professions sub-table",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "26",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Cleric (as Druid)",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "A 1d6+5-level cleric with (1-5) 1d4-1 lesser clerics (level 1d4) or (6-10) 1d4 fighters (level 1d6)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "27-31",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Drunk",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "See Urban Professions sub-table for exact profession",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "32-33",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Fighter",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "A 2d4+4-level fighter with 1d4-1 henchmen (level 1d4)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "34-35",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Gentleman",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "(1-4) foppish dandy and 1d4 sycophants; (5-6) gentlewoman; (7-10) 1d4+6-level nobleman fighter and 1d4 similar friends",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "36",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Ghast or Ghoul",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "(1-3) 2d4 ghasts; (4-10) 4d4 ghouls",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "37",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Ghost",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "1",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "38-42",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Giant Rats",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "4d6",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "43",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Townsperson",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "0-level Normal Human",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "44-50",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Prostitute",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "See Red-Light Professions sub-table for exact type",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "51",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Magic-User (as Illusionist)",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "A 1d4+6-level magic-user with (1-5) 1d4-1 apprentice magic-users (level 1d4) or (6-10) 1d3 fighter bodyguards (level 1d6)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "52",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Labourer or Peddler",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "(1-5) 3d4 rough 0-level workmen; (6-10) 1d3 peddlers selling simple goods on the street",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "53",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Magic-User",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "A 1d6+6-level magic-user with (1-4) 1d4 apprentice magic-users (level 1d6) or (5-7) 1d4 fighter bodyguards (level 1d4+3) or (8-10) 1d2 apprentices and 1d2 bodyguards as above",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "54-58",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Mercenary",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "3d4 fighters (level 1d6-1)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "59-60",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Merchant",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "1d3 merchants, 2d4 0-level mercenary guards, and a mercenary leader (level 1d4)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "61",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Troubadour",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "1d4 travelling bards, musicians, or actors",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "62",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Night Hag",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "DM's discretion. Only 1 encountered",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "63-64",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Noble",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "(1-7) nobleman and 1d4 fighter bodyguards (level 1d4); (8-10) noblewoman",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "65",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Fighter (as Paladin)",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "A 1d4+5-level fighter",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "66",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Pilgrim",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "3d4 pilgrims (Normal Humans)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "67",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Press Gang",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "2d8 1st-level fighters and a leader (level 1d4+1), all wielding clubs",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "68-71",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Thugs",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "1d4+1 fighters (level 1d6+4)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "72",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Rakshasa",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "DM's discretion. 1d3 encountered",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "73",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Fighter (as Ranger)",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "A 1d4+6-level fighter",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "74-80",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Muggers or Humanoids",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "(1-8) 1d6+6 2nd-level fighters armed with clubs; (9-10) humanoids (Orcs, Kobolds, Goblins, etc. — DM's discretion)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "81",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Shadow",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "DM's discretion. 2d4 encountered",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "82",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Spectre",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "DM's discretion. 1d3 encountered",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "83-88",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Thief",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "A 1d4+7-level thief and 1d3-1 apprentice thieves (level 1d4)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "89-90",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Tradesman",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "2d4 artisans, craftsmen, or skilled workmen (Normal Humans)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "91-93",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Wererat",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "2d4 encountered; (1-5) in human form, (6-10) in giant rat form",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "94",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Weretiger",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "1d2 encountered; (1-9) in human form, (10) in tiger form",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "95-96",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Werewolf",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "2d4 encountered; (1-5) in human form, (6-10) in wolf form",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "97",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Wight",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "DM's discretion. 1d4+1 encountered",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "98",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Will-O-Wisp",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "DM's discretion. 1d2 encountered",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "99",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Wraith",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "DM's discretion. 1d4 encountered",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "00",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Vampire or Lich",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "(1-8) 1 vampire, encountered in human (1-2), giant bat (3-6), or gaseous (7-10) form; (9-10) 1 lich, DM's discretion",
+          "links": []
+        }
+      }
+    ]
+  },
+  "daytimeEncounters": {
+    "headers": [
+      "d%",
+      "Encounter",
+      "# Encountered & Notes"
+    ],
+    "rows": [
+      {
+        "d%": {
+          "raw": "01",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Thief (as Assassin)",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "1d3 (check Race sub-table)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "02",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Bandit",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "3d4 and a leader",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "03-12",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Beggar",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "1d2",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "13",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Brigand",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "3d4 and a leader",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "14-18",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Guardsmen",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "2d8 and a leader",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "19-21",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Official",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "(1-9) minor official; (10) major official and 2d4 guardsmen",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "22-23",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Watchman",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "5 men-at-arms (0-level) and a sergeant (level 1d3) and a cleric (level 1d4+1)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "24-25",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Cleric",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "A 1d6+5-level cleric with 1d6-1 assistant clerics (level 1d4)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "26",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Cleric (as Druid)",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "A 1d6+5-level cleric with (1-5) 1d4-1 lesser clerics (level 1d4) or (6-10) 1d4 fighters (level 1d6)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "27",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Drunk",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "See Urban Professions sub-table for exact profession",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "28-29",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Fighter",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "A 2d4+4-level fighter with 1d4-1 henchmen (level 1d4)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "30-33",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Gentleman",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "(1-4) foppish dandy and 1d4 sycophants; (5-6) gentlewoman; (7-10) 1d4+6-level nobleman fighter and 1d4 similar friends",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "34",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Giant Rats",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "2d4",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "35-39",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Townsperson",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "0-level Normal Human",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "40-41",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Harlot",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "See Red-Light Professions sub-table for exact type",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "42",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Magic-User (as Illusionist)",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "A 1d4+6-level magic-user with (1-5) 1d4-1 apprentice magic-users (level 1d4) or (6-10) 1d3 fighter bodyguards (level 1d6)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "43-50",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Labourer or Peddler",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "(1-5) 3d4 rough 0-level workmen; (6-10) 1d3 peddlers selling simple goods on the street",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "51",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Magic-User",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "A 1d6+6-level magic-user with (1-4) 1d4 apprentice magic-users (level 1d6) or (5-7) 1d4 fighter bodyguards (level 1d4+3) or (8-10) 1d2 apprentices and 1d2 bodyguards as above",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "52-55",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Mercenary",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "3d4 fighters (level 1d6-1)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "56-62",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Merchant",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "1d3 merchants (0-level Normal Humans)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "63",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Troubadour",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "1d4 travelling bards, musicians, or actors",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "64-65",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Night Hag",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "DM's discretion. Only 1 encountered",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "66",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Noble",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "(1-7) nobleman and 1d4 fighter bodyguards (level 1d4); (8-10) noblewoman",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "67-69",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Fighter (as Paladin)",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "A 1d4+5-level fighter",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "70",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Pilgrim",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "3d4 pilgrims (Normal Humans)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "71-72",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Press Gang",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "2d8 1st-level fighters and a leader (level 1d4+1), all wielding clubs",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "73",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Thugs",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "1d4+1 fighters (level 1d6+4)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "74-78",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Rakshasa",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "DM's discretion. 1d3 encountered",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "79-82",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Thief",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "A 1d4+7-level thief and 1d3-1 apprentice thieves (level 1d4)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "83-97",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Tradesman",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "2d4 artisans, craftsmen, or skilled workmen (Normal Humans)",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "98",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Wererat",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "2d4 encountered; (1-9) in human form, (10) in giant rat form",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "99",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Weretiger",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "1d2 encountered, in human form",
+          "links": []
+        }
+      },
+      {
+        "d%": {
+          "raw": "00",
+          "links": []
+        },
+        "Encounter": {
+          "raw": "Werewolf",
+          "links": []
+        },
+        "# Encountered & Notes": {
+          "raw": "2d4 encountered, in human form",
+          "links": []
+        }
+      }
+    ]
+  },
+  "urbanEncounterLevel": {
+    "headers": [
+      "Party Level",
+      "Entries out of place below this level"
+    ],
+    "rows": [
+      {
+        "Party Level": {
+          "raw": "3+",
+          "links": []
+        },
+        "Entries out of place below this level": {
+          "raw": "Wererat, Weretiger, Werewolf",
+          "links": []
+        }
+      },
+      {
+        "Party Level": {
+          "raw": "5+",
+          "links": []
+        },
+        "Entries out of place below this level": {
+          "raw": "Demon, Devil, Ghost, Night Hag, Rakshasa, Shadow, Spectre, Wight, Will-O-Wisp, Wraith",
+          "links": []
+        }
+      },
+      {
+        "Party Level": {
+          "raw": "8+",
+          "links": []
+        },
+        "Entries out of place below this level": {
+          "raw": "Vampire or Lich",
+          "links": []
+        }
+      }
+    ]
+  }
+}
