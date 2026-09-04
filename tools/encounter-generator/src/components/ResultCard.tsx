@@ -170,10 +170,11 @@ function WildernessCard({
   onRerollDragonTreasure: (ageCategory: number, hitDice: number) => void;
 }) {
   const isDragon = result.monster?.headingName === "Dragon";
+  const isNewShape = result.category === "—";
   return (
     <>
       <p className="roll-trail">
-        {result.terrain} · category = {result.category} · roll = {result.levelRoll}
+        {result.terrain} · {isNewShape ? `party level = ${result.levelRoll}` : `category = ${result.category} · roll = ${result.levelRoll}`}
         {result.choiceNote ? ` · ${result.choiceNote}` : ""}
       </p>
       {result.dinosaur && (
@@ -187,6 +188,11 @@ function WildernessCard({
       )}
       {!result.monster && !result.npcParty && <p className="hint"><RollableText text={result.resultRaw} /></p>}
       {result.outOfPlace && <OutOfPlaceBanner band={result.outOfPlace} />}
+      {result.borrowedFromLevel && (
+        <div className="fallback-note">
+          Nothing tagged for this terrain right at party level {result.levelRoll} — borrowed from Level {result.borrowedFromLevel} instead.
+        </div>
+      )}
       {treasure && <TreasureBlock hoard={treasure} />}
       {isDragon && <DragonTreasureControls onReroll={onRerollDragonTreasure} />}
     </>

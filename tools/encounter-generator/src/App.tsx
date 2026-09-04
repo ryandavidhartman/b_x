@@ -8,7 +8,6 @@ import {
   checkForaging,
   rollCastleEncounter,
   CASTLE_OWNERS,
-  type PartyLevelBand,
 } from "./generators/wildernessEncounter";
 import { rollUrbanEncounter, type TimeOfDay } from "./generators/urbanEncounter";
 import { rollNewHex, checkPointOfInterest, rollCataclysm, TERRAIN_LOOP } from "./generators/hexCrawl";
@@ -37,7 +36,7 @@ function App() {
 
   // Wilderness
   const [terrain, setTerrain] = useState(TERRAIN_NAMES[0]);
-  const [partyLevelBand, setPartyLevelBand] = useState<PartyLevelBand>("1-3");
+  const [wildPartyLevel, setWildPartyLevel] = useState(1);
   const [airborne, setAirborne] = useState(false);
   const [wildAwardTreasure, setWildAwardTreasure] = useState(true);
   const [utilityResult, setUtilityResult] = useState<string | null>(null);
@@ -68,7 +67,7 @@ function App() {
   }
 
   function rollWilderness() {
-    const result = rollWildernessEncounter(terrain, partyLevelBand, airborne);
+    const result = rollWildernessEncounter(terrain, wildPartyLevel, airborne);
     const treasureType = result.monster?.stats["Treasure Type"];
     const treasure = wildAwardTreasure && treasureType
       ? rollTreasureForType(treasureType, undefined, { ageCategory: DEFAULT_DRAGON_AGE, hitDice: DEFAULT_DRAGON_HD })
@@ -169,12 +168,8 @@ function App() {
                 </select>
               </div>
               <div className="field">
-                <label htmlFor="party-level-band">Party Level</label>
-                <select id="party-level-band" value={partyLevelBand} onChange={(e) => setPartyLevelBand(e.target.value as PartyLevelBand)}>
-                  <option value="1-3">1-3</option>
-                  <option value="4-6">4-6</option>
-                  <option value="7+">7+</option>
-                </select>
+                <label htmlFor="wild-party-level">Party Level</label>
+                <input id="wild-party-level" type="number" min={1} max={20} value={wildPartyLevel} onChange={(e) => setWildPartyLevel(Number(e.target.value))} />
               </div>
               <div className="checkbox-field">
                 <input id="airborne" type="checkbox" checked={airborne} onChange={(e) => setAirborne(e.target.checked)} />

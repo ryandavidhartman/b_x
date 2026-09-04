@@ -8969,57 +8969,28 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 #### Aquatic
 
-| 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
-|---|---|---|---|---|---|---|
-| 1 | [Bat, Normal](#bat) | [Lamprey](#lamprey) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Acolyte](#acolyte) | [Kuo-Toa](#kuo-toa) |
-| 2 | [Bat, Normal](#bat) | [Lamprey](#lamprey) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Acolyte](#acolyte) | [Kuo-Toa](#kuo-toa) |
-| 3 | [Bat, Normal](#bat) | [Lamprey](#lamprey) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Acolyte](#acolyte) | [Kuo-Toa](#kuo-toa) |
-| 4 | [Bat, Normal](#bat) | [Lamprey](#lamprey) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Bandit](#bandit) | [Kuo-Toa](#kuo-toa) |
-| 5 | [Stirge](#stirge) | [Lamprey](#lamprey) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Bandit](#bandit) | [Kuo-Toa](#kuo-toa) |
-| 6 | [Stirge](#stirge) | [Lamprey](#lamprey) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Dwarf](#dwarf) | [Kuo-Toa](#kuo-toa) |
-| 7 | [Stirge](#stirge) | [Lamprey](#lamprey) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Dwarf](#dwarf) | [Kuo-Toa](#kuo-toa) |
-| 8 | [Bat, Giant](#bat) | [Sea Horse, Giant](#sea-horse-giant) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Gnome](#gnome) | [Locathah](#locathah) |
-| 9 | [Bat, Giant](#bat) | [Sea Horse, Giant](#sea-horse-giant) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Gnome](#gnome) | [Locathah](#locathah) |
-| 10 | [Imp](#imp) | [Sea Horse, Giant](#sea-horse-giant) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Halfling](#halfling) | [Locathah](#locathah) |
-| 11 | [Imp](#imp) | [Sea Horse, Giant](#sea-horse-giant) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Medium](#medium) | [Locathah](#locathah) |
-| 12 | [Cockatrice](#cockatrice) | [Sea Horse, Giant](#sea-horse-giant) | [Sea Dragons](#sea-dragons) | [Storm Giant](#giant) | [Men, Brigand](#men) | [Locathah](#locathah) |
-| 13 | [Cockatrice](#cockatrice) | [Sea Horse, Giant](#sea-horse-giant) | [Sea Dragons](#sea-dragons) | [Storm Giant](#giant) | [Men, Buccaneer / Pirate](#men) | [Locathah](#locathah) |
-| 14 | [Horned Devil (Malebranche)](#horned-devil-malebranche) | [Sea Snake](#snake) | [Sea Dragons](#sea-dragons) | [Storm Giant](#giant) | [Men, Merchant](#men) | [Lizard Man](#lizard-man) |
-| 15 | [Succubus](#succubus) | [Sea Snake](#snake) | [Sea Dragons](#sea-dragons) | [Storm Giant](#giant) | [Normal Human](#normal-human) | [Lizard Man](#lizard-man) |
-| 16 | [Erinyes](#erinyes) | [Sea Snake](#snake) | [Sea Dragons](#sea-dragons) | [Storm Giant](#giant) | [Trader](#trader) | [Lizard Man](#lizard-man) |
-| 17 | [Type I Demon (Vrock)](#type-i-demon-vrock) | [Sea Snake](#snake) | [Sea Dragons](#sea-dragons) | [Storm Giant](#giant) | [Berserker](#berserker) | [Lizard Man](#lizard-man) |
-| 18 | [Type VI Demon (Balor)](#type-vi-demon-balor) | [Leech, Giant](#leech-giant) | [Dragon Turtle](#dragon-turtle) | [Storm Giant](#giant) | [Elf](#elf) | [Sahuagin](#sahuagin) |
-| 19 | [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee) | [Leech, Giant](#leech-giant) | [Dragon Turtle](#dragon-turtle) | [Storm Giant](#giant) | [Noble](#noble) | [Sahuagin](#sahuagin) |
-| 20 | [Pit Fiend](#pit-fiend) | [Gar, Giant](#gar-giant) | [Dragon Turtle](#dragon-turtle) | [Storm Giant](#giant) | [Veteran](#veteran) | [Triton](#triton) |
-
-```{=latex}
-\filbreak
-```
-
-**Aquatic — Monster / NPC / Undead / Invertebrates / Water / Special columns (same `1d20` roll as above)**
-
-| 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
-|---|---|---|---|---|---|---|
-| 1 | [Nymph](#nymph) | Decoys | [Poltergeist](#poltergeist) | [Beetle, Giant (Water)](#beetle-giant) | [Frog, Giant (Poisonous Frog)](#frog-giant) | [Larva](#larva) |
-| 2 | [Nymph](#nymph) | Decoys | [Poltergeist](#poltergeist) | [Beetle, Giant (Water)](#beetle-giant) | [Nixies](#nixies) | [Larva](#larva) |
-| 3 | [Nymph](#nymph) | Escapees | [Poltergeist](#poltergeist) | [Beetle, Giant (Water)](#beetle-giant) | [Crocodile](#crocodile) | [Larva](#larva) |
-| 4 | [Nymph](#nymph) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant (Water)](#beetle-giant) | [Frog, Giant (Killer Frog)](#frog-giant) | [Larva](#larva) |
-| 5 | [Nymph](#nymph) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant (Water)](#beetle-giant) | [Crab, Giant](#crab-giant) | [Manes](#manes) |
-| 6 | [Nymph](#nymph) | Joiners | [Ghoul](#ghoul) | [Beetle, Giant (Water)](#beetle-giant) | [Termite, Water (Fresh Water Termite)](#termite-water) | [Manes](#manes) |
-| 7 | [Nymph](#nymph) | Joiners | [Zombie](#zombie) | [Beetle, Giant (Water)](#beetle-giant) | [Beaver, Giant](#beaver-giant) | [Manes](#manes) |
-| 8 | [Nymph](#nymph) | Joiners | [Wight](#wight) | [Beetle, Giant (Water)](#beetle-giant) | [Pike, Giant](#pike-giant) | [Manes](#manes) |
-| 9 | [Nymph](#nymph) | Joiners | [Ghast](#ghast) | [Beetle, Giant (Water)](#beetle-giant) | [Crayfish, Giant](#crayfish-giant) | [Lemure](#lemure) |
-| 10 | [Nymph](#nymph) | Runners | [Wraith](#wraith) | [Beetle, Giant (Water)](#beetle-giant) | [Otter, Giant](#otter-giant) | [Lemure](#lemure) |
-| 11 | [Nymph](#nymph) | Runners | [Mummy](#mummy) | [Beetle, Giant (Water)](#beetle-giant) | [Large Crocodile](#crocodile) | [Quasit](#quasit) |
-| 12 | [Strangle Weed](#strangle-weed) | Searchers | [Spectre](#spectre) | [Beetle, Giant (Water)](#beetle-giant) | [Archelon](#archelon) | [Quasit](#quasit) |
-| 13 | [Strangle Weed](#strangle-weed) | Searchers | [Groaning Spirit](#groaning-spirit) | [Beetle, Giant (Water)](#beetle-giant) | [Elemental, Water](#elemental) | [Water Weird](#water-weird) |
-| 14 | [Strangle Weed](#strangle-weed) | Searchers | [Revenant](#revenant) | [Beetle, Giant (Water)](#beetle-giant) | [Hippopotamus](#hippopotamus) | [Water Weird](#water-weird) |
-| 15 | [Strangle Weed](#strangle-weed) | Searchers | [Death Knight](#death-knight) | [Beetle, Giant (Water)](#beetle-giant) | [Fish, Giant (Giant Catfish)](#fish-giant) | [Shadow Demon](#shadow-demon) |
-| 16 | [Strangle Weed](#strangle-weed) | Searchers | [Skeleton Warrior](#skeleton-warrior) | [Beetle, Giant (Water)](#beetle-giant) | [Dinichthys](#dinichthys) | [Barbed Devil](#barbed-devil) |
-| 17 | [Strangle Weed](#strangle-weed) | Survivors | [Vampire](#vampire) | [Beetle, Giant (Water)](#beetle-giant) | [Fish, Giant (Giant Sturgeon)](#fish-giant) | [Type V Demon (Marilith)](#type-v-demon-marilith) |
-| 18 | [Hydra](#hydra) | [Wolf](#wolf) | [Ghost](#ghost) | [Beetle, Giant (Water)](#beetle-giant) | [Wereshark](#wereshark) | [Bone Devil](#bone-devil) |
-| 19 | [Hydra](#hydra) | [Wolf](#wolf) | [Lich](#lich) | [Beetle, Giant (Water)](#beetle-giant) | [Elasmosaurus](#elasmosaurus) | [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu) |
-| 20 | [Hydra](#hydra) | [Wolf](#wolf) | [Demilich](#demilich) | [Beetle, Giant (Water)](#beetle-giant) | [Giant Crocodile](#crocodile) | [Ice Devil](#ice-devil) |
+| Level | Monster |
+|---|---|
+| 1 | [Frog, Giant (Poisonous Frog)](#frog-giant), [Men, Buccaneer / Pirate](#men), [Nixies](#nixies), [Crocodile](#crocodile), [Kuo-Toa](#kuo-toa), [Crab, Giant](#crab-giant) |
+| 2 | [Frog, Giant (Poisonous Frog)](#frog-giant), [Men, Buccaneer / Pirate](#men), [Nixies](#nixies), [Crocodile](#crocodile), [Frog, Giant (Killer Frog)](#frog-giant), [Lamprey](#lamprey), [Crab, Giant](#crab-giant), [Sahuagin](#sahuagin), [Beaver, Giant](#beaver-giant) |
+| 3 | [Frog, Giant (Poisonous Frog)](#frog-giant), [Men, Buccaneer / Pirate](#men), [Nixies](#nixies), [Crocodile](#crocodile), [Electric Eel](#eel), [Kuo-Toa](#kuo-toa), [Locathah](#locathah), [Crab, Giant](#crab-giant), [Lizard Man](#lizard-man), [Sea Snake](#snake), [Beaver, Giant](#beaver-giant), [Pike, Giant](#pike-giant), [Crayfish, Giant](#crayfish-giant) |
+| 4 | [Crocodile](#crocodile), [Electric Eel](#eel), [Frog, Giant (Killer Frog)](#frog-giant), [Kuo-Toa](#kuo-toa), [Lamprey](#lamprey), [Locathah](#locathah), [Crab, Giant](#crab-giant), [Lizard Man](#lizard-man), [Sahuagin](#sahuagin), [Termite, Water (Fresh Water Termite)](#termite-water), [Beaver, Giant](#beaver-giant), [Fish, Giant (Giant Piranha)](#fish-giant), [Strangle Weed](#strangle-weed), [Crayfish, Giant](#crayfish-giant), [Giant Eel](#eel), [Large Crocodile](#crocodile) |
+| 5 | [Crab, Giant](#crab-giant), [Frog, Giant (Giant Frog)](#frog-giant), [Lizard Man](#lizard-man), [Sahuagin](#sahuagin), [Sea Snake](#snake), [Termite, Water (Fresh Water Termite)](#termite-water), [Beaver, Giant](#beaver-giant), [Beetle, Giant (Water)](#beetle-giant), [Pike, Giant](#pike-giant), [Strangle Weed](#strangle-weed), [Crayfish, Giant](#crayfish-giant), [Giant Eel](#eel), [Otter, Giant](#otter-giant), [Large Crocodile](#crocodile), [Leech, Giant](#leech-giant), [Archelon](#archelon) |
+| 6 | [Beaver, Giant](#beaver-giant), [Beetle, Giant (Water)](#beetle-giant), [Fish, Giant (Giant Piranha)](#fish-giant), [Pike, Giant](#pike-giant), [Strangle Weed](#strangle-weed), [Water Weird](#water-weird), [Crayfish, Giant](#crayfish-giant), [Giant Eel](#eel), [Otter, Giant](#otter-giant), [Large Crocodile](#crocodile), [Leech, Giant](#leech-giant), [Archelon](#archelon), [Dragon, Black](#dragon), [Aboleth](#aboleth) |
+| 7 | [Crayfish, Giant](#crayfish-giant), [Giant Eel](#eel), [Otter, Giant](#otter-giant), [Large Crocodile](#crocodile), [Leech, Giant](#leech-giant), [Archelon](#archelon), [Dragon, Black](#dragon), [Aboleth](#aboleth), [Hippopotamus](#hippopotamus), [Fish, Giant (Giant Catfish)](#fish-giant) |
+| 8 | [Large Crocodile](#crocodile), [Leech, Giant](#leech-giant), [Archelon](#archelon), [Dragon, Black](#dragon), [Aboleth](#aboleth), [Gar, Giant](#gar-giant), [Sea Dragons](#sea-dragons), [Fish, Giant (Giant Catfish)](#fish-giant), [Dinichthys](#dinichthys) |
+| 9 | [Archelon](#archelon), [Dragon, Black](#dragon), [Aboleth](#aboleth), [Elemental, Water](#elemental), [Hippopotamus](#hippopotamus), [Sea Dragons](#sea-dragons), [Fish, Giant (Giant Catfish)](#fish-giant), [Dinichthys](#dinichthys), [Turtle, Giant (Giant Snapping Turtle)](#turtle-giant), [Fish, Giant (Giant Sturgeon)](#fish-giant) |
+| 10 | [Aboleth](#aboleth), [Elemental, Water](#elemental), [Gar, Giant](#gar-giant), [Hippopotamus](#hippopotamus), [Sea Dragons](#sea-dragons), [Water Naga](#naga), [Fish, Giant (Giant Catfish)](#fish-giant), [Dinichthys](#dinichthys), [Turtle, Giant (Giant Snapping Turtle)](#turtle-giant), [Fish, Giant (Giant Sturgeon)](#fish-giant), [Wereshark](#wereshark), [Hydra](#hydra) |
+| 11 | [Fish, Giant (Giant Catfish)](#fish-giant), [Dinichthys](#dinichthys), [Turtle, Giant (Giant Snapping Turtle)](#turtle-giant), [Fish, Giant (Giant Sturgeon)](#fish-giant), [Wereshark](#wereshark), [Hydra](#hydra), [Mosasaurus](#mosasaurus) |
+| 12 | [Dinichthys](#dinichthys), [Turtle, Giant (Giant Snapping Turtle)](#turtle-giant), [Fish, Giant (Giant Sturgeon)](#fish-giant), [Wereshark](#wereshark), [Hydra](#hydra), [Mosasaurus](#mosasaurus) |
+| 13 | [Fish, Giant (Giant Sturgeon)](#fish-giant), [Wereshark](#wereshark), [Hydra](#hydra), [Mosasaurus](#mosasaurus), [Elasmosaurus](#elasmosaurus) |
+| 14 | [Hydra](#hydra), [Mosasaurus](#mosasaurus), [Elasmosaurus](#elasmosaurus), [Giant Crocodile](#crocodile) |
+| 15 | [Elasmosaurus](#elasmosaurus), [Giant Crocodile](#crocodile) |
+| 16 | [Elasmosaurus](#elasmosaurus), [Giant Crocodile](#crocodile) |
+| 17 | [Elasmosaurus](#elasmosaurus), [Giant Crocodile](#crocodile) |
+| 18 | [Dragon Turtle](#dragon-turtle) |
+| 19 | [Dragon Turtle](#dragon-turtle), [Plesiosaurus](#plesiosaurus) |
+| 20 | [Dragon Turtle](#dragon-turtle), [Plesiosaurus](#plesiosaurus) |
 
 #### Arctic
 

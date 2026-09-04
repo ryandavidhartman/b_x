@@ -777,2126 +777,775 @@
   "terrains": {
     "Aquatic": {
       "headers": [
-        "1d20",
-        "Airborne",
-        "Animal",
-        "Dragon",
-        "Giant",
-        "Human",
-        "Humanoid",
-        "Monster",
-        "NPC",
-        "Undead",
-        "Invertebrates",
-        "Water",
-        "Special"
+        "Level",
+        "Monster"
       ],
       "rows": [
         {
-          "1d20": {
+          "Level": {
             "raw": "1",
             "links": []
           },
-          "Airborne": {
-            "raw": "[Bat, Normal](#bat)",
-            "links": [
-              {
-                "label": "Bat, Normal",
-                "anchor": "bat"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Lamprey](#lamprey)",
-            "links": [
-              {
-                "label": "Lamprey",
-                "anchor": "lamprey"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Dragon, Black](#dragon)",
-            "links": [
-              {
-                "label": "Dragon, Black",
-                "anchor": "dragon"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
-              {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Acolyte](#acolyte)",
-            "links": [
-              {
-                "label": "Acolyte",
-                "anchor": "acolyte"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Kuo-Toa](#kuo-toa)",
-            "links": [
-              {
-                "label": "Kuo-Toa",
-                "anchor": "kuo-toa"
-              }
-            ]
-          },
           "Monster": {
-            "raw": "[Nymph](#nymph)",
-            "links": [
-              {
-                "label": "Nymph",
-                "anchor": "nymph"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Decoys",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Poltergeist](#poltergeist)",
-            "links": [
-              {
-                "label": "Poltergeist",
-                "anchor": "poltergeist"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
-              {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Frog, Giant (Poisonous Frog)](#frog-giant)",
+            "raw": "[Frog, Giant (Poisonous Frog)](#frog-giant), [Men, Buccaneer / Pirate](#men), [Nixies](#nixies), [Crocodile](#crocodile), [Kuo-Toa](#kuo-toa), [Crab, Giant](#crab-giant)",
             "links": [
               {
                 "label": "Frog, Giant (Poisonous Frog)",
                 "anchor": "frog-giant"
-              }
-            ]
-          },
-          "Special": {
-            "raw": "[Larva](#larva)",
-            "links": [
+              },
               {
-                "label": "Larva",
-                "anchor": "larva"
-              }
-            ]
-          }
-        },
-        {
-          "1d20": {
-            "raw": "2",
-            "links": []
-          },
-          "Airborne": {
-            "raw": "[Bat, Normal](#bat)",
-            "links": [
-              {
-                "label": "Bat, Normal",
-                "anchor": "bat"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Lamprey](#lamprey)",
-            "links": [
-              {
-                "label": "Lamprey",
-                "anchor": "lamprey"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Dragon, Black](#dragon)",
-            "links": [
-              {
-                "label": "Dragon, Black",
-                "anchor": "dragon"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
-              {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Acolyte](#acolyte)",
-            "links": [
-              {
-                "label": "Acolyte",
-                "anchor": "acolyte"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Kuo-Toa](#kuo-toa)",
-            "links": [
-              {
-                "label": "Kuo-Toa",
-                "anchor": "kuo-toa"
-              }
-            ]
-          },
-          "Monster": {
-            "raw": "[Nymph](#nymph)",
-            "links": [
-              {
-                "label": "Nymph",
-                "anchor": "nymph"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Decoys",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Poltergeist](#poltergeist)",
-            "links": [
-              {
-                "label": "Poltergeist",
-                "anchor": "poltergeist"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
-              {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Nixies](#nixies)",
-            "links": [
+                "label": "Men, Buccaneer / Pirate",
+                "anchor": "men"
+              },
               {
                 "label": "Nixies",
                 "anchor": "nixies"
-              }
-            ]
-          },
-          "Special": {
-            "raw": "[Larva](#larva)",
-            "links": [
-              {
-                "label": "Larva",
-                "anchor": "larva"
-              }
-            ]
-          }
-        },
-        {
-          "1d20": {
-            "raw": "3",
-            "links": []
-          },
-          "Airborne": {
-            "raw": "[Bat, Normal](#bat)",
-            "links": [
-              {
-                "label": "Bat, Normal",
-                "anchor": "bat"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Lamprey](#lamprey)",
-            "links": [
-              {
-                "label": "Lamprey",
-                "anchor": "lamprey"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Dragon, Black](#dragon)",
-            "links": [
-              {
-                "label": "Dragon, Black",
-                "anchor": "dragon"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
-              {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Acolyte](#acolyte)",
-            "links": [
-              {
-                "label": "Acolyte",
-                "anchor": "acolyte"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Kuo-Toa](#kuo-toa)",
-            "links": [
-              {
-                "label": "Kuo-Toa",
-                "anchor": "kuo-toa"
-              }
-            ]
-          },
-          "Monster": {
-            "raw": "[Nymph](#nymph)",
-            "links": [
-              {
-                "label": "Nymph",
-                "anchor": "nymph"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Escapees",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Poltergeist](#poltergeist)",
-            "links": [
-              {
-                "label": "Poltergeist",
-                "anchor": "poltergeist"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
-              {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Crocodile](#crocodile)",
-            "links": [
+              },
               {
                 "label": "Crocodile",
                 "anchor": "crocodile"
-              }
-            ]
-          },
-          "Special": {
-            "raw": "[Larva](#larva)",
-            "links": [
-              {
-                "label": "Larva",
-                "anchor": "larva"
-              }
-            ]
-          }
-        },
-        {
-          "1d20": {
-            "raw": "4",
-            "links": []
-          },
-          "Airborne": {
-            "raw": "[Bat, Normal](#bat)",
-            "links": [
-              {
-                "label": "Bat, Normal",
-                "anchor": "bat"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Lamprey](#lamprey)",
-            "links": [
-              {
-                "label": "Lamprey",
-                "anchor": "lamprey"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Dragon, Black](#dragon)",
-            "links": [
-              {
-                "label": "Dragon, Black",
-                "anchor": "dragon"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
-              {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Bandit](#bandit)",
-            "links": [
-              {
-                "label": "Bandit",
-                "anchor": "bandit"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Kuo-Toa](#kuo-toa)",
-            "links": [
+              },
               {
                 "label": "Kuo-Toa",
                 "anchor": "kuo-toa"
-              }
-            ]
-          },
-          "Monster": {
-            "raw": "[Nymph](#nymph)",
-            "links": [
-              {
-                "label": "Nymph",
-                "anchor": "nymph"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Escapees",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Skeleton](#skeleton)",
-            "links": [
-              {
-                "label": "Skeleton",
-                "anchor": "skeleton"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
-              {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Frog, Giant (Killer Frog)](#frog-giant)",
-            "links": [
-              {
-                "label": "Frog, Giant (Killer Frog)",
-                "anchor": "frog-giant"
-              }
-            ]
-          },
-          "Special": {
-            "raw": "[Larva](#larva)",
-            "links": [
-              {
-                "label": "Larva",
-                "anchor": "larva"
-              }
-            ]
-          }
-        },
-        {
-          "1d20": {
-            "raw": "5",
-            "links": []
-          },
-          "Airborne": {
-            "raw": "[Stirge](#stirge)",
-            "links": [
-              {
-                "label": "Stirge",
-                "anchor": "stirge"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Lamprey](#lamprey)",
-            "links": [
-              {
-                "label": "Lamprey",
-                "anchor": "lamprey"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Dragon, Black](#dragon)",
-            "links": [
-              {
-                "label": "Dragon, Black",
-                "anchor": "dragon"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
-              {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Bandit](#bandit)",
-            "links": [
-              {
-                "label": "Bandit",
-                "anchor": "bandit"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Kuo-Toa](#kuo-toa)",
-            "links": [
-              {
-                "label": "Kuo-Toa",
-                "anchor": "kuo-toa"
-              }
-            ]
-          },
-          "Monster": {
-            "raw": "[Nymph](#nymph)",
-            "links": [
-              {
-                "label": "Nymph",
-                "anchor": "nymph"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Escapees",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Skeleton](#skeleton)",
-            "links": [
-              {
-                "label": "Skeleton",
-                "anchor": "skeleton"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
-              {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Crab, Giant](#crab-giant)",
-            "links": [
+              },
               {
                 "label": "Crab, Giant",
                 "anchor": "crab-giant"
               }
             ]
-          },
-          "Special": {
-            "raw": "[Manes](#manes)",
-            "links": [
-              {
-                "label": "Manes",
-                "anchor": "manes"
-              }
-            ]
           }
         },
         {
-          "1d20": {
-            "raw": "6",
+          "Level": {
+            "raw": "2",
             "links": []
           },
-          "Airborne": {
-            "raw": "[Stirge](#stirge)",
+          "Monster": {
+            "raw": "[Frog, Giant (Poisonous Frog)](#frog-giant), [Men, Buccaneer / Pirate](#men), [Nixies](#nixies), [Crocodile](#crocodile), [Frog, Giant (Killer Frog)](#frog-giant), [Lamprey](#lamprey), [Crab, Giant](#crab-giant), [Sahuagin](#sahuagin), [Beaver, Giant](#beaver-giant)",
             "links": [
               {
-                "label": "Stirge",
-                "anchor": "stirge"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Lamprey](#lamprey)",
-            "links": [
+                "label": "Frog, Giant (Poisonous Frog)",
+                "anchor": "frog-giant"
+              },
+              {
+                "label": "Men, Buccaneer / Pirate",
+                "anchor": "men"
+              },
+              {
+                "label": "Nixies",
+                "anchor": "nixies"
+              },
+              {
+                "label": "Crocodile",
+                "anchor": "crocodile"
+              },
+              {
+                "label": "Frog, Giant (Killer Frog)",
+                "anchor": "frog-giant"
+              },
               {
                 "label": "Lamprey",
                 "anchor": "lamprey"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Dragon, Black](#dragon)",
-            "links": [
+              },
               {
-                "label": "Dragon, Black",
-                "anchor": "dragon"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
+                "label": "Crab, Giant",
+                "anchor": "crab-giant"
+              },
               {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Dwarf](#dwarf)",
-            "links": [
-              {
-                "label": "Dwarf",
-                "anchor": "dwarf"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Kuo-Toa](#kuo-toa)",
-            "links": [
-              {
-                "label": "Kuo-Toa",
-                "anchor": "kuo-toa"
-              }
-            ]
-          },
-          "Monster": {
-            "raw": "[Nymph](#nymph)",
-            "links": [
-              {
-                "label": "Nymph",
-                "anchor": "nymph"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Joiners",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Ghoul](#ghoul)",
-            "links": [
-              {
-                "label": "Ghoul",
-                "anchor": "ghoul"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
-              {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Termite, Water (Fresh Water Termite)](#termite-water)",
-            "links": [
-              {
-                "label": "Termite, Water (Fresh Water Termite)",
-                "anchor": "termite-water"
-              }
-            ]
-          },
-          "Special": {
-            "raw": "[Manes](#manes)",
-            "links": [
-              {
-                "label": "Manes",
-                "anchor": "manes"
-              }
-            ]
-          }
-        },
-        {
-          "1d20": {
-            "raw": "7",
-            "links": []
-          },
-          "Airborne": {
-            "raw": "[Stirge](#stirge)",
-            "links": [
-              {
-                "label": "Stirge",
-                "anchor": "stirge"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Lamprey](#lamprey)",
-            "links": [
-              {
-                "label": "Lamprey",
-                "anchor": "lamprey"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Dragon, Black](#dragon)",
-            "links": [
-              {
-                "label": "Dragon, Black",
-                "anchor": "dragon"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
-              {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Dwarf](#dwarf)",
-            "links": [
-              {
-                "label": "Dwarf",
-                "anchor": "dwarf"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Kuo-Toa](#kuo-toa)",
-            "links": [
-              {
-                "label": "Kuo-Toa",
-                "anchor": "kuo-toa"
-              }
-            ]
-          },
-          "Monster": {
-            "raw": "[Nymph](#nymph)",
-            "links": [
-              {
-                "label": "Nymph",
-                "anchor": "nymph"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Joiners",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Zombie](#zombie)",
-            "links": [
-              {
-                "label": "Zombie",
-                "anchor": "zombie"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
-              {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Beaver, Giant](#beaver-giant)",
-            "links": [
+                "label": "Sahuagin",
+                "anchor": "sahuagin"
+              },
               {
                 "label": "Beaver, Giant",
                 "anchor": "beaver-giant"
               }
             ]
-          },
-          "Special": {
-            "raw": "[Manes](#manes)",
-            "links": [
-              {
-                "label": "Manes",
-                "anchor": "manes"
-              }
-            ]
           }
         },
         {
-          "1d20": {
-            "raw": "8",
+          "Level": {
+            "raw": "3",
             "links": []
           },
-          "Airborne": {
-            "raw": "[Bat, Giant](#bat)",
+          "Monster": {
+            "raw": "[Frog, Giant (Poisonous Frog)](#frog-giant), [Men, Buccaneer / Pirate](#men), [Nixies](#nixies), [Crocodile](#crocodile), [Electric Eel](#eel), [Kuo-Toa](#kuo-toa), [Locathah](#locathah), [Crab, Giant](#crab-giant), [Lizard Man](#lizard-man), [Sea Snake](#snake), [Beaver, Giant](#beaver-giant), [Pike, Giant](#pike-giant), [Crayfish, Giant](#crayfish-giant)",
             "links": [
               {
-                "label": "Bat, Giant",
-                "anchor": "bat"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Sea Horse, Giant](#sea-horse-giant)",
-            "links": [
+                "label": "Frog, Giant (Poisonous Frog)",
+                "anchor": "frog-giant"
+              },
               {
-                "label": "Sea Horse, Giant",
-                "anchor": "sea-horse-giant"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Dragon, Black](#dragon)",
-            "links": [
+                "label": "Men, Buccaneer / Pirate",
+                "anchor": "men"
+              },
               {
-                "label": "Dragon, Black",
-                "anchor": "dragon"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
+                "label": "Nixies",
+                "anchor": "nixies"
+              },
               {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Gnome](#gnome)",
-            "links": [
+                "label": "Crocodile",
+                "anchor": "crocodile"
+              },
               {
-                "label": "Gnome",
-                "anchor": "gnome"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Locathah](#locathah)",
-            "links": [
+                "label": "Electric Eel",
+                "anchor": "eel"
+              },
+              {
+                "label": "Kuo-Toa",
+                "anchor": "kuo-toa"
+              },
               {
                 "label": "Locathah",
                 "anchor": "locathah"
-              }
-            ]
-          },
-          "Monster": {
-            "raw": "[Nymph](#nymph)",
-            "links": [
+              },
               {
-                "label": "Nymph",
-                "anchor": "nymph"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Joiners",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Wight](#wight)",
-            "links": [
+                "label": "Crab, Giant",
+                "anchor": "crab-giant"
+              },
               {
-                "label": "Wight",
-                "anchor": "wight"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
+                "label": "Lizard Man",
+                "anchor": "lizard-man"
+              },
               {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Pike, Giant](#pike-giant)",
-            "links": [
+                "label": "Sea Snake",
+                "anchor": "snake"
+              },
+              {
+                "label": "Beaver, Giant",
+                "anchor": "beaver-giant"
+              },
               {
                 "label": "Pike, Giant",
                 "anchor": "pike-giant"
-              }
-            ]
-          },
-          "Special": {
-            "raw": "[Manes](#manes)",
-            "links": [
-              {
-                "label": "Manes",
-                "anchor": "manes"
-              }
-            ]
-          }
-        },
-        {
-          "1d20": {
-            "raw": "9",
-            "links": []
-          },
-          "Airborne": {
-            "raw": "[Bat, Giant](#bat)",
-            "links": [
-              {
-                "label": "Bat, Giant",
-                "anchor": "bat"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Sea Horse, Giant](#sea-horse-giant)",
-            "links": [
-              {
-                "label": "Sea Horse, Giant",
-                "anchor": "sea-horse-giant"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Dragon, Black](#dragon)",
-            "links": [
-              {
-                "label": "Dragon, Black",
-                "anchor": "dragon"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
-              {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Gnome](#gnome)",
-            "links": [
-              {
-                "label": "Gnome",
-                "anchor": "gnome"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Locathah](#locathah)",
-            "links": [
-              {
-                "label": "Locathah",
-                "anchor": "locathah"
-              }
-            ]
-          },
-          "Monster": {
-            "raw": "[Nymph](#nymph)",
-            "links": [
-              {
-                "label": "Nymph",
-                "anchor": "nymph"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Joiners",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Ghast](#ghast)",
-            "links": [
-              {
-                "label": "Ghast",
-                "anchor": "ghast"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
-              {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Crayfish, Giant](#crayfish-giant)",
-            "links": [
+              },
               {
                 "label": "Crayfish, Giant",
                 "anchor": "crayfish-giant"
               }
             ]
-          },
-          "Special": {
-            "raw": "[Lemure](#lemure)",
-            "links": [
-              {
-                "label": "Lemure",
-                "anchor": "lemure"
-              }
-            ]
           }
         },
         {
-          "1d20": {
-            "raw": "10",
+          "Level": {
+            "raw": "4",
             "links": []
           },
-          "Airborne": {
-            "raw": "[Imp](#imp)",
+          "Monster": {
+            "raw": "[Crocodile](#crocodile), [Electric Eel](#eel), [Frog, Giant (Killer Frog)](#frog-giant), [Kuo-Toa](#kuo-toa), [Lamprey](#lamprey), [Locathah](#locathah), [Crab, Giant](#crab-giant), [Lizard Man](#lizard-man), [Sahuagin](#sahuagin), [Termite, Water (Fresh Water Termite)](#termite-water), [Beaver, Giant](#beaver-giant), [Fish, Giant (Giant Piranha)](#fish-giant), [Strangle Weed](#strangle-weed), [Crayfish, Giant](#crayfish-giant), [Giant Eel](#eel), [Large Crocodile](#crocodile)",
             "links": [
               {
-                "label": "Imp",
-                "anchor": "imp"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Sea Horse, Giant](#sea-horse-giant)",
-            "links": [
+                "label": "Crocodile",
+                "anchor": "crocodile"
+              },
               {
-                "label": "Sea Horse, Giant",
-                "anchor": "sea-horse-giant"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Dragon, Black](#dragon)",
-            "links": [
+                "label": "Electric Eel",
+                "anchor": "eel"
+              },
               {
-                "label": "Dragon, Black",
-                "anchor": "dragon"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
+                "label": "Frog, Giant (Killer Frog)",
+                "anchor": "frog-giant"
+              },
               {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Halfling](#halfling)",
-            "links": [
+                "label": "Kuo-Toa",
+                "anchor": "kuo-toa"
+              },
               {
-                "label": "Halfling",
-                "anchor": "halfling"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Locathah](#locathah)",
-            "links": [
+                "label": "Lamprey",
+                "anchor": "lamprey"
+              },
               {
                 "label": "Locathah",
                 "anchor": "locathah"
-              }
-            ]
-          },
-          "Monster": {
-            "raw": "[Nymph](#nymph)",
-            "links": [
+              },
               {
-                "label": "Nymph",
-                "anchor": "nymph"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Runners",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Wraith](#wraith)",
-            "links": [
+                "label": "Crab, Giant",
+                "anchor": "crab-giant"
+              },
               {
-                "label": "Wraith",
-                "anchor": "wraith"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
+                "label": "Lizard Man",
+                "anchor": "lizard-man"
+              },
               {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Otter, Giant](#otter-giant)",
-            "links": [
+                "label": "Sahuagin",
+                "anchor": "sahuagin"
+              },
               {
-                "label": "Otter, Giant",
-                "anchor": "otter-giant"
-              }
-            ]
-          },
-          "Special": {
-            "raw": "[Lemure](#lemure)",
-            "links": [
+                "label": "Termite, Water (Fresh Water Termite)",
+                "anchor": "termite-water"
+              },
               {
-                "label": "Lemure",
-                "anchor": "lemure"
-              }
-            ]
-          }
-        },
-        {
-          "1d20": {
-            "raw": "11",
-            "links": []
-          },
-          "Airborne": {
-            "raw": "[Imp](#imp)",
-            "links": [
+                "label": "Beaver, Giant",
+                "anchor": "beaver-giant"
+              },
               {
-                "label": "Imp",
-                "anchor": "imp"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Sea Horse, Giant](#sea-horse-giant)",
-            "links": [
+                "label": "Fish, Giant (Giant Piranha)",
+                "anchor": "fish-giant"
+              },
               {
-                "label": "Sea Horse, Giant",
-                "anchor": "sea-horse-giant"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Dragon, Black](#dragon)",
-            "links": [
+                "label": "Strangle Weed",
+                "anchor": "strangle-weed"
+              },
               {
-                "label": "Dragon, Black",
-                "anchor": "dragon"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
+                "label": "Crayfish, Giant",
+                "anchor": "crayfish-giant"
+              },
               {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Medium](#medium)",
-            "links": [
-              {
-                "label": "Medium",
-                "anchor": "medium"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Locathah](#locathah)",
-            "links": [
-              {
-                "label": "Locathah",
-                "anchor": "locathah"
-              }
-            ]
-          },
-          "Monster": {
-            "raw": "[Nymph](#nymph)",
-            "links": [
-              {
-                "label": "Nymph",
-                "anchor": "nymph"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Runners",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Mummy](#mummy)",
-            "links": [
-              {
-                "label": "Mummy",
-                "anchor": "mummy"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
-              {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Large Crocodile](#crocodile)",
-            "links": [
+                "label": "Giant Eel",
+                "anchor": "eel"
+              },
               {
                 "label": "Large Crocodile",
                 "anchor": "crocodile"
               }
             ]
-          },
-          "Special": {
-            "raw": "[Quasit](#quasit)",
-            "links": [
-              {
-                "label": "Quasit",
-                "anchor": "quasit"
-              }
-            ]
           }
         },
         {
-          "1d20": {
-            "raw": "12",
+          "Level": {
+            "raw": "5",
             "links": []
-          },
-          "Airborne": {
-            "raw": "[Cockatrice](#cockatrice)",
-            "links": [
-              {
-                "label": "Cockatrice",
-                "anchor": "cockatrice"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Sea Horse, Giant](#sea-horse-giant)",
-            "links": [
-              {
-                "label": "Sea Horse, Giant",
-                "anchor": "sea-horse-giant"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Sea Dragons](#sea-dragons)",
-            "links": [
-              {
-                "label": "Sea Dragons",
-                "anchor": "sea-dragons"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
-              {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Men, Brigand](#men)",
-            "links": [
-              {
-                "label": "Men, Brigand",
-                "anchor": "men"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Locathah](#locathah)",
-            "links": [
-              {
-                "label": "Locathah",
-                "anchor": "locathah"
-              }
-            ]
           },
           "Monster": {
-            "raw": "[Strangle Weed](#strangle-weed)",
+            "raw": "[Crab, Giant](#crab-giant), [Frog, Giant (Giant Frog)](#frog-giant), [Lizard Man](#lizard-man), [Sahuagin](#sahuagin), [Sea Snake](#snake), [Termite, Water (Fresh Water Termite)](#termite-water), [Beaver, Giant](#beaver-giant), [Beetle, Giant (Water)](#beetle-giant), [Pike, Giant](#pike-giant), [Strangle Weed](#strangle-weed), [Crayfish, Giant](#crayfish-giant), [Giant Eel](#eel), [Otter, Giant](#otter-giant), [Large Crocodile](#crocodile), [Leech, Giant](#leech-giant), [Archelon](#archelon)",
             "links": [
               {
-                "label": "Strangle Weed",
-                "anchor": "strangle-weed"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Searchers",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Spectre](#spectre)",
-            "links": [
+                "label": "Crab, Giant",
+                "anchor": "crab-giant"
+              },
               {
-                "label": "Spectre",
-                "anchor": "spectre"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
+                "label": "Frog, Giant (Giant Frog)",
+                "anchor": "frog-giant"
+              },
+              {
+                "label": "Lizard Man",
+                "anchor": "lizard-man"
+              },
+              {
+                "label": "Sahuagin",
+                "anchor": "sahuagin"
+              },
+              {
+                "label": "Sea Snake",
+                "anchor": "snake"
+              },
+              {
+                "label": "Termite, Water (Fresh Water Termite)",
+                "anchor": "termite-water"
+              },
+              {
+                "label": "Beaver, Giant",
+                "anchor": "beaver-giant"
+              },
               {
                 "label": "Beetle, Giant (Water)",
                 "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Archelon](#archelon)",
-            "links": [
+              },
+              {
+                "label": "Pike, Giant",
+                "anchor": "pike-giant"
+              },
+              {
+                "label": "Strangle Weed",
+                "anchor": "strangle-weed"
+              },
+              {
+                "label": "Crayfish, Giant",
+                "anchor": "crayfish-giant"
+              },
+              {
+                "label": "Giant Eel",
+                "anchor": "eel"
+              },
+              {
+                "label": "Otter, Giant",
+                "anchor": "otter-giant"
+              },
+              {
+                "label": "Large Crocodile",
+                "anchor": "crocodile"
+              },
+              {
+                "label": "Leech, Giant",
+                "anchor": "leech-giant"
+              },
               {
                 "label": "Archelon",
                 "anchor": "archelon"
               }
             ]
-          },
-          "Special": {
-            "raw": "[Quasit](#quasit)",
-            "links": [
-              {
-                "label": "Quasit",
-                "anchor": "quasit"
-              }
-            ]
           }
         },
         {
-          "1d20": {
-            "raw": "13",
+          "Level": {
+            "raw": "6",
             "links": []
-          },
-          "Airborne": {
-            "raw": "[Cockatrice](#cockatrice)",
-            "links": [
-              {
-                "label": "Cockatrice",
-                "anchor": "cockatrice"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Sea Horse, Giant](#sea-horse-giant)",
-            "links": [
-              {
-                "label": "Sea Horse, Giant",
-                "anchor": "sea-horse-giant"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Sea Dragons](#sea-dragons)",
-            "links": [
-              {
-                "label": "Sea Dragons",
-                "anchor": "sea-dragons"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
-              {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Men, Buccaneer / Pirate](#men)",
-            "links": [
-              {
-                "label": "Men, Buccaneer / Pirate",
-                "anchor": "men"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Locathah](#locathah)",
-            "links": [
-              {
-                "label": "Locathah",
-                "anchor": "locathah"
-              }
-            ]
           },
           "Monster": {
-            "raw": "[Strangle Weed](#strangle-weed)",
+            "raw": "[Beaver, Giant](#beaver-giant), [Beetle, Giant (Water)](#beetle-giant), [Fish, Giant (Giant Piranha)](#fish-giant), [Pike, Giant](#pike-giant), [Strangle Weed](#strangle-weed), [Water Weird](#water-weird), [Crayfish, Giant](#crayfish-giant), [Giant Eel](#eel), [Otter, Giant](#otter-giant), [Large Crocodile](#crocodile), [Leech, Giant](#leech-giant), [Archelon](#archelon), [Dragon, Black](#dragon), [Aboleth](#aboleth)",
             "links": [
               {
-                "label": "Strangle Weed",
-                "anchor": "strangle-weed"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Searchers",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Groaning Spirit](#groaning-spirit)",
-            "links": [
-              {
-                "label": "Groaning Spirit",
-                "anchor": "groaning-spirit"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
+                "label": "Beaver, Giant",
+                "anchor": "beaver-giant"
+              },
               {
                 "label": "Beetle, Giant (Water)",
                 "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Elemental, Water](#elemental)",
-            "links": [
+              },
               {
-                "label": "Elemental, Water",
-                "anchor": "elemental"
-              }
-            ]
-          },
-          "Special": {
-            "raw": "[Water Weird](#water-weird)",
-            "links": [
+                "label": "Fish, Giant (Giant Piranha)",
+                "anchor": "fish-giant"
+              },
+              {
+                "label": "Pike, Giant",
+                "anchor": "pike-giant"
+              },
+              {
+                "label": "Strangle Weed",
+                "anchor": "strangle-weed"
+              },
               {
                 "label": "Water Weird",
                 "anchor": "water-weird"
+              },
+              {
+                "label": "Crayfish, Giant",
+                "anchor": "crayfish-giant"
+              },
+              {
+                "label": "Giant Eel",
+                "anchor": "eel"
+              },
+              {
+                "label": "Otter, Giant",
+                "anchor": "otter-giant"
+              },
+              {
+                "label": "Large Crocodile",
+                "anchor": "crocodile"
+              },
+              {
+                "label": "Leech, Giant",
+                "anchor": "leech-giant"
+              },
+              {
+                "label": "Archelon",
+                "anchor": "archelon"
+              },
+              {
+                "label": "Dragon, Black",
+                "anchor": "dragon"
+              },
+              {
+                "label": "Aboleth",
+                "anchor": "aboleth"
               }
             ]
           }
         },
         {
-          "1d20": {
-            "raw": "14",
+          "Level": {
+            "raw": "7",
             "links": []
-          },
-          "Airborne": {
-            "raw": "[Horned Devil (Malebranche)](#horned-devil-malebranche)",
-            "links": [
-              {
-                "label": "Horned Devil (Malebranche)",
-                "anchor": "horned-devil-malebranche"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Sea Snake](#snake)",
-            "links": [
-              {
-                "label": "Sea Snake",
-                "anchor": "snake"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Sea Dragons](#sea-dragons)",
-            "links": [
-              {
-                "label": "Sea Dragons",
-                "anchor": "sea-dragons"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
-              {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Men, Merchant](#men)",
-            "links": [
-              {
-                "label": "Men, Merchant",
-                "anchor": "men"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Lizard Man](#lizard-man)",
-            "links": [
-              {
-                "label": "Lizard Man",
-                "anchor": "lizard-man"
-              }
-            ]
           },
           "Monster": {
-            "raw": "[Strangle Weed](#strangle-weed)",
+            "raw": "[Crayfish, Giant](#crayfish-giant), [Giant Eel](#eel), [Otter, Giant](#otter-giant), [Large Crocodile](#crocodile), [Leech, Giant](#leech-giant), [Archelon](#archelon), [Dragon, Black](#dragon), [Aboleth](#aboleth), [Hippopotamus](#hippopotamus), [Fish, Giant (Giant Catfish)](#fish-giant)",
             "links": [
               {
-                "label": "Strangle Weed",
-                "anchor": "strangle-weed"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Searchers",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Revenant](#revenant)",
-            "links": [
+                "label": "Crayfish, Giant",
+                "anchor": "crayfish-giant"
+              },
               {
-                "label": "Revenant",
-                "anchor": "revenant"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
+                "label": "Giant Eel",
+                "anchor": "eel"
+              },
               {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Hippopotamus](#hippopotamus)",
-            "links": [
+                "label": "Otter, Giant",
+                "anchor": "otter-giant"
+              },
+              {
+                "label": "Large Crocodile",
+                "anchor": "crocodile"
+              },
+              {
+                "label": "Leech, Giant",
+                "anchor": "leech-giant"
+              },
+              {
+                "label": "Archelon",
+                "anchor": "archelon"
+              },
+              {
+                "label": "Dragon, Black",
+                "anchor": "dragon"
+              },
+              {
+                "label": "Aboleth",
+                "anchor": "aboleth"
+              },
               {
                 "label": "Hippopotamus",
                 "anchor": "hippopotamus"
-              }
-            ]
-          },
-          "Special": {
-            "raw": "[Water Weird](#water-weird)",
-            "links": [
-              {
-                "label": "Water Weird",
-                "anchor": "water-weird"
-              }
-            ]
-          }
-        },
-        {
-          "1d20": {
-            "raw": "15",
-            "links": []
-          },
-          "Airborne": {
-            "raw": "[Succubus](#succubus)",
-            "links": [
-              {
-                "label": "Succubus",
-                "anchor": "succubus"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Sea Snake](#snake)",
-            "links": [
-              {
-                "label": "Sea Snake",
-                "anchor": "snake"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Sea Dragons](#sea-dragons)",
-            "links": [
-              {
-                "label": "Sea Dragons",
-                "anchor": "sea-dragons"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
-              {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Normal Human](#normal-human)",
-            "links": [
-              {
-                "label": "Normal Human",
-                "anchor": "normal-human"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Lizard Man](#lizard-man)",
-            "links": [
-              {
-                "label": "Lizard Man",
-                "anchor": "lizard-man"
-              }
-            ]
-          },
-          "Monster": {
-            "raw": "[Strangle Weed](#strangle-weed)",
-            "links": [
-              {
-                "label": "Strangle Weed",
-                "anchor": "strangle-weed"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Searchers",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Death Knight](#death-knight)",
-            "links": [
-              {
-                "label": "Death Knight",
-                "anchor": "death-knight"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
-              {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Fish, Giant (Giant Catfish)](#fish-giant)",
-            "links": [
+              },
               {
                 "label": "Fish, Giant (Giant Catfish)",
                 "anchor": "fish-giant"
               }
             ]
-          },
-          "Special": {
-            "raw": "[Shadow Demon](#shadow-demon)",
-            "links": [
-              {
-                "label": "Shadow Demon",
-                "anchor": "shadow-demon"
-              }
-            ]
           }
         },
         {
-          "1d20": {
-            "raw": "16",
+          "Level": {
+            "raw": "8",
             "links": []
           },
-          "Airborne": {
-            "raw": "[Erinyes](#erinyes)",
+          "Monster": {
+            "raw": "[Large Crocodile](#crocodile), [Leech, Giant](#leech-giant), [Archelon](#archelon), [Dragon, Black](#dragon), [Aboleth](#aboleth), [Gar, Giant](#gar-giant), [Sea Dragons](#sea-dragons), [Fish, Giant (Giant Catfish)](#fish-giant), [Dinichthys](#dinichthys)",
             "links": [
               {
-                "label": "Erinyes",
-                "anchor": "erinyes"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Sea Snake](#snake)",
-            "links": [
+                "label": "Large Crocodile",
+                "anchor": "crocodile"
+              },
               {
-                "label": "Sea Snake",
-                "anchor": "snake"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Sea Dragons](#sea-dragons)",
-            "links": [
+                "label": "Leech, Giant",
+                "anchor": "leech-giant"
+              },
+              {
+                "label": "Archelon",
+                "anchor": "archelon"
+              },
+              {
+                "label": "Dragon, Black",
+                "anchor": "dragon"
+              },
+              {
+                "label": "Aboleth",
+                "anchor": "aboleth"
+              },
+              {
+                "label": "Gar, Giant",
+                "anchor": "gar-giant"
+              },
               {
                 "label": "Sea Dragons",
                 "anchor": "sea-dragons"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
+              },
               {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Trader](#trader)",
-            "links": [
-              {
-                "label": "Trader",
-                "anchor": "trader"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Lizard Man](#lizard-man)",
-            "links": [
-              {
-                "label": "Lizard Man",
-                "anchor": "lizard-man"
-              }
-            ]
-          },
-          "Monster": {
-            "raw": "[Strangle Weed](#strangle-weed)",
-            "links": [
-              {
-                "label": "Strangle Weed",
-                "anchor": "strangle-weed"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Searchers",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Skeleton Warrior](#skeleton-warrior)",
-            "links": [
-              {
-                "label": "Skeleton Warrior",
-                "anchor": "skeleton-warrior"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
-              {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Dinichthys](#dinichthys)",
-            "links": [
+                "label": "Fish, Giant (Giant Catfish)",
+                "anchor": "fish-giant"
+              },
               {
                 "label": "Dinichthys",
                 "anchor": "dinichthys"
               }
             ]
-          },
-          "Special": {
-            "raw": "[Barbed Devil](#barbed-devil)",
-            "links": [
-              {
-                "label": "Barbed Devil",
-                "anchor": "barbed-devil"
-              }
-            ]
           }
         },
         {
-          "1d20": {
-            "raw": "17",
+          "Level": {
+            "raw": "9",
             "links": []
           },
-          "Airborne": {
-            "raw": "[Type I Demon (Vrock)](#type-i-demon-vrock)",
+          "Monster": {
+            "raw": "[Archelon](#archelon), [Dragon, Black](#dragon), [Aboleth](#aboleth), [Elemental, Water](#elemental), [Hippopotamus](#hippopotamus), [Sea Dragons](#sea-dragons), [Fish, Giant (Giant Catfish)](#fish-giant), [Dinichthys](#dinichthys), [Turtle, Giant (Giant Snapping Turtle)](#turtle-giant), [Fish, Giant (Giant Sturgeon)](#fish-giant)",
             "links": [
               {
-                "label": "Type I Demon (Vrock)",
-                "anchor": "type-i-demon-vrock"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Sea Snake](#snake)",
-            "links": [
+                "label": "Archelon",
+                "anchor": "archelon"
+              },
               {
-                "label": "Sea Snake",
-                "anchor": "snake"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Sea Dragons](#sea-dragons)",
-            "links": [
+                "label": "Dragon, Black",
+                "anchor": "dragon"
+              },
+              {
+                "label": "Aboleth",
+                "anchor": "aboleth"
+              },
+              {
+                "label": "Elemental, Water",
+                "anchor": "elemental"
+              },
+              {
+                "label": "Hippopotamus",
+                "anchor": "hippopotamus"
+              },
               {
                 "label": "Sea Dragons",
                 "anchor": "sea-dragons"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
+              },
               {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Berserker](#berserker)",
-            "links": [
+                "label": "Fish, Giant (Giant Catfish)",
+                "anchor": "fish-giant"
+              },
               {
-                "label": "Berserker",
-                "anchor": "berserker"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Lizard Man](#lizard-man)",
-            "links": [
+                "label": "Dinichthys",
+                "anchor": "dinichthys"
+              },
               {
-                "label": "Lizard Man",
-                "anchor": "lizard-man"
-              }
-            ]
-          },
-          "Monster": {
-            "raw": "[Strangle Weed](#strangle-weed)",
-            "links": [
-              {
-                "label": "Strangle Weed",
-                "anchor": "strangle-weed"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "Survivors",
-            "links": []
-          },
-          "Undead": {
-            "raw": "[Vampire](#vampire)",
-            "links": [
-              {
-                "label": "Vampire",
-                "anchor": "vampire"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
-              {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Fish, Giant (Giant Sturgeon)](#fish-giant)",
-            "links": [
+                "label": "Turtle, Giant (Giant Snapping Turtle)",
+                "anchor": "turtle-giant"
+              },
               {
                 "label": "Fish, Giant (Giant Sturgeon)",
                 "anchor": "fish-giant"
               }
             ]
-          },
-          "Special": {
-            "raw": "[Type V Demon (Marilith)](#type-v-demon-marilith)",
-            "links": [
-              {
-                "label": "Type V Demon (Marilith)",
-                "anchor": "type-v-demon-marilith"
-              }
-            ]
           }
         },
         {
-          "1d20": {
-            "raw": "18",
+          "Level": {
+            "raw": "10",
             "links": []
           },
-          "Airborne": {
-            "raw": "[Type VI Demon (Balor)](#type-vi-demon-balor)",
-            "links": [
-              {
-                "label": "Type VI Demon (Balor)",
-                "anchor": "type-vi-demon-balor"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Leech, Giant](#leech-giant)",
-            "links": [
-              {
-                "label": "Leech, Giant",
-                "anchor": "leech-giant"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Dragon Turtle](#dragon-turtle)",
-            "links": [
-              {
-                "label": "Dragon Turtle",
-                "anchor": "dragon-turtle"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
-              {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Elf](#elf)",
-            "links": [
-              {
-                "label": "Elf",
-                "anchor": "elf"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Sahuagin](#sahuagin)",
-            "links": [
-              {
-                "label": "Sahuagin",
-                "anchor": "sahuagin"
-              }
-            ]
-          },
           "Monster": {
-            "raw": "[Hydra](#hydra)",
+            "raw": "[Aboleth](#aboleth), [Elemental, Water](#elemental), [Gar, Giant](#gar-giant), [Hippopotamus](#hippopotamus), [Sea Dragons](#sea-dragons), [Water Naga](#naga), [Fish, Giant (Giant Catfish)](#fish-giant), [Dinichthys](#dinichthys), [Turtle, Giant (Giant Snapping Turtle)](#turtle-giant), [Fish, Giant (Giant Sturgeon)](#fish-giant), [Wereshark](#wereshark), [Hydra](#hydra)",
             "links": [
               {
-                "label": "Hydra",
-                "anchor": "hydra"
-              }
-            ]
-          },
-          "NPC": {
-            "raw": "[Wolf](#wolf)",
-            "links": [
+                "label": "Aboleth",
+                "anchor": "aboleth"
+              },
               {
-                "label": "Wolf",
-                "anchor": "wolf"
-              }
-            ]
-          },
-          "Undead": {
-            "raw": "[Ghost](#ghost)",
-            "links": [
+                "label": "Elemental, Water",
+                "anchor": "elemental"
+              },
               {
-                "label": "Ghost",
-                "anchor": "ghost"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
+                "label": "Gar, Giant",
+                "anchor": "gar-giant"
+              },
               {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Wereshark](#wereshark)",
-            "links": [
+                "label": "Hippopotamus",
+                "anchor": "hippopotamus"
+              },
+              {
+                "label": "Sea Dragons",
+                "anchor": "sea-dragons"
+              },
+              {
+                "label": "Water Naga",
+                "anchor": "naga"
+              },
+              {
+                "label": "Fish, Giant (Giant Catfish)",
+                "anchor": "fish-giant"
+              },
+              {
+                "label": "Dinichthys",
+                "anchor": "dinichthys"
+              },
+              {
+                "label": "Turtle, Giant (Giant Snapping Turtle)",
+                "anchor": "turtle-giant"
+              },
+              {
+                "label": "Fish, Giant (Giant Sturgeon)",
+                "anchor": "fish-giant"
+              },
               {
                 "label": "Wereshark",
                 "anchor": "wereshark"
-              }
-            ]
-          },
-          "Special": {
-            "raw": "[Bone Devil](#bone-devil)",
-            "links": [
-              {
-                "label": "Bone Devil",
-                "anchor": "bone-devil"
-              }
-            ]
-          }
-        },
-        {
-          "1d20": {
-            "raw": "19",
-            "links": []
-          },
-          "Airborne": {
-            "raw": "[Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee)",
-            "links": [
-              {
-                "label": "Type IV Demon (Nalfeshnee)",
-                "anchor": "type-iv-demon-nalfeshnee"
-              }
-            ]
-          },
-          "Animal": {
-            "raw": "[Leech, Giant](#leech-giant)",
-            "links": [
-              {
-                "label": "Leech, Giant",
-                "anchor": "leech-giant"
-              }
-            ]
-          },
-          "Dragon": {
-            "raw": "[Dragon Turtle](#dragon-turtle)",
-            "links": [
-              {
-                "label": "Dragon Turtle",
-                "anchor": "dragon-turtle"
-              }
-            ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
-              {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Noble](#noble)",
-            "links": [
-              {
-                "label": "Noble",
-                "anchor": "noble"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Sahuagin](#sahuagin)",
-            "links": [
-              {
-                "label": "Sahuagin",
-                "anchor": "sahuagin"
-              }
-            ]
-          },
-          "Monster": {
-            "raw": "[Hydra](#hydra)",
-            "links": [
+              },
               {
                 "label": "Hydra",
                 "anchor": "hydra"
               }
             ]
+          }
+        },
+        {
+          "Level": {
+            "raw": "11",
+            "links": []
           },
-          "NPC": {
-            "raw": "[Wolf](#wolf)",
+          "Monster": {
+            "raw": "[Fish, Giant (Giant Catfish)](#fish-giant), [Dinichthys](#dinichthys), [Turtle, Giant (Giant Snapping Turtle)](#turtle-giant), [Fish, Giant (Giant Sturgeon)](#fish-giant), [Wereshark](#wereshark), [Hydra](#hydra), [Mosasaurus](#mosasaurus)",
             "links": [
               {
-                "label": "Wolf",
-                "anchor": "wolf"
+                "label": "Fish, Giant (Giant Catfish)",
+                "anchor": "fish-giant"
+              },
+              {
+                "label": "Dinichthys",
+                "anchor": "dinichthys"
+              },
+              {
+                "label": "Turtle, Giant (Giant Snapping Turtle)",
+                "anchor": "turtle-giant"
+              },
+              {
+                "label": "Fish, Giant (Giant Sturgeon)",
+                "anchor": "fish-giant"
+              },
+              {
+                "label": "Wereshark",
+                "anchor": "wereshark"
+              },
+              {
+                "label": "Hydra",
+                "anchor": "hydra"
+              },
+              {
+                "label": "Mosasaurus",
+                "anchor": "mosasaurus"
               }
             ]
+          }
+        },
+        {
+          "Level": {
+            "raw": "12",
+            "links": []
           },
-          "Undead": {
-            "raw": "[Lich](#lich)",
+          "Monster": {
+            "raw": "[Dinichthys](#dinichthys), [Turtle, Giant (Giant Snapping Turtle)](#turtle-giant), [Fish, Giant (Giant Sturgeon)](#fish-giant), [Wereshark](#wereshark), [Hydra](#hydra), [Mosasaurus](#mosasaurus)",
             "links": [
               {
-                "label": "Lich",
-                "anchor": "lich"
+                "label": "Dinichthys",
+                "anchor": "dinichthys"
+              },
+              {
+                "label": "Turtle, Giant (Giant Snapping Turtle)",
+                "anchor": "turtle-giant"
+              },
+              {
+                "label": "Fish, Giant (Giant Sturgeon)",
+                "anchor": "fish-giant"
+              },
+              {
+                "label": "Wereshark",
+                "anchor": "wereshark"
+              },
+              {
+                "label": "Hydra",
+                "anchor": "hydra"
+              },
+              {
+                "label": "Mosasaurus",
+                "anchor": "mosasaurus"
               }
             ]
+          }
+        },
+        {
+          "Level": {
+            "raw": "13",
+            "links": []
           },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
+          "Monster": {
+            "raw": "[Fish, Giant (Giant Sturgeon)](#fish-giant), [Wereshark](#wereshark), [Hydra](#hydra), [Mosasaurus](#mosasaurus), [Elasmosaurus](#elasmosaurus)",
             "links": [
               {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Elasmosaurus](#elasmosaurus)",
-            "links": [
+                "label": "Fish, Giant (Giant Sturgeon)",
+                "anchor": "fish-giant"
+              },
+              {
+                "label": "Wereshark",
+                "anchor": "wereshark"
+              },
+              {
+                "label": "Hydra",
+                "anchor": "hydra"
+              },
+              {
+                "label": "Mosasaurus",
+                "anchor": "mosasaurus"
+              },
               {
                 "label": "Elasmosaurus",
                 "anchor": "elasmosaurus"
               }
             ]
+          }
+        },
+        {
+          "Level": {
+            "raw": "14",
+            "links": []
           },
-          "Special": {
-            "raw": "[Type III Demon (Glabrezu)](#type-iii-demon-glabrezu)",
+          "Monster": {
+            "raw": "[Hydra](#hydra), [Mosasaurus](#mosasaurus), [Elasmosaurus](#elasmosaurus), [Giant Crocodile](#crocodile)",
             "links": [
               {
-                "label": "Type III Demon (Glabrezu)",
-                "anchor": "type-iii-demon-glabrezu"
+                "label": "Hydra",
+                "anchor": "hydra"
+              },
+              {
+                "label": "Mosasaurus",
+                "anchor": "mosasaurus"
+              },
+              {
+                "label": "Elasmosaurus",
+                "anchor": "elasmosaurus"
+              },
+              {
+                "label": "Giant Crocodile",
+                "anchor": "crocodile"
               }
             ]
           }
         },
         {
-          "1d20": {
-            "raw": "20",
+          "Level": {
+            "raw": "15",
             "links": []
           },
-          "Airborne": {
-            "raw": "[Pit Fiend](#pit-fiend)",
+          "Monster": {
+            "raw": "[Elasmosaurus](#elasmosaurus), [Giant Crocodile](#crocodile)",
             "links": [
               {
-                "label": "Pit Fiend",
-                "anchor": "pit-fiend"
+                "label": "Elasmosaurus",
+                "anchor": "elasmosaurus"
+              },
+              {
+                "label": "Giant Crocodile",
+                "anchor": "crocodile"
               }
             ]
+          }
+        },
+        {
+          "Level": {
+            "raw": "16",
+            "links": []
           },
-          "Animal": {
-            "raw": "[Gar, Giant](#gar-giant)",
+          "Monster": {
+            "raw": "[Elasmosaurus](#elasmosaurus), [Giant Crocodile](#crocodile)",
             "links": [
               {
-                "label": "Gar, Giant",
-                "anchor": "gar-giant"
+                "label": "Elasmosaurus",
+                "anchor": "elasmosaurus"
+              },
+              {
+                "label": "Giant Crocodile",
+                "anchor": "crocodile"
               }
             ]
+          }
+        },
+        {
+          "Level": {
+            "raw": "17",
+            "links": []
           },
-          "Dragon": {
+          "Monster": {
+            "raw": "[Elasmosaurus](#elasmosaurus), [Giant Crocodile](#crocodile)",
+            "links": [
+              {
+                "label": "Elasmosaurus",
+                "anchor": "elasmosaurus"
+              },
+              {
+                "label": "Giant Crocodile",
+                "anchor": "crocodile"
+              }
+            ]
+          }
+        },
+        {
+          "Level": {
+            "raw": "18",
+            "links": []
+          },
+          "Monster": {
             "raw": "[Dragon Turtle](#dragon-turtle)",
             "links": [
               {
@@ -2904,85 +1553,42 @@
                 "anchor": "dragon-turtle"
               }
             ]
-          },
-          "Giant": {
-            "raw": "[Storm Giant](#giant)",
-            "links": [
-              {
-                "label": "Storm Giant",
-                "anchor": "giant"
-              }
-            ]
-          },
-          "Human": {
-            "raw": "[Veteran](#veteran)",
-            "links": [
-              {
-                "label": "Veteran",
-                "anchor": "veteran"
-              }
-            ]
-          },
-          "Humanoid": {
-            "raw": "[Triton](#triton)",
-            "links": [
-              {
-                "label": "Triton",
-                "anchor": "triton"
-              }
-            ]
+          }
+        },
+        {
+          "Level": {
+            "raw": "19",
+            "links": []
           },
           "Monster": {
-            "raw": "[Hydra](#hydra)",
+            "raw": "[Dragon Turtle](#dragon-turtle), [Plesiosaurus](#plesiosaurus)",
             "links": [
               {
-                "label": "Hydra",
-                "anchor": "hydra"
+                "label": "Dragon Turtle",
+                "anchor": "dragon-turtle"
+              },
+              {
+                "label": "Plesiosaurus",
+                "anchor": "plesiosaurus"
               }
             ]
+          }
+        },
+        {
+          "Level": {
+            "raw": "20",
+            "links": []
           },
-          "NPC": {
-            "raw": "[Wolf](#wolf)",
+          "Monster": {
+            "raw": "[Dragon Turtle](#dragon-turtle), [Plesiosaurus](#plesiosaurus)",
             "links": [
               {
-                "label": "Wolf",
-                "anchor": "wolf"
-              }
-            ]
-          },
-          "Undead": {
-            "raw": "[Demilich](#demilich)",
-            "links": [
+                "label": "Dragon Turtle",
+                "anchor": "dragon-turtle"
+              },
               {
-                "label": "Demilich",
-                "anchor": "demilich"
-              }
-            ]
-          },
-          "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
-            "links": [
-              {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
-              }
-            ]
-          },
-          "Water": {
-            "raw": "[Giant Crocodile](#crocodile)",
-            "links": [
-              {
-                "label": "Giant Crocodile",
-                "anchor": "crocodile"
-              }
-            ]
-          },
-          "Special": {
-            "raw": "[Ice Devil](#ice-devil)",
-            "links": [
-              {
-                "label": "Ice Devil",
-                "anchor": "ice-devil"
+                "label": "Plesiosaurus",
+                "anchor": "plesiosaurus"
               }
             ]
           }

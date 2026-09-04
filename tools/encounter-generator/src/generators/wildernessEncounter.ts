@@ -57,19 +57,103 @@ export interface WildernessEncounterResult {
   npcParty: ReturnType<typeof rollNpcParty> | null;
   dinosaur: { subCategory: string; era: string } | null;
   choiceNote?: string;
-  /** The party-level band this result is actually appropriate for, when it exceeds the party's
-   * current band (see src/lib/powerLevel.ts) — e.g. Dragon/Giant categories are gated by how
-   * rarely they're rolled at all, not by row, so this can still fire even on a "clean" roll. */
+  /** Legacy (not-yet-converted) terrains only: the party-level band this result is actually
+   * appropriate for, when it exceeds the party's current band (see src/lib/powerLevel.ts). Always
+   * null on a redesigned (Level | Monster) terrain — see borrowedFromLevel instead. */
   outOfPlace: PartyLevelBand | null;
+  /** Redesigned terrains only: set when the cell's candidate pool was empty at the exact party
+   * level and the generator borrowed from the nearest non-empty level(s) instead (e.g. "12" or
+   * "8/9/10") — a structural fact baked in at generation time, not a re-derived heuristic. Always
+   * null on a legacy terrain. */
+  borrowedFromLevel: string | null;
 }
 
-export function rollWildernessEncounter(terrain: string, partyLevel: PartyLevelBand, airborne = false): WildernessEncounterResult {
-  const category = airborne ? "Airborne" : resolveCategory(terrain);
+// Redesigned terrains (see the "Redesign Appendix D" plan) use a 2-column `Level | Monster`
+// table — the party's literal level (1-20) IS the row key, no category/die roll needed to pick
+// the monster. Terrains not yet converted keep the original 12-category, d%-then-die-roll shape.
+// Both are driven by the same `partyLevel: number` so the UI doesn't need to know which shape a
+// given terrain uses.
+function isNewShapeTable(table: Table): boolean {
+  return table.headers[0] === "Level" && table.headers[1] === "Monster";
+}
+
+function bandForWildernessLevel(level: number): PartyLevelBand {
+  if (level <= 3) return "1-3";
+  if (level <= 6) return "4-6";
+  return "7+";
+}
+
+const BORROW_RE = /\*\(as Level ([\d/]+)\)\*/;
+
+export function rollWildernessEncounter(terrain: string, partyLevel: number, airborne = false): WildernessEncounterResult {
   const terrainTable = WILD.terrains[terrain];
+  return isNewShapeTable(terrainTable)
+    ? rollFromLevelPool(terrain, terrainTable, partyLevel, airborne)
+    : rollFromCategoryTable(terrain, terrainTable, bandForWildernessLevel(partyLevel), airborne);
+}
+
+/** New shape: row = party level directly, cell holds a pre-weighted candidate pool (see
+ * generate-appendix-d-tables.mjs) rendered as a plain link list plus an optional
+ * `*(as Level N[/M...])*` suffix when the generator had to borrow from nearby levels. */
+function rollFromLevelPool(terrain: string, table: Table, partyLevel: number, airborne: boolean): WildernessEncounterResult {
+  const row = table.rows.find((r) => cellText(r.Level) === String(partyLevel));
+  if (!row) throw new Error(`no ${terrain} row for level ${partyLevel}`);
+  const cell = row.Monster;
+  const resultRaw = cellText(cell);
+  const borrowedFromLevel = resultRaw.match(BORROW_RE)?.[1] ?? null;
+
+  let candidates = cell.links;
+  let choiceNote: string | undefined;
+  if (airborne) {
+    const flying = candidates.filter((l) => {
+      const resolved = resolveMonsterLink(l.label, l.anchor);
+      return !!(resolved?.stats.Fly || resolved?.stats.Flying);
+    });
+    if (flying.length > 0) {
+      candidates = flying;
+    } else {
+      choiceNote = "no flying candidate at this level for this terrain — rolled from the full pool instead";
+    }
+  }
+
+  let monster: ResolvedMonster | null = null;
+  if (candidates.length > 0) {
+    const chosen = pick(candidates);
+    const preferKeyword = WATER_TERRAINS.has(terrain) ? "water" : undefined;
+    monster = resolveMonsterLink(chosen.label, chosen.anchor, { preferKeyword });
+    choiceNote ??= `picked at random among ${candidates.length} option(s) -> ${chosen.label}`;
+  }
+
+  let count: number | null = null;
+  if (monster) {
+    const appearing = parseNumberAppearing(monster.stats["No. Appearing"] ?? "1");
+    count = rollAppearing(appearing.wilderness);
+  }
+
+  return {
+    terrain,
+    category: "—",
+    levelRoll: partyLevel,
+    resultRaw,
+    monster,
+    count,
+    npcParty: null,
+    dinosaur: null,
+    choiceNote,
+    outOfPlace: null,
+    borrowedFromLevel,
+  };
+}
+
+/** Legacy shape: d% category roll against the Terrain Category Summary, then a level-scaled die
+ * (1d8/1d14/1d20) against that terrain's 20-row table. Kept for every terrain not yet converted
+ * to the new level-pool format. */
+function rollFromCategoryTable(terrain: string, terrainTable: Table, band: PartyLevelBand, airborne: boolean): WildernessEncounterResult {
+  const category = airborne ? "Airborne" : resolveCategory(terrain);
   const categoryIdx = CATEGORY_ORDER.indexOf(category);
   const columnHeader = terrainTable.headers[1 + categoryIdx]; // headers[0] is the roll column
 
-  const levelRoll = rollDie(levelDie(partyLevel));
+  const levelRoll = rollDie(levelDie(band));
   const row = findRowByRoll(terrainTable.rows, terrainTable.headers[0], levelRoll);
   if (!row) throw new Error(`no ${terrain} row for roll ${levelRoll}`);
 
@@ -109,9 +193,9 @@ export function rollWildernessEncounter(terrain: string, partyLevel: PartyLevelB
     count = rollAppearing(appearing.wilderness);
   }
 
-  const outOfPlace = monster ? checkPowerMismatch(monster.stats["Hit Dice"], partyLevel) : null;
+  const outOfPlace = monster ? checkPowerMismatch(monster.stats["Hit Dice"], band) : null;
 
-  return { terrain, category, levelRoll, resultRaw, monster, count, npcParty, dinosaur, choiceNote, outOfPlace };
+  return { terrain, category, levelRoll, resultRaw, monster, count, npcParty, dinosaur, choiceNote, outOfPlace, borrowedFromLevel: null };
 }
 
 function resolveCategory(terrain: string): string {
