@@ -155,16 +155,26 @@ for (const [location, keys] of LOCATION_TAGS) {
 // ("large # of level 3, many level 4, a few level 5, 1-2 level 6, 1 level 7" for a level-5 party).
 // ---------------------------------------------------------------------------
 
-// Per-offset distinct-candidate cap, taken literally from the user's own framing for a level-5
-// party: "large # of level 3, many level 4, a few level 5, 1-2 level 6, 1 level 7". This does
-// double duty as both the weighting mechanism (more distinct options shown below party level ->
-// proportionally more likely to be the uniform-random pick) and the cell-size cap — some tag
-// lists (Hills, Forest) are large enough that an uncapped 5-level window pulls in 80+ distinct
-// monsters, which is unprintable. When more candidates exist than the cap at a given offset, take
-// a deterministic evenly-spaced sample (alphabetical by label) so regeneration is reproducible —
-// re-running the generator after an unrelated Appendix C edit shouldn't reshuffle every cell that
-// wasn't actually affected.
-const OFFSET_CAP = { "-2": 6, "-1": 4, "0": 3, "1": 2, "2": 1 };
+// Per-offset distinct-candidate cap — shapes the pool the way the user described for a level-5
+// party ("large # of level 3, many level 4, a few level 5, 1-2 level 6, 1 level 7"), but sized
+// from the book's actual data rather than the small numbers that phrase suggests literally: a
+// calibration pass found every terrain's per-offset overlap count (Appendix C candidates tagged
+// to that terrain AND landing in a given level offset), and a cap of 3 at offset 0 was cutting
+// content that has nowhere else to appear — e.g. Lost World's Level 20 tier has 7 real candidates
+// (including Tyrannosaurus Rex and Brachiosaurus, both permanently capped at Level 20 by the HD
+// formula), and a cap of 3 meant those two could never be rolled for Lost World at all, at any
+// party level. These caps are set well above every "normal" terrain's worst-case count (see the
+// calibration query in this script's history) so a modestly-sized tag list never silently loses
+// an entry; only the handful of terrains with genuinely huge, generic rosters (Hills, Forest,
+// Rural, Castle, Mountains — each has 80+ tagged monsters overall) still get meaningfully thinned,
+// which is an acceptable tradeoff for those since no single entry there is as narratively load-
+// bearing as Lost World's dinosaurs. The +1/+2 tiers stay tight on purpose — the book's own design
+// intent is that a rare, above-level threat should stay rare — losing excess there is the point,
+// not a bug. When more candidates exist than the cap at a given offset, take a deterministic
+// evenly-spaced sample (alphabetical by label) so regeneration is reproducible — re-running the
+// generator after an unrelated Appendix C edit shouldn't reshuffle every cell that wasn't
+// actually affected.
+const OFFSET_CAP = { "-2": 10, "-1": 10, "0": 10, "1": 5, "2": 3 };
 
 function candidatesInWindow(location, partyLevel) {
   const tags = LOCATION_TAGS.get(location);

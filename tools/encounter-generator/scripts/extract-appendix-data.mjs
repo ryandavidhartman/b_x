@@ -25,7 +25,6 @@ const doc = makeMarkdownDoc(lines);
 const {
   headings,
   headingIndexByText,
-  sectionEndLine,
   isPipeLine,
   isSeparatorRow,
   splitRow,
@@ -181,18 +180,21 @@ const hexCrawl = (() => {
 // Appendix C: Wilderness Encounters
 // ---------------------------------------------------------------------------
 
-const wildernessEncounterLevel = firstTable("Wilderness Encounter Level", 4, RANDOM_ENCOUNTERS_START);
 const becomingLost = firstTable("Becoming Lost", 4, RANDOM_ENCOUNTERS_START);
 const terrainNameCrossReference = firstTable("Terrain Name Cross-Reference", 4, RANDOM_ENCOUNTERS_START);
 const encounterFrequency = firstTable("Encounter Frequency", 3, RANDOM_ENCOUNTERS_START);
 const encounterPurpose = firstTable("Encounter Purpose", 3, RANDOM_ENCOUNTERS_START);
 
-const terrainCategorySummary = (() => {
-  const { blocks } = tableBlocksInSection("Terrain Category Summary (d%)", 4, RANDOM_ENCOUNTERS_START);
-  const [firstHalf, secondHalf] = blocks.map(blockToRows);
-  // Merge on the shared "Terrain" row key.
-  const rows = firstHalf.rows.map((row, i) => ({ ...row, ...(secondHalf?.rows[i] ?? {}) }));
-  return { headers: [...(firstHalf?.headers ?? []), ...(secondHalf?.headers ?? []).filter((h) => h !== "Terrain")], rows };
+// Lone NPC Encounters: a per-terrain d% chance the encounter is a narrative NPC archetype
+// (Decoys/Escapees/etc.) instead of a monster, checked before rolling on the terrain's own table
+// — two small tables under one heading (chance-by-terrain, then which-archetype).
+const loneNpcEncounters = (() => {
+  const { blocks } = tableBlocksInSection("Lone NPC Encounters", 4, RANDOM_ENCOUNTERS_START);
+  const [chanceBlock, archetypeBlock] = blocks;
+  return {
+    chanceByTerrain: chanceBlock ? blockToRows(chanceBlock) : { headers: [], rows: [] },
+    archetypeRoll: archetypeBlock ? blockToRows(archetypeBlock) : { headers: [], rows: [] },
+  };
 })();
 
 const TERRAIN_NAMES = [
@@ -217,19 +219,6 @@ for (const name of TERRAIN_NAMES) {
   };
 }
 
-// Dinosaur sub-table: main d8 table + every level-5 heading nested under it (d6-with-Era tables).
-const dinosaurSubtable = (() => {
-  const main = firstTable("Dinosaur Sub-table", 4, RANDOM_ENCOUNTERS_START);
-  const hIdx = headingIndexByText("Dinosaur Sub-table", 4, RANDOM_ENCOUNTERS_START);
-  const end = sectionEndLine(hIdx);
-  const subTables = {};
-  for (let j = hIdx + 1; j < headings.length && headings[j].line < end; j++) {
-    if (headings[j].level !== 5) continue;
-    subTables[headings[j].text] = firstTable(headings[j].text, 5, headings[j].line);
-  }
-  return { main, subTables };
-})();
-
 const castleEncounters = firstTable("Castle Encounters", 4, RANDOM_ENCOUNTERS_START);
 
 // ---------------------------------------------------------------------------
@@ -252,13 +241,11 @@ write("npcParties", {
 write("urbanEncounters", urbanEncounters);
 write("hexCrawl", hexCrawl);
 write("wildernessTerrain", {
-  categorySummary: terrainCategorySummary,
   terrains,
-  encounterLevel: wildernessEncounterLevel,
+  loneNpcEncounters,
   becomingLost,
   terrainNameCrossReference,
 });
-write("dinosaurSubtable", dinosaurSubtable);
 write("castleEncounters", castleEncounters);
 write("encounterMeta", { frequency: encounterFrequency, purpose: encounterPurpose });
 
@@ -278,7 +265,7 @@ function collectLinks(node, out) {
 }
 
 const allLinks = [];
-collectLinks({ dungeonLevels, terrains, hexCrawl, dinosaurSubtable, castleEncounters, urbanEncounters }, allLinks);
+collectLinks({ dungeonLevels, terrains, hexCrawl, castleEncounters, urbanEncounters }, allLinks);
 
 // Matches the runtime resolver in src/lib/resolveMonster.ts. A label with no hint beyond the
 // compound heading's own name (plain "Elemental", or "Lizards, Giant" where the heading itself

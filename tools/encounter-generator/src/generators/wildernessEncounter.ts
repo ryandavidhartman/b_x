@@ -1,30 +1,24 @@
-// Appendix D, "Wilderness Encounters": terrain -> d% category -> a level-scaled die against that
-// terrain's table -> monster, with its number pulled from the monster's own wilderness (lair)
-// No. Appearing figure rather than a table column. Also Becoming Lost, Foraging, and Castle
+// Appendix D, "Wilderness Encounters": terrain + party level index straight into that terrain's
+// table (see generate-appendix-d-tables.mjs, sourced from Appendix C) for a pre-weighted monster
+// pool — no category roll or level-scaled die. A per-terrain Lone NPC Encounters check runs first,
+// per the book's own procedure. Number appearing is pulled from the monster's own wilderness
+// (lair) No. Appearing figure rather than a table column. Also Becoming Lost, Foraging, and Castle
 // Encounters — small book sub-procedures of wilderness travel, not separate settings.
 import wildernessData from "../data/generated/wildernessTerrain.json";
 import castleData from "../data/generated/castleEncounters.json";
-import dinosaurData from "../data/generated/dinosaurSubtable.json";
 import type { Table } from "../data/generated/types";
 import { rollDie, pick } from "../lib/dice";
-import { findRowByRoll, cellText } from "../lib/rangeTable";
+import { findRowByRoll, cellText, inRange } from "../lib/rangeTable";
 import { resolveMonsterLink, type ResolvedMonster } from "../lib/resolveMonster";
 import { parseNumberAppearing, rollAppearing } from "../lib/numberAppearing";
-import { pickLinkFromCell } from "../lib/cellChoice";
-import { checkPowerMismatch, type PartyLevelBand } from "../lib/powerLevel";
-import { rollNpcParty, type Archetype } from "./npcParty";
-
-export type { PartyLevelBand };
 
 const WILD = wildernessData as unknown as {
-  categorySummary: Table;
   terrains: Record<string, Table>;
-  encounterLevel: Table;
+  loneNpcEncounters: { chanceByTerrain: Table; archetypeRoll: Table };
   becomingLost: Table;
   terrainNameCrossReference: Table;
 };
 const CASTLE = castleData as unknown as Table;
-const DINOSAUR = dinosaurData as unknown as { main: Table; subTables: Record<string, Table> };
 
 export const TERRAIN_NAMES = Object.keys(WILD.terrains);
 
@@ -36,66 +30,45 @@ export const TERRAIN_NAMES = Object.keys(WILD.terrains);
 // sensible reading; every other terrain keeps the unbiased random pick.
 const WATER_TERRAINS = new Set(["Aquatic", "Marine", "Wetlands"]);
 
-const CATEGORY_ORDER = [
-  "Airborne", "Animal", "Dragon", "Giant", "Human/Demi-Human", "Humanoid",
-  "Monster", "NPC", "Undead", "Invertebrates", "Water", "Special",
-];
+export interface LoneNpcResult {
+  roll: number;
+  archetype: string;
+}
 
-function levelDie(band: PartyLevelBand): number {
-  if (band === "1-3") return 8;
-  if (band === "4-6") return 14;
-  return 20;
+/** Lone NPC Encounters (see the book) — checked before the monster table, per terrain. */
+function checkLoneNpc(terrain: string): LoneNpcResult | null {
+  const row = WILD.loneNpcEncounters.chanceByTerrain.rows.find((r) => cellText(r.Terrain) === terrain);
+  if (!row) return null;
+  const roll = rollDie(100);
+  if (!inRange(roll, cellText(row["Chance (d%)"]), { percentile: true })) return null;
+  const archRoll = rollDie(8);
+  const archRow = findRowByRoll(WILD.loneNpcEncounters.archetypeRoll.rows, "1d8", archRoll);
+  return { roll, archetype: cellText(archRow?.Archetype) };
 }
 
 export interface WildernessEncounterResult {
   terrain: string;
-  category: string;
   levelRoll: number;
   resultRaw: string;
   monster: ResolvedMonster | null;
   count: number | null;
-  npcParty: ReturnType<typeof rollNpcParty> | null;
-  dinosaur: { subCategory: string; era: string } | null;
+  loneNpc: LoneNpcResult | null;
   choiceNote?: string;
-  /** Legacy (not-yet-converted) terrains only: the party-level band this result is actually
-   * appropriate for, when it exceeds the party's current band (see src/lib/powerLevel.ts). Always
-   * null on a redesigned (Level | Monster) terrain — see borrowedFromLevel instead. */
-  outOfPlace: PartyLevelBand | null;
-  /** Redesigned terrains only: set when the cell's candidate pool was empty at the exact party
-   * level and the generator borrowed from the nearest non-empty level(s) instead (e.g. "12" or
-   * "8/9/10") — a structural fact baked in at generation time, not a re-derived heuristic. Always
-   * null on a legacy terrain. */
+  /** Set when the cell's candidate pool was empty at the exact party level and the generator
+   * borrowed from the nearest non-empty level(s) instead (e.g. "12" or "8/9/10") — a structural
+   * fact baked in at generation time, not a re-derived heuristic. */
   borrowedFromLevel: string | null;
-}
-
-// Redesigned terrains (see the "Redesign Appendix D" plan) use a 2-column `Level | Monster`
-// table — the party's literal level (1-20) IS the row key, no category/die roll needed to pick
-// the monster. Terrains not yet converted keep the original 12-category, d%-then-die-roll shape.
-// Both are driven by the same `partyLevel: number` so the UI doesn't need to know which shape a
-// given terrain uses.
-function isNewShapeTable(table: Table): boolean {
-  return table.headers[0] === "Level" && table.headers[1] === "Monster";
-}
-
-function bandForWildernessLevel(level: number): PartyLevelBand {
-  if (level <= 3) return "1-3";
-  if (level <= 6) return "4-6";
-  return "7+";
 }
 
 const BORROW_RE = /\*\(as Level ([\d/]+)\)\*/;
 
 export function rollWildernessEncounter(terrain: string, partyLevel: number, airborne = false): WildernessEncounterResult {
-  const terrainTable = WILD.terrains[terrain];
-  return isNewShapeTable(terrainTable)
-    ? rollFromLevelPool(terrain, terrainTable, partyLevel, airborne)
-    : rollFromCategoryTable(terrain, terrainTable, bandForWildernessLevel(partyLevel), airborne);
-}
+  const loneNpc = checkLoneNpc(terrain);
+  if (loneNpc) {
+    return { terrain, levelRoll: partyLevel, resultRaw: loneNpc.archetype, monster: null, count: null, loneNpc, borrowedFromLevel: null };
+  }
 
-/** New shape: row = party level directly, cell holds a pre-weighted candidate pool (see
- * generate-appendix-d-tables.mjs) rendered as a plain link list plus an optional
- * `*(as Level N[/M...])*` suffix when the generator had to borrow from nearby levels. */
-function rollFromLevelPool(terrain: string, table: Table, partyLevel: number, airborne: boolean): WildernessEncounterResult {
+  const table = WILD.terrains[terrain];
   const row = table.rows.find((r) => cellText(r.Level) === String(partyLevel));
   if (!row) throw new Error(`no ${terrain} row for level ${partyLevel}`);
   const cell = row.Monster;
@@ -130,82 +103,7 @@ function rollFromLevelPool(terrain: string, table: Table, partyLevel: number, ai
     count = rollAppearing(appearing.wilderness);
   }
 
-  return {
-    terrain,
-    category: "—",
-    levelRoll: partyLevel,
-    resultRaw,
-    monster,
-    count,
-    npcParty: null,
-    dinosaur: null,
-    choiceNote,
-    outOfPlace: null,
-    borrowedFromLevel,
-  };
-}
-
-/** Legacy shape: d% category roll against the Terrain Category Summary, then a level-scaled die
- * (1d8/1d14/1d20) against that terrain's 20-row table. Kept for every terrain not yet converted
- * to the new level-pool format. */
-function rollFromCategoryTable(terrain: string, terrainTable: Table, band: PartyLevelBand, airborne: boolean): WildernessEncounterResult {
-  const category = airborne ? "Airborne" : resolveCategory(terrain);
-  const categoryIdx = CATEGORY_ORDER.indexOf(category);
-  const columnHeader = terrainTable.headers[1 + categoryIdx]; // headers[0] is the roll column
-
-  const levelRoll = rollDie(levelDie(band));
-  const row = findRowByRoll(terrainTable.rows, terrainTable.headers[0], levelRoll);
-  if (!row) throw new Error(`no ${terrain} row for roll ${levelRoll}`);
-
-  const cell = row[columnHeader];
-  const resultRaw = cellText(cell);
-
-  let monster: ResolvedMonster | null = null;
-  let count: number | null = null;
-  let npcParty: ReturnType<typeof rollNpcParty> | null = null;
-  let dinosaur: { subCategory: string; era: string } | null = null;
-  let choiceNote: string | undefined;
-
-  if (resultRaw.startsWith("NPC Party")) {
-    npcParty = rollNpcParty(pick<Archetype>(["Basic Adventurers", "Expert Adventurers", "High-Level Cleric", "High-Level Fighter", "High-Level Magic-User"]), { inWilderness: true });
-  } else if (resultRaw.startsWith("Dinosaur")) {
-    const mainRoll = rollDie(8);
-    const mainRow = findRowByRoll(DINOSAUR.main.rows, "1d8", mainRoll);
-    const subCategory = cellText(mainRow?.Result);
-    const subTable = DINOSAUR.subTables[subCategory];
-    if (subTable) {
-      const subRow = pick(subTable.rows);
-      const link = subRow.Result.links[0];
-      if (link) monster = resolveMonsterLink(link.label, link.anchor);
-      dinosaur = { subCategory, era: cellText(subRow.Era) };
-    }
-  } else if (cell.links.length > 0) {
-    const choice = pickLinkFromCell(cell);
-    choiceNote = choice.note;
-    if (choice.chosenLink) {
-      const preferKeyword = WATER_TERRAINS.has(terrain) ? "water" : undefined;
-      monster = resolveMonsterLink(choice.chosenLink.label, choice.chosenLink.anchor, { preferKeyword });
-    }
-  }
-
-  if (monster) {
-    const appearing = parseNumberAppearing(monster.stats["No. Appearing"] ?? "1");
-    count = rollAppearing(appearing.wilderness);
-  }
-
-  const outOfPlace = monster ? checkPowerMismatch(monster.stats["Hit Dice"], band) : null;
-
-  return { terrain, category, levelRoll, resultRaw, monster, count, npcParty, dinosaur, choiceNote, outOfPlace, borrowedFromLevel: null };
-}
-
-function resolveCategory(terrain: string): string {
-  const row = WILD.categorySummary.rows.find((r) => cellText(r.Terrain) === terrain);
-  if (!row) return "Monster";
-  const roll = rollDie(100);
-  for (const category of CATEGORY_ORDER) {
-    if (findRowByRoll([row], category, roll, { percentile: true })) return category;
-  }
-  return "Special";
+  return { terrain, levelRoll: partyLevel, resultRaw, monster, count, loneNpc: null, choiceNote, borrowedFromLevel };
 }
 
 // --- Becoming Lost, Foraging, Castle Encounters ---------------------------------------------

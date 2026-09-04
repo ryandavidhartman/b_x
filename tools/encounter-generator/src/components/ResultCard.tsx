@@ -170,24 +170,19 @@ function WildernessCard({
   onRerollDragonTreasure: (ageCategory: number, hitDice: number) => void;
 }) {
   const isDragon = result.monster?.headingName === "Dragon";
-  const isNewShape = result.category === "—";
   return (
     <>
       <p className="roll-trail">
-        {result.terrain} · {isNewShape ? `party level = ${result.levelRoll}` : `category = ${result.category} · roll = ${result.levelRoll}`}
+        {result.terrain} · party level = {result.levelRoll}
         {result.choiceNote ? ` · ${result.choiceNote}` : ""}
       </p>
-      {result.dinosaur && (
-        <p className="hint">
-          Dinosaur sub-table: {result.dinosaur.subCategory} ({result.dinosaur.era})
-        </p>
+      {result.loneNpc && (
+        <div className="fallback-note">
+          Lone NPC encounter (d% = {result.loneNpc.roll}): {result.loneNpc.archetype} — see Lone NPC Encounters for what this archetype means.
+        </div>
       )}
       {result.monster && <MonsterStats monster={result.monster} count={result.count} />}
-      {result.npcParty && (
-        <div className="fallback-note">NPC Party rolled ({result.npcParty.archetype}) — see the NPC Party mode for full details.</div>
-      )}
-      {!result.monster && !result.npcParty && <p className="hint"><RollableText text={result.resultRaw} /></p>}
-      {result.outOfPlace && <OutOfPlaceBanner band={result.outOfPlace} />}
+      {!result.monster && !result.loneNpc && <p className="hint"><RollableText text={result.resultRaw} /></p>}
       {result.borrowedFromLevel && (
         <div className="fallback-note">
           Nothing tagged for this terrain right at party level {result.levelRoll} — borrowed from Level {result.borrowedFromLevel} instead.
