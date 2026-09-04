@@ -316,7 +316,7 @@ const terrainCategorySummary = (() => {
 
 const TERRAIN_NAMES = [
   "Aquatic", "Arctic", "Desert", "Forest", "Graveyard", "Hills", "Jungle",
-  "Lost World", "Marine", "Mountains", "Plains", "Rural", "Tundra",
+  "Lost World", "Marine", "Mountains", "Plains", "Rural", "Tundra", "Wetlands",
 ];
 
 const terrains = {};
