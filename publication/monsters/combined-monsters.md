@@ -5929,7 +5929,7 @@ A powerful magic-user accompanied by apprentices and hired guards, often seeking
 
 Any NPC Party generated above — whether it turned up in a Dungeon Random Encounter, an Urban
 Encounter, or on the wilderness Overland Hex Crawl Generation's Points of Interest table (see
-Appendix C) — can optionally be given this flavor layer to turn it from a one-off encounter
+Appendix D) — can optionally be given this flavor layer to turn it from a one-off encounter
 into a recurring rival: a competing group of adventurers after the same treasure, the same
 dungeon, or the same reputation as the party.
 
@@ -5994,8 +5994,8 @@ When encountered in the wilderness, they will be leading 1-4 pack mules carrying
 *Source:* `Shadowdark RPG (adapted)`
 
 For a Trader worth remembering — one the party might deal with more than once, at a
-crossroads, a trading post (see Appendix C's Overland Hex Crawl Generation), or a
-settlement's Market Square or General Store (Appendix E) — roll `d12` below for something
+crossroads, a trading post (see Appendix D's Overland Hex Crawl Generation), or a
+settlement's Market Square or General Store (Appendix F) — roll `d12` below for something
 unusual among their ordinary goods, priced at the DM's discretion.
 
 | d12 | Unusual Wares |
@@ -7875,11 +7875,189 @@ Each of these devices summons and allows the user to control one elemental of th
 ::: pagebreak-pdf
 :::
 
-## Appendix C: Random Encounters
+## Appendix C: Monster Quick Reference
+
+This appendix is a cross-index into the monster catalog earlier in this book — a fast way to
+answer two questions a DM asks constantly: "what could plausibly live here?" and "what's
+appropriate for a party of this level?" It draws on every monster in this book except Appendix A:
+Legendary Creatures, whose entries are unique, campaign-level individuals rather than ordinary
+wandering monsters.
+
+Neither list below replaces judgment. They're a starting point for populating a hex, stocking a
+lair, or sanity-checking an encounter you're building by hand — not a random-roll table (see
+Appendix D: Random Encounters for that) and not an encounter-difficulty calculator (see Appendix
+E: The Encounter Builder for that).
+
+### Monsters by Terrain
+
+Every monster below is listed under each of the 16 terrain and location types where it could
+plausibly turn up — many appear under several, since few creatures are confined to exactly one
+kind of ground. This reflects where a creature *could reasonably be found*, not where it's likely
+in relative terms; a monster's actual odds of turning up in a given hex still depend on its
+category and rarity, as covered by the Terrain Category Summary in Appendix D.
+
+#### Aquatic
+
+[Aboleth](#aboleth), [Archelon](#archelon), [Beaver, Giant](#beaver-giant), [Beetle, Giant (Water)](#beetle-giant), [Crab, Giant](#crab-giant), [Crayfish, Giant](#crayfish-giant), [Crocodile](#crocodile), [Dinichthys](#dinichthys), [Dragon Turtle](#dragon-turtle), [Dragon, Black](#dragon), [Elasmosaurus](#elasmosaurus), [Electric Eel](#eel), [Elemental, Water](#elemental), [Fish, Giant (Giant Catfish)](#fish-giant), [Fish, Giant (Giant Piranha)](#fish-giant), [Fish, Giant (Giant Sturgeon)](#fish-giant), [Frog, Giant (Giant Frog)](#frog-giant), [Frog, Giant (Killer Frog)](#frog-giant), [Frog, Giant (Poisonous Frog)](#frog-giant), [Gar, Giant](#gar-giant), [Giant Crocodile](#crocodile), [Giant Eel](#eel), [Hippopotamus](#hippopotamus), [Hydra](#hydra), [Kuo-Toa](#kuo-toa), [Lamprey](#lamprey), [Large Crocodile](#crocodile), [Leech, Giant](#leech-giant), [Lizard Man](#lizard-man), [Locathah](#locathah), [Men, Buccaneer / Pirate](#men), [Mosasaurus](#mosasaurus), [Nixies](#nixies), [Nymph](#nymph), [Otter, Giant](#otter-giant), [Pike, Giant](#pike-giant), [Plesiosaurus](#plesiosaurus), [Sahuagin](#sahuagin), [Sea Dragons](#sea-dragons), [Sea Horse, Giant](#sea-horse-giant), [Sea Snake](#snake), [Strangle Weed](#strangle-weed), [Termite, Water (Fresh Water Termite)](#termite-water), [Triton](#triton), [Turtle, Giant (Giant Snapping Turtle)](#turtle-giant), [Water Naga](#naga), [Water Weird](#water-weird), [Wereshark](#wereshark).
+
+#### Arctic
+
+[Bear, Cave](#bear-cave), [Bear, Polar](#bear), [Dragon, White](#dragon), [Frost Giant](#giant), [Frost Salamander](#salamander), [Ice Devil](#ice-devil), [Killer Whale](#whale), [Mammoth](#mammoth), [Mastodon](#mastodon), [Remorhaz](#remorhaz), [Rhinoceros, Wooly](#rhinoceros-wooly), [Sabre-Tooth Tiger](#sabre-tooth-tiger), [Whale, Narwhal](#whale), [Yeti](#yeti).
+
+#### Desert
+
+[Androsphinx](#sphinx), [Behir](#behir), [Camel](#camel), [Criosphinx](#sphinx), [Djinni](#djinni), [Dragon, Blue](#dragon), [Dragon, Gold](#dragon), [Dragonne](#dragonne), [Efreeti](#efreeti), [Flame Salamander](#salamander), [Gnoll](#gnoll), [Gynosphinx](#sphinx), [Hieracosphinx](#sphinx), [Hyena](#hyena), [Jackal](#jackal), [Jackalwere](#jackalwere), [Lamia](#lamia), [Lammasu](#lammasu), [Lizards, Giant (Gecko)](#lizards-giant), [Lizards, Giant (Horned Chameleon)](#lizards-giant), [Men, Dervish](#men), [Men, Nomad](#men), [Mummy](#mummy), [Purple Worm](#purple-worm), [Scorpion, Giant](#scorpion-giant), [Shedu](#shedu), [Snake, Giant Rattler](#snake), [Snake, Spitting Cobra](#snake), [Spider, Giant (Black Widow)](#spider-giant), [Spider, Giant (Rhagodessa)](#spider-giant), [Spider, Giant (Tarantella)](#spider-giant), [Troglodyte](#troglodyte).
+
+#### Forest
+
+[Ankheg](#ankheg), [Ant, Driver](#ant-driver), [Ant, Giant (Queen)](#ant-giant), [Ant, Giant (Warrior)](#ant-giant), [Ant, Giant (Worker)](#ant-giant), [Badger](#badger), [Bandit](#bandit), [Basilisk](#basilisk), [Bear, Black](#bear), [Bear, Dire](#bear), [Bear, Grizzly](#bear), [Beaver, Giant](#beaver-giant), [Bee, Killer](#bee-killer), [Beetle, Giant (Bombardier)](#beetle-giant), [Beetle, Giant (Boring)](#beetle-giant), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Beetle, Giant (Stag)](#beetle-giant), [Berserker](#berserker), [Blink Dog](#blink-dog), [Boar, Giant](#boar-giant), [Brain Mole](#brain-mole), [Brownie](#brownie), [Bugbear](#bugbear), [Bulette](#bulette), [Cat, Great (Mountain Lion)](#cat-great), [Cat, Great (Panther)](#cat-great), [Cat, Great (Tiger)](#cat-great), [Centaur](#centaur), [Centipede, Giant](#centipede-giant), [Cockatrice](#cockatrice), [Devil Swine](#devil-swine), [Dire Wolf](#wolf), [Displacer Beast](#displacer-beast), [Dragon, Gold](#dragon), [Dragon, Green](#dragon), [Drider](#drider), [Drow (Dark Elf)](#drow-dark-elf), [Dryad](#dryad), [Ear Seeker](#ear-seeker), [Elf](#elf), [Ettin](#ettin), [Faerie Dragon](#faerie-dragon), [Ferret, Giant](#ferret-giant), [Fly, Robber](#fly-robber), [Giant Badger](#badger), [Giant Spider](#spider), [Gnome](#gnome), [Goblin](#goblin), [Golem, Wood](#golem), [Herd Animals](#herd-animals), [Hobgoblin](#hobgoblin), [Huge Spider](#spider), [Insect Swarms](#insect-swarms), [Ki-rin](#ki-rin), [Kobold](#kobold), [Leprechaun](#leprechaun), [Leucrotta](#leucrotta), [Lizards, Giant (Draco)](#lizards-giant), [Lizards, Giant (Tuatara)](#lizards-giant), [Lynx, Giant](#lynx-giant), [Men, Brigand](#men), [Normal Wolf](#wolf), [Nymph](#nymph), [Ogre](#ogre), [Orc](#orc), [Owl Bear](#owl-bear), [Owl, Giant](#owl-giant), [Peryton](#peryton), [Phase Spider](#spider), [Pixie](#pixie), [Porcupine, Giant](#porcupine-giant), [Pseudo-Dragon](#pseudo-dragon), [Satyr](#satyr), [Shambling Mound](#shambling-mound), [Shrew, Giant](#shrew-giant), [Skunk, Giant](#skunk-giant), [Snake, Pit Viper](#snake), [Snake, Rock Python](#snake), [Spider, Giant (Crab Spider)](#spider-giant), [Sprite](#sprite), [Stag](#stag), [Stirge](#stirge), [Su-Monster](#su-monster), [Tick, Giant](#tick-giant), [Tiger](#tiger), [Toad, Giant](#toad-giant), [Treant](#treant), [Troll](#troll), [Unicorn](#unicorn), [Wasp, Giant](#wasp-giant), [Weasel, Giant](#weasel-giant), [Werebear](#werebear), [Wereboar](#wereboar), [Weretiger](#weretiger), [Werewolf](#werewolf), [Wild Boar](#boar), [Wild Dog](#dog), [Wolverine](#wolverine), [Wyvern](#wyvern), [Yellow Musk Creeper](#yellow-musk-creeper), [Zombie, Yellow Musk](#zombie-yellow-musk).
+
+#### Graveyard
+
+[Androsphinx](#sphinx), [Criosphinx](#sphinx), [Death Knight](#death-knight), [Demilich](#demilich), [Ghast](#ghast), [Ghost](#ghost), [Ghoul](#ghoul), [Golem, Bone](#golem), [Groaning Spirit](#groaning-spirit), [Guardian Naga](#naga), [Gynosphinx](#sphinx), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Larva](#larva), [Lich](#lich), [Manes](#manes), [Medusa](#medusa), [Mummy](#mummy), [Night Hag](#night-hag), [Nightmare](#nightmare), [Revenant](#revenant), [Rot Grub](#rot-grub), [Shadow](#shadow), [Shadow Demon](#shadow-demon), [Skeleton](#skeleton), [Skeleton Warrior](#skeleton-warrior), [Spectre](#spectre), [Spirit Naga](#naga), [Type I Demon (Vrock)](#type-i-demon-vrock), [Vampire](#vampire), [Wererat](#wererat), [Wight](#wight), [Wraith](#wraith), [Zombie](#zombie).
+
+#### Hills
+
+[Ant, Giant (Queen)](#ant-giant), [Ant, Giant (Warrior)](#ant-giant), [Ant, Giant (Worker)](#ant-giant), [Baboon](#baboon), [Badger](#badger), [Bandit](#bandit), [Basilisk](#basilisk), [Bear, Black](#bear), [Bear, Dire](#bear), [Bear, Grizzly](#bear), [Bee, Killer](#bee-killer), [Beetle, Giant (Bombardier)](#beetle-giant), [Beetle, Giant (Fire)](#beetle-giant), [Beetle, Giant (Oil)](#beetle-giant), [Behir](#behir), [Beholder](#beholder), [Berserker](#berserker), [Black Pudding](#black-pudding), [Blink Dog](#blink-dog), [Brain Mole](#brain-mole), [Brown Mold](#mold), [Bugbear](#bugbear), [Bulette](#bulette), [Caecilia](#caecilia), [Carrion Crawler](#carrion-crawler), [Cat, Great (Mountain Lion)](#cat-great), [Centaur](#centaur), [Centipede, Giant](#centipede-giant), [Chimera](#chimera), [Cockatrice](#cockatrice), [Cyclops](#cyclops), [Dao](#dao), [Dire Wolf](#wolf), [Displacer Beast](#displacer-beast), [Dragon, Gold](#dragon), [Dragon, Red](#dragon), [Dragonne](#dragonne), [Drider](#drider), [Drow (Dark Elf)](#drow-dark-elf), [Duergar](#duergar), [Dwarf](#dwarf), [Elemental, Earth](#elemental), [Elf](#elf), [Ettin](#ettin), [Ferret, Giant](#ferret-giant), [Fly, Robber](#fly-robber), [Fungi, Violet](#fungi-violet), [Gas Spore](#gas-spore), [Giant Badger](#badger), [Giant Hawk](#hawk), [Gnoll](#gnoll), [Gnome](#gnome), [Goat, Giant](#goat-giant), [Goblin](#goblin), [Gorgon](#gorgon), [Gray Ooze](#gray-ooze), [Green Slime](#green-slime), [Griffon](#griffon), [Groaning Spirit](#groaning-spirit), [Harpy](#harpy), [Herd Animals](#herd-animals), [Hill Giant](#giant), [Hippogriff](#hippogriff), [Hobgoblin](#hobgoblin), [Hook Horror](#hook-horror), [Insect Swarms](#insect-swarms), [Intellect Devourer](#intellect-devourer), [Kobold](#kobold), [Leucrotta](#leucrotta), [Lizards, Giant (Tuatara)](#lizards-giant), [Locust, Cave](#locust-cave), [Lurker Above](#lurker-above), [Manticore](#manticore), [Medusa](#medusa), [Men, Brigand](#men), [Mind Flayer](#mind-flayer), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Normal Hawk](#hawk), [Normal Wolf](#wolf), [Ochre Jelly](#ochre-jelly), [Ogre](#ogre), [Ogre Mage](#ogre-mage), [Orc](#orc), [Owl Bear](#owl-bear), [Pegasus](#pegasus), [Peryton](#peryton), [Phase Spider](#spider), [Piercer](#piercer), [Porcupine, Giant](#porcupine-giant), [Pseudo-Dragon](#pseudo-dragon), [Purple Worm](#purple-worm), [Ram, Giant](#ram-giant), [Rock Baboon](#baboon), [Roper](#roper), [Rust Monster](#rust-monster), [Scorpion, Giant](#scorpion-giant), [Shrew, Giant](#shrew-giant), [Shrieker](#shrieker), [Skunk, Giant](#skunk-giant), [Slug, Giant](#slug-giant), [Snake, Pit Viper](#snake), [Spider, Giant (Black Widow)](#spider-giant), [Spider, Giant (Crab Spider)](#spider-giant), [Spider, Giant (Tarantella)](#spider-giant), [Stag](#stag), [Stone Giant](#giant), [Svirfneblin (Deep Gnome)](#svirfneblin-deep-gnome), [Thoul](#thoul), [Tick, Giant](#tick-giant), [Trader](#trader), [Trapper](#trapper), [Troglodyte](#troglodyte), [Troll](#troll), [Umber Hulk](#umber-hulk), [Wasp, Giant](#wasp-giant), [Weasel, Giant](#weasel-giant), [Werebear](#werebear), [Werewolf](#werewolf), [Wild Boar](#boar), [Wild Dog](#dog), [Will-O-Wisp](#will-o-wisp), [Wyvern](#wyvern), [Xorn](#xorn), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Yellow Musk Creeper](#yellow-musk-creeper).
+
+#### Jungle
+
+[Ant, Driver](#ant-driver), [Ape, Gorilla](#ape), [Ape, White](#ape-white), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Carnivorous Ape](#ape), [Cat, Great (Jaguar)](#cat-great), [Cat, Great (Panther)](#cat-great), [Cat, Great (Tiger)](#cat-great), [Centipede, Giant](#centipede-giant), [Couatl](#couatl), [Dragon, Green](#dragon), [Elephant](#elephant), [Giant Crocodile](#crocodile), [Giant Spider](#spider), [Guardian Naga](#naga), [Huge Spider](#spider), [Insect Swarms](#insect-swarms), [Lizards, Giant (Draco)](#lizards-giant), [Lizards, Giant (Gecko)](#lizards-giant), [Lizards, Giant (Horned Chameleon)](#lizards-giant), [Snake, Pit Viper](#snake), [Snake, Rock Python](#snake), [Snake, Spitting Cobra](#snake), [Spider, Giant (Crab Spider)](#spider-giant), [Spirit Naga](#naga), [Su-Monster](#su-monster), [Tick, Giant](#tick-giant), [Tiger](#tiger), [Wereboar](#wereboar), [Weretiger](#weretiger), [Zombie, Yellow Musk](#zombie-yellow-musk).
+
+#### Lost World
+
+[Allosaurus](#allosaurus), [Anatosaurus](#anatosaurus), [Ankylosaurus](#ankylosaurus), [Apatosaurus](#apatosaurus), [Ape, White](#ape-white), [Archelon](#archelon), [Axe Beak](#axe-beak), [Baluchitherium](#baluchitherium), [Bear, Cave](#bear-cave), [Boar, Giant](#boar-giant), [Brachiosaurus](#brachiosaurus), [Camarasaurus](#camarasaurus), [Ceratosaurus](#ceratosaurus), [Cetiosaurus](#cetiosaurus), [Dinichthys](#dinichthys), [Diplodocus](#diplodocus), [Elasmosaurus](#elasmosaurus), [Gorgosaurus](#gorgosaurus), [Iguanodon](#iguanodon), [Irish Deer](#irish-deer), [Lambeosaurus](#lambeosaurus), [Mammoth](#mammoth), [Mastodon](#mastodon), [Megalosaurus](#megalosaurus), [Monoclonius](#monoclonius), [Mosasaurus](#mosasaurus), [Neanderthal (Caveman)](#neanderthal-caveman), [Paleoscincus](#paleoscincus), [Pentaceratops](#pentaceratops), [Plateosaurus](#plateosaurus), [Plesiosaurus](#plesiosaurus), [Pterodactyl](#pterodactyl), [Pterodactyl, Pteranodon](#pterodactyl), [Rhinoceros, Wooly](#rhinoceros-wooly), [Sabre-Tooth Tiger](#sabre-tooth-tiger), [Stegosaurus](#stegosaurus), [Styracosaurus](#styracosaurus), [Teratosaurus](#teratosaurus), [Titanothere](#titanothere), [Triceratops](#triceratops), [Tyrannosaurus Rex](#tyrannosaurus-rex).
+
+#### Marine
+
+[Archelon](#archelon), [Barracuda](#barracuda), [Crab, Giant](#crab-giant), [Dinichthys](#dinichthys), [Djinni](#djinni), [Dolphin](#dolphin), [Dragon Turtle](#dragon-turtle), [Elasmosaurus](#elasmosaurus), [Elemental, Air](#elemental), [Elemental, Water](#elemental), [Eye of the Deep](#eye-of-the-deep), [Eye, Floating](#eye-floating), [Fish, Giant (Spiny Rockfish)](#fish-giant), [Giant Eel](#eel), [Hippocampus](#hippocampus), [Hydra](#hydra), [Ixitxachitl](#ixitxachitl), [Killer Whale](#whale), [Kraken](#kraken), [Lamprey](#lamprey), [Lizard Man](#lizard-man), [Locathah](#locathah), [Manta Ray](#ray), [Masher](#masher), [Men, Buccaneer / Pirate](#men), [Mermen](#mermen), [Morkoth](#morkoth), [Mosasaurus](#mosasaurus), [Octopus, Giant](#octopus-giant), [Plesiosaurus](#plesiosaurus), [Portuguese Man-O-War](#portuguese-man-o-war), [Pterodactyl, Pteranodon](#pterodactyl), [Pungi Ray](#ray), [Sahuagin](#sahuagin), [Sea Dragons](#sea-dragons), [Sea Hag](#sea-hag), [Sea Horse, Giant](#sea-horse-giant), [Sea Lion](#sea-lion), [Sea Serpent (Lesser)](#sea-serpent-lesser), [Sea Snake](#snake), [Shark, Bull](#shark), [Shark, Great White](#shark), [Shark, Mako](#shark), [Sperm Whale](#whale), [Squid, Giant](#squid-giant), [Sting Ray](#ray), [Storm Giant](#giant), [Termite, Water (Salt Water Termite)](#termite-water), [Triton](#triton), [Turtle, Giant (Giant Sea Turtle)](#turtle-giant), [Weed Eel](#eel), [Wereshark](#wereshark), [Whale, Narwhal](#whale).
+
+#### Mountains
+
+[Aerial Servant](#aerial-servant), [Bat, Giant](#bat), [Bat, Normal](#bat), [Bear, Black](#bear), [Bear, Dire](#bear), [Bear, Grizzly](#bear), [Behir](#behir), [Beholder](#beholder), [Berserker](#berserker), [Brown Mold](#mold), [Bugbear](#bugbear), [Carrion Crawler](#carrion-crawler), [Cat, Great (Mountain Lion)](#cat-great), [Chimera](#chimera), [Cloud Giant](#giant), [Cyclops](#cyclops), [Dao](#dao), [Dire Wolf](#wolf), [Djinni](#djinni), [Dragon, Gold](#dragon), [Dragon, Red](#dragon), [Drider](#drider), [Drow (Dark Elf)](#drow-dark-elf), [Duergar](#duergar), [Dwarf](#dwarf), [Eagle, Giant](#eagle-giant), [Efreeti](#efreeti), [Elemental, Air](#elemental), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Ettin](#ettin), [Fire Giant](#giant), [Fire Mephit](#mephit), [Flame Salamander](#salamander), [Frost Giant](#giant), [Frost Salamander](#salamander), [Gas Spore](#gas-spore), [Giant Hawk](#hawk), [Giant Roc](#roc), [Githzerai](#githzerai), [Goat, Giant](#goat-giant), [Goblin](#goblin), [Griffon](#griffon), [Harpy](#harpy), [Hellhound](#hellhound), [Herd Animals](#herd-animals), [Hippogriff](#hippogriff), [Hobgoblin](#hobgoblin), [Hook Horror](#hook-horror), [Ki-rin](#ki-rin), [Kobold](#kobold), [Lammasu](#lammasu), [Large Roc](#roc), [Lava Mephit](#mephit), [Lizards, Giant (Draco)](#lizards-giant), [Locust, Cave](#locust-cave), [Lurker Above](#lurker-above), [Lynx, Giant](#lynx-giant), [Manticore](#manticore), [Normal Hawk](#hawk), [Normal Wolf](#wolf), [Ogre](#ogre), [Ogre Mage](#ogre-mage), [Orc](#orc), [Pegasus](#pegasus), [Peryton](#peryton), [Piercer](#piercer), [Ram, Giant](#ram-giant), [Rock Baboon](#baboon), [Roper](#roper), [Rust Monster](#rust-monster), [Shrieker](#shrieker), [Slug, Giant](#slug-giant), [Small Roc](#roc), [Smoke Mephit](#mephit), [Steam Mephit](#mephit), [Stone Giant](#giant), [Storm Giant](#giant), [Svirfneblin (Deep Gnome)](#svirfneblin-deep-gnome), [Sylph](#sylph), [Titan](#titan), [Troglodyte](#troglodyte), [Troll](#troll), [Umber Hulk](#umber-hulk), [Wasp, Giant](#wasp-giant), [Werebear](#werebear), [Wind Walker](#wind-walker), [Wolverine](#wolverine), [Wyvern](#wyvern), [Xorn](#xorn), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Yeti](#yeti).
+
+#### Plains
+
+[Aerial Servant](#aerial-servant), [Ankheg](#ankheg), [Ant, Driver](#ant-driver), [Ant, Giant (Queen)](#ant-giant), [Ant, Giant (Warrior)](#ant-giant), [Ant, Giant (Worker)](#ant-giant), [Axe Beak](#axe-beak), [Baboon](#baboon), [Baluchitherium](#baluchitherium), [Bandit](#bandit), [Bee, Killer](#bee-killer), [Beetle, Giant (Bombardier)](#beetle-giant), [Beetle, Giant (Oil)](#beetle-giant), [Blink Dog](#blink-dog), [Boar, Warthog](#boar), [Buffalo](#buffalo), [Bulette](#bulette), [Bull](#bull), [Camel](#camel), [Cat, Great (Lion)](#cat-great), [Catoblepas](#catoblepas), [Centaur](#centaur), [Cockatrice](#cockatrice), [Dire Wolf](#wolf), [Djinni](#djinni), [Draft Horse](#horse), [Dragon, Blue](#dragon), [Dragon, Gold](#dragon), [Elemental, Air](#elemental), [Elephant](#elephant), [Flightless Bird](#flightless-bird), [Fly, Robber](#fly-robber), [Giant Hawk](#hawk), [Gnoll](#gnoll), [Gorgon](#gorgon), [Griffon](#griffon), [Halfling](#halfling), [Herd Animals](#herd-animals), [Hill Giant](#giant), [Hobgoblin](#hobgoblin), [Hyena](#hyena), [Insect Swarms](#insect-swarms), [Jackal](#jackal), [Jackalwere](#jackalwere), [Ki-rin](#ki-rin), [Leucrotta](#leucrotta), [Men, Brigand](#men), [Men, Nomad](#men), [Normal Hawk](#hawk), [Normal Wolf](#wolf), [Orc](#orc), [Pegasus](#pegasus), [Purple Worm](#purple-worm), [Rhinoceros](#rhinoceros), [Riding Horse](#horse), [Snake, Giant Rattler](#snake), [Snake, Spitting Cobra](#snake), [Spider, Giant (Tarantella)](#spider-giant), [Stag](#stag), [Sylph](#sylph), [Titanothere](#titanothere), [Trader](#trader), [Unicorn](#unicorn), [War Horse](#horse), [Wasp, Giant](#wasp-giant), [Wild Dog](#dog), [Wind Walker](#wind-walker).
+
+#### Rural
+
+[Acolyte](#acolyte), [Ankheg](#ankheg), [Ant, Giant (Queen)](#ant-giant), [Ant, Giant (Warrior)](#ant-giant), [Ant, Giant (Worker)](#ant-giant), [Badger](#badger), [Bandit](#bandit), [Bee, Killer](#bee-killer), [Beetle, Giant (Oil)](#beetle-giant), [Brownie](#brownie), [Bull](#bull), [Cattle](#cattle), [Devil Swine](#devil-swine), [Doppelganger](#doppelganger), [Draft Horse](#horse), [Ferret, Giant](#ferret-giant), [Fly, Robber](#fly-robber), [Giant Badger](#badger), [Githyanki](#githyanki), [Gnoll](#gnoll), [Gnome](#gnome), [Goblin](#goblin), [Groaning Spirit](#groaning-spirit), [Halfling](#halfling), [Hill Giant](#giant), [Hobgoblin](#hobgoblin), [Insect Swarms](#insect-swarms), [Jackalwere](#jackalwere), [Leprechaun](#leprechaun), [Medium](#medium), [Men, Brigand](#men), [Men, Merchant](#men), [Mule](#mule), [Night Hag](#night-hag), [Normal Human](#normal-human), [Normal Wolf](#wolf), [Orc](#orc), [Rakshasa](#rakshasa), [Rat, Giant](#rat), [Rat, Normal](#rat), [Riding Horse](#horse), [Rot Grub](#rot-grub), [Skunk, Giant](#skunk-giant), [Spider, Giant (Black Widow)](#spider-giant), [Trader](#trader), [Veteran](#veteran), [War Dog](#dog), [War Horse](#horse), [Wild Dog](#dog), [Wraith](#wraith).
+
+#### Tundra
+
+[Bear, Cave](#bear-cave), [Bear, Dire](#bear), [Bear, Grizzly](#bear), [Bear, Polar](#bear), [Berserker](#berserker), [Dire Wolf](#wolf), [Dragon, White](#dragon), [Frost Giant](#giant), [Frost Salamander](#salamander), [Herd Animals](#herd-animals), [Irish Deer](#irish-deer), [Lynx, Giant](#lynx-giant), [Mammoth](#mammoth), [Mastodon](#mastodon), [Men, Nomad](#men), [Normal Wolf](#wolf), [Remorhaz](#remorhaz), [Rhinoceros, Wooly](#rhinoceros-wooly), [Sabre-Tooth Tiger](#sabre-tooth-tiger), [Werewolf](#werewolf), [Wolverine](#wolverine), [Yeti](#yeti).
+
+#### Wetlands
+
+[Beetle, Giant (Water)](#beetle-giant), [Caecilia](#caecilia), [Catoblepas](#catoblepas), [Centipede, Giant](#centipede-giant), [Crocodile](#crocodile), [Devil Swine](#devil-swine), [Dragon, Black](#dragon), [Elemental, Water](#elemental), [Frog, Giant (Giant Frog)](#frog-giant), [Frog, Giant (Killer Frog)](#frog-giant), [Frog, Giant (Poisonous Frog)](#frog-giant), [Fungi, Violet](#fungi-violet), [Giant Crocodile](#crocodile), [Gibbering Mouther](#gibbering-mouther), [Hippopotamus](#hippopotamus), [Hydra](#hydra), [Insect Swarms](#insect-swarms), [Kuo-Toa](#kuo-toa), [Large Crocodile](#crocodile), [Leech, Giant](#leech-giant), [Lizard Man](#lizard-man), [Neotyugh](#neotyugh), [Nixies](#nixies), [Otyugh](#otyugh), [Shambling Mound](#shambling-mound), [Steam Mephit](#mephit), [Stirge](#stirge), [Strangle Weed](#strangle-weed), [Termite, Water (Swamp Termite)](#termite-water), [Toad, Giant](#toad-giant), [Turtle, Giant (Giant Snapping Turtle)](#turtle-giant), [Water Naga](#naga), [Water Weird](#water-weird), [Will-O-Wisp](#will-o-wisp).
+
+#### Urban
+
+[Acolyte](#acolyte), [Bat, Giant](#bat), [Bat, Normal](#bat), [Doppelganger](#doppelganger), [Erinyes](#erinyes), [Gargoyle](#gargoyle), [Ghost](#ghost), [Githyanki](#githyanki), [Imp](#imp), [Invisible Stalker](#invisible-stalker), [Living Statue, Crystal](#living-statue), [Living Statue, Iron](#living-statue), [Living Statue, Rock](#living-statue), [Medium](#medium), [Men, Buccaneer / Pirate](#men), [Men, Merchant](#men), [Neotyugh](#neotyugh), [Night Hag](#night-hag), [Noble](#noble), [Normal Human](#normal-human), [Otyugh](#otyugh), [Poltergeist](#poltergeist), [Quasit](#quasit), [Rakshasa](#rakshasa), [Rat, Giant](#rat), [Rat, Normal](#rat), [Revenant](#revenant), [Rot Grub](#rot-grub), [Shadow Demon](#shadow-demon), [Smoke Mephit](#mephit), [Succubus](#succubus), [Trader](#trader), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Vampire](#vampire), [Veteran](#veteran), [War Dog](#dog), [Water Weird](#water-weird), [Wererat](#wererat).
+
+#### Castle
+
+[Aerial Servant](#aerial-servant), [Androsphinx](#sphinx), [Animated Armor](#animated-armor), [Barbed Devil](#barbed-devil), [Bat, Giant](#bat), [Bat, Normal](#bat), [Beholder](#beholder), [Black Pudding](#black-pudding), [Bone Devil](#bone-devil), [Brown Mold](#mold), [Bugbear](#bugbear), [Criosphinx](#sphinx), [Dao](#dao), [Death Knight](#death-knight), [Demilich](#demilich), [Doppelganger](#doppelganger), [Dragon, Gold](#dragon), [Efreeti](#efreeti), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Erinyes](#erinyes), [Fire Giant](#giant), [Fire Mephit](#mephit), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Ghost](#ghost), [Gibbering Mouther](#gibbering-mouther), [Githyanki](#githyanki), [Githzerai](#githzerai), [Golem, Amber](#golem), [Golem, Bone](#golem), [Golem, Bronze](#golem), [Golem, Clay](#golem), [Golem, Flesh](#golem), [Golem, Wood](#golem), [Gray Ooze](#gray-ooze), [Green Slime](#green-slime), [Guardian Naga](#naga), [Gynosphinx](#sphinx), [Hellhound](#hellhound), [Hieracosphinx](#sphinx), [Homunculus](#homunculus), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Ice Devil](#ice-devil), [Imp](#imp), [Intellect Devourer](#intellect-devourer), [Invisible Stalker](#invisible-stalker), [Lamia](#lamia), [Lammasu](#lammasu), [Larva](#larva), [Lemure](#lemure), [Lich](#lich), [Living Statue, Crystal](#living-statue), [Living Statue, Iron](#living-statue), [Living Statue, Rock](#living-statue), [Manes](#manes), [Medium](#medium), [Medusa](#medusa), [Men, Merchant](#men), [Mimic](#mimic), [Mind Flayer](#mind-flayer), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Neotyugh](#neotyugh), [Nightmare](#nightmare), [Noble](#noble), [Ochre Jelly](#ochre-jelly), [Ogre Mage](#ogre-mage), [Otyugh](#otyugh), [Pit Fiend](#pit-fiend), [Poltergeist](#poltergeist), [Quasit](#quasit), [Rakshasa](#rakshasa), [Rat, Giant](#rat), [Rat, Normal](#rat), [Revenant](#revenant), [Rust Monster](#rust-monster), [Shadow](#shadow), [Shadow Demon](#shadow-demon), [Shedu](#shedu), [Skeleton](#skeleton), [Skeleton Warrior](#skeleton-warrior), [Slithering Tracker](#slithering-tracker), [Slug, Giant](#slug-giant), [Smoke Mephit](#mephit), [Spectre](#spectre), [Spirit Naga](#naga), [Succubus](#succubus), [Thoul](#thoul), [Titan](#titan), [Trapper](#trapper), [Troll](#troll), [Type I Demon (Vrock)](#type-i-demon-vrock), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Type V Demon (Marilith)](#type-v-demon-marilith), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Veteran](#veteran), [War Dog](#dog), [Water Weird](#water-weird), [Wight](#wight), [Wraith](#wraith), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie).
+
+### Monsters by Party Level
+
+Every monster is listed once, at the party level suggested by its Hit Dice: plain Hit Dice map
+directly to that level, a "+" bonus rounds up to the next level, and a HD range or hit-point-only
+creature is leveled at its upper bound (or level 1, for anything under 1 HD). This is a rating of
+one single monster's danger, not a full encounter's difficulty — a group of low-level monsters or
+a lone high-level one can still be a very different fight depending on numbers, tactics, and the
+party's resources. Appendix E: The Encounter Builder is where that group-versus-party math belongs;
+treat this list as the per-monster power baseline it builds on.
+
+#### Level 1
+
+[Acolyte](#acolyte) (HD 1), [Bandit](#bandit) (HD 1), [Bat, Normal](#bat) (HD 1 HP), [Bee, Killer](#bee-killer) (HD 1/2* (1d4 hp)), [Brain Mole](#brain-mole) (HD 1 hp), [Brown Mold](#mold) (HD 1), [Brownie](#brownie) (HD 1d4 hp), [Centipede, Giant](#centipede-giant) (HD 1/2 (1d4 hp)), [Cerebral Parasite](#cerebral-parasite) (HD N/A), [Dwarf](#dwarf) (HD 1), [Ear Seeker](#ear-seeker) (HD 1 hp), [Eye, Floating](#eye-floating) (HD 1d4 hp), [Frog, Giant (Poisonous Frog)](#frog-giant) (HD 1*), [Gas Spore](#gas-spore) (HD 1 hp), [Gnome](#gnome) (HD 1), [Goblin](#goblin) (HD 1-1), [Halfling](#halfling) (HD 1-1), [Jackal](#jackal) (HD 1d4 hp), [Kobold](#kobold) (HD 1/2 (1d4 hp)), [Larva](#larva) (HD 1), [Leprechaun](#leprechaun) (HD 1d4 hp), [Manes](#manes) (HD 1**), [Medium](#medium) (HD 1*), [Men, Brigand](#men) (HD 1), [Men, Buccaneer / Pirate](#men) (HD 1), [Men, Dervish](#men) (HD 1), [Men, Merchant](#men) (HD 1), [Men, Nomad](#men) (HD 1), [Nixies](#nixies) (HD 1), [Normal Hawk](#hawk) (HD 1/2 (1d4 hp)), [Normal Human](#normal-human) (HD 1d4 hit points), [Orc](#orc) (HD 1), [Pixie](#pixie) (HD 1*), [Poltergeist](#poltergeist) (HD 1), [Pterodactyl](#pterodactyl) (HD 1), [Rat, Giant](#rat) (HD 1), [Rat, Normal](#rat) (HD 1), [Rot Grub](#rot-grub) (HD 1 hp), [Shrew, Giant](#shrew-giant) (HD 1), [Skeleton](#skeleton) (HD 1), [Snake, Spitting Cobra](#snake) (HD 1*), [Sprite](#sprite) (HD 1/2* (1d4 hp)), [Sting Ray](#ray) (HD 1), [Stirge](#stirge) (HD 1*), [Trader](#trader) (HD 1), [Weed Eel](#eel) (HD 1-1).
+
+#### Level 2
+
+[Ant, Giant (Worker)](#ant-giant) (HD 2), [Baboon](#baboon) (HD 1+1), [Badger](#badger) (HD 1+2), [Bat, Giant](#bat) (HD 2), [Beetle, Giant (Fire)](#beetle-giant) (HD 1+2), [Beetle, Giant (Oil)](#beetle-giant) (HD 2*), [Berserker](#berserker) (HD 1 + 1*), [Camel](#camel) (HD 2), [Crocodile](#crocodile) (HD 2), [Drow (Dark Elf)](#drow-dark-elf) (HD 2*), [Dryad](#dryad) (HD 2*), [Duergar](#duergar) (HD 1+2**), [Electric Eel](#eel) (HD 2), [Elf](#elf) (HD 1 + 1*), [Ferret, Giant](#ferret-giant) (HD 1 + 1), [Fly, Robber](#fly-robber) (HD 2), [Frog, Giant (Killer Frog)](#frog-giant) (HD 1+4), [Ghoul](#ghoul) (HD 2*), [Gnoll](#gnoll) (HD 2), [Green Slime](#green-slime) (HD 2*), [Hobgoblin](#hobgoblin) (HD 1 + 1), [Homunculus](#homunculus) (HD 2), [Hyena](#hyena) (HD 1+1), [Ixitxachitl](#ixitxachitl) (HD 1+1), [Kuo-Toa](#kuo-toa) (HD 2), [Lamprey](#lamprey) (HD 1+1), [Locathah](#locathah) (HD 2), [Locust, Cave](#locust-cave) (HD 2), [Mule](#mule) (HD 2), [Neanderthal (Caveman)](#neanderthal-caveman) (HD 2), [Pseudo-Dragon](#pseudo-dragon) (HD 2), [Riding Horse](#horse) (HD 2), [Rock Baboon](#baboon) (HD 2), [Sea Horse, Giant](#sea-horse-giant) (HD 2), [Shark, Bull](#shark) (HD 2), [Snake, Pit Viper](#snake) (HD 2*), [Spider, Giant (Crab Spider)](#spider-giant) (HD 2*), [Termite, Water (Swamp Termite)](#termite-water) (HD 1 + 1), [Troglodyte](#troglodyte) (HD 2*), [Wild Dog](#dog) (HD 1+1), [Yellow Mold](#mold) (HD 2), [Yellow Mold](#yellow-mold) (HD 2), [Zombie](#zombie) (HD 2), [Zombie, Yellow Musk](#zombie-yellow-musk) (HD 2).
+
+#### Level 3
+
+[Animated Armor](#animated-armor) (HD 3), [Ant, Giant (Warrior)](#ant-giant) (HD 3), [Axe Beak](#axe-beak) (HD 3), [Barracuda](#barracuda) (HD 1-3), [Beetle, Giant (Bombardier)](#beetle-giant) (HD 2+2*), [Boar, Warthog](#boar) (HD 3), [Crab, Giant](#crab-giant) (HD 3), [Dolphin](#dolphin) (HD 2+2), [Draft Horse](#horse) (HD 3), [Fire Mephit](#mephit) (HD 3), [Flightless Bird](#flightless-bird) (HD 1-3), [Frog, Giant (Giant Frog)](#frog-giant) (HD 1-3), [Fungi, Violet](#fungi-violet) (HD 3), [Giant Badger](#badger) (HD 3), [Golem, Wood](#golem) (HD 2 + 2), [Gray Ooze](#gray-ooze) (HD 3*), [Harpy](#harpy) (HD 3*), [Huge Spider](#spider) (HD 2+2), [Imp](#imp) (HD 2+2), [Lava Mephit](#mephit) (HD 3), [Lemure](#lemure) (HD 3**), [Living Statue, Crystal](#living-statue) (HD 3), [Lizard Man](#lizard-man) (HD 2 + 1), [Lynx, Giant](#lynx-giant) (HD 2+2), [Noble](#noble) (HD 3), [Normal Wolf](#wolf) (HD 2 + 2), [Nymph](#nymph) (HD 3), [Pegasus](#pegasus) (HD 2 + 2), [Quasit](#quasit) (HD 3**), [Sahuagin](#sahuagin) (HD 2+2), [Sea Hag](#sea-hag) (HD 3), [Sea Snake](#snake) (HD 3*), [Shadow](#shadow) (HD 2 + 2*), [Shrieker](#shrieker) (HD 3), [Smoke Mephit](#mephit) (HD 3), [Spider, Giant (Black Widow)](#spider-giant) (HD 3*), [Stag](#stag) (HD 3), [Steam Mephit](#mephit) (HD 3), [Svirfneblin (Deep Gnome)](#svirfneblin-deep-gnome) (HD 3), [Sylph](#sylph) (HD 3), [Termite, Water (Fresh Water Termite)](#termite-water) (HD 2 + 1), [Thought Eater](#thought-eater) (HD 3), [Thoul](#thoul) (HD 3**), [Toad, Giant](#toad-giant) (HD 2 + 2), [Triton](#triton) (HD 3), [Veteran](#veteran) (HD 1d3), [War Dog](#dog) (HD 2+2), [War Horse](#horse) (HD 3), [Wight](#wight) (HD 3*), [Wolverine](#wolverine) (HD 3), [Yellow Musk Creeper](#yellow-musk-creeper) (HD 3).
+
+#### Level 4
+
+[Ant, Driver](#ant-driver) (HD 4*), [Ape, White](#ape-white) (HD 4), [Bear, Black](#bear) (HD 4), [Beaver, Giant](#beaver-giant) (HD 4), [Beetle, Giant (Water)](#beetle-giant) (HD 4), [Blink Dog](#blink-dog) (HD 4*), [Bugbear](#bugbear) (HD 3+1), [Bull](#bull) (HD 4), [Carrion Crawler](#carrion-crawler) (HD 3 + 1*), [Cat, Great (Mountain Lion)](#cat-great) (HD 3 + 2), [Cat, Great (Panther)](#cat-great) (HD 4), [Cattle](#cattle) (HD 1-4), [Centaur](#centaur) (HD 4), [Doppelganger](#doppelganger) (HD 4*), [Eagle, Giant](#eagle-giant) (HD 4), [Fish, Giant (Giant Piranha)](#fish-giant) (HD 3 + 3), [Gargoyle](#gargoyle) (HD 4), [Gelatinous Cube](#gelatinous-cube) (HD 4*), [Ghast](#ghast) (HD 4), [Giant Hawk](#hawk) (HD 3 + 3), [Githzerai](#githzerai) (HD 4), [Goat, Giant](#goat-giant) (HD 3+1), [Herd Animals](#herd-animals) (HD 1-4), [Hippocampus](#hippocampus) (HD 4), [Hippogriff](#hippogriff) (HD 3 + 1), [Irish Deer](#irish-deer) (HD 4), [Jackalwere](#jackalwere) (HD 4), [Living Statue, Iron](#living-statue) (HD 4), [Lizards, Giant (Gecko)](#lizards-giant) (HD 3 + 1), [Medusa](#medusa) (HD 4*), [Mermen](#mermen) (HD 1-4), [Owl, Giant](#owl-giant) (HD 4), [Peryton](#peryton) (HD 4), [Piercer](#piercer) (HD 1-4), [Pike, Giant](#pike-giant) (HD 4), [Portuguese Man-O-War](#portuguese-man-o-war) (HD 1-4), [Pungi Ray](#ray) (HD 4), [Ram, Giant](#ram-giant) (HD 4), [Scorpion, Giant](#scorpion-giant) (HD 4*), [Shark, Mako](#shark) (HD 4), [Snake, Giant Rattler](#snake) (HD 4*), [Spider, Giant (Tarantella)](#spider-giant) (HD 4*), [Strangle Weed](#strangle-weed) (HD 2-4), [Termite, Water (Salt Water Termite)](#termite-water) (HD 4), [Tick, Giant](#tick-giant) (HD 2-4), [Unicorn](#unicorn) (HD 4*), [Wasp, Giant](#wasp-giant) (HD 4), [Water Weird](#water-weird) (HD 3+3), [Werewolf](#werewolf) (HD 4*), [Wild Boar](#boar) (HD 3+3), [Wraith](#wraith) (HD 4**).
+
+#### Level 5
+
+[Ape, Gorilla](#ape) (HD 4+1), [Bear, Grizzly](#bear) (HD 5), [Beetle, Giant (Boring)](#beetle-giant) (HD 5), [Buffalo](#buffalo) (HD 5), [Carnivorous Ape](#ape) (HD 5), [Cat, Great (Jaguar)](#cat-great) (HD 5), [Cat, Great (Lion)](#cat-great) (HD 5), [Cockatrice](#cockatrice) (HD 5**), [Crayfish, Giant](#crayfish-giant) (HD 4+4), [Dire Wolf](#wolf) (HD 4 + 1), [Giant Eel](#eel) (HD 5), [Giant Spider](#spider) (HD 4+4), [Gibbering Mouther](#gibbering-mouther) (HD 4+3), [Githyanki](#githyanki) (HD 5), [Hook Horror](#hook-horror) (HD 5), [Living Statue, Rock](#living-statue) (HD 5*), [Lizards, Giant (Draco)](#lizards-giant) (HD 4 + 2), [Lizards, Giant (Horned Chameleon)](#lizards-giant) (HD 5*), [Ochre Jelly](#ochre-jelly) (HD 5*), [Ogre](#ogre) (HD 4+1), [Otter, Giant](#otter-giant) (HD 5), [Owl Bear](#owl-bear) (HD 5), [Pterodactyl, Pteranodon](#pterodactyl) (HD 5), [Rust Monster](#rust-monster) (HD 5), [Satyr](#satyr) (HD 5), [Skunk, Giant](#skunk-giant) (HD 5), [Slithering Tracker](#slithering-tracker) (HD 5), [Snake, Rock Python](#snake) (HD 5*), [Spider, Giant (Rhagodessa)](#spider-giant) (HD 4+2*), [Troll](#troll) (HD 4 + 1), [Weasel, Giant](#weasel-giant) (HD 4 + 4), [Wereboar](#wereboar) (HD 4 + 1*), [Wererat](#wererat) (HD 5*), [Weretiger](#weretiger) (HD 5*), [Yeti](#yeti) (HD 4+4).
+
+#### Level 6
+
+[Bear, Polar](#bear) (HD 6), [Caecilia](#caecilia) (HD 6*), [Cat, Great (Tiger)](#cat-great) (HD 6), [Displacer Beast](#displacer-beast) (HD 6*), [Dragon, White](#dragon) (HD 6**), [Fish, Giant (Spiny Rockfish)](#fish-giant) (HD 5 + 5*), [Horned Devil (Malebranche)](#horned-devil-malebranche) (HD 5+5**), [Iguanodon](#iguanodon) (HD 6), [Killer Whale](#whale) (HD 6), [Large Crocodile](#crocodile) (HD 6), [Leech, Giant](#leech-giant) (HD 6), [Lizards, Giant (Tuatara)](#lizards-giant) (HD 6), [Minotaur](#minotaur) (HD 6), [Mummy](#mummy) (HD 5 + 1*), [Myconid (Fungus Man)](#myconid-fungus-man) (HD 1-6*), [Ogre Mage](#ogre-mage) (HD 5+2), [Phase Spider](#spider) (HD 5+5), [Porcupine, Giant](#porcupine-giant) (HD 6), [Rhinoceros](#rhinoceros) (HD 6), [Sea Lion](#sea-lion) (HD 6), [Sea Serpent (Lesser)](#sea-serpent-lesser) (HD 6), [Small Roc](#roc) (HD 6), [Spectre](#spectre) (HD 6**), [Squid, Giant](#squid-giant) (HD 6), [Su-Monster](#su-monster) (HD 5+5), [Succubus](#succubus) (HD 6**), [Tiger](#tiger) (HD 5+5), [Werebear](#werebear) (HD 6*).
+
+#### Level 7
+
+[Archelon](#archelon) (HD 7), [Basilisk](#basilisk) (HD 6 + 1**), [Bear, Cave](#bear-cave) (HD 7), [Bear, Dire](#bear) (HD 6+2), [Beetle, Giant (Stag)](#beetle-giant) (HD 7), [Boar, Giant](#boar-giant) (HD 7), [Catoblepas](#catoblepas) (HD 6+2), [Dragon, Black](#dragon) (HD 7**), [Drider](#drider) (HD 6+6), [Erinyes](#erinyes) (HD 6+6*), [Griffon](#griffon) (HD 7), [Groaning Spirit](#groaning-spirit) (HD 7), [Hellhound](#hellhound) (HD 3-7*), [Intellect Devourer](#intellect-devourer) (HD 6+6), [Leucrotta](#leucrotta) (HD 6+1), [Manticore](#manticore) (HD 6 + 1), [Morkoth](#morkoth) (HD 7), [Nightmare](#nightmare) (HD 6+6), [Rakshasa](#rakshasa) (HD 7), [Shadow Demon](#shadow-demon) (HD 7**), [Wind Walker](#wind-walker) (HD 6+3), [Wyvern](#wyvern) (HD 7*).
+
+#### Level 8
+
+[Aboleth](#aboleth) (HD 8), [Ankheg](#ankheg) (HD 3-8), [Barbed Devil](#barbed-devil) (HD 8**), [Ceratosaurus](#ceratosaurus) (HD 8), [Djinni](#djinni) (HD 7 + 1), [Dragon, Green](#dragon) (HD 8**), [Elemental, Air](#elemental) (HD 8), [Elemental, Earth](#elemental) (HD 8), [Elemental, Fire](#elemental) (HD 8), [Elemental, Water](#elemental) (HD 8), [Faerie Dragon](#faerie-dragon) (HD 1-8*), [Flame Salamander](#salamander) (HD 8*), [Gar, Giant](#gar-giant) (HD 8), [Golem, Bone](#golem) (HD 8), [Golem, Flesh](#golem) (HD 8*), [Gorgon](#gorgon) (HD 8*), [Gynosphinx](#sphinx) (HD 8), [Hill Giant](#giant) (HD 8), [Hippopotamus](#hippopotamus) (HD 8), [Insect Swarms](#insect-swarms) (HD (2d4)), [Invisible Stalker](#invisible-stalker) (HD 8*), [Lammasu](#lammasu) (HD 7+7), [Manta Ray](#ray) (HD 8), [Masher](#masher) (HD 8), [Monoclonius](#monoclonius) (HD 8), [Night Hag](#night-hag) (HD 8), [Octopus, Giant](#octopus-giant) (HD 8), [Otyugh](#otyugh) (HD 6-8), [Plateosaurus](#plateosaurus) (HD 8), [Revenant](#revenant) (HD 8), [Rhinoceros, Wooly](#rhinoceros-wooly) (HD 8), [Sabre-Tooth Tiger](#sabre-tooth-tiger) (HD 8), [Sea Dragons](#sea-dragons) (HD 8), [Shark, Great White](#shark) (HD 8), [Treant](#treant) (HD 8), [Type I Demon (Vrock)](#type-i-demon-vrock) (HD 8**), [Type V Demon (Marilith)](#type-v-demon-marilith) (HD 7+7**), [Water Naga](#naga) (HD 7-8), [Xorn](#xorn) (HD 7+7).
+
+#### Level 9
+
+[Ankylosaurus](#ankylosaurus) (HD 9), [Bone Devil](#bone-devil) (HD 9), [Bulette](#bulette) (HD 9), [Chimera](#chimera) (HD 9**), [Couatl](#couatl) (HD 9), [Dao](#dao) (HD 8+3), [Death Knight](#death-knight) (HD 9), [Devil Swine](#devil-swine) (HD 9*), [Dragon, Blue](#dragon) (HD 9**), [Dragonne](#dragonne) (HD 9), [Elephant](#elephant) (HD 9), [Fish, Giant (Giant Catfish)](#fish-giant) (HD 8 + 3), [Hieracosphinx](#sphinx) (HD 9), [Lamia](#lamia) (HD 9), [Mind Flayer](#mind-flayer) (HD 8+4), [Paleoscincus](#paleoscincus) (HD 9), [Skeleton Warrior](#skeleton-warrior) (HD 9), [Stone Giant](#giant) (HD 9), [Type II Demon (Hezrou)](#type-ii-demon-hezrou) (HD 9**), [Type VI Demon (Balor)](#type-vi-demon-balor) (HD 8+8**), [Umber Hulk](#umber-hulk) (HD 8+8), [Vampire](#vampire) (HD 7-9**), [Will-O-Wisp](#will-o-wisp) (HD 9).
+
+#### Level 10
+
+[Ant, Giant (Queen)](#ant-giant) (HD 10), [Black Pudding](#black-pudding) (HD 10*), [Criosphinx](#sphinx) (HD 10), [Dinichthys](#dinichthys) (HD 10), [Dragon, Red](#dragon) (HD 10**), [Efreeti](#efreeti) (HD 10*), [Ettin](#ettin) (HD 10), [Ghost](#ghost) (HD 10), [Golem, Amber](#golem) (HD 10**), [Lurker Above](#lurker-above) (HD 10), [Mimic](#mimic) (HD 7-10), [Shedu](#shedu) (HD 9+9), [Spirit Naga](#naga) (HD 9-10), [Styracosaurus](#styracosaurus) (HD 10), [Teratosaurus](#teratosaurus) (HD 10), [Turtle, Giant (Giant Snapping Turtle)](#turtle-giant) (HD 10), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu) (HD 10**).
+
+#### Level 11
+
+[Beholder](#beholder) (HD 11), [Dragon, Gold](#dragon) (HD 11**), [Fish, Giant (Giant Sturgeon)](#fish-giant) (HD 10 + 2*), [Frost Giant](#giant) (HD 10 + 1), [Golem, Clay](#golem) (HD 11*), [Ice Devil](#ice-devil) (HD 11**), [Shambling Mound](#shambling-mound) (HD 8-11), [Stegosaurus](#stegosaurus) (HD 11), [Triceratops](#triceratops) (HD 11), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee) (HD 11**), [Wereshark](#wereshark) (HD 10+3*).
+
+#### Level 12
+
+[Anatosaurus](#anatosaurus) (HD 12), [Androsphinx](#sphinx) (HD 12), [Beetle, Giant (Rhinoceros)](#beetle-giant) (HD 12), [Behir](#behir) (HD 12), [Eye of the Deep](#eye-of-the-deep) (HD 10-12), [Fire Giant](#giant) (HD 11 + 2), [Frost Salamander](#salamander) (HD 12*), [Guardian Naga](#naga) (HD 11-12), [Hydra](#hydra) (HD 5-12), [Ki-rin](#ki-rin) (HD 12), [Lambeosaurus](#lambeosaurus) (HD 12), [Large Roc](#roc) (HD 12), [Lich](#lich) (HD 11+), [Megalosaurus](#megalosaurus) (HD 12), [Mosasaurus](#mosasaurus) (HD 12), [Neotyugh](#neotyugh) (HD 9-12), [Pentaceratops](#pentaceratops) (HD 12), [Roper](#roper) (HD 10-12), [Slug, Giant](#slug-giant) (HD 12), [Titanothere](#titanothere) (HD 12), [Trapper](#trapper) (HD 12), [Whale, Narwhal](#whale) (HD 12).
+
+#### Level 13
+
+[Cloud Giant](#giant) (HD 12 + 3), [Cyclops](#cyclops) (HD 13*), [Gorgosaurus](#gorgosaurus) (HD 13), [Mammoth](#mammoth) (HD 13), [Pit Fiend](#pit-fiend) (HD 13).
+
+#### Level 14
+
+[Baluchitherium](#baluchitherium) (HD 14), [Remorhaz](#remorhaz) (HD 7-14).
+
+#### Level 15
+
+[Allosaurus](#allosaurus) (HD 15), [Elasmosaurus](#elasmosaurus) (HD 15), [Giant Crocodile](#crocodile) (HD 15), [Mastodon](#mastodon) (HD 15), [Purple Worm](#purple-worm) (HD 15*), [Storm Giant](#giant) (HD 15), [Turtle, Giant (Giant Sea Turtle)](#turtle-giant) (HD 15).
+
+#### Level 16
+
+[Aerial Servant](#aerial-servant) (HD 16*).
+
+#### Level 17
+
+*No monster in this book rounds to this level.*
+
+#### Level 18
+
+*No monster in this book rounds to this level.*
+
+#### Level 19
+
+*No monster in this book rounds to this level.*
+
+#### Level 20
+
+[Apatosaurus](#apatosaurus) (HD 30), [Brachiosaurus](#brachiosaurus) (HD 36), [Camarasaurus](#camarasaurus) (HD 20), [Cetiosaurus](#cetiosaurus) (HD 24), [Demilich](#demilich) (HD 50 hp (special)), [Diplodocus](#diplodocus) (HD 24), [Dragon Turtle](#dragon-turtle) (HD 30), [Giant Roc](#roc) (HD 36), [Golem, Bronze](#golem) (HD 20**), [Kraken](#kraken) (HD 20), [Plesiosaurus](#plesiosaurus) (HD 20), [Sperm Whale](#whale) (HD 36), [Titan](#titan) (HD 17-22), [Tyrannosaurus Rex](#tyrannosaurus-rex) (HD 20).
+
+::: pagebreak-pdf
+:::
+
+## Appendix D: Random Encounters
 
 *Source:* `OSRIC, Dungeons, Towns and Wildernesses; D&D Basic Rulebook, Part 8: Dungeon Master Information; D&D Expert Rulebook, Part 8: Dungeon Master Information`
 
-This appendix covers wandering monsters — creatures the party meets at random rather than by the DM's deliberate placement, generated on the fly according to where the party is: a dungeon level, a stretch of wilderness terrain, or the streets of a city. It adapts OSRIC's random encounter system for dungeons, towns, and the wilderness, with monster and class names translated to match this book. It does not cover the mechanics of running an encounter once it starts (surprise, initiative, combat, and so on) — those belong to the core rulebooks. For building a deliberately-stocked location such as a haunted tomb, see Appendix D: The Encounter Builder.
+This appendix covers wandering monsters — creatures the party meets at random rather than by the DM's deliberate placement, generated on the fly according to where the party is: a dungeon level, a stretch of wilderness terrain, or the streets of a city. It adapts OSRIC's random encounter system for dungeons, towns, and the wilderness, with monster and class names translated to match this book. It does not cover the mechanics of running an encounter once it starts (surprise, initiative, combat, and so on) — those belong to the core rulebooks. For building a deliberately-stocked location such as a haunted tomb, see Appendix E: The Encounter Builder.
 
 ### Building an Encounter
 
@@ -7911,7 +8089,7 @@ E. **Determine number appearing.**
 
 F. **Award treasure.** If the monster's description gives a Treasure Type, roll on the Treasure Types table (Appendix B: Treasure). If treasure is present without a guardian, use the Unguarded Treasures table (Appendix B: Treasure) instead.
 
-To stock a whole dungeon room-by-room instead of generating a single wandering monster, see *Stocking a Room* in Appendix D: The Encounter Builder.
+To stock a whole dungeon room-by-room instead of generating a single wandering monster, see *Stocking a Room* in Appendix E: The Encounter Builder.
 
 ### Encounter Frequency
 
@@ -8638,13 +8816,13 @@ below to find out what.
 |---|---|---|
 | 1 | Ruined watchtower | Guarded by a monster rolled on this terrain's Wilderness Encounters table |
 | 2 | Standing stones | Marks the site of a Cataclysm — roll below |
-| 3 | Overgrown barrow mound | A sealed tomb; stock it as a Tomb-type location with Appendix D: The Encounter Builder |
+| 3 | Overgrown barrow mound | A sealed tomb; stock it as a Tomb-type location with Appendix E: The Encounter Builder |
 | 4 | Abandoned farmstead | Looted long ago; a Rival Adventuring Party has made camp here — see *Rival Adventuring Parties*, above |
 | 5 | Hermit's hut | Home to a reclusive NPC with local knowledge; roll their former trade on the *Urban Professions* sub-table |
-| 6 | Cave mouth | Leads to a dungeon; roll `1d10` on Appendix D's *Scenarios* table for why it's here |
+| 6 | Cave mouth | Leads to a dungeon; roll `1d10` on Appendix E's *Scenarios* table for why it's here |
 | 7 | Crumbling shrine | Sacred to a forgotten power — a blessing or a curse awaits inside, DM's choice |
-| 8 | Village | Roll *Settlement Size*, Appendix E |
-| 9 | Small or Large Town | Roll *Settlement Size*, Appendix E |
+| 8 | Village | Roll *Settlement Size*, Appendix F |
+| 9 | Small or Large Town | Roll *Settlement Size*, Appendix F |
 | 10 | Bridge or ford | Tolled by whoever controls it; roll the toll-keeper's trade on *Urban Professions* |
 | 11 | Burnt-out battlefield | Scavenged bones and broken weapons; `1`-in-`6` chance the dead haven't stayed down |
 | 12 | Hunting lodge | Base of operations for a Rival Adventuring Party (see above) between expeditions |
@@ -8660,7 +8838,7 @@ below to find out what.
 #### Cataclysm
 
 A hex marked by a Cataclysm carries visible scars appropriate to the event — this pairs
-naturally with Appendix D's *Destroying an Ancient Evil* scenario, since a cataclysm is a
+naturally with Appendix E's *Destroying an Ancient Evil* scenario, since a cataclysm is a
 plausible reason a buried evil has reawakened.
 
 | d8 | Cataclysm |
@@ -8786,7 +8964,7 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 % The 13 terrain tables below are each split into two 20-row halves; shrink
 % them slightly so both halves have a better chance of sharing one page
 % instead of each wasting half a page. Scoped to this point on (nothing
-% follows Appendix C).
+% follows Appendix D).
 \let\oldsmall\small
 \renewcommand{\small}{\footnotesize}
 ```
@@ -8795,26 +8973,26 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Airborne | Animal | Dragon | Giant | Human | Humanoid |
 |---|---|---|---|---|---|---|
-| 1 | [Bat](#bat) | [Hyena](#hyena) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | Castle | [Bugbear](#bugbear) |
-| 2 | [Bat](#bat) | [Jackal](#jackal) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Dwarf](#dwarf) | [Gnoll](#gnoll) |
-| 3 | [Bat](#bat) | [Rat](#rat) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Elf](#elf) | [Gnoll](#gnoll) |
-| 4 | [Bat](#bat) | [Rat](#rat) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | Fishing Village | [Gnoll](#gnoll) |
-| 5 | [Stirge](#stirge) | [Baboon](#baboon) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Gnome](#gnome) | [Goblin](#goblin) |
-| 6 | [Stirge](#stirge) | [Dog](#dog) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Halfling](#halfling) | [Troglodyte](#troglodyte) |
-| 7 | [Stirge](#stirge) | [Snake, Pit Viper](#snake) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | Hamlet | [Hobgoblin](#hobgoblin) |
-| 8 | [Bat, Giant](#bat) | [Boar](#boar) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
-| 9 | [Bat, Giant](#bat) | [Horse](#horse) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Men, Bandit](#men) | [Hobgoblin](#hobgoblin) |
-| 10 | [Flightless Bird](#flightless-bird) | [Horse](#horse) | [Dragon, Black](#dragon) | [Giant, Hill](#giant) | [Men, Brigand](#men) | [Kobold](#kobold) |
-| 11 | [Flightless Bird](#flightless-bird) | [Bear, Black](#bear) | [Dragon, Bronze](#dragon) | [Giant, Hill](#giant) | [Men, Brigand](#men) | [Orc](#orc) |
-| 12 | [Flightless Bird](#flightless-bird) | [Cattle](#cattle) | [Dragon, Bronze](#dragon) | [Giant, Hill](#giant) | [Men, Buccaneer / Pirate](#men) | [Orc](#orc) |
-| 13 | [Flightless Bird](#flightless-bird) | [Wolf](#wolf) | [Dragon, Bronze](#dragon) | [Giant, Hill](#giant) | [Men, Buccaneer / Pirate](#men) | [Orc](#orc) |
-| 14 | [Flightless Bird](#flightless-bird) | [Snake, Rock Python](#snake) | [Dragon, Bronze](#dragon) | [Giant, Hill](#giant) | [Men, Merchant](#men) | [Orc](#orc) |
-| 15 | [Eagle, Giant](#eagle-giant) | [Cat, Great](#cat-great) | [Dragon, Gold](#dragon) | [Giant, Hill](#giant) | [Men, Merchant](#men) | [Orc](#orc) |
-| 16 | [Cockatrice](#cockatrice) | [Cat, Great](#cat-great) | [Dragon, Green](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Orc](#orc) |
-| 17 | [Shedu](#shedu) | [Lizards, Giant](#lizards-giant) | [Dragon, Green](#dragon) | [Giant, Storm](#giant) | [Men, Nomad](#men) | [Troglodyte](#troglodyte) |
-| 18 | [Chimera](#chimera) | [Lizards, Giant](#lizards-giant) | [Dragon, Green](#dragon) | [Giant, Storm](#giant) | [Men, Merchant](#men) | [Troll](#troll) |
-| 19 | [Sphinx](#sphinx) | [Rhinoceros](#rhinoceros) | [Dragon, Green](#dragon) | [Giant, Storm](#giant) | [Men, Buccaneer / Pirate](#men) | [Troll](#troll) |
-| 20 | [Sphinx](#sphinx) | [Elephant](#elephant) | [Dragon, Green](#dragon) | [Giant, Storm](#giant) | [Men, Buccaneer / Pirate](#men) | [Troll](#troll) |
+| 1 | [Bat, Normal](#bat) | [Lamprey](#lamprey) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Acolyte](#acolyte) | [Kuo-Toa](#kuo-toa) |
+| 2 | [Bat, Normal](#bat) | [Lamprey](#lamprey) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Acolyte](#acolyte) | [Kuo-Toa](#kuo-toa) |
+| 3 | [Bat, Normal](#bat) | [Lamprey](#lamprey) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Acolyte](#acolyte) | [Kuo-Toa](#kuo-toa) |
+| 4 | [Bat, Normal](#bat) | [Lamprey](#lamprey) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Bandit](#bandit) | [Kuo-Toa](#kuo-toa) |
+| 5 | [Stirge](#stirge) | [Lamprey](#lamprey) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Bandit](#bandit) | [Kuo-Toa](#kuo-toa) |
+| 6 | [Stirge](#stirge) | [Lamprey](#lamprey) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Dwarf](#dwarf) | [Kuo-Toa](#kuo-toa) |
+| 7 | [Stirge](#stirge) | [Lamprey](#lamprey) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Dwarf](#dwarf) | [Kuo-Toa](#kuo-toa) |
+| 8 | [Bat, Giant](#bat) | [Sea Horse, Giant](#sea-horse-giant) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Gnome](#gnome) | [Locathah](#locathah) |
+| 9 | [Bat, Giant](#bat) | [Sea Horse, Giant](#sea-horse-giant) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Gnome](#gnome) | [Locathah](#locathah) |
+| 10 | [Imp](#imp) | [Sea Horse, Giant](#sea-horse-giant) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Halfling](#halfling) | [Locathah](#locathah) |
+| 11 | [Imp](#imp) | [Sea Horse, Giant](#sea-horse-giant) | [Dragon, Black](#dragon) | [Storm Giant](#giant) | [Medium](#medium) | [Locathah](#locathah) |
+| 12 | [Cockatrice](#cockatrice) | [Sea Horse, Giant](#sea-horse-giant) | [Sea Dragons](#sea-dragons) | [Storm Giant](#giant) | [Men, Brigand](#men) | [Locathah](#locathah) |
+| 13 | [Cockatrice](#cockatrice) | [Sea Horse, Giant](#sea-horse-giant) | [Sea Dragons](#sea-dragons) | [Storm Giant](#giant) | [Men, Buccaneer / Pirate](#men) | [Locathah](#locathah) |
+| 14 | [Horned Devil (Malebranche)](#horned-devil-malebranche) | [Sea Snake](#snake) | [Sea Dragons](#sea-dragons) | [Storm Giant](#giant) | [Men, Merchant](#men) | [Lizard Man](#lizard-man) |
+| 15 | [Succubus](#succubus) | [Sea Snake](#snake) | [Sea Dragons](#sea-dragons) | [Storm Giant](#giant) | [Normal Human](#normal-human) | [Lizard Man](#lizard-man) |
+| 16 | [Erinyes](#erinyes) | [Sea Snake](#snake) | [Sea Dragons](#sea-dragons) | [Storm Giant](#giant) | [Trader](#trader) | [Lizard Man](#lizard-man) |
+| 17 | [Type I Demon (Vrock)](#type-i-demon-vrock) | [Sea Snake](#snake) | [Sea Dragons](#sea-dragons) | [Storm Giant](#giant) | [Berserker](#berserker) | [Lizard Man](#lizard-man) |
+| 18 | [Type VI Demon (Balor)](#type-vi-demon-balor) | [Leech, Giant](#leech-giant) | [Dragon Turtle](#dragon-turtle) | [Storm Giant](#giant) | [Elf](#elf) | [Sahuagin](#sahuagin) |
+| 19 | [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee) | [Leech, Giant](#leech-giant) | [Dragon Turtle](#dragon-turtle) | [Storm Giant](#giant) | [Noble](#noble) | [Sahuagin](#sahuagin) |
+| 20 | [Pit Fiend](#pit-fiend) | [Gar, Giant](#gar-giant) | [Dragon Turtle](#dragon-turtle) | [Storm Giant](#giant) | [Veteran](#veteran) | [Triton](#triton) |
 
 ```{=latex}
 \filbreak
@@ -8824,26 +9002,26 @@ The **NPC** category above refers to the following types of lone NPCs or small n
 
 | 1d20 | Monster | NPC | Undead | Invertebrates | Water | Special |
 |---|---|---|---|---|---|---|
-| 1 | [Pseudo-Dragon](#pseudo-dragon) | Decoys | [Ghast](#ghast) | [Centipede, Giant](#centipede-giant) | [Frog, Giant](#frog-giant) | [Pixie](#pixie) |
-| 2 | [Lizard Man](#lizard-man) | Decoys | [Ghast](#ghast) | [Centipede, Giant](#centipede-giant) | [Locathah](#locathah) | [Pixie](#pixie) |
-| 3 | [Lizard Man](#lizard-man) | Escapees | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Nixies](#nixies) |
-| 4 | [Lizard Man](#lizard-man) | Escapees | [Ghoul](#ghoul) | [Centipede, Giant](#centipede-giant) | [Toad, Giant](#toad-giant) | [Nixies](#nixies) |
-| 5 | [Centaur](#centaur) | Escapees | [Ghoul](#ghoul) | [Fly, Robber](#fly-robber) | [Triton](#triton) | [Sprite](#sprite) |
-| 6 | [Blink Dog](#blink-dog) | Joiners | [Ghoul](#ghoul) | [Fly, Robber](#fly-robber) | [Crayfish, Giant](#crayfish-giant) | [Sprite](#sprite) |
-| 7 | [Blink Dog](#blink-dog) | Joiners | [Ghoul](#ghoul) | [Spider, Giant](#spider-giant) | [Termite, Water](#termite-water) | [Homunculus](#homunculus) |
-| 8 | [Wolf](#wolf) | Joiners | [Skeleton](#skeleton) | [Spider, Giant](#spider-giant) | [Eel](#eel) | [Pseudo-Dragon](#pseudo-dragon) |
-| 9 | [Owl Bear](#owl-bear) | Joiners | [Skeleton](#skeleton) | [Wasp, Giant](#wasp-giant) | [Eel](#eel) | [Rakshasa](#rakshasa) |
-| 10 | [Owl Bear](#owl-bear) | Runners | [Skeleton](#skeleton) | [Wasp, Giant](#wasp-giant) | [Sea Serpent (Lesser)](#sea-serpent-lesser) | [Type I Demon (Vrock)](#type-i-demon-vrock) |
-| 11 | [Wererat](#wererat) | Runners | [Skeleton](#skeleton) | [Wasp, Giant](#wasp-giant) | [Hippopotamus](#hippopotamus) | [Barbed Devil](#barbed-devil) |
-| 12 | [Cat, Great](#cat-great) | Searchers | [Skeleton](#skeleton) | [Wasp, Giant](#wasp-giant) | [Fish, Giant](#fish-giant) | [Barbed Devil](#barbed-devil) |
-| 13 | [Basilisk](#basilisk) | Searchers | [Will-O-Wisp](#will-o-wisp) | [Wasp, Giant](#wasp-giant) | [Fish, Giant](#fish-giant) | [Invisible Stalker](#invisible-stalker) |
-| 14 | [Basilisk](#basilisk) | Searchers | [Zombie](#zombie) | [Ant, Giant](#ant-giant) | [Naga](#naga) | [Night Hag](#night-hag) |
-| 15 | [Lizards, Giant](#lizards-giant) | Searchers | [Zombie](#zombie) | [Ant, Giant](#ant-giant) | [Beetle, Giant](#beetle-giant) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
-| 16 | [Lizards, Giant](#lizards-giant) | Searchers | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) |
-| 17 | [Hellhound](#hellhound) | Survivors | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Crocodile](#crocodile) | [Bone Devil](#bone-devil) |
-| 18 | [Bulette](#bulette) | [Wolf](#wolf) | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Turtle, Giant](#turtle-giant) | [Elemental, Water](#elemental) |
-| 19 | [Naga](#naga) | [Wolf](#wolf) | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Turtle, Giant](#turtle-giant) | [Elemental, Water](#elemental) |
-| 20 | [Cyclops](#cyclops) | [Wolf](#wolf) | [Zombie](#zombie) | [Beetle, Giant](#beetle-giant) | [Dragon Turtle](#dragon-turtle) | [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee) |
+| 1 | [Nymph](#nymph) | Decoys | [Poltergeist](#poltergeist) | [Beetle, Giant (Water)](#beetle-giant) | [Frog, Giant (Poisonous Frog)](#frog-giant) | [Larva](#larva) |
+| 2 | [Nymph](#nymph) | Decoys | [Poltergeist](#poltergeist) | [Beetle, Giant (Water)](#beetle-giant) | [Nixies](#nixies) | [Larva](#larva) |
+| 3 | [Nymph](#nymph) | Escapees | [Poltergeist](#poltergeist) | [Beetle, Giant (Water)](#beetle-giant) | [Crocodile](#crocodile) | [Larva](#larva) |
+| 4 | [Nymph](#nymph) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant (Water)](#beetle-giant) | [Frog, Giant (Killer Frog)](#frog-giant) | [Larva](#larva) |
+| 5 | [Nymph](#nymph) | Escapees | [Skeleton](#skeleton) | [Beetle, Giant (Water)](#beetle-giant) | [Crab, Giant](#crab-giant) | [Manes](#manes) |
+| 6 | [Nymph](#nymph) | Joiners | [Ghoul](#ghoul) | [Beetle, Giant (Water)](#beetle-giant) | [Termite, Water (Fresh Water Termite)](#termite-water) | [Manes](#manes) |
+| 7 | [Nymph](#nymph) | Joiners | [Zombie](#zombie) | [Beetle, Giant (Water)](#beetle-giant) | [Beaver, Giant](#beaver-giant) | [Manes](#manes) |
+| 8 | [Nymph](#nymph) | Joiners | [Wight](#wight) | [Beetle, Giant (Water)](#beetle-giant) | [Pike, Giant](#pike-giant) | [Manes](#manes) |
+| 9 | [Nymph](#nymph) | Joiners | [Ghast](#ghast) | [Beetle, Giant (Water)](#beetle-giant) | [Crayfish, Giant](#crayfish-giant) | [Lemure](#lemure) |
+| 10 | [Nymph](#nymph) | Runners | [Wraith](#wraith) | [Beetle, Giant (Water)](#beetle-giant) | [Otter, Giant](#otter-giant) | [Lemure](#lemure) |
+| 11 | [Nymph](#nymph) | Runners | [Mummy](#mummy) | [Beetle, Giant (Water)](#beetle-giant) | [Large Crocodile](#crocodile) | [Quasit](#quasit) |
+| 12 | [Strangle Weed](#strangle-weed) | Searchers | [Spectre](#spectre) | [Beetle, Giant (Water)](#beetle-giant) | [Archelon](#archelon) | [Quasit](#quasit) |
+| 13 | [Strangle Weed](#strangle-weed) | Searchers | [Groaning Spirit](#groaning-spirit) | [Beetle, Giant (Water)](#beetle-giant) | [Elemental, Water](#elemental) | [Water Weird](#water-weird) |
+| 14 | [Strangle Weed](#strangle-weed) | Searchers | [Revenant](#revenant) | [Beetle, Giant (Water)](#beetle-giant) | [Hippopotamus](#hippopotamus) | [Water Weird](#water-weird) |
+| 15 | [Strangle Weed](#strangle-weed) | Searchers | [Death Knight](#death-knight) | [Beetle, Giant (Water)](#beetle-giant) | [Fish, Giant (Giant Catfish)](#fish-giant) | [Shadow Demon](#shadow-demon) |
+| 16 | [Strangle Weed](#strangle-weed) | Searchers | [Skeleton Warrior](#skeleton-warrior) | [Beetle, Giant (Water)](#beetle-giant) | [Dinichthys](#dinichthys) | [Barbed Devil](#barbed-devil) |
+| 17 | [Strangle Weed](#strangle-weed) | Survivors | [Vampire](#vampire) | [Beetle, Giant (Water)](#beetle-giant) | [Fish, Giant (Giant Sturgeon)](#fish-giant) | [Type V Demon (Marilith)](#type-v-demon-marilith) |
+| 18 | [Hydra](#hydra) | [Wolf](#wolf) | [Ghost](#ghost) | [Beetle, Giant (Water)](#beetle-giant) | [Wereshark](#wereshark) | [Bone Devil](#bone-devil) |
+| 19 | [Hydra](#hydra) | [Wolf](#wolf) | [Lich](#lich) | [Beetle, Giant (Water)](#beetle-giant) | [Elasmosaurus](#elasmosaurus) | [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu) |
+| 20 | [Hydra](#hydra) | [Wolf](#wolf) | [Demilich](#demilich) | [Beetle, Giant (Water)](#beetle-giant) | [Giant Crocodile](#crocodile) | [Ice Devil](#ice-devil) |
 
 #### Arctic
 
@@ -9616,11 +9794,11 @@ Elves, dwarves, and halflings are not given on this table, as their strongholds 
 ::: pagebreak-pdf
 :::
 
-## Appendix D: The Encounter Builder
+## Appendix E: The Encounter Builder
 
 *Source:* `D&D Basic Rulebook, Part 8: Dungeon Master Information; D&D Expert Rulebook, Part 8: Dungeon Master Information; OSRIC, Dungeons, Towns and Wildernesses`
 
-Where Appendix C generates a wandering monster on the fly, this appendix is a procedure for building a deliberately-stocked location in advance — a haunted tomb, a bandit hideout, a wizard's tower — complete with monsters placed on purpose, treasure, traps, and sensory detail.
+Where Appendix D generates a wandering monster on the fly, this appendix is a procedure for building a deliberately-stocked location in advance — a haunted tomb, a bandit hideout, a wizard's tower — complete with monsters placed on purpose, treasure, traps, and sensory detail.
 
 ### Building a Stocked Location
 
@@ -9637,7 +9815,7 @@ A. **Choose a scenario.** See *Scenarios*, below, for a background theme that gi
 B. **Place special monsters and treasure.** Decide which creatures belong in the location on purpose — guardians the scenario calls for, a boss encounter, a captive to rescue — rather than leaving them to chance. Place their treasure to match.
 
 C. **Get a floor plan and stock it.** This is one step with two methods, not two — pick whichever fits how you're building this location:
-   - *You already have a map* (hand-drawn, from a module, or already decided on): stock each remaining room using *Stocking a Room*, below. It calls on Appendix C: Random Encounters for the monster (if any) and Appendix B: Treasure for the treasure.
+   - *You already have a map* (hand-drawn, from a module, or already decided on): stock each remaining room using *Stocking a Room*, below. It calls on Appendix D: Random Encounters for the monster (if any) and Appendix B: Treasure for the treasure.
    - *You're building the layout from scratch*: use *Random Dungeon Generation*, below, to generate the floor plan room by room. Its own Table 8: Chamber or Room Contents stocks each room as the layout is built, so you do *not* also use Stocking a Room — that would mean stocking every room twice, by two different methods.
 
 D. **Add dressing.** See *Dungeon Dressing*, below, for the sensory detail — sights, sounds, smells — that makes a room feel real even when it holds nothing of mechanical importance.
@@ -9694,7 +9872,7 @@ Use this when the location already has a floor plan — hand-drawn, from a modul
 | 3 | Yes | No | No |
 | 4-6 | No | No | No |
 
-A **Monster** result is rolled on whichever Appendix C table matches this location's type — Dungeon Random Encounters for a dungeon (cross-referenced against the dungeon level being stocked), Wilderness Encounters for a wilderness lair, or Urban Encounters for an urban hideout. A **Trap** may be placed in an otherwise empty room or on top of the room's treasure; roll on the Random Trap Generation table below. For a natural or ruined location — a cave, a swamp, a wilderness lair — a Trap result may fit better as an *Environmental Hazard* instead, below; both draw treasure from the same Trap column. A **Special** is anything not exactly a trap but placed for its own reasons — a moaning corridor, a sliding room, a trick (see below) — left to the DM's invention; the Treasure table above has no Special column of its own for the same reason — roll on its Empty column if you'd rather roll than decide. When treasure is indicated, use the monster's own Treasure Type if a monster is present, or the Unguarded Treasures table (Appendix B: Treasure) if the room is empty, holds only a trap, or holds a Special.
+A **Monster** result is rolled on whichever Appendix D table matches this location's type — Dungeon Random Encounters for a dungeon (cross-referenced against the dungeon level being stocked), Wilderness Encounters for a wilderness lair, or Urban Encounters for an urban hideout. A **Trap** may be placed in an otherwise empty room or on top of the room's treasure; roll on the Random Trap Generation table below. For a natural or ruined location — a cave, a swamp, a wilderness lair — a Trap result may fit better as an *Environmental Hazard* instead, below; both draw treasure from the same Trap column. A **Special** is anything not exactly a trap but placed for its own reasons — a moaning corridor, a sliding room, a trick (see below) — left to the DM's invention; the Treasure table above has no Special column of its own for the same reason — roll on its Empty column if you'd rather roll than decide. When treasure is indicated, use the monster's own Treasure Type if a monster is present, or the Unguarded Treasures table (Appendix B: Treasure) if the room is empty, holds only a trap, or holds a Special.
 
 ### Dungeon Dressing
 
@@ -10434,7 +10612,7 @@ If passage, proceed to Table 7: Exit Direction, Chamber Passage. If door, procee
 | Die | Result |
 |---|---|
 | 1-7 | Empty |
-| 8-11 | Monster (determine randomly — see Appendix C: Random Encounters) |
+| 8-11 | Monster (determine randomly — see Appendix D: Random Encounters) |
 | 12-17 | Monster and Treasure (as above, plus Table 9: Treasure Container, below) |
 | 18 | Stairs (see Table 13: Stairs) |
 | 19 | Trick or Trap (see *Trap Generation and Placement* and *Tricks*, above) |
@@ -10675,11 +10853,11 @@ This table is for doors that exit a room. For passages, consult Table 7: Exit Di
 
 #### Using the Random Dungeon Generator for Solo Play
 
-Start with Table 1: Starting Area Shape in the middle of a sheet of graph paper. Use Appendix C: Random Encounters to resolve monster encounters, and Appendix B: Treasure (or the tables above) to generate treasure.
+Start with Table 1: Starting Area Shape in the middle of a sheet of graph paper. Use Appendix D: Random Encounters to resolve monster encounters, and Appendix B: Treasure (or the tables above) to generate treasure.
 
 To resolve listening at doors, roll `1d12` and treat a result of 1-5 as a monster encounter. Use Table 8: Chamber or Room Contents, but treat any result as including a monster encounter; otherwise, ignore any monster encounters rolled unless the creature would be silent (undead, bugbears, etc.).
 
-*ESP*, scrying, and other means of magical detection can be resolved as follows: a roll of 1 on `1d6` indicates a monster in the area being checked. Roll the encounter using Appendix C, ignoring any monster type not detectable by the method of detection used. If a 6 is rolled, the player should reroll when actually entering the room; if a 6 comes up again, a non-detectable monster is encountered and the player's chance to be surprised increases by +1.
+*ESP*, scrying, and other means of magical detection can be resolved as follows: a roll of 1 on `1d6` indicates a monster in the area being checked. Roll the encounter using Appendix D, ignoring any monster type not detectable by the method of detection used. If a 6 is rolled, the player should reroll when actually entering the room; if a 6 comes up again, a non-detectable monster is encountered and the player's chance to be surprised increases by +1.
 
 **Stocking the Dungeon:** This appendix can stock a dungeon on its own, or a DM may design specific encounter areas without reference to random tables. Many DMs mix both methods, with designed areas surrounded by randomly-generated ones. Dungeons don't have to make sense, but they do need variety — a little thought on the placement of creatures doesn't go amiss, and rewarding player skill is an important part of this system.
 
@@ -10691,7 +10869,7 @@ To resolve listening at doors, roll `1d12` and treat a result of 1-5 as a monste
 ::: pagebreak-pdf
 :::
 
-## Appendix E: Random Settlement Builder
+## Appendix F: Random Settlement Builder
 
 *Source:* `D&D Expert Rulebook, Part 8: Dungeon Master Information; Basic Fantasy RPG Equipment Emporium`
 
@@ -10720,7 +10898,7 @@ B. **Determine government.** Roll or pick from *Government*, below — who's act
 
 C. **Roll points of interest.** Use *Points of Interest*, below, rolling the number of times given for the settlement's size. Duplicate results are fine — a town can have two smithies — but a DM who wants a cleaner list may reroll duplicates instead. A DM sketching a map can use each result's District (see below) to cluster related points of interest together, rather than scattering them at random.
 
-D. **Populate each point of interest.** See *Populating a Point of Interest*, below, to give each notable location an owner or proprietor, using the NPC sub-tables already built for Appendix C: Random Encounters rather than rolling new ones.
+D. **Populate each point of interest.** See *Populating a Point of Interest*, below, to give each notable location an owner or proprietor, using the NPC sub-tables already built for Appendix D: Random Encounters rather than rolling new ones.
 
 E. **Stock shops and services.** For any point of interest that sells goods, see *Equipment and Services*, below, for prices.
 
@@ -10754,7 +10932,7 @@ Whoever holds authority here should be at least name level, with bodyguards and 
 
 ### Points of Interest
 
-Rows are ordered from common (low rolls) to rare (high rolls), the same convention used by *Wilderness Encounters* in Appendix C. Roll the number of times given by the settlement's size (above); for Village and Small Town, restrict the roll to the range shown so rare entries stay rare.
+Rows are ordered from common (low rolls) to rare (high rolls), the same convention used by *Wilderness Encounters* in Appendix D. Roll the number of times given by the settlement's size (above); for Village and Small Town, restrict the roll to the range shown so rare entries stay rare.
 
 | Roll Range | Settlement Size |
 |---|---|
@@ -10795,7 +10973,7 @@ and defense).
 
 ### Populating a Point of Interest
 
-Give each notable point of interest an owner or a few notable staff, using the sub-tables already built for Appendix C's *Urban Encounters* rather than rolling anything new:
+Give each notable point of interest an owner or a few notable staff, using the sub-tables already built for Appendix D's *Urban Encounters* rather than rolling anything new:
 
 - **Shops, trades, and services** (General Store, Smithy, Stables, Carpenter, Weaver, Tavern, Inn, Physician, Moneylender, Alchemist or Apothecary): roll on the *Urban Professions* sub-table for the proprietor's trade, and the *Race* sub-table if their race matters. For rank-and-file staff, use the *0-Level NPCs* table. A General Store or Market Square stall may stock an item from *Trader's Wares* (in the core NPCs chapter's *Trader* entry) alongside the standard price lists below.
 - **Market Square**: several vendors at once, not one proprietor — roll on *Urban Professions* two to four times (DM's choice), once per stall.
@@ -10954,9 +11132,9 @@ name as much as a price list. Roll `d12` twice below and combine the results.
 
 What the party overhears at the Tavern (or the Market, or the Temple) can be a hook into
 somewhere else in the campaign as easily as it can be local color. Roll `d20` below, or pick
-whichever fits — several entries point toward one of Appendix D's ten *Scenarios*, so a rumor
+whichever fits — several entries point toward one of Appendix E's ten *Scenarios*, so a rumor
 heard in a settlement can seed the next dungeon, and a few point toward the kind of feature
-generated by Appendix C's Overland Hex Crawl Generation.
+generated by Appendix D's Overland Hex Crawl Generation.
 
 | d20 | Rumor |
 |---|---|
