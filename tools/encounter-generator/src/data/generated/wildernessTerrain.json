@@ -7957,11 +7957,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Ant, Giant (Worker)](#ant-giant)",
+            "raw": "[Insect Swarms](#insect-swarms)",
             "links": [
               {
-                "label": "Ant, Giant (Worker)",
-                "anchor": "ant-giant"
+                "label": "Insect Swarms",
+                "anchor": "insect-swarms"
               }
             ]
           },
@@ -8066,11 +8066,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Fly, Robber](#fly-robber)",
+            "raw": "[Ant, Giant (Worker)](#ant-giant)",
             "links": [
               {
-                "label": "Fly, Robber",
-                "anchor": "fly-robber"
+                "label": "Ant, Giant (Worker)",
+                "anchor": "ant-giant"
               }
             ]
           },
@@ -8175,11 +8175,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Spider, Giant (Crab Spider)](#spider-giant)",
+            "raw": "[Fly, Robber](#fly-robber)",
             "links": [
               {
-                "label": "Spider, Giant (Crab Spider)",
-                "anchor": "spider-giant"
+                "label": "Fly, Robber",
+                "anchor": "fly-robber"
               }
             ]
           },
@@ -8284,11 +8284,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Ant, Giant (Warrior)](#ant-giant)",
+            "raw": "[Spider, Giant (Crab Spider)](#spider-giant)",
             "links": [
               {
-                "label": "Ant, Giant (Warrior)",
-                "anchor": "ant-giant"
+                "label": "Spider, Giant (Crab Spider)",
+                "anchor": "spider-giant"
               }
             ]
           },
@@ -8393,11 +8393,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Beetle, Giant (Bombardier)](#beetle-giant)",
+            "raw": "[Ant, Giant (Warrior)](#ant-giant)",
             "links": [
               {
-                "label": "Beetle, Giant (Bombardier)",
-                "anchor": "beetle-giant"
+                "label": "Ant, Giant (Warrior)",
+                "anchor": "ant-giant"
               }
             ]
           },
@@ -8502,11 +8502,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Huge Spider](#spider)",
+            "raw": "[Beetle, Giant (Bombardier)](#beetle-giant)",
             "links": [
               {
-                "label": "Huge Spider",
-                "anchor": "spider"
+                "label": "Beetle, Giant (Bombardier)",
+                "anchor": "beetle-giant"
               }
             ]
           },
@@ -8611,11 +8611,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Ant, Driver](#ant-driver)",
+            "raw": "[Huge Spider](#spider)",
             "links": [
               {
-                "label": "Ant, Driver",
-                "anchor": "ant-driver"
+                "label": "Huge Spider",
+                "anchor": "spider"
               }
             ]
           },
@@ -8720,11 +8720,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Tick, Giant](#tick-giant)",
+            "raw": "[Ant, Driver](#ant-driver)",
             "links": [
               {
-                "label": "Tick, Giant",
-                "anchor": "tick-giant"
+                "label": "Ant, Driver",
+                "anchor": "ant-driver"
               }
             ]
           },
@@ -8829,11 +8829,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Wasp, Giant](#wasp-giant)",
+            "raw": "[Tick, Giant](#tick-giant)",
             "links": [
               {
-                "label": "Wasp, Giant",
-                "anchor": "wasp-giant"
+                "label": "Tick, Giant",
+                "anchor": "tick-giant"
               }
             ]
           },
@@ -8938,11 +8938,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Beetle, Giant (Boring)](#beetle-giant)",
+            "raw": "[Wasp, Giant](#wasp-giant)",
             "links": [
               {
-                "label": "Beetle, Giant (Boring)",
-                "anchor": "beetle-giant"
+                "label": "Wasp, Giant",
+                "anchor": "wasp-giant"
               }
             ]
           },
@@ -9047,11 +9047,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Giant Spider](#spider)",
+            "raw": "[Beetle, Giant (Boring)](#beetle-giant)",
             "links": [
               {
-                "label": "Giant Spider",
-                "anchor": "spider"
+                "label": "Beetle, Giant (Boring)",
+                "anchor": "beetle-giant"
               }
             ]
           },
@@ -9156,10 +9156,10 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Phase Spider](#spider)",
+            "raw": "[Giant Spider](#spider)",
             "links": [
               {
-                "label": "Phase Spider",
+                "label": "Giant Spider",
                 "anchor": "spider"
               }
             ]
@@ -9265,11 +9265,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Beetle, Giant (Stag)](#beetle-giant)",
+            "raw": "[Phase Spider](#spider)",
             "links": [
               {
-                "label": "Beetle, Giant (Stag)",
-                "anchor": "beetle-giant"
+                "label": "Phase Spider",
+                "anchor": "spider"
               }
             ]
           },
@@ -9374,11 +9374,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Insect Swarms](#insect-swarms)",
+            "raw": "[Beetle, Giant (Stag)](#beetle-giant)",
             "links": [
               {
-                "label": "Insect Swarms",
-                "anchor": "insect-swarms"
+                "label": "Beetle, Giant (Stag)",
+                "anchor": "beetle-giant"
               }
             ]
           },
@@ -12380,11 +12380,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Ant, Giant (Worker)](#ant-giant)",
+            "raw": "[Insect Swarms](#insect-swarms)",
             "links": [
               {
-                "label": "Ant, Giant (Worker)",
-                "anchor": "ant-giant"
+                "label": "Insect Swarms",
+                "anchor": "insect-swarms"
               }
             ]
           },
@@ -12489,11 +12489,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Beetle, Giant (Fire)](#beetle-giant)",
+            "raw": "[Ant, Giant (Worker)](#ant-giant)",
             "links": [
               {
-                "label": "Beetle, Giant (Fire)",
-                "anchor": "beetle-giant"
+                "label": "Ant, Giant (Worker)",
+                "anchor": "ant-giant"
               }
             ]
           },
@@ -12598,10 +12598,10 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Beetle, Giant (Oil)](#beetle-giant)",
+            "raw": "[Beetle, Giant (Fire)](#beetle-giant)",
             "links": [
               {
-                "label": "Beetle, Giant (Oil)",
+                "label": "Beetle, Giant (Fire)",
                 "anchor": "beetle-giant"
               }
             ]
@@ -12707,11 +12707,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Fly, Robber](#fly-robber)",
+            "raw": "[Beetle, Giant (Oil)](#beetle-giant)",
             "links": [
               {
-                "label": "Fly, Robber",
-                "anchor": "fly-robber"
+                "label": "Beetle, Giant (Oil)",
+                "anchor": "beetle-giant"
               }
             ]
           },
@@ -12816,11 +12816,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Locust, Cave](#locust-cave)",
+            "raw": "[Fly, Robber](#fly-robber)",
             "links": [
               {
-                "label": "Locust, Cave",
-                "anchor": "locust-cave"
+                "label": "Fly, Robber",
+                "anchor": "fly-robber"
               }
             ]
           },
@@ -12925,11 +12925,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Spider, Giant (Crab Spider)](#spider-giant)",
+            "raw": "[Locust, Cave](#locust-cave)",
             "links": [
               {
-                "label": "Spider, Giant (Crab Spider)",
-                "anchor": "spider-giant"
+                "label": "Locust, Cave",
+                "anchor": "locust-cave"
               }
             ]
           },
@@ -13034,11 +13034,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Ant, Giant (Warrior)](#ant-giant)",
+            "raw": "[Spider, Giant (Crab Spider)](#spider-giant)",
             "links": [
               {
-                "label": "Ant, Giant (Warrior)",
-                "anchor": "ant-giant"
+                "label": "Spider, Giant (Crab Spider)",
+                "anchor": "spider-giant"
               }
             ]
           },
@@ -13143,11 +13143,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Beetle, Giant (Bombardier)](#beetle-giant)",
+            "raw": "[Ant, Giant (Warrior)](#ant-giant)",
             "links": [
               {
-                "label": "Beetle, Giant (Bombardier)",
-                "anchor": "beetle-giant"
+                "label": "Ant, Giant (Warrior)",
+                "anchor": "ant-giant"
               }
             ]
           },
@@ -13252,11 +13252,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Spider, Giant (Black Widow)](#spider-giant)",
+            "raw": "[Beetle, Giant (Bombardier)](#beetle-giant)",
             "links": [
               {
-                "label": "Spider, Giant (Black Widow)",
-                "anchor": "spider-giant"
+                "label": "Beetle, Giant (Bombardier)",
+                "anchor": "beetle-giant"
               }
             ]
           },
@@ -13361,11 +13361,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Scorpion, Giant](#scorpion-giant)",
+            "raw": "[Spider, Giant (Black Widow)](#spider-giant)",
             "links": [
               {
-                "label": "Scorpion, Giant",
-                "anchor": "scorpion-giant"
+                "label": "Spider, Giant (Black Widow)",
+                "anchor": "spider-giant"
               }
             ]
           },
@@ -13470,11 +13470,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Spider, Giant (Tarantella)](#spider-giant)",
+            "raw": "[Scorpion, Giant](#scorpion-giant)",
             "links": [
               {
-                "label": "Spider, Giant (Tarantella)",
-                "anchor": "spider-giant"
+                "label": "Scorpion, Giant",
+                "anchor": "scorpion-giant"
               }
             ]
           },
@@ -13579,11 +13579,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Tick, Giant](#tick-giant)",
+            "raw": "[Spider, Giant (Tarantella)](#spider-giant)",
             "links": [
               {
-                "label": "Tick, Giant",
-                "anchor": "tick-giant"
+                "label": "Spider, Giant (Tarantella)",
+                "anchor": "spider-giant"
               }
             ]
           },
@@ -13688,11 +13688,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Wasp, Giant](#wasp-giant)",
+            "raw": "[Tick, Giant](#tick-giant)",
             "links": [
               {
-                "label": "Wasp, Giant",
-                "anchor": "wasp-giant"
+                "label": "Tick, Giant",
+                "anchor": "tick-giant"
               }
             ]
           },
@@ -13797,11 +13797,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Phase Spider](#spider)",
+            "raw": "[Wasp, Giant](#wasp-giant)",
             "links": [
               {
-                "label": "Phase Spider",
-                "anchor": "spider"
+                "label": "Wasp, Giant",
+                "anchor": "wasp-giant"
               }
             ]
           },
@@ -13911,11 +13911,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Insect Swarms](#insect-swarms)",
+            "raw": "[Phase Spider](#spider)",
             "links": [
               {
-                "label": "Insect Swarms",
-                "anchor": "insect-swarms"
+                "label": "Phase Spider",
+                "anchor": "spider"
               }
             ]
           },
@@ -14698,11 +14698,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Spider, Giant (Crab Spider)](#spider-giant)",
+            "raw": "[Insect Swarms](#insect-swarms)",
             "links": [
               {
-                "label": "Spider, Giant (Crab Spider)",
-                "anchor": "spider-giant"
+                "label": "Insect Swarms",
+                "anchor": "insect-swarms"
               }
             ]
           },
@@ -15134,11 +15134,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Huge Spider](#spider)",
+            "raw": "[Spider, Giant (Crab Spider)](#spider-giant)",
             "links": [
               {
-                "label": "Huge Spider",
-                "anchor": "spider"
+                "label": "Spider, Giant (Crab Spider)",
+                "anchor": "spider-giant"
               }
             ]
           },
@@ -15570,11 +15570,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Ant, Driver](#ant-driver)",
+            "raw": "[Huge Spider](#spider)",
             "links": [
               {
-                "label": "Ant, Driver",
-                "anchor": "ant-driver"
+                "label": "Huge Spider",
+                "anchor": "spider"
               }
             ]
           },
@@ -15788,11 +15788,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Tick, Giant](#tick-giant)",
+            "raw": "[Ant, Driver](#ant-driver)",
             "links": [
               {
-                "label": "Tick, Giant",
-                "anchor": "tick-giant"
+                "label": "Ant, Driver",
+                "anchor": "ant-driver"
               }
             ]
           },
@@ -16011,11 +16011,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Giant Spider](#spider)",
+            "raw": "[Tick, Giant](#tick-giant)",
             "links": [
               {
-                "label": "Giant Spider",
-                "anchor": "spider"
+                "label": "Tick, Giant",
+                "anchor": "tick-giant"
               }
             ]
           },
@@ -16125,11 +16125,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Insect Swarms](#insect-swarms)",
+            "raw": "[Giant Spider](#spider)",
             "links": [
               {
-                "label": "Insect Swarms",
-                "anchor": "insect-swarms"
+                "label": "Giant Spider",
+                "anchor": "spider"
               }
             ]
           },
@@ -23325,11 +23325,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Ant, Giant (Worker)](#ant-giant)",
+            "raw": "[Insect Swarms](#insect-swarms)",
             "links": [
               {
-                "label": "Ant, Giant (Worker)",
-                "anchor": "ant-giant"
+                "label": "Insect Swarms",
+                "anchor": "insect-swarms"
               }
             ]
           },
@@ -23761,11 +23761,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Beetle, Giant (Oil)](#beetle-giant)",
+            "raw": "[Ant, Giant (Worker)](#ant-giant)",
             "links": [
               {
-                "label": "Beetle, Giant (Oil)",
-                "anchor": "beetle-giant"
+                "label": "Ant, Giant (Worker)",
+                "anchor": "ant-giant"
               }
             ]
           },
@@ -23979,11 +23979,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Fly, Robber](#fly-robber)",
+            "raw": "[Beetle, Giant (Oil)](#beetle-giant)",
             "links": [
               {
-                "label": "Fly, Robber",
-                "anchor": "fly-robber"
+                "label": "Beetle, Giant (Oil)",
+                "anchor": "beetle-giant"
               }
             ]
           },
@@ -24197,11 +24197,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Ant, Giant (Warrior)](#ant-giant)",
+            "raw": "[Fly, Robber](#fly-robber)",
             "links": [
               {
-                "label": "Ant, Giant (Warrior)",
-                "anchor": "ant-giant"
+                "label": "Fly, Robber",
+                "anchor": "fly-robber"
               }
             ]
           },
@@ -24415,11 +24415,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Beetle, Giant (Bombardier)](#beetle-giant)",
+            "raw": "[Ant, Giant (Warrior)](#ant-giant)",
             "links": [
               {
-                "label": "Beetle, Giant (Bombardier)",
-                "anchor": "beetle-giant"
+                "label": "Ant, Giant (Warrior)",
+                "anchor": "ant-giant"
               }
             ]
           },
@@ -24524,11 +24524,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Ant, Driver](#ant-driver)",
+            "raw": "[Beetle, Giant (Bombardier)](#beetle-giant)",
             "links": [
               {
-                "label": "Ant, Driver",
-                "anchor": "ant-driver"
+                "label": "Beetle, Giant (Bombardier)",
+                "anchor": "beetle-giant"
               }
             ]
           },
@@ -24633,11 +24633,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Spider, Giant (Tarantella)](#spider-giant)",
+            "raw": "[Ant, Driver](#ant-driver)",
             "links": [
               {
-                "label": "Spider, Giant (Tarantella)",
-                "anchor": "spider-giant"
+                "label": "Ant, Driver",
+                "anchor": "ant-driver"
               }
             ]
           },
@@ -24742,11 +24742,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Wasp, Giant](#wasp-giant)",
+            "raw": "[Spider, Giant (Tarantella)](#spider-giant)",
             "links": [
               {
-                "label": "Wasp, Giant",
-                "anchor": "wasp-giant"
+                "label": "Spider, Giant (Tarantella)",
+                "anchor": "spider-giant"
               }
             ]
           },
@@ -24856,11 +24856,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Insect Swarms](#insect-swarms)",
+            "raw": "[Wasp, Giant](#wasp-giant)",
             "links": [
               {
-                "label": "Insect Swarms",
-                "anchor": "insect-swarms"
+                "label": "Wasp, Giant",
+                "anchor": "wasp-giant"
               }
             ]
           },
@@ -26079,11 +26079,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Ant, Giant (Worker)](#ant-giant)",
+            "raw": "[Insect Swarms](#insect-swarms)",
             "links": [
               {
-                "label": "Ant, Giant (Worker)",
-                "anchor": "ant-giant"
+                "label": "Insect Swarms",
+                "anchor": "insect-swarms"
               }
             ]
           },
@@ -26406,11 +26406,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Beetle, Giant (Oil)](#beetle-giant)",
+            "raw": "[Ant, Giant (Worker)](#ant-giant)",
             "links": [
               {
-                "label": "Beetle, Giant (Oil)",
-                "anchor": "beetle-giant"
+                "label": "Ant, Giant (Worker)",
+                "anchor": "ant-giant"
               }
             ]
           },
@@ -26624,11 +26624,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Fly, Robber](#fly-robber)",
+            "raw": "[Beetle, Giant (Oil)](#beetle-giant)",
             "links": [
               {
-                "label": "Fly, Robber",
-                "anchor": "fly-robber"
+                "label": "Beetle, Giant (Oil)",
+                "anchor": "beetle-giant"
               }
             ]
           },
@@ -26842,11 +26842,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Ant, Giant (Warrior)](#ant-giant)",
+            "raw": "[Fly, Robber](#fly-robber)",
             "links": [
               {
-                "label": "Ant, Giant (Warrior)",
-                "anchor": "ant-giant"
+                "label": "Fly, Robber",
+                "anchor": "fly-robber"
               }
             ]
           },
@@ -26951,11 +26951,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Spider, Giant (Black Widow)](#spider-giant)",
+            "raw": "[Ant, Giant (Warrior)](#ant-giant)",
             "links": [
               {
-                "label": "Spider, Giant (Black Widow)",
-                "anchor": "spider-giant"
+                "label": "Ant, Giant (Warrior)",
+                "anchor": "ant-giant"
               }
             ]
           },
@@ -27065,11 +27065,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Insect Swarms](#insect-swarms)",
+            "raw": "[Spider, Giant (Black Widow)](#spider-giant)",
             "links": [
               {
-                "label": "Insect Swarms",
-                "anchor": "insect-swarms"
+                "label": "Spider, Giant (Black Widow)",
+                "anchor": "spider-giant"
               }
             ]
           },
@@ -30725,11 +30725,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
+            "raw": "[Insect Swarms](#insect-swarms)",
             "links": [
               {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
+                "label": "Insect Swarms",
+                "anchor": "insect-swarms"
               }
             ]
           },
@@ -30834,11 +30834,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
+            "raw": "[Insect Swarms](#insect-swarms)",
             "links": [
               {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
+                "label": "Insect Swarms",
+                "anchor": "insect-swarms"
               }
             ]
           },
@@ -30943,11 +30943,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
+            "raw": "[Insect Swarms](#insect-swarms)",
             "links": [
               {
-                "label": "Beetle, Giant (Water)",
-                "anchor": "beetle-giant"
+                "label": "Insect Swarms",
+                "anchor": "insect-swarms"
               }
             ]
           },
@@ -31384,11 +31384,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Insect Swarms](#insect-swarms)",
+            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
             "links": [
               {
-                "label": "Insect Swarms",
-                "anchor": "insect-swarms"
+                "label": "Beetle, Giant (Water)",
+                "anchor": "beetle-giant"
               }
             ]
           },
@@ -31498,11 +31498,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Insect Swarms](#insect-swarms)",
+            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
             "links": [
               {
-                "label": "Insect Swarms",
-                "anchor": "insect-swarms"
+                "label": "Beetle, Giant (Water)",
+                "anchor": "beetle-giant"
               }
             ]
           },
@@ -31612,11 +31612,11 @@
             ]
           },
           "Invertebrates": {
-            "raw": "[Insect Swarms](#insect-swarms)",
+            "raw": "[Beetle, Giant (Water)](#beetle-giant)",
             "links": [
               {
-                "label": "Insect Swarms",
-                "anchor": "insect-swarms"
+                "label": "Beetle, Giant (Water)",
+                "anchor": "beetle-giant"
               }
             ]
           },
