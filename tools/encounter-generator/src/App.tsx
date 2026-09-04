@@ -116,7 +116,7 @@ function App() {
   return (
     <>
       <header className="app-header">
-        <h1>Appendix C: Random Encounters</h1>
+        <h1>Appendix D: Random Encounters</h1>
         <p>A companion roller for the B/X Expert Rulebook's wandering-monster, hex-crawl, and urban-encounter tables.</p>
       </header>
 
@@ -335,7 +335,7 @@ function App() {
         )}
       </div>
 
-      <footer>Source: D&amp;D Basic/Expert Rulebooks &amp; OSRIC, Dungeons, Towns and Wildernesses (Appendix C).</footer>
+      <footer>Source: D&amp;D Basic/Expert Rulebooks &amp; OSRIC, Dungeons, Towns and Wildernesses (Appendix D).</footer>
     </>
   );
 }

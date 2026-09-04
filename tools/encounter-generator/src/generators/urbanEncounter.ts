@@ -1,4 +1,4 @@
-// Appendix C, "Urban Encounters": Daytime/Nighttime d% tables. Every "Encounter" cell in these
+// Appendix D, "Urban Encounters": Daytime/Nighttime d% tables. Every "Encounter" cell in these
 // tables is plain text in the book (no monster links) — some are 0-level townsfolk resolved via
 // the Race/Urban Professions/Red-Light Professions sub-tables named in the notes text, some are
 // real monsters (Ghoul, Wererat, Vampire...) named only by prose. Rather than guess which is

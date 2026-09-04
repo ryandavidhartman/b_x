@@ -59,6 +59,18 @@ function sectionEndLine(hIdx) {
   return lines.length;
 }
 
+// Random Encounters is not always Appendix C — Appendix C now holds the "Monster Quick
+// Reference" cross-index (added 2026-09-04), which reuses several of the same heading texts
+// (e.g. "#### Aquatic") for its own terrain lists. Every scoped lookup below must start searching
+// from the real "Random Encounters" appendix heading, found dynamically, not a hardcoded line
+// number — otherwise a search from before that point would match the cross-index's headings
+// first.
+const RANDOM_ENCOUNTERS_START = (() => {
+  const h = headings.find((h) => h.level === 2 && h.text.endsWith("Random Encounters"));
+  if (!h) throw new Error('Could not find the "Random Encounters" appendix heading (level 2).');
+  return h.line;
+})();
+
 // ---------------------------------------------------------------------------
 // Generic pipe-table block parser
 // ---------------------------------------------------------------------------
@@ -225,13 +237,13 @@ for (let hIdx = 0; hIdx < headings.length; hIdx++) {
 // Appendix C: Dungeon Random Encounters
 // ---------------------------------------------------------------------------
 
-const monsterSubtableMatrix = firstTable("Monster Sub-table Matrix (d12)", 4, 7878);
+const monsterSubtableMatrix = firstTable("Monster Sub-table Matrix (d12)", 4, RANDOM_ENCOUNTERS_START);
 
 const dungeonLevels = {};
 for (let n = 1; n <= 10; n++) {
-  const table = firstTable(`Monster Level ${n}`, 4, 7878);
-  const dragonHIdx = headingIndexByText(`Monster Level ${n} Dragon Sub-table`, 5, 7878);
-  const dragonSubtable = dragonHIdx === -1 ? null : firstTable(`Monster Level ${n} Dragon Sub-table`, 5, 7878);
+  const table = firstTable(`Monster Level ${n}`, 4, RANDOM_ENCOUNTERS_START);
+  const dragonHIdx = headingIndexByText(`Monster Level ${n} Dragon Sub-table`, 5, RANDOM_ENCOUNTERS_START);
+  const dragonSubtable = dragonHIdx === -1 ? null : firstTable(`Monster Level ${n} Dragon Sub-table`, 5, RANDOM_ENCOUNTERS_START);
   dungeonLevels[n] = { table, dragonSubtable };
 }
 
@@ -239,7 +251,7 @@ for (let n = 1; n <= 10; n++) {
 // Appendix C: NPC Parties (All Dungeon Levels) + main-body NPC Parties tables
 // ---------------------------------------------------------------------------
 
-const npcRaceMulticlass = firstTable("NPC Race and Multi-Class Chance", 4, 7878);
+const npcRaceMulticlass = firstTable("NPC Race and Multi-Class Chance", 4, RANDOM_ENCOUNTERS_START);
 const npcAdventurerClassLevel = firstTable("NPC Adventurer Class and Level", 4, 0);
 const npcAdventurerAlignment = firstTable("NPC Adventurer Alignment", 4, 0);
 
@@ -259,14 +271,14 @@ const rivalTables = (() => {
 // ---------------------------------------------------------------------------
 
 const urbanEncounters = {
-  zeroLevelNpcs: firstTable("0-Level NPCs", 4, 7878),
-  race: firstTable("Race", 5, 7878),
-  urbanProfessions: firstTable("Urban Professions", 5, 7878),
-  nobleProfessions: firstTable("Noble Professions", 5, 7878),
-  redLightProfessions: firstTable("Red-Light Professions", 5, 7878),
-  nighttimeEncounters: firstTable("Nighttime Encounters", 4, 7878),
-  daytimeEncounters: firstTable("Daytime Encounters", 4, 7878),
-  urbanEncounterLevel: firstTable("Urban Encounter Level", 4, 7878),
+  zeroLevelNpcs: firstTable("0-Level NPCs", 4, RANDOM_ENCOUNTERS_START),
+  race: firstTable("Race", 5, RANDOM_ENCOUNTERS_START),
+  urbanProfessions: firstTable("Urban Professions", 5, RANDOM_ENCOUNTERS_START),
+  nobleProfessions: firstTable("Noble Professions", 5, RANDOM_ENCOUNTERS_START),
+  redLightProfessions: firstTable("Red-Light Professions", 5, RANDOM_ENCOUNTERS_START),
+  nighttimeEncounters: firstTable("Nighttime Encounters", 4, RANDOM_ENCOUNTERS_START),
+  daytimeEncounters: firstTable("Daytime Encounters", 4, RANDOM_ENCOUNTERS_START),
+  urbanEncounterLevel: firstTable("Urban Encounter Level", 4, RANDOM_ENCOUNTERS_START),
 };
 
 // ---------------------------------------------------------------------------
@@ -274,13 +286,13 @@ const urbanEncounters = {
 // ---------------------------------------------------------------------------
 
 const hexCrawl = (() => {
-  const { blocks } = tableBlocksInSection("Terrain Stepping", 4, 7878);
+  const { blocks } = tableBlocksInSection("Terrain Stepping", 4, RANDOM_ENCOUNTERS_START);
   const [terrainLoopBlock, newHexBlock] = blocks;
   return {
     terrainLoop: terrainLoopBlock ? blockToRows(terrainLoopBlock) : { headers: [], rows: [] },
     newHex: newHexBlock ? blockToRows(newHexBlock) : { headers: [], rows: [] },
-    pointsOfInterest: firstTable("Points of Interest", 4, 7878),
-    cataclysm: firstTable("Cataclysm", 4, 7878),
+    pointsOfInterest: firstTable("Points of Interest", 4, RANDOM_ENCOUNTERS_START),
+    cataclysm: firstTable("Cataclysm", 4, RANDOM_ENCOUNTERS_START),
   };
 })();
 
@@ -288,14 +300,14 @@ const hexCrawl = (() => {
 // Appendix C: Wilderness Encounters
 // ---------------------------------------------------------------------------
 
-const wildernessEncounterLevel = firstTable("Wilderness Encounter Level", 4, 7878);
-const becomingLost = firstTable("Becoming Lost", 4, 7878);
-const terrainNameCrossReference = firstTable("Terrain Name Cross-Reference", 4, 7878);
-const encounterFrequency = firstTable("Encounter Frequency", 3, 7878);
-const encounterPurpose = firstTable("Encounter Purpose", 3, 7878);
+const wildernessEncounterLevel = firstTable("Wilderness Encounter Level", 4, RANDOM_ENCOUNTERS_START);
+const becomingLost = firstTable("Becoming Lost", 4, RANDOM_ENCOUNTERS_START);
+const terrainNameCrossReference = firstTable("Terrain Name Cross-Reference", 4, RANDOM_ENCOUNTERS_START);
+const encounterFrequency = firstTable("Encounter Frequency", 3, RANDOM_ENCOUNTERS_START);
+const encounterPurpose = firstTable("Encounter Purpose", 3, RANDOM_ENCOUNTERS_START);
 
 const terrainCategorySummary = (() => {
-  const { blocks } = tableBlocksInSection("Terrain Category Summary (d%)", 4, 7878);
+  const { blocks } = tableBlocksInSection("Terrain Category Summary (d%)", 4, RANDOM_ENCOUNTERS_START);
   const [firstHalf, secondHalf] = blocks.map(blockToRows);
   // Merge on the shared "Terrain" row key.
   const rows = firstHalf.rows.map((row, i) => ({ ...row, ...(secondHalf?.rows[i] ?? {}) }));
@@ -309,7 +321,7 @@ const TERRAIN_NAMES = [
 
 const terrains = {};
 for (const name of TERRAIN_NAMES) {
-  const { blocks } = tableBlocksInSection(name, 4, 7878);
+  const { blocks } = tableBlocksInSection(name, 4, RANDOM_ENCOUNTERS_START);
   const [firstHalf, secondHalf] = blocks.map(blockToRows);
   if (!firstHalf) continue;
   const rollKey = firstHalf.headers[0]; // e.g. "1d20"
@@ -326,8 +338,8 @@ for (const name of TERRAIN_NAMES) {
 
 // Dinosaur sub-table: main d8 table + every level-5 heading nested under it (d6-with-Era tables).
 const dinosaurSubtable = (() => {
-  const main = firstTable("Dinosaur Sub-table", 4, 7878);
-  const hIdx = headingIndexByText("Dinosaur Sub-table", 4, 7878);
+  const main = firstTable("Dinosaur Sub-table", 4, RANDOM_ENCOUNTERS_START);
+  const hIdx = headingIndexByText("Dinosaur Sub-table", 4, RANDOM_ENCOUNTERS_START);
   const end = sectionEndLine(hIdx);
   const subTables = {};
   for (let j = hIdx + 1; j < headings.length && headings[j].line < end; j++) {
@@ -337,7 +349,7 @@ const dinosaurSubtable = (() => {
   return { main, subTables };
 })();
 
-const castleEncounters = firstTable("Castle Encounters", 4, 7878);
+const castleEncounters = firstTable("Castle Encounters", 4, RANDOM_ENCOUNTERS_START);
 
 // ---------------------------------------------------------------------------
 // Write output + resolution report

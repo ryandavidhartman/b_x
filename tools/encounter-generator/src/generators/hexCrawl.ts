@@ -1,4 +1,4 @@
-// Appendix C, "Overland Hex Crawl Generation": Terrain Stepping, Points of Interest, Cataclysm.
+// Appendix D, "Overland Hex Crawl Generation": Terrain Stepping, Points of Interest, Cataclysm.
 import hexData from "../data/generated/hexCrawl.json";
 import type { Table } from "../data/generated/types";
 import { rollDie, rollDice } from "../lib/dice";

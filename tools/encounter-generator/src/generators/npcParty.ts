@@ -1,4 +1,4 @@
-// "NPC Parties" (main body, reused throughout Appendix C for Dungeon/Wilderness/Hex Crawl "NPC
+// "NPC Parties" (main body, reused throughout Appendix D for Dungeon/Wilderness/Hex Crawl "NPC
 // Party" results) + the "Rival Adventuring Parties" flavor layer. Archetype compositions are
 // hand-transcribed from the book's prose bullet list (not a table, so not auto-extracted) —
 // see the section right before "Trader" in combined-monsters.md.

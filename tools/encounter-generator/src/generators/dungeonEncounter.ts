@@ -1,4 +1,4 @@
-// Appendix C, "Dungeon Random Encounters": dungeon level -> 1d12 on the Monster Sub-table
+// Appendix D, "Dungeon Random Encounters": dungeon level -> 1d12 on the Monster Sub-table
 // Matrix -> Monster Level -> d% on that level's table -> monster + number appearing.
 import dungeonData from "../data/generated/dungeonEncounters.json";
 import type { Table } from "../data/generated/types";

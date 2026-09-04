@@ -1,4 +1,4 @@
-// Appendix C, "Wilderness Encounters": terrain -> d% category -> a level-scaled die against that
+// Appendix D, "Wilderness Encounters": terrain -> d% category -> a level-scaled die against that
 // terrain's table -> monster, with its number pulled from the monster's own wilderness (lair)
 // No. Appearing figure rather than a table column. Also Becoming Lost, Foraging, and Castle
 // Encounters — small book sub-procedures of wilderness travel, not separate settings.
