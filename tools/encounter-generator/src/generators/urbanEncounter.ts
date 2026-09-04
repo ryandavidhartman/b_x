@@ -1,14 +1,19 @@
-// Appendix D, "Urban Encounters": Daytime/Nighttime d% tables. Every "Encounter" cell in these
-// tables is plain text in the book (no monster links) — some are 0-level townsfolk resolved via
-// the Race/Urban Professions/Red-Light Professions sub-tables named in the notes text, some are
-// real monsters (Ghoul, Wererat, Vampire...) named only by prose. Rather than guess which is
-// which, this surfaces the roll result's raw notes text as-is (see RollableText in the UI for
-// interactively rolling the inline dice inside it) and auto-rolls only the three sub-tables the
-// book explicitly names by phrase.
+// Appendix D, "Urban Encounters": two things live here now.
+//
+// 1. Daytime/Nighttime d% tables — purely street-life color (Beggar, Watchman, Merchant, a drunk,
+//    a press gang...). Every "Encounter" cell is plain text in the book (no monster links); some
+//    resolve further via the Race/Urban Professions/Red-Light Professions sub-tables named in the
+//    notes text. See RollableText in the UI for interactively rolling the inline dice inside it.
+// 2. Urban/Castle monster tables — same Level|Monster shape as the wilderness terrain tables (see
+//    generate-appendix-d-tables.mjs and wildernessEncounter.ts), for when the party actually meets
+//    a real monster rather than a street NPC. Party level indexes the row directly.
 import urbanData from "../data/generated/urbanEncounters.json";
+import urbanLocationsData from "../data/generated/urbanLocations.json";
 import type { Table } from "../data/generated/types";
 import { rollDie, rollSpec, pick } from "../lib/dice";
 import { findRowByRoll, inRange, cellText } from "../lib/rangeTable";
+import { resolveMonsterLink, type ResolvedMonster } from "../lib/resolveMonster";
+import { parseNumberAppearing, rollAppearing } from "../lib/numberAppearing";
 
 const DATA = urbanData as unknown as {
   zeroLevelNpcs: Table;
@@ -18,8 +23,9 @@ const DATA = urbanData as unknown as {
   redLightProfessions: Table;
   nighttimeEncounters: Table;
   daytimeEncounters: Table;
-  urbanEncounterLevel: Table;
 };
+const LOCATIONS = urbanLocationsData as unknown as Record<"Urban" | "Castle", Table>;
+export const URBAN_LOCATION_NAMES = Object.keys(LOCATIONS) as Array<"Urban" | "Castle">;
 
 export type TimeOfDay = "day" | "night";
 
@@ -81,23 +87,10 @@ export interface UrbanEncounterResult {
   roll: number;
   encounter: string;
   notes: string;
-  outOfPlace: string | null; // e.g. "5+" if the party is under that level
   autoSubRolls: SubRoll[];
 }
 
-function checkOutOfPlace(encounter: string, partyLevel: number): string | null {
-  for (const row of DATA.urbanEncounterLevel.rows) {
-    const names = cellText(row["Entries out of place below this level"]).split(",").map((s) => s.trim());
-    if (names.some((n) => encounter.includes(n))) {
-      const levelRaw = cellText(row["Party Level"]);
-      const threshold = parseInt(levelRaw, 10);
-      if (partyLevel < threshold) return levelRaw;
-    }
-  }
-  return null;
-}
-
-export function rollUrbanEncounter(timeOfDay: TimeOfDay, partyLevel: number): UrbanEncounterResult {
+export function rollUrbanEncounter(timeOfDay: TimeOfDay): UrbanEncounterResult {
   const table = timeOfDay === "day" ? DATA.daytimeEncounters : DATA.nighttimeEncounters;
   const roll = rollDie(100);
   const row = findRowByRoll(table.rows, "d%", roll, { percentile: true });
@@ -110,5 +103,44 @@ export function rollUrbanEncounter(timeOfDay: TimeOfDay, partyLevel: number): Ur
   if (notes.includes("Urban Professions sub-table")) autoSubRolls.push({ table: "Urban Professions", result: rollUrbanProfession() });
   if (notes.includes("Red-Light Professions sub-table")) autoSubRolls.push({ table: "Red-Light Professions", result: rollRedLightProfession() });
 
-  return { timeOfDay, roll, encounter, notes, outOfPlace: checkOutOfPlace(encounter, partyLevel), autoSubRolls };
+  return { timeOfDay, roll, encounter, notes, autoSubRolls };
+}
+
+export interface UrbanMonsterEncounterResult {
+  location: "Urban" | "Castle";
+  levelRoll: number;
+  resultRaw: string;
+  monster: ResolvedMonster | null;
+  count: number | null;
+  choiceNote?: string;
+  borrowedFromLevel: string | null;
+}
+
+const BORROW_RE = /\*\(as Level ([\d/]+)\)\*/;
+
+/** A real monster encounter in town or at a stronghold, as opposed to the street-life color of
+ * rollUrbanEncounter — same level-pool mechanism as the wilderness terrain tables. */
+export function rollUrbanMonsterEncounter(location: "Urban" | "Castle", partyLevel: number): UrbanMonsterEncounterResult {
+  const table = LOCATIONS[location];
+  const row = table.rows.find((r) => cellText(r.Level) === String(partyLevel));
+  if (!row) throw new Error(`no ${location} row for level ${partyLevel}`);
+  const cell = row.Monster;
+  const resultRaw = cellText(cell);
+  const borrowedFromLevel = resultRaw.match(BORROW_RE)?.[1] ?? null;
+
+  let monster: ResolvedMonster | null = null;
+  let choiceNote: string | undefined;
+  if (cell.links.length > 0) {
+    const chosen = pick(cell.links);
+    monster = resolveMonsterLink(chosen.label, chosen.anchor);
+    choiceNote = `picked at random among ${cell.links.length} option(s) -> ${chosen.label}`;
+  }
+
+  let count: number | null = null;
+  if (monster) {
+    const appearing = parseNumberAppearing(monster.stats["No. Appearing"] ?? "1");
+    count = rollAppearing(appearing.wilderness);
+  }
+
+  return { location, levelRoll: partyLevel, resultRaw, monster, count, choiceNote, borrowedFromLevel };
 }

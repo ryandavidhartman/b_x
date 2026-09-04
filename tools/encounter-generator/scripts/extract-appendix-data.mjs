@@ -158,7 +158,13 @@ const urbanEncounters = {
   redLightProfessions: firstTable("Red-Light Professions", 5, RANDOM_ENCOUNTERS_START),
   nighttimeEncounters: firstTable("Nighttime Encounters", 4, RANDOM_ENCOUNTERS_START),
   daytimeEncounters: firstTable("Daytime Encounters", 4, RANDOM_ENCOUNTERS_START),
-  urbanEncounterLevel: firstTable("Urban Encounter Level", 4, RANDOM_ENCOUNTERS_START),
+};
+
+// Urban and Castle monster tables — same Level|Monster shape as the wilderness terrain tables
+// (see generate-appendix-d-tables.mjs), sourced from Appendix C's existing Urban/Castle tags.
+const urbanLocations = {
+  Urban: firstTable("Urban", 4, RANDOM_ENCOUNTERS_START),
+  Castle: firstTable("Castle", 4, RANDOM_ENCOUNTERS_START),
 };
 
 // ---------------------------------------------------------------------------
@@ -239,6 +245,7 @@ write("npcParties", {
   rival: rivalTables,
 });
 write("urbanEncounters", urbanEncounters);
+write("urbanLocations", urbanLocations);
 write("hexCrawl", hexCrawl);
 write("wildernessTerrain", {
   terrains,
@@ -265,7 +272,7 @@ function collectLinks(node, out) {
 }
 
 const allLinks = [];
-collectLinks({ dungeonLevels, terrains, hexCrawl, castleEncounters, urbanEncounters }, allLinks);
+collectLinks({ dungeonLevels, terrains, hexCrawl, castleEncounters, urbanEncounters, urbanLocations }, allLinks);
 
 // Matches the runtime resolver in src/lib/resolveMonster.ts. A label with no hint beyond the
 // compound heading's own name (plain "Elemental", or "Lizards, Giant" where the heading itself

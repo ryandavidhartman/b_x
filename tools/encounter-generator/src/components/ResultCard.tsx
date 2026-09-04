@@ -1,7 +1,7 @@
 import type { ResolvedMonster } from "../lib/resolveMonster";
 import type { DungeonEncounterResult } from "../generators/dungeonEncounter";
 import type { WildernessEncounterResult, CastleEncounterResult } from "../generators/wildernessEncounter";
-import type { UrbanEncounterResult } from "../generators/urbanEncounter";
+import type { UrbanEncounterResult, UrbanMonsterEncounterResult } from "../generators/urbanEncounter";
 import type { NewHexResult, PointOfInterestResult } from "../generators/hexCrawl";
 import type { NpcPartyResult, RivalPartyFlavor } from "../generators/npcParty";
 import type { HoardResult } from "../treasure/generators/types";
@@ -12,6 +12,7 @@ export type LogEntry =
   | { id: string; timestamp: number; kind: "dungeon"; result: DungeonEncounterResult; treasure: HoardResult | null }
   | { id: string; timestamp: number; kind: "wilderness"; result: WildernessEncounterResult; treasure: HoardResult | null }
   | { id: string; timestamp: number; kind: "urban"; result: UrbanEncounterResult }
+  | { id: string; timestamp: number; kind: "urbanMonster"; result: UrbanMonsterEncounterResult; treasure: HoardResult | null }
   | { id: string; timestamp: number; kind: "hexTerrain"; result: NewHexResult }
   | { id: string; timestamp: number; kind: "hexPoi"; result: PointOfInterestResult }
   | { id: string; timestamp: number; kind: "hexCataclysm"; result: string[] }
@@ -194,6 +195,35 @@ function WildernessCard({
   );
 }
 
+function UrbanMonsterCard({
+  result,
+  treasure,
+  onRerollDragonTreasure,
+}: {
+  result: UrbanMonsterEncounterResult;
+  treasure: HoardResult | null;
+  onRerollDragonTreasure: (ageCategory: number, hitDice: number) => void;
+}) {
+  const isDragon = result.monster?.headingName === "Dragon";
+  return (
+    <>
+      <p className="roll-trail">
+        {result.location} · party level = {result.levelRoll}
+        {result.choiceNote ? ` · ${result.choiceNote}` : ""}
+      </p>
+      {result.monster && <MonsterStats monster={result.monster} count={result.count} />}
+      {!result.monster && <p className="hint"><RollableText text={result.resultRaw} /></p>}
+      {result.borrowedFromLevel && (
+        <div className="fallback-note">
+          Nothing tagged for this location right at party level {result.levelRoll} — borrowed from Level {result.borrowedFromLevel} instead.
+        </div>
+      )}
+      {treasure && <TreasureBlock hoard={treasure} />}
+      {isDragon && <DragonTreasureControls onReroll={onRerollDragonTreasure} />}
+    </>
+  );
+}
+
 function UrbanCard({ result }: { result: UrbanEncounterResult }) {
   return (
     <>
@@ -205,11 +235,6 @@ function UrbanCard({ result }: { result: UrbanEncounterResult }) {
         <p>
           <RollableText text={result.notes} />
         </p>
-      )}
-      {result.outOfPlace && (
-        <div className="fallback-note">
-          Out of place for a party under level {result.outOfPlace} — consider rerolling, a rumor/sighting instead, or let it stand as a dangerous surprise.
-        </div>
       )}
       {result.autoSubRolls.length > 0 && (
         <ul className="coin-list">
@@ -275,6 +300,8 @@ function titleFor(entry: LogEntry): string {
       return `Wilderness Encounter — ${entry.result.terrain}`;
     case "urban":
       return `Urban Encounter — ${entry.result.timeOfDay === "day" ? "Daytime" : "Nighttime"}`;
+    case "urbanMonster":
+      return `${entry.result.location} Monster Encounter`;
     case "hexTerrain":
       return "Hex Crawl — New Hex";
     case "hexPoi":
@@ -308,6 +335,9 @@ export function ResultCard({
         <WildernessCard result={entry.result} treasure={entry.treasure} onRerollDragonTreasure={(age, hd) => onRerollDragonTreasure(entry.id, age, hd)} />
       )}
       {entry.kind === "urban" && <UrbanCard result={entry.result} />}
+      {entry.kind === "urbanMonster" && (
+        <UrbanMonsterCard result={entry.result} treasure={entry.treasure} onRerollDragonTreasure={(age, hd) => onRerollDragonTreasure(entry.id, age, hd)} />
+      )}
       {entry.kind === "npcParty" && <NpcPartyCard result={entry.result} rival={entry.rival} />}
       {entry.kind === "hexTerrain" && (
         <p>

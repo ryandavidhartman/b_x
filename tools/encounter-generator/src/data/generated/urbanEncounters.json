@@ -603,7 +603,7 @@
     "rows": [
       {
         "d%": {
-          "raw": "01-03",
+          "raw": "01-04",
           "links": []
         },
         "Encounter": {
@@ -617,7 +617,7 @@
       },
       {
         "d%": {
-          "raw": "04-05",
+          "raw": "05-07",
           "links": []
         },
         "Encounter": {
@@ -631,7 +631,7 @@
       },
       {
         "d%": {
-          "raw": "06-08",
+          "raw": "08-11",
           "links": []
         },
         "Encounter": {
@@ -645,7 +645,7 @@
       },
       {
         "d%": {
-          "raw": "09-10",
+          "raw": "12-13",
           "links": []
         },
         "Encounter": {
@@ -659,7 +659,7 @@
       },
       {
         "d%": {
-          "raw": "11",
+          "raw": "14",
           "links": []
         },
         "Encounter": {
@@ -673,7 +673,7 @@
       },
       {
         "d%": {
-          "raw": "12",
+          "raw": "15-16",
           "links": []
         },
         "Encounter": {
@@ -687,7 +687,7 @@
       },
       {
         "d%": {
-          "raw": "13-21",
+          "raw": "17-28",
           "links": []
         },
         "Encounter": {
@@ -701,7 +701,7 @@
       },
       {
         "d%": {
-          "raw": "22",
+          "raw": "29",
           "links": []
         },
         "Encounter": {
@@ -715,49 +715,7 @@
       },
       {
         "d%": {
-          "raw": "23",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Demon",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "DM's discretion (any demon in this book). Only 1 encountered",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "24",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Devil",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "DM's discretion (any devil in this book). Only 1 encountered",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "25",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Doppelganger",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "1d4+2, disguised as a profession from the Urban Professions sub-table",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "26",
+          "raw": "30",
           "links": []
         },
         "Encounter": {
@@ -771,7 +729,7 @@
       },
       {
         "d%": {
-          "raw": "27-31",
+          "raw": "31-37",
           "links": []
         },
         "Encounter": {
@@ -785,7 +743,7 @@
       },
       {
         "d%": {
-          "raw": "32-33",
+          "raw": "38-39",
           "links": []
         },
         "Encounter": {
@@ -799,7 +757,7 @@
       },
       {
         "d%": {
-          "raw": "34-35",
+          "raw": "40-42",
           "links": []
         },
         "Encounter": {
@@ -808,48 +766,6 @@
         },
         "# Encountered & Notes": {
           "raw": "(1-4) foppish dandy and 1d4 sycophants; (5-6) gentlewoman; (7-10) 1d4+6-level nobleman fighter and 1d4 similar friends",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "36",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Ghast or Ghoul",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "(1-3) 2d4 ghasts; (4-10) 4d4 ghouls",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "37",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Ghost",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "1",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "38-42",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Giant Rats",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "4d6",
           "links": []
         }
       },
@@ -869,7 +785,7 @@
       },
       {
         "d%": {
-          "raw": "44-50",
+          "raw": "44-53",
           "links": []
         },
         "Encounter": {
@@ -883,7 +799,7 @@
       },
       {
         "d%": {
-          "raw": "51",
+          "raw": "54",
           "links": []
         },
         "Encounter": {
@@ -897,7 +813,7 @@
       },
       {
         "d%": {
-          "raw": "52",
+          "raw": "55",
           "links": []
         },
         "Encounter": {
@@ -911,7 +827,7 @@
       },
       {
         "d%": {
-          "raw": "53",
+          "raw": "56-57",
           "links": []
         },
         "Encounter": {
@@ -925,7 +841,7 @@
       },
       {
         "d%": {
-          "raw": "54-58",
+          "raw": "58-63",
           "links": []
         },
         "Encounter": {
@@ -939,7 +855,7 @@
       },
       {
         "d%": {
-          "raw": "59-60",
+          "raw": "64-66",
           "links": []
         },
         "Encounter": {
@@ -953,7 +869,7 @@
       },
       {
         "d%": {
-          "raw": "61",
+          "raw": "67",
           "links": []
         },
         "Encounter": {
@@ -967,21 +883,7 @@
       },
       {
         "d%": {
-          "raw": "62",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Night Hag",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "DM's discretion. Only 1 encountered",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "63-64",
+          "raw": "68-70",
           "links": []
         },
         "Encounter": {
@@ -995,7 +897,7 @@
       },
       {
         "d%": {
-          "raw": "65",
+          "raw": "71",
           "links": []
         },
         "Encounter": {
@@ -1009,7 +911,7 @@
       },
       {
         "d%": {
-          "raw": "66",
+          "raw": "72",
           "links": []
         },
         "Encounter": {
@@ -1023,7 +925,7 @@
       },
       {
         "d%": {
-          "raw": "67",
+          "raw": "73-74",
           "links": []
         },
         "Encounter": {
@@ -1037,7 +939,7 @@
       },
       {
         "d%": {
-          "raw": "68-71",
+          "raw": "75-79",
           "links": []
         },
         "Encounter": {
@@ -1051,21 +953,7 @@
       },
       {
         "d%": {
-          "raw": "72",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Rakshasa",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "DM's discretion. 1d3 encountered",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "73",
+          "raw": "80",
           "links": []
         },
         "Encounter": {
@@ -1079,7 +967,7 @@
       },
       {
         "d%": {
-          "raw": "74-80",
+          "raw": "81-89",
           "links": []
         },
         "Encounter": {
@@ -1093,35 +981,7 @@
       },
       {
         "d%": {
-          "raw": "81",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Shadow",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "DM's discretion. 2d4 encountered",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "82",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Spectre",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "DM's discretion. 1d3 encountered",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "83-88",
+          "raw": "90-97",
           "links": []
         },
         "Encounter": {
@@ -1135,7 +995,7 @@
       },
       {
         "d%": {
-          "raw": "89-90",
+          "raw": "98-00",
           "links": []
         },
         "Encounter": {
@@ -1144,104 +1004,6 @@
         },
         "# Encountered & Notes": {
           "raw": "2d4 artisans, craftsmen, or skilled workmen (Normal Humans)",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "91-93",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Wererat",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "2d4 encountered; (1-5) in human form, (6-10) in giant rat form",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "94",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Weretiger",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "1d2 encountered; (1-9) in human form, (10) in tiger form",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "95-96",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Werewolf",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "2d4 encountered; (1-5) in human form, (6-10) in wolf form",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "97",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Wight",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "DM's discretion. 1d4+1 encountered",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "98",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Will-O-Wisp",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "DM's discretion. 1d2 encountered",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "99",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Wraith",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "DM's discretion. 1d4 encountered",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "00",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Vampire or Lich",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "(1-8) 1 vampire, encountered in human (1-2), giant bat (3-6), or gaseous (7-10) form; (9-10) 1 lich, DM's discretion",
           "links": []
         }
       }
@@ -1284,7 +1046,7 @@
       },
       {
         "d%": {
-          "raw": "03-12",
+          "raw": "03-13",
           "links": []
         },
         "Encounter": {
@@ -1298,7 +1060,7 @@
       },
       {
         "d%": {
-          "raw": "13",
+          "raw": "14-15",
           "links": []
         },
         "Encounter": {
@@ -1312,7 +1074,7 @@
       },
       {
         "d%": {
-          "raw": "14-18",
+          "raw": "16-20",
           "links": []
         },
         "Encounter": {
@@ -1326,7 +1088,7 @@
       },
       {
         "d%": {
-          "raw": "19-21",
+          "raw": "21-24",
           "links": []
         },
         "Encounter": {
@@ -1340,7 +1102,7 @@
       },
       {
         "d%": {
-          "raw": "22-23",
+          "raw": "25-26",
           "links": []
         },
         "Encounter": {
@@ -1354,7 +1116,7 @@
       },
       {
         "d%": {
-          "raw": "24-25",
+          "raw": "27-28",
           "links": []
         },
         "Encounter": {
@@ -1368,7 +1130,7 @@
       },
       {
         "d%": {
-          "raw": "26",
+          "raw": "29",
           "links": []
         },
         "Encounter": {
@@ -1382,7 +1144,7 @@
       },
       {
         "d%": {
-          "raw": "27",
+          "raw": "30",
           "links": []
         },
         "Encounter": {
@@ -1396,7 +1158,7 @@
       },
       {
         "d%": {
-          "raw": "28-29",
+          "raw": "31-33",
           "links": []
         },
         "Encounter": {
@@ -1410,7 +1172,7 @@
       },
       {
         "d%": {
-          "raw": "30-33",
+          "raw": "34-37",
           "links": []
         },
         "Encounter": {
@@ -1424,21 +1186,7 @@
       },
       {
         "d%": {
-          "raw": "34",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Giant Rats",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "2d4",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "35-39",
+          "raw": "38-43",
           "links": []
         },
         "Encounter": {
@@ -1452,7 +1200,7 @@
       },
       {
         "d%": {
-          "raw": "40-41",
+          "raw": "44-45",
           "links": []
         },
         "Encounter": {
@@ -1466,7 +1214,7 @@
       },
       {
         "d%": {
-          "raw": "42",
+          "raw": "46",
           "links": []
         },
         "Encounter": {
@@ -1480,7 +1228,7 @@
       },
       {
         "d%": {
-          "raw": "43-50",
+          "raw": "47-55",
           "links": []
         },
         "Encounter": {
@@ -1494,7 +1242,7 @@
       },
       {
         "d%": {
-          "raw": "51",
+          "raw": "56",
           "links": []
         },
         "Encounter": {
@@ -1508,7 +1256,7 @@
       },
       {
         "d%": {
-          "raw": "52-55",
+          "raw": "57-61",
           "links": []
         },
         "Encounter": {
@@ -1522,7 +1270,7 @@
       },
       {
         "d%": {
-          "raw": "56-62",
+          "raw": "62-69",
           "links": []
         },
         "Encounter": {
@@ -1536,7 +1284,7 @@
       },
       {
         "d%": {
-          "raw": "63",
+          "raw": "70",
           "links": []
         },
         "Encounter": {
@@ -1550,21 +1298,7 @@
       },
       {
         "d%": {
-          "raw": "64-65",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Night Hag",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "DM's discretion. Only 1 encountered",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "66",
+          "raw": "71",
           "links": []
         },
         "Encounter": {
@@ -1578,7 +1312,7 @@
       },
       {
         "d%": {
-          "raw": "67-69",
+          "raw": "72-74",
           "links": []
         },
         "Encounter": {
@@ -1592,7 +1326,7 @@
       },
       {
         "d%": {
-          "raw": "70",
+          "raw": "75",
           "links": []
         },
         "Encounter": {
@@ -1606,7 +1340,7 @@
       },
       {
         "d%": {
-          "raw": "71-72",
+          "raw": "76-78",
           "links": []
         },
         "Encounter": {
@@ -1620,7 +1354,7 @@
       },
       {
         "d%": {
-          "raw": "73",
+          "raw": "79",
           "links": []
         },
         "Encounter": {
@@ -1634,21 +1368,7 @@
       },
       {
         "d%": {
-          "raw": "74-78",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Rakshasa",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "DM's discretion. 1d3 encountered",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "79-82",
+          "raw": "80-83",
           "links": []
         },
         "Encounter": {
@@ -1662,7 +1382,7 @@
       },
       {
         "d%": {
-          "raw": "83-97",
+          "raw": "84-00",
           "links": []
         },
         "Encounter": {
@@ -1671,86 +1391,6 @@
         },
         "# Encountered & Notes": {
           "raw": "2d4 artisans, craftsmen, or skilled workmen (Normal Humans)",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "98",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Wererat",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "2d4 encountered; (1-9) in human form, (10) in giant rat form",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "99",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Weretiger",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "1d2 encountered, in human form",
-          "links": []
-        }
-      },
-      {
-        "d%": {
-          "raw": "00",
-          "links": []
-        },
-        "Encounter": {
-          "raw": "Werewolf",
-          "links": []
-        },
-        "# Encountered & Notes": {
-          "raw": "2d4 encountered, in human form",
-          "links": []
-        }
-      }
-    ]
-  },
-  "urbanEncounterLevel": {
-    "headers": [
-      "Party Level",
-      "Entries out of place below this level"
-    ],
-    "rows": [
-      {
-        "Party Level": {
-          "raw": "3+",
-          "links": []
-        },
-        "Entries out of place below this level": {
-          "raw": "Wererat, Weretiger, Werewolf",
-          "links": []
-        }
-      },
-      {
-        "Party Level": {
-          "raw": "5+",
-          "links": []
-        },
-        "Entries out of place below this level": {
-          "raw": "Demon, Devil, Ghost, Night Hag, Rakshasa, Shadow, Spectre, Wight, Will-O-Wisp, Wraith",
-          "links": []
-        }
-      },
-      {
-        "Party Level": {
-          "raw": "8+",
-          "links": []
-        },
-        "Entries out of place below this level": {
-          "raw": "Vampire or Lich",
           "links": []
         }
       }

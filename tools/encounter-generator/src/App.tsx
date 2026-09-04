@@ -9,7 +9,7 @@ import {
   rollCastleEncounter,
   CASTLE_OWNERS,
 } from "./generators/wildernessEncounter";
-import { rollUrbanEncounter, type TimeOfDay } from "./generators/urbanEncounter";
+import { rollUrbanEncounter, rollUrbanMonsterEncounter, URBAN_LOCATION_NAMES, type TimeOfDay } from "./generators/urbanEncounter";
 import { rollNewHex, checkPointOfInterest, rollCataclysm, TERRAIN_LOOP } from "./generators/hexCrawl";
 import { rollNpcParty, rollRivalFlavor, ARCHETYPES, type Archetype } from "./generators/npcParty";
 import { rollTreasureForType } from "./generators/treasureAward";
@@ -45,6 +45,8 @@ function App() {
   // Urban
   const [timeOfDay, setTimeOfDay] = useState<TimeOfDay>("night");
   const [urbanPartyLevel, setUrbanPartyLevel] = useState(3);
+  const [urbanLocation, setUrbanLocation] = useState(URBAN_LOCATION_NAMES[0]);
+  const [urbanMonsterAwardTreasure, setUrbanMonsterAwardTreasure] = useState(true);
 
   // Hex crawl
   const [currentHexTerrain, setCurrentHexTerrain] = useState(TERRAIN_LOOP[0]);
@@ -86,7 +88,7 @@ function App() {
           if (!treasureType) return entry;
           return { ...entry, treasure: rollTreasureForType(treasureType, undefined, { ageCategory, hitDice }) };
         }
-        if (entry.kind === "wilderness") {
+        if (entry.kind === "wilderness" || entry.kind === "urbanMonster") {
           const treasureType = entry.result.monster?.stats["Treasure Type"];
           if (!treasureType) return entry;
           return { ...entry, treasure: rollTreasureForType(treasureType, undefined, { ageCategory, hitDice }) };
@@ -97,8 +99,17 @@ function App() {
   }
 
   function rollUrban() {
-    const result = rollUrbanEncounter(timeOfDay, urbanPartyLevel);
+    const result = rollUrbanEncounter(timeOfDay);
     push({ id: newId(), timestamp: Date.now(), kind: "urban", result });
+  }
+
+  function rollUrbanMonster() {
+    const result = rollUrbanMonsterEncounter(urbanLocation, urbanPartyLevel);
+    const treasureType = result.monster?.stats["Treasure Type"];
+    const treasure = urbanMonsterAwardTreasure && treasureType
+      ? rollTreasureForType(treasureType, undefined, { ageCategory: DEFAULT_DRAGON_AGE, hitDice: DEFAULT_DRAGON_HD })
+      : null;
+    push({ id: newId(), timestamp: Date.now(), kind: "urbanMonster", result, treasure });
   }
 
   function rollNpc() {
@@ -233,15 +244,40 @@ function App() {
                   <option value="night">Nighttime</option>
                 </select>
               </div>
-              <div className="field">
-                <label htmlFor="urban-party-level">Party Level</label>
-                <input id="urban-party-level" type="number" min={1} value={urbanPartyLevel} onChange={(e) => setUrbanPartyLevel(Number(e.target.value))} />
-              </div>
             </div>
             <div className="field-row">
               <button className="roll-button" onClick={rollUrban}>
-                Roll Encounter
+                Roll Street Encounter
               </button>
+            </div>
+
+            <div className="sub-panel">
+              <div className="sub-panel-title">Real monster encounter (Urban / Castle)</div>
+              <div className="field-row">
+                <div className="field">
+                  <label htmlFor="urban-location">Location</label>
+                  <select id="urban-location" value={urbanLocation} onChange={(e) => setUrbanLocation(e.target.value as typeof urbanLocation)}>
+                    {URBAN_LOCATION_NAMES.map((l) => (
+                      <option key={l} value={l}>
+                        {l}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+                <div className="field">
+                  <label htmlFor="urban-party-level">Party Level</label>
+                  <input id="urban-party-level" type="number" min={1} max={20} value={urbanPartyLevel} onChange={(e) => setUrbanPartyLevel(Number(e.target.value))} />
+                </div>
+                <div className="checkbox-field">
+                  <input id="urban-monster-treasure" type="checkbox" checked={urbanMonsterAwardTreasure} onChange={(e) => setUrbanMonsterAwardTreasure(e.target.checked)} />
+                  <label htmlFor="urban-monster-treasure">Award treasure</label>
+                </div>
+              </div>
+              <div className="field-row">
+                <button className="roll-button" onClick={rollUrbanMonster}>
+                  Roll Monster Encounter
+                </button>
+              </div>
             </div>
           </>
         )}

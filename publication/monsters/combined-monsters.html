@@ -10114,7 +10114,7 @@
 <p>Each step is detailed below.</p>
 <p>A. <strong>Choose the setting.</strong> Is the party in a dungeon, the wilderness, or a settlement? This determines which table set to use for the rest of the procedure — <em>Dungeon Random Encounters</em>, <em>Wilderness Encounters</em>, or <em>Urban Encounters</em>, below. If the party is crossing unmapped wilderness, see <em>Overland Hex Crawl Generation</em>, below, first, to determine each hex’s terrain and whether it holds a point of interest.</p>
 <p>B. <strong>Check whether an encounter occurs.</strong> See <em>Encounter Frequency</em>, below, for the chance appropriate to the setting.</p>
-<p>C. <strong>Determine the monster.</strong> Roll on the table matching the setting from step A: - <em>Dungeon:</em> find the dungeon level’s row on the Monster Sub-table Matrix, roll <code>1d12</code> to find the Monster Level, then roll <code>d%</code> on that Monster Level table. - <em>Wilderness:</em> check Lone NPC Encounters for the party’s terrain first; otherwise turn to that terrain’s table and read the row for the party’s level. - <em>Settlement:</em> roll on the Daytime or Nighttime Encounters table, as appropriate, consulting whichever sub-table it calls for, and check the result against Urban Encounter Level for the party’s level.</p>
+<p>C. <strong>Determine the monster.</strong> Roll on the table matching the setting from step A: - <em>Dungeon:</em> find the dungeon level’s row on the Monster Sub-table Matrix, roll <code>1d12</code> to find the Monster Level, then roll <code>d%</code> on that Monster Level table. - <em>Wilderness:</em> check Lone NPC Encounters for the party’s terrain first; otherwise turn to that terrain’s table and read the row for the party’s level. - <em>Settlement:</em> roll on the Daytime or Nighttime Encounters table, as appropriate, consulting whichever sub-table it calls for — or, for a real monster encounter rather than street life, turn to the Urban or Castle table and read the row for the party’s level, same as a wilderness terrain.</p>
 <p>D. <strong>Determine why it’s here.</strong> See <em>Encounter Purpose</em>, below, for a quick note on what the creature is doing when the party meets it.</p>
 <p>E. <strong>Determine number appearing.</strong> - <em>Dungeon:</em> the Monster Level table already gave a number in its <code>#</code> column — use that. - <em>Settlement:</em> the Daytime or Nighttime Encounters table already gave a number (and often a full retinue) in its <code># Encountered &amp; Notes</code> column — use that. - <em>Wilderness:</em> these tables give a monster name only, with no number of its own. Use the creature’s own No. Appearing entry from its stat block — specifically the <em>parenthetical</em> number (the one appearing in the wilderness or a lair), not the first number (which is for a wandering dungeon encounter). See <em>No. Appearing</em> in the glossary at the front of the book.</p>
 <p>For a dungeon encounter whose Monster Level doesn’t match the dungeon level it was rolled on, adjust the number as described in <em>Dungeon Random Encounters</em>, above.</p>
@@ -12404,6 +12404,7 @@
 
 </div>
 <h4 id="nighttime-encounters">Nighttime Encounters</h4>
+<p><em>Editorial note:</em> this table used to also carry a scatter of one-off monster encounters (Demon, Devil, Doppelganger, Ghast/Ghoul, Ghost, Giant Rats, Night Hag, Rakshasa, Shadow, Spectre, Wererat, Weretiger, Werewolf, Wight, Will-O-Wisp, Wraith, Vampire or Lich) alongside its purely social/NPC entries. Those now come from the Urban table below (see <em>Wilderness Encounters</em> for the same terrain-and-level mechanism, applied here to Urban/Castle) — this table is purely street-life flavor and doesn’t need a level check of its own.</p>
 <table>
 <colgroup>
 <col style="width: 33%" />
@@ -12419,94 +12420,64 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td>01-03</td>
+<td>01-04</td>
 <td>Thief (as Assassin)</td>
 <td>1d3 (check Race sub-table)</td>
 </tr>
 <tr class="even">
-<td>04-05</td>
+<td>05-07</td>
 <td>Bandit</td>
 <td>3d4 and a leader</td>
 </tr>
 <tr class="odd">
-<td>06-08</td>
+<td>08-11</td>
 <td>Beggar</td>
 <td>1d2</td>
 </tr>
 <tr class="even">
-<td>09-10</td>
+<td>12-13</td>
 <td>Brigand</td>
 <td>3d4 and a leader</td>
 </tr>
 <tr class="odd">
-<td>11</td>
+<td>14</td>
 <td>Guardsman</td>
 <td>2d8 and a leader</td>
 </tr>
 <tr class="even">
-<td>12</td>
+<td>15-16</td>
 <td>Official</td>
 <td>(1-9) minor official; (10) major official and 2d4 guardsmen</td>
 </tr>
 <tr class="odd">
-<td>13-21</td>
+<td>17-28</td>
 <td>Watchman</td>
 <td>5 men-at-arms (0-level) and a sergeant (level 1d3) and a cleric (level 1d4+1)</td>
 </tr>
 <tr class="even">
-<td>22</td>
+<td>29</td>
 <td>Cleric</td>
 <td>A 1d6+5-level cleric with 1d6-1 assistant clerics (level 1d4)</td>
 </tr>
 <tr class="odd">
-<td>23</td>
-<td>Demon</td>
-<td>DM’s discretion (any demon in this book). Only 1 encountered</td>
-</tr>
-<tr class="even">
-<td>24</td>
-<td>Devil</td>
-<td>DM’s discretion (any devil in this book). Only 1 encountered</td>
-</tr>
-<tr class="odd">
-<td>25</td>
-<td>Doppelganger</td>
-<td>1d4+2, disguised as a profession from the Urban Professions sub-table</td>
-</tr>
-<tr class="even">
-<td>26</td>
+<td>30</td>
 <td>Cleric (as Druid)</td>
 <td>A 1d6+5-level cleric with (1-5) 1d4-1 lesser clerics (level 1d4) or (6-10) 1d4 fighters (level 1d6)</td>
 </tr>
-<tr class="odd">
-<td>27-31</td>
+<tr class="even">
+<td>31-37</td>
 <td>Drunk</td>
 <td>See Urban Professions sub-table for exact profession</td>
 </tr>
-<tr class="even">
-<td>32-33</td>
+<tr class="odd">
+<td>38-39</td>
 <td>Fighter</td>
 <td>A 2d4+4-level fighter with 1d4-1 henchmen (level 1d4)</td>
 </tr>
-<tr class="odd">
-<td>34-35</td>
+<tr class="even">
+<td>40-42</td>
 <td>Gentleman</td>
 <td>(1-4) foppish dandy and 1d4 sycophants; (5-6) gentlewoman; (7-10) 1d4+6-level nobleman fighter and 1d4 similar friends</td>
-</tr>
-<tr class="even">
-<td>36</td>
-<td>Ghast or Ghoul</td>
-<td>(1-3) 2d4 ghasts; (4-10) 4d4 ghouls</td>
-</tr>
-<tr class="odd">
-<td>37</td>
-<td>Ghost</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>38-42</td>
-<td>Giant Rats</td>
-<td>4d6</td>
 </tr>
 <tr class="odd">
 <td>43</td>
@@ -12514,12 +12485,12 @@
 <td>0-level Normal Human</td>
 </tr>
 <tr class="even">
-<td>44-50</td>
+<td>44-53</td>
 <td>Prostitute</td>
 <td>See Red-Light Professions sub-table for exact type</td>
 </tr>
 <tr class="odd">
-<td>51</td>
+<td>54</td>
 <td>Magic-User (as Illusionist)</td>
 <td>A 1d4+6-level magic-user with (1-5) 1d4-1 apprentice magic-users (level 1d4) or (6-10) 1d3 fighter bodyguards (level 1d6)</td>
 </tr>
@@ -12543,129 +12514,74 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td>52</td>
+<td>55</td>
 <td>Labourer or Peddler</td>
 <td>(1-5) 3d4 rough 0-level workmen; (6-10) 1d3 peddlers selling simple goods on the street</td>
 </tr>
 <tr class="even">
-<td>53</td>
+<td>56-57</td>
 <td>Magic-User</td>
 <td>A 1d6+6-level magic-user with (1-4) 1d4 apprentice magic-users (level 1d6) or (5-7) 1d4 fighter bodyguards (level 1d4+3) or (8-10) 1d2 apprentices and 1d2 bodyguards as above</td>
 </tr>
 <tr class="odd">
-<td>54-58</td>
+<td>58-63</td>
 <td>Mercenary</td>
 <td>3d4 fighters (level 1d6-1)</td>
 </tr>
 <tr class="even">
-<td>59-60</td>
+<td>64-66</td>
 <td>Merchant</td>
 <td>1d3 merchants, 2d4 0-level mercenary guards, and a mercenary leader (level 1d4)</td>
 </tr>
 <tr class="odd">
-<td>61</td>
+<td>67</td>
 <td>Troubadour</td>
 <td>1d4 travelling bards, musicians, or actors</td>
 </tr>
 <tr class="even">
-<td>62</td>
-<td>Night Hag</td>
-<td>DM’s discretion. Only 1 encountered</td>
-</tr>
-<tr class="odd">
-<td>63-64</td>
+<td>68-70</td>
 <td>Noble</td>
 <td>(1-7) nobleman and 1d4 fighter bodyguards (level 1d4); (8-10) noblewoman</td>
 </tr>
-<tr class="even">
-<td>65</td>
+<tr class="odd">
+<td>71</td>
 <td>Fighter (as Paladin)</td>
 <td>A 1d4+5-level fighter</td>
 </tr>
-<tr class="odd">
-<td>66</td>
+<tr class="even">
+<td>72</td>
 <td>Pilgrim</td>
 <td>3d4 pilgrims (Normal Humans)</td>
 </tr>
-<tr class="even">
-<td>67</td>
+<tr class="odd">
+<td>73-74</td>
 <td>Press Gang</td>
 <td>2d8 1st-level fighters and a leader (level 1d4+1), all wielding clubs</td>
 </tr>
-<tr class="odd">
-<td>68-71</td>
+<tr class="even">
+<td>75-79</td>
 <td>Thugs</td>
 <td>1d4+1 fighters (level 1d6+4)</td>
 </tr>
-<tr class="even">
-<td>72</td>
-<td>Rakshasa</td>
-<td>DM’s discretion. 1d3 encountered</td>
-</tr>
 <tr class="odd">
-<td>73</td>
+<td>80</td>
 <td>Fighter (as Ranger)</td>
 <td>A 1d4+6-level fighter</td>
 </tr>
 <tr class="even">
-<td>74-80</td>
+<td>81-89</td>
 <td>Muggers or Humanoids</td>
 <td>(1-8) 1d6+6 2nd-level fighters armed with clubs; (9-10) humanoids (Orcs, Kobolds, Goblins, etc. — DM’s discretion)</td>
 </tr>
 <tr class="odd">
-<td>81</td>
-<td>Shadow</td>
-<td>DM’s discretion. 2d4 encountered</td>
-</tr>
-<tr class="even">
-<td>82</td>
-<td>Spectre</td>
-<td>DM’s discretion. 1d3 encountered</td>
-</tr>
-<tr class="odd">
-<td>83-88</td>
+<td>90-97</td>
 <td>Thief</td>
 <td>A 1d4+7-level thief and 1d3-1 apprentice thieves (level 1d4)</td>
 </tr>
 <tr class="even">
-<td>89-90</td>
+<td>98-00</td>
 <td>Tradesman</td>
 <td>2d4 artisans, craftsmen, or skilled workmen (Normal Humans)</td>
-</tr>
-<tr class="odd">
-<td>91-93</td>
-<td>Wererat</td>
-<td>2d4 encountered; (1-5) in human form, (6-10) in giant rat form</td>
-</tr>
-<tr class="even">
-<td>94</td>
-<td>Weretiger</td>
-<td>1d2 encountered; (1-9) in human form, (10) in tiger form</td>
-</tr>
-<tr class="odd">
-<td>95-96</td>
-<td>Werewolf</td>
-<td>2d4 encountered; (1-5) in human form, (6-10) in wolf form</td>
-</tr>
-<tr class="even">
-<td>97</td>
-<td>Wight</td>
-<td>DM’s discretion. 1d4+1 encountered</td>
-</tr>
-<tr class="odd">
-<td>98</td>
-<td>Will-O-Wisp</td>
-<td>DM’s discretion. 1d2 encountered</td>
-</tr>
-<tr class="even">
-<td>99</td>
-<td>Wraith</td>
-<td>DM’s discretion. 1d4 encountered</td>
-</tr>
-<tr class="odd">
-<td>00</td>
-<td>Vampire or Lich</td>
-<td>(1-8) 1 vampire, encountered in human (1-2), giant bat (3-6), or gaseous (7-10) form; (9-10) 1 lich, DM’s discretion</td>
 </tr>
 </tbody>
 </table>
@@ -12699,72 +12615,67 @@
 <td>3d4 and a leader</td>
 </tr>
 <tr class="odd">
-<td>03-12</td>
+<td>03-13</td>
 <td>Beggar</td>
 <td>1d2</td>
 </tr>
 <tr class="even">
-<td>13</td>
+<td>14-15</td>
 <td>Brigand</td>
 <td>3d4 and a leader</td>
 </tr>
 <tr class="odd">
-<td>14-18</td>
+<td>16-20</td>
 <td>Guardsmen</td>
 <td>2d8 and a leader</td>
 </tr>
 <tr class="even">
-<td>19-21</td>
+<td>21-24</td>
 <td>Official</td>
 <td>(1-9) minor official; (10) major official and 2d4 guardsmen</td>
 </tr>
 <tr class="odd">
-<td>22-23</td>
+<td>25-26</td>
 <td>Watchman</td>
 <td>5 men-at-arms (0-level) and a sergeant (level 1d3) and a cleric (level 1d4+1)</td>
 </tr>
 <tr class="even">
-<td>24-25</td>
+<td>27-28</td>
 <td>Cleric</td>
 <td>A 1d6+5-level cleric with 1d6-1 assistant clerics (level 1d4)</td>
 </tr>
 <tr class="odd">
-<td>26</td>
+<td>29</td>
 <td>Cleric (as Druid)</td>
 <td>A 1d6+5-level cleric with (1-5) 1d4-1 lesser clerics (level 1d4) or (6-10) 1d4 fighters (level 1d6)</td>
 </tr>
 <tr class="even">
-<td>27</td>
+<td>30</td>
 <td>Drunk</td>
 <td>See Urban Professions sub-table for exact profession</td>
 </tr>
 <tr class="odd">
-<td>28-29</td>
+<td>31-33</td>
 <td>Fighter</td>
 <td>A 2d4+4-level fighter with 1d4-1 henchmen (level 1d4)</td>
 </tr>
 <tr class="even">
-<td>30-33</td>
+<td>34-37</td>
 <td>Gentleman</td>
 <td>(1-4) foppish dandy and 1d4 sycophants; (5-6) gentlewoman; (7-10) 1d4+6-level nobleman fighter and 1d4 similar friends</td>
 </tr>
 <tr class="odd">
-<td>34</td>
-<td>Giant Rats</td>
-<td>2d4</td>
-</tr>
-<tr class="even">
-<td>35-39</td>
+<td>38-43</td>
 <td>Townsperson</td>
 <td>0-level Normal Human</td>
 </tr>
-<tr class="odd">
-<td>40-41</td>
+<tr class="even">
+<td>44-45</td>
 <td>Harlot</td>
 <td>See Red-Light Professions sub-table for exact type</td>
 </tr>
-<tr class="even">
-<td>42</td>
+<tr class="odd">
+<td>46</td>
 <td>Magic-User (as Illusionist)</td>
 <td>A 1d4+6-level magic-user with (1-5) 1d4-1 apprentice magic-users (level 1d4) or (6-10) 1d3 fighter bodyguards (level 1d6)</td>
 </tr>
@@ -12788,94 +12699,68 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td>43-50</td>
+<td>47-55</td>
 <td>Labourer or Peddler</td>
 <td>(1-5) 3d4 rough 0-level workmen; (6-10) 1d3 peddlers selling simple goods on the street</td>
 </tr>
 <tr class="even">
-<td>51</td>
+<td>56</td>
 <td>Magic-User</td>
 <td>A 1d6+6-level magic-user with (1-4) 1d4 apprentice magic-users (level 1d6) or (5-7) 1d4 fighter bodyguards (level 1d4+3) or (8-10) 1d2 apprentices and 1d2 bodyguards as above</td>
 </tr>
 <tr class="odd">
-<td>52-55</td>
+<td>57-61</td>
 <td>Mercenary</td>
 <td>3d4 fighters (level 1d6-1)</td>
 </tr>
 <tr class="even">
-<td>56-62</td>
+<td>62-69</td>
 <td>Merchant</td>
 <td>1d3 merchants (0-level Normal Humans)</td>
 </tr>
 <tr class="odd">
-<td>63</td>
+<td>70</td>
 <td>Troubadour</td>
 <td>1d4 travelling bards, musicians, or actors</td>
 </tr>
 <tr class="even">
-<td>64-65</td>
-<td>Night Hag</td>
-<td>DM’s discretion. Only 1 encountered</td>
-</tr>
-<tr class="odd">
-<td>66</td>
+<td>71</td>
 <td>Noble</td>
 <td>(1-7) nobleman and 1d4 fighter bodyguards (level 1d4); (8-10) noblewoman</td>
 </tr>
-<tr class="even">
-<td>67-69</td>
+<tr class="odd">
+<td>72-74</td>
 <td>Fighter (as Paladin)</td>
 <td>A 1d4+5-level fighter</td>
 </tr>
-<tr class="odd">
-<td>70</td>
+<tr class="even">
+<td>75</td>
 <td>Pilgrim</td>
 <td>3d4 pilgrims (Normal Humans)</td>
 </tr>
-<tr class="even">
-<td>71-72</td>
+<tr class="odd">
+<td>76-78</td>
 <td>Press Gang</td>
 <td>2d8 1st-level fighters and a leader (level 1d4+1), all wielding clubs</td>
 </tr>
-<tr class="odd">
-<td>73</td>
+<tr class="even">
+<td>79</td>
 <td>Thugs</td>
 <td>1d4+1 fighters (level 1d6+4)</td>
 </tr>
-<tr class="even">
-<td>74-78</td>
-<td>Rakshasa</td>
-<td>DM’s discretion. 1d3 encountered</td>
-</tr>
 <tr class="odd">
-<td>79-82</td>
+<td>80-83</td>
 <td>Thief</td>
 <td>A 1d4+7-level thief and 1d3-1 apprentice thieves (level 1d4)</td>
 </tr>
 <tr class="even">
-<td>83-97</td>
+<td>84-00</td>
 <td>Tradesman</td>
 <td>2d4 artisans, craftsmen, or skilled workmen (Normal Humans)</td>
 </tr>
-<tr class="odd">
-<td>98</td>
-<td>Wererat</td>
-<td>2d4 encountered; (1-9) in human form, (10) in giant rat form</td>
-</tr>
-<tr class="even">
-<td>99</td>
-<td>Weretiger</td>
-<td>1d2 encountered, in human form</td>
-</tr>
-<tr class="odd">
-<td>00</td>
-<td>Werewolf</td>
-<td>2d4 encountered, in human form</td>
-</tr>
 </tbody>
 </table>
-<h4 id="urban-encounter-level">Urban Encounter Level</h4>
-<p>Unlike the wilderness terrain tables, the entries above aren’t ordered by threat — a low-level party can roll a Beggar and a Vampire on consecutive nights with equal probability. The entries below are out of place for a party under the listed level; if a lower-level party rolls one, the DM may reroll, present it as a rumor or a sighting from a safe distance rather than a direct encounter, or let it stand as a dangerous surprise — city dangers don’t politely wait for the party to be ready for them.</p>
+<h4 id="urban-1">Urban</h4>
 <table>
 <colgroup>
 <col style="width: 50%" />
@@ -12883,26 +12768,188 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th>Party Level</th>
-<th>Entries out of place below this level</th>
+<th>Level</th>
+<th>Monster</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>3+</td>
-<td>Wererat, Weretiger, Werewolf</td>
+<td>1</td>
+<td><a href="#acolyte">Acolyte</a>, <a href="#bat">Bat, Normal</a>, <a href="#medium">Medium</a>, <a href="#men">Men, Buccaneer / Pirate</a>, <a href="#men">Men, Merchant</a>, <a href="#normal-human">Normal Human</a>, <a href="#poltergeist">Poltergeist</a>, <a href="#rat">Rat, Giant</a>, <a href="#rat">Rat, Normal</a>, <a href="#rot-grub">Rot Grub</a>, <a href="#bat">Bat, Giant</a>, <a href="#imp">Imp</a>, <a href="#noble">Noble</a>, <a href="#mephit">Smoke Mephit</a></td>
 </tr>
 <tr class="even">
-<td>5+</td>
-<td>Demon, Devil, Ghost, Night Hag, Rakshasa, Shadow, Spectre, Wight, Will-O-Wisp, Wraith</td>
+<td>2</td>
+<td><a href="#acolyte">Acolyte</a>, <a href="#bat">Bat, Normal</a>, <a href="#medium">Medium</a>, <a href="#men">Men, Buccaneer / Pirate</a>, <a href="#men">Men, Merchant</a>, <a href="#normal-human">Normal Human</a>, <a href="#poltergeist">Poltergeist</a>, <a href="#rat">Rat, Giant</a>, <a href="#rat">Rat, Normal</a>, <a href="#rot-grub">Rot Grub</a>, <a href="#bat">Bat, Giant</a>, <a href="#imp">Imp</a>, <a href="#living-statue">Living Statue, Crystal</a>, <a href="#noble">Noble</a>, <a href="#mephit">Smoke Mephit</a>, <a href="#veteran">Veteran</a>, <a href="#doppelganger">Doppelganger</a>, <a href="#gargoyle">Gargoyle</a>, <a href="#living-statue">Living Statue, Iron</a></td>
 </tr>
 <tr class="odd">
-<td>8+</td>
-<td>Vampire or Lich</td>
+<td>3</td>
+<td><a href="#acolyte">Acolyte</a>, <a href="#bat">Bat, Normal</a>, <a href="#medium">Medium</a>, <a href="#men">Men, Buccaneer / Pirate</a>, <a href="#men">Men, Merchant</a>, <a href="#normal-human">Normal Human</a>, <a href="#poltergeist">Poltergeist</a>, <a href="#rat">Rat, Giant</a>, <a href="#rat">Rat, Normal</a>, <a href="#rot-grub">Rot Grub</a>, <a href="#bat">Bat, Giant</a>, <a href="#imp">Imp</a>, <a href="#living-statue">Living Statue, Crystal</a>, <a href="#noble">Noble</a>, <a href="#quasit">Quasit</a>, <a href="#mephit">Smoke Mephit</a>, <a href="#veteran">Veteran</a>, <a href="#dog">War Dog</a>, <a href="#doppelganger">Doppelganger</a>, <a href="#gargoyle">Gargoyle</a>, <a href="#living-statue">Living Statue, Iron</a>, <a href="#water-weird">Water Weird</a>, <a href="#githyanki">Githyanki</a>, <a href="#living-statue">Living Statue, Rock</a>, <a href="#wererat">Wererat</a></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td><a href="#bat">Bat, Giant</a>, <a href="#imp">Imp</a>, <a href="#living-statue">Living Statue, Crystal</a>, <a href="#noble">Noble</a>, <a href="#quasit">Quasit</a>, <a href="#mephit">Smoke Mephit</a>, <a href="#veteran">Veteran</a>, <a href="#dog">War Dog</a>, <a href="#doppelganger">Doppelganger</a>, <a href="#gargoyle">Gargoyle</a>, <a href="#living-statue">Living Statue, Iron</a>, <a href="#water-weird">Water Weird</a>, <a href="#githyanki">Githyanki</a>, <a href="#living-statue">Living Statue, Rock</a>, <a href="#wererat">Wererat</a>, <a href="#succubus">Succubus</a></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td><a href="#imp">Imp</a>, <a href="#living-statue">Living Statue, Crystal</a>, <a href="#noble">Noble</a>, <a href="#quasit">Quasit</a>, <a href="#mephit">Smoke Mephit</a>, <a href="#veteran">Veteran</a>, <a href="#dog">War Dog</a>, <a href="#doppelganger">Doppelganger</a>, <a href="#gargoyle">Gargoyle</a>, <a href="#living-statue">Living Statue, Iron</a>, <a href="#water-weird">Water Weird</a>, <a href="#githyanki">Githyanki</a>, <a href="#living-statue">Living Statue, Rock</a>, <a href="#wererat">Wererat</a>, <a href="#succubus">Succubus</a>, <a href="#erinyes">Erinyes</a>, <a href="#rakshasa">Rakshasa</a>, <a href="#shadow-demon">Shadow Demon</a></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td><a href="#doppelganger">Doppelganger</a>, <a href="#gargoyle">Gargoyle</a>, <a href="#living-statue">Living Statue, Iron</a>, <a href="#water-weird">Water Weird</a>, <a href="#githyanki">Githyanki</a>, <a href="#living-statue">Living Statue, Rock</a>, <a href="#wererat">Wererat</a>, <a href="#succubus">Succubus</a>, <a href="#erinyes">Erinyes</a>, <a href="#rakshasa">Rakshasa</a>, <a href="#shadow-demon">Shadow Demon</a>, <a href="#invisible-stalker">Invisible Stalker</a>, <a href="#night-hag">Night Hag</a>, <a href="#otyugh">Otyugh</a></td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td><a href="#githyanki">Githyanki</a>, <a href="#living-statue">Living Statue, Rock</a>, <a href="#wererat">Wererat</a>, <a href="#succubus">Succubus</a>, <a href="#erinyes">Erinyes</a>, <a href="#rakshasa">Rakshasa</a>, <a href="#shadow-demon">Shadow Demon</a>, <a href="#invisible-stalker">Invisible Stalker</a>, <a href="#night-hag">Night Hag</a>, <a href="#otyugh">Otyugh</a>, <a href="#revenant">Revenant</a>, <a href="#vampire">Vampire</a></td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td><a href="#succubus">Succubus</a>, <a href="#erinyes">Erinyes</a>, <a href="#rakshasa">Rakshasa</a>, <a href="#shadow-demon">Shadow Demon</a>, <a href="#invisible-stalker">Invisible Stalker</a>, <a href="#night-hag">Night Hag</a>, <a href="#otyugh">Otyugh</a>, <a href="#revenant">Revenant</a>, <a href="#vampire">Vampire</a>, <a href="#ghost">Ghost</a>, <a href="#type-iii-demon-glabrezu">Type III Demon (Glabrezu)</a></td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td><a href="#erinyes">Erinyes</a>, <a href="#rakshasa">Rakshasa</a>, <a href="#shadow-demon">Shadow Demon</a>, <a href="#invisible-stalker">Invisible Stalker</a>, <a href="#night-hag">Night Hag</a>, <a href="#otyugh">Otyugh</a>, <a href="#revenant">Revenant</a>, <a href="#vampire">Vampire</a>, <a href="#ghost">Ghost</a>, <a href="#type-iii-demon-glabrezu">Type III Demon (Glabrezu)</a></td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td><a href="#invisible-stalker">Invisible Stalker</a>, <a href="#night-hag">Night Hag</a>, <a href="#otyugh">Otyugh</a>, <a href="#revenant">Revenant</a>, <a href="#vampire">Vampire</a>, <a href="#ghost">Ghost</a>, <a href="#type-iii-demon-glabrezu">Type III Demon (Glabrezu)</a>, <a href="#neotyugh">Neotyugh</a></td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td><a href="#vampire">Vampire</a>, <a href="#ghost">Ghost</a>, <a href="#type-iii-demon-glabrezu">Type III Demon (Glabrezu)</a>, <a href="#neotyugh">Neotyugh</a></td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td><a href="#ghost">Ghost</a>, <a href="#type-iii-demon-glabrezu">Type III Demon (Glabrezu)</a>, <a href="#neotyugh">Neotyugh</a></td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td><a href="#neotyugh">Neotyugh</a></td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td><a href="#neotyugh">Neotyugh</a></td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td><a href="#ghost">Ghost</a>, <a href="#type-iii-demon-glabrezu">Type III Demon (Glabrezu)</a>, <a href="#neotyugh">Neotyugh</a> <em>(as Level 10/12)</em></td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td><a href="#ghost">Ghost</a>, <a href="#type-iii-demon-glabrezu">Type III Demon (Glabrezu)</a>, <a href="#neotyugh">Neotyugh</a> <em>(as Level 10/12)</em></td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td><a href="#ghost">Ghost</a>, <a href="#type-iii-demon-glabrezu">Type III Demon (Glabrezu)</a>, <a href="#neotyugh">Neotyugh</a> <em>(as Level 10/12)</em></td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td><a href="#ghost">Ghost</a>, <a href="#type-iii-demon-glabrezu">Type III Demon (Glabrezu)</a>, <a href="#neotyugh">Neotyugh</a> <em>(as Level 10/12)</em></td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td><a href="#ghost">Ghost</a>, <a href="#type-iii-demon-glabrezu">Type III Demon (Glabrezu)</a>, <a href="#neotyugh">Neotyugh</a> <em>(as Level 10/12)</em></td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td><a href="#ghost">Ghost</a>, <a href="#type-iii-demon-glabrezu">Type III Demon (Glabrezu)</a>, <a href="#neotyugh">Neotyugh</a> <em>(as Level 10/12)</em></td>
 </tr>
 </tbody>
 </table>
-<p>All other entries are appropriate at any level.</p>
+<h4 id="castle-1">Castle</h4>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Level</th>
+<th>Monster</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><a href="#bat">Bat, Normal</a>, <a href="#mold">Brown Mold</a>, <a href="#cerebral-parasite">Cerebral Parasite</a>, <a href="#larva">Larva</a>, <a href="#manes">Manes</a>, <a href="#medium">Medium</a>, <a href="#men">Men, Merchant</a>, <a href="#poltergeist">Poltergeist</a>, <a href="#rat">Rat, Giant</a>, <a href="#rat">Rat, Normal</a>, <a href="#bat">Bat, Giant</a>, <a href="#green-slime">Green Slime</a>, <a href="#homunculus">Homunculus</a>, <a href="#mold">Yellow Mold</a>, <a href="#yellow-mold">Yellow Mold</a>, <a href="#animated-armor">Animated Armor</a>, <a href="#lemure">Lemure</a>, <a href="#mephit">Smoke Mephit</a></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td><a href="#bat">Bat, Normal</a>, <a href="#mold">Brown Mold</a>, <a href="#cerebral-parasite">Cerebral Parasite</a>, <a href="#larva">Larva</a>, <a href="#manes">Manes</a>, <a href="#medium">Medium</a>, <a href="#men">Men, Merchant</a>, <a href="#poltergeist">Poltergeist</a>, <a href="#rat">Rat, Giant</a>, <a href="#rat">Rat, Normal</a>, <a href="#bat">Bat, Giant</a>, <a href="#green-slime">Green Slime</a>, <a href="#homunculus">Homunculus</a>, <a href="#mold">Yellow Mold</a>, <a href="#yellow-mold">Yellow Mold</a>, <a href="#zombie">Zombie</a>, <a href="#animated-armor">Animated Armor</a>, <a href="#gray-ooze">Gray Ooze</a>, <a href="#living-statue">Living Statue, Crystal</a>, <a href="#shadow">Shadow</a>, <a href="#thoul">Thoul</a>, <a href="#bugbear">Bugbear</a>, <a href="#gelatinous-cube">Gelatinous Cube</a>, <a href="#medusa">Medusa</a></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td><a href="#bat">Bat, Normal</a>, <a href="#mold">Brown Mold</a>, <a href="#cerebral-parasite">Cerebral Parasite</a>, <a href="#larva">Larva</a>, <a href="#manes">Manes</a>, <a href="#medium">Medium</a>, <a href="#men">Men, Merchant</a>, <a href="#poltergeist">Poltergeist</a>, <a href="#rat">Rat, Giant</a>, <a href="#rat">Rat, Normal</a>, <a href="#bat">Bat, Giant</a>, <a href="#green-slime">Green Slime</a>, <a href="#homunculus">Homunculus</a>, <a href="#mold">Yellow Mold</a>, <a href="#yellow-mold">Yellow Mold</a>, <a href="#zombie">Zombie</a>, <a href="#animated-armor">Animated Armor</a>, <a href="#mephit">Fire Mephit</a>, <a href="#gray-ooze">Gray Ooze</a>, <a href="#imp">Imp</a>, <a href="#living-statue">Living Statue, Crystal</a>, <a href="#quasit">Quasit</a>, <a href="#shadow">Shadow</a>, <a href="#thought-eater">Thought Eater</a>, <a href="#thoul">Thoul</a>, <a href="#dog">War Dog</a>, <a href="#bugbear">Bugbear</a>, <a href="#doppelganger">Doppelganger</a>, <a href="#gelatinous-cube">Gelatinous Cube</a>, <a href="#living-statue">Living Statue, Iron</a>, <a href="#water-weird">Water Weird</a>, <a href="#gibbering-mouther">Gibbering Mouther</a>, <a href="#living-statue">Living Statue, Rock</a>, <a href="#rust-monster">Rust Monster</a></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td><a href="#bat">Bat, Giant</a>, <a href="#green-slime">Green Slime</a>, <a href="#homunculus">Homunculus</a>, <a href="#mold">Yellow Mold</a>, <a href="#yellow-mold">Yellow Mold</a>, <a href="#zombie">Zombie</a>, <a href="#animated-armor">Animated Armor</a>, <a href="#mephit">Fire Mephit</a>, <a href="#gray-ooze">Gray Ooze</a>, <a href="#imp">Imp</a>, <a href="#living-statue">Living Statue, Crystal</a>, <a href="#quasit">Quasit</a>, <a href="#shadow">Shadow</a>, <a href="#thought-eater">Thought Eater</a>, <a href="#thoul">Thoul</a>, <a href="#dog">War Dog</a>, <a href="#bugbear">Bugbear</a>, <a href="#doppelganger">Doppelganger</a>, <a href="#gargoyle">Gargoyle</a>, <a href="#gelatinous-cube">Gelatinous Cube</a>, <a href="#githzerai">Githzerai</a>, <a href="#living-statue">Living Statue, Iron</a>, <a href="#medusa">Medusa</a>, <a href="#water-weird">Water Weird</a>, <a href="#wraith">Wraith</a>, <a href="#gibbering-mouther">Gibbering Mouther</a>, <a href="#githyanki">Githyanki</a>, <a href="#living-statue">Living Statue, Rock</a>, <a href="#rust-monster">Rust Monster</a>, <a href="#slithering-tracker">Slithering Tracker</a>, <a href="#horned-devil-malebranche">Horned Devil (Malebranche)</a>, <a href="#myconid-fungus-man">Myconid (Fungus Man)</a>, <a href="#spectre">Spectre</a></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td><a href="#animated-armor">Animated Armor</a>, <a href="#mephit">Fire Mephit</a>, <a href="#gray-ooze">Gray Ooze</a>, <a href="#imp">Imp</a>, <a href="#living-statue">Living Statue, Crystal</a>, <a href="#quasit">Quasit</a>, <a href="#shadow">Shadow</a>, <a href="#thought-eater">Thought Eater</a>, <a href="#thoul">Thoul</a>, <a href="#dog">War Dog</a>, <a href="#bugbear">Bugbear</a>, <a href="#doppelganger">Doppelganger</a>, <a href="#gargoyle">Gargoyle</a>, <a href="#gelatinous-cube">Gelatinous Cube</a>, <a href="#githzerai">Githzerai</a>, <a href="#living-statue">Living Statue, Iron</a>, <a href="#medusa">Medusa</a>, <a href="#water-weird">Water Weird</a>, <a href="#wraith">Wraith</a>, <a href="#gibbering-mouther">Gibbering Mouther</a>, <a href="#githyanki">Githyanki</a>, <a href="#living-statue">Living Statue, Rock</a>, <a href="#ochre-jelly">Ochre Jelly</a>, <a href="#rust-monster">Rust Monster</a>, <a href="#slithering-tracker">Slithering Tracker</a>, <a href="#troll">Troll</a>, <a href="#horned-devil-malebranche">Horned Devil (Malebranche)</a>, <a href="#minotaur">Minotaur</a>, <a href="#myconid-fungus-man">Myconid (Fungus Man)</a>, <a href="#ogre-mage">Ogre Mage</a>, <a href="#spectre">Spectre</a>, <a href="#erinyes">Erinyes</a>, <a href="#intellect-devourer">Intellect Devourer</a>, <a href="#rakshasa">Rakshasa</a></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td><a href="#bugbear">Bugbear</a>, <a href="#doppelganger">Doppelganger</a>, <a href="#gargoyle">Gargoyle</a>, <a href="#gelatinous-cube">Gelatinous Cube</a>, <a href="#githzerai">Githzerai</a>, <a href="#living-statue">Living Statue, Iron</a>, <a href="#medusa">Medusa</a>, <a href="#water-weird">Water Weird</a>, <a href="#wraith">Wraith</a>, <a href="#gibbering-mouther">Gibbering Mouther</a>, <a href="#githyanki">Githyanki</a>, <a href="#living-statue">Living Statue, Rock</a>, <a href="#ochre-jelly">Ochre Jelly</a>, <a href="#rust-monster">Rust Monster</a>, <a href="#slithering-tracker">Slithering Tracker</a>, <a href="#troll">Troll</a>, <a href="#horned-devil-malebranche">Horned Devil (Malebranche)</a>, <a href="#minotaur">Minotaur</a>, <a href="#myconid-fungus-man">Myconid (Fungus Man)</a>, <a href="#ogre-mage">Ogre Mage</a>, <a href="#spectre">Spectre</a>, <a href="#succubus">Succubus</a>, <a href="#erinyes">Erinyes</a>, <a href="#hellhound">Hellhound</a>, <a href="#intellect-devourer">Intellect Devourer</a>, <a href="#nightmare">Nightmare</a>, <a href="#rakshasa">Rakshasa</a>, <a href="#barbed-devil">Barbed Devil</a>, <a href="#golem">Golem, Flesh</a>, <a href="#otyugh">Otyugh</a></td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td><a href="#gibbering-mouther">Gibbering Mouther</a>, <a href="#githyanki">Githyanki</a>, <a href="#living-statue">Living Statue, Rock</a>, <a href="#ochre-jelly">Ochre Jelly</a>, <a href="#rust-monster">Rust Monster</a>, <a href="#slithering-tracker">Slithering Tracker</a>, <a href="#troll">Troll</a>, <a href="#horned-devil-malebranche">Horned Devil (Malebranche)</a>, <a href="#minotaur">Minotaur</a>, <a href="#myconid-fungus-man">Myconid (Fungus Man)</a>, <a href="#ogre-mage">Ogre Mage</a>, <a href="#spectre">Spectre</a>, <a href="#succubus">Succubus</a>, <a href="#erinyes">Erinyes</a>, <a href="#hellhound">Hellhound</a>, <a href="#intellect-devourer">Intellect Devourer</a>, <a href="#nightmare">Nightmare</a>, <a href="#rakshasa">Rakshasa</a>, <a href="#shadow-demon">Shadow Demon</a>, <a href="#barbed-devil">Barbed Devil</a>, <a href="#elemental">Elemental, Fire</a>, <a href="#golem">Golem, Flesh</a>, <a href="#lammasu">Lammasu</a>, <a href="#revenant">Revenant</a>, <a href="#bone-devil">Bone Devil</a>, <a href="#sphinx">Hieracosphinx</a>, <a href="#skeleton-warrior">Skeleton Warrior</a></td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td><a href="#horned-devil-malebranche">Horned Devil (Malebranche)</a>, <a href="#minotaur">Minotaur</a>, <a href="#myconid-fungus-man">Myconid (Fungus Man)</a>, <a href="#ogre-mage">Ogre Mage</a>, <a href="#spectre">Spectre</a>, <a href="#succubus">Succubus</a>, <a href="#erinyes">Erinyes</a>, <a href="#hellhound">Hellhound</a>, <a href="#intellect-devourer">Intellect Devourer</a>, <a href="#nightmare">Nightmare</a>, <a href="#rakshasa">Rakshasa</a>, <a href="#shadow-demon">Shadow Demon</a>, <a href="#barbed-devil">Barbed Devil</a>, <a href="#elemental">Elemental, Earth</a>, <a href="#elemental">Elemental, Fire</a>, <a href="#golem">Golem, Bone</a>, <a href="#golem">Golem, Flesh</a>, <a href="#invisible-stalker">Invisible Stalker</a>, <a href="#lammasu">Lammasu</a>, <a href="#otyugh">Otyugh</a>, <a href="#revenant">Revenant</a>, <a href="#type-i-demon-vrock">Type I Demon (Vrock)</a>, <a href="#bone-devil">Bone Devil</a>, <a href="#death-knight">Death Knight</a>, <a href="#lamia">Lamia</a>, <a href="#skeleton-warrior">Skeleton Warrior</a>, <a href="#type-vi-demon-balor">Type VI Demon (Balor)</a>, <a href="#black-pudding">Black Pudding</a>, <a href="#ghost">Ghost</a>, <a href="#shedu">Shedu</a></td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td><a href="#erinyes">Erinyes</a>, <a href="#hellhound">Hellhound</a>, <a href="#intellect-devourer">Intellect Devourer</a>, <a href="#nightmare">Nightmare</a>, <a href="#rakshasa">Rakshasa</a>, <a href="#shadow-demon">Shadow Demon</a>, <a href="#barbed-devil">Barbed Devil</a>, <a href="#elemental">Elemental, Earth</a>, <a href="#elemental">Elemental, Fire</a>, <a href="#golem">Golem, Bone</a>, <a href="#golem">Golem, Flesh</a>, <a href="#invisible-stalker">Invisible Stalker</a>, <a href="#lammasu">Lammasu</a>, <a href="#otyugh">Otyugh</a>, <a href="#revenant">Revenant</a>, <a href="#type-i-demon-vrock">Type I Demon (Vrock)</a>, <a href="#bone-devil">Bone Devil</a>, <a href="#dao">Dao</a>, <a href="#death-knight">Death Knight</a>, <a href="#sphinx">Hieracosphinx</a>, <a href="#lamia">Lamia</a>, <a href="#mind-flayer">Mind Flayer</a>, <a href="#skeleton-warrior">Skeleton Warrior</a>, <a href="#type-ii-demon-hezrou">Type II Demon (Hezrou)</a>, <a href="#type-vi-demon-balor">Type VI Demon (Balor)</a>, <a href="#vampire">Vampire</a>, <a href="#black-pudding">Black Pudding</a>, <a href="#sphinx">Criosphinx</a>, <a href="#ghost">Ghost</a>, <a href="#mimic">Mimic</a>, <a href="#naga">Spirit Naga</a>, <a href="#beholder">Beholder</a>, <a href="#dragon">Dragon, Gold</a>, <a href="#ice-devil">Ice Devil</a></td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td><a href="#barbed-devil">Barbed Devil</a>, <a href="#elemental">Elemental, Earth</a>, <a href="#elemental">Elemental, Fire</a>, <a href="#golem">Golem, Bone</a>, <a href="#golem">Golem, Flesh</a>, <a href="#invisible-stalker">Invisible Stalker</a>, <a href="#lammasu">Lammasu</a>, <a href="#otyugh">Otyugh</a>, <a href="#revenant">Revenant</a>, <a href="#type-i-demon-vrock">Type I Demon (Vrock)</a>, <a href="#bone-devil">Bone Devil</a>, <a href="#dao">Dao</a>, <a href="#death-knight">Death Knight</a>, <a href="#sphinx">Hieracosphinx</a>, <a href="#lamia">Lamia</a>, <a href="#mind-flayer">Mind Flayer</a>, <a href="#skeleton-warrior">Skeleton Warrior</a>, <a href="#type-ii-demon-hezrou">Type II Demon (Hezrou)</a>, <a href="#type-vi-demon-balor">Type VI Demon (Balor)</a>, <a href="#vampire">Vampire</a>, <a href="#black-pudding">Black Pudding</a>, <a href="#sphinx">Criosphinx</a>, <a href="#efreeti">Efreeti</a>, <a href="#ghost">Ghost</a>, <a href="#golem">Golem, Amber</a>, <a href="#mimic">Mimic</a>, <a href="#shedu">Shedu</a>, <a href="#naga">Spirit Naga</a>, <a href="#type-iii-demon-glabrezu">Type III Demon (Glabrezu)</a>, <a href="#beholder">Beholder</a>, <a href="#dragon">Dragon, Gold</a>, <a href="#golem">Golem, Clay</a>, <a href="#ice-devil">Ice Devil</a>, <a href="#type-iv-demon-nalfeshnee">Type IV Demon (Nalfeshnee)</a>, <a href="#sphinx">Androsphinx</a>, <a href="#naga">Guardian Naga</a>, <a href="#neotyugh">Neotyugh</a></td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td><a href="#bone-devil">Bone Devil</a>, <a href="#dao">Dao</a>, <a href="#death-knight">Death Knight</a>, <a href="#sphinx">Hieracosphinx</a>, <a href="#lamia">Lamia</a>, <a href="#mind-flayer">Mind Flayer</a>, <a href="#skeleton-warrior">Skeleton Warrior</a>, <a href="#type-ii-demon-hezrou">Type II Demon (Hezrou)</a>, <a href="#type-vi-demon-balor">Type VI Demon (Balor)</a>, <a href="#vampire">Vampire</a>, <a href="#black-pudding">Black Pudding</a>, <a href="#sphinx">Criosphinx</a>, <a href="#efreeti">Efreeti</a>, <a href="#ghost">Ghost</a>, <a href="#golem">Golem, Amber</a>, <a href="#mimic">Mimic</a>, <a href="#shedu">Shedu</a>, <a href="#naga">Spirit Naga</a>, <a href="#type-iii-demon-glabrezu">Type III Demon (Glabrezu)</a>, <a href="#beholder">Beholder</a>, <a href="#dragon">Dragon, Gold</a>, <a href="#golem">Golem, Clay</a>, <a href="#ice-devil">Ice Devil</a>, <a href="#type-iv-demon-nalfeshnee">Type IV Demon (Nalfeshnee)</a>, <a href="#sphinx">Androsphinx</a>, <a href="#giant">Fire Giant</a>, <a href="#naga">Guardian Naga</a>, <a href="#neotyugh">Neotyugh</a>, <a href="#slug-giant">Slug, Giant</a>, <a href="#pit-fiend">Pit Fiend</a></td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td><a href="#black-pudding">Black Pudding</a>, <a href="#sphinx">Criosphinx</a>, <a href="#efreeti">Efreeti</a>, <a href="#ghost">Ghost</a>, <a href="#golem">Golem, Amber</a>, <a href="#mimic">Mimic</a>, <a href="#shedu">Shedu</a>, <a href="#naga">Spirit Naga</a>, <a href="#type-iii-demon-glabrezu">Type III Demon (Glabrezu)</a>, <a href="#beholder">Beholder</a>, <a href="#dragon">Dragon, Gold</a>, <a href="#golem">Golem, Clay</a>, <a href="#ice-devil">Ice Devil</a>, <a href="#type-iv-demon-nalfeshnee">Type IV Demon (Nalfeshnee)</a>, <a href="#sphinx">Androsphinx</a>, <a href="#giant">Fire Giant</a>, <a href="#naga">Guardian Naga</a>, <a href="#lich">Lich</a>, <a href="#neotyugh">Neotyugh</a>, <a href="#slug-giant">Slug, Giant</a>, <a href="#trapper">Trapper</a>, <a href="#pit-fiend">Pit Fiend</a></td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td><a href="#beholder">Beholder</a>, <a href="#dragon">Dragon, Gold</a>, <a href="#golem">Golem, Clay</a>, <a href="#ice-devil">Ice Devil</a>, <a href="#type-iv-demon-nalfeshnee">Type IV Demon (Nalfeshnee)</a>, <a href="#sphinx">Androsphinx</a>, <a href="#giant">Fire Giant</a>, <a href="#naga">Guardian Naga</a>, <a href="#lich">Lich</a>, <a href="#neotyugh">Neotyugh</a>, <a href="#slug-giant">Slug, Giant</a>, <a href="#trapper">Trapper</a>, <a href="#pit-fiend">Pit Fiend</a></td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td><a href="#sphinx">Androsphinx</a>, <a href="#giant">Fire Giant</a>, <a href="#naga">Guardian Naga</a>, <a href="#lich">Lich</a>, <a href="#neotyugh">Neotyugh</a>, <a href="#slug-giant">Slug, Giant</a>, <a href="#trapper">Trapper</a>, <a href="#pit-fiend">Pit Fiend</a>, <a href="#aerial-servant">Aerial Servant</a></td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td><a href="#pit-fiend">Pit Fiend</a>, <a href="#aerial-servant">Aerial Servant</a></td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td><a href="#aerial-servant">Aerial Servant</a></td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td><a href="#aerial-servant">Aerial Servant</a></td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td><a href="#aerial-servant">Aerial Servant</a>, <a href="#demilich">Demilich</a>, <a href="#golem">Golem, Bronze</a>, <a href="#titan">Titan</a></td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td><a href="#demilich">Demilich</a>, <a href="#golem">Golem, Bronze</a>, <a href="#titan">Titan</a></td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td><a href="#demilich">Demilich</a>, <a href="#golem">Golem, Bronze</a>, <a href="#titan">Titan</a></td>
+</tr>
+</tbody>
+</table>
 <h3 id="overland-hex-crawl-generation">Overland Hex Crawl Generation</h3>
 <p><em>Source:</em> <code>Shadowdark RPG (adapted); OSRIC, Dungeons, Towns and Wildernesses</code></p>
 <p>Before <em>Wilderness Encounters</em>, below, can tell you <em>what</em> the party meets, something has to decide <em>where</em> the party is — this section generates the hex-by-hex terrain of an unmapped wilderness, and what’s worth finding in it, one hex at a time as the party travels. It reuses the same fourteen-terrain vocabulary as the Terrain Category Summary rather than inventing a separate one, so a hex’s result tells you immediately which terrain table to roll wandering encounters on.</p>

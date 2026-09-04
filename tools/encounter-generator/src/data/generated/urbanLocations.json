@@ -1,0 +1,2710 @@
+{
+  "Urban": {
+    "headers": [
+      "Level",
+      "Monster"
+    ],
+    "rows": [
+      {
+        "Level": {
+          "raw": "1",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Acolyte](#acolyte), [Bat, Normal](#bat), [Medium](#medium), [Men, Buccaneer / Pirate](#men), [Men, Merchant](#men), [Normal Human](#normal-human), [Poltergeist](#poltergeist), [Rat, Giant](#rat), [Rat, Normal](#rat), [Rot Grub](#rot-grub), [Bat, Giant](#bat), [Imp](#imp), [Noble](#noble), [Smoke Mephit](#mephit)",
+          "links": [
+            {
+              "label": "Acolyte",
+              "anchor": "acolyte"
+            },
+            {
+              "label": "Bat, Normal",
+              "anchor": "bat"
+            },
+            {
+              "label": "Medium",
+              "anchor": "medium"
+            },
+            {
+              "label": "Men, Buccaneer / Pirate",
+              "anchor": "men"
+            },
+            {
+              "label": "Men, Merchant",
+              "anchor": "men"
+            },
+            {
+              "label": "Normal Human",
+              "anchor": "normal-human"
+            },
+            {
+              "label": "Poltergeist",
+              "anchor": "poltergeist"
+            },
+            {
+              "label": "Rat, Giant",
+              "anchor": "rat"
+            },
+            {
+              "label": "Rat, Normal",
+              "anchor": "rat"
+            },
+            {
+              "label": "Rot Grub",
+              "anchor": "rot-grub"
+            },
+            {
+              "label": "Bat, Giant",
+              "anchor": "bat"
+            },
+            {
+              "label": "Imp",
+              "anchor": "imp"
+            },
+            {
+              "label": "Noble",
+              "anchor": "noble"
+            },
+            {
+              "label": "Smoke Mephit",
+              "anchor": "mephit"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "2",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Acolyte](#acolyte), [Bat, Normal](#bat), [Medium](#medium), [Men, Buccaneer / Pirate](#men), [Men, Merchant](#men), [Normal Human](#normal-human), [Poltergeist](#poltergeist), [Rat, Giant](#rat), [Rat, Normal](#rat), [Rot Grub](#rot-grub), [Bat, Giant](#bat), [Imp](#imp), [Living Statue, Crystal](#living-statue), [Noble](#noble), [Smoke Mephit](#mephit), [Veteran](#veteran), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Living Statue, Iron](#living-statue)",
+          "links": [
+            {
+              "label": "Acolyte",
+              "anchor": "acolyte"
+            },
+            {
+              "label": "Bat, Normal",
+              "anchor": "bat"
+            },
+            {
+              "label": "Medium",
+              "anchor": "medium"
+            },
+            {
+              "label": "Men, Buccaneer / Pirate",
+              "anchor": "men"
+            },
+            {
+              "label": "Men, Merchant",
+              "anchor": "men"
+            },
+            {
+              "label": "Normal Human",
+              "anchor": "normal-human"
+            },
+            {
+              "label": "Poltergeist",
+              "anchor": "poltergeist"
+            },
+            {
+              "label": "Rat, Giant",
+              "anchor": "rat"
+            },
+            {
+              "label": "Rat, Normal",
+              "anchor": "rat"
+            },
+            {
+              "label": "Rot Grub",
+              "anchor": "rot-grub"
+            },
+            {
+              "label": "Bat, Giant",
+              "anchor": "bat"
+            },
+            {
+              "label": "Imp",
+              "anchor": "imp"
+            },
+            {
+              "label": "Living Statue, Crystal",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Noble",
+              "anchor": "noble"
+            },
+            {
+              "label": "Smoke Mephit",
+              "anchor": "mephit"
+            },
+            {
+              "label": "Veteran",
+              "anchor": "veteran"
+            },
+            {
+              "label": "Doppelganger",
+              "anchor": "doppelganger"
+            },
+            {
+              "label": "Gargoyle",
+              "anchor": "gargoyle"
+            },
+            {
+              "label": "Living Statue, Iron",
+              "anchor": "living-statue"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "3",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Acolyte](#acolyte), [Bat, Normal](#bat), [Medium](#medium), [Men, Buccaneer / Pirate](#men), [Men, Merchant](#men), [Normal Human](#normal-human), [Poltergeist](#poltergeist), [Rat, Giant](#rat), [Rat, Normal](#rat), [Rot Grub](#rot-grub), [Bat, Giant](#bat), [Imp](#imp), [Living Statue, Crystal](#living-statue), [Noble](#noble), [Quasit](#quasit), [Smoke Mephit](#mephit), [Veteran](#veteran), [War Dog](#dog), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Living Statue, Iron](#living-statue), [Water Weird](#water-weird), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Wererat](#wererat)",
+          "links": [
+            {
+              "label": "Acolyte",
+              "anchor": "acolyte"
+            },
+            {
+              "label": "Bat, Normal",
+              "anchor": "bat"
+            },
+            {
+              "label": "Medium",
+              "anchor": "medium"
+            },
+            {
+              "label": "Men, Buccaneer / Pirate",
+              "anchor": "men"
+            },
+            {
+              "label": "Men, Merchant",
+              "anchor": "men"
+            },
+            {
+              "label": "Normal Human",
+              "anchor": "normal-human"
+            },
+            {
+              "label": "Poltergeist",
+              "anchor": "poltergeist"
+            },
+            {
+              "label": "Rat, Giant",
+              "anchor": "rat"
+            },
+            {
+              "label": "Rat, Normal",
+              "anchor": "rat"
+            },
+            {
+              "label": "Rot Grub",
+              "anchor": "rot-grub"
+            },
+            {
+              "label": "Bat, Giant",
+              "anchor": "bat"
+            },
+            {
+              "label": "Imp",
+              "anchor": "imp"
+            },
+            {
+              "label": "Living Statue, Crystal",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Noble",
+              "anchor": "noble"
+            },
+            {
+              "label": "Quasit",
+              "anchor": "quasit"
+            },
+            {
+              "label": "Smoke Mephit",
+              "anchor": "mephit"
+            },
+            {
+              "label": "Veteran",
+              "anchor": "veteran"
+            },
+            {
+              "label": "War Dog",
+              "anchor": "dog"
+            },
+            {
+              "label": "Doppelganger",
+              "anchor": "doppelganger"
+            },
+            {
+              "label": "Gargoyle",
+              "anchor": "gargoyle"
+            },
+            {
+              "label": "Living Statue, Iron",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Water Weird",
+              "anchor": "water-weird"
+            },
+            {
+              "label": "Githyanki",
+              "anchor": "githyanki"
+            },
+            {
+              "label": "Living Statue, Rock",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Wererat",
+              "anchor": "wererat"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "4",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Bat, Giant](#bat), [Imp](#imp), [Living Statue, Crystal](#living-statue), [Noble](#noble), [Quasit](#quasit), [Smoke Mephit](#mephit), [Veteran](#veteran), [War Dog](#dog), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Living Statue, Iron](#living-statue), [Water Weird](#water-weird), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Wererat](#wererat), [Succubus](#succubus)",
+          "links": [
+            {
+              "label": "Bat, Giant",
+              "anchor": "bat"
+            },
+            {
+              "label": "Imp",
+              "anchor": "imp"
+            },
+            {
+              "label": "Living Statue, Crystal",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Noble",
+              "anchor": "noble"
+            },
+            {
+              "label": "Quasit",
+              "anchor": "quasit"
+            },
+            {
+              "label": "Smoke Mephit",
+              "anchor": "mephit"
+            },
+            {
+              "label": "Veteran",
+              "anchor": "veteran"
+            },
+            {
+              "label": "War Dog",
+              "anchor": "dog"
+            },
+            {
+              "label": "Doppelganger",
+              "anchor": "doppelganger"
+            },
+            {
+              "label": "Gargoyle",
+              "anchor": "gargoyle"
+            },
+            {
+              "label": "Living Statue, Iron",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Water Weird",
+              "anchor": "water-weird"
+            },
+            {
+              "label": "Githyanki",
+              "anchor": "githyanki"
+            },
+            {
+              "label": "Living Statue, Rock",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Wererat",
+              "anchor": "wererat"
+            },
+            {
+              "label": "Succubus",
+              "anchor": "succubus"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "5",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Imp](#imp), [Living Statue, Crystal](#living-statue), [Noble](#noble), [Quasit](#quasit), [Smoke Mephit](#mephit), [Veteran](#veteran), [War Dog](#dog), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Living Statue, Iron](#living-statue), [Water Weird](#water-weird), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Wererat](#wererat), [Succubus](#succubus), [Erinyes](#erinyes), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon)",
+          "links": [
+            {
+              "label": "Imp",
+              "anchor": "imp"
+            },
+            {
+              "label": "Living Statue, Crystal",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Noble",
+              "anchor": "noble"
+            },
+            {
+              "label": "Quasit",
+              "anchor": "quasit"
+            },
+            {
+              "label": "Smoke Mephit",
+              "anchor": "mephit"
+            },
+            {
+              "label": "Veteran",
+              "anchor": "veteran"
+            },
+            {
+              "label": "War Dog",
+              "anchor": "dog"
+            },
+            {
+              "label": "Doppelganger",
+              "anchor": "doppelganger"
+            },
+            {
+              "label": "Gargoyle",
+              "anchor": "gargoyle"
+            },
+            {
+              "label": "Living Statue, Iron",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Water Weird",
+              "anchor": "water-weird"
+            },
+            {
+              "label": "Githyanki",
+              "anchor": "githyanki"
+            },
+            {
+              "label": "Living Statue, Rock",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Wererat",
+              "anchor": "wererat"
+            },
+            {
+              "label": "Succubus",
+              "anchor": "succubus"
+            },
+            {
+              "label": "Erinyes",
+              "anchor": "erinyes"
+            },
+            {
+              "label": "Rakshasa",
+              "anchor": "rakshasa"
+            },
+            {
+              "label": "Shadow Demon",
+              "anchor": "shadow-demon"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "6",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Living Statue, Iron](#living-statue), [Water Weird](#water-weird), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Wererat](#wererat), [Succubus](#succubus), [Erinyes](#erinyes), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Invisible Stalker](#invisible-stalker), [Night Hag](#night-hag), [Otyugh](#otyugh)",
+          "links": [
+            {
+              "label": "Doppelganger",
+              "anchor": "doppelganger"
+            },
+            {
+              "label": "Gargoyle",
+              "anchor": "gargoyle"
+            },
+            {
+              "label": "Living Statue, Iron",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Water Weird",
+              "anchor": "water-weird"
+            },
+            {
+              "label": "Githyanki",
+              "anchor": "githyanki"
+            },
+            {
+              "label": "Living Statue, Rock",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Wererat",
+              "anchor": "wererat"
+            },
+            {
+              "label": "Succubus",
+              "anchor": "succubus"
+            },
+            {
+              "label": "Erinyes",
+              "anchor": "erinyes"
+            },
+            {
+              "label": "Rakshasa",
+              "anchor": "rakshasa"
+            },
+            {
+              "label": "Shadow Demon",
+              "anchor": "shadow-demon"
+            },
+            {
+              "label": "Invisible Stalker",
+              "anchor": "invisible-stalker"
+            },
+            {
+              "label": "Night Hag",
+              "anchor": "night-hag"
+            },
+            {
+              "label": "Otyugh",
+              "anchor": "otyugh"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "7",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Wererat](#wererat), [Succubus](#succubus), [Erinyes](#erinyes), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Invisible Stalker](#invisible-stalker), [Night Hag](#night-hag), [Otyugh](#otyugh), [Revenant](#revenant), [Vampire](#vampire)",
+          "links": [
+            {
+              "label": "Githyanki",
+              "anchor": "githyanki"
+            },
+            {
+              "label": "Living Statue, Rock",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Wererat",
+              "anchor": "wererat"
+            },
+            {
+              "label": "Succubus",
+              "anchor": "succubus"
+            },
+            {
+              "label": "Erinyes",
+              "anchor": "erinyes"
+            },
+            {
+              "label": "Rakshasa",
+              "anchor": "rakshasa"
+            },
+            {
+              "label": "Shadow Demon",
+              "anchor": "shadow-demon"
+            },
+            {
+              "label": "Invisible Stalker",
+              "anchor": "invisible-stalker"
+            },
+            {
+              "label": "Night Hag",
+              "anchor": "night-hag"
+            },
+            {
+              "label": "Otyugh",
+              "anchor": "otyugh"
+            },
+            {
+              "label": "Revenant",
+              "anchor": "revenant"
+            },
+            {
+              "label": "Vampire",
+              "anchor": "vampire"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "8",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Succubus](#succubus), [Erinyes](#erinyes), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Invisible Stalker](#invisible-stalker), [Night Hag](#night-hag), [Otyugh](#otyugh), [Revenant](#revenant), [Vampire](#vampire), [Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu)",
+          "links": [
+            {
+              "label": "Succubus",
+              "anchor": "succubus"
+            },
+            {
+              "label": "Erinyes",
+              "anchor": "erinyes"
+            },
+            {
+              "label": "Rakshasa",
+              "anchor": "rakshasa"
+            },
+            {
+              "label": "Shadow Demon",
+              "anchor": "shadow-demon"
+            },
+            {
+              "label": "Invisible Stalker",
+              "anchor": "invisible-stalker"
+            },
+            {
+              "label": "Night Hag",
+              "anchor": "night-hag"
+            },
+            {
+              "label": "Otyugh",
+              "anchor": "otyugh"
+            },
+            {
+              "label": "Revenant",
+              "anchor": "revenant"
+            },
+            {
+              "label": "Vampire",
+              "anchor": "vampire"
+            },
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Type III Demon (Glabrezu)",
+              "anchor": "type-iii-demon-glabrezu"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "9",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Erinyes](#erinyes), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Invisible Stalker](#invisible-stalker), [Night Hag](#night-hag), [Otyugh](#otyugh), [Revenant](#revenant), [Vampire](#vampire), [Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu)",
+          "links": [
+            {
+              "label": "Erinyes",
+              "anchor": "erinyes"
+            },
+            {
+              "label": "Rakshasa",
+              "anchor": "rakshasa"
+            },
+            {
+              "label": "Shadow Demon",
+              "anchor": "shadow-demon"
+            },
+            {
+              "label": "Invisible Stalker",
+              "anchor": "invisible-stalker"
+            },
+            {
+              "label": "Night Hag",
+              "anchor": "night-hag"
+            },
+            {
+              "label": "Otyugh",
+              "anchor": "otyugh"
+            },
+            {
+              "label": "Revenant",
+              "anchor": "revenant"
+            },
+            {
+              "label": "Vampire",
+              "anchor": "vampire"
+            },
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Type III Demon (Glabrezu)",
+              "anchor": "type-iii-demon-glabrezu"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "10",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Invisible Stalker](#invisible-stalker), [Night Hag](#night-hag), [Otyugh](#otyugh), [Revenant](#revenant), [Vampire](#vampire), [Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh)",
+          "links": [
+            {
+              "label": "Invisible Stalker",
+              "anchor": "invisible-stalker"
+            },
+            {
+              "label": "Night Hag",
+              "anchor": "night-hag"
+            },
+            {
+              "label": "Otyugh",
+              "anchor": "otyugh"
+            },
+            {
+              "label": "Revenant",
+              "anchor": "revenant"
+            },
+            {
+              "label": "Vampire",
+              "anchor": "vampire"
+            },
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Type III Demon (Glabrezu)",
+              "anchor": "type-iii-demon-glabrezu"
+            },
+            {
+              "label": "Neotyugh",
+              "anchor": "neotyugh"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "11",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Vampire](#vampire), [Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh)",
+          "links": [
+            {
+              "label": "Vampire",
+              "anchor": "vampire"
+            },
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Type III Demon (Glabrezu)",
+              "anchor": "type-iii-demon-glabrezu"
+            },
+            {
+              "label": "Neotyugh",
+              "anchor": "neotyugh"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "12",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh)",
+          "links": [
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Type III Demon (Glabrezu)",
+              "anchor": "type-iii-demon-glabrezu"
+            },
+            {
+              "label": "Neotyugh",
+              "anchor": "neotyugh"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "13",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Neotyugh](#neotyugh)",
+          "links": [
+            {
+              "label": "Neotyugh",
+              "anchor": "neotyugh"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "14",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Neotyugh](#neotyugh)",
+          "links": [
+            {
+              "label": "Neotyugh",
+              "anchor": "neotyugh"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "15",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh) *(as Level 10/12)*",
+          "links": [
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Type III Demon (Glabrezu)",
+              "anchor": "type-iii-demon-glabrezu"
+            },
+            {
+              "label": "Neotyugh",
+              "anchor": "neotyugh"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "16",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh) *(as Level 10/12)*",
+          "links": [
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Type III Demon (Glabrezu)",
+              "anchor": "type-iii-demon-glabrezu"
+            },
+            {
+              "label": "Neotyugh",
+              "anchor": "neotyugh"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "17",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh) *(as Level 10/12)*",
+          "links": [
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Type III Demon (Glabrezu)",
+              "anchor": "type-iii-demon-glabrezu"
+            },
+            {
+              "label": "Neotyugh",
+              "anchor": "neotyugh"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "18",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh) *(as Level 10/12)*",
+          "links": [
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Type III Demon (Glabrezu)",
+              "anchor": "type-iii-demon-glabrezu"
+            },
+            {
+              "label": "Neotyugh",
+              "anchor": "neotyugh"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "19",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh) *(as Level 10/12)*",
+          "links": [
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Type III Demon (Glabrezu)",
+              "anchor": "type-iii-demon-glabrezu"
+            },
+            {
+              "label": "Neotyugh",
+              "anchor": "neotyugh"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "20",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh) *(as Level 10/12)*",
+          "links": [
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Type III Demon (Glabrezu)",
+              "anchor": "type-iii-demon-glabrezu"
+            },
+            {
+              "label": "Neotyugh",
+              "anchor": "neotyugh"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "Castle": {
+    "headers": [
+      "Level",
+      "Monster"
+    ],
+    "rows": [
+      {
+        "Level": {
+          "raw": "1",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Bat, Normal](#bat), [Brown Mold](#mold), [Cerebral Parasite](#cerebral-parasite), [Larva](#larva), [Manes](#manes), [Medium](#medium), [Men, Merchant](#men), [Poltergeist](#poltergeist), [Rat, Giant](#rat), [Rat, Normal](#rat), [Bat, Giant](#bat), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Lemure](#lemure), [Smoke Mephit](#mephit)",
+          "links": [
+            {
+              "label": "Bat, Normal",
+              "anchor": "bat"
+            },
+            {
+              "label": "Brown Mold",
+              "anchor": "mold"
+            },
+            {
+              "label": "Cerebral Parasite",
+              "anchor": "cerebral-parasite"
+            },
+            {
+              "label": "Larva",
+              "anchor": "larva"
+            },
+            {
+              "label": "Manes",
+              "anchor": "manes"
+            },
+            {
+              "label": "Medium",
+              "anchor": "medium"
+            },
+            {
+              "label": "Men, Merchant",
+              "anchor": "men"
+            },
+            {
+              "label": "Poltergeist",
+              "anchor": "poltergeist"
+            },
+            {
+              "label": "Rat, Giant",
+              "anchor": "rat"
+            },
+            {
+              "label": "Rat, Normal",
+              "anchor": "rat"
+            },
+            {
+              "label": "Bat, Giant",
+              "anchor": "bat"
+            },
+            {
+              "label": "Green Slime",
+              "anchor": "green-slime"
+            },
+            {
+              "label": "Homunculus",
+              "anchor": "homunculus"
+            },
+            {
+              "label": "Yellow Mold",
+              "anchor": "mold"
+            },
+            {
+              "label": "Yellow Mold",
+              "anchor": "yellow-mold"
+            },
+            {
+              "label": "Animated Armor",
+              "anchor": "animated-armor"
+            },
+            {
+              "label": "Lemure",
+              "anchor": "lemure"
+            },
+            {
+              "label": "Smoke Mephit",
+              "anchor": "mephit"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "2",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Bat, Normal](#bat), [Brown Mold](#mold), [Cerebral Parasite](#cerebral-parasite), [Larva](#larva), [Manes](#manes), [Medium](#medium), [Men, Merchant](#men), [Poltergeist](#poltergeist), [Rat, Giant](#rat), [Rat, Normal](#rat), [Bat, Giant](#bat), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Gray Ooze](#gray-ooze), [Living Statue, Crystal](#living-statue), [Shadow](#shadow), [Thoul](#thoul), [Bugbear](#bugbear), [Gelatinous Cube](#gelatinous-cube), [Medusa](#medusa)",
+          "links": [
+            {
+              "label": "Bat, Normal",
+              "anchor": "bat"
+            },
+            {
+              "label": "Brown Mold",
+              "anchor": "mold"
+            },
+            {
+              "label": "Cerebral Parasite",
+              "anchor": "cerebral-parasite"
+            },
+            {
+              "label": "Larva",
+              "anchor": "larva"
+            },
+            {
+              "label": "Manes",
+              "anchor": "manes"
+            },
+            {
+              "label": "Medium",
+              "anchor": "medium"
+            },
+            {
+              "label": "Men, Merchant",
+              "anchor": "men"
+            },
+            {
+              "label": "Poltergeist",
+              "anchor": "poltergeist"
+            },
+            {
+              "label": "Rat, Giant",
+              "anchor": "rat"
+            },
+            {
+              "label": "Rat, Normal",
+              "anchor": "rat"
+            },
+            {
+              "label": "Bat, Giant",
+              "anchor": "bat"
+            },
+            {
+              "label": "Green Slime",
+              "anchor": "green-slime"
+            },
+            {
+              "label": "Homunculus",
+              "anchor": "homunculus"
+            },
+            {
+              "label": "Yellow Mold",
+              "anchor": "mold"
+            },
+            {
+              "label": "Yellow Mold",
+              "anchor": "yellow-mold"
+            },
+            {
+              "label": "Zombie",
+              "anchor": "zombie"
+            },
+            {
+              "label": "Animated Armor",
+              "anchor": "animated-armor"
+            },
+            {
+              "label": "Gray Ooze",
+              "anchor": "gray-ooze"
+            },
+            {
+              "label": "Living Statue, Crystal",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Shadow",
+              "anchor": "shadow"
+            },
+            {
+              "label": "Thoul",
+              "anchor": "thoul"
+            },
+            {
+              "label": "Bugbear",
+              "anchor": "bugbear"
+            },
+            {
+              "label": "Gelatinous Cube",
+              "anchor": "gelatinous-cube"
+            },
+            {
+              "label": "Medusa",
+              "anchor": "medusa"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "3",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Bat, Normal](#bat), [Brown Mold](#mold), [Cerebral Parasite](#cerebral-parasite), [Larva](#larva), [Manes](#manes), [Medium](#medium), [Men, Merchant](#men), [Poltergeist](#poltergeist), [Rat, Giant](#rat), [Rat, Normal](#rat), [Bat, Giant](#bat), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Fire Mephit](#mephit), [Gray Ooze](#gray-ooze), [Imp](#imp), [Living Statue, Crystal](#living-statue), [Quasit](#quasit), [Shadow](#shadow), [Thought Eater](#thought-eater), [Thoul](#thoul), [War Dog](#dog), [Bugbear](#bugbear), [Doppelganger](#doppelganger), [Gelatinous Cube](#gelatinous-cube), [Living Statue, Iron](#living-statue), [Water Weird](#water-weird), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Rust Monster](#rust-monster)",
+          "links": [
+            {
+              "label": "Bat, Normal",
+              "anchor": "bat"
+            },
+            {
+              "label": "Brown Mold",
+              "anchor": "mold"
+            },
+            {
+              "label": "Cerebral Parasite",
+              "anchor": "cerebral-parasite"
+            },
+            {
+              "label": "Larva",
+              "anchor": "larva"
+            },
+            {
+              "label": "Manes",
+              "anchor": "manes"
+            },
+            {
+              "label": "Medium",
+              "anchor": "medium"
+            },
+            {
+              "label": "Men, Merchant",
+              "anchor": "men"
+            },
+            {
+              "label": "Poltergeist",
+              "anchor": "poltergeist"
+            },
+            {
+              "label": "Rat, Giant",
+              "anchor": "rat"
+            },
+            {
+              "label": "Rat, Normal",
+              "anchor": "rat"
+            },
+            {
+              "label": "Bat, Giant",
+              "anchor": "bat"
+            },
+            {
+              "label": "Green Slime",
+              "anchor": "green-slime"
+            },
+            {
+              "label": "Homunculus",
+              "anchor": "homunculus"
+            },
+            {
+              "label": "Yellow Mold",
+              "anchor": "mold"
+            },
+            {
+              "label": "Yellow Mold",
+              "anchor": "yellow-mold"
+            },
+            {
+              "label": "Zombie",
+              "anchor": "zombie"
+            },
+            {
+              "label": "Animated Armor",
+              "anchor": "animated-armor"
+            },
+            {
+              "label": "Fire Mephit",
+              "anchor": "mephit"
+            },
+            {
+              "label": "Gray Ooze",
+              "anchor": "gray-ooze"
+            },
+            {
+              "label": "Imp",
+              "anchor": "imp"
+            },
+            {
+              "label": "Living Statue, Crystal",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Quasit",
+              "anchor": "quasit"
+            },
+            {
+              "label": "Shadow",
+              "anchor": "shadow"
+            },
+            {
+              "label": "Thought Eater",
+              "anchor": "thought-eater"
+            },
+            {
+              "label": "Thoul",
+              "anchor": "thoul"
+            },
+            {
+              "label": "War Dog",
+              "anchor": "dog"
+            },
+            {
+              "label": "Bugbear",
+              "anchor": "bugbear"
+            },
+            {
+              "label": "Doppelganger",
+              "anchor": "doppelganger"
+            },
+            {
+              "label": "Gelatinous Cube",
+              "anchor": "gelatinous-cube"
+            },
+            {
+              "label": "Living Statue, Iron",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Water Weird",
+              "anchor": "water-weird"
+            },
+            {
+              "label": "Gibbering Mouther",
+              "anchor": "gibbering-mouther"
+            },
+            {
+              "label": "Living Statue, Rock",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Rust Monster",
+              "anchor": "rust-monster"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "4",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Bat, Giant](#bat), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Fire Mephit](#mephit), [Gray Ooze](#gray-ooze), [Imp](#imp), [Living Statue, Crystal](#living-statue), [Quasit](#quasit), [Shadow](#shadow), [Thought Eater](#thought-eater), [Thoul](#thoul), [War Dog](#dog), [Bugbear](#bugbear), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Githzerai](#githzerai), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Myconid (Fungus Man)](#myconid-fungus-man), [Spectre](#spectre)",
+          "links": [
+            {
+              "label": "Bat, Giant",
+              "anchor": "bat"
+            },
+            {
+              "label": "Green Slime",
+              "anchor": "green-slime"
+            },
+            {
+              "label": "Homunculus",
+              "anchor": "homunculus"
+            },
+            {
+              "label": "Yellow Mold",
+              "anchor": "mold"
+            },
+            {
+              "label": "Yellow Mold",
+              "anchor": "yellow-mold"
+            },
+            {
+              "label": "Zombie",
+              "anchor": "zombie"
+            },
+            {
+              "label": "Animated Armor",
+              "anchor": "animated-armor"
+            },
+            {
+              "label": "Fire Mephit",
+              "anchor": "mephit"
+            },
+            {
+              "label": "Gray Ooze",
+              "anchor": "gray-ooze"
+            },
+            {
+              "label": "Imp",
+              "anchor": "imp"
+            },
+            {
+              "label": "Living Statue, Crystal",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Quasit",
+              "anchor": "quasit"
+            },
+            {
+              "label": "Shadow",
+              "anchor": "shadow"
+            },
+            {
+              "label": "Thought Eater",
+              "anchor": "thought-eater"
+            },
+            {
+              "label": "Thoul",
+              "anchor": "thoul"
+            },
+            {
+              "label": "War Dog",
+              "anchor": "dog"
+            },
+            {
+              "label": "Bugbear",
+              "anchor": "bugbear"
+            },
+            {
+              "label": "Doppelganger",
+              "anchor": "doppelganger"
+            },
+            {
+              "label": "Gargoyle",
+              "anchor": "gargoyle"
+            },
+            {
+              "label": "Gelatinous Cube",
+              "anchor": "gelatinous-cube"
+            },
+            {
+              "label": "Githzerai",
+              "anchor": "githzerai"
+            },
+            {
+              "label": "Living Statue, Iron",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Medusa",
+              "anchor": "medusa"
+            },
+            {
+              "label": "Water Weird",
+              "anchor": "water-weird"
+            },
+            {
+              "label": "Wraith",
+              "anchor": "wraith"
+            },
+            {
+              "label": "Gibbering Mouther",
+              "anchor": "gibbering-mouther"
+            },
+            {
+              "label": "Githyanki",
+              "anchor": "githyanki"
+            },
+            {
+              "label": "Living Statue, Rock",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Rust Monster",
+              "anchor": "rust-monster"
+            },
+            {
+              "label": "Slithering Tracker",
+              "anchor": "slithering-tracker"
+            },
+            {
+              "label": "Horned Devil (Malebranche)",
+              "anchor": "horned-devil-malebranche"
+            },
+            {
+              "label": "Myconid (Fungus Man)",
+              "anchor": "myconid-fungus-man"
+            },
+            {
+              "label": "Spectre",
+              "anchor": "spectre"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "5",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Animated Armor](#animated-armor), [Fire Mephit](#mephit), [Gray Ooze](#gray-ooze), [Imp](#imp), [Living Statue, Crystal](#living-statue), [Quasit](#quasit), [Shadow](#shadow), [Thought Eater](#thought-eater), [Thoul](#thoul), [War Dog](#dog), [Bugbear](#bugbear), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Githzerai](#githzerai), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Troll](#troll), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Erinyes](#erinyes), [Intellect Devourer](#intellect-devourer), [Rakshasa](#rakshasa)",
+          "links": [
+            {
+              "label": "Animated Armor",
+              "anchor": "animated-armor"
+            },
+            {
+              "label": "Fire Mephit",
+              "anchor": "mephit"
+            },
+            {
+              "label": "Gray Ooze",
+              "anchor": "gray-ooze"
+            },
+            {
+              "label": "Imp",
+              "anchor": "imp"
+            },
+            {
+              "label": "Living Statue, Crystal",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Quasit",
+              "anchor": "quasit"
+            },
+            {
+              "label": "Shadow",
+              "anchor": "shadow"
+            },
+            {
+              "label": "Thought Eater",
+              "anchor": "thought-eater"
+            },
+            {
+              "label": "Thoul",
+              "anchor": "thoul"
+            },
+            {
+              "label": "War Dog",
+              "anchor": "dog"
+            },
+            {
+              "label": "Bugbear",
+              "anchor": "bugbear"
+            },
+            {
+              "label": "Doppelganger",
+              "anchor": "doppelganger"
+            },
+            {
+              "label": "Gargoyle",
+              "anchor": "gargoyle"
+            },
+            {
+              "label": "Gelatinous Cube",
+              "anchor": "gelatinous-cube"
+            },
+            {
+              "label": "Githzerai",
+              "anchor": "githzerai"
+            },
+            {
+              "label": "Living Statue, Iron",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Medusa",
+              "anchor": "medusa"
+            },
+            {
+              "label": "Water Weird",
+              "anchor": "water-weird"
+            },
+            {
+              "label": "Wraith",
+              "anchor": "wraith"
+            },
+            {
+              "label": "Gibbering Mouther",
+              "anchor": "gibbering-mouther"
+            },
+            {
+              "label": "Githyanki",
+              "anchor": "githyanki"
+            },
+            {
+              "label": "Living Statue, Rock",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Ochre Jelly",
+              "anchor": "ochre-jelly"
+            },
+            {
+              "label": "Rust Monster",
+              "anchor": "rust-monster"
+            },
+            {
+              "label": "Slithering Tracker",
+              "anchor": "slithering-tracker"
+            },
+            {
+              "label": "Troll",
+              "anchor": "troll"
+            },
+            {
+              "label": "Horned Devil (Malebranche)",
+              "anchor": "horned-devil-malebranche"
+            },
+            {
+              "label": "Minotaur",
+              "anchor": "minotaur"
+            },
+            {
+              "label": "Myconid (Fungus Man)",
+              "anchor": "myconid-fungus-man"
+            },
+            {
+              "label": "Ogre Mage",
+              "anchor": "ogre-mage"
+            },
+            {
+              "label": "Spectre",
+              "anchor": "spectre"
+            },
+            {
+              "label": "Erinyes",
+              "anchor": "erinyes"
+            },
+            {
+              "label": "Intellect Devourer",
+              "anchor": "intellect-devourer"
+            },
+            {
+              "label": "Rakshasa",
+              "anchor": "rakshasa"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "6",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Bugbear](#bugbear), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Githzerai](#githzerai), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Troll](#troll), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Succubus](#succubus), [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Barbed Devil](#barbed-devil), [Golem, Flesh](#golem), [Otyugh](#otyugh)",
+          "links": [
+            {
+              "label": "Bugbear",
+              "anchor": "bugbear"
+            },
+            {
+              "label": "Doppelganger",
+              "anchor": "doppelganger"
+            },
+            {
+              "label": "Gargoyle",
+              "anchor": "gargoyle"
+            },
+            {
+              "label": "Gelatinous Cube",
+              "anchor": "gelatinous-cube"
+            },
+            {
+              "label": "Githzerai",
+              "anchor": "githzerai"
+            },
+            {
+              "label": "Living Statue, Iron",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Medusa",
+              "anchor": "medusa"
+            },
+            {
+              "label": "Water Weird",
+              "anchor": "water-weird"
+            },
+            {
+              "label": "Wraith",
+              "anchor": "wraith"
+            },
+            {
+              "label": "Gibbering Mouther",
+              "anchor": "gibbering-mouther"
+            },
+            {
+              "label": "Githyanki",
+              "anchor": "githyanki"
+            },
+            {
+              "label": "Living Statue, Rock",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Ochre Jelly",
+              "anchor": "ochre-jelly"
+            },
+            {
+              "label": "Rust Monster",
+              "anchor": "rust-monster"
+            },
+            {
+              "label": "Slithering Tracker",
+              "anchor": "slithering-tracker"
+            },
+            {
+              "label": "Troll",
+              "anchor": "troll"
+            },
+            {
+              "label": "Horned Devil (Malebranche)",
+              "anchor": "horned-devil-malebranche"
+            },
+            {
+              "label": "Minotaur",
+              "anchor": "minotaur"
+            },
+            {
+              "label": "Myconid (Fungus Man)",
+              "anchor": "myconid-fungus-man"
+            },
+            {
+              "label": "Ogre Mage",
+              "anchor": "ogre-mage"
+            },
+            {
+              "label": "Spectre",
+              "anchor": "spectre"
+            },
+            {
+              "label": "Succubus",
+              "anchor": "succubus"
+            },
+            {
+              "label": "Erinyes",
+              "anchor": "erinyes"
+            },
+            {
+              "label": "Hellhound",
+              "anchor": "hellhound"
+            },
+            {
+              "label": "Intellect Devourer",
+              "anchor": "intellect-devourer"
+            },
+            {
+              "label": "Nightmare",
+              "anchor": "nightmare"
+            },
+            {
+              "label": "Rakshasa",
+              "anchor": "rakshasa"
+            },
+            {
+              "label": "Barbed Devil",
+              "anchor": "barbed-devil"
+            },
+            {
+              "label": "Golem, Flesh",
+              "anchor": "golem"
+            },
+            {
+              "label": "Otyugh",
+              "anchor": "otyugh"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "7",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Gibbering Mouther](#gibbering-mouther), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Troll](#troll), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Succubus](#succubus), [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Barbed Devil](#barbed-devil), [Elemental, Fire](#elemental), [Golem, Flesh](#golem), [Lammasu](#lammasu), [Revenant](#revenant), [Bone Devil](#bone-devil), [Hieracosphinx](#sphinx), [Skeleton Warrior](#skeleton-warrior)",
+          "links": [
+            {
+              "label": "Gibbering Mouther",
+              "anchor": "gibbering-mouther"
+            },
+            {
+              "label": "Githyanki",
+              "anchor": "githyanki"
+            },
+            {
+              "label": "Living Statue, Rock",
+              "anchor": "living-statue"
+            },
+            {
+              "label": "Ochre Jelly",
+              "anchor": "ochre-jelly"
+            },
+            {
+              "label": "Rust Monster",
+              "anchor": "rust-monster"
+            },
+            {
+              "label": "Slithering Tracker",
+              "anchor": "slithering-tracker"
+            },
+            {
+              "label": "Troll",
+              "anchor": "troll"
+            },
+            {
+              "label": "Horned Devil (Malebranche)",
+              "anchor": "horned-devil-malebranche"
+            },
+            {
+              "label": "Minotaur",
+              "anchor": "minotaur"
+            },
+            {
+              "label": "Myconid (Fungus Man)",
+              "anchor": "myconid-fungus-man"
+            },
+            {
+              "label": "Ogre Mage",
+              "anchor": "ogre-mage"
+            },
+            {
+              "label": "Spectre",
+              "anchor": "spectre"
+            },
+            {
+              "label": "Succubus",
+              "anchor": "succubus"
+            },
+            {
+              "label": "Erinyes",
+              "anchor": "erinyes"
+            },
+            {
+              "label": "Hellhound",
+              "anchor": "hellhound"
+            },
+            {
+              "label": "Intellect Devourer",
+              "anchor": "intellect-devourer"
+            },
+            {
+              "label": "Nightmare",
+              "anchor": "nightmare"
+            },
+            {
+              "label": "Rakshasa",
+              "anchor": "rakshasa"
+            },
+            {
+              "label": "Shadow Demon",
+              "anchor": "shadow-demon"
+            },
+            {
+              "label": "Barbed Devil",
+              "anchor": "barbed-devil"
+            },
+            {
+              "label": "Elemental, Fire",
+              "anchor": "elemental"
+            },
+            {
+              "label": "Golem, Flesh",
+              "anchor": "golem"
+            },
+            {
+              "label": "Lammasu",
+              "anchor": "lammasu"
+            },
+            {
+              "label": "Revenant",
+              "anchor": "revenant"
+            },
+            {
+              "label": "Bone Devil",
+              "anchor": "bone-devil"
+            },
+            {
+              "label": "Hieracosphinx",
+              "anchor": "sphinx"
+            },
+            {
+              "label": "Skeleton Warrior",
+              "anchor": "skeleton-warrior"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "8",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Succubus](#succubus), [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Barbed Devil](#barbed-devil), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Invisible Stalker](#invisible-stalker), [Lammasu](#lammasu), [Otyugh](#otyugh), [Revenant](#revenant), [Type I Demon (Vrock)](#type-i-demon-vrock), [Bone Devil](#bone-devil), [Death Knight](#death-knight), [Lamia](#lamia), [Skeleton Warrior](#skeleton-warrior), [Type VI Demon (Balor)](#type-vi-demon-balor), [Black Pudding](#black-pudding), [Ghost](#ghost), [Shedu](#shedu)",
+          "links": [
+            {
+              "label": "Horned Devil (Malebranche)",
+              "anchor": "horned-devil-malebranche"
+            },
+            {
+              "label": "Minotaur",
+              "anchor": "minotaur"
+            },
+            {
+              "label": "Myconid (Fungus Man)",
+              "anchor": "myconid-fungus-man"
+            },
+            {
+              "label": "Ogre Mage",
+              "anchor": "ogre-mage"
+            },
+            {
+              "label": "Spectre",
+              "anchor": "spectre"
+            },
+            {
+              "label": "Succubus",
+              "anchor": "succubus"
+            },
+            {
+              "label": "Erinyes",
+              "anchor": "erinyes"
+            },
+            {
+              "label": "Hellhound",
+              "anchor": "hellhound"
+            },
+            {
+              "label": "Intellect Devourer",
+              "anchor": "intellect-devourer"
+            },
+            {
+              "label": "Nightmare",
+              "anchor": "nightmare"
+            },
+            {
+              "label": "Rakshasa",
+              "anchor": "rakshasa"
+            },
+            {
+              "label": "Shadow Demon",
+              "anchor": "shadow-demon"
+            },
+            {
+              "label": "Barbed Devil",
+              "anchor": "barbed-devil"
+            },
+            {
+              "label": "Elemental, Earth",
+              "anchor": "elemental"
+            },
+            {
+              "label": "Elemental, Fire",
+              "anchor": "elemental"
+            },
+            {
+              "label": "Golem, Bone",
+              "anchor": "golem"
+            },
+            {
+              "label": "Golem, Flesh",
+              "anchor": "golem"
+            },
+            {
+              "label": "Invisible Stalker",
+              "anchor": "invisible-stalker"
+            },
+            {
+              "label": "Lammasu",
+              "anchor": "lammasu"
+            },
+            {
+              "label": "Otyugh",
+              "anchor": "otyugh"
+            },
+            {
+              "label": "Revenant",
+              "anchor": "revenant"
+            },
+            {
+              "label": "Type I Demon (Vrock)",
+              "anchor": "type-i-demon-vrock"
+            },
+            {
+              "label": "Bone Devil",
+              "anchor": "bone-devil"
+            },
+            {
+              "label": "Death Knight",
+              "anchor": "death-knight"
+            },
+            {
+              "label": "Lamia",
+              "anchor": "lamia"
+            },
+            {
+              "label": "Skeleton Warrior",
+              "anchor": "skeleton-warrior"
+            },
+            {
+              "label": "Type VI Demon (Balor)",
+              "anchor": "type-vi-demon-balor"
+            },
+            {
+              "label": "Black Pudding",
+              "anchor": "black-pudding"
+            },
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Shedu",
+              "anchor": "shedu"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "9",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Barbed Devil](#barbed-devil), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Invisible Stalker](#invisible-stalker), [Lammasu](#lammasu), [Otyugh](#otyugh), [Revenant](#revenant), [Type I Demon (Vrock)](#type-i-demon-vrock), [Bone Devil](#bone-devil), [Dao](#dao), [Death Knight](#death-knight), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Skeleton Warrior](#skeleton-warrior), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Ghost](#ghost), [Mimic](#mimic), [Spirit Naga](#naga), [Beholder](#beholder), [Dragon, Gold](#dragon), [Ice Devil](#ice-devil)",
+          "links": [
+            {
+              "label": "Erinyes",
+              "anchor": "erinyes"
+            },
+            {
+              "label": "Hellhound",
+              "anchor": "hellhound"
+            },
+            {
+              "label": "Intellect Devourer",
+              "anchor": "intellect-devourer"
+            },
+            {
+              "label": "Nightmare",
+              "anchor": "nightmare"
+            },
+            {
+              "label": "Rakshasa",
+              "anchor": "rakshasa"
+            },
+            {
+              "label": "Shadow Demon",
+              "anchor": "shadow-demon"
+            },
+            {
+              "label": "Barbed Devil",
+              "anchor": "barbed-devil"
+            },
+            {
+              "label": "Elemental, Earth",
+              "anchor": "elemental"
+            },
+            {
+              "label": "Elemental, Fire",
+              "anchor": "elemental"
+            },
+            {
+              "label": "Golem, Bone",
+              "anchor": "golem"
+            },
+            {
+              "label": "Golem, Flesh",
+              "anchor": "golem"
+            },
+            {
+              "label": "Invisible Stalker",
+              "anchor": "invisible-stalker"
+            },
+            {
+              "label": "Lammasu",
+              "anchor": "lammasu"
+            },
+            {
+              "label": "Otyugh",
+              "anchor": "otyugh"
+            },
+            {
+              "label": "Revenant",
+              "anchor": "revenant"
+            },
+            {
+              "label": "Type I Demon (Vrock)",
+              "anchor": "type-i-demon-vrock"
+            },
+            {
+              "label": "Bone Devil",
+              "anchor": "bone-devil"
+            },
+            {
+              "label": "Dao",
+              "anchor": "dao"
+            },
+            {
+              "label": "Death Knight",
+              "anchor": "death-knight"
+            },
+            {
+              "label": "Hieracosphinx",
+              "anchor": "sphinx"
+            },
+            {
+              "label": "Lamia",
+              "anchor": "lamia"
+            },
+            {
+              "label": "Mind Flayer",
+              "anchor": "mind-flayer"
+            },
+            {
+              "label": "Skeleton Warrior",
+              "anchor": "skeleton-warrior"
+            },
+            {
+              "label": "Type II Demon (Hezrou)",
+              "anchor": "type-ii-demon-hezrou"
+            },
+            {
+              "label": "Type VI Demon (Balor)",
+              "anchor": "type-vi-demon-balor"
+            },
+            {
+              "label": "Vampire",
+              "anchor": "vampire"
+            },
+            {
+              "label": "Black Pudding",
+              "anchor": "black-pudding"
+            },
+            {
+              "label": "Criosphinx",
+              "anchor": "sphinx"
+            },
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Mimic",
+              "anchor": "mimic"
+            },
+            {
+              "label": "Spirit Naga",
+              "anchor": "naga"
+            },
+            {
+              "label": "Beholder",
+              "anchor": "beholder"
+            },
+            {
+              "label": "Dragon, Gold",
+              "anchor": "dragon"
+            },
+            {
+              "label": "Ice Devil",
+              "anchor": "ice-devil"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "10",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Barbed Devil](#barbed-devil), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Invisible Stalker](#invisible-stalker), [Lammasu](#lammasu), [Otyugh](#otyugh), [Revenant](#revenant), [Type I Demon (Vrock)](#type-i-demon-vrock), [Bone Devil](#bone-devil), [Dao](#dao), [Death Knight](#death-knight), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Skeleton Warrior](#skeleton-warrior), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Dragon, Gold](#dragon), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Guardian Naga](#naga), [Neotyugh](#neotyugh)",
+          "links": [
+            {
+              "label": "Barbed Devil",
+              "anchor": "barbed-devil"
+            },
+            {
+              "label": "Elemental, Earth",
+              "anchor": "elemental"
+            },
+            {
+              "label": "Elemental, Fire",
+              "anchor": "elemental"
+            },
+            {
+              "label": "Golem, Bone",
+              "anchor": "golem"
+            },
+            {
+              "label": "Golem, Flesh",
+              "anchor": "golem"
+            },
+            {
+              "label": "Invisible Stalker",
+              "anchor": "invisible-stalker"
+            },
+            {
+              "label": "Lammasu",
+              "anchor": "lammasu"
+            },
+            {
+              "label": "Otyugh",
+              "anchor": "otyugh"
+            },
+            {
+              "label": "Revenant",
+              "anchor": "revenant"
+            },
+            {
+              "label": "Type I Demon (Vrock)",
+              "anchor": "type-i-demon-vrock"
+            },
+            {
+              "label": "Bone Devil",
+              "anchor": "bone-devil"
+            },
+            {
+              "label": "Dao",
+              "anchor": "dao"
+            },
+            {
+              "label": "Death Knight",
+              "anchor": "death-knight"
+            },
+            {
+              "label": "Hieracosphinx",
+              "anchor": "sphinx"
+            },
+            {
+              "label": "Lamia",
+              "anchor": "lamia"
+            },
+            {
+              "label": "Mind Flayer",
+              "anchor": "mind-flayer"
+            },
+            {
+              "label": "Skeleton Warrior",
+              "anchor": "skeleton-warrior"
+            },
+            {
+              "label": "Type II Demon (Hezrou)",
+              "anchor": "type-ii-demon-hezrou"
+            },
+            {
+              "label": "Type VI Demon (Balor)",
+              "anchor": "type-vi-demon-balor"
+            },
+            {
+              "label": "Vampire",
+              "anchor": "vampire"
+            },
+            {
+              "label": "Black Pudding",
+              "anchor": "black-pudding"
+            },
+            {
+              "label": "Criosphinx",
+              "anchor": "sphinx"
+            },
+            {
+              "label": "Efreeti",
+              "anchor": "efreeti"
+            },
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Golem, Amber",
+              "anchor": "golem"
+            },
+            {
+              "label": "Mimic",
+              "anchor": "mimic"
+            },
+            {
+              "label": "Shedu",
+              "anchor": "shedu"
+            },
+            {
+              "label": "Spirit Naga",
+              "anchor": "naga"
+            },
+            {
+              "label": "Type III Demon (Glabrezu)",
+              "anchor": "type-iii-demon-glabrezu"
+            },
+            {
+              "label": "Beholder",
+              "anchor": "beholder"
+            },
+            {
+              "label": "Dragon, Gold",
+              "anchor": "dragon"
+            },
+            {
+              "label": "Golem, Clay",
+              "anchor": "golem"
+            },
+            {
+              "label": "Ice Devil",
+              "anchor": "ice-devil"
+            },
+            {
+              "label": "Type IV Demon (Nalfeshnee)",
+              "anchor": "type-iv-demon-nalfeshnee"
+            },
+            {
+              "label": "Androsphinx",
+              "anchor": "sphinx"
+            },
+            {
+              "label": "Guardian Naga",
+              "anchor": "naga"
+            },
+            {
+              "label": "Neotyugh",
+              "anchor": "neotyugh"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "11",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Bone Devil](#bone-devil), [Dao](#dao), [Death Knight](#death-knight), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Skeleton Warrior](#skeleton-warrior), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Dragon, Gold](#dragon), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Fire Giant](#giant), [Guardian Naga](#naga), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Pit Fiend](#pit-fiend)",
+          "links": [
+            {
+              "label": "Bone Devil",
+              "anchor": "bone-devil"
+            },
+            {
+              "label": "Dao",
+              "anchor": "dao"
+            },
+            {
+              "label": "Death Knight",
+              "anchor": "death-knight"
+            },
+            {
+              "label": "Hieracosphinx",
+              "anchor": "sphinx"
+            },
+            {
+              "label": "Lamia",
+              "anchor": "lamia"
+            },
+            {
+              "label": "Mind Flayer",
+              "anchor": "mind-flayer"
+            },
+            {
+              "label": "Skeleton Warrior",
+              "anchor": "skeleton-warrior"
+            },
+            {
+              "label": "Type II Demon (Hezrou)",
+              "anchor": "type-ii-demon-hezrou"
+            },
+            {
+              "label": "Type VI Demon (Balor)",
+              "anchor": "type-vi-demon-balor"
+            },
+            {
+              "label": "Vampire",
+              "anchor": "vampire"
+            },
+            {
+              "label": "Black Pudding",
+              "anchor": "black-pudding"
+            },
+            {
+              "label": "Criosphinx",
+              "anchor": "sphinx"
+            },
+            {
+              "label": "Efreeti",
+              "anchor": "efreeti"
+            },
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Golem, Amber",
+              "anchor": "golem"
+            },
+            {
+              "label": "Mimic",
+              "anchor": "mimic"
+            },
+            {
+              "label": "Shedu",
+              "anchor": "shedu"
+            },
+            {
+              "label": "Spirit Naga",
+              "anchor": "naga"
+            },
+            {
+              "label": "Type III Demon (Glabrezu)",
+              "anchor": "type-iii-demon-glabrezu"
+            },
+            {
+              "label": "Beholder",
+              "anchor": "beholder"
+            },
+            {
+              "label": "Dragon, Gold",
+              "anchor": "dragon"
+            },
+            {
+              "label": "Golem, Clay",
+              "anchor": "golem"
+            },
+            {
+              "label": "Ice Devil",
+              "anchor": "ice-devil"
+            },
+            {
+              "label": "Type IV Demon (Nalfeshnee)",
+              "anchor": "type-iv-demon-nalfeshnee"
+            },
+            {
+              "label": "Androsphinx",
+              "anchor": "sphinx"
+            },
+            {
+              "label": "Fire Giant",
+              "anchor": "giant"
+            },
+            {
+              "label": "Guardian Naga",
+              "anchor": "naga"
+            },
+            {
+              "label": "Neotyugh",
+              "anchor": "neotyugh"
+            },
+            {
+              "label": "Slug, Giant",
+              "anchor": "slug-giant"
+            },
+            {
+              "label": "Pit Fiend",
+              "anchor": "pit-fiend"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "12",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Dragon, Gold](#dragon), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Fire Giant](#giant), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend)",
+          "links": [
+            {
+              "label": "Black Pudding",
+              "anchor": "black-pudding"
+            },
+            {
+              "label": "Criosphinx",
+              "anchor": "sphinx"
+            },
+            {
+              "label": "Efreeti",
+              "anchor": "efreeti"
+            },
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Golem, Amber",
+              "anchor": "golem"
+            },
+            {
+              "label": "Mimic",
+              "anchor": "mimic"
+            },
+            {
+              "label": "Shedu",
+              "anchor": "shedu"
+            },
+            {
+              "label": "Spirit Naga",
+              "anchor": "naga"
+            },
+            {
+              "label": "Type III Demon (Glabrezu)",
+              "anchor": "type-iii-demon-glabrezu"
+            },
+            {
+              "label": "Beholder",
+              "anchor": "beholder"
+            },
+            {
+              "label": "Dragon, Gold",
+              "anchor": "dragon"
+            },
+            {
+              "label": "Golem, Clay",
+              "anchor": "golem"
+            },
+            {
+              "label": "Ice Devil",
+              "anchor": "ice-devil"
+            },
+            {
+              "label": "Type IV Demon (Nalfeshnee)",
+              "anchor": "type-iv-demon-nalfeshnee"
+            },
+            {
+              "label": "Androsphinx",
+              "anchor": "sphinx"
+            },
+            {
+              "label": "Fire Giant",
+              "anchor": "giant"
+            },
+            {
+              "label": "Guardian Naga",
+              "anchor": "naga"
+            },
+            {
+              "label": "Lich",
+              "anchor": "lich"
+            },
+            {
+              "label": "Neotyugh",
+              "anchor": "neotyugh"
+            },
+            {
+              "label": "Slug, Giant",
+              "anchor": "slug-giant"
+            },
+            {
+              "label": "Trapper",
+              "anchor": "trapper"
+            },
+            {
+              "label": "Pit Fiend",
+              "anchor": "pit-fiend"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "13",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Beholder](#beholder), [Dragon, Gold](#dragon), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Fire Giant](#giant), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend)",
+          "links": [
+            {
+              "label": "Beholder",
+              "anchor": "beholder"
+            },
+            {
+              "label": "Dragon, Gold",
+              "anchor": "dragon"
+            },
+            {
+              "label": "Golem, Clay",
+              "anchor": "golem"
+            },
+            {
+              "label": "Ice Devil",
+              "anchor": "ice-devil"
+            },
+            {
+              "label": "Type IV Demon (Nalfeshnee)",
+              "anchor": "type-iv-demon-nalfeshnee"
+            },
+            {
+              "label": "Androsphinx",
+              "anchor": "sphinx"
+            },
+            {
+              "label": "Fire Giant",
+              "anchor": "giant"
+            },
+            {
+              "label": "Guardian Naga",
+              "anchor": "naga"
+            },
+            {
+              "label": "Lich",
+              "anchor": "lich"
+            },
+            {
+              "label": "Neotyugh",
+              "anchor": "neotyugh"
+            },
+            {
+              "label": "Slug, Giant",
+              "anchor": "slug-giant"
+            },
+            {
+              "label": "Trapper",
+              "anchor": "trapper"
+            },
+            {
+              "label": "Pit Fiend",
+              "anchor": "pit-fiend"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "14",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Androsphinx](#sphinx), [Fire Giant](#giant), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend), [Aerial Servant](#aerial-servant)",
+          "links": [
+            {
+              "label": "Androsphinx",
+              "anchor": "sphinx"
+            },
+            {
+              "label": "Fire Giant",
+              "anchor": "giant"
+            },
+            {
+              "label": "Guardian Naga",
+              "anchor": "naga"
+            },
+            {
+              "label": "Lich",
+              "anchor": "lich"
+            },
+            {
+              "label": "Neotyugh",
+              "anchor": "neotyugh"
+            },
+            {
+              "label": "Slug, Giant",
+              "anchor": "slug-giant"
+            },
+            {
+              "label": "Trapper",
+              "anchor": "trapper"
+            },
+            {
+              "label": "Pit Fiend",
+              "anchor": "pit-fiend"
+            },
+            {
+              "label": "Aerial Servant",
+              "anchor": "aerial-servant"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "15",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Pit Fiend](#pit-fiend), [Aerial Servant](#aerial-servant)",
+          "links": [
+            {
+              "label": "Pit Fiend",
+              "anchor": "pit-fiend"
+            },
+            {
+              "label": "Aerial Servant",
+              "anchor": "aerial-servant"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "16",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Aerial Servant](#aerial-servant)",
+          "links": [
+            {
+              "label": "Aerial Servant",
+              "anchor": "aerial-servant"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "17",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Aerial Servant](#aerial-servant)",
+          "links": [
+            {
+              "label": "Aerial Servant",
+              "anchor": "aerial-servant"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "18",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Aerial Servant](#aerial-servant), [Demilich](#demilich), [Golem, Bronze](#golem), [Titan](#titan)",
+          "links": [
+            {
+              "label": "Aerial Servant",
+              "anchor": "aerial-servant"
+            },
+            {
+              "label": "Demilich",
+              "anchor": "demilich"
+            },
+            {
+              "label": "Golem, Bronze",
+              "anchor": "golem"
+            },
+            {
+              "label": "Titan",
+              "anchor": "titan"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "19",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Demilich](#demilich), [Golem, Bronze](#golem), [Titan](#titan)",
+          "links": [
+            {
+              "label": "Demilich",
+              "anchor": "demilich"
+            },
+            {
+              "label": "Golem, Bronze",
+              "anchor": "golem"
+            },
+            {
+              "label": "Titan",
+              "anchor": "titan"
+            }
+          ]
+        }
+      },
+      {
+        "Level": {
+          "raw": "20",
+          "links": []
+        },
+        "Monster": {
+          "raw": "[Demilich](#demilich), [Golem, Bronze](#golem), [Titan](#titan)",
+          "links": [
+            {
+              "label": "Demilich",
+              "anchor": "demilich"
+            },
+            {
+              "label": "Golem, Bronze",
+              "anchor": "golem"
+            },
+            {
+              "label": "Titan",
+              "anchor": "titan"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

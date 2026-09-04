@@ -8076,7 +8076,7 @@ B. **Check whether an encounter occurs.** See *Encounter Frequency*, below, for 
 C. **Determine the monster.** Roll on the table matching the setting from step A:
    - *Dungeon:* find the dungeon level's row on the Monster Sub-table Matrix, roll `1d12` to find the Monster Level, then roll `d%` on that Monster Level table.
    - *Wilderness:* check Lone NPC Encounters for the party's terrain first; otherwise turn to that terrain's table and read the row for the party's level.
-   - *Settlement:* roll on the Daytime or Nighttime Encounters table, as appropriate, consulting whichever sub-table it calls for, and check the result against Urban Encounter Level for the party's level.
+   - *Settlement:* roll on the Daytime or Nighttime Encounters table, as appropriate, consulting whichever sub-table it calls for — or, for a real monster encounter rather than street life, turn to the Urban or Castle table and read the row for the party's level, same as a wilderness terrain.
 
 D. **Determine why it's here.** See *Encounter Purpose*, below, for a quick note on what the creature is doing when the party meets it.
 
@@ -8644,60 +8644,45 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 
 #### Nighttime Encounters
 
+*Editorial note:* this table used to also carry a scatter of one-off monster encounters (Demon, Devil, Doppelganger, Ghast/Ghoul, Ghost, Giant Rats, Night Hag, Rakshasa, Shadow, Spectre, Wererat, Weretiger, Werewolf, Wight, Will-O-Wisp, Wraith, Vampire or Lich) alongside its purely social/NPC entries. Those now come from the Urban table below (see *Wilderness Encounters* for the same terrain-and-level mechanism, applied here to Urban/Castle) — this table is purely street-life flavor and doesn't need a level check of its own.
+
 | d% | Encounter | # Encountered & Notes |
 |---|---|---|
-| 01-03 | Thief (as Assassin) | 1d3 (check Race sub-table) |
-| 04-05 | Bandit | 3d4 and a leader |
-| 06-08 | Beggar | 1d2 |
-| 09-10 | Brigand | 3d4 and a leader |
-| 11 | Guardsman | 2d8 and a leader |
-| 12 | Official | (1-9) minor official; (10) major official and 2d4 guardsmen |
-| 13-21 | Watchman | 5 men-at-arms (0-level) and a sergeant (level 1d3) and a cleric (level 1d4+1) |
-| 22 | Cleric | A 1d6+5-level cleric with 1d6-1 assistant clerics (level 1d4) |
-| 23 | Demon | DM's discretion (any demon in this book). Only 1 encountered |
-| 24 | Devil | DM's discretion (any devil in this book). Only 1 encountered |
-| 25 | Doppelganger | 1d4+2, disguised as a profession from the Urban Professions sub-table |
-| 26 | Cleric (as Druid) | A 1d6+5-level cleric with (1-5) 1d4-1 lesser clerics (level 1d4) or (6-10) 1d4 fighters (level 1d6) |
-| 27-31 | Drunk | See Urban Professions sub-table for exact profession |
-| 32-33 | Fighter | A 2d4+4-level fighter with 1d4-1 henchmen (level 1d4) |
-| 34-35 | Gentleman | (1-4) foppish dandy and 1d4 sycophants; (5-6) gentlewoman; (7-10) 1d4+6-level nobleman fighter and 1d4 similar friends |
-| 36 | Ghast or Ghoul | (1-3) 2d4 ghasts; (4-10) 4d4 ghouls |
-| 37 | Ghost | 1 |
-| 38-42 | Giant Rats | 4d6 |
+| 01-04 | Thief (as Assassin) | 1d3 (check Race sub-table) |
+| 05-07 | Bandit | 3d4 and a leader |
+| 08-11 | Beggar | 1d2 |
+| 12-13 | Brigand | 3d4 and a leader |
+| 14 | Guardsman | 2d8 and a leader |
+| 15-16 | Official | (1-9) minor official; (10) major official and 2d4 guardsmen |
+| 17-28 | Watchman | 5 men-at-arms (0-level) and a sergeant (level 1d3) and a cleric (level 1d4+1) |
+| 29 | Cleric | A 1d6+5-level cleric with 1d6-1 assistant clerics (level 1d4) |
+| 30 | Cleric (as Druid) | A 1d6+5-level cleric with (1-5) 1d4-1 lesser clerics (level 1d4) or (6-10) 1d4 fighters (level 1d6) |
+| 31-37 | Drunk | See Urban Professions sub-table for exact profession |
+| 38-39 | Fighter | A 2d4+4-level fighter with 1d4-1 henchmen (level 1d4) |
+| 40-42 | Gentleman | (1-4) foppish dandy and 1d4 sycophants; (5-6) gentlewoman; (7-10) 1d4+6-level nobleman fighter and 1d4 similar friends |
 | 43 | Townsperson | 0-level Normal Human |
-| 44-50 | Prostitute | See Red-Light Professions sub-table for exact type |
-| 51 | Magic-User (as Illusionist) | A 1d4+6-level magic-user with (1-5) 1d4-1 apprentice magic-users (level 1d4) or (6-10) 1d3 fighter bodyguards (level 1d6) |
+| 44-53 | Prostitute | See Red-Light Professions sub-table for exact type |
+| 54 | Magic-User (as Illusionist) | A 1d4+6-level magic-user with (1-5) 1d4-1 apprentice magic-users (level 1d4) or (6-10) 1d3 fighter bodyguards (level 1d6) |
 
 ::: pagebreak-pdf
 :::
 
 | d% | Encounter | # Encountered & Notes |
 |---|---|---|
-| 52 | Labourer or Peddler | (1-5) 3d4 rough 0-level workmen; (6-10) 1d3 peddlers selling simple goods on the street |
-| 53 | Magic-User | A 1d6+6-level magic-user with (1-4) 1d4 apprentice magic-users (level 1d6) or (5-7) 1d4 fighter bodyguards (level 1d4+3) or (8-10) 1d2 apprentices and 1d2 bodyguards as above |
-| 54-58 | Mercenary | 3d4 fighters (level 1d6-1) |
-| 59-60 | Merchant | 1d3 merchants, 2d4 0-level mercenary guards, and a mercenary leader (level 1d4) |
-| 61 | Troubadour | 1d4 travelling bards, musicians, or actors |
-| 62 | Night Hag | DM's discretion. Only 1 encountered |
-| 63-64 | Noble | (1-7) nobleman and 1d4 fighter bodyguards (level 1d4); (8-10) noblewoman |
-| 65 | Fighter (as Paladin) | A 1d4+5-level fighter |
-| 66 | Pilgrim | 3d4 pilgrims (Normal Humans) |
-| 67 | Press Gang | 2d8 1st-level fighters and a leader (level 1d4+1), all wielding clubs |
-| 68-71 | Thugs | 1d4+1 fighters (level 1d6+4) |
-| 72 | Rakshasa | DM's discretion. 1d3 encountered |
-| 73 | Fighter (as Ranger) | A 1d4+6-level fighter |
-| 74-80 | Muggers or Humanoids | (1-8) 1d6+6 2nd-level fighters armed with clubs; (9-10) humanoids (Orcs, Kobolds, Goblins, etc. — DM's discretion) |
-| 81 | Shadow | DM's discretion. 2d4 encountered |
-| 82 | Spectre | DM's discretion. 1d3 encountered |
-| 83-88 | Thief | A 1d4+7-level thief and 1d3-1 apprentice thieves (level 1d4) |
-| 89-90 | Tradesman | 2d4 artisans, craftsmen, or skilled workmen (Normal Humans) |
-| 91-93 | Wererat | 2d4 encountered; (1-5) in human form, (6-10) in giant rat form |
-| 94 | Weretiger | 1d2 encountered; (1-9) in human form, (10) in tiger form |
-| 95-96 | Werewolf | 2d4 encountered; (1-5) in human form, (6-10) in wolf form |
-| 97 | Wight | DM's discretion. 1d4+1 encountered |
-| 98 | Will-O-Wisp | DM's discretion. 1d2 encountered |
-| 99 | Wraith | DM's discretion. 1d4 encountered |
-| 00 | Vampire or Lich | (1-8) 1 vampire, encountered in human (1-2), giant bat (3-6), or gaseous (7-10) form; (9-10) 1 lich, DM's discretion |
+| 55 | Labourer or Peddler | (1-5) 3d4 rough 0-level workmen; (6-10) 1d3 peddlers selling simple goods on the street |
+| 56-57 | Magic-User | A 1d6+6-level magic-user with (1-4) 1d4 apprentice magic-users (level 1d6) or (5-7) 1d4 fighter bodyguards (level 1d4+3) or (8-10) 1d2 apprentices and 1d2 bodyguards as above |
+| 58-63 | Mercenary | 3d4 fighters (level 1d6-1) |
+| 64-66 | Merchant | 1d3 merchants, 2d4 0-level mercenary guards, and a mercenary leader (level 1d4) |
+| 67 | Troubadour | 1d4 travelling bards, musicians, or actors |
+| 68-70 | Noble | (1-7) nobleman and 1d4 fighter bodyguards (level 1d4); (8-10) noblewoman |
+| 71 | Fighter (as Paladin) | A 1d4+5-level fighter |
+| 72 | Pilgrim | 3d4 pilgrims (Normal Humans) |
+| 73-74 | Press Gang | 2d8 1st-level fighters and a leader (level 1d4+1), all wielding clubs |
+| 75-79 | Thugs | 1d4+1 fighters (level 1d6+4) |
+| 80 | Fighter (as Ranger) | A 1d4+6-level fighter |
+| 81-89 | Muggers or Humanoids | (1-8) 1d6+6 2nd-level fighters armed with clubs; (9-10) humanoids (Orcs, Kobolds, Goblins, etc. — DM's discretion) |
+| 90-97 | Thief | A 1d4+7-level thief and 1d3-1 apprentice thieves (level 1d4) |
+| 98-00 | Tradesman | 2d4 artisans, craftsmen, or skilled workmen (Normal Humans) |
 
 *For starred entries, check the Race sub-table first to see if the NPC is human or demi-human.*
 
@@ -8710,55 +8695,87 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 |---|---|---|
 | 01 | Thief (as Assassin) | 1d3 (check Race sub-table) |
 | 02 | Bandit | 3d4 and a leader |
-| 03-12 | Beggar | 1d2 |
-| 13 | Brigand | 3d4 and a leader |
-| 14-18 | Guardsmen | 2d8 and a leader |
-| 19-21 | Official | (1-9) minor official; (10) major official and 2d4 guardsmen |
-| 22-23 | Watchman | 5 men-at-arms (0-level) and a sergeant (level 1d3) and a cleric (level 1d4+1) |
-| 24-25 | Cleric | A 1d6+5-level cleric with 1d6-1 assistant clerics (level 1d4) |
-| 26 | Cleric (as Druid) | A 1d6+5-level cleric with (1-5) 1d4-1 lesser clerics (level 1d4) or (6-10) 1d4 fighters (level 1d6) |
-| 27 | Drunk | See Urban Professions sub-table for exact profession |
-| 28-29 | Fighter | A 2d4+4-level fighter with 1d4-1 henchmen (level 1d4) |
-| 30-33 | Gentleman | (1-4) foppish dandy and 1d4 sycophants; (5-6) gentlewoman; (7-10) 1d4+6-level nobleman fighter and 1d4 similar friends |
-| 34 | Giant Rats | 2d4 |
-| 35-39 | Townsperson | 0-level Normal Human |
-| 40-41 | Harlot | See Red-Light Professions sub-table for exact type |
-| 42 | Magic-User (as Illusionist) | A 1d4+6-level magic-user with (1-5) 1d4-1 apprentice magic-users (level 1d4) or (6-10) 1d3 fighter bodyguards (level 1d6) |
+| 03-13 | Beggar | 1d2 |
+| 14-15 | Brigand | 3d4 and a leader |
+| 16-20 | Guardsmen | 2d8 and a leader |
+| 21-24 | Official | (1-9) minor official; (10) major official and 2d4 guardsmen |
+| 25-26 | Watchman | 5 men-at-arms (0-level) and a sergeant (level 1d3) and a cleric (level 1d4+1) |
+| 27-28 | Cleric | A 1d6+5-level cleric with 1d6-1 assistant clerics (level 1d4) |
+| 29 | Cleric (as Druid) | A 1d6+5-level cleric with (1-5) 1d4-1 lesser clerics (level 1d4) or (6-10) 1d4 fighters (level 1d6) |
+| 30 | Drunk | See Urban Professions sub-table for exact profession |
+| 31-33 | Fighter | A 2d4+4-level fighter with 1d4-1 henchmen (level 1d4) |
+| 34-37 | Gentleman | (1-4) foppish dandy and 1d4 sycophants; (5-6) gentlewoman; (7-10) 1d4+6-level nobleman fighter and 1d4 similar friends |
+| 38-43 | Townsperson | 0-level Normal Human |
+| 44-45 | Harlot | See Red-Light Professions sub-table for exact type |
+| 46 | Magic-User (as Illusionist) | A 1d4+6-level magic-user with (1-5) 1d4-1 apprentice magic-users (level 1d4) or (6-10) 1d3 fighter bodyguards (level 1d6) |
 
 ::: pagebreak-pdf
 :::
 
 | d% | Encounter | # Encountered & Notes |
 |---|---|---|
-| 43-50 | Labourer or Peddler | (1-5) 3d4 rough 0-level workmen; (6-10) 1d3 peddlers selling simple goods on the street |
-| 51 | Magic-User | A 1d6+6-level magic-user with (1-4) 1d4 apprentice magic-users (level 1d6) or (5-7) 1d4 fighter bodyguards (level 1d4+3) or (8-10) 1d2 apprentices and 1d2 bodyguards as above |
-| 52-55 | Mercenary | 3d4 fighters (level 1d6-1) |
-| 56-62 | Merchant | 1d3 merchants (0-level Normal Humans) |
-| 63 | Troubadour | 1d4 travelling bards, musicians, or actors |
-| 64-65 | Night Hag | DM's discretion. Only 1 encountered |
-| 66 | Noble | (1-7) nobleman and 1d4 fighter bodyguards (level 1d4); (8-10) noblewoman |
-| 67-69 | Fighter (as Paladin) | A 1d4+5-level fighter |
-| 70 | Pilgrim | 3d4 pilgrims (Normal Humans) |
-| 71-72 | Press Gang | 2d8 1st-level fighters and a leader (level 1d4+1), all wielding clubs |
-| 73 | Thugs | 1d4+1 fighters (level 1d6+4) |
-| 74-78 | Rakshasa | DM's discretion. 1d3 encountered |
-| 79-82 | Thief | A 1d4+7-level thief and 1d3-1 apprentice thieves (level 1d4) |
-| 83-97 | Tradesman | 2d4 artisans, craftsmen, or skilled workmen (Normal Humans) |
-| 98 | Wererat | 2d4 encountered; (1-9) in human form, (10) in giant rat form |
-| 99 | Weretiger | 1d2 encountered, in human form |
-| 00 | Werewolf | 2d4 encountered, in human form |
+| 47-55 | Labourer or Peddler | (1-5) 3d4 rough 0-level workmen; (6-10) 1d3 peddlers selling simple goods on the street |
+| 56 | Magic-User | A 1d6+6-level magic-user with (1-4) 1d4 apprentice magic-users (level 1d6) or (5-7) 1d4 fighter bodyguards (level 1d4+3) or (8-10) 1d2 apprentices and 1d2 bodyguards as above |
+| 57-61 | Mercenary | 3d4 fighters (level 1d6-1) |
+| 62-69 | Merchant | 1d3 merchants (0-level Normal Humans) |
+| 70 | Troubadour | 1d4 travelling bards, musicians, or actors |
+| 71 | Noble | (1-7) nobleman and 1d4 fighter bodyguards (level 1d4); (8-10) noblewoman |
+| 72-74 | Fighter (as Paladin) | A 1d4+5-level fighter |
+| 75 | Pilgrim | 3d4 pilgrims (Normal Humans) |
+| 76-78 | Press Gang | 2d8 1st-level fighters and a leader (level 1d4+1), all wielding clubs |
+| 79 | Thugs | 1d4+1 fighters (level 1d6+4) |
+| 80-83 | Thief | A 1d4+7-level thief and 1d3-1 apprentice thieves (level 1d4) |
+| 84-00 | Tradesman | 2d4 artisans, craftsmen, or skilled workmen (Normal Humans) |
 
-#### Urban Encounter Level
+#### Urban
 
-Unlike the wilderness terrain tables, the entries above aren't ordered by threat — a low-level party can roll a Beggar and a Vampire on consecutive nights with equal probability. The entries below are out of place for a party under the listed level; if a lower-level party rolls one, the DM may reroll, present it as a rumor or a sighting from a safe distance rather than a direct encounter, or let it stand as a dangerous surprise — city dangers don't politely wait for the party to be ready for them.
-
-| Party Level | Entries out of place below this level |
+| Level | Monster |
 |---|---|
-| 3+ | Wererat, Weretiger, Werewolf |
-| 5+ | Demon, Devil, Ghost, Night Hag, Rakshasa, Shadow, Spectre, Wight, Will-O-Wisp, Wraith |
-| 8+ | Vampire or Lich |
+| 1 | [Acolyte](#acolyte), [Bat, Normal](#bat), [Medium](#medium), [Men, Buccaneer / Pirate](#men), [Men, Merchant](#men), [Normal Human](#normal-human), [Poltergeist](#poltergeist), [Rat, Giant](#rat), [Rat, Normal](#rat), [Rot Grub](#rot-grub), [Bat, Giant](#bat), [Imp](#imp), [Noble](#noble), [Smoke Mephit](#mephit) |
+| 2 | [Acolyte](#acolyte), [Bat, Normal](#bat), [Medium](#medium), [Men, Buccaneer / Pirate](#men), [Men, Merchant](#men), [Normal Human](#normal-human), [Poltergeist](#poltergeist), [Rat, Giant](#rat), [Rat, Normal](#rat), [Rot Grub](#rot-grub), [Bat, Giant](#bat), [Imp](#imp), [Living Statue, Crystal](#living-statue), [Noble](#noble), [Smoke Mephit](#mephit), [Veteran](#veteran), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Living Statue, Iron](#living-statue) |
+| 3 | [Acolyte](#acolyte), [Bat, Normal](#bat), [Medium](#medium), [Men, Buccaneer / Pirate](#men), [Men, Merchant](#men), [Normal Human](#normal-human), [Poltergeist](#poltergeist), [Rat, Giant](#rat), [Rat, Normal](#rat), [Rot Grub](#rot-grub), [Bat, Giant](#bat), [Imp](#imp), [Living Statue, Crystal](#living-statue), [Noble](#noble), [Quasit](#quasit), [Smoke Mephit](#mephit), [Veteran](#veteran), [War Dog](#dog), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Living Statue, Iron](#living-statue), [Water Weird](#water-weird), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Wererat](#wererat) |
+| 4 | [Bat, Giant](#bat), [Imp](#imp), [Living Statue, Crystal](#living-statue), [Noble](#noble), [Quasit](#quasit), [Smoke Mephit](#mephit), [Veteran](#veteran), [War Dog](#dog), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Living Statue, Iron](#living-statue), [Water Weird](#water-weird), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Wererat](#wererat), [Succubus](#succubus) |
+| 5 | [Imp](#imp), [Living Statue, Crystal](#living-statue), [Noble](#noble), [Quasit](#quasit), [Smoke Mephit](#mephit), [Veteran](#veteran), [War Dog](#dog), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Living Statue, Iron](#living-statue), [Water Weird](#water-weird), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Wererat](#wererat), [Succubus](#succubus), [Erinyes](#erinyes), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon) |
+| 6 | [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Living Statue, Iron](#living-statue), [Water Weird](#water-weird), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Wererat](#wererat), [Succubus](#succubus), [Erinyes](#erinyes), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Invisible Stalker](#invisible-stalker), [Night Hag](#night-hag), [Otyugh](#otyugh) |
+| 7 | [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Wererat](#wererat), [Succubus](#succubus), [Erinyes](#erinyes), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Invisible Stalker](#invisible-stalker), [Night Hag](#night-hag), [Otyugh](#otyugh), [Revenant](#revenant), [Vampire](#vampire) |
+| 8 | [Succubus](#succubus), [Erinyes](#erinyes), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Invisible Stalker](#invisible-stalker), [Night Hag](#night-hag), [Otyugh](#otyugh), [Revenant](#revenant), [Vampire](#vampire), [Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu) |
+| 9 | [Erinyes](#erinyes), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Invisible Stalker](#invisible-stalker), [Night Hag](#night-hag), [Otyugh](#otyugh), [Revenant](#revenant), [Vampire](#vampire), [Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu) |
+| 10 | [Invisible Stalker](#invisible-stalker), [Night Hag](#night-hag), [Otyugh](#otyugh), [Revenant](#revenant), [Vampire](#vampire), [Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh) |
+| 11 | [Vampire](#vampire), [Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh) |
+| 12 | [Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh) |
+| 13 | [Neotyugh](#neotyugh) |
+| 14 | [Neotyugh](#neotyugh) |
+| 15 | [Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh) *(as Level 10/12)* |
+| 16 | [Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh) *(as Level 10/12)* |
+| 17 | [Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh) *(as Level 10/12)* |
+| 18 | [Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh) *(as Level 10/12)* |
+| 19 | [Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh) *(as Level 10/12)* |
+| 20 | [Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh) *(as Level 10/12)* |
 
-All other entries are appropriate at any level.
+#### Castle
+
+| Level | Monster |
+|---|---|
+| 1 | [Bat, Normal](#bat), [Brown Mold](#mold), [Cerebral Parasite](#cerebral-parasite), [Larva](#larva), [Manes](#manes), [Medium](#medium), [Men, Merchant](#men), [Poltergeist](#poltergeist), [Rat, Giant](#rat), [Rat, Normal](#rat), [Bat, Giant](#bat), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Lemure](#lemure), [Smoke Mephit](#mephit) |
+| 2 | [Bat, Normal](#bat), [Brown Mold](#mold), [Cerebral Parasite](#cerebral-parasite), [Larva](#larva), [Manes](#manes), [Medium](#medium), [Men, Merchant](#men), [Poltergeist](#poltergeist), [Rat, Giant](#rat), [Rat, Normal](#rat), [Bat, Giant](#bat), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Gray Ooze](#gray-ooze), [Living Statue, Crystal](#living-statue), [Shadow](#shadow), [Thoul](#thoul), [Bugbear](#bugbear), [Gelatinous Cube](#gelatinous-cube), [Medusa](#medusa) |
+| 3 | [Bat, Normal](#bat), [Brown Mold](#mold), [Cerebral Parasite](#cerebral-parasite), [Larva](#larva), [Manes](#manes), [Medium](#medium), [Men, Merchant](#men), [Poltergeist](#poltergeist), [Rat, Giant](#rat), [Rat, Normal](#rat), [Bat, Giant](#bat), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Fire Mephit](#mephit), [Gray Ooze](#gray-ooze), [Imp](#imp), [Living Statue, Crystal](#living-statue), [Quasit](#quasit), [Shadow](#shadow), [Thought Eater](#thought-eater), [Thoul](#thoul), [War Dog](#dog), [Bugbear](#bugbear), [Doppelganger](#doppelganger), [Gelatinous Cube](#gelatinous-cube), [Living Statue, Iron](#living-statue), [Water Weird](#water-weird), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Rust Monster](#rust-monster) |
+| 4 | [Bat, Giant](#bat), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Fire Mephit](#mephit), [Gray Ooze](#gray-ooze), [Imp](#imp), [Living Statue, Crystal](#living-statue), [Quasit](#quasit), [Shadow](#shadow), [Thought Eater](#thought-eater), [Thoul](#thoul), [War Dog](#dog), [Bugbear](#bugbear), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Githzerai](#githzerai), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Myconid (Fungus Man)](#myconid-fungus-man), [Spectre](#spectre) |
+| 5 | [Animated Armor](#animated-armor), [Fire Mephit](#mephit), [Gray Ooze](#gray-ooze), [Imp](#imp), [Living Statue, Crystal](#living-statue), [Quasit](#quasit), [Shadow](#shadow), [Thought Eater](#thought-eater), [Thoul](#thoul), [War Dog](#dog), [Bugbear](#bugbear), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Githzerai](#githzerai), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Troll](#troll), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Erinyes](#erinyes), [Intellect Devourer](#intellect-devourer), [Rakshasa](#rakshasa) |
+| 6 | [Bugbear](#bugbear), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Githzerai](#githzerai), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Troll](#troll), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Succubus](#succubus), [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Barbed Devil](#barbed-devil), [Golem, Flesh](#golem), [Otyugh](#otyugh) |
+| 7 | [Gibbering Mouther](#gibbering-mouther), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Troll](#troll), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Succubus](#succubus), [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Barbed Devil](#barbed-devil), [Elemental, Fire](#elemental), [Golem, Flesh](#golem), [Lammasu](#lammasu), [Revenant](#revenant), [Bone Devil](#bone-devil), [Hieracosphinx](#sphinx), [Skeleton Warrior](#skeleton-warrior) |
+| 8 | [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Succubus](#succubus), [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Barbed Devil](#barbed-devil), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Invisible Stalker](#invisible-stalker), [Lammasu](#lammasu), [Otyugh](#otyugh), [Revenant](#revenant), [Type I Demon (Vrock)](#type-i-demon-vrock), [Bone Devil](#bone-devil), [Death Knight](#death-knight), [Lamia](#lamia), [Skeleton Warrior](#skeleton-warrior), [Type VI Demon (Balor)](#type-vi-demon-balor), [Black Pudding](#black-pudding), [Ghost](#ghost), [Shedu](#shedu) |
+| 9 | [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Barbed Devil](#barbed-devil), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Invisible Stalker](#invisible-stalker), [Lammasu](#lammasu), [Otyugh](#otyugh), [Revenant](#revenant), [Type I Demon (Vrock)](#type-i-demon-vrock), [Bone Devil](#bone-devil), [Dao](#dao), [Death Knight](#death-knight), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Skeleton Warrior](#skeleton-warrior), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Ghost](#ghost), [Mimic](#mimic), [Spirit Naga](#naga), [Beholder](#beholder), [Dragon, Gold](#dragon), [Ice Devil](#ice-devil) |
+| 10 | [Barbed Devil](#barbed-devil), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Invisible Stalker](#invisible-stalker), [Lammasu](#lammasu), [Otyugh](#otyugh), [Revenant](#revenant), [Type I Demon (Vrock)](#type-i-demon-vrock), [Bone Devil](#bone-devil), [Dao](#dao), [Death Knight](#death-knight), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Skeleton Warrior](#skeleton-warrior), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Dragon, Gold](#dragon), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Guardian Naga](#naga), [Neotyugh](#neotyugh) |
+| 11 | [Bone Devil](#bone-devil), [Dao](#dao), [Death Knight](#death-knight), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Skeleton Warrior](#skeleton-warrior), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Dragon, Gold](#dragon), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Fire Giant](#giant), [Guardian Naga](#naga), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Pit Fiend](#pit-fiend) |
+| 12 | [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Dragon, Gold](#dragon), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Fire Giant](#giant), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend) |
+| 13 | [Beholder](#beholder), [Dragon, Gold](#dragon), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Fire Giant](#giant), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend) |
+| 14 | [Androsphinx](#sphinx), [Fire Giant](#giant), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend), [Aerial Servant](#aerial-servant) |
+| 15 | [Pit Fiend](#pit-fiend), [Aerial Servant](#aerial-servant) |
+| 16 | [Aerial Servant](#aerial-servant) |
+| 17 | [Aerial Servant](#aerial-servant) |
+| 18 | [Aerial Servant](#aerial-servant), [Demilich](#demilich), [Golem, Bronze](#golem), [Titan](#titan) |
+| 19 | [Demilich](#demilich), [Golem, Bronze](#golem), [Titan](#titan) |
+| 20 | [Demilich](#demilich), [Golem, Bronze](#golem), [Titan](#titan) |
 
 ### Overland Hex Crawl Generation
 
