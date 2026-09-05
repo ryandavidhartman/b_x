@@ -47,7 +47,10 @@ function rollDemiHumanFlavor(primary: NpcClassLevel): DemiHumanResult | null {
   const race = cellText(row.Race);
   const multiclassPct = parseInt(cellText(row["% Multi-Class"]), 10);
   if (!chance(multiclassPct)) return { race, classes: [] };
-  const extraCount = chance(33) ? 2 : 1; // 3-profession vs 2-profession split, see comment above
+  // Book gives 50% two-profession / 25% three-profession; the unspecified remaining quarter is
+  // folded into "three professions" per the comment above, so the real split is 50% one-extra vs.
+  // 50% two-extra (25% explicit + 25% extrapolated), not a plain normalization of the two known buckets.
+  const extraCount = chance(50) ? 2 : 1;
   const classes: NpcClassLevel[] = [];
   for (let i = 0; i < extraCount; i++) {
     let next = rollClassAndLevel("Expert");

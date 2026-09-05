@@ -5,7 +5,17 @@ export function LevelPicker({ id, value, onChange }: { id: string; value: number
   return (
     <div className="field">
       <label htmlFor={id}>Party Level</label>
-      <input id={id} type="number" min={1} max={20} value={value} onChange={(e) => onChange(Number(e.target.value))} />
+      <input
+        id={id}
+        type="number"
+        min={1}
+        max={20}
+        value={value}
+        onChange={(e) => {
+          const raw = Number(e.target.value);
+          onChange(Number.isFinite(raw) ? Math.min(20, Math.max(1, Math.round(raw))) : 1);
+        }}
+      />
     </div>
   );
 }
