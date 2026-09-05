@@ -628,7 +628,7 @@ Weed eels resemble seaweed and live in colonies of small tunnels leading to a tr
 | Armor Class    | 14                  | No. Appearing | 0 (1d20)    |
 | Hit Dice       | 9                  | Save As       | Fighter 5   |
 | Move           | 120' (40')         | Morale        | 8           |
-| Attacks        | 2 tusks or trample | Treasure Type | See below   |
+| Attacks        | 2 tusks or trample | Treasure Type | Nil         |
 | Damage         | 2d4/2d4 or 4d8     | Alignment     | Neutral     |
 
 Any number of elephants from a lone rogue to an entire herd may be encountered. Both males and females have tusks.
@@ -1368,7 +1368,7 @@ Giant weasels have infravision to 30' and can track by scent. They prefer wounde
 | No. Appearing | 0 (1d6)         | 0 (1d4)         | 0 (1d3)     |
 | Save As       | Fighter 3       | Fighter 12      | Fighter 15  |
 | Morale        | 10              | 8               | 7           |
-| Treasure Type | V               | See below       | V           |
+| Treasure Type | V               | Nil             | V           |
 | Alignment     | Neutral         | Lawful          | Neutral     |
 
 Killer whale. These are 25' long and are found mainly in cold waters. They live by hunting other sea creatures (even other whales). Creatures of halfling size or smaller will be swallowed whole if the killer whale scores a 20 on its "to hit" roll. Those swallowed take `1d6` points of damage per round and will drown in 10 rounds unless freed.
@@ -2945,7 +2945,7 @@ Insects and similar creeping creatures are common in dungeons, ruins, and wilder
 | Armor Class | 16          | No. Appearing | 2d4 (4d6)       |
 | Hit Dice    | 4*         | Save As       | Fighter 2       |
 | Move        | 180' (60') | Morale        | 7 and see below |
-| Attacks     | 1          | Treasure Type | U or see below  |
+| Attacks     | 1          | Treasure Type | U               |
 | Damage      | 2d6        | Alignment     | Neutral         |
 
 Driver ants are giant black ants about 6' long. They are ravenous omnivores that will devour nearly anything edible in their path.
@@ -2989,7 +2989,7 @@ When giant ants are encountered outside their lair, there is a 90% chance that t
 | Armor Class | 12             | No. Appearing | 1d6 (5d6) |
 | Hit Dice    | 1/2* (1d4 hp) | Save As       | Fighter 1 |
 | Move        | 150' (50')    | Morale        | 9         |
-| Attacks     | 1 sting       | Treasure Type | See below |
+| Attacks     | 1 sting       | Treasure Type | Nil       |
 | Damage      | 1d3 + special | Alignment     | Neutral   |
 
 Killer bees are giant bees about 1' long with an extremely vicious temper. They almost always attack on sight and automatically attack any creature approaching within 30' of their underground hive.
@@ -3578,7 +3578,7 @@ Like elephants, a mammoth has five attack forms but can use no more than two aga
 | Armor Class | 16                    | No. Appearing | 0 (2d8)    |
 | Hit Dice    | 15                   | Save As       | Fighter 8  |
 | Move        | 120' (40')           | Morale        | 8          |
-| Attacks     | 2 tusks or 1 trample | Treasure Type | See below  |
+| Attacks     | 2 tusks or 1 trample | Treasure Type | Nil        |
 | Damage      | 2d6 / 2d6 or 4d8     | Alignment     | Neutral    |
 
 Mastodons look like hairy elephants with long tusks. In combat, a mastodon will charge, striking only with its tusks for double damage. In succeeding rounds, it will either strike with its tusks, 25%, or trample, 75%, if the opponent is man-sized or smaller. The mastodon gains a bonus of +4 on "to hit" rolls when trampling any creature man-sized or smaller.

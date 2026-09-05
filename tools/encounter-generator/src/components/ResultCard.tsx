@@ -31,7 +31,10 @@ function TreasureBlock({ hoard }: { hoard: HoardResult }) {
   return (
     <div className="section">
       <div className="section-heading">Treasure</div>
-      {!hasAny && <p className="hint">Nothing here — the percentile rolls all came up empty.</p>}
+      {hoard.notes.length > 0 && (
+        <p className="fallback-note">{hoard.notes.join(" ")}</p>
+      )}
+      {!hasAny && hoard.notes.length === 0 && <p className="hint">Nothing here — the percentile rolls all came up empty.</p>}
       {hoard.coins.length > 0 && (
         <ul className="coin-list">
           {hoard.coins.map((c, i) => (

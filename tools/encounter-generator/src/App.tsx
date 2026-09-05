@@ -75,7 +75,7 @@ function App() {
     const result = rollWildernessEncounter(terrain, wildPartyLevel, airborne);
     const treasureType = result.monster?.stats["Treasure Type"];
     const treasure = wildAwardTreasure && treasureType
-      ? rollTreasureForType(treasureType, undefined, { ageCategory: DEFAULT_DRAGON_AGE, hitDice: DEFAULT_DRAGON_HD })
+      ? rollTreasureForType(treasureType, undefined, { ageCategory: DEFAULT_DRAGON_AGE, hitDice: DEFAULT_DRAGON_HD }, true)
       : null;
     push({ id: newId(), timestamp: Date.now(), kind: "wilderness", result, treasure });
   }
@@ -89,7 +89,8 @@ function App() {
         if (entry.kind === "dungeon" || entry.kind === "wilderness" || entry.kind === "urbanMonster") {
           const treasureType = entry.result.monster?.stats["Treasure Type"];
           if (!treasureType) return entry;
-          return { ...entry, treasure: rollTreasureForType(treasureType, undefined, { ageCategory, hitDice }) };
+          const inLair = entry.kind !== "dungeon";
+          return { ...entry, treasure: rollTreasureForType(treasureType, undefined, { ageCategory, hitDice }, inLair) };
         }
         return entry;
       }),
@@ -105,7 +106,7 @@ function App() {
     const result = rollUrbanMonsterEncounter(urbanLocation, urbanPartyLevel);
     const treasureType = result.monster?.stats["Treasure Type"];
     const treasure = urbanMonsterAwardTreasure && treasureType
-      ? rollTreasureForType(treasureType, undefined, { ageCategory: DEFAULT_DRAGON_AGE, hitDice: DEFAULT_DRAGON_HD })
+      ? rollTreasureForType(treasureType, undefined, { ageCategory: DEFAULT_DRAGON_AGE, hitDice: DEFAULT_DRAGON_HD }, true)
       : null;
     push({ id: newId(), timestamp: Date.now(), kind: "urbanMonster", result, treasure });
   }
