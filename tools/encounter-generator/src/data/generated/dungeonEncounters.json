@@ -11,7 +11,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Centipede, Giant](#centipede-giant), [Ear Seeker](#ear-seeker), [Goblin](#goblin), [Kobold](#kobold), [Medium](#medium), [Orc](#orc), [Rat, Giant](#rat), [Rot Grub](#rot-grub), [Ant, Giant (Worker)](#ant-giant), [Drow (Dark Elf)](#drow-dark-elf), [Ghoul](#ghoul), [Kuo-Toa](#kuo-toa), [Spider, Giant (Crab Spider)](#spider-giant), [Animated Armor](#animated-armor), [Huge Spider](#spider), [Spider, Giant (Black Widow)](#spider-giant)",
+          "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Centipede, Giant](#centipede-giant), [Ear Seeker](#ear-seeker), [Goblin](#goblin), [Kobold](#kobold), [Medium](#medium), [Orc](#orc), [Rat, Giant](#rat), [Rot Grub](#rot-grub), [Ant, Giant (Worker)](#ant-giant), [Black Mold](#mold), [Ghoul](#ghoul), [Homunculus](#homunculus), [Spider, Giant (Crab Spider)](#spider-giant), [Animated Armor](#animated-armor), [Huge Spider](#spider), [Spider, Giant (Black Widow)](#spider-giant)",
           "links": [
             {
               "label": "Acolyte",
@@ -58,16 +58,16 @@
               "anchor": "ant-giant"
             },
             {
-              "label": "Drow (Dark Elf)",
-              "anchor": "drow-dark-elf"
+              "label": "Black Mold",
+              "anchor": "mold"
             },
             {
               "label": "Ghoul",
               "anchor": "ghoul"
             },
             {
-              "label": "Kuo-Toa",
-              "anchor": "kuo-toa"
+              "label": "Homunculus",
+              "anchor": "homunculus"
             },
             {
               "label": "Spider, Giant (Crab Spider)",
@@ -94,7 +94,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Centipede, Giant](#centipede-giant), [Ear Seeker](#ear-seeker), [Goblin](#goblin), [Kobold](#kobold), [Medium](#medium), [Orc](#orc), [Rat, Giant](#rat), [Rot Grub](#rot-grub), [Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Drow (Dark Elf)](#drow-dark-elf), [Elf](#elf), [Ghoul](#ghoul), [Hobgoblin](#hobgoblin), [Kuo-Toa](#kuo-toa), [Locust, Cave](#locust-cave), [Spider, Giant (Crab Spider)](#spider-giant), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Fungi, Violet](#fungi-violet), [Living Statue, Crystal](#living-statue), [Sahuagin](#sahuagin), [Sylph](#sylph), [Ant, Driver](#ant-driver), [Ghast](#ghast), [Tick, Giant](#tick-giant)",
+          "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Centipede, Giant](#centipede-giant), [Ear Seeker](#ear-seeker), [Goblin](#goblin), [Kobold](#kobold), [Medium](#medium), [Orc](#orc), [Rat, Giant](#rat), [Rot Grub](#rot-grub), [Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Black Mold](#mold), [Duergar](#duergar), [Ghoul](#ghoul), [Green Slime](#green-slime), [Homunculus](#homunculus), [Locust, Cave](#locust-cave), [Spider, Giant (Crab Spider)](#spider-giant), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Fungi, Violet](#fungi-violet), [Living Statue, Crystal](#living-statue), [Sahuagin](#sahuagin), [Sylph](#sylph), [Ant, Driver](#ant-driver), [Ghast](#ghast), [Tick, Giant](#tick-giant)",
           "links": [
             {
               "label": "Acolyte",
@@ -145,24 +145,24 @@
               "anchor": "beetle-giant"
             },
             {
-              "label": "Drow (Dark Elf)",
-              "anchor": "drow-dark-elf"
+              "label": "Black Mold",
+              "anchor": "mold"
             },
             {
-              "label": "Elf",
-              "anchor": "elf"
+              "label": "Duergar",
+              "anchor": "duergar"
             },
             {
               "label": "Ghoul",
               "anchor": "ghoul"
             },
             {
-              "label": "Hobgoblin",
-              "anchor": "hobgoblin"
+              "label": "Green Slime",
+              "anchor": "green-slime"
             },
             {
-              "label": "Kuo-Toa",
-              "anchor": "kuo-toa"
+              "label": "Homunculus",
+              "anchor": "homunculus"
             },
             {
               "label": "Locust, Cave",
@@ -217,7 +217,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Centipede, Giant](#centipede-giant), [Ear Seeker](#ear-seeker), [Goblin](#goblin), [Kobold](#kobold), [Medium](#medium), [Orc](#orc), [Rat, Giant](#rat), [Rot Grub](#rot-grub), [Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Drow (Dark Elf)](#drow-dark-elf), [Elf](#elf), [Ghoul](#ghoul), [Hobgoblin](#hobgoblin), [Kuo-Toa](#kuo-toa), [Locust, Cave](#locust-cave), [Spider, Giant (Crab Spider)](#spider-giant), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Ant, Giant (Warrior)](#ant-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Living Statue, Crystal](#living-statue), [Noble](#noble), [Sahuagin](#sahuagin), [Spider, Giant (Black Widow)](#spider-giant), [Sylph](#sylph), [Veteran](#veteran), [Ant, Driver](#ant-driver), [Bugbear](#bugbear), [Githzerai](#githzerai), [Spider, Giant (Tarantella)](#spider-giant), [Water Weird](#water-weird), [Beetle, Giant (Boring)](#beetle-giant), [Living Statue, Rock](#living-statue), [Spider, Giant (Rhagodessa)](#spider-giant)",
+          "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Centipede, Giant](#centipede-giant), [Ear Seeker](#ear-seeker), [Goblin](#goblin), [Kobold](#kobold), [Medium](#medium), [Orc](#orc), [Rat, Giant](#rat), [Rot Grub](#rot-grub), [Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Black Mold](#mold), [Duergar](#duergar), [Ghoul](#ghoul), [Green Slime](#green-slime), [Homunculus](#homunculus), [Locust, Cave](#locust-cave), [Spider, Giant (Crab Spider)](#spider-giant), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Ant, Giant (Warrior)](#ant-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Living Statue, Crystal](#living-statue), [Noble](#noble), [Sahuagin](#sahuagin), [Spider, Giant (Black Widow)](#spider-giant), [Sylph](#sylph), [Veteran](#veteran), [Ant, Driver](#ant-driver), [Bugbear](#bugbear), [Githzerai](#githzerai), [Spider, Giant (Tarantella)](#spider-giant), [Water Weird](#water-weird), [Beetle, Giant (Boring)](#beetle-giant), [Living Statue, Rock](#living-statue), [Spider, Giant (Rhagodessa)](#spider-giant)",
           "links": [
             {
               "label": "Acolyte",
@@ -268,24 +268,24 @@
               "anchor": "beetle-giant"
             },
             {
-              "label": "Drow (Dark Elf)",
-              "anchor": "drow-dark-elf"
+              "label": "Black Mold",
+              "anchor": "mold"
             },
             {
-              "label": "Elf",
-              "anchor": "elf"
+              "label": "Duergar",
+              "anchor": "duergar"
             },
             {
               "label": "Ghoul",
               "anchor": "ghoul"
             },
             {
-              "label": "Hobgoblin",
-              "anchor": "hobgoblin"
+              "label": "Green Slime",
+              "anchor": "green-slime"
             },
             {
-              "label": "Kuo-Toa",
-              "anchor": "kuo-toa"
+              "label": "Homunculus",
+              "anchor": "homunculus"
             },
             {
               "label": "Locust, Cave",
@@ -380,7 +380,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Drow (Dark Elf)](#drow-dark-elf), [Elf](#elf), [Ghoul](#ghoul), [Hobgoblin](#hobgoblin), [Kuo-Toa](#kuo-toa), [Locust, Cave](#locust-cave), [Spider, Giant (Crab Spider)](#spider-giant), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Ant, Giant (Warrior)](#ant-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Living Statue, Crystal](#living-statue), [Noble](#noble), [Sahuagin](#sahuagin), [Spider, Giant (Black Widow)](#spider-giant), [Sylph](#sylph), [Veteran](#veteran), [Ant, Driver](#ant-driver), [Beetle, Giant (Water)](#beetle-giant), [Bugbear](#bugbear), [Ghast](#ghast), [Githzerai](#githzerai), [Scorpion, Giant](#scorpion-giant), [Spider, Giant (Tarantella)](#spider-giant), [Tick, Giant](#tick-giant), [Water Weird](#water-weird), [Werewolf](#werewolf), [Beetle, Giant (Boring)](#beetle-giant), [Githyanki](#githyanki), [Ochre Jelly](#ochre-jelly), [Slithering Tracker](#slithering-tracker), [Wereboar](#wereboar), [Mummy](#mummy), [Ogre Mage](#ogre-mage), [Spectre](#spectre)",
+          "raw": "[Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Black Mold](#mold), [Duergar](#duergar), [Ghoul](#ghoul), [Green Slime](#green-slime), [Homunculus](#homunculus), [Locust, Cave](#locust-cave), [Spider, Giant (Crab Spider)](#spider-giant), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Ant, Giant (Warrior)](#ant-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Living Statue, Crystal](#living-statue), [Noble](#noble), [Sahuagin](#sahuagin), [Spider, Giant (Black Widow)](#spider-giant), [Sylph](#sylph), [Veteran](#veteran), [Ant, Driver](#ant-driver), [Beetle, Giant (Water)](#beetle-giant), [Bugbear](#bugbear), [Ghast](#ghast), [Githzerai](#githzerai), [Scorpion, Giant](#scorpion-giant), [Spider, Giant (Tarantella)](#spider-giant), [Tick, Giant](#tick-giant), [Water Weird](#water-weird), [Werewolf](#werewolf), [Beetle, Giant (Boring)](#beetle-giant), [Githyanki](#githyanki), [Ochre Jelly](#ochre-jelly), [Slithering Tracker](#slithering-tracker), [Wereboar](#wereboar), [Mummy](#mummy), [Ogre Mage](#ogre-mage), [Spectre](#spectre)",
           "links": [
             {
               "label": "Ant, Giant (Worker)",
@@ -391,24 +391,24 @@
               "anchor": "beetle-giant"
             },
             {
-              "label": "Drow (Dark Elf)",
-              "anchor": "drow-dark-elf"
+              "label": "Black Mold",
+              "anchor": "mold"
             },
             {
-              "label": "Elf",
-              "anchor": "elf"
+              "label": "Duergar",
+              "anchor": "duergar"
             },
             {
               "label": "Ghoul",
               "anchor": "ghoul"
             },
             {
-              "label": "Hobgoblin",
-              "anchor": "hobgoblin"
+              "label": "Green Slime",
+              "anchor": "green-slime"
             },
             {
-              "label": "Kuo-Toa",
-              "anchor": "kuo-toa"
+              "label": "Homunculus",
+              "anchor": "homunculus"
             },
             {
               "label": "Locust, Cave",
@@ -3647,7 +3647,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Brown Mold](#mold), [Larva](#larva), [Manes](#manes), [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Lemure](#lemure), [Sylph](#sylph)",
+          "raw": "[Brown Mold](#mold), [Larva](#larva), [Manes](#manes), [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Black Mold](#mold), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Lemure](#lemure), [Sylph](#sylph)",
           "links": [
             {
               "label": "Brown Mold",
@@ -3668,6 +3668,10 @@
             {
               "label": "Skeleton",
               "anchor": "skeleton"
+            },
+            {
+              "label": "Black Mold",
+              "anchor": "mold"
             },
             {
               "label": "Green Slime",
@@ -3706,7 +3710,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Brown Mold](#mold), [Larva](#larva), [Manes](#manes), [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Gray Ooze](#gray-ooze), [Lemure](#lemure), [Shadow](#shadow), [Thought Eater](#thought-eater), [Doppelganger](#doppelganger), [Gelatinous Cube](#gelatinous-cube), [Medusa](#medusa)",
+          "raw": "[Brown Mold](#mold), [Larva](#larva), [Manes](#manes), [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Black Mold](#mold), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Gray Ooze](#gray-ooze), [Lemure](#lemure), [Shadow](#shadow), [Thought Eater](#thought-eater), [Doppelganger](#doppelganger), [Gelatinous Cube](#gelatinous-cube), [Medusa](#medusa)",
           "links": [
             {
               "label": "Brown Mold",
@@ -3727,6 +3731,10 @@
             {
               "label": "Skeleton",
               "anchor": "skeleton"
+            },
+            {
+              "label": "Black Mold",
+              "anchor": "mold"
             },
             {
               "label": "Green Slime",
@@ -3785,7 +3793,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Brown Mold](#mold), [Larva](#larva), [Manes](#manes), [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Golem, Wood](#golem), [Gray Ooze](#gray-ooze), [Imp](#imp), [Lemure](#lemure), [Quasit](#quasit), [Shadow](#shadow), [Sylph](#sylph), [Thought Eater](#thought-eater), [Thoul](#thoul), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Medusa](#medusa), [Water Weird](#water-weird), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Rust Monster](#rust-monster)",
+          "raw": "[Brown Mold](#mold), [Larva](#larva), [Manes](#manes), [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Black Mold](#mold), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Golem, Wood](#golem), [Gray Ooze](#gray-ooze), [Imp](#imp), [Lemure](#lemure), [Quasit](#quasit), [Shadow](#shadow), [Sylph](#sylph), [Thought Eater](#thought-eater), [Thoul](#thoul), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Medusa](#medusa), [Water Weird](#water-weird), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Rust Monster](#rust-monster)",
           "links": [
             {
               "label": "Brown Mold",
@@ -3806,6 +3814,10 @@
             {
               "label": "Skeleton",
               "anchor": "skeleton"
+            },
+            {
+              "label": "Black Mold",
+              "anchor": "mold"
             },
             {
               "label": "Green Slime",
@@ -3904,8 +3916,12 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Golem, Wood](#golem), [Gray Ooze](#gray-ooze), [Imp](#imp), [Lemure](#lemure), [Quasit](#quasit), [Shadow](#shadow), [Sylph](#sylph), [Thought Eater](#thought-eater), [Thoul](#thoul), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Myconid (Fungus Man)](#myconid-fungus-man), [Spectre](#spectre)",
+          "raw": "[Black Mold](#mold), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Golem, Wood](#golem), [Gray Ooze](#gray-ooze), [Imp](#imp), [Lemure](#lemure), [Quasit](#quasit), [Shadow](#shadow), [Sylph](#sylph), [Thought Eater](#thought-eater), [Thoul](#thoul), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Myconid (Fungus Man)](#myconid-fungus-man), [Spectre](#spectre)",
           "links": [
+            {
+              "label": "Black Mold",
+              "anchor": "mold"
+            },
             {
               "label": "Green Slime",
               "anchor": "green-slime"
@@ -5267,7 +5283,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Brown Mold](#mold), [Goblin](#goblin), [Rat, Giant](#rat), [Rat, Normal](#rat), [Rot Grub](#rot-grub), [Green Slime](#green-slime), [Yellow Mold](#yellow-mold), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Shrieker](#shrieker)",
+          "raw": "[Brown Mold](#mold), [Goblin](#goblin), [Rat, Giant](#rat), [Rat, Normal](#rat), [Rot Grub](#rot-grub), [Black Mold](#mold), [Green Slime](#green-slime), [Yellow Mold](#yellow-mold), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Shrieker](#shrieker)",
           "links": [
             {
               "label": "Brown Mold",
@@ -5288,6 +5304,10 @@
             {
               "label": "Rot Grub",
               "anchor": "rot-grub"
+            },
+            {
+              "label": "Black Mold",
+              "anchor": "mold"
             },
             {
               "label": "Green Slime",
@@ -5318,7 +5338,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Brown Mold](#mold), [Goblin](#goblin), [Rat, Giant](#rat), [Rat, Normal](#rat), [Rot Grub](#rot-grub), [Green Slime](#green-slime), [Yellow Mold](#yellow-mold), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Shrieker](#shrieker)",
+          "raw": "[Brown Mold](#mold), [Goblin](#goblin), [Rat, Giant](#rat), [Rat, Normal](#rat), [Rot Grub](#rot-grub), [Black Mold](#mold), [Green Slime](#green-slime), [Yellow Mold](#yellow-mold), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Shrieker](#shrieker)",
           "links": [
             {
               "label": "Brown Mold",
@@ -5339,6 +5359,10 @@
             {
               "label": "Rot Grub",
               "anchor": "rot-grub"
+            },
+            {
+              "label": "Black Mold",
+              "anchor": "mold"
             },
             {
               "label": "Green Slime",
@@ -5369,7 +5393,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Brown Mold](#mold), [Goblin](#goblin), [Rat, Giant](#rat), [Rat, Normal](#rat), [Rot Grub](#rot-grub), [Green Slime](#green-slime), [Yellow Mold](#yellow-mold), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Shrieker](#shrieker), [Gibbering Mouther](#gibbering-mouther), [Ochre Jelly](#ochre-jelly)",
+          "raw": "[Brown Mold](#mold), [Goblin](#goblin), [Rat, Giant](#rat), [Rat, Normal](#rat), [Rot Grub](#rot-grub), [Black Mold](#mold), [Green Slime](#green-slime), [Yellow Mold](#yellow-mold), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Shrieker](#shrieker), [Gibbering Mouther](#gibbering-mouther), [Ochre Jelly](#ochre-jelly)",
           "links": [
             {
               "label": "Brown Mold",
@@ -5390,6 +5414,10 @@
             {
               "label": "Rot Grub",
               "anchor": "rot-grub"
+            },
+            {
+              "label": "Black Mold",
+              "anchor": "mold"
             },
             {
               "label": "Green Slime",
@@ -5428,8 +5456,12 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Green Slime](#green-slime), [Yellow Mold](#yellow-mold), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Shrieker](#shrieker), [Gibbering Mouther](#gibbering-mouther), [Ochre Jelly](#ochre-jelly), [Myconid (Fungus Man)](#myconid-fungus-man)",
+          "raw": "[Black Mold](#mold), [Green Slime](#green-slime), [Yellow Mold](#yellow-mold), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Shrieker](#shrieker), [Gibbering Mouther](#gibbering-mouther), [Ochre Jelly](#ochre-jelly), [Myconid (Fungus Man)](#myconid-fungus-man)",
           "links": [
+            {
+              "label": "Black Mold",
+              "anchor": "mold"
+            },
             {
               "label": "Green Slime",
               "anchor": "green-slime"

@@ -5824,7 +5824,7 @@
             "links": []
           },
           "Monster": {
-            "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Brown Mold](#mold), [Dwarf](#dwarf), [Gnome](#gnome), [Kobold](#kobold), [Medium](#medium), [Normal Hawk](#hawk), [Orc](#orc), [Shrew, Giant](#shrew-giant), [Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Ferret, Giant](#ferret-giant), [Hobgoblin](#hobgoblin), [Spider, Giant (Crab Spider)](#spider-giant), [Ant, Giant (Warrior)](#ant-giant), [Imp](#imp), [Spider, Giant (Black Widow)](#spider-giant)",
+            "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Brown Mold](#mold), [Dwarf](#dwarf), [Gnome](#gnome), [Kobold](#kobold), [Medium](#medium), [Normal Hawk](#hawk), [Orc](#orc), [Shrew, Giant](#shrew-giant), [Ant, Giant (Worker)](#ant-giant), [Berserker](#berserker), [Ferret, Giant](#ferret-giant), [Hobgoblin](#hobgoblin), [Spider, Giant (Crab Spider)](#spider-giant), [Ant, Giant (Warrior)](#ant-giant), [Imp](#imp), [Spider, Giant (Black Widow)](#spider-giant)",
             "links": [
               {
                 "label": "Acolyte",
@@ -5871,8 +5871,8 @@
                 "anchor": "ant-giant"
               },
               {
-                "label": "Beetle, Giant (Oil)",
-                "anchor": "beetle-giant"
+                "label": "Berserker",
+                "anchor": "berserker"
               },
               {
                 "label": "Ferret, Giant",
@@ -5907,7 +5907,7 @@
             "links": []
           },
           "Monster": {
-            "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Brown Mold](#mold), [Dwarf](#dwarf), [Gnome](#gnome), [Kobold](#kobold), [Medium](#medium), [Normal Hawk](#hawk), [Orc](#orc), [Shrew, Giant](#shrew-giant), [Ant, Giant (Worker)](#ant-giant), [Badger](#badger), [Beetle, Giant (Oil)](#beetle-giant), [Duergar](#duergar), [Ferret, Giant](#ferret-giant), [Gnoll](#gnoll), [Hobgoblin](#hobgoblin), [Pseudo-Dragon](#pseudo-dragon), [Spider, Giant (Crab Spider)](#spider-giant), [Wild Dog](#dog), [Ant, Giant (Warrior)](#ant-giant), [Gray Ooze](#gray-ooze), [Noble](#noble), [Shrieker](#shrieker), [Thoul](#thoul), [Bear, Black](#bear), [Goat, Giant](#goat-giant), [Scorpion, Giant](#scorpion-giant)",
+            "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Brown Mold](#mold), [Dwarf](#dwarf), [Gnome](#gnome), [Kobold](#kobold), [Medium](#medium), [Normal Hawk](#hawk), [Orc](#orc), [Shrew, Giant](#shrew-giant), [Ant, Giant (Worker)](#ant-giant), [Badger](#badger), [Berserker](#berserker), [Drow (Dark Elf)](#drow-dark-elf), [Ferret, Giant](#ferret-giant), [Ghoul](#ghoul), [Hobgoblin](#hobgoblin), [Pseudo-Dragon](#pseudo-dragon), [Spider, Giant (Crab Spider)](#spider-giant), [Wild Dog](#dog), [Ant, Giant (Warrior)](#ant-giant), [Gray Ooze](#gray-ooze), [Noble](#noble), [Shrieker](#shrieker), [Thoul](#thoul), [Bear, Black](#bear), [Goat, Giant](#goat-giant), [Scorpion, Giant](#scorpion-giant)",
             "links": [
               {
                 "label": "Acolyte",
@@ -5958,20 +5958,20 @@
                 "anchor": "badger"
               },
               {
-                "label": "Beetle, Giant (Oil)",
-                "anchor": "beetle-giant"
+                "label": "Berserker",
+                "anchor": "berserker"
               },
               {
-                "label": "Duergar",
-                "anchor": "duergar"
+                "label": "Drow (Dark Elf)",
+                "anchor": "drow-dark-elf"
               },
               {
                 "label": "Ferret, Giant",
                 "anchor": "ferret-giant"
               },
               {
-                "label": "Gnoll",
-                "anchor": "gnoll"
+                "label": "Ghoul",
+                "anchor": "ghoul"
               },
               {
                 "label": "Hobgoblin",
@@ -6030,7 +6030,7 @@
             "links": []
           },
           "Monster": {
-            "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Brown Mold](#mold), [Dwarf](#dwarf), [Gnome](#gnome), [Kobold](#kobold), [Medium](#medium), [Normal Hawk](#hawk), [Orc](#orc), [Shrew, Giant](#shrew-giant), [Ant, Giant (Worker)](#ant-giant), [Badger](#badger), [Beetle, Giant (Oil)](#beetle-giant), [Duergar](#duergar), [Ferret, Giant](#ferret-giant), [Gnoll](#gnoll), [Hobgoblin](#hobgoblin), [Pseudo-Dragon](#pseudo-dragon), [Spider, Giant (Crab Spider)](#spider-giant), [Wild Dog](#dog), [Ant, Giant (Warrior)](#ant-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Imp](#imp), [Noble](#noble), [Pegasus](#pegasus), [Shrieker](#shrieker), [Stag](#stag), [Thoul](#thoul), [Wight](#wight), [Bear, Black](#bear), [Cat, Great (Mountain Lion)](#cat-great), [Herd Animals](#herd-animals), [Piercer](#piercer), [Tick, Giant](#tick-giant), [Bear, Grizzly](#bear), [Hook Horror](#hook-horror), [Rust Monster](#rust-monster)",
+            "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Brown Mold](#mold), [Dwarf](#dwarf), [Gnome](#gnome), [Kobold](#kobold), [Medium](#medium), [Normal Hawk](#hawk), [Orc](#orc), [Shrew, Giant](#shrew-giant), [Ant, Giant (Worker)](#ant-giant), [Badger](#badger), [Berserker](#berserker), [Drow (Dark Elf)](#drow-dark-elf), [Ferret, Giant](#ferret-giant), [Ghoul](#ghoul), [Hobgoblin](#hobgoblin), [Pseudo-Dragon](#pseudo-dragon), [Spider, Giant (Crab Spider)](#spider-giant), [Wild Dog](#dog), [Ant, Giant (Warrior)](#ant-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Imp](#imp), [Noble](#noble), [Pegasus](#pegasus), [Shrieker](#shrieker), [Stag](#stag), [Thoul](#thoul), [Wight](#wight), [Bear, Black](#bear), [Cat, Great (Mountain Lion)](#cat-great), [Herd Animals](#herd-animals), [Piercer](#piercer), [Tick, Giant](#tick-giant), [Bear, Grizzly](#bear), [Hook Horror](#hook-horror), [Rust Monster](#rust-monster)",
             "links": [
               {
                 "label": "Acolyte",
@@ -6081,20 +6081,20 @@
                 "anchor": "badger"
               },
               {
-                "label": "Beetle, Giant (Oil)",
-                "anchor": "beetle-giant"
+                "label": "Berserker",
+                "anchor": "berserker"
               },
               {
-                "label": "Duergar",
-                "anchor": "duergar"
+                "label": "Drow (Dark Elf)",
+                "anchor": "drow-dark-elf"
               },
               {
                 "label": "Ferret, Giant",
                 "anchor": "ferret-giant"
               },
               {
-                "label": "Gnoll",
-                "anchor": "gnoll"
+                "label": "Ghoul",
+                "anchor": "ghoul"
               },
               {
                 "label": "Hobgoblin",
@@ -6193,7 +6193,7 @@
             "links": []
           },
           "Monster": {
-            "raw": "[Ant, Giant (Worker)](#ant-giant), [Badger](#badger), [Beetle, Giant (Oil)](#beetle-giant), [Duergar](#duergar), [Ferret, Giant](#ferret-giant), [Gnoll](#gnoll), [Hobgoblin](#hobgoblin), [Pseudo-Dragon](#pseudo-dragon), [Spider, Giant (Crab Spider)](#spider-giant), [Wild Dog](#dog), [Ant, Giant (Warrior)](#ant-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Imp](#imp), [Noble](#noble), [Pegasus](#pegasus), [Shrieker](#shrieker), [Stag](#stag), [Thoul](#thoul), [Wight](#wight), [Bear, Black](#bear), [Bugbear](#bugbear), [Cat, Great (Mountain Lion)](#cat-great), [Giant Hawk](#hawk), [Herd Animals](#herd-animals), [Medusa](#medusa), [Piercer](#piercer), [Scorpion, Giant](#scorpion-giant), [Tick, Giant](#tick-giant), [Werewolf](#werewolf), [Bear, Grizzly](#bear), [Dire Wolf](#wolf), [Ochre Jelly](#ochre-jelly), [Owl Bear](#owl-bear), [Skunk, Giant](#skunk-giant), [Caecilia](#caecilia), [Minotaur](#minotaur), [Phase Spider](#spider)",
+            "raw": "[Ant, Giant (Worker)](#ant-giant), [Badger](#badger), [Berserker](#berserker), [Drow (Dark Elf)](#drow-dark-elf), [Ferret, Giant](#ferret-giant), [Ghoul](#ghoul), [Hobgoblin](#hobgoblin), [Pseudo-Dragon](#pseudo-dragon), [Spider, Giant (Crab Spider)](#spider-giant), [Wild Dog](#dog), [Ant, Giant (Warrior)](#ant-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Imp](#imp), [Noble](#noble), [Pegasus](#pegasus), [Shrieker](#shrieker), [Stag](#stag), [Thoul](#thoul), [Wight](#wight), [Bear, Black](#bear), [Bugbear](#bugbear), [Cat, Great (Mountain Lion)](#cat-great), [Giant Hawk](#hawk), [Herd Animals](#herd-animals), [Medusa](#medusa), [Piercer](#piercer), [Scorpion, Giant](#scorpion-giant), [Tick, Giant](#tick-giant), [Werewolf](#werewolf), [Bear, Grizzly](#bear), [Dire Wolf](#wolf), [Ochre Jelly](#ochre-jelly), [Owl Bear](#owl-bear), [Skunk, Giant](#skunk-giant), [Caecilia](#caecilia), [Minotaur](#minotaur), [Phase Spider](#spider)",
             "links": [
               {
                 "label": "Ant, Giant (Worker)",
@@ -6204,20 +6204,20 @@
                 "anchor": "badger"
               },
               {
-                "label": "Beetle, Giant (Oil)",
-                "anchor": "beetle-giant"
+                "label": "Berserker",
+                "anchor": "berserker"
               },
               {
-                "label": "Duergar",
-                "anchor": "duergar"
+                "label": "Drow (Dark Elf)",
+                "anchor": "drow-dark-elf"
               },
               {
                 "label": "Ferret, Giant",
                 "anchor": "ferret-giant"
               },
               {
-                "label": "Gnoll",
-                "anchor": "gnoll"
+                "label": "Ghoul",
+                "anchor": "ghoul"
               },
               {
                 "label": "Hobgoblin",
@@ -11196,7 +11196,7 @@
             "links": []
           },
           "Monster": {
-            "raw": "[Acolyte](#acolyte), [Bandit](#bandit), [Brown Mold](#mold), [Dwarf](#dwarf), [Goblin](#goblin), [Manes](#manes), [Medium](#medium), [Normal Human](#normal-human), [Orc](#orc), [Skeleton](#skeleton), [Bat, Giant](#bat), [Drow (Dark Elf)](#drow-dark-elf), [Ghoul](#ghoul), [Locust, Cave](#locust-cave), [Troglodyte](#troglodyte), [Fire Mephit](#mephit), [Noble](#noble), [Steam Mephit](#mephit)",
+            "raw": "[Acolyte](#acolyte), [Bandit](#bandit), [Brown Mold](#mold), [Dwarf](#dwarf), [Goblin](#goblin), [Manes](#manes), [Medium](#medium), [Normal Human](#normal-human), [Orc](#orc), [Skeleton](#skeleton), [Bat, Giant](#bat), [Black Mold](#mold), [Duergar](#duergar), [Locust, Cave](#locust-cave), [Troglodyte](#troglodyte), [Fire Mephit](#mephit), [Noble](#noble), [Steam Mephit](#mephit)",
             "links": [
               {
                 "label": "Acolyte",
@@ -11243,12 +11243,12 @@
                 "anchor": "bat"
               },
               {
-                "label": "Drow (Dark Elf)",
-                "anchor": "drow-dark-elf"
+                "label": "Black Mold",
+                "anchor": "mold"
               },
               {
-                "label": "Ghoul",
-                "anchor": "ghoul"
+                "label": "Duergar",
+                "anchor": "duergar"
               },
               {
                 "label": "Locust, Cave",
@@ -11279,7 +11279,7 @@
             "links": []
           },
           "Monster": {
-            "raw": "[Acolyte](#acolyte), [Bandit](#bandit), [Brown Mold](#mold), [Dwarf](#dwarf), [Goblin](#goblin), [Manes](#manes), [Medium](#medium), [Normal Human](#normal-human), [Orc](#orc), [Skeleton](#skeleton), [Bat, Giant](#bat), [Berserker](#berserker), [Drow (Dark Elf)](#drow-dark-elf), [Duergar](#duergar), [Ghoul](#ghoul), [Hobgoblin](#hobgoblin), [Locust, Cave](#locust-cave), [Rock Baboon](#baboon), [Troglodyte](#troglodyte), [Yellow Mold](#yellow-mold), [Fire Mephit](#mephit), [Lava Mephit](#mephit), [Normal Wolf](#wolf), [Shrieker](#shrieker), [Sylph](#sylph), [Bear, Black](#bear), [Giant Hawk](#hawk), [Peryton](#peryton)",
+            "raw": "[Acolyte](#acolyte), [Bandit](#bandit), [Brown Mold](#mold), [Dwarf](#dwarf), [Goblin](#goblin), [Manes](#manes), [Medium](#medium), [Normal Human](#normal-human), [Orc](#orc), [Skeleton](#skeleton), [Bat, Giant](#bat), [Berserker](#berserker), [Black Mold](#mold), [Drow (Dark Elf)](#drow-dark-elf), [Duergar](#duergar), [Hobgoblin](#hobgoblin), [Locust, Cave](#locust-cave), [Rock Baboon](#baboon), [Troglodyte](#troglodyte), [Yellow Mold](#yellow-mold), [Fire Mephit](#mephit), [Lava Mephit](#mephit), [Normal Wolf](#wolf), [Shrieker](#shrieker), [Sylph](#sylph), [Bear, Black](#bear), [Giant Hawk](#hawk), [Peryton](#peryton)",
             "links": [
               {
                 "label": "Acolyte",
@@ -11330,16 +11330,16 @@
                 "anchor": "berserker"
               },
               {
+                "label": "Black Mold",
+                "anchor": "mold"
+              },
+              {
                 "label": "Drow (Dark Elf)",
                 "anchor": "drow-dark-elf"
               },
               {
                 "label": "Duergar",
                 "anchor": "duergar"
-              },
-              {
-                "label": "Ghoul",
-                "anchor": "ghoul"
               },
               {
                 "label": "Hobgoblin",
@@ -11402,7 +11402,7 @@
             "links": []
           },
           "Monster": {
-            "raw": "[Acolyte](#acolyte), [Bandit](#bandit), [Brown Mold](#mold), [Dwarf](#dwarf), [Goblin](#goblin), [Manes](#manes), [Medium](#medium), [Normal Human](#normal-human), [Orc](#orc), [Skeleton](#skeleton), [Bat, Giant](#bat), [Berserker](#berserker), [Drow (Dark Elf)](#drow-dark-elf), [Duergar](#duergar), [Ghoul](#ghoul), [Hobgoblin](#hobgoblin), [Locust, Cave](#locust-cave), [Rock Baboon](#baboon), [Troglodyte](#troglodyte), [Yellow Mold](#yellow-mold), [Fire Mephit](#mephit), [Harpy](#harpy), [Lava Mephit](#mephit), [Lynx, Giant](#lynx-giant), [Normal Wolf](#wolf), [Quasit](#quasit), [Shrieker](#shrieker), [Steam Mephit](#mephit), [Sylph](#sylph), [Wight](#wight), [Bear, Black](#bear), [Cat, Great (Mountain Lion)](#cat-great), [Githzerai](#githzerai), [Hippogriff](#hippogriff), [Ram, Giant](#ram-giant), [Bear, Grizzly](#bear), [Hook Horror](#hook-horror), [Rust Monster](#rust-monster)",
+            "raw": "[Acolyte](#acolyte), [Bandit](#bandit), [Brown Mold](#mold), [Dwarf](#dwarf), [Goblin](#goblin), [Manes](#manes), [Medium](#medium), [Normal Human](#normal-human), [Orc](#orc), [Skeleton](#skeleton), [Bat, Giant](#bat), [Berserker](#berserker), [Black Mold](#mold), [Drow (Dark Elf)](#drow-dark-elf), [Duergar](#duergar), [Hobgoblin](#hobgoblin), [Locust, Cave](#locust-cave), [Rock Baboon](#baboon), [Troglodyte](#troglodyte), [Yellow Mold](#yellow-mold), [Fire Mephit](#mephit), [Harpy](#harpy), [Lava Mephit](#mephit), [Lynx, Giant](#lynx-giant), [Normal Wolf](#wolf), [Quasit](#quasit), [Shrieker](#shrieker), [Steam Mephit](#mephit), [Sylph](#sylph), [Wight](#wight), [Bear, Black](#bear), [Cat, Great (Mountain Lion)](#cat-great), [Githzerai](#githzerai), [Hippogriff](#hippogriff), [Ram, Giant](#ram-giant), [Bear, Grizzly](#bear), [Hook Horror](#hook-horror), [Rust Monster](#rust-monster)",
             "links": [
               {
                 "label": "Acolyte",
@@ -11453,16 +11453,16 @@
                 "anchor": "berserker"
               },
               {
+                "label": "Black Mold",
+                "anchor": "mold"
+              },
+              {
                 "label": "Drow (Dark Elf)",
                 "anchor": "drow-dark-elf"
               },
               {
                 "label": "Duergar",
                 "anchor": "duergar"
-              },
-              {
-                "label": "Ghoul",
-                "anchor": "ghoul"
               },
               {
                 "label": "Hobgoblin",
@@ -11565,7 +11565,7 @@
             "links": []
           },
           "Monster": {
-            "raw": "[Bat, Giant](#bat), [Berserker](#berserker), [Drow (Dark Elf)](#drow-dark-elf), [Duergar](#duergar), [Ghoul](#ghoul), [Hobgoblin](#hobgoblin), [Locust, Cave](#locust-cave), [Rock Baboon](#baboon), [Troglodyte](#troglodyte), [Yellow Mold](#yellow-mold), [Fire Mephit](#mephit), [Harpy](#harpy), [Lava Mephit](#mephit), [Lynx, Giant](#lynx-giant), [Normal Wolf](#wolf), [Quasit](#quasit), [Shrieker](#shrieker), [Steam Mephit](#mephit), [Sylph](#sylph), [Wight](#wight), [Bear, Black](#bear), [Bugbear](#bugbear), [Cat, Great (Mountain Lion)](#cat-great), [Eagle, Giant](#eagle-giant), [Githzerai](#githzerai), [Goat, Giant](#goat-giant), [Hippogriff](#hippogriff), [Peryton](#peryton), [Ram, Giant](#ram-giant), [Wasp, Giant](#wasp-giant), [Bear, Grizzly](#bear), [Dire Wolf](#wolf), [Lizards, Giant (Draco)](#lizards-giant), [Ogre](#ogre), [Troll](#troll), [Mummy](#mummy), [Ogre Mage](#ogre-mage), [Spectre](#spectre)",
+            "raw": "[Bat, Giant](#bat), [Berserker](#berserker), [Black Mold](#mold), [Drow (Dark Elf)](#drow-dark-elf), [Duergar](#duergar), [Hobgoblin](#hobgoblin), [Locust, Cave](#locust-cave), [Rock Baboon](#baboon), [Troglodyte](#troglodyte), [Yellow Mold](#yellow-mold), [Fire Mephit](#mephit), [Harpy](#harpy), [Lava Mephit](#mephit), [Lynx, Giant](#lynx-giant), [Normal Wolf](#wolf), [Quasit](#quasit), [Shrieker](#shrieker), [Steam Mephit](#mephit), [Sylph](#sylph), [Wight](#wight), [Bear, Black](#bear), [Bugbear](#bugbear), [Cat, Great (Mountain Lion)](#cat-great), [Eagle, Giant](#eagle-giant), [Githzerai](#githzerai), [Goat, Giant](#goat-giant), [Hippogriff](#hippogriff), [Peryton](#peryton), [Ram, Giant](#ram-giant), [Wasp, Giant](#wasp-giant), [Bear, Grizzly](#bear), [Dire Wolf](#wolf), [Lizards, Giant (Draco)](#lizards-giant), [Ogre](#ogre), [Troll](#troll), [Mummy](#mummy), [Ogre Mage](#ogre-mage), [Spectre](#spectre)",
             "links": [
               {
                 "label": "Bat, Giant",
@@ -11576,16 +11576,16 @@
                 "anchor": "berserker"
               },
               {
+                "label": "Black Mold",
+                "anchor": "mold"
+              },
+              {
                 "label": "Drow (Dark Elf)",
                 "anchor": "drow-dark-elf"
               },
               {
                 "label": "Duergar",
                 "anchor": "duergar"
-              },
-              {
-                "label": "Ghoul",
-                "anchor": "ghoul"
               },
               {
                 "label": "Hobgoblin",
