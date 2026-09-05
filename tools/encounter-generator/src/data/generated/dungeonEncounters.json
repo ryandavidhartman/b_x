@@ -3163,7 +3163,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Poltergeist](#poltergeist), [Skeleton](#skeleton), [Ghoul](#ghoul), [Zombie](#zombie), [Zombie, Yellow Musk](#zombie-yellow-musk), [Wight](#wight)",
+          "raw": "[Poltergeist](#poltergeist), [Skeleton](#skeleton), [Ghoul](#ghoul), [Zombie](#zombie), [Wight](#wight)",
           "links": [
             {
               "label": "Poltergeist",
@@ -3180,10 +3180,6 @@
             {
               "label": "Zombie",
               "anchor": "zombie"
-            },
-            {
-              "label": "Zombie, Yellow Musk",
-              "anchor": "zombie-yellow-musk"
             },
             {
               "label": "Wight",
@@ -3198,7 +3194,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Poltergeist](#poltergeist), [Skeleton](#skeleton), [Ghoul](#ghoul), [Zombie](#zombie), [Zombie, Yellow Musk](#zombie-yellow-musk), [Wight](#wight), [Ghast](#ghast), [Wraith](#wraith)",
+          "raw": "[Poltergeist](#poltergeist), [Skeleton](#skeleton), [Ghoul](#ghoul), [Zombie](#zombie), [Wight](#wight), [Ghast](#ghast), [Wraith](#wraith)",
           "links": [
             {
               "label": "Poltergeist",
@@ -3215,10 +3211,6 @@
             {
               "label": "Zombie",
               "anchor": "zombie"
-            },
-            {
-              "label": "Zombie, Yellow Musk",
-              "anchor": "zombie-yellow-musk"
             },
             {
               "label": "Wight",
@@ -3241,7 +3233,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Poltergeist](#poltergeist), [Skeleton](#skeleton), [Ghoul](#ghoul), [Zombie](#zombie), [Zombie, Yellow Musk](#zombie-yellow-musk), [Wight](#wight), [Ghast](#ghast), [Wraith](#wraith)",
+          "raw": "[Poltergeist](#poltergeist), [Skeleton](#skeleton), [Ghoul](#ghoul), [Zombie](#zombie), [Wight](#wight), [Ghast](#ghast), [Wraith](#wraith)",
           "links": [
             {
               "label": "Poltergeist",
@@ -3258,10 +3250,6 @@
             {
               "label": "Zombie",
               "anchor": "zombie"
-            },
-            {
-              "label": "Zombie, Yellow Musk",
-              "anchor": "zombie-yellow-musk"
             },
             {
               "label": "Wight",
@@ -3284,7 +3272,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Ghoul](#ghoul), [Zombie](#zombie), [Zombie, Yellow Musk](#zombie-yellow-musk), [Wight](#wight), [Ghast](#ghast), [Wraith](#wraith), [Mummy](#mummy), [Spectre](#spectre)",
+          "raw": "[Ghoul](#ghoul), [Zombie](#zombie), [Wight](#wight), [Ghast](#ghast), [Wraith](#wraith), [Mummy](#mummy), [Spectre](#spectre)",
           "links": [
             {
               "label": "Ghoul",
@@ -3293,10 +3281,6 @@
             {
               "label": "Zombie",
               "anchor": "zombie"
-            },
-            {
-              "label": "Zombie, Yellow Musk",
-              "anchor": "zombie-yellow-musk"
             },
             {
               "label": "Wight",
