@@ -8408,7 +8408,7 @@ To stock a whole dungeon room-by-room instead of generating a single wandering m
 
 *Dungeon:* At the end of every 2 turns, roll `1d6`. A result of `1` means the party will encounter a Wandering Monster in the next turn.
 
-*Settlement:* Checked every 3 turns of street activity, or as the DM desires. On a triggered check, roll on the Daytime or Nighttime Encounters table as appropriate; the DM may instead call for a real monster encounter (the Urban or Castle table) when the scene calls for one.
+*Settlement:* Checked every 3 turns of street activity, or as the DM desires. Unlike Dungeon and Wilderness, there's no separate yes/no die here — every check draws a result directly from the Daytime or Nighttime Encounters table; a result that's improbable or inconvenient for the scene can simply be ignored and treated as no encounter. The DM may instead call for a real monster encounter (the Urban or Castle table) when the scene calls for one.
 
 *Wilderness:* Checked once per day by default, though the DM may make up to 3-4 checks on an eventful day. Roll `1d6`; the terrain determines which results trigger an encounter.
 
@@ -8434,11 +8434,9 @@ To stock a whole dungeon room-by-room instead of generating a single wandering m
 
 Treat other terrain types as whichever entry above is the closest match.
 
-*Settlement:* Checked every 3 turns, per *Urban Encounters*, below.
-
 ### Encounter Purpose
 
-A quick note on what a creature is doing when the party meets it — useful for describing the scene and for deciding how it behaves before combat, negotiation, or flight begins.
+A quick note on what a creature is doing when the party meets it — useful for describing the scene and for deciding how it behaves before combat, negotiation, or flight begins. This table is written for ordinary wild or wandering monsters; a Lone NPC (which already has its own archetype and behavior) or a settlement street encounter (which already has its own flavor from the Daytime/Nighttime table) may not need it at all — reroll or ignore the result if it clashes with what's already been established.
 
 | d8 | Purpose |
 |---|---|
@@ -8912,7 +8910,7 @@ below to find out what.
 | 1 | Ruined watchtower | Guarded by a monster rolled on this terrain's Wilderness Encounters table |
 | 2 | Standing stones | Marks the site of a Cataclysm — roll below |
 | 3 | Overgrown barrow mound | A sealed tomb; the mound itself becomes a Graveyard-terrain hex, and its interior is stocked as a Tomb-type location with Appendix E: The Encounter Builder |
-| 4 | Abandoned farmstead | Looted long ago; a Rival Adventuring Party has made camp here — see *Rival Adventuring Parties*, above |
+| 4 | Abandoned farmstead | Looted long ago; a Rival Adventuring Party has made camp here — see *Rival Adventuring Parties* in the core NPCs chapter's *NPC Parties* entry |
 | 5 | Hermit's hut | Home to a reclusive NPC with local knowledge; roll their former trade on the *Urban Professions* sub-table |
 | 6 | Cave mouth | Leads to a dungeon; roll `1d10` on Appendix E's *Scenarios* table for why it's here |
 | 7 | Crumbling shrine | Sacred to a forgotten power — a blessing or a curse awaits inside, DM's choice |
@@ -8920,12 +8918,12 @@ below to find out what.
 | 9 | Small or Large Town | Roll *Settlement Size*, Appendix F |
 | 10 | Bridge or ford | Tolled by whoever controls it; roll the toll-keeper's trade on *Urban Professions* |
 | 11 | Burnt-out battlefield | Scavenged bones and broken weapons; `1`-in-`6` chance the dead haven't stayed down |
-| 12 | Hunting lodge | Base of operations for a Rival Adventuring Party (see above) between expeditions |
+| 12 | Hunting lodge | Base of operations for a Rival Adventuring Party (see the core NPCs chapter's *NPC Parties* entry) between expeditions |
 | 13 | Quarry or mine | Worked by `2d6` laborers; a recent cave-in or monster incursion has halted work |
 | 14 | Old road marker | Points toward the nearest undiscovered Point of Interest |
 | 15 | Sunken ruin | Half-swamped; roll its treasure on the Unguarded Treasures table, Appendix B |
 | 16 | Wizard's folly | An abandoned tower whose wards are still partly active |
-| 17 | Trading post | A Trader has set up shop here semi-permanently — see *Trader's Wares*, above |
+| 17 | Trading post | A Trader has set up shop here semi-permanently — see *Trader's Wares* in the core NPCs chapter's *Trader* entry |
 | 18 | Sacred grove or spring | Restores `1` hp per hour of rest to anyone who stays the night, DM's discretion |
 | 19 | Fresh disaster site | Roll on the Cataclysm table, below |
 | 20 | DM's invention | Something unique — a portal, a crashed vessel, a sleeping giant — left to the table's imagination |
