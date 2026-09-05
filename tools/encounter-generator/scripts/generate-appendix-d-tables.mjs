@@ -310,16 +310,17 @@ function evenSample(list, cap) {
 const FALLBACK_CAP = 3;
 
 /** Build the capped candidate list for one location+level cell. Returns
- * { entries: [{key,label,anchor,level}], borrowedFromLevel: number[]|null, totalBeforeCap: number }. */
+ * { entries: [{key,label,anchor,level}], borrowedFromLevel: number[]|null, totalBeforeCap: number,
+ *   widenedWindow: boolean }. */
 function buildCell(location, partyLevel) {
   let candidates = candidatesInWindow(location, partyLevel);
-  let borrowedFromLevel = null;
   const totalBeforeCap = candidates.length;
 
   const widened = widenIfThin(location, partyLevel, candidates);
   const widenedWindow = widened.length > candidates.length;
   candidates = widened;
 
+  let usedAbsoluteFallback = false;
   if (candidates.length === 0) {
     // Empty-window fallback: borrow the nearest FALLBACK_CAP distinct candidates by level-distance
     // (ties broken alphabetically for determinism), whatever levels they actually land on.
@@ -333,8 +334,8 @@ function buildCell(location, partyLevel) {
         return d !== 0 ? d : LABEL_OF.get(a.key).localeCompare(LABEL_OF.get(b.key));
       });
       const picked = levelsAvailable.slice(0, FALLBACK_CAP);
-      borrowedFromLevel = [...new Set(picked.map((c) => c.level))].sort((a, b) => a - b);
       candidates = picked.map((c) => ({ key: c.key, level: c.level, offset: 0 }));
+      usedAbsoluteFallback = true;
     }
   }
 
@@ -348,13 +349,26 @@ function buildCell(location, partyLevel) {
   const entries = [];
   for (const [offset, group] of byOffset) {
     group.sort((a, b) => LABEL_OF.get(a.key).localeCompare(LABEL_OF.get(b.key)));
-    const cap = borrowedFromLevel !== null ? group.length : (OFFSET_CAP[String(offset)] ?? 1);
+    const cap = usedAbsoluteFallback ? group.length : (OFFSET_CAP[String(offset)] ?? 1);
     const sampled = evenSample(group, cap);
     for (const c of sampled) {
       entries.push({ key: c.key, label: LABEL_OF.get(c.key), anchor: ANCHOR_OF.get(c.key), level: c.level });
     }
   }
   entries.sort((a, b) => a.level - b.level || a.label.localeCompare(b.label));
+
+  // Transparency, computed on the FINAL entries rather than tracked separately per code path:
+  // flag any level present in this row that falls outside the normal +/-2 pacing band around
+  // partyLevel — whether that's because the window was widened past +/-2 to avoid a too-thin
+  // cell, or because the window was empty and this fell back to the nearest candidates regardless
+  // of distance. A fresh review caught that the widened case wasn't being flagged at all (only the
+  // empty-fallback case was) — the exact same "unannounced overshoot" bug class as the original
+  // Arctic/Level-1-White-Dragon fix, just reintroduced by the widening feature that fixed thin
+  // cells. Computing it uniformly here means there's only one path to get this right, not two.
+  const outOfBandLevels = [...new Set(entries.filter((e) => Math.abs(e.level - partyLevel) > 2).map((e) => e.level))].sort(
+    (a, b) => a - b,
+  );
+  const borrowedFromLevel = outOfBandLevels.length > 0 ? outOfBandLevels : null;
 
   return { entries, borrowedFromLevel, totalBeforeCap, widenedWindow };
 }
