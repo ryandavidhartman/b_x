@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { rollDungeonEncounter, DUNGEON_LEVEL_OPTIONS } from "./generators/dungeonEncounter";
+import { rollDungeonEncounter, DUNGEON_LOCATION_NAMES } from "./generators/dungeonEncounter";
 import {
   rollWildernessEncounter,
   TERRAIN_NAMES,
@@ -31,7 +31,8 @@ function App() {
   const [log, setLog] = useState<LogEntry[]>([]);
 
   // Dungeon
-  const [dungeonLevel, setDungeonLevel] = useState(DUNGEON_LEVEL_OPTIONS[0]);
+  const [dungeonLocation, setDungeonLocation] = useState(DUNGEON_LOCATION_NAMES[0]);
+  const [dungeonPartyLevel, setDungeonPartyLevel] = useState(1);
   const [dungeonAwardTreasure, setDungeonAwardTreasure] = useState(true);
 
   // Wilderness
@@ -60,8 +61,8 @@ function App() {
   }
 
   function rollDungeon() {
-    const result = rollDungeonEncounter(dungeonLevel);
-    const treasureType = result.dragon?.monster?.stats["Treasure Type"] ?? result.monster?.stats["Treasure Type"];
+    const result = rollDungeonEncounter(dungeonLocation, dungeonPartyLevel);
+    const treasureType = result.monster?.stats["Treasure Type"];
     const treasure = dungeonAwardTreasure && treasureType
       ? rollTreasureForType(treasureType, undefined, { ageCategory: DEFAULT_DRAGON_AGE, hitDice: DEFAULT_DRAGON_HD })
       : null;
@@ -83,12 +84,7 @@ function App() {
     setLog((prev) =>
       prev.map((entry) => {
         if (entry.id !== id) return entry;
-        if (entry.kind === "dungeon") {
-          const treasureType = entry.result.dragon?.monster?.stats["Treasure Type"] ?? entry.result.monster?.stats["Treasure Type"];
-          if (!treasureType) return entry;
-          return { ...entry, treasure: rollTreasureForType(treasureType, undefined, { ageCategory, hitDice }) };
-        }
-        if (entry.kind === "wilderness" || entry.kind === "urbanMonster") {
+        if (entry.kind === "dungeon" || entry.kind === "wilderness" || entry.kind === "urbanMonster") {
           const treasureType = entry.result.monster?.stats["Treasure Type"];
           if (!treasureType) return entry;
           return { ...entry, treasure: rollTreasureForType(treasureType, undefined, { ageCategory, hitDice }) };
@@ -143,14 +139,18 @@ function App() {
           <>
             <div className="field-row">
               <div className="field">
-                <label htmlFor="dungeon-level">Dungeon Level</label>
-                <select id="dungeon-level" value={dungeonLevel} onChange={(e) => setDungeonLevel(e.target.value)}>
-                  {DUNGEON_LEVEL_OPTIONS.map((lvl) => (
-                    <option key={lvl} value={lvl}>
-                      {lvl}
+                <label htmlFor="dungeon-location">Location</label>
+                <select id="dungeon-location" value={dungeonLocation} onChange={(e) => setDungeonLocation(e.target.value)}>
+                  {DUNGEON_LOCATION_NAMES.map((l) => (
+                    <option key={l} value={l}>
+                      {l}
                     </option>
                   ))}
                 </select>
+              </div>
+              <div className="field">
+                <label htmlFor="dungeon-party-level">Party Level</label>
+                <input id="dungeon-party-level" type="number" min={1} max={20} value={dungeonPartyLevel} onChange={(e) => setDungeonPartyLevel(Number(e.target.value))} />
               </div>
               <div className="checkbox-field">
                 <input id="dungeon-treasure" type="checkbox" checked={dungeonAwardTreasure} onChange={(e) => setDungeonAwardTreasure(e.target.checked)} />

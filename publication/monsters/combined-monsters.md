@@ -8050,6 +8050,34 @@ treat this list as the per-monster power baseline it builds on.
 
 [Apatosaurus](#apatosaurus) (HD 30), [Brachiosaurus](#brachiosaurus) (HD 36), [Camarasaurus](#camarasaurus) (HD 20), [Cetiosaurus](#cetiosaurus) (HD 24), [Demilich](#demilich) (HD 50 hp (special)), [Diplodocus](#diplodocus) (HD 24), [Dragon Turtle](#dragon-turtle) (HD 30), [Giant Roc](#roc) (HD 36), [Golem, Bronze](#golem) (HD 20**), [Kraken](#kraken) (HD 20), [Plesiosaurus](#plesiosaurus) (HD 20), [Sperm Whale](#whale) (HD 36), [Titan](#titan) (HD 17-22), [Tyrannosaurus Rex](#tyrannosaurus-rex) (HD 20).
 
+### Monsters by Dungeon Location
+
+Every monster below is listed under each dungeon location type it plausibly inhabits, drawn from the whole book except Appendix A. A monster with no dungeon-location tag at all simply isn't a dungeon denizen in this book (a Camel, an Owl) — see *Monsters by Terrain*, above, for where it actually belongs.
+
+#### Standard Dungeon
+
+[Acolyte](#acolyte), [Aerial Servant](#aerial-servant), [Animated Armor](#animated-armor), [Ant, Driver](#ant-driver), [Ant, Giant](#ant-giant), [Bandit](#bandit), [Bee, Killer](#bee-killer), [Beetle, Giant](#beetle-giant), [Berserker](#berserker), [Black Pudding](#black-pudding), [Bugbear](#bugbear), [Centipede, Giant](#centipede-giant), [Dao](#dao), [Death Knight](#death-knight), [Demilich](#demilich), [Devil Swine](#devil-swine), [Djinni](#djinni), [Drider](#drider), [Drow (Dark Elf)](#drow-dark-elf), [Duergar](#duergar), [Dwarf](#dwarf), [Ear Seeker](#ear-seeker), [Efreeti](#efreeti), [Elemental](#elemental), [Elf](#elf), [Fly, Robber](#fly-robber), [Fungi, Violet](#fungi-violet), [Gargoyle](#gargoyle), [Ghast](#ghast), [Ghost](#ghost), [Ghoul](#ghoul), [Githyanki](#githyanki), [Githzerai](#githzerai), [Gnoll](#gnoll), [Gnome](#gnome), [Goblin](#goblin), [Golem](#golem), [Gray Ooze](#gray-ooze), [Green Slime](#green-slime), [Groaning Spirit](#groaning-spirit), [Halfling](#halfling), [Hobgoblin](#hobgoblin), [Homunculus](#homunculus), [Insect Swarms](#insect-swarms), [Kobold](#kobold), [Kuo-Toa](#kuo-toa), [Leprechaun](#leprechaun), [Lich](#lich), [Living Statue](#living-statue), [Lizard Man](#lizard-man), [Locathah](#locathah), [Locust, Cave](#locust-cave), [Medium](#medium), [Men](#men), [Mephit](#mephit), [Mimic](#mimic), [Mold](#mold), [Mummy](#mummy), [Myconid (Fungus Man)](#myconid-fungus-man), [Neanderthal (Caveman)](#neanderthal-caveman), [Noble](#noble), [Normal Human](#normal-human), [Ochre Jelly](#ochre-jelly), [Ogre Mage](#ogre-mage), [Orc](#orc), [Poltergeist](#poltergeist), [Rat](#rat), [Revenant](#revenant), [Rot Grub](#rot-grub), [Sahuagin](#sahuagin), [Salamander](#salamander), [Satyr](#satyr), [Scorpion, Giant](#scorpion-giant), [Shrieker](#shrieker), [Skeleton](#skeleton), [Skeleton Warrior](#skeleton-warrior), [Slithering Tracker](#slithering-tracker), [Spectre](#spectre), [Spider](#spider), [Spider, Giant](#spider-giant), [Svirfneblin (Deep Gnome)](#svirfneblin-deep-gnome), [Sylph](#sylph), [Tick, Giant](#tick-giant), [Trader](#trader), [Triton](#triton), [Troglodyte](#troglodyte), [Vampire](#vampire), [Veteran](#veteran), [Wasp, Giant](#wasp-giant), [Water Weird](#water-weird), [Werebear](#werebear), [Wereboar](#wereboar), [Wererat](#wererat), [Wereshark](#wereshark), [Weretiger](#weretiger), [Werewolf](#werewolf), [Wight](#wight), [Wind Walker](#wind-walker), [Wraith](#wraith), [Xorn](#xorn), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Zombie, Yellow Musk](#zombie-yellow-musk).
+
+#### Cave / Cavern Network
+
+[Ant, Driver](#ant-driver), [Ant, Giant](#ant-giant), [Ape, White](#ape-white), [Basilisk](#basilisk), [Bat](#bat), [Bear, Cave](#bear-cave), [Bee, Killer](#bee-killer), [Beetle, Giant](#beetle-giant), [Bulette](#bulette), [Carrion Crawler](#carrion-crawler), [Centipede, Giant](#centipede-giant), [Chimera](#chimera), [Cockatrice](#cockatrice), [Cyclops](#cyclops), [Displacer Beast](#displacer-beast), [Dragon](#dragon), [Drider](#drider), [Drow (Dark Elf)](#drow-dark-elf), [Duergar](#duergar), [Ear Seeker](#ear-seeker), [Eel](#eel), [Ettin](#ettin), [Ferret, Giant](#ferret-giant), [Fly, Robber](#fly-robber), [Giant](#giant), [Goblin](#goblin), [Gorgon](#gorgon), [Hobgoblin](#hobgoblin), [Hook Horror](#hook-horror), [Insect Swarms](#insect-swarms), [Kobold](#kobold), [Kuo-Toa](#kuo-toa), [Locust, Cave](#locust-cave), [Lurker Above](#lurker-above), [Manticore](#manticore), [Medusa](#medusa), [Myconid (Fungus Man)](#myconid-fungus-man), [Neanderthal (Caveman)](#neanderthal-caveman), [Orc](#orc), [Owl Bear](#owl-bear), [Piercer](#piercer), [Purple Worm](#purple-worm), [Roper](#roper), [Rot Grub](#rot-grub), [Rust Monster](#rust-monster), [Scorpion, Giant](#scorpion-giant), [Shrew, Giant](#shrew-giant), [Shrieker](#shrieker), [Spider](#spider), [Spider, Giant](#spider-giant), [Svirfneblin (Deep Gnome)](#svirfneblin-deep-gnome), [Tick, Giant](#tick-giant), [Trapper](#trapper), [Troglodyte](#troglodyte), [Umber Hulk](#umber-hulk), [Wasp, Giant](#wasp-giant), [Weasel, Giant](#weasel-giant), [Wyvern](#wyvern).
+
+#### Tomb / Crypt
+
+[Death Knight](#death-knight), [Demilich](#demilich), [Ghast](#ghast), [Ghost](#ghost), [Ghoul](#ghoul), [Groaning Spirit](#groaning-spirit), [Lich](#lich), [Mummy](#mummy), [Poltergeist](#poltergeist), [Revenant](#revenant), [Skeleton](#skeleton), [Skeleton Warrior](#skeleton-warrior), [Spectre](#spectre), [Vampire](#vampire), [Wight](#wight), [Wraith](#wraith), [Zombie](#zombie), [Zombie, Yellow Musk](#zombie-yellow-musk).
+
+#### Evil Temple / Shrine
+
+[Aerial Servant](#aerial-servant), [Animated Armor](#animated-armor), [Barbed Devil](#barbed-devil), [Beholder](#beholder), [Black Pudding](#black-pudding), [Bone Devil](#bone-devil), [Cerebral Parasite](#cerebral-parasite), [Dao](#dao), [Death Knight](#death-knight), [Demilich](#demilich), [Djinni](#djinni), [Doppelganger](#doppelganger), [Efreeti](#efreeti), [Elemental](#elemental), [Erinyes](#erinyes), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Ghost](#ghost), [Gibbering Mouther](#gibbering-mouther), [Golem](#golem), [Gray Ooze](#gray-ooze), [Green Slime](#green-slime), [Hellhound](#hellhound), [Homunculus](#homunculus), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Ice Devil](#ice-devil), [Imp](#imp), [Intellect Devourer](#intellect-devourer), [Invisible Stalker](#invisible-stalker), [Lamia](#lamia), [Lammasu](#lammasu), [Larva](#larva), [Lemure](#lemure), [Lich](#lich), [Living Statue](#living-statue), [Manes](#manes), [Medusa](#medusa), [Mephit](#mephit), [Mimic](#mimic), [Mind Flayer](#mind-flayer), [Minotaur](#minotaur), [Mold](#mold), [Myconid (Fungus Man)](#myconid-fungus-man), [Naga](#naga), [Neotyugh](#neotyugh), [Night Hag](#night-hag), [Nightmare](#nightmare), [Ochre Jelly](#ochre-jelly), [Ogre Mage](#ogre-mage), [Otyugh](#otyugh), [Pit Fiend](#pit-fiend), [Poltergeist](#poltergeist), [Quasit](#quasit), [Rakshasa](#rakshasa), [Revenant](#revenant), [Rust Monster](#rust-monster), [Salamander](#salamander), [Shadow](#shadow), [Shadow Demon](#shadow-demon), [Shedu](#shedu), [Skeleton](#skeleton), [Skeleton Warrior](#skeleton-warrior), [Slithering Tracker](#slithering-tracker), [Slug, Giant](#slug-giant), [Spectre](#spectre), [Sphinx](#sphinx), [Succubus](#succubus), [Sylph](#sylph), [Thought Eater](#thought-eater), [Thoul](#thoul), [Titan](#titan), [Trapper](#trapper), [Type I Demon (Vrock)](#type-i-demon-vrock), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Type V Demon (Marilith)](#type-v-demon-marilith), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Water Weird](#water-weird), [Wight](#wight), [Wind Walker](#wind-walker), [Wraith](#wraith), [Xorn](#xorn), [Yellow Mold](#yellow-mold), [Zombie](#zombie).
+
+#### Sewer
+
+[Black Pudding](#black-pudding), [Fungi, Violet](#fungi-violet), [Gibbering Mouther](#gibbering-mouther), [Goblin](#goblin), [Gray Ooze](#gray-ooze), [Green Slime](#green-slime), [Mold](#mold), [Myconid (Fungus Man)](#myconid-fungus-man), [Neotyugh](#neotyugh), [Ochre Jelly](#ochre-jelly), [Otyugh](#otyugh), [Rat](#rat), [Rot Grub](#rot-grub), [Shrieker](#shrieker), [Yellow Mold](#yellow-mold).
+
+#### Ruins
+
+[Basilisk](#basilisk), [Cockatrice](#cockatrice), [Devil Swine](#devil-swine), [Gelatinous Cube](#gelatinous-cube), [Shrieker](#shrieker), [Stirge](#stirge), [Werebear](#werebear), [Wereboar](#wereboar), [Wererat](#wererat), [Wereshark](#wereshark), [Weretiger](#weretiger), [Werewolf](#werewolf).
+
 ::: pagebreak-pdf
 :::
 
@@ -8151,402 +8179,181 @@ A quick note on what a creature is doing when the party meets it — useful for 
 
 *Source:* `OSRIC, Dungeons, Towns and Wildernesses: Random Dungeon Encounters`
 
-Monster tables below are organized by **monster level** (1-10), which is not the same thing as dungeon level — deeper dungeon levels draw from higher monster levels on average, but the two numbers don't run 1-to-1. To find which monster level applies:
+Each location type below is indexed by the party's own level (1-20) directly — dungeon level and party level are treated as the same number, and there's no separate Monster Level table or `1d12` matrix roll to resolve first. Pick the location that best matches the room or area (a generic dungeon, a natural cavern system, a burial site, an active cult's lair, a sewer, or an overgrown ruin), look up the party's level, and pick a monster from that row's list at random — weighted, where shown, toward whichever end of the list is more common. A `*(as Level N)*` note means nothing was tagged to that location at exactly the party's level, so the nearest level(s) that did have something are used instead. Every real dragon reference below already names its color directly (no separate age sub-table to roll on).
 
-1. Note the **dungeon level** where the encounter occurs, and find its row in the Monster Sub-table Matrix below.
-2. Roll `1d12`.
-3. Find which column's range (in that row) contains your roll. The column header — "Monster Level 1" through "Monster Level 10" — tells you which monster-level table to use.
-4. Roll d% on that monster level's table (below the matrix) to determine the actual monster encountered.
+::: pagebreak-pdf
+:::
 
-*Worked example:* the party is on dungeon level 5. A `1d12` roll comes up 9. On the "5" row, 9 falls in the "8-9" range under the "Monster Level 4" column — so this encounter is rolled on the Monster Level 4 table.
+#### Standard Dungeon
 
-#### Monster Sub-table Matrix (d12)
+| Level | Monster |
+|---|---|
+| 1 | [Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Dwarf](#dwarf), [Goblin](#goblin), [Insect Swarms](#insect-swarms), [Medium](#medium), [Men, Dervish](#men), [Men, Nomad](#men), [Poltergeist](#poltergeist), [Rot Grub](#rot-grub), [Ant, Giant (Worker)](#ant-giant), [Drow (Dark Elf)](#drow-dark-elf), [Gnoll](#gnoll), [Kuo-Toa](#kuo-toa), [Troglodyte](#troglodyte), [Animated Armor](#animated-armor), [Huge Spider](#spider), [Smoke Mephit](#mephit) |
+| 2 | [Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Dwarf](#dwarf), [Goblin](#goblin), [Insect Swarms](#insect-swarms), [Medium](#medium), [Men, Dervish](#men), [Men, Nomad](#men), [Poltergeist](#poltergeist), [Rot Grub](#rot-grub), [Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Drow (Dark Elf)](#drow-dark-elf), [Elf](#elf), [Gnoll](#gnoll), [Hobgoblin](#hobgoblin), [Kuo-Toa](#kuo-toa), [Neanderthal (Caveman)](#neanderthal-caveman), [Troglodyte](#troglodyte), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Fungi, Violet](#fungi-violet), [Lava Mephit](#mephit), [Shrieker](#shrieker), [Svirfneblin (Deep Gnome)](#svirfneblin-deep-gnome), [Ant, Driver](#ant-driver), [Ghast](#ghast), [Tick, Giant](#tick-giant) |
+| 3 | [Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Dwarf](#dwarf), [Goblin](#goblin), [Insect Swarms](#insect-swarms), [Medium](#medium), [Men, Dervish](#men), [Men, Nomad](#men), [Poltergeist](#poltergeist), [Rot Grub](#rot-grub), [Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Drow (Dark Elf)](#drow-dark-elf), [Elf](#elf), [Gnoll](#gnoll), [Hobgoblin](#hobgoblin), [Kuo-Toa](#kuo-toa), [Neanderthal (Caveman)](#neanderthal-caveman), [Troglodyte](#troglodyte), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Beetle, Giant (Bombardier)](#beetle-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Lava Mephit](#mephit), [Noble](#noble), [Shrieker](#shrieker), [Spider, Giant (Black Widow)](#spider-giant), [Svirfneblin (Deep Gnome)](#svirfneblin-deep-gnome), [Triton](#triton), [Ant, Driver](#ant-driver), [Bugbear](#bugbear), [Githzerai](#githzerai), [Spider, Giant (Tarantella)](#spider-giant), [Water Weird](#water-weird), [Beetle, Giant (Boring)](#beetle-giant), [Living Statue, Rock](#living-statue), [Spider, Giant (Rhagodessa)](#spider-giant) |
+| 4 | [Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Drow (Dark Elf)](#drow-dark-elf), [Elf](#elf), [Gnoll](#gnoll), [Hobgoblin](#hobgoblin), [Kuo-Toa](#kuo-toa), [Neanderthal (Caveman)](#neanderthal-caveman), [Troglodyte](#troglodyte), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Beetle, Giant (Bombardier)](#beetle-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Lava Mephit](#mephit), [Noble](#noble), [Shrieker](#shrieker), [Spider, Giant (Black Widow)](#spider-giant), [Svirfneblin (Deep Gnome)](#svirfneblin-deep-gnome), [Triton](#triton), [Ant, Driver](#ant-driver), [Beetle, Giant (Water)](#beetle-giant), [Bugbear](#bugbear), [Ghast](#ghast), [Githzerai](#githzerai), [Scorpion, Giant](#scorpion-giant), [Spider, Giant (Tarantella)](#spider-giant), [Tick, Giant](#tick-giant), [Water Weird](#water-weird), [Werewolf](#werewolf), [Beetle, Giant (Boring)](#beetle-giant), [Githyanki](#githyanki), [Ochre Jelly](#ochre-jelly), [Slithering Tracker](#slithering-tracker), [Wereboar](#wereboar), [Mummy](#mummy), [Ogre Mage](#ogre-mage), [Spectre](#spectre) |
+| 5 | [Animated Armor](#animated-armor), [Beetle, Giant (Bombardier)](#beetle-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Lava Mephit](#mephit), [Noble](#noble), [Shrieker](#shrieker), [Spider, Giant (Black Widow)](#spider-giant), [Svirfneblin (Deep Gnome)](#svirfneblin-deep-gnome), [Triton](#triton), [Ant, Driver](#ant-driver), [Beetle, Giant (Water)](#beetle-giant), [Bugbear](#bugbear), [Ghast](#ghast), [Githzerai](#githzerai), [Scorpion, Giant](#scorpion-giant), [Spider, Giant (Tarantella)](#spider-giant), [Tick, Giant](#tick-giant), [Water Weird](#water-weird), [Werewolf](#werewolf), [Beetle, Giant (Boring)](#beetle-giant), [Giant Spider](#spider), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Satyr](#satyr), [Slithering Tracker](#slithering-tracker), [Spider, Giant (Rhagodessa)](#spider-giant), [Wereboar](#wereboar), [Wererat](#wererat), [Mummy](#mummy), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Phase Spider](#spider), [Spectre](#spectre), [Beetle, Giant (Stag)](#beetle-giant), [Drider](#drider), [Groaning Spirit](#groaning-spirit) |
+| 6 | [Ant, Driver](#ant-driver), [Beetle, Giant (Water)](#beetle-giant), [Bugbear](#bugbear), [Ghast](#ghast), [Githzerai](#githzerai), [Scorpion, Giant](#scorpion-giant), [Spider, Giant (Tarantella)](#spider-giant), [Tick, Giant](#tick-giant), [Water Weird](#water-weird), [Werewolf](#werewolf), [Beetle, Giant (Boring)](#beetle-giant), [Giant Spider](#spider), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Satyr](#satyr), [Slithering Tracker](#slithering-tracker), [Spider, Giant (Rhagodessa)](#spider-giant), [Wereboar](#wereboar), [Wererat](#wererat), [Mummy](#mummy), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Phase Spider](#spider), [Spectre](#spectre), [Werebear](#werebear), [Beetle, Giant (Stag)](#beetle-giant), [Drider](#drider), [Groaning Spirit](#groaning-spirit), [Wind Walker](#wind-walker), [Djinni](#djinni), [Elemental, Fire](#elemental), [Golem, Bone](#golem) |
+| 7 | [Beetle, Giant (Boring)](#beetle-giant), [Giant Spider](#spider), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Satyr](#satyr), [Slithering Tracker](#slithering-tracker), [Spider, Giant (Rhagodessa)](#spider-giant), [Wereboar](#wereboar), [Wererat](#wererat), [Mummy](#mummy), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Phase Spider](#spider), [Spectre](#spectre), [Werebear](#werebear), [Beetle, Giant (Stag)](#beetle-giant), [Drider](#drider), [Groaning Spirit](#groaning-spirit), [Wind Walker](#wind-walker), [Djinni](#djinni), [Elemental, Earth](#elemental), [Elemental, Water](#elemental), [Golem, Bone](#golem), [Revenant](#revenant), [Dao](#dao), [Death Knight](#death-knight), [Skeleton Warrior](#skeleton-warrior) |
+| 8 | [Mummy](#mummy), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Phase Spider](#spider), [Spectre](#spectre), [Werebear](#werebear), [Beetle, Giant (Stag)](#beetle-giant), [Drider](#drider), [Groaning Spirit](#groaning-spirit), [Wind Walker](#wind-walker), [Djinni](#djinni), [Elemental, Air](#elemental), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Elemental, Water](#elemental), [Flame Salamander](#salamander), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Revenant](#revenant), [Xorn](#xorn), [Dao](#dao), [Death Knight](#death-knight), [Devil Swine](#devil-swine), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire), [Ant, Giant (Queen)](#ant-giant), [Efreeti](#efreeti), [Golem, Amber](#golem) |
+| 9 | [Beetle, Giant (Stag)](#beetle-giant), [Drider](#drider), [Groaning Spirit](#groaning-spirit), [Wind Walker](#wind-walker), [Djinni](#djinni), [Elemental, Air](#elemental), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Elemental, Water](#elemental), [Flame Salamander](#salamander), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Revenant](#revenant), [Xorn](#xorn), [Dao](#dao), [Death Knight](#death-knight), [Devil Swine](#devil-swine), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire), [Ant, Giant (Queen)](#ant-giant), [Black Pudding](#black-pudding), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Golem, Clay](#golem), [Wereshark](#wereshark) |
 
-| Dungeon Level | ML 1 | ML 2 | ML 3 | ML 4 | ML 5 | ML 6 | ML 7 | ML 8 | ML 9 | ML 10 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 1-2 | 1-8 | 9-11 | 12 | - | - | - | - | - | - | - |
-| 3 | 1-5 | 6-8 | 9-10 | 11 | 12 | - | - | - | - | - |
-| 4 | 1-4 | 5-7 | 8-9 | 10 | 11 | 12 | - | - | - | - |
-| 5 | 1-3 | 4-5 | 6-7 | 8-9 | 10 | 11 | 12 | - | - | - |
-| 6 | 1-2 | 3-4 | 5-6 | 7-8 | 9 | 10 | 11 | 12 | - | - |
-| 7 | 1 | 2-3 | 4-5 | 6-7 | 8 | 9 | 10 | 11 | 12 | - |
-| 8 | 1 | 2 | 3-4 | 5-6 | 7 | 8 | 9 | 10 | 11 | 12 |
-| 9 | 1 | 2 | 3 | 4-5 | 6-7 | 8 | 9 | 10 | 11 | 12 |
-| 10-11 | 1 | 2 | 3 | 4 | 5-6 | 7-8 | 9 | 10 | 11 | 12 |
-| 12-13 | 1 | 2 | 3 | 4 | 5 | 6-7 | 8-9 | 10 | 11 | 12 |
-| 14-15 | 1 | 2 | 3 | 4 | 5 | 6 | 7-8 | 9-10 | 11 | 12 |
-| 16+ | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8-9 | 10-11 | 12 |
+::: pagebreak-pdf
+:::
 
-*("ML" = Monster Level. Cell values are the `1d12` ranges that select each monster level for that dungeon level.)*
+| Level | Monster |
+|---|---|
+| 10 | [Djinni](#djinni), [Elemental, Air](#elemental), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Elemental, Water](#elemental), [Flame Salamander](#salamander), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Revenant](#revenant), [Xorn](#xorn), [Dao](#dao), [Death Knight](#death-knight), [Devil Swine](#devil-swine), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire), [Ant, Giant (Queen)](#ant-giant), [Black Pudding](#black-pudding), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Golem, Clay](#golem), [Wereshark](#wereshark), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Frost Salamander](#salamander), [Lich](#lich) |
+| 11 | [Dao](#dao), [Death Knight](#death-knight), [Devil Swine](#devil-swine), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire), [Ant, Giant (Queen)](#ant-giant), [Black Pudding](#black-pudding), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Golem, Clay](#golem), [Wereshark](#wereshark), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Frost Salamander](#salamander), [Lich](#lich) |
+| 12 | [Ant, Giant (Queen)](#ant-giant), [Black Pudding](#black-pudding), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Golem, Clay](#golem), [Wereshark](#wereshark), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Frost Salamander](#salamander), [Lich](#lich) |
+| 13 | [Golem, Clay](#golem), [Wereshark](#wereshark), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Frost Salamander](#salamander), [Lich](#lich) |
+| 14 | [Beetle, Giant (Rhinoceros)](#beetle-giant), [Frost Salamander](#salamander), [Lich](#lich), [Aerial Servant](#aerial-servant) |
+| 15 | [Aerial Servant](#aerial-servant) |
+| 16 | [Aerial Servant](#aerial-servant) |
+| 17 | [Aerial Servant](#aerial-servant) |
+| 18 | [Aerial Servant](#aerial-servant), [Demilich](#demilich), [Golem, Bronze](#golem) |
+| 19 | [Demilich](#demilich), [Golem, Bronze](#golem) |
+| 20 | [Demilich](#demilich), [Golem, Bronze](#golem) |
 
-Lesser monsters encountered on a lower dungeon level than their monster level should have their numbers increased by the same amount for each dungeon level lower than their monster level. Greater monsters encountered on a higher dungeon level have their numbers decreased by 1 for each dungeon level higher (minimum of 1). NPC parties instead have their class level increased rather than their numbers.
+::: pagebreak-pdf
+:::
 
-#### Monster Level 1
+#### Cave / Cavern Network
 
-| d% | Monster Encountered | # |
-|---|---|---|
-| 01-02 | [Lemure](#lemure) | 1d10 |
-| 03-04 | [Halfling](#halfling) | 3d6 |
-| 05-06 | [Acolyte](#acolyte) | 1d8 |
-| 07-09 | NPC Party (see *NPC Parties*) | varies |
-| 10-13 | [Larva](#larva) | 1 |
-| 14-17 | [Rat](#rat) | 1d10x5 |
-| 18-19 | [Shrew, Giant](#shrew-giant) | 1d10 |
-| 20-21 | [Sprite](#sprite) | 3d6 |
-| 22-25 | [Stirge](#stirge) | 1d4 |
-| 26-29 | [Bat](#bat) | 5d10 |
-| 30-31 | [Bee, Killer](#bee-killer) | 1d10 |
-| 32-36 | [Goblin](#goblin) | 2d10 |
-| 37-43 | [Men, Bandit](#bandit) | 2d4 |
-| 44-45 | [Trader](#trader) | 1d8 |
-| 46-52 | [Orc](#orc) | 3d10 |
-| 53-54 | [Gnome](#gnome) | 1d6 |
-| 55-61 | [Frog, Giant](#frog-giant) | 1d8 |
-| 62-68 | [Beetle, Giant](#beetle-giant) | 1d4 |
-| 69-73 | [Kobold](#kobold) | 4d10 |
-| 74-78 | [Dog](#dog) | 1d4 |
-| 79-83 | [Bat, Giant](#bat) | 1d6 |
-| 84-85 | [Green Slime](#green-slime) | 1d4 |
-| 86-89 | [Skeleton](#skeleton) | 1d10 |
-| 90-93 | [Rot Grub](#rot-grub) | 5d4 |
-| 94-96 | [Brain Mole](#brain-mole) | 1d6 |
-| 97-98 | [Hobgoblin](#hobgoblin) | 4d6 |
-| 99-00 | [Berserker](#berserker) | 1d6 |
+| Level | Monster |
+|---|---|
+| 1 | [Bat, Normal](#bat), [Bee, Killer](#bee-killer), [Centipede, Giant](#centipede-giant), [Ear Seeker](#ear-seeker), [Goblin](#goblin), [Insect Swarms](#insect-swarms), [Kobold](#kobold), [Orc](#orc), [Rot Grub](#rot-grub), [Shrew, Giant](#shrew-giant), [Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Electric Eel](#eel), [Hobgoblin](#hobgoblin), [Neanderthal (Caveman)](#neanderthal-caveman), [Ant, Giant (Warrior)](#ant-giant), [Huge Spider](#spider), [Spider, Giant (Black Widow)](#spider-giant) |
+| 2 | [Bat, Normal](#bat), [Bee, Killer](#bee-killer), [Centipede, Giant](#centipede-giant), [Ear Seeker](#ear-seeker), [Goblin](#goblin), [Insect Swarms](#insect-swarms), [Kobold](#kobold), [Orc](#orc), [Rot Grub](#rot-grub), [Shrew, Giant](#shrew-giant), [Ant, Giant (Worker)](#ant-giant), [Bat, Giant](#bat), [Beetle, Giant (Oil)](#beetle-giant), [Drow (Dark Elf)](#drow-dark-elf), [Electric Eel](#eel), [Ferret, Giant](#ferret-giant), [Hobgoblin](#hobgoblin), [Kuo-Toa](#kuo-toa), [Neanderthal (Caveman)](#neanderthal-caveman), [Spider, Giant (Crab Spider)](#spider-giant), [Ant, Giant (Warrior)](#ant-giant), [Beetle, Giant (Bombardier)](#beetle-giant), [Huge Spider](#spider), [Shrieker](#shrieker), [Spider, Giant (Black Widow)](#spider-giant), [Ant, Driver](#ant-driver), [Carrion Crawler](#carrion-crawler), [Scorpion, Giant](#scorpion-giant) |
+| 3 | [Bat, Normal](#bat), [Bee, Killer](#bee-killer), [Centipede, Giant](#centipede-giant), [Ear Seeker](#ear-seeker), [Goblin](#goblin), [Insect Swarms](#insect-swarms), [Kobold](#kobold), [Orc](#orc), [Rot Grub](#rot-grub), [Shrew, Giant](#shrew-giant), [Ant, Giant (Worker)](#ant-giant), [Bat, Giant](#bat), [Beetle, Giant (Oil)](#beetle-giant), [Drow (Dark Elf)](#drow-dark-elf), [Electric Eel](#eel), [Ferret, Giant](#ferret-giant), [Hobgoblin](#hobgoblin), [Kuo-Toa](#kuo-toa), [Neanderthal (Caveman)](#neanderthal-caveman), [Spider, Giant (Crab Spider)](#spider-giant), [Ant, Giant (Warrior)](#ant-giant), [Beetle, Giant (Bombardier)](#beetle-giant), [Huge Spider](#spider), [Shrieker](#shrieker), [Spider, Giant (Black Widow)](#spider-giant), [Svirfneblin (Deep Gnome)](#svirfneblin-deep-gnome), [Ant, Driver](#ant-driver), [Beetle, Giant (Water)](#beetle-giant), [Medusa](#medusa), [Scorpion, Giant](#scorpion-giant), [Tick, Giant](#tick-giant), [Beetle, Giant (Boring)](#beetle-giant), [Giant Spider](#spider), [Rust Monster](#rust-monster) |
+| 4 | [Ant, Giant (Worker)](#ant-giant), [Bat, Giant](#bat), [Beetle, Giant (Oil)](#beetle-giant), [Drow (Dark Elf)](#drow-dark-elf), [Electric Eel](#eel), [Ferret, Giant](#ferret-giant), [Hobgoblin](#hobgoblin), [Kuo-Toa](#kuo-toa), [Neanderthal (Caveman)](#neanderthal-caveman), [Spider, Giant (Crab Spider)](#spider-giant), [Ant, Giant (Warrior)](#ant-giant), [Beetle, Giant (Bombardier)](#beetle-giant), [Huge Spider](#spider), [Shrieker](#shrieker), [Spider, Giant (Black Widow)](#spider-giant), [Svirfneblin (Deep Gnome)](#svirfneblin-deep-gnome), [Ant, Driver](#ant-driver), [Ape, White](#ape-white), [Beetle, Giant (Water)](#beetle-giant), [Carrion Crawler](#carrion-crawler), [Medusa](#medusa), [Piercer](#piercer), [Scorpion, Giant](#scorpion-giant), [Spider, Giant (Tarantella)](#spider-giant), [Tick, Giant](#tick-giant), [Wasp, Giant](#wasp-giant), [Beetle, Giant (Boring)](#beetle-giant), [Cockatrice](#cockatrice), [Giant Spider](#spider), [Owl Bear](#owl-bear), [Spider, Giant (Rhagodessa)](#spider-giant), [Displacer Beast](#displacer-beast), [Dragon, White](#dragon), [Myconid (Fungus Man)](#myconid-fungus-man) |
+| 5 | [Ant, Giant (Warrior)](#ant-giant), [Beetle, Giant (Bombardier)](#beetle-giant), [Huge Spider](#spider), [Shrieker](#shrieker), [Spider, Giant (Black Widow)](#spider-giant), [Svirfneblin (Deep Gnome)](#svirfneblin-deep-gnome), [Ant, Driver](#ant-driver), [Ape, White](#ape-white), [Beetle, Giant (Water)](#beetle-giant), [Carrion Crawler](#carrion-crawler), [Medusa](#medusa), [Piercer](#piercer), [Scorpion, Giant](#scorpion-giant), [Spider, Giant (Tarantella)](#spider-giant), [Tick, Giant](#tick-giant), [Wasp, Giant](#wasp-giant), [Beetle, Giant (Boring)](#beetle-giant), [Cockatrice](#cockatrice), [Giant Eel](#eel), [Giant Spider](#spider), [Hook Horror](#hook-horror), [Owl Bear](#owl-bear), [Rust Monster](#rust-monster), [Spider, Giant (Rhagodessa)](#spider-giant), [Weasel, Giant](#weasel-giant), [Displacer Beast](#displacer-beast), [Dragon, White](#dragon), [Myconid (Fungus Man)](#myconid-fungus-man), [Phase Spider](#spider), [Basilisk](#basilisk), [Beetle, Giant (Stag)](#beetle-giant), [Drider](#drider) |
+| 6 | [Ant, Driver](#ant-driver), [Ape, White](#ape-white), [Beetle, Giant (Water)](#beetle-giant), [Carrion Crawler](#carrion-crawler), [Medusa](#medusa), [Piercer](#piercer), [Scorpion, Giant](#scorpion-giant), [Spider, Giant (Tarantella)](#spider-giant), [Tick, Giant](#tick-giant), [Wasp, Giant](#wasp-giant), [Beetle, Giant (Boring)](#beetle-giant), [Cockatrice](#cockatrice), [Giant Eel](#eel), [Giant Spider](#spider), [Hook Horror](#hook-horror), [Owl Bear](#owl-bear), [Rust Monster](#rust-monster), [Spider, Giant (Rhagodessa)](#spider-giant), [Weasel, Giant](#weasel-giant), [Displacer Beast](#displacer-beast), [Dragon, White](#dragon), [Myconid (Fungus Man)](#myconid-fungus-man), [Phase Spider](#spider), [Basilisk](#basilisk), [Bear, Cave](#bear-cave), [Beetle, Giant (Stag)](#beetle-giant), [Drider](#drider), [Manticore](#manticore), [Dragon, Green](#dragon), [Gorgon](#gorgon), [Hill Giant](#giant) |
+| 7 | [Beetle, Giant (Boring)](#beetle-giant), [Cockatrice](#cockatrice), [Giant Eel](#eel), [Giant Spider](#spider), [Hook Horror](#hook-horror), [Owl Bear](#owl-bear), [Rust Monster](#rust-monster), [Spider, Giant (Rhagodessa)](#spider-giant), [Weasel, Giant](#weasel-giant), [Displacer Beast](#displacer-beast), [Dragon, White](#dragon), [Myconid (Fungus Man)](#myconid-fungus-man), [Phase Spider](#spider), [Basilisk](#basilisk), [Bear, Cave](#bear-cave), [Beetle, Giant (Stag)](#beetle-giant), [Dragon, Black](#dragon), [Drider](#drider), [Manticore](#manticore), [Wyvern](#wyvern), [Dragon, Green](#dragon), [Gorgon](#gorgon), [Hill Giant](#giant), [Bulette](#bulette), [Chimera](#chimera), [Stone Giant](#giant) |
+| 8 | [Displacer Beast](#displacer-beast), [Dragon, White](#dragon), [Myconid (Fungus Man)](#myconid-fungus-man), [Phase Spider](#spider), [Basilisk](#basilisk), [Bear, Cave](#bear-cave), [Beetle, Giant (Stag)](#beetle-giant), [Dragon, Black](#dragon), [Drider](#drider), [Manticore](#manticore), [Wyvern](#wyvern), [Dragon, Green](#dragon), [Gorgon](#gorgon), [Hill Giant](#giant), [Bulette](#bulette), [Chimera](#chimera), [Dragon, Blue](#dragon), [Stone Giant](#giant), [Umber Hulk](#umber-hulk), [Ant, Giant (Queen)](#ant-giant), [Dragon, Red](#dragon), [Ettin](#ettin) |
+| 9 | [Basilisk](#basilisk), [Bear, Cave](#bear-cave), [Beetle, Giant (Stag)](#beetle-giant), [Dragon, Black](#dragon), [Drider](#drider), [Manticore](#manticore), [Wyvern](#wyvern), [Dragon, Green](#dragon), [Gorgon](#gorgon), [Hill Giant](#giant), [Bulette](#bulette), [Chimera](#chimera), [Dragon, Blue](#dragon), [Stone Giant](#giant), [Umber Hulk](#umber-hulk), [Ant, Giant (Queen)](#ant-giant), [Dragon, Red](#dragon), [Ettin](#ettin), [Lurker Above](#lurker-above), [Dragon, Gold](#dragon), [Frost Giant](#giant) |
+| 10 | [Dragon, Green](#dragon), [Gorgon](#gorgon), [Hill Giant](#giant), [Bulette](#bulette), [Chimera](#chimera), [Dragon, Blue](#dragon), [Stone Giant](#giant), [Umber Hulk](#umber-hulk), [Ant, Giant (Queen)](#ant-giant), [Dragon, Red](#dragon), [Ettin](#ettin), [Lurker Above](#lurker-above), [Dragon, Gold](#dragon), [Frost Giant](#giant), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Fire Giant](#giant), [Roper](#roper) |
+| 11 | [Bulette](#bulette), [Chimera](#chimera), [Dragon, Blue](#dragon), [Stone Giant](#giant), [Umber Hulk](#umber-hulk), [Ant, Giant (Queen)](#ant-giant), [Dragon, Red](#dragon), [Ettin](#ettin), [Lurker Above](#lurker-above), [Dragon, Gold](#dragon), [Frost Giant](#giant), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Fire Giant](#giant), [Roper](#roper), [Trapper](#trapper), [Cloud Giant](#giant), [Cyclops](#cyclops) |
+| 12 | [Ant, Giant (Queen)](#ant-giant), [Dragon, Red](#dragon), [Ettin](#ettin), [Lurker Above](#lurker-above), [Dragon, Gold](#dragon), [Frost Giant](#giant), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Fire Giant](#giant), [Roper](#roper), [Trapper](#trapper), [Cloud Giant](#giant), [Cyclops](#cyclops) |
+| 13 | [Dragon, Gold](#dragon), [Frost Giant](#giant), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Fire Giant](#giant), [Roper](#roper), [Trapper](#trapper), [Cloud Giant](#giant), [Cyclops](#cyclops), [Purple Worm](#purple-worm), [Storm Giant](#giant) |
+| 14 | [Beetle, Giant (Rhinoceros)](#beetle-giant), [Fire Giant](#giant), [Roper](#roper), [Trapper](#trapper), [Cloud Giant](#giant), [Cyclops](#cyclops), [Purple Worm](#purple-worm), [Storm Giant](#giant) |
+| 15 | [Cloud Giant](#giant), [Cyclops](#cyclops), [Purple Worm](#purple-worm), [Storm Giant](#giant) |
+| 16 | [Purple Worm](#purple-worm), [Storm Giant](#giant) |
+| 17 | [Purple Worm](#purple-worm), [Storm Giant](#giant) |
+| 18 | [Cloud Giant](#giant), [Purple Worm](#purple-worm), [Storm Giant](#giant) *(as Level 13/15)* |
+| 19 | [Cloud Giant](#giant), [Purple Worm](#purple-worm), [Storm Giant](#giant) *(as Level 13/15)* |
+| 20 | [Cloud Giant](#giant), [Purple Worm](#purple-worm), [Storm Giant](#giant) *(as Level 13/15)* |
 
-#### Monster Level 2
+::: pagebreak-pdf
+:::
 
-| d% | Monster Encountered | # |
-|---|---|---|
-| 01-02 | NPC Party (see *NPC Parties*) | varies |
-| 03-04 | [Ant, Giant (Worker)](#ant-giant) | 2d10 |
-| 05-07 | [Shadow](#shadow) | 1 |
-| 08-09 | [Elf](#elf) | 1d4 |
-| 10-13 | [Gnoll](#gnoll) | 1d12 |
-| 14-17 | [Toad, Giant](#toad-giant) | 1d4 |
-| 18-22 | [Neanderthals](#neanderthal-caveman) | 2d10 |
-| 23-29 | [Troglodyte](#troglodyte) | 1d10 |
-| 30-31 | [Pixie](#pixie) | 2d4 |
-| 32-36 | [Hobgoblin](#hobgoblin) | 2d10 |
-| 37-41 | [Lizard Man](#lizard-man) | 1d10 |
-| 42-48 | [Piercer](#piercer) | 3d6 |
-| 49-50 | [Noble](#noble) | 2d6 |
-| 51-57 | [Giant Badger](#badger) | 1d2 |
-| 58-64 | [Spider, Giant](#spider-giant) (see table) | 1d8 |
-| 65-66 | [Fly, Robber](#fly-robber) | 1d6 |
-| 67-71 | [Bugbear](#bugbear) | 1d6 |
-| 72-76 | [Gnoll](#gnoll) | 2d10 |
-| 77-78 | [Baboon](#baboon) | 2d6 |
-| 79-83 | [Stirge](#stirge) | 1d10+5 |
-| 84-87 | [Zombie](#zombie) | 1d8 |
-| 88-89 | [Veteran](#veteran) | 2d4 |
-| 90-93 | [Ghoul](#ghoul) | 1 |
-| 94-96 | [Troll](#troll) | 1d6 |
-| 97-98 | [Centipede, Giant](#centipede-giant) | 1d12 |
-| 99-00 | [Dwarf](#dwarf) | 4d4 |
+#### Tomb / Crypt
 
-#### Monster Level 3
+| Level | Monster |
+|---|---|
+| 1 | [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Ghoul](#ghoul), [Zombie](#zombie), [Zombie, Yellow Musk](#zombie-yellow-musk), [Wight](#wight) |
+| 2 | [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Ghoul](#ghoul), [Zombie](#zombie), [Zombie, Yellow Musk](#zombie-yellow-musk), [Wight](#wight), [Ghast](#ghast), [Wraith](#wraith) |
+| 3 | [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Ghoul](#ghoul), [Zombie](#zombie), [Zombie, Yellow Musk](#zombie-yellow-musk), [Wight](#wight), [Ghast](#ghast), [Wraith](#wraith) |
+| 4 | [Ghoul](#ghoul), [Zombie](#zombie), [Zombie, Yellow Musk](#zombie-yellow-musk), [Wight](#wight), [Ghast](#ghast), [Wraith](#wraith), [Mummy](#mummy), [Spectre](#spectre) |
+| 5 | [Wight](#wight), [Ghast](#ghast), [Wraith](#wraith), [Mummy](#mummy), [Spectre](#spectre), [Groaning Spirit](#groaning-spirit) |
+| 6 | [Ghast](#ghast), [Wraith](#wraith), [Mummy](#mummy), [Spectre](#spectre), [Groaning Spirit](#groaning-spirit), [Revenant](#revenant) |
+| 7 | [Mummy](#mummy), [Spectre](#spectre), [Groaning Spirit](#groaning-spirit), [Revenant](#revenant), [Death Knight](#death-knight), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire) |
+| 8 | [Mummy](#mummy), [Spectre](#spectre), [Groaning Spirit](#groaning-spirit), [Revenant](#revenant), [Death Knight](#death-knight), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire), [Ghost](#ghost) |
+| 9 | [Groaning Spirit](#groaning-spirit), [Revenant](#revenant), [Death Knight](#death-knight), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire), [Ghost](#ghost) |
+| 10 | [Revenant](#revenant), [Death Knight](#death-knight), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire), [Ghost](#ghost), [Lich](#lich) |
+| 11 | [Death Knight](#death-knight), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire), [Ghost](#ghost), [Lich](#lich) |
+| 12 | [Ghost](#ghost), [Lich](#lich) |
+| 13 | [Lich](#lich) |
+| 14 | [Lich](#lich) |
+| 15 | [Ghost](#ghost), [Lich](#lich), [Demilich](#demilich) *(as Level 10/12/20)* |
+| 16 | [Ghost](#ghost), [Lich](#lich), [Demilich](#demilich) *(as Level 10/12/20)* |
+| 17 | [Ghost](#ghost), [Lich](#lich), [Demilich](#demilich) *(as Level 10/12/20)* |
+| 18 | [Demilich](#demilich) |
+| 19 | [Demilich](#demilich) |
+| 20 | [Demilich](#demilich) |
 
-| d% | Monster Encountered | # |
-|---|---|---|
-| 01-02 | [Ape](#ape) | 1d3 |
-| 03-04 | [Centipede, Giant](#centipede-giant) | 1d2 |
-| 05-07 | [Rust Monster](#rust-monster) | 1d2 |
-| 08-11 | [Wolf](#wolf) | 1d4 |
-| 12-13 | [Doppelganger](#doppelganger) | 1d6 |
-| 14-17 | [Harpy](#harpy) | 1d6 |
-| 18-22 | [Ghoul](#ghoul) | 1d6 |
-| 23-27 | [Wererat](#wererat) | 1d8 |
-| 28-32 | [Frog, Giant](#frog-giant) | 1d8 |
-| 33-37 | [Lemure](#lemure) | 5d6 |
-| 38-42 | NPC Party (see *NPC Parties*) | varies |
-| 43-44 | [Ant, Driver](#ant-driver) | 2d4 |
-| 45-52 | [Lizards, Giant](#lizards-giant) | 1d6 |
-| 53-60 | [Ogre](#ogre) | 1d10 |
-| 61-62 | [Gelatinous Cube](#gelatinous-cube) | 1 |
-| 63-70 | [Carrion Crawler](#carrion-crawler) | 1d6 |
-| 71-75 | [Beetle, Giant](#beetle-giant) | 1d6 |
-| 76-80 | [Bugbear](#bugbear) | 2d8 |
-| 81-85 | [Wight](#wight) | 1d4 |
-| 86-89 | [Fungi, Violet](#fungi-violet) | 1d4 |
-| 90-93 | [Shadow](#shadow) | 1 |
-| 94-96 | Dragon (see sub-table) | 1 |
-| 97-98 | [Zombie](#zombie) | 1d3 |
-| 99-00 | [Spider, Giant](#spider-giant) | 1d6 |
+::: pagebreak-pdf
+:::
 
-##### Monster Level 3 Dragon Sub-table
+#### Evil Temple / Shrine
 
-| d% | Type | Age | Hit Points per HD |
-|---|---|---|---|
-| 01-30 | [Dragon, Black](#dragon) | Very Young | 1 |
-| 31-60 | [Dragon, Brass](#dragon) | Very Young | 1 |
-| 61-00 | [Dragon, White](#dragon) | Very Young | 1 |
+| Level | Monster |
+|---|---|
+| 1 | [Brown Mold](#mold), [Cerebral Parasite](#cerebral-parasite), [Larva](#larva), [Manes](#manes), [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Lava Mephit](#mephit), [Smoke Mephit](#mephit) |
+| 2 | [Brown Mold](#mold), [Cerebral Parasite](#cerebral-parasite), [Larva](#larva), [Manes](#manes), [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Gray Ooze](#gray-ooze), [Lemure](#lemure), [Shadow](#shadow), [Sylph](#sylph), [Doppelganger](#doppelganger), [Gelatinous Cube](#gelatinous-cube), [Medusa](#medusa) |
+| 3 | [Brown Mold](#mold), [Cerebral Parasite](#cerebral-parasite), [Larva](#larva), [Manes](#manes), [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Fire Mephit](#mephit), [Gray Ooze](#gray-ooze), [Imp](#imp), [Lemure](#lemure), [Quasit](#quasit), [Shadow](#shadow), [Steam Mephit](#mephit), [Sylph](#sylph), [Thoul](#thoul), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Medusa](#medusa), [Water Weird](#water-weird), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Rust Monster](#rust-monster) |
+| 4 | [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Fire Mephit](#mephit), [Gray Ooze](#gray-ooze), [Imp](#imp), [Lemure](#lemure), [Quasit](#quasit), [Shadow](#shadow), [Steam Mephit](#mephit), [Sylph](#sylph), [Thoul](#thoul), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Myconid (Fungus Man)](#myconid-fungus-man), [Spectre](#spectre) |
+| 5 | [Animated Armor](#animated-armor), [Fire Mephit](#mephit), [Gray Ooze](#gray-ooze), [Imp](#imp), [Lemure](#lemure), [Quasit](#quasit), [Shadow](#shadow), [Steam Mephit](#mephit), [Sylph](#sylph), [Thoul](#thoul), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Erinyes](#erinyes), [Intellect Devourer](#intellect-devourer), [Rakshasa](#rakshasa) |
+| 6 | [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Succubus](#succubus), [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Barbed Devil](#barbed-devil), [Flame Salamander](#salamander), [Night Hag](#night-hag) |
+| 7 | [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Succubus](#succubus), [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Wind Walker](#wind-walker), [Barbed Devil](#barbed-devil), [Elemental, Earth](#elemental), [Golem, Bone](#golem), [Lammasu](#lammasu), [Type I Demon (Vrock)](#type-i-demon-vrock), [Bone Devil](#bone-devil), [Hieracosphinx](#sphinx), [Skeleton Warrior](#skeleton-warrior) |
+| 8 | [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Succubus](#succubus), [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Wind Walker](#wind-walker), [Barbed Devil](#barbed-devil), [Djinni](#djinni), [Elemental, Earth](#elemental), [Elemental, Water](#elemental), [Golem, Bone](#golem), [Gynosphinx](#sphinx), [Lammasu](#lammasu), [Otyugh](#otyugh), [Type I Demon (Vrock)](#type-i-demon-vrock), [Water Naga](#naga), [Bone Devil](#bone-devil), [Death Knight](#death-knight), [Lamia](#lamia), [Skeleton Warrior](#skeleton-warrior), [Type VI Demon (Balor)](#type-vi-demon-balor), [Black Pudding](#black-pudding), [Ghost](#ghost), [Shedu](#shedu) |
+| 9 | [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Wind Walker](#wind-walker), [Barbed Devil](#barbed-devil), [Djinni](#djinni), [Elemental, Earth](#elemental), [Elemental, Water](#elemental), [Golem, Bone](#golem), [Gynosphinx](#sphinx), [Lammasu](#lammasu), [Otyugh](#otyugh), [Type I Demon (Vrock)](#type-i-demon-vrock), [Water Naga](#naga), [Bone Devil](#bone-devil), [Dao](#dao), [Death Knight](#death-knight), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Skeleton Warrior](#skeleton-warrior), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Ghost](#ghost), [Mimic](#mimic), [Spirit Naga](#naga), [Beholder](#beholder), [Golem, Clay](#golem), [Ice Devil](#ice-devil) |
+| 10 | [Barbed Devil](#barbed-devil), [Djinni](#djinni), [Elemental, Earth](#elemental), [Elemental, Water](#elemental), [Golem, Bone](#golem), [Gynosphinx](#sphinx), [Lammasu](#lammasu), [Otyugh](#otyugh), [Type I Demon (Vrock)](#type-i-demon-vrock), [Water Naga](#naga), [Bone Devil](#bone-devil), [Dao](#dao), [Death Knight](#death-knight), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Skeleton Warrior](#skeleton-warrior), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Guardian Naga](#naga), [Neotyugh](#neotyugh) |
+| 11 | [Bone Devil](#bone-devil), [Dao](#dao), [Death Knight](#death-knight), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Skeleton Warrior](#skeleton-warrior), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Frost Salamander](#salamander), [Guardian Naga](#naga), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Pit Fiend](#pit-fiend) |
+| 12 | [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Frost Salamander](#salamander), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend) |
+| 13 | [Beholder](#beholder), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Frost Salamander](#salamander), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend) |
+| 14 | [Androsphinx](#sphinx), [Frost Salamander](#salamander), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend), [Aerial Servant](#aerial-servant) |
+| 15 | [Pit Fiend](#pit-fiend), [Aerial Servant](#aerial-servant) |
+| 16 | [Aerial Servant](#aerial-servant) |
+| 17 | [Aerial Servant](#aerial-servant) |
+| 18 | [Aerial Servant](#aerial-servant), [Demilich](#demilich), [Golem, Bronze](#golem), [Titan](#titan) |
+| 19 | [Demilich](#demilich), [Golem, Bronze](#golem), [Titan](#titan) |
+| 20 | [Demilich](#demilich), [Golem, Bronze](#golem), [Titan](#titan) |
 
-#### Monster Level 4
+::: pagebreak-pdf
+:::
 
-| d% | Monster Encountered | # |
-|---|---|---|
-| 01-02 | [Strangle Weed](#strangle-weed) | 1 |
-| 03-04 | [Spider, Giant](#spider-giant) | 1d2 |
-| 05-07 | [Blink Dog](#blink-dog) | 1d4 |
-| 08-11 | [Ghast](#ghast) | 1d3 |
-| 12-15 | [Zombie](#zombie) | 1d2 |
-| 16-20 | [Piercer](#piercer) | 3d6 |
-| 21-25 | [Cockatrice](#cockatrice) | 1d3 |
-| 26-30 | [Snake, Rock Python](#snake) | 1 |
-| 31-35 | [Manes](#manes) | 2d4 |
-| 36-40 | NPC Party (see *NPC Parties*) | varies |
-| 41-42 | [Ochre Jelly](#ochre-jelly) | 1 |
-| 43-50 | [Beetle, Giant](#beetle-giant) | 1d6 |
-| 51-58 | [Werewolf](#werewolf) | 1d6 |
-| 59-60 | [Caecilia](#caecilia) | 1d3 |
-| 61-68 | [Imp](#imp) | 2d4 |
-| 69-73 | [Snake, Spitting Cobra](#snake) | 1 |
-| 74-78 | [Gargoyle](#gargoyle) | 1d8 |
-| 79-80 | [Owl Bear](#owl-bear) | 1d4 |
-| 81-85 | Dragon (see sub-table) | 5 |
-| 86-89 | [Shadow](#shadow) | 1d8 |
-| 90-93 | [Wereboar](#wereboar) | 1d4 |
-| 94-96 | [Gray Ooze](#gray-ooze) | 1d3 |
-| 97-98 | [Hellhound](#hellhound) | 2d6 |
-| 99-00 | [Wight](#wight) | 1 |
+#### Sewer
 
-##### Monster Level 4 Dragon Sub-table
+| Level | Monster |
+|---|---|
+| 1 | [Brown Mold](#mold), [Goblin](#goblin), [Rat, Giant](#rat), [Rat, Normal](#rat), [Rot Grub](#rot-grub), [Green Slime](#green-slime), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Shrieker](#shrieker) |
+| 2 | [Brown Mold](#mold), [Goblin](#goblin), [Rat, Giant](#rat), [Rat, Normal](#rat), [Rot Grub](#rot-grub), [Green Slime](#green-slime), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Shrieker](#shrieker) |
+| 3 | [Brown Mold](#mold), [Goblin](#goblin), [Rat, Giant](#rat), [Rat, Normal](#rat), [Rot Grub](#rot-grub), [Green Slime](#green-slime), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Shrieker](#shrieker), [Gibbering Mouther](#gibbering-mouther), [Ochre Jelly](#ochre-jelly) |
+| 4 | [Green Slime](#green-slime), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Shrieker](#shrieker), [Gibbering Mouther](#gibbering-mouther), [Ochre Jelly](#ochre-jelly), [Myconid (Fungus Man)](#myconid-fungus-man) |
+| 5 | [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Shrieker](#shrieker), [Gibbering Mouther](#gibbering-mouther), [Ochre Jelly](#ochre-jelly), [Myconid (Fungus Man)](#myconid-fungus-man) |
+| 6 | [Gibbering Mouther](#gibbering-mouther), [Ochre Jelly](#ochre-jelly), [Myconid (Fungus Man)](#myconid-fungus-man), [Otyugh](#otyugh) |
+| 7 | [Gibbering Mouther](#gibbering-mouther), [Ochre Jelly](#ochre-jelly), [Myconid (Fungus Man)](#myconid-fungus-man), [Otyugh](#otyugh) |
+| 8 | [Myconid (Fungus Man)](#myconid-fungus-man), [Otyugh](#otyugh), [Black Pudding](#black-pudding) |
+| 9 | [Otyugh](#otyugh), [Black Pudding](#black-pudding) |
+| 10 | [Otyugh](#otyugh), [Black Pudding](#black-pudding), [Neotyugh](#neotyugh) |
+| 11 | [Black Pudding](#black-pudding), [Neotyugh](#neotyugh) |
+| 12 | [Black Pudding](#black-pudding), [Neotyugh](#neotyugh) |
+| 13 | [Neotyugh](#neotyugh) |
+| 14 | [Neotyugh](#neotyugh) |
+| 15 | [Otyugh](#otyugh), [Black Pudding](#black-pudding), [Neotyugh](#neotyugh) *(as Level 8/10/12)* |
+| 16 | [Otyugh](#otyugh), [Black Pudding](#black-pudding), [Neotyugh](#neotyugh) *(as Level 8/10/12)* |
+| 17 | [Otyugh](#otyugh), [Black Pudding](#black-pudding), [Neotyugh](#neotyugh) *(as Level 8/10/12)* |
+| 18 | [Otyugh](#otyugh), [Black Pudding](#black-pudding), [Neotyugh](#neotyugh) *(as Level 8/10/12)* |
+| 19 | [Otyugh](#otyugh), [Black Pudding](#black-pudding), [Neotyugh](#neotyugh) *(as Level 8/10/12)* |
+| 20 | [Otyugh](#otyugh), [Black Pudding](#black-pudding), [Neotyugh](#neotyugh) *(as Level 8/10/12)* |
 
-| d% | Type | Age | Hit Points per HD |
-|---|---|---|---|
-| 01-10 | [Dragon, Black](#dragon) | Young/Sub-adult | 2/3 |
-| 11-20 | [Dragon, Blue](#dragon) | Very Young/Young | 1/2 |
-| 21-30 | [Dragon, Brass](#dragon) | Young/Sub-adult | 2/3 |
-| 31-35 | [Dragon, Bronze](#dragon) | Very Young/Young | 1/2 |
-| 36-50 | [Dragon, Copper](#dragon) | Very Young/Young | 1/2 |
-| 51-55 | [Dragon, Gold](#dragon) | Very Young/Young | 1/2 |
-| 56-70 | [Dragon, Green](#dragon) | Very Young/Young | 1/2 |
-| 71-80 | [Dragon, Red](#dragon) | Very Young/Young | 1/2 |
-| 81-85 | [Dragon, Silver](#dragon) | Very Young/Young | 1/2 |
-| 86-00 | [Dragon, White](#dragon) | Young/Sub-adult | 2/3 |
+::: pagebreak-pdf
+:::
 
-#### Monster Level 5
+#### Ruins
 
-| d% | Monster Encountered | # |
-|---|---|---|
-| 01-02 | [Djinni](#djinni) | 1 |
-| 03-04 | [Animated Armor](#animated-armor) | 1d4 |
-| 05-07 | [Medusa](#medusa) | 1d2 |
-| 08-11 | [Bat, Giant](#bat) | 1d4 |
-| 12-15 | [Sabre-Tooth Tiger](#sabre-tooth-tiger) | 1 |
-| 16-20 | [Minotaur](#minotaur) | 1d8 |
-| 21-25 | [Scorpion, Giant](#scorpion-giant) | 1d2 |
-| 26-30 | [Snake, Rock Python](#snake) | 1d4 |
-| 31-40 | [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee) | 1d4 |
-| 41-48 | [Bear, Cave](#bear-cave) | 1d2 |
-| 49-50 | [Weasel, Giant](#weasel-giant) | 1d4 |
-| 51-60 | NPC Party (see *NPC Parties*) | varies |
-| 61-70 | [Bone Devil](#bone-devil) | 1d4 |
-| 71-75 | Dragon (see sub-table) | 1 |
-| 76-80 | [Displacer Beast](#displacer-beast) | 1 |
-| 81-85 | [Hydra](#hydra) (5-6 heads) | 1 |
-| 86-89 | [Ogre Mage](#ogre-mage) | 1d3 |
-| 90-93 | [Werebear](#werebear) | 1d4 |
-| 94-96 | [Cat, Great](#cat-great) | 1 |
-| 97-98 | [Hellhound](#hellhound) | 2d6 |
-| 99-00 | [Snake, Giant Rattler](#snake) | 1 |
-
-##### Monster Level 5 Dragon Sub-table
-
-| d% | Type | Age | Hit Points per HD |
-|---|---|---|---|
-| 01-08 | [Dragon, Black](#dragon) | Young Adult/Adult | 4/5 |
-| 09-18 | [Dragon, Blue](#dragon) | Sub-Adult/Young Adult | 3/4 |
-| 19-30 | [Dragon, Brass](#dragon) | Young Adult/Adult | 4/5 |
-| 31-35 | [Dragon, Bronze](#dragon) | Sub-Adult/Young Adult | 3/4 |
-| 36-50 | [Dragon, Copper](#dragon) | Sub-Adult/Young Adult | 3/4 |
-| 51-55 | [Dragon, Gold](#dragon) | Sub-Adult/Young Adult | 3/4 |
-| 56-70 | [Dragon, Green](#dragon) | Sub-Adult/Young Adult | 3/4 |
-| 71-80 | [Dragon, Red](#dragon) | Sub-Adult/Young Adult | 3/4 |
-| 81-87 | [Dragon, Silver](#dragon) | Sub-Adult/Young Adult | 3/4 |
-| 88-00 | [Dragon, White](#dragon) | Young Adult/Adult | 4/5 |
-
-#### Monster Level 6
-
-| d% | Monster Encountered | # |
-|---|---|---|
-| 01-02 | [Wraith](#wraith) | 1d6 |
-| 03-04 | [Quasit](#quasit) | 1 |
-| 05-07 | [Displacer Beast](#displacer-beast) | 1d4 |
-| 08-11 | [Mummy](#mummy) | 1d4 |
-| 12-15 | Dragon (see sub-table) | 1 |
-| 16-20 | [Erinyes](#erinyes) | 1d3 |
-| 21-31 | [Troll](#troll) | 1d12 |
-| 32-36 | [Otyugh](#otyugh) | 1d2 |
-| 37-41 | [Bone Devil](#bone-devil) | 1d3 |
-| 42-46 | NPC Party (see *NPC Parties*) | varies |
-| 47-48 | [Black Pudding](#black-pudding) | 1 |
-| 49-56 | [Giant, Hill](#giant) | 1d10 |
-| 57-64 | [Wight](#wight) | 1d8 |
-| 65-66 | [Weretiger](#weretiger) | 1d4 |
-| 67-74 | [Sphinx](#sphinx) | 1 |
-| 75-79 | [Wyvern](#wyvern) | 1d3 |
-| 80-84 | [Hydra](#hydra) (7-8 heads) | 5 |
-| 85-89 | [Manticore](#manticore) | 1d2 |
-| 90-91 | [Salamander](#salamander) | 2d4 |
-| 92-95 | [Lizards, Giant](#lizards-giant) | 1d4 |
-| 96-98 | [Hellhound](#hellhound) | 2d6 |
-| 99-00 | [Groaning Spirit](#groaning-spirit) | 1 |
-
-##### Monster Level 6 Dragon Sub-table
-
-| d% | Type | Age | Hit Points per HD |
-|---|---|---|---|
-| 01-10 | [Dragon, Black](#dragon) | Old | 6 |
-| 11-20 | [Dragon, Blue](#dragon) | Adult | 5 |
-| 21-30 | [Dragon, Brass](#dragon) | Old | 6 |
-| 31-35 | [Dragon, Bronze](#dragon) | Adult | 5 |
-| 36-50 | [Dragon, Copper](#dragon) | Adult | 5 |
-| 51-55 | [Dragon, Gold](#dragon) | Adult | 5 |
-| 56-70 | [Dragon, Green](#dragon) | Adult | 5 |
-| 71-80 | [Dragon, Red](#dragon) | Adult | 5 |
-| 81-85 | [Dragon, Silver](#dragon) | Adult | 5 |
-| 86-00 | [Dragon, White](#dragon) | Old | 6 |
-
-#### Monster Level 7
-
-| d% | Monster Encountered | # |
-|---|---|---|
-| 01-02 | [Clay Golem](#golem) (1-3) or [Flesh Golem](#golem) (4-6) on 1d6 | 1 |
-| 03-04 | [Ettin](#ettin) | 1d2 |
-| 05-07 | [Chimera](#chimera) | 1d4 |
-| 08-11 | [Spectre](#spectre) | 1d4 |
-| 12-15 | [Basilisk](#basilisk) | 1d2 |
-| 16-20 | [Giant, Fire](#giant) | 1d8 |
-| 21-25 | [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu) | 1d3 |
-| 26-30 | [Sphinx](#sphinx) | 1 |
-| 31-35 | [Lamia](#lamia) | 1 |
-| 36-40 | NPC Party (see *NPC Parties*) | varies |
-| 41-50 | [Lizard Man](#lizard-man) | 1d2 |
-| 51-55 | [Skeleton](#skeleton) | 1 |
-| 56-60 | [Shedu](#shedu) | 1d2 |
-| 61-68 | [Will-O-Wisp](#will-o-wisp) | 1 |
-| 69-70 | [Gorgon](#gorgon) | 1d2 |
-| 71-75 | [Naga](#naga) | 1d3 |
-| 76-80 | [Barbed Devil](#barbed-devil) or [Bone Devil](#bone-devil) | 1d2 |
-| 81-85 | [Hydra](#hydra) (9-10 heads) | 1 |
-| 86-89 | Dragon (see sub-table) | 1 |
-| 90-93 | [Cyclops](#cyclops) | 1 |
-| 94-96 | [Hellhound](#hellhound) | 1 |
-| 97-98 | [Troll](#troll) | 1d3 |
-| 99-00 | [Efreeti](#efreeti) | 1 |
-
-##### Monster Level 7 Dragon Sub-table
-
-| d% | Type | Age | Hit Points per HD |
-|---|---|---|---|
-| 01-10 | [Dragon, Black](#dragon) | Very Old | 7 |
-| 11-20 | [Dragon, Blue](#dragon) | Old | 6 |
-| 21-30 | [Dragon, Brass](#dragon) | Very Old | 7 |
-| 31-35 | [Dragon, Bronze](#dragon) | Old | 6 |
-| 36-50 | [Dragon, Copper](#dragon) | Old | 6 |
-| 51-55 | [Dragon, Gold](#dragon) | Old | 6 |
-| 56-70 | [Dragon, Green](#dragon) | Old | 6 |
-| 71-80 | [Dragon, Red](#dragon) | Old | 6 |
-| 81-85 | [Dragon, Silver](#dragon) | Old | 6 |
-| 86-00 | [Dragon, White](#dragon) | Very Old | 7 |
-
-#### Monster Level 8
-
-| d% | Monster Encountered | # |
-|---|---|---|
-| 01-03 | [Naga](#naga) | 1d2 |
-| 04-07 | [Golem](#golem) | 1 |
-| 08-11 | [Giant, Cloud](#giant) | 1 |
-| 12-15 | [Vampire](#vampire) | 1d2 |
-| 16-20 | [Ice Devil](#ice-devil) | 1 |
-| 21-25 | [Barbed Devil](#barbed-devil) | 1d2 |
-| 26-30 | [Otyugh](#otyugh) | 1d2 |
-| 31-40 | [Type I Demon (Vrock)](#type-i-demon-vrock) | 1d3 |
-| 41-42 | [Devil Swine](#devil-swine) | 1d3 |
-| 43-52 | NPC Party (see *NPC Parties*) | varies |
-| 53-62 | [Manes](#manes) | 5d4 |
-| 63-72 | [Hydra](#hydra) (11-12 heads) | 1 |
-| 73-80 | [Elemental](#elemental), Air/Earth/Fire/Water | 1 |
-| 81-89 | Dragon (see sub-table) | 1 |
-| 90-93 | [Lammasu](#lammasu) | 1d4 |
-| 94-00 | [Ghost](#ghost) | 1 |
-
-##### Monster Level 8 Dragon Sub-table
-
-| d% | Type | Age | Hit Points per HD |
-|---|---|---|---|
-| 01-12 | [Dragon, Black](#dragon) | Ancient | 8 |
-| 13-25 | [Dragon, Blue](#dragon) | Very Old | 7 |
-| 26-30 | [Dragon, Brass](#dragon) | Ancient | 8 |
-| 31-35 | [Dragon, Bronze](#dragon) | Very Old | 7 |
-| 36-45 | [Dragon, Copper](#dragon) | Very Old | 7 |
-| 46-50 | [Dragon, Gold](#dragon) | Very Old | 7 |
-| 51-60 | [Dragon, Green](#dragon) | Very Old | 7 |
-| 61-80 | [Dragon, Red](#dragon) | Very Old | 7 |
-| 81-85 | [Dragon, Silver](#dragon) | Very Old | 7 |
-| 86-00 | [Dragon, White](#dragon) | Ancient | 8 |
-
-#### Monster Level 9
-
-| d% | Monster Encountered | # |
-|---|---|---|
-| 01-07 | [Trapper](#trapper) | 1 |
-| 08-11 | [Pit Fiend](#pit-fiend) | 1 |
-| 12-25 | [Otyugh](#otyugh) | 1 |
-| 26-40 | NPC Party (see *NPC Parties*) | varies |
-| 41-55 | [Type II Demon (Hezrou)](#type-ii-demon-hezrou) | 1d3 |
-| 56-70 | [Hydra](#hydra) (12 heads) | 1 |
-| 71-80 | Dragon (see sub-table) | 1 or 2 |
-| 81-89 | [Purple Worm](#purple-worm) | 1d2 |
-| 90-93 | [Succubus](#succubus) | 1 |
-| 94-96 | [Roper](#roper) | 1d4 |
-| 97-00 | [Golem](#golem) | 1 |
-
-##### Monster Level 9 Dragon Sub-table
-
-| d% | Type | Age | Hit Points per HD |
-|---|---|---|---|
-| 01-12 | 2x [Dragon, Black](#dragon) | Ancient + Old | 8+6 |
-| 13-25 | [Dragon, Blue](#dragon) | Ancient | 8 |
-| 26-30 | 2x [Dragon, Brass](#dragon) | Ancient + Old | 8+6 |
-| 31-35 | [Dragon, Bronze](#dragon) | Ancient | 8 |
-| 36-45 | [Dragon, Copper](#dragon) | Ancient | 8 |
-| 46-50 | [Dragon, Gold](#dragon) | Ancient | 8 |
-| 51-60 | [Dragon, Green](#dragon) | Ancient | 8 |
-| 61-80 | [Dragon, Red](#dragon) | Ancient | 8 |
-| 81-85 | [Dragon, Silver](#dragon) | Ancient | 8 |
-| 86-00 | 2x [Dragon, White](#dragon) | Ancient + Very Old | 8+7 |
-
-#### Monster Level 10
-
-| d% | Monster Encountered | # |
-|---|---|---|
-| 01-07 | [Type V Demon (Marilith)](#type-v-demon-marilith) | 1d3 |
-| 08-11 | [Giant, Storm](#giant) | 1 |
-| 12-15 | [Otyugh](#otyugh) | 1 |
-| 16-20 | NPC Party (see *NPC Parties*) | varies |
-| 21-30 | [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu) | 1d3 |
-| 31-40 | [Elemental](#elemental), Earth | 1 |
-| 41-50 | [Elemental](#elemental), Air | 1 |
-| 51-60 | [Elemental](#elemental), Fire | 1 |
-| 61-70 | [Elemental](#elemental), Water | 1 |
-| 71-80 | [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee) | 1d3 |
-| 81-89 | Dragon (see sub-table) | 2 |
-| 90-95 | [Type VI Demon (Balor)](#type-vi-demon-balor) | 1d3 |
-| 96-00 | [Lich](#lich) | 1 |
-
-##### Monster Level 10 Dragon Sub-table
-
-| d% | Type | Age | Hit Points per HD |
-|---|---|---|---|
-| 01-20 | [Dragon, Blue](#dragon) | Ancient + Very Old | 8+7 |
-| 21-25 | [Dragon, Bronze](#dragon) | Ancient + Very Old | 8+7 |
-| 26-35 | [Dragon, Copper](#dragon) | Ancient + Very Old | 8+7 |
-| 36-40 | [Dragon, Gold](#dragon) | Ancient + Old | 8+6 |
-| 41-60 | [Dragon, Green](#dragon) | Ancient + Very Old | 8+7 |
-| 61-95 | [Dragon, Red](#dragon) | Ancient + Old | 8+6 |
-| 96-00 | [Dragon, Silver](#dragon) | Ancient + Old | 8+6 |
+| Level | Monster |
+|---|---|
+| 1 | [Stirge](#stirge), [Shrieker](#shrieker) |
+| 2 | [Stirge](#stirge), [Shrieker](#shrieker), [Gelatinous Cube](#gelatinous-cube), [Werewolf](#werewolf) |
+| 3 | [Stirge](#stirge), [Shrieker](#shrieker), [Gelatinous Cube](#gelatinous-cube), [Werewolf](#werewolf), [Cockatrice](#cockatrice), [Wereboar](#wereboar), [Wererat](#wererat) |
+| 4 | [Shrieker](#shrieker), [Gelatinous Cube](#gelatinous-cube), [Werewolf](#werewolf), [Cockatrice](#cockatrice), [Wereboar](#wereboar), [Wererat](#wererat), [Weretiger](#weretiger), [Werebear](#werebear) |
+| 5 | [Shrieker](#shrieker), [Gelatinous Cube](#gelatinous-cube), [Werewolf](#werewolf), [Cockatrice](#cockatrice), [Wereboar](#wereboar), [Wererat](#wererat), [Weretiger](#weretiger), [Werebear](#werebear), [Basilisk](#basilisk) |
+| 6 | [Gelatinous Cube](#gelatinous-cube), [Werewolf](#werewolf), [Cockatrice](#cockatrice), [Wereboar](#wereboar), [Wererat](#wererat), [Weretiger](#weretiger), [Werebear](#werebear), [Basilisk](#basilisk) |
+| 7 | [Cockatrice](#cockatrice), [Wereboar](#wereboar), [Wererat](#wererat), [Weretiger](#weretiger), [Werebear](#werebear), [Basilisk](#basilisk), [Devil Swine](#devil-swine) |
+| 8 | [Werebear](#werebear), [Basilisk](#basilisk), [Devil Swine](#devil-swine) |
+| 9 | [Basilisk](#basilisk), [Devil Swine](#devil-swine), [Wereshark](#wereshark) |
+| 10 | [Devil Swine](#devil-swine), [Wereshark](#wereshark) |
+| 11 | [Devil Swine](#devil-swine), [Wereshark](#wereshark) |
+| 12 | [Wereshark](#wereshark) |
+| 13 | [Wereshark](#wereshark) |
+| 14 | [Basilisk](#basilisk), [Devil Swine](#devil-swine), [Wereshark](#wereshark) *(as Level 7/9/11)* |
+| 15 | [Basilisk](#basilisk), [Devil Swine](#devil-swine), [Wereshark](#wereshark) *(as Level 7/9/11)* |
+| 16 | [Basilisk](#basilisk), [Devil Swine](#devil-swine), [Wereshark](#wereshark) *(as Level 7/9/11)* |
+| 17 | [Basilisk](#basilisk), [Devil Swine](#devil-swine), [Wereshark](#wereshark) *(as Level 7/9/11)* |
+| 18 | [Basilisk](#basilisk), [Devil Swine](#devil-swine), [Wereshark](#wereshark) *(as Level 7/9/11)* |
+| 19 | [Basilisk](#basilisk), [Devil Swine](#devil-swine), [Wereshark](#wereshark) *(as Level 7/9/11)* |
+| 20 | [Basilisk](#basilisk), [Devil Swine](#devil-swine), [Wereshark](#wereshark) *(as Level 7/9/11)* |
 
 ### NPC Parties (All Dungeon Levels)
 

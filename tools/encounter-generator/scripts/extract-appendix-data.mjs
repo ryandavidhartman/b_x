@@ -24,7 +24,6 @@ const lines = raw.split("\n");
 const doc = makeMarkdownDoc(lines);
 const {
   headings,
-  headingIndexByText,
   isPipeLine,
   isSeparatorRow,
   splitRow,
@@ -114,17 +113,18 @@ for (let hIdx = 0; hIdx < headings.length; hIdx++) {
 }
 
 // ---------------------------------------------------------------------------
-// Appendix C: Dungeon Random Encounters
+// Appendix D: Dungeon Random Encounters — 6 location-subtype tables, same Level|Monster shape
+// as the wilderness terrain tables (see generate-appendix-d-tables.mjs), sourced from Appendix
+// C's "Monsters by Dungeon Location". Dungeon level and party level are the same number now, so
+// there's no separate Monster-Level/d12-matrix indirection left to extract.
 // ---------------------------------------------------------------------------
 
-const monsterSubtableMatrix = firstTable("Monster Sub-table Matrix (d12)", 4, RANDOM_ENCOUNTERS_START);
-
-const dungeonLevels = {};
-for (let n = 1; n <= 10; n++) {
-  const table = firstTable(`Monster Level ${n}`, 4, RANDOM_ENCOUNTERS_START);
-  const dragonHIdx = headingIndexByText(`Monster Level ${n} Dragon Sub-table`, 5, RANDOM_ENCOUNTERS_START);
-  const dragonSubtable = dragonHIdx === -1 ? null : firstTable(`Monster Level ${n} Dragon Sub-table`, 5, RANDOM_ENCOUNTERS_START);
-  dungeonLevels[n] = { table, dragonSubtable };
+const DUNGEON_LOCATION_NAMES = [
+  "Standard Dungeon", "Cave / Cavern Network", "Tomb / Crypt", "Evil Temple / Shrine", "Sewer", "Ruins",
+];
+const dungeonLocations = {};
+for (const name of DUNGEON_LOCATION_NAMES) {
+  dungeonLocations[name] = firstTable(name, 4, RANDOM_ENCOUNTERS_START);
 }
 
 // ---------------------------------------------------------------------------
@@ -237,7 +237,7 @@ function write(name, data) {
 }
 
 write("monsters", monsters);
-write("dungeonEncounters", { matrix: monsterSubtableMatrix, levels: dungeonLevels });
+write("dungeonEncounters", dungeonLocations);
 write("npcParties", {
   raceMulticlass: npcRaceMulticlass,
   classAndLevel: npcAdventurerClassLevel,
@@ -272,7 +272,7 @@ function collectLinks(node, out) {
 }
 
 const allLinks = [];
-collectLinks({ dungeonLevels, terrains, hexCrawl, castleEncounters, urbanEncounters, urbanLocations }, allLinks);
+collectLinks({ dungeonLocations, terrains, hexCrawl, castleEncounters, urbanEncounters, urbanLocations }, allLinks);
 
 // Matches the runtime resolver in src/lib/resolveMonster.ts. A label with no hint beyond the
 // compound heading's own name (plain "Elemental", or "Lizards, Giant" where the heading itself

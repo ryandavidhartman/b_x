@@ -91,15 +91,17 @@ function flatListUnderHeading(headingText, level, fromLine) {
 // Level 7 vs Dragon, White at Level 6).
 // ---------------------------------------------------------------------------
 
-// Phase 1 groundwork: wilderness terrains + Urban + Castle only. Dungeon subtypes don't exist
-// in Appendix C yet (Phase 5 of the plan adds "### Monsters by Dungeon Location" + hand-curates
-// its 6 lists) — DUNGEON_LOCATION_NAMES is left empty here deliberately, not a bug.
 const TERRAIN_NAMES = [
   "Aquatic", "Arctic", "Desert", "Forest", "Graveyard", "Hills", "Jungle",
   "Lost World", "Marine", "Mountains", "Plains", "Rural", "Tundra", "Wetlands",
 ];
 const URBAN_LOCATION_NAMES = ["Urban", "Castle"];
-const DUNGEON_LOCATION_NAMES = [];
+// Hand-curated in Appendix C's "### Monsters by Dungeon Location" (see the tag-dungeon-locations
+// scratchpad scripts from that pass — a rule-based first draft reviewed and fixed by hand before
+// going into the book, same spirit as the original terrain tags).
+const DUNGEON_LOCATION_NAMES = [
+  "Standard Dungeon", "Cave / Cavern Network", "Tomb / Crypt", "Evil Temple / Shrine", "Sewer", "Ruins",
+];
 
 const ALL_LOCATION_NAMES = [...TERRAIN_NAMES, ...URBAN_LOCATION_NAMES, ...DUNGEON_LOCATION_NAMES];
 
@@ -107,19 +109,10 @@ function keyOf({ label, anchor }) {
   return `${label}::${anchor}`;
 }
 
-const LOCATION_TAGS = new Map(); // locationName -> Set<key>
-for (const name of ALL_LOCATION_NAMES) {
-  const links = flatListUnderHeading(name, 4, APPENDIX_C_START);
-  if (links === null) {
-    console.warn(`WARNING: no "#### ${name}" list found under Appendix C's Monsters by Terrain.`);
-    continue;
-  }
-  LOCATION_TAGS.set(name, new Set(links.map(keyOf)));
-}
-
 const LEVEL_OF = new Map(); // key -> 1-20
 const LABEL_OF = new Map(); // key -> label (for rendering links back out)
 const ANCHOR_OF = new Map(); // key -> anchor
+const KEYS_BY_ANCHOR = new Map(); // anchor -> [key] (every variant Section 2 actually leveled)
 for (let level = 1; level <= 20; level++) {
   const links = flatListUnderHeading(`Level ${level}`, 4, APPENDIX_C_START);
   if (links === null) {
@@ -131,7 +124,31 @@ for (let level = 1; level <= 20; level++) {
     LEVEL_OF.set(key, level);
     LABEL_OF.set(key, l.label);
     ANCHOR_OF.set(key, l.anchor);
+    if (!KEYS_BY_ANCHOR.has(l.anchor)) KEYS_BY_ANCHOR.set(l.anchor, []);
+    KEYS_BY_ANCHOR.get(l.anchor).push(key);
   }
+}
+
+// A location tag can reference a compound heading's bare name (e.g. "Elemental", "Ant, Giant")
+// rather than one specific variant — the book's own "open choice among every variant" convention
+// (see resolveMonster.ts). Section 2 only ever levels the variant-specific labels, so a bare tag
+// never resolves directly; expand it here to every variant Section 2 *did* level under that same
+// anchor, so a location tagged with the bare name gets every variant as its own real candidate
+// (more precise than picking one representative level, and avoids a false "unresolved" report).
+function expandKey(key, anchor) {
+  if (LEVEL_OF.has(key)) return [key];
+  return KEYS_BY_ANCHOR.get(anchor) ?? [];
+}
+
+const LOCATION_TAGS = new Map(); // locationName -> Set<key>
+for (const name of ALL_LOCATION_NAMES) {
+  const links = flatListUnderHeading(name, 4, APPENDIX_C_START);
+  if (links === null) {
+    console.warn(`WARNING: no "#### ${name}" list found under Appendix C's Monsters by Terrain.`);
+    continue;
+  }
+  const expanded = links.flatMap((l) => expandKey(keyOf(l), l.anchor));
+  LOCATION_TAGS.set(name, new Set(expanded));
 }
 
 // ---------------------------------------------------------------------------

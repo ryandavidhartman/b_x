@@ -114,14 +114,6 @@ function DragonTreasureControls({ onReroll }: { onReroll: (ageCategory: number, 
   );
 }
 
-function OutOfPlaceBanner({ band }: { band: string }) {
-  return (
-    <div className="fallback-note">
-      This is more appropriate for a level {band} party — consider rerolling, treating it as a rumor/sighting, or letting it stand as a dangerous surprise.
-    </div>
-  );
-}
-
 function DungeonCard({
   result,
   treasure,
@@ -131,32 +123,22 @@ function DungeonCard({
   treasure: HoardResult | null;
   onRerollDragonTreasure: (ageCategory: number, hitDice: number) => void;
 }) {
+  const isDragon = result.monster?.headingName === "Dragon";
   return (
     <>
       <p className="roll-trail">
-        Dungeon Level {result.dungeonLevel} · 1d12 = {result.matrixRoll} → Monster Level {result.monsterLevel} · d% ={" "}
-        {result.tableRoll}
+        {result.location} · party level = {result.levelRoll}
         {result.choiceNote ? ` · ${result.choiceNote}` : ""}
       </p>
-      {result.dragon && (
-        <p className="hint">
-          Dragon sub-table: {result.dragon.age}, {result.dragon.hitPointsPerHd} hp/HD
-        </p>
-      )}
-      {result.dragon?.monster && <MonsterStats monster={result.dragon.monster} count={1} />}
-      {result.isNpcParty && (
+      {result.monster && <MonsterStats monster={result.monster} count={result.count} />}
+      {!result.monster && <p className="hint"><RollableText text={result.resultRaw} /></p>}
+      {result.borrowedFromLevel && (
         <div className="fallback-note">
-          NPC Party rolled — use the NPC Party mode to generate it{result.npcLevelBoost > 0 ? ` (level +${result.npcLevelBoost} for the dungeon-depth mismatch)` : ""}.
+          Nothing tagged for this location right at party level {result.levelRoll} — borrowed from Level {result.borrowedFromLevel} instead.
         </div>
       )}
-      {result.monster && <MonsterStats monster={result.monster} count={result.adjustedCount} />}
-      {!result.isNpcParty && !result.dragon && !result.monster && <p className="hint">{result.monsterLabel}</p>}
-      {result.adjustedCount !== result.rolledCount && !result.isNpcParty && (
-        <p className="hint">Base roll {result.rolledCount}, adjusted to {result.adjustedCount} for the dungeon-level mismatch.</p>
-      )}
-      {result.outOfPlace && <OutOfPlaceBanner band={result.outOfPlace} />}
       {treasure && <TreasureBlock hoard={treasure} />}
-      {result.dragon && <DragonTreasureControls onReroll={onRerollDragonTreasure} />}
+      {isDragon && <DragonTreasureControls onReroll={onRerollDragonTreasure} />}
     </>
   );
 }
@@ -295,7 +277,7 @@ function NpcPartyCard({ result, rival }: { result: NpcPartyResult; rival: RivalP
 function titleFor(entry: LogEntry): string {
   switch (entry.kind) {
     case "dungeon":
-      return `Dungeon Encounter — Level ${entry.result.dungeonLevel}`;
+      return `Dungeon Encounter — ${entry.result.location}`;
     case "wilderness":
       return `Wilderness Encounter — ${entry.result.terrain}`;
     case "urban":
