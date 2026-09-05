@@ -5050,22 +5050,22 @@ Minotaurs are semi-intelligent and some use weapons, preferring a spear, club, o
 ### Mold
 *Source:* `AD&D 1E Conversion`  *Category:* `Monster`
 
-|               | Brown Mold  | Yellow Mold |
-| ------------- | ----------- | ----------- |
-| Armor Class   | 10           | 10           |
-| Hit Dice      | 1           | 2           |
-| Save As       | Fighter 1   | Fighter 1   |
-| Move          | 0'          | 0'          |
-| Attacks       | Cold drain  | Spores      |
+|               | Brown Mold  | Black Mold   |
+| ------------- | ----------- | ------------ |
+| Armor Class   | 10           | 10          |
+| Hit Dice      | 1           | 2            |
+| Save As       | Fighter 1   | Fighter 1    |
+| Move          | 0'          | 0'           |
+| Attacks       | Cold drain  | Spores       |
 | Damage        | 4d8 cold    | 1d6 + poison |
-| No. Appearing | 1 (1d8)     | 1 (1d8)     |
-| Morale        | 12          | 12          |
-| Treasure Type | Nil         | Nil         |
-| Alignment     | Neutral     | Neutral     |
+| No. Appearing | 1 (1d8)     | 1 (1d8)      |
+| Morale        | 12          | 12           |
+| Treasure Type | Nil         | Nil          |
+| Alignment     | Neutral     | Neutral      |
 
-Brown mold feeds on heat. Creatures within 5' take `4d8` cold damage. Fire causes it to grow, while cold destroys it.
+**Brown mold** feeds on heat. Creatures within 5' take `4d8` cold damage. Fire causes it to grow, while cold destroys it.
 
-Yellow mold releases a cloud of spores if touched or struck. Creatures in the cloud take `1d6` damage and must Save vs. Poison or die. Fire destroys yellow mold.
+**Black mold** releases a cloud of spores if touched or struck. Creatures in the cloud take `1d6` damage and must Save vs. Poison or die. Fire destroys black mold.
 
 ::: center
 ![](assets/mold-plate.png)
