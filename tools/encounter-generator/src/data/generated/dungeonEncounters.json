@@ -11,7 +11,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Dwarf](#dwarf), [Goblin](#goblin), [Insect Swarms](#insect-swarms), [Medium](#medium), [Men, Dervish](#men), [Men, Nomad](#men), [Poltergeist](#poltergeist), [Rot Grub](#rot-grub), [Ant, Giant (Worker)](#ant-giant), [Drow (Dark Elf)](#drow-dark-elf), [Gnoll](#gnoll), [Kuo-Toa](#kuo-toa), [Troglodyte](#troglodyte), [Animated Armor](#animated-armor), [Huge Spider](#spider), [Smoke Mephit](#mephit)",
+          "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Centipede, Giant](#centipede-giant), [Ear Seeker](#ear-seeker), [Goblin](#goblin), [Kobold](#kobold), [Medium](#medium), [Orc](#orc), [Rat, Giant](#rat), [Rot Grub](#rot-grub), [Ant, Giant (Worker)](#ant-giant), [Drow (Dark Elf)](#drow-dark-elf), [Gnoll](#gnoll), [Kuo-Toa](#kuo-toa), [Troglodyte](#troglodyte), [Animated Armor](#animated-armor), [Huge Spider](#spider), [Spider, Giant (Black Widow)](#spider-giant)",
           "links": [
             {
               "label": "Acolyte",
@@ -22,32 +22,32 @@
               "anchor": "bee-killer"
             },
             {
-              "label": "Dwarf",
-              "anchor": "dwarf"
+              "label": "Centipede, Giant",
+              "anchor": "centipede-giant"
+            },
+            {
+              "label": "Ear Seeker",
+              "anchor": "ear-seeker"
             },
             {
               "label": "Goblin",
               "anchor": "goblin"
             },
             {
-              "label": "Insect Swarms",
-              "anchor": "insect-swarms"
+              "label": "Kobold",
+              "anchor": "kobold"
             },
             {
               "label": "Medium",
               "anchor": "medium"
             },
             {
-              "label": "Men, Dervish",
-              "anchor": "men"
+              "label": "Orc",
+              "anchor": "orc"
             },
             {
-              "label": "Men, Nomad",
-              "anchor": "men"
-            },
-            {
-              "label": "Poltergeist",
-              "anchor": "poltergeist"
+              "label": "Rat, Giant",
+              "anchor": "rat"
             },
             {
               "label": "Rot Grub",
@@ -82,8 +82,8 @@
               "anchor": "spider"
             },
             {
-              "label": "Smoke Mephit",
-              "anchor": "mephit"
+              "label": "Spider, Giant (Black Widow)",
+              "anchor": "spider-giant"
             }
           ]
         }
@@ -94,7 +94,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Dwarf](#dwarf), [Goblin](#goblin), [Insect Swarms](#insect-swarms), [Medium](#medium), [Men, Dervish](#men), [Men, Nomad](#men), [Poltergeist](#poltergeist), [Rot Grub](#rot-grub), [Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Drow (Dark Elf)](#drow-dark-elf), [Elf](#elf), [Gnoll](#gnoll), [Hobgoblin](#hobgoblin), [Kuo-Toa](#kuo-toa), [Neanderthal (Caveman)](#neanderthal-caveman), [Troglodyte](#troglodyte), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Fungi, Violet](#fungi-violet), [Lava Mephit](#mephit), [Shrieker](#shrieker), [Svirfneblin (Deep Gnome)](#svirfneblin-deep-gnome), [Ant, Driver](#ant-driver), [Ghast](#ghast), [Tick, Giant](#tick-giant)",
+          "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Centipede, Giant](#centipede-giant), [Ear Seeker](#ear-seeker), [Goblin](#goblin), [Kobold](#kobold), [Medium](#medium), [Orc](#orc), [Rat, Giant](#rat), [Rot Grub](#rot-grub), [Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Drow (Dark Elf)](#drow-dark-elf), [Elf](#elf), [Gnoll](#gnoll), [Hobgoblin](#hobgoblin), [Kuo-Toa](#kuo-toa), [Neanderthal (Caveman)](#neanderthal-caveman), [Troglodyte](#troglodyte), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Fungi, Violet](#fungi-violet), [Living Statue, Crystal](#living-statue), [Sahuagin](#sahuagin), [Sylph](#sylph), [Ant, Driver](#ant-driver), [Ghast](#ghast), [Tick, Giant](#tick-giant)",
           "links": [
             {
               "label": "Acolyte",
@@ -105,32 +105,32 @@
               "anchor": "bee-killer"
             },
             {
-              "label": "Dwarf",
-              "anchor": "dwarf"
+              "label": "Centipede, Giant",
+              "anchor": "centipede-giant"
+            },
+            {
+              "label": "Ear Seeker",
+              "anchor": "ear-seeker"
             },
             {
               "label": "Goblin",
               "anchor": "goblin"
             },
             {
-              "label": "Insect Swarms",
-              "anchor": "insect-swarms"
+              "label": "Kobold",
+              "anchor": "kobold"
             },
             {
               "label": "Medium",
               "anchor": "medium"
             },
             {
-              "label": "Men, Dervish",
-              "anchor": "men"
+              "label": "Orc",
+              "anchor": "orc"
             },
             {
-              "label": "Men, Nomad",
-              "anchor": "men"
-            },
-            {
-              "label": "Poltergeist",
-              "anchor": "poltergeist"
+              "label": "Rat, Giant",
+              "anchor": "rat"
             },
             {
               "label": "Rot Grub",
@@ -185,16 +185,16 @@
               "anchor": "fungi-violet"
             },
             {
-              "label": "Lava Mephit",
-              "anchor": "mephit"
+              "label": "Living Statue, Crystal",
+              "anchor": "living-statue"
             },
             {
-              "label": "Shrieker",
-              "anchor": "shrieker"
+              "label": "Sahuagin",
+              "anchor": "sahuagin"
             },
             {
-              "label": "Svirfneblin (Deep Gnome)",
-              "anchor": "svirfneblin-deep-gnome"
+              "label": "Sylph",
+              "anchor": "sylph"
             },
             {
               "label": "Ant, Driver",
@@ -217,7 +217,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Dwarf](#dwarf), [Goblin](#goblin), [Insect Swarms](#insect-swarms), [Medium](#medium), [Men, Dervish](#men), [Men, Nomad](#men), [Poltergeist](#poltergeist), [Rot Grub](#rot-grub), [Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Drow (Dark Elf)](#drow-dark-elf), [Elf](#elf), [Gnoll](#gnoll), [Hobgoblin](#hobgoblin), [Kuo-Toa](#kuo-toa), [Neanderthal (Caveman)](#neanderthal-caveman), [Troglodyte](#troglodyte), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Beetle, Giant (Bombardier)](#beetle-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Lava Mephit](#mephit), [Noble](#noble), [Shrieker](#shrieker), [Spider, Giant (Black Widow)](#spider-giant), [Svirfneblin (Deep Gnome)](#svirfneblin-deep-gnome), [Triton](#triton), [Ant, Driver](#ant-driver), [Bugbear](#bugbear), [Githzerai](#githzerai), [Spider, Giant (Tarantella)](#spider-giant), [Water Weird](#water-weird), [Beetle, Giant (Boring)](#beetle-giant), [Living Statue, Rock](#living-statue), [Spider, Giant (Rhagodessa)](#spider-giant)",
+          "raw": "[Acolyte](#acolyte), [Bee, Killer](#bee-killer), [Centipede, Giant](#centipede-giant), [Ear Seeker](#ear-seeker), [Goblin](#goblin), [Kobold](#kobold), [Medium](#medium), [Orc](#orc), [Rat, Giant](#rat), [Rot Grub](#rot-grub), [Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Drow (Dark Elf)](#drow-dark-elf), [Elf](#elf), [Gnoll](#gnoll), [Hobgoblin](#hobgoblin), [Kuo-Toa](#kuo-toa), [Neanderthal (Caveman)](#neanderthal-caveman), [Troglodyte](#troglodyte), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Ant, Giant (Warrior)](#ant-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Living Statue, Crystal](#living-statue), [Noble](#noble), [Sahuagin](#sahuagin), [Spider, Giant (Black Widow)](#spider-giant), [Sylph](#sylph), [Veteran](#veteran), [Ant, Driver](#ant-driver), [Bugbear](#bugbear), [Githzerai](#githzerai), [Spider, Giant (Tarantella)](#spider-giant), [Water Weird](#water-weird), [Beetle, Giant (Boring)](#beetle-giant), [Living Statue, Rock](#living-statue), [Spider, Giant (Rhagodessa)](#spider-giant)",
           "links": [
             {
               "label": "Acolyte",
@@ -228,32 +228,32 @@
               "anchor": "bee-killer"
             },
             {
-              "label": "Dwarf",
-              "anchor": "dwarf"
+              "label": "Centipede, Giant",
+              "anchor": "centipede-giant"
+            },
+            {
+              "label": "Ear Seeker",
+              "anchor": "ear-seeker"
             },
             {
               "label": "Goblin",
               "anchor": "goblin"
             },
             {
-              "label": "Insect Swarms",
-              "anchor": "insect-swarms"
+              "label": "Kobold",
+              "anchor": "kobold"
             },
             {
               "label": "Medium",
               "anchor": "medium"
             },
             {
-              "label": "Men, Dervish",
-              "anchor": "men"
+              "label": "Orc",
+              "anchor": "orc"
             },
             {
-              "label": "Men, Nomad",
-              "anchor": "men"
-            },
-            {
-              "label": "Poltergeist",
-              "anchor": "poltergeist"
+              "label": "Rat, Giant",
+              "anchor": "rat"
             },
             {
               "label": "Rot Grub",
@@ -304,8 +304,8 @@
               "anchor": "animated-armor"
             },
             {
-              "label": "Beetle, Giant (Bombardier)",
-              "anchor": "beetle-giant"
+              "label": "Ant, Giant (Warrior)",
+              "anchor": "ant-giant"
             },
             {
               "label": "Fungi, Violet",
@@ -316,28 +316,28 @@
               "anchor": "gray-ooze"
             },
             {
-              "label": "Lava Mephit",
-              "anchor": "mephit"
+              "label": "Living Statue, Crystal",
+              "anchor": "living-statue"
             },
             {
               "label": "Noble",
               "anchor": "noble"
             },
             {
-              "label": "Shrieker",
-              "anchor": "shrieker"
+              "label": "Sahuagin",
+              "anchor": "sahuagin"
             },
             {
               "label": "Spider, Giant (Black Widow)",
               "anchor": "spider-giant"
             },
             {
-              "label": "Svirfneblin (Deep Gnome)",
-              "anchor": "svirfneblin-deep-gnome"
+              "label": "Sylph",
+              "anchor": "sylph"
             },
             {
-              "label": "Triton",
-              "anchor": "triton"
+              "label": "Veteran",
+              "anchor": "veteran"
             },
             {
               "label": "Ant, Driver",
@@ -380,7 +380,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Drow (Dark Elf)](#drow-dark-elf), [Elf](#elf), [Gnoll](#gnoll), [Hobgoblin](#hobgoblin), [Kuo-Toa](#kuo-toa), [Neanderthal (Caveman)](#neanderthal-caveman), [Troglodyte](#troglodyte), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Beetle, Giant (Bombardier)](#beetle-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Lava Mephit](#mephit), [Noble](#noble), [Shrieker](#shrieker), [Spider, Giant (Black Widow)](#spider-giant), [Svirfneblin (Deep Gnome)](#svirfneblin-deep-gnome), [Triton](#triton), [Ant, Driver](#ant-driver), [Beetle, Giant (Water)](#beetle-giant), [Bugbear](#bugbear), [Ghast](#ghast), [Githzerai](#githzerai), [Scorpion, Giant](#scorpion-giant), [Spider, Giant (Tarantella)](#spider-giant), [Tick, Giant](#tick-giant), [Water Weird](#water-weird), [Werewolf](#werewolf), [Beetle, Giant (Boring)](#beetle-giant), [Githyanki](#githyanki), [Ochre Jelly](#ochre-jelly), [Slithering Tracker](#slithering-tracker), [Wereboar](#wereboar), [Mummy](#mummy), [Ogre Mage](#ogre-mage), [Spectre](#spectre)",
+          "raw": "[Ant, Giant (Worker)](#ant-giant), [Beetle, Giant (Oil)](#beetle-giant), [Drow (Dark Elf)](#drow-dark-elf), [Elf](#elf), [Gnoll](#gnoll), [Hobgoblin](#hobgoblin), [Kuo-Toa](#kuo-toa), [Neanderthal (Caveman)](#neanderthal-caveman), [Troglodyte](#troglodyte), [Yellow Mold](#yellow-mold), [Animated Armor](#animated-armor), [Ant, Giant (Warrior)](#ant-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Living Statue, Crystal](#living-statue), [Noble](#noble), [Sahuagin](#sahuagin), [Spider, Giant (Black Widow)](#spider-giant), [Sylph](#sylph), [Veteran](#veteran), [Ant, Driver](#ant-driver), [Beetle, Giant (Water)](#beetle-giant), [Bugbear](#bugbear), [Ghast](#ghast), [Githzerai](#githzerai), [Scorpion, Giant](#scorpion-giant), [Spider, Giant (Tarantella)](#spider-giant), [Tick, Giant](#tick-giant), [Water Weird](#water-weird), [Werewolf](#werewolf), [Beetle, Giant (Boring)](#beetle-giant), [Githyanki](#githyanki), [Ochre Jelly](#ochre-jelly), [Slithering Tracker](#slithering-tracker), [Wereboar](#wereboar), [Mummy](#mummy), [Ogre Mage](#ogre-mage), [Spectre](#spectre)",
           "links": [
             {
               "label": "Ant, Giant (Worker)",
@@ -427,8 +427,8 @@
               "anchor": "animated-armor"
             },
             {
-              "label": "Beetle, Giant (Bombardier)",
-              "anchor": "beetle-giant"
+              "label": "Ant, Giant (Warrior)",
+              "anchor": "ant-giant"
             },
             {
               "label": "Fungi, Violet",
@@ -439,28 +439,28 @@
               "anchor": "gray-ooze"
             },
             {
-              "label": "Lava Mephit",
-              "anchor": "mephit"
+              "label": "Living Statue, Crystal",
+              "anchor": "living-statue"
             },
             {
               "label": "Noble",
               "anchor": "noble"
             },
             {
-              "label": "Shrieker",
-              "anchor": "shrieker"
+              "label": "Sahuagin",
+              "anchor": "sahuagin"
             },
             {
               "label": "Spider, Giant (Black Widow)",
               "anchor": "spider-giant"
             },
             {
-              "label": "Svirfneblin (Deep Gnome)",
-              "anchor": "svirfneblin-deep-gnome"
+              "label": "Sylph",
+              "anchor": "sylph"
             },
             {
-              "label": "Triton",
-              "anchor": "triton"
+              "label": "Veteran",
+              "anchor": "veteran"
             },
             {
               "label": "Ant, Driver",
@@ -543,15 +543,15 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Animated Armor](#animated-armor), [Beetle, Giant (Bombardier)](#beetle-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Lava Mephit](#mephit), [Noble](#noble), [Shrieker](#shrieker), [Spider, Giant (Black Widow)](#spider-giant), [Svirfneblin (Deep Gnome)](#svirfneblin-deep-gnome), [Triton](#triton), [Ant, Driver](#ant-driver), [Beetle, Giant (Water)](#beetle-giant), [Bugbear](#bugbear), [Ghast](#ghast), [Githzerai](#githzerai), [Scorpion, Giant](#scorpion-giant), [Spider, Giant (Tarantella)](#spider-giant), [Tick, Giant](#tick-giant), [Water Weird](#water-weird), [Werewolf](#werewolf), [Beetle, Giant (Boring)](#beetle-giant), [Giant Spider](#spider), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Satyr](#satyr), [Slithering Tracker](#slithering-tracker), [Spider, Giant (Rhagodessa)](#spider-giant), [Wereboar](#wereboar), [Wererat](#wererat), [Mummy](#mummy), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Phase Spider](#spider), [Spectre](#spectre), [Beetle, Giant (Stag)](#beetle-giant), [Drider](#drider), [Groaning Spirit](#groaning-spirit)",
+          "raw": "[Animated Armor](#animated-armor), [Ant, Giant (Warrior)](#ant-giant), [Fungi, Violet](#fungi-violet), [Gray Ooze](#gray-ooze), [Living Statue, Crystal](#living-statue), [Noble](#noble), [Sahuagin](#sahuagin), [Spider, Giant (Black Widow)](#spider-giant), [Sylph](#sylph), [Veteran](#veteran), [Ant, Driver](#ant-driver), [Beetle, Giant (Water)](#beetle-giant), [Bugbear](#bugbear), [Ghast](#ghast), [Githzerai](#githzerai), [Scorpion, Giant](#scorpion-giant), [Spider, Giant (Tarantella)](#spider-giant), [Tick, Giant](#tick-giant), [Water Weird](#water-weird), [Werewolf](#werewolf), [Beetle, Giant (Boring)](#beetle-giant), [Giant Spider](#spider), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Satyr](#satyr), [Slithering Tracker](#slithering-tracker), [Spider, Giant (Rhagodessa)](#spider-giant), [Wereboar](#wereboar), [Wererat](#wererat), [Mummy](#mummy), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Phase Spider](#spider), [Spectre](#spectre), [Beetle, Giant (Stag)](#beetle-giant), [Drider](#drider), [Groaning Spirit](#groaning-spirit)",
           "links": [
             {
               "label": "Animated Armor",
               "anchor": "animated-armor"
             },
             {
-              "label": "Beetle, Giant (Bombardier)",
-              "anchor": "beetle-giant"
+              "label": "Ant, Giant (Warrior)",
+              "anchor": "ant-giant"
             },
             {
               "label": "Fungi, Violet",
@@ -562,28 +562,28 @@
               "anchor": "gray-ooze"
             },
             {
-              "label": "Lava Mephit",
-              "anchor": "mephit"
+              "label": "Living Statue, Crystal",
+              "anchor": "living-statue"
             },
             {
               "label": "Noble",
               "anchor": "noble"
             },
             {
-              "label": "Shrieker",
-              "anchor": "shrieker"
+              "label": "Sahuagin",
+              "anchor": "sahuagin"
             },
             {
               "label": "Spider, Giant (Black Widow)",
               "anchor": "spider-giant"
             },
             {
-              "label": "Svirfneblin (Deep Gnome)",
-              "anchor": "svirfneblin-deep-gnome"
+              "label": "Sylph",
+              "anchor": "sylph"
             },
             {
-              "label": "Triton",
-              "anchor": "triton"
+              "label": "Veteran",
+              "anchor": "veteran"
             },
             {
               "label": "Ant, Driver",
@@ -849,7 +849,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Beetle, Giant (Boring)](#beetle-giant), [Giant Spider](#spider), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Satyr](#satyr), [Slithering Tracker](#slithering-tracker), [Spider, Giant (Rhagodessa)](#spider-giant), [Wereboar](#wereboar), [Wererat](#wererat), [Mummy](#mummy), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Phase Spider](#spider), [Spectre](#spectre), [Werebear](#werebear), [Beetle, Giant (Stag)](#beetle-giant), [Drider](#drider), [Groaning Spirit](#groaning-spirit), [Wind Walker](#wind-walker), [Djinni](#djinni), [Elemental, Earth](#elemental), [Elemental, Water](#elemental), [Golem, Bone](#golem), [Revenant](#revenant), [Dao](#dao), [Death Knight](#death-knight), [Skeleton Warrior](#skeleton-warrior)",
+          "raw": "[Beetle, Giant (Boring)](#beetle-giant), [Giant Spider](#spider), [Githyanki](#githyanki), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Satyr](#satyr), [Slithering Tracker](#slithering-tracker), [Spider, Giant (Rhagodessa)](#spider-giant), [Wereboar](#wereboar), [Wererat](#wererat), [Mummy](#mummy), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Phase Spider](#spider), [Spectre](#spectre), [Werebear](#werebear), [Beetle, Giant (Stag)](#beetle-giant), [Drider](#drider), [Groaning Spirit](#groaning-spirit), [Wind Walker](#wind-walker), [Djinni](#djinni), [Elemental, Air](#elemental), [Elemental, Fire](#elemental), [Flame Salamander](#salamander), [Golem, Flesh](#golem), [Dao](#dao), [Devil Swine](#devil-swine), [Vampire](#vampire)",
           "links": [
             {
               "label": "Beetle, Giant (Boring)",
@@ -936,32 +936,32 @@
               "anchor": "djinni"
             },
             {
-              "label": "Elemental, Earth",
+              "label": "Elemental, Air",
               "anchor": "elemental"
             },
             {
-              "label": "Elemental, Water",
+              "label": "Elemental, Fire",
               "anchor": "elemental"
             },
             {
-              "label": "Golem, Bone",
+              "label": "Flame Salamander",
+              "anchor": "salamander"
+            },
+            {
+              "label": "Golem, Flesh",
               "anchor": "golem"
-            },
-            {
-              "label": "Revenant",
-              "anchor": "revenant"
             },
             {
               "label": "Dao",
               "anchor": "dao"
             },
             {
-              "label": "Death Knight",
-              "anchor": "death-knight"
+              "label": "Devil Swine",
+              "anchor": "devil-swine"
             },
             {
-              "label": "Skeleton Warrior",
-              "anchor": "skeleton-warrior"
+              "label": "Vampire",
+              "anchor": "vampire"
             }
           ]
         }
@@ -972,7 +972,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Mummy](#mummy), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Phase Spider](#spider), [Spectre](#spectre), [Werebear](#werebear), [Beetle, Giant (Stag)](#beetle-giant), [Drider](#drider), [Groaning Spirit](#groaning-spirit), [Wind Walker](#wind-walker), [Djinni](#djinni), [Elemental, Air](#elemental), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Elemental, Water](#elemental), [Flame Salamander](#salamander), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Revenant](#revenant), [Xorn](#xorn), [Dao](#dao), [Death Knight](#death-knight), [Devil Swine](#devil-swine), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire), [Ant, Giant (Queen)](#ant-giant), [Efreeti](#efreeti), [Golem, Amber](#golem)",
+          "raw": "[Mummy](#mummy), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Phase Spider](#spider), [Spectre](#spectre), [Werebear](#werebear), [Beetle, Giant (Stag)](#beetle-giant), [Drider](#drider), [Groaning Spirit](#groaning-spirit), [Wind Walker](#wind-walker), [Djinni](#djinni), [Elemental, Air](#elemental), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Elemental, Water](#elemental), [Flame Salamander](#salamander), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Xorn](#xorn), [Dao](#dao), [Devil Swine](#devil-swine), [Vampire](#vampire), [Black Pudding](#black-pudding), [Clockwork Armature](#clockwork-armature), [Ghost](#ghost)",
           "links": [
             {
               "label": "Mummy",
@@ -1047,10 +1047,6 @@
               "anchor": "golem"
             },
             {
-              "label": "Revenant",
-              "anchor": "revenant"
-            },
-            {
               "label": "Xorn",
               "anchor": "xorn"
             },
@@ -1059,32 +1055,24 @@
               "anchor": "dao"
             },
             {
-              "label": "Death Knight",
-              "anchor": "death-knight"
-            },
-            {
               "label": "Devil Swine",
               "anchor": "devil-swine"
-            },
-            {
-              "label": "Skeleton Warrior",
-              "anchor": "skeleton-warrior"
             },
             {
               "label": "Vampire",
               "anchor": "vampire"
             },
             {
-              "label": "Ant, Giant (Queen)",
-              "anchor": "ant-giant"
+              "label": "Black Pudding",
+              "anchor": "black-pudding"
             },
             {
-              "label": "Efreeti",
-              "anchor": "efreeti"
+              "label": "Clockwork Armature",
+              "anchor": "clockwork-armature"
             },
             {
-              "label": "Golem, Amber",
-              "anchor": "golem"
+              "label": "Ghost",
+              "anchor": "ghost"
             }
           ]
         }
@@ -1095,7 +1083,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Beetle, Giant (Stag)](#beetle-giant), [Drider](#drider), [Groaning Spirit](#groaning-spirit), [Wind Walker](#wind-walker), [Djinni](#djinni), [Elemental, Air](#elemental), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Elemental, Water](#elemental), [Flame Salamander](#salamander), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Revenant](#revenant), [Xorn](#xorn), [Dao](#dao), [Death Knight](#death-knight), [Devil Swine](#devil-swine), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire), [Ant, Giant (Queen)](#ant-giant), [Black Pudding](#black-pudding), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Golem, Clay](#golem), [Wereshark](#wereshark)",
+          "raw": "[Beetle, Giant (Stag)](#beetle-giant), [Drider](#drider), [Groaning Spirit](#groaning-spirit), [Wind Walker](#wind-walker), [Djinni](#djinni), [Elemental, Air](#elemental), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Elemental, Water](#elemental), [Flame Salamander](#salamander), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Xorn](#xorn), [Dao](#dao), [Devil Swine](#devil-swine), [Vampire](#vampire), [Black Pudding](#black-pudding), [Bodak](#bodak), [Clockwork Armature](#clockwork-armature), [Ghost](#ghost), [Golem, Amber](#golem), [Golem, Clay](#golem)",
           "links": [
             {
               "label": "Beetle, Giant (Stag)",
@@ -1146,10 +1134,6 @@
               "anchor": "golem"
             },
             {
-              "label": "Revenant",
-              "anchor": "revenant"
-            },
-            {
               "label": "Xorn",
               "anchor": "xorn"
             },
@@ -1158,32 +1142,24 @@
               "anchor": "dao"
             },
             {
-              "label": "Death Knight",
-              "anchor": "death-knight"
-            },
-            {
               "label": "Devil Swine",
               "anchor": "devil-swine"
-            },
-            {
-              "label": "Skeleton Warrior",
-              "anchor": "skeleton-warrior"
             },
             {
               "label": "Vampire",
               "anchor": "vampire"
             },
             {
-              "label": "Ant, Giant (Queen)",
-              "anchor": "ant-giant"
-            },
-            {
               "label": "Black Pudding",
               "anchor": "black-pudding"
             },
             {
-              "label": "Efreeti",
-              "anchor": "efreeti"
+              "label": "Bodak",
+              "anchor": "bodak"
+            },
+            {
+              "label": "Clockwork Armature",
+              "anchor": "clockwork-armature"
             },
             {
               "label": "Ghost",
@@ -1196,10 +1172,6 @@
             {
               "label": "Golem, Clay",
               "anchor": "golem"
-            },
-            {
-              "label": "Wereshark",
-              "anchor": "wereshark"
             }
           ]
         }
@@ -1210,7 +1182,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Djinni](#djinni), [Elemental, Air](#elemental), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Elemental, Water](#elemental), [Flame Salamander](#salamander), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Revenant](#revenant), [Xorn](#xorn), [Dao](#dao), [Death Knight](#death-knight), [Devil Swine](#devil-swine), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire), [Ant, Giant (Queen)](#ant-giant), [Black Pudding](#black-pudding), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Golem, Clay](#golem), [Wereshark](#wereshark), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Frost Salamander](#salamander), [Lich](#lich)",
+          "raw": "[Djinni](#djinni), [Elemental, Air](#elemental), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Elemental, Water](#elemental), [Flame Salamander](#salamander), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Xorn](#xorn), [Dao](#dao), [Devil Swine](#devil-swine), [Vampire](#vampire), [Black Pudding](#black-pudding), [Bodak](#bodak), [Clockwork Armature](#clockwork-armature), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Golem, Clay](#golem), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Frost Salamander](#salamander), [Great Orb of Eyes](#great-orb-of-eyes)",
           "links": [
             {
               "label": "Djinni",
@@ -1245,10 +1217,6 @@
               "anchor": "golem"
             },
             {
-              "label": "Revenant",
-              "anchor": "revenant"
-            },
-            {
               "label": "Xorn",
               "anchor": "xorn"
             },
@@ -1257,28 +1225,24 @@
               "anchor": "dao"
             },
             {
-              "label": "Death Knight",
-              "anchor": "death-knight"
-            },
-            {
               "label": "Devil Swine",
               "anchor": "devil-swine"
-            },
-            {
-              "label": "Skeleton Warrior",
-              "anchor": "skeleton-warrior"
             },
             {
               "label": "Vampire",
               "anchor": "vampire"
             },
             {
-              "label": "Ant, Giant (Queen)",
-              "anchor": "ant-giant"
-            },
-            {
               "label": "Black Pudding",
               "anchor": "black-pudding"
+            },
+            {
+              "label": "Bodak",
+              "anchor": "bodak"
+            },
+            {
+              "label": "Clockwork Armature",
+              "anchor": "clockwork-armature"
             },
             {
               "label": "Efreeti",
@@ -1301,10 +1265,6 @@
               "anchor": "golem"
             },
             {
-              "label": "Wereshark",
-              "anchor": "wereshark"
-            },
-            {
               "label": "Beetle, Giant (Rhinoceros)",
               "anchor": "beetle-giant"
             },
@@ -1313,8 +1273,8 @@
               "anchor": "salamander"
             },
             {
-              "label": "Lich",
-              "anchor": "lich"
+              "label": "Great Orb of Eyes",
+              "anchor": "great-orb-of-eyes"
             }
           ]
         }
@@ -1325,35 +1285,31 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Dao](#dao), [Death Knight](#death-knight), [Devil Swine](#devil-swine), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire), [Ant, Giant (Queen)](#ant-giant), [Black Pudding](#black-pudding), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Golem, Clay](#golem), [Wereshark](#wereshark), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Frost Salamander](#salamander), [Lich](#lich)",
+          "raw": "[Dao](#dao), [Devil Swine](#devil-swine), [Vampire](#vampire), [Black Pudding](#black-pudding), [Bodak](#bodak), [Clockwork Armature](#clockwork-armature), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Golem, Clay](#golem), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Frost Salamander](#salamander), [Great Orb of Eyes](#great-orb-of-eyes), [Lich](#lich)",
           "links": [
             {
               "label": "Dao",
               "anchor": "dao"
             },
             {
-              "label": "Death Knight",
-              "anchor": "death-knight"
-            },
-            {
               "label": "Devil Swine",
               "anchor": "devil-swine"
-            },
-            {
-              "label": "Skeleton Warrior",
-              "anchor": "skeleton-warrior"
             },
             {
               "label": "Vampire",
               "anchor": "vampire"
             },
             {
-              "label": "Ant, Giant (Queen)",
-              "anchor": "ant-giant"
-            },
-            {
               "label": "Black Pudding",
               "anchor": "black-pudding"
+            },
+            {
+              "label": "Bodak",
+              "anchor": "bodak"
+            },
+            {
+              "label": "Clockwork Armature",
+              "anchor": "clockwork-armature"
             },
             {
               "label": "Efreeti",
@@ -1376,16 +1332,16 @@
               "anchor": "golem"
             },
             {
-              "label": "Wereshark",
-              "anchor": "wereshark"
-            },
-            {
               "label": "Beetle, Giant (Rhinoceros)",
               "anchor": "beetle-giant"
             },
             {
               "label": "Frost Salamander",
               "anchor": "salamander"
+            },
+            {
+              "label": "Great Orb of Eyes",
+              "anchor": "great-orb-of-eyes"
             },
             {
               "label": "Lich",
@@ -1400,15 +1356,19 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Ant, Giant (Queen)](#ant-giant), [Black Pudding](#black-pudding), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Golem, Clay](#golem), [Wereshark](#wereshark), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Frost Salamander](#salamander), [Lich](#lich)",
+          "raw": "[Black Pudding](#black-pudding), [Bodak](#bodak), [Clockwork Armature](#clockwork-armature), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Golem, Clay](#golem), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Frost Salamander](#salamander), [Great Orb of Eyes](#great-orb-of-eyes), [Lich](#lich)",
           "links": [
-            {
-              "label": "Ant, Giant (Queen)",
-              "anchor": "ant-giant"
-            },
             {
               "label": "Black Pudding",
               "anchor": "black-pudding"
+            },
+            {
+              "label": "Bodak",
+              "anchor": "bodak"
+            },
+            {
+              "label": "Clockwork Armature",
+              "anchor": "clockwork-armature"
             },
             {
               "label": "Efreeti",
@@ -1431,16 +1391,16 @@
               "anchor": "golem"
             },
             {
-              "label": "Wereshark",
-              "anchor": "wereshark"
-            },
-            {
               "label": "Beetle, Giant (Rhinoceros)",
               "anchor": "beetle-giant"
             },
             {
               "label": "Frost Salamander",
               "anchor": "salamander"
+            },
+            {
+              "label": "Great Orb of Eyes",
+              "anchor": "great-orb-of-eyes"
             },
             {
               "label": "Lich",
@@ -1455,15 +1415,11 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Golem, Clay](#golem), [Wereshark](#wereshark), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Frost Salamander](#salamander), [Lich](#lich)",
+          "raw": "[Golem, Clay](#golem), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Frost Salamander](#salamander), [Great Orb of Eyes](#great-orb-of-eyes), [Lich](#lich)",
           "links": [
             {
               "label": "Golem, Clay",
               "anchor": "golem"
-            },
-            {
-              "label": "Wereshark",
-              "anchor": "wereshark"
             },
             {
               "label": "Beetle, Giant (Rhinoceros)",
@@ -1472,6 +1428,10 @@
             {
               "label": "Frost Salamander",
               "anchor": "salamander"
+            },
+            {
+              "label": "Great Orb of Eyes",
+              "anchor": "great-orb-of-eyes"
             },
             {
               "label": "Lich",
@@ -1486,7 +1446,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Beetle, Giant (Rhinoceros)](#beetle-giant), [Frost Salamander](#salamander), [Lich](#lich), [Aerial Servant](#aerial-servant)",
+          "raw": "[Beetle, Giant (Rhinoceros)](#beetle-giant), [Frost Salamander](#salamander), [Great Orb of Eyes](#great-orb-of-eyes), [Lich](#lich), [Aerial Servant](#aerial-servant)",
           "links": [
             {
               "label": "Beetle, Giant (Rhinoceros)",
@@ -1495,6 +1455,10 @@
             {
               "label": "Frost Salamander",
               "anchor": "salamander"
+            },
+            {
+              "label": "Great Orb of Eyes",
+              "anchor": "great-orb-of-eyes"
             },
             {
               "label": "Lich",
@@ -1513,11 +1477,35 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Aerial Servant](#aerial-servant)",
+          "raw": "[Beetle, Giant (Rhinoceros)](#beetle-giant), [Frost Salamander](#salamander), [Great Orb of Eyes](#great-orb-of-eyes), [Lich](#lich), [Aerial Servant](#aerial-servant), [Celestial, Arbiter](#celestial-arbiter), [Delver](#delver)",
           "links": [
+            {
+              "label": "Beetle, Giant (Rhinoceros)",
+              "anchor": "beetle-giant"
+            },
+            {
+              "label": "Frost Salamander",
+              "anchor": "salamander"
+            },
+            {
+              "label": "Great Orb of Eyes",
+              "anchor": "great-orb-of-eyes"
+            },
+            {
+              "label": "Lich",
+              "anchor": "lich"
+            },
             {
               "label": "Aerial Servant",
               "anchor": "aerial-servant"
+            },
+            {
+              "label": "Celestial, Arbiter",
+              "anchor": "celestial-arbiter"
+            },
+            {
+              "label": "Delver",
+              "anchor": "delver"
             }
           ]
         }
@@ -1528,11 +1516,19 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Aerial Servant](#aerial-servant)",
+          "raw": "[Aerial Servant](#aerial-servant), [Celestial, Arbiter](#celestial-arbiter), [Delver](#delver)",
           "links": [
             {
               "label": "Aerial Servant",
               "anchor": "aerial-servant"
+            },
+            {
+              "label": "Celestial, Arbiter",
+              "anchor": "celestial-arbiter"
+            },
+            {
+              "label": "Delver",
+              "anchor": "delver"
             }
           ]
         }
@@ -1543,11 +1539,19 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Aerial Servant](#aerial-servant)",
+          "raw": "[Aerial Servant](#aerial-servant), [Celestial, Arbiter](#celestial-arbiter), [Delver](#delver)",
           "links": [
             {
               "label": "Aerial Servant",
               "anchor": "aerial-servant"
+            },
+            {
+              "label": "Celestial, Arbiter",
+              "anchor": "celestial-arbiter"
+            },
+            {
+              "label": "Delver",
+              "anchor": "delver"
             }
           ]
         }
@@ -1558,11 +1562,19 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Aerial Servant](#aerial-servant), [Demilich](#demilich), [Golem, Bronze](#golem)",
+          "raw": "[Aerial Servant](#aerial-servant), [Celestial, Arbiter](#celestial-arbiter), [Delver](#delver), [Demilich](#demilich), [Golem, Bronze](#golem)",
           "links": [
             {
               "label": "Aerial Servant",
               "anchor": "aerial-servant"
+            },
+            {
+              "label": "Celestial, Arbiter",
+              "anchor": "celestial-arbiter"
+            },
+            {
+              "label": "Delver",
+              "anchor": "delver"
             },
             {
               "label": "Demilich",
@@ -1581,8 +1593,16 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Demilich](#demilich), [Golem, Bronze](#golem)",
+          "raw": "[Celestial, Arbiter](#celestial-arbiter), [Delver](#delver), [Demilich](#demilich), [Golem, Bronze](#golem)",
           "links": [
+            {
+              "label": "Celestial, Arbiter",
+              "anchor": "celestial-arbiter"
+            },
+            {
+              "label": "Delver",
+              "anchor": "delver"
+            },
             {
               "label": "Demilich",
               "anchor": "demilich"
@@ -1600,8 +1620,16 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Demilich](#demilich), [Golem, Bronze](#golem)",
+          "raw": "[Celestial, Arbiter](#celestial-arbiter), [Delver](#delver), [Demilich](#demilich), [Golem, Bronze](#golem)",
           "links": [
+            {
+              "label": "Celestial, Arbiter",
+              "anchor": "celestial-arbiter"
+            },
+            {
+              "label": "Delver",
+              "anchor": "delver"
+            },
             {
               "label": "Demilich",
               "anchor": "demilich"
@@ -2516,7 +2544,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Displacer Beast](#displacer-beast), [Dragon, White](#dragon), [Myconid (Fungus Man)](#myconid-fungus-man), [Phase Spider](#spider), [Basilisk](#basilisk), [Bear, Cave](#bear-cave), [Beetle, Giant (Stag)](#beetle-giant), [Dragon, Black](#dragon), [Drider](#drider), [Manticore](#manticore), [Wyvern](#wyvern), [Dragon, Green](#dragon), [Gorgon](#gorgon), [Hill Giant](#giant), [Bulette](#bulette), [Chimera](#chimera), [Dragon, Blue](#dragon), [Stone Giant](#giant), [Umber Hulk](#umber-hulk), [Ant, Giant (Queen)](#ant-giant), [Dragon, Red](#dragon), [Ettin](#ettin)",
+          "raw": "[Displacer Beast](#displacer-beast), [Dragon, White](#dragon), [Myconid (Fungus Man)](#myconid-fungus-man), [Phase Spider](#spider), [Basilisk](#basilisk), [Bear, Cave](#bear-cave), [Beetle, Giant (Stag)](#beetle-giant), [Dragon, Black](#dragon), [Drider](#drider), [Manticore](#manticore), [Wyvern](#wyvern), [Dragon, Green](#dragon), [Gorgon](#gorgon), [Hill Giant](#giant), [Bulette](#bulette), [Chimera](#chimera), [Dragon, Blue](#dragon), [Stone Giant](#giant), [Umber Hulk](#umber-hulk), [Basilisk, Greater](#basilisk-greater), [Dragon, Red](#dragon), [Gray Render](#gray-render)",
           "links": [
             {
               "label": "Displacer Beast",
@@ -2595,16 +2623,16 @@
               "anchor": "umber-hulk"
             },
             {
-              "label": "Ant, Giant (Queen)",
-              "anchor": "ant-giant"
+              "label": "Basilisk, Greater",
+              "anchor": "basilisk-greater"
             },
             {
               "label": "Dragon, Red",
               "anchor": "dragon"
             },
             {
-              "label": "Ettin",
-              "anchor": "ettin"
+              "label": "Gray Render",
+              "anchor": "gray-render"
             }
           ]
         }
@@ -2615,7 +2643,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Basilisk](#basilisk), [Bear, Cave](#bear-cave), [Beetle, Giant (Stag)](#beetle-giant), [Dragon, Black](#dragon), [Drider](#drider), [Manticore](#manticore), [Wyvern](#wyvern), [Dragon, Green](#dragon), [Gorgon](#gorgon), [Hill Giant](#giant), [Bulette](#bulette), [Chimera](#chimera), [Dragon, Blue](#dragon), [Stone Giant](#giant), [Umber Hulk](#umber-hulk), [Ant, Giant (Queen)](#ant-giant), [Dragon, Red](#dragon), [Ettin](#ettin), [Lurker Above](#lurker-above), [Dragon, Gold](#dragon), [Frost Giant](#giant)",
+          "raw": "[Basilisk](#basilisk), [Bear, Cave](#bear-cave), [Beetle, Giant (Stag)](#beetle-giant), [Dragon, Black](#dragon), [Drider](#drider), [Manticore](#manticore), [Wyvern](#wyvern), [Dragon, Green](#dragon), [Gorgon](#gorgon), [Hill Giant](#giant), [Bulette](#bulette), [Chimera](#chimera), [Dragon, Blue](#dragon), [Stone Giant](#giant), [Umber Hulk](#umber-hulk), [Basilisk, Greater](#basilisk-greater), [Dragon, Red](#dragon), [Ettin](#ettin), [Gray Render](#gray-render), [Lurker Above](#lurker-above), [Dragon, Gold](#dragon), [Frost Giant](#giant)",
           "links": [
             {
               "label": "Basilisk",
@@ -2678,8 +2706,8 @@
               "anchor": "umber-hulk"
             },
             {
-              "label": "Ant, Giant (Queen)",
-              "anchor": "ant-giant"
+              "label": "Basilisk, Greater",
+              "anchor": "basilisk-greater"
             },
             {
               "label": "Dragon, Red",
@@ -2688,6 +2716,10 @@
             {
               "label": "Ettin",
               "anchor": "ettin"
+            },
+            {
+              "label": "Gray Render",
+              "anchor": "gray-render"
             },
             {
               "label": "Lurker Above",
@@ -2710,7 +2742,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Dragon, Green](#dragon), [Gorgon](#gorgon), [Hill Giant](#giant), [Bulette](#bulette), [Chimera](#chimera), [Dragon, Blue](#dragon), [Stone Giant](#giant), [Umber Hulk](#umber-hulk), [Ant, Giant (Queen)](#ant-giant), [Dragon, Red](#dragon), [Ettin](#ettin), [Lurker Above](#lurker-above), [Dragon, Gold](#dragon), [Frost Giant](#giant), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Fire Giant](#giant), [Roper](#roper)",
+          "raw": "[Dragon, Green](#dragon), [Gorgon](#gorgon), [Hill Giant](#giant), [Bulette](#bulette), [Chimera](#chimera), [Dragon, Blue](#dragon), [Stone Giant](#giant), [Umber Hulk](#umber-hulk), [Basilisk, Greater](#basilisk-greater), [Dragon, Red](#dragon), [Ettin](#ettin), [Gray Render](#gray-render), [Lurker Above](#lurker-above), [Dragon, Gold](#dragon), [Frost Giant](#giant), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Fire Giant](#giant), [Roper](#roper)",
           "links": [
             {
               "label": "Dragon, Green",
@@ -2745,8 +2777,8 @@
               "anchor": "umber-hulk"
             },
             {
-              "label": "Ant, Giant (Queen)",
-              "anchor": "ant-giant"
+              "label": "Basilisk, Greater",
+              "anchor": "basilisk-greater"
             },
             {
               "label": "Dragon, Red",
@@ -2755,6 +2787,10 @@
             {
               "label": "Ettin",
               "anchor": "ettin"
+            },
+            {
+              "label": "Gray Render",
+              "anchor": "gray-render"
             },
             {
               "label": "Lurker Above",
@@ -2789,7 +2825,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Bulette](#bulette), [Chimera](#chimera), [Dragon, Blue](#dragon), [Stone Giant](#giant), [Umber Hulk](#umber-hulk), [Ant, Giant (Queen)](#ant-giant), [Dragon, Red](#dragon), [Ettin](#ettin), [Lurker Above](#lurker-above), [Dragon, Gold](#dragon), [Frost Giant](#giant), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Fire Giant](#giant), [Roper](#roper), [Trapper](#trapper), [Cloud Giant](#giant), [Cyclops](#cyclops)",
+          "raw": "[Bulette](#bulette), [Chimera](#chimera), [Dragon, Blue](#dragon), [Stone Giant](#giant), [Umber Hulk](#umber-hulk), [Basilisk, Greater](#basilisk-greater), [Dragon, Red](#dragon), [Ettin](#ettin), [Gray Render](#gray-render), [Lurker Above](#lurker-above), [Dragon, Gold](#dragon), [Frost Giant](#giant), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Fire Giant](#giant), [Roper](#roper), [Trapper](#trapper), [Cloud Giant](#giant), [Cyclops](#cyclops)",
           "links": [
             {
               "label": "Bulette",
@@ -2812,8 +2848,8 @@
               "anchor": "umber-hulk"
             },
             {
-              "label": "Ant, Giant (Queen)",
-              "anchor": "ant-giant"
+              "label": "Basilisk, Greater",
+              "anchor": "basilisk-greater"
             },
             {
               "label": "Dragon, Red",
@@ -2822,6 +2858,10 @@
             {
               "label": "Ettin",
               "anchor": "ettin"
+            },
+            {
+              "label": "Gray Render",
+              "anchor": "gray-render"
             },
             {
               "label": "Lurker Above",
@@ -2868,11 +2908,11 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Ant, Giant (Queen)](#ant-giant), [Dragon, Red](#dragon), [Ettin](#ettin), [Lurker Above](#lurker-above), [Dragon, Gold](#dragon), [Frost Giant](#giant), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Fire Giant](#giant), [Roper](#roper), [Trapper](#trapper), [Cloud Giant](#giant), [Cyclops](#cyclops)",
+          "raw": "[Basilisk, Greater](#basilisk-greater), [Dragon, Red](#dragon), [Ettin](#ettin), [Gray Render](#gray-render), [Lurker Above](#lurker-above), [Dragon, Gold](#dragon), [Frost Giant](#giant), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Fire Giant](#giant), [Roper](#roper), [Trapper](#trapper), [Cloud Giant](#giant), [Cyclops](#cyclops), [Giant, Sand](#giant)",
           "links": [
             {
-              "label": "Ant, Giant (Queen)",
-              "anchor": "ant-giant"
+              "label": "Basilisk, Greater",
+              "anchor": "basilisk-greater"
             },
             {
               "label": "Dragon, Red",
@@ -2881,6 +2921,10 @@
             {
               "label": "Ettin",
               "anchor": "ettin"
+            },
+            {
+              "label": "Gray Render",
+              "anchor": "gray-render"
             },
             {
               "label": "Lurker Above",
@@ -2917,6 +2961,10 @@
             {
               "label": "Cyclops",
               "anchor": "cyclops"
+            },
+            {
+              "label": "Giant, Sand",
+              "anchor": "giant"
             }
           ]
         }
@@ -2927,7 +2975,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Dragon, Gold](#dragon), [Frost Giant](#giant), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Fire Giant](#giant), [Roper](#roper), [Trapper](#trapper), [Cloud Giant](#giant), [Cyclops](#cyclops), [Purple Worm](#purple-worm), [Storm Giant](#giant)",
+          "raw": "[Dragon, Gold](#dragon), [Frost Giant](#giant), [Beetle, Giant (Rhinoceros)](#beetle-giant), [Fire Giant](#giant), [Roper](#roper), [Trapper](#trapper), [Cloud Giant](#giant), [Cyclops](#cyclops), [Giant, Sand](#giant), [Purple Worm](#purple-worm), [Storm Giant](#giant)",
           "links": [
             {
               "label": "Dragon, Gold",
@@ -2962,6 +3010,10 @@
               "anchor": "cyclops"
             },
             {
+              "label": "Giant, Sand",
+              "anchor": "giant"
+            },
+            {
               "label": "Purple Worm",
               "anchor": "purple-worm"
             },
@@ -2978,7 +3030,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Beetle, Giant (Rhinoceros)](#beetle-giant), [Fire Giant](#giant), [Roper](#roper), [Trapper](#trapper), [Cloud Giant](#giant), [Cyclops](#cyclops), [Purple Worm](#purple-worm), [Storm Giant](#giant)",
+          "raw": "[Beetle, Giant (Rhinoceros)](#beetle-giant), [Fire Giant](#giant), [Roper](#roper), [Trapper](#trapper), [Cloud Giant](#giant), [Cyclops](#cyclops), [Giant, Sand](#giant), [Purple Worm](#purple-worm), [Storm Giant](#giant)",
           "links": [
             {
               "label": "Beetle, Giant (Rhinoceros)",
@@ -3005,6 +3057,10 @@
               "anchor": "cyclops"
             },
             {
+              "label": "Giant, Sand",
+              "anchor": "giant"
+            },
+            {
               "label": "Purple Worm",
               "anchor": "purple-worm"
             },
@@ -3021,7 +3077,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Cloud Giant](#giant), [Cyclops](#cyclops), [Purple Worm](#purple-worm), [Storm Giant](#giant)",
+          "raw": "[Cloud Giant](#giant), [Cyclops](#cyclops), [Giant, Sand](#giant), [Purple Worm](#purple-worm), [Storm Giant](#giant)",
           "links": [
             {
               "label": "Cloud Giant",
@@ -3030,6 +3086,10 @@
             {
               "label": "Cyclops",
               "anchor": "cyclops"
+            },
+            {
+              "label": "Giant, Sand",
+              "anchor": "giant"
             },
             {
               "label": "Purple Worm",
@@ -3048,8 +3108,12 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Purple Worm](#purple-worm), [Storm Giant](#giant)",
+          "raw": "[Giant, Sand](#giant), [Purple Worm](#purple-worm), [Storm Giant](#giant), [Delver](#delver)",
           "links": [
+            {
+              "label": "Giant, Sand",
+              "anchor": "giant"
+            },
             {
               "label": "Purple Worm",
               "anchor": "purple-worm"
@@ -3057,6 +3121,10 @@
             {
               "label": "Storm Giant",
               "anchor": "giant"
+            },
+            {
+              "label": "Delver",
+              "anchor": "delver"
             }
           ]
         }
@@ -3067,7 +3135,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Purple Worm](#purple-worm), [Storm Giant](#giant)",
+          "raw": "[Purple Worm](#purple-worm), [Storm Giant](#giant), [Delver](#delver)",
           "links": [
             {
               "label": "Purple Worm",
@@ -3076,6 +3144,10 @@
             {
               "label": "Storm Giant",
               "anchor": "giant"
+            },
+            {
+              "label": "Delver",
+              "anchor": "delver"
             }
           ]
         }
@@ -3086,12 +3158,8 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Cloud Giant](#giant), [Purple Worm](#purple-worm), [Storm Giant](#giant) *(as Level 13/15)*",
+          "raw": "[Purple Worm](#purple-worm), [Storm Giant](#giant), [Delver](#delver)",
           "links": [
-            {
-              "label": "Cloud Giant",
-              "anchor": "giant"
-            },
             {
               "label": "Purple Worm",
               "anchor": "purple-worm"
@@ -3099,6 +3167,10 @@
             {
               "label": "Storm Giant",
               "anchor": "giant"
+            },
+            {
+              "label": "Delver",
+              "anchor": "delver"
             }
           ]
         }
@@ -3109,12 +3181,8 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Cloud Giant](#giant), [Purple Worm](#purple-worm), [Storm Giant](#giant) *(as Level 13/15)*",
+          "raw": "[Purple Worm](#purple-worm), [Storm Giant](#giant), [Delver](#delver)",
           "links": [
-            {
-              "label": "Cloud Giant",
-              "anchor": "giant"
-            },
             {
               "label": "Purple Worm",
               "anchor": "purple-worm"
@@ -3122,6 +3190,10 @@
             {
               "label": "Storm Giant",
               "anchor": "giant"
+            },
+            {
+              "label": "Delver",
+              "anchor": "delver"
             }
           ]
         }
@@ -3132,19 +3204,11 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Cloud Giant](#giant), [Purple Worm](#purple-worm), [Storm Giant](#giant) *(as Level 13/15)*",
+          "raw": "[Delver](#delver)",
           "links": [
             {
-              "label": "Cloud Giant",
-              "anchor": "giant"
-            },
-            {
-              "label": "Purple Worm",
-              "anchor": "purple-worm"
-            },
-            {
-              "label": "Storm Giant",
-              "anchor": "giant"
+              "label": "Delver",
+              "anchor": "delver"
             }
           ]
         }
@@ -3346,7 +3410,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Ghast](#ghast), [Wraith](#wraith), [Mummy](#mummy), [Spectre](#spectre), [Groaning Spirit](#groaning-spirit), [Revenant](#revenant)",
+          "raw": "[Ghast](#ghast), [Wraith](#wraith), [Mummy](#mummy), [Spectre](#spectre), [Groaning Spirit](#groaning-spirit)",
           "links": [
             {
               "label": "Ghast",
@@ -3367,10 +3431,6 @@
             {
               "label": "Groaning Spirit",
               "anchor": "groaning-spirit"
-            },
-            {
-              "label": "Revenant",
-              "anchor": "revenant"
             }
           ]
         }
@@ -3381,7 +3441,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Mummy](#mummy), [Spectre](#spectre), [Groaning Spirit](#groaning-spirit), [Revenant](#revenant), [Death Knight](#death-knight), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire)",
+          "raw": "[Mummy](#mummy), [Spectre](#spectre), [Groaning Spirit](#groaning-spirit), [Vampire](#vampire)",
           "links": [
             {
               "label": "Mummy",
@@ -3394,18 +3454,6 @@
             {
               "label": "Groaning Spirit",
               "anchor": "groaning-spirit"
-            },
-            {
-              "label": "Revenant",
-              "anchor": "revenant"
-            },
-            {
-              "label": "Death Knight",
-              "anchor": "death-knight"
-            },
-            {
-              "label": "Skeleton Warrior",
-              "anchor": "skeleton-warrior"
             },
             {
               "label": "Vampire",
@@ -3420,7 +3468,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Mummy](#mummy), [Spectre](#spectre), [Groaning Spirit](#groaning-spirit), [Revenant](#revenant), [Death Knight](#death-knight), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire), [Ghost](#ghost)",
+          "raw": "[Mummy](#mummy), [Spectre](#spectre), [Groaning Spirit](#groaning-spirit), [Vampire](#vampire), [Ghost](#ghost)",
           "links": [
             {
               "label": "Mummy",
@@ -3433,18 +3481,6 @@
             {
               "label": "Groaning Spirit",
               "anchor": "groaning-spirit"
-            },
-            {
-              "label": "Revenant",
-              "anchor": "revenant"
-            },
-            {
-              "label": "Death Knight",
-              "anchor": "death-knight"
-            },
-            {
-              "label": "Skeleton Warrior",
-              "anchor": "skeleton-warrior"
             },
             {
               "label": "Vampire",
@@ -3463,23 +3499,11 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Groaning Spirit](#groaning-spirit), [Revenant](#revenant), [Death Knight](#death-knight), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire), [Ghost](#ghost)",
+          "raw": "[Groaning Spirit](#groaning-spirit), [Vampire](#vampire), [Ghost](#ghost)",
           "links": [
             {
               "label": "Groaning Spirit",
               "anchor": "groaning-spirit"
-            },
-            {
-              "label": "Revenant",
-              "anchor": "revenant"
-            },
-            {
-              "label": "Death Knight",
-              "anchor": "death-knight"
-            },
-            {
-              "label": "Skeleton Warrior",
-              "anchor": "skeleton-warrior"
             },
             {
               "label": "Vampire",
@@ -3498,20 +3522,8 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Revenant](#revenant), [Death Knight](#death-knight), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire), [Ghost](#ghost), [Lich](#lich)",
+          "raw": "[Vampire](#vampire), [Ghost](#ghost), [Lich](#lich)",
           "links": [
-            {
-              "label": "Revenant",
-              "anchor": "revenant"
-            },
-            {
-              "label": "Death Knight",
-              "anchor": "death-knight"
-            },
-            {
-              "label": "Skeleton Warrior",
-              "anchor": "skeleton-warrior"
-            },
             {
               "label": "Vampire",
               "anchor": "vampire"
@@ -3533,16 +3545,8 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Death Knight](#death-knight), [Skeleton Warrior](#skeleton-warrior), [Vampire](#vampire), [Ghost](#ghost), [Lich](#lich)",
+          "raw": "[Vampire](#vampire), [Ghost](#ghost), [Lich](#lich)",
           "links": [
-            {
-              "label": "Death Knight",
-              "anchor": "death-knight"
-            },
-            {
-              "label": "Skeleton Warrior",
-              "anchor": "skeleton-warrior"
-            },
             {
               "label": "Vampire",
               "anchor": "vampire"
@@ -3564,7 +3568,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Ghost](#ghost), [Lich](#lich)",
+          "raw": "[Ghost](#ghost), [Lich](#lich), [Black Knight](#black-knight), [Mohrg](#mohrg)",
           "links": [
             {
               "label": "Ghost",
@@ -3573,6 +3577,14 @@
             {
               "label": "Lich",
               "anchor": "lich"
+            },
+            {
+              "label": "Black Knight",
+              "anchor": "black-knight"
+            },
+            {
+              "label": "Mohrg",
+              "anchor": "mohrg"
             }
           ]
         }
@@ -3583,11 +3595,19 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Lich](#lich)",
+          "raw": "[Lich](#lich), [Black Knight](#black-knight), [Mohrg](#mohrg)",
           "links": [
             {
               "label": "Lich",
               "anchor": "lich"
+            },
+            {
+              "label": "Black Knight",
+              "anchor": "black-knight"
+            },
+            {
+              "label": "Mohrg",
+              "anchor": "mohrg"
             }
           ]
         }
@@ -3598,11 +3618,19 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Lich](#lich)",
+          "raw": "[Lich](#lich), [Black Knight](#black-knight), [Mohrg](#mohrg)",
           "links": [
             {
               "label": "Lich",
               "anchor": "lich"
+            },
+            {
+              "label": "Black Knight",
+              "anchor": "black-knight"
+            },
+            {
+              "label": "Mohrg",
+              "anchor": "mohrg"
             }
           ]
         }
@@ -3613,19 +3641,15 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Ghost](#ghost), [Lich](#lich), [Demilich](#demilich) *(as Level 10/12/20)*",
+          "raw": "[Black Knight](#black-knight), [Mohrg](#mohrg)",
           "links": [
             {
-              "label": "Ghost",
-              "anchor": "ghost"
+              "label": "Black Knight",
+              "anchor": "black-knight"
             },
             {
-              "label": "Lich",
-              "anchor": "lich"
-            },
-            {
-              "label": "Demilich",
-              "anchor": "demilich"
+              "label": "Mohrg",
+              "anchor": "mohrg"
             }
           ]
         }
@@ -3636,19 +3660,15 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Ghost](#ghost), [Lich](#lich), [Demilich](#demilich) *(as Level 10/12/20)*",
+          "raw": "[Black Knight](#black-knight), [Mohrg](#mohrg)",
           "links": [
             {
-              "label": "Ghost",
-              "anchor": "ghost"
+              "label": "Black Knight",
+              "anchor": "black-knight"
             },
             {
-              "label": "Lich",
-              "anchor": "lich"
-            },
-            {
-              "label": "Demilich",
-              "anchor": "demilich"
+              "label": "Mohrg",
+              "anchor": "mohrg"
             }
           ]
         }
@@ -3659,15 +3679,15 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Ghost](#ghost), [Lich](#lich), [Demilich](#demilich) *(as Level 10/12/20)*",
+          "raw": "[Black Knight](#black-knight), [Mohrg](#mohrg), [Demilich](#demilich) *(as Level 14/20)*",
           "links": [
             {
-              "label": "Ghost",
-              "anchor": "ghost"
+              "label": "Black Knight",
+              "anchor": "black-knight"
             },
             {
-              "label": "Lich",
-              "anchor": "lich"
+              "label": "Mohrg",
+              "anchor": "mohrg"
             },
             {
               "label": "Demilich",
@@ -3682,8 +3702,16 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Demilich](#demilich)",
+          "raw": "[Black Knight](#black-knight), [Mohrg](#mohrg), [Demilich](#demilich)",
           "links": [
+            {
+              "label": "Black Knight",
+              "anchor": "black-knight"
+            },
+            {
+              "label": "Mohrg",
+              "anchor": "mohrg"
+            },
             {
               "label": "Demilich",
               "anchor": "demilich"
@@ -3735,15 +3763,11 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Brown Mold](#mold), [Cerebral Parasite](#cerebral-parasite), [Larva](#larva), [Manes](#manes), [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Lava Mephit](#mephit), [Smoke Mephit](#mephit)",
+          "raw": "[Brown Mold](#mold), [Larva](#larva), [Manes](#manes), [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Lemure](#lemure), [Sylph](#sylph)",
           "links": [
             {
               "label": "Brown Mold",
               "anchor": "mold"
-            },
-            {
-              "label": "Cerebral Parasite",
-              "anchor": "cerebral-parasite"
             },
             {
               "label": "Larva",
@@ -3786,12 +3810,12 @@
               "anchor": "animated-armor"
             },
             {
-              "label": "Lava Mephit",
-              "anchor": "mephit"
+              "label": "Lemure",
+              "anchor": "lemure"
             },
             {
-              "label": "Smoke Mephit",
-              "anchor": "mephit"
+              "label": "Sylph",
+              "anchor": "sylph"
             }
           ]
         }
@@ -3802,15 +3826,11 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Brown Mold](#mold), [Cerebral Parasite](#cerebral-parasite), [Larva](#larva), [Manes](#manes), [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Gray Ooze](#gray-ooze), [Lemure](#lemure), [Shadow](#shadow), [Sylph](#sylph), [Doppelganger](#doppelganger), [Gelatinous Cube](#gelatinous-cube), [Medusa](#medusa)",
+          "raw": "[Brown Mold](#mold), [Larva](#larva), [Manes](#manes), [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Gray Ooze](#gray-ooze), [Lemure](#lemure), [Shadow](#shadow), [Thought Eater](#thought-eater), [Doppelganger](#doppelganger), [Gelatinous Cube](#gelatinous-cube), [Medusa](#medusa)",
           "links": [
             {
               "label": "Brown Mold",
               "anchor": "mold"
-            },
-            {
-              "label": "Cerebral Parasite",
-              "anchor": "cerebral-parasite"
             },
             {
               "label": "Larva",
@@ -3865,8 +3885,8 @@
               "anchor": "shadow"
             },
             {
-              "label": "Sylph",
-              "anchor": "sylph"
+              "label": "Thought Eater",
+              "anchor": "thought-eater"
             },
             {
               "label": "Doppelganger",
@@ -3889,15 +3909,11 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Brown Mold](#mold), [Cerebral Parasite](#cerebral-parasite), [Larva](#larva), [Manes](#manes), [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Fire Mephit](#mephit), [Gray Ooze](#gray-ooze), [Imp](#imp), [Lemure](#lemure), [Quasit](#quasit), [Shadow](#shadow), [Steam Mephit](#mephit), [Sylph](#sylph), [Thoul](#thoul), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Medusa](#medusa), [Water Weird](#water-weird), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Rust Monster](#rust-monster)",
+          "raw": "[Brown Mold](#mold), [Larva](#larva), [Manes](#manes), [Poltergeist](#poltergeist), [Skeleton](#skeleton), [Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Golem, Wood](#golem), [Gray Ooze](#gray-ooze), [Imp](#imp), [Lemure](#lemure), [Quasit](#quasit), [Shadow](#shadow), [Sylph](#sylph), [Thought Eater](#thought-eater), [Thoul](#thoul), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Medusa](#medusa), [Water Weird](#water-weird), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Rust Monster](#rust-monster)",
           "links": [
             {
               "label": "Brown Mold",
               "anchor": "mold"
-            },
-            {
-              "label": "Cerebral Parasite",
-              "anchor": "cerebral-parasite"
             },
             {
               "label": "Larva",
@@ -3940,8 +3956,8 @@
               "anchor": "animated-armor"
             },
             {
-              "label": "Fire Mephit",
-              "anchor": "mephit"
+              "label": "Golem, Wood",
+              "anchor": "golem"
             },
             {
               "label": "Gray Ooze",
@@ -3964,12 +3980,12 @@
               "anchor": "shadow"
             },
             {
-              "label": "Steam Mephit",
-              "anchor": "mephit"
-            },
-            {
               "label": "Sylph",
               "anchor": "sylph"
+            },
+            {
+              "label": "Thought Eater",
+              "anchor": "thought-eater"
             },
             {
               "label": "Thoul",
@@ -4016,7 +4032,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Fire Mephit](#mephit), [Gray Ooze](#gray-ooze), [Imp](#imp), [Lemure](#lemure), [Quasit](#quasit), [Shadow](#shadow), [Steam Mephit](#mephit), [Sylph](#sylph), [Thoul](#thoul), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Myconid (Fungus Man)](#myconid-fungus-man), [Spectre](#spectre)",
+          "raw": "[Green Slime](#green-slime), [Homunculus](#homunculus), [Yellow Mold](#mold), [Yellow Mold](#yellow-mold), [Zombie](#zombie), [Animated Armor](#animated-armor), [Golem, Wood](#golem), [Gray Ooze](#gray-ooze), [Imp](#imp), [Lemure](#lemure), [Quasit](#quasit), [Shadow](#shadow), [Sylph](#sylph), [Thought Eater](#thought-eater), [Thoul](#thoul), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Myconid (Fungus Man)](#myconid-fungus-man), [Spectre](#spectre)",
           "links": [
             {
               "label": "Green Slime",
@@ -4043,8 +4059,8 @@
               "anchor": "animated-armor"
             },
             {
-              "label": "Fire Mephit",
-              "anchor": "mephit"
+              "label": "Golem, Wood",
+              "anchor": "golem"
             },
             {
               "label": "Gray Ooze",
@@ -4067,12 +4083,12 @@
               "anchor": "shadow"
             },
             {
-              "label": "Steam Mephit",
-              "anchor": "mephit"
-            },
-            {
               "label": "Sylph",
               "anchor": "sylph"
+            },
+            {
+              "label": "Thought Eater",
+              "anchor": "thought-eater"
             },
             {
               "label": "Thoul",
@@ -4147,15 +4163,15 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Animated Armor](#animated-armor), [Fire Mephit](#mephit), [Gray Ooze](#gray-ooze), [Imp](#imp), [Lemure](#lemure), [Quasit](#quasit), [Shadow](#shadow), [Steam Mephit](#mephit), [Sylph](#sylph), [Thoul](#thoul), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Erinyes](#erinyes), [Intellect Devourer](#intellect-devourer), [Rakshasa](#rakshasa)",
+          "raw": "[Animated Armor](#animated-armor), [Golem, Wood](#golem), [Gray Ooze](#gray-ooze), [Imp](#imp), [Lemure](#lemure), [Quasit](#quasit), [Shadow](#shadow), [Sylph](#sylph), [Thought Eater](#thought-eater), [Thoul](#thoul), [Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Erinyes](#erinyes), [Intellect Devourer](#intellect-devourer), [Rakshasa](#rakshasa)",
           "links": [
             {
               "label": "Animated Armor",
               "anchor": "animated-armor"
             },
             {
-              "label": "Fire Mephit",
-              "anchor": "mephit"
+              "label": "Golem, Wood",
+              "anchor": "golem"
             },
             {
               "label": "Gray Ooze",
@@ -4178,12 +4194,12 @@
               "anchor": "shadow"
             },
             {
-              "label": "Steam Mephit",
-              "anchor": "mephit"
-            },
-            {
               "label": "Sylph",
               "anchor": "sylph"
+            },
+            {
+              "label": "Thought Eater",
+              "anchor": "thought-eater"
             },
             {
               "label": "Thoul",
@@ -4278,7 +4294,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Succubus](#succubus), [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Barbed Devil](#barbed-devil), [Flame Salamander](#salamander), [Night Hag](#night-hag)",
+          "raw": "[Doppelganger](#doppelganger), [Gargoyle](#gargoyle), [Gelatinous Cube](#gelatinous-cube), [Living Statue, Iron](#living-statue), [Medusa](#medusa), [Water Weird](#water-weird), [Wraith](#wraith), [Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Succubus](#succubus), [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Barbed Devil](#barbed-devil), [Flame Salamander](#salamander), [Night Hag](#night-hag)",
           "links": [
             {
               "label": "Doppelganger",
@@ -4365,12 +4381,12 @@
               "anchor": "intellect-devourer"
             },
             {
-              "label": "Rakshasa",
-              "anchor": "rakshasa"
+              "label": "Nightmare",
+              "anchor": "nightmare"
             },
             {
-              "label": "Shadow Demon",
-              "anchor": "shadow-demon"
+              "label": "Rakshasa",
+              "anchor": "rakshasa"
             },
             {
               "label": "Barbed Devil",
@@ -4393,7 +4409,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Succubus](#succubus), [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Wind Walker](#wind-walker), [Barbed Devil](#barbed-devil), [Elemental, Earth](#elemental), [Golem, Bone](#golem), [Lammasu](#lammasu), [Type I Demon (Vrock)](#type-i-demon-vrock), [Bone Devil](#bone-devil), [Hieracosphinx](#sphinx), [Skeleton Warrior](#skeleton-warrior)",
+          "raw": "[Gibbering Mouther](#gibbering-mouther), [Living Statue, Rock](#living-statue), [Ochre Jelly](#ochre-jelly), [Rust Monster](#rust-monster), [Slithering Tracker](#slithering-tracker), [Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Succubus](#succubus), [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Wind Walker](#wind-walker), [Barbed Devil](#barbed-devil), [Elemental, Earth](#elemental), [Golem, Bone](#golem), [Invisible Stalker](#invisible-stalker), [Type I Demon (Vrock)](#type-i-demon-vrock), [Bone Devil](#bone-devil), [Hieracosphinx](#sphinx), [Type II Demon (Hezrou)](#type-ii-demon-hezrou)",
           "links": [
             {
               "label": "Gibbering Mouther",
@@ -4460,10 +4476,6 @@
               "anchor": "rakshasa"
             },
             {
-              "label": "Shadow Demon",
-              "anchor": "shadow-demon"
-            },
-            {
               "label": "Wind Walker",
               "anchor": "wind-walker"
             },
@@ -4480,8 +4492,8 @@
               "anchor": "golem"
             },
             {
-              "label": "Lammasu",
-              "anchor": "lammasu"
+              "label": "Invisible Stalker",
+              "anchor": "invisible-stalker"
             },
             {
               "label": "Type I Demon (Vrock)",
@@ -4496,8 +4508,8 @@
               "anchor": "sphinx"
             },
             {
-              "label": "Skeleton Warrior",
-              "anchor": "skeleton-warrior"
+              "label": "Type II Demon (Hezrou)",
+              "anchor": "type-ii-demon-hezrou"
             }
           ]
         }
@@ -4508,7 +4520,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Succubus](#succubus), [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Wind Walker](#wind-walker), [Barbed Devil](#barbed-devil), [Djinni](#djinni), [Elemental, Earth](#elemental), [Elemental, Water](#elemental), [Golem, Bone](#golem), [Gynosphinx](#sphinx), [Lammasu](#lammasu), [Otyugh](#otyugh), [Type I Demon (Vrock)](#type-i-demon-vrock), [Water Naga](#naga), [Bone Devil](#bone-devil), [Death Knight](#death-knight), [Lamia](#lamia), [Skeleton Warrior](#skeleton-warrior), [Type VI Demon (Balor)](#type-vi-demon-balor), [Black Pudding](#black-pudding), [Ghost](#ghost), [Shedu](#shedu)",
+          "raw": "[Horned Devil (Malebranche)](#horned-devil-malebranche), [Minotaur](#minotaur), [Myconid (Fungus Man)](#myconid-fungus-man), [Ogre Mage](#ogre-mage), [Spectre](#spectre), [Succubus](#succubus), [Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Wind Walker](#wind-walker), [Barbed Devil](#barbed-devil), [Djinni](#djinni), [Elemental, Earth](#elemental), [Elemental, Water](#elemental), [Golem, Bone](#golem), [Gynosphinx](#sphinx), [Invisible Stalker](#invisible-stalker), [Night Hag](#night-hag), [Type I Demon (Vrock)](#type-i-demon-vrock), [Water Naga](#naga), [Bone Devil](#bone-devil), [Dao](#dao), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Type VI Demon (Balor)](#type-vi-demon-balor), [Black Pudding](#black-pudding), [Efreeti](#efreeti), [Mimic](#mimic)",
           "links": [
             {
               "label": "Horned Devil (Malebranche)",
@@ -4555,10 +4567,6 @@
               "anchor": "rakshasa"
             },
             {
-              "label": "Shadow Demon",
-              "anchor": "shadow-demon"
-            },
-            {
               "label": "Wind Walker",
               "anchor": "wind-walker"
             },
@@ -4587,12 +4595,12 @@
               "anchor": "sphinx"
             },
             {
-              "label": "Lammasu",
-              "anchor": "lammasu"
+              "label": "Invisible Stalker",
+              "anchor": "invisible-stalker"
             },
             {
-              "label": "Otyugh",
-              "anchor": "otyugh"
+              "label": "Night Hag",
+              "anchor": "night-hag"
             },
             {
               "label": "Type I Demon (Vrock)",
@@ -4607,16 +4615,16 @@
               "anchor": "bone-devil"
             },
             {
-              "label": "Death Knight",
-              "anchor": "death-knight"
+              "label": "Dao",
+              "anchor": "dao"
             },
             {
               "label": "Lamia",
               "anchor": "lamia"
             },
             {
-              "label": "Skeleton Warrior",
-              "anchor": "skeleton-warrior"
+              "label": "Mind Flayer",
+              "anchor": "mind-flayer"
             },
             {
               "label": "Type VI Demon (Balor)",
@@ -4627,12 +4635,12 @@
               "anchor": "black-pudding"
             },
             {
-              "label": "Ghost",
-              "anchor": "ghost"
+              "label": "Efreeti",
+              "anchor": "efreeti"
             },
             {
-              "label": "Shedu",
-              "anchor": "shedu"
+              "label": "Mimic",
+              "anchor": "mimic"
             }
           ]
         }
@@ -4643,7 +4651,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Shadow Demon](#shadow-demon), [Wind Walker](#wind-walker), [Barbed Devil](#barbed-devil), [Djinni](#djinni), [Elemental, Earth](#elemental), [Elemental, Water](#elemental), [Golem, Bone](#golem), [Gynosphinx](#sphinx), [Lammasu](#lammasu), [Otyugh](#otyugh), [Type I Demon (Vrock)](#type-i-demon-vrock), [Water Naga](#naga), [Bone Devil](#bone-devil), [Dao](#dao), [Death Knight](#death-knight), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Skeleton Warrior](#skeleton-warrior), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Ghost](#ghost), [Mimic](#mimic), [Spirit Naga](#naga), [Beholder](#beholder), [Golem, Clay](#golem), [Ice Devil](#ice-devil)",
+          "raw": "[Erinyes](#erinyes), [Hellhound](#hellhound), [Intellect Devourer](#intellect-devourer), [Nightmare](#nightmare), [Rakshasa](#rakshasa), [Wind Walker](#wind-walker), [Barbed Devil](#barbed-devil), [Djinni](#djinni), [Elemental, Earth](#elemental), [Elemental, Water](#elemental), [Golem, Bone](#golem), [Gynosphinx](#sphinx), [Invisible Stalker](#invisible-stalker), [Night Hag](#night-hag), [Type I Demon (Vrock)](#type-i-demon-vrock), [Water Naga](#naga), [Bone Devil](#bone-devil), [Dao](#dao), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Ghost](#ghost), [Mimic](#mimic), [Spirit Naga](#naga), [Beholder](#beholder), [Golem, Clay](#golem), [Ice Devil](#ice-devil)",
           "links": [
             {
               "label": "Erinyes",
@@ -4666,10 +4674,6 @@
               "anchor": "rakshasa"
             },
             {
-              "label": "Shadow Demon",
-              "anchor": "shadow-demon"
-            },
-            {
               "label": "Wind Walker",
               "anchor": "wind-walker"
             },
@@ -4698,12 +4702,12 @@
               "anchor": "sphinx"
             },
             {
-              "label": "Lammasu",
-              "anchor": "lammasu"
+              "label": "Invisible Stalker",
+              "anchor": "invisible-stalker"
             },
             {
-              "label": "Otyugh",
-              "anchor": "otyugh"
+              "label": "Night Hag",
+              "anchor": "night-hag"
             },
             {
               "label": "Type I Demon (Vrock)",
@@ -4722,10 +4726,6 @@
               "anchor": "dao"
             },
             {
-              "label": "Death Knight",
-              "anchor": "death-knight"
-            },
-            {
               "label": "Hieracosphinx",
               "anchor": "sphinx"
             },
@@ -4736,10 +4736,6 @@
             {
               "label": "Mind Flayer",
               "anchor": "mind-flayer"
-            },
-            {
-              "label": "Skeleton Warrior",
-              "anchor": "skeleton-warrior"
             },
             {
               "label": "Type II Demon (Hezrou)",
@@ -4794,7 +4790,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Barbed Devil](#barbed-devil), [Djinni](#djinni), [Elemental, Earth](#elemental), [Elemental, Water](#elemental), [Golem, Bone](#golem), [Gynosphinx](#sphinx), [Lammasu](#lammasu), [Otyugh](#otyugh), [Type I Demon (Vrock)](#type-i-demon-vrock), [Water Naga](#naga), [Bone Devil](#bone-devil), [Dao](#dao), [Death Knight](#death-knight), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Skeleton Warrior](#skeleton-warrior), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Guardian Naga](#naga), [Neotyugh](#neotyugh)",
+          "raw": "[Barbed Devil](#barbed-devil), [Djinni](#djinni), [Elemental, Earth](#elemental), [Elemental, Water](#elemental), [Golem, Bone](#golem), [Gynosphinx](#sphinx), [Invisible Stalker](#invisible-stalker), [Night Hag](#night-hag), [Type I Demon (Vrock)](#type-i-demon-vrock), [Water Naga](#naga), [Bone Devil](#bone-devil), [Dao](#dao), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Bodak](#bodak), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Guardian Naga](#naga), [Slug, Giant](#slug-giant)",
           "links": [
             {
               "label": "Barbed Devil",
@@ -4821,12 +4817,12 @@
               "anchor": "sphinx"
             },
             {
-              "label": "Lammasu",
-              "anchor": "lammasu"
+              "label": "Invisible Stalker",
+              "anchor": "invisible-stalker"
             },
             {
-              "label": "Otyugh",
-              "anchor": "otyugh"
+              "label": "Night Hag",
+              "anchor": "night-hag"
             },
             {
               "label": "Type I Demon (Vrock)",
@@ -4845,10 +4841,6 @@
               "anchor": "dao"
             },
             {
-              "label": "Death Knight",
-              "anchor": "death-knight"
-            },
-            {
               "label": "Hieracosphinx",
               "anchor": "sphinx"
             },
@@ -4859,10 +4851,6 @@
             {
               "label": "Mind Flayer",
               "anchor": "mind-flayer"
-            },
-            {
-              "label": "Skeleton Warrior",
-              "anchor": "skeleton-warrior"
             },
             {
               "label": "Type II Demon (Hezrou)",
@@ -4879,6 +4867,10 @@
             {
               "label": "Black Pudding",
               "anchor": "black-pudding"
+            },
+            {
+              "label": "Bodak",
+              "anchor": "bodak"
             },
             {
               "label": "Criosphinx",
@@ -4937,8 +4929,8 @@
               "anchor": "naga"
             },
             {
-              "label": "Neotyugh",
-              "anchor": "neotyugh"
+              "label": "Slug, Giant",
+              "anchor": "slug-giant"
             }
           ]
         }
@@ -4949,7 +4941,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Bone Devil](#bone-devil), [Dao](#dao), [Death Knight](#death-knight), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Skeleton Warrior](#skeleton-warrior), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Frost Salamander](#salamander), [Guardian Naga](#naga), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Pit Fiend](#pit-fiend)",
+          "raw": "[Bone Devil](#bone-devil), [Dao](#dao), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Bodak](#bodak), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Frost Salamander](#salamander), [Guardian Naga](#naga), [Neotyugh](#neotyugh), [Smouldergeist](#smouldergeist), [Pit Fiend](#pit-fiend)",
           "links": [
             {
               "label": "Bone Devil",
@@ -4958,10 +4950,6 @@
             {
               "label": "Dao",
               "anchor": "dao"
-            },
-            {
-              "label": "Death Knight",
-              "anchor": "death-knight"
             },
             {
               "label": "Hieracosphinx",
@@ -4974,10 +4962,6 @@
             {
               "label": "Mind Flayer",
               "anchor": "mind-flayer"
-            },
-            {
-              "label": "Skeleton Warrior",
-              "anchor": "skeleton-warrior"
             },
             {
               "label": "Type II Demon (Hezrou)",
@@ -4994,6 +4978,10 @@
             {
               "label": "Black Pudding",
               "anchor": "black-pudding"
+            },
+            {
+              "label": "Bodak",
+              "anchor": "bodak"
             },
             {
               "label": "Criosphinx",
@@ -5060,8 +5048,8 @@
               "anchor": "neotyugh"
             },
             {
-              "label": "Slug, Giant",
-              "anchor": "slug-giant"
+              "label": "Smouldergeist",
+              "anchor": "smouldergeist"
             },
             {
               "label": "Pit Fiend",
@@ -5076,11 +5064,15 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Frost Salamander](#salamander), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend)",
+          "raw": "[Black Pudding](#black-pudding), [Bodak](#bodak), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Frost Salamander](#salamander), [Great Orb of Eyes](#great-orb-of-eyes), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Smouldergeist](#smouldergeist), [Trapper](#trapper), [Pit Fiend](#pit-fiend)",
           "links": [
             {
               "label": "Black Pudding",
               "anchor": "black-pudding"
+            },
+            {
+              "label": "Bodak",
+              "anchor": "bodak"
             },
             {
               "label": "Criosphinx",
@@ -5137,6 +5129,10 @@
             {
               "label": "Frost Salamander",
               "anchor": "salamander"
+            },
+            {
+              "label": "Great Orb of Eyes",
+              "anchor": "great-orb-of-eyes"
             },
             {
               "label": "Guardian Naga",
@@ -5153,6 +5149,10 @@
             {
               "label": "Slug, Giant",
               "anchor": "slug-giant"
+            },
+            {
+              "label": "Smouldergeist",
+              "anchor": "smouldergeist"
             },
             {
               "label": "Trapper",
@@ -5171,7 +5171,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Beholder](#beholder), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Frost Salamander](#salamander), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend)",
+          "raw": "[Beholder](#beholder), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Frost Salamander](#salamander), [Great Orb of Eyes](#great-orb-of-eyes), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Smouldergeist](#smouldergeist), [Trapper](#trapper), [Pit Fiend](#pit-fiend)",
           "links": [
             {
               "label": "Beholder",
@@ -5198,6 +5198,10 @@
               "anchor": "salamander"
             },
             {
+              "label": "Great Orb of Eyes",
+              "anchor": "great-orb-of-eyes"
+            },
+            {
               "label": "Guardian Naga",
               "anchor": "naga"
             },
@@ -5212,6 +5216,10 @@
             {
               "label": "Slug, Giant",
               "anchor": "slug-giant"
+            },
+            {
+              "label": "Smouldergeist",
+              "anchor": "smouldergeist"
             },
             {
               "label": "Trapper",
@@ -5230,7 +5238,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Androsphinx](#sphinx), [Frost Salamander](#salamander), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend), [Aerial Servant](#aerial-servant)",
+          "raw": "[Androsphinx](#sphinx), [Frost Salamander](#salamander), [Great Orb of Eyes](#great-orb-of-eyes), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Smouldergeist](#smouldergeist), [Trapper](#trapper), [Pit Fiend](#pit-fiend), [Aerial Servant](#aerial-servant)",
           "links": [
             {
               "label": "Androsphinx",
@@ -5239,6 +5247,10 @@
             {
               "label": "Frost Salamander",
               "anchor": "salamander"
+            },
+            {
+              "label": "Great Orb of Eyes",
+              "anchor": "great-orb-of-eyes"
             },
             {
               "label": "Guardian Naga",
@@ -5255,6 +5267,10 @@
             {
               "label": "Slug, Giant",
               "anchor": "slug-giant"
+            },
+            {
+              "label": "Smouldergeist",
+              "anchor": "smouldergeist"
             },
             {
               "label": "Trapper",
@@ -5296,8 +5312,12 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Aerial Servant](#aerial-servant)",
+          "raw": "[Pit Fiend](#pit-fiend), [Aerial Servant](#aerial-servant)",
           "links": [
+            {
+              "label": "Pit Fiend",
+              "anchor": "pit-fiend"
+            },
             {
               "label": "Aerial Servant",
               "anchor": "aerial-servant"
@@ -5311,11 +5331,19 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Aerial Servant](#aerial-servant)",
+          "raw": "[Aerial Servant](#aerial-servant), [Demilich](#demilich), [Golem, Bronze](#golem)",
           "links": [
             {
               "label": "Aerial Servant",
               "anchor": "aerial-servant"
+            },
+            {
+              "label": "Demilich",
+              "anchor": "demilich"
+            },
+            {
+              "label": "Golem, Bronze",
+              "anchor": "golem"
             }
           ]
         }
@@ -5819,8 +5847,12 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Neotyugh](#neotyugh)",
+          "raw": "[Black Pudding](#black-pudding), [Neotyugh](#neotyugh)",
           "links": [
+            {
+              "label": "Black Pudding",
+              "anchor": "black-pudding"
+            },
             {
               "label": "Neotyugh",
               "anchor": "neotyugh"
@@ -5834,8 +5866,12 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Neotyugh](#neotyugh)",
+          "raw": "[Black Pudding](#black-pudding), [Neotyugh](#neotyugh)",
           "links": [
+            {
+              "label": "Black Pudding",
+              "anchor": "black-pudding"
+            },
             {
               "label": "Neotyugh",
               "anchor": "neotyugh"
@@ -6252,7 +6288,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Werebear](#werebear), [Basilisk](#basilisk), [Devil Swine](#devil-swine)",
+          "raw": "[Werebear](#werebear), [Basilisk](#basilisk), [Devil Swine](#devil-swine), [Basilisk, Greater](#basilisk-greater), [Clockwork Armature](#clockwork-armature), [Gray Render](#gray-render)",
           "links": [
             {
               "label": "Werebear",
@@ -6265,6 +6301,18 @@
             {
               "label": "Devil Swine",
               "anchor": "devil-swine"
+            },
+            {
+              "label": "Basilisk, Greater",
+              "anchor": "basilisk-greater"
+            },
+            {
+              "label": "Clockwork Armature",
+              "anchor": "clockwork-armature"
+            },
+            {
+              "label": "Gray Render",
+              "anchor": "gray-render"
             }
           ]
         }
@@ -6275,7 +6323,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Basilisk](#basilisk), [Devil Swine](#devil-swine), [Wereshark](#wereshark)",
+          "raw": "[Basilisk](#basilisk), [Devil Swine](#devil-swine), [Basilisk, Greater](#basilisk-greater), [Clockwork Armature](#clockwork-armature), [Gray Render](#gray-render)",
           "links": [
             {
               "label": "Basilisk",
@@ -6286,8 +6334,16 @@
               "anchor": "devil-swine"
             },
             {
-              "label": "Wereshark",
-              "anchor": "wereshark"
+              "label": "Basilisk, Greater",
+              "anchor": "basilisk-greater"
+            },
+            {
+              "label": "Clockwork Armature",
+              "anchor": "clockwork-armature"
+            },
+            {
+              "label": "Gray Render",
+              "anchor": "gray-render"
             }
           ]
         }
@@ -6298,15 +6354,27 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Devil Swine](#devil-swine), [Wereshark](#wereshark)",
+          "raw": "[Devil Swine](#devil-swine), [Basilisk, Greater](#basilisk-greater), [Clockwork Armature](#clockwork-armature), [Gray Render](#gray-render), [Smouldergeist](#smouldergeist)",
           "links": [
             {
               "label": "Devil Swine",
               "anchor": "devil-swine"
             },
             {
-              "label": "Wereshark",
-              "anchor": "wereshark"
+              "label": "Basilisk, Greater",
+              "anchor": "basilisk-greater"
+            },
+            {
+              "label": "Clockwork Armature",
+              "anchor": "clockwork-armature"
+            },
+            {
+              "label": "Gray Render",
+              "anchor": "gray-render"
+            },
+            {
+              "label": "Smouldergeist",
+              "anchor": "smouldergeist"
             }
           ]
         }
@@ -6317,15 +6385,27 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Devil Swine](#devil-swine), [Wereshark](#wereshark)",
+          "raw": "[Devil Swine](#devil-swine), [Basilisk, Greater](#basilisk-greater), [Clockwork Armature](#clockwork-armature), [Gray Render](#gray-render), [Smouldergeist](#smouldergeist)",
           "links": [
             {
               "label": "Devil Swine",
               "anchor": "devil-swine"
             },
             {
-              "label": "Wereshark",
-              "anchor": "wereshark"
+              "label": "Basilisk, Greater",
+              "anchor": "basilisk-greater"
+            },
+            {
+              "label": "Clockwork Armature",
+              "anchor": "clockwork-armature"
+            },
+            {
+              "label": "Gray Render",
+              "anchor": "gray-render"
+            },
+            {
+              "label": "Smouldergeist",
+              "anchor": "smouldergeist"
             }
           ]
         }
@@ -6336,11 +6416,27 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Wereshark](#wereshark)",
+          "raw": "[Basilisk, Greater](#basilisk-greater), [Clockwork Armature](#clockwork-armature), [Gray Render](#gray-render), [Smouldergeist](#smouldergeist), [Black Knight](#black-knight)",
           "links": [
             {
-              "label": "Wereshark",
-              "anchor": "wereshark"
+              "label": "Basilisk, Greater",
+              "anchor": "basilisk-greater"
+            },
+            {
+              "label": "Clockwork Armature",
+              "anchor": "clockwork-armature"
+            },
+            {
+              "label": "Gray Render",
+              "anchor": "gray-render"
+            },
+            {
+              "label": "Smouldergeist",
+              "anchor": "smouldergeist"
+            },
+            {
+              "label": "Black Knight",
+              "anchor": "black-knight"
             }
           ]
         }
@@ -6351,11 +6447,15 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Wereshark](#wereshark)",
+          "raw": "[Smouldergeist](#smouldergeist), [Black Knight](#black-knight)",
           "links": [
             {
-              "label": "Wereshark",
-              "anchor": "wereshark"
+              "label": "Smouldergeist",
+              "anchor": "smouldergeist"
+            },
+            {
+              "label": "Black Knight",
+              "anchor": "black-knight"
             }
           ]
         }
@@ -6366,19 +6466,15 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Basilisk](#basilisk), [Devil Swine](#devil-swine), [Wereshark](#wereshark) *(as Level 7/9/11)*",
+          "raw": "[Smouldergeist](#smouldergeist), [Black Knight](#black-knight)",
           "links": [
             {
-              "label": "Basilisk",
-              "anchor": "basilisk"
+              "label": "Smouldergeist",
+              "anchor": "smouldergeist"
             },
             {
-              "label": "Devil Swine",
-              "anchor": "devil-swine"
-            },
-            {
-              "label": "Wereshark",
-              "anchor": "wereshark"
+              "label": "Black Knight",
+              "anchor": "black-knight"
             }
           ]
         }
@@ -6389,19 +6485,15 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Basilisk](#basilisk), [Devil Swine](#devil-swine), [Wereshark](#wereshark) *(as Level 7/9/11)*",
+          "raw": "[Smouldergeist](#smouldergeist), [Black Knight](#black-knight)",
           "links": [
             {
-              "label": "Basilisk",
-              "anchor": "basilisk"
+              "label": "Smouldergeist",
+              "anchor": "smouldergeist"
             },
             {
-              "label": "Devil Swine",
-              "anchor": "devil-swine"
-            },
-            {
-              "label": "Wereshark",
-              "anchor": "wereshark"
+              "label": "Black Knight",
+              "anchor": "black-knight"
             }
           ]
         }
@@ -6412,19 +6504,15 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Basilisk](#basilisk), [Devil Swine](#devil-swine), [Wereshark](#wereshark) *(as Level 7/9/11)*",
+          "raw": "[Smouldergeist](#smouldergeist), [Black Knight](#black-knight)",
           "links": [
             {
-              "label": "Basilisk",
-              "anchor": "basilisk"
+              "label": "Smouldergeist",
+              "anchor": "smouldergeist"
             },
             {
-              "label": "Devil Swine",
-              "anchor": "devil-swine"
-            },
-            {
-              "label": "Wereshark",
-              "anchor": "wereshark"
+              "label": "Black Knight",
+              "anchor": "black-knight"
             }
           ]
         }
@@ -6435,19 +6523,19 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Basilisk](#basilisk), [Devil Swine](#devil-swine), [Wereshark](#wereshark) *(as Level 7/9/11)*",
+          "raw": "[Basilisk, Greater](#basilisk-greater), [Smouldergeist](#smouldergeist), [Black Knight](#black-knight) *(as Level 10/12/14)*",
           "links": [
             {
-              "label": "Basilisk",
-              "anchor": "basilisk"
+              "label": "Basilisk, Greater",
+              "anchor": "basilisk-greater"
             },
             {
-              "label": "Devil Swine",
-              "anchor": "devil-swine"
+              "label": "Smouldergeist",
+              "anchor": "smouldergeist"
             },
             {
-              "label": "Wereshark",
-              "anchor": "wereshark"
+              "label": "Black Knight",
+              "anchor": "black-knight"
             }
           ]
         }
@@ -6458,19 +6546,19 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Basilisk](#basilisk), [Devil Swine](#devil-swine), [Wereshark](#wereshark) *(as Level 7/9/11)*",
+          "raw": "[Basilisk, Greater](#basilisk-greater), [Smouldergeist](#smouldergeist), [Black Knight](#black-knight) *(as Level 10/12/14)*",
           "links": [
             {
-              "label": "Basilisk",
-              "anchor": "basilisk"
+              "label": "Basilisk, Greater",
+              "anchor": "basilisk-greater"
             },
             {
-              "label": "Devil Swine",
-              "anchor": "devil-swine"
+              "label": "Smouldergeist",
+              "anchor": "smouldergeist"
             },
             {
-              "label": "Wereshark",
-              "anchor": "wereshark"
+              "label": "Black Knight",
+              "anchor": "black-knight"
             }
           ]
         }
@@ -6481,19 +6569,19 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Basilisk](#basilisk), [Devil Swine](#devil-swine), [Wereshark](#wereshark) *(as Level 7/9/11)*",
+          "raw": "[Basilisk, Greater](#basilisk-greater), [Smouldergeist](#smouldergeist), [Black Knight](#black-knight) *(as Level 10/12/14)*",
           "links": [
             {
-              "label": "Basilisk",
-              "anchor": "basilisk"
+              "label": "Basilisk, Greater",
+              "anchor": "basilisk-greater"
             },
             {
-              "label": "Devil Swine",
-              "anchor": "devil-swine"
+              "label": "Smouldergeist",
+              "anchor": "smouldergeist"
             },
             {
-              "label": "Wereshark",
-              "anchor": "wereshark"
+              "label": "Black Knight",
+              "anchor": "black-knight"
             }
           ]
         }
@@ -6504,19 +6592,19 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Basilisk](#basilisk), [Devil Swine](#devil-swine), [Wereshark](#wereshark) *(as Level 7/9/11)*",
+          "raw": "[Basilisk, Greater](#basilisk-greater), [Smouldergeist](#smouldergeist), [Black Knight](#black-knight) *(as Level 10/12/14)*",
           "links": [
             {
-              "label": "Basilisk",
-              "anchor": "basilisk"
+              "label": "Basilisk, Greater",
+              "anchor": "basilisk-greater"
             },
             {
-              "label": "Devil Swine",
-              "anchor": "devil-swine"
+              "label": "Smouldergeist",
+              "anchor": "smouldergeist"
             },
             {
-              "label": "Wereshark",
-              "anchor": "wereshark"
+              "label": "Black Knight",
+              "anchor": "black-knight"
             }
           ]
         }

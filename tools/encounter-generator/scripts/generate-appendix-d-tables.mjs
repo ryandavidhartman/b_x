@@ -23,6 +23,9 @@ import { makeMarkdownDoc } from "./lib/markdown-tables.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const BOOK_PATH = path.resolve(__dirname, "../../../publication/monsters/combined-monsters.md");
+const MONSTERS = JSON.parse(
+  fs.readFileSync(path.resolve(__dirname, "../src/data/generated/monsters.json"), "utf8"),
+);
 
 const args = process.argv.slice(2);
 const WRITE = args.includes("--write");
@@ -105,6 +108,16 @@ const DUNGEON_LOCATION_NAMES = [
 
 const ALL_LOCATION_NAMES = [...TERRAIN_NAMES, ...URBAN_LOCATION_NAMES, ...DUNGEON_LOCATION_NAMES];
 
+// "Any" (Appendix C's "### Monsters by Terrain" intro) isn't a location of its own — it's a
+// supplemental roster of common Undead, human/demihuman NPC bands, and minor Demons/Devils the
+// book treats as setting-agnostic (near-identical rosters repeated across nearly every terrain in
+// the original tables). Every wilderness terrain's candidate pool includes it, on top of that
+// terrain's own tagged monsters, so a terrain with few native low-level threats (e.g. Arctic,
+// whose own roster starts at Yeti/HD4+4) doesn't have to reach absurdly far above a low-level
+// party's window just to fill its table — see the empty-window fallback below, which is the
+// last resort now instead of the first one.
+const ANY_NAME = "Any";
+
 function keyOf({ label, anchor }) {
   return `${label}::${anchor}`;
 }
@@ -140,6 +153,48 @@ function expandKey(key, anchor) {
   return KEYS_BY_ANCHOR.get(anchor) ?? [];
 }
 
+// Dungeon-location candidates get their encounter count from the monster's own dungeon
+// (wandering) No. Appearing figure (see dungeonEncounter.ts) — never the wilderness/lair figure
+// terrain tables use. A monster whose dungeon figure is a fixed "0" (e.g. every "Men" variant,
+// or unique placed threats like Death Knight/Revenant/Skeleton Warrior/Shadow Demon/Cerebral
+// Parasite, all "0 (1)" or "0 (N)" — the book's own convention for "not a wandering encounter,
+// lair/plot-placed only") can never produce a valid count there, so including it as a dungeon
+// candidate is a structural bug: rolling it always yields a nonsensical "0x Monster" result.
+// Filter those out here, dungeon-location tags only — the same monster is still a perfectly
+// valid wilderness/urban candidate, since those pull a different (non-zero) figure.
+function normalizeForCompare(s) {
+  return s.replace(/\*+$/, "").trim().toLowerCase();
+}
+
+function matchVariantEntry(label, anchor) {
+  const heading = MONSTERS[anchor];
+  if (!heading || heading.entries.length === 0) return null;
+  if (heading.entries.length === 1) return heading.entries[0];
+  if (normalizeForCompare(label) === normalizeForCompare(heading.name)) return null; // open-choice, ambiguous
+  const commaIdx = label.indexOf(",");
+  const variantText = (commaIdx >= 0 ? label.slice(commaIdx + 1) : label).trim().toLowerCase();
+  if (!variantText) return null;
+  return heading.entries.find((e) => {
+    if (!e.variant) return false;
+    const v = e.variant.toLowerCase();
+    return v.includes(variantText) || variantText.includes(v);
+  }) ?? null;
+}
+
+function dungeonAppearingIsZero(label, anchor) {
+  const entry = matchVariantEntry(label, anchor);
+  const raw = entry?.stats?.["No. Appearing"];
+  if (!raw) return false;
+  const firstToken = raw.trim().match(/^(\S+)/)?.[1] ?? "";
+  return firstToken === "0";
+}
+
+const anyLinks = flatListUnderHeading(ANY_NAME, 4, APPENDIX_C_START);
+if (anyLinks === null) {
+  console.warn(`WARNING: no "#### ${ANY_NAME}" list found under Appendix C's Monsters by Terrain.`);
+}
+const ANY_KEYS = new Set((anyLinks ?? []).flatMap((l) => expandKey(keyOf(l), l.anchor)));
+
 const LOCATION_TAGS = new Map(); // locationName -> Set<key>
 for (const name of ALL_LOCATION_NAMES) {
   const links = flatListUnderHeading(name, 4, APPENDIX_C_START);
@@ -147,8 +202,15 @@ for (const name of ALL_LOCATION_NAMES) {
     console.warn(`WARNING: no "#### ${name}" list found under Appendix C's Monsters by Terrain.`);
     continue;
   }
-  const expanded = links.flatMap((l) => expandKey(keyOf(l), l.anchor));
-  LOCATION_TAGS.set(name, new Set(expanded));
+  let expanded = links.flatMap((l) => expandKey(keyOf(l), l.anchor));
+  if (DUNGEON_LOCATION_NAMES.includes(name)) {
+    expanded = expanded.filter((key) => !dungeonAppearingIsZero(LABEL_OF.get(key), ANCHOR_OF.get(key)));
+  }
+  const keys = new Set(expanded);
+  if (TERRAIN_NAMES.includes(name)) {
+    for (const key of ANY_KEYS) keys.add(key);
+  }
+  LOCATION_TAGS.set(name, keys);
 }
 
 // ---------------------------------------------------------------------------
@@ -191,13 +253,16 @@ for (const [location, keys] of LOCATION_TAGS) {
 // evenly-spaced sample (alphabetical by label) so regeneration is reproducible — re-running the
 // generator after an unrelated Appendix C edit shouldn't reshuffle every cell that wasn't
 // actually affected.
-const OFFSET_CAP = { "-2": 10, "-1": 10, "0": 10, "1": 5, "2": 3 };
+// Offsets beyond +/-2 only ever come from the thin-cell widening below, never from a normal
+// window — kept even rarer than +2's own cap (3) so a widened cell still reads as "unusual,"
+// not as if the book had quietly loosened its pacing everywhere.
+const OFFSET_CAP = { "-4": 10, "-3": 10, "-2": 10, "-1": 10, "0": 10, "1": 5, "2": 3, "3": 2, "4": 1 };
 
-function candidatesInWindow(location, partyLevel) {
+function candidatesInWindow(location, partyLevel, radius = 2) {
   const tags = LOCATION_TAGS.get(location);
   if (!tags) return [];
-  const lo = Math.max(1, partyLevel - 2);
-  const hi = partyLevel + 2;
+  const lo = Math.max(1, partyLevel - radius);
+  const hi = partyLevel + radius;
   const out = [];
   for (const key of tags) {
     const level = LEVEL_OF.get(key);
@@ -206,6 +271,26 @@ function candidatesInWindow(location, partyLevel) {
     out.push({ key, level, offset: level - partyLevel });
   }
   return out;
+}
+
+// A cell with fewer than this many distinct candidates is "thin" — repetitive/deterministic
+// rolls, though never dangerous (see dungeonAppearingIsZero and the "Any" pool above for the
+// actual-danger case, both already handled). Thin-but-not-empty cells get one more chance before
+// falling to the empty-window absolute-nearest fallback: widen the window past the normal +/-2,
+// one step at a time, and keep whichever radius first clears the threshold. This only fires for
+// cells that are already thin, so it never touches a normal cell's pacing.
+const THIN_THRESHOLD = 2;
+const WIDEN_RADII = [3, 4];
+
+function widenIfThin(location, partyLevel, candidates) {
+  if (candidates.length === 0 || candidates.length >= THIN_THRESHOLD) return candidates;
+  let best = candidates;
+  for (const radius of WIDEN_RADII) {
+    const wider = candidatesInWindow(location, partyLevel, radius);
+    if (wider.length > best.length) best = wider;
+    if (best.length >= THIN_THRESHOLD) break;
+  }
+  return best;
 }
 
 /** Deterministic evenly-spaced sample of `cap` items from a list already sorted for stability. */
@@ -230,6 +315,10 @@ function buildCell(location, partyLevel) {
   let candidates = candidatesInWindow(location, partyLevel);
   let borrowedFromLevel = null;
   const totalBeforeCap = candidates.length;
+
+  const widened = widenIfThin(location, partyLevel, candidates);
+  const widenedWindow = widened.length > candidates.length;
+  candidates = widened;
 
   if (candidates.length === 0) {
     // Empty-window fallback: borrow the nearest FALLBACK_CAP distinct candidates by level-distance
@@ -267,7 +356,7 @@ function buildCell(location, partyLevel) {
   }
   entries.sort((a, b) => a.level - b.level || a.label.localeCompare(b.label));
 
-  return { entries, borrowedFromLevel, totalBeforeCap };
+  return { entries, borrowedFromLevel, totalBeforeCap, widenedWindow };
 }
 
 // ---------------------------------------------------------------------------
@@ -293,26 +382,29 @@ for (const location of targetLocations) {
   }
   let borrowCount = 0;
   let emptyCount = 0;
+  let widenCount = 0;
   let minPool = Infinity;
   let maxPool = 0;
   let maxBeforeCap = 0;
   const rows = [];
   for (let level = 1; level <= 20; level++) {
-    const { entries, borrowedFromLevel, totalBeforeCap } = buildCell(location, level);
+    const { entries, borrowedFromLevel, totalBeforeCap, widenedWindow } = buildCell(location, level);
     if (borrowedFromLevel !== null) borrowCount++;
     if (entries.length === 0) emptyCount++;
+    if (widenedWindow) widenCount++;
     minPool = Math.min(minPool, entries.length);
     maxPool = Math.max(maxPool, entries.length);
     maxBeforeCap = Math.max(maxBeforeCap, totalBeforeCap);
-    rows.push({ level, entries, borrowedFromLevel });
+    rows.push({ level, entries, borrowedFromLevel, widenedWindow });
   }
   locationRows.set(location, rows);
-  console.log(`\n=== ${location}: cell size ${minPool}-${maxPool} (pre-cap up to ${maxBeforeCap}), ${borrowCount}/20 levels borrowed, ${emptyCount}/20 levels totally empty ===`);
+  console.log(`\n=== ${location}: cell size ${minPool}-${maxPool} (pre-cap up to ${maxBeforeCap}), ${borrowCount}/20 levels borrowed, ${widenCount}/20 levels widened past +/-2, ${emptyCount}/20 levels totally empty ===`);
   if (ONLY_LOCATION) {
     for (const r of rows) {
       const cellText = r.entries.map((e) => `[${e.label}](#${e.anchor})`).join(", ");
       const borrowNote = r.borrowedFromLevel !== null ? ` *(as Level ${r.borrowedFromLevel.join("/")})*` : "";
-      console.log(`  ${r.level.toString().padStart(2)} | ${cellText}${borrowNote}`);
+      const widenNote = r.widenedWindow ? " [widened]" : "";
+      console.log(`  ${r.level.toString().padStart(2)} | ${cellText}${borrowNote}${widenNote}`);
     }
   }
 }

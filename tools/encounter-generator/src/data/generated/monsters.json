@@ -249,6 +249,27 @@
       }
     ]
   },
+  "behemoth": {
+    "name": "Behemoth",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "15",
+          "No. Appearing": "0 (1d4)",
+          "Hit Dice": "10 + 5",
+          "Save As": "Fighter 5",
+          "Move": "60' (20')",
+          "Morale": "8",
+          "Swim": "120' (40')",
+          "Treasure Type": "Nil",
+          "Attacks": "1 gore or trample",
+          "Alignment": "Neutral",
+          "Damage": "4d4 (cow) or 6d4 (bull)"
+        }
+      }
+    ]
+  },
   "boar": {
     "name": "Boar",
     "entries": [
@@ -1894,6 +1915,26 @@
       }
     ]
   },
+  "clockwork-armature": {
+    "name": "Clockwork Armature**",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "19",
+          "No. Appearing": "0 (1)",
+          "Hit Dice": "10",
+          "Save As": "Fighter 10",
+          "Move": "40' (13')",
+          "Morale": "12",
+          "Attacks": "2 slash / 1 ray or steam",
+          "Treasure Type": "G",
+          "Damage": "1d10 / 1d10 / 2d8 or 5d8",
+          "Alignment": "Neutral"
+        }
+      }
+    ]
+  },
   "gargoyle": {
     "name": "Gargoyle*",
     "entries": [
@@ -2823,6 +2864,26 @@
       }
     ]
   },
+  "galeb-duhr": {
+    "name": "Galeb Duhr**",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "21",
+          "No. Appearing": "0 (1d4)",
+          "Hit Dice": "8-10",
+          "Save As": "Fighter 9",
+          "Move": "60' (20')",
+          "Morale": "10",
+          "Attacks": "1 fist",
+          "Treasure Type": "Q x3, X",
+          "Damage": "3d6",
+          "Alignment": "Neutral"
+        }
+      }
+    ]
+  },
   "mephit": {
     "name": "Mephit",
     "entries": [
@@ -3498,6 +3559,21 @@
           "Treasure Type": "E + 5000 gp",
           "Alignment": "Lawful"
         }
+      },
+      {
+        "variant": "Sand Giant",
+        "stats": {
+          "Armor Class": "15",
+          "Hit Dice": "13 + 10",
+          "Move": "50' (15')",
+          "Attacks": "1 weapon or 2 fists",
+          "Damage": "3d6",
+          "No. Appearing": "1d2 (2d10)",
+          "Save As": "Fighter 13",
+          "Morale": "8",
+          "Treasure Type": "E + 6500 gp",
+          "Alignment": "Neutral"
+        }
       }
     ]
   },
@@ -3538,6 +3614,27 @@
           "Attacks": "1 weapon",
           "Alignment": "Chaotic",
           "Damage": "1d12"
+        }
+      }
+    ]
+  },
+  "ogre-swamp": {
+    "name": "Ogre, Swamp",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "15",
+          "No. Appearing": "0 (1)",
+          "Hit Dice": "16 + 11",
+          "Save As": "Fighter 16",
+          "Move": "15' (5')",
+          "Morale": "9",
+          "Swim": "30' (10')",
+          "Treasure Type": "I + 500 gp",
+          "Attacks": "1 bite",
+          "Alignment": "Neutral",
+          "Damage": "2d8"
         }
       }
     ]
@@ -5135,6 +5232,26 @@
       }
     ]
   },
+  "basilisk-greater": {
+    "name": "Basilisk, Greater**",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "17",
+          "No. Appearing": "0 (1d2)",
+          "Hit Dice": "10",
+          "Save As": "Fighter 10",
+          "Move": "60' (20')",
+          "Morale": "9",
+          "Attacks": "2 claws / 1 bite",
+          "Treasure Type": "H",
+          "Damage": "1d6 / 1d6 / 2d6",
+          "Alignment": "Neutral"
+        }
+      }
+    ]
+  },
   "behir": {
     "name": "Behir",
     "entries": [
@@ -5316,6 +5433,27 @@
       }
     ]
   },
+  "celestial-arbiter": {
+    "name": "Celestial, Arbiter**",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "21",
+          "No. Appearing": "0 (1)",
+          "Hit Dice": "18",
+          "Save As": "Fighter 18",
+          "Move": "40' (13')",
+          "Morale": "11",
+          "Fly": "80' (27')",
+          "Treasure Type": "Nil",
+          "Attacks": "1 weapon",
+          "Alignment": "Lawful",
+          "Damage": "By weapon + 3"
+        }
+      }
+    ]
+  },
   "cerebral-parasite": {
     "name": "Cerebral Parasite",
     "entries": [
@@ -5395,6 +5533,27 @@
           "Attacks": "1 bite / 1 constrict",
           "Alignment": "Lawful",
           "Damage": "1d3 poison / 2d4"
+        }
+      }
+    ]
+  },
+  "delver": {
+    "name": "Delver**",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "24",
+          "No. Appearing": "0 (1)",
+          "Hit Dice": "18",
+          "Save As": "Fighter 18",
+          "Move": "30' (10')",
+          "Morale": "11",
+          "Burrow": "10' (3')",
+          "Treasure Type": "Nil",
+          "Attacks": "2 flippers",
+          "Alignment": "Neutral",
+          "Damage": "1d6 + corrosion"
         }
       }
     ]
@@ -5500,6 +5659,47 @@
       }
     ]
   },
+  "froghemoth": {
+    "name": "Froghemoth",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "15",
+          "No. Appearing": "0 (1)",
+          "Hit Dice": "16",
+          "Save As": "Fighter 8",
+          "Move": "20' (7')",
+          "Morale": "9",
+          "Swim": "80' (27')",
+          "Treasure Type": "Nil",
+          "Attacks": "1 tongue or 4 tentacles",
+          "Alignment": "Neutral",
+          "Damage": "5d10 (tongue) or 1d4+4 (tentacle)"
+        }
+      }
+    ]
+  },
+  "frost-worm": {
+    "name": "Frost Worm**",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "18",
+          "No. Appearing": "0 (1)",
+          "Hit Dice": "16",
+          "Save As": "Fighter 16",
+          "Move": "30' (10')",
+          "Morale": "10",
+          "Attacks": "1 bite + cold",
+          "Treasure Type": "Nil",
+          "Damage": "2d8 + 1d8 cold",
+          "Alignment": "Neutral"
+        }
+      }
+    ]
+  },
   "fungi-violet": {
     "name": "Fungi, Violet",
     "entries": [
@@ -5580,6 +5780,27 @@
       }
     ]
   },
+  "gorgimera": {
+    "name": "Gorgimera**",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "17 (14 lion parts)",
+          "No. Appearing": "0 (1)",
+          "Hit Dice": "10",
+          "Save As": "Fighter 10",
+          "Move": "120' (40')",
+          "Morale": "10",
+          "Fly": "150' (50')",
+          "Treasure Type": "F",
+          "Attacks": "2 claws / 1 bite / 1 bite / 1 bite",
+          "Alignment": "Chaotic",
+          "Damage": "1d3 / 1d3 / 2d6 / 2d10 / 3d10"
+        }
+      }
+    ]
+  },
   "gorgon": {
     "name": "Gorgon",
     "entries": [
@@ -5615,6 +5836,46 @@
           "Attacks": "1",
           "Treasure Type": "Nil",
           "Damage": "2d8",
+          "Alignment": "Neutral"
+        }
+      }
+    ]
+  },
+  "gray-render": {
+    "name": "Gray Render",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "13",
+          "No. Appearing": "0 (1)",
+          "Hit Dice": "10",
+          "Save As": "Fighter 5",
+          "Move": "40' (13')",
+          "Morale": "10",
+          "Attacks": "2 claws / 1 bite",
+          "Treasure Type": "Nil",
+          "Damage": "2d6 / 2d6 / 2d10",
+          "Alignment": "Neutral"
+        }
+      }
+    ]
+  },
+  "great-orb-of-eyes": {
+    "name": "Great Orb of Eyes**",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "19",
+          "No. Appearing": "0 (1)",
+          "Hit Dice": "12",
+          "Save As": "Magic-User 12",
+          "Fly": "30' (10')",
+          "Morale": "9",
+          "Attacks": "1d4 rays",
+          "Treasure Type": "Nil",
+          "Damage": "By ray",
           "Alignment": "Neutral"
         }
       }
@@ -6753,6 +7014,26 @@
       }
     ]
   },
+  "smouldergeist": {
+    "name": "Smouldergeist**",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "18",
+          "No. Appearing": "0 (1d4)",
+          "Hit Dice": "12",
+          "Save As": "Fighter 12",
+          "Fly": "50' (17')",
+          "Morale": "12",
+          "Attacks": "1 fire bolt",
+          "Treasure Type": "Nil",
+          "Damage": "1d8",
+          "Alignment": "Chaotic"
+        }
+      }
+    ]
+  },
   "sphinx": {
     "name": "Sphinx",
     "entries": [
@@ -6988,6 +7269,26 @@
           "Attacks": "1 smother",
           "Treasure Type": "C",
           "Damage": "Smother",
+          "Alignment": "Neutral"
+        }
+      }
+    ]
+  },
+  "tyrannobeak": {
+    "name": "Tyrannobeak",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "23",
+          "No. Appearing": "0 (1d3)",
+          "Hit Dice": "18",
+          "Save As": "Fighter 18",
+          "Move": "50' (17')",
+          "Morale": "11",
+          "Attacks": "2 claws / 1 bite",
+          "Treasure Type": "Nil",
+          "Damage": "2d8 / 4d6",
           "Alignment": "Neutral"
         }
       }
@@ -7474,6 +7775,26 @@
       }
     ]
   },
+  "golden-oak": {
+    "name": "Golden Oak**",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "11",
+          "No. Appearing": "0 (1)",
+          "Hit Dice": "12",
+          "Save As": "Magic-User 12",
+          "Move": "Nil",
+          "Morale": "6",
+          "Attacks": "swarm of mirror butterflies",
+          "Treasure Type": "special",
+          "Damage": "3d6 + blind",
+          "Alignment": "Chaotic"
+        }
+      }
+    ]
+  },
   "leprechaun": {
     "name": "Leprechaun",
     "entries": [
@@ -7596,6 +7917,26 @@
       }
     ]
   },
+  "timber-wolf": {
+    "name": "Timber Wolf*",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "24",
+          "No. Appearing": "0 (1)",
+          "Hit Dice": "18",
+          "Save As": "Fighter 18",
+          "Move": "40' (13')",
+          "Morale": "11",
+          "Attacks": "1 bite or trample",
+          "Treasure Type": "Nil",
+          "Damage": "3d8 or 4d10",
+          "Alignment": "Neutral"
+        }
+      }
+    ]
+  },
   "treant": {
     "name": "Treant",
     "entries": [
@@ -7632,6 +7973,46 @@
           "Treasure Type": "Nil",
           "Damage": "1d8 each",
           "Alignment": "Lawful"
+        }
+      }
+    ]
+  },
+  "black-knight": {
+    "name": "Black Knight",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "20",
+          "No. Appearing": "0 (1)",
+          "Hit Dice": "14",
+          "Save As": "Fighter 14",
+          "Move": "30' (10')",
+          "Morale": "11",
+          "Attacks": "1 weapon",
+          "Treasure Type": "F + magic sword",
+          "Damage": "By weapon + 3",
+          "Alignment": "Chaotic"
+        }
+      }
+    ]
+  },
+  "bodak": {
+    "name": "Bodak",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "14",
+          "No. Appearing": "0 (1)",
+          "Hit Dice": "9 + 9*",
+          "Save As": "Fighter 9",
+          "Move": "60' (20')",
+          "Morale": "10",
+          "Attacks": "1 weapon or death gaze",
+          "Treasure Type": "Nil",
+          "Damage": "By weapon or death",
+          "Alignment": "Chaotic"
         }
       }
     ]
@@ -7771,6 +8152,46 @@
           "Attacks": "1 touch or spell",
           "Treasure Type": "A",
           "Damage": "1d10 paralysis or spell",
+          "Alignment": "Chaotic"
+        }
+      }
+    ]
+  },
+  "living-graveyard": {
+    "name": "Living Graveyard**",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "21",
+          "No. Appearing": "0 (1)",
+          "Hit Dice": "40**",
+          "Save As": "Magic-User 16",
+          "Move": "Nil",
+          "Morale": "12",
+          "Attacks": "Special",
+          "Treasure Type": "Nil",
+          "Damage": "2d6 per tombstone",
+          "Alignment": "Chaotic"
+        }
+      }
+    ]
+  },
+  "mohrg": {
+    "name": "Mohrg**",
+    "entries": [
+      {
+        "variant": null,
+        "stats": {
+          "Armor Class": "23",
+          "No. Appearing": "0 (1d4)",
+          "Hit Dice": "14",
+          "Save As": "Fighter 14",
+          "Move": "30' (10')",
+          "Morale": "12",
+          "Attacks": "1 slam or 1 tongue",
+          "Treasure Type": "Nil",
+          "Damage": "1d6 or paralysis",
           "Alignment": "Chaotic"
         }
       }

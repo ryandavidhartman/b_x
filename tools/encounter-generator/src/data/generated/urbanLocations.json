@@ -759,8 +759,16 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Neotyugh](#neotyugh)",
+          "raw": "[Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh)",
           "links": [
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Type III Demon (Glabrezu)",
+              "anchor": "type-iii-demon-glabrezu"
+            },
             {
               "label": "Neotyugh",
               "anchor": "neotyugh"
@@ -774,8 +782,16 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Neotyugh](#neotyugh)",
+          "raw": "[Ghost](#ghost), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Neotyugh](#neotyugh)",
           "links": [
+            {
+              "label": "Ghost",
+              "anchor": "ghost"
+            },
+            {
+              "label": "Type III Demon (Glabrezu)",
+              "anchor": "type-iii-demon-glabrezu"
+            },
             {
               "label": "Neotyugh",
               "anchor": "neotyugh"
@@ -2090,7 +2106,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Barbed Devil](#barbed-devil), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Invisible Stalker](#invisible-stalker), [Lammasu](#lammasu), [Otyugh](#otyugh), [Revenant](#revenant), [Type I Demon (Vrock)](#type-i-demon-vrock), [Bone Devil](#bone-devil), [Dao](#dao), [Death Knight](#death-knight), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Skeleton Warrior](#skeleton-warrior), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Dragon, Gold](#dragon), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Guardian Naga](#naga), [Neotyugh](#neotyugh)",
+          "raw": "[Barbed Devil](#barbed-devil), [Elemental, Earth](#elemental), [Elemental, Fire](#elemental), [Golem, Bone](#golem), [Golem, Flesh](#golem), [Invisible Stalker](#invisible-stalker), [Lammasu](#lammasu), [Otyugh](#otyugh), [Revenant](#revenant), [Type I Demon (Vrock)](#type-i-demon-vrock), [Bone Devil](#bone-devil), [Dao](#dao), [Death Knight](#death-knight), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Skeleton Warrior](#skeleton-warrior), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Dragon, Gold](#dragon), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Great Orb of Eyes](#great-orb-of-eyes), [Neotyugh](#neotyugh)",
           "links": [
             {
               "label": "Barbed Devil",
@@ -2233,8 +2249,8 @@
               "anchor": "sphinx"
             },
             {
-              "label": "Guardian Naga",
-              "anchor": "naga"
+              "label": "Great Orb of Eyes",
+              "anchor": "great-orb-of-eyes"
             },
             {
               "label": "Neotyugh",
@@ -2249,7 +2265,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Bone Devil](#bone-devil), [Dao](#dao), [Death Knight](#death-knight), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Skeleton Warrior](#skeleton-warrior), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Dragon, Gold](#dragon), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Fire Giant](#giant), [Guardian Naga](#naga), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Pit Fiend](#pit-fiend)",
+          "raw": "[Bone Devil](#bone-devil), [Dao](#dao), [Death Knight](#death-knight), [Hieracosphinx](#sphinx), [Lamia](#lamia), [Mind Flayer](#mind-flayer), [Skeleton Warrior](#skeleton-warrior), [Type II Demon (Hezrou)](#type-ii-demon-hezrou), [Type VI Demon (Balor)](#type-vi-demon-balor), [Vampire](#vampire), [Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Dragon, Gold](#dragon), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Fire Giant](#giant), [Guardian Naga](#naga), [Lich](#lich), [Slug, Giant](#slug-giant), [Pit Fiend](#pit-fiend)",
           "links": [
             {
               "label": "Bone Devil",
@@ -2360,8 +2376,8 @@
               "anchor": "naga"
             },
             {
-              "label": "Neotyugh",
-              "anchor": "neotyugh"
+              "label": "Lich",
+              "anchor": "lich"
             },
             {
               "label": "Slug, Giant",
@@ -2380,7 +2396,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Dragon, Gold](#dragon), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Fire Giant](#giant), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend)",
+          "raw": "[Black Pudding](#black-pudding), [Criosphinx](#sphinx), [Efreeti](#efreeti), [Ghost](#ghost), [Golem, Amber](#golem), [Mimic](#mimic), [Shedu](#shedu), [Spirit Naga](#naga), [Type III Demon (Glabrezu)](#type-iii-demon-glabrezu), [Beholder](#beholder), [Dragon, Gold](#dragon), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Fire Giant](#giant), [Great Orb of Eyes](#great-orb-of-eyes), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend)",
           "links": [
             {
               "label": "Black Pudding",
@@ -2447,6 +2463,10 @@
               "anchor": "giant"
             },
             {
+              "label": "Great Orb of Eyes",
+              "anchor": "great-orb-of-eyes"
+            },
+            {
               "label": "Guardian Naga",
               "anchor": "naga"
             },
@@ -2479,7 +2499,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Beholder](#beholder), [Dragon, Gold](#dragon), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Fire Giant](#giant), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend)",
+          "raw": "[Beholder](#beholder), [Dragon, Gold](#dragon), [Golem, Clay](#golem), [Ice Devil](#ice-devil), [Type IV Demon (Nalfeshnee)](#type-iv-demon-nalfeshnee), [Androsphinx](#sphinx), [Fire Giant](#giant), [Great Orb of Eyes](#great-orb-of-eyes), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend)",
           "links": [
             {
               "label": "Beholder",
@@ -2508,6 +2528,10 @@
             {
               "label": "Fire Giant",
               "anchor": "giant"
+            },
+            {
+              "label": "Great Orb of Eyes",
+              "anchor": "great-orb-of-eyes"
             },
             {
               "label": "Guardian Naga",
@@ -2542,7 +2566,7 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Androsphinx](#sphinx), [Fire Giant](#giant), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend), [Aerial Servant](#aerial-servant)",
+          "raw": "[Androsphinx](#sphinx), [Fire Giant](#giant), [Great Orb of Eyes](#great-orb-of-eyes), [Guardian Naga](#naga), [Lich](#lich), [Neotyugh](#neotyugh), [Slug, Giant](#slug-giant), [Trapper](#trapper), [Pit Fiend](#pit-fiend), [Aerial Servant](#aerial-servant)",
           "links": [
             {
               "label": "Androsphinx",
@@ -2551,6 +2575,10 @@
             {
               "label": "Fire Giant",
               "anchor": "giant"
+            },
+            {
+              "label": "Great Orb of Eyes",
+              "anchor": "great-orb-of-eyes"
             },
             {
               "label": "Guardian Naga",
@@ -2608,11 +2636,15 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Aerial Servant](#aerial-servant)",
+          "raw": "[Aerial Servant](#aerial-servant), [Celestial, Arbiter](#celestial-arbiter)",
           "links": [
             {
               "label": "Aerial Servant",
               "anchor": "aerial-servant"
+            },
+            {
+              "label": "Celestial, Arbiter",
+              "anchor": "celestial-arbiter"
             }
           ]
         }
@@ -2623,11 +2655,15 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Aerial Servant](#aerial-servant)",
+          "raw": "[Aerial Servant](#aerial-servant), [Celestial, Arbiter](#celestial-arbiter)",
           "links": [
             {
               "label": "Aerial Servant",
               "anchor": "aerial-servant"
+            },
+            {
+              "label": "Celestial, Arbiter",
+              "anchor": "celestial-arbiter"
             }
           ]
         }
@@ -2638,11 +2674,15 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Aerial Servant](#aerial-servant), [Demilich](#demilich), [Golem, Bronze](#golem), [Titan](#titan)",
+          "raw": "[Aerial Servant](#aerial-servant), [Celestial, Arbiter](#celestial-arbiter), [Demilich](#demilich), [Golem, Bronze](#golem), [Titan](#titan)",
           "links": [
             {
               "label": "Aerial Servant",
               "anchor": "aerial-servant"
+            },
+            {
+              "label": "Celestial, Arbiter",
+              "anchor": "celestial-arbiter"
             },
             {
               "label": "Demilich",
@@ -2665,8 +2705,12 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Demilich](#demilich), [Golem, Bronze](#golem), [Titan](#titan)",
+          "raw": "[Celestial, Arbiter](#celestial-arbiter), [Demilich](#demilich), [Golem, Bronze](#golem), [Titan](#titan)",
           "links": [
+            {
+              "label": "Celestial, Arbiter",
+              "anchor": "celestial-arbiter"
+            },
             {
               "label": "Demilich",
               "anchor": "demilich"
@@ -2688,8 +2732,12 @@
           "links": []
         },
         "Monster": {
-          "raw": "[Demilich](#demilich), [Golem, Bronze](#golem), [Titan](#titan)",
+          "raw": "[Celestial, Arbiter](#celestial-arbiter), [Demilich](#demilich), [Golem, Bronze](#golem), [Titan](#titan)",
           "links": [
+            {
+              "label": "Celestial, Arbiter",
+              "anchor": "celestial-arbiter"
+            },
             {
               "label": "Demilich",
               "anchor": "demilich"
