@@ -14,8 +14,12 @@ import { rollNewHex, checkPointOfInterest, rollCataclysm, TERRAIN_LOOP } from ".
 import { rollNpcParty, rollRivalFlavor, ARCHETYPES, type Archetype } from "./generators/npcParty";
 import { checkDungeonFrequency, checkWildernessFrequency, SETTLEMENT_ENCOUNTER_TURNS } from "./generators/encounterFrequency";
 import { rollTreasureForType } from "./generators/treasureAward";
+import { rollUnguardedTreasure } from "./treasure/generators/hoard";
+import { type DungeonLevel } from "./treasure/data/coinHoards";
 import { ResultCard, type LogEntry } from "./components/ResultCard";
 import { LevelPicker } from "./components/LevelPicker";
+
+const DUNGEON_LEVELS: DungeonLevel[] = ["1", "2", "3", "4-5", "6-7", "8+"];
 
 type Mode = "dungeon" | "wilderness" | "urban" | "hexcrawl" | "npcparty" | "castle";
 
@@ -53,6 +57,7 @@ function App() {
 
   // Hex crawl
   const [currentHexTerrain, setCurrentHexTerrain] = useState(TERRAIN_LOOP[0]);
+  const [unguardedTreasureLevel, setUnguardedTreasureLevel] = useState<DungeonLevel>(DUNGEON_LEVELS[0]);
 
   // NPC Party
   const [archetype, setArchetype] = useState<Archetype>(ARCHETYPES[0]);
@@ -337,6 +342,36 @@ function App() {
                 onClick={() => push({ id: newId(), timestamp: Date.now(), kind: "hexCataclysm", result: rollCataclysm() })}
               >
                 Roll Cataclysm
+              </button>
+            </div>
+            <div className="field-row">
+              <div className="field">
+                <label htmlFor="unguarded-treasure-level">Unguarded Treasure — Dungeon Level</label>
+                <select
+                  id="unguarded-treasure-level"
+                  value={unguardedTreasureLevel}
+                  onChange={(e) => setUnguardedTreasureLevel(e.target.value as DungeonLevel)}
+                >
+                  {DUNGEON_LEVELS.map((l) => (
+                    <option key={l} value={l}>
+                      {l}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <button
+                className="roll-button"
+                onClick={() =>
+                  push({
+                    id: newId(),
+                    timestamp: Date.now(),
+                    kind: "hexUnguardedTreasure",
+                    level: unguardedTreasureLevel,
+                    result: rollUnguardedTreasure(unguardedTreasureLevel),
+                  })
+                }
+              >
+                Roll Unguarded Treasure
               </button>
             </div>
           </>

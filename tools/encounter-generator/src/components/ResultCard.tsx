@@ -6,6 +6,7 @@ import type { EncounterPurposeResult, FrequencyResult, WildernessFrequencyResult
 import type { NewHexResult, PointOfInterestResult } from "../generators/hexCrawl";
 import type { NpcPartyResult, RivalPartyFlavor } from "../generators/npcParty";
 import type { HoardResult } from "../treasure/generators/types";
+import type { DungeonLevel } from "../treasure/data/coinHoards";
 import { RollableText } from "./RollableText";
 import { useState } from "react";
 
@@ -17,6 +18,7 @@ export type LogEntry =
   | { id: string; timestamp: number; kind: "hexTerrain"; result: NewHexResult }
   | { id: string; timestamp: number; kind: "hexPoi"; result: PointOfInterestResult }
   | { id: string; timestamp: number; kind: "hexCataclysm"; result: string[] }
+  | { id: string; timestamp: number; kind: "hexUnguardedTreasure"; level: DungeonLevel; result: HoardResult }
   | { id: string; timestamp: number; kind: "npcParty"; result: NpcPartyResult; rival: RivalPartyFlavor | null }
   | { id: string; timestamp: number; kind: "castle"; result: CastleEncounterResult }
   | { id: string; timestamp: number; kind: "dungeonFrequency"; result: FrequencyResult }
@@ -263,6 +265,8 @@ function titleFor(entry: LogEntry): string {
       return "Hex Crawl — Point of Interest";
     case "hexCataclysm":
       return "Hex Crawl — Cataclysm";
+    case "hexUnguardedTreasure":
+      return "Hex Crawl — Unguarded Treasure";
     case "npcParty":
       return `NPC Party — ${entry.result.archetype}`;
     case "castle":
@@ -358,6 +362,12 @@ export function ResultCard({
             <li key={i}>{c}</li>
           ))}
         </ul>
+      )}
+      {entry.kind === "hexUnguardedTreasure" && (
+        <>
+          <p className="roll-trail">Dungeon Level {entry.level}</p>
+          <TreasureBlock hoard={entry.result} />
+        </>
       )}
       {entry.kind === "castle" && (
         <p>
