@@ -14,6 +14,7 @@ import { rollNewHex, checkPointOfInterest, rollCataclysm, TERRAIN_LOOP } from ".
 import { rollNpcParty, rollRivalFlavor, ARCHETYPES, type Archetype } from "./generators/npcParty";
 import { rollTreasureForType } from "./generators/treasureAward";
 import { ResultCard, type LogEntry } from "./components/ResultCard";
+import { LevelPicker } from "./components/LevelPicker";
 
 type Mode = "dungeon" | "wilderness" | "urban" | "hexcrawl" | "npcparty" | "castle";
 
@@ -148,10 +149,7 @@ function App() {
                   ))}
                 </select>
               </div>
-              <div className="field">
-                <label htmlFor="dungeon-party-level">Party Level</label>
-                <input id="dungeon-party-level" type="number" min={1} max={20} value={dungeonPartyLevel} onChange={(e) => setDungeonPartyLevel(Number(e.target.value))} />
-              </div>
+              <LevelPicker id="dungeon-party-level" value={dungeonPartyLevel} onChange={setDungeonPartyLevel} />
               <div className="checkbox-field">
                 <input id="dungeon-treasure" type="checkbox" checked={dungeonAwardTreasure} onChange={(e) => setDungeonAwardTreasure(e.target.checked)} />
                 <label htmlFor="dungeon-treasure">Award treasure</label>
@@ -178,10 +176,7 @@ function App() {
                   ))}
                 </select>
               </div>
-              <div className="field">
-                <label htmlFor="wild-party-level">Party Level</label>
-                <input id="wild-party-level" type="number" min={1} max={20} value={wildPartyLevel} onChange={(e) => setWildPartyLevel(Number(e.target.value))} />
-              </div>
+              <LevelPicker id="wild-party-level" value={wildPartyLevel} onChange={setWildPartyLevel} />
               <div className="checkbox-field">
                 <input id="airborne" type="checkbox" checked={airborne} onChange={(e) => setAirborne(e.target.checked)} />
                 <label htmlFor="airborne">Party is airborne</label>
@@ -264,10 +259,7 @@ function App() {
                     ))}
                   </select>
                 </div>
-                <div className="field">
-                  <label htmlFor="urban-party-level">Party Level</label>
-                  <input id="urban-party-level" type="number" min={1} max={20} value={urbanPartyLevel} onChange={(e) => setUrbanPartyLevel(Number(e.target.value))} />
-                </div>
+                <LevelPicker id="urban-party-level" value={urbanPartyLevel} onChange={setUrbanPartyLevel} />
                 <div className="checkbox-field">
                   <input id="urban-monster-treasure" type="checkbox" checked={urbanMonsterAwardTreasure} onChange={(e) => setUrbanMonsterAwardTreasure(e.target.checked)} />
                   <label htmlFor="urban-monster-treasure">Award treasure</label>

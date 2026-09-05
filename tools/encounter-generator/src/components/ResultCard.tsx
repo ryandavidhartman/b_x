@@ -1,6 +1,6 @@
 import type { ResolvedMonster } from "../lib/resolveMonster";
 import type { DungeonEncounterResult } from "../generators/dungeonEncounter";
-import type { WildernessEncounterResult, CastleEncounterResult } from "../generators/wildernessEncounter";
+import type { WildernessEncounterResult, CastleEncounterResult, LoneNpcResult } from "../generators/wildernessEncounter";
 import type { UrbanEncounterResult, UrbanMonsterEncounterResult } from "../generators/urbanEncounter";
 import type { NewHexResult, PointOfInterestResult } from "../generators/hexCrawl";
 import type { NpcPartyResult, RivalPartyFlavor } from "../generators/npcParty";
@@ -114,90 +114,50 @@ function DragonTreasureControls({ onReroll }: { onReroll: (ageCategory: number, 
   );
 }
 
-function DungeonCard({
-  result,
+// Shared render path for Dungeon/Wilderness/Urban monster encounters — all three now use the
+// exact same terrain/location + level pool mechanism (see generate-appendix-d-tables.mjs), so
+// their result shapes only differ in the field name for "where" (terrain vs. location) and in
+// Wilderness's extra Lone NPC pre-check.
+function MonsterEncounterCard({
+  place,
+  levelRoll,
+  choiceNote,
+  monster,
+  count,
+  resultRaw,
+  borrowedFromLevel,
+  loneNpc,
   treasure,
   onRerollDragonTreasure,
 }: {
-  result: DungeonEncounterResult;
+  place: string;
+  levelRoll: number;
+  choiceNote?: string;
+  monster: ResolvedMonster | null;
+  count: number | null;
+  resultRaw: string;
+  borrowedFromLevel: string | null;
+  loneNpc?: LoneNpcResult | null;
   treasure: HoardResult | null;
   onRerollDragonTreasure: (ageCategory: number, hitDice: number) => void;
 }) {
-  const isDragon = result.monster?.headingName === "Dragon";
+  const isDragon = monster?.headingName === "Dragon";
   return (
     <>
       <p className="roll-trail">
-        {result.location} · party level = {result.levelRoll}
-        {result.choiceNote ? ` · ${result.choiceNote}` : ""}
+        {place} · party level = {levelRoll}
+        {choiceNote ? ` · ${choiceNote}` : ""}
       </p>
-      {result.monster && <MonsterStats monster={result.monster} count={result.count} />}
-      {!result.monster && <p className="hint"><RollableText text={result.resultRaw} /></p>}
-      {result.borrowedFromLevel && (
+      {loneNpc && (
         <div className="fallback-note">
-          Nothing tagged for this location right at party level {result.levelRoll} — borrowed from Level {result.borrowedFromLevel} instead.
+          Lone NPC encounter (d% = {loneNpc.roll}): {loneNpc.archetype} — see Lone NPC Encounters for what this archetype means.
         </div>
       )}
-      {treasure && <TreasureBlock hoard={treasure} />}
-      {isDragon && <DragonTreasureControls onReroll={onRerollDragonTreasure} />}
-    </>
-  );
-}
-
-function WildernessCard({
-  result,
-  treasure,
-  onRerollDragonTreasure,
-}: {
-  result: WildernessEncounterResult;
-  treasure: HoardResult | null;
-  onRerollDragonTreasure: (ageCategory: number, hitDice: number) => void;
-}) {
-  const isDragon = result.monster?.headingName === "Dragon";
-  return (
-    <>
-      <p className="roll-trail">
-        {result.terrain} · party level = {result.levelRoll}
-        {result.choiceNote ? ` · ${result.choiceNote}` : ""}
-      </p>
-      {result.loneNpc && (
+      {monster && <MonsterStats monster={monster} count={count} />}
+      {!monster && !loneNpc && <p className="hint"><RollableText text={resultRaw} /></p>}
+      {borrowedFromLevel && (
         <div className="fallback-note">
-          Lone NPC encounter (d% = {result.loneNpc.roll}): {result.loneNpc.archetype} — see Lone NPC Encounters for what this archetype means.
-        </div>
-      )}
-      {result.monster && <MonsterStats monster={result.monster} count={result.count} />}
-      {!result.monster && !result.loneNpc && <p className="hint"><RollableText text={result.resultRaw} /></p>}
-      {result.borrowedFromLevel && (
-        <div className="fallback-note">
-          Nothing tagged for this terrain right at party level {result.levelRoll} — borrowed from Level {result.borrowedFromLevel} instead.
-        </div>
-      )}
-      {treasure && <TreasureBlock hoard={treasure} />}
-      {isDragon && <DragonTreasureControls onReroll={onRerollDragonTreasure} />}
-    </>
-  );
-}
-
-function UrbanMonsterCard({
-  result,
-  treasure,
-  onRerollDragonTreasure,
-}: {
-  result: UrbanMonsterEncounterResult;
-  treasure: HoardResult | null;
-  onRerollDragonTreasure: (ageCategory: number, hitDice: number) => void;
-}) {
-  const isDragon = result.monster?.headingName === "Dragon";
-  return (
-    <>
-      <p className="roll-trail">
-        {result.location} · party level = {result.levelRoll}
-        {result.choiceNote ? ` · ${result.choiceNote}` : ""}
-      </p>
-      {result.monster && <MonsterStats monster={result.monster} count={result.count} />}
-      {!result.monster && <p className="hint"><RollableText text={result.resultRaw} /></p>}
-      {result.borrowedFromLevel && (
-        <div className="fallback-note">
-          Nothing tagged for this location right at party level {result.levelRoll} — borrowed from Level {result.borrowedFromLevel} instead.
+          Nothing tagged here right at party level {levelRoll} — borrowed from Level {borrowedFromLevel} instead.
         </div>
       )}
       {treasure && <TreasureBlock hoard={treasure} />}
@@ -311,14 +271,45 @@ export function ResultCard({
         <span className="timestamp">{new Date(entry.timestamp).toLocaleTimeString()}</span>
       </div>
       {entry.kind === "dungeon" && (
-        <DungeonCard result={entry.result} treasure={entry.treasure} onRerollDragonTreasure={(age, hd) => onRerollDragonTreasure(entry.id, age, hd)} />
+        <MonsterEncounterCard
+          place={entry.result.location}
+          levelRoll={entry.result.levelRoll}
+          choiceNote={entry.result.choiceNote}
+          monster={entry.result.monster}
+          count={entry.result.count}
+          resultRaw={entry.result.resultRaw}
+          borrowedFromLevel={entry.result.borrowedFromLevel}
+          treasure={entry.treasure}
+          onRerollDragonTreasure={(age, hd) => onRerollDragonTreasure(entry.id, age, hd)}
+        />
       )}
       {entry.kind === "wilderness" && (
-        <WildernessCard result={entry.result} treasure={entry.treasure} onRerollDragonTreasure={(age, hd) => onRerollDragonTreasure(entry.id, age, hd)} />
+        <MonsterEncounterCard
+          place={entry.result.terrain}
+          levelRoll={entry.result.levelRoll}
+          choiceNote={entry.result.choiceNote}
+          monster={entry.result.monster}
+          count={entry.result.count}
+          resultRaw={entry.result.resultRaw}
+          borrowedFromLevel={entry.result.borrowedFromLevel}
+          loneNpc={entry.result.loneNpc}
+          treasure={entry.treasure}
+          onRerollDragonTreasure={(age, hd) => onRerollDragonTreasure(entry.id, age, hd)}
+        />
       )}
       {entry.kind === "urban" && <UrbanCard result={entry.result} />}
       {entry.kind === "urbanMonster" && (
-        <UrbanMonsterCard result={entry.result} treasure={entry.treasure} onRerollDragonTreasure={(age, hd) => onRerollDragonTreasure(entry.id, age, hd)} />
+        <MonsterEncounterCard
+          place={entry.result.location}
+          levelRoll={entry.result.levelRoll}
+          choiceNote={entry.result.choiceNote}
+          monster={entry.result.monster}
+          count={entry.result.count}
+          resultRaw={entry.result.resultRaw}
+          borrowedFromLevel={entry.result.borrowedFromLevel}
+          treasure={entry.treasure}
+          onRerollDragonTreasure={(age, hd) => onRerollDragonTreasure(entry.id, age, hd)}
+        />
       )}
       {entry.kind === "npcParty" && <NpcPartyCard result={entry.result} rival={entry.rival} />}
       {entry.kind === "hexTerrain" && (
