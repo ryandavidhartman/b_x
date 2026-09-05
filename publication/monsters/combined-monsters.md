@@ -5927,11 +5927,10 @@ A powerful magic-user accompanied by apprentices and hired guards, often seeking
 #### Rival Adventuring Parties
 *Source:* `Shadowdark RPG (adapted)`
 
-Any NPC Party generated above — whether it turned up in a Dungeon Random Encounter, an Urban
-Encounter, or on the wilderness Overland Hex Crawl Generation's Points of Interest table (see
-Appendix D) — can optionally be given this flavor layer to turn it from a one-off encounter
-into a recurring rival: a competing group of adventurers after the same treasure, the same
-dungeon, or the same reputation as the party.
+Any NPC Party generated above — whether rolled directly, or placed at a hex's Point of Interest
+via Overland Hex Crawl Generation (see Appendix D) — can optionally be given this flavor layer
+to turn it from a one-off encounter into a recurring rival: a competing group of adventurers
+after the same treasure, the same dungeon, or the same reputation as the party.
 
 | d6  | Renown             |
 |-----|--------------------|
@@ -7893,8 +7892,8 @@ E: The Encounter Builder for that).
 Every monster below is listed under each of the 16 terrain and location types where it could
 plausibly turn up — many appear under several, since few creatures are confined to exactly one
 kind of ground. This reflects where a creature *could reasonably be found*, not where it's likely
-in relative terms; a monster's actual odds of turning up in a given hex still depend on its
-category and rarity, as covered by the Terrain Category Summary in Appendix D.
+in relative terms; a monster's actual odds of turning up in a given hex still depend on the
+party's level, as covered by the terrain tables in Appendix D.
 
 #### Aquatic
 
@@ -8092,28 +8091,26 @@ This appendix covers wandering monsters — creatures the party meets at random 
 At a glance, the whole procedure runs like this:
 
 ::: center
-![](assets/appendix-c-flowchart.png){width=85%}
+![](assets/appendix-d-flowchart.png){width=85%}
 :::
 
 Each step is detailed below.
 
-A. **Choose the setting.** Is the party in a dungeon, the wilderness, or a settlement? This determines which table set to use for the rest of the procedure — *Dungeon Random Encounters*, *Wilderness Encounters*, or *Urban Encounters*, below. If the party is crossing unmapped wilderness, see *Overland Hex Crawl Generation*, below, first, to determine each hex's terrain and whether it holds a point of interest.
+A. **Choose the setting.** Is the party in a dungeon, the wilderness, or a settlement? This determines which table set to use for the rest of the procedure — *Dungeon Random Encounters*, *Wilderness Encounters*, or *Urban Encounters*, below. If the party is crossing unmapped wilderness, see *Overland Hex Crawl Generation*, below, first, to determine each hex's terrain and whether it holds a point of interest. If the party approaches a wilderness castle — whether placed as a Point of Interest or set down by the DM — resolve *Castle Encounters*, below, first, to see how the lord's patrol reacts, before this procedure's own steps ever come into play.
 
 B. **Check whether an encounter occurs.** See *Encounter Frequency*, below, for the chance appropriate to the setting.
 
 C. **Determine the monster.** Roll on the table matching the setting from step A:
-   - *Dungeon:* find the dungeon level's row on the Monster Sub-table Matrix, roll `1d12` to find the Monster Level, then roll `d%` on that Monster Level table.
+   - *Dungeon:* pick the location subtype that best fits the room or area (Standard Dungeon, Cave/Cavern Network, Tomb/Crypt, Evil Temple/Shrine, Sewer, or Ruins) and read the row for the party's level.
    - *Wilderness:* check Lone NPC Encounters for the party's terrain first; otherwise turn to that terrain's table and read the row for the party's level.
    - *Settlement:* roll on the Daytime or Nighttime Encounters table, as appropriate, consulting whichever sub-table it calls for — or, for a real monster encounter rather than street life, turn to the Urban or Castle table and read the row for the party's level, same as a wilderness terrain.
 
 D. **Determine why it's here.** See *Encounter Purpose*, below, for a quick note on what the creature is doing when the party meets it.
 
 E. **Determine number appearing.**
-   - *Dungeon:* the Monster Level table already gave a number in its `#` column — use that.
-   - *Settlement:* the Daytime or Nighttime Encounters table already gave a number (and often a full retinue) in its `# Encountered & Notes` column — use that.
-   - *Wilderness:* these tables give a monster name only, with no number of its own. Use the creature's own No. Appearing entry from its stat block — specifically the *parenthetical* number (the one appearing in the wilderness or a lair), not the first number (which is for a wandering dungeon encounter). See *No. Appearing* in the glossary at the front of the book.
-
-   For a dungeon encounter whose Monster Level doesn't match the dungeon level it was rolled on, adjust the number as described in *Dungeon Random Encounters*, above.
+   - *Settlement street encounters:* the Daytime or Nighttime Encounters table already gave a number (and often a full retinue) in its `# Encountered & Notes` column — use that.
+   - *Dungeon:* these tables give a monster name only, with no number of its own. Use the creature's own No. Appearing entry from its stat block — specifically the *first* number (the one for a wandering dungeon encounter), not the parenthetical one.
+   - *Wilderness / Settlement (Urban, Castle):* these tables give a monster name only, with no number of its own. Use the creature's own No. Appearing entry from its stat block — specifically the *parenthetical* number (the one appearing in the wilderness or a lair), not the first number. See *No. Appearing* in the glossary at the front of the book.
 
 F. **Award treasure.** If the monster's description gives a Treasure Type, roll on the Treasure Types table (Appendix B: Treasure). If treasure is present without a guardian, use the Unguarded Treasures table (Appendix B: Treasure) instead.
 
@@ -8122,6 +8119,8 @@ To stock a whole dungeon room-by-room instead of generating a single wandering m
 ### Encounter Frequency
 
 *Dungeon:* At the end of every 2 turns, roll `1d6`. A result of `1` means the party will encounter a Wandering Monster in the next turn.
+
+*Settlement:* Checked every 3 turns of street activity, or as the DM desires. On a triggered check, roll on the Daytime or Nighttime Encounters table as appropriate; the DM may instead call for a real monster encounter (the Urban or Castle table) when the scene calls for one.
 
 *Wilderness:* Checked once per day by default, though the DM may make up to 3-4 checks on an eventful day. Roll `1d6`; the terrain determines which results trigger an encounter.
 
@@ -8141,9 +8140,9 @@ To stock a whole dungeon room-by-room instead of generating a single wandering m
 
 \*A roll of 5 indicates a normal ocean encounter; a 6 results in an encounter at the end of the day in whatever terrain the ship has beached in, or no encounter if the ship spent the entire day at sea.
 
-\*\*Aerial encounters always use the Airborne category.
+\*\*Aerial encounters restrict the result to a flying creature from the terrain's pool — see *Terrain Name Cross-Reference*, below.
 
-\*\*\*Called "Plains" in the Terrain Category Summary and wilderness terrain tables, below — see *Terrain Name Cross-Reference* under *Wilderness Encounters* for how every entry in this table maps onto that more granular terrain list.
+\*\*\*Called "Plains" in the wilderness terrain tables, below — see *Terrain Name Cross-Reference* under *Wilderness Encounters* for how every entry in this table maps onto that more granular terrain list.
 
 Treat other terrain types as whichever entry above is the closest match.
 
@@ -8165,10 +8164,11 @@ A quick note on what a creature is doing when the party meets it — useful for 
 | 8 | Escorting or accompanying another creature or NPC |
 
 ```{=latex}
-% Keep each of this appendix's sub-headings on the same page as the table
-% that follows it, rather than letting the heading strand alone at the
-% bottom of a page. Left in effect for the whole appendix (this is now the
-% only appendix with this heading/table pattern; restored at its own end).
+% Keep each sub-heading on the same page as the table that follows it,
+% rather than letting the heading strand alone at the bottom of a page.
+% Appendix E has the same heading/table pattern, so this stays in effect
+% across both D and E; restored just before Appendix F, which reopens its
+% own copy for the sections that need it (see below).
 \let\oldparagraph\paragraph
 \renewcommand{\paragraph}[1]{\filbreak\oldparagraph{#1}}
 \let\oldsubparagraph\subparagraph
@@ -8179,7 +8179,7 @@ A quick note on what a creature is doing when the party meets it — useful for 
 
 *Source:* `OSRIC, Dungeons, Towns and Wildernesses: Random Dungeon Encounters`
 
-Each location type below is indexed by the party's own level (1-20) directly — dungeon level and party level are treated as the same number, and there's no separate Monster Level table or `1d12` matrix roll to resolve first. Pick the location that best matches the room or area (a generic dungeon, a natural cavern system, a burial site, an active cult's lair, a sewer, or an overgrown ruin), look up the party's level, and pick a monster from that row's list at random — weighted, where shown, toward whichever end of the list is more common. A `*(as Level N)*` note means nothing was tagged to that location at exactly the party's level, so the nearest level(s) that did have something are used instead. Every real dragon reference below already names its color directly (no separate age sub-table to roll on).
+Each location type below is indexed by the party's own level (1-20) directly — dungeon level and party level are treated as the same number, and there's no separate Monster Level table or `1d12` matrix roll to resolve first. Pick the location that best matches the room or area (a generic dungeon, a natural cavern system, a burial site, an active cult's lair, a sewer, or an overgrown ruin), look up the party's level, and pick a monster from that row's list at random. The list already leans toward the party's own level: monsters at or up to two levels below get more slots in the list than monsters one or two levels above, so nearby, appropriate threats come up more often than the rare tougher one. A `*(as Level N)*` note means nothing was tagged to that location at exactly the party's level, so the nearest level(s) that did have something are used instead. Every real dragon reference below already names its color directly (no separate age sub-table to roll on). If the party's levels vary widely, use the highest level in the group.
 
 ::: pagebreak-pdf
 :::
@@ -8359,7 +8359,7 @@ Each location type below is indexed by the party's own level (1-20) directly —
 
 *Source:* `OSRIC, Dungeons, Towns and Wildernesses: NPC Parties (All Dungeon Levels)`
 
-When a Dungeon Random Encounters table calls for an NPC Party, generate it using the **NPC Parties** entry earlier in this book: pick a party archetype (Basic Adventurers, Expert Adventurers, or one of the High-Level Cleric/Fighter/Magic-User retinues), then roll class and level as described there. As with other dungeon encounters, an NPC party's *class level* increases for each dungeon level deeper than its normal range, rather than its numbers.
+To generate an NPC party — a rival adventuring group, a body of guards-for-hire, or anything else the DM wants to put together on the spot — use the **NPC Parties** entry earlier in this book: pick a party archetype (Basic Adventurers, Expert Adventurers, or one of the High-Level Cleric/Fighter/Magic-User retinues), then roll class and level as described there.
 
 If a demi-human or multi-classed NPC turns up in the party, roll on the table below to decide their race and whether they hold a second (or third) class.
 
@@ -8534,6 +8534,8 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 | 80-83 | Thief | A 1d4+7-level thief and 1d3-1 apprentice thieves (level 1d4) |
 | 84-00 | Tradesman | 2d4 artisans, craftsmen, or skilled workmen (Normal Humans) |
 
+The Daytime and Nighttime tables above cover the social texture of a town or city — the NPCs, crowds, and everyday trouble a party runs into on the street. For an actual monster encounter, use the **Urban** or **Castle** table below instead: each is indexed by the party's own level (1-20), exactly like Dungeon and Wilderness encounters, and works the same way — look up the party's level and pick a monster from that row's list at random, with nearby-level monsters filling more of the list than rarer, tougher ones. A `*(as Level N)*` note means nothing was tagged to that location at exactly the party's level, so the nearest level(s) that did have something are used instead. If the party's levels vary widely, use the highest level in the group.
+
 #### Urban
 
 | Level | Monster |
@@ -8600,7 +8602,7 @@ Several entries in the Daytime and Nighttime Encounter tables below refer to one
 Before *Wilderness Encounters*, below, can tell you *what* the party meets, something has to
 decide *where* the party is — this section generates the hex-by-hex terrain of an unmapped
 wilderness, and what's worth finding in it, one hex at a time as the party travels. It reuses
-the same fourteen-terrain vocabulary as the Terrain Category Summary rather than inventing a
+the same fourteen-terrain vocabulary as the wilderness terrain tables rather than inventing a
 separate one, so a hex's result tells you immediately which terrain table to roll wandering
 encounters on.
 
@@ -8634,8 +8636,10 @@ Table: Terrain Loop (wraps from 12 back to 1)
 | 12 | Unfamiliar territory: reroll `1d12` on the Terrain Loop's Position column, ignoring the current position |
 Table: New Hex
 
-Graveyard and Lost World aren't Terrain Loop members — they're rare, and reached only through
-a Point of Interest or DM's placement, never through ordinary travel. Treat a hex that would
+Graveyard and Lost World aren't Terrain Loop members — they're rare, and never turn up through
+ordinary travel. Graveyard can be reached via the *Overgrown barrow mound* Point of Interest,
+below, or by DM's placement; Lost World, being wholly cut off from civilization, appears only
+by DM's placement. Treat a hex that would
 otherwise be Wetlands or Arctic (neither has its own *Encounter Frequency* or *Becoming Lost*
 row, per the *Terrain Name Cross-Reference* above) using the frequency of its nearer Terrain
 Loop neighbor.
@@ -8649,7 +8653,7 @@ below to find out what.
 |---|---|---|
 | 1 | Ruined watchtower | Guarded by a monster rolled on this terrain's Wilderness Encounters table |
 | 2 | Standing stones | Marks the site of a Cataclysm — roll below |
-| 3 | Overgrown barrow mound | A sealed tomb; stock it as a Tomb-type location with Appendix E: The Encounter Builder |
+| 3 | Overgrown barrow mound | A sealed tomb; the mound itself becomes a Graveyard-terrain hex, and its interior is stocked as a Tomb-type location with Appendix E: The Encounter Builder |
 | 4 | Abandoned farmstead | Looted long ago; a Rival Adventuring Party has made camp here — see *Rival Adventuring Parties*, above |
 | 5 | Hermit's hut | Home to a reclusive NPC with local knowledge; roll their former trade on the *Urban Professions* sub-table |
 | 6 | Cave mouth | Leads to a dungeon; roll `1d10` on Appendix E's *Scenarios* table for why it's here |
@@ -8691,7 +8695,7 @@ plausible reason a buried evil has reawakened.
 
 Each terrain's table below is indexed by the party's own level (1-20) — no separate table set or level-scaled die the way dungeon encounters use. Use the "No. Appearing" entry from the creature's own stat block (the parenthetical lair/wilderness number) to generate specific numbers, and use the terrain type most prevalent in the party's current location. If the party's levels vary widely, use the highest level in the group — wilderness travel doesn't discriminate by who's weakest.
 
-To generate a wilderness encounter: first check *Lone NPC Encounters*, below, in case this is a lone NPC or small non-adventuring group rather than a monster. Otherwise, turn to the party's terrain and look up their level's row — the cell lists every creature that terrain supports around that level; pick one at random (weighted, where shown, toward whichever end of the row's list is more common). A `*(as Level N)*` note means nothing was tagged to that terrain at exactly the party's level, so the nearest level(s) that did have something are used instead.
+To generate a wilderness encounter: first check *Lone NPC Encounters*, below, in case this is a lone NPC or small non-adventuring group rather than a monster. Otherwise, turn to the party's terrain and look up their level's row — the cell lists every creature that terrain supports around that level; pick one at random. As with dungeon encounters, monsters at or just below the party's level fill more slots than ones above it, so the pick naturally favors appropriate danger over rare tougher finds. A `*(as Level N)*` note means nothing was tagged to that terrain at exactly the party's level, so the nearest level(s) that did have something are used instead.
 
 #### Becoming Lost
 
@@ -8711,13 +8715,13 @@ A party following a road, trail, or river, or led by a reliable guide, will neve
 
 *Source:* `D&D Expert Rulebook, Part 8: Dungeon Master Information`
 
-Characters travelling in the wilderness may search for food to extend their supplies or stave off starvation. Searching while travelling costs nothing extra: roll `1d6` for the day, and a result of `1` means the party has found enough nuts, berries, and small game to feed `1d6` people for one day. Hunting is more deliberate — the party must spend the entire day without travelling — and carries a 1-in-6 chance of an encounter from that terrain's Animal category, in addition to any normal encounter checks for the day. Days spent resting cannot be used for hunting.
+Characters travelling in the wilderness may search for food to extend their supplies or stave off starvation. Searching while travelling costs nothing extra: roll `1d6` for the day, and a result of `1` means the party has found enough nuts, berries, and small game to feed `1d6` people for one day. Hunting is more deliberate — the party must spend the entire day without travelling — and carries a 1-in-6 chance of a normal wandering encounter for that terrain, in addition to any normal encounter checks for the day. Days spent resting cannot be used for hunting.
 
 #### Terrain Name Cross-Reference
 
-*Encounter Frequency* and *Becoming Lost*, above, describe a hex by broad, familiar terms — the kind of thing you'd say out loud at the table ("we're crossing grasslands," "it's all barren rock up here"). The *Terrain Category Summary* and the terrain tables that follow it use a more granular set of names, because they need to distinguish things those familiar terms blur together (a mountain lake plays differently than a mountain peak). The two vocabularies don't line up one-to-one. This table gives the closest match for each term used above, so a DM doesn't have to guess it fresh every session.
+*Encounter Frequency* and *Becoming Lost*, above, describe a hex by broad, familiar terms — the kind of thing you'd say out loud at the table ("we're crossing grasslands," "it's all barren rock up here"). The wilderness terrain tables that follow use a more granular set of names, because they need to distinguish things those familiar terms blur together (a mountain lake plays differently than a mountain peak). The two vocabularies don't line up one-to-one. This table gives the closest match for each term used above, so a DM doesn't have to guess it fresh every session.
 
-| Encounter Frequency / Becoming Lost term | Terrain Category Summary / terrain table |
+| Encounter Frequency / Becoming Lost term | Terrain table |
 |---|---|
 | Clear, Grasslands | Plains |
 | Woods | Forest |
@@ -8733,7 +8737,9 @@ Characters travelling in the wilderness may search for food to extend their supp
 
 *Aerial* isn't a terrain a hex can have; it means the party itself is traveling by air. Roll the encounter as normal for whatever terrain lies beneath the party, but restrict the result to a flying creature from that terrain's pool.
 
-Four terrain tables below — **Arctic**, **Graveyard**, **Lost World**, and **Wetlands** — have no dedicated row in *Encounter Frequency* or *Becoming Lost* at all, because those source tables predate them. Use whichever frequency-table entry the hex most resembles (Arctic ≈ Barren/Mountains; Graveyard ≈ Inhabited, since it's typically at the edge of a settlement; Lost World ≈ Jungle; Wetlands ≈ River or Ocean, DM's choice).
+*Encounter Frequency*'s table above covers every broad term except four — **Arctic**, **Graveyard**, **Lost World**, and **Wetlands** have no dedicated row there, because that source table predates them. Use whichever entry the hex most resembles (Arctic ≈ Barren/Mountains; Graveyard ≈ Inhabited, since it's typically at the edge of a settlement; Lost World ≈ Jungle; Wetlands ≈ River or Ocean, DM's choice).
+
+*Becoming Lost*'s table is sparser still — only five broad terms (Clear/Grasslands, Woods, Mountains/Hills/Barren Lands, Desert, Ocean) — so besides those same four terrains it's also missing a dedicated row for **River** (Aquatic), **Inhabited** (Rural), and **Jungle**. Approximate with the nearest of the five: River ≈ Ocean; Inhabited ≈ Clear/Grasslands; Jungle ≈ Woods. The four terrains above chain through the same approximations: Arctic ≈ Barren ≈ Mountains/Hills/Barren Lands (already a direct row); Graveyard ≈ Inhabited ≈ Clear/Grasslands; Lost World ≈ Jungle ≈ Woods; Wetlands ≈ Ocean (already a direct row).
 
 #### Lone NPC Encounters
 
@@ -9137,7 +9143,7 @@ These refer to the following types of lone NPCs or small non-adventuring groups 
 
 *Source:* `D&D Expert Rulebook, Part 8: Dungeon Master Information`
 
-Most castles the party discovers in the wilderness belong to high-level NPCs who have cleared the surrounding land and hired mercenaries. If the DM hasn't planned the castle's inhabitants and reaction in advance, find the owner's class below for a suggested patrol composition, then roll `1d6` for the lord's reaction — assuming the party does nothing to arouse suspicion or inspire particular trust. The men listed are only part of the owner's forces; the rest of the garrison may include other troop types, or even special creatures such as trolls or a charmed monster.
+Use this table whenever the party approaches a wilderness castle — see step A of *Building an Encounter*, above — before any other monster-encounter roll applies; it replaces, rather than supplements, that procedure while the party is dealing with the castle's patrol. Most castles the party discovers in the wilderness belong to high-level NPCs who have cleared the surrounding land and hired mercenaries. If the DM hasn't planned the castle's inhabitants and reaction in advance, find the owner's class below for a suggested patrol composition, then roll `1d6` for the lord's reaction — assuming the party does nothing to arouse suspicion or inspire particular trust. The men listed are only part of the owner's forces; the rest of the garrison may include other troop types, or even special creatures such as trolls or a charmed monster.
 
 | Owner | Level | Patrol | Pursue | Ignore | Friendly |
 |---|---|---|---|---|---|
@@ -9150,6 +9156,14 @@ Elves, dwarves, and halflings are not given on this table, as their strongholds 
 - **Pursue**: The patrol chases the party off the lord's land, or charges a toll to pass — the amount depends on the lord's personality, how wealthy the party looks, and similar factors. Refusing to pay may mean arrest, being run off, or attack.
 - **Ignore**: No attempt is made to aid or hinder the party.
 - **Friendly**: The lord has invited the party to stay — this doesn't necessarily mean the lord *likes* them; some NPCs offer hospitality for their own, less benevolent purposes.
+
+```{=latex}
+% Restore \small to its normal meaning now that Appendix D is actually over —
+% the shrink hack above was written back when this was the last appendix in
+% the book; Appendix E and F (added later) were silently rendering every
+% table in \footnotesize instead of \small until this restore was added.
+\let\small\oldsmall
+```
 
 ::: pagebreak-pdf
 :::
@@ -9165,7 +9179,7 @@ Where Appendix D generates a wandering monster on the fly, this appendix is a pr
 At a glance, the whole procedure runs like this:
 
 ::: center
-![](assets/appendix-d-flowchart.png){width=80%}
+![](assets/appendix-e-flowchart.png){width=80%}
 :::
 
 Each step is detailed below.
@@ -9232,7 +9246,7 @@ Use this when the location already has a floor plan — hand-drawn, from a modul
 | 3 | Yes | No | No |
 | 4-6 | No | No | No |
 
-A **Monster** result is rolled on whichever Appendix D table matches this location's type — Dungeon Random Encounters for a dungeon (cross-referenced against the dungeon level being stocked), Wilderness Encounters for a wilderness lair, or Urban Encounters for an urban hideout. A **Trap** may be placed in an otherwise empty room or on top of the room's treasure; roll on the Random Trap Generation table below. For a natural or ruined location — a cave, a swamp, a wilderness lair — a Trap result may fit better as an *Environmental Hazard* instead, below; both draw treasure from the same Trap column. A **Special** is anything not exactly a trap but placed for its own reasons — a moaning corridor, a sliding room, a trick (see below) — left to the DM's invention; the Treasure table above has no Special column of its own for the same reason — roll on its Empty column if you'd rather roll than decide. When treasure is indicated, use the monster's own Treasure Type if a monster is present, or the Unguarded Treasures table (Appendix B: Treasure) if the room is empty, holds only a trap, or holds a Special.
+A **Monster** result is rolled on whichever Appendix D table matches this location's type — Dungeon Random Encounters for a dungeon (pick whichever location subtype fits the room, and read the row for the dungeon level being stocked), Wilderness Encounters for a wilderness lair, or Urban Encounters for an urban hideout. A **Trap** may be placed in an otherwise empty room or on top of the room's treasure; roll on the Random Trap Generation table below. For a natural or ruined location — a cave, a swamp, a wilderness lair — a Trap result may fit better as an *Environmental Hazard* instead, below; both draw treasure from the same Trap column. A **Special** is anything not exactly a trap but placed for its own reasons — a moaning corridor, a sliding room, a trick (see below) — left to the DM's invention; the Treasure table above has no Special column of its own for the same reason — roll on its Empty column if you'd rather roll than decide. When treasure is indicated, use the monster's own Treasure Type if a monster is present, or the Unguarded Treasures table (Appendix B: Treasure) if the room is empty, holds only a trap, or holds a Special.
 
 ### Dungeon Dressing
 
@@ -9823,7 +9837,7 @@ After the room is fully resolved, roll up the corridors and rooms generated in s
 At a glance, the loop this procedure settles into looks like this:
 
 ::: center
-![](assets/appendix-d-dungeon-gen-flowchart.png){width=75%}
+![](assets/appendix-e-dungeon-gen-flowchart.png){width=75%}
 :::
 
 #### Map Symbols
@@ -10249,7 +10263,7 @@ Villages, towns, and cities need their own procedure — not a dungeon level, no
 At a glance, the whole procedure runs like this:
 
 ::: center
-![](assets/appendix-e-flowchart.png){width=85%}
+![](assets/appendix-f-flowchart.png){width=85%}
 :::
 
 A. **Determine size.** Roll or pick from *Settlement Size*, below. This sets the settlement's population and how many points of interest it has.
@@ -10292,7 +10306,7 @@ Whoever holds authority here should be at least name level, with bodyguards and 
 
 ### Points of Interest
 
-Rows are ordered from common (low rolls) to rare (high rolls), the same convention used by *Wilderness Encounters* in Appendix D. Roll the number of times given by the settlement's size (above); for Village and Small Town, restrict the roll to the range shown so rare entries stay rare.
+Rows are ordered from common (low rolls) to rare (high rolls). Roll the number of times given by the settlement's size (above); for Village and Small Town, restrict the roll to the range shown so rare entries stay rare.
 
 | Roll Range | Settlement Size |
 |---|---|

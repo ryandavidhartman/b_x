@@ -9,6 +9,7 @@ import { pick } from "../lib/dice";
 import { cellText } from "../lib/rangeTable";
 import { resolveMonsterLink, type ResolvedMonster } from "../lib/resolveMonster";
 import { parseNumberAppearing, rollAppearing } from "../lib/numberAppearing";
+import { rollEncounterPurpose, type EncounterPurposeResult } from "./encounterFrequency";
 
 const DATA = dungeonData as unknown as Record<string, Table>;
 
@@ -25,6 +26,8 @@ export interface DungeonEncounterResult {
    * borrowed from the nearest non-empty level(s) instead (e.g. "12" or "8/9/10") — a structural
    * fact baked in at generation time, not a re-derived heuristic. */
   borrowedFromLevel: string | null;
+  /** Step D, "Determine why it's here" — rolled automatically whenever a real monster comes up. */
+  purpose: EncounterPurposeResult | null;
 }
 
 const BORROW_RE = /\*\(as Level ([\d/]+)\)\*/;
@@ -46,10 +49,12 @@ export function rollDungeonEncounter(location: string, partyLevel: number): Dung
   }
 
   let count: number | null = null;
+  let purpose: EncounterPurposeResult | null = null;
   if (monster) {
     const appearing = parseNumberAppearing(monster.stats["No. Appearing"] ?? "1");
     count = rollAppearing(appearing.dungeon);
+    purpose = rollEncounterPurpose();
   }
 
-  return { location, levelRoll: partyLevel, resultRaw, monster, count, choiceNote, borrowedFromLevel };
+  return { location, levelRoll: partyLevel, resultRaw, monster, count, choiceNote, borrowedFromLevel, purpose };
 }

@@ -11,6 +11,7 @@ import { rollDie, pick } from "../lib/dice";
 import { findRowByRoll, cellText, inRange } from "../lib/rangeTable";
 import { resolveMonsterLink, type ResolvedMonster } from "../lib/resolveMonster";
 import { parseNumberAppearing, rollAppearing } from "../lib/numberAppearing";
+import { rollEncounterPurpose, broadTermFor, type EncounterPurposeResult } from "./encounterFrequency";
 
 const WILD = wildernessData as unknown as {
   terrains: Record<string, Table>;
@@ -58,6 +59,9 @@ export interface WildernessEncounterResult {
    * borrowed from the nearest non-empty level(s) instead (e.g. "12" or "8/9/10") — a structural
    * fact baked in at generation time, not a re-derived heuristic. */
   borrowedFromLevel: string | null;
+  /** Step D, "Determine why it's here" — rolled automatically whenever a real monster comes up
+   * (not for a Lone NPC result, which is its own kind of encounter). */
+  purpose: EncounterPurposeResult | null;
 }
 
 const BORROW_RE = /\*\(as Level ([\d/]+)\)\*/;
@@ -65,7 +69,7 @@ const BORROW_RE = /\*\(as Level ([\d/]+)\)\*/;
 export function rollWildernessEncounter(terrain: string, partyLevel: number, airborne = false): WildernessEncounterResult {
   const loneNpc = checkLoneNpc(terrain);
   if (loneNpc) {
-    return { terrain, levelRoll: partyLevel, resultRaw: loneNpc.archetype, monster: null, count: null, loneNpc, borrowedFromLevel: null };
+    return { terrain, levelRoll: partyLevel, resultRaw: loneNpc.archetype, monster: null, count: null, loneNpc, borrowedFromLevel: null, purpose: null };
   }
 
   const table = WILD.terrains[terrain];
@@ -98,32 +102,36 @@ export function rollWildernessEncounter(terrain: string, partyLevel: number, air
   }
 
   let count: number | null = null;
+  let purpose: EncounterPurposeResult | null = null;
   if (monster) {
     const appearing = parseNumberAppearing(monster.stats["No. Appearing"] ?? "1");
     count = rollAppearing(appearing.wilderness);
+    purpose = rollEncounterPurpose();
   }
 
-  return { terrain, levelRoll: partyLevel, resultRaw, monster, count, loneNpc: null, choiceNote, borrowedFromLevel };
+  return { terrain, levelRoll: partyLevel, resultRaw, monster, count, loneNpc: null, choiceNote, borrowedFromLevel, purpose };
 }
 
 // --- Becoming Lost, Foraging, Castle Encounters ---------------------------------------------
 
-// The book's Becoming Lost table (and Encounter Frequency) uses a shorter, broader terrain
-// vocabulary than the 13-terrain wilderness tables; the book gives an explicit cross-reference
-// for the four terrains it doesn't cover directly (Arctic, Graveyard, Lost World, Wetlands).
-const BROAD_TERRAIN_FALLBACK: Record<string, string> = {
-  Arctic: "Mountains, Hills, Barren Lands",
-  Graveyard: "Ocean", // book: "Inhabited" broad term isn't itself a Becoming Lost row; closest listed row
-  "Lost World": "Woods", // book: "Jungle" isn't itself a Becoming Lost row; closest listed row
-  Wetlands: "Ocean",
+// Becoming Lost's own table has only 5 broad rows (Clear/Grasslands, Woods, Mountains/Hills/
+// Barren Lands, Desert, Ocean) — narrower even than Encounter Frequency's 11-row vocabulary that
+// `broadTermFor` resolves to. So on top of the four terrains that aren't Terrain Loop members at
+// all (Arctic, Graveyard, Lost World, Wetlands, already folded into `broadTermFor`'s own
+// fallback), Becoming Lost also has no row for River (Aquatic), Inhabited (Rural), or Jungle —
+// see the book's own note under *Terrain Name Cross-Reference* for these further approximations.
+const BECOMING_LOST_EXTRA_FALLBACK: Record<string, string> = {
+  River: "Ocean",
+  Inhabited: "Clear, Grasslands",
+  Jungle: "Woods",
 };
 
 function broadTerrainFor(terrain: string): string | null {
-  const direct = WILD.becomingLost.rows.find((r) => cellText(r.Terrain).split(",")[0].trim() === terrain);
-  if (direct) return cellText(direct.Terrain);
-  const bySubstring = WILD.becomingLost.rows.find((r) => cellText(r.Terrain).includes(terrain));
-  if (bySubstring) return cellText(bySubstring.Terrain);
-  return BROAD_TERRAIN_FALLBACK[terrain] ?? null;
+  const broadTerm = broadTermFor(terrain);
+  if (!broadTerm) return null;
+  const row = WILD.becomingLost.rows.find((r) => cellText(r.Terrain).includes(broadTerm));
+  if (row) return cellText(row.Terrain);
+  return BECOMING_LOST_EXTRA_FALLBACK[broadTerm] ?? null;
 }
 
 export function checkBecomingLost(terrain: string): { lost: boolean; roll: number; broadTerrain: string | null } {

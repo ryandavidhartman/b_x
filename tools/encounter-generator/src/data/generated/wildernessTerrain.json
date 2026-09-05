@@ -15126,7 +15126,7 @@
   "terrainNameCrossReference": {
     "headers": [
       "Encounter Frequency / Becoming Lost term",
-      "Terrain Category Summary / terrain table"
+      "Terrain table"
     ],
     "rows": [
       {
@@ -15134,7 +15134,7 @@
           "raw": "Clear, Grasslands",
           "links": []
         },
-        "Terrain Category Summary / terrain table": {
+        "Terrain table": {
           "raw": "Plains",
           "links": []
         }
@@ -15144,7 +15144,7 @@
           "raw": "Woods",
           "links": []
         },
-        "Terrain Category Summary / terrain table": {
+        "Terrain table": {
           "raw": "Forest",
           "links": []
         }
@@ -15154,7 +15154,7 @@
           "raw": "River",
           "links": []
         },
-        "Terrain Category Summary / terrain table": {
+        "Terrain table": {
           "raw": "Aquatic",
           "links": []
         }
@@ -15164,7 +15164,7 @@
           "raw": "Mountains",
           "links": []
         },
-        "Terrain Category Summary / terrain table": {
+        "Terrain table": {
           "raw": "Mountains",
           "links": []
         }
@@ -15174,7 +15174,7 @@
           "raw": "Desert",
           "links": []
         },
-        "Terrain Category Summary / terrain table": {
+        "Terrain table": {
           "raw": "Desert",
           "links": []
         }
@@ -15184,7 +15184,7 @@
           "raw": "Inhabited",
           "links": []
         },
-        "Terrain Category Summary / terrain table": {
+        "Terrain table": {
           "raw": "Rural",
           "links": []
         }
@@ -15194,7 +15194,7 @@
           "raw": "Ocean",
           "links": []
         },
-        "Terrain Category Summary / terrain table": {
+        "Terrain table": {
           "raw": "Marine",
           "links": []
         }
@@ -15204,7 +15204,7 @@
           "raw": "Jungle",
           "links": []
         },
-        "Terrain Category Summary / terrain table": {
+        "Terrain table": {
           "raw": "Jungle",
           "links": []
         }
@@ -15214,7 +15214,7 @@
           "raw": "Hills",
           "links": []
         },
-        "Terrain Category Summary / terrain table": {
+        "Terrain table": {
           "raw": "Hills",
           "links": []
         }
@@ -15224,7 +15224,7 @@
           "raw": "Barren",
           "links": []
         },
-        "Terrain Category Summary / terrain table": {
+        "Terrain table": {
           "raw": "Tundra (or Desert, if the barrens in question are sandy rather than rocky/frozen)",
           "links": []
         }
@@ -15234,7 +15234,7 @@
           "raw": "Aerial",
           "links": []
         },
-        "Terrain Category Summary / terrain table": {
+        "Terrain table": {
           "raw": "*Not a hex terrain — see note below.*",
           "links": []
         }

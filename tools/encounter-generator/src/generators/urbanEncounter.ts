@@ -14,6 +14,7 @@ import { rollDie, rollSpec, pick } from "../lib/dice";
 import { findRowByRoll, inRange, cellText } from "../lib/rangeTable";
 import { resolveMonsterLink, type ResolvedMonster } from "../lib/resolveMonster";
 import { parseNumberAppearing, rollAppearing } from "../lib/numberAppearing";
+import { rollEncounterPurpose, type EncounterPurposeResult } from "./encounterFrequency";
 
 const DATA = urbanData as unknown as {
   zeroLevelNpcs: Table;
@@ -114,6 +115,8 @@ export interface UrbanMonsterEncounterResult {
   count: number | null;
   choiceNote?: string;
   borrowedFromLevel: string | null;
+  /** Step D, "Determine why it's here" — rolled automatically whenever a real monster comes up. */
+  purpose: EncounterPurposeResult | null;
 }
 
 const BORROW_RE = /\*\(as Level ([\d/]+)\)\*/;
@@ -137,10 +140,12 @@ export function rollUrbanMonsterEncounter(location: "Urban" | "Castle", partyLev
   }
 
   let count: number | null = null;
+  let purpose: EncounterPurposeResult | null = null;
   if (monster) {
     const appearing = parseNumberAppearing(monster.stats["No. Appearing"] ?? "1");
     count = rollAppearing(appearing.wilderness);
+    purpose = rollEncounterPurpose();
   }
 
-  return { location, levelRoll: partyLevel, resultRaw, monster, count, choiceNote, borrowedFromLevel };
+  return { location, levelRoll: partyLevel, resultRaw, monster, count, choiceNote, borrowedFromLevel, purpose };
 }

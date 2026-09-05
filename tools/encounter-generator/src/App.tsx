@@ -12,6 +12,7 @@ import {
 import { rollUrbanEncounter, rollUrbanMonsterEncounter, URBAN_LOCATION_NAMES, type TimeOfDay } from "./generators/urbanEncounter";
 import { rollNewHex, checkPointOfInterest, rollCataclysm, TERRAIN_LOOP } from "./generators/hexCrawl";
 import { rollNpcParty, rollRivalFlavor, ARCHETYPES, type Archetype } from "./generators/npcParty";
+import { checkDungeonFrequency, checkWildernessFrequency, SETTLEMENT_ENCOUNTER_TURNS } from "./generators/encounterFrequency";
 import { rollTreasureForType } from "./generators/treasureAward";
 import { ResultCard, type LogEntry } from "./components/ResultCard";
 import { LevelPicker } from "./components/LevelPicker";
@@ -120,6 +121,14 @@ function App() {
     push({ id: newId(), timestamp: Date.now(), kind: "castle", result });
   }
 
+  function checkDungeonFreq() {
+    push({ id: newId(), timestamp: Date.now(), kind: "dungeonFrequency", result: checkDungeonFrequency() });
+  }
+
+  function checkWildernessFreq() {
+    push({ id: newId(), timestamp: Date.now(), kind: "wildernessFrequency", result: checkWildernessFrequency(terrain) });
+  }
+
   return (
     <>
       <header className="app-header">
@@ -153,6 +162,12 @@ function App() {
               <div className="checkbox-field">
                 <input id="dungeon-treasure" type="checkbox" checked={dungeonAwardTreasure} onChange={(e) => setDungeonAwardTreasure(e.target.checked)} />
                 <label htmlFor="dungeon-treasure">Award treasure</label>
+              </div>
+            </div>
+            <div className="sub-panel">
+              <div className="sub-panel-title">Step B — Encounter Frequency (checked every 2 turns)</div>
+              <div className="utility-row">
+                <button onClick={checkDungeonFreq}>Check for Encounter</button>
               </div>
             </div>
             <div className="field-row">
@@ -190,6 +205,13 @@ function App() {
               <button className="roll-button" onClick={rollWilderness}>
                 Roll Encounter
               </button>
+            </div>
+
+            <div className="sub-panel">
+              <div className="sub-panel-title">Step B — Encounter Frequency (checked once per day by default)</div>
+              <div className="utility-row">
+                <button onClick={checkWildernessFreq}>Check for Encounter</button>
+              </div>
             </div>
 
             <div className="sub-panel">
@@ -231,6 +253,10 @@ function App() {
 
         {mode === "urban" && (
           <>
+            <p className="hint">
+              Step B — Encounter Frequency: checked every {SETTLEMENT_ENCOUNTER_TURNS} turns of street activity, or as the DM
+              desires — not a die roll, so there's nothing to check here beyond deciding it's time.
+            </p>
             <div className="field-row">
               <div className="field">
                 <label htmlFor="time-of-day">Time of Day</label>

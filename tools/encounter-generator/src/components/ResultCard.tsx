@@ -2,6 +2,7 @@ import type { ResolvedMonster } from "../lib/resolveMonster";
 import type { DungeonEncounterResult } from "../generators/dungeonEncounter";
 import type { WildernessEncounterResult, CastleEncounterResult, LoneNpcResult } from "../generators/wildernessEncounter";
 import type { UrbanEncounterResult, UrbanMonsterEncounterResult } from "../generators/urbanEncounter";
+import type { EncounterPurposeResult, FrequencyResult, WildernessFrequencyResult } from "../generators/encounterFrequency";
 import type { NewHexResult, PointOfInterestResult } from "../generators/hexCrawl";
 import type { NpcPartyResult, RivalPartyFlavor } from "../generators/npcParty";
 import type { HoardResult } from "../treasure/generators/types";
@@ -17,7 +18,9 @@ export type LogEntry =
   | { id: string; timestamp: number; kind: "hexPoi"; result: PointOfInterestResult }
   | { id: string; timestamp: number; kind: "hexCataclysm"; result: string[] }
   | { id: string; timestamp: number; kind: "npcParty"; result: NpcPartyResult; rival: RivalPartyFlavor | null }
-  | { id: string; timestamp: number; kind: "castle"; result: CastleEncounterResult };
+  | { id: string; timestamp: number; kind: "castle"; result: CastleEncounterResult }
+  | { id: string; timestamp: number; kind: "dungeonFrequency"; result: FrequencyResult }
+  | { id: string; timestamp: number; kind: "wildernessFrequency"; result: WildernessFrequencyResult };
 
 function formatGp(value: number): string {
   return `${Math.round(value * 100) / 100} gp`;
@@ -127,6 +130,7 @@ function MonsterEncounterCard({
   resultRaw,
   borrowedFromLevel,
   loneNpc,
+  purpose,
   treasure,
   onRerollDragonTreasure,
 }: {
@@ -138,6 +142,7 @@ function MonsterEncounterCard({
   resultRaw: string;
   borrowedFromLevel: string | null;
   loneNpc?: LoneNpcResult | null;
+  purpose: EncounterPurposeResult | null;
   treasure: HoardResult | null;
   onRerollDragonTreasure: (ageCategory: number, hitDice: number) => void;
 }) {
@@ -155,6 +160,11 @@ function MonsterEncounterCard({
       )}
       {monster && <MonsterStats monster={monster} count={count} />}
       {!monster && !loneNpc && <p className="hint"><RollableText text={resultRaw} /></p>}
+      {purpose && (
+        <p className="hint">
+          Why it's here (d8 = {purpose.roll}): {purpose.purpose}
+        </p>
+      )}
       {borrowedFromLevel && (
         <div className="fallback-note">
           Nothing tagged here right at party level {levelRoll} — borrowed from Level {borrowedFromLevel} instead.
@@ -254,6 +264,10 @@ function titleFor(entry: LogEntry): string {
       return `NPC Party — ${entry.result.archetype}`;
     case "castle":
       return `Castle Encounter — ${entry.result.owner}`;
+    case "dungeonFrequency":
+      return "Encounter Frequency — Dungeon";
+    case "wildernessFrequency":
+      return "Encounter Frequency — Wilderness";
   }
 }
 
@@ -279,6 +293,7 @@ export function ResultCard({
           count={entry.result.count}
           resultRaw={entry.result.resultRaw}
           borrowedFromLevel={entry.result.borrowedFromLevel}
+          purpose={entry.result.purpose}
           treasure={entry.treasure}
           onRerollDragonTreasure={(age, hd) => onRerollDragonTreasure(entry.id, age, hd)}
         />
@@ -293,6 +308,7 @@ export function ResultCard({
           resultRaw={entry.result.resultRaw}
           borrowedFromLevel={entry.result.borrowedFromLevel}
           loneNpc={entry.result.loneNpc}
+          purpose={entry.result.purpose}
           treasure={entry.treasure}
           onRerollDragonTreasure={(age, hd) => onRerollDragonTreasure(entry.id, age, hd)}
         />
@@ -307,6 +323,7 @@ export function ResultCard({
           count={entry.result.count}
           resultRaw={entry.result.resultRaw}
           borrowedFromLevel={entry.result.borrowedFromLevel}
+          purpose={entry.result.purpose}
           treasure={entry.treasure}
           onRerollDragonTreasure={(age, hd) => onRerollDragonTreasure(entry.id, age, hd)}
         />
@@ -344,6 +361,19 @@ export function ResultCard({
           Level {entry.result.level} · Patrol: {entry.result.patrol}
           <br />
           1d6 = {entry.result.reactionRoll} → <strong>{entry.result.reaction}</strong>
+        </p>
+      )}
+      {entry.kind === "dungeonFrequency" && (
+        <p>
+          1d6 = {entry.result.roll} →{" "}
+          <strong>{entry.result.occurs ? "a Wandering Monster occurs this turn." : "no encounter."}</strong>
+        </p>
+      )}
+      {entry.kind === "wildernessFrequency" && (
+        <p>
+          Treated as <strong>{entry.result.broadTerrain ?? "an unmapped terrain"}</strong>
+          {entry.result.chanceRaw ? ` (encounter on ${entry.result.chanceRaw})` : ""} · 1d6 = {entry.result.roll} →{" "}
+          <strong>{entry.result.occurs ? "an encounter occurs." : "no encounter."}</strong>
         </p>
       )}
     </div>
