@@ -8999,7 +8999,7 @@ Characters travelling in the wilderness may search for food to extend their supp
 
 #### Lone NPC Encounters
 
-Before rolling on a terrain's table (below), check whether this encounter is a lone NPC or small non-adventuring group instead of a monster — roll `d%` against the terrain's chance here; on a hit, roll `1d8` on the Archetype table for what kind, and describe it as noted below rather than consulting a stat block. A miss means proceed to the terrain table as normal.
+Before rolling on a terrain's table (below), check whether this encounter is a lone NPC or small non-adventuring group instead of a monster — roll `d%` against the terrain's chance here; on a hit, roll `1d8` on the Archetype table for what kind, and describe it as noted below rather than consulting a stat block. A hit skips *Determine Purpose*, *Determine Number Appearing*, and *Award Treasure* entirely — there's no stat block to draw those from. Headcount and motivation are whatever the archetype's own description implies (usually a single NPC or a small group), and any treasure they carry is the DM's call. A miss means proceed to the terrain table as normal.
 
 | Terrain | Chance (d%) |
 |---|---|
