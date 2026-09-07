@@ -428,7 +428,7 @@ When encountered as part of a herd, bulls typically place themselves between the
 ### Camel
 *Source:* `Expert`  *Category:* `Animal`
 
-| Armor Class | 12          | No. Appearing | 0 (2d4)   |
+| Armor Class | 12          | No. Appearing | 0 (2d4)  |
 | Hit Dice    | 2          | Save As       | Fighter 1 |
 | Move        | 150' (50') | Morale        | 7         |
 | Attacks     | bite/hoof  | Treasure Type | Nil       |
@@ -454,7 +454,7 @@ Charge attacks with a lance from camelback are **not** possible.
 
 |                | Mountain Lion | Panther       | Lion         | Jaguar       | Tiger        |
 |----------------|---------------|---------------|--------------|------------- |--------------|
-| Armor Class    | 13             | 15             | 13            | 14            | 13            |
+| Armor Class    | 13            | 15            | 13           | 14           | 13           |
 | Hit Dice       | 3 + 2         | 4             | 5            | 5            | 6            |
 | Move           | 150' (50')    | 210' (70')    | 150' (50')   | 150' (50')   | 150' (50')   |
 | Attacks        | 2 claws/bite  | 2 claws/bite  | 2 claws/bite | 2 claws/bite | 2 claws/bite |
@@ -494,11 +494,11 @@ The Great Cats are normally cautious and avoid fights unless driven by extreme h
 | Attacks     | 1 gore     | Treasure Type | Nil         |
 | Damage      | 1d4        | Alignment     | Neutral     |
 
-Cattle are domesticated bovines raised for meat, milk, labor, and hides. They are commonly found in pastures, ranches, and settled lands, where they gather in large herds. Most cattle are placid and accustomed to the presence of humans.
+Cattle are domesticated bovines raised for meat, milk, labor, and hides. Found in pastures and settled lands, they gather in large herds and are generally placid around humans.
 
-When frightened, however, cattle are prone to panic. There is a 25% chance that a startled herd stampedes directly through nearby creatures. If no cover is available, each creature in the path is trampled by `2d4` cattle, taking `1d4` damage from each.
+When frightened, cattle can panic. There's a 25% chance a startled herd stampedes through nearby creatures. Without cover, each creature in the path is trampled by `2d4` cattle, taking `1d4` damage each.
 
-Most herds consist primarily of cows, heifers, steers, and calves, supervised by herdsmen or guarded by one or more bulls.
+Herds are mostly cows, heifers, steers, and calves, watched by herdsmen or guarded by one or more bulls.
 
 ### Crab, Giant
 *Source:* `Expert`  *Category:* `Animal`
