@@ -2,7 +2,7 @@
 title: "B/X Book of Monsters"
 subtitle: "A merged and deduplicated monster chapter from the Basic and Expert rulebooks"
 author: "Compiled from the 1981 Basic and Expert Sets and the 1979 Monster Manual"
-date: "July 24^th^ 2026"
+date: "Septmeber 7^th^ 2026"
 lang: "en-US"
 ---
 
@@ -298,7 +298,7 @@ Because bats do not rely on vision, spells or abilities that affect sight will n
 
 |                | Black            | Grizzly          | Polar             | Dire             |
 |----------------|------------------|------------------|-------------------|------------------|
-| Armor Class    | 13                | 13                | 13                 | 13                |
+| Armor Class    | 13               | 13               | 13                | 13               |
 | Hit Dice       | 4                | 5                | 6                 | 6+2              |
 | Move           | 120' (40')       | 120' (40')       | 120' (40')        | 120' (40')       |
 | Attacks        | 2 claws / 1 bite | 2 claws / 1 bite | 2 claws / 1 bite  | 2 claws / 1 bite |
@@ -314,13 +314,13 @@ Because bats do not rely on vision, spells or abilities that affect sight will n
 
 Bears are well known to all adventurers. If a bear (of any type) hits with both paws on the same victim in one round of combat, the bear has hugged its victim and will cause `2d8` additional points of damage in the same round as the attack.
 
-**Black bear**: have black fur and stand about 6' tall.  They are omnivorous (will eat almost anything), but prefer roots and berries. A black bear will not usually attack unless it is cornered and cannot escape. Adult black bears will fight to the death to protect their young. They have been known to raid camps, seeking food. They are especially fond of such treats as fresh fish and sweets.
+**Black bear**: have black fur and stand about 6' tall. They are omnivorous (will eat almost anything), but prefer roots and berries. A black bear will not usually attack unless it is cornered and cannot escape. Adult black bears will fight to the death to protect their young. They have been known to raid camps, seeking food. They are especially fond of such treats as fresh fish and sweets, and can often be lured away from a confrontation if such food is offered. 
 
-**Grizzly bear**: have silver-tipped brown or reddish brown fur, and stand about 9' tall. They are fond of meat and are much more likely to attack than black bears. Grizzlies are found in most climates, but are most common in mountains and forests.
+**Grizzly bear**: have silver-tipped brown or reddish brown fur, and stand about 9' tall. They are fond of meat and are much more likely to attack than black bears. Grizzlies are found in most climates, but are most common in mountains and forests, where they claim large territories and defend them fiercely against intruders.
 
-**Polar bear**: have white fur and stand about 11' tall.  They live in cold regions. They usually eat fish, but are as likely to attack as grizzly bears. These huge bears are good swimmers, and their wide feet allow them to run across snow without sinking.
+**Polar bear**: have white fur and stand about 11' tall. They live in cold regions. They usually eat fish, but are as likely to attack as grizzly bears. These huge bears are good swimmers, and their wide feet allow them to run across snow without sinking. Their white coats provide excellent camouflage against snow and ice, making them difficult to spot until it is too late.
 
-**Dire bear**: are massive, broad-shouldered predators found in deep forests, remote mountains, and other untamed wilderness. Standing nearly 14' tall when rearing, they are larger and more aggressive than grizzlies, with thick dark fur, huge claws, and a savage temper. Dire bears are relentless hunters and will pursue wounded prey for hours. Unlike most bears, they often attack humans on sight and are feared even by giants and other large predators.
+**Dire bear**: are massive, broad-shouldered predators found in deep forests, remote mountains, and other untamed wilderness. Standing nearly 14' tall when rearing, they are larger and more aggressive than grizzlies, with thick dark fur, huge claws, and a savage temper. Dire bears are relentless hunters and will pursue wounded prey for hours. Unlike most bears, they often attack humans on sight.
 
 ::: center
 ![](assets/bear-plate.png)
@@ -346,16 +346,19 @@ Giant beavers sometimes trade. They prize coins, valuables, tender twigs, and ba
 ### Behemoth
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
-| Armor Class | 15          | No. Appearing | 0 (1d4)   |
-| Hit Dice    | 10 + 5     | Save As       | Fighter 5 |
-| Move        | 60' (20')  | Morale        | 8         |
-| Swim        | 120' (40') | Treasure Type | Nil       |
-| Attacks     | 1 gore or trample | Alignment | Neutral |
-| Damage      | 4d4 (cow) or 6d4 (bull) |    |           |
+| Armor Class | 15                      | No. Appearing | 0 (1d4)   |
+| Hit Dice    | 10 + 5                  | Save As       | Fighter 5 |
+| Move        | 60' (20')               | Morale        | 8         |
+| Swim        | 120' (40')              | Treasure Type | Nil       |
+| Attacks     | 1 gore or trample       | Alignment     | Neutral |
+| Damage      | 4d4 (cow) or 6d4 (bull) |               |           |
 
-Behemoths are huge, aggressive relatives of the hippopotamus, found only in the deep rivers and lakes of tropical regions. They have massive mouths with great tusks like a hippo's, plus outward-pointing tusks used to uproot aquatic plants and roots.
 
-A bull behemoth is always aggressive and will attack anyone who enters its territory. There is a good chance a bull will surface directly beneath a passing boat or canoe, overturning it. A cow behemoth only attacks if a calf is nearby. Behemoths travel by sinking to the riverbed and running along the bottom, and can hold their breath for up to 30 minutes.
+Behemoths are huge, aggressive relatives of the hippopotamus, found only in the deep rivers and lakes of tropical regions. They have massive mouths with great tusks like a hippo's, plus outward-pointing tusks used to uproot aquatic plants and roots. Their hide is thick and gray-brown, mottled with algae and scars from countless territorial battles.
+
+A bull behemoth is always aggressive and will attack anyone who enters its territory, often without warning or provocation. There is a good chance a bull will surface directly beneath a passing boat or canoe, overturning it and leaving its occupants to swim for shore. A cow behemoth only attacks if a calf is nearby, otherwise preferring to graze peacefully on riverbed vegetation.
+
+Behemoths travel by sinking to the riverbed and running along the bottom, and can hold their breath for up to 30 minutes before needing to surface.
 
 ::: center
 ![](assets/behemoth-plate.png)
@@ -417,6 +420,10 @@ Bulls are mature male bovines noted for their strength, aggression, and territor
 There is a 75% chance that a bull attacks if approached within 80'. A charging bull must move at least 30' before impact. A successful charge inflicts `3d6` damage, plus `1d4` trampling damage.
 
 When encountered as part of a herd, bulls typically place themselves between the threat and the remainder of the herd, attacking until the danger is driven off or they are slain.
+
+::: center
+![](assets/cattle-plate.png)
+:::
 
 ### Camel
 *Source:* `Expert`  *Category:* `Animal`
@@ -492,10 +499,6 @@ Cattle are domesticated bovines raised for meat, milk, labor, and hides. They ar
 When frightened, however, cattle are prone to panic. There is a 25% chance that a startled herd stampedes directly through nearby creatures. If no cover is available, each creature in the path is trampled by `2d4` cattle, taking `1d4` damage from each.
 
 Most herds consist primarily of cows, heifers, steers, and calves, supervised by herdsmen or guarded by one or more bulls.
-
-::: center
-![](assets/cattle-plate.png)
-:::
 
 ### Crab, Giant
 *Source:* `Expert`  *Category:* `Animal`
