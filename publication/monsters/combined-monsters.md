@@ -438,6 +438,9 @@ Wild camels include single-humped dromedaries of hot deserts and double-humped b
 
 A camel can carry up to 6,000 cn, though this slows it to 50' (15'). A load of 4,000-5,000 cn slows it to 120' (40'). Bactrian camels move 30' (10') slower than dromedaries.
 
+::: columnbreak-pdf
+:::
+
 Camels bite when forced to fight. They are ill-tempered and may spit at those who approach to ride or handle them. There is a 50% chance a camel spits; if it does, the target must Save vs. Paralysis or be blinded for `1d3` rounds. Horses dislike the odor of camels.
 
 Charge attacks with a lance from camelback are **not** possible.
@@ -455,9 +458,14 @@ Charge attacks with a lance from camelback are **not** possible.
 | Attacks     | 1 gore     | Treasure Type | Nil       |
 | Damage      | 1d6        | Alignment     | Neutral   |
 
-Caribou are wild deer of cold tundra and northern forests, unusual among deer in that both males and females grow antlers. They travel in large herds, migrating long distances between summer and winter feeding grounds.
+Caribou are wild deer of cold tundra and northern forests, unusual among deer in that both males and females grow antlers, a trait that lets them defend feeding grounds even through the harsh winter months when males of other deer species have already shed theirs. They travel in large herds, sometimes numbering in the hundreds, migrating long distances between summer and winter feeding grounds along ancient routes their ancestors have followed for generations.
 
-Only males use their antlers to fight; if more than 2 caribou are encountered, 1 in 4 will be an antlered male. Females and young flee from danger while a male gores to cover their retreat.
+The clatter of their hooves and the soft clicking of tendons in their legs can be heard long before the herd itself comes into view. Only males use their antlers to fight, locking them together in shoving contests to establish dominance long before any real danger appears; if more than 2 caribou are encountered, 1 in 4 will be an antlered male.
+
+Females and young flee from danger while a male gores to cover their retreat, often standing his ground against wolves, cave bears, or other predators far larger than himself until the herd has scattered to safety.
+
+::: pagebreak-pdf
+:::
 
 ::: twocolumn-pdf-end
 :::
