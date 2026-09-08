@@ -446,8 +446,18 @@ Charge attacks with a lance from camelback are **not** possible.
 ![](assets/camel-plate.png)
 :::
 
-::: pagebreak-pdf
-:::
+### Caribou
+*Source:* `Expert`  *Category:* `Animal`
+
+| Armor Class | 12          | No. Appearing | 0 (3d10)  |
+| Hit Dice    | 3          | Save As       | Fighter 2 |
+| Move        | 240' (80') | Morale        | 6         |
+| Attacks     | 1 gore     | Treasure Type | Nil       |
+| Damage      | 1d6        | Alignment     | Neutral   |
+
+Caribou are wild deer of cold tundra and northern forests, unusual among deer in that both males and females grow antlers. They travel in large herds, migrating long distances between summer and winter feeding grounds.
+
+Only males use their antlers to fight; if more than 2 caribou are encountered, 1 in 4 will be an antlered male. Females and young flee from danger while a male gores to cover their retreat.
 
 ::: twocolumn-pdf-end
 :::
