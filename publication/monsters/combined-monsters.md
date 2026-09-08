@@ -446,6 +446,9 @@ Charge attacks with a lance from camelback are **not** possible.
 ![](assets/camel-plate.png)
 :::
 
+::: pagebreak-pdf
+:::
+
 ::: twocolumn-pdf-end
 :::
 
@@ -530,7 +533,7 @@ Like giant crabs, giant crayfish hide and rush out to seize prey. They surprise 
 
 |                | Crocodile       | Large Crocodile | Giant Crocodile |
 |----------------|-----------------|-----------------|-----------------|
-| Armor Class    | 14               | 16               | 18               |
+| Armor Class    | 14              | 16              | 18               |
 | Hit Dice       | 2               | 6               | 15              |
 | Move           | 90' (30')       | 90' (30')       | 90' (30')       |
 | Swimming       | 90' (30')       | 90' (30')       | 90' (30')       |
@@ -542,9 +545,11 @@ Like giant crabs, giant crayfish hide and rush out to seize prey. They surprise 
 | Treasure Type  | Nil             | Nil             | Nil             |
 | Alignment      | Neutral         | Neutral         | Neutral         |
 
-Crocodiles are commonly found in tropical and semi-tropical swamps or in slow-moving rivers. Awkward on land, they do not stray far from water and will spend hours floating barely under the surface. If hungry, crocodiles will attack creatures in the water. They are particularly attracted to the smell of blood or violent thrashing of the water.
+**Crocodiles** are commonly found in tropical and semi-tropical swamps or in slow-moving rivers. Awkward on land, they do not stray far from water and will spend hours floating barely under the surface. If hungry, crocodiles will attack creatures in the water. They are particularly attracted to the smell of blood or violent thrashing of the water.
 
-Large crocodiles are at least 20' long, and can overturn canoes and small rafts. Giant crocodiles are normally found only in "lost worlds" where prehistoric creatures thrive. They are over 50' long and have been known to attack small boats or ships.
+**Large crocodiles** are at least 20' long, and can overturn canoes and small rafts.
+
+**Giant crocodiles** are normally found only in "lost worlds" where prehistoric creatures thrive. They are over 50' long and have been known to attack small boats or ships.
 
 ::: center
 ![](assets/crocodile-plate.png)
@@ -702,14 +707,18 @@ These large avian creatures are typified by the ostrich, emu, and rhea.  They li
 - Emu-like birds have 2 HD
 - Rhea-sized birds have 1 HD
 
-All flightless birds are non-aggressive and run from danger.  If cornered they can peck for `1d4` damage or kick for `2d4` points.  Despite their inability to fly, these birds are remarkably swift, relying on speed and keen eyesight to spot predators across the open plains long before they draw near.  They travel in loose flocks and forage on seeds, roots, and small insects, rarely wandering far from a reliable water source.
+All flightless birds are non-aggressive and run from danger.  If cornered they can peck for `1d4` damage or kick for `2d4` points.
+
+Despite their inability to fly, these birds are remarkably swift, relying on speed and keen eyesight to spot predators across the open plains long before they draw near.
+
+They travel in loose flocks and forage on seeds, roots, and small insects, rarely wandering far from a reliable water source.
 
 ### Frog, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
 |               | Giant Frog         | Killer Frog       | Poisonous Frog |
 | ------------- | ------------------ | ----------------- | -------------- |
-| Armor Class   | 12                  | 11                 | 11              |
+| Armor Class   | 12                 |11                 | 11              |
 | Hit Dice      | 1-3                | 1+4               | 1*             |
 | Save As       | Fighter 1-2        | Fighter 1         | Fighter 1      |
 | Move          | 30' (10')          | 60' (20')         | 30' (10')      |
@@ -721,19 +730,19 @@ All flightless birds are non-aggressive and run from danger.  If cornered they c
 | Treasure Type | Nil                | Nil               | Nil            |
 | Alignment     | Neutral            | Neutral           | Neutral        |
 
-**Giant frogs** are found in marshes, swamps, large ponds, river banks, and lake shores. The smallest are only about 2' long (body), medium-sized frogs (2 hit dice) are about 4' long, and the largest are some 6' long. Because of their coloration they surprise on a 1-4. These creatures can leap up to 18' to attack.
+**Giant frogs** are found in marshes, swamps, ponds, riverbanks, and lake shores. Small ones are about 2' long (body), medium (2 HD) about 4', and the largest around 6'. Their coloration lets them surprise on a 1-4, and they can leap up to 18' to attack.
 
-A giant frog has a tongue equal to three times its body length. This sticky member strikes at +4 to hit but does no damage. The tongue is used to draw prey to the frog's mouth. Any creature hit by the tongue gets the opportunity to hit it, and if it does, the frog will withdraw it and not use it against that creature again. If the tongue is not struck, the creature contacted by this member is drawn to the frog's mouth on the next turn and automatically takes maximum damage. Exception: creatures weighing more than the frog have a second opportunity to strike the tongue and will not be dragged to the frog's mouth until the third melee round. Furthermore, creatures weighing more than twice the frog's weight will not be dragged at all, and the frog will release its hold on the third melee round.
+A giant frog's tongue is three times its body length, striking at +4 to hit but dealing no damage. It's used to drag prey to the frog's mouth. A creature hit by the tongue may attack it; a successful hit makes the frog withdraw the tongue and not use it against that creature again. Otherwise, the creature is pulled to the frog's mouth next turn and takes maximum damage automatically. Exception: creatures heavier than the frog get a second chance to strike the tongue and aren't dragged in until the third round; creatures over twice the frog's weight are never dragged, and the frog releases its hold by round three.
 
-Frogs weigh from 50 to 250 pounds (figure 50 pounds additional weight for every foot of body length over 2'). For each 50 pounds of weight over 50, subtract 2' from the maximum leaping distance (18'). A giant frog can jump to a maximum height of 30', regardless of weight. The direction of a jump can be up to 45 degrees to either side of the frog's direct facing.
+Frogs weigh 50-250 lbs (add 50 lbs per foot of body length over 2'). Subtract 2' from max leap distance per 50 lbs over 50. Max jump height is 30' regardless of weight, and jumps can angle up to 45 degrees from the frog's facing.
 
-Giant frogs eat large insects, birds, rats, or just about any other creature small enough to swallow. A giant frog can swallow a small human, elf, halfling, etc.; this is indicated by a score of 20. If a giant frog swallows an opponent whole, the victim has a chance to cut its way out if it has a sharp-edged weapon and can score an 18 or better (this also kills the frog). The victim has three chances to escape. Hits upon a giant frog with prey swallowed whole have a one-third probability of instead hitting the creature inside, inflicting whatever damage was scored on the giant frog on that creature as well.
+Giant frogs eat large insects, birds, rats, or anything small enough to swallow—including a small human, elf, or halfling, on a roll of 20. A swallowed victim with a sharp weapon can cut free by scoring 18 or better (killing the frog), with three chances to escape. Hits against a frog with prey inside have a 1-in-3 chance of hitting the swallowed creature instead, for the same damage.
 
-Giant frogs hunt aggressively but fear predators such as giant fish, giant turtles, and giant snakes. If severely wounded, they will retreat. They fear fire.
+Giant frogs hunt aggressively but fear giant fish, turtles, snakes, and fire, retreating when severely wounded.
 
-**Killer Frog:** These smallish giant frogs employ talons and teeth in attack. They are man-eating, specifically bred mutants. Only their cannibalistic habits keep them from becoming common, and thus a real threat.
+**Killer Frog:** Smaller, man-eating mutants that attack with talons and teeth. Only their cannibalism keeps them from becoming a widespread threat.
 
-**Poisonous Frog:** This is a rare variety of the normal frog. It secretes a poison from its skin, so that its touch as well as its bite can prove fatal. However, as the poison is weak, all creatures gain a +4 bonus on their saving throws.
+**Poisonous Frog:** A rare variant whose skin secretes a weak poison, making even its touch dangerous—though all creatures get a +4 saving throw bonus against it.
 
 ::: center
 ![](assets/giant-frog-plate.png)
@@ -759,7 +768,7 @@ A giant gar swallows prey whole on a natural attack roll of 20. A swallowed crea
 ### Goat, Giant
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
 
-| Armor Class | 12          | No. Appearing | 1d6 (1d12) |
+| Armor Class | 12         | No. Appearing | 1d6 (1d12) |
 | Hit Dice    | 3+1        | Save As       | Fighter 2  |
 | Move        | 180' (60') | Morale        | 8          |
 | Attacks     | 1 butt     | Treasure Type | Nil        |
@@ -914,6 +923,9 @@ Giant leeches are loathsome and slug-like. They live in swamps and are about 3 t
 ![](assets/leech-plate.png)
 :::
 
+::: pagebreak-pdf
+:::
+
 ::: twocolumn-pdf-end
 :::
 
@@ -945,9 +957,6 @@ Giant leeches are loathsome and slug-like. They live in swamps and are about 3 t
 A horned chameleon can shoot out its sticky tongue up to 5' long. A successful hit means that the victim is pulled to the horned chameleon's mouth and automatically bitten for `2d4` points of damage.
 
 The horned chameleon can also attack with its horn for `1d6`, and may use its tail to knock other attackers down on a successful hit, doing no damage but preventing the victim from attacking that round.
-
-::: pagebreak-pdf
-:::
 
 **Tuatara**: is an 8' long lizard that looks like a cross between an iguana and a toad. It has pebble-colored olive skin with white spikes along its back. It is carnivorous and sometimes attacks humans. A tuatara has a membrane over its eyes which, when lowered, is sensitive to changes in temperature, allowing it to see in darkness with 90' infravision.
 
@@ -1109,9 +1118,9 @@ Rats will eat almost anything and some rats carry diseases. Anyone bitten by a r
 
 Rats usually avoid humans and will not attack unless summoned, by a wererat for example, or while defending their lair. Rats are good swimmers and may attack without penalty while in water. They are afraid of fire, and will run from it unless forced to fight by their leader, the creature summoning them.
 
-Normal Rats: Normal rats may be from 6 inches to 2 feet long and have gray or brown fur. They attack in packs of 5 to 10. If there are more than 10 rats they will attack several creatures as packs of 10 or less. A pack will only attack one creature at a time, but may bite for 1-6 points of damage, plus the normal chance of disease checked once per pack attack. Rats will climb all over the creature they are attacking and the victim must save vs. Death or be knocked down by them and unable to fight until regaining its feet.
+**Normal Rats**: Normal rats may be from 6 inches to 2 feet long and have gray or brown fur. They attack in packs of 5 to 10. If there are more than 10 rats they will attack several creatures as packs of 10 or less. A pack will only attack one creature at a time, but may bite for 1-6 points of damage, plus the normal chance of disease checked once per pack attack. Rats will climb all over the creature they are attacking and the victim must save vs. Death or be knocked down by them and unable to fight until regaining its feet.
 
-Giant Rats: Giant rats are 3 feet long or more, and have gray or black fur. They are often found in the dark corners of dungeon rooms and in areas where undead monsters lurk.
+**Giant Rats**: Giant rats are 3 feet long or more, and have gray or black fur. They are often found in the dark corners of dungeon rooms and in areas where undead monsters lurk.
 
 ### Ray
 *Source:* `AD&D 1E Conversion`  *Category:* `Animal`
@@ -1129,16 +1138,16 @@ Giant Rats: Giant rats are 3 feet long or more, and have gray or black fur. They
 | Treasure Type | C            | Nil          | Nil         |
 | Alignment     | Neutral      | Neutral      | Neutral     |
 
-Manta rays lie camouflaged on the sea floor and engulf prey in their huge mouths. Swallowed creatures die in 6 rounds unless they cut their way free. A manta's tail spine deals `2d10` damage and may stun unless a Save vs. Paralysis succeeds.
+**Manta rays**: lie camouflaged on the sea floor and engulf prey in their huge mouths. Swallowed creatures die in 6 rounds unless they cut their way free. A manta's tail spine deals `2d10` damage and may stun unless a Save vs. Paralysis succeeds.
 
-Pungi rays hide under sand with poisonous spines protruding like seaweed. A creature stepping or falling onto the spines must Save vs. Poison or die.
+**Pungi**: rays hide under sand with poisonous spines protruding like seaweed. A creature stepping or falling onto the spines must Save vs. Poison or die.
 
-Sting rays are shallow-water bottom feeders that lash with poisonous tail spines when stepped on. A victim must Save vs. Poison or be paralyzed for `5d4` turns and take the same amount of additional damage.
+**Sting rays**: are shallow-water bottom feeders that lash with poisonous tail spines when stepped on. A victim must Save vs. Poison or be paralyzed for `5d4` turns and take the same amount of additional damage.
 
 ### Rhinoceros
 *Source:* `Expert`  *Category:* `Animal`
 
-| Armor Class | 14               | No. Appearing | 0 (1d12)  |
+| Armor Class | 14              | No. Appearing | 0 (1d12)  |
 | Hit Dice    | 6               | Save As       | Fighter 3 |
 | Move        | 120' (40')      | Morale        | 6         |
 | Attacks     | butt or trample | Treasure Type | Nil       |
