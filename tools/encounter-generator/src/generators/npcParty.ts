@@ -76,9 +76,16 @@ export interface NpcPartyResult {
 }
 
 function member(role: string, tier: "Basic" | "Expert", overrideClass?: string, overrideLevel?: number): NpcPartyMember {
-  const classLevel = overrideClass
-    ? { class: overrideClass, level: overrideLevel ?? rollSpec("1d4") }
-    : rollClassAndLevel(tier);
+  let classLevel: NpcClassLevel;
+  if (overrideClass) {
+    classLevel = { class: overrideClass, level: overrideLevel ?? rollSpec("1d4") };
+  } else {
+    // Class still comes from the table roll, but an explicit overrideLevel (e.g. the High-Level
+    // Fighter's "2d4 retainers, level 1d4+2, roll race and class") must win over the table's own
+    // per-tier level roll — the table roll is only a fallback when no level was specified at all.
+    const rolled = rollClassAndLevel(tier);
+    classLevel = overrideLevel !== undefined ? { class: rolled.class, level: overrideLevel } : rolled;
+  }
   return { role, classLevel, demiHuman: rollDemiHumanFlavor(classLevel) };
 }
 
@@ -92,13 +99,13 @@ export function rollNpcParty(archetype: Archetype, opts: { inWilderness?: boolea
   const notes: string[] = [];
   let mounted: boolean | null = null;
   const partyAlignment = opts.perMemberAlignment ? null : rollAlignment();
-  const rollMemberAlignmentNote = () => (opts.perMemberAlignment ? notes.push(`(alignment rolled per member, not shown here)`) : undefined);
+  // Applies to every archetype alike, so it's pushed once up front rather than re-called per case.
+  if (opts.perMemberAlignment) notes.push(`(alignment rolled per member, not shown here)`);
 
   switch (archetype) {
     case "Basic Adventurers": {
       const count = rollSpec("1d4+4");
       const members = Array.from({ length: count }, () => member("", "Basic"));
-      rollMemberAlignmentNote();
       return { archetype, members, alignment: partyAlignment, mounted: null, notes };
     }
     case "Expert Adventurers": {
@@ -106,7 +113,6 @@ export function rollNpcParty(archetype: Archetype, opts: { inWilderness?: boolea
       const members = Array.from({ length: count }, () => member("", "Expert"));
       if (opts.inWilderness) mounted = chance(75);
       notes.push("Magic items: each member has a 5%-per-level chance of one item (book: \"each appropriate sub-table\" — simplified here to a single roll on Any).");
-      rollMemberAlignmentNote();
       return { archetype, members, alignment: partyAlignment, mounted, notes };
     }
     case "High-Level Cleric": {

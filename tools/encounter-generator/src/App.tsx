@@ -62,6 +62,8 @@ function App() {
   // NPC Party
   const [archetype, setArchetype] = useState<Archetype>(ARCHETYPES[0]);
   const [rollRival, setRollRival] = useState(false);
+  const [npcInWilderness, setNpcInWilderness] = useState(false);
+  const [npcPerMemberAlignment, setNpcPerMemberAlignment] = useState(false);
 
   function push(entry: LogEntry) {
     setLog((prev) => [entry, ...prev]);
@@ -117,7 +119,7 @@ function App() {
   }
 
   function rollNpc() {
-    const result = rollNpcParty(archetype);
+    const result = rollNpcParty(archetype, { inWilderness: npcInWilderness, perMemberAlignment: npcPerMemberAlignment });
     const rival = rollRival && result.alignment ? rollRivalFlavor(result.alignment) : null;
     push({ id: newId(), timestamp: Date.now(), kind: "npcParty", result, rival });
   }
@@ -393,6 +395,27 @@ function App() {
               <div className="checkbox-field">
                 <input id="roll-rival" type="checkbox" checked={rollRival} onChange={(e) => setRollRival(e.target.checked)} />
                 <label htmlFor="roll-rival">Rival Adventuring Party flavor</label>
+              </div>
+            </div>
+            <div className="field-row">
+              <div className="checkbox-field">
+                <input
+                  id="npc-in-wilderness"
+                  type="checkbox"
+                  checked={npcInWilderness}
+                  onChange={(e) => setNpcInWilderness(e.target.checked)}
+                  disabled={archetype === "Basic Adventurers"}
+                />
+                <label htmlFor="npc-in-wilderness">Met in the wilderness (75% chance mounted)</label>
+              </div>
+              <div className="checkbox-field">
+                <input
+                  id="npc-per-member-alignment"
+                  type="checkbox"
+                  checked={npcPerMemberAlignment}
+                  onChange={(e) => setNpcPerMemberAlignment(e.target.checked)}
+                />
+                <label htmlFor="npc-per-member-alignment">Roll alignment per member instead of once for the party</label>
               </div>
             </div>
             <div className="field-row">

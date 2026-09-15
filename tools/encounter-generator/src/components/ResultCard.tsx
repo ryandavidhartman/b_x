@@ -90,6 +90,12 @@ function MonsterStats({ monster, count }: { monster: ResolvedMonster; count: num
           Requested "{monster.requestedLabel}" — this book doesn't stat that specific type; showing {displayName}'s figures instead.
         </div>
       )}
+      {count === 0 && (
+        <div className="fallback-note">
+          {displayName}'s own stat block gives 0 for this No. Appearing figure — the book doesn't expect a group this way (it's typically a solitary
+          dungeon-dweller with no real wilderness/lair presence). Treat this as a DM's call: a lone individual, or no encounter at all.
+        </div>
+      )}
       <div className="section-heading">
         {count !== null ? `${count}x ` : ""}
         {displayName}
