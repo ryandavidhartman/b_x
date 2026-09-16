@@ -9458,7 +9458,7 @@ Elves, dwarves, and halflings are not given on this table, as their strongholds 
 
 *Source:* `D&D Basic Rulebook, Part 8: Dungeon Master Information; D&D Expert Rulebook, Part 8: Dungeon Master Information; OSRIC, Dungeons, Towns and Wildernesses`
 
-Where Appendix D generates a wandering monster on the fly, this appendix is a procedure for building a deliberately-stocked location in advance — a haunted tomb, a bandit hideout, a wizard's tower — complete with monsters placed on purpose, treasure, traps, and sensory detail.
+Where Appendix D generates a wandering monster on the fly, this appendix is a procedure for building a deliberately-stocked location in advance — a haunted tomb, a bandit hideout, a wizard's tower — complete with monsters placed on purpose, treasure, traps, and sensory detail. It leans on the rest of this book's toolkit throughout: Appendix C: Monster Quick Reference to browse candidates by terrain or level, Appendix D: Random Encounters for anything left to chance, and Appendix B: Treasure for what they're guarding.
 
 ### Building a Stocked Location
 
@@ -9472,7 +9472,7 @@ Each step is detailed below.
 
 A. **Choose a scenario.** See *Scenarios*, below, for a background theme that gives the location a reason to exist and the DM a reason for choosing specific monsters and treasure.
 
-B. **Place special monsters and treasure.** Decide which creatures belong in the location on purpose — guardians the scenario calls for, a boss encounter, a captive to rescue — rather than leaving them to chance. Place their treasure to match.
+B. **Place special monsters and treasure.** Decide which creatures belong in the location on purpose — guardians the scenario calls for, a boss encounter, a captive to rescue — rather than leaving them to chance. Appendix C: Monster Quick Reference is the tool for this: its *Monsters by Terrain* and *Monsters by Party Level* lists turn "I need something dangerous but plausible for a swamp lair, appropriate for a level 5 party" into a short menu to pick from, rather than a blind search through the whole monster catalog. Place their treasure to match — see Appendix B: Treasure for rolling it, once the type and amount are decided.
 
 C. **Get a floor plan and stock it.** This is one step with two methods, not two — pick whichever fits how you're building this location:
    - *You already have a map* (hand-drawn, from a module, or already decided on): stock each remaining room using *Stocking a Room*, below. It calls on Appendix D: Random Encounters for the monster (if any) and Appendix B: Treasure for the treasure.
@@ -9950,6 +9950,8 @@ Intelligent creatures that live near a trap will maintain it and know how to avo
 
 #### Random Trap Generation
 
+Roll a trap type below, then set its severity — Nuisance, Hazardous, Dangerous, or Fatal, per *Trap Placement* above — to fit the dungeon level and the treasure it guards. The table doesn't tie each type to one fixed severity: a "spiked pit," for instance, is a nuisance with dull spikes and a shallow drop, or fatal with poisoned spikes and a locking lid, depending on what the room calls for.
+
 | d% | Result | d% | Result |
 |---|---|---|---|
 | 01-02 | acid spray | 51-52 | oil-filled pit with dropping lit torch |
@@ -10114,11 +10116,11 @@ This is the primary method for building a stocked location's floor plan from scr
 2. Roll room shape and size on Table 2(a): Room or Table 2(b): Chambers.
 3. Roll number of exits on Table 5: Number of Exits.
 4. Roll location of room exits on Table 6: Exit Location.
-5. Roll direction for chamber exit passages on Table 7: Exit Direction, Chamber Passage, or roll what lies beyond the door for rooms on Table 20: Behind the Door.
+5. Roll direction for chamber exit passages on Table 7: Exit Direction, Chamber Passage, or roll what lies beyond the door for rooms on Table 19: Behind the Door.
 6. Roll contents for the room on Table 8: Chamber or Room Contents, consulting sub-tables as indicated.
-7. If no particular table is indicated, the corridor continues for 30 ft; then check Table 18: General.
+7. If no particular table is indicated, the corridor continues for 30 ft; then check Table 17: General.
 
-After the room is fully resolved, roll up the corridors and rooms generated in step 4, using the same steps as a guideline.
+After the room is fully resolved, repeat this procedure for each exit found above, to generate the corridor or room it leads to.
 
 At a glance, the loop this procedure settles into looks like this:
 
@@ -10205,7 +10207,7 @@ Six pre-drawn starting-area floor plans — small irregular clusters of corridor
 *Table 3: Special Rooms or Chambers (`1d20`) — proceed to Table 4: Approximate Size Table for Unusual Rooms*
 :::
 
-\*Roll `1d20`: 1-6 room has a pool (see Table 15: Pools), 7 room has a well, 8-11 room has a shaft, 12-20 proceed to Table 4.
+\*Roll `1d20`: 1-6 room has a pool (see Table 14: Pools), 7 room has a well, 8-11 room has a shaft, 12-20 proceed to Table 4.
 
 \*\*DM's discretion — freehand-draw an unusual shape, pick a standard room as needed for mapping, or reroll.
 
@@ -10251,9 +10253,9 @@ Six pre-drawn starting-area floor plans — small irregular clusters of corridor
 *Table 6: Exit Location (`1d20`)*
 :::
 
-\*If a passage or door placed per this table would open into a previously mapped space, roll `1d20`: on 1-10 the door moves to the opposite wall; on 11-15 the door stays put but becomes a secret door; on 16-20 the door stays put but becomes a one-way door.
+If a passage or door placed per this table would open into a previously mapped space, roll `1d20`: on 1-10 the door moves to the opposite wall; on 11-15 the door stays put but becomes a secret door; on 16-20 the door stays put but becomes a one-way door.
 
-If passage, proceed to Table 7: Exit Direction, Chamber Passage. If door, proceed to Table 20: Behind the Door.
+If passage, proceed to Table 7: Exit Direction, Chamber Passage. If door, proceed to Table 19: Behind the Door.
 
 | Die | Direction |
 |---|---|
@@ -10262,7 +10264,7 @@ If passage, proceed to Table 7: Exit Direction, Chamber Passage. If door, procee
 | 19-20 | Right 45 degrees* |
 
 ::: center
-*Table 7: Exit Direction, Chamber Passage (`1d20`) — for doors, consult Table 20: Behind the Door instead. Proceed to Table 22: Passage Width*
+*Table 7: Exit Direction, Chamber Passage (`1d20`) — for doors, consult Table 19: Behind the Door instead. Proceed to Table 21: Passage Width*
 :::
 
 \*If the passage can't bend in the direction indicated, bend it the other way instead — a left 45 degree bend that can't be drawn becomes a right 45 degree bend.
@@ -10273,10 +10275,10 @@ If passage, proceed to Table 7: Exit Direction, Chamber Passage. If door, procee
 |---|---|
 | 1-7 | Empty |
 | 8-11 | Monster (determine randomly — see Appendix D: Random Encounters) |
-| 12-17 | Monster and Treasure (as above, plus Table 9: Treasure Container, below) |
-| 18 | Stairs (see Table 13: Stairs) |
-| 19 | Trick or Trap (see *Trap Generation and Placement* and *Tricks*, above) |
-| 20 | Treasure (see Appendix B: Treasure and Table 9: Treasure Container, below) |
+| 12-17 | Monster and Treasure (as above, using the monster's own Treasure Type — Appendix B: Treasure — plus Table 9: Treasure Container, below, for how it's stored) |
+| 18 | Stairs (see Table 12: Stairs) |
+| 19 | Trick or Trap (see *Trap Generation and Placement* and *Tricks*, above; for a Cave or Cavern, an *Environmental Hazard* may fit better) |
+| 20 | Treasure (roll on the Unguarded Treasures table, Appendix B: Treasure, for the amount, plus Table 9: Treasure Container, below, for how it's stored) |
 
 ::: center
 *Table 8: Chamber or Room Contents (`1d20`) — proceed to Table 9: Treasure Container if Monster and Treasure or Treasure is indicated*
@@ -10296,7 +10298,7 @@ If passage, proceed to Table 7: Exit Direction, Chamber Passage. If door, procee
 *Table 9: Treasure Container (`1d20`)*
 :::
 
-Optional, or on a 50% chance: consult Tables 10 and 11. Treasure amounts are determined on Table 12.
+Optional, or on a 50% chance: consult Tables 10 and 11 for how the container is guarded and hidden. The treasure itself — amount, coins, gems, magic items — is generated via Appendix B: Treasure (the monster's own Treasure Type, or the Unguarded Treasures table for an unguarded find), the same as *Stocking a Room*'s treasure step.
 
 | Die | Treasure | Die | Treasure |
 |---|---|---|---|
@@ -10325,21 +10327,6 @@ Optional, or on a 50% chance: consult Tables 10 and 11. Treasure amounts are det
 *Table 11: Treasure Hidden By or In (`1d20`)*
 :::
 
-If the treasure is guarded by a monster, roll twice on the table below and add 1 to each roll; otherwise roll once at no bonus.
-
-| Die | Result | Die | Result |
-|---|---|---|---|
-| 1-5 | 2d10x100 cp | 17-18 | 2d10x100 pp |
-| 6-10 | 2d10x100 sp | 19 | Gems/Jewellery — roll 1d8: 1-5 = 1d3 gems, 6-8 = 1 jewellery |
-| 11-13 | 2d8x100 ep | 20 | Roll 1d8: 1-5 = no treasure, 6-8 = 1 magic item |
-| 14-16 | 1d4x100 gp | 21 | 1 magic item |
-
-::: center
-*Table 12: Treasure Amount (`1d20`)*
-:::
-
-Results from this table are multiplied by the dungeon level where the treasure is found — a 1d4x100 gp result on the third dungeon level, for instance, yields 3d4x100 gp. If a magic item is rolled, the party receives one item per dungeon level (minimum 1). Adjust extreme results to keep them proportional.
-
 #### Stairs and Caves
 
 | Die | Result | Die | Result |
@@ -10352,7 +10339,7 @@ Results from this table are multiplied by the dungeon level where the treasure i
 | 11 | Down to a dead end | 18-20 | Down 1 level into chamber |
 
 ::: center
-*Table 13: Stairs (`1d20`)*
+*Table 12: Stairs (`1d20`)*
 :::
 
 The lowest levels of a dungeon are often composed of caves and caverns. Use the table below for caves and caverns, and roll for exits on Table 5: Number of Exits.
@@ -10365,21 +10352,21 @@ The lowest levels of a dungeon are often composed of caves and caverns. Use the 
 | 10-11 | Double Cave: 30 x 50 ft, 80 x 100 ft* | 19-20 | Cavern 300 x 400 ft** |
 
 ::: center
-*Table 14: Caves (`1d20`)*
+*Table 13: Caves (`1d20`)*
 :::
 
-\*Roll on Table 15: Pools. \*\*Roll on Table 16: Lakes.
+\*Roll on Table 14: Pools. \*\*Roll on Table 15: Lakes.
 
 #### Pools and Lakes
 
 | Die | Result | Die | Result |
 |---|---|---|---|
 | 1-12 | No pool | 17-19 | Pool, monster, and treasure |
-| 13-14 | Pool | 20 | Magic pool, go to Table 17: Magic Pools |
+| 13-14 | Pool | 20 | Magic pool, go to Table 16: Magic Pools |
 | 15-16 | Pool, monster | | |
 
 ::: center
-*Table 15: Pools (`1d20`)*
+*Table 14: Pools (`1d20`)*
 :::
 
 DMs should note the opportunity to use aquatic or amphibious monster encounters.
@@ -10391,7 +10378,7 @@ DMs should note the opportunity to use aquatic or amphibious monster encounters.
 | 16-17 | Lake, monster | | |
 
 ::: center
-*Table 16: Lakes (`1d20`)*
+*Table 15: Lakes (`1d20`)*
 :::
 
 \*The lake is a portal to a special area such as a temple on the Elemental Plane of Water, or another remote and exotic location. If no such map is prepared, treat this instead as lake, monster, and treasure.
@@ -10402,11 +10389,11 @@ In order to learn the secret of a magic pool, adventurers must actually enter th
 |---|---|
 | 1-8 | Roll 1d20. Pool turns gold pieces into platinum pieces (1-12) or lead (13-20); after doing this once, the pool is non-magical. |
 | 9-15 | Characters in the pool lose (1-50 on d%) or gain (51-100) 1 point in a randomly-determined attribute. Roll 1d6: 1=Strength, 2=Dexterity, 3=Constitution, 4=Intelligence, 5=Wisdom, 6=Charisma. One-time-only effect; check each character separately for loss or gain and affected characteristic. |
-| 16-17 | Talking pool: grants 1 wish to any characters of like alignment, and damages all others (1d20 points). The wish must be used within 24 hours. Roll 1d20 for the pool's alignment: 1-6 LG, 7-9 LE, 10-12 CG, 13-17 CE, 18-20 TN. |
+| 16-17 | Talking pool: grants 1 wish to any characters of like alignment, and damages all others (1d20 points). The wish must be used within 24 hours. Roll 1d6 for the pool's alignment: 1-2 Lawful, 3-4 Neutral, 5-6 Chaotic. |
 | 18-20 | Transporter pool. Roll 1d20: 1-7 back to surface, 8-12 elsewhere on the level, 13-16 one level down, 17-20 many miles away for a wilderness or outdoor adventure. This can be especially fiendish if not every character in the party is standing in the pool. |
 
 ::: center
-*Table 17: Magic Pools (`1d20`)*
+*Table 16: Magic Pools (`1d20`)*
 :::
 
 #### General, Doors, and Passages
@@ -10416,14 +10403,14 @@ In order to learn the secret of a magic pool, adventurers must actually enter th
 | 1-3 | Chamber. Roll on Table 2(b): Chambers. Check this table again 30 ft after leaving the chamber. |
 | 4 | Continue straight; check this table again in 50 ft. |
 | 5 | Dead End; check for secret doors as per Table 6: Exit Location. |
-| 6-10 | Door. Consult Table 19: Door Location, then Table 20: Behind the Door to see what lies beyond it — if the door found isn't straight-ahead, check this table again in 30 ft. |
-| 11-14 | Side passage. See Table 21: Side Passages, then check this table again in 30 ft. |
-| 15 | Stairs. Go to Table 13: Stairs. |
-| 16-19 | Turn. Consult Table 24: Turns, then check this table again in 30 ft. |
-| 20 | Wandering Monster; reroll on this table to determine the monster's location and approach. |
+| 6-10 | Door. Consult Table 18: Door Location, then Table 19: Behind the Door to see what lies beyond it — if the door found isn't straight-ahead, check this table again in 30 ft. |
+| 11-14 | Side passage. See Table 20: Side Passages, then check this table again in 30 ft. |
+| 15 | Stairs. Go to Table 12: Stairs. |
+| 16-19 | Turn. Consult Table 23: Turns, then check this table again in 30 ft. |
+| 20 | Wandering Monster (determine randomly — see Appendix D: Random Encounters); reroll on this table to determine its location and approach. |
 
 ::: center
-*Table 18: General (`1d20`)*
+*Table 17: General (`1d20`)*
 :::
 
 If the door indicated is a left or right door, roll `1d20` again — on a result of 1-3, there's also a door on the opposite side.
@@ -10435,10 +10422,10 @@ If the door indicated is a left or right door, roll `1d20` again — on a result
 | 13-20 | Ahead |
 
 ::: center
-*Table 19: Door Location (`1d20`)*
+*Table 18: Door Location (`1d20`)*
 :::
 
-This table is for doors that exit a room. For passages, consult Table 7: Exit Direction, Chamber Passage instead. Always check corridor width on Table 22: Passage Width.
+This table is for doors that exit a room. For passages, consult Table 7: Exit Direction, Chamber Passage instead. Always check corridor width on Table 21: Passage Width.
 
 | Die | Result |
 |---|---|
@@ -10450,7 +10437,7 @@ This table is for doors that exit a room. For passages, consult Table 7: Exit Di
 | 19-20 | See Table 2(b): Chambers |
 
 ::: center
-*Table 20: Behind the Door (`1d20`)*
+*Table 19: Behind the Door (`1d20`)*
 :::
 
 | Die | Result |
@@ -10465,7 +10452,7 @@ This table is for doors that exit a room. For passages, consult Table 7: Exit Di
 | 20 | Five-way intersection* |
 
 ::: center
-*Table 21: Side Passages (`1d20`)*
+*Table 20: Side Passages (`1d20`)*
 :::
 
 \*Usually two passages along the x-axis, two along the y-axis, and one diagonal.
@@ -10473,11 +10460,11 @@ This table is for doors that exit a room. For passages, consult Table 7: Exit Di
 | Die | Width | Die | Width |
 |---|---|---|---|
 | 1 | 5 ft | 18 | 30 ft |
-| 2-13 | 10 ft | 19-20 | See Table 23: Special Passages |
+| 2-13 | 10 ft | 19-20 | See Table 22: Special Passages |
 | 14-17 | 20 ft | | |
 
 ::: center
-*Table 22: Passage Width (`1d20`)*
+*Table 21: Passage Width (`1d20`)*
 :::
 
 | Die | Result |
@@ -10489,7 +10476,7 @@ This table is for doors that exit a room. For passages, consult Table 7: Exit Di
 | 20 | Chasm**** |
 
 ::: center
-*Table 23: Special Passages (`1d20`)*
+*Table 22: Special Passages (`1d20`)*
 :::
 
 \*There's a 50% chance the passage contains a single or double row of columns; if double, there's a 10% chance the columns support a balcony or gallery above.
@@ -10508,7 +10495,7 @@ This table is for doors that exit a room. For passages, consult Table 7: Exit Di
 | 20 | Right 45 degrees (d6: 1-3 ahead, 4-6 behind) |
 
 ::: center
-*Table 24: Turns (`1d20`)*
+*Table 23: Turns (`1d20`)*
 :::
 
 #### Using the Random Dungeon Generator for Solo Play
