@@ -153,6 +153,15 @@ function farCellOf(cells: GridPoint[]): GridPoint {
   return cells[cells.length - 1];
 }
 
+// The "Max Rooms" input is meant to cap actual destinations — rooms, chambers, caves/caverns,
+// and stairs — not the corridor segments, dead ends, and secret-door stubs strung between them.
+// Counting every node toward one shared budget (the original implementation) meant a small cap
+// could be entirely consumed by corridor segments before a single room ever appeared, which is
+// exactly the "only generates corridors" bug this fixes. Corridors/dead ends/secret doors are
+// still bounded, just by a much larger safety ceiling (`hardNodeCap`) so a bad-luck run of
+// nothing-but-corridors can't run away forever.
+const AREA_KINDS: ReadonlySet<NodeKind> = new Set(["room", "chamber", "cave", "cavern", "stairs"]);
+
 export interface GenState {
   subtype: string;
   partyLevel: number;
@@ -160,7 +169,11 @@ export interface GenState {
   nodes: DungeonNode[];
   work: PendingWork[];
   nextId: number;
+  /** Cap on AREA_KINDS nodes (what the UI calls "Max Rooms") — see AREA_KINDS comment above. */
   maxNodes: number;
+  /** Safety ceiling on total nodes of any kind, so a run that never lands a room can't run away. */
+  hardNodeCap: number;
+  areaCount: number;
 }
 
 type PendingWork =
@@ -222,6 +235,7 @@ function makeNode(
     notes: [],
   };
   state.nodes.push(node);
+  if (AREA_KINDS.has(kind)) state.areaCount++;
   return node;
 }
 
@@ -561,7 +575,7 @@ function processContinue(state: GenState, atNodeId: string) {
         }
       })();
       for (const h of headings) {
-        if (state.nodes.length >= state.maxNodes) break; // a 4/5-way intersection can otherwise overshoot the room cap in one step
+        if (atCap(state)) break; // a 4/5-way intersection can otherwise overshoot the cap in one step
         rollPassageWidthFlavor(atNode.notes);
         const node = commitCorridor(state, atNode.id, h, anchor, 3, "Corridor (30 ft)", []);
         if (node && node.kind === "corridor") state.work.push({ kind: "continue", atNodeId: node.id });
@@ -682,7 +696,18 @@ export interface GenerateOptions {
 }
 
 export function createInitialState(opts: GenerateOptions): GenState {
-  const state: GenState = { subtype: opts.subtype, partyLevel: opts.partyLevel, occupied: new Set(), nodes: [], work: [], nextId: 0, maxNodes: opts.maxNodes ?? 60 };
+  const maxNodes = opts.maxNodes ?? 20;
+  const state: GenState = {
+    subtype: opts.subtype,
+    partyLevel: opts.partyLevel,
+    occupied: new Set(),
+    nodes: [],
+    work: [],
+    nextId: 0,
+    maxNodes,
+    hardNodeCap: Math.max(200, maxNodes * 15),
+    areaCount: 0,
+  };
   const anchor: GridPoint = { x: 0, y: 0 };
   state.occupied.add(cellKey(anchor));
   const label = opts.startArea === "empty" || opts.startArea === undefined ? "Starting Point (empty area)" : `Starting Area ${opts.startArea} (Table 1)`;
@@ -698,8 +723,12 @@ export function createInitialState(opts: GenerateOptions): GenState {
   return state;
 }
 
+function atCap(state: GenState): boolean {
+  return state.areaCount >= state.maxNodes || state.nodes.length >= state.hardNodeCap;
+}
+
 function step(state: GenState): boolean {
-  if (state.work.length === 0 || state.nodes.length >= state.maxNodes) return false;
+  if (state.work.length === 0 || atCap(state)) return false;
   const item = state.work.shift()!;
   if (item.kind === "continue") processContinue(state, item.atNodeId);
   else processExit(state, item);
@@ -707,13 +736,14 @@ function step(state: GenState): boolean {
 }
 
 /** Drives the engine one node at a time — for the UI's step-by-step reveal mode. Returns false
- * once generation is finished (work queue empty or the room cap is hit). */
+ * once generation is finished (work queue empty, the room cap is hit, or the corridor-count
+ * safety ceiling is hit). */
 export function stepGeneration(state: GenState): boolean {
   const before = state.nodes.length;
-  while (state.work.length > 0 && state.nodes.length < state.maxNodes && state.nodes.length === before) {
+  while (state.work.length > 0 && !atCap(state) && state.nodes.length === before) {
     if (!step(state)) return false;
   }
-  return state.work.length > 0 && state.nodes.length < state.maxNodes;
+  return state.work.length > 0 && !atCap(state);
 }
 
 /** Runs the whole thing in one shot — "roll the whole thing before a session." */

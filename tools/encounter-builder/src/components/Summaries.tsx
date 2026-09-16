@@ -32,13 +32,24 @@ export function MonsterSummary({ monster, count }: { monster: ResolvedMonster; c
   );
 }
 
+// Table cells that list several possible monsters are written as raw markdown source
+// ("[Label](#anchor), [Label 2](#anchor2), ..."), and a borrowed-level annotation carries the
+// book's own italic markup ("*(as Level N)*") — strip both rather than let markdown syntax leak
+// into the UI unrendered. `choiceNote` (a separate, clean "picked at random among N option(s) ->
+// X" sentence) is shown alongside, not instead of, the raw table result, so the DM can see both
+// the full candidate pool and which one was actually picked.
+function stripMarkdown(s: string): string {
+  return s.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/\*/g, "");
+}
+
 export function EncounterSummary({ result }: { result: StockingEncounter }) {
   return (
     <div>
       <p className="note">
-        Level {result.levelRoll} table result: "{result.resultRaw}"
+        Level {result.levelRoll} table result: {stripMarkdown(result.resultRaw)}
         {result.borrowedFromLevel ? ` (borrowed from Level ${result.borrowedFromLevel})` : ""}
       </p>
+      {"choiceNote" in result && result.choiceNote && <p className="note">{result.choiceNote}</p>}
       {"loneNpc" in result && result.loneNpc && <p className="note">Lone NPC encounter: {result.loneNpc.archetype}</p>}
       {result.monster ? (
         <MonsterSummary monster={result.monster} count={result.count} />

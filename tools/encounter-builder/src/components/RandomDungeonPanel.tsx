@@ -52,7 +52,7 @@ function NodeDetail({ node }: { node: DungeonNode }) {
 }
 
 export function RandomDungeonPanel({ partyLevel, locationInput }: { partyLevel: number; locationInput: LocationInput }) {
-  const [maxNodes, setMaxNodes] = useState(60);
+  const [maxNodes, setMaxNodes] = useState(10);
   const [startAreaChoice, setStartAreaChoice] = useState<StartAreaChoice>("empty");
   const [nodes, setNodes] = useState<DungeonNode[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -129,11 +129,12 @@ export function RandomDungeonPanel({ partyLevel, locationInput }: { partyLevel: 
           <input
             id="max-nodes"
             type="number"
-            min={5}
-            max={150}
+            min={1}
+            max={60}
             value={maxNodes}
-            onChange={(e) => setMaxNodes(Math.min(150, Math.max(5, Number(e.target.value) || 60)))}
+            onChange={(e) => setMaxNodes(Math.min(60, Math.max(1, Number(e.target.value) || 10)))}
           />
+          <p className="hint">Counts rooms, chambers, caves, and stairs — not the corridors connecting them.</p>
         </div>
         <div className="field">
           <label htmlFor="start-area">Starting Area (Table 1)</label>

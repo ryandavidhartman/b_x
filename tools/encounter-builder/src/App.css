@@ -120,6 +120,13 @@
   color: var(--accent-dark);
 }
 
+.hint {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin: 0.25rem 0 0;
+  max-width: 22rem;
+}
+
 .severity-note {
   margin-bottom: 0;
 }
