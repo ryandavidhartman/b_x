@@ -1,0 +1,208 @@
+{
+  "frequency": {
+    "headers": [
+      "Terrain",
+      "Chance of Encounter (1d6)"
+    ],
+    "rows": [
+      {
+        "Terrain": {
+          "raw": "Clear, Grasslands\\*\\*\\*",
+          "links": []
+        },
+        "Chance of Encounter (1d6)": {
+          "raw": "6",
+          "links": []
+        }
+      },
+      {
+        "Terrain": {
+          "raw": "Woods",
+          "links": []
+        },
+        "Chance of Encounter (1d6)": {
+          "raw": "5-6",
+          "links": []
+        }
+      },
+      {
+        "Terrain": {
+          "raw": "River",
+          "links": []
+        },
+        "Chance of Encounter (1d6)": {
+          "raw": "5-6",
+          "links": []
+        }
+      },
+      {
+        "Terrain": {
+          "raw": "Mountains",
+          "links": []
+        },
+        "Chance of Encounter (1d6)": {
+          "raw": "4-6",
+          "links": []
+        }
+      },
+      {
+        "Terrain": {
+          "raw": "Desert",
+          "links": []
+        },
+        "Chance of Encounter (1d6)": {
+          "raw": "5-6",
+          "links": []
+        }
+      },
+      {
+        "Terrain": {
+          "raw": "Inhabited",
+          "links": []
+        },
+        "Chance of Encounter (1d6)": {
+          "raw": "6",
+          "links": []
+        }
+      },
+      {
+        "Terrain": {
+          "raw": "Ocean\\*",
+          "links": []
+        },
+        "Chance of Encounter (1d6)": {
+          "raw": "5-6",
+          "links": []
+        }
+      },
+      {
+        "Terrain": {
+          "raw": "Jungle",
+          "links": []
+        },
+        "Chance of Encounter (1d6)": {
+          "raw": "4-6",
+          "links": []
+        }
+      },
+      {
+        "Terrain": {
+          "raw": "Aerial\\*\\*",
+          "links": []
+        },
+        "Chance of Encounter (1d6)": {
+          "raw": "5-6",
+          "links": []
+        }
+      },
+      {
+        "Terrain": {
+          "raw": "Hills",
+          "links": []
+        },
+        "Chance of Encounter (1d6)": {
+          "raw": "5-6",
+          "links": []
+        }
+      },
+      {
+        "Terrain": {
+          "raw": "Barren",
+          "links": []
+        },
+        "Chance of Encounter (1d6)": {
+          "raw": "5-6",
+          "links": []
+        }
+      }
+    ]
+  },
+  "purpose": {
+    "headers": [
+      "d8",
+      "Purpose"
+    ],
+    "rows": [
+      {
+        "d8": {
+          "raw": "1",
+          "links": []
+        },
+        "Purpose": {
+          "raw": "Guarding a lair, nest, or treasure",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "2",
+          "links": []
+        },
+        "Purpose": {
+          "raw": "Hunting or foraging for food",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "3",
+          "links": []
+        },
+        "Purpose": {
+          "raw": "Patrolling a territory or route",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "4",
+          "links": []
+        },
+        "Purpose": {
+          "raw": "Fleeing something more dangerous",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "5",
+          "links": []
+        },
+        "Purpose": {
+          "raw": "Lost, wandering, or migrating",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "6",
+          "links": []
+        },
+        "Purpose": {
+          "raw": "Investigating a noise, light, or scent",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "7",
+          "links": []
+        },
+        "Purpose": {
+          "raw": "Resting, sleeping, or otherwise off guard",
+          "links": []
+        }
+      },
+      {
+        "d8": {
+          "raw": "8",
+          "links": []
+        },
+        "Purpose": {
+          "raw": "Escorting or accompanying another creature or NPC",
+          "links": []
+        }
+      }
+    ]
+  }
+}

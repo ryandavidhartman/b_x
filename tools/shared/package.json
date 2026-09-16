@@ -1,0 +1,15 @@
+{
+  "name": "rpg-shared",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Plain TypeScript source, not published or built on its own — consumed by sibling apps under tools/ via a bundler alias (see each app's vite.config.ts / tsconfig.app.json for \"@shared/*\"). This package.json exists only so react's types and JSX runtime resolve for files under src/ that use them (e.g. components/LevelPicker.tsx); it has no scripts of its own.",
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4"
+  }
+}
