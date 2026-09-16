@@ -9470,6 +9470,8 @@ At a glance, the whole procedure runs like this:
 
 Each step is detailed below.
 
+Two inputs run through every step below that touches Appendix C or D, the same two parameters those appendices are themselves built around: **location type** (dungeon — and if so, which of Appendix D's six subtypes fits: Standard Dungeon, Cave/Cavern Network, Tomb/Crypt, Evil Temple/Shrine, Sewer, or Ruins — wilderness, urban, or castle) and **the party's level** (dungeon level and party level are treated as the same number, per Appendix D: Random Encounters). Decide both up front; wherever a step below says to roll "by level" or "for the party's level," it means the same number regardless of location type.
+
 A. **Choose a scenario.** See *Scenarios*, below, for a background theme that gives the location a reason to exist and the DM a reason for choosing specific monsters and treasure.
 
 B. **Place special monsters and treasure.** Decide which creatures belong in the location on purpose — guardians the scenario calls for, a boss encounter, a captive to rescue — rather than leaving them to chance. Appendix C: Monster Quick Reference is the tool for this: its *Monsters by Terrain* and *Monsters by Party Level* lists turn "I need something dangerous but plausible for a swamp lair, appropriate for a level 5 party" into a short menu to pick from, rather than a blind search through the whole monster catalog. Place their treasure to match — see Appendix B: Treasure for rolling it, once the type and amount are decided.
@@ -9532,7 +9534,7 @@ Use this when the location already has a floor plan — hand-drawn, from a modul
 | 3 | Yes | No | No |
 | 4-6 | No | No | No |
 
-A **Monster** result is rolled on whichever Appendix D table matches this location's type — Dungeon Random Encounters for a dungeon (pick whichever location subtype fits the room, and read the row for the dungeon level being stocked), Wilderness Encounters for a wilderness lair, or Urban Encounters for an urban hideout. A **Trap** may be placed in an otherwise empty room or on top of the room's treasure; roll on the Random Trap Generation table below. For a natural or ruined location — a cave, a swamp, a wilderness lair — a Trap result may fit better as an *Environmental Hazard* instead, below; both draw treasure from the same Trap column. A **Special** is anything not exactly a trap but placed for its own reasons — a moaning corridor, a sliding room, a trick (see below) — left to the DM's invention; the Treasure table above has no Special column of its own for the same reason — roll on its Empty column if you'd rather roll than decide. When treasure is indicated, use the monster's own Treasure Type if a monster is present, or the Unguarded Treasures table (Appendix B: Treasure) if the room is empty, holds only a trap, or holds a Special.
+A **Monster** result is rolled on whichever Appendix D table matches this location's type — Dungeon Random Encounters for a dungeon (pick whichever location subtype fits the room), Wilderness Encounters for a wilderness lair, or Urban Encounters for an urban hideout — reading the row for the party's level in every case (dungeon level and party level are the same number, per Appendix D's own convention, so this applies whether the location is a dungeon or not). A **Trap** may be placed in an otherwise empty room or on top of the room's treasure; roll on the Random Trap Generation table below. For a natural or ruined location — a cave, a swamp, a wilderness lair — a Trap result may fit better as an *Environmental Hazard* instead, below; both draw treasure from the same Trap column. A **Special** is anything not exactly a trap but placed for its own reasons — a moaning corridor, a sliding room, a trick (see below) — left to the DM's invention; the Treasure table above has no Special column of its own for the same reason — roll on its Empty column if you'd rather roll than decide. When treasure is indicated, use the monster's own Treasure Type if a monster is present, or the Unguarded Treasures table (Appendix B: Treasure) — rolled by the party's level, the same input as everything else in this step — if the room is empty, holds only a trap, or holds a Special.
 
 ### Dungeon Dressing
 
@@ -9944,13 +9946,13 @@ Traps come in four rough levels of severity:
 
 #### Trap Placement
 
-A trap's severity should suit the dungeon level it's on and the treasure it guards — a trap on the first dungeon level guarding an area infested with ferocious but poverty-stricken monsters should be a nuisance, while a trap on the sixteenth level protecting a dragon's hoard while the dragon is out hunting should be fatal.
+A trap's severity should suit the party's level and the treasure it guards — a trap for a level 1 party guarding an area infested with ferocious but poverty-stricken monsters should be a nuisance, while a trap for a level 16 party protecting a dragon's hoard while the dragon is out hunting should be fatal.
 
 Intelligent creatures that live near a trap will maintain it and know how to avoid or disarm it, and may work to make it effective again if the party learns to bypass it. DMs vary widely in how heavily they lean on traps: some place many, several capable of instant death with no save; others use fewer and always allow one. Players adapt to whichever style prevails — cautious, methodical play against a trap-heavy dungeon, or faster and more heroic play against a lighter touch. Decide which style suits your table and design traps accordingly.
 
 #### Random Trap Generation
 
-Roll a trap type below, then set its severity — Nuisance, Hazardous, Dangerous, or Fatal, per *Trap Placement* above — to fit the dungeon level and the treasure it guards. The table doesn't tie each type to one fixed severity: a "spiked pit," for instance, is a nuisance with dull spikes and a shallow drop, or fatal with poisoned spikes and a locking lid, depending on what the room calls for.
+Roll a trap type below, then set its severity — Nuisance, Hazardous, Dangerous, or Fatal, per *Trap Placement* above — to fit the party's level and the treasure it guards. The table doesn't tie each type to one fixed severity: a "spiked pit," for instance, is a nuisance with dull spikes and a shallow drop, or fatal with poisoned spikes and a locking lid, depending on what the room calls for.
 
 | d% | Result | d% | Result |
 |---|---|---|---|
@@ -10109,6 +10111,8 @@ Gina rolls a second trick for a different room: 25 then 31, yielding fireplace, 
 ### Random Dungeon Generation
 
 This is the primary method for building a stocked location's floor plan from scratch (step C of *Building a Stocked Location*, above) — roll the whole thing before a session, or improvise it live when a session takes an unexpected turn. It's equally useful to spur ideas when the DM's own artistic ambitions fail, for generating add-on levels to an existing megadungeon, or for solo play. For these tables, a **room** has exits closed by a door or other portal, while a **chamber** has open exits such as archways.
+
+Like every other Appendix D-driven step in this appendix, this procedure runs on the same two inputs — decide the location subtype this level represents (Standard Dungeon, Cave/Cavern Network, Tomb/Crypt, Evil Temple/Shrine, Sewer, or Ruins — Appendix D: Random Encounters' own six Dungeon subtypes) and the party's level, before rolling anything. Both apply to every Monster and Treasure result the tables below produce; switch the subtype only for a room that's clearly become something else along the way (a natural cave generated via Table 13: Caves, for instance, reads as Cave/Cavern Network for that room alone).
 
 **How to create a random dungeon:**
 
@@ -10274,11 +10278,11 @@ If passage, proceed to Table 7: Exit Direction, Chamber Passage. If door, procee
 | Die | Result |
 |---|---|
 | 1-7 | Empty |
-| 8-11 | Monster (determine randomly — see Appendix D: Random Encounters) |
+| 8-11 | Monster (determine randomly, at the party's level and the subtype decided above — see Appendix D: Random Encounters) |
 | 12-17 | Monster and Treasure (as above, using the monster's own Treasure Type — Appendix B: Treasure — plus Table 9: Treasure Container, below, for how it's stored) |
 | 18 | Stairs (see Table 12: Stairs) |
 | 19 | Trick or Trap (see *Trap Generation and Placement* and *Tricks*, above; for a Cave or Cavern, an *Environmental Hazard* may fit better) |
-| 20 | Treasure (roll on the Unguarded Treasures table, Appendix B: Treasure, for the amount, plus Table 9: Treasure Container, below, for how it's stored) |
+| 20 | Treasure (roll on the Unguarded Treasures table, Appendix B: Treasure, using the party's level, for the amount, plus Table 9: Treasure Container, below, for how it's stored) |
 
 ::: center
 *Table 8: Chamber or Room Contents (`1d20`) — proceed to Table 9: Treasure Container if Monster and Treasure or Treasure is indicated*
@@ -10407,7 +10411,7 @@ In order to learn the secret of a magic pool, adventurers must actually enter th
 | 11-14 | Side passage. See Table 20: Side Passages, then check this table again in 30 ft. |
 | 15 | Stairs. Go to Table 12: Stairs. |
 | 16-19 | Turn. Consult Table 23: Turns, then check this table again in 30 ft. |
-| 20 | Wandering Monster (determine randomly — see Appendix D: Random Encounters); reroll on this table to determine its location and approach. |
+| 20 | Wandering Monster (determine randomly, at the party's level and the subtype decided above — see Appendix D: Random Encounters); reroll on this table to determine its location and approach. |
 
 ::: center
 *Table 17: General (`1d20`)*
