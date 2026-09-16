@@ -17,7 +17,7 @@ function NodeDetail({ node }: { node: DungeonNode }) {
   const [showRolls, setShowRolls] = useState(false);
   return (
     <div className="result-card">
-      <div className="result-title">{node.label}</div>
+      <div className="result-title">{node.areaNumber !== undefined ? `${node.areaNumber}. ${node.label}` : node.label}</div>
       {node.contents && <p className="note">Contents: {node.contents}</p>}
       {node.encounter && <EncounterSummary result={node.encounter} />}
       {node.wanderingMonsters?.map((w, i) => (
@@ -170,7 +170,7 @@ export function RandomDungeonPanel({ partyLevel, locationInput }: { partyLevel: 
             <div className="dungeon-room-list">
               {nodes.map((n) => (
                 <button key={n.id} className={`room-list-item ${n.id === selectedId ? "active" : ""}`} onClick={() => setSelectedId(n.id)}>
-                  {n.label}
+                  {n.areaNumber !== undefined ? `${n.areaNumber}. ${n.label}` : n.label}
                 </button>
               ))}
             </div>

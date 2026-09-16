@@ -67,6 +67,11 @@ export interface DungeonNode {
   cells: GridPoint[];
   farCell: GridPoint;
   label: string;
+  /** Sequential key number (1, 2, 3, ...) for AREA_KINDS nodes only, in generation order — lets
+   * the map and the room-by-room log cross-reference each other the way a published dungeon
+   * key's numbered map and numbered room descriptions do. Corridors/dead ends/secret doors are
+   * never numbered, matching that convention. */
+  areaNumber?: number;
   notes: string[];
   contents?: RoomContentsResult;
   encounter?: DungeonEncounterResult | null;
@@ -235,7 +240,10 @@ function makeNode(
     notes: [],
   };
   state.nodes.push(node);
-  if (AREA_KINDS.has(kind)) state.areaCount++;
+  if (AREA_KINDS.has(kind)) {
+    state.areaCount++;
+    node.areaNumber = state.areaCount;
+  }
   return node;
 }
 

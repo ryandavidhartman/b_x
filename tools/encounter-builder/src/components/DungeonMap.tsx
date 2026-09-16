@@ -18,6 +18,16 @@ const KIND_COLOR: Record<NodeKind, string> = {
   secretDoor: "#b89bd6",
 };
 
+/** Key number for a room/chamber/cave/stairs node, centered on its cells — cross-references the
+ * room-by-room log the same way a published dungeon key's numbered map does. */
+function AreaNumber({ x, y, n }: { x: number; y: number; n: number }) {
+  return (
+    <text x={x} y={y} textAnchor="middle" dominantBaseline="central" fontSize={CELL_PX * 0.85} fontWeight={700} fill="#3a2f22" stroke="#fdf8ee" strokeWidth={2.5} paintOrder="stroke">
+      {n}
+    </text>
+  );
+}
+
 const KIND_LABEL: Record<NodeKind, string> = {
   room: "Room",
   chamber: "Chamber",
@@ -65,6 +75,8 @@ export function DungeonMap({ nodes, selectedId, onSelect }: { nodes: DungeonNode
           const isSelected = node.id === selectedId;
           const color = KIND_COLOR[node.kind];
           if (node.cells.length > 0) {
+            const cx = node.cells.reduce((s, c) => s + px(c.x), 0) / node.cells.length + CELL_PX / 2;
+            const cy = node.cells.reduce((s, c) => s + py(c.y), 0) / node.cells.length + CELL_PX / 2;
             return (
               <g key={node.id} onClick={() => onSelect(node.id)} style={{ cursor: "pointer" }}>
                 {node.cells.map((c, i) => (
@@ -79,20 +91,24 @@ export function DungeonMap({ nodes, selectedId, onSelect }: { nodes: DungeonNode
                     strokeWidth={isSelected ? 2 : 0.5}
                   />
                 ))}
+                {node.areaNumber !== undefined && <AreaNumber x={cx} y={cy} n={node.areaNumber} />}
               </g>
             );
           }
           // Zero-cell nodes (dead ends, secret doors, some stairs) — a small marker at the anchor.
+          const zx = px(node.anchor.x) + CELL_PX / 2;
+          const zy = py(node.anchor.y) + CELL_PX / 2;
           return (
             <g key={node.id} onClick={() => onSelect(node.id)} style={{ cursor: "pointer" }}>
               <circle
-                cx={px(node.anchor.x) + CELL_PX / 2}
-                cy={py(node.anchor.y) + CELL_PX / 2}
+                cx={zx}
+                cy={zy}
                 r={CELL_PX / 2.5}
                 fill={color}
                 stroke={isSelected ? "#8a3b2a" : "#5c4a33"}
                 strokeWidth={isSelected ? 2 : 1}
               />
+              {node.areaNumber !== undefined && <AreaNumber x={zx} y={zy} n={node.areaNumber} />}
             </g>
           );
         })}
