@@ -191,8 +191,8 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
             onChange={(e) => setMaxNodes(Math.min(60, Math.max(1, Number(e.target.value) || 10)))}
           />
           <p className="hint">
-            Counts rooms, chambers, caves, and stairs — not the corridors connecting them. A ceiling, not a guarantee: generation can
-            end earlier if the layout runs into a dead end first.
+            Counts rooms, chambers, caves, and stairs — not the corridors connecting them. Guaranteed: if the layout runs into dead
+            ends before reaching this many, generation adds another passage off an existing room rather than stopping short.
           </p>
         </div>
         {isDungeon && (

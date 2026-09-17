@@ -10,6 +10,7 @@
 import {
   rollDie,
   lookup,
+  pick,
   rollDungeonEncounter,
   rollWildernessEncounter,
   rollUrbanMonsterEncounter,
@@ -205,6 +206,10 @@ export interface GenState {
   /** Safety ceiling on total nodes of any kind, so a run that never lands a room can't run away. */
   hardNodeCap: number;
   areaCount: number;
+  /** How many fresh, separate seed points have been started (see injectExtraExit) when the main
+   * layout died out with nothing yet to extend from — offsets each one far enough away to never
+   * collide with the rest of the map. */
+  freshSeeds: number;
 }
 
 /** Dispatches Table 8/Table 17's Monster rolls to whichever Appendix D table actually fits this
@@ -984,8 +989,12 @@ export function createInitialState(opts: GenerateOptions): GenState {
     work: [],
     nextId: 0,
     maxNodes,
-    hardNodeCap: Math.max(200, maxNodes * 15),
+    // Generous headroom now that "Number of Rooms" is a guarantee (see injectExtraExit) rather
+    // than a ceiling most runs never reached — a denser, more collision-prone map needs more
+    // corridor/injection attempts per real room than a run that was free to stop early.
+    hardNodeCap: Math.max(400, maxNodes * 60),
     areaCount: 0,
+    freshSeeds: 0,
   };
   const anchor: GridPoint = { x: 0, y: 0 };
 
@@ -1003,8 +1012,76 @@ function atCap(state: GenState): boolean {
   return state.areaCount >= state.maxNodes || state.nodes.length >= state.hardNodeCap;
 }
 
+/** "Number of Rooms" is a guarantee, not a ceiling — when the work queue runs dry (every branch
+ * hit a dead end, a terminal secret/one-way door, or a stairway) before reaching the target, the
+ * DM's own real-world move is to add one more passage off a room that's already mapped rather
+ * than stop short. This does exactly that: picks a random existing room/chamber/cave/cavern (not
+ * a Stairs result — the book treats those as this level's own endpoint) and rolls it a fresh
+ * Table 6 exit, same as any other exit from here on (Table 19, collision handling, etc., all
+ * apply normally). Not a book rule — the book's procedure has no "keep going" step — but the
+ * alternative (silently generating fewer rooms than asked for) is worse than this admitted
+ * invention, and every injected exit says so in the affected node's notes. */
+/** Handles the rarer case injectExtraExit's caller can hit: nothing has become a real room yet at
+ * all (the very first branch dead-ended before Table 17 ever rolled a Chamber, or every door led
+ * straight back to a terminal secret/one-way door) — there's nothing to hang an extra exit off
+ * of. Starts a fresh, disconnected seed point far enough away to never collide with whatever's
+ * already mapped, the same way a published map sometimes shows an unconnected sub-area reached by
+ * its own separate passage rather than literally drawing every level as one contiguous blob. */
+function spawnFreshSeed(state: GenState): void {
+  state.freshSeeds++;
+  // Just past the map's current rightmost edge, not some arbitrarily distant point — far enough
+  // that nothing already placed can occupy it (no existing cell can share this x), close enough
+  // that the map's own bounding box (and so DungeonMap.tsx's rendered scale) grows in proportion
+  // to the dungeon instead of the whole map shrinking to a speck next to a huge empty gap.
+  let maxX = 0;
+  for (const key of state.occupied) {
+    const x = Number(key.slice(0, key.indexOf(",")));
+    if (x > maxX) maxX = x;
+  }
+  const anchor: GridPoint = { x: maxX + 15, y: 0 };
+  state.occupied.add(cellKey(anchor));
+  const start = makeNode(state, null, "corridor", 0, anchor, [anchor], `Starting Point (empty area, part ${state.freshSeeds + 1})`);
+  start.notes.push(
+    "Number of Rooms target not yet reached, and no existing area could take another exit (nothing had become a real room yet) — starting a fresh, separate part of the map here (engine judgment call, not a book rule).",
+  );
+  state.work.push({ kind: "continue", atNodeId: start.id });
+}
+
+/** "Number of Rooms" is a guarantee, not a ceiling — when the work queue runs dry (every branch
+ * hit a dead end, a terminal secret/one-way door, or a stairway) before reaching the target, the
+ * DM's own real-world move is to add one more passage off a room that's already mapped rather
+ * than stop short. This does exactly that: picks a random existing room/chamber/cave/cavern (not
+ * a Stairs result — the book treats those as this level's own endpoint) and rolls it a fresh
+ * Table 6 exit, same as any other exit from here on (Table 19, collision handling, etc., all
+ * apply normally). Not a book rule — the book's procedure has no "keep going" step — but the
+ * alternative (silently generating fewer rooms than asked for) is worse than this admitted
+ * invention, and every injected exit says so in the affected node's notes. */
+function injectExtraExit(state: GenState): void {
+  const candidates = state.nodes.filter((n) => (n.kind === "room" || n.kind === "chamber" || n.kind === "cave" || n.kind === "cavern") && n.contents !== "Stairs");
+  // A map with large footprints (Cave/Cavern Network's own Table 13 rooms can run up to 120 sq
+  // ft to a side) fills its grid fast — extending an existing area collides more and more often
+  // as the map gets dense, wasting the safety ceiling on secret/one-way-door terminals instead of
+  // real rooms. Seeding fresh, wide-open space a quarter of the time keeps that from starving out
+  // a large target — not needed for tighter maps, but harmless there either way.
+  if (candidates.length === 0 || rollDie(4) === 1) {
+    spawnFreshSeed(state);
+    return;
+  }
+  const node = pick(candidates);
+  const locRoll = rollDie(20);
+  const location = lookup(locRoll, EXIT_LOCATION);
+  const heading = turn(node.heading, wallTurn(location));
+  const exitKind: "door" | "passage" = node.kind === "room" ? "door" : "passage";
+  const wallSide: "side" | "straight" = location === "Left Wall" || location === "Right Wall" ? "side" : "straight";
+  node.notes.push(
+    `Number of Rooms target not yet reached — extending from this area with one more exit rather than stopping short (engine judgment call, not a fresh Table 5 roll). Table 6 (d20=${locRoll}): ${location}`,
+  );
+  state.work.push({ kind: "exit", parentId: node.id, exitKind, heading, wallSide });
+}
+
 function step(state: GenState): boolean {
-  if (state.work.length === 0 || atCap(state)) return false;
+  if (atCap(state)) return false;
+  if (state.work.length === 0) injectExtraExit(state);
   const item = state.work.shift()!;
   if (item.kind === "continue") processContinue(state, item.atNodeId);
   else processExit(state, item);
@@ -1012,21 +1089,21 @@ function step(state: GenState): boolean {
 }
 
 /** Drives the engine one node at a time — for the UI's step-by-step reveal mode. Returns false
- * once generation is finished (work queue empty, the room cap is hit, or the corridor-count
- * safety ceiling is hit). */
+ * once generation is finished (the room target is reached, or the corridor-count safety ceiling
+ * is hit — see injectExtraExit for why an empty work queue alone no longer stops generation). */
 export function stepGeneration(state: GenState): boolean {
   const before = state.nodes.length;
-  while (state.work.length > 0 && !atCap(state) && state.nodes.length === before) {
+  while (!atCap(state) && state.nodes.length === before) {
     if (!step(state)) return false;
   }
-  return state.work.length > 0 && !atCap(state);
+  return !atCap(state);
 }
 
 /** Runs the whole thing in one shot — "roll the whole thing before a session." */
 export function generateWholeDungeon(opts: GenerateOptions): DungeonNode[] {
   const state = createInitialState(opts);
   let guard = 0;
-  while (step(state) && guard < 5000) guard++;
+  while (step(state) && guard < 20000) guard++;
   return state.nodes;
 }
 
