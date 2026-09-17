@@ -181,7 +181,7 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
 
       <div className="field-row">
         <div className="field">
-          <label htmlFor="max-nodes">Max Rooms</label>
+          <label htmlFor="max-nodes">Number of Rooms</label>
           <input
             id="max-nodes"
             type="number"
@@ -190,7 +190,10 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
             value={maxNodes}
             onChange={(e) => setMaxNodes(Math.min(60, Math.max(1, Number(e.target.value) || 10)))}
           />
-          <p className="hint">Counts rooms, chambers, caves, and stairs — not the corridors connecting them.</p>
+          <p className="hint">
+            Counts rooms, chambers, caves, and stairs — not the corridors connecting them. A ceiling, not a guarantee: generation can
+            end earlier if the layout runs into a dead end first.
+          </p>
         </div>
         {isDungeon && (
           <div className="field">

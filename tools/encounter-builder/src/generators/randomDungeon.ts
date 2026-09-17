@@ -180,7 +180,7 @@ function farCellOf(cells: GridPoint[]): GridPoint {
   return cells[cells.length - 1];
 }
 
-// The "Max Rooms" input is meant to cap actual destinations — rooms, chambers, caves/caverns,
+// The "Number of Rooms" input is meant to cap actual destinations — rooms, chambers, caves/caverns,
 // and stairs — not the corridor segments, dead ends, and secret-door stubs strung between them.
 // Counting every node toward one shared budget (the original implementation) meant a small cap
 // could be entirely consumed by corridor segments before a single room ever appeared, which is
@@ -200,7 +200,7 @@ export interface GenState {
   nodes: DungeonNode[];
   work: PendingWork[];
   nextId: number;
-  /** Cap on AREA_KINDS nodes (what the UI calls "Max Rooms") — see AREA_KINDS comment above. */
+  /** Cap on AREA_KINDS nodes (what the UI calls "Number of Rooms") — see AREA_KINDS comment above. */
   maxNodes: number;
   /** Safety ceiling on total nodes of any kind, so a run that never lands a room can't run away. */
   hardNodeCap: number;
