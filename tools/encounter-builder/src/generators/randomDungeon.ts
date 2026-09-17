@@ -56,12 +56,20 @@ export interface GridPoint {
   x: number;
   y: number;
 }
-export type NodeKind = "room" | "chamber" | "corridor" | "cave" | "cavern" | "stairs" | "deadEnd" | "secretDoor";
+export type NodeKind = "room" | "chamber" | "corridor" | "cave" | "cavern" | "stairs" | "deadEnd" | "secretDoor" | "oneWayDoor";
+
+/** How this node connects back to its parent, for DungeonMap.tsx's book-symbol rendering — a
+ * room's exits (Table 5/6) are real doors, a chamber's exits and every mid-corridor continuation
+ * (Table 17's Continue/Turn/Side Passage, Table 7's chamber directions) are open passage, and
+ * Table 6's collision rule can turn either into a secret or one-way door instead. "open" draws no
+ * door glyph at all — just whatever wall the wall-extraction step naturally produces. */
+export type Connection = "door" | "secretDoor" | "oneWayDoor" | "open";
 
 export interface DungeonNode {
   id: string;
   kind: NodeKind;
   parentId: string | null;
+  connectionToParent: Connection;
   heading: Heading;
   anchor: GridPoint;
   cells: GridPoint[];
@@ -227,11 +235,13 @@ function makeNode(
   anchor: GridPoint,
   cells: GridPoint[],
   label: string,
+  connectionToParent: Connection = "open",
 ): DungeonNode {
   const node: DungeonNode = {
     id: newId(state),
     kind,
     parentId,
+    connectionToParent,
     heading,
     anchor,
     cells,
@@ -374,7 +384,14 @@ function queueRoomExits(state: GenState, node: DungeonNode, areaSqFt: number, ki
 }
 
 // --- Room / chamber generation, shared by the initial room and every "behind the door" room ----
-function generateRoomOrChamber(state: GenState, parentId: string | null, heading: Heading, anchor: GridPoint, kind: "room" | "chamber") {
+function generateRoomOrChamber(
+  state: GenState,
+  parentId: string | null,
+  heading: Heading,
+  anchor: GridPoint,
+  kind: "room" | "chamber",
+  connectionToParent: Connection,
+) {
   // "The lowest levels of a dungeon are often composed of caves and caverns. Use the table
   // below for caves and caverns, and roll for exits on Table 5." The book doesn't say exactly
   // when a DM switches over to Table 13 instead of Table 2 — read here as: every room/chamber
@@ -387,7 +404,7 @@ function generateRoomOrChamber(state: GenState, parentId: string | null, heading
     notes.push(`Table 13 (Caves): ${cave.label}`);
     if (cave.poolNote) notes.push(`Pool: ${cave.poolNote}`);
     if (cave.lakeNote) notes.push(`Lake: ${cave.lakeNote}`);
-    const node = commitRoom(state, parentId, heading, anchor, "chamber", cave.label, cave.width, cave.length, notes, "cave", "Cave/Cavern");
+    const node = commitRoom(state, parentId, heading, anchor, "chamber", cave.label, cave.width, cave.length, notes, connectionToParent, "cave", "Cave/Cavern");
     return node;
   }
   const notes: string[] = [];
@@ -418,7 +435,7 @@ function generateRoomOrChamber(state: GenState, parentId: string | null, heading
         length = 30;
         shapeLabel = `Circular (${feature})`;
         notes.push(`No book-specified size for a Circular room with a ${feature} — defaulted to 30 x 30 ft (engine judgment call).`);
-        const node = commitRoom(state, parentId, heading, anchor, kind, shapeLabel, width, length, notes);
+        const node = commitRoom(state, parentId, heading, anchor, kind, shapeLabel, width, length, notes, connectionToParent);
         return node;
       }
     }
@@ -435,7 +452,7 @@ function generateRoomOrChamber(state: GenState, parentId: string | null, heading
     length = sizeResult.length;
   }
 
-  return commitRoom(state, parentId, heading, anchor, kind, shapeLabel, width, length, notes);
+  return commitRoom(state, parentId, heading, anchor, kind, shapeLabel, width, length, notes, connectionToParent);
 }
 
 function commitRoom(
@@ -448,6 +465,7 @@ function commitRoom(
   width: number,
   length: number,
   notes: string[],
+  connectionToParent: Connection,
   nodeKind: NodeKind = kind,
   labelPrefix: string = kind === "room" ? "Room" : "Chamber",
 ): DungeonNode | null {
@@ -455,11 +473,13 @@ function commitRoom(
   if (!tryPlace(state, cells)) {
     // No book rule covers a fresh room/chamber placement colliding — treat as reaching a
     // boundary already mapped from another direction and stub out a dead end (engine fallback).
-    const stub = makeNode(state, parentId, "deadEnd", heading, anchor, [], `${shapeLabel} (couldn't be placed — ran into mapped space)`);
+    // Dead ends draw as a plain wall regardless of connectionToParent, so this stub is always
+    // "open" rather than carrying over whatever door/passage type was attempted.
+    const stub = makeNode(state, parentId, "deadEnd", heading, anchor, [], `${shapeLabel} (couldn't be placed — ran into mapped space)`, "open");
     stub.notes = [...notes, "Engine judgment call: collision on placement, stubbed as a dead end rather than overlapping another area."];
     return stub;
   }
-  const node = makeNode(state, parentId, nodeKind, heading, anchor, cells, `${labelPrefix} (${shapeLabel}, ${width} x ${length} ft)`);
+  const node = makeNode(state, parentId, nodeKind, heading, anchor, cells, `${labelPrefix} (${shapeLabel}, ${width} x ${length} ft)`, connectionToParent);
   node.notes = notes;
   rollRoomOrChamberContents(state, node);
   if (node.contents !== "Stairs") {
@@ -469,14 +489,24 @@ function commitRoom(
 }
 
 // --- Corridor placement ---------------------------------------------------------------------
-function commitCorridor(state: GenState, parentId: string, heading: Heading, anchor: GridPoint, steps: number, label: string, notes: string[]): DungeonNode | null {
+function commitCorridor(
+  state: GenState,
+  parentId: string,
+  heading: Heading,
+  anchor: GridPoint,
+  steps: number,
+  label: string,
+  notes: string[],
+  connectionToParent: Connection,
+): DungeonNode | null {
   const cells = lineCells(anchor, heading, steps);
   if (!tryPlace(state, cells)) {
-    const stub = makeNode(state, parentId, "deadEnd", heading, anchor, [], `${label} — ran into mapped space`);
+    // Dead ends draw as a plain wall regardless of connectionToParent — see commitRoom's stub.
+    const stub = makeNode(state, parentId, "deadEnd", heading, anchor, [], `${label} — ran into mapped space`, "open");
     stub.notes = [...notes, "Engine judgment call: corridor collided with existing geometry, stubbed as a dead end."];
     return stub;
   }
-  const node = makeNode(state, parentId, "corridor", heading, anchor, cells, label);
+  const node = makeNode(state, parentId, "corridor", heading, anchor, cells, label, connectionToParent);
   node.notes = notes;
   return node;
 }
@@ -517,11 +547,11 @@ function processContinue(state: GenState, atNodeId: string) {
 
   switch (result) {
     case "Chamber": {
-      generateRoomOrChamber(state, atNode.id, heading, anchor, "chamber");
+      generateRoomOrChamber(state, atNode.id, heading, anchor, "chamber", "open");
       return;
     }
     case "Continue": {
-      const node = commitCorridor(state, atNode.id, heading, anchor, 5, "Corridor continues (50 ft)", []);
+      const node = commitCorridor(state, atNode.id, heading, anchor, 5, "Corridor continues (50 ft)", [], "open");
       if (node && node.kind === "corridor") state.work.push({ kind: "continue", atNodeId: node.id });
       return;
     }
@@ -530,10 +560,10 @@ function processContinue(state: GenState, atNodeId: string) {
       if (adjacent) {
         const secretRoll = rollDie(100);
         const found = secretRoll <= 25;
-        const node = makeNode(state, atNode.id, found ? "secretDoor" : "deadEnd", heading, anchor, [], found ? "Secret door (loops back)" : "Dead End");
+        const node = makeNode(state, atNode.id, found ? "secretDoor" : "deadEnd", heading, anchor, [], found ? "Secret door (loops back)" : "Dead End", found ? "secretDoor" : "open");
         node.notes.push(`Secret-door check near mapped space (d%=${secretRoll}): ${found ? "found" : "none"}.`);
       } else {
-        makeNode(state, atNode.id, "deadEnd", heading, anchor, [], "Dead End");
+        makeNode(state, atNode.id, "deadEnd", heading, anchor, [], "Dead End", "open");
       }
       return;
     }
@@ -585,7 +615,7 @@ function processContinue(state: GenState, atNodeId: string) {
       for (const h of headings) {
         if (atCap(state)) break; // a 4/5-way intersection can otherwise overshoot the cap in one step
         rollPassageWidthFlavor(atNode.notes);
-        const node = commitCorridor(state, atNode.id, h, anchor, 3, "Corridor (30 ft)", []);
+        const node = commitCorridor(state, atNode.id, h, anchor, 3, "Corridor (30 ft)", [], "open");
         if (node && node.kind === "corridor") state.work.push({ kind: "continue", atNodeId: node.id });
       }
       return;
@@ -593,7 +623,7 @@ function processContinue(state: GenState, atNodeId: string) {
     case "Stairs": {
       const sRoll = rollDie(20);
       const stairs = lookup(sRoll, STAIRS);
-      const node = makeNode(state, atNode.id, "stairs", heading, anchor, [], `Stairs: ${stairs}`);
+      const node = makeNode(state, atNode.id, "stairs", heading, anchor, [], `Stairs: ${stairs}`, "open");
       node.notes.push(`Table 12 (d20=${sRoll}): ${stairs}`);
       if (stairs.includes("passage continues")) {
         state.work.push({ kind: "continue", atNodeId: node.id });
@@ -610,7 +640,7 @@ function processContinue(state: GenState, atNodeId: string) {
         atNode.notes.push(`45-degree turn ahead/behind check (d6=${aheadBehind}): ${aheadBehind <= 3 ? "ahead" : "behind"}`);
       }
       const newHeading = turn(heading, delta);
-      const node = commitCorridor(state, atNode.id, newHeading, anchor, 3, "Corridor (30 ft, after turn)", []);
+      const node = commitCorridor(state, atNode.id, newHeading, anchor, 3, "Corridor (30 ft, after turn)", [], "open");
       if (node && node.kind === "corridor") state.work.push({ kind: "continue", atNodeId: node.id });
       return;
     }
@@ -641,7 +671,17 @@ function processExit(state: GenState, item: Extract<PendingWork, { kind: "exit" 
   const notes: string[] = [];
   const { heading, terminal } = resolveExitCollisionIfNeeded(state, parent, item.heading, notes);
   if (terminal) {
-    const node = makeNode(state, parent.id, terminal === "secret" ? "secretDoor" : "deadEnd", heading, parent.farCell, [], terminal === "secret" ? "Secret door (loops back)" : "One-way door (dead end from this side)");
+    const kind: NodeKind = terminal === "secret" ? "secretDoor" : "oneWayDoor";
+    const node = makeNode(
+      state,
+      parent.id,
+      kind,
+      heading,
+      parent.farCell,
+      [],
+      terminal === "secret" ? "Secret door (loops back)" : "One-way door (dead end from this side)",
+      terminal === "secret" ? "secretDoor" : "oneWayDoor",
+    );
     node.notes = notes;
     return;
   }
@@ -654,32 +694,32 @@ function processExit(state: GenState, item: Extract<PendingWork, { kind: "exit" 
     switch (behind) {
       case "Side Door": {
         if (item.wallSide === "side") {
-          const node = commitCorridor(state, parent.id, heading, parent.farCell, 3, "Parallel passage (side door)", notes);
+          const node = commitCorridor(state, parent.id, heading, parent.farCell, 3, "Parallel passage (side door)", notes, "door");
           if (node && node.kind === "corridor") state.work.push({ kind: "continue", atNodeId: node.id });
         } else {
-          commitRoom(state, parent.id, heading, parent.farCell, "room", "Room", 10, 10, notes);
+          commitRoom(state, parent.id, heading, parent.farCell, "room", "Room", 10, 10, notes, "door");
         }
         return;
       }
       case "Straight Passage": {
-        const node = commitCorridor(state, parent.id, heading, parent.farCell, 3, "Corridor (30 ft)", notes);
+        const node = commitCorridor(state, parent.id, heading, parent.farCell, 3, "Corridor (30 ft)", notes, "door");
         if (node && node.kind === "corridor") state.work.push({ kind: "continue", atNodeId: node.id });
         return;
       }
       case "Passage Left 45":
       case "Passage Right 45": {
         const h2 = turn(heading, behind === "Passage Left 45" ? -45 : 45);
-        const node = commitCorridor(state, parent.id, h2, parent.farCell, 3, "Corridor (30 ft)", notes);
+        const node = commitCorridor(state, parent.id, h2, parent.farCell, 3, "Corridor (30 ft)", notes, "door");
         if (node && node.kind === "corridor") state.work.push({ kind: "continue", atNodeId: node.id });
         return;
       }
       case "Room": {
-        const node = generateRoomOrChamber(state, parent.id, heading, parent.farCell, "room");
+        const node = generateRoomOrChamber(state, parent.id, heading, parent.farCell, "room", "door");
         if (node) node.notes = [...notes, ...node.notes];
         return;
       }
       case "Chamber": {
-        const node = generateRoomOrChamber(state, parent.id, heading, parent.farCell, "chamber");
+        const node = generateRoomOrChamber(state, parent.id, heading, parent.farCell, "chamber", "door");
         if (node) node.notes = [...notes, ...node.notes];
         return;
       }
@@ -690,9 +730,175 @@ function processExit(state: GenState, item: Extract<PendingWork, { kind: "exit" 
     notes.push(`Table 7 (d20=${dirRoll}): ${dir}`);
     const h2 = dir === "Straight" ? heading : turn(heading, dir === "Left 45" ? -45 : 45);
     rollPassageWidthFlavor(notes);
-    const node = commitCorridor(state, parent.id, h2, parent.farCell, 3, "Corridor (30 ft)", notes);
+    const node = commitCorridor(state, parent.id, h2, parent.farCell, 3, "Corridor (30 ft)", notes, "open");
     if (node && node.kind === "corridor") state.work.push({ kind: "continue", atNodeId: node.id });
   }
+}
+
+// --- Starting Areas (Table 1) --------------------------------------------------------------------
+// The book's six pre-drawn starting areas (see "Starting Area," `dungeon-starting-areas-diagram.png`)
+// are irregular hand-drawn floor plans with several doors already placed, not a die-roll table —
+// there's no way to reproduce their exact jagged pixel geometry on this engine's orthogonal 10ft-
+// per-cell grid, so each is modeled as the closest topological match instead: one or two small
+// "junction" chambers (a single cell is enough — see the note on `farCell`-relative exits below)
+// with the same rough door count and arrangement as the book's own art, including the three areas
+// that draw a specific extra feature (IV's built-in stairway, V's central well, VI's ladder).
+//
+// Every exit direction below is an *absolute* heading (not relative to some "forward" the way
+// Table 6's wallTurn offsets are), because these doors are already fixed in place by the art, not
+// rolled — pushing them straight onto `state.work` exactly like `queueRoomExits` does means every
+// exit is resolved by the engine's normal `processExit`/Table 19 machinery from here on, so
+// whatever's behind each pre-placed door (including Cave/Cavern Network routing) works exactly
+// like anywhere else in the generator. `wallSide` only matters for one sub-case of Table 19 ("Side
+// Door" behind a door) that has no clean equivalent for a pre-fixed layout — every starting-area
+// door uses "straight", a simplification noted here rather than at each call site.
+interface StartingAreaExit {
+  heading: Heading;
+  connection: "door" | "open";
+}
+interface StartingAreaChamber {
+  kind: "room" | "chamber";
+  label: string;
+  exits: StartingAreaExit[];
+  rollStairsFeature?: boolean;
+  featureNote?: string;
+  ladderFeature?: boolean;
+}
+interface StartingAreaSpec {
+  name: string;
+  chambers: StartingAreaChamber[];
+  /** Heading of the interior link corridor from chambers[0] to chambers[1], when there are two. */
+  linkHeading?: Heading;
+}
+
+export const STARTING_AREAS: Record<number, StartingAreaSpec> = {
+  1: {
+    name: "I — Converging Hall",
+    chambers: [
+      {
+        kind: "chamber",
+        label: "Converging Hall",
+        exits: [
+          { heading: 315, connection: "door" },
+          { heading: 0, connection: "door" },
+          { heading: 45, connection: "door" },
+          { heading: 180, connection: "open" },
+        ],
+      },
+    ],
+  },
+  2: {
+    name: "II — Zigzag Cluster",
+    chambers: [
+      { kind: "chamber", label: "Zigzag Cluster (west end)", exits: [225, 270, 315].map((heading) => ({ heading: heading as Heading, connection: "door" as const })) },
+      { kind: "chamber", label: "Zigzag Cluster (east end)", exits: [45, 90, 135].map((heading) => ({ heading: heading as Heading, connection: "door" as const })) },
+    ],
+    linkHeading: 90,
+  },
+  3: {
+    name: "III — Twin-Fork Hall",
+    chambers: [
+      {
+        kind: "chamber",
+        label: "Twin-Fork Hall",
+        exits: [
+          { heading: 315, connection: "door" },
+          { heading: 0, connection: "open" },
+          { heading: 45, connection: "door" },
+          { heading: 180, connection: "door" },
+        ],
+      },
+    ],
+  },
+  4: {
+    name: "IV — Barrel Vault with Stairs",
+    chambers: [
+      {
+        kind: "chamber",
+        label: "Barrel Vault",
+        exits: [
+          { heading: 315, connection: "door" },
+          { heading: 45, connection: "door" },
+          { heading: 270, connection: "open" },
+          { heading: 90, connection: "door" },
+        ],
+        rollStairsFeature: true,
+      },
+    ],
+  },
+  5: {
+    name: "V — Octagon with a Well",
+    chambers: [
+      {
+        kind: "chamber",
+        label: "Octagon with a Well",
+        exits: [
+          { heading: 0, connection: "open" },
+          { heading: 90, connection: "door" },
+          { heading: 180, connection: "open" },
+          { heading: 270, connection: "open" },
+        ],
+        featureNote: "Pool: Well (this starting area's own art includes a well at its center)",
+      },
+    ],
+  },
+  6: {
+    name: "VI — Twin Rooms with a Ladder",
+    chambers: [
+      { kind: "room", label: "Twin Rooms (west room)", exits: [{ heading: 270, connection: "door" }] },
+      { kind: "room", label: "Twin Rooms (east room)", exits: [{ heading: 90, connection: "door" }], ladderFeature: true },
+    ],
+    linkHeading: 90,
+  },
+};
+
+function seedStartingArea(state: GenState, areaNum: number, origin: GridPoint): void {
+  const spec = STARTING_AREAS[areaNum];
+  let parentId: string | null = null;
+  let chamberAnchor = origin;
+
+  spec.chambers.forEach((chamberSpec, i) => {
+    if (!tryPlace(state, [chamberAnchor])) return; // shouldn't happen for a fresh area, but stay safe
+    const node = makeNode(state, parentId, chamberSpec.kind, 0, chamberAnchor, [chamberAnchor], `Starting Area ${spec.name} — ${chamberSpec.label}`, "open");
+    node.notes.push("Approximated from the book's own pre-drawn Starting Area art (Table 1) — same rough door count and any special feature, not a pixel-exact trace of the hand-drawn layout.");
+    rollRoomOrChamberContents(state, node);
+    if (chamberSpec.featureNote) node.notes.push(chamberSpec.featureNote);
+    if (chamberSpec.ladderFeature) {
+      node.notes.push("Ladder (this starting area's own art includes a ladder here — this app's own letter/line-glyph addition, not part of the original book map-symbol legend, but drawn the same way the book's own 'Ladder' entry describes it).");
+    }
+    if (chamberSpec.rollStairsFeature) {
+      const sRoll = rollDie(20);
+      const stairs = lookup(sRoll, STAIRS);
+      const stairsNode = makeNode(state, node.id, "stairs", 0, chamberAnchor, [], `Starting Area ${spec.name} — built-in stairway: ${stairs}`, "open");
+      stairsNode.notes.push(`Table 12 (d20=${sRoll}): ${stairs}`, "This starting area's own art includes a built-in stairway — its destination is rolled normally on Table 12 rather than fixed, since the book doesn't specify one.");
+    }
+
+    for (const exit of chamberSpec.exits) {
+      if (exit.connection === "door") {
+        state.work.push({ kind: "exit", parentId: node.id, exitKind: "door", heading: exit.heading, wallSide: "straight" });
+      } else {
+        const stub = commitCorridor(state, node.id, exit.heading, node.farCell, 1, "Corridor (starting area exit)", [], "open");
+        if (stub && stub.kind === "corridor") state.work.push({ kind: "continue", atNodeId: stub.id });
+      }
+    }
+
+    if (i < spec.chambers.length - 1 && spec.linkHeading !== undefined) {
+      const link = commitCorridor(state, node.id, spec.linkHeading, node.farCell, 2, "Corridor (starting area interior)", [], "open");
+      if (link && link.kind === "corridor") {
+        // The next chamber needs a fresh cell of its own beyond the link corridor's own last
+        // cell — reusing that last cell directly (as an earlier version of this did) collides
+        // with the corridor's own placement and silently fails, since a corridor's farCell is
+        // itself one of its occupied cells, not a free point beyond them.
+        const v = HEADING_VECTORS[spec.linkHeading];
+        chamberAnchor = { x: link.farCell.x + v.dx, y: link.farCell.y + v.dy };
+        parentId = link.id;
+      } else {
+        // Collision on a fresh grid should never happen, but if it somehow did, there's nowhere
+        // safe left to put the next chamber — stop here rather than risk another silent overlap.
+        return;
+      }
+    }
+  });
 }
 
 // --- Top-level entry points ---------------------------------------------------------------------
@@ -717,17 +923,14 @@ export function createInitialState(opts: GenerateOptions): GenState {
     areaCount: 0,
   };
   const anchor: GridPoint = { x: 0, y: 0 };
-  state.occupied.add(cellKey(anchor));
-  const label = opts.startArea === "empty" || opts.startArea === undefined ? "Starting Point (empty area)" : `Starting Area ${opts.startArea} (Table 1)`;
-  const start = makeNode(state, null, "corridor", 0, anchor, [anchor], label);
+
   if (opts.startArea !== "empty" && opts.startArea !== undefined) {
-    // A pre-drawn starting area already has its own rooms/corridors/doors on the book's diagram
-    // (not reproduced here — we don't have that art) — approximated as: roll this start point's
-    // own contents immediately (book step 6), then branch outward normally (engine judgment call).
-    rollRoomOrChamberContents(state, start);
-    start.notes.push("Approximated a pre-drawn starting area as an immediate Table 8 contents roll on the start point itself (engine judgment call — the book's starting-area art isn't reproduced here).");
+    seedStartingArea(state, opts.startArea, anchor);
+  } else {
+    state.occupied.add(cellKey(anchor));
+    const start = makeNode(state, null, "corridor", 0, anchor, [anchor], "Starting Point (empty area)");
+    state.work.push({ kind: "continue", atNodeId: start.id });
   }
-  state.work.push({ kind: "continue", atNodeId: start.id });
   return state;
 }
 

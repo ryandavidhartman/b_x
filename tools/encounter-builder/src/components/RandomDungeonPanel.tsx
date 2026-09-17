@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { rollDie } from "@shared/index";
 import type { LocationInput } from "../lib/locationInput";
-import { createInitialState, stepGeneration, generateWholeDungeon, type DungeonNode, type GenState } from "../generators/randomDungeon";
+import { createInitialState, stepGeneration, generateWholeDungeon, STARTING_AREAS, type DungeonNode, type GenState } from "../generators/randomDungeon";
 import { DungeonMap } from "./DungeonMap";
 import { EncounterSummary, TreasureSummary } from "./Summaries";
 
@@ -143,10 +143,13 @@ export function RandomDungeonPanel({ partyLevel, locationInput }: { partyLevel: 
             <option value="roll">Roll 1d6</option>
             {[1, 2, 3, 4, 5, 6].map((n) => (
               <option key={n} value={n}>
-                Use Area {n}
+                {STARTING_AREAS[n].name}
               </option>
             ))}
           </select>
+          <p className="hint">
+            The six pre-drawn layouts are approximated by door count and layout, not traced pixel-for-pixel from the book's art.
+          </p>
         </div>
       </div>
 
