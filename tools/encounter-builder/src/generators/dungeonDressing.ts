@@ -1,5 +1,5 @@
-import { rollDie, lookup, pick } from "@shared/index";
-import { DRESSING_TABLES, ROOM_NAME_COLUMNS, type DressingCategory } from "../data/dungeonDressing";
+import { rollDie, lookup } from "@shared/index";
+import { DRESSING_TABLES, type DressingCategory } from "../data/dungeonDressing";
 
 export interface DressingRoll {
   category: DressingCategory;
@@ -19,23 +19,4 @@ export const SCENE_CATEGORIES: DressingCategory[] = ["Air Currents", "Odours", "
 
 export function rollScene(): DressingRoll[] {
   return SCENE_CATEGORIES.map(rollDressing);
-}
-
-function joinRoomNameParts(parts: string[]): string {
-  let result = "";
-  for (const part of parts) {
-    if (result.endsWith("-")) {
-      result += part;
-    } else if (result) {
-      result += ` ${part}`;
-    } else {
-      result = part;
-    }
-  }
-  return result;
-}
-
-export function rollRoomName(): string {
-  const parts = ROOM_NAME_COLUMNS.map((column) => pick(column));
-  return joinRoomNameParts(parts);
 }

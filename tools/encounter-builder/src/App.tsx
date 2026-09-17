@@ -6,19 +6,12 @@ import { LOCATION_TYPES, categoryFor, dungeonDataKeyFor, type LocationType, type
 import { SCENARIOS, type Scenario } from "./data/scenarios";
 import { rollScenario } from "./generators/scenarios";
 import { GeneratePanel } from "./components/GeneratePanel";
-import { StockingRoomPanel } from "./components/StockingRoomPanel";
-import { DressingPanel } from "./components/DressingPanel";
-import { TrapsPanel } from "./components/TrapsPanel";
-
-const TABS = ["Generate", "Stock a Room", "Dressing", "Traps"] as const;
-type Tab = (typeof TABS)[number];
 
 function App() {
   const [partyLevel, setPartyLevel] = useState(1);
   const [locationType, setLocationType] = useState<LocationType>(LOCATION_TYPES[0]);
   const [terrain, setTerrain] = useState(TERRAIN_NAMES[0]);
   const [scenario, setScenario] = useState<Scenario>(SCENARIOS[0]);
-  const [tab, setTab] = useState<Tab>("Generate");
 
   const category = categoryFor(locationType);
   const locationInput: LocationInput = {
@@ -78,18 +71,7 @@ function App() {
         <p className="note scenario-description">{scenario.description}</p>
       </div>
 
-      <div className="tabs">
-        {TABS.map((t) => (
-          <button key={t} className={tab === t ? "active" : ""} onClick={() => setTab(t)}>
-            {t}
-          </button>
-        ))}
-      </div>
-
-      {tab === "Generate" && <GeneratePanel partyLevel={partyLevel} locationInput={locationInput} scenario={scenario} />}
-      {tab === "Stock a Room" && <StockingRoomPanel partyLevel={partyLevel} locationInput={locationInput} />}
-      {tab === "Dressing" && <DressingPanel />}
-      {tab === "Traps" && <TrapsPanel />}
+      <GeneratePanel partyLevel={partyLevel} locationInput={locationInput} scenario={scenario} />
     </>
   );
 }

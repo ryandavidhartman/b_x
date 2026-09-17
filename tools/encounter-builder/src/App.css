@@ -46,11 +46,6 @@
   color: var(--ink);
 }
 
-.placeholder {
-  color: var(--muted);
-  font-style: italic;
-}
-
 .field-grow {
   flex: 1 1 260px;
 }
@@ -70,33 +65,6 @@
   font-style: italic;
 }
 
-.tabs,
-.sub-tabs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.sub-tabs {
-  margin-bottom: 0.75rem;
-}
-
-.tabs button,
-.sub-tabs button {
-  background: transparent;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 0.4rem 0.9rem;
-  color: var(--muted);
-}
-
-.tabs button.active,
-.sub-tabs button.active {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: var(--parchment);
-}
 
 .panel > button,
 .panel .field-row > button {
@@ -141,14 +109,6 @@
   cursor: not-allowed;
 }
 
-.checkbox-field {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-size: 0.85rem;
-  color: var(--muted);
-}
-
 .note {
   font-size: 0.85rem;
   color: var(--muted);
@@ -166,32 +126,6 @@
   max-width: 22rem;
 }
 
-.severity-note {
-  margin-bottom: 0;
-}
-
-.log {
-  display: flex;
-  flex-direction: column;
-  gap: 0.85rem;
-}
-
-.result-card {
-  background: #fffdf8;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 0.85rem 1.1rem;
-  box-shadow: 0 1px 2px rgba(43, 29, 18, 0.08);
-  margin-top: 0.75rem;
-}
-
-.result-title {
-  font-weight: bold;
-  color: var(--accent-dark);
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 0.35rem;
-  margin-bottom: 0.4rem;
-}
 
 .monster-summary,
 .treasure-summary {
