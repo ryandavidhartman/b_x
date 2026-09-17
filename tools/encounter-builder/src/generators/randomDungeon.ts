@@ -11,13 +11,17 @@ import {
   rollDie,
   lookup,
   rollDungeonEncounter,
+  rollWildernessEncounter,
+  rollUrbanMonsterEncounter,
   rollTreasureForType,
   rollUnguardedTreasure,
-  type DungeonEncounterResult,
   type HoardResult,
 } from "@shared/index";
-import { rollTrap, rollHazard, rollTrick } from "./traps";
-import { partyLevelToDungeonLevel } from "../lib/locationInput";
+import { rollTrap, rollHazard, rollTrick, pickSeverityForPartyLevel } from "./traps";
+import type { Severity } from "../data/traps";
+import { rollScene, type DressingRoll } from "./dungeonDressing";
+import type { StockingEncounter } from "./stockingRoom";
+import { partyLevelToDungeonLevel, type LocationCategory } from "../lib/locationInput";
 import {
   ROOM_SIZE,
   CHAMBER_SIZE,
@@ -82,15 +86,25 @@ export interface DungeonNode {
   areaNumber?: number;
   notes: string[];
   contents?: RoomContentsResult;
-  encounter?: DungeonEncounterResult | null;
-  wanderingMonsters?: DungeonEncounterResult[];
+  encounter?: StockingEncounter | null;
+  wanderingMonsters?: StockingEncounter[];
   treasure?: HoardResult | null;
   container?: string;
   guard?: string | null;
   hidden?: string | null;
   trap?: string;
+  trapSeverity?: Severity;
   hazard?: string;
   trick?: string;
+  /** Rolled only for a Table 8 "Empty" result — see rollRoomOrChamberContents. */
+  dressing?: DressingRoll[];
+  /** Set for room/chamber/cave nodes — the rolled footprint in feet, for narration (avoids
+   * re-parsing them back out of `label`). */
+  widthFt?: number;
+  lengthFt?: number;
+  /** The book's own shape word for this area ("Room", "Chamber", "Trapezoidal", "Cave 40 x 60
+   * ft", ...) — also for narration, same reasoning as widthFt/lengthFt. */
+  shapeLabel?: string;
 }
 
 const HEADING_VECTORS: Record<Heading, { dx: number; dy: number }> = {
@@ -176,7 +190,11 @@ function farCellOf(cells: GridPoint[]): GridPoint {
 const AREA_KINDS: ReadonlySet<NodeKind> = new Set(["room", "chamber", "cave", "cavern", "stairs"]);
 
 export interface GenState {
-  subtype: string;
+  category: LocationCategory;
+  /** Set for category "dungeon" — one of Appendix D's six Dungeon subtypes. */
+  dungeonSubtype?: string;
+  /** Set for category "wilderness" — one of Appendix D's terrain names. */
+  terrain?: string;
   partyLevel: number;
   occupied: Set<string>;
   nodes: DungeonNode[];
@@ -187,6 +205,29 @@ export interface GenState {
   /** Safety ceiling on total nodes of any kind, so a run that never lands a room can't run away. */
   hardNodeCap: number;
   areaCount: number;
+}
+
+/** Dispatches Table 8/Table 17's Monster rolls to whichever Appendix D table actually fits this
+ * generation run's location type — the room-by-room procedure itself doesn't change per the
+ * Random Dungeon Generation intro's broadened scope, only which table supplies the monster.
+ * Exported standalone (not just as an internal `GenState` helper) so the UI's "Random
+ * Encounters" reference table can sample the same location's monster pool independently of an
+ * active generation run. */
+export function rollAreaEncounterFor(category: LocationCategory, dungeonSubtype: string | undefined, terrain: string | undefined, partyLevel: number): StockingEncounter {
+  switch (category) {
+    case "dungeon":
+      return rollDungeonEncounter(dungeonSubtype!, partyLevel);
+    case "wilderness":
+      return rollWildernessEncounter(terrain!, partyLevel);
+    case "urban":
+      return rollUrbanMonsterEncounter("Urban", partyLevel);
+    case "castle":
+      return rollUrbanMonsterEncounter("Castle", partyLevel);
+  }
+}
+
+function rollAreaEncounter(state: GenState): StockingEncounter {
+  return rollAreaEncounterFor(state.category, state.dungeonSubtype, state.terrain, state.partyLevel);
 }
 
 type PendingWork =
@@ -294,7 +335,7 @@ function rollRoomOrChamberContents(state: GenState, node: DungeonNode) {
   node.notes.push(`Table 8 (d20=${roll}): ${contents}`);
 
   if (contents === "Monster" || contents === "Monster and Treasure") {
-    const encounter = rollDungeonEncounter(state.subtype, state.partyLevel);
+    const encounter = rollAreaEncounter(state);
     node.encounter = encounter;
     node.notes.push(`Monster: ${encounter.resultRaw}`);
     if (contents === "Monster and Treasure" && encounter.monster) {
@@ -316,19 +357,29 @@ function rollRoomOrChamberContents(state: GenState, node: DungeonNode) {
     const stairs = lookup(sRoll, STAIRS);
     node.label += ` — Stairs: ${stairs}`;
     node.notes.push(`Table 12 (d20=${sRoll}): ${stairs}`);
+  } else if (contents === "Empty") {
+    // The book's Dungeon Dressing tables exist for exactly this case ("make a room or corridor
+    // feel lived-in even when it holds no monster or treasure") — Table 8 itself never called
+    // for one automatically, so this is the engine choosing to always take the book up on that
+    // offer rather than leaving an Empty result as a bare label.
+    node.dressing = rollScene();
+    node.notes.push(`Dungeon Dressing (auto-rolled for an Empty result): ${node.dressing.map((d) => `${d.category} — ${d.result}`).join("; ")}`);
   } else if (contents === "Trick or Trap") {
     // The book leaves the trap-vs-trick-vs-hazard choice to the DM ("for a Cave or Cavern, an
     // Environmental Hazard may fit better") — this engine rolls a trap by default and only
     // switches to a hazard for cave/cavern nodes, then always also offers a trick as an
-    // alternative reading in the notes, rather than silently picking one interpretation.
+    // alternative reading in the notes, rather than silently picking one interpretation. Severity
+    // follows the new Trap Placement table (party level, no treasure guarded here per Table 8).
+    const severity = pickSeverityForPartyLevel(state.partyLevel, false);
+    node.trapSeverity = severity;
     if (node.kind === "cave" || node.kind === "cavern") {
       const hazard = rollHazard();
       node.hazard = hazard.map((h) => `${h.column} (d12=${h.roll}): ${h.effect}`).join("; ");
-      node.notes.push(`Environmental Hazard (natural location, per the book's own note): ${node.hazard}`);
+      node.notes.push(`Environmental Hazard (natural location, per the book's own note): ${node.hazard}`, `Severity: ${severity} (Trap Placement table, party level ${state.partyLevel})`);
     } else {
       const trap = rollTrap();
       node.trap = `${trap.type} (d%=${trap.roll})`;
-      node.notes.push(`Random Trap Generation: ${node.trap} — severity is the DM's own call, per the book.`);
+      node.notes.push(`Random Trap Generation: ${node.trap}`, `Severity: ${severity} (Trap Placement table, party level ${state.partyLevel})`);
     }
     const trick = rollTrick();
     node.trick = `${trick.object}, ${trick.attribute}`;
@@ -398,7 +449,7 @@ function generateRoomOrChamber(
   // roll in a Cave/Cavern Network location uses Table 13 instead (engine judgment call, but the
   // one that actually makes the Cave/Cavern Network subtype behave differently, per this app's
   // two-input-fidelity rule).
-  if (state.subtype === "Cave / Cavern Network") {
+  if (state.category === "dungeon" && state.dungeonSubtype === "Cave / Cavern Network") {
     const notes: string[] = [];
     const cave = rollCaveOrCavern();
     notes.push(`Table 13 (Caves): ${cave.label}`);
@@ -481,6 +532,9 @@ function commitRoom(
   }
   const node = makeNode(state, parentId, nodeKind, heading, anchor, cells, `${labelPrefix} (${shapeLabel}, ${width} x ${length} ft)`, connectionToParent);
   node.notes = notes;
+  node.widthFt = width;
+  node.lengthFt = length;
+  node.shapeLabel = shapeLabel;
   rollRoomOrChamberContents(state, node);
   if (node.contents !== "Stairs") {
     queueRoomExits(state, node, width * length, kind);
@@ -532,10 +586,10 @@ function processContinue(state: GenState, atNodeId: string) {
 
   let roll = rollDie(20);
   let result = lookup(roll, GENERAL);
-  const wandering: DungeonEncounterResult[] = [];
+  const wandering: StockingEncounter[] = [];
   let guard = 0;
   while (result === "Wandering Monster" && guard < 5) {
-    const encounter = rollDungeonEncounter(state.subtype, state.partyLevel);
+    const encounter = rollAreaEncounter(state);
     wandering.push(encounter);
     atNode.notes.push(`Table 17 (d20=${roll}): Wandering Monster — ${encounter.resultRaw} (rerolling per the book's own instruction, to place it)`);
     roll = rollDie(20);
@@ -861,6 +915,9 @@ function seedStartingArea(state: GenState, areaNum: number, origin: GridPoint): 
     if (!tryPlace(state, [chamberAnchor])) return; // shouldn't happen for a fresh area, but stay safe
     const node = makeNode(state, parentId, chamberSpec.kind, 0, chamberAnchor, [chamberAnchor], `Starting Area ${spec.name} — ${chamberSpec.label}`, "open");
     node.notes.push("Approximated from the book's own pre-drawn Starting Area art (Table 1) — same rough door count and any special feature, not a pixel-exact trace of the hand-drawn layout.");
+    node.widthFt = 10;
+    node.lengthFt = 10;
+    node.shapeLabel = chamberSpec.label;
     rollRoomOrChamberContents(state, node);
     if (chamberSpec.featureNote) node.notes.push(chamberSpec.featureNote);
     if (chamberSpec.ladderFeature) {
@@ -903,16 +960,24 @@ function seedStartingArea(state: GenState, areaNum: number, origin: GridPoint): 
 
 // --- Top-level entry points ---------------------------------------------------------------------
 export interface GenerateOptions {
-  subtype: string;
+  category: LocationCategory;
+  /** Required for category "dungeon". */
+  dungeonSubtype?: string;
+  /** Required for category "wilderness". */
+  terrain?: string;
   partyLevel: number;
   maxNodes?: number;
+  /** The six pre-drawn Starting Areas are dungeon architecture (Table 1) — only meaningful for
+   * category "dungeon"; ignored otherwise. */
   startArea?: number | "empty";
 }
 
 export function createInitialState(opts: GenerateOptions): GenState {
   const maxNodes = opts.maxNodes ?? 20;
   const state: GenState = {
-    subtype: opts.subtype,
+    category: opts.category,
+    dungeonSubtype: opts.dungeonSubtype,
+    terrain: opts.terrain,
     partyLevel: opts.partyLevel,
     occupied: new Set(),
     nodes: [],
@@ -924,7 +989,7 @@ export function createInitialState(opts: GenerateOptions): GenState {
   };
   const anchor: GridPoint = { x: 0, y: 0 };
 
-  if (opts.startArea !== "empty" && opts.startArea !== undefined) {
+  if (opts.category === "dungeon" && opts.startArea !== "empty" && opts.startArea !== undefined) {
     seedStartingArea(state, opts.startArea, anchor);
   } else {
     state.occupied.add(cellKey(anchor));

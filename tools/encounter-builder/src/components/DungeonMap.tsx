@@ -17,6 +17,7 @@
 //    center of that wall — see `rectCells` in the generator).
 import type { ReactNode } from "react";
 import type { DungeonNode, NodeKind, Heading } from "../generators/randomDungeon";
+import type { LocationCategory } from "../lib/locationInput";
 
 const CELL_PX = 18;
 const PAD_CELLS = 2;
@@ -56,12 +57,18 @@ const FLOOR_TINT: Record<NodeKind, string> = {
   oneWayDoor: "#e3d8bd",
 };
 
-const FLOOR_LEGEND: { kind: NodeKind; label: string }[] = [
-  { kind: "room", label: "Room / Chamber" },
-  { kind: "corridor", label: "Corridor" },
-  { kind: "cave", label: "Cave / Cavern" },
-  { kind: "stairs", label: "Stairs (floor)" },
-];
+// Same map, same mechanics, for every location category (per the broadened Random Dungeon
+// Generation scope) — only a Wilderness site reads its terms differently (a clearing joined by
+// trails, not a room off a corridor).
+function floorLegend(category: LocationCategory): { kind: NodeKind; label: string }[] {
+  const wild = category === "wilderness";
+  return [
+    { kind: "room", label: wild ? "Clearing / Camp Feature" : "Room / Chamber" },
+    { kind: "corridor", label: wild ? "Trail" : "Corridor" },
+    { kind: "cave", label: "Cave / Cavern" },
+    { kind: "stairs", label: wild ? "Elevation Change (floor)" : "Stairs (floor)" },
+  ];
+}
 
 /** Key number for a room/chamber/cave/stairs node, centered on its cells — cross-references the
  * room-by-room log the same way a published dungeon key's numbered map does. */
@@ -257,12 +264,41 @@ function symbolForNode(node: DungeonNode): { kind: "trap" | "pit"; covered?: boo
   return null;
 }
 
-export function DungeonMap({ nodes, selectedId, onSelect }: { nodes: DungeonNode[]; selectedId: string | null; onSelect: (id: string) => void }) {
+/** Book-module convention (see the reference Shadowdark maps): a single bold letter dropped at a
+ * monster's actual cell, distinct from the area number, with a legend line spelling out which
+ * monster each letter means on *this* map. Letters are assigned per map, not fixed per monster
+ * type, since which monsters actually appear varies every generation. */
+function assignMonsterLetters(nodes: DungeonNode[]): Map<string, string> {
+  const letters = "ABDEFGHIJKLMNPQRSTUVWXYZ"; // skip C ("Covered Pit" cue elsewhere) and O (reads like a digit at this scale).
+  const assigned = new Map<string, string>();
+  let next = 0;
+  for (const node of nodes) {
+    const name = node.encounter?.monster?.headingName;
+    if (!name || assigned.has(name)) continue;
+    assigned.set(name, letters[next % letters.length]);
+    next++;
+  }
+  return assigned;
+}
+
+function MonsterLetterToken({ x, y, letter }: { x: number; y: number; letter: string }) {
+  return (
+    <g>
+      <rect x={x - 8} y={y - 8} width={16} height={16} fill="#fdf8ee" stroke={INK} strokeWidth={1} />
+      <text x={x} y={y} textAnchor="middle" dominantBaseline="central" fontSize={12} fontWeight={700} fill={INK}>
+        {letter}
+      </text>
+    </g>
+  );
+}
+
+export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: DungeonNode[]; selectedId: string | null; onSelect: (id: string) => void; category: LocationCategory }) {
   if (nodes.length === 0) {
     return <p className="note">No dungeon generated yet.</p>;
   }
 
   const nodesById = new Map(nodes.map((n) => [n.id, n]));
+  const monsterLetters = assignMonsterLetters(nodes);
   const cellOwner = new Map<string, DungeonNode>();
   for (const node of nodes) {
     for (const c of node.cells) cellOwner.set(cellKey(c.x, c.y), node);
@@ -333,9 +369,17 @@ export function DungeonMap({ nodes, selectedId, onSelect }: { nodes: DungeonNode
       const stairsInRoom = node.contents === "Stairs";
       const numberY = symbol || stairsInRoom ? cy - CELL_PX * 0.45 : cy;
       const glyphY = cy + CELL_PX * 0.45;
+      // A monster token sits at a different cell than the area number, matching the reference
+      // maps (number and monster letter are both visible within a room, not overlapping) — only
+      // possible when the room spans more than one cell, so a single-cell room skips the token
+      // and relies on the key text instead.
+      const monsterName = node.encounter?.monster?.headingName;
+      const letter = monsterName ? monsterLetters.get(monsterName) : undefined;
+      const tokenCell = node.cells.length > 1 ? node.cells[0] : null;
       return (
         <g key={`${node.id}-overlay`}>
           {node.areaNumber !== undefined && <AreaNumber x={cx} y={numberY} n={node.areaNumber} />}
+          {letter && tokenCell && <MonsterLetterToken x={px(tokenCell.x) + CELL_PX / 2} y={py(tokenCell.y) + CELL_PX / 2} letter={letter} />}
           {stairsInRoom && <StairsGlyph x={cx} y={glyphY} heading={node.heading} natural={node.kind === "cave" || node.kind === "cavern"} letter={stairDirectionLetter(node.label)} />}
           {symbol?.kind === "trap" && <TrapGlyph x={cx} y={glyphY} />}
           {symbol?.kind === "pit" && <PitGlyph x={cx} y={glyphY} covered={!!symbol.covered} />}
@@ -417,7 +461,7 @@ export function DungeonMap({ nodes, selectedId, onSelect }: { nodes: DungeonNode
         {highlight}
       </svg>
       <div className="dungeon-map-legend">
-        {FLOOR_LEGEND.map(({ kind, label }) => (
+        {floorLegend(category).map(({ kind, label }) => (
           <span key={kind} className="legend-item">
             <span className="legend-swatch" style={{ background: FLOOR_TINT[kind] }} />
             {label}
@@ -492,6 +536,16 @@ export function DungeonMap({ nodes, selectedId, onSelect }: { nodes: DungeonNode
           Ladder
         </span>
       </div>
+      {monsterLetters.size > 0 && (
+        <div className="dungeon-map-legend">
+          {[...monsterLetters.entries()].map(([name, letter]) => (
+            <span key={name} className="legend-item">
+              <span className="legend-letter">{letter}</span>
+              {name}
+            </span>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

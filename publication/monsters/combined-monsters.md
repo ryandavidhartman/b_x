@@ -9946,7 +9946,16 @@ Traps come in four rough levels of severity:
 
 #### Trap Placement
 
-A trap's severity should suit the party's level and the treasure it guards — a trap for a level 1 party guarding an area infested with ferocious but poverty-stricken monsters should be a nuisance, while a trap for a level 16 party protecting a dragon's hoard while the dragon is out hunting should be fatal.
+A trap's severity should suit the party's level and the treasure it guards — a trap for a level 1 party guarding an area infested with ferocious but poverty-stricken monsters should be a nuisance, while a trap for a level 16 party protecting a dragon's hoard while the dragon is out hunting should be fatal. As a default to depart from rather than a rule, the table below turns that guidance into concrete brackets, using the same dungeon-level groupings Appendix B's Unguarded Treasures table already uses:
+
+| Dungeon Level | Guarding no real treasure | Guarding real treasure |
+|---|---|---|
+| 1 | Nuisance | Hazardous |
+| 2 | Nuisance | Hazardous |
+| 3 | Hazardous | Dangerous |
+| 4-5 | Hazardous | Dangerous |
+| 6-7 | Dangerous | Fatal |
+| 8+ | Fatal | Fatal |
 
 Intelligent creatures that live near a trap will maintain it and know how to avoid or disarm it, and may work to make it effective again if the party learns to bypass it. DMs vary widely in how heavily they lean on traps: some place many, several capable of instant death with no save; others use fewer and always allow one. Players adapt to whichever style prevails — cautious, methodical play against a trap-heavy dungeon, or faster and more heroic play against a lighter touch. Decide which style suits your table and design traps accordingly.
 
@@ -10112,7 +10121,7 @@ Gina rolls a second trick for a different room: 25 then 31, yielding fireplace, 
 
 This is the primary method for building a stocked location's floor plan from scratch (step C of *Building a Stocked Location*, above) — roll the whole thing before a session, or improvise it live when a session takes an unexpected turn. It's equally useful to spur ideas when the DM's own artistic ambitions fail, for generating add-on levels to an existing megadungeon, or for solo play. For these tables, a **room** has exits closed by a door or other portal, while a **chamber** has open exits such as archways.
 
-Like every other Appendix D-driven step in this appendix, this procedure runs on the same two inputs — decide the location subtype this level represents (Standard Dungeon, Cave/Cavern Network, Tomb/Crypt, Evil Temple/Shrine, Sewer, or Ruins — Appendix D: Random Encounters' own six Dungeon subtypes) and the party's level, before rolling anything. Both apply to every Monster and Treasure result the tables below produce; switch the subtype only for a room that's clearly become something else along the way (a natural cave generated via Table 13: Caves, for instance, reads as Cave/Cavern Network for that room alone).
+Like every other Appendix D-driven step in this appendix, this procedure runs on the same two inputs the whole chapter is built around — decide the location type and the party's level before rolling anything. A dungeon interior names which of Appendix D's six Dungeon subtypes fits (Standard Dungeon, Cave/Cavern Network, Tomb/Crypt, Evil Temple/Shrine, Sewer, or Ruins); switch the subtype only for a room that's clearly become something else along the way (a natural cave generated via Table 13: Caves, for instance, reads as Cave/Cavern Network for that room alone). But nothing about the room-by-room procedure below is actually dungeon-specific — a bandit hideout or a wizard's tower is still just rooms and corridors, and a lair out in the open is still a cluster of notable spots joined by paths — so the same tables build any of Appendix C/D's other location types too, just drawing Monster results from that type's own table instead: Wilderness (its own terrain table), Urban, or Castle. For a Wilderness site, read "room" and "chamber" as a clearing or camp feature and "corridor" as the trail connecting them — the mechanics (size, exits, contents) don't change, only what the DM calls them at the table. Whichever location type is in play, it and the party's level apply to every Monster and Treasure result the tables below produce.
 
 **How to create a random dungeon:**
 

@@ -3,20 +3,22 @@ import "./App.css";
 import { LevelPicker } from "@shared/components/LevelPicker";
 import { TERRAIN_NAMES } from "@shared/index";
 import { LOCATION_TYPES, categoryFor, dungeonDataKeyFor, type LocationType, type LocationInput } from "./lib/locationInput";
-import { ScenarioPanel } from "./components/ScenarioPanel";
+import { SCENARIOS, type Scenario } from "./data/scenarios";
+import { rollScenario } from "./generators/scenarios";
+import { GeneratePanel } from "./components/GeneratePanel";
 import { StockingRoomPanel } from "./components/StockingRoomPanel";
 import { DressingPanel } from "./components/DressingPanel";
 import { TrapsPanel } from "./components/TrapsPanel";
-import { RandomDungeonPanel } from "./components/RandomDungeonPanel";
 
-const TABS = ["Scenario", "Stock a Room", "Dressing", "Traps", "Random Dungeon"] as const;
+const TABS = ["Generate", "Stock a Room", "Dressing", "Traps"] as const;
 type Tab = (typeof TABS)[number];
 
 function App() {
   const [partyLevel, setPartyLevel] = useState(1);
   const [locationType, setLocationType] = useState<LocationType>(LOCATION_TYPES[0]);
   const [terrain, setTerrain] = useState(TERRAIN_NAMES[0]);
-  const [tab, setTab] = useState<Tab>("Scenario");
+  const [scenario, setScenario] = useState<Scenario>(SCENARIOS[0]);
+  const [tab, setTab] = useState<Tab>("Generate");
 
   const category = categoryFor(locationType);
   const locationInput: LocationInput = {
@@ -57,7 +59,23 @@ function App() {
               </select>
             </div>
           )}
+          <div className="field field-grow">
+            <label htmlFor="scenario">Scenario</label>
+            <div className="field-row-inline">
+              <select id="scenario" value={scenario.name} onChange={(e) => setScenario(SCENARIOS.find((s) => s.name === e.target.value)!)}>
+                {SCENARIOS.map((s) => (
+                  <option key={s.d10} value={s.name}>
+                    {s.d10}. {s.name}
+                  </option>
+                ))}
+              </select>
+              <button type="button" onClick={() => setScenario(rollScenario())}>
+                Roll d10
+              </button>
+            </div>
+          </div>
         </div>
+        <p className="note scenario-description">{scenario.description}</p>
       </div>
 
       <div className="tabs">
@@ -68,11 +86,10 @@ function App() {
         ))}
       </div>
 
-      {tab === "Scenario" && <ScenarioPanel />}
+      {tab === "Generate" && <GeneratePanel partyLevel={partyLevel} locationInput={locationInput} scenario={scenario} />}
       {tab === "Stock a Room" && <StockingRoomPanel partyLevel={partyLevel} locationInput={locationInput} />}
       {tab === "Dressing" && <DressingPanel />}
       {tab === "Traps" && <TrapsPanel />}
-      {tab === "Random Dungeon" && <RandomDungeonPanel partyLevel={partyLevel} locationInput={locationInput} />}
     </>
   );
 }

@@ -6,7 +6,19 @@ import {
   TRICK_ATTRIBUTE_TABLE,
   HAZARD_COLUMNS,
   type HazardColumn,
+  type Severity,
 } from "../data/traps";
+
+/** Appendix E's Trap Placement table: a default severity by dungeon level and whether the trap
+ * guards real treasure, formalizing the book's own qualitative guidance ("a trap for a level 1
+ * party ... should be a nuisance ... a level 16 party protecting a dragon's hoard ... should be
+ * fatal") into brackets a DM can override. */
+export function pickSeverityForPartyLevel(partyLevel: number, hasTreasure: boolean): Severity {
+  const bracket = partyLevel <= 2 ? 0 : partyLevel <= 5 ? 1 : partyLevel <= 7 ? 2 : 3;
+  const noTreasure: Severity[] = ["Nuisance", "Hazardous", "Dangerous", "Fatal"];
+  const withTreasure: Severity[] = ["Hazardous", "Dangerous", "Fatal", "Fatal"];
+  return hasTreasure ? withTreasure[bracket] : noTreasure[bracket];
+}
 
 export interface TrapRoll {
   roll: number;
