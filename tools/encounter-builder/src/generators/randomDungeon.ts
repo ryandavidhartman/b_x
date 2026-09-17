@@ -129,6 +129,51 @@ function cellKey(p: GridPoint): string {
   return `${p.x},${p.y}`;
 }
 
+// A diagonal heading's own HEADING_VECTORS entry (e.g. 45 = { dx:1, dy:-1 }) is a single step that
+// only touches its own neighbor cell at a corner on this square grid, never a shared edge — so any
+// cell placed by literally walking that vector, or by combining it with a second diagonal vector
+// for a room's width axis, produces geometry the wall-extraction step (DungeonMap.tsx, edge-vs-
+// unoccupied-neighbor) can never draw as open passage: a corridor of lone corner-touching cells,
+// or (for a 2D room fill) a checkerboard of disconnected cells with a hole at every other position.
+// Two different fixes follow from that, one per shape kind:
+//   - A corridor is 1-cell wide, so it only needs to stay edge-connected along its own length —
+//     `headingStepSequence` below decomposes a diagonal heading into its two cardinal components
+//     (45 = North+East, etc.) and alternates single cardinal steps between them, giving a proper
+//     staircase that's fully wall-connected cell-to-cell while still trending diagonally overall —
+//     the same "jog" look a hand-drawn 45-degree corridor reads as on a square grid.
+//   - A room/chamber/cave is a solid 2D area; there's no staircase equivalent for a whole filled
+//     rectangle (see `snapToCardinal`, used by `commitRoom`) — it's snapped to an axis-aligned
+//     footprint instead, since a rotated one needs real per-edge vector walls this engine's square-
+//     cell map doesn't have (the bigger "room geometry" project, not attempted here).
+const DIAGONAL_COMPONENTS: Partial<Record<Heading, [Heading, Heading]>> = {
+  45: [0, 90],
+  135: [90, 180],
+  225: [180, 270],
+  315: [270, 0],
+};
+
+function headingStepSequence(heading: Heading, count: number): { dx: number; dy: number }[] {
+  const diag = DIAGONAL_COMPONENTS[heading];
+  if (!diag) return Array.from({ length: count }, () => HEADING_VECTORS[heading]);
+  return Array.from({ length: count }, (_, i) => HEADING_VECTORS[diag[i % 2]]);
+}
+
+/** Exported for DungeonMap.tsx's own boundary/marker positioning — any position that's one step
+ * out from an already-placed cell (a door glyph, a zero-cell stub's marker) needs this instead of
+ * a raw HEADING_VECTORS lookup, matching `headingStepSequence`'s first element, so that marker
+ * always lands on the real shared wall instead of floating off at the un-walkable raw diagonal
+ * offset. Kept as one shared function (unlike DungeonMap.tsx's own plain-values copy of
+ * HEADING_VECTORS) since a second, independently-maintained copy of this decomposition logic could
+ * silently drift out of sync with `headingStepSequence`/`snapToCardinal` above. */
+export function firstStepVector(heading: Heading): { dx: number; dy: number } {
+  const diag = DIAGONAL_COMPONENTS[heading];
+  return HEADING_VECTORS[diag ? diag[0] : heading];
+}
+
+function snapToCardinal(heading: Heading): Heading {
+  return DIAGONAL_COMPONENTS[heading]?.[0] ?? heading;
+}
+
 // Table 6's four "Exit Location" results are read relative to the wall the party came in
 // through (the book is hand-drawn on paper, so a DM just eyeballs this). "Same Wall" isn't
 // explained further in the text — treated here as a passage doubling back alongside the
@@ -171,9 +216,12 @@ function rectCells(anchor: GridPoint, heading: Heading, widthFt: number, lengthF
 }
 
 function lineCells(anchor: GridPoint, heading: Heading, steps: number): GridPoint[] {
-  const fv = HEADING_VECTORS[heading];
   const cells: GridPoint[] = [];
-  for (let i = 1; i <= steps; i++) cells.push({ x: anchor.x + fv.dx * i, y: anchor.y + fv.dy * i });
+  let cur = anchor;
+  for (const v of headingStepSequence(heading, steps)) {
+    cur = { x: cur.x + v.dx, y: cur.y + v.dy };
+    cells.push(cur);
+  }
   return cells;
 }
 
@@ -206,10 +254,6 @@ export interface GenState {
   /** Safety ceiling on total nodes of any kind, so a run that never lands a room can't run away. */
   hardNodeCap: number;
   areaCount: number;
-  /** How many fresh, separate seed points have been started (see injectExtraExit) when the main
-   * layout died out with nothing yet to extend from — offsets each one far enough away to never
-   * collide with the rest of the map. */
-  freshSeeds: number;
 }
 
 /** Dispatches Table 8/Table 17's Monster rolls to whichever Appendix D table actually fits this
@@ -525,17 +569,27 @@ function commitRoom(
   nodeKind: NodeKind = kind,
   labelPrefix: string = kind === "room" ? "Room" : "Chamber",
 ): DungeonNode | null {
-  const cells = rectCells(anchor, heading, width, length);
+  // A room/chamber/cave is a solid 2D fill, not a 1-cell-wide line — see the comment above
+  // `DIAGONAL_COMPONENTS` for why a diagonal heading can't drive that fill directly (it produces a
+  // checkerboard of disconnected cells). Snapped to the nearest cardinal for the room's own walls;
+  // the approach corridor keeps whatever heading (including a staircased diagonal) got it here.
+  const roomHeading = snapToCardinal(heading);
+  if (roomHeading !== heading) {
+    notes.push(
+      `Approached from a diagonal heading (${heading}°) — room/chamber/cave footprints are always mapped axis-aligned on this engine's square-cell grid (engine judgment call), snapped to ${roomHeading}° for its own walls.`,
+    );
+  }
+  const cells = rectCells(anchor, roomHeading, width, length);
   if (!tryPlace(state, cells)) {
     // No book rule covers a fresh room/chamber placement colliding — treat as reaching a
     // boundary already mapped from another direction and stub out a dead end (engine fallback).
     // Dead ends draw as a plain wall regardless of connectionToParent, so this stub is always
     // "open" rather than carrying over whatever door/passage type was attempted.
-    const stub = makeNode(state, parentId, "deadEnd", heading, anchor, [], `${shapeLabel} (couldn't be placed — ran into mapped space)`, "open");
+    const stub = makeNode(state, parentId, "deadEnd", roomHeading, anchor, [], `${shapeLabel} (couldn't be placed — ran into mapped space)`, "open");
     stub.notes = [...notes, "Engine judgment call: collision on placement, stubbed as a dead end rather than overlapping another area."];
     return stub;
   }
-  const node = makeNode(state, parentId, nodeKind, heading, anchor, cells, `${labelPrefix} (${shapeLabel}, ${width} x ${length} ft)`, connectionToParent);
+  const node = makeNode(state, parentId, nodeKind, roomHeading, anchor, cells, `${labelPrefix} (${shapeLabel}, ${width} x ${length} ft)`, connectionToParent);
   node.notes = notes;
   node.widthFt = width;
   node.lengthFt = length;
@@ -994,7 +1048,6 @@ export function createInitialState(opts: GenerateOptions): GenState {
     // corridor/injection attempts per real room than a run that was free to stop early.
     hardNodeCap: Math.max(400, maxNodes * 60),
     areaCount: 0,
-    freshSeeds: 0,
   };
   const anchor: GridPoint = { x: 0, y: 0 };
 
@@ -1020,53 +1073,19 @@ function atCap(state: GenState): boolean {
  * Table 6 exit, same as any other exit from here on (Table 19, collision handling, etc., all
  * apply normally). Not a book rule — the book's procedure has no "keep going" step — but the
  * alternative (silently generating fewer rooms than asked for) is worse than this admitted
- * invention, and every injected exit says so in the affected node's notes. */
-/** Handles the rarer case injectExtraExit's caller can hit: nothing has become a real room yet at
- * all (the very first branch dead-ended before Table 17 ever rolled a Chamber, or every door led
- * straight back to a terminal secret/one-way door) — there's nothing to hang an extra exit off
- * of. Starts a fresh, disconnected seed point far enough away to never collide with whatever's
- * already mapped, the same way a published map sometimes shows an unconnected sub-area reached by
- * its own separate passage rather than literally drawing every level as one contiguous blob. */
-function spawnFreshSeed(state: GenState): void {
-  state.freshSeeds++;
-  // Just past the map's current rightmost edge, not some arbitrarily distant point — far enough
-  // that nothing already placed can occupy it (no existing cell can share this x), close enough
-  // that the map's own bounding box (and so DungeonMap.tsx's rendered scale) grows in proportion
-  // to the dungeon instead of the whole map shrinking to a speck next to a huge empty gap.
-  let maxX = 0;
-  for (const key of state.occupied) {
-    const x = Number(key.slice(0, key.indexOf(",")));
-    if (x > maxX) maxX = x;
-  }
-  const anchor: GridPoint = { x: maxX + 15, y: 0 };
-  state.occupied.add(cellKey(anchor));
-  const start = makeNode(state, null, "corridor", 0, anchor, [anchor], `Starting Point (empty area, part ${state.freshSeeds + 1})`);
-  start.notes.push(
-    "Number of Rooms target not yet reached, and no existing area could take another exit (nothing had become a real room yet) — starting a fresh, separate part of the map here (engine judgment call, not a book rule).",
-  );
-  state.work.push({ kind: "continue", atNodeId: start.id });
-}
-
-/** "Number of Rooms" is a guarantee, not a ceiling — when the work queue runs dry (every branch
- * hit a dead end, a terminal secret/one-way door, or a stairway) before reaching the target, the
- * DM's own real-world move is to add one more passage off a room that's already mapped rather
- * than stop short. This does exactly that: picks a random existing room/chamber/cave/cavern (not
- * a Stairs result — the book treats those as this level's own endpoint) and rolls it a fresh
- * Table 6 exit, same as any other exit from here on (Table 19, collision handling, etc., all
- * apply normally). Not a book rule — the book's procedure has no "keep going" step — but the
- * alternative (silently generating fewer rooms than asked for) is worse than this admitted
- * invention, and every injected exit says so in the affected node's notes. */
+ * invention, and every injected exit says so in the affected node's notes.
+ *
+ * Every area this produces stays reachable on foot from the entrance — a multi-floor connection is
+ * a Stairs result, not a same-level jump, so there's no legitimate reason for two parts of one
+ * level to be physically unconnected. An earlier version of this function could, ~25% of the time,
+ * give up on extending the map and start a second, wholly disconnected part instead (reasoning
+ * that dense maps run out of collision-free room to extend into) — that produced literal islands a
+ * party could never walk to, with no in-app indication they were meant to be separate. Removed:
+ * if nothing has become a real room/chamber/cave/cavern yet, this now extends from whatever
+ * corridor already exists (there's always at least one — the entrance itself) instead. */
 function injectExtraExit(state: GenState): void {
-  const candidates = state.nodes.filter((n) => (n.kind === "room" || n.kind === "chamber" || n.kind === "cave" || n.kind === "cavern") && n.contents !== "Stairs");
-  // A map with large footprints (Cave/Cavern Network's own Table 13 rooms can run up to 120 sq
-  // ft to a side) fills its grid fast — extending an existing area collides more and more often
-  // as the map gets dense, wasting the safety ceiling on secret/one-way-door terminals instead of
-  // real rooms. Seeding fresh, wide-open space a quarter of the time keeps that from starving out
-  // a large target — not needed for tighter maps, but harmless there either way.
-  if (candidates.length === 0 || rollDie(4) === 1) {
-    spawnFreshSeed(state);
-    return;
-  }
+  const areaCandidates = state.nodes.filter((n) => (n.kind === "room" || n.kind === "chamber" || n.kind === "cave" || n.kind === "cavern") && n.contents !== "Stairs");
+  const candidates = areaCandidates.length > 0 ? areaCandidates : state.nodes.filter((n) => n.cells.length > 0);
   const node = pick(candidates);
   const locRoll = rollDie(20);
   const location = lookup(locRoll, EXIT_LOCATION);

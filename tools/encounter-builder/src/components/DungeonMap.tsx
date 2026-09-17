@@ -12,11 +12,12 @@
 //    break in a wall — so it's rendered separately from wall-extraction, at the boundary between
 //    every node and its parent, keyed off `DungeonNode.connectionToParent` (set by the generator).
 //    Since the generator always anchors a node at its parent's `farCell` and its first cell sits at
-//    `anchor + heading`, that single edge is enough to locate every door glyph, for both corridors
-//    and rooms (a room's own near-wall cell facing its parent is always at `anchor + heading`, the
-//    center of that wall — see `rectCells` in the generator).
-import type { ReactNode } from "react";
-import type { DungeonNode, NodeKind, Heading } from "../generators/randomDungeon";
+//    `anchor + firstStepVector(heading)`, that single edge is enough to locate every door glyph,
+//    for both corridors and rooms (a room's own near-wall cell facing its parent is always at that
+//    same offset, the center of that wall — see `rectCells`/`commitRoom` in the generator). Plain
+//    `HEADING_VECTORS[heading]` would be wrong here for a diagonal heading — see `firstStepVector`.
+import { useEffect, useState, type ReactNode } from "react";
+import { firstStepVector, type DungeonNode, type NodeKind, type Heading } from "../generators/randomDungeon";
 import type { LocationCategory } from "../lib/locationInput";
 
 const CELL_PX = 18;
@@ -41,6 +42,46 @@ function perpVec(h: Heading) {
 }
 function cellKey(x: number, y: number): string {
   return `${x},${y}`;
+}
+
+// --- Hand-drawn texture: deterministic per-segment noise so a wall's stipple/wobble is stable
+// across re-renders (no seeded-RNG library needed for a handful of small integer hashes). ------
+function hashSeed(...parts: number[]): number {
+  let h = 2166136261;
+  for (const p of parts) {
+    h = Math.imul(h ^ Math.round(p * 100), 16777619);
+  }
+  return h >>> 0;
+}
+function mulberry32(seed: number) {
+  let t = seed >>> 0;
+  return function () {
+    t = (t + 0x6d2b79f5) | 0;
+    let r = Math.imul(t ^ (t >>> 15), 1 | t);
+    r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r;
+    return ((r ^ (r >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+/** One published-module wall reads as the edge of hewn rock — since this engine never draws a
+ * wall except where an occupied cell faces unmapped space (see the file-header note on wall
+ * extraction), every wall segment qualifies for the same speckled "rock" halo the reference maps
+ * use, scattered on the outward (unmapped) side of the line. */
+function stippleForWall(x1: number, y1: number, x2: number, y2: number, nx: number, ny: number): { cx: number; cy: number; r: number }[] {
+  const rand = mulberry32(hashSeed(x1, y1, x2, y2));
+  const dots: { cx: number; cy: number; r: number }[] = [];
+  const count = 3 + Math.floor(rand() * 2);
+  for (let i = 0; i < count; i++) {
+    const t = 0.12 + rand() * 0.76;
+    const off = 1.5 + rand() * 4.5;
+    const jitter = (rand() - 0.5) * 2;
+    dots.push({
+      cx: x1 + (x2 - x1) * t + nx * off + ny * jitter,
+      cy: y1 + (y2 - y1) * t + ny * off + nx * jitter,
+      r: 0.5 + rand() * 0.7,
+    });
+  }
+  return dots;
 }
 
 // Light floor tint by node kind — walls now carry the real structural signal, so this just gives
@@ -293,6 +334,25 @@ function MonsterLetterToken({ x, y, letter }: { x: number; y: number; letter: st
 }
 
 export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: DungeonNode[]; selectedId: string | null; onSelect: (id: string) => void; category: LocationCategory }) {
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
+  // Esc closes full screen, and the page behind it shouldn't scroll while it's open — both undone
+  // the moment full screen closes, whichever way that happens (button, Esc, or a re-render that
+  // drops this node's map entirely).
+  useEffect(() => {
+    if (!isFullscreen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setIsFullscreen(false);
+    };
+    document.addEventListener("keydown", onKey);
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      document.body.style.overflow = prevOverflow;
+    };
+  }, [isFullscreen]);
+
   if (nodes.length === 0) {
     return <p className="note">No dungeon generated yet.</p>;
   }
@@ -323,6 +383,8 @@ export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: D
   }
 
   // --- Floor tiles (one <rect> per occupied cell, clickable back to its owning node) -----------
+  // A faint stroke on every tile reads as the reference maps' background graph-paper grid — each
+  // cell here already is one 10 ft square, so no separate grid layer is needed.
   const floorTiles = nodes.flatMap((node) =>
     node.cells.map((c, i) => (
       <rect
@@ -332,6 +394,8 @@ export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: D
         width={CELL_PX}
         height={CELL_PX}
         fill={FLOOR_TINT[node.kind]}
+        stroke="rgba(58,47,34,0.16)"
+        strokeWidth={0.75}
         onClick={() => onSelect(node.id)}
         style={{ cursor: "pointer" }}
       />
@@ -339,25 +403,32 @@ export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: D
   );
 
   // --- Wall extraction: any edge of an occupied cell facing an unoccupied neighbor is a wall ----
+  // `nx`/`ny` (the direction toward that unoccupied neighbor) is kept per segment so the stipple
+  // pass below knows which side is "unmapped rock" to scatter its speckle on.
   const NEIGHBORS: { dx: number; dy: number; edge: "N" | "S" | "E" | "W" }[] = [
     { dx: 0, dy: -1, edge: "N" },
     { dx: 0, dy: 1, edge: "S" },
     { dx: 1, dy: 0, edge: "E" },
     { dx: -1, dy: 0, edge: "W" },
   ];
-  const wallLines: { x1: number; y1: number; x2: number; y2: number }[] = [];
+  const wallLines: { x1: number; y1: number; x2: number; y2: number; nx: number; ny: number }[] = [];
   for (const key of cellOwner.keys()) {
     const [cx, cy] = key.split(",").map(Number);
     for (const { dx, dy, edge } of NEIGHBORS) {
       if (cellOwner.has(cellKey(cx + dx, cy + dy))) continue;
       const x0 = px(cx);
       const y0 = py(cy);
-      if (edge === "N") wallLines.push({ x1: x0, y1: y0, x2: x0 + CELL_PX, y2: y0 });
-      else if (edge === "S") wallLines.push({ x1: x0, y1: y0 + CELL_PX, x2: x0 + CELL_PX, y2: y0 + CELL_PX });
-      else if (edge === "W") wallLines.push({ x1: x0, y1: y0, x2: x0, y2: y0 + CELL_PX });
-      else wallLines.push({ x1: x0 + CELL_PX, y1: y0, x2: x0 + CELL_PX, y2: y0 + CELL_PX });
+      if (edge === "N") wallLines.push({ x1: x0, y1: y0, x2: x0 + CELL_PX, y2: y0, nx: dx, ny: dy });
+      else if (edge === "S") wallLines.push({ x1: x0, y1: y0 + CELL_PX, x2: x0 + CELL_PX, y2: y0 + CELL_PX, nx: dx, ny: dy });
+      else if (edge === "W") wallLines.push({ x1: x0, y1: y0, x2: x0, y2: y0 + CELL_PX, nx: dx, ny: dy });
+      else wallLines.push({ x1: x0 + CELL_PX, y1: y0, x2: x0 + CELL_PX, y2: y0 + CELL_PX, nx: dx, ny: dy });
     }
   }
+  const wallStipple = wallLines.flatMap((w, i) =>
+    stippleForWall(w.x1, w.y1, w.x2, w.y2, w.nx, w.ny).map((d, j) => (
+      <circle key={`stipple-${i}-${j}`} cx={d.cx} cy={d.cy} r={d.r} fill={INK} opacity={0.55} />
+    )),
+  );
 
   // --- Area numbers + content glyphs (trap/hazard/pool/stairs-in-room), one per node with cells -
   const areaOverlays = nodes
@@ -394,7 +465,7 @@ export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: D
   const boundaryGlyphs = nodes
     .filter((n) => n.parentId !== null)
     .map((node) => {
-      const v = HEADING_VECTORS[node.heading];
+      const v = firstStepVector(node.heading);
       const mid = { x: cellCenter(node.anchor.x, node.anchor.y).x + (v.dx * CELL_PX) / 2, y: cellCenter(node.anchor.x, node.anchor.y).y + (v.dy * CELL_PX) / 2 };
       const glyphs: ReactNode[] = [];
       if (node.connectionToParent === "door") glyphs.push(<DoorGlyph key="door" x={mid.x} y={mid.y} heading={node.heading} />);
@@ -419,7 +490,7 @@ export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: D
     .filter((n) => n.cells.length === 0)
     .map((node) => {
       const c = cellCenter(node.anchor.x, node.anchor.y);
-      const v = HEADING_VECTORS[node.heading];
+      const v = firstStepVector(node.heading);
       const mid = { x: c.x + (v.dx * CELL_PX) / 2, y: c.y + (v.dy * CELL_PX) / 2 };
       return <circle key={`${node.id}-hit`} cx={mid.x} cy={mid.y} r={CELL_PX * 0.55} fill="transparent" onClick={() => onSelect(node.id)} style={{ cursor: "pointer" }} />;
     });
@@ -436,25 +507,51 @@ export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: D
     ) : (
       (() => {
         const c = cellCenter(selectedNode.anchor.x, selectedNode.anchor.y);
-        const v = HEADING_VECTORS[selectedNode.heading];
+        const v = firstStepVector(selectedNode.heading);
         return <circle cx={c.x + (v.dx * CELL_PX) / 2} cy={c.y + (v.dy * CELL_PX) / 2} r={CELL_PX * 0.6} fill="none" stroke="#8a3b2a" strokeWidth={2} style={{ pointerEvents: "none" }} />;
       })()
     ));
 
+  // Full screen drops the 1400x900 display cap entirely (the wrap becomes a viewport-filling,
+  // scrollable overlay instead) so the map renders at its native cell scale — more of it fits
+  // before scrolling, and what's on screen is bigger, both the point of popping it out.
+  const svgWidth = isFullscreen ? widthPx : Math.min(widthPx, 1400);
+  const svgHeight = isFullscreen ? heightPx : Math.min(heightPx, 900);
+
   return (
-    <div className="dungeon-map-wrap">
+    <div className={isFullscreen ? "dungeon-map-wrap dungeon-map-wrap--fullscreen" : "dungeon-map-wrap"}>
+      <button
+        type="button"
+        className="dungeon-map-fullscreen-toggle"
+        onClick={() => setIsFullscreen((v) => !v)}
+        aria-label={isFullscreen ? "Exit full screen" : "View map full screen"}
+      >
+        {isFullscreen ? "✕ Close" : "⛶ Full Screen"}
+      </button>
       <svg
         className="dungeon-map"
-        width={Math.min(widthPx, 1400)}
-        height={Math.min(heightPx, 900)}
+        width={svgWidth}
+        height={svgHeight}
         viewBox={`0 0 ${widthPx} ${heightPx}`}
         role="img"
         aria-label="Generated dungeon map"
       >
+        <defs>
+          {/* A shared, deterministic noise field (default seed) displaces every wall the same way
+              at any shared coordinate, so two segments meeting at a corner wobble in step instead
+              of pulling apart — that's what keeps this looking hand-drawn instead of glitchy. */}
+          <filter id="hand-drawn-wobble" x="-20%" y="-20%" width="140%" height="140%">
+            <feTurbulence type="fractalNoise" baseFrequency={0.045} numOctaves={2} result="noise" />
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale={2.2} xChannelSelector="R" yChannelSelector="G" />
+          </filter>
+        </defs>
         {floorTiles}
-        {wallLines.map((w, i) => (
-          <line key={i} x1={w.x1} y1={w.y1} x2={w.x2} y2={w.y2} stroke={INK} strokeWidth={2.5} strokeLinecap="round" />
-        ))}
+        {wallStipple}
+        <g filter="url(#hand-drawn-wobble)">
+          {wallLines.map((w, i) => (
+            <line key={i} x1={w.x1} y1={w.y1} x2={w.x2} y2={w.y2} stroke={INK} strokeWidth={2.5} strokeLinecap="round" />
+          ))}
+        </g>
         {zeroCellHitTargets}
         {boundaryGlyphs}
         {areaOverlays}

@@ -151,6 +151,7 @@
 }
 
 .dungeon-map-wrap {
+  position: relative;
   overflow: auto;
   border: 1px solid var(--border);
   border-radius: 6px;
@@ -158,8 +159,37 @@
   padding: 0.5rem;
 }
 
+.dungeon-map-wrap--fullscreen {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  padding: 2.5rem 1rem 1rem;
+}
+
 .dungeon-map {
   display: block;
+}
+
+.dungeon-map-fullscreen-toggle {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 2;
+  background: var(--accent);
+  color: var(--parchment);
+  border: none;
+  border-radius: 6px;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dungeon-map-fullscreen-toggle:hover {
+  background: var(--accent-dark);
 }
 
 .dungeon-map-legend {
