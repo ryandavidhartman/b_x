@@ -16,9 +16,48 @@
 //    for both corridors and rooms (a room's own near-wall cell facing its parent is always at that
 //    same offset, the center of that wall — see `rectCells`/`commitRoom` in the generator). Plain
 //    `HEADING_VECTORS[heading]` would be wrong here for a diagonal heading — see `firstStepVector`.
+//
+// 3. A "Cave / Cavern Network" dungeon (the `natural` prop) skips both of the above for its walls
+//    and floor entirely: the underlying grid is still the same square-cell engine (there's no book
+//    rule to derive an amorphous footprint from), but hewn, right-angled walls read wrong for a
+//    natural cave, so this traces the outer boundary of every occupied cell into closed polygon
+//    loops (`boundaryLoops`), perturbs each vertex outward/inward with deterministic per-vertex
+//    noise (`jitterLoop`), and renders the result as a smoothed blob (`smoothClosedPath`) fringed
+//    with a dense comb of outward rock-hatch ticks (`rockHatchTicks`) instead of the crisp
+//    per-cell wall segments + sparse stipple used everywhere else. Purely cosmetic — the placed
+//    cells, doors, and connectivity are identical either way.
+//
+// 4. A "Tomb / Crypt" dungeon keeps the crisp constructed geometry (it's dressed, hewn stone, not
+//    eroded rock — unlike a cave, there's no reason to bend its walls) but reads as funerary
+//    architecture instead of a plain hewn dungeon: a cooler bone/grey floor tint (`TOMB_FLOOR_TINT`)
+//    in place of the warm dungeon tan, evenly-spaced "coursing joint" ticks along every wall
+//    (`masonryTicksForWall`) in place of the sparse random rock-stipple dots, and a symmetric pair
+//    of pillars dropped into any room/chamber large enough to plausibly hold them (`ROOM_PILLARS`).
+//    Also purely cosmetic — same placed cells, doors, contents, and connectivity either way.
+//
+// 5. An "Evil Temple / Shrine" dungeon also keeps crisp constructed geometry, but reads as one
+//    monumental built structure rather than a lived-in dungeon or a burial complex: every wall gets
+//    regularly-spaced outward pilaster/buttress stubs (`pilasterForWall`) — sparser and blockier
+//    than a tomb's mortar-joint ticks, since architectural bays are wider than coursing — and the
+//    single largest room/chamber in the whole generated complex (its "sanctuary," picked by floor
+//    area, not a book roll) gets a colonnade of pillars plus an altar glyph, instead of every big
+//    room getting pillars the way a tomb's many burial chambers do. Same purely-cosmetic caveat.
+//
+// 6. A temple also gets a fortified outer envelope, since pilasters alone still read as "a hewn
+//    dungeon with decoration" rather than "one building" — the book's own room-by-room/corridor-by-
+//    corridor procedure grows an organic branching shape, not a packed rectangular floor plan like
+//    a hand-authored building map, so there's no way to get that tidy rectangle without abandoning
+//    the book's actual procedure. Instead, this traces the WHOLE generated shape's outer silhouette
+//    (`outerEnvelopeLoop`, the same `boundaryLoops` tracer the cave style uses, left crisp/
+//    rectilinear instead of jittered) and draws it as one thick fortified wall band with a small
+//    corner-tower dot at every convex corner (`convexCorners`) — the interior stays exactly the
+//    same organic branching layout, just now reads as enclosed within one structure's walls. Same
+//    technique will fit Castle later (the same "should be a building" issue but for a different
+//    category, not yet given its own style).
 import { useEffect, useState, type ReactNode } from "react";
 import { firstStepVector, type DungeonNode, type NodeKind, type Heading } from "../generators/randomDungeon";
-import type { LocationCategory } from "../lib/locationInput";
+import type { LocationCategory, MapStyle } from "../lib/locationInput";
+import { boundaryLoops, jitterLoop, smoothClosedPath, rockHatchTicks, hashSeed, mulberry32, outerEnvelopeLoop, convexCorners } from "../lib/caveBoundary";
 
 const CELL_PX = 18;
 const PAD_CELLS = 2;
@@ -44,25 +83,6 @@ function cellKey(x: number, y: number): string {
   return `${x},${y}`;
 }
 
-// --- Hand-drawn texture: deterministic per-segment noise so a wall's stipple/wobble is stable
-// across re-renders (no seeded-RNG library needed for a handful of small integer hashes). ------
-function hashSeed(...parts: number[]): number {
-  let h = 2166136261;
-  for (const p of parts) {
-    h = Math.imul(h ^ Math.round(p * 100), 16777619);
-  }
-  return h >>> 0;
-}
-function mulberry32(seed: number) {
-  let t = seed >>> 0;
-  return function () {
-    t = (t + 0x6d2b79f5) | 0;
-    let r = Math.imul(t ^ (t >>> 15), 1 | t);
-    r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r;
-    return ((r ^ (r >>> 14)) >>> 0) / 4294967296;
-  };
-}
-
 /** One published-module wall reads as the edge of hewn rock — since this engine never draws a
  * wall except where an occupied cell faces unmapped space (see the file-header note on wall
  * extraction), every wall segment qualifies for the same speckled "rock" halo the reference maps
@@ -84,6 +104,21 @@ function stippleForWall(x1: number, y1: number, x2: number, y2: number, nx: numb
   return dots;
 }
 
+/** A Tomb/Crypt wall reads as dressed, coursed ashlar, not raw hewn rock — so instead of
+ * `stippleForWall`'s sparse random speckle, this draws two evenly-spaced short perpendicular ticks
+ * per unit wall segment (mortar joints between coursed blocks), on the same outward side. Regular
+ * spacing (vs. the dungeon's random dot placement and the cave's dense random hatch) is what reads
+ * as "worked stone" at a glance. */
+function masonryTicksForWall(x1: number, y1: number, x2: number, y2: number, nx: number, ny: number): { x1: number; y1: number; x2: number; y2: number }[] {
+  const rand = mulberry32(hashSeed(x1, y1, x2, y2, 11));
+  return [0.33, 0.66].map((t) => {
+    const bx = x1 + (x2 - x1) * t;
+    const by = y1 + (y2 - y1) * t;
+    const len = 2.2 + rand() * 1.4;
+    return { x1: bx, y1: by, x2: bx + nx * len, y2: by + ny * len };
+  });
+}
+
 // Light floor tint by node kind — walls now carry the real structural signal, so this just gives
 // an at-a-glance sense of room vs. corridor vs. natural cave, much lighter than the old fills.
 const FLOOR_TINT: Record<NodeKind, string> = {
@@ -97,6 +132,49 @@ const FLOOR_TINT: Record<NodeKind, string> = {
   secretDoor: "#e3d8bd",
   oneWayDoor: "#e3d8bd",
 };
+
+// A Tomb/Crypt reads cooler and more uniform than a lived-in dungeon — bone/grey stone throughout,
+// not the warm dungeon tan — same node-kind keys as FLOOR_TINT so it's a drop-in swap.
+const TOMB_FLOOR_TINT: Record<NodeKind, string> = {
+  room: "#e6e2d6",
+  chamber: "#dfdacb",
+  corridor: "#d8d2c0",
+  cave: "#dde8d6",
+  cavern: "#dde8d6",
+  stairs: "#cfe0eb",
+  deadEnd: "#d8d2c0",
+  secretDoor: "#d8d2c0",
+  oneWayDoor: "#d8d2c0",
+};
+
+// An Evil Temple/Shrine reads as worked stone too, but with a faint unwholesome wine/plum cast
+// instead of the tomb's neutral bone-grey — still a light pastel wash (every floor tint in this
+// map stays pale so glyphs/numbers keep contrast), just tinted toward "unholy" rather than "plain."
+const TEMPLE_FLOOR_TINT: Record<NodeKind, string> = {
+  room: "#e9dade",
+  chamber: "#e2d1d7",
+  corridor: "#dac8cf",
+  cave: "#dde8d6",
+  cavern: "#dde8d6",
+  stairs: "#cfe0eb",
+  deadEnd: "#dac8cf",
+  secretDoor: "#dac8cf",
+  oneWayDoor: "#dac8cf",
+};
+
+/** An Evil Temple/Shrine wall reads as monumental built architecture — regularly-spaced outward
+ * pilaster/buttress stubs, one roughly every other 10 ft wall segment (architectural bays are
+ * wider than a tomb's mortar-joint spacing), positioned by the segment's own grid coordinate
+ * rather than a running count so parallel wall runs stay in phase with each other. Blockier
+ * (thicker, longer) than `masonryTicksForWall`'s joints, since a pilaster is a structural member,
+ * not a seam. */
+function pilasterForWall(x1: number, y1: number, x2: number, y2: number, nx: number, ny: number): { x1: number; y1: number; x2: number; y2: number } | null {
+  const gridPos = Math.round(nx !== 0 ? y1 / CELL_PX : x1 / CELL_PX);
+  if (((gridPos % 2) + 2) % 2 !== 0) return null;
+  const mx = (x1 + x2) / 2;
+  const my = (y1 + y2) / 2;
+  return { x1: mx, y1: my, x2: mx + nx * 5.5, y2: my + ny * 5.5 };
+}
 
 // Same map, same mechanics, for every location category (per the broadened Random Dungeon
 // Generation scope) — only a Wilderness site reads its terms differently (a clearing joined by
@@ -285,6 +363,55 @@ function LadderGlyph({ x, y }: { x: number; y: number }) {
   );
 }
 
+/** Not a book map symbol — a Tomb/Crypt-only decoration (see file-header note #4): a support
+ * column viewed from above, the way published tomb/mausoleum maps mark them. Reused the book's own
+ * "columns or pillars" dungeon-dressing wording, but the placement rule below (room size, not a
+ * roll) is this app's own addition, since Appendix E never rolls for where pillars go. */
+function PillarGlyph({ x, y }: { x: number; y: number }) {
+  return <circle cx={x} cy={y} r={CELL_PX * 0.22} fill={PAPER} stroke={INK} strokeWidth={1.6} />;
+}
+
+/** A room/chamber only reads as grand enough for a pair of support columns once it's at least 3
+ * cells deep on both axes (so the pillars sit clearly clear of every wall) — below that, a real
+ * tomb corridor or antechamber wouldn't have any. Positioned at the 1/3 and 2/3 points of the
+ * room's own bounding box (not tied to individual cell centers) so they land symmetrically
+ * regardless of the room's exact cell count. */
+/** A room/chamber's own bounding box in px, from its cells — shared by `roomPillars` (tomb/temple)
+ * and the temple's own altar placement, so both agree on where "the room" actually starts/ends. */
+function roomBBoxPx(node: DungeonNode, px: (x: number) => number, py: (y: number) => number): { left: number; right: number; top: number; bottom: number; cellsW: number; cellsL: number } {
+  const xs = node.cells.map((c) => c.x);
+  const ys = node.cells.map((c) => c.y);
+  const minX = Math.min(...xs);
+  const maxX = Math.max(...xs);
+  const minY = Math.min(...ys);
+  const maxY = Math.max(...ys);
+  return { left: px(minX), right: px(maxX + 1), top: py(minY), bottom: py(maxY + 1), cellsW: maxX - minX + 1, cellsL: maxY - minY + 1 };
+}
+
+function roomPillars(node: DungeonNode, px: (x: number) => number, py: (y: number) => number): { x: number; y: number }[] {
+  const { left, right, top, bottom, cellsW, cellsL } = roomBBoxPx(node, px, py);
+  if (cellsW < 3 || cellsL < 3) return [];
+  const xs2 = [left + (right - left) / 3, left + ((right - left) * 2) / 3];
+  const ys2 = [top + (bottom - top) / 3, top + ((bottom - top) * 2) / 3];
+  return xs2.flatMap((x) => ys2.map((y) => ({ x, y })));
+}
+
+/** Not a book map symbol — an Evil Temple/Shrine-only decoration (file-header note #5) marking
+ * this generated complex's single largest room/chamber as its sanctuary: a slab with a plain
+ * ring-and-bar sigil, deliberately generic rather than any specific real-world religious symbol,
+ * echoing the book's own "altar"/"holy symbol" dungeon-dressing wording. */
+function AltarGlyph({ x, y }: { x: number; y: number }) {
+  const w = CELL_PX * 0.8;
+  const h = CELL_PX * 0.36;
+  return (
+    <g>
+      <rect x={x - w / 2} y={y - h / 2} width={w} height={h} fill={PAPER} stroke={INK} strokeWidth={1.6} />
+      <circle cx={x} cy={y} r={h * 0.34} fill="none" stroke={INK} strokeWidth={1.3} />
+      <line x1={x - w * 0.3} y1={y} x2={x + w * 0.3} y2={y} stroke={INK} strokeWidth={1.3} />
+    </g>
+  );
+}
+
 // A pit trap where the mechanism itself conceals the drop (a trapdoor, a false door, a section of
 // floor/ceiling that drops) reads as the legend's "Covered Pit"; a plain "pit, 10 ft" or a bare
 // spiked/poisoned pit with no concealment mechanism named reads as "Open Pit." Judgment call.
@@ -333,7 +460,30 @@ function MonsterLetterToken({ x, y, letter }: { x: number; y: number; letter: st
   );
 }
 
-export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: DungeonNode[]; selectedId: string | null; onSelect: (id: string) => void; category: LocationCategory }) {
+export function DungeonMap({
+  nodes,
+  selectedId,
+  onSelect,
+  category,
+  mapStyle,
+}: {
+  nodes: DungeonNode[];
+  selectedId: string | null;
+  onSelect: (id: string) => void;
+  category: LocationCategory;
+  /** See `mapStyleFor` in lib/locationInput.ts — "natural" is a Cave/Cavern Network dungeon (file-
+   * header note #3), "tomb" is a Tomb/Crypt (note #4). Every other category/subtype keeps the
+   * original crisp constructed-wall style. */
+  mapStyle: MapStyle;
+}) {
+  const natural = mapStyle === "natural";
+  const tomb = mapStyle === "tomb";
+  const temple = mapStyle === "temple";
+  function floorTintFor(kind: NodeKind): string {
+    if (tomb) return TOMB_FLOOR_TINT[kind];
+    if (temple) return TEMPLE_FLOOR_TINT[kind];
+    return FLOOR_TINT[kind];
+  }
   const [isFullscreen, setIsFullscreen] = useState(false);
 
   // Esc closes full screen, and the page behind it shouldn't scroll while it's open — both undone
@@ -384,7 +534,10 @@ export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: D
 
   // --- Floor tiles (one <rect> per occupied cell, clickable back to its owning node) -----------
   // A faint stroke on every tile reads as the reference maps' background graph-paper grid — each
-  // cell here already is one 10 ft square, so no separate grid layer is needed.
+  // cell here already is one 10 ft square, so no separate grid layer is needed. A natural map
+  // instead fills one solid blob per boundary loop (built below) and keeps these rects only as
+  // invisible click targets, since a grid of individual tinted squares reads as hewn dungeon floor,
+  // not a cave.
   const floorTiles = nodes.flatMap((node) =>
     node.cells.map((c, i) => (
       <rect
@@ -393,8 +546,8 @@ export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: D
         y={py(c.y)}
         width={CELL_PX}
         height={CELL_PX}
-        fill={FLOOR_TINT[node.kind]}
-        stroke="rgba(58,47,34,0.16)"
+        fill={natural ? "transparent" : floorTintFor(node.kind)}
+        stroke={natural ? "none" : "rgba(58,47,34,0.16)"}
         strokeWidth={0.75}
         onClick={() => onSelect(node.id)}
         style={{ cursor: "pointer" }}
@@ -402,9 +555,33 @@ export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: D
     )),
   );
 
+  // --- Natural (cave) rendering: boundary-trace every occupied cell into closed loops, jitter and
+  // smooth them into an organic outline, and fill/fringe them instead of drawing per-cell walls.
+  // See the file-header note (#3) and the helper functions above for why.
+  const naturalLoopsPx = natural
+    ? boundaryLoops(new Set(cellOwner.keys()))
+        .map((loop) => jitterLoop(loop, 1, 0.3))
+        .map((loop) => loop.map((p) => ({ x: px(p.x), y: py(p.y) })))
+    : [];
+  const naturalFloorPath = naturalLoopsPx.map((loop) => smoothClosedPath(loop)).join(" ");
+  const naturalWallPaths = naturalLoopsPx.map((loop, i) => <path key={`cave-wall-${i}`} d={smoothClosedPath(loop)} fill="none" stroke={INK} strokeWidth={2.5} strokeLinejoin="round" />);
+  const naturalHatch = naturalLoopsPx.flatMap((loop, i) =>
+    rockHatchTicks(loop, i).map((t, j) => <line key={`cave-hatch-${i}-${j}`} x1={t.x1} y1={t.y1} x2={t.x2} y2={t.y2} stroke={INK} strokeWidth={1.1} opacity={0.6} strokeLinecap="round" />),
+  );
+
+  // --- Temple's fortified outer envelope: trace the whole generated shape's outer silhouette and
+  // draw it as one thick wall band with corner towers — see the file-header note (#6) for why this
+  // is the achievable "one building" treatment, short of abandoning the book's own branching
+  // room-by-room/corridor-by-corridor procedure for a packed rectangular floor plan.
+  const envelopeLoop = temple ? outerEnvelopeLoop(new Set(cellOwner.keys())) : null;
+  const envelopeLoopPx = envelopeLoop?.map((p) => ({ x: px(p.x), y: py(p.y) })) ?? [];
+  const envelopeBandPath = envelopeLoopPx.length > 0 ? `M ${envelopeLoopPx.map((p) => `${p.x} ${p.y}`).join(" L ")} Z` : "";
+  const envelopeTurrets = envelopeLoop ? convexCorners(envelopeLoop).map((p) => ({ x: px(p.x), y: py(p.y) })) : [];
+
   // --- Wall extraction: any edge of an occupied cell facing an unoccupied neighbor is a wall ----
   // `nx`/`ny` (the direction toward that unoccupied neighbor) is kept per segment so the stipple
-  // pass below knows which side is "unmapped rock" to scatter its speckle on.
+  // pass below knows which side is "unmapped rock" to scatter its speckle on. Skipped for a natural
+  // map — it uses the smoothed boundary loops above instead.
   const NEIGHBORS: { dx: number; dy: number; edge: "N" | "S" | "E" | "W" }[] = [
     { dx: 0, dy: -1, edge: "N" },
     { dx: 0, dy: 1, edge: "S" },
@@ -412,7 +589,7 @@ export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: D
     { dx: -1, dy: 0, edge: "W" },
   ];
   const wallLines: { x1: number; y1: number; x2: number; y2: number; nx: number; ny: number }[] = [];
-  for (const key of cellOwner.keys()) {
+  for (const key of natural ? [] : cellOwner.keys()) {
     const [cx, cy] = key.split(",").map(Number);
     for (const { dx, dy, edge } of NEIGHBORS) {
       if (cellOwner.has(cellKey(cx + dx, cy + dy))) continue;
@@ -424,11 +601,38 @@ export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: D
       else wallLines.push({ x1: x0 + CELL_PX, y1: y0, x2: x0 + CELL_PX, y2: y0 + CELL_PX, nx: dx, ny: dy });
     }
   }
-  const wallStipple = wallLines.flatMap((w, i) =>
-    stippleForWall(w.x1, w.y1, w.x2, w.y2, w.nx, w.ny).map((d, j) => (
-      <circle key={`stipple-${i}-${j}`} cx={d.cx} cy={d.cy} r={d.r} fill={INK} opacity={0.55} />
-    )),
-  );
+  // A Tomb/Crypt wall gets regular masonry-joint ticks, and an Evil Temple/Shrine wall gets sparser
+  // pilaster/buttress stubs, instead of the sparse random rock speckle every other style uses — see
+  // file-header notes #4/#5 and `masonryTicksForWall`/`pilasterForWall`.
+  const wallStipple = tomb
+    ? wallLines.flatMap((w, i) =>
+        masonryTicksForWall(w.x1, w.y1, w.x2, w.y2, w.nx, w.ny).map((t, j) => (
+          <line key={`joint-${i}-${j}`} x1={t.x1} y1={t.y1} x2={t.x2} y2={t.y2} stroke={INK} strokeWidth={1.2} opacity={0.7} strokeLinecap="round" />
+        )),
+      )
+    : temple
+      ? wallLines.flatMap((w, i) => {
+          const p = pilasterForWall(w.x1, w.y1, w.x2, w.y2, w.nx, w.ny);
+          return p ? [<line key={`pilaster-${i}`} x1={p.x1} y1={p.y1} x2={p.x2} y2={p.y2} stroke={INK} strokeWidth={3.2} strokeLinecap="square" opacity={0.85} />] : [];
+        })
+      : wallLines.flatMap((w, i) =>
+          stippleForWall(w.x1, w.y1, w.x2, w.y2, w.nx, w.ny).map((d, j) => (
+            <circle key={`stipple-${i}-${j}`} cx={d.cx} cy={d.cy} r={d.r} fill={INK} opacity={0.55} />
+          )),
+        );
+
+  // For a temple, exactly one room/chamber in the whole generated complex reads as the sanctuary
+  // (biggest floor area, ties broken by generation order) — picked here rather than per-node so
+  // every node's overlay below can just check its own id against it.
+  const sanctuaryId = temple
+    ? nodes
+        .filter((n) => n.kind === "room" || n.kind === "chamber")
+        .reduce<DungeonNode | null>((best, n) => {
+          const area = (n.widthFt ?? 1) * (n.lengthFt ?? 1);
+          const bestArea = best ? (best.widthFt ?? 1) * (best.lengthFt ?? 1) : -1;
+          return area > bestArea ? n : best;
+        }, null)?.id ?? null
+    : null;
 
   // --- Area numbers + content glyphs (trap/hazard/pool/stairs-in-room), one per node with cells -
   const areaOverlays = nodes
@@ -447,11 +651,19 @@ export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: D
       const monsterName = node.encounter?.monster?.headingName;
       const letter = monsterName ? monsterLetters.get(monsterName) : undefined;
       const tokenCell = node.cells.length > 1 ? node.cells[0] : null;
+      const isSanctuary = temple && node.id === sanctuaryId;
+      const showPillars = (tomb && (node.kind === "room" || node.kind === "chamber")) || isSanctuary;
+      const pillars = showPillars ? roomPillars(node, px, py) : [];
+      const altar = isSanctuary ? roomBBoxPx(node, px, py) : null;
       return (
         <g key={`${node.id}-overlay`}>
+          {pillars.map((p, i) => (
+            <PillarGlyph key={`pillar-${i}`} x={p.x} y={p.y} />
+          ))}
+          {altar && <AltarGlyph x={(altar.left + altar.right) / 2} y={altar.top + (altar.bottom - altar.top) * 0.22} />}
           {node.areaNumber !== undefined && <AreaNumber x={cx} y={numberY} n={node.areaNumber} />}
           {letter && tokenCell && <MonsterLetterToken x={px(tokenCell.x) + CELL_PX / 2} y={py(tokenCell.y) + CELL_PX / 2} letter={letter} />}
-          {stairsInRoom && <StairsGlyph x={cx} y={glyphY} heading={node.heading} natural={node.kind === "cave" || node.kind === "cavern"} letter={stairDirectionLetter(node.label)} />}
+          {stairsInRoom && <StairsGlyph x={cx} y={glyphY} heading={node.heading} natural={natural || node.kind === "cave" || node.kind === "cavern"} letter={stairDirectionLetter(node.label)} />}
           {symbol?.kind === "trap" && <TrapGlyph x={cx} y={glyphY} />}
           {symbol?.kind === "pit" && <PitGlyph x={cx} y={glyphY} covered={!!symbol.covered} />}
           {symbol?.kind === "hazard" && <HazardGlyph x={cx} y={glyphY} />}
@@ -473,8 +685,8 @@ export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: D
       else if (node.connectionToParent === "oneWayDoor") glyphs.push(<OneWayDoorGlyph key="oneway" x={mid.x} y={mid.y} heading={node.heading} />);
       if (node.kind === "stairs") {
         const parent = node.parentId ? nodesById.get(node.parentId) : undefined;
-        const natural = parent?.kind === "cave" || parent?.kind === "cavern";
-        glyphs.push(<StairsGlyph key="stairs" x={mid.x} y={mid.y} heading={node.heading} natural={natural} letter={stairDirectionLetter(node.label)} />);
+        const naturalStairs = natural || parent?.kind === "cave" || parent?.kind === "cavern";
+        glyphs.push(<StairsGlyph key="stairs" x={mid.x} y={mid.y} heading={node.heading} natural={naturalStairs} letter={stairDirectionLetter(node.label)} />);
       }
       if (glyphs.length === 0) return null;
       return (
@@ -545,13 +757,19 @@ export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: D
             <feDisplacementMap in="SourceGraphic" in2="noise" scale={2.2} xChannelSelector="R" yChannelSelector="G" />
           </filter>
         </defs>
+        {natural && <path d={naturalFloorPath} fill={FLOOR_TINT.cave} stroke="none" />}
+        {temple && envelopeBandPath && <path d={envelopeBandPath} fill="none" stroke={INK} strokeWidth={7} strokeLinejoin="round" opacity={0.85} />}
         {floorTiles}
         {wallStipple}
+        {naturalHatch}
         <g filter="url(#hand-drawn-wobble)">
           {wallLines.map((w, i) => (
             <line key={i} x1={w.x1} y1={w.y1} x2={w.x2} y2={w.y2} stroke={INK} strokeWidth={2.5} strokeLinecap="round" />
           ))}
+          {naturalWallPaths}
         </g>
+        {temple &&
+          envelopeTurrets.map((p, i) => <circle key={`turret-${i}`} cx={p.x} cy={p.y} r={5} fill={INK} stroke={PAPER} strokeWidth={1.5} />)}
         {zeroCellHitTargets}
         {boundaryGlyphs}
         {areaOverlays}
@@ -560,7 +778,7 @@ export function DungeonMap({ nodes, selectedId, onSelect, category }: { nodes: D
       <div className="dungeon-map-legend">
         {floorLegend(category).map(({ kind, label }) => (
           <span key={kind} className="legend-item">
-            <span className="legend-swatch" style={{ background: FLOOR_TINT[kind] }} />
+            <span className="legend-swatch" style={{ background: floorTintFor(kind) }} />
             {label}
           </span>
         ))}

@@ -50,6 +50,21 @@ export function dungeonDataKeyFor(locationType: LocationType): string | null {
   return DUNGEON_SUBTYPE_TO_DATA_KEY[locationType] ?? null;
 }
 
+/** DungeonMap.tsx's purely cosmetic per-subtype rendering style — none of these change placed
+ * cells, doors, or connectivity, only how the same square-cell grid gets drawn. "natural" (Cave /
+ * Cavern Network), "tomb" (Tomb/Crypt), and "temple" (Evil Temple/Shrine) are the only subtypes
+ * with a style of their own so far; every other category/subtype (Sewer, Ruins, Standard Dungeon,
+ * and every non-dungeon category) still reads as "constructed." */
+export type MapStyle = "constructed" | "natural" | "tomb" | "temple";
+
+export function mapStyleFor(input: LocationInput): MapStyle {
+  if (input.category !== "dungeon") return "constructed";
+  if (input.dungeonSubtype === "Cave / Cavern Network") return "natural";
+  if (input.dungeonSubtype === "Tomb / Crypt") return "tomb";
+  if (input.dungeonSubtype === "Evil Temple / Shrine") return "temple";
+  return "constructed";
+}
+
 /** Appendix B's Unguarded Treasures table (and every other Appendix B lookup this app makes) is
  * keyed by dungeon level bucket, not a bare 1-20 number — Appendix E's own text says to use "the
  * party's level, the same input as everything else in this step," so this app derives the bucket

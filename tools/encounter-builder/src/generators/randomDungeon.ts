@@ -1126,6 +1126,48 @@ export function generateWholeDungeon(opts: GenerateOptions): DungeonNode[] {
   return state.nodes;
 }
 
+// --- Dead-end straightening (cosmetic, opt-in, not a book rule) --------------------------------
+// Appendix E's own procedure has no "tidy up the map" step — this is borrowed from donjon.bin.sh's
+// random dungeon generator, which lets the DM collapse some percentage of dead-end corridor spurs
+// back to the nearest junction or room after generation, purely to control how mazelike the final
+// map feels. `percent` is an independent per-dead-end chance (0 = untouched, matching every
+// previous Generate press; 100 = every collapsible spur fully trimmed). It only ever removes
+// corridor cells and the terminal dead-end stub itself:
+//   - never a room/chamber/cave/cavern/stairs node (those still count toward "Number of Rooms" —
+//     this is purely cosmetic, not a way to silently shrink the requested map)
+//   - never past a junction (a corridor with more than one child) — other branches still need it
+//   - never the map's own root/entrance node
+//   - never a corridor carrying a rolled Table 17 Wandering Monster — trimming that would silently
+//     drop a stocked encounter from the key, not just tidy the map
+export function straightenDeadEnds(nodes: DungeonNode[], percent: number): DungeonNode[] {
+  if (percent <= 0) return nodes;
+  const byId = new Map(nodes.map((n) => [n.id, n] as const));
+  const childCount = new Map<string, number>();
+  for (const n of nodes) {
+    if (n.parentId) childCount.set(n.parentId, (childCount.get(n.parentId) ?? 0) + 1);
+  }
+  const removed = new Set<string>();
+  for (const deadEnd of nodes) {
+    if (deadEnd.kind !== "deadEnd") continue;
+    if (rollDie(100) > percent) continue;
+    const chain: string[] = [deadEnd.id];
+    let cur: DungeonNode = deadEnd;
+    while (cur.parentId) {
+      const parent = byId.get(cur.parentId);
+      if (!parent) break;
+      if (parent.parentId === null) break; // never remove the map's own root/entrance
+      if (parent.kind !== "corridor") break; // never trim into a room/chamber/cave/cavern/stairs
+      if ((childCount.get(parent.id) ?? 0) > 1) break; // a junction — other branches still need it
+      if (parent.wanderingMonsters && parent.wanderingMonsters.length > 0) break;
+      chain.push(parent.id);
+      cur = parent;
+    }
+    for (const id of chain) removed.add(id);
+  }
+  if (removed.size === 0) return nodes;
+  return nodes.filter((n) => !removed.has(n.id));
+}
+
 export function magicPoolDescription(): string {
   const notes: string[] = [];
   const catRoll = rollDie(20);

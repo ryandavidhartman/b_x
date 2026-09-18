@@ -6,12 +6,13 @@
 // causally-interconnected plotting — out of reach for any dice procedure, not just this one).
 import { useRef, useState } from "react";
 import { rollDie } from "@shared/index";
-import type { LocationInput } from "../lib/locationInput";
+import { mapStyleFor, type LocationInput } from "../lib/locationInput";
 import type { Scenario } from "../data/scenarios";
 import {
   createInitialState,
   stepGeneration,
   generateWholeDungeon,
+  straightenDeadEnds,
   rollAreaEncounterFor,
   STARTING_AREAS,
   type DungeonNode,
@@ -113,6 +114,7 @@ function KeyEntry({ node, category }: { node: DungeonNode; category: LocationInp
 
 export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLevel: number; locationInput: LocationInput; scenario: Scenario }) {
   const [maxNodes, setMaxNodes] = useState(10);
+  const [straightenPercent, setStraightenPercent] = useState(0);
   const [startAreaChoice, setStartAreaChoice] = useState<StartAreaChoice>("empty");
   const [nodes, setNodes] = useState<DungeonNode[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -144,7 +146,7 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
   }
 
   function generateWhole() {
-    const result = generateWholeDungeon(baseOptions());
+    const result = straightenDeadEnds(generateWholeDungeon(baseOptions()), straightenPercent);
     genStateRef.current = null;
     setStepModeActive(false);
     setNodes(result);
@@ -165,8 +167,16 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
     const state = genStateRef.current;
     if (!state) return;
     const more = stepGeneration(state);
-    setNodes([...state.nodes]);
-    if (!more) setFinished(true);
+    if (!more) {
+      // Only straighten once the work queue is fully drained — trimming mid-generation could
+      // remove a node that pending work still expects to attach to.
+      const result = straightenDeadEnds(state.nodes, straightenPercent);
+      setNodes(result);
+      setFinished(true);
+      setSelectedId((id) => (result.some((n) => n.id === id) ? id : (result[0]?.id ?? null)));
+    } else {
+      setNodes([...state.nodes]);
+    }
   }
 
   const signatureItem = findSignatureItem(nodes);
@@ -193,6 +203,23 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
           <p className="hint">
             Counts rooms, chambers, caves, and stairs — not the corridors connecting them. Guaranteed: if the layout runs into dead
             ends before reaching this many, generation adds another passage off an existing room rather than stopping short.
+          </p>
+        </div>
+        <div className="field">
+          <label htmlFor="straighten-percent">Straighten Dead Ends (%)</label>
+          <input
+            id="straighten-percent"
+            type="number"
+            min={0}
+            max={100}
+            value={straightenPercent}
+            onChange={(e) => setStraightenPercent(Math.min(100, Math.max(0, Number(e.target.value) || 0)))}
+          />
+          <p className="hint">
+            Not part of Appendix E's own procedure — an optional cosmetic pass (borrowed from donjon.bin.sh's dungeon generator)
+            that trims some percentage of dead-end corridor spurs back to the nearest junction or room, for a less mazelike
+            map. 0 (default) leaves every rolled dead end in place. Never removes a room, chamber, cave, cavern, or stairs, and
+            never a corridor holding a rolled wandering-monster encounter.
           </p>
         </div>
         {isDungeon && (
@@ -249,7 +276,13 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
           )}
 
           <div className="dungeon-map-col">
-            <DungeonMap nodes={nodes} selectedId={selectedId} onSelect={setSelectedId} category={locationInput.category} />
+            <DungeonMap
+              nodes={nodes}
+              selectedId={selectedId}
+              onSelect={setSelectedId}
+              category={locationInput.category}
+              mapStyle={mapStyleFor(locationInput)}
+            />
           </div>
 
           <div className="adventure-key">
