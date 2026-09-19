@@ -43,21 +43,29 @@
 //    area, not a book roll) gets a colonnade of pillars plus an altar glyph, instead of every big
 //    room getting pillars the way a tomb's many burial chambers do. Same purely-cosmetic caveat.
 //
-// 6. A temple also gets a fortified outer envelope, since pilasters alone still read as "a hewn
-//    dungeon with decoration" rather than "one building" — the book's own room-by-room/corridor-by-
-//    corridor procedure grows an organic branching shape, not a packed rectangular floor plan like
-//    a hand-authored building map, so there's no way to get that tidy rectangle without abandoning
-//    the book's actual procedure. Instead, this traces the WHOLE generated shape's outer silhouette
-//    (`outerEnvelopeLoop`, the same `boundaryLoops` tracer the cave style uses, left crisp/
-//    rectilinear instead of jittered) and draws it as one thick fortified wall band with a small
-//    corner-tower dot at every convex corner (`convexCorners`) — the interior stays exactly the
-//    same organic branching layout, just now reads as enclosed within one structure's walls. Same
-//    technique will fit Castle later (the same "should be a building" issue but for a different
-//    category, not yet given its own style).
+// 6. Temple and Castle both get a fortified building envelope on top of that, since pilasters (or
+//    crenellations) alone — and an earlier attempt that just thickened the generated shape's own
+//    jagged outline — still read as "a hewn dungeon with decoration," not "one building." A real
+//    building's footprint is a solid volume with no gaps; even generators/buildingLayout.ts's own
+//    ring-of-rooms shape isn't a perfect rectangle once the aisle/entrance stubs poke out. So the
+//    envelope is the generated shape's plain axis-aligned bounding rectangle (always exactly 4
+//    corners) with a diagonal-hatch background filling in the space inside that rectangle nothing
+//    actually occupies — standing in for "undetailed solid construction," the way a real
+//    architectural plan hatches solid masonry in section. Real rooms/corridors still draw their own
+//    normal walls right on top, completely unchanged, so they read as distinct rooms carved out of
+//    that mass.
+//
+// 7. A "Castle" (a whole LocationCategory, not a dungeon subtype) reads as martial fortification
+//    rather than a temple's religious architecture: a cooler grey floor tint, no interior pilasters
+//    (a castle's guard rooms and barracks don't need them — plain walls, same stipple as an
+//    unstyled dungeon), a crenellated (alternating merlon squares) envelope instead of a plain
+//    band, bigger round corner towers than a temple's small corner dot, and its centerpiece room
+//    (see note #6's `centerpieceId`) reads as the bailey/courtyard — a plain well, not a temple's
+//    altar-and-colonnade sanctuary, since a real castle courtyard was a working/muster yard.
 import { useEffect, useState, type ReactNode } from "react";
-import { firstStepVector, type DungeonNode, type NodeKind, type Heading } from "../generators/randomDungeon";
+import { firstStepVector, type DungeonNode, type NodeKind, type Heading, type GridPoint } from "../generators/randomDungeon";
 import type { LocationCategory, MapStyle } from "../lib/locationInput";
-import { boundaryLoops, jitterLoop, smoothClosedPath, rockHatchTicks, hashSeed, mulberry32, outerEnvelopeLoop, convexCorners } from "../lib/caveBoundary";
+import { boundaryLoops, jitterLoop, smoothClosedPath, rockHatchTicks, hashSeed, mulberry32 } from "../lib/caveBoundary";
 
 const CELL_PX = 18;
 const PAD_CELLS = 2;
@@ -160,6 +168,20 @@ const TEMPLE_FLOOR_TINT: Record<NodeKind, string> = {
   deadEnd: "#dac8cf",
   secretDoor: "#dac8cf",
   oneWayDoor: "#dac8cf",
+};
+
+// A Castle reads as plain, martial cut stone — a cool grey with none of the temple's unholy cast
+// or the tomb's bone warmth.
+const CASTLE_FLOOR_TINT: Record<NodeKind, string> = {
+  room: "#e3e4e7",
+  chamber: "#dcdee2",
+  corridor: "#d5d8dc",
+  cave: "#dde8d6",
+  cavern: "#dde8d6",
+  stairs: "#cfe0eb",
+  deadEnd: "#d5d8dc",
+  secretDoor: "#d5d8dc",
+  oneWayDoor: "#d5d8dc",
 };
 
 /** An Evil Temple/Shrine wall reads as monumental built architecture — regularly-spaced outward
@@ -412,6 +434,19 @@ function AltarGlyph({ x, y }: { x: number; y: number }) {
   );
 }
 
+/** Not a book map symbol — a Castle-only decoration (file-header note #7) marking this generated
+ * complex's bailey/courtyard: a plain well, the way a real castle's working yard would actually be
+ * furnished, rather than a temple's colonnade (a castle bailey is a muster/work yard, not a
+ * hypostyle hall). */
+function WellGlyph({ x, y }: { x: number; y: number }) {
+  return (
+    <g>
+      <circle cx={x} cy={y} r={CELL_PX * 0.4} fill={PAPER} stroke={INK} strokeWidth={1.6} />
+      <circle cx={x} cy={y} r={CELL_PX * 0.22} fill="none" stroke={INK} strokeWidth={1.2} />
+    </g>
+  );
+}
+
 // A pit trap where the mechanism itself conceals the drop (a trapdoor, a false door, a section of
 // floor/ceiling that drops) reads as the legend's "Covered Pit"; a plain "pit, 10 ft" or a bare
 // spiked/poisoned pit with no concealment mechanism named reads as "Open Pit." Judgment call.
@@ -466,6 +501,7 @@ export function DungeonMap({
   onSelect,
   category,
   mapStyle,
+  envelope,
 }: {
   nodes: DungeonNode[];
   selectedId: string | null;
@@ -475,13 +511,21 @@ export function DungeonMap({
    * header note #3), "tomb" is a Tomb/Crypt (note #4). Every other category/subtype keeps the
    * original crisp constructed-wall style. */
   mapStyle: MapStyle;
+  /** The building-layout generator's own precise outline (buildingLayout.ts's `BuildingEnvelope`)
+   * — undefined for every non-building style, required (by construction, whenever `hasEnvelope` is
+   * true below) for temple/castle. Passed straight through rather than re-derived from occupied
+   * cells so a non-rectangular Temple shape renders as the actual polygon generated, not a
+   * bounding-box approximation of it. */
+  envelope?: { outline: GridPoint[]; corners: GridPoint[] };
 }) {
   const natural = mapStyle === "natural";
   const tomb = mapStyle === "tomb";
   const temple = mapStyle === "temple";
+  const castle = mapStyle === "castle";
   function floorTintFor(kind: NodeKind): string {
     if (tomb) return TOMB_FLOOR_TINT[kind];
     if (temple) return TEMPLE_FLOOR_TINT[kind];
+    if (castle) return CASTLE_FLOOR_TINT[kind];
     return FLOOR_TINT[kind];
   }
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -569,14 +613,76 @@ export function DungeonMap({
     rockHatchTicks(loop, i).map((t, j) => <line key={`cave-hatch-${i}-${j}`} x1={t.x1} y1={t.y1} x2={t.x2} y2={t.y2} stroke={INK} strokeWidth={1.1} opacity={0.6} strokeLinecap="round" />),
   );
 
-  // --- Temple's fortified outer envelope: trace the whole generated shape's outer silhouette and
-  // draw it as one thick wall band with corner towers — see the file-header note (#6) for why this
-  // is the achievable "one building" treatment, short of abandoning the book's own branching
-  // room-by-room/corridor-by-corridor procedure for a packed rectangular floor plan.
-  const envelopeLoop = temple ? outerEnvelopeLoop(new Set(cellOwner.keys())) : null;
-  const envelopeLoopPx = envelopeLoop?.map((p) => ({ x: px(p.x), y: py(p.y) })) ?? [];
-  const envelopeBandPath = envelopeLoopPx.length > 0 ? `M ${envelopeLoopPx.map((p) => `${p.x} ${p.y}`).join(" L ")} Z` : "";
-  const envelopeTurrets = envelopeLoop ? convexCorners(envelopeLoop).map((p) => ({ x: px(p.x), y: py(p.y) })) : [];
+  // --- Building envelope (temple and castle both): tracing the generated shape's own (jagged,
+  // gappy) silhouette still read as "a hewn maze with a thick outline," not "a building" — a real
+  // building's footprint is a solid volume with no gaps, but a branching room-by-room/corridor-by-
+  // corridor crawl sprawls with plenty of empty space between its arms. So instead, the envelope
+  // comes straight from buildingLayout.ts's own precise `envelope` prop (its actual polygon — a
+  // rectangle for Castle, or whichever shape Temple picked), with a hatch-filled background
+  // standing in for "undetailed solid construction" everywhere inside that shape the dice never
+  // actually reached. Real rooms/corridors still draw their own normal walls right on top,
+  // completely unchanged, so they read as distinct rooms carved out of that mass — see file-header
+  // notes (#6)/(#7).
+  const hasEnvelope = (temple || castle) && !!envelope;
+  const envelopeOutlinePx = envelope ? envelope.outline.map((p) => ({ x: px(p.x), y: py(p.y) })) : [];
+  const envelopeCornersPx = envelope ? envelope.corners.map((p) => ({ x: px(p.x), y: py(p.y) })) : [];
+  const envelopeFillPath = envelopeOutlinePx.length > 0 ? `M ${envelopeOutlinePx.map((p) => `${p.x} ${p.y}`).join(" L ")} Z` : "";
+
+  // A castle's envelope also gets crenellations (alternating merlon squares projecting outward
+  // along every side) and periodic wall towers (bigger round/square bumps, not just at the 4
+  // corners) — the map-scale details that read as "castle" the way a plain thick wall doesn't.
+  // Temple keeps a plain band instead — its pilasters are the interior signature. A plain
+  // (non-rotated) shape looks the same regardless of which side it sits on, so no per-side rotation
+  // math is needed for either.
+  const crenellations: { x: number; y: number }[] = [];
+  const wallTowers: { x: number; y: number; round: boolean; r: number }[] = [];
+  if (castle && envelopeOutlinePx.length >= 3) {
+    const CREN_PITCH = 10; // px: one merlon + one gap
+    const TOWER_PITCH = 46; // px: one wall tower roughly every 25-30 ft of wall
+    const CORNER_CLEARANCE = 16; // px: keep wall towers clear of the corner towers
+    for (let i = 0; i < envelopeOutlinePx.length; i++) {
+      const a = envelopeOutlinePx[i];
+      const b = envelopeOutlinePx[(i + 1) % envelopeOutlinePx.length];
+      const len = Math.hypot(b.x - a.x, b.y - a.y);
+      if (len < 1) continue;
+      const ux = (b.x - a.x) / len;
+      const uy = (b.y - a.y) / len;
+      const nx = -uy;
+      const ny = ux;
+      const crenCount = Math.max(2, Math.round(len / CREN_PITCH));
+      for (let t = 0; t < crenCount; t += 2) {
+        const along = (t + 0.5) * (len / crenCount);
+        crenellations.push({ x: a.x + ux * along + nx * 4.5, y: a.y + uy * along + ny * 4.5 });
+      }
+      const towerCount = Math.max(0, Math.round(len / TOWER_PITCH) - 1);
+      for (let t = 1; t <= towerCount; t++) {
+        const along = (t * len) / (towerCount + 1);
+        if (along < CORNER_CLEARANCE || len - along < CORNER_CLEARANCE) continue;
+        const tx = a.x + ux * along;
+        const ty = a.y + uy * along;
+        const rand = mulberry32(hashSeed(tx, ty, 3));
+        wallTowers.push({ x: tx + nx * 3, y: ty + ny * 3, round: rand() < 0.6, r: 6.5 + rand() * 3 });
+      }
+    }
+  }
+
+  // A castle's own main entrance reads as a proper gatehouse — two flanking towers either side of
+  // the actual threshold, not just wherever the periodic wall-tower spacing happened to land.
+  const gatehouseTowers: { x: number; y: number; round: boolean; r: number }[] = [];
+  if (castle) {
+    const mainEntrance = nodes.find((n) => n.label === "Main Entrance");
+    if (mainEntrance) {
+      const c = cellCenter(mainEntrance.anchor.x, mainEntrance.anchor.y);
+      const perp = perpVec(mainEntrance.heading);
+      for (const side of [-1, 1]) {
+        gatehouseTowers.push({ x: c.x + perp.dx * CELL_PX * 1.3 * side, y: c.y + perp.dy * CELL_PX * 1.3 * side, round: true, r: 8 });
+      }
+      // Drop any periodic wall tower that would otherwise overlap a gatehouse tower right next to it.
+      for (let i = wallTowers.length - 1; i >= 0; i--) {
+        if (gatehouseTowers.some((g) => Math.hypot(g.x - wallTowers[i].x, g.y - wallTowers[i].y) < 24)) wallTowers.splice(i, 1);
+      }
+    }
+  }
 
   // --- Wall extraction: any edge of an occupied cell facing an unoccupied neighbor is a wall ----
   // `nx`/`ny` (the direction toward that unoccupied neighbor) is kept per segment so the stipple
@@ -621,18 +727,22 @@ export function DungeonMap({
           )),
         );
 
-  // For a temple, exactly one room/chamber in the whole generated complex reads as the sanctuary
-  // (biggest floor area, ties broken by generation order) — picked here rather than per-node so
-  // every node's overlay below can just check its own id against it.
-  const sanctuaryId = temple
-    ? nodes
-        .filter((n) => n.kind === "room" || n.kind === "chamber")
-        .reduce<DungeonNode | null>((best, n) => {
-          const area = (n.widthFt ?? 1) * (n.lengthFt ?? 1);
-          const bestArea = best ? (best.widthFt ?? 1) * (best.lengthFt ?? 1) : -1;
-          return area > bestArea ? n : best;
-        }, null)?.id ?? null
-    : null;
+  // For a temple or castle, exactly one room/chamber in the whole generated complex reads as its
+  // centerpiece (biggest floor area, ties broken by generation order) — for a building-layout
+  // location this is, by construction, the central hall/courtyard itself. Picked here rather than
+  // per-node so every node's overlay below can just check its own id against it. A temple's
+  // centerpiece is its sanctuary (altar + colonnade); a castle's is its bailey (open, just a well —
+  // real castle courtyards were the working/muster yard, not a colonnaded hall).
+  const centerpieceId =
+    temple || castle
+      ? nodes
+          .filter((n) => n.kind === "room" || n.kind === "chamber")
+          .reduce<DungeonNode | null>((best, n) => {
+            const area = (n.widthFt ?? 1) * (n.lengthFt ?? 1);
+            const bestArea = best ? (best.widthFt ?? 1) * (best.lengthFt ?? 1) : -1;
+            return area > bestArea ? n : best;
+          }, null)?.id ?? null
+      : null;
 
   // --- Area numbers + content glyphs (trap/hazard/pool/stairs-in-room), one per node with cells -
   const areaOverlays = nodes
@@ -651,16 +761,18 @@ export function DungeonMap({
       const monsterName = node.encounter?.monster?.headingName;
       const letter = monsterName ? monsterLetters.get(monsterName) : undefined;
       const tokenCell = node.cells.length > 1 ? node.cells[0] : null;
-      const isSanctuary = temple && node.id === sanctuaryId;
-      const showPillars = (tomb && (node.kind === "room" || node.kind === "chamber")) || isSanctuary;
+      const isCenterpiece = (temple || castle) && node.id === centerpieceId;
+      const showPillars = (tomb && (node.kind === "room" || node.kind === "chamber")) || (temple && isCenterpiece);
       const pillars = showPillars ? roomPillars(node, px, py) : [];
-      const altar = isSanctuary ? roomBBoxPx(node, px, py) : null;
+      const altar = temple && isCenterpiece ? roomBBoxPx(node, px, py) : null;
+      const well = castle && isCenterpiece ? roomBBoxPx(node, px, py) : null;
       return (
         <g key={`${node.id}-overlay`}>
           {pillars.map((p, i) => (
             <PillarGlyph key={`pillar-${i}`} x={p.x} y={p.y} />
           ))}
           {altar && <AltarGlyph x={(altar.left + altar.right) / 2} y={altar.top + (altar.bottom - altar.top) * 0.22} />}
+          {well && <WellGlyph x={(well.left + well.right) / 2} y={(well.top + well.bottom) / 2} />}
           {node.areaNumber !== undefined && <AreaNumber x={cx} y={numberY} n={node.areaNumber} />}
           {letter && tokenCell && <MonsterLetterToken x={px(tokenCell.x) + CELL_PX / 2} y={py(tokenCell.y) + CELL_PX / 2} letter={letter} />}
           {stairsInRoom && <StairsGlyph x={cx} y={glyphY} heading={node.heading} natural={natural || node.kind === "cave" || node.kind === "cavern"} letter={stairDirectionLetter(node.label)} />}
@@ -756,9 +868,20 @@ export function DungeonMap({
             <feTurbulence type="fractalNoise" baseFrequency={0.045} numOctaves={2} result="noise" />
             <feDisplacementMap in="SourceGraphic" in2="noise" scale={2.2} xChannelSelector="R" yChannelSelector="G" />
           </filter>
+          {/* Diagonal-hatch fill for a building's "undetailed solid construction" background — the
+              standard architectural-plan convention for solid material in section, reused here for
+              whatever's inside the building's bounding rectangle that the dice never actually
+              reached. Real floor tiles are opaque and draw on top, covering this everywhere a room
+              or corridor actually exists. */}
+          <pattern id="building-fill-hatch" width={7} height={7} patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+            <rect width={7} height={7} fill={floorTintFor("corridor")} />
+            <line x1={0} y1={0} x2={0} y2={7} stroke={INK} strokeWidth={1} opacity={0.22} />
+          </pattern>
         </defs>
         {natural && <path d={naturalFloorPath} fill={FLOOR_TINT.cave} stroke="none" />}
-        {temple && envelopeBandPath && <path d={envelopeBandPath} fill="none" stroke={INK} strokeWidth={7} strokeLinejoin="round" opacity={0.85} />}
+        {hasEnvelope && envelopeFillPath && (
+          <path d={envelopeFillPath} fill="url(#building-fill-hatch)" stroke={INK} strokeWidth={7} strokeLinejoin="round" opacity={0.85} />
+        )}
         {floorTiles}
         {wallStipple}
         {naturalHatch}
@@ -768,8 +891,17 @@ export function DungeonMap({
           ))}
           {naturalWallPaths}
         </g>
-        {temple &&
-          envelopeTurrets.map((p, i) => <circle key={`turret-${i}`} cx={p.x} cy={p.y} r={5} fill={INK} stroke={PAPER} strokeWidth={1.5} />)}
+        {castle && crenellations.map((c, i) => <rect key={`cren-${i}`} x={c.x - 3.5} y={c.y - 3.5} width={7} height={7} fill={INK} />)}
+        {castle &&
+          [...wallTowers, ...gatehouseTowers].map((t, i) =>
+            t.round ? (
+              <circle key={`wtower-${i}`} cx={t.x} cy={t.y} r={t.r} fill={INK} stroke={PAPER} strokeWidth={1.5} />
+            ) : (
+              <rect key={`wtower-${i}`} x={t.x - t.r} y={t.y - t.r} width={t.r * 2} height={t.r * 2} fill={INK} stroke={PAPER} strokeWidth={1.5} />
+            ),
+          )}
+        {hasEnvelope &&
+          envelopeCornersPx.map((p, i) => <circle key={`turret-${i}`} cx={p.x} cy={p.y} r={castle ? 8.5 : 5} fill={INK} stroke={PAPER} strokeWidth={1.5} />)}
         {zeroCellHitTargets}
         {boundaryGlyphs}
         {areaOverlays}

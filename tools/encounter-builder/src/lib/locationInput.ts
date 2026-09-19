@@ -52,17 +52,29 @@ export function dungeonDataKeyFor(locationType: LocationType): string | null {
 
 /** DungeonMap.tsx's purely cosmetic per-subtype rendering style — none of these change placed
  * cells, doors, or connectivity, only how the same square-cell grid gets drawn. "natural" (Cave /
- * Cavern Network), "tomb" (Tomb/Crypt), and "temple" (Evil Temple/Shrine) are the only subtypes
- * with a style of their own so far; every other category/subtype (Sewer, Ruins, Standard Dungeon,
- * and every non-dungeon category) still reads as "constructed." */
-export type MapStyle = "constructed" | "natural" | "tomb" | "temple";
+ * Cavern Network) and "tomb" (Tomb/Crypt) still run on randomDungeon.ts's own branching walk, just
+ * skinned differently. "temple" (Evil Temple/Shrine) and "castle" (category "castle") are a bigger
+ * departure: `isBuildingLayout` below marks them as using generators/buildingLayout.ts's wholly
+ * different spatial algorithm instead (see that file's own header) — a real building's compact,
+ * packed footprint isn't achievable from the walk engine's organic branching shape at all, cosmetic
+ * skin or not. Sewer, Ruins, and Standard Dungeon still read as "constructed" (unstyled). */
+export type MapStyle = "constructed" | "natural" | "tomb" | "temple" | "castle";
 
 export function mapStyleFor(input: LocationInput): MapStyle {
+  if (input.category === "castle") return "castle";
   if (input.category !== "dungeon") return "constructed";
   if (input.dungeonSubtype === "Cave / Cavern Network") return "natural";
   if (input.dungeonSubtype === "Tomb / Crypt") return "tomb";
   if (input.dungeonSubtype === "Evil Temple / Shrine") return "temple";
   return "constructed";
+}
+
+/** Temple and Castle use generators/buildingLayout.ts's ring-of-rooms/courtyard algorithm instead
+ * of randomDungeon.ts's book-faithful branching walk — see `MapStyle`'s own doc comment for why.
+ * Exported so GeneratePanel.tsx can pick a generator, and DungeonMap.tsx/other callers don't need
+ * to duplicate the "which styles are building-layout" list. */
+export function isBuildingLayout(style: MapStyle): boolean {
+  return style === "temple" || style === "castle";
 }
 
 /** Appendix B's Unguarded Treasures table (and every other Appendix B lookup this app makes) is

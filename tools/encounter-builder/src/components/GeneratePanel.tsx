@@ -6,7 +6,7 @@
 // causally-interconnected plotting — out of reach for any dice procedure, not just this one).
 import { useRef, useState } from "react";
 import { rollDie } from "@shared/index";
-import { mapStyleFor, type LocationInput } from "../lib/locationInput";
+import { mapStyleFor, isBuildingLayout, type LocationInput } from "../lib/locationInput";
 import type { Scenario } from "../data/scenarios";
 import {
   createInitialState,
@@ -18,7 +18,10 @@ import {
   type DungeonNode,
   type GenState,
 } from "../generators/randomDungeon";
+import { generateBuildingLayout, type BuildingEnvelope } from "../generators/buildingLayout";
+import type { TempleShape } from "../generators/buildingShapes";
 import { narrateArea, areaTitle } from "../generators/narrate";
+import type { StockingEncounter } from "../generators/stockingRoom";
 import { DungeonMap } from "./DungeonMap";
 import { MonsterSummary } from "./Summaries";
 import { InlineMarkdown } from "./InlineMarkdown";
@@ -38,10 +41,11 @@ const LOCATION_LABELS: Record<LocationInput["category"], string> = {
   castle: "Castle",
 };
 
-function RandomEncountersBox({ locationInput, partyLevel }: { locationInput: LocationInput; partyLevel: number }) {
-  const [rows] = useState(() =>
-    Array.from({ length: 4 }, () => rollAreaEncounterFor(locationInput.category, locationInput.dungeonSubtype, locationInput.terrain, partyLevel)),
-  );
+function rollRandomEncounterRows(locationInput: LocationInput, partyLevel: number): StockingEncounter[] {
+  return Array.from({ length: 4 }, () => rollAreaEncounterFor(locationInput.category, locationInput.dungeonSubtype, locationInput.terrain, partyLevel));
+}
+
+function RandomEncountersBox({ rows }: { rows: StockingEncounter[] }) {
   return (
     <div className="random-encounters-box">
       <div className="random-encounters-header">Random Encounters</div>
@@ -116,13 +120,18 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
   const [maxNodes, setMaxNodes] = useState(10);
   const [straightenPercent, setStraightenPercent] = useState(0);
   const [startAreaChoice, setStartAreaChoice] = useState<StartAreaChoice>("empty");
+  const [templeShape, setTempleShape] = useState<TempleShape>("rectangle");
   const [nodes, setNodes] = useState<DungeonNode[]>([]);
+  const [envelope, setEnvelope] = useState<BuildingEnvelope | undefined>(undefined);
+  const [randomEncounterRows, setRandomEncounterRows] = useState<StockingEncounter[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [finished, setFinished] = useState(false);
   const [stepModeActive, setStepModeActive] = useState(false);
   const genStateRef = useRef<GenState | null>(null);
 
   const isDungeon = locationInput.category === "dungeon";
+  const mapStyle = mapStyleFor(locationInput);
+  const buildingLayout = isBuildingLayout(mapStyle);
   const areaNodes = nodes.filter((n) => n.areaNumber !== undefined).sort((a, b) => a.areaNumber! - b.areaNumber!);
   const title = `${LOCATION_LABELS[locationInput.category]}${isDungeon ? ` (${locationInput.dungeonSubtype})` : locationInput.category === "wilderness" ? ` (${locationInput.terrain})` : ""} — Party Level ${partyLevel}`;
 
@@ -139,6 +148,7 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
 
   function reset() {
     setNodes([]);
+    setEnvelope(undefined);
     setSelectedId(null);
     setFinished(false);
     setStepModeActive(false);
@@ -146,17 +156,29 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
   }
 
   function generateWhole() {
-    const result = straightenDeadEnds(generateWholeDungeon(baseOptions()), straightenPercent);
+    // Castle always uses the plain rectangle (see buildingLayout.ts) — the shape picker only
+    // applies to Temple.
+    const raw = buildingLayout
+      ? generateBuildingLayout(baseOptions(), mapStyle === "temple" ? templeShape : "rectangle")
+      : { nodes: generateWholeDungeon(baseOptions()), envelope: undefined };
+    const result = straightenDeadEnds(raw.nodes, straightenPercent);
+    setEnvelope(raw.envelope);
+    setRandomEncounterRows(rollRandomEncounterRows(locationInput, partyLevel));
     genStateRef.current = null;
     setStepModeActive(false);
     setNodes(result);
     setFinished(true);
-    setSelectedId(result[0]?.id ?? null);
+    // Prefer a numbered area over the literal first node — for a building layout that first node
+    // is one of the long aisle-ring corridors spanning most of the map's width, whose highlight box
+    // would otherwise blanket the top of the floor plan.
+    setSelectedId(result.find((n) => n.areaNumber !== undefined)?.id ?? result[0]?.id ?? null);
   }
 
   function startStepByStep() {
     const state = createInitialState(baseOptions());
     genStateRef.current = state;
+    setEnvelope(undefined); // step-through mode only ever drives the walk engine, never a building layout
+    setRandomEncounterRows(rollRandomEncounterRows(locationInput, partyLevel));
     setStepModeActive(true);
     setNodes([...state.nodes]);
     setFinished(false);
@@ -188,6 +210,15 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
         Builds a stocked location — floor plan, monsters, treasure, dressing, and traps — in one pass, following Appendix E's own
         procedure end to end instead of one table at a time.
       </p>
+      {buildingLayout && (
+        <p className="note">
+          Every room's own size, contents, treasure, and monsters still come straight from Appendix E's own tables, exactly like
+          any other location — only the floor plan's shape is this app's own invention. A {LOCATION_LABELS[locationInput.category]}
+          reads as one building, not a branching dungeon crawl, so its rooms are laid out in a ring around a central hall/courtyard
+          instead of Appendix E's own room-by-room/corridor-by-corridor walk (there's no book procedure for packing rooms into a
+          building's footprint at all).
+        </p>
+      )}
 
       <div className="field-row">
         <div className="field">
@@ -201,8 +232,9 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
             onChange={(e) => setMaxNodes(Math.min(60, Math.max(1, Number(e.target.value) || 10)))}
           />
           <p className="hint">
-            Counts rooms, chambers, caves, and stairs — not the corridors connecting them. Guaranteed: if the layout runs into dead
-            ends before reaching this many, generation adds another passage off an existing room rather than stopping short.
+            {buildingLayout
+              ? "Counts rooms lining the building's outer wall, plus the central hall — this location's own ring-and-courtyard layout (not Appendix E's branching walk; see the map's own hint below), so a rare oversized room roll can occasionally come in just under this number instead of stopping exactly on it."
+              : "Counts rooms, chambers, caves, and stairs — not the corridors connecting them. Guaranteed: if the layout runs into dead ends before reaching this many, generation adds another passage off an existing room rather than stopping short."}
           </p>
         </div>
         <div className="field">
@@ -222,7 +254,7 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
             never a corridor holding a rolled wandering-monster encounter.
           </p>
         </div>
-        {isDungeon && (
+        {isDungeon && !buildingLayout && (
           <div className="field">
             <label htmlFor="start-area">Starting Area (Table 1)</label>
             <select id="start-area" value={startAreaChoice} onChange={(e) => setStartAreaChoice(e.target.value === "empty" || e.target.value === "roll" ? e.target.value : (Number(e.target.value) as StartAreaChoice))}>
@@ -237,6 +269,24 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
             <p className="hint">The six pre-drawn layouts are approximated by door count and layout, not traced pixel-for-pixel from the book's art.</p>
           </div>
         )}
+        {mapStyle === "temple" && (
+          <div className="field">
+            <label htmlFor="temple-shape">Building Shape</label>
+            <select id="temple-shape" value={templeShape} onChange={(e) => setTempleShape(e.target.value as TempleShape)}>
+              <option value="rectangle">Rectangle</option>
+              <option value="rhombus">Rhombus</option>
+              <option value="hexagon">Hexagon</option>
+              <option value="octagon">Octagon</option>
+              <option value="star">Star</option>
+              <option value="circle">Circle</option>
+              <option value="oval">Oval</option>
+            </select>
+            <p className="hint">
+              Not part of Appendix E's own procedure — this app's own choice of exterior footprint. Every room's own size,
+              contents, treasure, and monsters still come from the book's own tables either way.
+            </p>
+          </div>
+        )}
       </div>
 
       <div className="field-row">
@@ -245,17 +295,19 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
         </button>
         {nodes.length > 0 && <button onClick={reset}>Reset</button>}
       </div>
-      <p className="hint">
-        {stepModeActive ? (
-          <button onClick={nextRoom} disabled={finished}>
-            {finished ? "Finished" : "Next Room →"}
-          </button>
-        ) : (
-          <button className="link-button" onClick={startStepByStep}>
-            Or step through it live, one area at a time
-          </button>
-        )}
-      </p>
+      {!buildingLayout && (
+        <p className="hint">
+          {stepModeActive ? (
+            <button onClick={nextRoom} disabled={finished}>
+              {finished ? "Finished" : "Next Room →"}
+            </button>
+          ) : (
+            <button className="link-button" onClick={startStepByStep}>
+              Or step through it live, one area at a time
+            </button>
+          )}
+        </p>
+      )}
 
       {nodes.length > 0 && (
         <div className="adventure-sheet">
@@ -266,7 +318,7 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
             </p>
           </div>
 
-          <RandomEncountersBox locationInput={locationInput} partyLevel={partyLevel} />
+          <RandomEncountersBox rows={randomEncounterRows} />
 
           {signatureItem && (
             <div className="signature-item-box">
@@ -281,7 +333,8 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
               selectedId={selectedId}
               onSelect={setSelectedId}
               category={locationInput.category}
-              mapStyle={mapStyleFor(locationInput)}
+              mapStyle={mapStyle}
+              envelope={envelope}
             />
           </div>
 

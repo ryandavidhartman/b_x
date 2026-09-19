@@ -195,7 +195,7 @@ function wallTurn(location: "Left Wall" | "Opposite Wall" | "Right Wall" | "Same
 const MAX_RECT_CELLS = 12; // 120 ft — caps giant caverns/unusual rooms so the map stays legible; noted on the node when it bites.
 const FT_PER_CELL = 10;
 
-function feetToCells(ft: number): number {
+export function feetToCells(ft: number): number {
   return Math.min(MAX_RECT_CELLS, Math.max(1, Math.round(ft / FT_PER_CELL)));
 }
 
@@ -283,7 +283,7 @@ type PendingWork =
   | { kind: "continue"; atNodeId: string }
   | { kind: "exit"; parentId: string; exitKind: "door" | "passage"; heading: Heading; wallSide: "side" | "straight" };
 
-function newId(state: GenState): string {
+export function newId(state: GenState): string {
   return `dn-${state.nextId++}`;
 }
 
@@ -296,7 +296,7 @@ function nodeById(state: GenState, id: string): DungeonNode | undefined {
  * resolveDoorWallCollision below). Everywhere else (mid-corridor turns, side passages) it's
  * silent, so this nudges the heading through a small set of alternatives before giving up and
  * telling the caller to terminate the branch instead — an invented fallback, not a book rule. */
-function tryPlace(state: GenState, cells: GridPoint[]): boolean {
+export function tryPlace(state: GenState, cells: GridPoint[]): boolean {
   if (cells.some((c) => state.occupied.has(cellKey(c)))) return false;
   cells.forEach((c) => state.occupied.add(cellKey(c)));
   return true;
@@ -317,7 +317,7 @@ function hasMappedNeighbor(state: GenState, cells: GridPoint[]): boolean {
   return false;
 }
 
-function makeNode(
+export function makeNode(
   state: GenState,
   parentId: string | null,
   kind: NodeKind,
@@ -377,7 +377,7 @@ function rollContainerAndSecurity(notes: string[]): { container: string; guard: 
   return { container, guard, hidden };
 }
 
-function rollRoomOrChamberContents(state: GenState, node: DungeonNode) {
+export function rollRoomOrChamberContents(state: GenState, node: DungeonNode) {
   const roll = rollDie(20);
   const contents = lookup(roll, CHAMBER_ROOM_CONTENTS);
   node.contents = contents;
@@ -484,13 +484,19 @@ function queueRoomExits(state: GenState, node: DungeonNode, areaSqFt: number, ki
 }
 
 // --- Room / chamber generation, shared by the initial room and every "behind the door" room ----
-function generateRoomOrChamber(
+// `rollExits` defaults to true (the walk engine's own behavior: every room rolls Table 5 for its
+// own further exits, which get queued as more work). The building-layout generator (buildingLayout.ts)
+// passes false — its rooms' connections are determined by grid adjacency, not by a random walk, so
+// there's nowhere for a Table 5 roll's outcome to go; skipping it avoids a roll-transcript entry
+// that describes exits the map never actually draws.
+export function generateRoomOrChamber(
   state: GenState,
   parentId: string | null,
   heading: Heading,
   anchor: GridPoint,
   kind: "room" | "chamber",
   connectionToParent: Connection,
+  rollExits: boolean = true,
 ) {
   // "The lowest levels of a dungeon are often composed of caves and caverns. Use the table
   // below for caves and caverns, and roll for exits on Table 5." The book doesn't say exactly
@@ -504,7 +510,7 @@ function generateRoomOrChamber(
     notes.push(`Table 13 (Caves): ${cave.label}`);
     if (cave.poolNote) notes.push(`Pool: ${cave.poolNote}`);
     if (cave.lakeNote) notes.push(`Lake: ${cave.lakeNote}`);
-    const node = commitRoom(state, parentId, heading, anchor, "chamber", cave.label, cave.width, cave.length, notes, connectionToParent, "cave", "Cave/Cavern");
+    const node = commitRoom(state, parentId, heading, anchor, "chamber", cave.label, cave.width, cave.length, notes, connectionToParent, rollExits, "cave", "Cave/Cavern");
     return node;
   }
   const notes: string[] = [];
@@ -535,7 +541,7 @@ function generateRoomOrChamber(
         length = 30;
         shapeLabel = `Circular (${feature})`;
         notes.push(`No book-specified size for a Circular room with a ${feature} — defaulted to 30 x 30 ft (engine judgment call).`);
-        const node = commitRoom(state, parentId, heading, anchor, kind, shapeLabel, width, length, notes, connectionToParent);
+        const node = commitRoom(state, parentId, heading, anchor, kind, shapeLabel, width, length, notes, connectionToParent, rollExits);
         return node;
       }
     }
@@ -552,7 +558,7 @@ function generateRoomOrChamber(
     length = sizeResult.length;
   }
 
-  return commitRoom(state, parentId, heading, anchor, kind, shapeLabel, width, length, notes, connectionToParent);
+  return commitRoom(state, parentId, heading, anchor, kind, shapeLabel, width, length, notes, connectionToParent, rollExits);
 }
 
 function commitRoom(
@@ -566,6 +572,7 @@ function commitRoom(
   length: number,
   notes: string[],
   connectionToParent: Connection,
+  rollExits: boolean = true,
   nodeKind: NodeKind = kind,
   labelPrefix: string = kind === "room" ? "Room" : "Chamber",
 ): DungeonNode | null {
@@ -595,7 +602,7 @@ function commitRoom(
   node.lengthFt = length;
   node.shapeLabel = shapeLabel;
   rollRoomOrChamberContents(state, node);
-  if (node.contents !== "Stairs") {
+  if (rollExits && node.contents !== "Stairs") {
     queueRoomExits(state, node, width * length, kind);
   }
   return node;
