@@ -132,6 +132,10 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
   const isDungeon = locationInput.category === "dungeon";
   const mapStyle = mapStyleFor(locationInput);
   const buildingLayout = isBuildingLayout(mapStyle);
+  const buildingLayoutNote =
+    mapStyle === "ruins"
+      ? "A Ruins site reads as the recognizable footprint of a fallen building (rendered broken-down, not intact) rather than a branching dungeon crawl, so its rooms are laid out in a ring around a central hall/courtyard"
+      : `A ${mapStyle === "castle" ? "Castle" : "Temple"} reads as one building, not a branching dungeon crawl, so its rooms are laid out in a ring around a central hall/courtyard`;
   const areaNodes = nodes.filter((n) => n.areaNumber !== undefined).sort((a, b) => a.areaNumber! - b.areaNumber!);
   const title = `${LOCATION_LABELS[locationInput.category]}${isDungeon ? ` (${locationInput.dungeonSubtype})` : locationInput.category === "wilderness" ? ` (${locationInput.terrain})` : ""} — Party Level ${partyLevel}`;
 
@@ -213,10 +217,9 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
       {buildingLayout && (
         <p className="note">
           Every room's own size, contents, treasure, and monsters still come straight from Appendix E's own tables, exactly like
-          any other location — only the floor plan's shape is this app's own invention. A {LOCATION_LABELS[locationInput.category]}
-          reads as one building, not a branching dungeon crawl, so its rooms are laid out in a ring around a central hall/courtyard
-          instead of Appendix E's own room-by-room/corridor-by-corridor walk (there's no book procedure for packing rooms into a
-          building's footprint at all).
+          any other location — only the floor plan's shape is this app's own invention. {buildingLayoutNote} instead of Appendix
+          E's own room-by-room/corridor-by-corridor walk (there's no book procedure for packing rooms into a building's footprint
+          at all).
         </p>
       )}
 
@@ -335,6 +338,7 @@ export function GeneratePanel({ partyLevel, locationInput, scenario }: { partyLe
               category={locationInput.category}
               mapStyle={mapStyle}
               envelope={envelope}
+              terrain={locationInput.terrain}
             />
           </div>
 

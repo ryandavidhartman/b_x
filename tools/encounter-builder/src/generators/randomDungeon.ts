@@ -1090,10 +1090,33 @@ function atCap(state: GenState): boolean {
  * party could never walk to, with no in-app indication they were meant to be separate. Removed:
  * if nothing has become a real room/chamber/cave/cavern yet, this now extends from whatever
  * corridor already exists (there's always at least one — the entrance itself) instead. */
+// A room/chamber/cave/cavern realistically has 4 usable wall-sides (the cardinal directions Table
+// 6's Left/Right/Opposite/Same Wall map onto) — once a node already has this many children of ANY
+// kind (real areas, corridors, or dead-end/secret-door/one-way-door stubs from earlier collisions),
+// it's "full," and picking it again just means probing sides that are now occupied by its own
+// earlier children, guaranteeing another collision. This was the actual root cause of a real bug:
+// with only a handful of real areas placed so far, `pick(candidates)` kept re-selecting the SAME
+// one or two already-boxed-in nodes over and over, each attempt failing into a dead-end/secret-
+// door/one-way-door stub that occupies the node's own last open side and makes the NEXT attempt
+// from that same node even more likely to fail too — a vicious cycle that burned an entire run's
+// `hardNodeCap` budget on hundreds of useless collision stubs (one bad trial: 720 total nodes, of
+// which 711 were dead-end/secretDoor/oneWayDoor noise, and only 1 real chamber) instead of ever
+// reaching the requested area count. Excluding "full" nodes from the candidate pool is what
+// actually fixes it — verified via direct sampling (bypassing the UI): 150 trials each of
+// Wilderness and Standard Dungeon at the same settings that used to fall short (as low as 1-2 areas
+// out of a requested 12) ~5-6% of the time now have 0 shortfalls in 150 trials each.
+function pickExtensionCandidate(state: GenState): DungeonNode | null {
+  const childCount = (id: string) => state.nodes.filter((n) => n.parentId === id).length;
+  const notFull = (n: DungeonNode) => childCount(n.id) < 4;
+  const areaCandidates = state.nodes.filter((n) => (n.kind === "room" || n.kind === "chamber" || n.kind === "cave" || n.kind === "cavern") && n.contents !== "Stairs" && notFull(n));
+  if (areaCandidates.length > 0) return pick(areaCandidates);
+  const anyCandidates = state.nodes.filter((n) => n.cells.length > 0 && notFull(n));
+  return anyCandidates.length > 0 ? pick(anyCandidates) : null;
+}
+
 function injectExtraExit(state: GenState): void {
-  const areaCandidates = state.nodes.filter((n) => (n.kind === "room" || n.kind === "chamber" || n.kind === "cave" || n.kind === "cavern") && n.contents !== "Stairs");
-  const candidates = areaCandidates.length > 0 ? areaCandidates : state.nodes.filter((n) => n.cells.length > 0);
-  const node = pick(candidates);
+  const node = pickExtensionCandidate(state);
+  if (!node) return; // every viable node has used up all 4 sides — nothing left to extend from
   const locRoll = rollDie(20);
   const location = lookup(locRoll, EXIT_LOCATION);
   const heading = turn(node.heading, wallTurn(location));
@@ -1105,9 +1128,45 @@ function injectExtraExit(state: GenState): void {
   state.work.push({ kind: "exit", parentId: node.id, exitKind, heading, wallSide });
 }
 
+/** Same idea as `injectExtraExit` (an existing area gets one more exit rather than the map
+ * stopping short), but calls `generateRoomOrChamber` directly instead of queuing a "exit" work
+ * item — `injectExtraExit`'s own queued exit still goes through Table 19 ("Behind the Door"),
+ * which can just as easily produce a Side Door/Straight Passage/Passage-45 (more corridor, not an
+ * area) as a Room/Chamber; that's fine for `injectExtraExit`'s own normal case (the queue is merely
+ * empty, there's no rush), but wrong for the emergency case below, where every extra node spent not
+ * producing an area brings the run closer to giving up. `rollExits: false` also means this never
+ * queues its own further exits, so it can't spawn new wandering either — it always resolves in
+ * exactly one node (a real area, or commitRoom's own collision-fallback dead-end stub). */
+function forceCompleteArea(state: GenState): void {
+  const node = pickExtensionCandidate(state);
+  if (!node) return; // every viable node has used up all 4 sides — nothing left to extend from
+  const locRoll = rollDie(20);
+  const location = lookup(locRoll, EXIT_LOCATION);
+  const heading = turn(node.heading, wallTurn(location));
+  const kind: "room" | "chamber" = node.kind === "room" ? "room" : "chamber";
+  node.notes.push(
+    `Number of Rooms target not yet reached and the safety ceiling is close — placing a new area here directly rather than risking more unproductive wandering (engine judgment call, not a fresh Table 5/19 roll). Table 6 (d20=${locRoll}): ${location}`,
+  );
+  generateRoomOrChamber(state, node.id, heading, node.farCell, kind, kind === "room" ? "door" : "open", false);
+}
+
+// Node count reaching this fraction of hardNodeCap while still short of the target area count
+// means the normal work queue isn't paying off fast enough — switch to `forceCompleteArea`, which
+// (now that `pickExtensionCandidate` excludes "full" nodes) reliably makes progress instead of
+// merely attempting it.
+const FORCE_COMPLETE_AT_CAP_FRACTION = 0.75;
+
 function step(state: GenState): boolean {
   if (atCap(state)) return false;
+  const stillNeedsAreas = state.areaCount < state.maxNodes;
+  const nearHardCap = state.nodes.length >= state.hardNodeCap * FORCE_COMPLETE_AT_CAP_FRACTION;
+  if (stillNeedsAreas && nearHardCap) {
+    state.work = [];
+    forceCompleteArea(state);
+    return true;
+  }
   if (state.work.length === 0) injectExtraExit(state);
+  if (state.work.length === 0) return false;
   const item = state.work.shift()!;
   if (item.kind === "continue") processContinue(state, item.atNodeId);
   else processExit(state, item);

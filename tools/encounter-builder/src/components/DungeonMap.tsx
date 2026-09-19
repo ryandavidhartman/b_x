@@ -62,10 +62,45 @@
 //    band, bigger round corner towers than a temple's small corner dot, and its centerpiece room
 //    (see note #6's `centerpieceId`) reads as the bailey/courtyard — a plain well, not a temple's
 //    altar-and-colonnade sanctuary, since a real castle courtyard was a working/muster yard.
+//
+// 8. A "Sewer" dungeon keeps randomDungeon.ts's own branching walk untouched (a sewer network IS
+//    the kind of organic branching tunnel system that procedure already produces — no reason to
+//    invent a packed floor plan the way Temple/Castle needed) and just reads as damp, grimy brick:
+//    a murky green-brown floor tint, denser/shorter brick-joint wall ticks than a tomb's dressed
+//    ashlar plus an occasional inward water-stain "drip" (`sewerBrickTicksForWall`), a wavy sewage
+//    channel drawn down the middle of every corridor (`sewerChannels`) — the one map-scale detail
+//    that reads as "sewer" at a glance — and a round manhole-grate glyph (`ManholeGlyph`) in place
+//    of the book's own ladder-tread stairs glyph.
+//
+// 9. A "Ruins" dungeon uses generators/buildingLayout.ts's plain rectangle — same skeleton as
+//    Castle (see note #6/#7) — since a ruin is meant to read as the recognizable footprint of a
+//    fallen keep or temple, not a sprawling dungeon crawl, but everything about its rendering says
+//    "long abandoned" instead of "intact": a mossy grey-green floor tint, every wall stroked with
+//    an irregular broken `strokeDasharray` (`ruinsDashArray`) rather than a solid line, fallen-stone
+//    rubble scattered on BOTH sides of every wall (`rubbleForWall` — unlike every other style's
+//    stipple/joints, which only ever mark the outward side), sparse weed tufts growing through the
+//    floor (`weedTuft`), and no corner towers, crenellations, or interior pilasters at all — they've
+//    crumbled along with the rest of the structure.
+//
+// 10. Wilderness is the biggest departure of the four "still on randomDungeon.ts's own branching
+//     walk" styles (see the file's own MapStyle-adjacent comments): walls, doors, and boxed rooms
+//     are the wrong visual language for open terrain no matter what they're labeled, so this skips
+//     wall extraction, door glyphs, and per-cell floor tiles entirely. Instead: one terrain-tinted
+//     background wash across the whole explored area with scattered decorative marks
+//     (`renderTerrainMark`, data in `lib/wildernessStyles.ts` — one of 14 bespoke terrains, chosen
+//     by the `terrain` prop) standing in for the walk's own occupied cells; a dashed trail line
+//     (colored/dashed per terrain) tracing every node's own anchor-to-far-end path, which chains up
+//     through the whole node tree exactly the way the walk's cells already do, with no extra
+//     bookkeeping; a plain circle marker (`WildernessAreaMarker`) instead of a walled footprint for
+//     every "area" (room/chamber/cave/stairs); and an up/down chevron (`ElevationGlyph`) instead of
+//     the book's own indoor ladder-tread glyph for a Table 12 "stairs" (Appendix E's broadened scope
+//     calls it "Elevation Change" outdoors). Content glyphs (trap/hazard/pool/monster letters) are
+//     unchanged — a trap or a pool of water makes just as much sense outdoors as in.
 import { useEffect, useState, type ReactNode } from "react";
 import { firstStepVector, type DungeonNode, type NodeKind, type Heading, type GridPoint } from "../generators/randomDungeon";
 import type { LocationCategory, MapStyle } from "../lib/locationInput";
 import { boundaryLoops, jitterLoop, smoothClosedPath, rockHatchTicks, hashSeed, mulberry32 } from "../lib/caveBoundary";
+import { TERRAIN_STYLES, type MarkKind } from "../lib/wildernessStyles";
 
 const CELL_PX = 18;
 const PAD_CELLS = 2;
@@ -127,6 +162,214 @@ function masonryTicksForWall(x1: number, y1: number, x2: number, y2: number, nx:
   });
 }
 
+/** A Sewer wall reads as damp brick — denser, shorter joint ticks than a tomb's dressed ashlar
+ * (bricks are smaller than worked stone blocks), plus an occasional water-stain "drip" running
+ * INWARD from the wall into the floor on a random fraction of segments, representing seepage —
+ * the one texture in this app that points toward the floor instead of away from it. */
+function sewerBrickTicksForWall(x1: number, y1: number, x2: number, y2: number, nx: number, ny: number): { x1: number; y1: number; x2: number; y2: number }[] {
+  const rand = mulberry32(hashSeed(x1, y1, x2, y2, 17));
+  const ticks = [0.25, 0.5, 0.75].map((t) => {
+    const bx = x1 + (x2 - x1) * t;
+    const by = y1 + (y2 - y1) * t;
+    const len = 1.6 + rand() * 1.1;
+    return { x1: bx, y1: by, x2: bx + nx * len, y2: by + ny * len };
+  });
+  if (rand() < 0.22) {
+    const t = 0.2 + rand() * 0.6;
+    const bx = x1 + (x2 - x1) * t;
+    const by = y1 + (y2 - y1) * t;
+    const len = 3 + rand() * 5;
+    ticks.push({ x1: bx, y1: by, x2: bx - nx * len, y2: by - ny * len });
+  }
+  return ticks;
+}
+
+/** A Ruins wall isn't a continuous line at all — it's what's left of one, with whole stretches
+ * collapsed. `strokeDasharray` gives every wall segment its own irregular broken pattern (a
+ * genuinely gapped wall — actually omitting geometry — would mean an occupied cell facing a wall
+ * that never renders at all, indistinguishable from a real opening; a dash pattern reads as
+ * "crumbling" while keeping every wall visibly present). Hashed per-segment so parallel walls don't
+ * all break at the same points. */
+function ruinsDashArray(x1: number, y1: number, x2: number, y2: number): string {
+  const rand = mulberry32(hashSeed(x1, y1, x2, y2, 23));
+  const parts: number[] = [];
+  for (let i = 0; i < 4; i++) parts.push(2 + rand() * 6);
+  return parts.join(",");
+}
+
+/** Rubble — fallen stone chunks scattered on BOTH sides of a ruined wall (unlike every other
+ * style's stipple/joints, which only ever mark the outward/unmapped side), since a real collapse
+ * spills debris into the room as readily as outward. Bigger, rougher, and more irregular than
+ * `stippleForWall`'s tidy rock speckle. */
+function rubbleForWall(x1: number, y1: number, x2: number, y2: number, nx: number, ny: number): { cx: number; cy: number; r: number }[] {
+  const rand = mulberry32(hashSeed(x1, y1, x2, y2, 29));
+  const chunks: { cx: number; cy: number; r: number }[] = [];
+  const count = 2 + Math.floor(rand() * 3);
+  for (let i = 0; i < count; i++) {
+    const t = 0.1 + rand() * 0.8;
+    const side = rand() < 0.6 ? 1 : -1; // debris skews outward, but plenty falls inward too
+    const off = 1 + rand() * 5;
+    chunks.push({
+      cx: x1 + (x2 - x1) * t + nx * off * side,
+      cy: y1 + (y2 - y1) * t + ny * off * side,
+      r: 0.8 + rand() * 1.6,
+    });
+  }
+  return chunks;
+}
+
+/** Not a book map symbol — a Ruins-only decoration: a small weed/moss tuft growing up through a
+ * crack, scattered sparsely across the floor (this app's own addition; overgrowth isn't a book map
+ * symbol at all). Purely a per-cell hashed chance, independent of anything rolled for that room. */
+function weedTuft(cx: number, cy: number, seedX: number, seedY: number): { x1: number; y1: number; x2: number; y2: number }[] {
+  const rand = mulberry32(hashSeed(seedX, seedY, 37));
+  const baseAngle = -Math.PI / 2 + (rand() - 0.5) * 0.8;
+  const spread = 0.35 + rand() * 0.25;
+  const len = 3.5 + rand() * 3;
+  return [-spread, 0, spread].map((offset) => ({
+    x1: cx,
+    y1: cy,
+    x2: cx + Math.cos(baseAngle + offset) * len,
+    y2: cy + Math.sin(baseAngle + offset) * len,
+  }));
+}
+
+/** Draws one of `lib/wildernessStyles.ts`'s per-terrain decorative marks at (cx,cy) — every kind
+ * gets a small amount of hashed per-instance jitter (size/angle) so a field of the same mark never
+ * looks like a stamped copy-paste, same spirit as this file's other hand-drawn textures. Not a book
+ * map symbol for any of these — purely this app's own terrain dressing (file-header note #10). */
+function renderTerrainMark(kind: MarkKind, cx: number, cy: number, color: string, scale: number, seedX: number, seedY: number): ReactNode {
+  const rand = mulberry32(hashSeed(seedX, seedY, 43));
+  const s = scale;
+  switch (kind) {
+    case "tree": {
+      const r = (4 + rand() * 2) * s;
+      return (
+        <g key={`${seedX},${seedY}`}>
+          <line x1={cx} y1={cy + r * 0.6} x2={cx} y2={cy + r * 1.3} stroke={color} strokeWidth={1.2 * s} />
+          <circle cx={cx} cy={cy} r={r} fill={color} opacity={0.75} />
+        </g>
+      );
+    }
+    case "wave": {
+      const w = (6 + rand() * 2) * s;
+      const h = 3 * s;
+      return (
+        <path
+          key={`${seedX},${seedY}`}
+          d={`M ${cx - w} ${cy} Q ${cx - w / 2} ${cy - h} ${cx} ${cy} Q ${cx + w / 2} ${cy + h} ${cx + w} ${cy}`}
+          fill="none"
+          stroke={color}
+          strokeWidth={1.3 * s}
+          strokeLinecap="round"
+        />
+      );
+    }
+    case "arc": {
+      const w = (7 + rand() * 3) * s;
+      const h = (2.5 + rand() * 1.5) * s;
+      return <path key={`${seedX},${seedY}`} d={`M ${cx - w} ${cy} Q ${cx} ${cy - h} ${cx + w} ${cy}`} fill="none" stroke={color} strokeWidth={1.3 * s} strokeLinecap="round" />;
+    }
+    case "rockCluster": {
+      const parts = [0, 1, 2].map((i) => {
+        const ang = rand() * Math.PI * 2;
+        const dist = i === 0 ? 0 : (2 + rand() * 2) * s;
+        return { cx: cx + Math.cos(ang) * dist, cy: cy + Math.sin(ang) * dist, r: (1.6 + rand() * 1.4) * s };
+      });
+      return (
+        <g key={`${seedX},${seedY}`}>
+          {parts.map((p, i) => (
+            <circle key={i} cx={p.cx} cy={p.cy} r={p.r} fill={color} opacity={0.7} />
+          ))}
+        </g>
+      );
+    }
+    case "tuft": {
+      const baseAngle = -Math.PI / 2 + (rand() - 0.5) * 0.8;
+      const spread = 0.35 + rand() * 0.25;
+      const len = (3.5 + rand() * 3) * s;
+      return (
+        <g key={`${seedX},${seedY}`}>
+          {[-spread, 0, spread].map((offset, i) => (
+            <line key={i} x1={cx} y1={cy} x2={cx + Math.cos(baseAngle + offset) * len} y2={cy + Math.sin(baseAngle + offset) * len} stroke={color} strokeWidth={1.2 * s} strokeLinecap="round" />
+          ))}
+        </g>
+      );
+    }
+    case "tombstone": {
+      const w = 4 * s;
+      const h = 5 * s;
+      return (
+        <path
+          key={`${seedX},${seedY}`}
+          d={`M ${cx - w} ${cy + h} L ${cx - w} ${cy} A ${w} ${w} 0 0 1 ${cx + w} ${cy} L ${cx + w} ${cy + h} Z`}
+          fill={color}
+          opacity={0.7}
+          stroke={color}
+          strokeWidth={0.5}
+        />
+      );
+    }
+    case "reedClump": {
+      const count = 3;
+      return (
+        <g key={`${seedX},${seedY}`}>
+          {Array.from({ length: count }, (_, i) => {
+            const dx = (i - (count - 1) / 2) * 1.6 * s;
+            const len = (6 + rand() * 3) * s;
+            const bow = (rand() - 0.5) * 2 * s;
+            return <path key={i} d={`M ${cx + dx} ${cy} Q ${cx + dx + bow} ${cy - len / 2} ${cx + dx} ${cy - len}`} fill="none" stroke={color} strokeWidth={1.1 * s} strokeLinecap="round" />;
+          })}
+        </g>
+      );
+    }
+    case "snowflake": {
+      const r = (3 + rand()) * s;
+      return (
+        <g key={`${seedX},${seedY}`} stroke={color} strokeWidth={1 * s} strokeLinecap="round">
+          <line x1={cx - r} y1={cy} x2={cx + r} y2={cy} />
+          <line x1={cx} y1={cy - r} x2={cx} y2={cy + r} />
+          <line x1={cx - r * 0.7} y1={cy - r * 0.7} x2={cx + r * 0.7} y2={cy + r * 0.7} />
+          <line x1={cx - r * 0.7} y1={cy + r * 0.7} x2={cx + r * 0.7} y2={cy - r * 0.7} />
+        </g>
+      );
+    }
+    case "cactus": {
+      const h = (7 + rand() * 2) * s;
+      return (
+        <g key={`${seedX},${seedY}`} stroke={color} strokeWidth={1.6 * s} strokeLinecap="round" fill="none">
+          <line x1={cx} y1={cy + h / 2} x2={cx} y2={cy - h / 2} />
+          <path d={`M ${cx} ${cy} h ${3 * s} v ${-3 * s}`} />
+        </g>
+      );
+    }
+    case "fencePost": {
+      const w = 5 * s;
+      return (
+        <g key={`${seedX},${seedY}`} stroke={color} strokeWidth={1.2 * s}>
+          <line x1={cx - w} y1={cy - 2 * s} x2={cx - w} y2={cy + 2 * s} />
+          <line x1={cx + w} y1={cy - 2 * s} x2={cx + w} y2={cy + 2 * s} />
+          <line x1={cx - w} y1={cy} x2={cx + w} y2={cy} />
+        </g>
+      );
+    }
+    case "cropRow": {
+      const w = 6 * s;
+      return (
+        <g key={`${seedX},${seedY}`} stroke={color} strokeWidth={1 * s} opacity={0.8}>
+          {[-2, 0, 2].map((dy, i) => (
+            <line key={i} x1={cx - w} y1={cy + dy * s} x2={cx + w} y2={cy + dy * s} />
+          ))}
+        </g>
+      );
+    }
+    case "pool": {
+      const rx = (4 + rand() * 2) * s;
+      return <ellipse key={`${seedX},${seedY}`} cx={cx} cy={cy} rx={rx} ry={rx * 0.6} fill={color} opacity={0.6} />;
+    }
+  }
+}
+
 // Light floor tint by node kind — walls now carry the real structural signal, so this just gives
 // an at-a-glance sense of room vs. corridor vs. natural cave, much lighter than the old fills.
 const FLOOR_TINT: Record<NodeKind, string> = {
@@ -153,6 +396,20 @@ const TOMB_FLOOR_TINT: Record<NodeKind, string> = {
   deadEnd: "#d8d2c0",
   secretDoor: "#d8d2c0",
   oneWayDoor: "#d8d2c0",
+};
+
+// A Sewer reads as damp, grimy brick — a murky green-brown cast, distinct from every other style's
+// dry-stone palette.
+const SEWER_FLOOR_TINT: Record<NodeKind, string> = {
+  room: "#d7dcc4",
+  chamber: "#d0d6b9",
+  corridor: "#c8cfae",
+  cave: "#dde8d6",
+  cavern: "#dde8d6",
+  stairs: "#cfe0eb",
+  deadEnd: "#c8cfae",
+  secretDoor: "#c8cfae",
+  oneWayDoor: "#c8cfae",
 };
 
 // An Evil Temple/Shrine reads as worked stone too, but with a faint unwholesome wine/plum cast
@@ -182,6 +439,20 @@ const CASTLE_FLOOR_TINT: Record<NodeKind, string> = {
   deadEnd: "#d5d8dc",
   secretDoor: "#d5d8dc",
   oneWayDoor: "#d5d8dc",
+};
+
+// A Ruins site reads as long-abandoned, overgrown stone — a cool, mossy grey-green, distinct from
+// every other style's dry (or, for Sewer, wet-but-warm) palette.
+const RUINS_FLOOR_TINT: Record<NodeKind, string> = {
+  room: "#cfd8c4",
+  chamber: "#c7d2b8",
+  corridor: "#bfccae",
+  cave: "#dde8d6",
+  cavern: "#dde8d6",
+  stairs: "#cfe0eb",
+  deadEnd: "#bfccae",
+  secretDoor: "#bfccae",
+  oneWayDoor: "#bfccae",
 };
 
 /** An Evil Temple/Shrine wall reads as monumental built architecture — regularly-spaced outward
@@ -315,6 +586,49 @@ function StairsGlyph({ x, y, heading, natural, letter }: { x: number; y: number;
       </text>
     </g>
   );
+}
+
+/** Not a book map symbol — a Sewer-only decoration (file-header note #8) marking a Table 12 stairs
+ * result as a street-level manhole instead of the book's own ladder-tread glyph: a round grate
+ * (a circle with a cross-hatch of bars) rather than a rectangular rung ladder, since that's how a
+ * sewer's own vertical access points actually look from above. */
+function ManholeGlyph({ x, y, letter }: { x: number; y: number; letter: "U" | "D" }) {
+  const r = CELL_PX * 0.32;
+  return (
+    <g>
+      <circle cx={x} cy={y} r={r} fill={PAPER} stroke={INK} strokeWidth={1.8} />
+      {[-0.5, 0, 0.5].map((t) => (
+        <line key={`h${t}`} x1={x - r * 0.85} y1={y + t * r} x2={x + r * 0.85} y2={y + t * r} stroke={INK} strokeWidth={1} />
+      ))}
+      <text x={x + r + CELL_PX * 0.28} y={y} textAnchor="middle" dominantBaseline="central" fontSize={CELL_PX * 0.55} fontWeight={700} fill={INK} stroke={PAPER} strokeWidth={2} paintOrder="stroke">
+        {letter}
+      </text>
+    </g>
+  );
+}
+
+/** Not a book map symbol — a Wilderness-only decoration (file-header note #10) marking a Table 12
+ * "stairs" result (Appendix E's broadened scope's "Elevation Change") as a simple up/down chevron
+ * instead of the book's own indoor ladder-tread glyph, which has nothing to climb outdoors. */
+function ElevationGlyph({ x, y, letter }: { x: number; y: number; letter: "U" | "D" }) {
+  const s = CELL_PX * 0.32;
+  const dir = letter === "U" ? -1 : 1;
+  return (
+    <g>
+      <polyline points={`${x - s},${y + s * 0.35 * dir} ${x},${y - s * 0.55 * dir} ${x + s},${y + s * 0.35 * dir}`} fill="none" stroke={INK} strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+      <text x={x} y={y + s * 1.3 * dir} textAnchor="middle" dominantBaseline="central" fontSize={CELL_PX * 0.45} fontWeight={700} fill={INK} stroke={PAPER} strokeWidth={2} paintOrder="stroke">
+        {letter}
+      </text>
+    </g>
+  );
+}
+
+/** Not a book map symbol — a Wilderness-only decoration (file-header note #10): every other style
+ * shows an "area" (room/chamber/cave/stairs) as its own walled-off cell footprint, but there's
+ * nothing to wall off outdoors, so a Wilderness area is just this plain marker — a circle with its
+ * key number — at the area's own centroid, the way a real wilderness map marks a point of interest. */
+function WildernessAreaMarker({ x, y }: { x: number; y: number }) {
+  return <circle cx={x} cy={y} r={CELL_PX * 0.62} fill={PAPER} stroke={INK} strokeWidth={1.8} opacity={0.92} />;
 }
 
 /** Book legend: plain "T" for Trap (uncircled — only the trap-DOOR variants get a circled letter
@@ -502,6 +816,7 @@ export function DungeonMap({
   category,
   mapStyle,
   envelope,
+  terrain,
 }: {
   nodes: DungeonNode[];
   selectedId: string | null;
@@ -517,15 +832,25 @@ export function DungeonMap({
    * cells so a non-rectangular Temple shape renders as the actual polygon generated, not a
    * bounding-box approximation of it. */
   envelope?: { outline: GridPoint[]; corners: GridPoint[] };
+  /** One of Appendix D's 14 wilderness terrain names — only meaningful when `mapStyle==="wilderness"`
+   * (see file-header note #10 and `lib/wildernessStyles.ts`); undefined for every other style. */
+  terrain?: string;
 }) {
   const natural = mapStyle === "natural";
   const tomb = mapStyle === "tomb";
+  const sewer = mapStyle === "sewer";
+  const wilderness = mapStyle === "wilderness";
+  const terrainStyle = wilderness ? (TERRAIN_STYLES[terrain ?? ""] ?? TERRAIN_STYLES.Plains) : null;
   const temple = mapStyle === "temple";
   const castle = mapStyle === "castle";
+  const ruins = mapStyle === "ruins";
   function floorTintFor(kind: NodeKind): string {
     if (tomb) return TOMB_FLOOR_TINT[kind];
+    if (sewer) return SEWER_FLOOR_TINT[kind];
     if (temple) return TEMPLE_FLOOR_TINT[kind];
     if (castle) return CASTLE_FLOOR_TINT[kind];
+    if (ruins) return RUINS_FLOOR_TINT[kind];
+    if (wilderness) return "transparent"; // one terrain-wide background wash instead — see note #10
     return FLOOR_TINT[kind];
   }
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -591,7 +916,7 @@ export function DungeonMap({
         width={CELL_PX}
         height={CELL_PX}
         fill={natural ? "transparent" : floorTintFor(node.kind)}
-        stroke={natural ? "none" : "rgba(58,47,34,0.16)"}
+        stroke={natural || wilderness ? "none" : "rgba(58,47,34,0.16)"}
         strokeWidth={0.75}
         onClick={() => onSelect(node.id)}
         style={{ cursor: "pointer" }}
@@ -613,6 +938,112 @@ export function DungeonMap({
     rockHatchTicks(loop, i).map((t, j) => <line key={`cave-hatch-${i}-${j}`} x1={t.x1} y1={t.y1} x2={t.x2} y2={t.y2} stroke={INK} strokeWidth={1.1} opacity={0.6} strokeLinecap="round" />),
   );
 
+  // A Sewer's own signature: a wavy sewage channel drawn down the middle of every corridor,
+  // perturbed off each cell's own local direction (not the node's overall heading) so a
+  // staircased diagonal corridor still gets a channel that follows its actual bends rather than
+  // the coarser straight-line approximation `node.heading` alone would give.
+  const sewerChannels = sewer
+    ? nodes
+        .filter((n) => n.kind === "corridor" && n.cells.length >= 2)
+        .map((n) => {
+          const centers = n.cells.map((c) => ({ x: px(c.x) + CELL_PX / 2, y: py(c.y) + CELL_PX / 2 }));
+          const wavy = centers.map((c, i) => {
+            const prev = centers[Math.max(0, i - 1)];
+            const next = centers[Math.min(centers.length - 1, i + 1)];
+            const dx = next.x - prev.x;
+            const dy = next.y - prev.y;
+            const len = Math.hypot(dx, dy) || 1;
+            const nx = -dy / len;
+            const ny = dx / len;
+            const wave = Math.sin(i * 1.4) * CELL_PX * 0.14;
+            return { x: c.x + nx * wave, y: c.y + ny * wave };
+          });
+          const d = `M ${wavy.map((p) => `${p.x} ${p.y}`).join(" L ")}`;
+          return <path key={`channel-${n.id}`} d={d} fill="none" stroke="#5c6b47" strokeWidth={2} opacity={0.55} strokeLinecap="round" />;
+        })
+    : [];
+
+  // A Ruins floor is overgrown — a sparse per-cell hashed chance of a weed tuft, scattered across
+  // every occupied cell regardless of what's actually rolled for that room (purely decorative, not
+  // tied to Table 8 contents).
+  const ruinsWeeds = ruins
+    ? [...cellOwner.keys()].flatMap((key) => {
+        const [cx, cy] = key.split(",").map(Number);
+        if (mulberry32(hashSeed(cx, cy, 41))() >= 0.14) return [];
+        return weedTuft(px(cx) + CELL_PX / 2, py(cy) + CELL_PX / 2, cx, cy);
+      })
+    : [];
+
+  // --- Wilderness: one terrain-wide background wash (bounding box of everything occupied) with
+  // scattered decorative marks standing in for the walk's own occupied cells, plus a dashed trail
+  // line tracing every node's own anchor-to-far-end path — see file-header note (#10).
+  let wildernessBBoxPx: { x: number; y: number; width: number; height: number } | null = null;
+  if (wilderness) {
+    const xs: number[] = [];
+    const ys: number[] = [];
+    for (const key of cellOwner.keys()) {
+      const [x, y] = key.split(",").map(Number);
+      xs.push(x);
+      ys.push(y);
+    }
+    if (xs.length > 0) {
+      const minX = Math.min(...xs);
+      const maxX = Math.max(...xs);
+      const minY = Math.min(...ys);
+      const maxY = Math.max(...ys);
+      wildernessBBoxPx = { x: px(minX), y: py(minY), width: px(maxX + 1) - px(minX), height: py(maxY + 1) - py(minY) };
+    }
+  }
+  const wildernessMarks =
+    wilderness && terrainStyle
+      ? [...cellOwner.keys()].flatMap((key) => {
+          const [cx, cy] = key.split(",").map(Number);
+          return terrainStyle.marks.flatMap((spec, mi) => {
+            const rand = mulberry32(hashSeed(cx, cy, 50 + mi));
+            if (rand() >= spec.density) return [];
+            return [renderTerrainMark(spec.kind, px(cx) + CELL_PX / 2, py(cy) + CELL_PX / 2, spec.color, spec.scale ?? 1, cx, cy)];
+          });
+        })
+      : [];
+  // Every node contributes its own "anchor -> representative point" trail segment; since a node's
+  // `anchor` is always its parent's own connection point, these chain into one continuous network
+  // with no extra bookkeeping (no parentId filtering needed) — the same way occupied cells already
+  // chain up without walls to mark the seams.
+  const wildernessTrails: ReactNode[] = [];
+  if (wilderness && terrainStyle) {
+    for (const n of nodes) {
+      if (n.kind === "corridor" && n.cells.length > 0) {
+        const pts = [n.anchor, ...n.cells].map((c) => ({ x: px(c.x) + CELL_PX / 2, y: py(c.y) + CELL_PX / 2 }));
+        const d = `M ${pts.map((p) => `${p.x} ${p.y}`).join(" L ")}`;
+        wildernessTrails.push(<path key={`trail-${n.id}`} d={d} fill="none" stroke={terrainStyle.trailColor} strokeWidth={1.6} strokeDasharray={terrainStyle.trailDash} strokeLinecap="round" />);
+      } else if (n.cells.length > 0) {
+        // An area node's children anchor from its farCell, not its own centroid marker — drawing
+        // both segments (arrival at the marker, then departure to farCell) keeps the trail visibly
+        // continuous through the marker instead of jumping straight to wherever farCell happens to be.
+        const anchorPt = { x: px(n.anchor.x) + CELL_PX / 2, y: py(n.anchor.y) + CELL_PX / 2 };
+        const cx = n.cells.reduce((s, c) => s + px(c.x), 0) / n.cells.length + CELL_PX / 2;
+        const cy = n.cells.reduce((s, c) => s + py(c.y), 0) / n.cells.length + CELL_PX / 2;
+        const farPt = { x: px(n.farCell.x) + CELL_PX / 2, y: py(n.farCell.y) + CELL_PX / 2 };
+        wildernessTrails.push(
+          <path
+            key={`trail-${n.id}`}
+            d={`M ${anchorPt.x} ${anchorPt.y} L ${cx} ${cy} L ${farPt.x} ${farPt.y}`}
+            fill="none"
+            stroke={terrainStyle.trailColor}
+            strokeWidth={1.6}
+            strokeDasharray={terrainStyle.trailDash}
+            strokeLinecap="round"
+          />,
+        );
+      } else {
+        const v = firstStepVector(n.heading);
+        const anchorPt = cellCenter(n.anchor.x, n.anchor.y);
+        const mid = { x: anchorPt.x + (v.dx * CELL_PX) / 2, y: anchorPt.y + (v.dy * CELL_PX) / 2 };
+        wildernessTrails.push(<line key={`trail-${n.id}`} x1={anchorPt.x} y1={anchorPt.y} x2={mid.x} y2={mid.y} stroke={terrainStyle.trailColor} strokeWidth={1.6} strokeDasharray={terrainStyle.trailDash} strokeLinecap="round" />);
+      }
+    }
+  }
+
   // --- Building envelope (temple and castle both): tracing the generated shape's own (jagged,
   // gappy) silhouette still read as "a hewn maze with a thick outline," not "a building" — a real
   // building's footprint is a solid volume with no gaps, but a branching room-by-room/corridor-by-
@@ -623,7 +1054,7 @@ export function DungeonMap({
   // actually reached. Real rooms/corridors still draw their own normal walls right on top,
   // completely unchanged, so they read as distinct rooms carved out of that mass — see file-header
   // notes (#6)/(#7).
-  const hasEnvelope = (temple || castle) && !!envelope;
+  const hasEnvelope = (temple || castle || ruins) && !!envelope;
   const envelopeOutlinePx = envelope ? envelope.outline.map((p) => ({ x: px(p.x), y: py(p.y) })) : [];
   const envelopeCornersPx = envelope ? envelope.corners.map((p) => ({ x: px(p.x), y: py(p.y) })) : [];
   const envelopeFillPath = envelopeOutlinePx.length > 0 ? `M ${envelopeOutlinePx.map((p) => `${p.x} ${p.y}`).join(" L ")} Z` : "";
@@ -695,7 +1126,7 @@ export function DungeonMap({
     { dx: -1, dy: 0, edge: "W" },
   ];
   const wallLines: { x1: number; y1: number; x2: number; y2: number; nx: number; ny: number }[] = [];
-  for (const key of natural ? [] : cellOwner.keys()) {
+  for (const key of natural || wilderness ? [] : cellOwner.keys()) {
     const [cx, cy] = key.split(",").map(Number);
     for (const { dx, dy, edge } of NEIGHBORS) {
       if (cellOwner.has(cellKey(cx + dx, cy + dy))) continue;
@@ -716,16 +1147,28 @@ export function DungeonMap({
           <line key={`joint-${i}-${j}`} x1={t.x1} y1={t.y1} x2={t.x2} y2={t.y2} stroke={INK} strokeWidth={1.2} opacity={0.7} strokeLinecap="round" />
         )),
       )
-    : temple
-      ? wallLines.flatMap((w, i) => {
-          const p = pilasterForWall(w.x1, w.y1, w.x2, w.y2, w.nx, w.ny);
-          return p ? [<line key={`pilaster-${i}`} x1={p.x1} y1={p.y1} x2={p.x2} y2={p.y2} stroke={INK} strokeWidth={3.2} strokeLinecap="square" opacity={0.85} />] : [];
-        })
-      : wallLines.flatMap((w, i) =>
-          stippleForWall(w.x1, w.y1, w.x2, w.y2, w.nx, w.ny).map((d, j) => (
-            <circle key={`stipple-${i}-${j}`} cx={d.cx} cy={d.cy} r={d.r} fill={INK} opacity={0.55} />
+    : sewer
+      ? wallLines.flatMap((w, i) =>
+          sewerBrickTicksForWall(w.x1, w.y1, w.x2, w.y2, w.nx, w.ny).map((t, j) => (
+            <line key={`brick-${i}-${j}`} x1={t.x1} y1={t.y1} x2={t.x2} y2={t.y2} stroke={INK} strokeWidth={1} opacity={0.6} strokeLinecap="round" />
           )),
-        );
+        )
+      : temple
+        ? wallLines.flatMap((w, i) => {
+            const p = pilasterForWall(w.x1, w.y1, w.x2, w.y2, w.nx, w.ny);
+            return p ? [<line key={`pilaster-${i}`} x1={p.x1} y1={p.y1} x2={p.x2} y2={p.y2} stroke={INK} strokeWidth={3.2} strokeLinecap="square" opacity={0.85} />] : [];
+          })
+        : ruins
+          ? wallLines.flatMap((w, i) =>
+              rubbleForWall(w.x1, w.y1, w.x2, w.y2, w.nx, w.ny).map((c, j) => (
+                <circle key={`rubble-${i}-${j}`} cx={c.cx} cy={c.cy} r={c.r} fill={INK} opacity={0.5} />
+              )),
+            )
+          : wallLines.flatMap((w, i) =>
+              stippleForWall(w.x1, w.y1, w.x2, w.y2, w.nx, w.ny).map((d, j) => (
+                <circle key={`stipple-${i}-${j}`} cx={d.cx} cy={d.cy} r={d.r} fill={INK} opacity={0.55} />
+              )),
+            );
 
   // For a temple or castle, exactly one room/chamber in the whole generated complex reads as its
   // centerpiece (biggest floor area, ties broken by generation order) — for a building-layout
@@ -768,6 +1211,7 @@ export function DungeonMap({
       const well = castle && isCenterpiece ? roomBBoxPx(node, px, py) : null;
       return (
         <g key={`${node.id}-overlay`}>
+          {wilderness && node.areaNumber !== undefined && <WildernessAreaMarker x={cx} y={cy} />}
           {pillars.map((p, i) => (
             <PillarGlyph key={`pillar-${i}`} x={p.x} y={p.y} />
           ))}
@@ -775,7 +1219,14 @@ export function DungeonMap({
           {well && <WellGlyph x={(well.left + well.right) / 2} y={(well.top + well.bottom) / 2} />}
           {node.areaNumber !== undefined && <AreaNumber x={cx} y={numberY} n={node.areaNumber} />}
           {letter && tokenCell && <MonsterLetterToken x={px(tokenCell.x) + CELL_PX / 2} y={py(tokenCell.y) + CELL_PX / 2} letter={letter} />}
-          {stairsInRoom && <StairsGlyph x={cx} y={glyphY} heading={node.heading} natural={natural || node.kind === "cave" || node.kind === "cavern"} letter={stairDirectionLetter(node.label)} />}
+          {stairsInRoom &&
+            (sewer ? (
+              <ManholeGlyph x={cx} y={glyphY} letter={stairDirectionLetter(node.label)} />
+            ) : wilderness ? (
+              <ElevationGlyph x={cx} y={glyphY} letter={stairDirectionLetter(node.label)} />
+            ) : (
+              <StairsGlyph x={cx} y={glyphY} heading={node.heading} natural={natural || node.kind === "cave" || node.kind === "cavern"} letter={stairDirectionLetter(node.label)} />
+            ))}
           {symbol?.kind === "trap" && <TrapGlyph x={cx} y={glyphY} />}
           {symbol?.kind === "pit" && <PitGlyph x={cx} y={glyphY} covered={!!symbol.covered} />}
           {symbol?.kind === "hazard" && <HazardGlyph x={cx} y={glyphY} />}
@@ -792,13 +1243,25 @@ export function DungeonMap({
       const v = firstStepVector(node.heading);
       const mid = { x: cellCenter(node.anchor.x, node.anchor.y).x + (v.dx * CELL_PX) / 2, y: cellCenter(node.anchor.x, node.anchor.y).y + (v.dy * CELL_PX) / 2 };
       const glyphs: ReactNode[] = [];
-      if (node.connectionToParent === "door") glyphs.push(<DoorGlyph key="door" x={mid.x} y={mid.y} heading={node.heading} />);
-      else if (node.connectionToParent === "secretDoor") glyphs.push(<SecretDoorGlyph key="secret" x={mid.x} y={mid.y} heading={node.heading} />);
-      else if (node.connectionToParent === "oneWayDoor") glyphs.push(<OneWayDoorGlyph key="oneway" x={mid.x} y={mid.y} heading={node.heading} />);
+      // A door (of any kind) doesn't mean anything outdoors — the underlying Table 6 roll still
+      // happened (book-faithful), it just isn't drawn as a gateway symbol for Wilderness.
+      if (!wilderness) {
+        if (node.connectionToParent === "door") glyphs.push(<DoorGlyph key="door" x={mid.x} y={mid.y} heading={node.heading} />);
+        else if (node.connectionToParent === "secretDoor") glyphs.push(<SecretDoorGlyph key="secret" x={mid.x} y={mid.y} heading={node.heading} />);
+        else if (node.connectionToParent === "oneWayDoor") glyphs.push(<OneWayDoorGlyph key="oneway" x={mid.x} y={mid.y} heading={node.heading} />);
+      }
       if (node.kind === "stairs") {
         const parent = node.parentId ? nodesById.get(node.parentId) : undefined;
         const naturalStairs = natural || parent?.kind === "cave" || parent?.kind === "cavern";
-        glyphs.push(<StairsGlyph key="stairs" x={mid.x} y={mid.y} heading={node.heading} natural={naturalStairs} letter={stairDirectionLetter(node.label)} />);
+        glyphs.push(
+          sewer ? (
+            <ManholeGlyph key="stairs" x={mid.x} y={mid.y} letter={stairDirectionLetter(node.label)} />
+          ) : wilderness ? (
+            <ElevationGlyph key="stairs" x={mid.x} y={mid.y} letter={stairDirectionLetter(node.label)} />
+          ) : (
+            <StairsGlyph key="stairs" x={mid.x} y={mid.y} heading={node.heading} natural={naturalStairs} letter={stairDirectionLetter(node.label)} />
+          ),
+        );
       }
       if (glyphs.length === 0) return null;
       return (
@@ -822,7 +1285,16 @@ export function DungeonMap({
   const selectedNode = selectedId ? nodesById.get(selectedId) : undefined;
   const highlight =
     selectedNode &&
-    (selectedNode.cells.length > 0 ? (
+    (wilderness && selectedNode.cells.length > 0 ? (
+      // A per-cell grid of highlight rects reveals the underlying square grid right through the
+      // "no walls, just a marker" look every other Wilderness area uses — a single ring around the
+      // node's own marker position reads as "selected" without breaking that illusion.
+      (() => {
+        const cx = selectedNode.cells.reduce((s, c) => s + px(c.x), 0) / selectedNode.cells.length + CELL_PX / 2;
+        const cy = selectedNode.cells.reduce((s, c) => s + py(c.y), 0) / selectedNode.cells.length + CELL_PX / 2;
+        return <circle cx={cx} cy={cy} r={CELL_PX * 0.85} fill="none" stroke="#8a3b2a" strokeWidth={2} style={{ pointerEvents: "none" }} />;
+      })()
+    ) : selectedNode.cells.length > 0 ? (
       <g style={{ pointerEvents: "none" }}>
         {selectedNode.cells.map((c, i) => (
           <rect key={i} x={px(c.x)} y={py(c.y)} width={CELL_PX} height={CELL_PX} fill="none" stroke="#8a3b2a" strokeWidth={2} />
@@ -880,17 +1352,42 @@ export function DungeonMap({
         </defs>
         {natural && <path d={naturalFloorPath} fill={FLOOR_TINT.cave} stroke="none" />}
         {hasEnvelope && envelopeFillPath && (
-          <path d={envelopeFillPath} fill="url(#building-fill-hatch)" stroke={INK} strokeWidth={7} strokeLinejoin="round" opacity={0.85} />
+          <path
+            d={envelopeFillPath}
+            fill="url(#building-fill-hatch)"
+            stroke={INK}
+            strokeWidth={7}
+            strokeLinejoin="round"
+            opacity={0.85}
+            strokeDasharray={ruins ? "26,11,17,14,34,9,20,13" : undefined}
+          />
         )}
+        {wilderness && wildernessBBoxPx && terrainStyle && (
+          <rect x={wildernessBBoxPx.x} y={wildernessBBoxPx.y} width={wildernessBBoxPx.width} height={wildernessBBoxPx.height} fill={terrainStyle.background} />
+        )}
+        {wildernessMarks}
+        {wildernessTrails}
         {floorTiles}
+        {sewerChannels}
         {wallStipple}
         {naturalHatch}
         <g filter="url(#hand-drawn-wobble)">
           {wallLines.map((w, i) => (
-            <line key={i} x1={w.x1} y1={w.y1} x2={w.x2} y2={w.y2} stroke={INK} strokeWidth={2.5} strokeLinecap="round" />
+            <line
+              key={i}
+              x1={w.x1}
+              y1={w.y1}
+              x2={w.x2}
+              y2={w.y2}
+              stroke={INK}
+              strokeWidth={2.5}
+              strokeLinecap="round"
+              strokeDasharray={ruins ? ruinsDashArray(w.x1, w.y1, w.x2, w.y2) : undefined}
+            />
           ))}
           {naturalWallPaths}
         </g>
+        {ruins && ruinsWeeds.map((w, i) => <line key={`weed-${i}`} x1={w.x1} y1={w.y1} x2={w.x2} y2={w.y2} stroke="#5c7a4a" strokeWidth={1.4} opacity={0.65} strokeLinecap="round" />)}
         {castle && crenellations.map((c, i) => <rect key={`cren-${i}`} x={c.x - 3.5} y={c.y - 3.5} width={7} height={7} fill={INK} />)}
         {castle &&
           [...wallTowers, ...gatehouseTowers].map((t, i) =>
@@ -901,6 +1398,7 @@ export function DungeonMap({
             ),
           )}
         {hasEnvelope &&
+          !ruins && // a ruin's corner towers have crumbled along with the rest of the wall — no intact turret glyph
           envelopeCornersPx.map((p, i) => <circle key={`turret-${i}`} cx={p.x} cy={p.y} r={castle ? 8.5 : 5} fill={INK} stroke={PAPER} strokeWidth={1.5} />)}
         {zeroCellHitTargets}
         {boundaryGlyphs}
@@ -910,7 +1408,7 @@ export function DungeonMap({
       <div className="dungeon-map-legend">
         {floorLegend(category).map(({ kind, label }) => (
           <span key={kind} className="legend-item">
-            <span className="legend-swatch" style={{ background: floorTintFor(kind) }} />
+            <span className="legend-swatch" style={{ background: wilderness && terrainStyle ? terrainStyle.background : floorTintFor(kind) }} />
             {label}
           </span>
         ))}
@@ -934,18 +1432,38 @@ export function DungeonMap({
           </svg>
           One-Way Door
         </span>
-        <span className="legend-item">
-          <svg className="legend-icon" viewBox="0 0 24 24">
-            <StairsGlyph x={12} y={12} heading={90} natural={false} letter="U" />
-          </svg>
-          Stairs
-        </span>
-        <span className="legend-item">
-          <svg className="legend-icon" viewBox="0 0 24 24">
-            <StairsGlyph x={12} y={12} heading={90} natural={true} letter="D" />
-          </svg>
-          Natural Stairs
-        </span>
+        {!wilderness && !sewer && (
+          <>
+            <span className="legend-item">
+              <svg className="legend-icon" viewBox="0 0 24 24">
+                <StairsGlyph x={12} y={12} heading={90} natural={false} letter="U" />
+              </svg>
+              Stairs
+            </span>
+            <span className="legend-item">
+              <svg className="legend-icon" viewBox="0 0 24 24">
+                <StairsGlyph x={12} y={12} heading={90} natural={true} letter="D" />
+              </svg>
+              Natural Stairs
+            </span>
+          </>
+        )}
+        {sewer && (
+          <span className="legend-item">
+            <svg className="legend-icon" viewBox="0 0 24 24">
+              <ManholeGlyph x={12} y={12} letter="U" />
+            </svg>
+            Manhole
+          </span>
+        )}
+        {wilderness && (
+          <span className="legend-item">
+            <svg className="legend-icon" viewBox="0 0 24 24">
+              <ElevationGlyph x={12} y={12} letter="U" />
+            </svg>
+            Elevation Change
+          </span>
+        )}
         <span className="legend-item">
           <svg className="legend-icon" viewBox="0 0 24 24">
             <TrapGlyph x={12} y={12} />
@@ -974,7 +1492,7 @@ export function DungeonMap({
           <svg className="legend-icon" viewBox="0 0 24 24">
             <HazardGlyph x={12} y={12} />
           </svg>
-          Hazard (not a book symbol — this app's own addition)
+          Hazard
         </span>
         <span className="legend-item">
           <svg className="legend-icon" viewBox="0 0 24 24">

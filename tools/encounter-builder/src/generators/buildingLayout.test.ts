@@ -49,6 +49,12 @@ const RECTANGLE_CASES: GenerateOptions[] = [
   { category: "castle", partyLevel: 3, maxNodes: 6 },
   { category: "castle", partyLevel: 3, maxNodes: 15 },
   { category: "castle", partyLevel: 3, maxNodes: 30 },
+  // Ruins reuses the exact same rectangle algorithm as Castle (see DungeonMap.tsx note #9) —
+  // only its rendering is different — so it only needs the same connectivity coverage, not a
+  // separate polygon-shape sweep.
+  { category: "dungeon", dungeonSubtype: "Ruins", partyLevel: 3, maxNodes: 6 },
+  { category: "dungeon", dungeonSubtype: "Ruins", partyLevel: 3, maxNodes: 15 },
+  { category: "dungeon", dungeonSubtype: "Ruins", partyLevel: 3, maxNodes: 30 },
 ];
 
 const POLYGON_SHAPES: TempleShape[] = ["rhombus", "hexagon", "octagon", "star", "circle", "oval"];

@@ -52,29 +52,40 @@ export function dungeonDataKeyFor(locationType: LocationType): string | null {
 
 /** DungeonMap.tsx's purely cosmetic per-subtype rendering style — none of these change placed
  * cells, doors, or connectivity, only how the same square-cell grid gets drawn. "natural" (Cave /
- * Cavern Network) and "tomb" (Tomb/Crypt) still run on randomDungeon.ts's own branching walk, just
- * skinned differently. "temple" (Evil Temple/Shrine) and "castle" (category "castle") are a bigger
- * departure: `isBuildingLayout` below marks them as using generators/buildingLayout.ts's wholly
- * different spatial algorithm instead (see that file's own header) — a real building's compact,
- * packed footprint isn't achievable from the walk engine's organic branching shape at all, cosmetic
- * skin or not. Sewer, Ruins, and Standard Dungeon still read as "constructed" (unstyled). */
-export type MapStyle = "constructed" | "natural" | "tomb" | "temple" | "castle";
+ * Cavern Network), "tomb" (Tomb/Crypt), "sewer" (Sewer), and "wilderness" (category "wilderness")
+ * all still run on randomDungeon.ts's own branching walk, just skinned differently — a sewer
+ * network, and Appendix E's own broadened wilderness scope (Room→"Clearing", Corridor→"Trail"),
+ * are exactly the kind of organic branching shape that procedure already produces, so none of them
+ * ever needed a different spatial algorithm, only different dressing — wilderness's own dressing is
+ * just the biggest swing of the four, since walls/doors/boxed rooms are the wrong visual language
+ * for open terrain regardless of what they're labeled (see DungeonMap.tsx's own note). "temple"
+ * (Evil Temple/Shrine), "castle" (category "castle"), and "ruins" (Ruins) are a bigger departure:
+ * `isBuildingLayout` below marks them as using generators/buildingLayout.ts's wholly different
+ * spatial algorithm instead (see that file's own header) — a real building's compact, packed
+ * footprint isn't achievable from the walk engine's organic branching shape at all, cosmetic skin
+ * or not. Ruins always uses the plain rectangle (same as Castle, no shape picker) since it's meant
+ * to read as "the recognizable footprint of a fallen keep/temple," just rendered broken-down.
+ * Standard Dungeon and Urban are the only ones left reading as "constructed" (unstyled). */
+export type MapStyle = "constructed" | "natural" | "tomb" | "sewer" | "wilderness" | "temple" | "castle" | "ruins";
 
 export function mapStyleFor(input: LocationInput): MapStyle {
   if (input.category === "castle") return "castle";
+  if (input.category === "wilderness") return "wilderness";
   if (input.category !== "dungeon") return "constructed";
   if (input.dungeonSubtype === "Cave / Cavern Network") return "natural";
   if (input.dungeonSubtype === "Tomb / Crypt") return "tomb";
   if (input.dungeonSubtype === "Evil Temple / Shrine") return "temple";
+  if (input.dungeonSubtype === "Sewer") return "sewer";
+  if (input.dungeonSubtype === "Ruins") return "ruins";
   return "constructed";
 }
 
-/** Temple and Castle use generators/buildingLayout.ts's ring-of-rooms/courtyard algorithm instead
- * of randomDungeon.ts's book-faithful branching walk — see `MapStyle`'s own doc comment for why.
- * Exported so GeneratePanel.tsx can pick a generator, and DungeonMap.tsx/other callers don't need
- * to duplicate the "which styles are building-layout" list. */
+/** Temple, Castle, and Ruins use generators/buildingLayout.ts's ring-of-rooms/courtyard algorithm
+ * instead of randomDungeon.ts's book-faithful branching walk — see `MapStyle`'s own doc comment for
+ * why. Exported so GeneratePanel.tsx can pick a generator, and DungeonMap.tsx/other callers don't
+ * need to duplicate the "which styles are building-layout" list. */
 export function isBuildingLayout(style: MapStyle): boolean {
-  return style === "temple" || style === "castle";
+  return style === "temple" || style === "castle" || style === "ruins";
 }
 
 /** Appendix B's Unguarded Treasures table (and every other Appendix B lookup this app makes) is
