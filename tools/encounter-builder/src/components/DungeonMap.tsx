@@ -1435,13 +1435,18 @@ export function DungeonMap({
         {!wilderness && !sewer && (
           <>
             <span className="legend-item">
-              <svg className="legend-icon" viewBox="0 0 24 24">
+              {/* This one and the 3 other legend previews below all offset a U/D letter well past
+                  their glyph's own center (fine at real map scale, where nothing constrains how
+                  far a glyph can spill) — a plain "0 0 24 24" viewBox clips that letter right at
+                  the box edge. The wider viewBox gives it room without touching the glyphs' own
+                  drawing math, which is still correct for the actual map. */}
+              <svg className="legend-icon" viewBox="-6 -6 36 36">
                 <StairsGlyph x={12} y={12} heading={90} natural={false} letter="U" />
               </svg>
               Stairs
             </span>
             <span className="legend-item">
-              <svg className="legend-icon" viewBox="0 0 24 24">
+              <svg className="legend-icon" viewBox="-6 -6 36 36">
                 <StairsGlyph x={12} y={12} heading={90} natural={true} letter="D" />
               </svg>
               Natural Stairs
@@ -1450,7 +1455,7 @@ export function DungeonMap({
         )}
         {sewer && (
           <span className="legend-item">
-            <svg className="legend-icon" viewBox="0 0 24 24">
+            <svg className="legend-icon" viewBox="-6 -6 36 36">
               <ManholeGlyph x={12} y={12} letter="U" />
             </svg>
             Manhole
@@ -1458,7 +1463,7 @@ export function DungeonMap({
         )}
         {wilderness && (
           <span className="legend-item">
-            <svg className="legend-icon" viewBox="0 0 24 24">
+            <svg className="legend-icon" viewBox="-6 -6 36 36">
               <ElevationGlyph x={12} y={12} letter="U" />
             </svg>
             Elevation Change
